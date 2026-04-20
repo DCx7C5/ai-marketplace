@@ -1,0 +1,705 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-04-19",
+  "agents": [
+    {
+      "name": "audiovideo-analyst",
+      "description": "Audio and video forensics specialist. Invoke for media metadata analysis,",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/audiovideo-analyst.md"
+    },
+    {
+      "name": "certificate-analyst",
+      "description": "Elite X.509  PKI forensics specialist. Invoke for certificate chain",
+      "model": "sonnet",
+      "maxTurns": 20,
+      "file": "agents/certificate-analyst.md"
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Comprehensive code review skill for TypeScript, JavaScript, Python, Swift, Kotlin, Go. Includes automated code analysis, best practice checking, security scanning, and review checklist generation. Use",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/code-reviewer.md"
+    },
+    {
+      "name": "command-verifier",
+      "description": "Pure visual command safety inspector. Receives any command and outputs a boxed visual approval report with risk scoring. Invoke for: command safety review before execution, destructive command gating,",
+      "model": "haiku",
+      "maxTurns": 10,
+      "file": "agents/command-verifier.md"
+    },
+    {
+      "name": "cpp-developer",
+      "description": "C/C++ specialist \u2014 reverse engineering, exploit analysis, kernel module development, eBPF program analysis, binary forensics. Invoke for: binary analysis, C/C++ code review, exploit PoC, kernel module",
+      "model": "sonnet",
+      "maxTurns": 40,
+      "file": "agents/cpp-developer.md"
+    },
+    {
+      "name": "cybersec-analyst",
+      "description": "CVE lookup, IOC analysis, MITRE ATT&CK mapping, threat intelligence correlation. Invoke for: CVE details/CVSS, IOC enrichment (IP/domain/hash/URL), MITRE technique lookups, APT attribution, threat int",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/cybersec-analyst.md"
+    },
+    {
+      "name": "filesystem-analyst",
+      "description": "Linux filesystem forensics \u2014 timeline analysis (mtime/ctime/atime anomalies), hidden file detection, rootkit concealment, SUID/SGID enumeration, deleted file recovery, inode analysis, extended attribu",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/filesystem-analyst.md"
+    },
+    {
+      "name": "firmware-analyst",
+      "description": "Expert firmware and hardware security analyst. Invoke for UEFIBIOS",
+      "model": "opus",
+      "maxTurns": 40,
+      "file": "agents/firmware-analyst.md"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples inclu",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/frontend-design.md"
+    },
+    {
+      "name": "kernel-analyst",
+      "description": "Kernel module analysis, eBPF program inspection, firmware extraction, kernel symbol analysis, syscall hooking detection. Invoke for: kernel-level rootkit indicators, suspicious kernel modules, eBPF C2",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/kernel-analyst.md"
+    },
+    {
+      "name": "layer2-specialist",
+      "description": "Pure OSI Layer 2 cybersecurity specialist. Invoke exclusively for Data Link",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/layer2-specialist.md"
+    },
+    {
+      "name": "layer3-specialist",
+      "description": "Pure OSI Layer 3 cybersecurity specialist. Invoke exclusively for Network",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/layer3-specialist.md"
+    },
+    {
+      "name": "layer4-specialist",
+      "description": "Elite pure OSI Layer 4 cybersecurity specialist. Invoke exclusively for",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/layer4-specialist.md"
+    },
+    {
+      "name": "layer5-specialist",
+      "description": "Elite pure OSI Layer 5 cybersecurity specialist. Invoke exclusively for",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/layer5-specialist.md"
+    },
+    {
+      "name": "layer6-specialist",
+      "description": "Pure OSI Layer 6 cybersecurity specialist. Invoke exclusively for",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/layer6-specialist.md"
+    },
+    {
+      "name": "layer7-specialist",
+      "description": "Pure OSI Layer 7 cybersecurity specialist. Invoke exclusively for",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/layer7-specialist.md"
+    },
+    {
+      "name": "logfile-analyst",
+      "description": "Linux log file forensics and event correlation specialist. Invoke for",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/logfile-analyst.md"
+    },
+    {
+      "name": "memory-analyst",
+      "description": "Process memory inspection, injection detection, credential extraction, rootkit in-memory detection, heap/stack analysis. Invoke for: memory-resident malware, process hollowing, DLL injection, credenti",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/memory-analyst.md"
+    },
+    {
+      "name": "network-analyst",
+      "description": "Network traffic analysis, C2 detection, DNS anomalies, firewall rule review, lateral movement detection, protocol inspection (L2-L7). Invoke for: suspicious outbound connections, C2 beaconing, DNS tun",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/network-analyst.md"
+    },
+    {
+      "name": "persistence-analyst",
+      "description": "Persistence mechanism hunting \u2014 startup scripts, systemd units, cron jobs, eBPF programs, kernel modules, udev rules, PAM modules, SSH authorized_keys, .bashrc/.profile injections. Invoke for: Persist",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/persistence-analyst.md"
+    },
+    {
+      "name": "postgres-db-engineer",
+      "description": "Elite PostgreSQL Database Engineer + Professional Administrator (18+ yrs at scale, FinTech/SaaS/high-traffic). Token-optimized, security-first, compliance-hardened, lightning-fast.",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/postgres-db-engineer.md"
+    },
+    {
+      "name": "process-analyst",
+      "description": "Linux process forensics specialist. Invoke for live process enumeration,",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/process-analyst.md"
+    },
+    {
+      "name": "python-developer",
+      "description": "Python development specialist \u2014 write, debug, refactor, and review Python code for cybersecsuite. Covers: async/await, Tortoise ORM, FastAPI, Pydantic v2, cryptography (Ed25519/BLAKE2b/Argon2id), A2A ",
+      "model": "sonnet",
+      "maxTurns": 40,
+      "file": "agents/python-developer.md"
+    },
+    {
+      "name": "reverse-engineer",
+      "description": "Binary reverse engineering expert. Invoke for static and dynamic analysis",
+      "model": "opus",
+      "maxTurns": 50,
+      "file": "agents/reverse-engineer.md"
+    },
+    {
+      "name": "senior-frontend",
+      "description": "Comprehensive frontend development skill for building modern, performant web applications using ReactJS, NextJS, TypeScript, Tailwind CSS. Includes component scaffolding, performance optimization, bun",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/senior-frontend.md"
+    },
+    {
+      "name": "settings-analyst",
+      "description": "Linux system configuration and security settings analyst. Invoke for",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/settings-analyst.md"
+    },
+    {
+      "name": "steganography-analyst",
+      "description": "Linux steganography detection and extraction specialist. Invoke when",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/steganography-analyst.md"
+    },
+    {
+      "name": "threat-modeler",
+      "description": "STRIDE threat modeling, attack surface analysis, risk assessment, security architecture review. Invoke for: threat model generation, attack surface mapping, STRIDE analysis, trust boundary identificat",
+      "model": "sonnet",
+      "maxTurns": 25,
+      "file": "agents/threat-modeler.md"
+    },
+    {
+      "name": "token-optimizer",
+      "description": "Token-efficiency specialist for LLM context windows. Detects redundant functions,",
+      "model": "haiku",
+      "maxTurns": 40,
+      "file": "agents/token-optimizer.md"
+    },
+    {
+      "name": "vulnerability-scanner",
+      "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization.",
+      "model": "sonnet",
+      "maxTurns": 30,
+      "file": "agents/vuln-scanner.md"
+    },
+    {
+      "name": "watchdog",
+      "description": "A monitoring service that watches for changes to critical files and directories, such as SSL keylog files, certificate stores, and private key locations. It can alert on unauthorized access, modificat",
+      "model": "haiku",
+      "maxTurns": 30,
+      "file": "agents/watchdog.md"
+    }
+  ],
+  "skills": [
+    {
+      "name": "SKILL.md-",
+      "path": "deception",
+      "description": "\\ and decoy systems to detect attackers who have bypassed perimeter defenses, providing\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/deception/SKILL.md"
+    },
+    {
+      "name": "canary-SKILL.md",
+      "path": "deception/canary",
+      "description": "\\ infrastructure to detect unauthorized access and lateral movement. Integrates\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/deception/canary/SKILL.md"
+    },
+    {
+      "name": "canarytoken-SKILL.md",
+      "path": "deception/canarytoken",
+      "description": "\\ deception-based breach detection using web bug tokens, DNS tokens, document tokens,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/deception/canarytoken/SKILL.md"
+    },
+    {
+      "name": "honeypot-SKILL.md",
+      "path": "deception/honeypot",
+      "description": "\\ Cowrie to detect unauthorized access, lateral movement, and attacker reconnaissance.\"",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/deception/honeypot/SKILL.md"
+    },
+    {
+      "name": "honeytoken-SKILL.md",
+      "path": "deception/honeytoken",
+      "description": "\\ canaries, document beacons, database records) that trigger alerts when accessed\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/deception/honeytoken/SKILL.md"
+    },
+    {
+      "name": "SKILL.md-",
+      "path": "mobile",
+      "description": "\\ enterprise data on managed and unmanaged mobile devices through app-level controls\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/SKILL.md"
+    },
+    {
+      "name": "apk-static-analysis-SKILL.md",
+      "path": "mobile/android/apk/static-analysis",
+      "description": "\\ Mobile Security Framework (MobSF) to identify hardcoded secrets, insecure permissions,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/android/apk/static-analysis/SKILL.md"
+    },
+    {
+      "name": "ipc-SKILL.md",
+      "path": "mobile/android/ipc",
+      "description": "\\ vulnerabilities including intent injection, unauthorized component access, broadcast\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/android/ipc/SKILL.md"
+    },
+    {
+      "name": "deeplink-SKILL.md",
+      "path": "mobile/deeplink",
+      "description": "\\ in Android and iOS mobile applications to identify unauthorized access, data injection,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/deeplink/SKILL.md"
+    },
+    {
+      "name": "insecure-SKILL.md",
+      "path": "mobile/insecure",
+      "description": "- AML.T0057",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/insecure/SKILL.md"
+    },
+    {
+      "name": "app-dynamic-analysis-SKILL.md",
+      "path": "mobile/ios/app/dynamic-analysis",
+      "description": "\\ Frida for dynamic instrumentation, Objection for runtime exploration, SSL pinning\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/ios/app/dynamic-analysis/SKILL.md"
+    },
+    {
+      "name": "pentest-SKILL.md",
+      "path": "mobile/pentest",
+      "description": "- AML.T0070",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/pentest/SKILL.md"
+    },
+    {
+      "name": "certificates-SKILL.md",
+      "path": "mobile/pinning/certificates",
+      "description": "\\ and iOS applications to enable traffic interception during authorized security\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/mobile/pinning/certificates/SKILL.md"
+    },
+    {
+      "name": "SKILL.md-",
+      "path": "steganography",
+      "description": "\\ in image, audio, video, and document carriers via entropy analysis, LSB detection,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/SKILL.md"
+    },
+    {
+      "name": "mp3-metadata-detect",
+      "path": "steganography/audio/mp3/metadata/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/audio/mp3/metadata/detect/SKILL.md"
+    },
+    {
+      "name": "wav-echo-hiding-detect",
+      "path": "steganography/audio/wav/echo-hiding/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/audio/wav/echo-hiding/detect/SKILL.md"
+    },
+    {
+      "name": "docx-metadata-detect",
+      "path": "steganography/document/docx/metadata/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/document/docx/metadata/detect/SKILL.md"
+    },
+    {
+      "name": "pdf-stream-detect",
+      "path": "steganography/document/pdf/stream/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/document/pdf/stream/detect/SKILL.md"
+    },
+    {
+      "name": "bmp-lsb-detect",
+      "path": "steganography/image/bmp/lsb/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/image/bmp/lsb/detect/SKILL.md"
+    },
+    {
+      "name": "gif-palette-detect",
+      "path": "steganography/image/gif/palette/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/image/gif/palette/detect/SKILL.md"
+    },
+    {
+      "name": "jpg-dct-detect",
+      "path": "steganography/image/jpg/dct/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/image/jpg/dct/detect/SKILL.md"
+    },
+    {
+      "name": "png-lsb-detect",
+      "path": "steganography/image/png/lsb/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/image/png/lsb/detect/SKILL.md"
+    },
+    {
+      "name": "dns-covert-detect",
+      "path": "steganography/network/dns/covert/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/network/dns/covert/detect/SKILL.md"
+    },
+    {
+      "name": "http-covert-detect",
+      "path": "steganography/network/http/covert/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/network/http/covert/detect/SKILL.md"
+    },
+    {
+      "name": "steghide-execute-SKILL.md",
+      "path": "steganography/tool/steghide/execute",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/tool/steghide/execute/SKILL.md"
+    },
+    {
+      "name": "stegseek-execute-SKILL.md",
+      "path": "steganography/tool/stegseek/execute",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/tool/stegseek/execute/SKILL.md"
+    },
+    {
+      "name": "zsteg-execute-SKILL.md",
+      "path": "steganography/tool/zsteg/execute",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/tool/zsteg/execute/SKILL.md"
+    },
+    {
+      "name": "mp4-frame-detect",
+      "path": "steganography/video/mp4/frame/detect",
+      "description": "- CAPEC-186",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/steganography/video/mp4/frame/detect/SKILL.md"
+    },
+    {
+      "name": "SKILL.md-",
+      "path": "vulnerabilities",
+      "description": "\\ the python-gvm library to create scan targets, execute vulnerability scans, and\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/SKILL.md"
+    },
+    {
+      "name": "asset-SKILL.md",
+      "path": "vulnerabilities/asset",
+      "description": "\\ to weight vulnerability prioritization based on business impact, data sensitivity,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/asset/SKILL.md"
+    },
+    {
+      "name": "attack-SKILL.md",
+      "path": "vulnerabilities/attack",
+      "description": "\\ attack paths, identify choke points, and prioritize the 2% of exposures that threaten\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/attack/SKILL.md"
+    },
+    {
+      "name": "cloud-SKILL.md",
+      "path": "vulnerabilities/cloud",
+      "description": "- CWE-16",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/cloud/SKILL.md"
+    },
+    {
+      "name": "continuous-SKILL.md",
+      "path": "vulnerabilities/continuous",
+      "description": "- File Metadata Consistency Validation",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/continuous/SKILL.md"
+    },
+    {
+      "name": "binary-SKILL.md",
+      "path": "vulnerabilities/exploit/binary",
+      "description": "- CWE-120",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/exploit/binary/SKILL.md"
+    },
+    {
+      "name": "ms17-SKILL.md",
+      "path": "vulnerabilities/exploit/ms17",
+      "description": "- CVE-2017-0144",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/exploit/ms17/SKILL.md"
+    },
+    {
+      "name": "defectdojo-SKILL.md",
+      "path": "vulnerabilities/management/defectdojo",
+      "description": "\\ with scanner integrations, deduplication, metrics tracking, and Jira ticketing\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/management/defectdojo/SKILL.md"
+    },
+    {
+      "name": "exceptions-SKILL.md",
+      "path": "vulnerabilities/management/exceptions",
+      "description": "\\ with approval workflows, compensating controls documentation, and expiration management.\"",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/management/exceptions/SKILL.md"
+    },
+    {
+      "name": "slaalerts-SKILL.md",
+      "path": "vulnerabilities/management/slaalerts",
+      "description": "\\ with severity-based timelines, escalation workflows, and compliance reporting\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/management/slaalerts/SKILL.md"
+    },
+    {
+      "name": "vulnerability-SKILL.md",
+      "path": "vulnerabilities/management/vulnerability",
+      "description": "\\ to measure remediation performance against severity-based timelines and drive\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/management/vulnerability/SKILL.md"
+    },
+    {
+      "name": "metasploit-SKILL.md",
+      "path": "vulnerabilities/metasploit",
+      "description": "- CVE-2017-5638",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/metasploit/SKILL.md"
+    },
+    {
+      "name": "patch-SKILL.md",
+      "path": "vulnerabilities/patch",
+      "description": "\\ deploying, and verifying software updates to remediate vulnerabilities across\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/patch/SKILL.md"
+    },
+    {
+      "name": "cve-SKILL.md",
+      "path": "vulnerabilities/prioritization/cve",
+      "description": "- AML.T0070",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/prioritization/cve/SKILL.md"
+    },
+    {
+      "name": "epss-SKILL.md",
+      "path": "vulnerabilities/prioritization/epss",
+      "description": "- CVE-2024-3400",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/prioritization/epss/SKILL.md"
+    },
+    {
+      "name": "ssvc-SKILL.md",
+      "path": "vulnerabilities/prioritization/ssvc",
+      "description": "- CVE-2024-3400",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/prioritization/ssvc/SKILL.md"
+    },
+    {
+      "name": "vulnerabilities-SKILL.md",
+      "path": "vulnerabilities/prioritization/vulnerabilities",
+      "description": "- CVE-2024-3094",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/SKILL.md"
+    },
+    {
+      "name": "rapid7-SKILL.md",
+      "path": "vulnerabilities/rapid7",
+      "description": "\\ Engines for authenticated and unauthenticated vulnerability scanning across enterprise\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/rapid7/SKILL.md"
+    },
+    {
+      "name": "bucket-SKILL.md",
+      "path": "vulnerabilities/remediation/bucket",
+      "description": "- CWE-16",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/remediation/bucket/SKILL.md"
+    },
+    {
+      "name": "endpoint-SKILL.md",
+      "path": "vulnerabilities/remediation/endpoint",
+      "description": "- CVE-2017-0144",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/remediation/endpoint/SKILL.md"
+    },
+    {
+      "name": "patch-SKILL.md",
+      "path": "vulnerabilities/remediation/patch",
+      "description": "- CVE-2021-26855",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/remediation/patch/SKILL.md"
+    },
+    {
+      "name": "vulnerability-SKILL.md",
+      "path": "vulnerabilities/remediation/vulnerability",
+      "description": "\\ patching or mitigating identified vulnerabilities based on severity, asset criticality,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/remediation/vulnerability/SKILL.md"
+    },
+    {
+      "name": "sca-SKILL.md",
+      "path": "vulnerabilities/sca",
+      "description": "\\ using Snyk to detect vulnerable open-source dependencies in CI/CD pipelines. It\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/sca/SKILL.md"
+    },
+    {
+      "name": "sbom-SKILL.md",
+      "path": "vulnerabilities/sca/sbom",
+      "description": "- AML.T0010",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/sca/sbom/SKILL.md"
+    },
+    {
+      "name": "agentless-SKILL.md",
+      "path": "vulnerabilities/scanning/agentless",
+      "description": "\\ protocols, cloud snapshot analysis, and API-based discovery to assess systems\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/agentless/SKILL.md"
+    },
+    {
+      "name": "authenticated-SKILL.md",
+      "path": "vulnerabilities/scanning/authenticated",
+      "description": "\\ system credentials to log into target hosts and perform deep inspection of installed\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/authenticated/SKILL.md"
+    },
+    {
+      "name": "nessus-SKILL.md",
+      "path": "vulnerabilities/scanning/nessus",
+      "description": "- CVE-2024-21762",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/nessus/SKILL.md"
+    },
+    {
+      "name": "nessusinfra-SKILL.md",
+      "path": "vulnerabilities/scanning/nessusinfra",
+      "description": "\\ to identify security weaknesses across network infrastructure including servers,\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/nessusinfra/SKILL.md"
+    },
+    {
+      "name": "nikto-SKILL.md",
+      "path": "vulnerabilities/scanning/nikto",
+      "description": "- CWE-79",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/nikto/SKILL.md"
+    },
+    {
+      "name": "openvas-SKILL.md",
+      "path": "vulnerabilities/scanning/openvas",
+      "description": "\\ Vulnerability Management with SSH and SMB credentials for comprehensive host-level\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/openvas/SKILL.md"
+    },
+    {
+      "name": "otsafescan-SKILL.md",
+      "path": "vulnerabilities/scanning/otsafescan",
+      "description": "\\ passive monitoring, native protocol queries, and carefully controlled active scanning\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/otsafescan/SKILL.md"
+    },
+    {
+      "name": "vulnerability-SKILL.md",
+      "path": "vulnerabilities/scanning/vulnerability",
+      "description": "- CVE-2024-21762",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/vulnerabilities/scanning/vulnerability/SKILL.md"
+    }
+  ]
+}
