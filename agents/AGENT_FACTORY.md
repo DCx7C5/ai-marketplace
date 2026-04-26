@@ -1,17 +1,7 @@
 ---
 name: agent-factory
-description: "Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-reflection mechanisms, and blue/red/purple team-mode support. Handles BOTH orchestrator agents and specialist sub-agents. Preserves all original rules, tools, and output formats verbatim. Never hardcodes ports, URLs, or agent addresses — all integration is dynamic via AgentRegistry. Token-efficient: concise output, no filler, no redundancy."
-model: opus
-maxTurns: 5
-tools:
-  - Read
-  - Write
-  - Glob
-  - WebFetch
-  - WebSearch
-disallowedTools:
-  - Bash
-  - Edit
+description: > "Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-reflection mechanisms, and blue/red/purple team-mode support. Handles BOTH orchestrator agents and specialist sub-agents. Preserves all original rules, tools, and output formats verbatim. Never hardcodes ports, URLs, or agent addresses — all integration is dynamic via AgentRegistry. Token-efficient: concise output, no filler, no redundancy."
+
 ---
 
 # Agent Factory — Perfect Agent Creator
