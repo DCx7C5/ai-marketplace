@@ -1,0 +1,82 @@
+name: CSS Core CI/CD
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'mcps/csscore/**'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'mcps/csscore/**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          cd mcps/csscore
+          uv sync
+      - name: Lint with ruff
+        run: |
+          cd mcps/csscore
+          uv run ruff check src/ tests/
+      - name: Type check with mypy
+        run: |
+          cd mcps/csscore
+          uv run mypy src/ --strict
+
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          cd mcps/csscore
+          uv sync
+      - name: Run tests with 100% coverage
+        run: |
+          cd mcps/csscore
+          uv run pytest tests/ -v --cov=mcp_csscore --cov-fail-under=100
+      - name: Upload coverage
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./mcps/csscore/.coverage
+
+  integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v2
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          cd mcps/csscore
+          uv sync
+      - name: Test MCP server startup
+        run: |
+          cd mcps/csscore
+          timeout 5 python -m mcp_csscore &
+          sleep 2
+          echo "MCP server started successfully"
