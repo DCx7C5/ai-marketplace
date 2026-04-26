@@ -599,6 +599,94 @@
       "dependencies": [
         "csscore"
       ]
+    },
+    {
+      "id": "browser-automation",
+      "type": "mcp",
+      "name": "Browser Automation MCP",
+      "description": "Headless browser control, screenshot capture, element interaction, and page navigation",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "browser",
+      "keywords": [
+        "browser",
+        "automation",
+        "selenium",
+        "screenshot"
+      ],
+      "tools": 6,
+      "entryPoint": "mcp_browser_automation.__main__:main",
+      "pythonPackage": "mcp-browser-automation",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
+    },
+    {
+      "id": "utility-tools",
+      "type": "mcp",
+      "name": "Utility Tools MCP",
+      "description": "File processing, data conversion, compression, encryption, and markup parsing",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "utility",
+      "keywords": [
+        "utility",
+        "conversion",
+        "compression",
+        "encryption"
+      ],
+      "tools": 6,
+      "entryPoint": "mcp_utility_tools.__main__:main",
+      "pythonPackage": "mcp-utility-tools",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
+    },
+    {
+      "id": "business-tools",
+      "type": "mcp",
+      "name": "Business Tools MCP",
+      "description": "Email management, calendar scheduling, document processing, reporting, and task management",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "business",
+      "keywords": [
+        "email",
+        "calendar",
+        "document",
+        "report"
+      ],
+      "tools": 6,
+      "entryPoint": "mcp_business_tools.__main__:main",
+      "pythonPackage": "mcp-business-tools",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
+    },
+    {
+      "id": "network-monitoring",
+      "type": "mcp",
+      "name": "Network Monitoring MCP",
+      "description": "Interface monitoring, bandwidth profiling, connection tracking, packet inspection, and performance metrics",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "network",
+      "keywords": [
+        "network",
+        "monitoring",
+        "bandwidth",
+        "packet"
+      ],
+      "tools": 6,
+      "entryPoint": "mcp_network_monitoring.__main__:main",
+      "pythonPackage": "mcp-network-monitoring",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
     }
   ],
   "categories": [
