@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcp-red-team-ops"
+version = "1.0.0"
+description = "red-team-ops MCP"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "CyberSecSuite", email = "dev@cybersecsuite.local" }
+]
+
+dependencies = [
+    "fastmcp>=3.1.0",
+    "pydantic>=2.0",
+    "mcp-csscore @ file:///home/daen/Projects/ai-marketplace/mcps/csscore",
+]
+
+[project.scripts]
+mcp-red-team-ops = "red_team_ops.__main__:main"
+
+[tool.uv]
+package = true
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/red_team_ops"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "ruff>=0.1.0",
+    "mypy>=1.0",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[[tool.mypy.overrides]]
+module = "mcp_csscore"
+ignore_missing_imports = true
+
+[tool.mypy]
+python_version = "3.11"
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--tb=short"

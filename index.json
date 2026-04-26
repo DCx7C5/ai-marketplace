@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-26T23:00:00Z",
+  "generated": "2026-04-26T23:15:00Z",
   "marketplaceUrl": "https://ai-marketplace.cybersecsuite.local",
   "mcps": [
     {
@@ -266,6 +266,118 @@
         "csscore"
       ],
       "entryPoint": "mcp_code_analysis.__main__:main"
+    },
+    {
+      "id": "osint-recon",
+      "type": "mcp",
+      "name": "OSINT Reconnaissance MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-osint-recon",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_osint_recon.__main__:main"
+    },
+    {
+      "id": "cloud-forensics",
+      "type": "mcp",
+      "name": "Cloud Forensics MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-cloud-forensics",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_cloud_forensics.__main__:main"
+    },
+    {
+      "id": "encoding-analysis",
+      "type": "mcp",
+      "name": "Encoding Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-encoding-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_encoding_analysis.__main__:main"
+    },
+    {
+      "id": "memory-analysis",
+      "type": "mcp",
+      "name": "Memory Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-memory-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_memory_analysis.__main__:main"
+    },
+    {
+      "id": "binary-analysis",
+      "type": "mcp",
+      "name": "Binary Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-binary-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_binary_analysis.__main__:main"
+    },
+    {
+      "id": "email-analysis",
+      "type": "mcp",
+      "name": "Email Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-email-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_email_analysis.__main__:main"
+    },
+    {
+      "id": "red-team-ops",
+      "type": "mcp",
+      "name": "Red Team Operations MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-red-team-ops",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_red_team_ops.__main__:main"
+    },
+    {
+      "id": "artifact-extraction",
+      "type": "mcp",
+      "name": "Artifact Extraction MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-artifact-extraction",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_artifact_extraction.__main__:main"
     }
   ]
 }
