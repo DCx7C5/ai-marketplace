@@ -1,39 +1,12 @@
 ---
-capec: []
+name: ipc-SKILL.md
 description: ">\n  Tests Android inter-process communication (IPC) through ipc for\
   \ vulnerabilities including intent injection, unauthorized component access, broadcast\
   \ sniffing, pending intent hijacking, and content provider data leakage. Use when\
   \ assessing Android app attack surface through exported components, testing intent-based\
   \ data flows, or evaluating IPC security. Activates for requests involving Android\
   \ intent security, IPC testing, exported component analysis, or Drozer assessment."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1404
-model: sonnet
-name: ipc-SKILL.md
-nist_csf:
-- PR.PS-01
-- PR.AA-05
-- ID.RA-01
-- DE.CM-09
-subdomain: mobile-security
-tags:
-- mobile-security
-- android
-- ipc
-- ipc-security
-- owasp-mobile
-- penetration-testing
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Testing Android Intents for Vulnerabilities
 
 ## When to Use

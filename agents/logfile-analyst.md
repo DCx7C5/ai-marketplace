@@ -1,36 +1,17 @@
 ---
 name: logfile-analyst
-description: >
-  Linux log file forensics and event correlation specialist. Invoke for
-  analysis of syslog, auth.log, journald, kern.log, audit.log, web server
-  logs (nginx, apache, caddy), and application logs. Detects authentication
-  failures and brute-force patterns, privilege escalation events, sudo abuse,
-  SSH session tracking, cron and systemd timer anomalies, service crashrestart
-  cycles, and log tampering or deliberate gaps. Essential for Rapid Recon
-  (quick anomaly sweep), Evidence Correlation (attacker timeline reconstruction),
-  and post-compromise forensics. Triggers: suspicious auth events, log gaps,
-  unexpected service behavior, or when correlating IOC timestamps across
-  multiple sources.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Glob
-  - Grep
-disallowedTools:
-  - WebSearch
-  - WebFetch
-skills:
-  - shared-memory
-  - scopesession-scope
-  - threatsmitre-attack-mapper
-mcpServers:
-  - cybersec
----
+description: 'Linux log file forensics and event correlation specialist. Invoke for
+  analysis of syslog, auth.log, journald, kern.log, audit.log, web server logs (nginx,
+  apache, caddy), and application logs. Detects authentication failures and brute-force
+  patterns, privilege escalation events, sudo abuse, SSH session tracking, cron and
+  systemd timer anomalies, service crashrestart cycles, and log tampering or deliberate
+  gaps. Essential for Rapid Recon (quick anomaly sweep), Evidence Correlation (attacker
+  timeline reconstruction), and post-compromise forensics. Triggers: suspicious auth
+  events, log gaps, unexpected service behavior, or when correlating IOC timestamps
+  across multiple sources.
 
+  '
+---
 # Logfile Analyst
 
 **Role:** Specialist in Linux log forensics, event correlation, timeline reconstruction, and log tampering detection.

@@ -1,42 +1,12 @@
 ---
-capec: []
+name: canary-SKILL.md
 description: ">\n  Deploys DNS, HTTP, and AWS API key canary tokens across network\
   \ infrastructure to detect unauthorized access and lateral movement. Integrates\
   \ with webhook alerting (Slack, Teams, email, generic HTTP) for real-time intrusion\
   \ notifications. Provides automated token generation, placement strategies, and\
   \ monitoring for enterprise network environments. Use when building deception-based\
   \ network intrusion detection with Canarytokens.org and Thinkst Canary platforms."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1021
-- T1036
-- T1059
-- T1070
-model: sonnet
-name: canary-SKILL.md
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-subdomain: security-operations
-tags:
-- canary-tokens
-- intrusion-detection
-- deception
-- network-security
-- honeytokens
-- breach-detection
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Canary Tokens for Network Intrusion Detection
 
 ## When to Use

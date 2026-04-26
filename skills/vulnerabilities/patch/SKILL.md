@@ -1,34 +1,9 @@
 ---
-capec: []
+name: patch-SKILL.md
 description: ">\n  Patch management is the systematic process of identifying, testing,\
   \ deploying, and verifying software updates to remediate vulnerabilities across\
   \ an organization's IT infrastructure. An effective patc"
-domain: cybersecurity
-maxTurns: 20
-model: sonnet
-name: patch-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- vulnerability-management
-- patch-management
-- wsus
-- sccm
-- ansible
-- risk
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Patch Management Workflow
 
 ## Overview

@@ -1,41 +1,9 @@
 ---
-capec: []
-cwe:
-- CWE-16
+name: cloud-SKILL.md
 description: ">\n  Implement Cloud Security Posture Management using AWS Security\
   \ Hub, Azure Defender for Cloud, and open-source tools like Prowler and ScoutSuite\
   \ for multi-cloud vulnerability detection."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-- T1078.004
-model: sonnet
-name: cloud-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- cspm
-- cloud-security
-- aws-security-hub
-- azure-defender
-- prowler
-- scoutsuite
-- misconfiguration
-- cnapp
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Cloud Vulnerability Posture Management
 
 ## Overview

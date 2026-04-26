@@ -1,45 +1,9 @@
 ---
-capec: []
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
+name: continuous-SKILL.md
 description: ">\n  Deploy Breach and Attack Simulation tools to continuously validate\
   \ security control effectiveness by safely emulating real-world attack techniques\
   \ across the kill chain."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1059
-- T1070
-model: sonnet
-name: continuous-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- breach-attack-simulation
-- bas
-- security-validation
-- safebreach
-- attackiq
-- picus
-- cymulate
-- mitre-attack
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Continuous Security Validation with BAS
 
 ## Overview

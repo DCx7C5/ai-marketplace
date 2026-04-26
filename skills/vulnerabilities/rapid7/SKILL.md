@@ -1,38 +1,9 @@
 ---
-capec: []
+name: rapid7-SKILL.md
 description: ">\n  Deploy and configure Rapid7 InsightVM Security Console and Scan\
   \ Engines for authenticated and unauthenticated vulnerability scanning across enterprise\
   \ environments."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-- T1082
-model: sonnet
-name: rapid7-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- rapid7
-- insightvm
-- vulnerability-scanning
-- nexpose
-- scan-engine
-- asset-discovery
-- authenticated-scanning
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Rapid7 InsightVM for Scanning
 
 ## Overview

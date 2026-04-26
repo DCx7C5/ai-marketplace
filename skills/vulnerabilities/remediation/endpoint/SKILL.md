@@ -1,42 +1,12 @@
 ---
-capec: []
-cve:
-- CVE-2017-0144
-- CVE-2021-34527
+name: endpoint-SKILL.md
 description: ">\n  Performs vulnerability remediation on endpoints by prioritizing\
   \ CVEs based on risk scoring, deploying patches, applying configuration changes,\
   \ and validating fixes. Use when remediating findings from vulnerability scans,\
   \ responding to critical CVE advisories, or maintaining endpoint compliance with\
   \ patch management SLAs. Activates for requests involving vulnerability remediation,\
   \ CVE patching, endpoint vulnerability management, or security fix deployment."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-model: sonnet
-name: endpoint-SKILL.md
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-subdomain: endpoint-security
-tags:
-- endpoint
-- vulnerability-management
-- patching
-- CVE
-- remediation
-- CVSS
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing Endpoint Vulnerability Remediation
 
 ## When to Use

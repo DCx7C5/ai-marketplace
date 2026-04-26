@@ -1,14 +1,5 @@
 ---
-atlas_techniques:
-- AML.T0010
-- AML.T0104
-capec: []
-cve:
-- CVE-2021-23337
-- CVE-2020-28500
-- CVE-2021-44228
-- CVE-2021-45046
-- CVE-2021-45105
+name: sbom-SKILL.md
 description: ">\n  Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX\
   \ JSON formats to identify supply chain vulnerabilities by correlating components\
   \ against the NVD CVE database via the NVD 2.0 API. Builds dependency graphs, calculates\
@@ -16,44 +7,7 @@ description: ">\n  Parses Software Bill of Materials (SBOM) in CycloneDX and SPD
   \ reports. Activates for requests involving SBOM analysis, software composition\
   \ analysis, supply chain security assessment, dependency vulnerability scanning,\
   \ CycloneDX/SPDX parsing, or CVE correlation."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-- T1195
-model: sonnet
-name: sbom-SKILL.md
-nist_ai_rmf:
-- GOVERN-5.2
-- MAP-1.6
-- MANAGE-2.2
-- GOVERN-1.1
-- GOVERN-4.2
-nist_csf:
-- GV.SC-01
-- GV.SC-03
-- GV.SC-06
-- GV.SC-07
-subdomain: supply-chain-security
-tags:
-- SBOM
-- CycloneDX
-- SPDX
-- NVD
-- CVE
-- supply-chain
-- dependency-analysis
-- syft
-- grype
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Analyzing SBOM for Supply Chain Vulnerabilities
 
 ## When to Use

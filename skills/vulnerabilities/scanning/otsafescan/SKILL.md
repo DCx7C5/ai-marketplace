@@ -1,40 +1,10 @@
 ---
-capec: []
+name: otsafescan-SKILL.md
 description: ">\n  Perform vulnerability scanning in OT/ICS environments safely using\
   \ passive monitoring, native protocol queries, and carefully controlled active scanning\
   \ with Tenable OT Security to identify vulnerabilities without disrupting industrial\
   \ processes or crashing legacy controllers."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T0855
-- T1046
-model: sonnet
-name: otsafescan-SKILL.md
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- vulnerability-scanning
-- tenable
-- nessus
-- passive-scanning
-- risk-management
-- nist
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing OT Vulnerability Scanning Safely
 
 ## When to Use

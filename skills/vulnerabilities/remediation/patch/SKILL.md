@@ -1,39 +1,9 @@
 ---
-capec: []
-cve:
-- CVE-2021-26855
+name: patch-SKILL.md
 description: ">\n  Establish a structured operational process to triage, test, and\
   \ deploy Microsoft Patch Tuesday security updates within risk-based remediation\
   \ SLAs."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1078.004
-model: sonnet
-name: patch-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- patch-management
-- patch-tuesday
-- microsoft
-- wsus
-- sccm
-- vulnerability-remediation
-- windows-update
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Building Patch Tuesday Response Process
 
 ## Overview

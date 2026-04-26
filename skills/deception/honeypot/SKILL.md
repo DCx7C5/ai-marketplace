@@ -1,40 +1,8 @@
 ---
-capec: []
+name: honeypot-SKILL.md
 description: ">\n  Deploy and manage network honeypots using OpenCanary, T-Pot, or\
   \ Cowrie to detect unauthorized access, lateral movement, and attacker reconnaissance."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1003
-- T1021
-- T1036
-- T1046
-- T1059
-model: sonnet
-name: honeypot-SKILL.md
-nist_csf:
-- DE.CM-01
-- DE.AE-06
-- PR.IR-01
-subdomain: deception-technology
-tags:
-- deception
-- honeypot
-- opencanary
-- cowrie
-- t-pot
-- detection
-- lateral-movement
-- network-security
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Network Deception with Honeypots
 
 ## When to Use

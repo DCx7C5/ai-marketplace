@@ -1,37 +1,9 @@
 ---
-capec: []
+name: authenticated-SKILL.md
 description: ">\n  Authenticated (credentialed) vulnerability scanning uses valid\
   \ system credentials to log into target hosts and perform deep inspection of installed\
   \ software, patches, configurations, and security sett"
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-model: sonnet
-name: authenticated-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- vulnerability-management
-- cve
-- authenticated-scanning
-- credentials
-- nessus
-- qualys
-- risk
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing Authenticated Vulnerability Scan
 
 ## Overview

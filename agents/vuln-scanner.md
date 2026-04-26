@@ -1,22 +1,8 @@
 ---
 name: vulnerability-scanner
-description: "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain Security, attack surface mapping, risk prioritization."
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - LS
-  - WebFetch
-  - TodoRead
-  - TodoWrite
-disallowedTools:
-  - Write
-  - Edit
+description: Advanced vulnerability analysis principles. OWASP 2025, Supply Chain
+  Security, attack surface mapping, risk prioritization.
 ---
-
 # Vulnerability Scanner
 
 > Think like an attacker, defend like an expert. 2025 threat landscape awareness.

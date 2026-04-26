@@ -1,36 +1,9 @@
 ---
-capec: []
+name: nessusinfra-SKILL.md
 description: ">\n  Tenable Nessus is the industry-leading vulnerability scanner used\
   \ to identify security weaknesses across network infrastructure including servers,\
   \ workstations, network devices, and operating systems."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-model: sonnet
-name: nessusinfra-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- vulnerability-management
-- cve
-- nessus
-- tenable
-- infrastructure-scanning
-- risk
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Scanning Infrastructure with Nessus
 
 ## Overview

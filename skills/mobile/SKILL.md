@@ -1,5 +1,5 @@
 ---
-capec: []
+name: SKILL.md-
 description: ">\n  Implements Mobile Application Management (MAM) policies to protect\
   \ enterprise data on managed and unmanaged mobile devices through app-level controls\
   \ including data loss prevention, selective wipe, app configuration, and containerization.\
@@ -7,34 +7,7 @@ description: ">\n  Implements Mobile Application Management (MAM) policies to pr
   \ Policies, or enforcing data separation between personal and work apps. Activates\
   \ for requests involving MAM deployment, app protection policies, mobile containerization,\
   \ or BYOD security."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1404
-model: sonnet
-name: SKILL.md-
-nist_csf:
-- PR.PS-01
-- PR.AA-05
-- ID.RA-01
-- DE.CM-09
-subdomain: mobile-security
-tags:
-- mobile-security
-- android
-- ios
-- mam
-- enterprise-security
-- owasp-mobile
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Mobile Application Management
 
 ## When to Use

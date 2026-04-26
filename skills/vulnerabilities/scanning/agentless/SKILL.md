@@ -1,43 +1,9 @@
 ---
-capec: []
+name: agentless-SKILL.md
 description: ">\n  Configure and execute agentless vulnerability scanning using network\
   \ protocols, cloud snapshot analysis, and API-based discovery to assess systems\
   \ without installing endpoint agents."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-- T1047
-model: sonnet
-name: agentless-SKILL.md
-nist_ai_rmf:
-- GOVERN-1.1
-- MEASURE-2.7
-- MANAGE-3.1
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- agentless-scanning
-- vulnerability-assessment
-- cloud-security
-- ssh
-- wmi
-- snapshot-analysis
-- vuls
-- tenable
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing Agentless Vulnerability Scanning
 
 ## Overview

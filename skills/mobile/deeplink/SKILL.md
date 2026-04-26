@@ -1,39 +1,12 @@
 ---
-capec: []
+name: deeplink-SKILL.md
 description: ">\n  Tests and exploits deep link (URL scheme and App Link) vulnerabilities\
   \ in Android and iOS mobile applications to identify unauthorized access, data injection,\
   \ intent hijacking, and redirect manipulation. Use when assessing mobile app attack\
   \ surface through custom URI schemes, Android App Links, iOS Universal Links, or\
   \ intent-based navigation. Activates for requests involving deep link security testing,\
   \ URL scheme exploitation, mobile intent abuse, or link hijacking."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1404
-model: sonnet
-name: deeplink-SKILL.md
-nist_csf:
-- PR.PS-01
-- PR.AA-05
-- ID.RA-01
-- DE.CM-09
-subdomain: mobile-security
-tags:
-- mobile-security
-- android
-- ios
-- deep-links
-- owasp-mobile
-- penetration-testing
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Exploiting Deep Link Vulnerabilities
 
 ## When to Use

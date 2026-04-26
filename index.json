@@ -4,6 +4,30 @@
   "marketplaceUrl": "https://ai-marketplace.cybersecsuite.local",
   "mcps": [
     {
+      "id": "csscore",
+      "type": "mcp",
+      "name": "CyberSecSuite Core MCP",
+      "description": "Foundation MCP providing essential utilities for all externalized MCPs: marketplace registry, asset discovery, configuration management, logging, and scope tracking",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "core",
+      "keywords": [
+        "foundation",
+        "core",
+        "registry",
+        "scope",
+        "logging"
+      ],
+      "tools": 5,
+      "entryPoint": "mcp_csscore.__main__:main",
+      "pythonPackage": "mcp-csscore",
+      "pythonVersion": ">=3.11",
+      "dependencies": [],
+      "repository": "https://github.com/cybersecsuite/ai-marketplace/tree/main/mcps/csscore",
+      "documentation": "https://github.com/cybersecsuite/ai-marketplace/blob/main/mcps/csscore/README.md",
+      "installCommand": "uv pip install mcp-csscore"
+    },
+    {
       "id": "forensic-vault",
       "type": "mcp",
       "name": "Forensic Vault MCP",
@@ -11,12 +35,20 @@
       "version": "1.0.0",
       "status": "available",
       "category": "forensics",
-      "keywords": ["forensics", "investigation", "ioc", "malware", "evidence", "chain-of-custody"],
+      "keywords": [
+        "forensics",
+        "investigation",
+        "ioc",
+        "malware",
+        "evidence",
+        "chain-of-custody"
+      ],
       "tools": 14,
       "entryPoint": "mcp_forensic_vault.__main__:main",
       "pythonPackage": "mcp-forensic-vault",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "tortoise-orm>=0.21.0",
@@ -30,7 +62,12 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/forensic-vault",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["forensics", "threat-intel", "incident-response", "apt-analysis"]
+      "tags": [
+        "forensics",
+        "threat-intel",
+        "incident-response",
+        "apt-analysis"
+      ]
     },
     {
       "id": "network-layers",
@@ -40,12 +77,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "network",
-      "keywords": ["networking", "protocols", "pcap", "tcp-ip", "packet-analysis"],
+      "keywords": [
+        "networking",
+        "protocols",
+        "pcap",
+        "tcp-ip",
+        "packet-analysis"
+      ],
       "tools": 9,
       "entryPoint": "mcp_network_layers.__main__:main",
       "pythonPackage": "mcp-network-layers",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "scapy>=2.5.0",
@@ -59,7 +103,12 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/network-layers",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["networking", "packet-analysis", "traffic-investigation", "protocol-forensics"]
+      "tags": [
+        "networking",
+        "packet-analysis",
+        "traffic-investigation",
+        "protocol-forensics"
+      ]
     },
     {
       "id": "threat-intelligence",
@@ -69,12 +118,20 @@
       "version": "1.0.0",
       "status": "available",
       "category": "threat-intelligence",
-      "keywords": ["threat-intel", "cve", "ioc", "mitre", "apt", "malware-analysis"],
+      "keywords": [
+        "threat-intel",
+        "cve",
+        "ioc",
+        "mitre",
+        "apt",
+        "malware-analysis"
+      ],
       "tools": 14,
       "entryPoint": "mcp_threat_intelligence.__main__:main",
       "pythonPackage": "mcp-threat-intelligence",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "aiohttp>=3.8.0",
@@ -88,7 +145,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/threat-intelligence",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["threat-intel", "cve-analysis", "ioc-enrichment", "apt-tracking", "mitre-mapping"]
+      "tags": [
+        "threat-intel",
+        "cve-analysis",
+        "ioc-enrichment",
+        "apt-tracking",
+        "mitre-mapping"
+      ]
     },
     {
       "id": "database-tools",
@@ -98,12 +161,20 @@
       "version": "1.0.0",
       "status": "available",
       "category": "database",
-      "keywords": ["database", "sql", "nosql", "forensics", "query-analysis", "data-recovery"],
+      "keywords": [
+        "database",
+        "sql",
+        "nosql",
+        "forensics",
+        "query-analysis",
+        "data-recovery"
+      ],
       "tools": 15,
       "entryPoint": "mcp_database_tools.__main__:main",
       "pythonPackage": "mcp-database-tools",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "tortoise-orm>=0.21.0",
@@ -118,7 +189,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/database-tools",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["database", "forensics", "sql-analysis", "nosql-investigation", "data-recovery"]
+      "tags": [
+        "database",
+        "forensics",
+        "sql-analysis",
+        "nosql-investigation",
+        "data-recovery"
+      ]
     },
     {
       "id": "encoding-specialist",
@@ -128,12 +205,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "analysis",
-      "keywords": ["encoding", "decoding", "obfuscation", "steganography", "cryptography"],
+      "keywords": [
+        "encoding",
+        "decoding",
+        "obfuscation",
+        "steganography",
+        "cryptography"
+      ],
       "tools": 8,
       "entryPoint": "mcp_encoding_specialist.__main__:main",
       "pythonPackage": "mcp-encoding-specialist",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "cryptography>=41.0.0",
@@ -147,7 +231,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/encoding-specialist",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["encoding", "decoding", "cryptography", "obfuscation-detection", "steganography"]
+      "tags": [
+        "encoding",
+        "decoding",
+        "cryptography",
+        "obfuscation-detection",
+        "steganography"
+      ]
     },
     {
       "id": "packet-inspector",
@@ -157,12 +247,18 @@
       "version": "1.0.0",
       "status": "available",
       "category": "network",
-      "keywords": ["packet-analysis", "dpi", "traffic-reconstruction", "malware-detection"],
+      "keywords": [
+        "packet-analysis",
+        "dpi",
+        "traffic-reconstruction",
+        "malware-detection"
+      ],
       "tools": 12,
       "entryPoint": "mcp_packet_inspector.__main__:main",
       "pythonPackage": "mcp-packet-inspector",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "scapy>=2.5.0",
@@ -177,7 +273,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/packet-inspector",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["packet-analysis", "dpi", "malware-detection", "network-forensics", "session-reconstruction"]
+      "tags": [
+        "packet-analysis",
+        "dpi",
+        "malware-detection",
+        "network-forensics",
+        "session-reconstruction"
+      ]
     },
     {
       "id": "log-analyzer",
@@ -187,12 +289,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "analysis",
-      "keywords": ["logging", "log-analysis", "anomaly-detection", "timeline", "forensics"],
+      "keywords": [
+        "logging",
+        "log-analysis",
+        "anomaly-detection",
+        "timeline",
+        "forensics"
+      ],
       "tools": 11,
       "entryPoint": "mcp_log_analyzer.__main__:main",
       "pythonPackage": "mcp-log-analyzer",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "python-dateutil>=2.8.0",
@@ -206,7 +315,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/log-analyzer",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["logging", "forensics", "anomaly-detection", "timeline-analysis", "pattern-matching"]
+      "tags": [
+        "logging",
+        "forensics",
+        "anomaly-detection",
+        "timeline-analysis",
+        "pattern-matching"
+      ]
     },
     {
       "id": "config-parser",
@@ -216,12 +331,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "analysis",
-      "keywords": ["configuration", "parsing", "compliance", "security-baseline", "misconfiguration"],
+      "keywords": [
+        "configuration",
+        "parsing",
+        "compliance",
+        "security-baseline",
+        "misconfiguration"
+      ],
       "tools": 9,
       "entryPoint": "mcp_config_parser.__main__:main",
       "pythonPackage": "mcp-config-parser",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "pyyaml>=6.0.0",
@@ -236,7 +358,12 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/config-parser",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["configuration", "compliance-checking", "security-baseline", "misconfiguration-detection"]
+      "tags": [
+        "configuration",
+        "compliance-checking",
+        "security-baseline",
+        "misconfiguration-detection"
+      ]
     },
     {
       "id": "artifact-extractor",
@@ -246,12 +373,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "forensics",
-      "keywords": ["artifact-extraction", "forensics", "binary-analysis", "memory-forensics", "steganography"],
+      "keywords": [
+        "artifact-extraction",
+        "forensics",
+        "binary-analysis",
+        "memory-forensics",
+        "steganography"
+      ],
       "tools": 13,
       "entryPoint": "mcp_artifact_extractor.__main__:main",
       "pythonPackage": "mcp-artifact-extractor",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "volatility3>=2.0.0",
@@ -265,7 +399,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/artifact-extractor",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["forensics", "artifact-extraction", "binary-analysis", "memory-forensics", "malware-analysis"]
+      "tags": [
+        "forensics",
+        "artifact-extraction",
+        "binary-analysis",
+        "memory-forensics",
+        "malware-analysis"
+      ]
     },
     {
       "id": "sandbox-controller",
@@ -275,12 +415,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "automation",
-      "keywords": ["sandbox", "malware-analysis", "automation", "containment", "orchestration"],
+      "keywords": [
+        "sandbox",
+        "malware-analysis",
+        "automation",
+        "containment",
+        "orchestration"
+      ],
       "tools": 10,
       "entryPoint": "mcp_sandbox_controller.__main__:main",
       "pythonPackage": "mcp-sandbox-controller",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "aiohttp>=3.8.0",
@@ -294,7 +441,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/sandbox-controller",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["sandbox", "malware-analysis", "automation", "orchestration", "containment"]
+      "tags": [
+        "sandbox",
+        "malware-analysis",
+        "automation",
+        "orchestration",
+        "containment"
+      ]
     },
     {
       "id": "automation-engine",
@@ -304,12 +457,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "automation",
-      "keywords": ["automation", "orchestration", "workflow", "incident-response", "remediation"],
+      "keywords": [
+        "automation",
+        "orchestration",
+        "workflow",
+        "incident-response",
+        "remediation"
+      ],
       "tools": 12,
       "entryPoint": "mcp_automation_engine.__main__:main",
       "pythonPackage": "mcp-automation-engine",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "aiohttp>=3.8.0",
@@ -323,7 +483,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/automation-engine",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["automation", "workflow-orchestration", "incident-response", "remediation", "task-scheduling"]
+      "tags": [
+        "automation",
+        "workflow-orchestration",
+        "incident-response",
+        "remediation",
+        "task-scheduling"
+      ]
     },
     {
       "id": "reporting-gen",
@@ -333,12 +499,19 @@
       "version": "1.0.0",
       "status": "available",
       "category": "reporting",
-      "keywords": ["reporting", "documentation", "evidence-synthesis", "compliance", "visualization"],
+      "keywords": [
+        "reporting",
+        "documentation",
+        "evidence-synthesis",
+        "compliance",
+        "visualization"
+      ],
       "tools": 8,
       "entryPoint": "mcp_reporting_gen.__main__:main",
       "pythonPackage": "mcp-reporting-gen",
       "pythonVersion": ">=3.11",
       "dependencies": [
+        "csscore",
         "fastmcp>=3.1.0",
         "pydantic>=2.0",
         "jinja2>=3.1.0",
@@ -353,7 +526,13 @@
       "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/reporting-gen",
       "author": "CyberSecSuite Team",
       "license": "MIT",
-      "tags": ["reporting", "documentation", "compliance", "evidence-synthesis", "timeline-visualization"]
+      "tags": [
+        "reporting",
+        "documentation",
+        "compliance",
+        "evidence-synthesis",
+        "timeline-visualization"
+      ]
     }
   ],
   "categories": [

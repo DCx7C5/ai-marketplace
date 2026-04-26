@@ -1,32 +1,10 @@
 ---
-capec: []
+name: SKILL.md-
 description: ">\n  Steganography reconnaissance and steganalysis. Detects hidden payloads\
   \ in image, audio, video, and document carriers via entropy analysis, LSB detection,\
   \ metadata anomalies, and statistical steganalysis. Maps to MITRE T1027.003 and\
   \ T1001.003."
-maxTurns: 30
-mitre_attack:
-- T1027.003
-- T1059
-- T1595
-model: sonnet
-name: SKILL.md-
-nist_csf: []
-skills:
-- shared-memory
-- threats/mitre-attack-mapper
-tags:
-- steganography
-tools:
-- Read
-- Bash
-- Glob
-- Grep
-- WebSearch
 ---
-
-
-
 # Steganography Recon
 
 **Purpose:** Carrier-file triage and hidden-data detection for image, audio, video, and document formats. Also covers network steganography and covert channel detection.

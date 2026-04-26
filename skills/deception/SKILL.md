@@ -1,42 +1,11 @@
 ---
-capec: []
+name: SKILL.md-
 description: ">\n  Deploys deception technology including honeypots, honeytokens,\
   \ and decoy systems to detect attackers who have bypassed perimeter defenses, providing\
   \ high-fidelity alerts with near-zero false positive rates. Use when SOC teams need\
   \ early warning of lateral movement, credential abuse, or internal reconnaissance\
   \ by deploying convincing traps across the network."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1003
-- T1021
-- T1036
-- T1059
-model: sonnet
-name: SKILL.md-
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-subdomain: soc-operations
-tags:
-- soc
-- deception
-- honeypot
-- honeytoken
-- canary
-- lateral-movement
-- detection
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing Deception Technology Deployment
 
 ## When to Use

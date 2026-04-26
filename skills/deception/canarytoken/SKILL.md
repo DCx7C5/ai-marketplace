@@ -1,37 +1,9 @@
 ---
-capec: []
+name: canarytoken-SKILL.md
 description: ">\n  Deploy and monitor Canary Tokens via the Thinkst Canary API for\
   \ deception-based breach detection using web bug tokens, DNS tokens, document tokens,\
   \ and AWS key tokens."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1036
-- T1059
-model: sonnet
-name: canarytoken-SKILL.md
-nist_csf:
-- DE.CM-01
-- DE.AE-06
-- PR.IR-01
-subdomain: deception-technology
-tags:
-- canarytoken
-- deception
-- honeytokens
-- breach-detection
-- Thinkst-Canary
-- tripwire
-- early-warning
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Deception-Based Detection with Canarytoken
 
 ## Overview

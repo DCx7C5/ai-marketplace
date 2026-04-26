@@ -70,7 +70,7 @@ echo "=== Validating Skills ==="
 echo ""
 
 while IFS= read -r -d '' file; do
-  rel="${file#$ROOT/skills/}"
+  rel="${file#"${ROOT}"/skills/}"
   dir=$(dirname "$rel")
 
   frontmatter=$(awk '/^---$/{if(f)exit;f=1;next}f' "$file")

@@ -1,35 +1,9 @@
 ---
-capec: []
+name: slaalerts-SKILL.md
 description: ">\n  Build automated alerting for vulnerability remediation SLA breaches\
   \ with severity-based timelines, escalation workflows, and compliance reporting\
   \ dashboards."
-domain: cybersecurity
-maxTurns: 20
-model: sonnet
-name: slaalerts-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- vulnerability-sla
-- remediation-tracking
-- alerting
-- compliance
-- sla-breach
-- vulnerability-management
-- escalation
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Vulnerability SLA Breach Alerting
 
 ## Overview

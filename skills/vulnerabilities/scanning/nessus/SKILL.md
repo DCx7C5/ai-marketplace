@@ -1,8 +1,5 @@
 ---
-capec: []
-cve:
-- CVE-2024-21762
-- CVE-2024-6387
+name: nessus-SKILL.md
 description: ">\n  Performs authenticated and unauthenticated vulnerability scanning\
   \ using Tenable Nessus to identify known vulnerabilities, misconfigurations, default\
   \ credentials, and missing patches across network infrastructure, servers, and applications.\
@@ -10,34 +7,7 @@ description: ">\n  Performs authenticated and unauthenticated vulnerability scan
   \ prioritized remediation guidance. Activates for requests involving vulnerability\
   \ scanning, Nessus assessment, patch compliance checking, or automated vulnerability\
   \ detection."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-- T1595
-model: sonnet
-name: nessus-SKILL.md
-nist_csf:
-- ID.RA-01
-- ID.RA-06
-- GV.OV-02
-- DE.AE-07
-subdomain: penetration-testing
-tags:
-- vulnerability-scanning
-- Nessus
-- CVE
-- patch-management
-- Tenable
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing Vulnerability Scanning with Nessus
 
 ## When to Use

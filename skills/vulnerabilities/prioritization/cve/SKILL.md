@@ -1,44 +1,8 @@
 ---
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-capec: []
-cve:
-- CVE-2024-3094
+name: cve-SKILL.md
 description: ">\n  Leverage the CISA Known Exploited Vulnerabilities catalog alongside\
   \ EPSS and CVSS to prioritize CVE remediation based on real-world exploitation evidence."
-domain: cybersecurity
-maxTurns: 20
-model: sonnet
-name: cve-SKILL.md
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- cisa-kev
-- cve
-- vulnerability-prioritization
-- epss
-- bod-22-01
-- threat-intelligence
-- remediation
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Performing CVE Prioritization with KEV Catalog
 
 ## Overview

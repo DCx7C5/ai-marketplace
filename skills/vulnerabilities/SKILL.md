@@ -1,37 +1,9 @@
 ---
-capec: []
+name: SKILL.md-
 description: ">\n  Deploy and operate Greenbone/OpenVAS vulnerability management using\
   \ the python-gvm library to create scan targets, execute vulnerability scans, and\
   \ parse scan reports via GMP protocol."
-domain: cybersecurity
-maxTurns: 20
-mitre_attack:
-- T1046
-model: sonnet
-name: SKILL.md-
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-subdomain: vulnerability-management
-tags:
-- openvas
-- greenbone
-- vulnerability-scanning
-- gmp
-- python-gvm
-- vulnerability-management
-- compliance
-tools:
-- Read
-- Bash
-- Glob
-- Grep
 ---
-
-
-
 # Implementing Vulnerability Management with Greenbone
 
 ## Overview
