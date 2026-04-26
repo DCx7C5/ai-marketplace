@@ -687,6 +687,30 @@
       "dependencies": [
         "csscore"
       ]
+    },
+    {
+      "id": "dystopian-actors",
+      "type": "mcp",
+      "name": "Dystopian Actors MCP",
+      "description": "Advanced threat actor profiling, campaign analysis, IOC correlation, TTP mapping, malware classification, and attribution intelligence",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "threat-intelligence",
+      "keywords": [
+        "threat-actor",
+        "campaign",
+        "attribution",
+        "ioc",
+        "ttp",
+        "malware"
+      ],
+      "tools": 12,
+      "entryPoint": "mcp_dystopian_actors.__main__:main",
+      "pythonPackage": "mcp-dystopian-actors",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
     }
   ],
   "categories": [
