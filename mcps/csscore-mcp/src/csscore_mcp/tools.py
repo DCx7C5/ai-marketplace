@@ -2003,3 +2003,1451 @@ async def tool_toggle_clear(args: dict[str, Any]) -> JsonDict:
 
 ALL_TOOLS = [tool_toggle_set, tool_toggle_get, tool_toggle_list, tool_toggle_clear]
 
+
+
+# === From web-search-mcp ===
+"""Tools extracted from csmcp for web-search-mcp."""
+
+from typing import Any, Dict
+
+# === From web_search.py ===
+"""Web search tools — routes to first available engine: Perplexity > Serper > Brave > Tavily."""
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+
+def _perplexity_key() -> str | None:
+    return os.environ.get("PERPLEXITY_API_KEY") or os.environ.get("PERPLEXITY_KEY")
+
+
+def _serper_key() -> str | None:
+    return os.environ.get("SERPER_API_KEY") or os.environ.get("SERPER_KEY")
+
+
+def _brave_key() -> str | None:
+    return os.environ.get("BRAVE_API_KEY") or os.environ.get("BRAVE_KEY")
+
+
+def _tavily_key() -> str | None:
+    return os.environ.get("TAVILY_API_KEY") or os.environ.get("TAVILY_KEY")
+
+
+async def _perplexity_search(query: str, limit: int) -> list[dict[str, Any]]:
+    import httpx
+    key = _perplexity_key()
+    payload = {
+        "model": "sonar",
+        "messages": [{"role": "user", "content": query}],
+        "search_recency_filter": "month",
+        "return_related_questions": False,
+        "return_citations": True,
+    }
+    async with httpx.AsyncClient(timeout=20) as client:
+        r = await client.post(
+            "https://api.perplexity.ai/chat/completions",
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            json=payload,
+        )
+        r.raise_for_status()
+        data = r.json()
+    citations = data.get("citations", [])
+    answer = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+    results = [
+        {"title": f"Result {i+1}", "url": url, "snippet": answer[:300] if i == 0 else "", "engine": "perplexity", "rank": i + 1}
+        for i, url in enumerate(citations[:limit])
+    ]
+    if not results:
+        results = [{"title": query, "url": "", "snippet": answer[:500], "engine": "perplexity", "rank": 1}]
+    return results
+
+
+async def _serper_search(query: str, limit: int) -> list[dict[str, Any]]:
+    import httpx
+    key = _serper_key()
+    async with httpx.AsyncClient(timeout=15) as client:
+        r = await client.post(
+            "https://google.serper.dev/search",
+            headers={"X-API-KEY": key, "Content-Type": "application/json"},
+            json={"q": query, "num": limit},
+        )
+        r.raise_for_status()
+        data = r.json()
+    organic = data.get("organic", [])
+    return [
+        {"title": item.get("title", ""), "url": item.get("link", ""), "snippet": item.get("snippet", ""), "engine": "serper", "rank": i + 1}
+        for i, item in enumerate(organic[:limit])
+    ]
+
+
+async def _brave_search(query: str, limit: int) -> list[dict[str, Any]]:
+    import httpx
+    key = _brave_key()
+    async with httpx.AsyncClient(timeout=15) as client:
+        r = await client.get(
+            "https://api.search.brave.com/res/v1/web/search",
+            headers={"Accept": "application/json", "X-Subscription-Token": key},
+            params={"q": query, "count": limit, "result_filter": "web"},
+        )
+        r.raise_for_status()
+        data = r.json()
+    items = data.get("web", {}).get("results", [])
+    return [
+        {"title": item.get("title", ""), "url": item.get("url", ""), "snippet": item.get("description", ""), "engine": "brave", "rank": i + 1}
+        for i, item in enumerate(items[:limit])
+    ]
+
+
+async def _tavily_search(query: str, limit: int) -> list[dict[str, Any]]:
+    import httpx
+    key = _tavily_key()
+    async with httpx.AsyncClient(timeout=15) as client:
+        r = await client.post(
+            "https://api.tavily.com/search",
+            json={"api_key": key, "query": query, "max_results": limit, "search_depth": "basic"},
+        )
+        r.raise_for_status()
+        data = r.json()
+    items = data.get("results", [])
+    return [
+        {"title": item.get("title", ""), "url": item.get("url", ""), "snippet": item.get("content", "")[:300], "engine": "tavily", "rank": i + 1}
+        for i, item in enumerate(items[:limit])
+    ]
+
+
+_ENGINE_MAP = {
+    "perplexity": (_perplexity_key, _perplexity_search),
+    "serper": (_serper_key, _serper_search),
+    "brave": (_brave_key, _brave_search),
+    "tavily": (_tavily_key, _tavily_search),
+}
+
+
+@tool(
+    "web_search",
+    "Web search via Perplexity/Serper/Brave/Tavily — title, URL, snippet. Engine auto-selected from available API keys.",
+    {
+        "query": {"type": "string", "description": "Search query"},
+        "engine": {"type": "string", "enum": ["auto", "perplexity", "serper", "brave", "tavily"], "default": "auto"},
+        "limit": {"type": "integer", "default": 10},
+    },
+)
+async def web_search(args: dict[str, Any]) -> JsonDict:
+    query = args.get("query", "").strip()
+    if not query:
+        return sdk_error("query is required")
+
+    engine = args.get("engine", "auto")
+    limit = min(int(args.get("limit") or 10), 20)
+
+    if engine == "auto":
+        order = ["perplexity", "serper", "brave", "tavily"]
+        selected = next((e for e in order if _ENGINE_MAP[e][0]()), None)
+    else:
+        selected = engine if _ENGINE_MAP[engine][0]() else None
+
+    if selected is None:
+        return sdk_error(
+            "No web search API key found. Set one of: PERPLEXITY_API_KEY, SERPER_API_KEY, BRAVE_API_KEY, TAVILY_API_KEY"
+        )
+
+    try:
+        _, search_fn = _ENGINE_MAP[selected]
+        results = await search_fn(query, limit)
+    except Exception as exc:
+        return sdk_error(f"Search failed via {selected}: {exc}")
+
+    return sdk_result({
+        "status": "success",
+        "query": query,
+        "engine": selected,
+        "count": len(results),
+        "results": results,
+    })
+
+
+ALL_TOOLS = [web_search]
+
+
+
+# === From structured-extract-mcp ===
+"""Tools extracted from csmcp for structured-extract-mcp."""
+
+from typing import Any, Dict
+
+# === From structured_extract.py ===
+"""Structured extraction tools — use Anthropic messages.parse() for typed forensic output.
+
+Implements Pydantic-based structured extraction for:
+  - IOC extraction from raw text / logs
+  - Finding classification
+  - CVE context enrichment
+  - Threat actor profiling
+"""
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+# ── Pydantic schemas ─────────────────────────────────────────────────────────
+
+try:
+    from pydantic import BaseModel, Field
+
+    class IOCItem(BaseModel):
+        ioc_type: str = Field(description="ip, domain, url, hash_md5, hash_sha1, hash_sha256, email, filepath")
+        value: str = Field(description="The indicator value")
+        confidence: str = Field(description="low, medium, high, confirmed")
+        context: str = Field(description="Brief context explaining why this is suspicious")
+
+    class IOCExtraction(BaseModel):
+        iocs: list[IOCItem] = Field(description="Extracted indicators of compromise")
+        summary: str = Field(description="One-line summary of what was found")
+        threat_type: str = Field(description="malware, phishing, c2, data_exfil, lateral_movement, other")
+
+    class FindingClassification(BaseModel):
+        severity: str = Field(description="low, medium, high, critical")
+        category: str = Field(description="e.g. authentication, injection, exposure, privilege_escalation")
+        cwe_ids: list[str] = Field(default_factory=list, description="Related CWE IDs, e.g. ['CWE-89']")
+        mitre_techniques: list[str] = Field(default_factory=list, description="ATT&CK technique IDs, e.g. ['T1059.001']")
+        remediation: str = Field(description="Concise remediation guidance")
+        exploitability: str = Field(description="not_exploitable, theoretical, functional, weaponized")
+
+    class ThreatActorProfile(BaseModel):
+        name: str = Field(description="Actor name or alias")
+        aliases: list[str] = Field(default_factory=list, description="Known aliases")
+        motivation: str = Field(description="financial, espionage, hacktivism, destruction, unknown")
+        sophistication: str = Field(description="low, medium, high, nation_state")
+        targeted_sectors: list[str] = Field(default_factory=list)
+        ttps: list[str] = Field(default_factory=list, description="ATT&CK technique IDs")
+        infrastructure: list[str] = Field(default_factory=list, description="IPs, domains, ASNs used")
+
+    class CVEContext(BaseModel):
+        cve_id: str
+        cvss_score: float = Field(ge=0.0, le=10.0)
+        attack_vector: str = Field(description="network, adjacent, local, physical")
+        attack_complexity: str = Field(description="low, high")
+        privileges_required: str = Field(description="none, low, high")
+        affected_products: list[str] = Field(default_factory=list)
+        patch_available: bool
+        exploitation_status: str = Field(description="unproven, poc, actively_exploited, weaponized")
+        recommended_action: str
+
+    class NetworkAnomalyAnalysis(BaseModel):
+        anomaly_type: str = Field(description="port_scan, beaconing, exfil, lateral, dos, other")
+        source_ips: list[str] = Field(default_factory=list)
+        destination_ips: list[str] = Field(default_factory=list)
+        protocols: list[str] = Field(default_factory=list)
+        estimated_severity: str = Field(description="low, medium, high, critical")
+        is_false_positive: bool
+        recommended_block: bool
+
+    _SCHEMAS: dict[str, type[BaseModel]] = {
+        "ioc_extraction": IOCExtraction,
+        "finding_classification": FindingClassification,
+        "threat_actor_profile": ThreatActorProfile,
+        "cve_context": CVEContext,
+        "network_anomaly": NetworkAnomalyAnalysis,
+    }
+    _PYDANTIC_OK = True
+
+except ImportError:
+    _PYDANTIC_OK = False
+    _SCHEMAS = {}
+
+
+# ── Tool implementations ──────────────────────────────────────────────────────
+
+
+@tool(
+    "structured_extract",
+    "Extract structured forensic data from text using a typed schema. Returns a validated JSON object.",
+    {
+        "text": {"type": "string", "description": "The raw text, log snippet, or report to extract from"},
+        "schema": {
+            "type": "string",
+            "description": (
+                "Schema to extract into. One of: "
+                "ioc_extraction, finding_classification, threat_actor_profile, "
+                "cve_context, network_anomaly"
+            ),
+        },
+        "model": {"type": "string", "description": "Model to use", "default": "claude-haiku-4-5"},
+        "system": {"type": "string", "description": "Optional system prompt override"},
+    },
+)
+async def structured_extract(args: dict[str, Any]) -> JsonDict:
+    if not _PYDANTIC_OK:
+        return sdk_error("pydantic is not installed")
+
+    text = str(args.get("text", "")).strip()
+    schema_name = str(args.get("schema", "ioc_extraction")).strip().lower()
+    model = str(args.get("model", os.environ.get("CYBERSEC_DEFAULT_MODEL", "claude-haiku-4-5")))
+    system = args.get("system")
+
+    if not text:
+        return sdk_error("text is required")
+    if schema_name not in _SCHEMAS:
+        return sdk_error(
+            f"Unknown schema '{schema_name}'. Available: {', '.join(_SCHEMAS)}"
+        )
+
+    schema_cls = _SCHEMAS[schema_name]
+
+    try:
+        import anthropic
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        base_url = os.environ.get("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+        client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
+
+        messages: list[dict] = [{"role": "user", "content": text}]
+        kwargs: dict[str, Any] = {
+            "model": model,
+            "messages": messages,
+            "max_tokens": 2048,
+            "output_format": schema_cls,
+        }
+        if system:
+            kwargs["system"] = system
+
+        result = client.messages.parse(**kwargs)
+        parsed = result.parsed_output
+
+        if parsed is None:
+            return sdk_error("Model returned no structured output")
+
+        return sdk_result({
+            "schema": schema_name,
+            "data": parsed.model_dump(),
+            "model": model,
+            "input_tokens": result.usage.input_tokens,
+            "output_tokens": result.usage.output_tokens,
+        })
+
+    except Exception as exc:
+        return sdk_error(f"structured_extract failed: {exc}")
+
+
+@tool(
+    "structured_extract_stream",
+    "Stream structured extraction with incremental parsed snapshots (for large documents).",
+    {
+        "text": {"type": "string", "description": "The raw text to extract from"},
+        "schema": {
+            "type": "string",
+            "description": "Schema: ioc_extraction, finding_classification, threat_actor_profile, cve_context, network_anomaly",
+        },
+        "model": {"type": "string", "default": "claude-haiku-4-5"},
+    },
+)
+async def structured_extract_stream(args: dict[str, Any]) -> JsonDict:
+    if not _PYDANTIC_OK:
+        return sdk_error("pydantic is not installed")
+
+    text = str(args.get("text", "")).strip()
+    schema_name = str(args.get("schema", "ioc_extraction")).strip().lower()
+    model = str(args.get("model", os.environ.get("CYBERSEC_DEFAULT_MODEL", "claude-haiku-4-5")))
+
+    if not text:
+        return sdk_error("text is required")
+    if schema_name not in _SCHEMAS:
+        return sdk_error(f"Unknown schema '{schema_name}'. Available: {', '.join(_SCHEMAS)}")
+
+    schema_cls = _SCHEMAS[schema_name]
+
+    try:
+        import anthropic
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        base_url = os.environ.get("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+        client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
+
+        final_parsed = None
+        final_usage = None
+
+        with client.messages.stream(
+            model=model,
+            messages=[{"role": "user", "content": text}],
+            max_tokens=2048,
+            output_format=schema_cls,
+        ) as stream:
+            for _event in stream:
+                pass  # consume stream — snapshots are available but not stored per-event
+            final_msg = stream.get_final_message()
+            final_parsed = final_msg.parsed_output
+            final_usage = final_msg.usage
+
+        if final_parsed is None:
+            return sdk_error("Model returned no structured output")
+
+        return sdk_result({
+            "schema": schema_name,
+            "data": final_parsed.model_dump(),
+            "model": model,
+            "input_tokens": final_usage.input_tokens if final_usage else 0,
+            "output_tokens": final_usage.output_tokens if final_usage else 0,
+        })
+
+    except Exception as exc:
+        return sdk_error(f"structured_extract_stream failed: {exc}")
+
+
+ALL_TOOLS = [structured_extract, structured_extract_stream]
+
+
+
+# === From skill-manager-mcp ===
+"""Tools extracted from csmcp for skill-manager-mcp."""
+
+from typing import Any, Dict
+
+# === From skill_manager.py ===
+"""Skill management MCP tools."""
+from __future__ import annotations
+
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+
+@tool(
+    "skill_list",
+    "List available skills from the registry",
+    {"domain": {"type": "string", "description": "Filter by domain (e.g., forensics, ops)"}},
+)
+async def skill_list(args: dict[str, Any]) -> JsonDict:
+    """List all available skills."""
+    domain = args.get("domain", "")
+    try:
+        from template_engine.discovery import discover_skills
+    except ImportError:
+        return sdk_error("template_engine not available")
+
+    try:
+        skills = discover_skills(domain=domain if domain else None)
+        return sdk_result({"skills": skills, "count": len(skills)})
+    except Exception as e:
+        return sdk_error(str(e))
+
+
+@tool(
+    "skill_search",
+    "Search skills by keyword",
+    {"query": {"type": "string", "description": "Search query"}},
+)
+async def skill_search(args: dict[str, Any]) -> JsonDict:
+    """Search skills by keyword."""
+    query = args.get("query", "").strip()
+    if not query:
+        return sdk_error("query is required")
+
+    try:
+        from template_engine.discovery import discover_skills
+    except ImportError:
+        return sdk_error("template_engine not available")
+
+    try:
+        all_skills = discover_skills()
+        query_lower = query.lower()
+        matches = [
+            s for s in all_skills
+            if query_lower in s.get("name", "").lower() or query_lower in s.get("description", "").lower()
+        ]
+        return sdk_result({"skills": matches, "count": len(matches)})
+    except Exception as e:
+        return sdk_error(str(e))
+
+
+@tool(
+    "skill_load",
+    "Load a skill by name",
+    {"name": {"type": "string", "description": "Skill name to load"}},
+)
+async def skill_load(args: dict[str, Any]) -> JsonDict:
+    """Load a specific skill."""
+    name = args.get("name", "").strip()
+    if not name:
+        return sdk_error("name is required")
+
+    try:
+        from template_engine.discovery import discover_skills
+    except ImportError:
+        return sdk_error("template_engine not available")
+
+    try:
+        all_skills = discover_skills()
+        skill = next((s for s in all_skills if s.get("name") == name), None)
+        if not skill:
+            return sdk_error(f"skill {name} not found")
+        return sdk_result({"skill": skill})
+    except Exception as e:
+        return sdk_error(str(e))
+
+
+ALL_TOOLS = [skill_list, skill_search, skill_load]
+
+
+# === From quo-pricing-mcp ===
+"""Tools extracted from csmcp for quo-pricing-mcp."""
+
+from typing import Any, Dict
+
+# === From quo_pricing.py ===
+"""Quota and pricing tools — SDK in-process MCP server module."""
+from __future__ import annotations
+
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+
+@tool(
+    "check_quota",
+    "Check rate limit and budget quota for a provider or all providers.",
+    {"provider": {"type": "string", "nullable": True}},
+)
+async def check_quota(args: dict[str, Any]) -> JsonDict:
+    try:
+        from ai_proxy.providers.registry import get_all_providers
+        from ai_proxy.services.rate_limiter import rate_limiter
+        from ai_proxy.routing.combo import budget_guard
+    except ImportError:
+        return sdk_error("ai_proxy not available")
+
+    filter_provider = args.get("provider")
+    providers = get_all_providers()
+    if filter_provider and filter_provider not in providers:
+        return sdk_error(f"Provider '{filter_provider}' not found")
+
+    budgets = budget_guard.get_all()
+    targets = [filter_provider] if filter_provider else list(providers.keys())
+
+    quotas = {}
+    for pid in targets:
+        p = providers[pid]
+        rate_status = rate_limiter.get_status(pid)
+        provider_budget = budgets.get(pid)
+        spent = budget_guard.get_spent(pid) if provider_budget is not None else None
+        quotas[pid] = {
+            "available": p.is_available,
+            "rate_limit": rate_status,
+            "budget_usd": provider_budget,
+            "spent_usd": round(spent, 6) if spent is not None else None,
+            "budget_remaining_usd": round(provider_budget - spent, 6) if (provider_budget is not None and spent is not None) else None,
+        }
+
+    if filter_provider:
+        return sdk_result({"status": "success", "provider": filter_provider, **quotas[filter_provider]})
+    return sdk_result({"status": "success", "quotas": quotas})
+
+
+@tool(
+    "cost_report",
+    "Cost and usage report broken down by provider. Optional limit on recent records.",
+    {"limit": {"type": "integer", "nullable": True}},
+)
+async def cost_report(args: dict[str, Any]) -> JsonDict:
+    try:
+        from ai_proxy.services.usage_tracker import usage_tracker
+    except ImportError:
+        return sdk_error("ai_proxy not available")
+
+    limit = int(args.get("limit") or 20)
+    summary = usage_tracker.get_summary()
+    recent = usage_tracker.get_recent(limit=limit)
+
+    top_providers = sorted(
+        summary["by_provider"].items(),
+        key=lambda kv: kv[1]["cost_usd"],
+        reverse=True,
+    )
+
+    return sdk_result({
+        "status": "success",
+        "totals": {
+            "requests": summary["total_requests"],
+            "tokens": summary["total_tokens"],
+            "cost_usd": summary["total_cost_usd"],
+            "errors": summary["total_errors"],
+        },
+        "by_provider": dict(top_providers),
+        "recent": recent,
+    })
+
+
+@tool(
+    "list_models_catalog",
+    "List all available models with context window, cost, and availability.",
+    {
+        "provider": {"type": "string", "nullable": True},
+        "free_only": {"type": "boolean", "nullable": True},
+    },
+)
+async def list_models_catalog(args: dict[str, Any]) -> JsonDict:
+    try:
+        from ai_proxy.providers.registry import list_all_models, get_all_providers
+    except ImportError:
+        return sdk_error("ai_proxy not available")
+
+    filter_provider = args.get("provider")
+    free_only = bool(args.get("free_only", False))
+    all_providers = get_all_providers()
+
+    models = list_all_models()
+
+    if filter_provider:
+        models = [m for m in models if m.get("provider") == filter_provider]
+    if free_only:
+        free_pids = {pid for pid, p in all_providers.items() if p.is_free}
+        models = [m for m in models if m.get("provider") in free_pids]
+
+    return sdk_result({
+        "status": "success",
+        "count": len(models),
+        "models": models,
+    })
+
+
+ALL_TOOLS = [check_quota, cost_report, list_models_catalog]
+
+
+
+# === From tool-search-mcp ===
+"""Tools extracted from csmcp for tool-search-mcp."""
+
+from typing import Any, Dict
+
+# === From tool_search.py ===
+"""Tool search — searchable index for CyberSecSuite's 70+ MCP tools.
+
+Based on the Anthropic SDK examples/tools_runner_search_tool.py pattern.
+Allows Claude to find relevant tools by keyword without loading all 71 at once.
+Uses the `tool-search-tool-2025-10-19` beta feature when tool_runner is used.
+"""
+from __future__ import annotations
+
+import json
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+# ── Lazy tool index ──────────────────────────────────────────────────────────
+
+_TOOL_INDEX: list[dict[str, str]] | None = None
+
+
+def _build_tool_index() -> list[dict[str, str]]:
+    """Build a searchable index of all registered MCP tools."""
+    global _TOOL_INDEX
+    if _TOOL_INDEX is not None:
+        return _TOOL_INDEX
+
+    try:
+        from csmcp.cybersec import _ALL_CYBERSEC_TOOLS
+        from csmcp.dystopian import ALL_TOOLS as _DYSTOPIAN_TOOLS
+        all_tools = list(_ALL_CYBERSEC_TOOLS) + list(_DYSTOPIAN_TOOLS)
+    except ImportError:
+        try:
+            from csmcp.cybersec import _ALL_CYBERSEC_TOOLS
+            all_tools = list(_ALL_CYBERSEC_TOOLS)
+        except ImportError:
+            return []
+
+    index: list[dict[str, str]] = []
+    for t in all_tools:
+        name = getattr(t, "_sdk_tool_name", None) or getattr(t, "name", str(t))
+        desc = getattr(t, "_sdk_description", None) or getattr(t, "description", "")
+        if name:
+            index.append({"name": name, "description": str(desc)})
+
+    _TOOL_INDEX = index
+    return index
+
+
+def _search_tools(keyword: str) -> list[str]:
+    """Return tool names matching the keyword (case-insensitive substring)."""
+    keyword_lower = keyword.lower()
+    index = _build_tool_index()
+    return [
+        entry["name"]
+        for entry in index
+        if keyword_lower in entry["name"].lower() or keyword_lower in entry["description"].lower()
+    ]
+
+
+# ── Tool implementations ──────────────────────────────────────────────────────
+
+
+@tool(
+    "search_tools",
+    (
+        "Search through all available CyberSecSuite MCP tools by keyword. "
+        "Returns matching tool names and descriptions. Use this to discover "
+        "which tool to call before invoking it directly."
+    ),
+    {
+        "keyword": {
+            "type": "string",
+            "description": "Keyword to search for in tool names and descriptions",
+        },
+        "limit": {
+            "type": "integer",
+            "description": "Max results to return (default 20)",
+            "default": 20,
+        },
+    },
+)
+async def search_tools(args: dict[str, Any]) -> JsonDict:
+    keyword = str(args.get("keyword", "")).strip()
+    if not keyword:
+        return sdk_error("keyword is required")
+
+    limit = max(1, min(int(args.get("limit", 20)), 100))
+    index = _build_tool_index()
+
+    keyword_lower = keyword.lower()
+    matches: list[dict[str, str]] = [
+        entry for entry in index
+        if keyword_lower in entry["name"].lower() or keyword_lower in entry["description"].lower()
+    ][:limit]
+
+    return sdk_result({
+        "keyword": keyword,
+        "total_tools": len(index),
+        "matches": len(matches),
+        "tools": matches,
+    })
+
+
+@tool(
+    "list_tool_categories",
+    "List all CyberSecSuite tool categories with tool counts and representative names.",
+    {},
+)
+async def list_tool_categories(args: dict[str, Any]) -> JsonDict:
+    index = _build_tool_index()
+
+    # Group by prefix (first word before underscore)
+    categories: dict[str, list[str]] = {}
+    for entry in index:
+        name = entry["name"]
+        prefix = name.split("_")[0] if "_" in name else name
+        categories.setdefault(prefix, []).append(name)
+
+    summary = [
+        {"category": cat, "count": len(tools), "examples": tools[:3]}
+        for cat, tools in sorted(categories.items())
+    ]
+
+    return sdk_result({
+        "total_tools": len(index),
+        "categories": len(summary),
+        "breakdown": summary,
+    })
+
+
+@tool(
+    "describe_tool",
+    "Get the full description and parameter schema for a specific tool by name.",
+    {
+        "tool_name": {"type": "string", "description": "Exact name of the tool to describe"},
+    },
+)
+async def describe_tool(args: dict[str, Any]) -> JsonDict:
+    tool_name = str(args.get("tool_name", "")).strip()
+    if not tool_name:
+        return sdk_error("tool_name is required")
+
+    try:
+        from csmcp.cybersec import _ALL_CYBERSEC_TOOLS
+        all_tools = list(_ALL_CYBERSEC_TOOLS)
+    except ImportError:
+        return sdk_error("Could not load tool registry")
+
+    for t in all_tools:
+        name = getattr(t, "_sdk_tool_name", None) or getattr(t, "name", "")
+        if name == tool_name:
+            desc = getattr(t, "_sdk_description", "")
+            schema = getattr(t, "_sdk_input_schema", {})
+            return sdk_result({
+                "name": name,
+                "description": desc,
+                "input_schema": json.loads(json.dumps(schema, default=str)),
+            })
+
+    # Fuzzy fallback
+    matches = _search_tools(tool_name)
+    if matches:
+        return sdk_error(
+            f"Tool '{tool_name}' not found. Did you mean: {', '.join(matches[:5])}?"
+        )
+    return sdk_error(f"Tool '{tool_name}' not found")
+
+
+ALL_TOOLS = [search_tools, list_tool_categories, describe_tool]
+
+
+
+# === From thinking-mcp ===
+"""Tools extracted from csmcp for thinking-mcp."""
+
+from typing import Any, Dict
+
+# === From thinking_tool.py ===
+"""Extended thinking tool — invoke Claude with thinking enabled for deep forensic analysis.
+
+Uses the Anthropic SDK `thinking={"type":"enabled","budget_tokens":...}` parameter
+to expose Claude's reasoning chain alongside the final answer.
+"""
+from __future__ import annotations
+
+import os
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+
+@tool(
+    "invoke_with_thinking",
+    "Run a forensic query with Claude's extended thinking enabled. Returns reasoning chain + answer.",
+    {
+        "prompt": {"type": "string", "description": "The question or task requiring deep reasoning"},
+        "budget_tokens": {
+            "type": "integer",
+            "description": "Max tokens for thinking (default 8000, min 1024, max 32000)",
+            "default": 8000,
+        },
+        "model": {
+            "type": "string",
+            "description": "Model to use (must support extended thinking, e.g. claude-sonnet-4-5-20250929)",
+            "default": "claude-sonnet-4-5-20250929",
+        },
+        "system": {"type": "string", "description": "Optional system prompt"},
+        "max_tokens": {
+            "type": "integer",
+            "description": "Max output tokens (default 16000)",
+            "default": 16000,
+        },
+        "include_thinking": {
+            "type": "boolean",
+            "description": "Include the thinking blocks in the response (default true)",
+            "default": True,
+        },
+    },
+)
+async def invoke_with_thinking(args: dict[str, Any]) -> JsonDict:
+    prompt = str(args.get("prompt", "")).strip()
+    if not prompt:
+        return sdk_error("prompt is required")
+
+    budget_tokens = max(1024, min(int(args.get("budget_tokens", 8000)), 32000))
+    model = str(args.get("model", "claude-sonnet-4-5-20250929"))
+    system = args.get("system")
+    max_tokens = max(budget_tokens + 1024, int(args.get("max_tokens", 16000)))
+    include_thinking = bool(args.get("include_thinking", True))
+
+    try:
+        import anthropic
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        base_url = os.environ.get("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+        client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
+
+        create_kwargs: dict[str, Any] = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "thinking": {"type": "enabled", "budget_tokens": budget_tokens},
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if system:
+            create_kwargs["system"] = system
+
+        response = client.messages.create(**create_kwargs)
+
+        thinking_blocks: list[str] = []
+        text_blocks: list[str] = []
+
+        for block in response.content:
+            if block.type == "thinking":
+                thinking_blocks.append(block.thinking)
+            elif block.type == "text":
+                text_blocks.append(block.text)
+
+        result: dict[str, Any] = {
+            "answer": "\n".join(text_blocks),
+            "model": model,
+            "budget_tokens": budget_tokens,
+            "input_tokens": response.usage.input_tokens,
+            "output_tokens": response.usage.output_tokens,
+        }
+        if include_thinking:
+            result["thinking"] = "\n\n---\n\n".join(thinking_blocks)
+            result["thinking_blocks"] = len(thinking_blocks)
+
+        return sdk_result(result)
+
+    except Exception as exc:
+        return sdk_error(f"invoke_with_thinking failed: {exc}")
+
+
+@tool(
+    "thinking_stream",
+    "Stream a thinking-enabled response, surfacing reasoning blocks as they arrive.",
+    {
+        "prompt": {"type": "string", "description": "The question or task"},
+        "budget_tokens": {"type": "integer", "default": 8000},
+        "model": {"type": "string", "default": "claude-sonnet-4-5-20250929"},
+        "system": {"type": "string", "description": "Optional system prompt"},
+    },
+)
+async def thinking_stream(args: dict[str, Any]) -> JsonDict:
+    prompt = str(args.get("prompt", "")).strip()
+    if not prompt:
+        return sdk_error("prompt is required")
+
+    budget_tokens = max(1024, min(int(args.get("budget_tokens", 8000)), 32000))
+    model = str(args.get("model", "claude-sonnet-4-5-20250929"))
+    system = args.get("system")
+    max_tokens = budget_tokens + 4096
+
+    try:
+        import anthropic
+
+        api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+        base_url = os.environ.get("ANTHROPIC_BASE_URL", "https://api.anthropic.com")
+        client = anthropic.Anthropic(api_key=api_key, base_url=base_url)
+
+        stream_kwargs: dict[str, Any] = {
+            "model": model,
+            "max_tokens": max_tokens,
+            "thinking": {"type": "enabled", "budget_tokens": budget_tokens},
+            "messages": [{"role": "user", "content": prompt}],
+        }
+        if system:
+            stream_kwargs["system"] = system
+
+        thinking_parts: list[str] = []
+        text_parts: list[str] = []
+
+        with client.messages.stream(**stream_kwargs) as stream:
+            for event in stream:
+                pass  # consume — full content collected in final message
+            final = stream.get_final_message()
+
+        for block in final.content:
+            if block.type == "thinking":
+                thinking_parts.append(block.thinking)
+            elif block.type == "text":
+                text_parts.append(block.text)
+
+        return sdk_result({
+            "answer": "\n".join(text_parts),
+            "thinking": "\n\n---\n\n".join(thinking_parts),
+            "thinking_blocks": len(thinking_parts),
+            "model": model,
+            "budget_tokens": budget_tokens,
+            "input_tokens": final.usage.input_tokens,
+            "output_tokens": final.usage.output_tokens,
+        })
+
+    except Exception as exc:
+        return sdk_error(f"thinking_stream failed: {exc}")
+
+
+ALL_TOOLS = [invoke_with_thinking, thinking_stream]
+
+
+
+# === From agent-mcp ===
+"""Tools extracted from csmcp for agent-mcp."""
+
+from typing import Any, Dict
+
+# === From agents_beta.py ===
+"""Anthropic Agents Beta API — management tools for remote agents, sessions, environments, vaults.
+
+Based on examples/agents.py and examples/agents_comprehensive.py from the Anthropic SDK.
+
+Wraps the beta.agents, beta.sessions, beta.environments, beta.vaults, beta.skills APIs
+so forensic agents can be created and managed programmatically via MCP tools.
+"""
+from __future__ import annotations
+
+import json
+import os
+from typing import Any
+
+from csmcp._sdk_compat import tool
+from csmcp.cybersec.helpers import JsonDict, sdk_result, sdk_error
+
+
+def _get_client():
+    """Return a synchronous Anthropic client for beta API calls."""
+    import anthropic
+    api_key = os.environ.get("ANTHROPIC_API_KEY", "")
+    # Agents beta API must go to the real Anthropic endpoint, not our local proxy
+    return anthropic.Anthropic(api_key=api_key, base_url="https://api.anthropic.com")
+
+
+# ── Environments ──────────────────────────────────────────────────────────────
+
+
+@tool(
+    "agent_env_create",
+    "Create an Anthropic agent environment (isolated execution context).",
+    {
+        "name": {"type": "string", "description": "Environment name (e.g. 'forensics-env-prod')"},
+    },
+)
+async def agent_env_create(args: dict[str, Any]) -> JsonDict:
+    name = str(args.get("name", "cybersec-environment")).strip()
+    try:
+        client = _get_client()
+        env = client.beta.environments.create(name=name)
+        return sdk_result({"environment_id": env.id, "name": name})
+    except Exception as exc:
+        return sdk_error(f"agent_env_create failed: {exc}")
+
+
+# ── Vaults + Credentials ──────────────────────────────────────────────────────
+
+
+@tool(
+    "agent_vault_create",
+    "Create an Anthropic vault for storing MCP server credentials.",
+    {
+        "display_name": {"type": "string", "description": "Human-readable vault name"},
+    },
+)
+async def agent_vault_create(args: dict[str, Any]) -> JsonDict:
+    display_name = str(args.get("display_name", "cybersec-vault")).strip()
+    try:
+        client = _get_client()
+        vault = client.beta.vaults.create(display_name=display_name)
+        return sdk_result({"vault_id": vault.id, "display_name": display_name})
+    except Exception as exc:
+        return sdk_error(f"agent_vault_create failed: {exc}")
+
+
+@tool(
+    "agent_vault_add_credential",
+    "Store an MCP server credential (static bearer token) in an existing vault.",
+    {
+        "vault_id": {"type": "string", "description": "Vault ID from agent_vault_create"},
+        "display_name": {"type": "string", "description": "Credential label"},
+        "mcp_server_url": {"type": "string", "description": "The MCP server URL"},
+        "token": {"type": "string", "description": "Bearer token for the MCP server"},
+        "auth_type": {
+            "type": "string",
+            "description": "Authentication type (default: static_bearer)",
+            "default": "static_bearer",
+        },
+    },
+)
+async def agent_vault_add_credential(args: dict[str, Any]) -> JsonDict:
+    vault_id = str(args.get("vault_id", "")).strip()
+    display_name = str(args.get("display_name", "mcp-credential")).strip()
+    mcp_server_url = str(args.get("mcp_server_url", "")).strip()
+    token = str(args.get("token", "")).strip()
+
+    if not vault_id:
+        return sdk_error("vault_id is required")
+    if not mcp_server_url:
+        return sdk_error("mcp_server_url is required")
+    if not token:
+        return sdk_error("token is required")
+
+    try:
+        client = _get_client()
+        cred = client.beta.vaults.credentials.create(
+            vault_id,
+            display_name=display_name,
+            auth={"type": "static_bearer", "mcp_server_url": mcp_server_url, "token": token},
+        )
+        return sdk_result({"credential_id": cred.id, "vault_id": vault_id, "display_name": display_name})
+    except Exception as exc:
+        return sdk_error(f"agent_vault_add_credential failed: {exc}")
+
+
+# ── Skills ────────────────────────────────────────────────────────────────────
+
+
+@tool(
+    "agent_skill_upload",
+    "Upload a SKILL.md file to Anthropic as a custom agent skill.",
+    {
+        "skill_path": {
+            "type": "string",
+            "description": "Absolute path to a SKILL.md file to upload",
+        },
+        "display_title": {
+            "type": "string",
+            "description": "Display title for the skill (must be unique; auto-generated if omitted)",
+        },
+    },
+)
+async def agent_skill_upload(args: dict[str, Any]) -> JsonDict:
+    from pathlib import Path
+    import time
+
+    skill_path = str(args.get("skill_path", "")).strip()
+    if not skill_path:
+        return sdk_error("skill_path is required")
+
+    path = Path(skill_path)
+    if not path.exists():
+        return sdk_error(f"File not found: {skill_path}")
+    if not path.name.endswith(".md"):
+        return sdk_error("skill_path must point to a .md file")
+
+    display_title = str(args.get("display_title", f"cybersec-skill-{int(time.time() * 1000)}"))
+
+    try:
+        client = _get_client()
+        with path.open("rb") as fh:
+            skill = client.beta.skills.create(
+                display_title=display_title,
+                files=[(path.name, fh, "text/markdown")],
+            )
+        return sdk_result({"skill_id": skill.id, "display_title": display_title, "file": path.name})
+    except Exception as exc:
+        return sdk_error(f"agent_skill_upload failed: {exc}")
+
+
+# ── Agents ────────────────────────────────────────────────────────────────────
+
+
+@tool(
+    "agent_remote_create",
+    "Create a remote Anthropic agent with tools, MCP servers, and skills.",
+    {
+        "name": {"type": "string", "description": "Agent name (e.g. 'forensics-analyst')"},
+        "model": {"type": "string", "description": "Model ID", "default": "claude-sonnet-4-6"},
+        "system": {"type": "string", "description": "System prompt"},
+        "tools_config": {
+            "type": "string",
+            "description": (
+                "JSON array of tool configs. Examples: "
+                '[{"type":"agent_toolset_20260401"}], '
+                '[{"type":"mcp_toolset","mcp_server_name":"github"}], '
+                '[{"type":"custom","name":"get_iocs","description":"...","input_schema":{...}}]'
+            ),
+        },
+        "mcp_servers": {
+            "type": "string",
+            "description": 'JSON array of MCP server configs, e.g. [{"type":"url","name":"github","url":"https://..."}]',
+        },
+    },
+)
+async def agent_remote_create(args: dict[str, Any]) -> JsonDict:
+    name = str(args.get("name", "cybersec-agent")).strip()
+    model = str(args.get("model", "claude-sonnet-4-6"))
+    system = args.get("system")
+
+    tools_raw = args.get("tools_config")
+    mcp_servers_raw = args.get("mcp_servers")
+
+    try:
+        tools_config = json.loads(tools_raw) if tools_raw else [{"type": "agent_toolset_20260401"}]
+    except json.JSONDecodeError:
+        return sdk_error("tools_config must be valid JSON")
+
+    try:
+        mcp_servers = json.loads(mcp_servers_raw) if mcp_servers_raw else []
+    except json.JSONDecodeError:
+        return sdk_error("mcp_servers must be valid JSON")
+
+    try:
+        client = _get_client()
+        create_kwargs: dict[str, Any] = {
+            "name": name,
+            "model": model,
+            "tools": tools_config,
+        }
+        if system:
+            create_kwargs["system"] = system
+        if mcp_servers:
+            create_kwargs["mcp_servers"] = mcp_servers
+
+        agent = client.beta.agents.create(**create_kwargs)
+        return sdk_result({
+            "agent_id": agent.id,
+            "version": agent.version,
+            "name": name,
+            "model": model,
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_remote_create failed: {exc}")
+
+
+@tool(
+    "agent_remote_add_skills",
+    "Add custom or Anthropic built-in skills to an existing remote agent (bumps version).",
+    {
+        "agent_id": {"type": "string", "description": "Agent ID from agent_remote_create"},
+        "version": {"type": "integer", "description": "Current agent version"},
+        "custom_skill_ids": {
+            "type": "string",
+            "description": "JSON array of custom skill IDs from agent_skill_upload",
+        },
+        "anthropic_skill_ids": {
+            "type": "string",
+            "description": 'JSON array of Anthropic built-in skill IDs, e.g. ["xlsx","pdf"]',
+        },
+    },
+)
+async def agent_remote_add_skills(args: dict[str, Any]) -> JsonDict:
+    agent_id = str(args.get("agent_id", "")).strip()
+    version = int(args.get("version", 1))
+    custom_ids_raw = args.get("custom_skill_ids", "[]")
+    anthropic_ids_raw = args.get("anthropic_skill_ids", "[]")
+
+    if not agent_id:
+        return sdk_error("agent_id is required")
+
+    try:
+        custom_ids = json.loads(custom_ids_raw) if custom_ids_raw else []
+        anthropic_ids = json.loads(anthropic_ids_raw) if anthropic_ids_raw else []
+    except json.JSONDecodeError:
+        return sdk_error("skill IDs must be valid JSON arrays")
+
+    skills: list[dict] = []
+    for sid in custom_ids:
+        skills.append({"type": "custom", "skill_id": sid})
+    for sid in anthropic_ids:
+        skills.append({"type": "anthropic", "skill_id": sid})
+
+    if not skills:
+        return sdk_error("At least one skill ID must be provided")
+
+    try:
+        client = _get_client()
+        updated = client.beta.agents.update(agent_id, version=version, skills=skills)
+        return sdk_result({
+            "agent_id": updated.id,
+            "new_version": updated.version,
+            "skills_added": len(skills),
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_remote_add_skills failed: {exc}")
+
+
+@tool(
+    "agent_versions_list",
+    "List all versions of a remote Anthropic agent.",
+    {
+        "agent_id": {"type": "string", "description": "Agent ID"},
+    },
+)
+async def agent_versions_list(args: dict[str, Any]) -> JsonDict:
+    agent_id = str(args.get("agent_id", "")).strip()
+    if not agent_id:
+        return sdk_error("agent_id is required")
+    try:
+        client = _get_client()
+        versions = client.beta.agents.versions.list(agent_id)
+        return sdk_result({
+            "agent_id": agent_id,
+            "versions": [{"version": v.version, "created_at": str(v.created_at)} for v in versions.data],
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_versions_list failed: {exc}")
+
+
+# ── Sessions ──────────────────────────────────────────────────────────────────
+
+
+@tool(
+    "agent_session_create",
+    "Create a session for a remote agent pinned to a specific version.",
+    {
+        "environment_id": {"type": "string", "description": "Environment ID from agent_env_create"},
+        "agent_id": {"type": "string", "description": "Agent ID"},
+        "agent_version": {"type": "integer", "description": "Agent version to pin to"},
+        "vault_ids": {
+            "type": "string",
+            "description": "JSON array of vault IDs to make available to the session",
+        },
+        "file_resources": {
+            "type": "string",
+            "description": (
+                "JSON array of file resources to mount: "
+                '[{"file_id":"file_abc","mount_path":"evidence.pcap"}]'
+            ),
+        },
+    },
+)
+async def agent_session_create(args: dict[str, Any]) -> JsonDict:
+    env_id = str(args.get("environment_id", "")).strip()
+    agent_id = str(args.get("agent_id", "")).strip()
+    agent_version = int(args.get("agent_version", 1))
+
+    if not env_id:
+        return sdk_error("environment_id is required")
+    if not agent_id:
+        return sdk_error("agent_id is required")
+
+    vault_ids_raw = args.get("vault_ids", "[]")
+    file_resources_raw = args.get("file_resources", "[]")
+
+    try:
+        vault_ids = json.loads(vault_ids_raw) if vault_ids_raw else []
+        file_resources = json.loads(file_resources_raw) if file_resources_raw else []
+    except json.JSONDecodeError:
+        return sdk_error("vault_ids and file_resources must be valid JSON arrays")
+
+    resources = [{"type": "file", **r} for r in file_resources]
+
+    try:
+        client = _get_client()
+        create_kwargs: dict[str, Any] = {
+            "environment_id": env_id,
+            "agent": {"type": "agent", "id": agent_id, "version": agent_version},
+        }
+        if vault_ids:
+            create_kwargs["vault_ids"] = vault_ids
+        if resources:
+            create_kwargs["resources"] = resources
+
+        session = client.beta.sessions.create(**create_kwargs)
+        return sdk_result({
+            "session_id": session.id,
+            "agent_id": agent_id,
+            "environment_id": env_id,
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_session_create failed: {exc}")
+
+
+@tool(
+    "agent_session_run",
+    "Send a prompt to a remote agent session and stream/collect the response.",
+    {
+        "session_id": {"type": "string", "description": "Session ID from agent_session_create"},
+        "prompt": {"type": "string", "description": "User message to send"},
+        "custom_tool_results": {
+            "type": "string",
+            "description": (
+                "JSON map of pending custom tool results: "
+                '{"custom_tool_use_id": "result_text"}'
+            ),
+        },
+    },
+)
+async def agent_session_run(args: dict[str, Any]) -> JsonDict:
+    session_id = str(args.get("session_id", "")).strip()
+    prompt = str(args.get("prompt", "")).strip()
+    custom_results_raw = args.get("custom_tool_results", "{}")
+
+    if not session_id:
+        return sdk_error("session_id is required")
+    if not prompt:
+        return sdk_error("prompt is required")
+
+    try:
+        custom_results: dict[str, str] = json.loads(custom_results_raw) if custom_results_raw else {}
+    except json.JSONDecodeError:
+        return sdk_error("custom_tool_results must be valid JSON")
+
+    try:
+        client = _get_client()
+
+        client.beta.sessions.events.send(
+            session_id,
+            events=[{"type": "user.message", "content": [{"type": "text", "text": prompt}]}],
+        )
+
+        collected_text: list[str] = []
+        custom_tool_calls: list[dict] = []
+        stop_reason: str | None = None
+
+        with client.beta.sessions.events.stream(session_id) as stream:
+            for event in stream:
+                if event.type == "agent.text_delta":
+                    collected_text.append(getattr(event, "text", ""))
+                elif event.type == "agent.custom_tool_use":
+                    custom_tool_calls.append({
+                        "tool_use_id": event.id,
+                        "name": event.name,
+                        "input": getattr(event, "input", {}),
+                    })
+                    # Answer any pre-provided results
+                    if event.id in custom_results:
+                        client.beta.sessions.events.send(
+                            session_id,
+                            events=[{
+                                "type": "user.custom_tool_result",
+                                "custom_tool_use_id": event.id,
+                                "content": [{"type": "text", "text": custom_results[event.id]}],
+                            }],
+                        )
+                elif event.type == "session.status_idle":
+                    reason = getattr(event, "stop_reason", None)
+                    stop_reason = getattr(reason, "type", "end_turn") if reason else "end_turn"
+                    break
+
+        return sdk_result({
+            "session_id": session_id,
+            "response": "".join(collected_text),
+            "stop_reason": stop_reason,
+            "pending_tool_calls": [tc for tc in custom_tool_calls if tc["tool_use_id"] not in custom_results],
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_session_run failed: {exc}")
+
+
+@tool(
+    "agent_file_upload",
+    "Upload a file to Anthropic beta Files API for use as a session resource.",
+    {
+        "file_path": {"type": "string", "description": "Absolute path to the file to upload"},
+    },
+)
+async def agent_file_upload(args: dict[str, Any]) -> JsonDict:
+    from pathlib import Path
+
+    file_path = str(args.get("file_path", "")).strip()
+    if not file_path:
+        return sdk_error("file_path is required")
+
+    path = Path(file_path)
+    if not path.exists():
+        return sdk_error(f"File not found: {file_path}")
+
+    try:
+        client = _get_client()
+        uploaded = client.beta.files.upload(file=path)
+        return sdk_result({
+            "file_id": uploaded.id,
+            "file_name": path.name,
+            "size_bytes": path.stat().st_size,
+        })
+    except Exception as exc:
+        return sdk_error(f"agent_file_upload failed: {exc}")
+
+
+ALL_TOOLS = [
+    agent_env_create,
+    agent_vault_create,
+    agent_vault_add_credential,
+    agent_skill_upload,
+    agent_remote_create,
+    agent_remote_add_skills,
+    agent_versions_list,
+    agent_session_create,
+    agent_session_run,
+    agent_file_upload,
+]
+

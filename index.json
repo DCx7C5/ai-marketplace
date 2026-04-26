@@ -10,7 +10,7 @@
       "status": "available",
       "pythonPackage": "csscore-mcp",
       "description": "Database, cases, findings, intelligence, vault",
-      "modules": 15
+      "modules": 22
     },
     {
       "id": "playwright-mcp",
@@ -40,75 +40,12 @@
       "modules": 1
     },
     {
-      "id": "skill-manager-mcp",
-      "name": "Skill Manager",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "skill-manager-mcp",
-      "description": "Skill management",
-      "modules": 1
-    },
-    {
       "id": "memory-mcp",
       "name": "AI Memory",
       "version": "1.0.0",
       "status": "available",
       "pythonPackage": "memory-mcp",
       "description": "Vector memory storage",
-      "modules": 1
-    },
-    {
-      "id": "agent-mcp",
-      "name": "Agent Management",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "agent-mcp",
-      "description": "Agent operations",
-      "modules": 1
-    },
-    {
-      "id": "structured-extract-mcp",
-      "name": "Structured Extract",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "structured-extract-mcp",
-      "description": "JSON extraction",
-      "modules": 1
-    },
-    {
-      "id": "thinking-mcp",
-      "name": "Thinking Tool",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "thinking-mcp",
-      "description": "Extended thinking",
-      "modules": 1
-    },
-    {
-      "id": "tool-search-mcp",
-      "name": "Tool Search",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "tool-search-mcp",
-      "description": "Tool discovery",
-      "modules": 1
-    },
-    {
-      "id": "quo-pricing-mcp",
-      "name": "Quota & Pricing",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "quo-pricing-mcp",
-      "description": "Cost tracking",
-      "modules": 1
-    },
-    {
-      "id": "web-search-mcp",
-      "name": "Web Search",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "web-search-mcp",
-      "description": "Internet search",
       "modules": 1
     },
     {
