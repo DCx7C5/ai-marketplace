@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "canvas-mcp"
+version = "1.0.0"
+description = "canvas-mcp"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "CyberSecSuite", email = "dev@cybersecsuite.local" }
+]
+
+dependencies = [
+    "fastmcp>=3.1.0",
+    "pydantic>=2.0",
+]
+
+[tool.uv]
+package = true

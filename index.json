@@ -1,383 +1,142 @@
 {
   "version": "1.0",
-  "generated": "2026-04-26T23:15:00Z",
-  "marketplaceUrl": "https://ai-marketplace.cybersecsuite.local",
+  "generated": "2026-04-26T23:10:00Z",
+  "marketplace": "https://ai-marketplace.cybersecsuite.local",
   "mcps": [
     {
-      "id": "csscore",
-      "type": "mcp",
+      "id": "csscore-mcp",
       "name": "CyberSecSuite Core MCP",
       "version": "1.0.0",
       "status": "available",
-      "tools": 5,
       "pythonPackage": "csscore-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [],
-      "entryPoint": "mcp_csscore.__main__:main"
+      "description": "Database, cases, findings, intelligence, vault",
+      "modules": 10
     },
     {
-      "id": "apt-forensics",
-      "type": "mcp",
-      "name": "APT Forensics MCP",
+      "id": "playwright-mcp",
+      "name": "Playwright Browser Automation",
       "version": "1.0.0",
       "status": "available",
-      "tools": 14,
-      "pythonPackage": "apt-forensics-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_apt_forensics.__main__:main"
+      "pythonPackage": "playwright-mcp",
+      "description": "Headless browser control",
+      "modules": 1
     },
     {
-      "id": "network-reconnaissance",
-      "type": "mcp",
-      "name": "Network Reconnaissance MCP",
+      "id": "dystopian-crypto-mcp",
+      "name": "Dystopian Crypto",
       "version": "1.0.0",
       "status": "available",
-      "tools": 9,
-      "pythonPackage": "network-reconnaissance-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_network_reconnaissance.__main__:main"
-    },
-    {
-      "id": "threat-actor-intelligence",
-      "type": "mcp",
-      "name": "Threat Actor Intelligence MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 14,
-      "pythonPackage": "threat-actor-intelligence-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_threat_actor_intelligence.__main__:main"
-    },
-    {
-      "id": "database-forensics",
-      "type": "mcp",
-      "name": "Database Forensics MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 15,
-      "pythonPackage": "database-forensics-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_database_forensics.__main__:main"
-    },
-    {
-      "id": "session-context",
-      "type": "mcp",
-      "name": "Session Context MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 7,
-      "pythonPackage": "session-context-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_session_context.__main__:main"
-    },
-    {
-      "id": "incident-response",
-      "type": "mcp",
-      "name": "Incident Response MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 6,
-      "pythonPackage": "incident-response-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_incident_response.__main__:main"
-    },
-    {
-      "id": "semantic-memory",
-      "type": "mcp",
-      "name": "Semantic Memory MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 5,
-      "pythonPackage": "semantic-memory-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_semantic_memory.__main__:main"
-    },
-    {
-      "id": "browser-control",
-      "type": "mcp",
-      "name": "Browser Control MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 6,
-      "pythonPackage": "browser-control-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_browser_control.__main__:main"
-    },
-    {
-      "id": "data-pipeline",
-      "type": "mcp",
-      "name": "Data Pipeline MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 6,
-      "pythonPackage": "data-pipeline-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_data_pipeline.__main__:main"
-    },
-    {
-      "id": "workflow-automation",
-      "type": "mcp",
-      "name": "Workflow Automation MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 6,
-      "pythonPackage": "workflow-automation-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_workflow_automation.__main__:main"
-    },
-    {
-      "id": "network-telemetry",
-      "type": "mcp",
-      "name": "Network Telemetry MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 6,
-      "pythonPackage": "network-telemetry-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_network_telemetry.__main__:main"
-    },
-    {
-      "id": "threat-actor-profiling",
-      "type": "mcp",
-      "name": "Threat Actor Profiling MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 12,
-      "pythonPackage": "threat-actor-profiling-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_threat_actor_profiling.__main__:main"
-    },
-    {
-      "id": "dystopian-crypto",
-      "type": "mcp",
-      "name": "Dystopian Crypto MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 12,
       "pythonPackage": "dystopian-crypto-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_dystopian_crypto.__main__:main"
+      "description": "Cryptographic operations",
+      "modules": 1
     },
     {
-      "id": "playwright-automation",
-      "type": "mcp",
-      "name": "Playwright Automation MCP",
+      "id": "canvas-mcp",
+      "name": "Canvas Visualization",
       "version": "1.0.0",
       "status": "available",
-      "tools": 13,
-      "pythonPackage": "playwright-automation-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_playwright_automation.__main__:main"
+      "pythonPackage": "canvas-mcp",
+      "description": "Forensic canvas creation",
+      "modules": 1
     },
     {
-      "id": "log-analysis",
-      "type": "mcp",
-      "name": "Log Analysis MCP",
+      "id": "skill-manager-mcp",
+      "name": "Skill Manager",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "log-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_log_analysis.__main__:main"
+      "pythonPackage": "skill-manager-mcp",
+      "description": "Skill management",
+      "modules": 1
     },
     {
-      "id": "filesystem-forensics",
-      "type": "mcp",
-      "name": "Filesystem Forensics MCP",
+      "id": "memory-mcp",
+      "name": "AI Memory",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "filesystem-forensics-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_filesystem_forensics.__main__:main"
+      "pythonPackage": "memory-mcp",
+      "description": "Vector memory storage",
+      "modules": 1
     },
     {
-      "id": "api-security",
-      "type": "mcp",
-      "name": "API Security MCP",
+      "id": "proxy-mcp",
+      "name": "Proxy Services",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "api-security-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_api_security.__main__:main"
+      "pythonPackage": "proxy-mcp",
+      "description": "LLM proxy & provider management",
+      "modules": 1
     },
     {
-      "id": "code-analysis",
-      "type": "mcp",
-      "name": "Code Analysis MCP",
+      "id": "agent-mcp",
+      "name": "Agent Management",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "code-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_code_analysis.__main__:main"
+      "pythonPackage": "agent-mcp",
+      "description": "Agent operations",
+      "modules": 1
     },
     {
-      "id": "osint-recon",
-      "type": "mcp",
-      "name": "OSINT Reconnaissance MCP",
+      "id": "structured-extract-mcp",
+      "name": "Structured Extract",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "osint-recon-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_osint_recon.__main__:main"
+      "pythonPackage": "structured-extract-mcp",
+      "description": "JSON extraction",
+      "modules": 1
     },
     {
-      "id": "cloud-forensics",
-      "type": "mcp",
-      "name": "Cloud Forensics MCP",
+      "id": "thinking-mcp",
+      "name": "Thinking Tool",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "cloud-forensics-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_cloud_forensics.__main__:main"
+      "pythonPackage": "thinking-mcp",
+      "description": "Extended thinking",
+      "modules": 1
     },
     {
-      "id": "encoding-analysis",
-      "type": "mcp",
-      "name": "Encoding Analysis MCP",
+      "id": "tool-search-mcp",
+      "name": "Tool Search",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "encoding-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_encoding_analysis.__main__:main"
+      "pythonPackage": "tool-search-mcp",
+      "description": "Tool discovery",
+      "modules": 1
     },
     {
-      "id": "memory-analysis",
-      "type": "mcp",
-      "name": "Memory Analysis MCP",
+      "id": "tool-toggle-mcp",
+      "name": "Tool Toggle",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "memory-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_memory_analysis.__main__:main"
+      "pythonPackage": "tool-toggle-mcp",
+      "description": "Feature flags",
+      "modules": 1
     },
     {
-      "id": "binary-analysis",
-      "type": "mcp",
-      "name": "Binary Analysis MCP",
+      "id": "quo-pricing-mcp",
+      "name": "Quota & Pricing",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "binary-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_binary_analysis.__main__:main"
+      "pythonPackage": "quo-pricing-mcp",
+      "description": "Cost tracking",
+      "modules": 1
     },
     {
-      "id": "email-analysis",
-      "type": "mcp",
-      "name": "Email Analysis MCP",
+      "id": "web-search-mcp",
+      "name": "Web Search",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "email-analysis-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_email_analysis.__main__:main"
+      "pythonPackage": "web-search-mcp",
+      "description": "Internet search",
+      "modules": 1
     },
     {
-      "id": "red-team-ops",
-      "type": "mcp",
-      "name": "Red Team Operations MCP",
+      "id": "template-mcp",
+      "name": "Template Engine",
       "version": "1.0.0",
       "status": "available",
-      "tools": 8,
-      "pythonPackage": "red-team-ops-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_red_team_ops.__main__:main"
-    },
-    {
-      "id": "artifact-extraction",
-      "type": "mcp",
-      "name": "Artifact Extraction MCP",
-      "version": "1.0.0",
-      "status": "available",
-      "tools": 8,
-      "pythonPackage": "artifact-extraction-mcp",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore"
-      ],
-      "entryPoint": "mcp_artifact_extraction.__main__:main"
+      "pythonPackage": "template-mcp",
+      "description": "Template rendering",
+      "modules": 1
     }
   ]
 }

@@ -1,3 +1,0 @@
-include README.md
-include LICENSE
-include src/mcp_csscore/py.typed

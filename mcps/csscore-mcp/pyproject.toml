@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "csscore-mcp"
 version = "1.0.0"
-description = "CyberSecSuite Core MCP - Foundation for all externalized MCPs"
+description = "csscore-mcp"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
@@ -14,69 +14,9 @@ authors = [
 ]
 
 dependencies = [
-    # MCP SDK - CRITICAL: FastMCP protocol implementation
     "fastmcp>=3.1.0",
-    # Data validation
     "pydantic>=2.0",
-    "pydantic-settings>=2.0",
-    # Type hints backport
-    "typing-extensions>=4.0",
 ]
-
-[project.scripts]
-mcp-csscore = "mcp_csscore.__main__:main"
 
 [tool.uv]
 package = true
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/mcp_csscore"]
-
-[dependency-groups]
-dev = [
-    # Testing
-    "pytest>=7.0",
-    "pytest-asyncio>=0.21",
-    "pytest-cov>=4.0",
-    # Linting & formatting
-    "ruff>=0.1.0",
-    "black>=23.0",
-    # Type checking
-    "mypy>=1.0",
-]
-
-[tool.ruff]
-line-length = 120
-target-version = "py311"
-src = ["src"]
-select = ["E", "F", "W", "B", "I"]
-ignore = ["E501", "E203"]
-
-[tool.ruff.lint]
-preview = true
-
-[tool.black]
-line-length = 120
-target-version = ["py311"]
-
-[tool.mypy]
-python_version = "3.11"
-warn_return_any = true
-warn_unused_configs = true
-disallow_untyped_defs = true
-disallow_incomplete_defs = true
-check_untyped_defs = true
-no_implicit_optional = true
-warn_redundant_casts = true
-warn_unused_ignores = true
-warn_no_return = true
-pretty = true
-
-[tool.pytest.ini_options]
-asyncio_mode = "auto"
-testpaths = ["tests"]
-pythonpath = ["src"]
-addopts = "--cov=mcp_csscore --cov-report=term-missing --cov-fail-under=100"
-
-[tool.coverage.run]
-omit = ["src/mcp_csscore/__main__.py"]
