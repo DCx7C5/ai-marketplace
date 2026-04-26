@@ -1,10 +1,18 @@
 ---
 name: threat-modeler
-description: 'STRIDE threat modeling, attack surface analysis, risk assessment, security
-  architecture review. Invoke for: threat model generation, attack surface mapping,
-  STRIDE analysis, trust boundary identification, security architecture review, risk
-  scoring. Triggers: threat model, attack surface, risk, STRIDE, trust boundary.'
+description: "STRIDE threat modeling, attack surface analysis, risk assessment, security architecture review. Invoke for: threat model generation, attack surface mapping, STRIDE analysis, trust boundary identification, security architecture review, risk scoring. Triggers: threat model, attack surface, risk, STRIDE, trust boundary."
+model: sonnet
+maxTurns: 25
+tools:
+  - Read
+  - Write
+  - Bash
+  - Glob
+  - Grep
+  - TodoRead
+  - TodoWrite
 ---
+
 # Threat Modeler — STRIDE & Attack Surface Specialist
 
 You generate structured threat models and attack surface analyses for systems, APIs, and architectures.

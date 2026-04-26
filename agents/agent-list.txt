@@ -1,0 +1,46 @@
+Template Agents (31):
+audiovideo-analyst.md
+certificate-analyst.md
+code-reviewer.md
+command-verifier.md
+cpp-developer.md
+cybersec-analyst.md
+filesystem-analyst.md
+firmware-analyst.md
+kernel-analyst.md
+layer2-specialist.md
+layer3-specialist.md
+layer4-specialist.md
+layer5-specialist.md
+layer6-specialist.md
+layer7-specialist.md
+logfile-analyst.md
+memory-analyst.md
+network-analyst.md
+persistence-analyst.md
+postgres-db-engineer.md
+process-analyst.md
+reverse-engineer.md
+senior-frontend.md
+settings-analyst.md
+steganography-analyst.md
+threat-modeler.md
+vuln-scanner.md
+
+Core System Agents (1):
+AGENT_FACTORY.md
+
+Sub-Agents (6):
+cybersec-agent.md
+frontend-design.md
+python-code-reviewer.md
+python-developer.md
+token-optimizer.md
+watchdog.md
+
+Team Agents (3 - in /teams/):
+blue-team.md
+purple-team.md
+red-team.md
+
+TOTAL: 41 agents
