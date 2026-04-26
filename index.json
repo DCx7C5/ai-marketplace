@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated": "2026-04-26T22:56:00Z",
+  "generated": "2026-04-26T23:00:00Z",
   "marketplaceUrl": "https://ai-marketplace.cybersecsuite.local",
   "mcps": [
     {
@@ -210,6 +210,62 @@
         "csscore"
       ],
       "entryPoint": "mcp_playwright_automation.__main__:main"
+    },
+    {
+      "id": "log-analysis",
+      "type": "mcp",
+      "name": "Log Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-log-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_log_analysis.__main__:main"
+    },
+    {
+      "id": "filesystem-forensics",
+      "type": "mcp",
+      "name": "Filesystem Forensics MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-filesystem-forensics",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_filesystem_forensics.__main__:main"
+    },
+    {
+      "id": "api-security",
+      "type": "mcp",
+      "name": "API Security MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-api-security",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_api_security.__main__:main"
+    },
+    {
+      "id": "code-analysis",
+      "type": "mcp",
+      "name": "Code Analysis MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 8,
+      "pythonPackage": "mcp-code-analysis",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_code_analysis.__main__:main"
     }
   ]
 }
