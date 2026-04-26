@@ -533,6 +533,72 @@
         "evidence-synthesis",
         "timeline-visualization"
       ]
+    },
+    {
+      "id": "session-management",
+      "type": "mcp",
+      "name": "Session Management MCP",
+      "description": "Session lifecycle management, context tracking, token rate limiting, and session state serialization",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "session",
+      "keywords": [
+        "session",
+        "context",
+        "token",
+        "state"
+      ],
+      "tools": 7,
+      "entryPoint": "mcp_session_management.__main__:main",
+      "pythonPackage": "mcp-session-management",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
+    },
+    {
+      "id": "incident-management",
+      "type": "mcp",
+      "name": "Incident Management MCP",
+      "description": "Incident lifecycle management, playbook execution, escalation handling, and incident notifications",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "incident",
+      "keywords": [
+        "incident",
+        "playbook",
+        "escalation",
+        "notification"
+      ],
+      "tools": 6,
+      "entryPoint": "mcp_incident_management.__main__:main",
+      "pythonPackage": "mcp-incident-management",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
+    },
+    {
+      "id": "ai-memory",
+      "type": "mcp",
+      "name": "AI Memory MCP",
+      "description": "Vector-based memory indexing, semantic retrieval, embedding generation, and memory consolidation",
+      "version": "1.0.0",
+      "status": "available",
+      "category": "ai",
+      "keywords": [
+        "memory",
+        "embedding",
+        "retrieval",
+        "vector"
+      ],
+      "tools": 5,
+      "entryPoint": "mcp_ai_memory.__main__:main",
+      "pythonPackage": "mcp-ai-memory",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ]
     }
   ],
   "categories": [

@@ -1,0 +1,15 @@
+# session-management MCP
+
+**Version:** 1.0.0  
+**Status:** Phase 3 MCP  
+**Dependencies:** csscore==1.0.0
+
+## Installation
+
+```bash
+uv pip install mcp-session-management
+```
+
+## Tools
+
+7 specialized tools for session-management.
