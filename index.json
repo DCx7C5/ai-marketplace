@@ -1,758 +1,215 @@
 {
   "version": "1.0",
-  "generated": "2026-04-26T22:00:00Z",
+  "generated": "2026-04-26T22:56:00Z",
   "marketplaceUrl": "https://ai-marketplace.cybersecsuite.local",
   "mcps": [
     {
       "id": "csscore",
       "type": "mcp",
       "name": "CyberSecSuite Core MCP",
-      "description": "Foundation MCP providing essential utilities for all externalized MCPs: marketplace registry, asset discovery, configuration management, logging, and scope tracking",
       "version": "1.0.0",
       "status": "available",
-      "category": "core",
-      "keywords": [
-        "foundation",
-        "core",
-        "registry",
-        "scope",
-        "logging"
-      ],
       "tools": 5,
-      "entryPoint": "mcp_csscore.__main__:main",
       "pythonPackage": "mcp-csscore",
       "pythonVersion": ">=3.11",
       "dependencies": [],
-      "repository": "https://github.com/cybersecsuite/ai-marketplace/tree/main/mcps/csscore",
-      "documentation": "https://github.com/cybersecsuite/ai-marketplace/blob/main/mcps/csscore/README.md",
-      "installCommand": "uv pip install mcp-csscore"
+      "entryPoint": "mcp_csscore.__main__:main"
     },
     {
-      "id": "forensic-vault",
+      "id": "apt-forensics",
       "type": "mcp",
-      "name": "Forensic Vault MCP",
-      "description": "Forensic investigation tools for APT analysis, IOC extraction, and case management with cryptographic integrity verification",
+      "name": "APT Forensics MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "forensics",
-      "keywords": [
-        "forensics",
-        "investigation",
-        "ioc",
-        "malware",
-        "evidence",
-        "chain-of-custody"
-      ],
       "tools": 14,
-      "entryPoint": "mcp_forensic_vault.__main__:main",
-      "pythonPackage": "mcp-forensic-vault",
+      "pythonPackage": "mcp-apt-forensics",
       "pythonVersion": ">=3.11",
       "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "tortoise-orm>=0.21.0",
-        "cryptography>=41.0.0"
+        "csscore"
       ],
-      "imports": [
-        "mcp_forensic_vault",
-        "mcp_forensic_vault.tools",
-        "mcp_forensic_vault.models"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/forensic-vault",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "forensics",
-        "threat-intel",
-        "incident-response",
-        "apt-analysis"
-      ]
+      "entryPoint": "mcp_apt_forensics.__main__:main"
     },
     {
-      "id": "network-layers",
+      "id": "network-reconnaissance",
       "type": "mcp",
-      "name": "Network Layers MCP",
-      "description": "Network protocol analysis, packet capture interpretation, and OSI layer diagnostics for incident investigation",
+      "name": "Network Reconnaissance MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "network",
-      "keywords": [
-        "networking",
-        "protocols",
-        "pcap",
-        "tcp-ip",
-        "packet-analysis"
-      ],
       "tools": 9,
-      "entryPoint": "mcp_network_layers.__main__:main",
-      "pythonPackage": "mcp-network-layers",
+      "pythonPackage": "mcp-network-reconnaissance",
       "pythonVersion": ">=3.11",
       "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "scapy>=2.5.0",
-        "dpkt>=1.9.7"
+        "csscore"
       ],
-      "imports": [
-        "mcp_network_layers",
-        "mcp_network_layers.tools",
-        "mcp_network_layers.parsers"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/network-layers",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "networking",
-        "packet-analysis",
-        "traffic-investigation",
-        "protocol-forensics"
-      ]
+      "entryPoint": "mcp_network_reconnaissance.__main__:main"
     },
     {
-      "id": "threat-intelligence",
+      "id": "threat-actor-intelligence",
       "type": "mcp",
-      "name": "Threat Intelligence MCP",
-      "description": "Comprehensive threat intelligence integration with CVE lookups, IOC enrichment, MITRE ATT&CK mapping, and APT tracking",
+      "name": "Threat Actor Intelligence MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "threat-intelligence",
-      "keywords": [
-        "threat-intel",
-        "cve",
-        "ioc",
-        "mitre",
-        "apt",
-        "malware-analysis"
-      ],
       "tools": 14,
-      "entryPoint": "mcp_threat_intelligence.__main__:main",
-      "pythonPackage": "mcp-threat-intelligence",
+      "pythonPackage": "mcp-threat-actor-intelligence",
       "pythonVersion": ">=3.11",
       "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "aiohttp>=3.8.0",
-        "httpx>=0.24.0"
+        "csscore"
       ],
-      "imports": [
-        "mcp_threat_intelligence",
-        "mcp_threat_intelligence.tools",
-        "mcp_threat_intelligence.integrations"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/threat-intelligence",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "threat-intel",
-        "cve-analysis",
-        "ioc-enrichment",
-        "apt-tracking",
-        "mitre-mapping"
-      ]
+      "entryPoint": "mcp_threat_actor_intelligence.__main__:main"
     },
     {
-      "id": "database-tools",
+      "id": "database-forensics",
       "type": "mcp",
-      "name": "Database Tools MCP",
-      "description": "Database forensics, query optimization analysis, schema inspection, and forensic data recovery from SQL/NoSQL databases",
+      "name": "Database Forensics MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "database",
-      "keywords": [
-        "database",
-        "sql",
-        "nosql",
-        "forensics",
-        "query-analysis",
-        "data-recovery"
-      ],
       "tools": 15,
-      "entryPoint": "mcp_database_tools.__main__:main",
-      "pythonPackage": "mcp-database-tools",
+      "pythonPackage": "mcp-database-forensics",
       "pythonVersion": ">=3.11",
       "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "tortoise-orm>=0.21.0",
-        "asyncpg>=0.27.0",
-        "pymongo>=4.4.0"
+        "csscore"
       ],
-      "imports": [
-        "mcp_database_tools",
-        "mcp_database_tools.tools",
-        "mcp_database_tools.adapters"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/database-tools",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "database",
-        "forensics",
-        "sql-analysis",
-        "nosql-investigation",
-        "data-recovery"
-      ]
+      "entryPoint": "mcp_database_forensics.__main__:main"
     },
     {
-      "id": "encoding-specialist",
+      "id": "session-context",
       "type": "mcp",
-      "name": "Encoding Specialist MCP",
-      "description": "Multi-format encoding/decoding analysis with support for obfuscation detection, steganography analysis, and cryptographic artifact inspection",
+      "name": "Session Context MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "analysis",
-      "keywords": [
-        "encoding",
-        "decoding",
-        "obfuscation",
-        "steganography",
-        "cryptography"
-      ],
-      "tools": 8,
-      "entryPoint": "mcp_encoding_specialist.__main__:main",
-      "pythonPackage": "mcp-encoding-specialist",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "cryptography>=41.0.0",
-        "base58>=2.1.0"
-      ],
-      "imports": [
-        "mcp_encoding_specialist",
-        "mcp_encoding_specialist.tools",
-        "mcp_encoding_specialist.codecs"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/encoding-specialist",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "encoding",
-        "decoding",
-        "cryptography",
-        "obfuscation-detection",
-        "steganography"
-      ]
-    },
-    {
-      "id": "packet-inspector",
-      "type": "mcp",
-      "name": "Packet Inspector MCP",
-      "description": "Deep packet inspection tool for analyzing network payloads, reconstructing sessions, and identifying malicious traffic patterns",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "network",
-      "keywords": [
-        "packet-analysis",
-        "dpi",
-        "traffic-reconstruction",
-        "malware-detection"
-      ],
-      "tools": 12,
-      "entryPoint": "mcp_packet_inspector.__main__:main",
-      "pythonPackage": "mcp-packet-inspector",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "scapy>=2.5.0",
-        "dpkt>=1.9.7",
-        "impacket>=0.11.0"
-      ],
-      "imports": [
-        "mcp_packet_inspector",
-        "mcp_packet_inspector.tools",
-        "mcp_packet_inspector.processors"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/packet-inspector",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "packet-analysis",
-        "dpi",
-        "malware-detection",
-        "network-forensics",
-        "session-reconstruction"
-      ]
-    },
-    {
-      "id": "log-analyzer",
-      "type": "mcp",
-      "name": "Log Analyzer MCP",
-      "description": "Advanced log parsing and analysis with anomaly detection, timeline reconstruction, and forensic pattern matching across diverse log formats",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "analysis",
-      "keywords": [
-        "logging",
-        "log-analysis",
-        "anomaly-detection",
-        "timeline",
-        "forensics"
-      ],
-      "tools": 11,
-      "entryPoint": "mcp_log_analyzer.__main__:main",
-      "pythonPackage": "mcp-log-analyzer",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "python-dateutil>=2.8.0",
-        "regex>=2023.0.0"
-      ],
-      "imports": [
-        "mcp_log_analyzer",
-        "mcp_log_analyzer.tools",
-        "mcp_log_analyzer.parsers"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/log-analyzer",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "logging",
-        "forensics",
-        "anomaly-detection",
-        "timeline-analysis",
-        "pattern-matching"
-      ]
-    },
-    {
-      "id": "config-parser",
-      "type": "mcp",
-      "name": "Configuration Parser MCP",
-      "description": "Multi-format configuration file analysis with security baseline validation, compliance checking, and misconfiguration detection",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "analysis",
-      "keywords": [
-        "configuration",
-        "parsing",
-        "compliance",
-        "security-baseline",
-        "misconfiguration"
-      ],
-      "tools": 9,
-      "entryPoint": "mcp_config_parser.__main__:main",
-      "pythonPackage": "mcp-config-parser",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "pyyaml>=6.0.0",
-        "toml>=0.10.2",
-        "xmltodict>=0.13.0"
-      ],
-      "imports": [
-        "mcp_config_parser",
-        "mcp_config_parser.tools",
-        "mcp_config_parser.validators"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/config-parser",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "configuration",
-        "compliance-checking",
-        "security-baseline",
-        "misconfiguration-detection"
-      ]
-    },
-    {
-      "id": "artifact-extractor",
-      "type": "mcp",
-      "name": "Artifact Extractor MCP",
-      "description": "Comprehensive artifact extraction from binary files, memory dumps, and filesystem images with automated categorization and metadata enrichment",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "forensics",
-      "keywords": [
-        "artifact-extraction",
-        "forensics",
-        "binary-analysis",
-        "memory-forensics",
-        "steganography"
-      ],
-      "tools": 13,
-      "entryPoint": "mcp_artifact_extractor.__main__:main",
-      "pythonPackage": "mcp-artifact-extractor",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "volatility3>=2.0.0",
-        "yara-python>=4.3.0"
-      ],
-      "imports": [
-        "mcp_artifact_extractor",
-        "mcp_artifact_extractor.tools",
-        "mcp_artifact_extractor.extractors"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/artifact-extractor",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "forensics",
-        "artifact-extraction",
-        "binary-analysis",
-        "memory-forensics",
-        "malware-analysis"
-      ]
-    },
-    {
-      "id": "sandbox-controller",
-      "type": "mcp",
-      "name": "Sandbox Controller MCP",
-      "description": "Sandbox environment orchestration and malware detonation management with automated analysis and safe containment verification",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "automation",
-      "keywords": [
-        "sandbox",
-        "malware-analysis",
-        "automation",
-        "containment",
-        "orchestration"
-      ],
-      "tools": 10,
-      "entryPoint": "mcp_sandbox_controller.__main__:main",
-      "pythonPackage": "mcp-sandbox-controller",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "aiohttp>=3.8.0",
-        "docker>=6.0.0"
-      ],
-      "imports": [
-        "mcp_sandbox_controller",
-        "mcp_sandbox_controller.tools",
-        "mcp_sandbox_controller.managers"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/sandbox-controller",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "sandbox",
-        "malware-analysis",
-        "automation",
-        "orchestration",
-        "containment"
-      ]
-    },
-    {
-      "id": "automation-engine",
-      "type": "mcp",
-      "name": "Automation Engine MCP",
-      "description": "Incident response automation and workflow orchestration with task scheduling, remediation execution, and cross-tool integration",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "automation",
-      "keywords": [
-        "automation",
-        "orchestration",
-        "workflow",
-        "incident-response",
-        "remediation"
-      ],
-      "tools": 12,
-      "entryPoint": "mcp_automation_engine.__main__:main",
-      "pythonPackage": "mcp-automation-engine",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "aiohttp>=3.8.0",
-        "asyncio-contextmanager>=1.0.0"
-      ],
-      "imports": [
-        "mcp_automation_engine",
-        "mcp_automation_engine.tools",
-        "mcp_automation_engine.workflows"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/automation-engine",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "automation",
-        "workflow-orchestration",
-        "incident-response",
-        "remediation",
-        "task-scheduling"
-      ]
-    },
-    {
-      "id": "reporting-gen",
-      "type": "mcp",
-      "name": "Reporting Generator MCP",
-      "description": "Forensic report generation with automated evidence synthesis, timeline visualization, and compliance-ready documentation output formats",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "reporting",
-      "keywords": [
-        "reporting",
-        "documentation",
-        "evidence-synthesis",
-        "compliance",
-        "visualization"
-      ],
-      "tools": 8,
-      "entryPoint": "mcp_reporting_gen.__main__:main",
-      "pythonPackage": "mcp-reporting-gen",
-      "pythonVersion": ">=3.11",
-      "dependencies": [
-        "csscore",
-        "fastmcp>=3.1.0",
-        "pydantic>=2.0",
-        "jinja2>=3.1.0",
-        "reportlab>=4.0.0",
-        "python-pptx>=0.6.21"
-      ],
-      "imports": [
-        "mcp_reporting_gen",
-        "mcp_reporting_gen.tools",
-        "mcp_reporting_gen.generators"
-      ],
-      "repository": "https://github.com/dcx7c5/cybersecsuite/tree/main/ai-marketplace/mcps/reporting-gen",
-      "author": "CyberSecSuite Team",
-      "license": "MIT",
-      "tags": [
-        "reporting",
-        "documentation",
-        "compliance",
-        "evidence-synthesis",
-        "timeline-visualization"
-      ]
-    },
-    {
-      "id": "session-management",
-      "type": "mcp",
-      "name": "Session Management MCP",
-      "description": "Session lifecycle management, context tracking, token rate limiting, and session state serialization",
-      "version": "1.0.0",
-      "status": "available",
-      "category": "session",
-      "keywords": [
-        "session",
-        "context",
-        "token",
-        "state"
-      ],
       "tools": 7,
-      "entryPoint": "mcp_session_management.__main__:main",
-      "pythonPackage": "mcp-session-management",
+      "pythonPackage": "mcp-session-context",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_session_context.__main__:main"
     },
     {
-      "id": "incident-management",
+      "id": "incident-response",
       "type": "mcp",
-      "name": "Incident Management MCP",
-      "description": "Incident lifecycle management, playbook execution, escalation handling, and incident notifications",
+      "name": "Incident Response MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "incident",
-      "keywords": [
-        "incident",
-        "playbook",
-        "escalation",
-        "notification"
-      ],
       "tools": 6,
-      "entryPoint": "mcp_incident_management.__main__:main",
-      "pythonPackage": "mcp-incident-management",
+      "pythonPackage": "mcp-incident-response",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_incident_response.__main__:main"
     },
     {
-      "id": "ai-memory",
+      "id": "semantic-memory",
       "type": "mcp",
-      "name": "AI Memory MCP",
-      "description": "Vector-based memory indexing, semantic retrieval, embedding generation, and memory consolidation",
+      "name": "Semantic Memory MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "ai",
-      "keywords": [
-        "memory",
-        "embedding",
-        "retrieval",
-        "vector"
-      ],
       "tools": 5,
-      "entryPoint": "mcp_ai_memory.__main__:main",
-      "pythonPackage": "mcp-ai-memory",
+      "pythonPackage": "mcp-semantic-memory",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_semantic_memory.__main__:main"
     },
     {
-      "id": "browser-automation",
+      "id": "browser-control",
       "type": "mcp",
-      "name": "Browser Automation MCP",
-      "description": "Headless browser control, screenshot capture, element interaction, and page navigation",
+      "name": "Browser Control MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "browser",
-      "keywords": [
-        "browser",
-        "automation",
-        "selenium",
-        "screenshot"
-      ],
       "tools": 6,
-      "entryPoint": "mcp_browser_automation.__main__:main",
-      "pythonPackage": "mcp-browser-automation",
+      "pythonPackage": "mcp-browser-control",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_browser_control.__main__:main"
     },
     {
-      "id": "utility-tools",
+      "id": "data-pipeline",
       "type": "mcp",
-      "name": "Utility Tools MCP",
-      "description": "File processing, data conversion, compression, encryption, and markup parsing",
+      "name": "Data Pipeline MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "utility",
-      "keywords": [
-        "utility",
-        "conversion",
-        "compression",
-        "encryption"
-      ],
       "tools": 6,
-      "entryPoint": "mcp_utility_tools.__main__:main",
-      "pythonPackage": "mcp-utility-tools",
+      "pythonPackage": "mcp-data-pipeline",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_data_pipeline.__main__:main"
     },
     {
-      "id": "business-tools",
+      "id": "workflow-automation",
       "type": "mcp",
-      "name": "Business Tools MCP",
-      "description": "Email management, calendar scheduling, document processing, reporting, and task management",
+      "name": "Workflow Automation MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "business",
-      "keywords": [
-        "email",
-        "calendar",
-        "document",
-        "report"
-      ],
       "tools": 6,
-      "entryPoint": "mcp_business_tools.__main__:main",
-      "pythonPackage": "mcp-business-tools",
+      "pythonPackage": "mcp-workflow-automation",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_workflow_automation.__main__:main"
     },
     {
-      "id": "network-monitoring",
+      "id": "network-telemetry",
       "type": "mcp",
-      "name": "Network Monitoring MCP",
-      "description": "Interface monitoring, bandwidth profiling, connection tracking, packet inspection, and performance metrics",
+      "name": "Network Telemetry MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "network",
-      "keywords": [
-        "network",
-        "monitoring",
-        "bandwidth",
-        "packet"
-      ],
       "tools": 6,
-      "entryPoint": "mcp_network_monitoring.__main__:main",
-      "pythonPackage": "mcp-network-monitoring",
+      "pythonPackage": "mcp-network-telemetry",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
+      ],
+      "entryPoint": "mcp_network_telemetry.__main__:main"
     },
     {
-      "id": "dystopian-actors",
+      "id": "threat-actor-profiling",
       "type": "mcp",
-      "name": "Dystopian Actors MCP",
-      "description": "Advanced threat actor profiling, campaign analysis, IOC correlation, TTP mapping, malware classification, and attribution intelligence",
+      "name": "Threat Actor Profiling MCP",
       "version": "1.0.0",
       "status": "available",
-      "category": "threat-intelligence",
-      "keywords": [
-        "threat-actor",
-        "campaign",
-        "attribution",
-        "ioc",
-        "ttp",
-        "malware"
-      ],
       "tools": 12,
-      "entryPoint": "mcp_dystopian_actors.__main__:main",
-      "pythonPackage": "mcp-dystopian-actors",
+      "pythonPackage": "mcp-threat-actor-profiling",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
-      ]
-    }
-  ],
-  "categories": [
-    "forensics",
-    "threat-intelligence",
-    "network",
-    "database",
-    "analysis",
-    "automation",
-    "reporting"
-  ],
-  "stats": {
-    "totalMcps": 12,
-    "totalTools": 135,
-    "lastUpdated": "2026-04-26T22:00:00Z",
-    "byCategory": {
-      "forensics": 3,
-      "threat-intelligence": 1,
-      "network": 2,
-      "database": 1,
-      "analysis": 3,
-      "automation": 2,
-      "reporting": 1
+      ],
+      "entryPoint": "mcp_threat_actor_profiling.__main__:main"
     },
-    "byPriority": {
-      "high": 4,
-      "medium": 4,
-      "low": 4
+    {
+      "id": "dystopian-crypto",
+      "type": "mcp",
+      "name": "Dystopian Crypto MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 12,
+      "pythonPackage": "mcp-dystopian-crypto",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_dystopian_crypto.__main__:main"
     },
-    "toolBreakdown": {
-      "forensic-vault": 14,
-      "network-layers": 9,
-      "threat-intelligence": 14,
-      "database-tools": 15,
-      "encoding-specialist": 8,
-      "packet-inspector": 12,
-      "log-analyzer": 11,
-      "config-parser": 9,
-      "artifact-extractor": 13,
-      "sandbox-controller": 10,
-      "automation-engine": 12,
-      "reporting-gen": 8
+    {
+      "id": "playwright-automation",
+      "type": "mcp",
+      "name": "Playwright Automation MCP",
+      "version": "1.0.0",
+      "status": "available",
+      "tools": 13,
+      "pythonPackage": "mcp-playwright-automation",
+      "pythonVersion": ">=3.11",
+      "dependencies": [
+        "csscore"
+      ],
+      "entryPoint": "mcp_playwright_automation.__main__:main"
     }
-  }
+  ]
 }
