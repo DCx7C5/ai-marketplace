@@ -10,7 +10,7 @@
       "status": "available",
       "pythonPackage": "csscore-mcp",
       "description": "Database, cases, findings, intelligence, vault",
-      "modules": 10
+      "modules": 15
     },
     {
       "id": "playwright-mcp",
@@ -58,15 +58,6 @@
       "modules": 1
     },
     {
-      "id": "proxy-mcp",
-      "name": "Proxy Services",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "proxy-mcp",
-      "description": "LLM proxy & provider management",
-      "modules": 1
-    },
-    {
       "id": "agent-mcp",
       "name": "Agent Management",
       "version": "1.0.0",
@@ -100,15 +91,6 @@
       "status": "available",
       "pythonPackage": "tool-search-mcp",
       "description": "Tool discovery",
-      "modules": 1
-    },
-    {
-      "id": "tool-toggle-mcp",
-      "name": "Tool Toggle",
-      "version": "1.0.0",
-      "status": "available",
-      "pythonPackage": "tool-toggle-mcp",
-      "description": "Feature flags",
       "modules": 1
     },
     {
