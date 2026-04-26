@@ -1,0 +1,292 @@
+[
+  {
+    "id": "cache-lookup",
+    "name": "Cache Lookup",
+    "version": "1.0.0",
+    "category": "cache-management",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Retrieve cached information by key from the in-memory cache. Returns cached value with metadata or null if not found.",
+    "tags": [
+      "cache",
+      "lookup",
+      "retrieval",
+      "performance"
+    ],
+    "parameters": {
+      "key": {
+        "type": "string",
+        "description": "The cache key to look up",
+        "required": true
+      },
+      "namespace": {
+        "type": "string",
+        "description": "Optional namespace for the cache key",
+        "required": false,
+        "default": "default"
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Cached value with metadata or error"
+    },
+    "keywords": [
+      "memory",
+      "storage",
+      "fast-access"
+    ]
+  },
+  {
+    "id": "cache-store",
+    "name": "Cache Store",
+    "version": "1.0.0",
+    "category": "cache-management",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Store a value in the cache with optional TTL (time-to-live) expiration.",
+    "tags": [
+      "cache",
+      "store",
+      "storage"
+    ],
+    "parameters": {
+      "key": {
+        "type": "string",
+        "description": "The cache key to store",
+        "required": true
+      },
+      "value": {
+        "type": "object",
+        "description": "The value to cache",
+        "required": true
+      },
+      "ttl": {
+        "type": "number",
+        "description": "Time-to-live in seconds",
+        "required": false,
+        "default": 3600
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Store confirmation with cache metadata"
+    }
+  },
+  {
+    "id": "cache-analytics",
+    "name": "Cache Analytics",
+    "version": "1.0.0",
+    "category": "cache-management",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Retrieve cache statistics including hit rate, miss rate, eviction count, and memory usage.",
+    "tags": [
+      "cache",
+      "analytics",
+      "metrics",
+      "monitoring"
+    ],
+    "parameters": {
+      "namespace": {
+        "type": "string",
+        "description": "Optional namespace filter",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Cache statistics and performance metrics"
+    }
+  },
+  {
+    "id": "cache-invalidate",
+    "name": "Cache Invalidate",
+    "version": "1.0.0",
+    "category": "cache-management",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Invalidate (clear) cached entries by key or namespace pattern.",
+    "tags": [
+      "cache",
+      "invalidate",
+      "clear"
+    ],
+    "parameters": {
+      "pattern": {
+        "type": "string",
+        "description": "Key pattern to invalidate (supports wildcards)",
+        "required": true
+      },
+      "namespace": {
+        "type": "string",
+        "description": "Optional namespace filter",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Number of entries invalidated"
+    }
+  },
+  {
+    "id": "get-health",
+    "name": "Get Health",
+    "version": "1.0.0",
+    "category": "system",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Get health status of the MCP and its connected services.",
+    "tags": [
+      "health",
+      "status",
+      "monitoring"
+    ],
+    "parameters": {},
+    "returns": {
+      "type": "object",
+      "description": "Health status of all components"
+    }
+  },
+  {
+    "id": "get-provider-metrics",
+    "name": "Get Provider Metrics",
+    "version": "1.0.0",
+    "category": "system",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Retrieve performance metrics from all registered providers.",
+    "tags": [
+      "metrics",
+      "providers",
+      "performance"
+    ],
+    "parameters": {
+      "provider": {
+        "type": "string",
+        "description": "Optional specific provider name",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Provider metrics and performance data"
+    }
+  },
+  {
+    "id": "get-session-snapshot",
+    "name": "Get Session Snapshot",
+    "version": "1.0.0",
+    "category": "session",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Capture a snapshot of the current session state including active connections and data.",
+    "tags": [
+      "session",
+      "snapshot",
+      "state"
+    ],
+    "parameters": {
+      "session_id": {
+        "type": "string",
+        "description": "Optional specific session ID",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Session snapshot with all current state"
+    }
+  },
+  {
+    "id": "db-healthcheck",
+    "name": "Database Healthcheck",
+    "version": "1.0.0",
+    "category": "database",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Perform comprehensive healthcheck on database connections and query performance.",
+    "tags": [
+      "database",
+      "health",
+      "diagnostics"
+    ],
+    "parameters": {
+      "timeout": {
+        "type": "number",
+        "description": "Timeout in seconds",
+        "required": false,
+        "default": 5
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Database health status and diagnostics"
+    }
+  },
+  {
+    "id": "bootstrap-intelligence",
+    "name": "Bootstrap Intelligence",
+    "version": "1.0.0",
+    "category": "intelligence",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Initialize and bootstrap threat intelligence from external sources and local databases.",
+    "tags": [
+      "intelligence",
+      "bootstrap",
+      "threats"
+    ],
+    "parameters": {
+      "sources": {
+        "type": "array",
+        "description": "Array of intelligence sources to bootstrap",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Bootstrap status and imported intelligence count"
+    }
+  },
+  {
+    "id": "case-open",
+    "name": "Case Open",
+    "version": "1.0.0",
+    "category": "case-management",
+    "mcp": "csscore-mcp",
+    "status": "available",
+    "description": "Create and open a new forensic case with initial parameters and metadata.",
+    "tags": [
+      "case",
+      "forensic",
+      "management"
+    ],
+    "parameters": {
+      "title": {
+        "type": "string",
+        "description": "Case title",
+        "required": true
+      },
+      "description": {
+        "type": "string",
+        "description": "Case description",
+        "required": false
+      },
+      "severity": {
+        "type": "string",
+        "description": "Case severity level",
+        "required": false,
+        "enum": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Case object with metadata and initial state"
+    }
+  }
+]

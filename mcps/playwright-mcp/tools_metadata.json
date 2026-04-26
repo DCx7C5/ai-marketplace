@@ -1,0 +1,39 @@
+[
+  {
+    "id": "browser-launch",
+    "name": "Browser Launch",
+    "version": "1.0.0",
+    "category": "browser",
+    "mcp": "playwright-mcp",
+    "status": "available",
+    "description": "Launch a headless browser instance with optional configuration.",
+    "tags": [
+      "browser",
+      "automation",
+      "playwright"
+    ],
+    "parameters": {
+      "browser_type": {
+        "type": "string",
+        "description": "Browser type (chromium, firefox, webkit)",
+        "required": false,
+        "default": "chromium",
+        "enum": [
+          "chromium",
+          "firefox",
+          "webkit"
+        ]
+      },
+      "headless": {
+        "type": "boolean",
+        "description": "Run in headless mode",
+        "required": false,
+        "default": true
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Browser session handle"
+    }
+  }
+]

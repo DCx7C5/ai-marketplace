@@ -1,0 +1,40 @@
+[
+  {
+    "id": "crypto-hash",
+    "name": "Cryptographic Hash",
+    "version": "1.0.0",
+    "category": "cryptography",
+    "mcp": "dystopian-crypto-mcp",
+    "status": "available",
+    "description": "Compute cryptographic hashes using various algorithms (SHA256, BLAKE2b, etc).",
+    "tags": [
+      "crypto",
+      "hash",
+      "security"
+    ],
+    "parameters": {
+      "data": {
+        "type": "string",
+        "description": "Data to hash",
+        "required": true
+      },
+      "algorithm": {
+        "type": "string",
+        "description": "Hash algorithm",
+        "required": false,
+        "default": "sha256",
+        "enum": [
+          "sha256",
+          "sha512",
+          "blake2b",
+          "blake2s",
+          "md5"
+        ]
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Hash result with algorithm and hex digest"
+    }
+  }
+]

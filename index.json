@@ -10,7 +10,20 @@
       "status": "available",
       "pythonPackage": "csscore-mcp",
       "description": "Database, cases, findings, intelligence, vault",
-      "modules": 22
+      "modules": 22,
+      "tools": 10,
+      "tool_list": [
+        "cache-lookup",
+        "cache-store",
+        "cache-analytics",
+        "cache-invalidate",
+        "get-health",
+        "get-provider-metrics",
+        "get-session-snapshot",
+        "db-healthcheck",
+        "bootstrap-intelligence",
+        "case-open"
+      ]
     },
     {
       "id": "playwright-mcp",
@@ -19,7 +32,11 @@
       "status": "available",
       "pythonPackage": "playwright-mcp",
       "description": "Headless browser control",
-      "modules": 1
+      "modules": 1,
+      "tools": 1,
+      "tool_list": [
+        "browser-launch"
+      ]
     },
     {
       "id": "dystopian-crypto-mcp",
@@ -28,7 +45,11 @@
       "status": "available",
       "pythonPackage": "dystopian-crypto-mcp",
       "description": "Cryptographic operations",
-      "modules": 1
+      "modules": 1,
+      "tools": 1,
+      "tool_list": [
+        "crypto-hash"
+      ]
     },
     {
       "id": "canvas-mcp",
@@ -37,7 +58,16 @@
       "status": "available",
       "pythonPackage": "canvas-mcp",
       "description": "Forensic canvas creation",
-      "modules": 1
+      "modules": 1,
+      "tools": 6,
+      "tool_list": [
+        "canvas-create",
+        "canvas-add-node",
+        "canvas-add-edge",
+        "canvas-export",
+        "canvas-render",
+        "canvas-analyze"
+      ]
     },
     {
       "id": "memory-mcp",
@@ -46,7 +76,13 @@
       "status": "available",
       "pythonPackage": "memory-mcp",
       "description": "Vector memory storage",
-      "modules": 1
+      "modules": 1,
+      "tools": 3,
+      "tool_list": [
+        "memory-store",
+        "memory-retrieve",
+        "memory-delete"
+      ]
     },
     {
       "id": "template-mcp",
@@ -55,7 +91,61 @@
       "status": "available",
       "pythonPackage": "template-mcp",
       "description": "Template rendering",
-      "modules": 1
+      "modules": 1,
+      "tools": 1,
+      "tool_list": [
+        "template-create"
+      ]
     }
-  ]
+  ],
+  "search_capabilities": {
+    "engine": "lunr.js",
+    "index_path": "search-index.json",
+    "searchable_fields": [
+      "name",
+      "description",
+      "tags",
+      "category",
+      "keywords"
+    ],
+    "supported_queries": [
+      "full-text search",
+      "filter by category",
+      "filter by tags",
+      "filter by type (tool/skill)",
+      "faceted search"
+    ]
+  },
+  "discovery_features": {
+    "categories": true,
+    "tags": true,
+    "featured_tools": [
+      "cache-lookup",
+      "cache-store",
+      "cache-analytics",
+      "cache-invalidate",
+      "get-health"
+    ],
+    "trending": [
+      "cache-management",
+      "forensics",
+      "intelligence"
+    ],
+    "new_releases": [
+      "template-create",
+      "browser-launch"
+    ]
+  },
+  "catalog_structure": {
+    "tools": 22,
+    "skills": 1042,
+    "total_items": 1064,
+    "mcps": 6,
+    "categories": {
+      "by_type": {
+        "tools": 22,
+        "skills": 1042
+      }
+    }
+  }
 }

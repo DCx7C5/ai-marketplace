@@ -1,0 +1,214 @@
+[
+  {
+    "id": "canvas-create",
+    "name": "Canvas Create",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Create a new forensic canvas for visual analysis and threat mapping.",
+    "tags": [
+      "canvas",
+      "visualization",
+      "forensic"
+    ],
+    "parameters": {
+      "title": {
+        "type": "string",
+        "description": "Canvas title",
+        "required": true
+      },
+      "type": {
+        "type": "string",
+        "description": "Canvas type (attack-graph, timeline, threat-actor, etc)",
+        "required": false,
+        "default": "flowchart"
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Canvas object with ID and metadata"
+    }
+  },
+  {
+    "id": "canvas-add-node",
+    "name": "Canvas Add Node",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Add a node to an existing canvas with position and properties.",
+    "tags": [
+      "canvas",
+      "visualization",
+      "node"
+    ],
+    "parameters": {
+      "canvas_id": {
+        "type": "string",
+        "description": "Canvas ID",
+        "required": true
+      },
+      "label": {
+        "type": "string",
+        "description": "Node label",
+        "required": true
+      },
+      "type": {
+        "type": "string",
+        "description": "Node type",
+        "required": false,
+        "enum": [
+          "process",
+          "decision",
+          "data",
+          "threat",
+          "asset"
+        ]
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Node object with ID and properties"
+    }
+  },
+  {
+    "id": "canvas-add-edge",
+    "name": "Canvas Add Edge",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Add a connection/edge between two nodes on a canvas.",
+    "tags": [
+      "canvas",
+      "visualization",
+      "edge"
+    ],
+    "parameters": {
+      "canvas_id": {
+        "type": "string",
+        "description": "Canvas ID",
+        "required": true
+      },
+      "from_node": {
+        "type": "string",
+        "description": "Source node ID",
+        "required": true
+      },
+      "to_node": {
+        "type": "string",
+        "description": "Target node ID",
+        "required": true
+      },
+      "label": {
+        "type": "string",
+        "description": "Edge label",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Edge object with ID and properties"
+    }
+  },
+  {
+    "id": "canvas-export",
+    "name": "Canvas Export",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Export a canvas to various formats (JSON, PNG, SVG, PDF).",
+    "tags": [
+      "canvas",
+      "export",
+      "visualization"
+    ],
+    "parameters": {
+      "canvas_id": {
+        "type": "string",
+        "description": "Canvas ID to export",
+        "required": true
+      },
+      "format": {
+        "type": "string",
+        "description": "Export format",
+        "required": false,
+        "default": "json",
+        "enum": [
+          "json",
+          "png",
+          "svg",
+          "pdf"
+        ]
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Export result with file or data"
+    }
+  },
+  {
+    "id": "canvas-render",
+    "name": "Canvas Render",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Render a canvas to an image for preview or sharing.",
+    "tags": [
+      "canvas",
+      "render",
+      "visualization"
+    ],
+    "parameters": {
+      "canvas_id": {
+        "type": "string",
+        "description": "Canvas ID to render",
+        "required": true
+      },
+      "width": {
+        "type": "number",
+        "description": "Output width in pixels",
+        "required": false,
+        "default": 1024
+      },
+      "height": {
+        "type": "number",
+        "description": "Output height in pixels",
+        "required": false,
+        "default": 768
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Rendered canvas image"
+    }
+  },
+  {
+    "id": "canvas-analyze",
+    "name": "Canvas Analyze",
+    "version": "1.0.0",
+    "category": "visualization",
+    "mcp": "canvas-mcp",
+    "status": "available",
+    "description": "Analyze canvas structure for graph metrics and patterns.",
+    "tags": [
+      "canvas",
+      "analysis",
+      "metrics"
+    ],
+    "parameters": {
+      "canvas_id": {
+        "type": "string",
+        "description": "Canvas ID to analyze",
+        "required": true
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Graph analysis with metrics and statistics"
+    }
+  }
+]

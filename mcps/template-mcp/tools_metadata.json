@@ -1,0 +1,32 @@
+[
+  {
+    "id": "template-create",
+    "name": "Template Create",
+    "version": "1.0.0",
+    "category": "templates",
+    "mcp": "template-mcp",
+    "status": "available",
+    "description": "Create a new template from scratch or from an existing template.",
+    "tags": [
+      "template",
+      "creation",
+      "management"
+    ],
+    "parameters": {
+      "name": {
+        "type": "string",
+        "description": "Template name",
+        "required": true
+      },
+      "base": {
+        "type": "string",
+        "description": "Base template to use",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "New template object"
+    }
+  }
+]

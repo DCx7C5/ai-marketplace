@@ -1,0 +1,88 @@
+[
+  {
+    "id": "memory-store",
+    "name": "Memory Store",
+    "version": "1.0.0",
+    "category": "memory",
+    "mcp": "memory-mcp",
+    "status": "available",
+    "description": "Store information in long-term vector memory for retrieval across sessions.",
+    "tags": [
+      "memory",
+      "storage",
+      "vectors"
+    ],
+    "parameters": {
+      "content": {
+        "type": "string",
+        "description": "Content to store",
+        "required": true
+      },
+      "metadata": {
+        "type": "object",
+        "description": "Optional metadata tags",
+        "required": false
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Memory ID and confirmation"
+    }
+  },
+  {
+    "id": "memory-retrieve",
+    "name": "Memory Retrieve",
+    "version": "1.0.0",
+    "category": "memory",
+    "mcp": "memory-mcp",
+    "status": "available",
+    "description": "Retrieve stored memories using semantic similarity search.",
+    "tags": [
+      "memory",
+      "retrieval",
+      "search"
+    ],
+    "parameters": {
+      "query": {
+        "type": "string",
+        "description": "Search query",
+        "required": true
+      },
+      "limit": {
+        "type": "number",
+        "description": "Maximum results to return",
+        "required": false,
+        "default": 10
+      }
+    },
+    "returns": {
+      "type": "array",
+      "description": "Array of matching memories with scores"
+    }
+  },
+  {
+    "id": "memory-delete",
+    "name": "Memory Delete",
+    "version": "1.0.0",
+    "category": "memory",
+    "mcp": "memory-mcp",
+    "status": "available",
+    "description": "Delete a stored memory by ID.",
+    "tags": [
+      "memory",
+      "delete",
+      "management"
+    ],
+    "parameters": {
+      "memory_id": {
+        "type": "string",
+        "description": "Memory ID to delete",
+        "required": true
+      }
+    },
+    "returns": {
+      "type": "object",
+      "description": "Deletion confirmation"
+    }
+  }
+]
