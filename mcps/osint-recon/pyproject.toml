@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-osint-recon"
+name = "osint-recon-mcp"
 version = "1.0.0"
 description = "osint-recon MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-osint-recon = "osint_recon.__main__:main"
+osint-recon-mcp = "osint_recon.__main__:main"
 
 [tool.uv]
 package = true

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-csscore"
+name = "csscore-mcp"
 version = "1.0.0"
 description = "CyberSecSuite Core MCP - Foundation for all externalized MCPs"
 readme = "README.md"

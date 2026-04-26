@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-cloud-forensics"
+name = "cloud-forensics-mcp"
 version = "1.0.0"
 description = "cloud-forensics MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-cloud-forensics = "cloud_forensics.__main__:main"
+cloud-forensics-mcp = "cloud_forensics.__main__:main"
 
 [tool.uv]
 package = true

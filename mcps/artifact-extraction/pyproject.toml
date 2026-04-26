@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-artifact-extraction"
+name = "artifact-extraction-mcp"
 version = "1.0.0"
 description = "artifact-extraction MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-artifact-extraction = "artifact_extraction.__main__:main"
+artifact-extraction-mcp = "artifact_extraction.__main__:main"
 
 [tool.uv]
 package = true

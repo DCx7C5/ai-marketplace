@@ -10,7 +10,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 5,
-      "pythonPackage": "mcp-csscore",
+      "pythonPackage": "csscore-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [],
       "entryPoint": "mcp_csscore.__main__:main"
@@ -22,7 +22,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 14,
-      "pythonPackage": "mcp-apt-forensics",
+      "pythonPackage": "apt-forensics-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -36,7 +36,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 9,
-      "pythonPackage": "mcp-network-reconnaissance",
+      "pythonPackage": "network-reconnaissance-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -50,7 +50,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 14,
-      "pythonPackage": "mcp-threat-actor-intelligence",
+      "pythonPackage": "threat-actor-intelligence-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -64,7 +64,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 15,
-      "pythonPackage": "mcp-database-forensics",
+      "pythonPackage": "database-forensics-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -78,7 +78,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 7,
-      "pythonPackage": "mcp-session-context",
+      "pythonPackage": "session-context-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -92,7 +92,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 6,
-      "pythonPackage": "mcp-incident-response",
+      "pythonPackage": "incident-response-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -106,7 +106,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 5,
-      "pythonPackage": "mcp-semantic-memory",
+      "pythonPackage": "semantic-memory-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -120,7 +120,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 6,
-      "pythonPackage": "mcp-browser-control",
+      "pythonPackage": "browser-control-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -134,7 +134,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 6,
-      "pythonPackage": "mcp-data-pipeline",
+      "pythonPackage": "data-pipeline-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -148,7 +148,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 6,
-      "pythonPackage": "mcp-workflow-automation",
+      "pythonPackage": "workflow-automation-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -162,7 +162,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 6,
-      "pythonPackage": "mcp-network-telemetry",
+      "pythonPackage": "network-telemetry-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -176,7 +176,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 12,
-      "pythonPackage": "mcp-threat-actor-profiling",
+      "pythonPackage": "threat-actor-profiling-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -190,7 +190,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 12,
-      "pythonPackage": "mcp-dystopian-crypto",
+      "pythonPackage": "dystopian-crypto-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -204,7 +204,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 13,
-      "pythonPackage": "mcp-playwright-automation",
+      "pythonPackage": "playwright-automation-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -218,7 +218,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-log-analysis",
+      "pythonPackage": "log-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -232,7 +232,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-filesystem-forensics",
+      "pythonPackage": "filesystem-forensics-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -246,7 +246,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-api-security",
+      "pythonPackage": "api-security-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -260,7 +260,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-code-analysis",
+      "pythonPackage": "code-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -274,7 +274,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-osint-recon",
+      "pythonPackage": "osint-recon-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -288,7 +288,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-cloud-forensics",
+      "pythonPackage": "cloud-forensics-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -302,7 +302,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-encoding-analysis",
+      "pythonPackage": "encoding-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -316,7 +316,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-memory-analysis",
+      "pythonPackage": "memory-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -330,7 +330,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-binary-analysis",
+      "pythonPackage": "binary-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -344,7 +344,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-email-analysis",
+      "pythonPackage": "email-analysis-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -358,7 +358,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-red-team-ops",
+      "pythonPackage": "red-team-ops-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"
@@ -372,7 +372,7 @@
       "version": "1.0.0",
       "status": "available",
       "tools": 8,
-      "pythonPackage": "mcp-artifact-extraction",
+      "pythonPackage": "artifact-extraction-mcp",
       "pythonVersion": ">=3.11",
       "dependencies": [
         "csscore"

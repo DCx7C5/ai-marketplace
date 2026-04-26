@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-playwright-automation"
+name = "playwright-automation-mcp"
 version = "1.0.0"
 description = "playwright-automation MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-playwright-automation = "playwright_automation.__main__:main"
+playwright-automation-mcp = "playwright_automation.__main__:main"
 
 [tool.uv]
 package = true

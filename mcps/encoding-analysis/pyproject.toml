@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-encoding-analysis"
+name = "encoding-analysis-mcp"
 version = "1.0.0"
 description = "encoding-analysis MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-encoding-analysis = "encoding_analysis.__main__:main"
+encoding-analysis-mcp = "encoding_analysis.__main__:main"
 
 [tool.uv]
 package = true

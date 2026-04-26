@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-filesystem-forensics"
+name = "filesystem-forensics-mcp"
 version = "1.0.0"
 description = "Filesystem Forensics MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-filesystem-forensics = "filesystem_forensics.__main__:main"
+filesystem-forensics-mcp = "filesystem_forensics.__main__:main"
 
 [tool.uv]
 package = true

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-dystopian-crypto"
+name = "dystopian-crypto-mcp"
 version = "1.0.0"
 description = "dystopian-crypto MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-dystopian-crypto = "dystopian_crypto.__main__:main"
+dystopian-crypto-mcp = "dystopian_crypto.__main__:main"
 
 [tool.uv]
 package = true

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mcp-red-team-ops"
+name = "red-team-ops-mcp"
 version = "1.0.0"
 description = "red-team-ops MCP"
 readme = "README.md"
@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-red-team-ops = "red_team_ops.__main__:main"
+red-team-ops-mcp = "red_team_ops.__main__:main"
 
 [tool.uv]
 package = true
