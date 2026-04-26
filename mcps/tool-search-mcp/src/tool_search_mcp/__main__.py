@@ -1,12 +1,26 @@
-"""MCP Server for tool-search-mcp."""
+"""
+tool-search-mcp MCP Server
+
+Run with: python -m tool_search_mcp
+"""
+
 import asyncio
+import logging
 from fastmcp import FastMCP
 
-mcp = FastMCP(name="tool-search-mcp")
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+mcp = FastMCP(name="tool-search-mcp", description="tool-search-mcp - Real implementations")
 
 async def main():
+    """Main entry point."""
+    logger.info(f"Starting {mcp.name} server")
     while True:
         await asyncio.sleep(3600)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        logger.info("Server shutdown")
