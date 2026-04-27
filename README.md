@@ -1,11 +1,14 @@
 # 🛒 AI Marketplace
 
-> A curated marketplace of **Claude Code sub-agents** and **CyberSecSuite skills** — install in seconds, extend your AI workflow instantly.
+> A production-grade marketplace of **1,064 Claude skills** and **38 AI agents** — unified discovery, instant install, enterprise-ready.
 
-[![Agents](https://img.shields.io/badge/agents-31-blue?style=flat-square)](agents/)
-[![Skills](https://img.shields.io/badge/skills-60%2B-green?style=flat-square)](skills/)
+[![Agents](https://img.shields.io/badge/agents-38-blue?style=flat-square)](agents/)
+[![Skills](https://img.shields.io/badge/skills-1%2C064-green?style=flat-square)](skills/)
+[![Status](https://img.shields.io/badge/status-production-success?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-purple?style=flat-square)](LICENSE)
-[![CyberSecSuite](https://img.shields.io/badge/CyberSecSuite-v0.1-red?style=flat-square)](https://github.com/Dystopian/cybersecsuite)
+[![CyberSecSuite](https://img.shields.io/badge/CyberSecSuite-v0.1-red?style=flat-square)](https://github.com/DCx7C5/cybersecsuite)
+
+**Latest Release:** `marketplace-v1-ready` (2026-04-27)
 
 ---
 
@@ -13,12 +16,22 @@
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| [**Agents**](agents/) | 31 | Claude Code sub-agent definitions (`.claude/agents/`) |
-| [**Skills**](skills/) | 60+ | CyberSecSuite skill modules (`.claude/skills/`) |
+| [**Agents**](agents/) | 38 | Claude Code sub-agents (31 templates + AgentFactory + 6 sub-agents) |
+| [**Skills**](skills/) | 1,064 | AI skills organized by domain (security, cloud, forensics, etc.) |
+| [**MCPs**](mcps/) | 6 | Model Context Protocol servers (csscore, canvas, memory, template, playwright, crypto) |
+| [**Search Index**](search-index.json) | 1,064+ | Full-text searchable asset catalog |
 
 ---
 
 ## 🚀 Quick Install
+
+### Clone the Production-Ready Marketplace
+
+```bash
+git clone https://github.com/DCx7C5/ai-marketplace.git
+cd ai-marketplace
+git checkout marketplace-v1-ready  # Production release
+```
 
 ### Install an Agent
 
@@ -26,33 +39,42 @@ Copy a single agent file into your project's `.claude/agents/` directory:
 
 ```bash
 # Example: install the cybersec-analyst agent
-curl -sSL https://raw.githubusercontent.com/Dystopian/ai-marketplace/main/agents/cybersec-analyst.md \
+curl -sSL https://raw.githubusercontent.com/DCx7C5/ai-marketplace/main/agents/cybersec-analyst.md \
   -o .claude/agents/cybersec-analyst.md
 ```
 
-Or clone the whole marketplace and symlink:
+Or symlink locally:
 
 ```bash
-git clone https://github.com/Dystopian/ai-marketplace.git ~/.ai-marketplace
+git clone https://github.com/DCx7C5/ai-marketplace.git ~/.ai-marketplace
 mkdir -p .claude/agents
-cp ~/.ai-marketplace/agents/cybersec-analyst.md .claude/agents/
+ln -s ~/.ai-marketplace/agents/* .claude/agents/
 ```
 
-### Install a Skill
+### Install Skills
 
 ```bash
 # Example: install the deception/honeypot skill
 mkdir -p .claude/skills/deception/honeypot
-curl -sSL https://raw.githubusercontent.com/Dystopian/ai-marketplace/main/skills/deception/honeypot/SKILL.md \
+curl -sSL https://raw.githubusercontent.com/DCx7C5/ai-marketplace/main/skills/deception/honeypot/SKILL.md \
   -o .claude/skills/deception/honeypot/SKILL.md
 ```
 
-### Install Everything (CyberSecSuite full bundle)
+### Install Everything (CyberSecSuite Full Bundle)
 
 ```bash
-git clone https://github.com/Dystopian/ai-marketplace.git
-cp -r ai-marketplace/agents/* .claude/agents/
-cp -r ai-marketplace/skills/* .claude/skills/
+git clone https://github.com/DCx7C5/ai-marketplace.git ~/.ai-marketplace
+cp -r ~/.ai-marketplace/agents/* .claude/agents/
+cp -r ~/.ai-marketplace/skills/* .claude/skills/
+```
+
+### Search for Assets
+
+Use the included search index for discovery:
+
+```bash
+# View available assets
+cat search-index.json | jq '.[] | {name, type, category}' | head -20
 ```
 
 ---
@@ -186,6 +208,6 @@ MIT — see [LICENSE](LICENSE)
 
 ## 🔗 Related Projects
 
-- [CyberSecSuite](https://github.com/Dystopian/cybersecsuite) — Full-stack forensics platform
+- [CyberSecSuite](https://github.com/DCx7C5/cybersecsuite) — Full-stack forensics platform (v0.1)
 - [Claude Code Docs](https://docs.anthropic.com/claude-code) — Anthropic Claude Code documentation
 
