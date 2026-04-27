@@ -29,7 +29,7 @@ packages = ["src/template_mcp"]
 
 [dependency-groups]
 dev = [
-    "pytest>=7.0",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.21",
     "ruff>=0.1.0",
     "mypy>=1.0",
