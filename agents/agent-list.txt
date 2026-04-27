@@ -30,11 +30,12 @@ vuln-scanner.md
 Core System Agents (1):
 AGENT_FACTORY.md
 
-Sub-Agents (6):
+Sub-Agents (7):
 cybersec-agent.md
 frontend-design.md
 python-code-reviewer.md
 python-developer.md
+rubber-duck.md
 token-optimizer.md
 watchdog.md
 
@@ -43,4 +44,4 @@ blue-team.md
 purple-team.md
 red-team.md
 
-TOTAL: 41 agents
+TOTAL: 42 agents
