@@ -1,6 +1,6 @@
 ---
 name: docx-metadata-detect
-description: ">\n  Detects hidden content in DOCX metadata, revisions, and XML comments."
+description: "Detects hidden content in DOCX metadata, revisions, and XML comments."
 ---
 ## Overview
 
