@@ -1,25 +1,37 @@
 ---
 name: cloud-serverless-serverlessharden
-description: "Cloud Serverless Serverlessharden."
+description: "Comprehensive security hardening and assessment guide for AWS Lambda and serverless architectures, covering cold starts, event injection, IAM execution roles, function URLs, layers, concurrency controls, and vulnerability scanning."
 domain: cybersecurity
 ---
 
-|
-| Cold Start | Initial function invocation that includes container provisioning, increasing latency and creating a window where cached secrets may not be available |
-| Event Injection | Attack where malicious input is embedded in Lambda event data from API Gateway, S3, SQS, or other event sources to exploit the function |
-| Execution Role | IAM role assumed by Lambda during execution, defining all cloud API permissions the function can use |
-| Function URL | Direct HTTPS endpoint for Lambda functions that can be configured with IAM or no authentication (NONE is insecure) |
-| Layer | Lambda deployment package containing shared code or dependencies that should be scanned for vulnerabilities independently |
-| Reserved Concurrency | Maximum number of concurrent executions for a function, useful for preventing resource exhaustion attacks |
-| Provisioned Concurrency | Pre-initialized function instances that reduce cold start latency and ensure secrets are cached |
+## Cold Start
+Initial function invocation that includes container provisioning, increasing latency and creating a window where cached secrets may not be available.
+
+## Event Injection
+Attack where malicious input is embedded in Lambda event data from API Gateway, S3, SQS, or other event sources to exploit the function.
+
+## Execution Role
+IAM role assumed by Lambda during execution, defining all cloud API permissions the function can use.
+
+## Function URL
+Direct HTTPS endpoint for Lambda functions that can be configured with IAM or no authentication (NONE is insecure).
+
+## Layer
+Lambda deployment package containing shared code or dependencies that should be scanned for vulnerabilities independently.
+
+## Reserved Concurrency
+Maximum number of concurrent executions for a function, useful for preventing resource exhaustion attacks.
+
+## Provisioned Concurrency
+Pre-initialized function instances that reduce cold start latency and ensure secrets are cached.
 
 ## Tools & Systems
 
-- **AWS Lambda Power Tuning**: Open-source tool for optimizing Lambda memory and timeout settings to balance security with performance
-- **Snyk**: SCA tool scanning Lambda dependencies for known vulnerabilities with automatic fix suggestions
-- **Semgrep**: SAST tool with serverless-specific rules detecting injection vulnerabilities, hardcoded secrets, and insecure configurations
-- **GuardDuty Lambda Protection**: AWS service monitoring Lambda network activity for connections to malicious endpoints
-- **AWS X-Ray**: Distributed tracing service for detecting suspicious external connections and latency anomalies in Lambda invocations
+- **AWS Lambda Power Tuning**: Open-source tool for optimizing Lambda memory and timeout settings to balance security with performance.
+- **Snyk**: SCA tool scanning Lambda dependencies for known vulnerabilities with automatic fix suggestions.
+- **Semgrep**: SAST tool with serverless-specific rules detecting injection vulnerabilities, hardcoded secrets, and insecure configurations.
+- **GuardDuty Lambda Protection**: AWS service monitoring Lambda network activity for connections to malicious endpoints.
+- **AWS X-Ray**: Distributed tracing service for detecting suspicious external connections and latency anomalies in Lambda invocations.
 
 ## Common Scenarios
 
@@ -28,12 +40,12 @@ domain: cybersecurity
 **Context**: A Lambda function receives user input from API Gateway and constructs SQL queries by string concatenation against an RDS PostgreSQL database. An attacker injects SQL payloads through the API.
 
 **Approach**:
-1. Audit the Lambda function code for string concatenation in SQL queries
-2. Replace all string-formatted queries with parameterized queries using the database driver
-3. Implement input validation using JSON Schema before any database operation
-4. Add a WAF rule on API Gateway to block common SQL injection patterns
-5. Deploy Semgrep in the CI/CD pipeline with the `python.django.security.injection.sql` rule set
-6. Enable GuardDuty Lambda protection to detect anomalous database connection patterns
+1. Audit the Lambda function code for string concatenation in SQL queries.
+2. Replace all string-formatted queries with parameterized queries using the database driver.
+3. Implement input validation using JSON Schema before any database operation.
+4. Add a WAF rule on API Gateway to block common SQL injection patterns.
+5. Deploy Semgrep in the CI/CD pipeline with the `python.django.security.injection.sql` rule set.
+6. Enable GuardDuty Lambda protection to detect anomalous database connection patterns.
 
 **Pitfalls**: Relying solely on WAF rules without fixing the underlying code vulnerability allows attackers to bypass with encoding tricks. Using ORM methods incorrectly (raw queries) still allows injection.
 
