@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Generate index.json from agents/ and skills/ directories."""
+"""Generate index.json from agents/ and flat skills/ directories only (skills/*-*/SKILL.md)."""
+
 import json
 import re
 from pathlib import Path
@@ -65,24 +66,27 @@ for f in sorted((root / "agents").glob("*.md")):
         }
     )
 
-# ── Skills ────────────────────────────────────────────────────────────────────
-for f in sorted((root / "skills").rglob("SKILL.md")):
-    content = f.read_text()
+# ── Skills (FLAT ONLY: skills/*-*/SKILL.md) ────────────────────────────────────
+for skill_dir in sorted((root / "skills").glob("*")):
+    if not skill_dir.is_dir() or "-" not in skill_dir.name:
+        continue
+    skill_md = skill_dir / "SKILL.md"
+    if not skill_md.exists():
+        continue
+    content = skill_md.read_text()
     fm = parse_frontmatter(content)
-    parts = f.parent.relative_to(root / "skills").parts
     desc = resolve_block_scalar(fm.get("description", ""), content, "description")
     catalog["skills"].append(
         {
-            "name": fm.get("name", "-".join(parts) if parts else f.parent.name),
-            "path": "/".join(parts),
+            "name": fm.get("name", skill_dir.name),
+            "path": skill_dir.name,
             "description": desc[:200],
             "domain": fm.get("domain", "cybersecurity"),
             "model": fm.get("model", "sonnet"),
-            "file": str(f.relative_to(root)),
+            "file": str(skill_md.relative_to(root)),
         }
     )
 
 out = root / "index.json"
 out.write_text(json.dumps(catalog, indent=2) + "\n")
-print(f"✓ index.json: {len(catalog['agents'])} agents, {len(catalog['skills'])} skills")
-
+print(f"✓ index.json: {len(catalog['agents'])} agents, {len(catalog['skills'])} skills (flat only)")
