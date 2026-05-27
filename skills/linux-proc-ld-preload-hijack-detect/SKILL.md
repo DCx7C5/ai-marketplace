@@ -1,5 +1,5 @@
 ---
-name: processes-ld-preload-hijack-detect
+name: linux-proc-ld-preload-hijack-detect
 description: >
   Detect LD_PRELOAD environment variable hijacking and /etc/ld.so.preload manipulation used to intercept library calls and inject malicious code into processes.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: phishing-quishing-detect
+name: email-phishing-quishing
 description: Detect and prevent QR code phishing (quishing) attacks that bypass traditional email security by embedding malicious URLs in QR code images within emails.
 domain: cybersecurity
 subdomain: phishing-defense

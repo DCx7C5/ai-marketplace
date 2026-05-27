@@ -1,5 +1,5 @@
 ---
-name: hunting-apt-hunt-detect
+name: soc-hunting-apt-hunt
 description: APT Hunt — multi-vector threat detection across processes, network, browser, and filesystem on any Linux system. Runs quick or deep scans, auto-detects system config, logs findings + IOCs to session directory.
 domain: cybersecurity
 subdomain: threat-hunting

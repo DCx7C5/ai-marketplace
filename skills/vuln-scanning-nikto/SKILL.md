@@ -1,5 +1,5 @@
 ---
-name: nikto-SKILL.md
+name: vuln-scanning-nikto
 description: ">\n  Nikto is an open-source web server and web application scanner\
   \ that tests against over 7,000 potentially dangerous files/programs, checks for\
   \ outdated versions of over 1,250 servers, and identifies ve"

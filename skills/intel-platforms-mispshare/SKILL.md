@@ -1,5 +1,5 @@
 ---
-name: platforms-mispshare-analyze
+name: intel-platforms-mispshare
 description: Use PyMISP to create, enrich, and share threat intelligence events on a MISP platform, including IOC management, feed integration, STIX export, and community sharing workflows.
 domain: cybersecurity
 subdomain: threat-intelligence

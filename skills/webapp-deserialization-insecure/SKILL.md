@@ -1,5 +1,5 @@
 ---
-name: deserialization-insecure-detect
+name: webapp-deserialization-insecure
 description: Identifying and exploiting insecure deserialization vulnerabilities in Java, PHP, Python, and .NET applications to achieve remote code execution during authorized penetration tests.
 domain: cybersecurity
 subdomain: web-application-security

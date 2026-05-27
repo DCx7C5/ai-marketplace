@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: identity-pam-stack-bypass-detect
+name: linux-id-pam-stack-bypass-detect
 description: Detect PAM authentication stack bypass — identify pam_permit abuse, 'sufficient' control flag manipulation, and PAM stack modifications that bypass authentication.
 domain: cybersecurity
 subdomain: identity-security

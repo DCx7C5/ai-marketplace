@@ -1,5 +1,5 @@
 ---
-name: analysis-landscape-exploit
+name: intel-analysis-landscape
 description: Conduct a sector-specific threat landscape assessment by analyzing threat actor targeting patterns, common attack vectors, and industry-specific vulnerabilities to inform organizational risk management.
 domain: cybersecurity
 subdomain: threat-intelligence

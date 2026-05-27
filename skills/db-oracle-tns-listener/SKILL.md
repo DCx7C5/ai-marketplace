@@ -1,5 +1,5 @@
 ---
-name: oracle-tns-listener-enum
+name: db-oracle-tns-listener
 description: >
   Enumerate Oracle TNS Listener services to identify database SIDs, version information, and unauthenticated registration vulnerabilities using tnscmd10g and nmap NSE scripts.
 domain: cybersecurity

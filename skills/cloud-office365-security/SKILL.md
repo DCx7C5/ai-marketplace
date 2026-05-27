@@ -1,5 +1,5 @@
 ---
-name: office365-security-audit
+name: cloud-office365-security
 description: Parse Office 365 Unified Audit Logs via Microsoft Graph API to detect email forwarding rule creation, inbox delegation, suspicious OAuth app grants, and other indicators of account compromise.
 domain: cybersecurity
 subdomain: cloud-security

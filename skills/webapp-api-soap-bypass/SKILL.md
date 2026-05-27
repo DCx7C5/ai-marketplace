@@ -1,5 +1,5 @@
 ---
-name: api-soap-bypass
+name: webapp-api-soap-bypass
 description: Perform security testing of SOAP web services by analyzing WSDL definitions and testing for XML injection, XXE, WS-Security bypass, and SOAPAction spoofing.
 domain: cybersecurity
 subdomain: api-security

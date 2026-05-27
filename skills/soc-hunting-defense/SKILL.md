@@ -1,5 +1,5 @@
 ---
-name: hunting-defense-detect
+name: soc-hunting-defense
 description: Detect NTFS timestamp manipulation (MITRE T1070.006) by comparing $STANDARD_INFORMATION vs $FILE_NAME timestamps in the MFT. Uses analyzeMFT and Python to identify files with anomalous temporal patterns indicating anti-forensic timestomping activity.
 domain: cybersecurity
 subdomain: threat-hunting

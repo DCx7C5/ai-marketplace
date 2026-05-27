@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: network-services-cups-rce-detect
+name: linux-net-cups-rce-detect
 description: Detect CUPS Remote Code Execution exploitation (CVE-2024-47176, CVE-2024-47076) — identify unauthorized IPP requests, cups-browsed external connections, and PPD injection.
 domain: cybersecurity
 subdomain: network-security

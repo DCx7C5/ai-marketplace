@@ -1,5 +1,5 @@
 ---
-name: hunting-edr-detect
+name: soc-hunting-edr
 description: Detect OS credential dumping techniques targeting LSASS memory, SAM database, NTDS.dit, and cached credentials using EDR telemetry, Sysmon process access monitoring, and Windows security event correlation.
 domain: cybersecurity
 subdomain: threat-hunting

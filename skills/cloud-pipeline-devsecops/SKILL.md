@@ -1,5 +1,5 @@
 ---
-name: pipeline-devsecops-scan-enum
+name: cloud-pipeline-devsecops
 description: Design and implement a comprehensive DevSecOps pipeline in GitLab CI/CD integrating SAST, DAST, container scanning, dependency scanning, and secret detection.
 domain: cybersecurity
 subdomain: devsecops

@@ -1,5 +1,5 @@
 ---
-name: extension-manifest-audit
+name: browser-extension-manifest
 description: >
   Audit browser extension manifest.json files for dangerous permissions including all_urls, tabs, webRequest, nativeMessaging, and clipboard access.
 domain: cybersecurity

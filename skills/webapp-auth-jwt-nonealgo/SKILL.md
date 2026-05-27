@@ -1,5 +1,5 @@
 ---
-name: auth-jwt-nonealgo-detect
+name: webapp-auth-jwt-nonealgo
 description: Execute and test the JWT none algorithm attack to bypass signature verification by manipulating the alg header field in JSON Web Tokens.
 domain: cybersecurity
 subdomain: api-security

@@ -1,5 +1,5 @@
 ---
-name: protocol-tls-downgrade-detect
+name: net-protocol-tls-downgrade
 description: >
   Detect TLS downgrade attacks, BEAST, POODLE, CRIME, and DROWN vulnerabilities by auditing cipher suites, protocol versions, and certificate validation failures.
 domain: cybersecurity

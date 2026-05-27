@@ -1,5 +1,5 @@
 ---
-name: mitre-coveragemap-detect
+name: intel-mitre-coveragemap
 description: Implement MITRE ATT&CK coverage mapping to identify detection gaps, prioritize rule development, and measure SOC detection maturity against adversary techniques.
 domain: cybersecurity
 subdomain: soc-operations

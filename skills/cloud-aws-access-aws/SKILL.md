@@ -1,5 +1,5 @@
 ---
-name: aws-access-aws-audit
+name: cloud-aws-access-aws
 description: Configure AWS Verified Access to provide VPN-less zero trust network access to internal applications using identity and device posture verification with Cedar policy language.
 domain: cybersecurity
 subdomain: zero-trust-architecture

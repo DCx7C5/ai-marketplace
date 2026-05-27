@@ -1,5 +1,5 @@
 ---
-name: kerberos-constrained-exploit
+name: identity-kerberos-constrained
 description: Exploit Kerberos Constrained Delegation misconfigurations in Active Directory to impersonate privileged users via S4U2self and S4U2proxy extensions for lateral movement and privilege escalation.
 domain: cybersecurity
 subdomain: red-teaming

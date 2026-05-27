@@ -1,5 +1,5 @@
 ---
-name: azure-lateral-detect
+name: cloud-azure-lateral
 description: Detect lateral movement in Azure AD/Entra ID environments using Microsoft Graph API audit logs, Azure Sentinel KQL hunting queries, and sign-in anomaly correlation to identify privilege escalation, token theft, and cross-tenant pivoting.
 domain: cybersecurity
 subdomain: cloud-security

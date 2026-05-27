@@ -1,5 +1,5 @@
 ---
-name: chrome-extension-audit
+name: browser-chrome-extension
 description: >
   Audit installed Chrome extensions for excessive permissions, obfuscated code, C2 communication, data exfiltration, and policy violations via manifest.json analysis.
 domain: cybersecurity

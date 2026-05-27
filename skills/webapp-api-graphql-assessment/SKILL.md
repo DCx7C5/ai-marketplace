@@ -1,5 +1,5 @@
 ---
-name: api-graphql-assessment-exploit
+name: webapp-api-graphql-assessment
 description: Assessing GraphQL API endpoints for introspection leaks, injection attacks, authorization flaws, and denial-of-service vulnerabilities during authorized security tests.
 domain: cybersecurity
 subdomain: web-application-security

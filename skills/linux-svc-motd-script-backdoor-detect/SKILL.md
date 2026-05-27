@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: services-motd-script-backdoor-detect
+name: linux-svc-motd-script-backdoor-detect
 description: Detect /etc/update-motd.d/ script backdoors — identify unauthorized executable scripts in MOTD directories that execute as root on every SSH login for persistence or C2.
 domain: cybersecurity
 subdomain: persistence-detection

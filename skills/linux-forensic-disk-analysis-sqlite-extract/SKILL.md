@@ -1,5 +1,5 @@
 ---
-name: forensics-disk-analysis-sqlite-extract
+name: linux-forensic-disk-analysis-sqlite-extract
 description: Perform forensic analysis of SQLite databases to recover deleted records from freelists and WAL files, decode encoded timestamps, and extract evidence from browser history, messaging apps, and mobile device databases.
 domain: cybersecurity
 subdomain: digital-forensics

@@ -1,5 +1,5 @@
 ---
-name: triage-splunk-analyze
+name: soc-triage-splunk
 description: Triages security alerts in Splunk Enterprise Security by classifying severity, investigating notable events, correlating related telemetry, and making escalation or closure decisions using SPL queries and the Incident Review dashboard. Use when SOC analysts face queued alerts from correlation searches, need to prioritize investigation order, or must document triage decisions for handoff to Tier 2/3 analysts.
 domain: cybersecurity
 subdomain: soc-operations

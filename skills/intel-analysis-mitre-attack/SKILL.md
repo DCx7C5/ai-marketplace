@@ -1,5 +1,5 @@
 ---
-name: analysis-mitre-attack-forensic
+name: intel-analysis-mitre-attack
 description: Advanced MITRE ATT&CK framework analyzer. Comprehensive forensic intelligence, anti-forensic technique mapping, defense correlation, TTP attribution, kill-chain reconstruction, and progressive hardening integration for complete threat landscape analysis.
 model: opus
 maxTurns: 30

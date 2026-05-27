@@ -1,5 +1,5 @@
 ---
-name: processes-zombie-orphan-detect
+name: linux-proc-zombie-orphan-detect
 description: >
   Detect zombie and orphan processes indicating crashed services, fork bombs, or malware that intentionally creates orphans to evade parent-process correlation.
 domain: cybersecurity

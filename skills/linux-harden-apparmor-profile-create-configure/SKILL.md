@@ -3,7 +3,7 @@ name: "linux-harden-apparmor-profile-create-configure"
 description: "---"
 ---
 ---
-name: hardening-apparmor-profile-create-configure
+name: linux-harden-apparmor-profile-create-configure
 description: Create and enforce AppArmor profiles for applications — generate profiles in complain mode, analyze violations, convert to enforce mode, and validate confinement.
 domain: cybersecurity
 subdomain: hardening-implementation

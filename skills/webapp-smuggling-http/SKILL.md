@@ -1,5 +1,5 @@
 ---
-name: smuggling-http-detect
+name: webapp-smuggling-http
 description: Detecting and exploiting HTTP request smuggling vulnerabilities caused by Content-Length and Transfer-Encoding parsing discrepancies between front-end and back-end servers.
 domain: cybersecurity
 subdomain: web-application-security

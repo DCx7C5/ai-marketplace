@@ -1,5 +1,5 @@
 ---
-name: ics-scada-attack-detect
+name: ics-ics-scada-attack
 description: This skill covers detecting cyber attacks targeting Supervisory Control and Data Acquisition (SCADA) systems including man-in-the-middle attacks on industrial protocols, unauthorized command injection into PLCs, HMI compromise, historian data manipulation, and denial-of-service against control system communications. It leverages OT-specific intrusion detection systems, industrial protocol anomaly detection, and process data analytics to identify attacks that traditional IT security tools miss.
 domain: cybersecurity
 subdomain: ot-ics-security

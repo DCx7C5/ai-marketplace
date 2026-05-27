@@ -1,5 +1,5 @@
 ---
-name: wav-echo-hiding-detect
+name: stego-audio-wav-echo-hiding
 description: ">\n  Detects echo-hiding steganography in WAV audio via cepstrum analysis."
 ---
 ## Overview

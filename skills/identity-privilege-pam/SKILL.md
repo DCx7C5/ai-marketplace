@@ -1,5 +1,5 @@
 ---
-name: privilege-pam-audit
+name: identity-privilege-pam
 description: Deploy privileged access management for database systems including Oracle, SQL Server, PostgreSQL, and MySQL. Covers session proxy configuration, credential vaulting, query auditing, dynamic credentia
 domain: cybersecurity
 subdomain: identity-access-management

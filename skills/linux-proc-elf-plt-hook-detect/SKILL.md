@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: processes-elf-plt-hook-detect
+name: linux-proc-elf-plt-hook-detect
 description: Detect PLT (Procedure Linkage Table) hooking — identify function interception via PLT/GOT manipulation in running processes or ELF binary patching.
 domain: cybersecurity
 subdomain: process-forensics

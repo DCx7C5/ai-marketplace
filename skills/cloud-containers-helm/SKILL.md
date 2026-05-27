@@ -1,5 +1,5 @@
 ---
-name: containers-helm-audit
+name: cloud-containers-helm
 description: Secure Helm chart deployments by validating chart integrity, scanning plugins for misconfigurations, and enforcing security contexts in Kubernetes releases.
 domain: cybersecurity
 subdomain: container-security
@@ -227,15 +227,15 @@ rules:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: helm-deployer-binding
+name: cloud-containers-helm
   namespace: production
 subjects:
   - kind: ServiceAccount
-    name: helm-deployer
+name: cloud-containers-helm
     namespace: production
 roleRef:
   kind: Role
-  name: helm-deployer
+name: cloud-containers-helm
   apiGroup: rbac.authorization.k8s.io
 ```
 
@@ -243,7 +243,7 @@ roleRef:
 
 ```yaml
 # .github/workflows/helm-security.yaml
-name: containers-helm
+name: cloud-containers-helm
 on:
   pull_request:
     paths: ['charts/**']

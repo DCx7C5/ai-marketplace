@@ -1,5 +1,5 @@
 ---
-name: email-dmarc-verify
+name: compliance-email-dmarc-verify
 description: SPF, DKIM, and DMARC form the three pillars of email authentication. Together they prevent domain spoofing, validate message integrity, and define policies for handling unauthenticated mail. Proper im
 domain: cybersecurity
 subdomain: phishing-defense

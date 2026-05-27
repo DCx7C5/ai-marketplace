@@ -1,5 +1,5 @@
 ---
-name: ics-scada-hmi-assess-audit
+name: ics-ics-scada-hmi-assess
 description: Perform security assessments of SCADA Human-Machine Interface (HMI) systems to identify vulnerabilities in web-based HMIs, thin-client configurations, authentication mechanisms, and communication channels between HMI and PLCs, aligned with IEC 62443 and NIST SP 800-82 guidelines.
 domain: cybersecurity
 subdomain: ot-ics-security

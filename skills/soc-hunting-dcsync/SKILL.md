@@ -1,5 +1,5 @@
 ---
-name: hunting-dcsync-detect
+name: soc-hunting-dcsync
 description: Detect DCSync attacks by analyzing Windows Event ID 4662 for unauthorized DS-Replication-Get-Changes requests from non-domain-controller accounts.
 domain: cybersecurity
 subdomain: threat-hunting

@@ -1,5 +1,5 @@
 ---
-name: protocol-icmp-covert-channel-detect
+name: net-protocol-icmp-covert-channel
 description: >
   Detect ICMP covert channel C2 communication by analysing ICMP payload entropy, packet size distribution, timing patterns, and comparing against legitimate ping baselines.
 domain: cybersecurity

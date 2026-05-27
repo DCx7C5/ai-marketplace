@@ -1,5 +1,5 @@
 ---
-name: ad-dcsyncd-detect
+name: identity-ad-dcsyncd
 description: Detect DCSync attacks where adversaries abuse Active Directory replication privileges to extract password hashes by monitoring for non-domain-controller accounts requesting directory replication via DsGetNCChanges.
 domain: cybersecurity
 subdomain: threat-hunting

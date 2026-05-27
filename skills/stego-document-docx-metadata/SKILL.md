@@ -1,5 +1,5 @@
 ---
-name: docx-metadata-detect
+name: stego-document-docx-metadata
 description: "Detects hidden content in DOCX metadata, revisions, and XML comments."
 ---
 ## Overview

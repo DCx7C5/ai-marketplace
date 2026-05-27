@@ -1,5 +1,5 @@
 ---
-name: protocol-tcp-session-hijack-detect
+name: net-protocol-tcp-session-hijack
 description: >
   Detect TCP session hijacking by identifying sequence number anomalies, RST injection events, and unexpected window size changes through packet capture analysis.
 domain: cybersecurity

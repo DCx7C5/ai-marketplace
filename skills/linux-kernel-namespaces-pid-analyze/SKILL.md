@@ -1,5 +1,5 @@
 ---
-name: kernel-namespaces-pid-analyze
+name: linux-kernel-namespaces-pid-analyze
 description: >
   Analyse Linux PID namespace isolation to detect container escapes, namespace leakage, and processes visible across namespace boundaries.
 domain: cybersecurity

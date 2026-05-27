@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: shell-profile-backdoor-detect
+name: linux-shell-profile-backdoor-detect
 description: Detect shell profile backdoors — scan .bashrc, .bash_profile, .profile, .zshrc, /etc/profile.d/ for injected commands, reverse shells, and credential harvesting hooks.
 domain: cybersecurity
 subdomain: persistence-detection

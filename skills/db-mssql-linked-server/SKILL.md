@@ -1,5 +1,5 @@
 ---
-name: mssql-linked-server-enum
+name: db-mssql-linked-server
 description: >
   Enumerate MSSQL linked server configurations to identify transitive privilege escalation paths and lateral movement opportunities across database instances.
 domain: cybersecurity

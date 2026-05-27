@@ -1,5 +1,5 @@
 ---
-name: filesystem-btrfs-snapshot-analyze
+name: linux-fs-btrfs-snapshot-analyze
 description: > 
   Compare Btrfs snapshots to identify file changes between known-good and potentially compromised filesystem states for rootkit and tampering detection.
 domain: cybersecurity

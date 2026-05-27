@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: shell-alias-hijack-detect
+name: linux-shell-alias-hijack-detect
 description: Detect shell alias hijacking — identify malicious aliases overriding common commands (ls, ps, netstat, sudo) in .bashrc or /etc/profile.d/ used by rootkits to hide activity.
 domain: cybersecurity
 subdomain: persistence-detection

@@ -1,5 +1,5 @@
 ---
-name: bucket-SKILL.md
+name: vuln-remediation-bucket
 description: ">\n  This skill provides step-by-step procedures for identifying and\
   \ remediating Amazon S3 bucket misconfigurations that expose sensitive data to unauthorized\
   \ access. It covers enabling S3 Block Public Access at account and bucket levels,\

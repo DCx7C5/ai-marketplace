@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: network-services-apache-config-audit
+name: linux-net-apache-config-audit
 description: Security audit of Apache httpd configuration — review ServerTokens, directory indexing, mod_status exposure, .htaccess risks, and SSL/TLS configuration weaknesses.
 domain: cybersecurity
 subdomain: network-security

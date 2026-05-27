@@ -1,5 +1,5 @@
 ---
-name: hunting-lolbins-detect
+name: soc-hunting-lolbins
 description: Proactively hunt for adversary abuse of legitimate system binaries (LOLBins) to execute malicious payloads while evading detection.
 domain: cybersecurity
 subdomain: threat-hunting

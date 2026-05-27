@@ -1,5 +1,5 @@
 ---
-name: load-balancer-nginx-configure
+name: net-load-balancer-nginx-configure
 description: >
   Configure NGINX as a Layer 7 load balancer with upstream health checks, sticky sessions, rate limiting, TLS termination, and security header injection.
 domain: cybersecurity

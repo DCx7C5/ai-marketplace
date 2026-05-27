@@ -1,5 +1,5 @@
 ---
-name: header-host-poison-detect
+name: webapp-header-host-poison
 description: Test web applications for HTTP Host header injection vulnerabilities to identify password reset poisoning, web cache poisoning, SSRF, and virtual host routing manipulation risks.
 domain: cybersecurity
 subdomain: web-application-security

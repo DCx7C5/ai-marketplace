@@ -1,5 +1,5 @@
 ---
-name: auth-enum
+name: webapp-auth
 description: Discovering and accessing unprotected pages, APIs, and administrative interfaces by enumerating URLs and bypassing authentication controls during authorized security assessments.
 domain: cybersecurity
 subdomain: web-application-security

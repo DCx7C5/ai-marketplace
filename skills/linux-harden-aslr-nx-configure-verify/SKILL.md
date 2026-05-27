@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: hardening-aslr-nx-configure-verify
+name: linux-harden-aslr-nx-configure-verify
 description: Verify and configure ASLR and NX/DEP stack protection — check randomization level, verify NX bit on stack/heap, audit execstack binaries, and configure system-wide settings.
 domain: cybersecurity
 subdomain: hardening-assessment

@@ -1,5 +1,5 @@
 ---
-name: zerotrust-identityverify-monitor
+name: cloud-zerotrust-identityverify-monitor
 description: Implement continuous identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model.
 domain: cybersecurity
 subdomain: zero-trust-architecture

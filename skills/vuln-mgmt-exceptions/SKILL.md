@@ -1,5 +1,5 @@
 ---
-name: exceptions-SKILL.md
+name: vuln-mgmt-exceptions
 description: ">\n  Build a vulnerability exception and risk acceptance tracking system\
   \ with approval workflows, compensating controls documentation, and expiration management."
 ---

@@ -1,5 +1,5 @@
 ---
-name: endpoint-SKILL.md
+name: vuln-remediation-endpoint
 description: ">\n  Performs vulnerability remediation on endpoints by prioritizing\
   \ CVEs based on risk scoring, deploying patches, applying configuration changes,\
   \ and validating fixes. Use when remediating findings from vulnerability scans,\

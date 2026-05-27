@@ -1,5 +1,5 @@
 ---
-name: png-lsb-detect
+name: stego-image-png-lsb
 description: ">\n  Detects LSB steganography in PNG images via chi-square analysis\
   \ and bit-plane inspection."
 ---

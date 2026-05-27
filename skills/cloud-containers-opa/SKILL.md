@@ -1,5 +1,5 @@
 ---
-name: containers-opa-exploit
+name: cloud-containers-opa
 description: Enforce Kubernetes admission policies using OPA Gatekeeper with ConstraintTemplates, Rego rules, and the Gatekeeper policy library.
 domain: cybersecurity
 subdomain: container-security

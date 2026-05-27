@@ -1,5 +1,5 @@
 ---
-name: ics-asset-management-claroty-discover-monitor
+name: ics-ics-assetmgmt-claroty-discover-monitor
 description: Perform comprehensive ICS/OT asset discovery using Claroty xDome platform, leveraging passive monitoring, Claroty Edge active queries, and integration ecosystem to gain full visibility into industrial control system assets including PLCs, RTUs, HMIs, and network infrastructure across Purdue Model levels.
 domain: cybersecurity
 subdomain: ot-ics-security

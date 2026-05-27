@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-memory-huge-pages-covert-detect
+name: linux-kernel-mem-huge-pages-covert-detect
 description: Detect huge pages timing side-channel attacks — identify processes abusing huge pages for ASLR entropy reduction or cross-process memory probing.
 domain: cybersecurity
 subdomain: kernel-security

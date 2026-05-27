@@ -1,5 +1,5 @@
 ---
-name: forensics-memory-injection-procinjection-detect
+name: linux-forensic-mem-injection-procinjection-detect
 description: Detect process injection techniques (T1055) including CreateRemoteThread, process hollowing, and DLL injection via Sysmon Event IDs 8 and 10 and EDR process telemetry
 domain: cybersecurity
 subdomain: threat-hunting

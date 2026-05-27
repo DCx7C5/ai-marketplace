@@ -1,5 +1,5 @@
 ---
-name: api-posture-audit
+name: webapp-api-posture
 description: Implement API Security Posture Management to continuously discover, classify, and score APIs based on risk while enforcing security policies across the API lifecycle.
 domain: cybersecurity
 subdomain: api-security

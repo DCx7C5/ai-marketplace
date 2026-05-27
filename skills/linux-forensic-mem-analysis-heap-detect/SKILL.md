@@ -1,5 +1,5 @@
 ---
-name: forensics-memory-analysis-heap-detect
+name: linux-forensic-mem-analysis-heap-detect
 description: Detect and analyze heap spray attacks in memory dumps using Volatility3 plugins to identify NOP sled patterns, shellcode landing zones, and suspicious large allocations in process virtual address space.
 domain: cybersecurity
 subdomain: malware-analysis

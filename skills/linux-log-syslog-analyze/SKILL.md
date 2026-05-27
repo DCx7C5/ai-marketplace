@@ -1,5 +1,5 @@
 ---
-name: logs-syslog-analyze
+name: linux-log-syslog-analyze
 description: Linux log forensics and event correlation. Authentication events, auditd analysis, journald forensics, web server logs, cron/systemd-timer abuse, sudo trail, timeline reconstruction, and log tampering detection.
 model: sonnet
 maxTurns: 30

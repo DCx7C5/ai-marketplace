@@ -1,5 +1,5 @@
 ---
-name: hunting-data-detect
+name: soc-hunting-data
 description: Hunt for data exfiltration through network traffic analysis, detecting unusual data flows, DNS tunneling, cloud storage uploads, and encrypted channel abuse.
 domain: cybersecurity
 subdomain: threat-hunting

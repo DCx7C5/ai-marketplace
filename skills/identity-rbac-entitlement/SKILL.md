@@ -1,5 +1,5 @@
 ---
-name: rbac-entitlement-harden
+name: identity-rbac-entitlement
 description: Performs entitlement review and access certification campaigns using SailPoint IdentityIQ including manager certifications, targeted entitlement reviews, role-based access validation, SOD violation remediation, and automated revocation workflows. Activates for requests involving access reviews, entitlement certifications, SailPoint IIQ governance, or periodic user access recertification.
 domain: cybersecurity
 subdomain: identity-access-management

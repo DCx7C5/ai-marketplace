@@ -1,5 +1,5 @@
 ---
-name: tls-sslkeylog-detect
+name: crypto-tls-sslkeylog
 description: TLS key logging management and SSLKEYLOGFILE forensics. Detects insecure keylog file permissions, unauthorized reader processes, ecapture-tls integration, TLS session decryption, and SSLKEYLOGFILE-based exfiltration indicators.
 model: sonnet
 maxTurns: 20

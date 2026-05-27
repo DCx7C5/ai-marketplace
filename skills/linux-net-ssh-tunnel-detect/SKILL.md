@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: network-services-ssh-tunnel-detect
+name: linux-net-ssh-tunnel-detect
 description: Detect unauthorized SSH tunneling — identify LocalForward/RemoteForward/DynamicForward connections, SOCKS proxy via SSH, and SSH as a covert C2 channel.
 domain: cybersecurity
 subdomain: network-security

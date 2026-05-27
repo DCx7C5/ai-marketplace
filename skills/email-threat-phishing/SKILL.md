@@ -1,5 +1,5 @@
 ---
-name: threat-phishing-detect
+name: email-threat-phishing
 description: Implement a phishing report button in email clients with automated triage workflow that analyzes user-reported suspicious emails and provides feedback to reporters.
 domain: cybersecurity
 subdomain: phishing-defense

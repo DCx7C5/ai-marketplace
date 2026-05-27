@@ -1,5 +1,5 @@
 ---
-name: traffic-anomaly-baseline-detect
+name: net-traffic-anomaly-baseline
 description: >
   Establish traffic baselines and detect statistical deviations indicating scanning, DDoS, exfiltration, or C2 activity using ML-assisted network anomaly detection tools.
 domain: cybersecurity

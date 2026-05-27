@@ -1,5 +1,5 @@
 ---
-name: filesystem-permission-world-writable-detect
+name: linux-fs-permission-world-writable-detect
 description: > 
   Detect world-writable files, directories, and scripts used in privilege escalation, cron job hijacking, and library path injection attacks.
 domain: cybersecurity

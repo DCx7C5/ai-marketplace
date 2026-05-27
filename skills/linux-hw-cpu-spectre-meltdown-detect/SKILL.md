@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: hardware-cpu-spectre-meltdown-detect
+name: linux-hw-cpu-spectre-meltdown-detect
 description: Detect Spectre and Meltdown hardware side-channel vulnerability exposure on Linux systems via microcode version checks, kernel mitigations, and CPU flags.
 domain: cybersecurity
 subdomain: hardware-security

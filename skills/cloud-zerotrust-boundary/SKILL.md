@@ -1,5 +1,5 @@
 ---
-name: zerotrust-boundary-extract
+name: cloud-zerotrust-boundary
 description: Implement HashiCorp Boundary for identity-aware zero trust infrastructure access management with dynamic credential brokering, session recording, and Vault integration.
 domain: cybersecurity
 subdomain: zero-trust-architecture

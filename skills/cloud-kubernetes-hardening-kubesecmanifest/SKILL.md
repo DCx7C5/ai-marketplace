@@ -1,5 +1,5 @@
 ---
-name: kubernetes-hardening-kubesecmanifest-detect
+name: cloud-kubernetes-hardening-kubesecmanifest
 description: Perform security risk analysis on Kubernetes resource manifests using Kubesec to identify misconfigurations, privilege escalation risks, and deviations from security best practices.
 domain: cybersecurity
 subdomain: container-security

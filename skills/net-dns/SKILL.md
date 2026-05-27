@@ -1,5 +1,5 @@
 ---
-name: dns-enum
+name: net-dns
 description: Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and maps DNS infrastructure during authorized reconnaissance to identify attack surface, misconfigurations, and information disclosure in target domains.
 domain: cybersecurity
 subdomain: network-security

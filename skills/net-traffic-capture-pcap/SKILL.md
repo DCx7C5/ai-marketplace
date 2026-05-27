@@ -1,5 +1,5 @@
 ---
-name: traffic-capture-pcap-analyze
+name: net-traffic-capture-pcap
 description: >
   Capture and analyse PCAP files with Wireshark, tshark, and Zeek to reconstruct network sessions, extract credentials, identify C2 beacons, and correlate with IOC feeds.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: kubernetes-hardening-rbacharden-audit
+name: cloud-kubernetes-hardening-rbacharden
 description: Harden Kubernetes Role-Based Access Control by implementing least-privilege policies, auditing role bindings, eliminating cluster-admin sprawl, and integrating external identity providers.
 domain: cybersecurity
 subdomain: container-security
@@ -90,14 +90,14 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   namespace: application
-  name: app-developer-binding
+name: cloud-kubernetes-hardening-rbacharden
 subjects:
   - kind: Group
-    name: dev-team
+name: cloud-kubernetes-hardening-rbacharden
     apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
-  name: app-developer
+name: cloud-kubernetes-hardening-rbacharden
   apiGroup: rbac.authorization.k8s.io
 ```
 
@@ -107,7 +107,7 @@ roleRef:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: payment-processor
+name: cloud-kubernetes-hardening-rbacharden
   namespace: payments
 automountServiceAccountToken: false  # Disable auto-mount
 ---

@@ -1,5 +1,5 @@
 ---
-name: infrastructure-terraform-audit
+name: cloud-infrastructure-terraform
 description: Auditing Terraform infrastructure-as-code for security misconfigurations using Checkov, tfsec, Terrascan, and OPA/Rego policies to detect overly permissive IAM policies, public resource exposure, missing encryption, and insecure defaults before cloud deployment.
 domain: cybersecurity
 subdomain: cloud-security

@@ -1,5 +1,5 @@
 ---
-name: feeds-stix-audit
+name: intel-feeds-stix
 description: STIX (Structured Threat Information eXpression) and TAXII (Trusted Automated eXchange of Intelligence Information) are OASIS open standards for representing and transporting cyber threat intelligence.
 domain: cybersecurity
 subdomain: threat-intelligence

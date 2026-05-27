@@ -1,5 +1,5 @@
 ---
-name: ics-architecture-purdue-implement-configure
+name: ics-ics-architecture-purdue-configure
 description: Implement network segmentation based on the Purdue Enterprise Reference Architecture (PERA) model to separate industrial control system networks into hierarchical security zones from Level 0 physical process through Level 5 enterprise, enforcing strict traffic control between OT and IT domains.
 domain: cybersecurity
 subdomain: ot-ics-security

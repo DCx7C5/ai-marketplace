@@ -1,5 +1,5 @@
 ---
-name: zerotrust-nextdns-exploit
+name: cloud-zerotrust-nextdns
 description: Implement NextDNS as a zero trust DNS filtering layer with encrypted resolution, threat intelligence blocking, privacy protection, and organizational policy enforcement across all endpoints.
 domain: cybersecurity
 subdomain: zero-trust-architecture

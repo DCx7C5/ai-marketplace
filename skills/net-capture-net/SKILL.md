@@ -1,5 +1,5 @@
 ---
-name: capture-network-analyze
+name: net-capture-net
 description: Perform forensic analysis of network packet captures (PCAP/PCAPNG) using Wireshark, tshark, and tcpdump to reconstruct network communications, extract transferred files, identify malicious traffic, and establish evidence of data exfiltration or command-and-control activity.
 domain: cybersecurity
 subdomain: digital-forensics

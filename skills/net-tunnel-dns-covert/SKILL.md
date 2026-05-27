@@ -1,5 +1,5 @@
 ---
-name: tunnel-dns-covert-detect
+name: net-tunnel-dns-covert
 description: >
   Detect DNS tunnelling C2 channels by analysing query frequency, subdomain length entropy, TXT/NULL record abuse, and comparing against authoritative DNS baseline.
 domain: cybersecurity

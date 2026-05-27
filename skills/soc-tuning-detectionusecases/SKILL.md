@@ -1,5 +1,5 @@
 ---
-name: tuning-detection-use-cases-detect
+name: soc-tuning-detectionusecases
 description: Implements SIEM detection use cases by designing correlation rules, threshold alerts, and behavioral analytics mapped to MITRE ATT&CK techniques across Splunk, Elastic, and Sentinel. Use when SOC teams need to expand detection coverage, formalize use case lifecycle management, or build a detection library aligned to organizational threat profile.
 domain: cybersecurity
 subdomain: soc-operations

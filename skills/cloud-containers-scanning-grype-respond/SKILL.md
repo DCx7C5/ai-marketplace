@@ -1,5 +1,5 @@
 ---
-name: containers-scanning-grype-respond
+name: cloud-containers-scanning-grype-respond
 description: Scan container images for known vulnerabilities using Anchore Grype with SBOM-based matching and configurable severity thresholds.
 domain: cybersecurity
 subdomain: container-security

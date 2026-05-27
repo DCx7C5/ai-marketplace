@@ -1,5 +1,5 @@
 ---
-name: kubernetes-hardening-kubernetes-analyze
+name: cloud-kubernetes-hardening-kubernetes
 description: Audit Kubernetes cluster security posture against CIS benchmarks using kube-bench with automated checks for control plane, worker nodes, and RBAC.
 domain: cybersecurity
 subdomain: container-security

@@ -1,5 +1,5 @@
 ---
-name: ics-historian-server-harden
+name: ics-ics-historian-server
 description: This skill covers hardening and securing process historian servers (OSIsoft PI, Honeywell PHD, GE Proficy, AVEVA Historian) in OT environments. It addresses network placement across Purdue levels, access control for historian interfaces, data replication through DMZ using data diodes or PI-to-PI connectors, SQL injection prevention in historian queries, and integrity protection of process data used for safety analysis, regulatory reporting, and process optimization.
 domain: cybersecurity
 subdomain: ot-ics-security

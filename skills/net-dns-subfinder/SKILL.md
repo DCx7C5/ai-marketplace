@@ -1,5 +1,5 @@
 ---
-name: dns-subfinder-exploit
+name: net-dns-subfinder
 description: Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passive reconnaissance tool to map the attack surface during security assessments.
 domain: cybersecurity
 subdomain: web-application-security

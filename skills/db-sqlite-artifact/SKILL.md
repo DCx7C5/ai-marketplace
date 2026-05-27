@@ -1,5 +1,5 @@
 ---
-name: sqlite-artifact-extract
+name: db-sqlite-artifact
 description: >
   Extract SQLite database artifacts from application data directories, browser profiles, mobile backups, and forensic disk images for evidence collection.
 domain: cybersecurity

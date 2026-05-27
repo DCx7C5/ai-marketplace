@@ -1,5 +1,5 @@
 ---
-name: filesystem-timeline-mtime-ctime-analyze
+name: linux-fs-timeline-mtime-ctime-analyze
 description: >
   Analyse file system timeline anomalies using mtime, ctime, and atime discrepancies with mactime, log2timeline, and Plaso to reconstruct attacker activity.
 domain: cybersecurity

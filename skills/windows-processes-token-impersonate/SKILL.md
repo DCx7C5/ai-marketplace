@@ -1,5 +1,5 @@
 ---
-name: processes-token-impersonate-detect
+name: windows-processes-token-impersonate
 description: >
   Detect Windows token impersonation and privilege abuse including SeImpersonatePrivilege exploitation via Potato attacks and token stealing techniques.
 domain: cybersecurity

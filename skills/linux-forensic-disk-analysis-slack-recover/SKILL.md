@@ -1,5 +1,5 @@
 ---
-name: forensics-disk-analysis-slack-recover
+name: linux-forensic-disk-analysis-slack-recover
 description: Examine file system slack space, MFT entries, USN journal, and alternate data streams to recover hidden data and reconstruct file activity on NTFS volumes.
 domain: cybersecurity
 subdomain: digital-forensics

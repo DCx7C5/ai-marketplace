@@ -1,5 +1,5 @@
 ---
-name: kubernetes-cloudkube-audit
+name: cloud-kubernetes-cloudkube
 description: This skill covers hardening managed Kubernetes clusters on EKS, AKS, and GKE by implementing Pod Security Standards, network policies, workload identity, RBAC scoping, image admission controls, and runtime security monitoring. It addresses cloud-specific security features including IRSA for EKS, Workload Identity for GKE, and Managed Identities for AKS.
 domain: cybersecurity
 subdomain: cloud-security
@@ -64,7 +64,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: staging
+name: cloud-kubernetes-cloudkube
   labels:
     pod-security.kubernetes.io/enforce: baseline
     pod-security.kubernetes.io/audit: restricted
@@ -76,7 +76,7 @@ metadata:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: secure-app
+name: cloud-kubernetes-cloudkube
   namespace: production
 spec:
   automountServiceAccountToken: false
@@ -148,7 +148,7 @@ Deploy network policies to restrict pod-to-pod communication following the princ
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: default-deny-all
+name: cloud-kubernetes-cloudkube
   namespace: production
 spec:
   podSelector: {}
@@ -181,7 +181,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-web-to-db
+name: cloud-kubernetes-cloudkube
   namespace: production
 spec:
   podSelector:
@@ -216,7 +216,7 @@ Scope Kubernetes RBAC roles to specific namespaces and resources. Avoid ClusterR
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
-  name: developer-role
+name: cloud-kubernetes-cloudkube
   namespace: staging
 rules:
   - apiGroups: [""]
@@ -271,7 +271,7 @@ spec:
 apiVersion: kyverno.io/v1
 kind: ClusterPolicy
 metadata:
-  name: require-image-digest
+name: cloud-kubernetes-cloudkube
 spec:
   validationFailureAction: Enforce
   rules:

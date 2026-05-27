@@ -1,5 +1,5 @@
 ---
-name: phishing-bec-detect
+name: email-phishing-bec
 description: Deploy AI and NLP-powered detection systems to identify business email compromise attacks by analyzing writing style, behavioral patterns, and contextual anomalies that evade traditional rule-based filters.
 domain: cybersecurity
 subdomain: phishing-defense

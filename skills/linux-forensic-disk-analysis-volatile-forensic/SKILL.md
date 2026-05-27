@@ -1,5 +1,5 @@
 ---
-name: forensics-disk-analysis-volatile-forensic
+name: linux-forensic-disk-analysis-volatile-forensic
 description: Collect volatile forensic evidence from a compromised system following order of volatility, preserving memory, network connections, processes, and system state before they are lost.
 domain: cybersecurity
 subdomain: incident-response

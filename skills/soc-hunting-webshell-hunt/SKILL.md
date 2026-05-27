@@ -1,5 +1,5 @@
 ---
-name: hunting-webshell-hunt
+name: soc-hunting-webshell-hunt
 description: Hunt for web shell deployments on internet-facing servers by analyzing file creation in web directories, suspicious process spawning from web servers, and anomalous HTTP patterns.
 domain: cybersecurity
 subdomain: threat-hunting

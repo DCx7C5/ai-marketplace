@@ -1,5 +1,5 @@
 ---
-name: devsecops-github-detect
+name: cloud-devsecops-github
 description: Configure GitHub Advanced Security with CodeQL to perform automated static analysis and vulnerability detection across repositories at enterprise scale.
 domain: cybersecurity
 subdomain: devsecops

@@ -1,5 +1,5 @@
 ---
-name: filesystem-hidden-rootkit-detect
+name: linux-fs-hidden-rootkit-detect
 description: >
   Detect filesystem-level rootkit concealment using rkhunter, chkrootkit, cross-verification of /proc vs readdir output, and kernel module audit.
 domain: cybersecurity

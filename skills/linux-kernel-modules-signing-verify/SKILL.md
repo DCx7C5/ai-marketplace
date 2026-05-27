@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-modules-signing-verify
+name: linux-kernel-modules-signing-verify
 description: Verify kernel module signing — check module signatures against trusted keys, detect unsigned or invalidly-signed modules loaded into the kernel.
 domain: cybersecurity
 subdomain: kernel-security

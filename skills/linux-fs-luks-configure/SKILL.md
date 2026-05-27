@@ -1,5 +1,5 @@
 ---
-name: filesystem-luks-configure
+name: linux-fs-luks-configure
 description: >
   Configure LUKS2 full-disk encryption with Argon2id key derivation, secure header backup, and TPM2/FIDO2 integration for at-rest data protection.
 domain: cybersecurity

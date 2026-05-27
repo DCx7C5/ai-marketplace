@@ -1,5 +1,5 @@
 ---
-name: asset-SKILL.md
+name: vuln-asset
 description: ">\n  Develop and apply a multi-factor asset criticality scoring model\
   \ to weight vulnerability prioritization based on business impact, data sensitivity,\
   \ and operational importance."

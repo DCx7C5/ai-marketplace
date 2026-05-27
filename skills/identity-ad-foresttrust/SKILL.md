@@ -1,5 +1,5 @@
 ---
-name: ad-foresttrust-detect
+name: identity-ad-foresttrust
 description: Enumerate and audit Active Directory forest trust relationships using impacket for SID filtering analysis, trust key extraction, cross-forest SID history abuse detection, and inter-realm Kerberos ticket assessment.
 domain: cybersecurity
 subdomain: red-team

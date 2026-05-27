@@ -1,5 +1,5 @@
 ---
-name: asymmetric-rsa-analyze
+name: crypto-asymmetric-rsa
 description: RSA (Rivest-Shamir-Adleman) is the most widely deployed asymmetric cryptographic algorithm, used for digital signatures, key exchange, and encryption. This skill covers generating, storing, rotating,
 domain: cybersecurity
 subdomain: cryptography

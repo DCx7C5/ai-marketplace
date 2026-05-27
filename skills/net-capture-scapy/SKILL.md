@@ -1,5 +1,5 @@
 ---
-name: capture-scapy-detect
+name: net-capture-scapy
 description: Craft, send, sniff, and dissect network packets using Scapy for protocol analysis, network reconnaissance, and traffic anomaly detection in authorized security testing
 domain: cybersecurity
 subdomain: network-security

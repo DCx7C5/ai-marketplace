@@ -1,5 +1,5 @@
 ---
-name: firefox-addon-audit
+name: browser-firefox-addon
 description: >
   Audit Firefox add-ons for malicious capabilities, data collection permissions, C2 communication, and policy violations using manifest.json and background script analysis.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: forensics-investigation-forensic
+name: soc-forensics-investigation
 description: Filesystem forensic reconnaissance. Baseline/delta comparison, SUID/SGID audit, hidden file detection, inode anomalies, extended attributes, deleted-but-open files, setuid rootkits, and forensic timeline analysis.
 model: sonnet
 maxTurns: 30

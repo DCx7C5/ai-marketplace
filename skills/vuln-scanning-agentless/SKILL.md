@@ -1,5 +1,5 @@
 ---
-name: agentless-SKILL.md
+name: vuln-scanning-agentless
 description: ">\n  Configure and execute agentless vulnerability scanning using network\
   \ protocols, cloud snapshot analysis, and API-based discovery to assess systems\
   \ without installing endpoint agents."

@@ -1,5 +1,5 @@
 ---
-name: firewall-gcp-exploit
+name: net-firewall-gcp
 description: Implementing and auditing GCP VPC firewall rules to enforce network segmentation, restrict ingress and egress traffic, apply hierarchical firewall policies across the organization, and monitor firewall rule effectiveness using VPC Flow Logs.
 domain: cybersecurity
 subdomain: cloud-security

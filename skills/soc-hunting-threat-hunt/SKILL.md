@@ -1,5 +1,5 @@
 ---
-name: hunting-threat-hunt
+name: soc-hunting-threat-hunt
 description: Build a systematic threat hunt hypothesis framework that transforms threat intelligence, attack patterns, and environmental data into testable hunting hypotheses.
 domain: cybersecurity
 subdomain: threat-hunting

@@ -1,5 +1,5 @@
 ---
-name: ids-suricata-configure
+name: net-ids-suricata-configure
 description: Deploys and configures Suricata IDS/IPS with Emerging Threats rulesets, EVE JSON logging, and custom rules for real-time network traffic inspection, threat detection, and integration with SIEM platforms for centralized security monitoring.
 domain: cybersecurity
 subdomain: network-security

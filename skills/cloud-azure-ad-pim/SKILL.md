@@ -1,5 +1,5 @@
 ---
-name: azure-ad-pim-exploit
+name: cloud-azure-ad-pim
 description: Configure Microsoft Entra Privileged Identity Management to enforce just-in-time role activation, approval workflows, and access reviews for Azure AD privileged roles.
 domain: cybersecurity
 subdomain: identity-access-management

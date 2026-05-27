@@ -1,5 +1,5 @@
 ---
-name: processes-proc-fs-environ-extract
+name: linux-proc-proc-environ-extract
 description: >
   Extract process environment variables from /proc/<PID>/environ to recover secrets, tokens, credentials, and configuration injected at process launch.
 domain: cybersecurity

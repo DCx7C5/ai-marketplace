@@ -1,5 +1,5 @@
 ---
-name: sqlite-deleted-record-recover
+name: db-sqlite-deleted-record-recover
 description: >
   Recover deleted SQLite records from freelist pages, WAL files, and journal remnants using SQLite recovery tools and hex analysis of database page structures.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: vulnerabilities-SKILL.md
+name: vuln-prioritization-vulns
 description: ">\n  The Common Vulnerability Scoring System (CVSS) is the industry\
   \ standard framework maintained by FIRST (Forum of Incident Response and Security\
   \ Teams) for assessing vulnerability severity. CVSS v4.0 (r"

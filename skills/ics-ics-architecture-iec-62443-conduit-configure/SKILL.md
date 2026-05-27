@@ -1,5 +1,5 @@
 ---
-name: ics-architecture-iec-62443-conduit-implement-configure
+name: ics-ics-architecture-iec-62443-conduit-configure
 description: Implement secure conduit architecture for OT remote access following IEC 62443 zones and conduits model, deploying jump servers, MFA-enabled gateways, session recording, and approval-based workflows to control vendor and engineer access to industrial control systems without exposing OT networks directly.
 domain: cybersecurity
 subdomain: ot-ics-security

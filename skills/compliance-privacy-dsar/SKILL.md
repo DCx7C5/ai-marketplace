@@ -1,5 +1,5 @@
 ---
-name: privacy-dsar-audit
+name: compliance-privacy-dsar
 description: Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII discovery across databases and files using regex and NER, data mapping, response templating per Article 15 requirements, deadline tracking, and audit logging. Covers ICO/EDPB guidance compliance, exemption handling, and scalable batch processing. Use when building or auditing DSAR response capabilities under GDPR/UK GDPR.
 domain: cybersecurity
 subdomain: privacy-compliance

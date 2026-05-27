@@ -1,5 +1,5 @@
 ---
-name: playbooks-ir-respond
+name: soc-playbooks-ir-respond
 description: Designs and documents structured incident response playbooks that define step-by-step procedures for specific incident types aligned with NIST SP 800-61r3 and SANS PICERL frameworks. Covers playbook structure, decision trees, escalation criteria, RACI matrices, and integration with SOAR platforms. Activates for requests involving IR playbook creation, incident response procedure documentation, response runbook development, or SOAR playbook design.
 domain: cybersecurity
 subdomain: incident-response

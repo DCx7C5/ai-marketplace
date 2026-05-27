@@ -1,5 +1,5 @@
 ---
-name: hunting-wmi-detect
+name: soc-hunting-wmi
 description: Detect WMI event subscription persistence by analyzing Sysmon Event IDs 19, 20, and 21 for malicious EventFilter, EventConsumer, and FilterToConsumerBinding creation.
 domain: cybersecurity
 subdomain: threat-hunting

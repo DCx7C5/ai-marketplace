@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: services-udev-rule-persist-detect
+name: linux-svc-udev-rule-persist-detect
 description: Detect udev rule persistence — inspect /etc/udev/rules.d/ and /lib/udev/rules.d/ for unauthorized rules that execute commands on device events, commonly used for persistence.
 domain: cybersecurity
 subdomain: persistence-detection

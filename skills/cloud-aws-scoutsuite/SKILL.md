@@ -1,5 +1,5 @@
 ---
-name: aws-scoutsuite-detect
+name: cloud-aws-scoutsuite
 description: Perform comprehensive security posture assessment of AWS accounts using ScoutSuite to enumerate resources, identify misconfigurations, and generate actionable security reports.
 domain: cybersecurity
 subdomain: cloud-security

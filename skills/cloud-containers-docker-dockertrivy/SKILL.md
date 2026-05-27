@@ -1,5 +1,5 @@
 ---
-name: containers-docker-dockertrivy-detect
+name: cloud-containers-docker-dockertrivy
 description: Trivy is a comprehensive open-source vulnerability scanner by Aqua Security that detects vulnerabilities in OS packages, language-specific dependencies, misconfigurations, secrets, and license violati
 domain: cybersecurity
 subdomain: container-security

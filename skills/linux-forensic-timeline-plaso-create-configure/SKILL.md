@@ -3,7 +3,7 @@ name: "linux-forensic-timeline-plaso-create-configure"
 description: "---"
 ---
 ---
-name: forensics-timeline-plaso-create-configure
+name: linux-forensic-timeline-plaso-create-configure
 description: Create a forensic super-timeline of a Linux system using Plaso (log2timeline) — aggregate artifacts from filesystem, logs, shell history, browser data into a unified timeline.
 domain: cybersecurity
 subdomain: forensic-analysis

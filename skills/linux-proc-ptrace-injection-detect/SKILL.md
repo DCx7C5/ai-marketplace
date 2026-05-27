@@ -1,5 +1,5 @@
 ---
-name: processes-ptrace-injection-detect
+name: linux-proc-ptrace-injection-detect
 description: >
   Detect ptrace-based process injection by monitoring PTRACE_POKEDATA syscalls, /proc/<PID>/mem writes, and unusual parent-child ptrace relationships.
 domain: cybersecurity

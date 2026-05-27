@@ -1,5 +1,5 @@
 ---
-name: containers-docker-dockerdaemon-harden
+name: cloud-containers-docker-dockerdaemon
 description: Harden the Docker daemon by configuring daemon.json with user namespace remapping, TLS authentication, rootless mode, and CIS benchmark controls.
 domain: cybersecurity
 subdomain: container-security

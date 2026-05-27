@@ -1,5 +1,5 @@
 ---
-name: triage-playbook-respond
+name: soc-triage-playbook-respond
 description: Classify and prioritize security incidents using structured IR playbooks to determine severity, assign response teams, and initiate appropriate response procedures.
 domain: cybersecurity
 subdomain: incident-response

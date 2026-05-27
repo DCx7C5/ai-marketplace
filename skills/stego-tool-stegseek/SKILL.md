@@ -1,5 +1,5 @@
 ---
-name: stegseek-execute-SKILL.md
+name: stego-tool-stegseek
 description: ">\n  Runs stegseek for fast dictionary-based extraction of steghide-embedded\
   \ payloads."
 ---

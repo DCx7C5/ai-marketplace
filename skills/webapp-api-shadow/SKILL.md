@@ -1,5 +1,5 @@
 ---
-name: api-shadow-enum
+name: webapp-api-shadow
 description: Discover and inventory shadow API endpoints that operate outside documented specifications using traffic analysis, code scanning, and API discovery platforms.
 domain: cybersecurity
 subdomain: api-security

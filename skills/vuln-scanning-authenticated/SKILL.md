@@ -1,5 +1,5 @@
 ---
-name: authenticated-SKILL.md
+name: vuln-scanning-authenticated
 description: ">\n  Authenticated (credentialed) vulnerability scanning uses valid\
   \ system credentials to log into target hosts and perform deep inspection of installed\
   \ software, patches, configurations, and security sett"

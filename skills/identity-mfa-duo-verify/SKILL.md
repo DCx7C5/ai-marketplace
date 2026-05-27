@@ -1,5 +1,5 @@
 ---
-name: mfa-duo-verify
+name: identity-mfa-duo-verify
 description: Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust
 domain: cybersecurity
 subdomain: identity-access-management

@@ -1,5 +1,5 @@
 ---
-name: aws-lambda-aws-exploit
+name: cloud-aws-lambda-aws
 description: Securing AWS Lambda execution roles by implementing least-privilege IAM policies, applying permission boundaries, restricting resource-based policies, using IAM Access Analyzer to validate permissions, and enforcing role scoping through SCPs.
 domain: cybersecurity
 subdomain: cloud-security

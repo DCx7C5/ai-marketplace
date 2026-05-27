@@ -1,5 +1,5 @@
 ---
-name: pdf-stream-detect
+name: stego-document-pdf-stream
 description: ">\n  Detects hidden data in PDF stream objects and unused byte ranges."
 ---
 ## Overview

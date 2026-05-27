@@ -1,5 +1,5 @@
 ---
-name: software-browser-artifact-forensics-forensic
+name: linux-sw-browser-artifact-forensics-forensic
 description: Extract and analyze browser history, cookies, cache, downloads, and bookmarks from Chrome, Firefox, and Edge for forensic evidence of user web activity.
 domain: cybersecurity
 subdomain: digital-forensics

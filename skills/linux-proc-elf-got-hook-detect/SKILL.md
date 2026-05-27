@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: processes-elf-got-hook-detect
+name: linux-proc-elf-got-hook-detect
 description: Detect GOT (Global Offset Table) hooking in ELF binaries — identify runtime function pointer overwrites used by rootkits and malware to intercept shared library calls.
 domain: cybersecurity
 subdomain: process-forensics

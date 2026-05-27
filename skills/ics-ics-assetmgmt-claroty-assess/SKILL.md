@@ -1,5 +1,5 @@
 ---
-name: ics-asset-management-claroty-assess-audit
+name: ics-ics-assetmgmt-claroty-assess
 description: This skill covers performing vulnerability assessments in OT environments using the Claroty xDome platform for comprehensive asset discovery, risk scoring, vulnerability correlation, and remediation prioritization. It addresses passive vulnerability identification through traffic analysis, active safe querying of OT devices, integration with CVE databases and ICS-CERT advisories, and risk-based prioritization that accounts for operational impact and compensating controls.
 domain: cybersecurity
 subdomain: ot-ics-security

@@ -1,5 +1,5 @@
 ---
-name: filesystem-artifacts-prefetch-forensic
+name: windows-fs-artifacts-prefetch
 description: Parse Windows Prefetch files to determine program execution history including run counts, timestamps, and referenced files for forensic investigation.
 domain: cybersecurity
 subdomain: digital-forensics

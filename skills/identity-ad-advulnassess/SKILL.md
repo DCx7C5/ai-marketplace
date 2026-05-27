@@ -1,5 +1,5 @@
 ---
-name: ad-advulnassess-detect
+name: identity-ad-advulnassess
 description: Assess Active Directory security posture using PingCastle, BloodHound, and Purple Knight to identify misconfigurations, privilege escalation paths, and attack vectors.
 domain: cybersecurity
 subdomain: vulnerability-management

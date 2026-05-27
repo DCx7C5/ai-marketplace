@@ -1,5 +1,5 @@
 ---
-name: owasp-threatdragon-detect
+name: webapp-owasp-threatdragon
 description: Use OWASP Threat Dragon to create data flow diagrams, identify threats using STRIDE and LINDDUN methodologies, and generate threat model reports for secure design review.
 domain: cybersecurity
 subdomain: devsecops

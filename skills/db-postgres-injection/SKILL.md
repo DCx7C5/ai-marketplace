@@ -1,5 +1,5 @@
 ---
-name: postgres-injection-detect
+name: db-postgres-injection
 description: >
   Detect SQL injection in PostgreSQL applications including COPY TO/FROM, procedural language injection, and template1 abuse using sqlmap and manual payloads.
 domain: cybersecurity

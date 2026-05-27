@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: identity-ssh-config-harden
+name: linux-id-ssh-config-harden
 description: Harden SSH server configuration (sshd_config) — disable root login, enforce key-only auth, restrict ciphers, set idle timeout, enable strict mode, and validate config.
 domain: cybersecurity
 subdomain: identity-hardening

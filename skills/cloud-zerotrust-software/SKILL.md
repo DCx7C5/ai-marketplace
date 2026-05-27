@@ -1,5 +1,5 @@
 ---
-name: zerotrust-software-exploit
+name: cloud-zerotrust-software
 description: Deploy a Software-Defined Perimeter using the CSA v2.0 specification with Single Packet Authorization, mutual TLS, and SDP controller/gateway configuration to enforce zero trust network access.
 domain: cybersecurity
 subdomain: zero-trust-architecture

@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: hardware-tpm-pcr-attestation-verify
+name: linux-hw-tpm-pcr-attestation-verify
 description: Verify TPM PCR values and perform remote attestation to confirm system boot integrity — detect PCR tampering indicating bootkit or firmware compromise.
 domain: cybersecurity
 subdomain: hardware-security

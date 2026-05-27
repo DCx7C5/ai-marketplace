@@ -1,5 +1,5 @@
 ---
-name: devsecops-policy-exploit
+name: cloud-devsecops-policy
 description: This skill covers implementing Open Policy Agent (OPA) and Gatekeeper for policy-as-code enforcement in Kubernetes and CI/CD pipelines. It addresses writing Rego policies, deploying OPA Gatekeeper as a Kubernetes admission controller, testing policies in development, and integrating policy evaluation into deployment pipelines.
 domain: cybersecurity
 subdomain: devsecops
@@ -99,7 +99,7 @@ spec:
 apiVersion: plugins.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
-  name: k8scontainerlimits
+name: cloud-devsecops-policy
 spec:
   crd:
     spec:
@@ -185,7 +185,7 @@ spec:
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sBlockPrivileged
 metadata:
-  name: block-privileged-containers
+name: cloud-devsecops-policy
 spec:
   enforcementAction: deny
   match:
@@ -237,7 +237,7 @@ deny[msg] {
 
 ```yaml
 # .github/workflows/policy-test.yml
-name: devsecops-policy
+name: cloud-devsecops-policy
 
 on:
   pull_request:

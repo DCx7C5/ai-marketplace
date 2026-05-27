@@ -1,5 +1,5 @@
 ---
-name: forensics-memory-analysis-vol3plugins-detect
+name: linux-forensic-mem-analysis-vol3plugins-detect
 description: Analyze memory dumps using Volatility3 plugins to detect injected code, rootkits, credential theft, and malware artifacts in Windows, Linux, and macOS memory images.
 domain: cybersecurity
 subdomain: malware-analysis

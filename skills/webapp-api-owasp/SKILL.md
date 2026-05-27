@@ -1,5 +1,5 @@
 ---
-name: api-owasp-analyze
+name: webapp-api-owasp
 description: Systematically assessing REST and GraphQL API endpoints against the OWASP API Security Top 10 risks using automated and manual testing techniques.
 domain: cybersecurity
 subdomain: web-application-security

@@ -1,5 +1,5 @@
 ---
-name: traffic-domainfronting-detect
+name: net-traffic-domainfronting
 description: Detect domain fronting C2 traffic by analyzing SNI vs HTTP Host header mismatches in proxy logs and TLS certificate discrepancies using pyOpenSSL for certificate inspection
 domain: cybersecurity
 subdomain: threat-hunting

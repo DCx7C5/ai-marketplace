@@ -1,5 +1,5 @@
 ---
-name: ics-network-firewall-deploy
+name: ics-ics-net-firewall
 description: Deploy and configure Tofino industrial firewalls from Belden/Hirschmann to protect SCADA systems and PLCs using deep packet inspection for OT protocols including Modbus, EtherNet/IP, OPC, and S7comm, enforcing granular access control between ICS security zones.
 domain: cybersecurity
 subdomain: ot-ics-security

@@ -1,5 +1,5 @@
 ---
-name: mitre-threatmodel-detect
+name: intel-mitre-threatmodel
 description: Implements threat modeling using the MITRE ATT&CK framework to map adversary TTPs against organizational assets, assess detection coverage gaps, and prioritize defensive investments. Use when SOC teams need to align detection engineering with threat landscape, conduct threat assessments for new environments, or justify security tool procurement.
 domain: cybersecurity
 subdomain: soc-operations

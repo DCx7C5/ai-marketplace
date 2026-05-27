@@ -1,5 +1,5 @@
 ---
-name: encryption-e2eencryption-recover
+name: crypto-encryption-e2eencryption-recover
 description: End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version
 domain: cybersecurity
 subdomain: cryptography

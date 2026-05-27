@@ -1,5 +1,5 @@
 ---
-name: firefox-history-analyze
+name: browser-firefox-history
 description: >
   Analyse Firefox browsing history from places.sqlite, including moz_places and moz_historyvisits tables, to reconstruct visit timelines and activity patterns.
 domain: cybersecurity

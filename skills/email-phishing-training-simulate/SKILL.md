@@ -1,5 +1,5 @@
 ---
-name: phishing-training-simulate
+name: email-phishing-training-simulate
 description: Security awareness training is the human layer of phishing defense. An effective anti-phishing training program combines regular simulations, interactive learning modules, metric tracking, and positiv
 domain: cybersecurity
 subdomain: phishing-defense

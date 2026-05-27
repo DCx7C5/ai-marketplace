@@ -1,5 +1,5 @@
 ---
-name: headers-security-audit
+name: webapp-headers-security
 description: Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protections.
 domain: cybersecurity
 subdomain: web-application-security

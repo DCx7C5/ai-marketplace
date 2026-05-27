@@ -1,5 +1,5 @@
 ---
-name: mp3-metadata-detect
+name: stego-audio-mp3-metadata
 description: ">\n  Detects hidden data in MP3 ID3 tags and metadata fields."
 ---
 ## Overview

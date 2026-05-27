@@ -1,5 +1,5 @@
 ---
-name: phishing-mimecast-exploit
+name: email-phishing-mimecast
 description: Deploy Mimecast Targeted Threat Protection including URL Protect, Attachment Protect, Impersonation Protect, and Internal Email Protect to defend against advanced phishing and spearphishing attacks.
 domain: cybersecurity
 subdomain: phishing-defense

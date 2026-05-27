@@ -1,5 +1,5 @@
 ---
-name: processes-hollow-technique-detect
+name: windows-processes-hollow-technique
 description: >
   Detect process hollowing (RunPE) by identifying processes with mismatched image paths between PEB and VAD tree, or unmapped PE headers in memory.
 domain: cybersecurity

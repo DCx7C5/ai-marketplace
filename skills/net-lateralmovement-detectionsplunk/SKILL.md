@@ -1,5 +1,5 @@
 ---
-name: lateral-movement-detection-splunk-detect
+name: net-lateralmovement-detectionsplunk
 description: Detect adversary lateral movement across networks using Splunk SPL queries against Windows authentication logs, SMB traffic, and remote service abuse.
 domain: cybersecurity
 subdomain: threat-hunting

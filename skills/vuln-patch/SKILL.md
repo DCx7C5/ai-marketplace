@@ -1,5 +1,5 @@
 ---
-name: patch-SKILL.md
+name: vuln-patch
 description: ">\n  Patch management is the systematic process of identifying, testing,\
   \ deploying, and verifying software updates to remediate vulnerabilities across\
   \ an organization's IT infrastructure. An effective patc"
@@ -75,7 +75,7 @@ Install-WindowsFeature -Name UpdateServices -IncludeManagementTools
 ---
 - name: Configure RHEL patch repository
   yum_repository:
-    name: rhel-patches
+name: vuln-patch
     description: RHEL Security Patches
     baseurl: https://satellite.corp.local/pulp/repos/patches
     gpgcheck: yes

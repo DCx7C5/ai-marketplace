@@ -1,5 +1,5 @@
 ---
-name: memory-rop-chain-detect
+name: linux-mem-mem-rop-chain-detect
 description: >
   Detect Return-Oriented Programming (ROP) chains in exploited processes by identifying unusual gadget sequences, stack pivots, and ret instruction abuse in call stacks.
 domain: cybersecurity

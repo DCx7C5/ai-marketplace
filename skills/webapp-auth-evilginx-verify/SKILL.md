@@ -1,5 +1,5 @@
 ---
-name: auth-evilginx-verify
+name: webapp-auth-evilginx-verify
 description: Perform authorized initial access using EvilGinx3 adversary-in-the-middle phishing framework to capture session tokens and bypass multi-factor authentication during red team engagements.
 domain: cybersecurity
 subdomain: red-teaming

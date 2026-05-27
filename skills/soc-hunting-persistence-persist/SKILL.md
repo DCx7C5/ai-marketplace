@@ -1,5 +1,5 @@
 ---
-name: hunting-persistence-persist
+name: soc-hunting-persistence-persist
 description: Hunt for adversary persistence through Windows Management Instrumentation event subscriptions by monitoring WMI consumer, filter, and binding creation events that execute malicious code triggered by system events.
 domain: cybersecurity
 subdomain: threat-hunting

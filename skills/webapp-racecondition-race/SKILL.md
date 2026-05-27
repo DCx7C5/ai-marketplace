@@ -1,5 +1,5 @@
 ---
-name: racecondition-race-detect
+name: webapp-racecondition-race
 description: Detect and exploit race condition vulnerabilities in web applications using Turbo Intruder's single-packet attack technique to bypass rate limits, duplicate transactions, and exploit time-of-check-to-time-of-use flaws.
 domain: cybersecurity
 subdomain: web-application-security

@@ -1,5 +1,5 @@
 ---
-name: containers-rootfs-escape-detect
+name: linux-container-rootfs-escape-detect
 description: >
   Detect container escape attempts exploiting privileged mode, dangerous capabilities, host path mounts, and runtime vulnerabilities in Docker, containerd, and runc.
 domain: cybersecurity

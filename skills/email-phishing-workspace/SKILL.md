@@ -1,5 +1,5 @@
 ---
-name: phishing-workspace-detect
+name: email-phishing-workspace
 description: Configure Google Workspace advanced phishing and malware protection settings including pre-delivery scanning, attachment protection, spoofing detection, and Enhanced Safe Browsing.
 domain: cybersecurity
 subdomain: phishing-defense

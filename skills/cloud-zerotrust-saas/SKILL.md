@@ -1,5 +1,5 @@
 ---
-name: zerotrust-saas-exploit
+name: cloud-zerotrust-saas
 description: Implementing zero trust access controls for SaaS applications using CASB, SSPM, conditional access policies, OAuth app governance, and session controls to enforce identity verification, device compliance, and data protection for cloud-hosted services.
 domain: cybersecurity
 subdomain: zero-trust-architecture

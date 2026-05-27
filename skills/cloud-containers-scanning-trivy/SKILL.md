@@ -1,5 +1,5 @@
 ---
-name: containers-scanning-trivy-audit
+name: cloud-containers-scanning-trivy
 description: Scan container images, filesystems, and Kubernetes manifests for vulnerabilities, misconfigurations, exposed secrets, and license compliance issues using Aqua Security Trivy with SBOM generation and CI/CD integration.
 domain: cybersecurity
 subdomain: container-security

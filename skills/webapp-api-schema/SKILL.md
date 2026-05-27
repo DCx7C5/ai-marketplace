@@ -1,5 +1,5 @@
 ---
-name: api-schema-exploit
+name: webapp-api-schema
 description: Implement API schema validation using OpenAPI specifications and JSON Schema to enforce input/output contracts and prevent injection, data exposure, and mass assignment attacks.
 domain: cybersecurity
 subdomain: api-security

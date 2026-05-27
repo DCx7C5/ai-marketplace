@@ -1,5 +1,5 @@
 ---
-name: devsecops-aqua-detect
+name: cloud-devsecops-aqua
 description: Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.
 domain: cybersecurity
 subdomain: devsecops

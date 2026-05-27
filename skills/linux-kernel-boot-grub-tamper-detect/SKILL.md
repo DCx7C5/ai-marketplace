@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-boot-grub-tamper-detect
+name: linux-kernel-boot-grub-tamper-detect
 description: Detect GRUB bootloader tampering — check GRUB binary hashes, grub.cfg integrity, password protection, and unauthorized menu entries that could load malicious kernels.
 domain: cybersecurity
 subdomain: kernel-forensics

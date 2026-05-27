@@ -1,5 +1,5 @@
 ---
-name: layer3-bgp-hijack-exploit
+name: net-layer3-bgp-hijack
 description: Analyzes and simulates BGP hijacking scenarios in authorized lab environments to assess route origin validation, RPKI deployment, and BGP monitoring defenses against prefix hijacking and route leak attacks on internet routing infrastructure.
 domain: cybersecurity
 subdomain: network-security

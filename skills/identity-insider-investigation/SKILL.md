@@ -1,5 +1,5 @@
 ---
-name: insider-investigation-forensic
+name: identity-insider-investigation
 description: Investigates insider threat incidents involving employees, contractors, or trusted partners who misuse authorized access to steal data, sabotage systems, or violate security policies. Combines digital forensics, user behavior analytics, and HR/legal coordination to build an evidence-based case. Activates for requests involving insider threat investigation, employee data theft, privilege misuse, user behavior anomaly, or internal threat detection.
 domain: cybersecurity
 subdomain: incident-response

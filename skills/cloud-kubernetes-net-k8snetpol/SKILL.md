@@ -1,5 +1,5 @@
 ---
-name: kubernetes-network-k8snetpol-harden
+name: cloud-kubernetes-net-k8snetpol
 description: Kubernetes NetworkPolicies provide pod-level network segmentation by defining ingress and egress rules that control traffic flow between pods, namespaces, and external endpoints. Combined with CNI plu
 domain: cybersecurity
 subdomain: container-security
@@ -113,7 +113,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: database-allow-backend
+name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector:
@@ -138,7 +138,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-monitoring-scrape
+name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector: {}
@@ -161,7 +161,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: restrict-egress
+name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector:
@@ -199,7 +199,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: block-metadata
+name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector: {}

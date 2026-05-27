@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: hardware-memory-cold-boot-artifact-collect
+name: linux-hw-mem-cold-boot-artifact-collect
 description: Collect memory artifacts from a cold boot attack — physical memory dump techniques, DIMM cooling, and live memory acquisition before volatile data is lost.
 domain: cybersecurity
 subdomain: hardware-forensics

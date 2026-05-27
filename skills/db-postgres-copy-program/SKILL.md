@@ -1,5 +1,5 @@
 ---
-name: postgres-copy-program-exploit
+name: db-postgres-copy-program
 description: >
   Exploit PostgreSQL COPY TO/FROM PROGRAM to execute arbitrary OS commands as the postgres system account when superuser privileges are available.
 domain: cybersecurity

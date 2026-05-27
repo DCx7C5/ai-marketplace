@@ -1,5 +1,5 @@
 ---
-name: api-websocket-exploit
+name: webapp-api-websocket
 description: Testing WebSocket implementations for authentication bypass, cross-site hijacking, injection attacks, and insecure message handling during authorized security assessments.
 domain: cybersecurity
 subdomain: web-application-security

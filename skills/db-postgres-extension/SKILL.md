@@ -1,5 +1,5 @@
 ---
-name: postgres-extension-audit
+name: db-postgres-extension
 description: >
   Audit PostgreSQL extensions for dangerous capabilities including dblink, pg_execute_server_program, file_fdw, and untrusted languages enabling OS command execution.
 domain: cybersecurity

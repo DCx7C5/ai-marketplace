@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: containers-apparmor-profile-audit
+name: linux-container-apparmor-profile-audit
 description: Audit container AppArmor profiles — verify AppArmor confinement for container processes, identify containers with unconfined profiles, and audit policy effectiveness.
 domain: cybersecurity
 subdomain: container-security

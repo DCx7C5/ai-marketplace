@@ -1,5 +1,5 @@
 ---
-name: api-enumeration-enum
+name: webapp-api-enumeration
 description: Detect and prevent API enumeration attacks including BOLA and IDOR exploitation by monitoring sequential identifier access patterns and authorization failures.
 domain: cybersecurity
 subdomain: api-security

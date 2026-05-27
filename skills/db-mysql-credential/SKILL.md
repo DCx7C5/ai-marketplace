@@ -1,5 +1,5 @@
 ---
-name: mysql-credential-extract
+name: db-mysql-credential
 description: >
   Extract MySQL credentials from configuration files, process memory, history files, and replication settings using credential-hunting scripts and memory forensics.
 domain: cybersecurity

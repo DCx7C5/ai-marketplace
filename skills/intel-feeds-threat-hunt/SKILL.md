@@ -1,5 +1,5 @@
 ---
-name: feeds-threat-hunt
+name: intel-feeds-threat-hunt
 description: Analyzes structured and unstructured threat intelligence feeds to extract actionable indicators, adversary tactics, and campaign context. Use when ingesting commercial or open-source CTI feeds, evaluating feed quality, normalizing data into STIX 2.1 format, or enriching existing IOCs with campaign attribution. Activates for requests involving ThreatConnect, Recorded Future, Mandiant Advantage, MISP, AlienVault OTX, or automated feed aggregation pipelines.
 domain: cybersecurity
 subdomain: threat-intelligence

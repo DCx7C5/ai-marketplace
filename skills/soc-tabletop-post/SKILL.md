@@ -1,5 +1,5 @@
 ---
-name: tabletop-post-detect
+name: soc-tabletop-post
 description: Facilitate structured post-incident reviews to identify root causes, document what worked and failed, and produce actionable recommendations to improve future incident response.
 domain: cybersecurity
 subdomain: incident-response

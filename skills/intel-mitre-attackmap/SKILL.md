@@ -1,5 +1,5 @@
 ---
-name: mitre-attackmap-detect
+name: intel-mitre-attackmap
 description: Maps observed adversary behaviors, security alerts, and detection rules to MITRE ATT&CK techniques and sub-techniques to quantify detection coverage and guide control prioritization. Use when building an ATT&CK-based coverage heatmap, tagging SIEM alerts with technique IDs, aligning security controls to adversary playbooks, or reporting threat exposure to executives. Activates for requests involving ATT&CK Navigator, Sigma rules, MITRE D3FEND, or coverage gap analysis.
 domain: cybersecurity
 subdomain: threat-intelligence

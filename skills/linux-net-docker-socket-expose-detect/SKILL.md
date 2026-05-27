@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: network-services-docker-socket-expose-detect
+name: linux-net-docker-socket-expose-detect
 description: Detect exposed Docker daemon socket — identify bind-mounted /var/run/docker.sock in containers (instant root escape), TCP Docker API exposure, and unauthorized socket access.
 domain: cybersecurity
 subdomain: container-security

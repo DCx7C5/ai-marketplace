@@ -1,5 +1,5 @@
 ---
-name: wireless-aircrack-extract
+name: net-wireless-aircrack
 description: Captures WPA/WPA2 handshakes and performs offline password cracking using aircrack-ng, hashcat, and dictionary attacks during authorized wireless security assessments to evaluate passphrase strength and wireless network security posture.
 domain: cybersecurity
 subdomain: network-security

@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-memory-dma-attack-detect
+name: linux-kernel-mem-dma-attack-detect
 description: Detect Direct Memory Access attacks targeting kernel memory — PCI device enumeration anomalies, IOMMU bypass attempts, and unauthorized DMA-capable device insertion.
 domain: cybersecurity
 subdomain: kernel-security

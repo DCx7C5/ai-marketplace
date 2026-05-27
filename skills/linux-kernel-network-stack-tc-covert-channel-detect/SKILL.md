@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-network-stack-tc-covert-channel-detect
+name: linux-kernel-network-stack-tc-covert-channel-detect
 description: Detect Traffic Control (tc) covert channels — identify malicious tc filters or qdiscs used to exfiltrate data or create timing-based covert communication.
 domain: cybersecurity
 subdomain: network-forensics

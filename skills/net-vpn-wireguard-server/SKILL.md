@@ -1,5 +1,5 @@
 ---
-name: vpn-wireguard-server-deploy
+name: net-vpn-wireguard-server
 description: >
   Deploy a WireGuard VPN server with peer management, split-tunnel routing, DNS leak prevention, and firewall rules for road-warrior and site-to-site configurations.
 domain: cybersecurity

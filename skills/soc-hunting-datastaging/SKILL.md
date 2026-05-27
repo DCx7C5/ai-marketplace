@@ -1,5 +1,5 @@
 ---
-name: hunting-datastaging-detect
+name: soc-hunting-datastaging
 description: Detect data staging activity before exfiltration by monitoring for archive creation with 7-Zip/RAR, unusual temp folder access, large file consolidation, and staging directory patterns via EDR and process telemetry
 domain: cybersecurity
 subdomain: threat-hunting

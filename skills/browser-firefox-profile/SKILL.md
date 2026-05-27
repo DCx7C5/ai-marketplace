@@ -1,5 +1,5 @@
 ---
-name: firefox-profile-analyze
+name: browser-firefox-profile
 description: >
   Analyse Firefox profile directory contents including certificates, saved logins, key4.db, and logins.json to extract credentials and user preferences.
 domain: cybersecurity

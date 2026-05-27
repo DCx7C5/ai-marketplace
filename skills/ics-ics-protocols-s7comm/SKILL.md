@@ -1,5 +1,5 @@
 ---
-name: ics-protocols-s7comm-analyze
+name: ics-ics-protocols-s7comm
 description: Perform security analysis of Siemens S7comm and S7CommPlus protocols used by SIMATIC S7 PLCs to identify vulnerabilities including replay attacks, integrity bypass, unauthorized CPU stop commands, and program download manipulation exploiting weaknesses in S7-300, S7-400, S7-1200, and S7-1500 controllers.
 domain: cybersecurity
 subdomain: ot-ics-security

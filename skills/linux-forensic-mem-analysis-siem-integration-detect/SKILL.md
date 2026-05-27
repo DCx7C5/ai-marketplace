@@ -1,5 +1,5 @@
 ---
-name: forensics-memory-analysis-siem-integration-detect
+name: linux-forensic-mem-analysis-siem-integration-detect
 description: Uses Rekall memory forensics framework to analyze memory dumps for process hollowing, injected code via VAD anomalies, hidden processes, and rootkit detection. Applies plugins like pslist, psscan, vadinfo, malfind, and dlllist to extract forensic artifacts from Windows memory images. Use during incident response memory analysis.
 domain: cybersecurity
 subdomain: security-operations

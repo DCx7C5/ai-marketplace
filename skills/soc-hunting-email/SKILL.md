@@ -1,5 +1,5 @@
 ---
-name: hunting-email-analyze
+name: soc-hunting-email
 description: Detect malicious email forwarding rules created by adversaries to maintain persistent access to email communications for intelligence collection and BEC attacks.
 domain: cybersecurity
 subdomain: threat-hunting

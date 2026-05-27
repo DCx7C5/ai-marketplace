@@ -1,5 +1,5 @@
 ---
-name: network-services-nfs-export-enum
+name: linux-net-net-nfs-export-enum
 description: >
   Enumerate NFS exports and mount points using showmount, rpcinfo, and nmap NSE scripts to identify world-readable shares and misconfigured export policies.
 domain: cybersecurity

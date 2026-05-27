@@ -1,5 +1,5 @@
 ---
-name: scanning-host-discovery-enum
+name: net-scanning-host-discovery
 description: >
   Enumerate live hosts on a network segment using ARP scanning, ICMP probes, TCP SYN pings, and passive traffic observation with nmap, masscan, and fping.
 domain: cybersecurity

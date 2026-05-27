@@ -1,5 +1,5 @@
 ---
-name: mssql-token-impersonate-exploit
+name: db-mssql-token-impersonate
 description: >
   Exploit MSSQL EXECUTE AS and impersonation grants to escalate privileges from a low-privileged SQL login to sysadmin role through token impersonation chains.
 domain: cybersecurity

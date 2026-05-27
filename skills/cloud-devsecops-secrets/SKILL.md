@@ -1,5 +1,5 @@
 ---
-name: devsecops-secrets-detect
+name: cloud-devsecops-secrets
 description: Integrate gitleaks and trufflehog into CI/CD pipelines to detect leaked secrets before deployment
 domain: cybersecurity
 subdomain: devsecops

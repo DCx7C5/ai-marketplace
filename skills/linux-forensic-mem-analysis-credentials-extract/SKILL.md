@@ -1,5 +1,5 @@
 ---
-name: forensics-memory-analysis-credentials-extract
+name: linux-forensic-mem-analysis-credentials-extract
 description: Extract cached credentials, password hashes, Kerberos tickets, and authentication tokens from memory dumps using Volatility and Mimikatz for forensic investigation.
 domain: cybersecurity
 subdomain: digital-forensics

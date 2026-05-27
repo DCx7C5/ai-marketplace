@@ -1,5 +1,5 @@
 ---
-name: aws-general-overview-analyze
+name: cloud-aws-general-overview
 description: Detecting exposed AWS credentials in source code repositories, CI/CD pipelines, and configuration files using TruffleHog, git-secrets, and AWS-native detection mechanisms to prevent credential theft and unauthorized account access.
 domain: cybersecurity
 subdomain: cloud-security

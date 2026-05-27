@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: filesystem-quota-abuse-detect
+name: linux-fs-quota-abuse-detect
 description: Detect disk quota abuse — identify quota bypass techniques, soft/hard limit manipulation, and quota exhaustion attacks used for denial of service.
 domain: cybersecurity
 subdomain: filesystem-security

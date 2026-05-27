@@ -1,5 +1,5 @@
 ---
-name: headers-content-exploit
+name: webapp-headers-content
 description: Analyze and bypass Content Security Policy implementations to achieve cross-site scripting by exploiting misconfigurations, JSONP endpoints, unsafe directives, and policy injection techniques.
 domain: cybersecurity
 subdomain: web-application-security

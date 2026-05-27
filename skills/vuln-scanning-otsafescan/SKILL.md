@@ -1,5 +1,5 @@
 ---
-name: otsafescan-SKILL.md
+name: vuln-scanning-otsafescan
 description: ">\n  Perform vulnerability scanning in OT/ICS environments safely using\
   \ passive monitoring, native protocol queries, and carefully controlled active scanning\
   \ with Tenable OT Security to identify vulnerabilities without disrupting industrial\

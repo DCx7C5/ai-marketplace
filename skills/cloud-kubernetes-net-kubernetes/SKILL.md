@@ -1,5 +1,5 @@
 ---
-name: kubernetes-network-kubernetes-analyze
+name: cloud-kubernetes-net-kubernetes
 description: Implement Kubernetes network segmentation using Calico NetworkPolicy and GlobalNetworkPolicy for zero-trust pod-to-pod communication.
 domain: cybersecurity
 subdomain: container-security
@@ -97,7 +97,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: default-deny-egress
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   podSelector: {}
@@ -112,7 +112,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-frontend-to-backend
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   podSelector:
@@ -137,7 +137,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-dns-egress
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   podSelector: {}
@@ -160,7 +160,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: allow-same-namespace
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   podSelector: {}
@@ -180,7 +180,7 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
 metadata:
-  name: deny-external-ingress
+name: cloud-kubernetes-net-kubernetes
 spec:
   order: 100
   selector: "projectcalico.org/namespace != 'ingress-nginx'"
@@ -201,7 +201,7 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: deny-database-from-frontend
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   order: 10
@@ -227,7 +227,7 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: NetworkPolicy
 metadata:
-  name: allow-by-service-account
+name: cloud-kubernetes-net-kubernetes
   namespace: production
 spec:
   selector: app == 'api'
@@ -253,7 +253,7 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: GlobalNetworkPolicy
 metadata:
-  name: restrict-host-ssh
+name: cloud-kubernetes-net-kubernetes
 spec:
   order: 10
   selector: "has(kubernetes.io/hostname)"
@@ -283,7 +283,7 @@ spec:
 apiVersion: projectcalico.org/v3
 kind: Tier
 metadata:
-  name: security
+name: cloud-kubernetes-net-kubernetes
 spec:
   order: 100
 

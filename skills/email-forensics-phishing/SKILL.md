@@ -1,5 +1,5 @@
 ---
-name: forensics-phishing-detect
+name: email-forensics-phishing
 description: Parse and analyze email headers to trace the origin of phishing emails, verify sender authenticity, and identify spoofing through SPF, DKIM, and DMARC validation.
 domain: cybersecurity
 subdomain: digital-forensics

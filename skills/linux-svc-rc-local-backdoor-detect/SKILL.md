@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: services-rc-local-backdoor-detect
+name: linux-svc-rc-local-backdoor-detect
 description: Detect rc.local and SysV init script backdoors — inspect /etc/rc.local, /etc/init.d/, and runlevel-specific directories for unauthorized startup scripts.
 domain: cybersecurity
 subdomain: persistence-detection

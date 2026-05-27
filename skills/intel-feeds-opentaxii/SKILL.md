@@ -1,5 +1,5 @@
 ---
-name: feeds-opentaxii-detect
+name: intel-feeds-opentaxii
 description: Deploy and configure an OpenTAXII server to share and consume STIX-formatted cyber threat intelligence using the TAXII 2.1 protocol for automated indicator exchange between organizations.
 domain: cybersecurity
 subdomain: threat-intelligence

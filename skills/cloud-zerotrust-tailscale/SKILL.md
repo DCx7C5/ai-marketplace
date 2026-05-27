@@ -1,5 +1,5 @@
 ---
-name: zerotrust-tailscale-harden
+name: cloud-zerotrust-tailscale
 description: Deploy and configure Tailscale as a WireGuard-based zero trust mesh VPN with identity-aware access controls, ACLs, and exit nodes for secure peer-to-peer connectivity.
 domain: cybersecurity
 subdomain: zero-trust-architecture
@@ -141,7 +141,7 @@ stringData:
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: tailscale
+name: cloud-zerotrust-tailscale
   namespace: tailscale
 spec:
   selector:
@@ -159,7 +159,7 @@ spec:
         - name: TS_AUTHKEY
           valueFrom:
             secretKeyRef:
-              name: tailscale-auth
+name: cloud-zerotrust-tailscale
               key: TS_AUTHKEY
         - name: TS_KUBE_SECRET
           value: tailscale-state

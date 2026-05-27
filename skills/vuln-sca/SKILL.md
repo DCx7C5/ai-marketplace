@@ -1,5 +1,5 @@
 ---
-name: sca-SKILL.md
+name: vuln-sca
 description: ">\n  This skill covers implementing Software Composition Analysis (SCA)\
   \ using Snyk to detect vulnerable open-source dependencies in CI/CD pipelines. It\
   \ addresses scanning package manifests and lockfiles, automated fix pull request\

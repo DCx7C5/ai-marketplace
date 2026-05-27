@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: processes-proc-fs-mem-inject-detect
+name: linux-proc-proc-mem-inject-detect
 description: Detect /proc/pid/mem write injection — identify processes writing to other processes via the /proc filesystem mem file, a stealthy injection technique requiring only ptrace_attach.
 domain: cybersecurity
 subdomain: process-security

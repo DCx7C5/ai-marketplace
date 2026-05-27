@@ -1,5 +1,5 @@
 ---
-name: cve-SKILL.md
+name: vuln-prioritization-cve
 description: ">\n  Leverage the CISA Known Exploited Vulnerabilities catalog alongside\
   \ EPSS and CVSS to prioritize CVE remediation based on real-world exploitation evidence."
 ---

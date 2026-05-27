@@ -1,5 +1,5 @@
 ---
-name: logging-sysartifacts-persist
+name: linux-log-sysartifacts-persist
 description: Examine Linux system artifacts including auth logs, cron jobs, shell history, and system configuration to uncover evidence of compromise or unauthorized activity.
 domain: cybersecurity
 subdomain: digital-forensics

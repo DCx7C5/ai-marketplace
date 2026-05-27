@@ -1,5 +1,5 @@
 ---
-name: dns-dnstwist-detect
+name: net-dns-dnstwist
 description: Detect typosquatting, homograph phishing, and brand impersonation domains using dnstwist to generate domain permutations and identify registered lookalike domains targeting your organization.
 domain: cybersecurity
 subdomain: threat-intelligence

@@ -1,5 +1,5 @@
 ---
-name: brave-wallet-extract
+name: browser-brave-wallet
 description: >
   Extract Brave Wallet seed phrases, private keys, and transaction history from the browser profile for cryptocurrency forensics and theft investigation.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: logging-sysmon-rule-configure
+name: windows-logging-sysmon-rule-configure
 description: >
   Configure Sysmon with a comprehensive ruleset covering process creation, network connections, registry modifications, and file creation for endpoint threat detection.
 domain: cybersecurity

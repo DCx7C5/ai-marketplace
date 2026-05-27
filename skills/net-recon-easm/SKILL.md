@@ -1,5 +1,5 @@
 ---
-name: recon-easm-exploit
+name: net-recon-easm
 description: Implements external attack surface management (EASM) using Shodan, Censys, and ProjectDiscovery tools (subfinder, httpx, nuclei) for asset discovery, subdomain enumeration, service fingerprinting, and exposure scoring. Includes a weighted risk scoring algorithm based on OWASP attack surface analysis methodology and the Relative Attack Surface Quotient (RSQ). Use when building continuous ASM programs or performing external reconnaissance for security assessments.
 domain: cybersecurity
 subdomain: offensive-security

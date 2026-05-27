@@ -1,5 +1,5 @@
 ---
-name: oracle-privilege-escalate
+name: db-oracle-privilege-escalate
 description: >
   Escalate Oracle database privileges via DBA role abuse, PUBLIC synonym injection, Java stored procedures, and UTL_FILE directory traversal vulnerabilities.
 domain: cybersecurity

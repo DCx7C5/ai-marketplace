@@ -1,5 +1,5 @@
 ---
-name: protocol-tcp-syn-flood-detect
+name: net-protocol-tcp-syn-flood
 description: >
   Detect TCP SYN flood denial-of-service attacks by monitoring half-open connection state, SYN cookie effectiveness, and rate-based anomalies with netstat, ss, and iptables counters.
 domain: cybersecurity

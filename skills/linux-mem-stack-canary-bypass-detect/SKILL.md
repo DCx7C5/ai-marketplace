@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: memory-stack-canary-bypass-detect
+name: linux-mem-stack-canary-bypass-detect
 description: Detect stack canary bypass techniques — identify stack smashing attempts, canary leak via format strings, and ret2libc/ROP chains in application crashes.
 domain: cybersecurity
 subdomain: memory-security

@@ -1,5 +1,5 @@
 ---
-name: enumeration-directory-scan-enum
+name: webapp-enumeration-directory
 description: Testing web applications for path traversal vulnerabilities that allow reading or writing arbitrary files on the server by manipulating file path parameters.
 domain: cybersecurity
 subdomain: web-application-security

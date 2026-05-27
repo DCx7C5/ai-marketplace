@@ -1,5 +1,5 @@
 ---
-name: layer7-dns-forensic-dnsexfil-detect
+name: net-layer7-dns-dnsexfil
 description: Detect data exfiltration through DNS tunneling by analyzing query entropy, subdomain length, query volume, TXT record abuse, and response payload sizes using passive DNS monitoring.
 domain: cybersecurity
 subdomain: network-security

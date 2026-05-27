@@ -1,5 +1,5 @@
 ---
-name: ad-bloodhound-exploit
+name: identity-ad-bloodhound
 description: BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attac
 domain: cybersecurity
 subdomain: red-teaming

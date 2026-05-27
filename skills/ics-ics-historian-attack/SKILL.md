@@ -1,5 +1,5 @@
 ---
-name: ics-historian-attack-detect
+name: ics-ics-historian-attack
 description: Detect cyber attacks targeting OT historian servers (OSIsoft PI, Ignition, Wonderware) that sit at the IT/OT boundary and serve as pivot points for lateral movement between enterprise and control networks, including data manipulation, unauthorized queries, and exploitation of historian-specific vulnerabilities.
 domain: cybersecurity
 subdomain: ot-ics-security

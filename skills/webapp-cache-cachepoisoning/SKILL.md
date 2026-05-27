@@ -1,5 +1,5 @@
 ---
-name: cache-cachepoisoning-exploit
+name: webapp-cache-cachepoisoning
 description: Exploiting web cache mechanisms to serve malicious content to other users by poisoning cached responses through unkeyed headers and parameters during authorized security tests.
 domain: cybersecurity
 subdomain: web-application-security

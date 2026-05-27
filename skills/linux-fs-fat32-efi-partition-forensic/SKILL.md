@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: filesystem-fat32-efi-partition-forensic
+name: linux-fs-fat32-efi-partition-forensic
 description: Forensic analysis of the EFI System Partition (ESP) — enumerate ESP contents, detect rogue EFI applications, check bootloader integrity, and identify persistence via ESP.
 domain: cybersecurity
 subdomain: filesystem-forensics

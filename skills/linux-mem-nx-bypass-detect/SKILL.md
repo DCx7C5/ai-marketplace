@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: memory-nx-bypass-detect
+name: linux-mem-nx-bypass-detect
 description: Detect NX/DEP bypass techniques — identify ret2libc chains, JIT spraying, and return-oriented programming attacks that execute code from non-executable memory regions.
 domain: cybersecurity
 subdomain: memory-security

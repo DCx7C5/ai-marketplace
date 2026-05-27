@@ -1,5 +1,5 @@
 ---
-name: hardware-usb-device-detect
+name: linux-hw-usb-device-detect
 description: >
   Detect unauthorized, suspicious, or newly connected USB devices on Linux systems using udev rules, dmesg, lsusb, and audit log correlation.
 domain: cybersecurity

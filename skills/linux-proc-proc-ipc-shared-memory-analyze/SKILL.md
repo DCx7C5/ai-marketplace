@@ -1,5 +1,5 @@
 ---
-name: processes-ipc-shared-memory-analyze
+name: linux-proc-proc-ipc-shared-memory-analyze
 description: >
   Analyse shared memory segments (POSIX shm, SysV IPC) for data leakage, injection, and cross-process communication abuse in containerised environments.
 domain: cybersecurity

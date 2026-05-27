@@ -1,5 +1,5 @@
 ---
-name: auth-jwt-tokensec-exploit
+name: webapp-auth-jwt-tokensec
 description: Assessing JSON Web Token implementations for cryptographic weaknesses, algorithm confusion attacks, and authorization bypass vulnerabilities during security engagements.
 domain: cybersecurity
 subdomain: web-application-security

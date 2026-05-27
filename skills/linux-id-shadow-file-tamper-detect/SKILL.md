@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: identity-shadow-file-tamper-detect
+name: linux-id-shadow-file-tamper-detect
 description: Detect /etc/shadow and /etc/passwd tampering — identify unauthorized modifications to credential stores, added backdoor accounts, and hash algorithm downgrades.
 domain: cybersecurity
 subdomain: identity-forensics

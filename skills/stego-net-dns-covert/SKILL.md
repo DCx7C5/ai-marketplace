@@ -1,5 +1,5 @@
 ---
-name: dns-covert-detect
+name: stego-net-dns-covert
 description: ">\n  Detects DNS-based covert channel steganography via query entropy\
   \ analysis."
 ---

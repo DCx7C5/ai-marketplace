@@ -1,5 +1,5 @@
 ---
-name: steghide-execute-SKILL.md
+name: stego-tool-steghide
 description: ">\n  Runs steghide to embed or extract hidden data from JPEG, BMP, WAV,\
   \ and AU files."
 ---

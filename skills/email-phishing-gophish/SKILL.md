@@ -1,5 +1,5 @@
 ---
-name: phishing-gophish-exploit
+name: email-phishing-gophish
 description: GoPhish is an open-source phishing simulation framework used by security teams to conduct authorized phishing awareness campaigns. It provides campaign management, email template creation, landing pag
 domain: cybersecurity
 subdomain: phishing-defense

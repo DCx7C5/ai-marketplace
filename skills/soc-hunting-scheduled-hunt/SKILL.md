@@ -1,5 +1,5 @@
 ---
-name: hunting-scheduled-hunt
+name: soc-hunting-scheduled-hunt
 description: Hunt for adversary persistence via Windows Scheduled Tasks by analyzing task creation events, suspicious task actions, and unusual scheduling patterns.
 domain: cybersecurity
 subdomain: threat-hunting

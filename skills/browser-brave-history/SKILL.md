@@ -1,5 +1,5 @@
 ---
-name: brave-history-analyze
+name: browser-brave-history
 description: >
   Analyse Brave browser browsing history, bookmarks, and downloads database to reconstruct user activity while accounting for Tor window and private tab artefacts.
 domain: cybersecurity

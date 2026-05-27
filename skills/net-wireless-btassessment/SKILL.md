@@ -1,5 +1,5 @@
 ---
-name: wireless-btassessment-detect
+name: net-wireless-btassessment
 description: Assess Bluetooth Low Energy device security by scanning, enumerating GATT services, and detecting vulnerabilities
 domain: cybersecurity
 subdomain: wireless-security

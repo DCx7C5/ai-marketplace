@@ -1,5 +1,5 @@
 ---
-name: hunting-startup-detect
+name: soc-hunting-startup
 description: Detect T1547.001 startup folder persistence by monitoring Windows startup directories for suspicious file creation, analyzing autoruns entries, and using Python watchdog for real-time filesystem monitoring.
 domain: cybersecurity
 subdomain: threat-hunting

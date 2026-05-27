@@ -1,5 +1,5 @@
 ---
-name: platforms-threat-hunt
+name: intel-platforms-threat-hunt
 description: Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. T
 domain: cybersecurity
 subdomain: threat-intelligence

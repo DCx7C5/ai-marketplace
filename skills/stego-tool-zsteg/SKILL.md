@@ -1,5 +1,5 @@
 ---
-name: zsteg-execute-SKILL.md
+name: stego-tool-zsteg
 description: ">\n  Runs zsteg to detect and extract steganographic payloads from PNG/BMP\
   \ files."
 ---

@@ -1,5 +1,5 @@
 ---
-name: mssql-xp-cmdshell-detect
+name: db-mssql-xp-cmdshell
 description: >
   Detect and audit MSSQL xp_cmdshell usage enabling OS command execution from SQL context, including attempts to enable it through sp_configure.
 domain: cybersecurity

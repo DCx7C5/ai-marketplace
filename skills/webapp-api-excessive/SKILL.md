@@ -1,5 +1,5 @@
 ---
-name: api-excessive-exploit
+name: webapp-api-excessive
 description: Tests APIs for excessive data exposure where endpoints return more data than the client application needs, relying on the frontend to filter sensitive fields. The tester intercepts API responses and analyzes them for leaked PII, internal identifiers, debug information, or sensitive business data that the UI does not display but the API transmits. This maps to OWASP API3:2023 Broken Object Property Level Authorization. Activates for requests involving API data leakage testing, excessive data exposure, response filtering bypass, or API over-fetching.
 domain: cybersecurity
 subdomain: api-security

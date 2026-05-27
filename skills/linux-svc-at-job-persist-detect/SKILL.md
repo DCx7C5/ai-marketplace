@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: services-at-job-persist-detect
+name: linux-svc-at-job-persist-detect
 description: Detect at/batch job persistence — enumerate scheduled at jobs, identify unusual one-time execution jobs used for delayed payload execution or persistence.
 domain: cybersecurity
 subdomain: persistence-detection

@@ -1,5 +1,5 @@
 ---
-name: devsecops-supply-audit
+name: cloud-devsecops-supply
 description: Scans GitHub Actions workflows and CI/CD pipeline configurations for supply chain attack vectors including unpinned actions, script injection via expressions, dependency confusion, and secrets exposure. Uses PyGithub and YAML parsing for automated audit. Use when hardening CI/CD pipelines or investigating compromised build systems.
 domain: cybersecurity
 subdomain: security-operations

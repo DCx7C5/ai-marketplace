@@ -1,5 +1,5 @@
 ---
-name: cloud-SKILL.md
+name: vuln-cloud
 description: ">\n  Implement Cloud Security Posture Management using AWS Security\
   \ Hub, Azure Defender for Cloud, and open-source tools like Prowler and ScoutSuite\
   \ for multi-cloud vulnerability detection."

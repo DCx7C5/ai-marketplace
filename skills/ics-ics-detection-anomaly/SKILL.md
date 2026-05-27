@@ -1,5 +1,5 @@
 ---
-name: ics-detection-anomaly-deploy
+name: ics-ics-detection-anomaly
 description: This skill covers deploying anomaly detection systems for industrial control environments using machine learning models trained on OT network baselines, physics-based process models, and behavioral analysis of industrial protocol communications. It addresses building normal behavior profiles for SCADA polling patterns, detecting deviations in Modbus/DNP3/OPC UA traffic, identifying rogue devices, and correlating network anomalies with physical process data from historians.
 domain: cybersecurity
 subdomain: ot-ics-security

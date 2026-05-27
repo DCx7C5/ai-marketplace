@@ -1,5 +1,5 @@
 ---
-name: ics-protocols-dnp3-detect
+name: ics-ics-protocols-dnp3
 description: Detect anomalies in DNP3 (Distributed Network Protocol 3) communications used in SCADA systems by monitoring for unauthorized control commands, firmware update attempts, protocol violations, and deviations from baseline traffic patterns using deep packet inspection and machine learning approaches.
 domain: cybersecurity
 subdomain: ot-ics-security

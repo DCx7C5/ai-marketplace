@@ -1,5 +1,5 @@
 ---
-name: devsecops-fuzz-enum
+name: cloud-devsecops-fuzz
 description: Integrate AFL++ coverage-guided fuzz testing into CI/CD pipelines to discover memory corruption, input handling, and logic vulnerabilities in C/C++ and compiled applications.
 domain: cybersecurity
 subdomain: devsecops

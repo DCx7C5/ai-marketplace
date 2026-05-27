@@ -1,5 +1,5 @@
 ---
-name: phishing-redteamphish-extract
+name: email-phishing-redteamphish
 description: Automate GoPhish phishing simulation campaigns using the Python gophish library. Creates email plugins with tracking pixels, configures SMTP sending profiles, builds target groups from CSV, launches campaigns, and analyzes results including open rates, click rates, and credential submission statistics for security awareness assessment.
 domain: cybersecurity
 subdomain: security-operations

@@ -1,5 +1,5 @@
 ---
-name: triage-web-harden
+name: soc-triage-web
 description: Triage web application vulnerability findings from DAST/SAST scanners using OWASP risk rating methodology to separate true positives from false positives and prioritize remediation.
 domain: cybersecurity
 subdomain: vulnerability-management

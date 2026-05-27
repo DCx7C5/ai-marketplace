@@ -1,5 +1,5 @@
 ---
-name: transparency-certificates-verify
+name: crypto-transparency-certificates-verify
 description: Monitor Certificate Transparency logs using crt.sh and Certstream to detect phishing domains, lookalike certificates, and unauthorized certificate issuance targeting your organization.
 domain: cybersecurity
 subdomain: threat-intelligence

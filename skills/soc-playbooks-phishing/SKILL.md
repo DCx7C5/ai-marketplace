@@ -1,5 +1,5 @@
 ---
-name: playbooks-phishing-detect
+name: soc-playbooks-phishing
 description: Automate phishing incident response using Splunk SOAR REST API to create containers, add artifacts, and trigger playbooks
 domain: cybersecurity
 subdomain: security-operations

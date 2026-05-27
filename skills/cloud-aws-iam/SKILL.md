@@ -1,5 +1,5 @@
 ---
-name: aws-iam-audit
+name: cloud-aws-iam
 description: Configure IAM permission boundaries in AWS to delegate role creation to developers while enforcing maximum privilege limits set by the security team.
 domain: cybersecurity
 subdomain: identity-access-management

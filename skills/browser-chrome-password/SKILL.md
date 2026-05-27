@@ -1,5 +1,5 @@
 ---
-name: chrome-password-extract
+name: browser-chrome-password
 description: >
   Extract saved Chrome passwords from the Login Data SQLite database, decrypt DPAPI-protected credentials, and identify plaintext password exposure.
 domain: cybersecurity

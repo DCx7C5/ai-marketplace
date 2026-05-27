@@ -1,5 +1,5 @@
 ---
-name: openvas-SKILL.md
+name: vuln-scanning-openvas
 description: ">\n  Configure and execute authenticated vulnerability scans using OpenVAS/Greenbone\
   \ Vulnerability Management with SSH and SMB credentials for comprehensive host-level\
   \ assessment."

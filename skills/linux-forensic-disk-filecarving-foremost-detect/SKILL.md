@@ -1,5 +1,5 @@
 ---
-name: forensics-disk-filecarving-foremost-detect
+name: linux-forensic-disk-filecarving-foremost-detect
 description: Recover files from disk images and unallocated space using Foremost's header-footer signature carving to extract evidence regardless of file system state.
 domain: cybersecurity
 subdomain: digital-forensics

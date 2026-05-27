@@ -1,5 +1,5 @@
 ---
-name: pam-accessreview-analyze
+name: identity-pam-accessreview
 description: Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based p
 domain: cybersecurity
 subdomain: identity-access-management

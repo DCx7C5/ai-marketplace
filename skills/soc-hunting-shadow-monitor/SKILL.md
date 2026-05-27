@@ -1,5 +1,5 @@
 ---
-name: hunting-shadow-monitor
+name: soc-hunting-shadow-monitor
 description: Hunt for Volume Shadow Copy deletion activity that indicates ransomware preparation or anti-forensics by monitoring vssadmin, wmic, and PowerShell shadow copy commands.
 domain: cybersecurity
 subdomain: threat-hunting

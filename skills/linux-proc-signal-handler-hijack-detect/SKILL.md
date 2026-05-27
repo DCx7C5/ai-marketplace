@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: processes-signal-handler-hijack-detect
+name: linux-proc-signal-handler-hijack-detect
 description: Detect signal handler hijacking — identify processes registering unusual signal handlers (SIGSEGV, SIGILL) to gain code execution or persist through crashes.
 domain: cybersecurity
 subdomain: process-forensics

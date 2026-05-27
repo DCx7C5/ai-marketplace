@@ -1,5 +1,5 @@
 ---
-name: logging-linuxlogforen-detect
+name: linux-log-linuxlogforen-detect
 description: Perform forensic investigation of Linux system logs including syslog, auth.log, systemd journal, kern.log, and application logs to reconstruct user activity, detect unauthorized access, and establish event timelines on compromised Linux systems.
 domain: cybersecurity
 subdomain: digital-forensics

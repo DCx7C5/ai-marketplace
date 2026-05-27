@@ -1,5 +1,5 @@
 ---
-name: tls-tlsassessment-configure
+name: webapp-tls-tlsassessment-configure
 description: Assess SSL/TLS server configurations using the sslyze Python library to evaluate cipher suites, certificate chains, protocol versions, HSTS headers, and known vulnerabilities like Heartbleed and ROBOT.
 domain: cybersecurity
 subdomain: network-security

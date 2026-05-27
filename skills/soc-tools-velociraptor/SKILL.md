@@ -1,5 +1,5 @@
 ---
-name: tools-velociraptor-deploy
+name: soc-tools-velociraptor
 description: Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS environments.
 domain: cybersecurity
 subdomain: incident-response

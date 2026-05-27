@@ -1,5 +1,5 @@
 ---
-name: azure-defender-audit
+name: cloud-azure-defender
 description: Implementing Microsoft Defender for Cloud to enable cloud security posture management, workload protection across VMs, containers, databases, and storage, configure security recommendations, and set up adaptive security controls with automated remediation.
 domain: cybersecurity
 subdomain: cloud-security

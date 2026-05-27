@@ -1,5 +1,5 @@
 ---
-name: mysql-udf-exploit
+name: db-mysql-udf
 description: >
   Exploit MySQL User-Defined Function (UDF) injection to achieve operating system command execution as the MySQL service account with INTO DUMPFILE technique.
 domain: cybersecurity

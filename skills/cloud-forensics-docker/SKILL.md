@@ -1,5 +1,5 @@
 ---
-name: forensics-docker-detect
+name: cloud-forensics-docker
 description: Investigate compromised Docker containers by analyzing images, layers, volumes, logs, and runtime artifacts to identify malicious activity and evidence.
 domain: cybersecurity
 subdomain: digital-forensics

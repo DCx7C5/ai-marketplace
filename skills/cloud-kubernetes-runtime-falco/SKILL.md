@@ -1,5 +1,5 @@
 ---
-name: kubernetes-runtime-falco-detect
+name: cloud-kubernetes-runtime-falco
 description: Detect container escape attempts in real-time using Falco runtime security rules that monitor syscalls, file access, and privilege escalation.
 domain: cybersecurity
 subdomain: container-security

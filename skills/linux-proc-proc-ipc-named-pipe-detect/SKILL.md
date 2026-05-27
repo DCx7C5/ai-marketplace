@@ -1,5 +1,5 @@
 ---
-name: processes-ipc-named-pipe-detect
+name: linux-proc-proc-ipc-named-pipe-detect
 description: >
   Detect named pipe impersonation abuse where a privileged service connects to an attacker-controlled pipe enabling token theft and privilege escalation.
 domain: cybersecurity

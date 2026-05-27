@@ -1,5 +1,5 @@
 ---
-name: injection-sqli-secondorder-detect
+name: webapp-injection-sqli-secondorder
 description: Detect and exploit second-order SQL injection vulnerabilities where malicious input is stored in a database and later executed in an unsafe SQL query during a different application operation.
 domain: cybersecurity
 subdomain: web-application-security

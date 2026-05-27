@@ -1,5 +1,5 @@
 ---
-name: containment-active-extract
+name: soc-containment-active
 description: Executes containment strategies to stop active adversary operations and prevent lateral movement during a confirmed security breach. Implements short-term and long-term containment using network segmentation, endpoint isolation, credential revocation, and access control modifications. Activates for requests involving breach containment, lateral movement prevention, network isolation, active threat containment, or live incident response.
 domain: cybersecurity
 subdomain: incident-response

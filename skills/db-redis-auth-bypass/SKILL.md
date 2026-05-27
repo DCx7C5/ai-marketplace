@@ -1,5 +1,5 @@
 ---
-name: redis-auth-bypass
+name: db-redis-auth-bypass
 description: >
   Detect Redis instances with no authentication or weak requirepass configuration that allow unauthenticated command execution and data exfiltration.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: protocol-udp-amplification-detect
+name: net-protocol-udp-amplification
 description: >
   Detect UDP amplification and reflection DDoS attacks targeting DNS, NTP, SSDP, Memcached, and QUIC endpoints by analyzing traffic asymmetry and source IP diversity.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: chrome-cache-recover
+name: browser-chrome-cache-recover
 description: >
   Recover cached web content, images, scripts, and API responses from Chrome's disk cache using ChromeCacheView and cache parsing tools for forensic reconstruction.
 domain: cybersecurity

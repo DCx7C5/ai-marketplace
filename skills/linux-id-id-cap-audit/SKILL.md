@@ -1,5 +1,5 @@
 ---
-name: identity-capabilities-audit
+name: linux-id-id-cap-audit
 description: >
   Audit Linux capabilities assigned to processes and executables using capsh, getcap, and /proc/<PID>/status to identify over-privileged capability sets.
 domain: cybersecurity

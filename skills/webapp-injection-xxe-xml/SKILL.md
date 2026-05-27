@@ -1,5 +1,5 @@
 ---
-name: injection-xxe-xml-detect
+name: webapp-injection-xxe-xml
 description: Test web applications for XML injection vulnerabilities including XXE, XPath injection, and XML entity attacks to identify data exposure and server-side request forgery risks.
 domain: cybersecurity
 subdomain: web-application-security

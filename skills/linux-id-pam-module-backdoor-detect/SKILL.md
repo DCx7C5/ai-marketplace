@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: identity-pam-module-backdoor-detect
+name: linux-id-pam-module-backdoor-detect
 description: Detect malicious PAM module insertion — identify unauthorized .so files in /lib/security/, modules logging credentials, and modified pam.d configurations.
 domain: cybersecurity
 subdomain: identity-security

@@ -1,5 +1,5 @@
 ---
-name: bmp-lsb-detect
+name: stego-image-bmp-lsb
 description: ">\n  Detects least-significant-bit steganography in BMP images via statistical\
   \ tests."
 ---

@@ -1,5 +1,5 @@
 ---
-name: hunting-unusual-audit
+name: soc-hunting-unusual
 description: Hunt for unusual network connections by analyzing outbound traffic patterns, rare destinations, non-standard ports, and anomalous connection frequencies from endpoints.
 domain: cybersecurity
 subdomain: threat-hunting

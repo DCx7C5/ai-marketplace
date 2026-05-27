@@ -1,5 +1,5 @@
 ---
-name: cache-cachedeception-exploit
+name: webapp-cache-cachedeception
 description: Execute web cache deception attacks by exploiting path normalization discrepancies between CDN caching layers and origin servers to cache and retrieve sensitive authenticated content.
 domain: cybersecurity
 subdomain: web-application-security

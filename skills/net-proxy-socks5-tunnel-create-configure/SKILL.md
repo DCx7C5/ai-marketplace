@@ -1,5 +1,5 @@
 ---
-name: proxy-socks5-tunnel-create-configure
+name: net-proxy-socks5-tunnel-create-configure
 description: >
   Create SOCKS5 proxy tunnels for traffic pivoting and C2 redirection using SSH dynamic port forwarding, Chisel, Ligolo-ng, and microsocks for post-exploitation access.
 domain: cybersecurity

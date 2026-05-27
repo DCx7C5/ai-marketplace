@@ -1,5 +1,5 @@
 ---
-name: network-services-smb-share-enum
+name: linux-net-net-smb-share-enum
 description: >
   Enumerate SMB shares, permissions, and accessible files using smbclient, CrackMapExec, and enum4linux to identify exposed sensitive data and misconfigured ACLs.
 domain: cybersecurity

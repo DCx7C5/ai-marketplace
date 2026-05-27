@@ -1,5 +1,5 @@
 ---
-name: patch-SKILL.md
+name: vuln-remediation-patch
 description: ">\n  Establish a structured operational process to triage, test, and\
   \ deploy Microsoft Patch Tuesday security updates within risk-based remediation\
   \ SLAs."

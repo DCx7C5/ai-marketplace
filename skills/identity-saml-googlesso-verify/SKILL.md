@@ -1,5 +1,5 @@
 ---
-name: saml-googlesso-verify
+name: identity-saml-googlesso-verify
 description: Configure SAML 2.0 single sign-on for Google Workspace with a third-party identity provider, enabling centralized authentication and enforcing organization-wide access policies.
 domain: cybersecurity
 subdomain: identity-access-management

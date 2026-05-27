@@ -1,5 +1,5 @@
 ---
-name: vpn-ipsec-tunnel-deploy
+name: net-vpn-ipsec-tunnel
 description: >
   Deploy site-to-site IPsec VPN tunnels using StrongSwan or Libreswan with IKEv2, certificate-based authentication, PFS, and Dead Peer Detection for secure inter-site connectivity.
 domain: cybersecurity

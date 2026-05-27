@@ -1,5 +1,5 @@
 ---
-name: jpg-dct-detect
+name: stego-image-jpg-dct
 description: ">\n  Detects DCT-domain steganography in JPEG images using StegDetect\
   \ or F5 analysis."
 ---

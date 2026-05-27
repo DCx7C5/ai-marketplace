@@ -1,5 +1,5 @@
 ---
-name: attack-SKILL.md
+name: vuln-attack
 description: ">\n  Deploy XM Cyber's continuous exposure management platform to map\
   \ attack paths, identify choke points, and prioritize the 2% of exposures that threaten\
   \ critical assets."

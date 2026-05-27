@@ -1,5 +1,5 @@
 ---
-name: network-services-nfs-rootsquash-bypass
+name: linux-net-net-nfs-rootsquash-bypass
 description: >
   Exploit NFS no_root_squash misconfigurations that allow UID 0 from clients to retain root privileges on mounted shares, enabling privilege escalation.
 domain: cybersecurity

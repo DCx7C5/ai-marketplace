@@ -1,5 +1,5 @@
 ---
-name: ioc-tilcm-collect
+name: intel-ioc-tilcm
 description: Implement a structured threat intelligence lifecycle encompassing planning, collection, processing, analysis, dissemination, and feedback stages to produce actionable intelligence for organizational decision-making.
 domain: cybersecurity
 subdomain: threat-intelligence

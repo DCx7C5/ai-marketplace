@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: kernel-syscall-seccomp-filter-harden
+name: linux-kernel-syscall-seccomp-filter-harden
 description: Apply and audit seccomp-BPF filters to restrict syscall surface — create minimal syscall allowlists, verify filter inheritance, and test filter effectiveness.
 domain: cybersecurity
 subdomain: kernel-hardening

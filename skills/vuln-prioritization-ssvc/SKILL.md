@@ -1,5 +1,5 @@
 ---
-name: ssvc-SKILL.md
+name: vuln-prioritization-ssvc
 description: ">\n  Triage and prioritize vulnerabilities using CISA's Stakeholder-Specific\
   \ Vulnerability Categorization (SSVC) decision tree framework to produce actionable\
   \ remediation priorities."

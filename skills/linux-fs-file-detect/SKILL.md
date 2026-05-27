@@ -1,5 +1,5 @@
 ---
-name: filesystem-file-detect
+name: linux-fs-file-detect
 description: Configure AIDE (Advanced Intrusion Detection Environment) for file integrity monitoring including baseline creation, scheduled integrity checks, change detection, and alerting
 domain: cybersecurity
 subdomain: endpoint-security

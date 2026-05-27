@@ -1,5 +1,5 @@
 ---
-name: brand-detect
+name: misc-brand
 description: Monitor for brand impersonation attacks across domains, social media, mobile apps, and dark web channels to detect phishing campaigns, fake sites, and unauthorized brand usage targeting your organization.
 domain: cybersecurity
 subdomain: threat-intelligence

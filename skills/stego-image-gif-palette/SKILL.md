@@ -1,5 +1,5 @@
 ---
-name: gif-palette-detect
+name: stego-image-gif-palette
 description: ">\n  Detects palette-manipulation steganography in GIF images."
 ---
 ## Overview

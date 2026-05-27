@@ -1,5 +1,5 @@
 ---
-name: scanning-vulnerability-masscan-execute-exploit
+name: net-scanning-vuln-masscan
 description: >
   Execute high-speed internet-scale vulnerability scanning with Masscan at millions of packets per second, targeting CVE-specific service signatures across large CIDR ranges.
 domain: cybersecurity

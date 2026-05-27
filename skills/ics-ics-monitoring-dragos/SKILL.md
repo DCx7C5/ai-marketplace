@@ -1,5 +1,5 @@
 ---
-name: ics-monitoring-dragos-deploy
+name: ics-ics-monitoring-dragos
 description: Deploy and configure the Dragos Platform for OT network monitoring, leveraging its 600+ industrial protocol parsers, intelligence-driven threat detection analytics, and asset visibility capabilities to protect ICS environments against threat groups like VOLTZITE, GRAPHITE, and BAUXITE.
 domain: cybersecurity
 subdomain: ot-ics-security

@@ -1,5 +1,5 @@
 ---
-name: recovery-backup-recover
+name: soc-recovery-backup-recover
 description: Validate backup integrity through cryptographic hash verification, automated restore testing, corruption detection, and recoverability checks to ensure backups are reliable for disaster recovery and ransomware response scenarios.
 domain: cybersecurity
 subdomain: incident-response

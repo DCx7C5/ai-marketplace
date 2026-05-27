@@ -1,5 +1,5 @@
 ---
-name: firefox-cookie-extract
+name: browser-firefox-cookie
 description: >
   Extract Firefox session cookies from the cookies.sqlite database and identify auth tokens, CSRF tokens, and session identifiers for forensic analysis.
 domain: cybersecurity

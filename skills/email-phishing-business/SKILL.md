@@ -1,5 +1,5 @@
 ---
-name: phishing-business-exploit
+name: email-phishing-business
 description: Business Email Compromise (BEC) is a sophisticated fraud scheme where attackers impersonate executives, vendors, or trusted partners to trick employees into transferring funds, sharing sensitive data,
 domain: cybersecurity
 subdomain: phishing-defense

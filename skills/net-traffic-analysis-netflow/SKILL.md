@@ -1,5 +1,5 @@
 ---
-name: traffic-analysis-netflow-analyze
+name: net-traffic-analysis-netflow
 description: >
   Collect and analyse NetFlow v5/v9/IPFIX records with nfdump, ntopng, and ElastiFlow to detect anomalous traffic volumes, lateral movement, and data exfiltration.
 domain: cybersecurity

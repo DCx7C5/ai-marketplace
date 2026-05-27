@@ -1,5 +1,5 @@
 ---
-name: filesystem-ext4-journal-recover
+name: linux-fs-ext4-journal-recover
 description: >
   Recover deleted and overwritten files from ext4 journals using ext4magic, extundelete, and The Sleuth Kit by replaying journal transactions.
 domain: cybersecurity

@@ -1,5 +1,5 @@
 ---
-name: api-42crunch-audit
+name: webapp-api-42crunch
 description: Implement comprehensive API security testing using the 42Crunch platform to perform static audit and dynamic conformance scanning of OpenAPI specifications.
 domain: cybersecurity
 subdomain: api-security

@@ -1,5 +1,5 @@
 ---
-name: vulnerability-SKILL.md
+name: vuln-scanning-vuln
 description: ">\n  Builds a structured vulnerability scanning workflow using tools\
   \ like Nessus, Qualys, and OpenVAS to discover, prioritize, and track remediation\
   \ of security vulnerabilities across infrastructure. Use when SOC teams need to\

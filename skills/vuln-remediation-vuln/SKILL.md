@@ -1,5 +1,5 @@
 ---
-name: vulnerability-SKILL.md
+name: vuln-remediation-vuln
 description: ">\n  Vulnerability remediation SLAs define mandatory timeframes for\
   \ patching or mitigating identified vulnerabilities based on severity, asset criticality,\
   \ and exploit availability. Effective SLA programs"

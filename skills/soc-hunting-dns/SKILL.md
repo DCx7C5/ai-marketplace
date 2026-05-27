@@ -1,5 +1,5 @@
 ---
-name: hunting-dns-exploit
+name: soc-hunting-dns
 description: Hunt for DNS-based persistence mechanisms including DNS hijacking, dangling CNAME records, wildcard DNS abuse, and unauthorized zone modifications using passive DNS databases, SecurityTrails API, and DNS audit log analysis.
 domain: cybersecurity
 subdomain: threat-hunting

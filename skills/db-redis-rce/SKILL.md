@@ -1,5 +1,5 @@
 ---
-name: redis-rce-exploit
+name: db-redis-rce
 description: >
   Exploit unauthenticated Redis instances for remote code execution via CONFIG SET dir/dbfilename to write cron jobs, SSH authorized_keys, or webshells.
 domain: cybersecurity

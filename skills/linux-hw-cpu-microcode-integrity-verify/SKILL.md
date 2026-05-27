@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: hardware-cpu-microcode-integrity-verify
+name: linux-hw-cpu-microcode-integrity-verify
 description: Verify CPU microcode integrity and update status to ensure hardware-level mitigations are applied against known CPU vulnerabilities.
 domain: cybersecurity
 subdomain: hardware-security

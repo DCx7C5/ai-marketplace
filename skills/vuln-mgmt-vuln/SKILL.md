@@ -1,5 +1,5 @@
 ---
-name: vulnerability-SKILL.md
+name: vuln-mgmt-vuln
 description: ">\n  Implement a vulnerability aging dashboard and SLA tracking system\
   \ to measure remediation performance against severity-based timelines and drive\
   \ accountability."

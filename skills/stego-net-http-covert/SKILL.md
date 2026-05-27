@@ -1,5 +1,5 @@
 ---
-name: http-covert-detect
+name: stego-net-http-covert
 description: ">\n  Detects HTTP header steganography and covert communication channels."
 ---
 ## Overview

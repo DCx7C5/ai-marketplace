@@ -1,5 +1,5 @@
 ---
-name: kerberos-goldenticket-detect
+name: identity-kerberos-goldenticket
 description: Detect Golden Ticket attacks in Active Directory by analyzing Kerberos TGT anomalies including mismatched encryption types, impossible ticket lifetimes, non-existent accounts, and forged PAC signatures in domain controller event logs.
 domain: cybersecurity
 subdomain: threat-hunting

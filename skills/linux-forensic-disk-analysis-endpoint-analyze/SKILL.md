@@ -1,5 +1,5 @@
 ---
-name: forensics-disk-analysis-endpoint-analyze
+name: linux-forensic-disk-analysis-endpoint-analyze
 description: Performs digital forensics investigation on compromised endpoints including memory acquisition, disk imaging, artifact analysis, and timeline reconstruction. Use when investigating security incidents, collecting evidence for legal proceedings, or analyzing endpoint compromise scope. Activates for requests involving endpoint forensics, memory analysis, disk forensics, or incident investigation.
 domain: cybersecurity
 subdomain: endpoint-security

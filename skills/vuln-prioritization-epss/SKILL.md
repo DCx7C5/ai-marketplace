@@ -1,5 +1,5 @@
 ---
-name: epss-SKILL.md
+name: vuln-prioritization-epss
 description: ">\n  Integrate FIRST's Exploit Prediction Scoring System (EPSS) API\
   \ to prioritize vulnerability remediation based on real-world exploitation probability\
   \ within 30 days."

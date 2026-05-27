@@ -1,5 +1,5 @@
 ---
-name: credentials-lazagne-exploit
+name: identity-credentials-lazagne
 description: Extract stored credentials from compromised endpoints using the LaZagne post-exploitation tool to recover passwords from browsers, databases, system vaults, and applications during authorized red team operations.
 domain: cybersecurity
 subdomain: red-teaming

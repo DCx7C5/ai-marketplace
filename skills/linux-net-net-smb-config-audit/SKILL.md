@@ -1,5 +1,5 @@
 ---
-name: network-services-smb-config-audit
+name: linux-net-net-smb-config-audit
 description: >
   Audit Samba server configuration for security misconfigurations including guest access, print server exposure, weak cipher suites, and NTLMv1 compatibility.
 domain: cybersecurity

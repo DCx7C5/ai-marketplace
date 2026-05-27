@@ -1,5 +1,5 @@
 ---
-name: auth-csrf-exploit
+name: webapp-auth-csrf
 description: Testing web applications for Cross-Site Request Forgery vulnerabilities by crafting forged requests that exploit authenticated user sessions during authorized security assessments.
 domain: cybersecurity
 subdomain: web-application-security

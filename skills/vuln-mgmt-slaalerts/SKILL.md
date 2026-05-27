@@ -1,5 +1,5 @@
 ---
-name: slaalerts-SKILL.md
+name: vuln-mgmt-slaalerts
 description: ">\n  Build automated alerting for vulnerability remediation SLA breaches\
   \ with severity-based timelines, escalation workflows, and compliance reporting\
   \ dashboards."

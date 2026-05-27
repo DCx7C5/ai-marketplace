@@ -1,5 +1,5 @@
 ---
-name: nessus-SKILL.md
+name: vuln-scanning-nessus
 description: ">\n  Performs authenticated and unauthenticated vulnerability scanning\
   \ using Tenable Nessus to identify known vulnerabilities, misconfigurations, default\
   \ credentials, and missing patches across network infrastructure, servers, and applications.\

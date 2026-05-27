@@ -1,5 +1,5 @@
 ---
-name: aws-hubcompliance-audit
+name: cloud-aws-hubcompliance
 description: Implementing AWS Security Hub to aggregate security findings across AWS accounts, enable compliance standards like CIS AWS Foundations and PCI DSS, configure automated remediation with EventBridge and Lambda, and create custom security insights for organizational risk management.
 domain: cybersecurity
 subdomain: cloud-security

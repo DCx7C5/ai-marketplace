@@ -1,5 +1,5 @@
 ---
-name: rapid7-SKILL.md
+name: vuln-rapid7
 description: ">\n  Deploy and configure Rapid7 InsightVM Security Console and Scan\
   \ Engines for authenticated and unauthenticated vulnerability scanning across enterprise\
   \ environments."

@@ -1,5 +1,5 @@
 ---
-name: ms17-SKILL.md
+name: vuln-ms17
 description: ">\n  MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's\
   \ SMBv1 implementation that allows remote code execution. Originally discovered\
   \ by the NSA and leaked by the Shadow Brokers in 2017, it"

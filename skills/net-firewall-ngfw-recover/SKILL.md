@@ -1,5 +1,5 @@
 ---
-name: firewall-ngfw-recover
+name: net-firewall-ngfw-recover
 description: Configure and deploy Palo Alto Networks next-generation firewalls with App-ID, User-ID, zone-based policies, SSL decryption, and threat prevention profiles for enterprise network security.
 domain: cybersecurity
 subdomain: network-security

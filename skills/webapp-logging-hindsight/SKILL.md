@@ -1,5 +1,5 @@
 ---
-name: logging-hindsight-extract
+name: webapp-logging-hindsight
 description: Analyze Chromium-based browser artifacts using Hindsight to extract browsing history, downloads, cookies, cached content, autofill data, saved passwords, and browser extensions from Chrome, Edge, Brave, and Opera for forensic investigation.
 domain: cybersecurity
 subdomain: digital-forensics

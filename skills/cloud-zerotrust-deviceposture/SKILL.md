@@ -1,5 +1,5 @@
 ---
-name: zerotrust-deviceposture-exploit
+name: cloud-zerotrust-deviceposture
 description: Implementing device posture assessment as a zero trust access control by integrating endpoint health signals from CrowdStrike ZTA, Microsoft Intune, and Jamf into conditional access policies that enforce compliance before granting resource access.
 domain: cybersecurity
 subdomain: zero-trust-architecture

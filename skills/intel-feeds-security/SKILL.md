@@ -1,5 +1,5 @@
 ---
-name: feeds-security-audit
+name: intel-feeds-security
 description: Create, validate, and share STIX 2.1 threat intelligence objects using the stix2 Python library. Covers indicators, malware, campaigns, relationships, bundles, and TAXII 2.1 publishing.
 domain: cybersecurity
 subdomain: threat-intelligence

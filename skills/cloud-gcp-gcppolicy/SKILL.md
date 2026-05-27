@@ -1,5 +1,5 @@
 ---
-name: gcp-gcppolicy-exploit
+name: cloud-gcp-gcppolicy
 description: Implement GCP Organization Policy constraints to enforce security guardrails across the entire resource hierarchy, restricting risky configurations and ensuring compliance at organization, folder, and project levels.
 domain: cybersecurity
 subdomain: cloud-security

@@ -1,5 +1,5 @@
 ---
-name: network-services-smb-credential-intercept
+name: linux-net-net-smb-credential-intercept
 description: >
   Intercept CIFS/SMB credentials using Responder and network poisoning techniques to capture NTLMv1/v2 challenge-response hashes for offline cracking.
 domain: cybersecurity

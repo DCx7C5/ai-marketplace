@@ -1,5 +1,5 @@
 ---
-name: continuous-SKILL.md
+name: vuln-continuous
 description: ">\n  Deploy Breach and Attack Simulation tools to continuously validate\
   \ security control effectiveness by safely emulating real-world attack techniques\
   \ across the kill chain."

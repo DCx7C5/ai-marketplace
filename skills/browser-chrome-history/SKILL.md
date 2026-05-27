@@ -1,5 +1,5 @@
 ---
-name: chrome-history-analyze
+name: browser-chrome-history
 description: >
   Analyse Chrome browsing history from the History SQLite database to reconstruct visited URLs, search queries, download paths, and visit timestamps.
 domain: cybersecurity

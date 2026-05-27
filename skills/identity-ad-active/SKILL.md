@@ -1,5 +1,5 @@
 ---
-name: ad-active-detect
+name: identity-ad-active
 description: Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths
 domain: cybersecurity
 subdomain: identity-security

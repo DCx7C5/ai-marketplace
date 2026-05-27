@@ -1,5 +1,5 @@
 ---
-name: hunting-t1548-detect
+name: soc-hunting-t1548
 description: Detect abuse of elevation control mechanisms including UAC bypass, sudo exploitation, and setuid/setgid manipulation by monitoring registry modifications, process elevation flags, and unusual parent-child process relationships.
 domain: cybersecurity
 subdomain: threat-hunting

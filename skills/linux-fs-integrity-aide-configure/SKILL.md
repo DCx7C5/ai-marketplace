@@ -1,5 +1,5 @@
 ---
-name: filesystem-integrity-aide-configure
+name: linux-fs-integrity-aide-configure
 description: >
   Configure AIDE (Advanced Intrusion Detection Environment) to create baseline checksums and monitor critical filesystem paths for unauthorized modifications.
 domain: cybersecurity

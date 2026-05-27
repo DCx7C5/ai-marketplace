@@ -1,5 +1,5 @@
 ---
-name: injection-xxe-exploit
+name: webapp-injection-xxe
 description: Discovering and exploiting XML External Entity injection vulnerabilities to read server files, perform SSRF, and exfiltrate data during authorized penetration tests.
 domain: cybersecurity
 subdomain: web-application-security

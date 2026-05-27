@@ -1,5 +1,5 @@
 ---
-name: hunting-dll-detect
+name: soc-hunting-dll
 description: Detect DLL side-loading attacks where adversaries place malicious DLLs alongside legitimate applications to hijack execution flow for defense evasion.
 domain: cybersecurity
 subdomain: threat-hunting

@@ -1,5 +1,5 @@
 ---
-name: mp4-frame-detect
+name: stego-video-mp4-frame
 description: ">\n  Detects inter-frame steganography in MP4 video via frame-difference\
   \ analysis."
 ---

@@ -1,5 +1,5 @@
 ---
-name: vpn-openvpn-server-configure
+name: net-vpn-openvpn-server-configure
 description: >
   Configure an OpenVPN server with PKI certificate management, TLS-auth HMAC, multi-factor authentication, and client certificate revocation using Easy-RSA and FreeRADIUS.
 domain: cybersecurity

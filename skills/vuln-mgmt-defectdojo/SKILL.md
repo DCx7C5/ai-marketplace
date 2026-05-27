@@ -1,5 +1,5 @@
 ---
-name: defectdojo-SKILL.md
+name: vuln-mgmt-defectdojo
 description: ">\n  Deploy DefectDojo as a centralized vulnerability management dashboard\
   \ with scanner integrations, deduplication, metrics tracking, and Jira ticketing\
   \ workflows."

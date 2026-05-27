@@ -1,5 +1,5 @@
 ---
-name: network-services-smb-signing-audit
+name: linux-net-net-smb-signing-audit
 description: >
   Audit SMB signing configuration across the network to identify hosts with signing disabled that are susceptible to NTLM relay and MitM attacks.
 domain: cybersecurity

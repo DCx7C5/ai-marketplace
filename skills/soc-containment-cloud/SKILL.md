@@ -1,5 +1,5 @@
 ---
-name: containment-cloud-analyze
+name: soc-containment-cloud
 description: Execute cloud-native incident containment across AWS, Azure, and GCP by isolating compromised resources, revoking credentials, preserving forensic evidence, and applying security group restrictions to prevent lateral movement.
 domain: cybersecurity
 subdomain: incident-response

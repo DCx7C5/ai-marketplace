@@ -4,7 +4,7 @@ description: "---"
 ---
 
 ---
-name: filesystem-coredump-artifact-collect
+name: linux-fs-coredump-artifact-collect
 description: Collect and analyze core dump artifacts — configure core dump destinations, extract credentials and sensitive data from process core dumps, detect malicious core dump triggers.
 domain: cybersecurity
 subdomain: filesystem-forensics

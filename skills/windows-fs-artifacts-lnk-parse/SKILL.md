@@ -1,5 +1,5 @@
 ---
-name: filesystem-artifacts-lnk-parse
+name: windows-fs-artifacts-lnk-parse
 description: Analyze Windows LNK shortcut files and Jump List artifacts to establish evidence of file access, program execution, and user activity using LECmd, JLECmd, and manual binary parsing of the Shell Link Binary format.
 domain: cybersecurity
 subdomain: digital-forensics
