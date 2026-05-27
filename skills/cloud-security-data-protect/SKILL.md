@@ -1,9 +1,10 @@
 ---
 name: cloud-security-data-protect
-description: - When GuardDuty detects anomalous S3 access patterns such as bulk downloads from unusual IPs - When investigating suspected data breach involving S3-stored sensitive data - When building detection rules for S3 data loss prevention monitoring - When responding to Macie alerts about sensitive data being accessed or moved - When compliance requires m
+description: "Cloud Security Data Protect."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | S3 Data Events | CloudTrail object-level logging that captures GetObject, PutObject, DeleteObject, and CopyObject API calls with request details |
 | GuardDuty S3 Protection | Threat detection feature analyzing CloudTrail S3 data events to identify anomalous access patterns and exfiltration attempts |
 | Amazon Macie | Data security service that discovers and classifies sensitive data in S3 and generates findings for data exposure risks |

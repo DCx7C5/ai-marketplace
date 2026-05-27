@@ -1,8 +1,9 @@
 ---
 name: intel-feeds-stix
-description: STIX (Structured Threat Information eXpression) and TAXII (Trusted Automated eXchange of Intelligence Information) are OASIS open standards for representing and transporting cyber threat intelligence. This skill covers implementing a STIX/TAXII 2.1 feed consumer and producer using Python, configuring TAXII server discovery, collection management, p
+description: "- [MITRE ATT&CK TAXII Server](https://cti-taxii.mitre."
 domain: cybersecurity
 ---
+
 # Implementing STIX/TAXII Feed Integration
 
 ## Overview

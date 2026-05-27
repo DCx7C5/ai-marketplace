@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gws-forms
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "Use `gws schema` output to build your `--params` and `--json` flags."
 domain: cybersecurity
 ---
+
 # forms (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

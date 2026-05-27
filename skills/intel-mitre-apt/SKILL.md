@@ -1,8 +1,9 @@
 ---
 name: intel-mitre-apt
-description: MITRE ATT&CK Navigator is a web-based tool for annotating and exploring ATT&CK matrices, enabling analysts to visualize threat actor technique coverage, compare multiple APT groups, identify detection gaps, and build threat-informed defense strategies. This skill covers querying ATT&CK data programmatically, mapping APT group TTPs to Navigator laye
+description: "- [Picus: Leverage MITRE ATT&CK for Threat Intelligence](https://www."
 domain: cybersecurity
 ---
+
 # Analyzing APT Group with MITRE ATT&CK Navigator
 
 ## Overview

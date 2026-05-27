@@ -1,21 +1,10 @@
 ---
 name: net-layer7-dns-dnsexfil
-description: DNS exfiltration exploits the Domain Name System as a covert channel to extract data from compromised networks. Attackers encode stolen data into DNS query names (subdomains) or DNS response records (TXT, CNAME, NULL), bypassing traditional security controls that typically allow DNS traffic unrestricted. Tools like iodine, dnscat2, and dns2tcp enab
+description: "Net Layer7 Dns Dnsexfil."
 domain: cybersecurity
 ---
---------|-----------|---------------|
-| Subdomain length | 5-20 chars | 40-253 chars |
-| Label count | 2-4 labels | 5-10+ labels |
-| Shannon entropy | 2.5-3.5 bits | 4.0-5.5 bits |
-| Query volume (per domain) | Variable | 100s-1000s/min |
-| TXT response size | < 100 bytes | 200-4000+ bytes |
-| Unique subdomains | Low | Very high |
-| Query type distribution | Mostly A/AAAA | Heavy TXT, NULL, CNAME |
 
-### Common Tunneling Tools
-
-| Tool | Protocol | Encoding | Detection Difficulty |
-|------|----------|----------|---------------------|
+|
 | iodine | IP-over-DNS | Base32/Base64/Raw | Medium |
 | dnscat2 | TCP-over-DNS | Hex encoding | Medium |
 | dns2tcp | TCP-over-DNS | Base64 | Medium |

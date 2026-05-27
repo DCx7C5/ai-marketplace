@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-iamharden
-description: - When onboarding new AWS accounts or workloads that require scoped IAM policies - When IAM Access Analyzer reports overly permissive policies or unused permissions - When preparing for a compliance audit requiring least privilege evidence (SOC 2, PCI-DSS) - When migrating from long-lived access keys to short-lived role-based credentials - When rem
+description: "Cloud Aws Iamharden."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Least Privilege | Granting only the minimum permissions required for an identity to perform its function |
 | Permission Boundary | An advanced IAM feature that sets the maximum permissions an entity can have, regardless of attached policies |
 | IAM Access Analyzer | AWS service that uses automated reasoning to identify resources shared externally and generate least-privilege policies from CloudTrail activity |

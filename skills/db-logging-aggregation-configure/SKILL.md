@@ -1,8 +1,9 @@
 ---
 name: db-logging-aggregation-configure
-description: This skill covers configuring Fluentd and Fluent Bit for centralized log collection, routing, and enrichment. Fluent Bit acts as a lightweight log forwarder on endpoints, while Fluentd serves as the central aggregator and processor. The configuration covers input plugins for syslog, file tailing, and application logs, with output routing to Elastic
+description: "5. **Test Log Forwarding** — Send test events via fluent-logger Python library and verify delivery 6."
 domain: cybersecurity
 ---
+
 # Implementing Log Forwarding with Fluentd
 
 ## Overview

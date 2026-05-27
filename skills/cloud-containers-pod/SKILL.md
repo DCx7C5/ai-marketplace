@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-pod
-description: Pod Security Admission (PSA) is a built-in Kubernetes admission controller (stable since v1.25) that enforces Pod Security Standards at the namespace level. It replaces the deprecated PodSecurityPolicy (PSP) and provides three security profiles: Privileged, Baseline, and Restricted, with three enforcement modes: enforce, audit, and warn.
+description: "Cloud Containers Pod."
 domain: cybersecurity
 ---
----|----------|----------|
+
+-|
 | enforce | Reject pods violating policy | Production enforcement |
 | audit | Log violations to audit log | Pre-enforcement assessment |
 | warn | Show warnings to user | Developer feedback |

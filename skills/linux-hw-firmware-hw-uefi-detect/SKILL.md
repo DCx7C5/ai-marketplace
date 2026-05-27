@@ -1,9 +1,10 @@
 ---
 name: linux-hw-firmware-hw-uefi-detect
-description: - A compromised system re-establishes C2 communication after OS reinstallation or disk replacement - Secure Boot has been tampered with, disabled, or shows unexpected Machine Owner Key (MOK) enrollment - Firmware integrity verification fails against vendor-provided baselines - Memory forensics reveals rootkit components loading during early boot ph
+description: "Linux Hw Firmware Hw Uefi Detect."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **UEFI Bootkit** | Malware that persists in UEFI firmware or the boot process, executing before the operating system loads and surviving OS reinstallation |
 | **SPI Flash** | Serial Peripheral Interface flash memory chip on the motherboard storing UEFI firmware; firmware-level bootkits like LoJax and MoonBounce modify SPI flash contents |
 | **EFI System Partition (ESP)** | FAT32 partition containing EFI bootloaders and drivers; bootkits like BlackLotus and ESPecter modify files on the ESP for persistence |

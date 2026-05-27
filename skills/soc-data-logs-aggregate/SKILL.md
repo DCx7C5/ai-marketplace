@@ -1,22 +1,10 @@
 ---
 name: soc-data-logs-aggregate
-description: - When reconstructing the timeline of a security incident from available log sources - During post-breach investigation to identify initial access, lateral movement, and exfiltration - When correlating events across multiple systems and log sources - For establishing evidence of unauthorized access or policy violations - When preparing forensic rep
+description: "Soc Data Logs Aggregate."
 domain: cybersecurity
 ---
-------|-------------|
-| Event correlation | Linking related events across multiple log sources by time, IP, user, or session |
-| Log normalization | Converting diverse log formats into a common schema for unified analysis |
-| Timeline analysis | Chronological ordering of events to reconstruct incident sequence |
-| Log integrity | Verifying logs have not been tampered with using hashes and chain of custody |
-| Logon types | Windows categorization of authentication methods (2=interactive, 3=network, 10=RDP) |
-| Audit policy | System configuration determining which events are recorded in logs |
-| Log rotation | Automatic archiving of log files that affects evidence availability |
-| Anti-forensics | Attacker techniques for clearing or modifying logs to cover tracks |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | python-evtx | Python library for parsing Windows EVTX event log files |
 | evtxexport | Command-line EVTX export utility from libevtx |
 | LogParser | Microsoft SQL-like query engine for Windows logs |

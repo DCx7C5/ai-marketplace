@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-advanced-hunt
-description: Use this skill when: - Conducting proactive threat hunting sprints (typically 2–4 week cycles) based on newly published APT intelligence - A UEBA alert or anomaly detection system flags behavioral deviations warranting deeper investigation - A peer organization or ISAC sharing partner reports active APT compromise and you need to validate your own 
+description: "Soc Hunting Advanced Hunt."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **TTP** | Tactics, Techniques, and Procedures — adversary behavioral patterns as defined in MITRE ATT&CK |
 | **Diamond Model** | Analytical framework with four vertices (adversary, capability, infrastructure, victim) used to structure intrusion analysis |
 | **Living-off-the-Land (LotL)** | Attacker technique using legitimate OS tools (PowerShell, WMI, certutil) to evade detection |

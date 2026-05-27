@@ -1,6 +1,6 @@
 ---
 name: vuln-scanning-authenticated
-description: Authenticated (credentialed) vulnerability scanning uses valid system credentials to log into target hosts and perform deep inspection of installed software, patches, configurations, and security settings. Compared to unauthenticated scanning, credentialed scans detect 45-60% more vulnerabilities with significantly fewer false positives because the
+description: "```bash"
 domain: cybersecurity
 ---
 ## CyberSecSuite Integration

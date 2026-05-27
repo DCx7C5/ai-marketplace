@@ -1,39 +1,10 @@
 ---
 name: ics-sector-power-grid-assess
-description: - When conducting periodic cybersecurity assessments of power grid facilities per NERC CIP requirements - When assessing substation automation systems using IEC 61850 GOOSE and MMS protocols - When evaluating the security of an Energy Management System (EMS) or SCADA control center - When assessing synchrophasor (PMU) networks and wide-area monitor
+description: "Ics Sector Power Grid Assess."
 domain: cybersecurity
 ---
-{sev.upper()} ({len(findings)}) ---")
-                for f in findings:
-                    report.append(f"  [{f.finding_id}] {f.title}")
-                    report.append(f"    {f.description[:100]}...")
-                    report.append(f"    NERC CIP: {f.nerc_cip_ref}")
-                    report.append(f"    Remediation: {f.remediation[:80]}...")
 
-        return "\n".join(report)
-
-if __name__ == "__main__":
-    assessment = SubstationAssessment("Substation Alpha - 345kV")
-
-    assessment.assess_iec61850_security({
-        "goose_authentication": False,
-        "mms_authentication": False,
-        "station_bus_segmented": False,
-        "goose_publishers": ["SEL-411L-01", "SEL-411L-02", "SEL-487E-01"],
-        "mms_servers": ["SEL-3530-RTAC", "ABB-REF615-01"],
-    })
-
-    assessment.assess_remote_access({
-        "direct_vendor_access": True,
-    })
-
-    print(assessment.generate_report())
-```
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+|
 | IEC 61850 | International standard for communication networks and systems in substations, using GOOSE for protection signaling and MMS for SCADA data |
 | GOOSE | Generic Object Oriented Substation Event - multicast protocol for fast peer-to-peer protection signaling between IEDs (< 4ms trip time) |
 | MMS | Manufacturing Message Specification - client/server protocol for reading/writing IED data and operating circuit breakers |

@@ -1,9 +1,10 @@
 ---
 name: soc-tools-velociraptor
-description: Velociraptor is an advanced open-source endpoint monitoring, digital forensics, and incident response platform developed by Rapid7. It uses the Velociraptor Query Language (VQL) to create custom artifacts that collect, query, and monitor almost any aspect of an endpoint. Velociraptor enables incident response teams to rapidly collect and examine fo
+description: "-| | T1059 - Command Scripting | Windows.EventLogs."
 domain: cybersecurity
 ---
---------|-------------|
+
+-|
 | T1059 - Command Scripting | Windows.EventLogs.EvtxHunter (4104, 4688) |
 | T1053 - Scheduled Task | Windows.System.TaskScheduler |
 | T1547 - Boot/Logon Autostart | Windows.Persistence.PermanentWMIEvents |

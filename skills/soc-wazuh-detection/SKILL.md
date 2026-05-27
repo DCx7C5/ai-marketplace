@@ -1,8 +1,9 @@
 ---
 name: soc-wazuh-detection
-description: Wazuh is an open-source SIEM and XDR platform for endpoint monitoring, threat detection, and compliance. This skill covers managing agents via the Wazuh REST API, creating custom decoders and rules in XML for organization-specific detections, querying alerts, and testing rule logic using the logtest endpoint.
+description: "JSON report with agent inventory, alert statistics, rule coverage, and logtest validation results."
 domain: cybersecurity
 ---
+
 # Implementing Endpoint Detection with Wazuh
 
 ## Overview

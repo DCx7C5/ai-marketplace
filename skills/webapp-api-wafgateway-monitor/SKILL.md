@@ -1,9 +1,10 @@
 ---
 name: webapp-api-wafgateway-monitor
-description: - When deploying API Gateway endpoints that require protection against common web attacks - When implementing rate limiting and throttling to prevent API abuse and DDoS attacks - When building bot detection and mitigation for API endpoints exposed to the internet - When compliance requires WAF protection for all public-facing API endpoints - When c
+description: "Webapp Api Wafgateway Monitor."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Web ACL | AWS WAF access control list that defines the collection of rules and their actions (allow, block, count) applied to associated resources |
 | Managed Rule Group | Pre-configured set of WAF rules maintained by AWS or third-party vendors for common attack patterns like OWASP Top 10 |
 | Rate-Based Rule | WAF rule that tracks request rates per IP address and blocks traffic exceeding a defined threshold within a 5-minute window |

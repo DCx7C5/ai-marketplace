@@ -1,9 +1,10 @@
 ---
 name: identity-rbac-entitlement
-description: - Quarterly or annual access certification campaigns are required for compliance (SOX, HIPAA, PCI-DSS) - Organization needs automated manager-based access reviews for all direct reports - Targeted entitlement reviews are needed for sensitive applications or high-privilege roles - Separation of Duties (SOD) violations must be identified and remediat
+description: "Identity Rbac Entitlement."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Certification Campaign** | An organized review process where designated certifiers validate whether users should retain their current access entitlements across one or more applications |
 | **Access Review** | Individual review unit within a campaign where a certifier examines and makes approve/revoke decisions on specific user entitlements |
 | **Entitlement** | A specific permission, group membership, role, or access right granted to an identity on a target application |

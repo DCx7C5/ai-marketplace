@@ -1,9 +1,10 @@
 ---
 name: windows-logs-eventlog
-description: Use this skill when: - Configuring Windows Advanced Audit Policy for security monitoring - Enabling process creation auditing with command line logging (Event 4688) - Setting up logon/logoff auditing for authentication monitoring - Sizing event log storage and forwarding to SIEM platforms **Do not use** for Sysmon configuration (separate skill) or 
+description: "--| | **Advanced Audit Policy** | Granular audit subcategories (58 subcategories vs."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Advanced Audit Policy** | Granular audit subcategories (58 subcategories vs. 9 basic categories) |
 | **Event ID 4688** | Process creation event; essential for tracking execution on endpoints |
 | **WEF** | Windows Event Forwarding; centralized log collection without third-party agents |

@@ -1,27 +1,10 @@
 ---
 name: identity-access-rbac
-description: Role mining is the process of analyzing existing user-permission assignments to discover optimal roles for a Role-Based Access Control (RBAC) system. Organizations accumulate excessive permissions over time through job changes, project assignments, and ad-hoc access grants, leading to "role explosion" where thousands of granular roles exist with si
+description: "Identity Access Rbac."
 domain: cybersecurity
 ---
--------|-------------|----------|
-| Bottom-Up | Analyze existing permissions to discover common patterns | Large datasets with organic permission growth |
-| Top-Down | Design roles from business requirements and job descriptions | Greenfield RBAC or organizational restructuring |
-| Hybrid | Combine bottom-up analysis with top-down business validation | Most production environments |
 
-### Role Mining Algorithms
-
-**1. Permission Clustering**: Group users with similar permission sets using k-means or hierarchical clustering. Users in the same cluster share a common role.
-
-**2. Formal Concept Analysis (FCA)**: Mathematical framework that identifies complete set of concepts (user groups sharing exact permission sets) from a binary user-permission matrix.
-
-**3. Graph-Based Mining**: Model users and permissions as a bipartite graph, then find dense subgraphs representing candidate roles.
-
-**4. Boolean Matrix Decomposition**: Decompose the user-permission matrix U into U ≈ R × P where R maps users to roles and P maps roles to permissions.
-
-### Role Mining Metrics
-
-| Metric | Formula | Target |
-|--------|---------|--------|
+--|
 | Role Count | Total distinct roles after mining | Minimize |
 | Coverage | Permissions explained by mined roles / Total permissions | > 95% |
 | Weighted Structural Complexity (WSC) | Sum of role-user + role-permission assignments | Minimize |

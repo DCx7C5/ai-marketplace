@@ -1,26 +1,10 @@
 ---
 name: linux-forensic-mem-injection-sysmon-detect
-description: - When hunting for defense evasion techniques that hide malicious code inside legitimate processes - After EDR alerts for suspicious cross-process memory access or remote thread creation - When investigating malware that injects into svchost.exe, explorer.exe, or other system processes - During purple team exercises testing detection of process inj
+description: "Linux Forensic Mem Injection Sysmon Detect."
 domain: cybersecurity
 ---
-------|-------------|
-| T1055.001 | Dynamic-link Library Injection |
-| T1055.002 | Portable Executable Injection |
-| T1055.003 | Thread Execution Hijacking |
-| T1055.004 | Asynchronous Procedure Call (APC) Injection |
-| T1055.005 | Thread Local Storage |
-| T1055.012 | Process Hollowing |
-| T1055.013 | Process Doppelganging |
-| T1055.015 | ListPlanting |
-| Sysmon Event 8 | CreateRemoteThread detected |
-| Sysmon Event 10 | ProcessAccess with memory write permissions |
-| Sysmon Event 25 | ProcessTampering (image mismatch) |
-| Access Mask 0x1FFFFF | PROCESS_ALL_ACCESS -- full cross-process control |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Sysmon | Primary telemetry source for injection detection |
 | Process Hacker | Manual investigation of process memory regions |
 | PE-sieve | Scan running processes for hollowed/injected code |

@@ -1,7 +1,9 @@
 ---
 name: linux-supply-package-apt-integrity-verify
-description: Verify Debian/Ubuntu package integrity — use debsums to check installed file hashes, validate apt repository GPG signatures, and detect tampered packages.
+description: "subdomain: supply-chain-security tags: - linux - apt - debian - package - integrity - verify nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: supply-chain-security
 tags:
 - linux

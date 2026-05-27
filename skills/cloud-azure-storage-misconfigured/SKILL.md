@@ -1,9 +1,10 @@
 ---
 name: cloud-azure-storage-misconfigured
-description: - When performing a security audit of Azure Storage accounts across subscriptions - When responding to Microsoft Defender for Storage alerts about anonymous access or data exfiltration - When compliance requires verification of encryption, network restrictions, and access logging - When investigating potential data exposure through publicly accessi
+description: "Cloud Azure Storage Misconfigured."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Blob Public Access | Storage account setting that allows anonymous read access to blob containers and their contents without authentication |
 | Shared Access Signature | Time-limited URI with embedded authentication tokens granting delegated access to Azure Storage resources with specific permissions |
 | Network ACL Default Action | Storage firewall setting that determines whether traffic is allowed or denied by default, with exceptions for specified IPs and VNets |

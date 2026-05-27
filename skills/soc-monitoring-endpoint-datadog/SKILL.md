@@ -1,9 +1,10 @@
 ---
 name: soc-monitoring-endpoint-datadog
-description: - Deploying Cloud SIEM to detect real-time threats across cloud infrastructure (AWS, Azure, GCP) - Creating custom detection rules for attacker techniques, credential abuse, or anomalous behavior - Enabling Workload Protection (CSM Threats) to monitor file, process, and network activity on hosts and containers - Meeting compliance requirements (PCI
+description: "Soc Monitoring Endpoint Datadog."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Cloud SIEM** | Datadog's security information and event management service that analyzes ingested logs in real-time to detect threats using detection rules |
 | **Security Signal** | An alert generated when a detection rule matches incoming log data; signals have severity, status (open/triage/closed), and investigation context |
 | **Detection Rule** | A query-based rule that evaluates logs or events against conditions (threshold, anomaly, new value, impossible travel) to generate security signals |

@@ -1,21 +1,10 @@
 ---
 name: soc-triage-playbook-respond
-description: - New security alert received from SIEM, EDR, or other detection sources - SOC analyst needs to determine if an alert is a true positive requiring response - Incident needs severity classification and team assignment - Multiple concurrent incidents require prioritization - Automated triage rules need validation or tuning
+description: "Soc Triage Playbook Respond."
 domain: cybersecurity
 ---
-------|-------------|
-| True Positive | Alert correctly identifying a real security incident |
-| False Positive | Alert incorrectly flagging benign activity as malicious |
-| Severity Classification | Ranking incident priority based on impact and urgency |
-| Playbook Selection | Choosing the appropriate response procedure based on incident type |
-| IOC Enrichment | Adding context to indicators from threat intelligence sources |
-| Escalation Threshold | Criteria triggering escalation to higher severity or management |
-| Triage SLA | Time target for initial assessment (typically 15-30 min for critical) |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Splunk/Elastic/QRadar | SIEM alert correlation and querying |
 | TheHive/SIRP | Incident case management and playbook tracking |
 | VirusTotal/AbuseIPDB | IOC reputation and enrichment |

@@ -1,9 +1,10 @@
 ---
 name: crypto-encryption-e2eencryption-recover
-description: End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version of the Signal Protocol's Double Ratchet algorithm, using X25519 for key exchange, HKDF for key derivation, and AES-256-GCM for message encryption.
+description: "Crypto Encryption E2Eencryption Recover."
 domain: cybersecurity
 ---
---------|---------|-----------|
+
+--|
 | X3DH | Initial key agreement | X25519 |
 | Double Ratchet | Ongoing key management | X25519 + HKDF + AES-GCM |
 | Sending Chain | Per-message encryption keys | HMAC-SHA256 chain |

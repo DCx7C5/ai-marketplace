@@ -1,8 +1,9 @@
 ---
 name: devel-jb-modern-web-guidance
-description: Must use this skill: - At the **start** of implementing any web feature. - Before creating a new component, to check if a standardized pattern already exists. - To avoid implementing ad-hoc solutions or loading large dependencies unnecessarily.
+description: "No defined policy format. This is an example: `**Browser Support:** Allow Newly Available features, but only adopt custom fallback code that adds <= 20 lines and does not require external dependencies."
 domain: cybersecurity
 ---
+
 ### Step 2. Retrieve Best Practices
 
 Once you have a relevant `id` from the search results, call this script using the `retrieve` command to get the full guide. You can pass multiple IDs separated by commas.

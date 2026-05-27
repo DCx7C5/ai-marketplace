@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gws-meet
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "Use `gws schema` output to build your `--params` and `--json` flags."
 domain: cybersecurity
 ---
+
 # meet (v2)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

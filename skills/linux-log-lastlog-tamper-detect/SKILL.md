@@ -1,7 +1,9 @@
 ---
 name: linux-log-lastlog-tamper-detect
-description: Detect lastlog file tampering — identify modifications to /var/log/lastlog that erase attacker last-login timestamps, commonly done after initial compromise.
+description: "subdomain: logging-forensics tags: - linux - lastlog - login - tamper - anti-forensics nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: logging-forensics
 tags:
 - linux

@@ -1,8 +1,9 @@
 ---
 name: devel-jb-antfu-web-design-guidelines
-description: Review files for compliance with Web Interface Guidelines.
+description: "If no files specified, ask the user which files to review."
 domain: cybersecurity
 ---
+
 # Web Interface Guidelines
 
 Review files for compliance with Web Interface Guidelines.

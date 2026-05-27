@@ -1,9 +1,10 @@
 ---
 name: webapp-api-mobile
-description: Use this skill when: - Assessing mobile app backend API authentication during penetration tests - Testing JWT token implementation for common vulnerabilities (none algorithm, weak signing) - Evaluating OAuth 2.0 / OIDC flows in mobile applications for redirect, PKCE, and scope issues - Testing for broken object-level authorization (BOLA/IDOR) in AP
+description: "Webapp Api Mobile."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **BOLA/IDOR** | Broken Object Level Authorization - accessing resources by changing identifiers without server-side authorization checks |
 | **JWT** | JSON Web Token - self-contained authentication token with header, payload, and signature components |
 | **PKCE** | Proof Key for Code Exchange - OAuth 2.0 extension preventing authorization code interception in mobile apps |

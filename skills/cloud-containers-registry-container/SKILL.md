@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-registry-container
-description: - When establishing security controls for container image registries (ECR, ACR, GCR, Docker Hub) - When building CI/CD pipelines that enforce vulnerability scanning before image promotion - When implementing image signing and verification to prevent supply chain attacks - When auditing existing registries for vulnerable, unscanned, or unsigned imag
+description: "Cloud Containers Registry Container."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Container Image Scanning | Automated analysis of container image layers to identify known vulnerabilities in OS packages and application dependencies |
 | Image Signing | Cryptographic attestation that verifies the authenticity and integrity of a container image using Cosign or Notation |
 | SBOM | Software Bill of Materials, a comprehensive inventory of software components, libraries, and dependencies in a container image |

@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-mem-slab-corruption-detect
-description: Detect kernel slab heap corruption — identify heap spray attempts, use-after-free patterns in kernel allocators (SLUB/SLAB/SLOB), and kernel oops artifacts.
+description: "subdomain: kernel-forensics tags: - linux - slab - heap - kernel - corruption nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-forensics
 tags:
 - linux

@@ -1,7 +1,9 @@
 ---
 name: linux-fs-overlayfs-layer-analyze
-description: Analyze OverlayFS layers used by container runtimes — inspect upper/lower/work directories, detect file modifications within containers, and recover deleted container artifacts.
+description: "subdomain: filesystem-forensics tags: - linux - overlayfs - container - filesystem - analyze nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: filesystem-forensics
 tags:
 - linux

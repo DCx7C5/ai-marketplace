@@ -1,9 +1,10 @@
 ---
 name: intel-feeds-threat-hunt
-description: Use this skill when: - Ingesting new commercial or OSINT threat feeds and assessing their signal-to-noise ratio - Normalizing heterogeneous IOC formats (STIX 2.1, OpenIOC, YARA, Sigma) into a unified schema - Evaluating feed freshness, fidelity, and relevance to the organization's threat profile - Building automated enrichment pipelines that correl
+description: "--| | **STIX 2.1** | Structured Threat Information Expression — OASIS standard JSON schema for CTI objects including indicators, threat actors, campaigns, and relationships | | **TAXII 2."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **STIX 2.1** | Structured Threat Information Expression — OASIS standard JSON schema for CTI objects including indicators, threat actors, campaigns, and relationships |
 | **TAXII 2.1** | Trusted Automated eXchange of Intelligence Information — HTTPS-based protocol for sharing STIX content between servers and clients |
 | **IOC** | Indicator of Compromise — observable artifact (IP, domain, hash, URL) that indicates a system may have been breached |

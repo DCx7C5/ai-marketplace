@@ -1,9 +1,10 @@
 ---
 name: linux-log-auditd-detect
-description: - Investigating suspected unauthorized access or privilege escalation on Linux hosts - Hunting for evidence of exploitation, backdoor installation, or persistence mechanisms - Auditing compliance with security baselines (CIS, STIG, PCI-DSS) that require system call monitoring - Reconstructing a timeline of attacker actions during incident response 
+description: "| | **auditd** | The Linux Audit daemon that receives audit events from the kernel and writes them to `/var/log/audit/audit."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **auditd** | The Linux Audit daemon that receives audit events from the kernel and writes them to `/var/log/audit/audit.log` |
 | **auditctl** | Command-line utility to control the audit system: add/remove rules, check status, set backlog size |
 | **ausearch** | Query tool that searches audit logs by message type, user, file, key, time range, or event ID |

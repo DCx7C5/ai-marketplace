@@ -1,9 +1,10 @@
 ---
 name: soc-splunk-detectionrules
-description: Splunk Search Processing Language (SPL) is the primary query language used in Splunk Enterprise Security for building correlation searches that detect suspicious events and patterns. A well-crafted detection rule aggregates, correlates, and enriches security events to generate actionable notable events for SOC analysts. Enterprise SIEMs on average 
+description: "| | T1110.001 | Password Guessing | Threshold on EventCode 4625 by src_ip | | T1059."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | T1110.001 | Password Guessing | Threshold on EventCode 4625 by src_ip |
 | T1059.001 | PowerShell | Pattern match on EventCode 4104 ScriptBlockText |
 | T1021.002 | SMB/Windows Admin Shares | Logon Type 3 with dc(dest) threshold |

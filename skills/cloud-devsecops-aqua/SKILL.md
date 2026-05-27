@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-aqua
-description: Aqua Security provides Trivy, the world's most popular open-source universal security scanner, designed to find vulnerabilities, misconfigurations, secrets, SBOM data, and license issues in containers, Kubernetes, code repositories, and cloud environments. Trivy covers OS packages (Alpine, Debian, Ubuntu, RHEL, etc.) and language-specific dependenc
+description: "Cloud Devsecops Aqua."
 domain: cybersecurity
 ---
------|-------------|--------|
+
+--|
 | Images scanned per day | Total images passing through scanning pipeline | All production images |
 | Critical CVE count | Open critical vulnerabilities across all images | 0 in production |
 | Mean time to patch | Average days from CVE publication to patched image | < 7 days |

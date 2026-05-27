@@ -1,9 +1,10 @@
 ---
 name: ics-ics-plc-firmware
-description: - When assessing PLC security as part of an IEC 62443 component security evaluation (IEC 62443-4-2) - When validating firmware integrity after a suspected compromise or supply chain attack - When evaluating the security of a new PLC platform before deployment in critical infrastructure - When performing vulnerability research on industrial control 
+description: "Ics Ics Plc Firmware."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | PLC Firmware | The embedded software running on a Programmable Logic Controller, including the real-time operating system, protocol stacks, and I/O drivers |
 | Ladder Logic | Graphical programming language for PLCs that represents relay logic circuits, stored as program blocks in PLC memory |
 | Function Block | Reusable PLC programming element that encapsulates logic with defined inputs/outputs, can be analyzed for malicious modifications |

@@ -1,7 +1,9 @@
 ---
 name: linux-proc-elf-section-inject-detect
-description: Detect ELF binary section injection — identify extra sections added to system binaries, unusual section names, and section-based persistence in modified executables.
+description: "subdomain: process-forensics tags: - linux - elf - section - injection - binary nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: process-forensics
 tags:
 - linux

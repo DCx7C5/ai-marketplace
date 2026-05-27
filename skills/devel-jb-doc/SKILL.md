@@ -1,8 +1,9 @@
 ---
 name: devel-jb-doc
-description: - Read or review DOCX content where layout matters (tables, diagrams, pagination). - Create or edit DOCX files with professional formatting. - Validate visual layout before delivery.
+description: "- Confirm there are no leftovers (temp files, duplicate renders) unless the user asks to keep them."
 domain: cybersecurity
 ---
+
 # DOCX Skill
 
 ## When to use

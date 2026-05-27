@@ -1,9 +1,10 @@
 ---
 name: linux-forensic-disk-analysis-disk-forensic
-description: - A security incident requires forensic analysis of a system's persistent storage - Evidence preservation is needed for potential legal proceedings or HR investigations - Deleted files, browser history, or application artifacts must be recovered - A timeline of user or adversary activity must be reconstructed from file system metadata - Malware per
+description: "Linux Forensic Disk Analysis Disk Forensic."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Forensic Image** | Bit-for-bit copy of storage media that preserves all data including deleted files and unallocated space |
 | **Write Blocker** | Hardware or software device that prevents any modification to evidence media during acquisition |
 | **E01 Format** | Expert Witness Format used by EnCase and FTK; supports compression, metadata, and built-in hash verification |

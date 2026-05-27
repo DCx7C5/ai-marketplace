@@ -1,8 +1,9 @@
 ---
 name: webapp-api-soap-bypass
-description: SOAP (Simple Object Access Protocol) web services remain widely deployed in enterprise environments, financial systems, healthcare, and government integrations. Security testing of SOAP services involves analyzing WSDL (Web Services Description Language) definitions to understand available methods, testing for XML-based injection attacks (XXE, XPat
+description: "- SoapUI Web Service Hacking: https://www.soapui.org/docs/soap-and-wsdl/tips-and-tricks/web-service-hacking/ - PortSwigger XXE Tutorial: https://portswigger."
 domain: cybersecurity
 ---
+
 # Performing SOAP Web Service Security Testing
 
 ## Overview

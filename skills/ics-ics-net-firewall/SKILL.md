@@ -1,9 +1,10 @@
 ---
 name: ics-ics-net-firewall
-description: - When deploying zone-level firewall protection directly in front of critical PLCs or RTUs - When requiring deep packet inspection of industrial protocols (Modbus, EtherNet/IP, OPC, S7comm) - When implementing IEC 62443 zone and conduit boundaries with protocol-aware enforcement - When protecting legacy PLCs that cannot be patched and need compensa
+description: "Ics Ics Net Firewall."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Tofino Xenon | Belden/Hirschmann industrial firewall appliance with deep packet inspection for OT protocols |
 | Deep Packet Inspection (DPI) | Examining message payload content beyond headers to enforce fine-grained rules on industrial protocol operations |
 | Inline Bridge Mode | Transparent deployment mode where the firewall sits between network segments without requiring IP changes |

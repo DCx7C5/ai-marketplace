@@ -1,9 +1,10 @@
 ---
 name: intel-analysis-actorprofile
-description: Use this skill when: - Updating the organization's threat model with profiles of adversary groups recently observed targeting your sector - Preparing an executive briefing on APT groups that align with geopolitical events affecting your business - Enabling SOC analysts to understand attacker objectives and TTPs to improve detection tuning **Do not 
+description: "Intel Analysis Actorprofile."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **APT** | Advanced Persistent Threat — well-resourced, sophisticated adversary (typically nation-state or sophisticated criminal) conducting long-term targeted operations |
 | **TTPs** | Tactics, Techniques, Procedures — behavioral fingerprint of an adversary group, more durable than IOCs which change frequently |
 | **Aliases** | Threat actors receive different names from different vendors (APT29 = Cozy Bear = The Dukes = Midnight Blizzard = YTTRIUM) |

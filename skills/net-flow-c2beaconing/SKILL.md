@@ -1,26 +1,10 @@
 ---
 name: net-flow-c2beaconing
-description: - When proactively hunting for compromised systems in the network - After threat intel indicates C2 frameworks targeting your industry - When investigating periodic outbound connections to suspicious domains - During incident response to identify active C2 channels - When DNS query logs show unusual patterns to specific domains
+description: "Net Flow C2Beaconing."
 domain: cybersecurity
 ---
-------|-------------|
-| T1071 | Application Layer Protocol (HTTP/HTTPS/DNS C2) |
-| T1071.001 | Web Protocols (HTTP/S beaconing) |
-| T1071.004 | DNS (DNS tunneling C2) |
-| T1573 | Encrypted Channel |
-| T1572 | Protocol Tunneling |
-| T1568 | Dynamic Resolution (DGA, fast-flux) |
-| T1132 | Data Encoding in C2 |
-| T1095 | Non-Application Layer Protocol |
-| Beacon Interval | Time between C2 check-ins |
-| Jitter | Random variation in beacon interval |
-| DGA | Domain Generation Algorithm |
-| Fast-Flux | Rapidly changing DNS resolution |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | RITA (Real Intelligence Threat Analytics) | Automated beacon detection in Zeek logs |
 | Splunk | Statistical beacon analysis with SPL |
 | Elastic Security | ML-based anomaly detection for beaconing |

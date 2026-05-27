@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-scanning
-description: - Setting up automated security scanning in a new or existing CI/CD pipeline - Shifting security left by catching vulnerabilities before code reaches production - Meeting compliance requirements (SOC 2, PCI-DSS, ISO 27001) that mandate automated security testing - Integrating SAST, DAST, and SCA together to achieve comprehensive application securit
+description: "Cloud Devsecops Scanning."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **SAST (Static Application Security Testing)** | Analyzes source code without executing it to find security vulnerabilities; runs fast, catches issues early, but cannot find runtime flaws |
 | **DAST (Dynamic Application Security Testing)** | Tests a running application by sending requests and analyzing responses; finds runtime issues but requires a deployed environment |
 | **SCA (Software Composition Analysis)** | Scans project dependencies against vulnerability databases (NVD, GitHub Advisory) to find known-vulnerable libraries |

@@ -1,9 +1,10 @@
 ---
 name: identity-pam-accessreview
-description: Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based prioritization, micro-certification strategies, and remediation tracking for compliance with SOX, HIPAA, and PCI DSS requirements.
+description: "Identity Pam Accessreview."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Access Review | AC-2(3) | Periodic review of account privileges |
 | Account Management | AC-2 | Account lifecycle management |
 | Least Privilege | AC-6 | Minimum necessary access enforcement |

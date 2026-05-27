@@ -1,9 +1,10 @@
 ---
 name: compliance-soc2-auditprep
-description: - When preparing for a SOC 2 Type II audit engagement with a CPA firm - When conducting a gap assessment against AICPA Trust Services Criteria - When automating evidence collection across cloud infrastructure and identity providers - When validating that controls have operated effectively over the audit period (3-12 months) - When building continuo
+description: "Compliance Soc2 Auditprep."
 domain: cybersecurity
 ---
--------|----------|-------|
+
+-|
 | Security (mandatory) | CC1-CC9 | Control environment, risk, access, operations, change management |
 | Availability | A1 | System uptime and disaster recovery |
 | Processing Integrity | PI1 | Accurate and complete data processing |

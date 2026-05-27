@@ -1,22 +1,10 @@
 ---
 name: soc-hunting-dll
-description: - When investigating potential DLL hijacking in enterprise environments - After EDR alerts on unsigned DLLs loaded by signed applications - When hunting for APT persistence using legitimate application wrappers - During incident response to identify trojanized applications - When threat intel indicates DLL sideloading campaigns targeting specific s
+description: "Soc Hunting Dll."
 domain: cybersecurity
 ---
-------|-------------|
-| T1574.002 | DLL Side-Loading |
-| T1574.001 | DLL Search Order Hijacking |
-| T1574.006 | Dynamic Linker Hijacking |
-| T1574.008 | Path Interception by Search Order Hijacking |
-| DLL Search Order | Windows DLL loading priority path |
-| Side-Loading | Placing malicious DLL where legitimate app loads it |
-| Phantom DLL | DLL that legitimate apps try to load but does not exist |
-| DLL Proxying | Malicious DLL forwarding calls to legitimate DLL |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Sysmon | Event ID 7 DLL load monitoring |
 | CrowdStrike Falcon | DLL load detection with process context |
 | Microsoft Defender for Endpoint | DLL load anomaly detection |

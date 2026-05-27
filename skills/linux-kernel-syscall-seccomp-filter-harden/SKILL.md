@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-syscall-seccomp-filter-harden
-description: Apply and audit seccomp-BPF filters to restrict syscall surface — create minimal syscall allowlists, verify filter inheritance, and test filter effectiveness.
+description: "subdomain: kernel-hardening tags: - linux - seccomp - syscall - sandbox - harden nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: kernel-hardening
 tags:
 - linux

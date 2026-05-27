@@ -1,9 +1,10 @@
 ---
 name: soc-tools-qradar
-description: Use this skill when: - SOC analysts need to investigate QRadar offenses and correlate events across multiple log sources - Detection engineers build custom correlation rules to identify multi-stage attacks - Alert tuning is required to reduce false positive offenses and improve signal quality - The team migrates from basic event monitoring to behav
+description: "Soc Tools Qradar."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **AQL** | Ariel Query Language — QRadar's SQL-like query language for searching events, flows, and offenses |
 | **Offense** | QRadar's correlated incident grouping multiple events/flows under a single investigation unit |
 | **Building Block** | Reusable rule component that categorizes events without generating offenses, used as input to correlation rules |

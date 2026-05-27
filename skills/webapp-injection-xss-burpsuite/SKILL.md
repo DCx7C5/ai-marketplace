@@ -1,22 +1,10 @@
 ---
 name: webapp-injection-xss-burpsuite
-description: - During authorized web application penetration testing to find reflected, stored, and DOM-based XSS - When validating XSS findings reported by automated vulnerability scanners - For testing the effectiveness of Content Security Policy (CSP) and XSS filters - When assessing client-side security of single-page applications (SPAs) - During bug bounty
+description: "Webapp Injection Xss Burpsuite."
 domain: cybersecurity
 ---
-------|-------------|
-| **Reflected XSS** | Payload is included in the server response immediately from the current HTTP request |
-| **Stored XSS** | Payload is persisted on the server (database, file) and served to other users |
-| **DOM-based XSS** | Payload is processed entirely client-side by JavaScript without server reflection |
-| **XSS Sink** | A JavaScript function or DOM property that executes or renders untrusted input |
-| **XSS Source** | A location where attacker-controlled data enters the client-side application |
-| **CSP** | Content Security Policy header that restricts which scripts can execute on a page |
-| **Context-aware encoding** | Applying the correct encoding (HTML, JS, URL, CSS) based on output context |
-| **Mutation XSS (mXSS)** | XSS that exploits browser HTML parser inconsistencies during DOM serialization |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | **Burp Suite Professional** | Primary testing platform with scanner, intruder, repeater, and DOM Invader |
 | **DOM Invader** | Burp's built-in browser extension for DOM XSS testing |
 | **Hackvertor** | Burp BApp for advanced payload encoding and transformation |

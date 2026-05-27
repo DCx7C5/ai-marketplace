@@ -1,78 +1,10 @@
 ---
 name: soc-triage-security
-description: - A SIEM or EDR alert fires and requires human classification before escalation - Multiple concurrent alerts arrive and the SOC must prioritize response order - An end user reports suspicious activity and the incident needs initial categorization - A threat intelligence feed matches an IOC observed in the environment **Do not use** for routine vuln
+description: "Soc Triage Security."
 domain: cybersecurity
 ---
--------|----------|
-| Unauthorized Access | Compromised credentials, privilege escalation, IDOR |
-| Denial of Service | Volumetric DDoS, application-layer flood, resource exhaustion |
-| Malicious Code | Malware execution, ransomware detonation, cryptominer |
-| Improper Usage | Policy violation, insider data exfiltration, shadow IT |
-| Reconnaissance | Port scanning, directory enumeration, credential spraying |
-| Web Application Attack | SQL injection, XSS, SSRF exploitation |
 
-### Step 3: Assign Severity Using Impact Matrix
-
-Calculate severity by combining asset criticality with threat severity:
-
-```
-Severity = f(Asset Criticality, Threat Type, Data Sensitivity, Lateral Movement Potential)
-
-Critical (P1): Crown jewel systems compromised, active data exfiltration, ransomware spreading
-High (P2):     Production system compromise, confirmed malware execution, privileged account takeover
-Medium (P3):   Non-production compromise, unsuccessful exploitation attempt, single endpoint malware
-Low (P4):      Reconnaissance activity, policy violation, benign true positive
-```
-
-Response SLA targets:
-- P1: Acknowledge within 15 minutes, containment within 1 hour
-- P2: Acknowledge within 30 minutes, containment within 4 hours
-- P3: Acknowledge within 2 hours, investigation within 24 hours
-- P4: Acknowledge within 8 hours, investigation within 72 hours
-
-### Step 4: Perform Initial Enrichment
-
-Before escalation, enrich the alert with contextual data:
-
-- **Threat intelligence**: Check IOCs (IP, hash, domain) against TI platforms (VirusTotal, OTX, MISP)
-- **Asset context**: Query CMDB for asset owner, business function, data classification
-- **User context**: Check identity provider for recent authentication anomalies, MFA status
-- **Historical correlation**: Search for related alerts on the same host/user in the past 30 days
-- **Network context**: Verify if source/destination IPs are internal, known partners, or external threat actors
-
-### Step 5: Document and Escalate
-
-Create a structured triage record and route to the appropriate response tier:
-
-```
-Incident Triage Record
-━━━━━━━━━━━━━━━━━━━━━
-Ticket ID:       INC-2025-1547
-Triage Analyst:  [analyst name]
-Triage Time:     2025-11-15T14:35:00Z (12 min from alert)
-Classification:  Malicious Code - Macro-based initial access
-Severity:        P2 - High
-Affected Assets: WORKSTATION-FIN-042 (Finance dept, handles PII)
-Affected Users:  jsmith@corp.example.com
-IOCs Identified: powershell.exe spawned by outlook.exe, encoded command
-TI Matches:      Base64 payload matches known Qakbot loader pattern
-Escalation:      Tier 2 - Malware IR team
-Recommended:     Isolate endpoint, preserve memory dump, block sender domain
-```
-
-### Step 6: Initiate Containment Hold
-
-If severity is P1 or P2, initiate immediate containment actions while awaiting full investigation:
-
-- Network-isolate the affected endpoint via EDR (CrowdStrike contain, Defender isolate)
-- Disable compromised user accounts in Active Directory or identity provider
-- Block identified malicious IPs/domains at firewall and DNS sinkhole
-- Preserve volatile evidence (memory dump) before any remediation
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+|
 | **Triage** | Rapid assessment process to classify and prioritize security incidents based on severity and business impact |
 | **PICERL** | SANS incident response framework: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned |
 | **Dwell Time** | Duration between initial compromise and detection; average is 10 days per Mandiant M-Trends 2025 |

@@ -1,19 +1,9 @@
 ---
 name: crypto-transparency-certificates-verify
-description: Certificate Transparency (CT) is an Internet security standard that creates a public, append-only log of all issued SSL/TLS certificates. Monitoring CT logs enables early detection of phishing domains that register certificates mimicking legitimate brands, unauthorized certificate issuance for owned domains, and certificate-based attack infrastruct
+description: "-|"
 domain: cybersecurity
 ---
----------|--------|-------|-------------|
-"""
-    for cert in suspicious_certs[:20]:
-        flags = "; ".join(cert.get("flags", []))
-        report += (f"| {cert['common_name']} | {cert['issuer'][:30]} "
-                   f"| {flags} | [View]({cert['crt_sh_url']}) |\n")
-
-    report += f"""
-## Real-Time Certstream Alerts
-| Domain | Issuer | Reason | Detected |
-|--------|--------|--------|----------|
+-|
 """
     for alert in certstream_alerts[:20]:
         report += (f"| {alert['domain']} | {alert['issuer']} "

@@ -1,25 +1,10 @@
 ---
 name: linux-forensic-mem-injection-process-detect
-description: - When investigating suspected fileless malware or in-memory threats - After EDR alerts on process injection or suspicious memory operations - When hunting for defense evasion techniques in a compromised environment - When threat intel reports indicate process hollowing in active campaigns - During purple team exercises validating T1055.012 detecti
+description: "Linux Forensic Mem Injection Process Detect."
 domain: cybersecurity
 ---
-------|-------------|
-| T1055.012 | Process Injection: Process Hollowing |
-| T1055 | Process Injection (parent technique) |
-| T1055.001 | DLL Injection |
-| T1055.003 | Thread Execution Hijacking |
-| T1055.004 | Asynchronous Procedure Call |
-| CREATE_SUSPENDED | Windows flag to create a process in suspended state |
-| NtUnmapViewOfSection | API to unmap process memory sections |
-| WriteProcessMemory | API to write into another process's memory |
-| ResumeThread | API to resume a suspended thread |
-| Image Mismatch | Process memory content differs from on-disk binary |
-| Process Doppelganging | Related technique using NTFS transactions (T1055.013) |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | Memory protection and hollowing detection |
 | Microsoft Defender for Endpoint | ProcessTampering alerts |
 | Sysmon v13+ | Event ID 25 ProcessTampering detection |

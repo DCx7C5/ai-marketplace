@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-sast
-description: - When development teams need automated code-level vulnerability detection on every pull request - When security teams require consistent SAST enforcement across all repositories in an organization - When migrating from manual or periodic security reviews to continuous security testing - When compliance frameworks (SOC 2, PCI DSS, NIST SSDF) requir
+description: "Cloud Devsecops Sast."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | SAST | Static Application Security Testing — analyzes source code without executing it to find security vulnerabilities |
 | SARIF | Static Analysis Results Interchange Format — standardized JSON format for expressing results from static analysis tools |
 | CodeQL | GitHub's semantic code analysis engine that treats code as data and queries it for vulnerability patterns |

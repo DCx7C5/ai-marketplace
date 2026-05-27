@@ -1,8 +1,9 @@
 ---
 name: offensive-idor
-description: ```mermaid
+description: "- **Cache Partitioning**: Partition CDN caches by auth headers; avoid cacheable 200/304 for private resources."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Insecure Direct Object References (IDOR)

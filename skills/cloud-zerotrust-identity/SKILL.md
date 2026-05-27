@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-identity
-description: - When protecting Google Cloud applications (App Engine, Cloud Run, GKE, Compute Engine) with identity-based access - When implementing context-aware access requiring device posture and location verification - When providing secure access to internal tools without VPN or public IP exposure - When needing per-request authentication and authorization
+description: "Cloud Zerotrust Identity."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Identity-Aware Proxy | GCP service that intercepts web requests and TCP connections, authenticating users and evaluating access policies before proxying to backend services |
 | Backend Service | GCP load balancer component that IAP protects; can serve Compute Engine instances, GKE pods, Cloud Run services, or App Engine |
 | IAP Tunnel | Secure TCP tunnel through IAP allowing SSH, RDP, and other TCP access to VMs without public IPs or VPN |

@@ -1,6 +1,6 @@
 ---
 name: vuln-binary
-description: - Analyzing ELF binaries during authorized penetration tests to identify memory corruption vulnerabilities - Solving binary exploitation challenges in CTF competitions - Evaluating the effectiveness of compiler mitigations (NX, ASLR, stack canaries, PIE, RELRO) on target binaries - Developing proof-of-concept exploits for vulnerability reports to d
+description: "```bash"
 domain: cybersecurity
 ---
 ## CyberSecSuite Integration

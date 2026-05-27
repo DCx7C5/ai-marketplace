@@ -1,7 +1,9 @@
 ---
 name: linux-svc-systemd-unit-persist-detect
-description: Detect systemd service and unit file persistence — scan all unit directories for unauthorized services, check WantedBy/RequiredBy dependencies, and identify post-exploit persistence.
+description: "subdomain: persistence-detection tags: - linux - systemd - service - persistence - detect nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: persistence-detection
 tags:
 - linux

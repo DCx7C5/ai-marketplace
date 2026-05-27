@@ -1,9 +1,10 @@
 ---
 name: linux-hw-firmware-bootkit-detect
-description: - A system shows signs of compromise that persist through OS reinstallation - Antivirus and EDR are unable to detect malware despite clear evidence of compromise - UEFI Secure Boot has been disabled or shows integrity violations - Memory forensics reveals rootkit behavior (hidden processes, hooked system calls) - Investigating nation-state level th
+description: "Linux Hw Firmware Bootkit Detect."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Bootkit** | Malware that infects the boot process (MBR, VBR, UEFI) to execute before the operating system loads, gaining persistent low-level control |
 | **MBR (Master Boot Record)** | First 512 bytes of a disk containing bootstrap code and partition table; MBR bootkits replace this code with malicious loaders |
 | **UEFI (Unified Extensible Firmware Interface)** | Modern firmware interface replacing BIOS; UEFI bootkits implant malicious modules in firmware volumes or modify the ESP |

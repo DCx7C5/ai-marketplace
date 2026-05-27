@@ -1,8 +1,9 @@
 ---
 name: cloud-zerotrust-browserisolation
-description: - When deploying remote browser isolation as part of a Zero Trust security architecture - When protecting users from zero-day browser exploits and drive-by downloads - When implementing content disarming and reconstruction for file downloads - When enforcing data loss prevention policies for web browsing sessions - When securing access to untrusted
+description: "engine = BrowserIsolationPolicyEngine()  report = engine."
 domain: cybersecurity
 ---
+
 # Implementing Browser Isolation for Zero Trust
 
 ## When to Use

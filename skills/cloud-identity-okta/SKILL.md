@@ -1,9 +1,10 @@
 ---
 name: cloud-identity-okta
-description: - When centralizing authentication across AWS, Azure, and GCP console access through a single identity provider - When implementing phishing-resistant MFA to replace SMS or TOTP-based authentication - When automating user provisioning and deprovisioning across cloud platforms and SaaS applications - When enforcing adaptive access policies based on 
+description: "Cloud Identity Okta."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Okta FastPass | Phishing-resistant passwordless MFA that cryptographically binds authentication to the device and origin, preventing real-time phishing attacks |
 | SCIM Provisioning | System for Cross-domain Identity Management protocol that automates user creation, update, and deletion across cloud applications |
 | Universal Directory | Okta's cloud-based identity store that aggregates user profiles from multiple sources including AD, LDAP, and HR systems |

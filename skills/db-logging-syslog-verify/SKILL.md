@@ -1,6 +1,6 @@
 ---
 name: db-logging-syslog-verify
-description: - When deploying or configuring implementing syslog centralization with rsyslog capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "- When deploying or configuring implementing syslog centralization with rsyslog capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation"
 domain: cybersecurity
 ---
 # Implementing Syslog Centralization with Rsyslog

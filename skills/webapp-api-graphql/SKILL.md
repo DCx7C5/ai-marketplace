@@ -1,8 +1,9 @@
 ---
 name: webapp-api-graphql
-description: GraphQL depth limit attacks exploit the recursive nature of GraphQL schemas to craft deeply nested queries that consume excessive server resources, leading to denial of service. Unlike REST APIs with fixed endpoints, GraphQL allows clients to request arbitrary data structures. When schemas contain circular relationships (e.g., User -> Posts -> Auth
+description: "- PortSwigger GraphQL Vulnerabilities: https://portswigger."
 domain: cybersecurity
 ---
+
 # Performing GraphQL Depth Limit Attack
 
 ## Overview

@@ -1,22 +1,10 @@
 ---
 name: identity-ad-dcsyncd
-description: - When hunting for credential theft in Active Directory environments - After compromise of accounts with Replicating Directory Changes permissions - When investigating suspected use of Mimikatz or Impacket secretsdump - During incident response involving lateral movement with domain admin credentials - When auditing AD replication permissions as pa
+description: "| | Mimikatz (lsadump::dcsync) | Primary DCSync attack tool | | Impacket secretsdump."
 domain: cybersecurity
 ---
-------|-------------|
-| T1003.006 | OS Credential Dumping: DCSync |
-| DCSync | Mimicking domain controller replication to extract credentials |
-| DsGetNCChanges | RPC function used to request AD replication data |
-| DS-Replication-Get-Changes | AD permission required (GUID: 1131f6aa-...) |
-| DS-Replication-Get-Changes-All | Permission including confidential attributes (GUID: 1131f6ad-...) |
-| MS-DRSR | Microsoft Directory Replication Service Remote Protocol |
-| KRBTGT Hash | Key target of DCSync enabling Golden Ticket attacks |
-| Event ID 4662 | Directory service object access audit event |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Mimikatz (lsadump::dcsync) | Primary DCSync attack tool |
 | Impacket secretsdump.py | Python-based DCSync implementation |
 | DSInternals | PowerShell module for AD replication |

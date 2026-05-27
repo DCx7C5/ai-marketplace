@@ -1,9 +1,10 @@
 ---
 name: net-tools-metasploit
-description: - Testing Windows systems for critical SMB vulnerabilities (EternalBlue, EternalRomance, PrintNightmare) during authorized penetration tests - Demonstrating lateral movement risks via SMB relay, pass-the-hash, and credential spraying - Validating that patch management processes have addressed known SMB vulnerabilities - Assessing SMB signing enforc
+description: "Net Tools Metasploit."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **EternalBlue (MS17-010)** | Critical SMB vulnerability in SMBv1 allowing remote code execution as SYSTEM without authentication, originally developed by the NSA and leaked by Shadow Brokers |
 | **SMB Signing** | Cryptographic signing of SMB packets to prevent tampering and relay attacks; when disabled, attackers can relay NTLM authentication to other SMB hosts |
 | **Pass-the-Hash** | Authentication technique using captured NTLM password hashes directly instead of plaintext passwords, bypassing the need to crack the hash |

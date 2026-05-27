@@ -1,6 +1,6 @@
 ---
 name: identity-insider-threat-hunt
-description: - When investigating security incidents that require detecting insider data exfiltration via dlp - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+description: "- When investigating security incidents that require detecting insider data exfiltration via dlp - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques"
 domain: cybersecurity
 ---
 # Detecting Insider Data Exfiltration via DLP

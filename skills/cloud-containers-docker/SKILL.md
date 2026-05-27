@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-docker
-description: Hardening Docker containers for production involves applying security best practices aligned with CIS Docker Benchmark v1.8.0 to minimize attack surface, prevent privilege escalation, and enforce least-privilege principles across Docker daemon, images, containers, and runtime configurations.
+description: "-| | Non-root user | USER instruction in Dockerfile | 4."
 domain: cybersecurity
 ---
-------|---------------|-------------|
+
+-|
 | Non-root user | USER instruction in Dockerfile | 4.1 |
 | Read-only rootfs | --read-only flag | 5.12 |
 | Drop capabilities | --cap-drop ALL | 5.3 |

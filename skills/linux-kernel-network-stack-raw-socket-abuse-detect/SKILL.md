@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-network-stack-raw-socket-abuse-detect
-description: Detect raw socket abuse by unprivileged processes — identify CAP_NET_RAW abuse, packet sniffing without legitimate tools, and packet injection via raw sockets.
+description: "subdomain: network-security tags: - linux - raw-socket - cap-net-raw - sniff - abuse nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: network-security
 tags:
 - linux

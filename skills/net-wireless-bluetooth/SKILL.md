@@ -1,9 +1,10 @@
 ---
 name: net-wireless-bluetooth
-description: Use this skill when: - Performing authorized BLE security assessments of IoT devices, medical devices, or smart locks - Monitoring a wireless environment for BLE-based replay attacks, spoofing, or unauthorized enumeration - Analyzing BLE packet captures to detect Man-in-the-Middle attacks or pairing exploitation - Enumerating GATT services and char
+description: "--| | **BLE (Bluetooth Low Energy)** | Low-power wireless protocol (Bluetooth 4."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **BLE (Bluetooth Low Energy)** | Low-power wireless protocol (Bluetooth 4.0+) optimized for IoT devices, operating on 2.4 GHz with 40 channels (3 advertising, 37 data) |
 | **GATT (Generic Attribute Profile)** | BLE data model organizing device capabilities into services, characteristics, and descriptors; the primary interface for reading/writing BLE device data |
 | **Ubertooth One** | Open-source 2.4 GHz wireless development platform capable of passive BLE and Bluetooth Classic sniffing across all BLE channels |

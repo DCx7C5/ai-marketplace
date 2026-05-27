@@ -1,7 +1,9 @@
 ---
 name: linux-log-auditd-bypass-detect
-description: Detect auditd bypass and evasion techniques — identify LD_PRELOAD hooking of audit libraries, auditd process termination, rule flooding, and buffer overflow evasion.
+description: "subdomain: logging-security tags: - linux - auditd - bypass - evasion - detect nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: logging-security
 tags:
 - linux

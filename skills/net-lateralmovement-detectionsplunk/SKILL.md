@@ -1,27 +1,10 @@
 ---
 name: net-lateralmovement-detectionsplunk
-description: - When hunting for adversary movement between compromised systems - After detecting credential theft to trace subsequent lateral activity - When investigating unusual authentication patterns across the network - During incident response to scope the breadth of compromise - When proactively hunting for TA0008 (Lateral Movement) techniques
+description: "Net Lateralmovement Detectionsplunk."
 domain: cybersecurity
 ---
-------|-------------|
-| T1021 | Remote Services (parent technique) |
-| T1021.001 | Remote Desktop Protocol (RDP) |
-| T1021.002 | SMB/Windows Admin Shares |
-| T1021.003 | Distributed COM (DCOM) |
-| T1021.004 | SSH |
-| T1021.006 | Windows Remote Management (WinRM) |
-| T1570 | Lateral Tool Transfer |
-| T1047 | Windows Management Instrumentation |
-| T1569.002 | Service Execution (PsExec) |
-| Logon Type 3 | Network logon (SMB, WinRM, mapped drives) |
-| Logon Type 10 | Remote Interactive (RDP) |
-| Event ID 4624 | Successful logon |
-| Event ID 4648 | Explicit credential logon (runas, PsExec) |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Splunk Enterprise | SIEM for log aggregation and SPL queries |
 | Splunk Enterprise Security | Threat detection and notable events |
 | Windows Event Forwarding | Centralize Windows logs |

@@ -1,9 +1,10 @@
 ---
 name: email-phishing-proofpoint
-description: Proofpoint Email Protection is a cloud-native secure email gateway (SEG) that acts as a security checkpoint where all inbound and outbound mail traffic routes through the gateway before reaching user inboxes. It combines signature-based detection for known malware, machine learning algorithms for emerging threats, real-time threat intelligence feed
+description: "Email Phishing Proofpoint."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | Connection | IP reputation, rate limiting | Spam botnets |
 | Authentication | SPF, DKIM, DMARC enforcement | Spoofing |
 | Content | ML classifiers, NLP analysis | BEC, phishing |

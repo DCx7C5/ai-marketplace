@@ -1,17 +1,10 @@
 ---
 name: soc-hunting-living
-description: - When proactively hunting for indicators of hunting for living off the cloud techniques in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assess
+description: "Soc Hunting Living."
 domain: cybersecurity
 ---
-------|-------------|
-| T1102 | Web Service |
-| T1567 | Exfiltration Over Web Service |
-| T1537 | Transfer Data to Cloud Account |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

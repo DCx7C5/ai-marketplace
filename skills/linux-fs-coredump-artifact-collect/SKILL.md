@@ -1,7 +1,9 @@
 ---
 name: linux-fs-coredump-artifact-collect
-description: Collect and analyze core dump artifacts — configure core dump destinations, extract credentials and sensitive data from process core dumps, detect malicious core dump triggers.
+description: "subdomain: filesystem-forensics tags: - linux - coredump - core-dump - artifact - forensics nist_csf: - RS."
 domain: cybersecurity
+---
+
 subdomain: filesystem-forensics
 tags:
 - linux

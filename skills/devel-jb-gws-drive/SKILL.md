@@ -1,9 +1,10 @@
 ---
 name: devel-jb-gws-drive
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "-| | [`+upload`](../gws-drive-upload/SKILL.md) | Upload a file with automatic metadata |  ## API Resources  ### about    - `get` — Gets information about the user, the user's Drive, and system capabilities."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | [`+upload`](../gws-drive-upload/SKILL.md) | Upload a file with automatic metadata |
 
 ## API Resources

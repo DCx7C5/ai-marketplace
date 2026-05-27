@@ -1,9 +1,10 @@
 ---
 name: linux-log-linuxlogforen-detect
-description: Linux systems maintain extensive logs that serve as primary evidence sources in forensic investigations. Unlike Windows Event Logs, Linux logs are typically plain-text files stored in /var/log/ and binary journal files managed by systemd-journald. Key forensic logs include auth.log (authentication events, sudo usage, SSH sessions), syslog (system-w
+description: "-| | auth.log / secure | /var/log/auth.log (Debian) or /var/log/secure (RHEL) | Authentication, sudo, SSH, PAM | | syslog / messages | /var/log/syslog (Debian) or /var/log/messages (RHEL) | General system messages | | kern."
 domain: cybersecurity
 ---
--------|------|----------|
+
+-|
 | auth.log / secure | /var/log/auth.log (Debian) or /var/log/secure (RHEL) | Authentication, sudo, SSH, PAM |
 | syslog / messages | /var/log/syslog (Debian) or /var/log/messages (RHEL) | General system messages |
 | kern.log | /var/log/kern.log | Kernel messages, USB events, driver loads |

@@ -1,9 +1,10 @@
 ---
 name: webapp-api-42crunch
-description: 42Crunch is an API security platform that combines Shift-Left security testing with Shield-Right runtime protection. It provides API Audit for static security analysis of OpenAPI definitions, API Conformance Scan for dynamic vulnerability detection, and API Protect for real-time threat prevention. The platform integrates into CI/CD pipelines and ID
+description: "Webapp Api 42Crunch."
 domain: cybersecurity
 ---
-------|----------|-----|
+
+--|
 | No authentication defined | Critical | Add securitySchemes and security requirements |
 | Missing input validation | High | Add type, format, pattern, maxLength constraints |
 | Server URL uses HTTP | High | Change server URLs to HTTPS |

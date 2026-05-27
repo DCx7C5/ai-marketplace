@@ -1,8 +1,9 @@
 ---
 name: intel-mitre-attack
-description: Cyber threat intelligence (CTI) reports from vendors like Mandiant, CrowdStrike, Talos, and Microsoft contain detailed descriptions of adversary behaviors that can be extracted, normalized, and cataloged into a structured attack pattern library. This skill covers parsing CTI reports to extract adversary techniques, mapping behaviors to MITRE ATT&CK
+description: "- [Sigma Rules Project](https://github.com/SigmaHQ/sigma) - [MITRE ATT&CK STIX Data](https://github."
 domain: cybersecurity
 ---
+
 # Building Attack Pattern Library from CTI Reports
 
 ## Overview

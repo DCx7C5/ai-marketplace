@@ -1,9 +1,10 @@
 ---
 name: net-layer3-bgp-security
-description: Resource Public Key Infrastructure (RPKI) provides cryptographic validation of BGP route origins to prevent route hijacking and accidental route leaks. RPKI enables network operators to create Route Origin Authorizations (ROAs) that declare which Autonomous Systems (ASes) are authorized to originate specific IP prefixes. BGP routers validate receiv
+description: "Net Layer3 Bgp Security."
 domain: cybersecurity
 ---
-----|---------|-------------------|
+
+-|
 | **Valid** | ROA exists, origin AS and prefix match | Accept route (prefer) |
 | **Invalid** | ROA exists, but origin AS or prefix length mismatch | Reject route |
 | **NotFound** | No ROA covers this prefix | Accept (but lower preference) |

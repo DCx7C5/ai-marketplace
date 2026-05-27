@@ -1,9 +1,10 @@
 ---
 name: webapp-api-excessive
-description: - Testing APIs where the frontend displays a subset of data but the API response includes additional fields - Assessing mobile application APIs where responses are designed for multiple client types and may contain excess data - Identifying PII leakage in API responses that include email addresses, phone numbers, SSNs, or payment data not shown in 
+description: "Webapp Api Excessive."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Excessive Data Exposure** | API returns more data fields than the client needs, relying on frontend filtering to hide sensitive information from users |
 | **Over-Fetching** | Requesting or receiving more data than needed for a specific operation, common in REST APIs that return fixed response schemas |
 | **Response Filtering** | Client-side filtering of API response data to display only relevant fields, which provides zero security since the full response is interceptable |

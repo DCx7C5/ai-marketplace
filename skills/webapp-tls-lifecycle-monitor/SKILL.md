@@ -1,9 +1,10 @@
 ---
 name: webapp-tls-lifecycle-monitor
-description: SSL/TLS certificate lifecycle management encompasses the full process of requesting, issuing, deploying, monitoring, renewing, and revoking X.509 certificates. Poor certificate management is a leading cause of outages and security incidents. This skill covers automating the entire certificate lifecycle using Python and ACME protocol tools.
+description: "-| | DV (Domain Validation) | Domain ownership | Websites, APIs | | OV (Organization Validation) | Domain + org identity | Business sites | | EV (Extended Validation) | Full legal verification | E-commerce, banking | | Wildcard | *."
 domain: cybersecurity
 ---
----|-----------|----------|
+
+-|
 | DV (Domain Validation) | Domain ownership | Websites, APIs |
 | OV (Organization Validation) | Domain + org identity | Business sites |
 | EV (Extended Validation) | Full legal verification | E-commerce, banking |

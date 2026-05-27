@@ -1,8 +1,9 @@
 ---
 name: devel-jb-kotlin-spring-proxy-compatibility
-description: Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-03`).
+description: "A bad run tells the user to add annotations or `open` keywords without proving why interception failed."
 domain: cybersecurity
 ---
+
 # Kotlin Spring Proxy Compatibility
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-03`).

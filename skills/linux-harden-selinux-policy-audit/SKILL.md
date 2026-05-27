@@ -1,7 +1,9 @@
 ---
 name: linux-harden-selinux-policy-audit
-description: Audit SELinux policy effectiveness — review policy modules, identify permissive domains, audit-allow rules, and detect policy weaknesses that allow privilege escalation.
+description: "subdomain: hardening-assessment tags: - linux - selinux - policy - audit - mac nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: hardening-assessment
 tags:
 - linux

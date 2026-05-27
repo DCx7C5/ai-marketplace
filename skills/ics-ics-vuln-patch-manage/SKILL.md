@@ -1,9 +1,10 @@
 ---
 name: ics-ics-vuln-patch-manage
-description: - When establishing a formal OT patch management program for the first time - When responding to critical ICS-CERT advisories affecting deployed OT systems - When preparing for NERC CIP-007-6 or IEC 62443 patch management compliance audits - When planning patch deployment during limited maintenance windows in continuous operations - When evaluating
+description: "Ics Ics Vuln Patch Manage."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Compensating Control | Alternative security measure applied when a patch cannot be deployed, such as firewall rules, IPS signatures, or network isolation |
 | Vendor Compatibility | Confirmation from the OT vendor that a patch (especially OS patches) is compatible with their control system software |
 | Maintenance Window | Scheduled period for system modifications, aligned with process shutdowns or reduced-risk operational periods |

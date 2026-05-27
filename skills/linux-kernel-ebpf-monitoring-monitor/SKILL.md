@@ -1,8 +1,9 @@
 ---
 name: linux-kernel-ebpf-monitoring-monitor
-description: - When deploying kernel-level runtime security monitoring on Linux hosts or Kubernetes clusters - When you need sub-millisecond visibility into process execution, network connections, and file access - When traditional userspace monitoring tools introduce unacceptable performance overhead - When building detection pipelines that require in-kernel f
+description: "tetra getevents -o json | jq -c 'select(.process_kprobe !"
 domain: cybersecurity
 ---
+
 # Implementing eBPF Security Monitoring
 
 ## When to Use

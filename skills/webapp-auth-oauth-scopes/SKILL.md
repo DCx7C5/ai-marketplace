@@ -1,9 +1,10 @@
 ---
 name: webapp-auth-oauth-scopes
-description: - Annual or quarterly review of third-party application OAuth permissions - After a security incident involving compromised OAuth tokens or unauthorized data access - Compliance audit requiring documentation of third-party data access (GDPR Article 28, SOC 2) - Discovery of shadow IT applications accessing organizational data via OAuth grants - Mig
+description: "| | **OAuth Scope** | Permission string defining the specific API access level granted to a client application (e."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **OAuth Scope** | Permission string defining the specific API access level granted to a client application (e.g., Mail.Read, Files.ReadWrite.All) |
 | **Delegated Permission** | OAuth scope exercised on behalf of a signed-in user, limited by both the app's permissions and the user's own access rights |
 | **Application Permission** | OAuth scope granted directly to the application without user context, providing access to all users' data (high risk) |

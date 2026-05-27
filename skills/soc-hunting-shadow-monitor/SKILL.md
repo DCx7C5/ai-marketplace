@@ -1,17 +1,10 @@
 ---
 name: soc-hunting-shadow-monitor
-description: - When proactively hunting for indicators of hunting for shadow copy deletion in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments and p
+description: "Soc Hunting Shadow Monitor."
 domain: cybersecurity
 ---
-------|-------------|
-| T1490 | Inhibit System Recovery |
-| T1486 | Data Encrypted for Impact |
-| T1485 | Data Destruction |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

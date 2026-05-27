@@ -1,25 +1,10 @@
 ---
 name: cloud-zerotrust-nextdns
-description: NextDNS is a cloud-based DNS resolver that provides encrypted DNS resolution (DNS-over-HTTPS and DNS-over-TLS), real-time threat intelligence blocking, ad and tracker filtering, and granular DNS policy enforcement. In a zero trust architecture, DNS is a critical control point -- every network connection begins with a DNS query, making DNS filtering
+description: "--+          |     ALLOW or BLOCK          |     Response to Endpoint ```  ## Configuration Setup  ### NextDNS Profile Configuration  ``` Dashboard: https://my."
 domain: cybersecurity
 ---
--+----+
-    |  DoH/DoT |  (DNS-over-HTTPS or DNS-over-TLS)
-    |  Tunnel  |
-    +----+----+
-         |
-    +----+----+
-    | NextDNS  |
-    | Resolver |
-    +----+----+
-         |
-    +----+----+------+--------+
-    |         |       |        |
-  Threat   Ad/Tracker Privacy  Parental
-  Intel    Blocklists Controls Controls
-  Check    Check      Check    Check
-    |         |       |        |
-    +----+----+------+--------+
+
+--+
          |
     ALLOW or BLOCK
          |

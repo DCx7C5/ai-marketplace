@@ -1,8 +1,9 @@
 ---
 name: linux-forensic-mem-analysis-heap-detect
-description: Heap spraying is an exploitation technique that fills large regions of a process's heap with attacker-controlled data (typically NOP sleds followed by shellcode) to increase the reliability of code execution exploits. This skill covers detecting heap spray artifacts in memory dumps using Volatility3's malfind, vadinfo, and memmap plugins, identifyi
+description: "JSON report with suspicious processes, heap spray indicators, NOP sled locations, memory region sizes, and extracted shellcode hashes."
 domain: cybersecurity
 ---
+
 # Analyzing Heap Spray Exploitation
 
 ## Overview

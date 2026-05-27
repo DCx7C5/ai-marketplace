@@ -1,12 +1,12 @@
 ---
 name: linux-fs-hardlink-attack-detect
-description: Detect hard link attacks against SUID programs and world-writable directories that allow an attacker to create privileged copies of executables. domain: cybersecurity subdomain: filesystem-security tags: - hardlink - suid - privilege-escalation - attack nist_csf: - DE.CM-04 mitre: - T1548 cwe: - CWE-59 capec: []
+description: "See [SKILL taxonomy](../../TAXONOMY.md) for more details."
 domain: cybersecurity
 ---
+
 ## Overview
 
 Detect hard link attacks against SUID programs and world-writable directories that allow an attacker to create privileged copies of executables.
-domain: cybersecurity
 subdomain: filesystem-security
 tags:
   - hardlink

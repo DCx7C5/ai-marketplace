@@ -1,7 +1,9 @@
 ---
 name: linux-container-namespace-user-privesc-detect
-description: Detect user namespace privilege escalation — identify unprivileged user namespace abuse, newuidmap/newgidmap exploitation, and namespace-based sandbox escape.
+description: "subdomain: container-security tags: - linux - namespace - user-namespace - privesc - container nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: container-security
 tags:
 - linux

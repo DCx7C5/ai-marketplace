@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gemini-interactions-api
-description: The Interactions API is a unified interface for interacting with Gemini models and agents. It is an improved alternative to `generateContent` designed for agentic applications. Key capabilities include:
+description: "These pages cover function calling, built-in tools (Google Search, code execution, URL context, file search, computer use), remote MCP, structured output, thinking configuration, working with files, multimodal understanding and generation, streaming events, and more."
 domain: cybersecurity
 ---
+
 # Gemini Interactions API Skill
 
 The Interactions API is a unified interface for interacting with Gemini models and agents. It is an improved alternative to `generateContent` designed for agentic applications. Key capabilities include:

@@ -1,8 +1,9 @@
 ---
 name: offensive-open-redirect
-description: - Search for redirect URL parameters. These might be vulnerable to parameter based open redirect.
+description: "- For mobile deep links, validate package/bundle IDs and enforce App Links/Universal Links verification."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Open Redirect Vulnerabilities

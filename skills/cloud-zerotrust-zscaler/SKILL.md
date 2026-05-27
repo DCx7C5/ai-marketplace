@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-zscaler
-description: - When replacing traditional VPN concentrators with application-level zero trust access - When providing remote users secure access to internal applications without network-level connectivity - When implementing least-privilege access where users only see authorized applications - When needing to make internal applications invisible to unauthorized
+description: "Cloud Zerotrust Zscaler."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | App Connector | Lightweight Linux service that creates outbound-only encrypted tunnels from internal networks to ZPA cloud, providing access to applications without inbound ports |
 | Application Segment | Logical grouping of internal applications defined by FQDN/IP and ports, mapped to server groups for access policy enforcement |
 | Server Group | Collection of application servers associated with App Connector groups that can serve requests for application segments |

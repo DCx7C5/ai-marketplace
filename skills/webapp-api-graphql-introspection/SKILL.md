@@ -1,9 +1,10 @@
 ---
 name: webapp-api-graphql-introspection
-description: - Testing GraphQL endpoints for exposed introspection that reveals the complete API schema - Mapping the attack surface of a GraphQL API to identify sensitive queries, mutations, and types - Testing for GraphQL-specific vulnerabilities including query depth abuse, batching attacks, and field-level authorization - Assessing GraphQL implementations w
+description: "Webapp Api Graphql Introspection."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **GraphQL Introspection** | Built-in capability to query the schema definition, exposing all types, fields, queries, mutations, and subscriptions available in the API |
 | **Query Depth Attack** | Sending deeply nested queries that cause exponential resolver execution, consuming server resources and potentially causing DoS |
 | **Alias-Based Batching** | Using GraphQL aliases to execute multiple operations in a single request, bypassing per-request rate limiting |

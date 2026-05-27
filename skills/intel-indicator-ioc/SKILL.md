@@ -1,9 +1,10 @@
 ---
 name: intel-indicator-ioc
-description: Use this skill when: - Building a SOAR playbook that automatically enriches SIEM alerts with threat intelligence context before routing to analysts - Creating a Python pipeline for bulk IOC enrichment from phishing email submissions - Reducing analyst mean time to triage (MTTT) by pre-populating alert context with VT, Shodan, and MISP data **Do not
+description: "Intel Indicator Ioc."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **SOAR** | Security Orchestration, Automation, and Response — platform for automating security workflows and integrating disparate tools |
 | **Enrichment Playbook** | Automated workflow sequence that adds contextual intelligence to raw security events |
 | **Rate Limiting** | API provider restrictions on request frequency (e.g., VT free: 4 requests/minute); pipelines must respect these limits |

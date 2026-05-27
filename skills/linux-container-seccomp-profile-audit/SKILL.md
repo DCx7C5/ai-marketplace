@@ -1,7 +1,9 @@
 ---
 name: linux-container-seccomp-profile-audit
-description: Audit container seccomp profiles — analyze Docker/Kubernetes seccomp policies for dangerous syscalls, identify containers running without seccomp, and compare against default profiles.
+description: "subdomain: container-security tags: - linux - container - seccomp - docker - kubernetes - audit nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: container-security
 tags:
 - linux

@@ -1,9 +1,10 @@
 ---
 name: windows-hardening-cis
-description: Use this skill when: - Deploying new Windows 10/11 or Server 2019/2022 endpoints that require security hardening - Establishing organization-wide security baselines using CIS Level 1 or Level 2 profiles - Remediating findings from compliance audits (PCI DSS, HIPAA, SOC 2) that reference CIS benchmarks - Validating existing endpoint configurations a
+description: "Windows Hardening Cis."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **CIS Benchmark** | Consensus-based security configuration guide developed by CIS with input from government, industry, and academia |
 | **Level 1 Profile** | Practical security baseline suitable for most organizations with minimal operational impact |
 | **Level 2 Profile** | Extended security baseline for high-security environments that may reduce functionality |

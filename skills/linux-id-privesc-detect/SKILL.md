@@ -1,18 +1,10 @@
 ---
 name: linux-id-privesc-detect
-description: - When proactively hunting for indicators of detecting privilege escalation attempts in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessment
+description: "Linux Id Privesc Detect."
 domain: cybersecurity
 ---
-------|-------------|
-| T1134 | Access Token Manipulation |
-| T1548.002 | UAC Bypass |
-| T1068 | Exploitation for Privilege Escalation |
-| T1574.009 | Unquoted Service Path |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

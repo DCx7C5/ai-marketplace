@@ -1,9 +1,10 @@
 ---
 name: webapp-api-massassign
-description: - Testing API endpoints that accept JSON/XML request bodies for user profile updates, registration, or object creation - Assessing whether the API binds all client-supplied properties to the data model without an allowlist - Evaluating if users can set privileged attributes (role, permissions, pricing, balance) through regular update endpoints - Te
+description: "Webapp Api Massassign."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Mass Assignment** | Vulnerability where an API automatically binds client-supplied parameters to internal object properties without filtering, allowing modification of unintended fields |
 | **Auto-Binding** | Framework feature that maps HTTP request parameters directly to object model attributes, enabling mass assignment when no allowlist is configured |
 | **Allowlist (Whitelist)** | Server-side list of fields that the API explicitly allows clients to set, rejecting all other parameters |

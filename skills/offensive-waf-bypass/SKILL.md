@@ -1,11 +1,9 @@
 ---
 name: offensive-waf-bypass
-description: A Web Application Firewall (WAF) is a security tool that protects web applications from various attacks by analyzing HTTP requests and applying rules to identify and block suspicious traffic. This document outlines effective techniques to bypass WAF protections during security assessments.
+description: "WebKitFormBoundary"
 domain: cybersecurity
 ---
--WebKitFormBoundary
-
-------WebKitFormBoundary
+WebKitFormBoundary
 Content-Disposition: form-data; name="file"; filename="<script>alert(1)</script>"
 # Payload in filename field (often not heavily weighted)
 

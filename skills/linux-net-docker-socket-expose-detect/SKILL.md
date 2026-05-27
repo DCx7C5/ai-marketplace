@@ -1,7 +1,9 @@
 ---
 name: linux-net-docker-socket-expose-detect
-description: Detect exposed Docker daemon socket — identify bind-mounted /var/run/docker.sock in containers (instant root escape), TCP Docker API exposure, and unauthorized socket access.
+description: "subdomain: container-security tags: - linux - docker - socket - expose - root-escape - detect nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: container-security
 tags:
 - linux

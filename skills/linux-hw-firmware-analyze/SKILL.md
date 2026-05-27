@@ -1,9 +1,10 @@
 ---
 name: linux-hw-firmware-analyze
-description: - A compromised IoT device or router needs firmware analysis to identify implanted backdoors - Investigating UEFI/BIOS rootkits that persist across OS reinstallations - Analyzing firmware updates for supply chain compromise or malicious modifications - Extracting and examining embedded Linux filesystems from IoT device firmware images - Verifying f
+description: "Linux Hw Firmware Analyze."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Firmware** | Software permanently stored in device hardware (flash memory, EEPROM) controlling low-level device operations and boot process |
 | **UEFI (Unified Extensible Firmware Interface)** | Modern system firmware replacing legacy BIOS; provides boot services, runtime services, and a modular driver architecture |
 | **SPI Flash** | Serial Peripheral Interface flash memory chip storing UEFI/BIOS firmware; can be read and modified for persistence |

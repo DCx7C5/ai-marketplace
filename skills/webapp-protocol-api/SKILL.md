@@ -1,9 +1,10 @@
 ---
 name: webapp-protocol-api
-description: - Testing API endpoints for authorization flaws, injection vulnerabilities, and business logic bypasses - Assessing the security of microservices architecture where APIs are the primary communication method - Validating that API gateway protections (rate limiting, authentication, input validation) are properly enforced - Testing third-party API int
+description: "Webapp Protocol Api."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **BOLA** | Broken Object Level Authorization (OWASP API #1); failure to verify that the requesting user is authorized to access a specific object, enabling IDOR attacks |
 | **BFLA** | Broken Function Level Authorization (OWASP API #5); failure to restrict administrative or privileged API functions from being accessed by lower-privilege users |
 | **Mass Assignment** | A vulnerability where the API binds client-provided data to internal object properties without filtering, allowing attackers to modify fields they should not have access to |

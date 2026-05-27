@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-scanning-trivycicd
-description: - When building Docker container images in CI/CD and needing automated vulnerability scanning before registry push - When establishing quality gates that prevent images with critical or high CVEs from reaching production - When compliance requirements mandate vulnerability scanning of all container images before deployment - When scanning IaC files
+description: "Cloud Containers Scanning Trivycicd."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | CVE | Common Vulnerabilities and Exposures — standardized identifiers for publicly known security vulnerabilities |
 | Vulnerability DB | Trivy's regularly updated database aggregating CVE data from NVD, vendor advisories, and language-specific sources |
 | Misconfiguration | Security-relevant configuration issue in Dockerfiles, Kubernetes manifests, or IaC templates |

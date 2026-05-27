@@ -1,9 +1,10 @@
 ---
 name: intel-analysis-general-overview
-description: Use this skill when: - Establishing a formal CTI program and defining its operational model - Conducting quarterly intelligence requirements reviews with business stakeholders - Evaluating CTI program maturity against established frameworks (FIRST CTI-SIG maturity model) **Do not use** this skill for day-to-day IOC triage or incident-specific intel
+description: "Intel Analysis General Overview."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **PIR** | Priority Intelligence Requirement — specific, actionable question driving intelligence collection and analysis |
 | **Intelligence Lifecycle** | Six-phase iterative process: Planning → Collection → Processing → Analysis → Dissemination → Feedback |
 | **Strategic Intelligence** | Long-term threat trend analysis for executive decision-making; time horizon 6–24 months |

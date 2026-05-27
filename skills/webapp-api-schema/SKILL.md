@@ -1,9 +1,10 @@
 ---
 name: webapp-api-schema
-description: API schema validation enforces that all data exchanged through APIs conforms to a predefined structure defined in OpenAPI Specification (OAS) or JSON Schema documents. This prevents injection attacks (SQLi, XSS, XXE), blocks mass assignment by rejecting unknown properties, prevents data leakage by validating response schemas, and ensures type safet
+description: "Webapp Api Schema."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | `additionalProperties: true` or missing | Mass assignment | Set `additionalProperties: false` |
 | No `maxLength` on strings | Buffer overflow, DoS | Add appropriate `maxLength` constraints |
 | No `pattern` on string fields | Injection attacks | Add regex patterns to restrict input |

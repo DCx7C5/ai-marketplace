@@ -1,9 +1,10 @@
 ---
 name: intel-ioc-indicators-hunt
-description: Use this skill when: - A phishing email or alert generates IOCs (URLs, IP addresses, file hashes) requiring rapid triage - Automated feeds deliver bulk IOCs that need confidence scoring before ingestion into blocking controls - An incident investigation requires contextual enrichment of observed network artifacts **Do not use** this skill in isolat
+description: "--| | **IOC** | Indicator of Compromise — observable network or host artifact indicating potential compromise | | **Enrichment** | Process of adding contextual data to a raw IOC from multiple intelligence sources | | **Defanging** | Modifying IOCs (replacing `."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **IOC** | Indicator of Compromise — observable network or host artifact indicating potential compromise |
 | **Enrichment** | Process of adding contextual data to a raw IOC from multiple intelligence sources |
 | **Defanging** | Modifying IOCs (replacing `.` with `[.]`) to prevent accidental activation in documentation |

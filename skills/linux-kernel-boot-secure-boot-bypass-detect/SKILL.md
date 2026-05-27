@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-boot-secure-boot-bypass-detect
-description: Detect Secure Boot bypass techniques — MOK (Machine Owner Key) abuse, shim loader manipulation, unsigned module loading, and UEFI variable tampering.
+description: "subdomain: kernel-forensics tags: - linux - secure-boot - shim - mok - bypass nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-forensics
 tags:
 - linux

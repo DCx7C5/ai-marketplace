@@ -1,9 +1,10 @@
 ---
 name: cloud-infrastructure-terraform
-description: - When integrating security scanning into CI/CD pipelines for Terraform deployments - When reviewing Terraform plans and modules for security best practices before applying - When building policy-as-code guardrails for cloud infrastructure provisioning - When auditing existing Terraform state files to identify deployed misconfigurations - When enfo
+description: "Cloud Infrastructure Terraform."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Infrastructure as Code | Practice of managing cloud infrastructure through declarative configuration files (Terraform, CloudFormation) rather than manual console operations |
 | Policy as Code | Expressing security and compliance policies as executable code (Rego, Python) that can be automatically evaluated against infrastructure definitions |
 | Shift Left Security | Moving security checks earlier in the development lifecycle by scanning IaC before deployment rather than auditing after provisioning |

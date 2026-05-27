@@ -1,9 +1,10 @@
 ---
 name: cloud-gcp-forseti
-description: - When conducting periodic security assessments of GCP organizations and projects - When onboarding new GCP projects and establishing security baselines - When compliance mandates CIS GCP Foundations Benchmark evaluation - When auditing IAM bindings, firewall rules, and storage ACLs across multiple GCP projects - When building continuous security m
+description: "Cloud Gcp Forseti."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Security Command Center | GCP-native security and risk management platform that provides asset inventory, vulnerability detection, and threat monitoring |
 | Forseti Security | Open-source GCP security toolkit (now deprecated in favor of SCC) that provided inventory, scanning, enforcement, and notification capabilities |
 | Cloud Asset Inventory | GCP service that provides a complete inventory of cloud resources with metadata, IAM policies, and org policy configurations |

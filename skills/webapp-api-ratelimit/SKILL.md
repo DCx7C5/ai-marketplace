@@ -1,8 +1,9 @@
 ---
 name: webapp-api-ratelimit
-description: API rate limiting is a critical security control that restricts the number of requests a client can make within a defined time period. It defends against denial-of-service (DDoS), brute force login attempts, credential stuffing, API scraping, and resource exhaustion attacks. Modern implementations use algorithms like token bucket, sliding window, a
+description: "- Rakuten SixthSense API Rate Limiting: https://sixthsense."
 domain: cybersecurity
 ---
+
 # Implementing API Abuse Detection with Rate Limiting
 
 ## Overview

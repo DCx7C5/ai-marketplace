@@ -1,9 +1,10 @@
 ---
 name: cloud-serverless-general
-description: - Auditing Lambda/Cloud Functions for code injection vulnerabilities where unsanitized event data flows into dangerous runtime functions (`eval`, `exec`, `child_process.exec`, `os.system`) - Investigating incidents where an attacker modified function code or layers to establish persistence or exfiltrate data from the serverless environment - Detect
+description: "Cloud Serverless General."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Event Source Poisoning** | An attack where malicious data is injected into a serverless event source (S3, SQS, DynamoDB Stream, API Gateway) to trigger code execution or injection when the function processes the event |
 | **Function Injection** | Exploitation of unsanitized event data that flows into dangerous runtime functions (eval, exec, os.system, child_process.exec) within a serverless function handler |
 | **Lambda Layer Hijacking** | An attack where a malicious Lambda layer is attached to a function to intercept execution, override dependencies, or exfiltrate data by placing code in the runtime's module search path |

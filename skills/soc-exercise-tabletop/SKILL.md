@@ -1,25 +1,10 @@
 ---
 name: soc-exercise-tabletop
-description: Use this skill when: - Annual or semi-annual incident response testing is required (NIST, ISO 27001, PCI DSS compliance) - New SOC analysts need exposure to major incident scenarios in a controlled environment - Updated playbooks need validation before next real incident - Cross-functional coordination (SOC, IT, Legal, PR, Executive) needs rehearsa
+description: "Soc Exercise Tabletop."
 domain: cybersecurity
 ---
-Track action items from tabletop exercise
-| inputlookup ttx_action_items.csv
-| eval days_remaining = round((strptime(due_date, "%Y-%m-%d") - now()) / 86400)
-| eval status_flag = case(
-    status="Completed", "GREEN",
-    days_remaining < 0, "RED — OVERDUE",
-    days_remaining < 7, "YELLOW — DUE SOON",
-    1=1, "GREEN"
-  )
-| sort - status_flag, days_remaining
-| table gap_id, finding, owner, due_date, days_remaining, status, status_flag
-```
 
-## Key Concepts
-
-| Term | Definition |
-|------|-----------|
+--|
 | **Tabletop Exercise** | Discussion-based simulation where participants walk through incident scenarios without executing technical actions |
 | **Inject** | Scenario update introducing new information, complications, or decisions for participants to address |
 | **Hot Wash** | Immediate post-exercise debrief where participants share observations and initial lessons learned |

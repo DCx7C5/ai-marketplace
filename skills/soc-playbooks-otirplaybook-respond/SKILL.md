@@ -1,49 +1,10 @@
 ---
 name: soc-playbooks-otirplaybook-respond
-description: - When building OT-specific incident response procedures for the first time - When existing IT IR playbooks do not address ICS/SCADA-specific requirements - When preparing for OT ransomware scenarios like EKANS or LockerGoga - When aligning IR procedures with IEC 62443 and NERC CIP incident reporting requirements - When conducting post-incident rev
+description: "Soc Playbooks Otirplaybook Respond."
 domain: cybersecurity
 ---
-IMMEDIATE ACTIONS (Execute within first 15 minutes) ---")
-        for i, action in enumerate(playbook["immediate_actions"], 1):
-            print(f"  {i}. {action}")
 
-        print(f"\n--- CONTAINMENT STEPS ---")
-        for i, step in enumerate(playbook["containment_steps"], 1):
-            print(f"  {i}. {step}")
-
-        print(f"\n--- RECOVERY PRIORITY ORDER ---")
-        for item in playbook["recovery_priority"]:
-            print(f"  {item}")
-
-        print(f"\n--- REPORTING REQUIREMENTS ---")
-        for req in playbook["reporting"]:
-            print(f"  - {req}")
-
-        # Print PICERL phase guidance
-        print(f"\n--- PICERL PHASE CHECKLIST ---")
-        for phase, info in PICERL_PHASES.items():
-            print(f"\n  [{phase.upper()}] {info['description']}")
-            for item in info["ot_specific"][:3]:
-                print(f"    - {item}")
-
-if __name__ == "__main__":
-    engine = OTPlaybookEngine()
-
-    # Example: OT Ransomware incident
-    incident = OTIncident(
-        title="Ransomware detected on Level 3 historian servers",
-        severity=OTIncidentSeverity.SEV2_PROCESS,
-        category=OTIncidentCategory.RANSOMWARE,
-        affected_systems=["HIST-01", "HIST-02", "ENG-WS-03", "HMI-AREA1"],
-    )
-
-    engine.execute_playbook(incident)
-```
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+|
 | PICERL | SANS incident response lifecycle: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned |
 | ICS4ICS | Incident Command System for Industrial Control Systems -- adapts FEMA ICS to OT cybersecurity response |
 | Safety Instrumented System (SIS) | Independent safety controller that prevents hazardous conditions; compromising SIS can cause physical harm |

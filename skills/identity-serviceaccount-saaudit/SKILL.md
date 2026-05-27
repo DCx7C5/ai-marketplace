@@ -1,9 +1,10 @@
 ---
 name: identity-serviceaccount-saaudit
-description: Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud platforms, databases, and applications, assessing privilege levels, identifying missing owners, and enforcing lifecycle policies.
+description: "Identity Serviceaccount Saaudit."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Account Management | AC-2 | Service account lifecycle |
 | Account Review | AC-2(3) | Periodic review of accounts |
 | Least Privilege | AC-6 | Minimum service account permissions |

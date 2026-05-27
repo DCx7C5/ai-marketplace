@@ -1,27 +1,10 @@
 ---
 name: compliance-nist-csf
-description: The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024, provides a comprehensive taxonomy for managing cybersecurity risk through six core Functions: Govern, Identify, Protect, Detect, Respond, and Recover. This skill covers conducting a maturity assessment against the CSF, using the four Implementation Tiers (Partial, Risk-Informed,
+description: "Compliance Nist Csf."
 domain: cybersecurity
 ---
--------|------|-----------|---------|
-| **Govern** | GV | 6 | Establish and monitor cybersecurity risk management strategy |
-| **Identify** | ID | 3 | Determine current cybersecurity risk to the organization |
-| **Protect** | PR | 5 | Implement safeguards to prevent or reduce risk |
-| **Detect** | DE | 2 | Find and analyze possible cybersecurity attacks |
-| **Respond** | RS | 4 | Take action regarding detected cybersecurity incidents |
-| **Recover** | RC | 2 | Restore capabilities impaired by cybersecurity incidents |
 
-### Govern Function (New in CSF 2.0)
-- GV.OC: Organizational Context
-- GV.RM: Risk Management Strategy
-- GV.RR: Roles, Responsibilities, and Authorities
-- GV.PO: Policy
-- GV.OV: Oversight
-- GV.SC: Cybersecurity Supply Chain Risk Management
-
-### Implementation Tiers
-| Tier | Name | Description |
-|------|------|-------------|
+-|
 | Tier 1 | Partial | Ad hoc, reactive; limited awareness of cybersecurity risk |
 | Tier 2 | Risk-Informed | Risk-aware but not organization-wide; approved but may not be policy |
 | Tier 3 | Repeatable | Formal policies; consistently implemented; regularly updated |

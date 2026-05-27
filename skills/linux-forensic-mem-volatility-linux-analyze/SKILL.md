@@ -1,7 +1,9 @@
 ---
 name: linux-forensic-mem-volatility-linux-analyze
-description: Analyze Linux memory dumps with Volatility3 — enumerate processes, network connections, kernel modules, bash history from memory, and detect in-memory rootkits.
+description: "subdomain: forensic-analysis tags: - linux - volatility - memory - forensics - analyze nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: forensic-analysis
 tags:
 - linux

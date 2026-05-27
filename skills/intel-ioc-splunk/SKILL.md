@@ -1,8 +1,9 @@
 ---
 name: intel-ioc-splunk
-description: Splunk's Threat Intelligence Framework in Enterprise Security enables SOC teams to automatically correlate indicators of compromise (IOCs) against security events. The framework ingests threat feeds, normalizes indicators into KV Store collections, and uses lookup-based correlation searches to flag matching events. Splunk Threat Intelligence Manage
+description: "- [Cisco Talos Threat Intelligence in Splunk](https://www."
 domain: cybersecurity
 ---
+
 # Building Threat Intelligence Enrichment in Splunk
 
 ## Overview

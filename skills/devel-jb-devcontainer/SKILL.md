@@ -1,22 +1,10 @@
 ---
 name: devel-jb-devcontainer
-description: - Running `ss` / `skillshare` commands for verification
+description: "-| | 5173 | Vite dev server | React dashboard with HMR | | 19420 | Go API backend | `skillshare ui` server | | 3000 | Docusaurus | `docs` command in devcontainer |  ## Common Mistakes to Avoid  1."
 domain: cybersecurity
 ---
--------|-----------|---------|
-| `ssnew <name>` | `ssenv create <name>` + enter | Create and enter isolated shell |
-| `ssuse <name>` | `ssenv enter <name>` | Enter existing isolated shell |
-| `ssrm <name>` | `ssenv delete <name> --force` | Delete environment |
-| `ssls` | `ssenv list` | List all environments |
-| `ssback` | `ssenv reset` | Leave isolated context |
-| `sshelp` | `help` | Show all devcontainer commands |
 
-For automation (non-interactive), prefer `ssenv enter <name> -- <command>` over `ssnew`/`ssuse` (which launch subshells).
-
-## Ports
-
-| Port | Service | Notes |
-|------|---------|-------|
+-|
 | 5173 | Vite dev server | React dashboard with HMR |
 | 19420 | Go API backend | `skillshare ui` server |
 | 3000 | Docusaurus | `docs` command in devcontainer |

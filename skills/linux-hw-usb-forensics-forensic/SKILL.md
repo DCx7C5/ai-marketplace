@@ -1,22 +1,10 @@
 ---
 name: linux-hw-usb-forensics-forensic
-description: - When investigating potential data exfiltration via removable storage devices - During insider threat investigations to track USB device usage - For compliance audits verifying removable media policy enforcement - When correlating USB connections with file access and copy events - For establishing a timeline of device connections during an inciden
+description: "Linux Hw Usb Forensics Forensic."
 domain: cybersecurity
 ---
-------|-------------|
-| USBSTOR | Registry key storing USB mass storage device identification and connection data |
-| VID/PID | Vendor ID and Product ID uniquely identifying USB device manufacturer and model |
-| Device serial number | Unique identifier for individual USB devices (some devices share serials) |
-| MountedDevices | Registry key mapping volume GUIDs and drive letters to physical devices |
-| MountPoints2 | Per-user registry key showing which volumes a user accessed |
-| SetupAPI log | Windows driver installation log recording first-time device connections |
-| DeviceContainers | Registry key in SOFTWARE hive with device metadata and timestamps |
-| EMDMgmt | Registry key tracking ReadyBoost-compatible devices with serial numbers and timestamps |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | USB Forensic Tracker | Specialized tool for USB device history extraction |
 | USBDeview | NirSoft tool listing all USB devices connected to a system |
 | RegRipper (usbstor plugin) | Automated USB artifact extraction from registry hives |

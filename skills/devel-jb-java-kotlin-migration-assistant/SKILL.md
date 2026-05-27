@@ -1,6 +1,6 @@
 ---
 name: devel-jb-java-kotlin-migration-assistant
-description: Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-19`).
+description: "Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-19`)."
 domain: cybersecurity
 ---
 # Java Kotlin Migration Assistant

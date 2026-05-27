@@ -1,8 +1,9 @@
 ---
 name: identity-pam-paw
-description: A Privileged Access Workstation (PAW) is a hardened device dedicated to performing sensitive administrative tasks. This skill covers PAW design using the tiered administration model, device compliance enforcement via Microsoft Intune or Group Policy, just-in-time (JIT) access provisioning, and integration with privileged access management (PAM) pla
+description: "6. Validate PAW configuration against CIS and Microsoft PAW guidance 7."
 domain: cybersecurity
 ---
+
 # Implementing Privileged Access Workstation
 
 ## Overview

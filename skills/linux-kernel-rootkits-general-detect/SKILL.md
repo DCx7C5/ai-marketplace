@@ -1,8 +1,9 @@
 ---
 name: linux-kernel-rootkits-general-detect
-description: Linux kernel rootkits operate at ring 0, modifying kernel data structures to hide processes, files, network connections, and kernel modules from userspace tools. Detection requires either memory forensics (analyzing physical memory dumps with Volatility3) or cross-view analysis (comparing /proc, /sys, and kernel data structures for inconsistencies)
+description: "Hidden Processes:     3   Hidden Connections:   2 (C2: 198."
 domain: cybersecurity
 ---
+
 # Analyzing Linux Kernel Rootkits
 
 ## Overview

@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-guardduty
-description: Amazon GuardDuty is a threat detection service that continuously monitors AWS accounts for malicious activity and unauthorized behavior. By integrating GuardDuty with Amazon EventBridge and AWS Lambda, security teams achieve automated, real-time responses to threats, reducing mean time to response (MTTR) from hours to seconds. GuardDuty analyzes VP
+description: "| | Backdoor | 5.0 - 8.0 | Backdoor:EC2/C&CActivity | | CryptoCurrency | 5."
 domain: cybersecurity
 ---
--------|---------------|---------|
+
+|
 | Backdoor | 5.0 - 8.0 | Backdoor:EC2/C&CActivity |
 | CryptoCurrency | 5.0 - 8.0 | CryptoCurrency:EC2/BitcoinTool |
 | Trojan | 5.0 - 8.0 | Trojan:EC2/BlackholeTraffic |

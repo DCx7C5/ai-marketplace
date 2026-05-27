@@ -1,9 +1,10 @@
 ---
 name: net-dns-dnstwist
-description: DNSTwist is a domain name permutation engine that generates similar-looking domain names to detect typosquatting, homograph phishing attacks, and brand impersonation. It creates thousands of domain permutations using techniques like character substitution, transposition, insertion, omission, and homoglyph replacement, then checks DNS records (A, AA
+description: "Net Dns Dnstwist."
 domain: cybersecurity
 ---
-High Risk Domains ---")
+
+")
         for entry in high_risk[:10]:
             print(f"  {entry['domain']} (score: {entry['risk_score']})")
             for factor in entry['risk_factors']:

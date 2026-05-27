@@ -1,7 +1,9 @@
 ---
 name: linux-supply-binary-hash-verify
-description: Verify system binary integrity via hash comparison — baseline critical binaries (ls, ps, netstat, sshd), detect replacements, and identify trojanized executables.
+description: "subdomain: supply-chain-security tags: - linux - binary - hash - integrity - trojan - verify nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: supply-chain-security
 tags:
 - linux

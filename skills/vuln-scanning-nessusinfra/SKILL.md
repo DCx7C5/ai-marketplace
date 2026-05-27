@@ -1,6 +1,6 @@
 ---
 name: vuln-scanning-nessusinfra
-description: Tenable Nessus is the industry-leading vulnerability scanner used to identify security weaknesses across network infrastructure including servers, workstations, network devices, and operating systems. This skill covers configuring scan policies, running authenticated and unauthenticated scans, interpreting results, and integrating Nessus into conti
+description: "```bash"
 domain: cybersecurity
 ---
 ## CyberSecSuite Integration

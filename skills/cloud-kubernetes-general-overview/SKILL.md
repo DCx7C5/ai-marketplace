@@ -1,9 +1,10 @@
 ---
 name: cloud-kubernetes-general-overview
-description: - When performing security assessments of Kubernetes clusters (EKS, GKE, AKS, or self-managed) - When validating that RBAC policies enforce least privilege for users and service accounts - When investigating potential lateral movement or privilege escalation within a Kubernetes cluster - When compliance audits require documentation of access contro
+description: "Cloud Kubernetes General Overview."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | RBAC | Role-Based Access Control in Kubernetes, a method for regulating access to cluster resources based on the roles of individual users or service accounts |
 | ClusterRole | Cluster-wide role definition that specifies permissions (verbs on resources) applicable across all namespaces |
 | ClusterRoleBinding | Associates a ClusterRole with subjects (users, groups, service accounts) at the cluster scope |

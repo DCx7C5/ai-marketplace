@@ -1,9 +1,10 @@
 ---
 name: identity-protocol-ldap
-description: Harden LDAP directory services against common attacks including credential harvesting, LDAP injection, anonymous binding, and channel binding bypass. Covers LDAPS enforcement, channel binding, LDAP signing, access control lists, and monitoring for LDAP-based attacks.
+description: "Identity Protocol Ldap."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Account Management | AC-2 | Lifecycle management |
 | Access Enforcement | AC-3 | Policy-based access control |
 | Least Privilege | AC-6 | Minimum necessary permissions |

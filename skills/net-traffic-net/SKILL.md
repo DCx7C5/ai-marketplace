@@ -1,8 +1,9 @@
 ---
 name: net-traffic-net
-description: Malware uses covert channels to disguise C2 communication and data exfiltration within legitimate-looking network traffic. DNS tunneling encodes data in DNS queries and responses (used by tools like iodine, dnscat2, and malware families like FrameworkPOS). ICMP tunneling hides data in echo request/reply payloads (icmpsh, ptunnel). HTTP covert chann
+description: "- [MITRE ATT&CK T1071 - Application Layer Protocol](https://attack."
 domain: cybersecurity
 ---
+
 # Analyzing Network Covert Channels in Malware
 
 ## Overview

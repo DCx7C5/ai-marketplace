@@ -1,8 +1,9 @@
 ---
 name: soc-operations-chaosengineering
-description: - When deploying or configuring implementing security chaos engineering capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "4. Simulate log pipeline failure and check monitoring gaps 5."
 domain: cybersecurity
 ---
+
 # Implementing Security Chaos Engineering
 
 ## When to Use

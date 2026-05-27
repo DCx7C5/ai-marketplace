@@ -1,22 +1,10 @@
 ---
 name: webapp-injection-sqli-sqlmap
-description: - During authorized web application penetration testing engagements - When manual testing reveals potential SQL injection points in parameters, headers, or cookies - For validating SQL injection findings from automated scanners like Burp Suite or OWASP ZAP - When you need to demonstrate the impact of SQL injection by extracting data from backend da
+description: "Webapp Injection Sqli Sqlmap."
 domain: cybersecurity
 ---
-------|-------------|
-| **Union-based SQLi** | Uses UNION SELECT to append attacker query results to the original query output |
-| **Blind Boolean SQLi** | Infers data one bit at a time by observing true/false application responses |
-| **Blind Time-based SQLi** | Uses database sleep functions (e.g., `SLEEP(5)`) to infer data based on response delays |
-| **Error-based SQLi** | Extracts data through verbose database error messages returned in HTTP responses |
-| **Stacked Queries** | Executes multiple SQL statements separated by semicolons for INSERT/UPDATE/DELETE operations |
-| **Out-of-band SQLi** | Exfiltrates data via DNS or HTTP requests initiated by the database server |
-| **Tamper Scripts** | sqlmap plugins that modify payloads to bypass WAFs and input sanitization filters |
-| **Second-order SQLi** | Injected payload is stored and executed later in a different query context |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | **sqlmap** | Automated SQL injection detection and exploitation framework |
 | **Burp Suite Professional** | HTTP proxy for intercepting, modifying, and replaying requests |
 | **OWASP ZAP** | Free alternative to Burp for web application scanning and proxying |

@@ -1,9 +1,10 @@
 ---
 name: soc-tools-splunk-configure
-description: - Investigating a security incident that requires correlation across multiple log sources - Hunting for adversary activity using known TTPs and IOCs - Building detection rules for specific attack patterns - Reconstructing an incident timeline from disparate log sources - Analyzing authentication anomalies, lateral movement, or data exfiltration pat
+description: "Soc Tools Splunk Configure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **SPL (Search Processing Language)** | Splunk's query language for searching, filtering, transforming, and visualizing machine data |
 | **CIM (Common Information Model)** | Splunk's field normalization standard that maps vendor-specific field names to common names for cross-source queries |
 | **Notable Event** | An event in Splunk Enterprise Security flagged for analyst review based on a correlation search match |

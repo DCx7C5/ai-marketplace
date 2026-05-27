@@ -1,9 +1,10 @@
 ---
 name: linux-forensic-mem-injection-detection-detect
-description: - EDR alerts on suspicious API call sequences (VirtualAllocEx + WriteProcessMemory + CreateRemoteThread) - A legitimate process (explorer.exe, svchost.exe) exhibits unexpected network connections or file operations - Memory forensics reveals executable code in memory regions that should not contain it - Investigating living-off-the-land attacks whe
+description: "Linux Forensic Mem Injection Detection Detect."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Process Injection** | Technique of executing code within the address space of another process, typically to evade detection and inherit the target's trust level |
 | **Process Hollowing** | Creating a legitimate process in suspended state, unmapping its memory, writing malicious code, and resuming execution to masquerade as the legitimate process |
 | **Reflective DLL Injection** | Loading a DLL into a process's memory without using the Windows loader, so the DLL does not appear in the loaded module list |

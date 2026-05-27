@@ -1,9 +1,10 @@
 ---
 name: devel-jb-kotlin-tooling-java-to-kotlin
-description: Convert Java source files to idiomatic Kotlin using a disciplined 4-step conversion
+description: "| | `org.springframework.*` | [SPRING.md](references/frameworks/SPRING."
 domain: cybersecurity
 ---
-|---|
+
+|
 | `org.springframework.*` | [SPRING.md](references/frameworks/SPRING.md) |
 | `lombok.*` | [LOMBOK.md](references/frameworks/LOMBOK.md) |
 | `javax.persistence.*`, `jakarta.persistence.*`, `org.hibernate.*` | [HIBERNATE.md](references/frameworks/HIBERNATE.md) |

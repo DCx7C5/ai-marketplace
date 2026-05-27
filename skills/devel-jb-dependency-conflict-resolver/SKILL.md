@@ -1,8 +1,9 @@
 ---
 name: devel-jb-dependency-conflict-resolver
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-05`).
+description: "A bad run produces a one-off version pin that compiles today and recreates the same conflict in the next branch."
 domain: cybersecurity
 ---
+
 # Dependency Conflict Resolver
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-05`).

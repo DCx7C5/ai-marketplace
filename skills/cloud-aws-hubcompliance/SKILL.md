@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-hubcompliance
-description: - When establishing centralized security posture management across multiple AWS accounts - When compliance requirements demand continuous monitoring against CIS, PCI DSS, or NIST 800-53 standards - When aggregating findings from GuardDuty, Inspector, Macie, Firewall Manager, and third-party tools - When building automated remediation workflows trig
+description: "Cloud Aws Hubcompliance."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Security Hub | AWS service that aggregates security findings from AWS services and third-party tools, evaluates compliance against standards, and provides a unified security dashboard |
 | Security Standard | A predefined set of security controls (CIS, PCI DSS, NIST 800-53) that Security Hub evaluates against your AWS configuration |
 | Security Control | An individual check within a standard that evaluates a specific AWS resource configuration, such as whether S3 buckets block public access |

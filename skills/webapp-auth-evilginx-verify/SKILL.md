@@ -1,30 +1,10 @@
 ---
 name: webapp-auth-evilginx-verify
-description: EvilGinx3 is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, enabling bypass of multi-factor authentication (MFA). Unlike traditional credential phishing that only captures usernames and passwords, EvilGinx3 operates as a transparent reverse proxy between the victim and the legitimate authenticat
+description: "--| | Newly registered lookalike domains | Domain monitoring and certificate transparency logs | | SSL certificates for suspicious domains | CT log monitoring (crt."
 domain: cybersecurity
 ---
----|---------|----------|
-| EvilGinx3 | AiTM phishing framework | Linux |
-| GoPhish | Phishing campaign management | Cross-platform |
-| EvilGoPhish | Combined EvilGinx3 + GoPhish integration | Linux |
-| Cookie-Editor | Browser cookie import/export | Browser Extension |
-| Modlishka | Alternative AiTM proxy framework | Linux |
-| Muraena | Alternative AiTM phishing proxy | Linux |
 
-## Phishlet Targets
-
-| Target Service | Phishlet | Captured Data |
-|---------------|----------|---------------|
-| Microsoft 365 | o365 | Session cookies, credentials |
-| Google Workspace | google | Session cookies, credentials |
-| Okta | okta | Session tokens, credentials |
-| GitHub | github | Session cookies, credentials |
-| AWS Console | aws | Session tokens, credentials |
-
-## Detection Indicators
-
-| Indicator | Detection Method |
-|-----------|-----------------|
+--|
 | Newly registered lookalike domains | Domain monitoring and certificate transparency logs |
 | SSL certificates for suspicious domains | CT log monitoring (crt.sh, Censys) |
 | Unusual login locations after phishing | SIEM correlation of authentication events |

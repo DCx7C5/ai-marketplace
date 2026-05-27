@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-saas
-description: - When securing access to SaaS applications (Microsoft 365, Google Workspace, Salesforce, Slack) - When implementing conditional access policies requiring MFA and device compliance for SaaS - When deploying CASB for shadow IT discovery and unsanctioned app blocking - When enforcing session-level controls (DLP, download restrictions) for sensitive S
+description: "Cloud Zerotrust Saas."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | CASB | Cloud Access Security Broker - intermediary enforcing security policies between users and SaaS applications |
 | SSPM | SaaS Security Posture Management - continuous monitoring of SaaS application security configurations |
 | OAuth Governance | Review and control of third-party application permissions granted through OAuth consent flows |

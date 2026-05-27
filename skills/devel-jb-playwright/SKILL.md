@@ -1,8 +1,9 @@
 ---
 name: devel-jb-playwright
-description: Drive a real browser from the terminal using `playwright-cli`. Prefer the bundled wrapper script so the CLI works even when it is not globally installed.
+description: "- Default to CLI commands and workflows, not Playwright test specs."
 domain: cybersecurity
 ---
+
 # Playwright CLI Skill
 
 Drive a real browser from the terminal using `playwright-cli`. Prefer the bundled wrapper script so the CLI works even when it is not globally installed.

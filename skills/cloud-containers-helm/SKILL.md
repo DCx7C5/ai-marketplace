@@ -1,20 +1,18 @@
 ---
 name: cloud-containers-helm
-description: Helm is the Kubernetes package manager. Securing Helm deployments requires validating chart provenance, scanning templates for security misconfigurations, enforcing pod security contexts, managing secrets securely, and controlling RBAC for Helm operations.
+description: "apiVersion: rbac.authorization.k8s.io/v1 kind: RoleBinding metadata:   namespace: production subjects:   - kind: ServiceAccount     namespace: production roleRef:   kind: Role   apiGroup: rbac."
 domain: cybersecurity
 ---
+
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-name: cloud-containers-helm
   namespace: production
 subjects:
   - kind: ServiceAccount
-name: cloud-containers-helm
     namespace: production
 roleRef:
   kind: Role
-name: cloud-containers-helm
   apiGroup: rbac.authorization.k8s.io
 ```
 
@@ -22,7 +20,6 @@ name: cloud-containers-helm
 
 ```yaml
 # .github/workflows/helm-security.yaml
-name: cloud-containers-helm
 on:
   pull_request:
     paths: ['charts/**']

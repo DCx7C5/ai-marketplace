@@ -1,8 +1,9 @@
 ---
 name: email-phishing-gophish
-description: GoPhish is an open-source phishing simulation framework used by security teams to conduct authorized phishing awareness campaigns. It provides campaign management, email template creation, landing page cloning, and comprehensive reporting. This skill covers deploying GoPhish, creating realistic phishing scenarios, and analyzing campaign results to 
+description: "- **Evilginx2** (for advanced AiTM testing): https://github."
 domain: cybersecurity
 ---
+
 # Performing Phishing Simulation with GoPhish
 
 ## Overview

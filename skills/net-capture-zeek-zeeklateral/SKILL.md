@@ -1,8 +1,9 @@
 ---
 name: net-capture-zeek-zeeklateral
-description: - Hunting for lateral movement after an initial compromise indicator is found on one endpoint - Investigating suspected NTLM account spray or Pass-the-Ticket attacks across the internal network - Monitoring SMB traffic for unauthorized file transfers to admin shares (C$, ADMIN$, IPC$) - Detecting remote service execution via DCE/RPC (PsExec, schtas
+description: "- Validate NTLM log parsing by performing a test authentication and confirming username, domain, and success fields are captured; verify the NTLM Account Spray Zeek script generates a `notice."
 domain: cybersecurity
 ---
+
 # Detecting Lateral Movement with Zeek
 
 Analyze Zeek network logs to identify lateral movement techniques including

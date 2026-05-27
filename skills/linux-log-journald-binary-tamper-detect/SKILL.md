@@ -1,7 +1,9 @@
 ---
 name: linux-log-journald-binary-tamper-detect
-description: Detect systemd journal log tampering — identify journal file corruption, log rotation abuse, unauthorized journal forwarding, and missing entries indicating attacker log removal.
+description: "subdomain: logging-forensics tags: - linux - journald - systemd - log - tamper - anti-forensics nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: logging-forensics
 tags:
 - linux

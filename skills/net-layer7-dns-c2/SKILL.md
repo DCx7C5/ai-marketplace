@@ -1,9 +1,10 @@
 ---
 name: net-layer7-dns-c2
-description: - Investigating suspected DNS tunneling used for C2 communication or data exfiltration - Analyzing DNS query logs for signs of encoded payloads in subdomain strings - Classifying domains as DGA-generated vs. legitimate using statistical or ML methods - Detecting DNS beaconing patterns (regular intervals, consistent query sizes) - Hunting for Iodine
+description: "Net Layer7 Dns C2."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **DNS Tunneling** | Technique of encoding data within DNS queries and responses to create a covert communication channel, bypassing firewalls that allow DNS traffic |
 | **Shannon Entropy** | Information theory metric measuring randomness in a string; legitimate domains typically have entropy below 3.5, while encoded tunnel data exceeds 3.8-4.5 |
 | **Domain Generation Algorithm (DGA)** | Malware technique that algorithmically generates thousands of pseudo-random domain names for C2 rendezvous, making domain-based blocking impractical |

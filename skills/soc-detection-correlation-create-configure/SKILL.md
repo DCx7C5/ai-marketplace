@@ -1,8 +1,9 @@
 ---
 name: soc-detection-correlation-create-configure
-description: - When deploying or configuring implementing siem correlation rules for apt capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "python scripts/agent.py --splunk-url https://localhost:8089 --username admin --password changeme --output correlation_report."
 domain: cybersecurity
 ---
+
 # Implementing SIEM Correlation Rules for APT
 
 ## When to Use

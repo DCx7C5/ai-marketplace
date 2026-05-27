@@ -1,22 +1,10 @@
 ---
 name: net-security-firewall
-description: Network segmentation divides a flat network into isolated security zones with firewall-enforced boundaries to contain breaches, restrict lateral movement, and enforce least-privilege access between workloads. Segmentation is a foundational control required by PCI DSS, HIPAA, NIST 800-53, and zero trust architectures. Modern segmentation combines tr
+description: "Net Security Firewall."
 domain: cybersecurity
 ---
----|-------------|----------|---------------|
-| **Internet** | None | Public internet | Default deny inbound |
-| **DMZ** | Low | Web servers, mail relays, DNS | Limited inbound, restricted outbound |
-| **Guest** | Low | Guest WiFi, visitor network | Internet only, no internal access |
-| **Corporate** | Medium | Employee workstations, printers | Controlled access to internal resources |
-| **Server/Data Center** | High | Application servers, databases | Strict ACLs, limited admin access |
-| **PCI CDE** | Critical | Payment systems, card data | PCI DSS compliant isolation |
-| **Management** | Critical | Network devices, hypervisors, IPMI | Highly restricted, jump box only |
-| **OT/SCADA** | Critical | Industrial control systems | Air-gapped or strictly firewalled |
 
-### Segmentation Approaches
-
-| Approach | Scope | Granularity | Use Case |
-|----------|-------|-------------|----------|
+-|
 | **VLAN Segmentation** | Layer 2 | Subnet-level | Department separation, guest isolation |
 | **Firewall Zones** | Layer 3-7 | Zone-to-zone | Inter-zone policy enforcement |
 | **ACLs on Routers** | Layer 3-4 | Subnet/port | Quick filtering at routing boundaries |

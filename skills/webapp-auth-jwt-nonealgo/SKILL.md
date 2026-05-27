@@ -1,8 +1,9 @@
 ---
 name: webapp-auth-jwt-nonealgo
-description: The JWT none algorithm attack exploits a vulnerability in JSON Web Token libraries that accept tokens with the `alg` header set to `none`, effectively bypassing signature verification. When a server processes a JWT with `"alg": "none"`, it treats the token as valid without checking any cryptographic signature, allowing attackers to forge tokens wit
+description: "- Invicti JWT Signature Bypass: https://www.invicti."
 domain: cybersecurity
 ---
+
 # Performing JWT None Algorithm Attack
 
 ## Overview

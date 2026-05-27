@@ -1,9 +1,10 @@
 ---
 name: identity-serviceaccount-sarotation
-description: Service accounts are non-human identities used by applications, daemons, CI/CD pipelines, and automated processes to authenticate to systems and APIs. These accounts often have elevated privileges and their credentials (passwords, API keys, certificates, tokens) are frequently long-lived and shared across teams, making them prime targets for attack
+description: "Identity Serviceaccount Sarotation."
 domain: cybersecurity
 ---
----|----------|-----------|-----------------|
+
+--|
 | Active Directory Service Account | Windows/AD | Password | gMSA (automatic) or PAM-managed |
 | AWS IAM User | AWS | Access Key/Secret Key | AWS Secrets Manager rotation Lambda |
 | GCP Service Account | GCP | JSON key file | Key rotation via IAM API |

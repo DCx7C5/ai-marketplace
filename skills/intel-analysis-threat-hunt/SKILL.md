@@ -1,9 +1,10 @@
 ---
 name: intel-analysis-threat-hunt
-description: Use this skill when: - Multiple unrelated-appearing incidents share IOCs (same C2 IP, same malware hash, similar TTPs) - An ISAC partner shares indicators from an incident that match your own historical events - Building a campaign report linking adversary activity over weeks or months to a single operation **Do not use** this skill to force correl
+description: "Intel Analysis Threat Hunt."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Campaign** | STIX object representing a grouping of adversarial behaviors with common objectives over a defined time period |
 | **Intrusion Set** | STIX object grouping related intrusion activity by common objectives, even when actor identity is uncertain |
 | **Pivot** | Using a single data point (IOC, infrastructure, TTP) to discover related events or adversary artifacts |

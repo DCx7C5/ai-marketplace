@@ -1,9 +1,10 @@
 ---
 name: net-firewall-ngfw-recover
-description: Palo Alto Networks Next-Generation Firewalls (NGFWs) move beyond traditional port-based rule enforcement to application-aware, identity-driven security policies. By leveraging App-ID for traffic classification, User-ID for identity-based enforcement, Content-ID for threat inspection, and SSL decryption for encrypted traffic visibility, organization
+description: "Net Firewall Ngfw Recover."
 domain: cybersecurity
 ---
----|---------|-------------|
+
+-|
 | Trust | Internal corporate LAN | High |
 | Untrust | Internet-facing | None |
 | DMZ | Public-facing servers | Medium |

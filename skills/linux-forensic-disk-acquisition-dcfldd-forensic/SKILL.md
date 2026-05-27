@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-disk-acquisition-dcfldd-forensic
-description: - When you need to create a forensic copy of a suspect drive for investigation - During incident response when preserving volatile disk evidence before analysis - When law enforcement or legal proceedings require a verified bit-for-bit copy - Before performing any destructive analysis on a storage device - When acquiring images from physical drives
+description: "Linux Forensic Disk Acquisition Dcfldd Forensic."
 domain: cybersecurity
 ---
-------|-------------|
-| Bit-for-bit copy | Exact replica of source including unallocated space and slack space |
-| Write blocker | Hardware or software mechanism preventing writes to evidence media |
-| Hash verification | Cryptographic hash comparing source and image to prove integrity |
-| Block size (bs) | Transfer chunk size affecting speed; 4096 or 64K typical for forensics |
-| conv=noerror,sync | Continue on read errors and pad with zeros to maintain offset alignment |
-| Chain of custody | Documented trail proving evidence has not been tampered with |
-| Split imaging | Breaking large images into smaller files for storage and transport |
-| Raw/dd format | Bit-for-bit image format without metadata container overhead |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | dd | Standard Unix disk duplication utility for raw imaging |
 | dcfldd | DoD Computer Forensics Laboratory enhanced version of dd with hashing |
 | dc3dd | Another forensic dd variant from the DoD Cyber Crime Center |

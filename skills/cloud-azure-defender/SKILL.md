@@ -1,9 +1,10 @@
 ---
 name: cloud-azure-defender
-description: - When enabling comprehensive security monitoring across Azure subscriptions - When implementing cloud workload protection for VMs, containers, SQL, storage, and Key Vault - When compliance requirements demand continuous assessment against regulatory frameworks - When building adaptive security controls that respond to detected threats - When centr
+description: "Cloud Azure Defender."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Microsoft Defender for Cloud | Azure-native security platform providing CSPM and cloud workload protection (CWP) across Azure, hybrid, and multi-cloud environments |
 | Secure Score | Numerical measure of an organization's security posture based on the percentage of security recommendations that have been implemented |
 | Security Recommendation | Actionable guidance from Defender for Cloud to improve security posture, prioritized by severity and secure score impact |

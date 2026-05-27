@@ -1,81 +1,10 @@
 ---
 name: identity-pam-privileged
-description: Privileged Account Access Review is a critical identity governance process that validates whether users with elevated permissions still require their access. This review covers domain admins, service accounts, database administrators, cloud IAM roles, and application-level privileged accounts. Regular access reviews are mandated by SOC 2, PCI DSS, 
+description: "Identity Pam Privileged."
 domain: cybersecurity
 ---
--------|----------|------------|-----------------|
-| Domain Admins | Enterprise Admin, Domain Admin, Schema Admin | Critical | Monthly |
-| Service Accounts | SQL service, backup agents, monitoring agents | High | Quarterly |
-| Cloud IAM | AWS root, Azure Global Admin, GCP Owner | Critical | Monthly |
-| Database Admin | DBA accounts, sa/sys accounts | High | Quarterly |
-| Application Admin | App admin roles, API keys with admin scope | Medium | Semi-annually |
-| Emergency/Break-glass | Firecall accounts, emergency access | Critical | After each use |
 
-### Four-Pillar Review Framework
-
-```
-DISCOVER                    VALIDATE                    REMEDIATE                 MONITOR
-    │                           │                           │                       │
-    ├─ Enumerate all            ├─ Verify business          ├─ Remove excess        ├─ Continuous
-    │  privileged accounts      │  justification            │  privileges           │  monitoring
-    │                           │                           │                       │
-    ├─ Identify orphaned        ├─ Confirm account          ├─ Disable orphaned     ├─ Anomaly
-    │  accounts                 │  ownership                │  accounts             │  detection
-    │                           │                           │                       │
-    ├─ Map permissions to       ├─ Check compliance         ├─ Enforce password     ├─ Session
-    │  business roles           │  with policies            │  rotation             │  recording
-    │                           │                           │                       │
-    └─ Classify by risk         └─ Review last usage        └─ Implement JIT        └─ Audit
-       level                       and activity                access                  logging
-```
-
-## Workflow
-
-### Step 1: Account Discovery and Inventory
-
-Enumerate all privileged accounts across the environment:
-
-**Active Directory:**
-- Domain Admins, Enterprise Admins, Schema Admins groups
-- Accounts with AdminCount=1 attribute
-- Service accounts with SPN (Service Principal Names)
-- Accounts with delegation rights (Unconstrained/Constrained)
-
-**Cloud Platforms:**
-- AWS: IAM users/roles with AdministratorAccess, PowerUserAccess, or `iam:*` permissions
-- Azure: Global Administrator, Privileged Role Administrator, Security Administrator roles
-- GCP: Owner, Editor roles at organization/project level
-
-**Databases:**
-- SQL Server: sysadmin, db_owner, securityadmin fixed roles
-- Oracle: DBA, SYSDBA, SYSOPER privileges
-- PostgreSQL: superuser, createrole, createdb attributes
-
-### Step 2: Establish Review Criteria
-
-Each privileged account must be evaluated against:
-
-1. **Business Justification**: Does the user's current role require this privilege?
-2. **Least Privilege**: Can the task be performed with lower privileges?
-3. **Account Activity**: Has the account been active in the last 90 days?
-4. **Compliance Status**: Does the account meet password policy, MFA requirements?
-5. **Separation of Duties**: Does the access create SoD conflicts?
-6. **Ownership**: Is a responsible owner assigned and active?
-
-### Step 3: Conduct the Review
-
-For each account, the designated reviewer must:
-
-1. Review the account details, permissions, and last activity date
-2. Approve (certify) the access if still required with documented justification
-3. Revoke access if no longer needed or the reviewer cannot justify the privilege
-4. Flag for investigation if anomalous activity or policy violations are detected
-5. Escalate if the reviewer cannot make a determination
-
-Decision matrix:
-
-| Condition | Action |
-|-----------|--------|
+--|
 | Active user, justified privilege | Certify - maintain access |
 | Active user, excessive privilege | Remediate - reduce to least privilege |
 | Inactive > 90 days | Disable account, notify owner |

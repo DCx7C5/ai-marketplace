@@ -1,8 +1,9 @@
 ---
 name: linux-forensic-mem-analysis-siem-integration-detect
-description: - When performing authorized security testing that involves extracting memory artifacts with rekall - When analyzing malware samples or attack artifacts in a controlled environment - When conducting red team exercises or penetration testing engagements - When building detection capabilities based on offensive technique understanding
+description: "pslist_pids = set(p.pid for p in s.plugins.pslist()) psscan_pids = set(p."
 domain: cybersecurity
 ---
+
 # Extracting Memory Artifacts with Rekall
 
 ## When to Use

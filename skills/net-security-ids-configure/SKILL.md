@@ -1,24 +1,10 @@
 ---
 name: net-security-ids-configure
-description: Network scanning is typically the first phase of an attack, where adversaries enumerate live hosts, open ports, running services, and OS versions using tools like Nmap, Masscan, ZMap, and custom scanners. Detecting this reconnaissance activity provides early warning of potential attacks. IDS/IPS systems like Suricata and Snort can identify scanning
+description: "| | Paranoid | `-T0` | 1 probe/5 min | Very difficult | | Sneaky | `-T1` | 1 probe/15 sec | Difficult | | Polite | `-T2` | 1 probe/0."
 domain: cybersecurity
 ---
---------|-----------|----------------------|------------------|
-| **TCP SYN** | `-sS` | SYN flag only, no completion | SYN without SYN/ACK response pattern |
-| **TCP Connect** | `-sT` | Full 3-way handshake | Multiple connections from single source |
-| **TCP FIN** | `-sF` | FIN flag only | FIN to closed port (RST response) |
-| **TCP Xmas** | `-sX` | FIN+PSH+URG flags | Unusual flag combination |
-| **TCP NULL** | `-sN` | No flags set | Zero-flag TCP packet |
-| **UDP Scan** | `-sU` | UDP to many ports | ICMP port unreachable responses |
-| **ACK Scan** | `-sA` | ACK flag only (firewall probing) | Unsolicited ACK packets |
-| **SYN/ACK Scan** | Custom | SYN+ACK without prior SYN | State violation |
-| **OS Fingerprint** | `-O` | Unusual TCP options/window sizes | Specific option combinations |
-| **Version Detect** | `-sV` | Service probe strings | Known probe payloads |
 
-### Nmap Timing Templates
-
-| Template | Nmap Flag | Speed | Detection Difficulty |
-|----------|-----------|-------|---------------------|
+|
 | Paranoid | `-T0` | 1 probe/5 min | Very difficult |
 | Sneaky | `-T1` | 1 probe/15 sec | Difficult |
 | Polite | `-T2` | 1 probe/0.4 sec | Moderate |

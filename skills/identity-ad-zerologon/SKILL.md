@@ -1,9 +1,10 @@
 ---
 name: identity-ad-zerologon
-description: Zerologon (CVE-2020-1472) is a critical elevation of privilege vulnerability (CVSS 10.0) in the Microsoft Netlogon Remote Protocol (MS-NRPC). The flaw exists in the cryptographic implementation of AES-CFB8 mode, where the initialization vector (IV) is incorrectly set to all zeros. This allows an unauthenticated attacker with network access to a dom
+description: "-| | T1068        | Exploitation for Privilege Escalation | Privilege Escalation | | T1210        | Exploitation of Remote Services       | Lateral Movement     | | T1003."
 domain: cybersecurity
 ---
------------|---------------------------------------|----------------------|
+
+-|
 | T1068        | Exploitation for Privilege Escalation | Privilege Escalation |
 | T1210        | Exploitation of Remote Services       | Lateral Movement     |
 | T1003.006    | OS Credential Dumping: DCSync         | Credential Access    |

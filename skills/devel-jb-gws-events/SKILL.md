@@ -1,9 +1,10 @@
 ---
 name: devel-jb-gws-events
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "-| | [`+subscribe`](../gws-events-subscribe/SKILL.md) | Subscribe to Workspace events and stream them as NDJSON | | [`+renew`](."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | [`+subscribe`](../gws-events-subscribe/SKILL.md) | Subscribe to Workspace events and stream them as NDJSON |
 | [`+renew`](../gws-events-renew/SKILL.md) | Renew/reactivate Workspace Events subscriptions |
 

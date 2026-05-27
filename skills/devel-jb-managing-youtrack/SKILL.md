@@ -1,8 +1,9 @@
 ---
 name: devel-jb-managing-youtrack
-description: - NEVER use pipes after curl commands to parse the output, do that in a separate tool call.
+description: "- Comment: `$YOUTRACK_URL/issue/<idReadable>#focus=Comments-<COMMENT_ID>` - Drafts have no web URL."
 domain: cybersecurity
 ---
+
 # YouTrack REST API
 
 ## Setup (minimal)

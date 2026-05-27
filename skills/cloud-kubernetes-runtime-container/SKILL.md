@@ -1,9 +1,10 @@
 ---
 name: cloud-kubernetes-runtime-container
-description: Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators such as namespace manipulation, capability abuse, kernel exploits, mounted sensitive paths, and anomalous syscall patterns using runtime security tool
+description: "Cloud Kubernetes Runtime Container."
 domain: cybersecurity
 ---
------|-----------|----------|
+
+-|
 | Privileged containers | Mount host filesystem, load kernel modules | T1611 |
 | Docker socket mount | Create privileged container from within | T1610 |
 | Kernel exploits | CVE-2022-0185 (fsconfig), Dirty Pipe, runc CVEs | T1068 |

@@ -1,9 +1,10 @@
 ---
 name: intel-analysis-cyber
-description: Use this skill when: - Conducting post-incident analysis to determine how far an adversary progressed through an attack sequence - Designing layered defensive controls with the goal of interrupting attacks at the earliest possible phase - Producing threat intelligence reports that communicate attack progression to non-technical stakeholders **Do no
+description: "Intel Analysis Cyber."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Kill Chain** | Sequential model of adversary intrusion phases; breaking any link theoretically stops the attack |
 | **Courses of Action (COA)** | Defensive responses mapped to each kill chain phase: detect, deny, disrupt, degrade, deceive, destroy |
 | **Beaconing** | Regular, periodic C2 check-in pattern from compromised host to adversary server; detectable by frequency analysis |

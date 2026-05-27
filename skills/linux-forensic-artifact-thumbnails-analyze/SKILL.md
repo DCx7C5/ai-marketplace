@@ -1,7 +1,9 @@
 ---
 name: linux-forensic-artifact-thumbnails-analyze
-description: Analyze thumbnail cache artifacts for forensic investigation — extract GNOME/KDE thumbnail databases to recover deleted image evidence and reconstruct accessed file history.
+description: "subdomain: forensic-analysis tags: - linux - thumbnails - cache - artifact - forensics nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: forensic-analysis
 tags:
 - linux

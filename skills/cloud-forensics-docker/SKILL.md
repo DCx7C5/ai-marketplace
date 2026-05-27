@@ -1,22 +1,10 @@
 ---
 name: cloud-forensics-docker
-description: - When investigating a compromised Docker container or container host - For analyzing malicious Docker images pulled from registries - During incident response involving containerized application breaches - When examining container escape attempts or privilege escalation - For auditing container configurations and identifying misconfigurations
+description: "Cloud Forensics Docker."
 domain: cybersecurity
 ---
-------|-------------|
-| Image layers | Read-only filesystem layers stacked to form the container image |
-| overlay2 | Default Docker storage driver using union filesystem for layers |
-| Container diff | Comparison of runtime filesystem changes against the original image |
-| Privileged mode | Container with full host capabilities (bypasses most isolation) |
-| Docker socket | Unix socket (/var/run/docker.sock) controlling the Docker daemon |
-| Container escape | Technique for breaking out of container isolation to the host |
-| Volume mounts | Host filesystem paths made accessible inside the container |
-| Image history | Record of Dockerfile instructions used to build each layer |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | docker inspect | Detailed container configuration and state information |
 | docker diff | Show filesystem changes made in a running/stopped container |
 | dive | Interactive Docker image layer analysis tool |

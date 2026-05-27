@@ -1,8 +1,9 @@
 ---
 name: net-flow-net
-description: - When investigating security incidents that require analyzing network flow data with netflow - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+description: "print(flow.IPV4_SRC_ADDR, flow.IPV4_DST_ADDR, flow."
 domain: cybersecurity
 ---
+
 # Analyzing Network Flow Data with Netflow
 
 ## When to Use

@@ -1,18 +1,9 @@
 ---
 name: intel-analysis-landscape
-description: A sector-specific threat landscape assessment analyzes the cyber threat environment facing a particular industry vertical (healthcare, financial services, energy, government, manufacturing) by examining which threat actors target the sector, their preferred attack vectors and TTPs, common vulnerabilities exploited, historical incident data, and eme
+description: "-|"
 domain: cybersecurity
 ---
-----|-----------|------------|-----------|
-"""
-    for actor in data["threat_actors"]:
-        report += (f"| {actor['name']} | {actor['attack_id']} "
-                   f"| {actor['technique_count']} | {actor['description'][:60]}... |\n")
-
-    report += f"""
-## Most Common Techniques
-| Rank | Technique | Name | Groups Using |
-|------|-----------|------|-------------|
+-|
 """
     for i, tech in enumerate(data.get("common_techniques", [])[:15], 1):
         actors = ", ".join(tech["actors_using"][:3])

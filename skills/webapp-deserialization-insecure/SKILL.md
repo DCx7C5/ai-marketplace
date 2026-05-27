@@ -1,21 +1,10 @@
 ---
 name: webapp-deserialization-insecure
-description: - During authorized penetration tests when applications process serialized data (cookies, API parameters, message queues) - When identifying Java serialization markers (`ac ed 00 05` / `rO0AB`) in HTTP traffic - For testing PHP applications that use `unserialize()` on user-controlled input - When evaluating .NET applications using `BinaryFormatter`
+description: "| | **ysoserial** | Java deserialization payload generator with multiple gadget chains | | **ysoserial."
 domain: cybersecurity
 ---
-------|-------------|
-| **Serialization** | Converting an object into a byte stream for storage or transmission |
-| **Deserialization** | Reconstructing an object from a byte stream, potentially executing code |
-| **Gadget Chain** | A sequence of existing class methods chained together to achieve arbitrary code execution |
-| **Magic Methods** | Special methods called automatically during deserialization (`__wakeup`, `__destruct` in PHP, `readObject` in Java) |
-| **ViewState** | ASP.NET mechanism for persisting page state, often containing serialized objects |
-| **Pickle** | Python's native serialization format, inherently unsafe for untrusted data |
-| **URLDNS Gadget** | A Java gadget that triggers DNS lookup, useful for safe deserialization detection |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | **ysoserial** | Java deserialization payload generator with multiple gadget chains |
 | **ysoserial.net** | .NET deserialization payload generator |
 | **PHPGGC** | PHP Generic Gadget Chains for multiple frameworks |

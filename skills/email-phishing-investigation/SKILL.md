@@ -1,9 +1,10 @@
 ---
 name: email-phishing-investigation
-description: Use this skill when: - A user reports a suspicious email via the phishing report button or helpdesk ticket - Email security gateway flags a message that bypassed initial filters - Automated detection identifies credential harvesting URLs or malicious attachments - A phishing campaign targeting the organization requires scope assessment **Do not use
+description: "Email Phishing Investigation."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **SPF (Sender Policy Framework)** | DNS TXT record specifying which mail servers are authorized to send on behalf of a domain |
 | **DKIM** | DomainKeys Identified Mail — cryptographic signature proving email content was not altered in transit |
 | **DMARC** | Domain-based Message Authentication, Reporting and Conformance — policy combining SPF and DKIM alignment |

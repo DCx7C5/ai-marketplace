@@ -1,8 +1,9 @@
 ---
 name: devel-jb-internal-comms
-description: To write internal communications, use this skill for:
+description: "If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format."
 domain: cybersecurity
 ---
+
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

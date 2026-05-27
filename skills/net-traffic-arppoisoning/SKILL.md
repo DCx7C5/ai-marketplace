@@ -1,9 +1,10 @@
 ---
 name: net-traffic-arppoisoning
-description: ARP poisoning (ARP spoofing) is a Layer 2 attack where an adversary sends falsified ARP messages to associate their MAC address with the IP address of a legitimate host, enabling man-in-the-middle (MitM) interception, session hijacking, or denial of service. Since ARP has no built-in authentication mechanism, any device on a broadcast domain can fo
+description: "Net Traffic Arppoisoning."
 domain: cybersecurity
 ---
---------|-------------|----------|
+
+-|
 | MAC flip-flopping | Same IP mapped to different MACs rapidly | High |
 | Gratuitous ARP flood | Unsolicited ARP replies targeting multiple hosts | High |
 | Duplicate IP address | Two different MACs claiming same IP | Critical |

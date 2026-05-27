@@ -1,8 +1,9 @@
 ---
 name: webapp-api-broken
-description: Broken Object Property Level Authorization (BOPLA), classified as API3:2023 in the OWASP API Security Top 10, combines two related vulnerability classes: Excessive Data Exposure (API returning more data than needed) and Mass Assignment (API accepting more data than intended). Even when APIs enforce object-level authorization correctly, they may fai
+description: "- API Security News BOPLA: https://apisecurity.io/owasp-api-security-top-10/api3-2023-broken-object-property-level-authorization/ - CloudDefense BOPLA: https://www."
 domain: cybersecurity
 ---
+
 # Detecting Broken Object Property Level Authorization
 
 ## Overview

@@ -1,9 +1,10 @@
 ---
 name: devel-jb-gws-chat
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "-| | [`+send`](../gws-chat-send/SKILL.md) | Send a message to a space |  ## API Resources  ### customEmojis    - `create` — Creates a custom emoji."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | [`+send`](../gws-chat-send/SKILL.md) | Send a message to a space |
 
 ## API Resources

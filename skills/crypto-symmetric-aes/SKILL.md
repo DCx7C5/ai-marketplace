@@ -1,9 +1,10 @@
 ---
 name: crypto-symmetric-aes
-description: AES (Advanced Encryption Standard) is a symmetric block cipher standardized by NIST (FIPS 197) used to protect classified and sensitive data. This skill covers implementing AES-256 encryption in GCM mode for encrypting files and data stores at rest, including proper key derivation, IV/nonce management, and authenticated encryption.
+description: "Crypto Symmetric Aes."
 domain: cybersecurity
 ---
----|---------------|----------------|----------|
+
+-|
 | GCM  | Yes (AEAD)    | Yes            | Network data, file encryption |
 | CBC  | No            | Decrypt only   | Legacy systems, disk encryption |
 | CTR  | No            | Yes            | Streaming encryption |

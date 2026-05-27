@@ -1,9 +1,10 @@
 ---
 name: offensive-fuzzing-course
-description: _created by AnotherOne from @Pwn3rzs Telegram channel_. This document is Week 2 of a multi‑week exploit development course, focusing on discovering vulnerabilities through fuzzing techniques and analyzing the crashes to determine exploitability. Last week we studied vulnerability classes through real-world examples. This week we'll learn to find th
+description: "Offensive Fuzzing Course."
 domain: cybersecurity
 ---
------------------ | ------------------------- | ----------------- |
+
+-- |
 | Total connections    | Billions                  | 0 (pure fuzzing)  |
 | Unique inputs tested | ~1,000 (typical sites)    | Trillions         |
 | Edge cases covered   | <1%                       | >90%              |

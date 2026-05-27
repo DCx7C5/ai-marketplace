@@ -1,8 +1,9 @@
 ---
 name: identity-kerberos-pttdetect
-description: Pass-the-Ticket (PtT) is a credential theft technique (MITRE ATT&CK T1550.003) where adversaries steal Kerberos tickets (TGT or TGS) from one system and replay them on another to authenticate without knowing the user's password. This skill teaches detection of PtT attacks by correlating Windows Security Event IDs 4768 (TGT request), 4769 (TGS reque
+description: "JSON report containing detected PtT indicators including anomalous ticket requests, RC4 downgrades, cross-host ticket reuse events, and risk-scored users with MITRE ATT&CK technique mapping."
 domain: cybersecurity
 ---
+
 # Detecting Pass-the-Ticket Attacks
 
 ## Overview

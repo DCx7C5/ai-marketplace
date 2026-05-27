@@ -1,8 +1,9 @@
 ---
 name: offensive-osint-methodology
-description: - Fake account that cannot be linked to you
+description: "- [Hive Moderation](https://hivemoderation.com/)   - [Reality Defender](https://realitydefender."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # OSINT Methodology

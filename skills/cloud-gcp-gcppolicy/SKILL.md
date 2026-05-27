@@ -1,9 +1,10 @@
 ---
 name: cloud-gcp-gcppolicy
-description: The GCP Organization Policy Service provides centralized and programmatic control over cloud resources. Organization policies configure constraints that restrict one or more Google Cloud services, enforced at organization, folder, or project levels. They improve security by blocking external IPs, requiring encryption, and minimizing unauthorized ac
+description: "| | compute.vmExternalIpAccess | List/Deny | Org | Prevent public VM IPs | | gcp."
 domain: cybersecurity
 ---
---------|------|-------|---------|
+
+|
 | compute.vmExternalIpAccess | List/Deny | Org | Prevent public VM IPs |
 | gcp.resourceLocations | List/Allow | Org | Restrict to approved regions |
 | iam.disableServiceAccountKeyCreation | Boolean | Org | Force Workload Identity |

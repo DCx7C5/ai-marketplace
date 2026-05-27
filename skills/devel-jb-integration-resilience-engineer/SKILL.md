@@ -1,8 +1,9 @@
 ---
 name: devel-jb-integration-resilience-engineer
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-12`).
+description: "A bad run adds retries and circuit breakers everywhere while increasing duplication, latency, and operational confusion."
 domain: cybersecurity
 ---
+
 # Integration Resilience Engineer
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-12`).

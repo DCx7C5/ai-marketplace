@@ -1,23 +1,10 @@
 ---
 name: net-flow-beaconing
-description: - When proactively searching for compromised endpoints calling back to C2 infrastructure - After threat intelligence reports indicate active C2 frameworks targeting your sector - When network logs show periodic outbound connections to unfamiliar destinations - During purple team exercises validating C2 detection capabilities - When investigating a 
+description: "Net Flow Beaconing."
 domain: cybersecurity
 ---
-------|-------------|
-| T1071.001 | Application Layer Protocol: Web Protocols -- HTTP/HTTPS beaconing |
-| T1071.004 | Application Layer Protocol: DNS -- DNS-based C2 tunneling |
-| T1573 | Encrypted Channel -- TLS/SSL encrypted C2 communication |
-| T1568.002 | Dynamic Resolution: Domain Generation Algorithms |
-| Coefficient of Variation | Standard deviation divided by mean; values below 0.20 indicate periodicity |
-| Jitter | Random variation added to beacon interval to evade detection |
-| RITA Beacon Score | Composite score from connection regularity, data size consistency, and connection count |
-| JA3/JA4 Fingerprinting | TLS client fingerprinting to identify C2 framework signatures |
-| Fast-Flux DNS | Rapidly changing DNS resolution used to protect C2 infrastructure |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | RITA (Real Intelligence Threat Analytics) | Automated beacon scoring from Zeek logs |
 | AC-Hunter | Commercial threat hunting platform with beacon detection |
 | Splunk | SPL-based statistical beacon analysis with streamstats |

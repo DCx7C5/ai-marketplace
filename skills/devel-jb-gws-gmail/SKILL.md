@@ -1,9 +1,10 @@
 ---
 name: devel-jb-gws-gmail
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "-| | [`+send`](../gws-gmail-send/SKILL.md) | Send an email | | [`+triage`](."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | [`+send`](../gws-gmail-send/SKILL.md) | Send an email |
 | [`+triage`](../gws-gmail-triage/SKILL.md) | Show unread inbox summary (sender, subject, date) |
 | [`+reply`](../gws-gmail-reply/SKILL.md) | Reply to a message (handles threading automatically) |

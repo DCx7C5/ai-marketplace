@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-disk-analysis-slack-recover
-description: - When searching for hidden or residual data in file system slack space - For analyzing NTFS Master File Table (MFT) entries for deleted file metadata - When reconstructing file operations from the USN Change Journal - For detecting Alternate Data Streams (ADS) used to hide data or malware - During deep forensic analysis requiring examination beyon
+description: "Linux Forensic Disk Analysis Slack Recover."
 domain: cybersecurity
 ---
-------|-------------|
-| File slack | Unused space between file end and cluster boundary containing residual data |
-| RAM slack | Portion of slack from file end to sector boundary (historically filled with RAM) |
-| MFT ($MFT) | Master File Table - NTFS metadata database with entries for every file |
-| USN Journal ($UsnJrnl) | Change journal recording all file/directory modifications on NTFS |
-| Alternate Data Streams | NTFS feature allowing multiple data streams per file (hidden storage) |
-| $STANDARD_INFORMATION | MFT attribute with timestamps modifiable by user-mode applications |
-| $FILE_NAME | MFT attribute with timestamps only modifiable by the kernel |
-| Timestomping | Anti-forensic technique modifying file timestamps to avoid detection |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | MFTECmd | Eric Zimmerman MFT and USN Journal parser with CSV output |
 | MFTExplorer | Interactive GUI tool for MFT analysis |
 | analyzeMFT | Python MFT parser with CSV/JSON output |

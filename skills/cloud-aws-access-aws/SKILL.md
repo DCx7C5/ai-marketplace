@@ -1,38 +1,10 @@
 ---
 name: cloud-aws-access-aws
-description: AWS Verified Access is a Zero Trust Network Access (ZTNA) service that provides secure, VPN-less access to corporate applications hosted in AWS. It evaluates each access request in real-time against granular conditional access policies written in the Cedar policy language, ensuring access is granted per-application only when specific security requi
+description: "--+ ```  ## Core Components  ### Verified Access Instance  The regional entity that evaluates access requests against policies."
 domain: cybersecurity
 ---
----+--------+
-  | Verified      |
-  | Access        |
-  | Endpoint      |
-  | (Public DNS)  |
-  +------+--------+
-         |
-  +------+--------+
-  | Verified      |  <-- Cedar Access Policies
-  | Access        |  <-- Identity Provider Signals
-  | Instance      |  <-- Device Trust Signals
-  | (Policy       |
-  |  Evaluation)  |
-  +------+--------+
-         |
-  +------+--------+
-  | Verified      |
-  | Access Group  |
-  | (App Group)   |
-  +------+--------+
-         |
-  +------+--------+
-  | Internal ALB  |
-  | or ENI Target |
-  +------+--------+
-         |
-  +------+--------+
-  | Application   |
-  | (Private VPC) |
-  +--------------+
+
+--+
 ```
 
 ## Core Components

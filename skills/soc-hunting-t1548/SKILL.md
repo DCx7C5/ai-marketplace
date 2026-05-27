@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-t1548
-description: - When hunting for privilege escalation via UAC bypass in Windows environments - After threat intelligence indicates use of UAC bypass exploits by active threat groups - When investigating how attackers achieved administrative access without triggering UAC prompts - During security assessments to validate UAC bypass detection coverage - When monito
+description: "-| | T1548.002 | Bypass User Account Control | | T1548."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | T1548.002 | Bypass User Account Control |
 | T1548.001 | Setuid and Setgid (Linux) |
 | T1548.003 | Sudo and Sudo Caching |

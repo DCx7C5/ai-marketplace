@@ -1,9 +1,10 @@
 ---
 name: net-traffic-maltraffic
-description: - Sandbox execution has captured a PCAP file and the network behavior needs detailed analysis - Identifying the C2 protocol structure for writing network detection signatures - Determining what data the malware exfiltrates and to which external infrastructure - Analyzing DNS tunneling, domain generation algorithms (DGA), or fast-flux behavior - Cre
+description: "Net Traffic Maltraffic."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Beaconing** | Regular periodic connections from malware to C2 server, identifiable by consistent time intervals and packet sizes |
 | **JA3/JA3S** | TLS fingerprinting method creating a hash from ClientHello/ServerHello parameters to uniquely identify malware TLS implementations |
 | **DGA (Domain Generation Algorithm)** | Algorithm generating pseudo-random domain names that malware queries to locate C2 servers, evading static domain blocklists |

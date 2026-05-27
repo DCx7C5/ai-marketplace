@@ -1,7 +1,9 @@
 ---
 name: linux-svc-cron-job-backdoor-detect
-description: Detect cron job backdoors — enumerate all crontab locations (/etc/cron*, /var/spool/cron), identify unusual jobs, detect cron file modification, and audit cron permissions.
+description: "subdomain: persistence-detection tags: - linux - cron - crontab - backdoor - persistence nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: persistence-detection
 tags:
 - linux

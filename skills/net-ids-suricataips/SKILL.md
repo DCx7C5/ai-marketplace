@@ -1,56 +1,8 @@
 ---
 name: net-ids-suricataips
-description: Suricata is a high-performance, open-source network threat detection engine developed by the Open Information Security Foundation (OISF). It functions as an IDS (Intrusion Detection System), IPS (Intrusion Prevention System), and network security monitoring tool. Suricata performs deep packet inspection using extensive rule sets, protocol analysis,
+description: "vars:"
 domain: cybersecurity
 ---
----|----------|-----------------|
-| IDS (AF_PACKET) | Passive monitoring, alert-only | TAP/SPAN mirror |
-| IPS (NFQUEUE) | Inline blocking via netfilter | In traffic path |
-| IPS (AF_PACKET) | Inline blocking via AF_PACKET | Bridge between interfaces |
-| Offline (PCAP) | Analyze captured traffic files | N/A |
-
-### Rule Anatomy
-
-Suricata rules follow a structured format:
-
-```
-action protocol src_ip src_port -> dst_ip dst_port (rule_options;)
-```
-
-- **Action**: `alert`, `pass`, `drop`, `reject`, `rejectsrc`, `rejectdst`, `rejectboth`
-- **Protocol**: `tcp`, `udp`, `icmp`, `ip`, `http`, `tls`, `dns`, `smtp`, `ftp`
-- **Direction**: `->` (unidirectional), `<>` (bidirectional)
-
-### Rule Categories
-
-- **Emerging Threats Open** - Community-maintained, free ruleset with broad coverage
-- **ET Pro** - Commercial ruleset from Proofpoint with enhanced coverage
-- **Suricata Traffic ID** - Application identification rules
-- **Custom Rules** - Organization-specific detections
-
-## Workflow
-
-### Step 1: Install Suricata
-
-```bash
-# Add Suricata PPA (Ubuntu)
-sudo add-apt-repository ppa:oisf/suricata-stable
-sudo apt-get update
-sudo apt-get install -y suricata suricata-update
-
-# Verify installation
-suricata --build-info
-suricata -V
-```
-
-### Step 2: Configure Suricata for IPS Mode
-
-Edit `/etc/suricata/suricata.yaml`:
-
-```yaml
-%YAML 1.1
----
-
 vars:
   address-groups:
     HOME_NET: "[10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"

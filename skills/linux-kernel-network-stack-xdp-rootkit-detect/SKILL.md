@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-network-stack-xdp-rootkit-detect
-description: Detect XDP (eXpress Data Path) based rootkits — identify malicious XDP programs attached to network interfaces that silently drop or redirect traffic.
+description: "subdomain: kernel-forensics tags: - linux - xdp - ebpf - rootkit - network nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-forensics
 tags:
 - linux

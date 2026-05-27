@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-gitleaks
-description: - When developers may accidentally commit API keys, passwords, tokens, or private keys to repositories - When establishing pre-commit gates that prevent secrets from entering the git history - When scanning existing repository history for previously committed secrets that need rotation - When compliance requirements mandate secret detection across 
+description: "Cloud Devsecops Gitleaks."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Secret | Any credential, token, key, or sensitive string that should not appear in source code |
 | Pre-commit Hook | Git hook that runs before a commit is created, blocking commits containing detected secrets |
 | Entropy | Measure of randomness in a string; high-entropy strings are more likely to be secrets |

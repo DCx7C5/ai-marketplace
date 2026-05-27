@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-syscall-ptrace-abuse-detect
-description: Detect ptrace syscall abuse beyond process injection — unauthorized debugger attachment, credential scraping from traced processes, and ptrace-based sandbox escape.
+description: "subdomain: kernel-security tags: - linux - ptrace - syscall - abuse - sandbox-escape nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

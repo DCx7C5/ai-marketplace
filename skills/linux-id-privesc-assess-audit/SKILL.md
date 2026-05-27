@@ -1,9 +1,10 @@
 ---
 name: linux-id-privesc-assess-audit
-description: - After gaining initial low-privilege access during a penetration test to demonstrate full system compromise - Assessing the security hardening of Linux and Windows servers against local privilege escalation attacks - Evaluating whether endpoint detection and response (EDR) tools detect common privilege escalation techniques - Testing the effective
+description: "Linux Id Privesc Assess Audit."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **SUID Binary** | A Linux binary with the Set User ID bit enabled, which executes with the file owner's privileges (typically root) regardless of who runs it |
 | **SeImpersonatePrivilege** | A Windows privilege that allows a process to impersonate another user's security token, commonly abused by service accounts to escalate to SYSTEM |
 | **Kernel Exploit** | An exploit targeting a vulnerability in the operating system kernel to gain ring-0 or root/SYSTEM-level access |

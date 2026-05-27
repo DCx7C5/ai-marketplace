@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-wmilateral
-description: Windows Management Instrumentation (WMI) is commonly abused for lateral movement via `wmic process call create` or Win32_Process.Create() to execute commands on remote hosts. Detection focuses on identifying WmiPrvSE.exe spawning child processes (cmd.exe, powershell.exe) in Windows Security Event ID 4688 and Sysmon Event ID 1 logs, along with WMI-A
+description: "JSON report with WMI-spawned processes, suspicious command lines, WMI event subscription alerts, and timeline of lateral movement activity."
 domain: cybersecurity
 ---
+
 # Hunting for Lateral Movement via WMI
 
 ## Overview

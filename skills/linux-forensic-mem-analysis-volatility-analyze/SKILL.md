@@ -1,9 +1,10 @@
 ---
 name: linux-forensic-mem-analysis-volatility-analyze
-description: - A compromised system's RAM has been captured and needs forensic analysis for malware artifacts - Detecting fileless malware that exists only in memory without persistent disk artifacts - Extracting encryption keys, passwords, or decrypted configuration from process memory - Identifying process injection, DLL injection, or process hollowing in a c
+description: "Linux Forensic Mem Analysis Volatility Analyze."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Memory Forensics** | Analysis of volatile memory (RAM) contents to identify running processes, network connections, and in-memory artifacts that may not exist on disk |
 | **Process Hollowing** | Malware technique of creating a legitimate process in suspended state, replacing its memory with malicious code, then resuming execution |
 | **Malfind** | Volatility plugin detecting injected code by identifying memory regions with executable permissions and PE headers in non-image VADs |

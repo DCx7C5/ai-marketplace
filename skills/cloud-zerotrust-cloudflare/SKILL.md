@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-cloudflare
-description: - When replacing VPN infrastructure with identity-aware application access using Cloudflare One - When exposing self-hosted internal applications through Cloudflare Tunnel without opening inbound ports - When implementing ZTNA for a distributed workforce accessing web applications, SSH, and RDP services - When needing a cost-effective zero trust so
+description: "Cloud Zerotrust Cloudflare."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Cloudflare Tunnel | Encrypted outbound-only connection from your infrastructure to Cloudflare's network, exposing internal services without opening inbound firewall ports |
 | Cloudflare Access | Identity-aware reverse proxy evaluating every request against access policies before granting access to protected applications |
 | WARP Client | Cloudflare's endpoint agent that routes device traffic through Cloudflare's network for policy enforcement and private network access |

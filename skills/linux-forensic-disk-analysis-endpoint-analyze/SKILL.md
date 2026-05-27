@@ -1,9 +1,10 @@
 ---
 name: linux-forensic-disk-analysis-endpoint-analyze
-description: Use this skill when: - Investigating a confirmed or suspected endpoint compromise requiring forensic analysis - Collecting volatile and non-volatile evidence for incident response or legal proceedings - Analyzing memory dumps for malware, injected code, or credential theft artifacts - Reconstructing attacker timelines from endpoint artifacts (prefe
+description: "Linux Forensic Disk Analysis Endpoint Analyze."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Order of Volatility** | Evidence collection priority from most volatile (RAM) to least volatile (backups) |
 | **Chain of Custody** | Documented record of evidence handling from collection to presentation |
 | **Write Blocker** | Hardware or software device that prevents modification of source evidence |

@@ -1,9 +1,10 @@
 ---
 name: cloud-gcp-iam
-description: - When performing security assessments of GCP organization or project IAM configurations - When identifying service accounts with excessive permissions or unused access - When compliance requirements mandate review of access controls and role assignments - When investigating potential lateral movement through IAM misconfigurations - When reducing t
+description: "Cloud Gcp Iam."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Primitive Role | Legacy GCP roles (Owner, Editor, Viewer) that grant broad permissions across all services, not recommended for production |
 | Predefined Role | GCP-managed role scoped to specific services and actions, providing more granular access than primitive roles |
 | IAM Recommender | GCP ML-based service that analyzes actual permission usage and suggests role reductions to achieve least privilege |

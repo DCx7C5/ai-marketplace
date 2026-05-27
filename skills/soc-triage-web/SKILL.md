@@ -1,33 +1,10 @@
 ---
 name: soc-triage-web
-description: Web application vulnerability triage is the process of reviewing findings from DAST (Dynamic Application Security Testing) and SAST (Static Application Security Testing) tools to validate true positives, dismiss false positives, assign risk ratings using the OWASP Risk Rating Methodology, and prioritize remediation. Effective triage reduces alert f
+description: "Soc Triage Web."
 domain: cybersecurity
 ---
-----------|--------|------------|
-| Threat Agent | Skill Level | How technically skilled is the attacker? |
-| Threat Agent | Motive | How motivated is the attacker? |
-| Threat Agent | Opportunity | What resources/access are needed? |
-| Threat Agent | Size | How large is the potential threat agent group? |
-| Vulnerability | Ease of Discovery | How easy is it to find the vulnerability? |
-| Vulnerability | Ease of Exploit | How easy is it to exploit? |
-| Vulnerability | Awareness | How well known is the vulnerability? |
-| Vulnerability | Intrusion Detection | How likely is exploitation to be detected? |
 
-### Impact Factors (0-9 scale)
-| Factor Group | Factor | Description |
-|-------------|--------|------------|
-| Technical | Confidentiality | How much data could be disclosed? |
-| Technical | Integrity | How much data could be corrupted? |
-| Technical | Availability | How much service could be lost? |
-| Technical | Accountability | Can actions be traced to attacker? |
-| Business | Financial Damage | Revenue loss, regulatory fines |
-| Business | Reputation Damage | Brand trust erosion |
-| Business | Non-compliance | Regulatory violation exposure |
-| Business | Privacy Violation | PII/PHI exposure volume |
-
-### Risk Matrix
-| | Low Impact (0-3) | Medium Impact (3-6) | High Impact (6-9) |
-|---|---|---|---|
+|
 | **High Likelihood (6-9)** | Medium | High | Critical |
 | **Medium Likelihood (3-6)** | Low | Medium | High |
 | **Low Likelihood (0-3)** | Note | Low | Medium |

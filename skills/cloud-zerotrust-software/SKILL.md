@@ -1,8 +1,9 @@
 ---
 name: cloud-zerotrust-software
-description: A Software-Defined Perimeter (SDP) implements zero trust by creating a dynamically provisioned, identity-centric perimeter around individual resources. Defined by the Cloud Security Alliance (CSA), SDP makes application infrastructure invisible to unauthorized users through a "dark cloud" approach where services are hidden until authenticated and a
+description: "- NIST SP 800-207: Zero Trust Architecture - CISA Zero Trust Maturity Model v2."
 domain: cybersecurity
 ---
+
 # Deploying Software-Defined Perimeter
 
 ## Prerequisites

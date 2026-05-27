@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-disk-filecarving-foremost-detect
-description: - When recovering files from unallocated disk space or corrupted file systems - For extracting evidence from formatted or wiped storage media - When file system metadata is unavailable but raw data sectors contain evidence - During investigations requiring recovery of specific file types from raw images - As a complement to file system-based recove
+description: "Linux Forensic Disk Filecarving Foremost Detect."
 domain: cybersecurity
 ---
-------|-------------|
-| File carving | Recovering files by searching for known header/footer byte sequences in raw data |
-| File signature | Unique byte pattern at the start (header) or end (footer) identifying a file type |
-| Unallocated space | Disk sectors not assigned to any file; primary target for carving |
-| Fragmentation | When file data is stored in non-contiguous sectors, complicating carving |
-| Header-footer carving | Extracting data between known file start and end signatures |
-| False positives | Carved data matching file signatures but containing corrupt or unrelated content |
-| Slack space | Unused bytes at the end of a file's last allocated cluster |
-| Sector alignment | Files typically start at sector boundaries, improving carving accuracy |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Foremost | Original header-footer file carving tool developed for US Air Force OSI |
 | Scalpel | High-performance file carver with configurable signatures |
 | PhotoRec | Signature-based file recovery supporting 300+ formats |

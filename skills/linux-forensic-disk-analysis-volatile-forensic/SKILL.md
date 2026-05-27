@@ -1,21 +1,10 @@
 ---
 name: linux-forensic-disk-analysis-volatile-forensic
-description: - Security incident confirmed and compromised host identified - Before system isolation, shutdown, or remediation begins - Memory-resident malware suspected (fileless attacks) - Need to capture network connections, running processes, and system state - Legal proceedings may require forensic evidence preservation - Incident requires root cause analy
+description: "Linux Forensic Disk Analysis Volatile Forensic."
 domain: cybersecurity
 ---
-------|-------------|
-| Order of Volatility | RFC 3227 - Collect most volatile data first: registers > cache > memory > disk |
-| Live Forensics | Collecting evidence from a running system before shutdown |
-| Chain of Custody | Documentation tracking evidence handling from collection to court |
-| Forensic Soundness | Ensuring evidence collection doesn't alter the original evidence |
-| Trusted Tools | Using verified tools from external media, not from the compromised system |
-| Evidence Integrity | SHA256 hashing of all evidence immediately after collection |
-| Locard's Exchange Principle | Every contact leaves a trace - minimize investigator artifacts |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | WinPmem | Windows memory acquisition |
 | LiME (Linux Memory Extractor) | Linux kernel memory acquisition |
 | Sysinternals Suite | Process, handle, and DLL analysis (Windows) |

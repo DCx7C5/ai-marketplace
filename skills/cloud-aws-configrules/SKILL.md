@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-configrules
-description: - When establishing continuous compliance monitoring for AWS resources against regulatory standards - When implementing automated detection and remediation of configuration drift - When building a compliance dashboard across multiple AWS accounts using AWS Organizations - When audit teams require evidence of continuous compliance rather than point-
+description: "Cloud Aws Configrules."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | AWS Config Rule | A compliance check that evaluates whether AWS resource configurations meet specified requirements, either continuously or on a schedule |
 | Managed Rule | AWS-provided pre-built Config rule with standardized logic for common compliance checks like encryption and public access |
 | Custom Rule | Organization-specific Config rule backed by a Lambda function that evaluates custom compliance logic |

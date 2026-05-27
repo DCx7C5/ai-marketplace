@@ -1,8 +1,9 @@
 ---
 name: webapp-testing-fuzzing
-description: AFL++ is a community-maintained fork of American Fuzzy Lop (AFL) that provides coverage-guided fuzzing for compiled binaries. It instruments targets at compile time or via QEMU/Unicorn mode for binary-only fuzzing, then mutates input corpora to discover new code paths. AFL++ includes advanced scheduling (MOpt, rare), custom mutators, CMPLOG for inp
+description: "last crash: 00:02:15 ago +++ Coverage +++   map density: 4."
 domain: cybersecurity
 ---
+
 # Performing Fuzzing with AFL++
 
 ## Overview

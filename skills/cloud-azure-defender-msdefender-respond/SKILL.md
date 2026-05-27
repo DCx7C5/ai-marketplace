@@ -1,9 +1,10 @@
 ---
 name: cloud-azure-defender-msdefender-respond
-description: - When deploying cloud workload protection across Azure subscriptions and resource groups - When establishing a Secure Score baseline and prioritizing security recommendations - When extending threat protection to multi-cloud environments including AWS and GCP - When enabling container security for AKS clusters and Azure Container Registry - When i
+description: "Cloud Azure Defender Msdefender Respond."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Secure Score | A numerical measure of an organization's security posture based on the percentage of implemented security recommendations, scored per subscription and aggregated at the management group level |
 | Cloud Security Graph | A graph database mapping relationships between cloud resources, identities, network exposure, and vulnerabilities to identify exploitable attack paths |
 | Attack Path Analysis | Visualization of multi-step attack chains an adversary could follow from an entry point to a high-value target, prioritized by real-world exploitability |

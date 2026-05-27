@@ -1,23 +1,10 @@
 ---
 name: devel-jb-gws-shared
-description: The `gws` binary must be on `$PATH`. See the project README for install options.
+description: "Devel Jb Gws Shared."
 domain: cybersecurity
 ---
----|-------------|
-| `--format <FORMAT>` | Output format: `json` (default), `table`, `yaml`, `csv` |
-| `--dry-run` | Validate locally without calling the API |
-| `--sanitize <TEMPLATE>` | Screen responses through Model Armor |
 
-## CLI Syntax
-
-```bash
-gws <service> <resource> [sub-resource] <method> [flags]
-```
-
-### Method Flags
-
-| Flag | Description |
-|------|-------------|
+-|
 | `--params '{"key": "val"}'` | URL/query parameters |
 | `--json '{"key": "val"}'` | Request body |
 | `-o, --output <PATH>` | Save binary responses to file |

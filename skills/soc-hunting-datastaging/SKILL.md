@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-datastaging
-description: Before exfiltrating data, adversaries typically stage collected files in a central location (MITRE ATT&CK T1074). This involves creating archives with tools like 7-Zip, RAR, or tar, consolidating files from multiple directories, and using temporary or hidden staging directories. This skill detects staging behavior by analyzing process creation logs
+description: "- Archive creation timeline with source file analysis - MITRE ATT&CK mapping (T1074."
 domain: cybersecurity
 ---
+
 # Hunting for Data Staging Before Exfiltration
 
 ## Overview

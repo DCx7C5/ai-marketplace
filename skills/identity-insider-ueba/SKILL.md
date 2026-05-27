@@ -1,8 +1,9 @@
 ---
 name: identity-insider-ueba
-description: User and Entity Behavior Analytics (UEBA) moves beyond static rule-based detection to model normal behavior for users, hosts, and applications, then flag statistically significant deviations that may indicate insider threats. Using Elasticsearch as the analytics backend, this skill covers building behavioral baselines from authentication logs, file
+description: "JSON report containing per-user risk scores, anomalous activity details, peer group deviations, and recommended investigation actions."
 domain: cybersecurity
 ---
+
 # Detecting Insider Threat with UEBA
 
 ## Overview

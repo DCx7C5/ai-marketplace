@@ -1,9 +1,10 @@
 ---
 name: devel-jb-compose-ui-test-server
-description: A library that enables AI coding agents to control Compose Desktop applications at runtime via HTTP.
+description: "-| | `GET /health` | Health check | | `GET /onNodeWithTag/{tag}/performClick` | Click element by test tag | | `GET /onNodeWithTag/{tag}/performTextInput?"
 domain: cybersecurity
 ---
--------|-------------|
+
+-|
 | `GET /health` | Health check |
 | `GET /onNodeWithTag/{tag}/performClick` | Click element by test tag |
 | `GET /onNodeWithTag/{tag}/performTextInput?text=...` | Enter text (URL-encode the text!) |

@@ -1,9 +1,10 @@
 ---
 name: windows-hardening-defender
-description: Use this skill when: - Configuring Microsoft Defender for Endpoint (MDE) beyond default settings for enhanced protection - Implementing Attack Surface Reduction (ASR) rules to block common attack techniques - Enabling controlled folder access for ransomware protection - Configuring network protection and exploit protection features - Deploying Defe
+description: "Windows Hardening Defender."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **ASR Rules** | Attack Surface Reduction rules that block specific high-risk behaviors at the endpoint level |
 | **Controlled Folder Access** | Ransomware protection feature that prevents unauthorized applications from modifying files in protected folders |
 | **Network Protection** | Blocks outbound connections to low-reputation or known-malicious domains using SmartScreen intelligence |

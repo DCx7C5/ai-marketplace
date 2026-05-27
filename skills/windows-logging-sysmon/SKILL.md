@@ -1,8 +1,9 @@
 ---
 name: windows-logging-sysmon
-description: Adversaries abuse Windows Task Scheduler (schtasks.exe, at.exe) for persistence (T1053.005) and lateral movement. Sysmon Event ID 1 captures schtasks.exe process creation with full command-line arguments, while Event ID 11 captures task XML files written to C:\Windows\System32\Tasks\. Windows Security Event 4698 logs task registration details. This
+description: "Source: \\192.168.1.50 (remote creation)   MITRE: T1053."
 domain: cybersecurity
 ---
+
 # Detecting Malicious Scheduled Tasks with Sysmon
 
 ## Overview

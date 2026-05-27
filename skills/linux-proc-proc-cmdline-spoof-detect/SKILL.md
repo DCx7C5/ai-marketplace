@@ -1,7 +1,9 @@
 ---
 name: linux-proc-proc-cmdline-spoof-detect
-description: Detect process name and cmdline spoofing — identify processes manipulating argv[0], prctl(PR_SET_NAME), or /proc/self/comm to disguise malicious activity.
+description: "subdomain: process-forensics tags: - linux - proc - cmdline - spoof - masquerade nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: process-forensics
 tags:
 - linux

@@ -1,6 +1,6 @@
 ---
 name: devel-jb-configuration-properties-profiles-kotlin-safe
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-16`).
+description: "Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-16`)."
 domain: cybersecurity
 ---
 # Configuration Properties Profiles Kotlin Safe

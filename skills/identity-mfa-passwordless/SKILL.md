@@ -1,9 +1,10 @@
 ---
 name: identity-mfa-passwordless
-description: - Organization wants to eliminate password-based attacks (phishing, credential stuffing, brute force) - Regulatory or internal mandate requires phishing-resistant MFA (Executive Order 14028, CISA guidance) - Deploying FIDO2 security keys or Windows Hello for Business across the enterprise - Migrating from legacy MFA (SMS, phone call) to phishing-re
+description: "Identity Mfa Passwordless."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **FIDO2** | Fast Identity Online 2 standard enabling passwordless authentication using public-key cryptography bound to hardware authenticators or platform credentials |
 | **Passkey** | FIDO2 credential that can be device-bound (security key) or synced across devices, providing phishing-resistant authentication without passwords |
 | **Windows Hello for Business** | Windows platform authenticator using PIN, fingerprint, or facial recognition backed by TPM-protected asymmetric keys for passwordless sign-in |

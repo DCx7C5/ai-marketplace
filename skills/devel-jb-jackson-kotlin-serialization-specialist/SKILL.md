@@ -1,8 +1,9 @@
 ---
 name: devel-jb-jackson-kotlin-serialization-specialist
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-08`).
+description: "A bad run sprinkles annotations until the example payload passes while leaving the contract ambiguous or unstable."
 domain: cybersecurity
 ---
+
 # Jackson Kotlin Serialization Specialist
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-08`).

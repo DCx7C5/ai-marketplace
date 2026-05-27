@@ -1,9 +1,10 @@
 ---
 name: identity-pam-privacctdiscovery
-description: Discover and inventory all privileged accounts across enterprise infrastructure including domain admins, local admins, service accounts, database admins, cloud IAM roles, and application admin accounts. Covers automated scanning, risk classification, and onboarding to PAM.
+description: "Identity Pam Privacctdiscovery."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Account Management | AC-2 | Lifecycle management |
 | Access Enforcement | AC-3 | Policy-based access control |
 | Least Privilege | AC-6 | Minimum necessary permissions |

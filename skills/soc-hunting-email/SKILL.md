@@ -1,17 +1,10 @@
 ---
 name: soc-hunting-email
-description: - When proactively hunting for indicators of detecting email forwarding rules attack in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessment
+description: "Soc Hunting Email."
 domain: cybersecurity
 ---
-------|-------------|
-| T1114.003 | Email Forwarding Rule |
-| T1114.002 | Remote Email Collection |
-| T1098.002 | Additional Email Delegate Permissions |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

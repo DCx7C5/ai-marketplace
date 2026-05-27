@@ -1,8 +1,9 @@
 ---
 name: intel-platforms-feedaggr
-description: MISP is the leading open-source threat intelligence platform for collecting, storing, distributing, and sharing cybersecurity indicators and threat intelligence. It aggregates feeds from OSINT sources, commercial providers, and sharing communities into a unified platform with automatic correlation, STIX/TAXII export, and direct integration with SIE
+description: "- [Kraven Security: MISP Using Feeds](https://kravensecurity."
 domain: cybersecurity
 ---
+
 # Building Threat Feed Aggregation with MISP
 
 ## Overview

@@ -1,8 +1,9 @@
 ---
 name: windows-logging-powershell
-description: - When investigating security incidents that require analyzing powershell script block logging - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+description: "Scripts split across multiple 4104 events share a `ScriptBlockId`."
 domain: cybersecurity
 ---
+
 # Analyzing PowerShell Script Block Logging
 
 ## When to Use

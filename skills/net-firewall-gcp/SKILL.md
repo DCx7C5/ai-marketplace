@@ -1,9 +1,10 @@
 ---
 name: net-firewall-gcp
-description: - When deploying new GCP workloads that require network-level access controls - When auditing existing firewall configurations for overly permissive rules - When implementing zero trust network segmentation within GCP VPC networks - When responding to Security Command Center findings about open firewall rules - When building hierarchical firewall p
+description: "Net Firewall Gcp."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | VPC Firewall Rule | Stateful network-level access control that allows or denies traffic to and from VM instances based on IP ranges, protocols, ports, and tags |
 | Hierarchical Firewall Policy | Organization or folder-level firewall policy that is evaluated before VPC-level rules and applies across all child projects |
 | Network Tag | Label applied to VM instances that determines which firewall rules apply, used for targeting ingress and egress rules |

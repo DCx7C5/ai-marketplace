@@ -1,7 +1,9 @@
 ---
 name: linux-proc-elf-got-hook-detect
-description: Detect GOT (Global Offset Table) hooking in ELF binaries — identify runtime function pointer overwrites used by rootkits and malware to intercept shared library calls.
+description: "subdomain: process-forensics tags: - linux - elf - got - hook - rootkit nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: process-forensics
 tags:
 - linux

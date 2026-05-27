@@ -1,9 +1,10 @@
 ---
 name: crypto-theory-cryptographic-learn
-description: A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardcoded keys, insufficient entropy, and protocol misconfigurations. This skill covers building an automated crypto audit tool that scans Python and config
+description: "Crypto Theory Cryptographic Learn."
 domain: cybersecurity
 ---
--------|----------|------------|
+
+|
 | Weak Hashing | MD5, SHA-1 for integrity/signatures | High |
 | Insecure Encryption | DES, 3DES, RC4, Blowfish | High |
 | Bad Cipher Mode | ECB mode for any block cipher | High |

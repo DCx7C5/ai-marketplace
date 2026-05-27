@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-deviceposture
-description: - When enforcing device health as a prerequisite for accessing corporate applications - When integrating CrowdStrike ZTA scores, Intune compliance, or Jamf device status into access decisions - When implementing CISA Zero Trust Maturity Model device pillar requirements - When building conditional access policies that adapt based on real-time endpoi
+description: "Cloud Zerotrust Deviceposture."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Device Posture | Collection of endpoint security attributes (OS version, encryption, EDR status, patch level) evaluated before granting access |
 | CrowdStrike ZTA Score | Numerical score (1-100) calculated by CrowdStrike Falcon assessing endpoint security posture based on OS signals and sensor configuration |
 | Device Compliance Policy | MDM-defined rules specifying minimum security requirements (encryption, PIN, OS version) that devices must meet |

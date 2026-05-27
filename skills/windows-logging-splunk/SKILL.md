@@ -1,9 +1,10 @@
 ---
 name: windows-logging-splunk
-description: Use this skill when: - SOC analysts investigate alerts related to Windows authentication, process execution, or AD changes - Detection engineers build SPL queries for Windows-based threat detection - Incident responders need forensic timelines of Windows endpoint or domain controller activity - Periodic threat hunting targets Windows-specific ATT&C
+description: "Windows Logging Splunk."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **EventCode 4624** | Successful logon event — Logon_Type 2 (interactive), 3 (network), 10 (RDP), 7 (unlock) |
 | **EventCode 4625** | Failed logon event — Status code indicates failure reason (bad password, account locked, disabled) |
 | **Sysmon EventCode 1** | Process creation with full command line, parent process, and hash information |

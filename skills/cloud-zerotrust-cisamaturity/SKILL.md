@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-cisamaturity
-description: The CISA Zero Trust Maturity Model (ZTMM) Version 2.0, released in April 2023, provides federal agencies and organizations with a structured roadmap for adopting zero trust architecture. The model defines five core pillars -- Identity, Devices, Networks, Applications & Workloads, and Data -- each progressing through four maturity stages: Traditiona
+description: "| | Identity | MFA for agency staff | 3.1.1 | | Devices | EDR for federal endpoints | 3."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | Identity | MFA for agency staff | 3.1.1 |
 | Devices | EDR for federal endpoints | 3.1.2 |
 | Networks | Encrypt DNS traffic | 3.1.3 |

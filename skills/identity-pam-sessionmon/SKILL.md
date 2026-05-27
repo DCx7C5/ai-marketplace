@@ -1,9 +1,10 @@
 ---
 name: identity-pam-sessionmon
-description: - Deploying or configuring session recording for all privileged access to critical servers and databases - Meeting compliance requirements (PCI-DSS 10.2, SOX, HIPAA, ISO 27001) that mandate privileged activity monitoring - Investigating an incident where an administrator or third-party vendor may have performed unauthorized actions - Implementing r
+description: "Identity Pam Sessionmon."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **PSM (Privileged Session Manager)** | CyberArk component that acts as a proxy/jump server, recording all privileged sessions in video and text format |
 | **PSMP (PSM for SSH Proxy)** | Linux-based PSM proxy specifically for SSH, SCP, and SFTP sessions |
 | **Connection Component** | CyberArk configuration that defines how PSM launches client applications (RDP, SSH, SSMS) to connect to target systems |

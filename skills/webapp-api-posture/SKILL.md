@@ -1,9 +1,10 @@
 ---
 name: webapp-api-posture
-description: API Security Posture Management (API-SPM) provides continuous visibility into an organization's API attack surface by automatically discovering, classifying, and risk-scoring all APIs including internal, external, partner, and shadow endpoints. Unlike point-in-time testing tools, API-SPM operates continuously to detect configuration drift, policy v
+description: "Webapp Api Posture."
 domain: cybersecurity
 ---
------|------------|--------|
+
+--|
 | API Discovery Coverage | % of APIs with documentation | > 95% |
 | Average Risk Score | Mean risk score across all APIs | < 25 |
 | Critical Findings | Number of critical-risk APIs | 0 |

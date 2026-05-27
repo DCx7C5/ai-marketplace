@@ -1,17 +1,10 @@
 ---
 name: soc-hunting-unusual
-description: - When proactively hunting for indicators of hunting for unusual network connections in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessment
+description: "Soc Hunting Unusual."
 domain: cybersecurity
 ---
-------|-------------|
-| T1071 | Application Layer Protocol |
-| T1095 | Non-Application Layer Protocol |
-| T1571 | Non-Standard Port |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

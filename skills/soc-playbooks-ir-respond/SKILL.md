@@ -1,9 +1,10 @@
 ---
 name: soc-playbooks-ir-respond
-description: - Establishing or maturing an incident response program from scratch - Documenting procedures for a new incident type after a novel attack - Automating response workflows in a SOAR platform (Cortex XSOAR, Splunk SOAR) - Preparing for compliance audits requiring documented IR procedures (SOC 2, PCI-DSS, HIPAA) - Conducting a gap analysis of existing
+description: "Soc Playbooks Ir Respond."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Playbook** | Documented, repeatable set of procedures for responding to a specific incident type |
 | **Runbook** | More granular than a playbook; step-by-step technical instructions for a specific task within a playbook |
 | **RACI Matrix** | Responsibility assignment chart defining who is Responsible, Accountable, Consulted, and Informed for each activity |

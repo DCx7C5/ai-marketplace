@@ -1,26 +1,10 @@
 ---
 name: soc-hunting-lolbinlogs
-description: - When hunting for fileless attack techniques that abuse built-in Windows binaries - After threat intelligence indicates LOLBin-based campaigns targeting your industry - When investigating alerts for suspicious use of certutil, mshta, rundll32, or regsvr32 - During purple team exercises testing detection of defense evasion techniques - When assessi
+description: "Soc Hunting Lolbinlogs."
 domain: cybersecurity
 ---
-------|-------------|
-| T1218 | System Binary Proxy Execution |
-| T1218.001 | Compiled HTML File (mshta.exe) |
-| T1218.003 | CMSTP |
-| T1218.005 | Mshta |
-| T1218.010 | Regsvr32 (Squiblydoo) |
-| T1218.011 | Rundll32 |
-| T1127.001 | MSBuild |
-| T1197 | BITS Jobs (bitsadmin.exe) |
-| T1140 | Deobfuscate/Decode Files (certutil.exe) |
-| T1059.001 | PowerShell |
-| T1059.005 | Visual Basic (wscript/cscript) |
-| LOLBAS | Living Off the Land Binaries, Scripts and Libraries project |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Sysmon | Process creation with command-line and hash logging |
 | CrowdStrike Falcon | EDR with LOLBin detection analytics |
 | Microsoft Defender for Endpoint | Built-in LOLBin abuse detection |

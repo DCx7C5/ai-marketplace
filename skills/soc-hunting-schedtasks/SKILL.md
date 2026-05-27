@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-schedtasks
-description: - When proactively hunting for persistence mechanisms in Windows environments - After detecting schtasks.exe or at.exe usage in process creation logs - When investigating malware that survives reboots and user logoffs - During incident response to enumerate all persistence on compromised systems - When Windows Security Event ID 4698 (Scheduled Task
+description: "5. **Lateral Movement via Tasks**: Remote scheduled task creation using `schtasks /create /s REMOTE_HOST` for execution on other systems."
 domain: cybersecurity
 ---
+
 # Hunting for Suspicious Scheduled Tasks
 
 ## When to Use

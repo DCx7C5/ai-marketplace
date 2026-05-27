@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-syscall-userfaultfd-race-detect
-description: Detect userfaultfd-based race condition exploits — identify processes using userfaultfd to slow kernel operations and win race conditions in privilege escalation.
+description: "subdomain: kernel-security tags: - linux - userfaultfd - race-condition - exploit nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

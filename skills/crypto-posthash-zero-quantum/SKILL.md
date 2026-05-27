@@ -1,9 +1,10 @@
 ---
 name: crypto-posthash-zero-quantum
-description: Zero-Knowledge Proofs (ZKPs) allow a prover to demonstrate knowledge of a secret (such as a password or private key) without revealing the secret itself. This skill implements the Schnorr identification protocol and a simplified ZKPP (Zero-Knowledge Password Proof) using the discrete logarithm problem, enabling authentication where the server never
+description: "| | Completeness | Honest prover always convinces honest verifier | | Soundness | Dishonest prover cannot convince verifier (except negligible probability) | | Zero-Knowledge | Verifier learns nothing beyond the statement's truth |  ### Schnorr Protocol  1."
 domain: cybersecurity
 ---
--------|------------|
+
+|
 | Completeness | Honest prover always convinces honest verifier |
 | Soundness | Dishonest prover cannot convince verifier (except negligible probability) |
 | Zero-Knowledge | Verifier learns nothing beyond the statement's truth |

@@ -1,8 +1,9 @@
 ---
 name: offensive-race-condition
-description: - Spot the features prone to race conditions in the target application and copy the corresponding requests.
+description: "engine.openGate('1')  def handleResponse(req, interesting):     table."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Race Conditions

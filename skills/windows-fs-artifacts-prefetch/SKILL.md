@@ -1,22 +1,10 @@
 ---
 name: windows-fs-artifacts-prefetch
-description: - When determining which programs were executed on a Windows system and when - During malware investigations to confirm execution of suspicious binaries - For establishing a timeline of application usage during an incident - When correlating program execution with other forensic artifacts - To identify anti-forensic tools or unauthorized software t
+description: "Windows Fs Artifacts Prefetch."
 domain: cybersecurity
 ---
-------|-------------|
-| Prefetch | Windows performance optimization that pre-loads application data and tracks execution |
-| SCCA signature | Magic bytes identifying a valid Prefetch file |
-| Path hash | CRC-based hash of the executable path forming part of the .pf filename |
-| Run count | Number of times the executable has been launched (may wrap around) |
-| Last run timestamps | Windows 8+ stores up to 8 most recent execution timestamps |
-| Referenced files | List of files and directories accessed during the first 10 seconds of execution |
-| Volume information | Drive serial number and creation date identifying the source volume |
-| MAM compression | Windows 10 Prefetch files use MAM4 compression requiring decompression before parsing |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | PECmd | Eric Zimmerman's Prefetch parser with CSV/JSON output |
 | WinPrefetchView | NirSoft GUI tool for viewing Prefetch files |
 | python-prefetch | Python library for parsing Prefetch files |

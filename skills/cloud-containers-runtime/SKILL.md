@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-runtime
-description: Tetragon is a CNCF project under Cilium that provides flexible Kubernetes-aware security observability and runtime enforcement using eBPF. By operating at the Linux kernel level, Tetragon can monitor and enforce policies on process execution, file access, network connections, and system calls with less than 1% performance overhead -- far more effic
+description: "Cloud Containers Runtime."
 domain: cybersecurity
 ---
------|-------------|-----------------|
+
+--|
 | `tetragon_events_total` | Total security events observed | Spike > 3x baseline |
 | `tetragon_policy_events_total` | Events matching TracingPolicies | Any Sigkill action |
 | `tetragon_process_exec_total` | Process executions tracked | Anomalous new binaries |

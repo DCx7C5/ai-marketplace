@@ -1,9 +1,10 @@
 ---
 name: webapp-api-authn
-description: - Assessing REST API authentication mechanisms for bypass vulnerabilities before production deployment - Testing JWT token implementation for common weaknesses (none algorithm, key confusion, missing expiration) - Evaluating whether all API endpoints enforce authentication or if some are unintentionally exposed - Testing API key generation, storage
+description: "| | **Broken Authentication** | OWASP API2:2023 - weaknesses in authentication mechanisms that allow attackers to assume identities of legitimate users | | **JWT (JSON Web Token)** | Self-contained token format with header."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Broken Authentication** | OWASP API2:2023 - weaknesses in authentication mechanisms that allow attackers to assume identities of legitimate users |
 | **JWT (JSON Web Token)** | Self-contained token format with header.payload.signature structure, used for stateless API authentication |
 | **Token Revocation** | Server-side mechanism to invalidate tokens before their expiration, critical for logout and password change |

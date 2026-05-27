@@ -1,7 +1,9 @@
 ---
 name: linux-id-ssh-authorized-keys-backdoor-detect
-description: Detect SSH authorized_keys backdoors — scan all user ~/.ssh/authorized_keys for unauthorized keys, detect non-standard AuthorizedKeysFile locations, and identify key-based persistence.
+description: "subdomain: identity-forensics tags: - linux - ssh - authorized-keys - backdoor - persistence nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: identity-forensics
 tags:
 - linux

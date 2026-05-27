@@ -1,8 +1,9 @@
 ---
 name: devel-jb-webgpu-threejs-tsl
-description: TSL (Three.js Shading Language) is a node-based shader abstraction that lets you write GPU shaders in JavaScript instead of GLSL/WGSL strings.
+description: "- [WebGPU Examples](https://github.com/mrdoob/three."
 domain: cybersecurity
 ---
+
 # WebGPU Three.js with TSL
 
 TSL (Three.js Shading Language) is a node-based shader abstraction that lets you write GPU shaders in JavaScript instead of GLSL/WGSL strings.

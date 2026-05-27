@@ -1,7 +1,9 @@
 ---
 name: linux-hw-mem-cold-boot-artifact-collect
-description: Collect memory artifacts from a cold boot attack — physical memory dump techniques, DIMM cooling, and live memory acquisition before volatile data is lost.
+description: "subdomain: hardware-forensics tags: - linux - memory - cold-boot - dram - forensics nist_csf: - RS."
 domain: cybersecurity
+---
+
 subdomain: hardware-forensics
 tags:
 - linux

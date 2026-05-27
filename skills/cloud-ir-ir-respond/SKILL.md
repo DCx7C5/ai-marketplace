@@ -1,9 +1,10 @@
 ---
 name: cloud-ir-ir-respond
-description: - Cloud security posture management (CSPM) alerts on unauthorized resource changes - CloudTrail, Azure Activity Logs, or GCP Audit Logs show suspicious API calls - Cloud access keys or service principal credentials are suspected compromised - Unauthorized compute instances, storage buckets, or IAM changes are detected - A cloud-hosted application i
+description: "Cloud Ir Ir Respond."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **IMDS (Instance Metadata Service)** | Cloud service providing instance credentials accessible from within a VM; SSRF attacks target IMDS to steal tokens |
 | **CloudTrail** | AWS service logging all API calls across the AWS account; primary evidence source for AWS incident response |
 | **Service Principal** | Non-human identity in Azure AD used by applications and services; compromise enables persistent API access |

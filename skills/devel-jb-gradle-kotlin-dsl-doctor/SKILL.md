@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gradle-kotlin-dsl-doctor
-description: Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-04`).
+description: "A bad run throws version guesses at the problem, rewrites too much, or ignores the Spring Boot compatibility model."
 domain: cybersecurity
 ---
+
 # Gradle Kotlin DSL Doctor
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-04`).

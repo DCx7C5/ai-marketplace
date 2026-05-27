@@ -1,8 +1,9 @@
 ---
 name: intel-analysis-iam
-description: The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features: Adversary, Capability, Infrastructure, and Victim. This skill covers implementing the Diamond Model programmatically to classify and correlate intrusion events, build activity threads linking related events, create
+description: "- [STIX 2.1 Campaign Object](https://docs.oasis-open."
 domain: cybersecurity
 ---
+
 # Implementing Diamond Model Analysis
 
 ## Overview

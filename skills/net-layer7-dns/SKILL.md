@@ -1,9 +1,10 @@
 ---
 name: net-layer7-dns
-description: Use this skill when: - SOC teams suspect data exfiltration through DNS tunneling to bypass firewall/proxy controls - Threat intelligence indicates adversaries using DNS-based C2 channels (e.g., Cobalt Strike DNS beacon) - UEBA detects anomalous DNS query volumes from specific hosts - Malware analysis reveals DNS-over-HTTPS (DoH) or DNS tunneling ca
+description: "Net Layer7 Dns."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **DNS Tunneling** | Technique encoding data within DNS queries/responses to exfiltrate data or establish C2 channels through DNS |
 | **DGA** | Domain Generation Algorithm — malware technique generating pseudo-random domain names for C2 resilience |
 | **Shannon Entropy** | Mathematical measure of randomness in a string — high entropy (>3.5) in domain names indicates DGA or tunneling |

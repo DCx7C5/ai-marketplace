@@ -1,9 +1,10 @@
 ---
 name: webapp-injection-xss-bypass
-description: - Testing web applications for client-side injection vulnerabilities as part of OWASP WSTG testing - Evaluating the effectiveness of input sanitization and output encoding across all application features - Assessing the protection provided by Content Security Policy (CSP) headers against XSS exploitation - Demonstrating the impact of XSS through se
+description: "Webapp Injection Xss Bypass."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Reflected XSS** | Non-persistent XSS where the injected payload is included in the server's response to the same request, requiring the victim to click a crafted URL |
 | **Stored XSS** | Persistent XSS where the payload is saved on the server and served to other users who view the affected page |
 | **DOM-Based XSS** | XSS that occurs entirely in the browser when client-side JavaScript reads attacker-controlled data and writes it to a dangerous DOM sink |

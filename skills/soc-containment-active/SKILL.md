@@ -1,9 +1,10 @@
 ---
 name: soc-containment-active
-description: - A confirmed intrusion is in progress with an active adversary on the network - Malware is spreading laterally across endpoints or servers - A compromised account is being used for unauthorized access to systems - Ransomware encryption has been detected and is actively propagating - An attacker has established command-and-control communications fr
+description: "Soc Containment Active."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Short-Term Containment** | Immediate actions to stop active adversary operations; typically network isolation and credential disablement |
 | **Long-Term Containment** | Sustainable measures allowing continued investigation while preventing adversary re-access |
 | **KRBTGT Double Reset** | Resetting the KRBTGT password twice to invalidate all existing Kerberos tickets including golden tickets |

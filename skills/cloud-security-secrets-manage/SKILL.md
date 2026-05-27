@@ -1,9 +1,10 @@
 ---
 name: cloud-security-secrets-manage
-description: - When applications store database passwords, API keys, or certificates in environment variables or config files - When migrating from static long-lived credentials to dynamic short-lived secrets - When Kubernetes workloads need secure access to database credentials or cloud provider APIs - When compliance requirements mandate centralized credentia
+description: "Cloud Security Secrets Manage."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Dynamic Secrets | Credentials generated on-demand with automatic expiration and revocation, eliminating long-lived static credentials |
 | Secret Engine | Vault component that stores, generates, or encrypts data; includes KV, database, AWS, PKI, and Transit engines |
 | Auto-Unseal | Cloud KMS-based mechanism that automatically unseals Vault nodes on restart without manual key entry |

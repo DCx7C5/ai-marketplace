@@ -1,34 +1,10 @@
 ---
 name: identity-credentials-lazagne
-description: LaZagne is an open-source post-exploitation tool designed to retrieve credentials stored on local systems. It supports Windows, Linux, and macOS, with the most extensive module library for Windows. LaZagne recovers passwords from browsers (Chrome, Firefox, Edge, Opera), email clients (Outlook, Thunderbird), databases (PostgreSQL, MySQL, SQLite), sy
+description: "Identity Credentials Lazagne."
 domain: cybersecurity
 ---
----|---------|----------|
-| LaZagne | Multi-source credential extraction | Windows/Linux/macOS |
-| Mimikatz | LSASS/DPAPI credential dumping | Windows |
-| SharpChrome | Chrome credential extraction (.NET) | Windows |
-| SharpDPAPI | DPAPI credential decryption | Windows |
-| CrackMapExec | Credential validation and spraying | Linux |
-| Impacket | Remote credential testing | Linux (Python) |
 
-## LaZagne Module Coverage (Windows)
-
-| Category | Modules |
-|----------|---------|
-| Browsers | Chrome, Firefox, Edge, Opera, IE, Brave, Vivaldi |
-| Email | Outlook, Thunderbird, Foxmail |
-| Databases | PostgreSQL, MySQL, SQLiteDB, Robomongo |
-| Sysadmin | PuTTY, WinSCP, FileZilla, OpenSSH, RDPManager |
-| Windows | Credential Manager, Vault, DPAPI, Autologon |
-| WiFi | Stored Wi-Fi passwords |
-| Git | Git Credential Store, Git Credential Manager |
-| SVN | TortoiseSVN |
-| Chat | Pidgin, Skype |
-
-## Detection Signatures
-
-| Indicator | Detection Method |
-|-----------|-----------------|
+--|
 | LaZagne.exe process execution | EDR process monitoring with hash-based detection |
 | Access to Chrome Login Data SQLite DB | File access monitoring on browser credential stores |
 | DPAPI CryptUnprotectData API calls | API hooking and ETW tracing |

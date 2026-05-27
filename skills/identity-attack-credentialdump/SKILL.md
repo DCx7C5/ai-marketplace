@@ -1,8 +1,9 @@
 ---
 name: identity-attack-credentialdump
-description: Credential dumping (MITRE ATT&CK T1003) is a post-exploitation technique where adversaries extract authentication credentials from OS memory, registry hives, or domain controller databases. This skill covers detection of LSASS memory access via Sysmon Event ID 10 (ProcessAccess), SAM registry hive export via reg.exe, NTDS.dit extraction via ntdsuti
+description: "JSON report containing detected credential dumping indicators with technique classification, severity ratings, process details, MITRE ATT&CK mapping, and Splunk/Elastic detection queries."
 domain: cybersecurity
 ---
+
 # Detecting Credential Dumping Techniques
 
 ## Overview

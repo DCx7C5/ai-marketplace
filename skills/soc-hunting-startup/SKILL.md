@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-startup
-description: Attackers use Windows startup folders for persistence (MITRE ATT&CK T1547.001 — Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder). Files placed in `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup` or `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup` execute automatically at user logon. This skill scans star
+description: "6. Correlate with known legitimate startup entries 7."
 domain: cybersecurity
 ---
+
 # Hunting for Startup Folder Persistence
 
 ## Overview

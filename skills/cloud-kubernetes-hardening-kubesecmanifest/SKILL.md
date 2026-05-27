@@ -1,18 +1,10 @@
 ---
 name: cloud-kubernetes-hardening-kubesecmanifest
-description: Kubesec is an open-source security risk analysis tool developed by ControlPlane that inspects Kubernetes resource manifests for common exploitable risks such as privilege escalation, writable host mounts, and excessive capabilities. It assigns a numerical security score to each resource and provides actionable recommendations for hardening. Kubesec
+description: "Cloud Kubernetes Hardening Kubesecmanifest."
 domain: cybersecurity
 ---
-----|----------|------|
-| Privileged | `securityContext.privileged == true` | Full host access |
-| HostPID | `spec.hostPID == true` | Process namespace escape |
-| HostNetwork | `spec.hostNetwork == true` | Network namespace escape |
-| SYS_ADMIN | `capabilities.add contains SYS_ADMIN` | Near-root capability |
 
-### Best Practice Checks (Positive Score)
-
-| Check | Points | Description |
-|-------|--------|-------------|
+-|
 | ReadOnlyRootFilesystem | +1 | Prevents filesystem writes |
 | RunAsNonRoot | +1 | Non-root process execution |
 | RunAsUser > 10000 | +1 | High UID reduces collision risk |

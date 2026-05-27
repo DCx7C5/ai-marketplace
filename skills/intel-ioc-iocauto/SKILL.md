@@ -1,9 +1,10 @@
 ---
 name: intel-ioc-iocauto
-description: Use this skill when: - SOC analysts need to quickly enrich IOCs from multiple sources during alert triage - High alert volumes require automated enrichment to reduce manual lookup time - Incident investigations need comprehensive IOC context for scope assessment - SOAR playbooks require enrichment actions as part of automated triage workflows **Do 
+description: "Intel Ioc Iocauto."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **IOC Enrichment** | Process of adding contextual intelligence to raw indicators from multiple external sources |
 | **Composite Risk Score** | Weighted aggregate score combining multiple intelligence sources for disposition decisions |
 | **Rate Limiting** | API request restrictions requiring throttling (VT free: 4/min, AbuseIPDB: 1000/day) |

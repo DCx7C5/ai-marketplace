@@ -1,8 +1,9 @@
 ---
 name: devel-jb-performance-concurrency-advisor
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-18`).
+description: "A bad run suggests generic tuning knobs with no evidence, no tradeoffs, and no way to confirm success."
 domain: cybersecurity
 ---
+
 # Performance Concurrency Advisor
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-18`).

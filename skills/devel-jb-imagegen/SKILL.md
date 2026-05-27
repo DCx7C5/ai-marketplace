@@ -1,8 +1,9 @@
 ---
 name: devel-jb-imagegen
-description: - Generate a new image (concept art, product shot, cover, website hero) - Edit an existing image (inpainting, masked edits, lighting or weather transformations, background replacement, object removal, compositing, transparent background) - Batch runs (many prompts, or many variants across prompts)
+description: "- **`references/codex-network.md`**: environment/sandbox/network-approval troubleshooting."
 domain: cybersecurity
 ---
+
 # Image Generation Skill
 
 Generates or edits images for the current project (e.g., website assets, game assets, UI mockups, product mockups, wireframes, logo design, photorealistic images, infographics). Defaults to `gpt-image-1.5` and the OpenAI Image API, and prefers the bundled CLI for deterministic, reproducible runs.

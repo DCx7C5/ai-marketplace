@@ -1,20 +1,10 @@
 ---
 name: identity-ad-bloodhound
-description: BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attack paths from compromised accounts to high-value targets such as Domain Admins, identifying privilege escalation chains that would be nearly impossible
+description: "Identity Ad Bloodhound."
 domain: cybersecurity
 ---
----|---------|----------|
-| BloodHound CE | Graph visualization and analysis | Web-based |
-| SharpHound | AD data collection (.NET) | Windows |
-| BloodHound.py | AD data collection (Python) | Linux/Windows |
-| Cypher queries | Custom graph queries | Neo4j/BloodHound |
-| PlumHound | Automated BloodHound reporting | Python |
-| Max (BloodHound) | BloodHound automation | Python |
 
-## Key BloodHound Queries
-
-| Query | Purpose |
-|-------|---------|
+|
 | Shortest Path to Domain Admins | Find fastest route to DA |
 | Find Kerberoastable Users with Path to DA | SPN accounts leading to DA |
 | Find AS-REP Roastable Users | Accounts without pre-auth |

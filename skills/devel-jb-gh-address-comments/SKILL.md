@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gh-address-comments
-description: Guide to find the open PR for the current branch and address its comments with gh CLI. Run all `gh` commands with elevated network access.
+description: "- If gh hits auth/rate issues mid-run, prompt the user to re-authenticate with `gh auth login`, then retry."
 domain: cybersecurity
 ---
+
 # PR Comment Handler
 
 Guide to find the open PR for the current branch and address its comments with gh CLI. Run all `gh` commands with elevated network access.

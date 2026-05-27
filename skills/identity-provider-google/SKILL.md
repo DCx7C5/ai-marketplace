@@ -1,9 +1,10 @@
 ---
 name: identity-provider-google
-description: - Deploying or hardening a Google Workspace environment for enterprise use - CIS benchmark compliance assessment for Google Workspace configuration - Protecting against business email compromise (BEC) and phishing attacks targeting Google accounts - Implementing Data Loss Prevention controls for Gmail and Google Drive - Restricting OAuth applicatio
+description: "Identity Provider Google."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Advanced Protection Program (APP)** | Google's strongest account security requiring FIDO2 security keys, blocking third-party app access, and enhanced identity verification for account recovery |
 | **Context-Aware Access** | Security policy framework that evaluates device posture, location, and user identity before granting access to Google Workspace applications |
 | **DMARC** | Domain-based Message Authentication, Reporting and Conformance protocol that prevents email domain spoofing by validating SPF and DKIM alignment |

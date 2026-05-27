@@ -1,22 +1,10 @@
 ---
 name: windows-fs-artifacts-lnkfiles
-description: - When reconstructing user file access history from Windows shortcut files - For tracking accessed files, network shares, and removable media - During investigations to prove a user opened specific documents - When correlating file access with other timeline artifacts - For identifying accessed paths on remote systems or USB devices
+description: "Windows Fs Artifacts Lnkfiles."
 domain: cybersecurity
 ---
-------|-------------|
-| Shell Link (.lnk) | Windows shortcut file format containing target path, timestamps, and metadata |
-| Target timestamps | Creation, modification, and access times of the file the shortcut points to |
-| Volume serial number | Unique identifier of the drive volume where the target file resides |
-| Machine ID | NetBIOS name embedded by the Distributed Link Tracking service |
-| MAC address | Network adapter MAC from the machine that created the LNK file |
-| Jump Lists | Recent and pinned file lists per application (contain embedded LNK data) |
-| Automatic Destinations | System-managed Jump List entries for recently opened files |
-| Custom Destinations | User-pinned Jump List items that persist until manually removed |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | LECmd | Eric Zimmerman command-line LNK file parser with CSV/JSON output |
 | JLECmd | Eric Zimmerman Jump List parser |
 | LnkParse3 | Python library for programmatic LNK file analysis |

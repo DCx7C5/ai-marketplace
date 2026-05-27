@@ -1,66 +1,10 @@
 ---
 name: devel-jb-implement-feature
-description: **Scope**: This skill writes Go code and tests. It does NOT update website docs (use `update-docs` after) or CHANGELOG (use `changelog` after).
+description: "| | `<cmd>.go` | Flag parsing + mode routing (dispatch) | `install."
 domain: cybersecurity
 ---
-\nname: test-skill\n---\n# Content",
-    })
 
-    // Act
-    result := sb.RunCLI("command", "args...")
-
-    // Assert
-    result.AssertSuccess()
-    result.AssertOutputContains("expected output")
-}
-```
-
-Verify tests fail:
-```bash
-make test-int
-# or run specific test:
-go test ./tests/integration -run TestFeature_BasicCase
-```
-
-### Step 4: Implement (GREEN)
-
-Write minimal code to make tests pass:
-
-1. Follow existing patterns in `cmd/skillshare/` and `internal/`
-2. Use `internal/ui` for terminal output (colors, spinners, boxes)
-3. Add oplog instrumentation for mutating commands:
-   ```go
-   start := time.Now()
-   // ... do work ...
-   e := oplog.NewEntry("command-name", statusFromErr(err), time.Since(start))
-   oplog.Write(configPath, oplog.OpsFile, e)
-   ```
-4. Register command in `main.go` commands map if new command
-
-Verify tests pass:
-```bash
-make test-int
-```
-
-### Step 5: Refactor and Verify
-
-1. Clean up code while keeping tests green
-2. Run full quality check:
-   ```bash
-   make check  # fmt-check + lint + test
-   ```
-3. Fix any formatting or lint issues
-
-## Project Patterns Reference
-
-These patterns appear throughout the codebase. Follow them when implementing new features.
-
-### Handler Split Convention
-
-Large commands are split by concern rather than kept in a single file. When a command handler grows beyond ~300 lines, split it:
-
-| Suffix | Purpose | Example |
-|--------|---------|---------|
+|
 | `<cmd>.go` | Flag parsing + mode routing (dispatch) | `install.go` |
 | `_handlers.go` | Core handler logic | `install_handlers.go` |
 | `_render.go` / `_audit_render.go` | Output rendering | `audit_render.go` |

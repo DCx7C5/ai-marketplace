@@ -1,8 +1,9 @@
 ---
 name: intel-analysis-actorinfra
-description: Threat actor infrastructure tracking involves monitoring and mapping adversary-controlled assets including command-and-control (C2) servers, phishing domains, exploit kit hosts, bulletproof hosting, and staging servers. This skill covers using passive DNS, certificate transparency logs, Shodan/Censys scanning, WHOIS analysis, and network fingerprin
+description: "- [PassiveTotal API](https://api.passivetotal.org/api/docs/) - [JARM Fingerprinting](https://github."
 domain: cybersecurity
 ---
+
 # Tracking Threat Actor Infrastructure
 
 ## Overview

@@ -1,8 +1,9 @@
 ---
 name: offensive-parameter-pollution
-description: HTTP Parameter Pollution (HPP) is a web attack technique that exploits how web applications and servers handle multiple occurrences of the same parameter name. When a web application receives duplicate parameters, different technologies process them differently:
+description: "- **Drop Duplicates at the Edge**: Normalize parameters at CDN/API gateway and log events - **Explicit Parser Settings**: e."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # HTTP Parameter Pollution (HPP)

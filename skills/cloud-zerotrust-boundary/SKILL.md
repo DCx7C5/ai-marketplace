@@ -1,26 +1,10 @@
 ---
 name: cloud-zerotrust-boundary
-description: HashiCorp Boundary is an identity-aware proxy that provides secure, zero trust access to infrastructure resources without traditional VPNs or direct network access. Boundary operates on a default-deny model -- users start with no access and must be explicitly granted permissions for specific resources. When integrated with HashiCorp Vault, Boundary
+description: "--+       Vault (Credential Brokering)      - Dynamic database credentials      - SSH certificate signing      - Credential libraries ```  ## Installation and Configuration  ### Boundary Server Setup  ```bash # Install Boundary curl -fsSL https://apt."
 domain: cybersecurity
 ---
------+--------+
-                  |   Boundary      |
-                  |   Controller    |
-                  |  (Control Plane)|
-                  +--------+--------+
-                           |
-              +------------+------------+
-              |                         |
-     +--------+--------+      +--------+--------+
-     | Boundary Worker |      | Boundary Worker |
-     | (Data Plane)    |      | (Data Plane)    |
-     +--------+--------+      +--------+--------+
-              |                         |
-     +--------+--------+      +--------+--------+
-     |  Target Hosts   |      |  Target Hosts   |
-     |  (SSH, RDP,     |      |  (Databases,    |
-     |   K8s, HTTP)    |      |   APIs)         |
-     +-----------------+      +-----------------+
+
+--+
 
      Vault (Credential Brokering)
      - Dynamic database credentials

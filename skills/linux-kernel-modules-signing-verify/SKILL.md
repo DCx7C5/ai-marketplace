@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-modules-signing-verify
-description: Verify kernel module signing — check module signatures against trusted keys, detect unsigned or invalidly-signed modules loaded into the kernel.
+description: "subdomain: kernel-security tags: - linux - lkm - module - signing - integrity nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

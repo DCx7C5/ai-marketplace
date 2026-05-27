@@ -1,9 +1,10 @@
 ---
 name: webapp-security-waf-configure
-description: - When deploying new web applications or APIs behind cloud load balancers requiring OWASP protection - When application penetration testing reveals SQL injection, XSS, or other injection vulnerabilities - When experiencing brute force, credential stuffing, or bot attacks against authentication endpoints - When compliance requirements mandate a WAF 
+description: "Webapp Security Waf Configure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Web ACL | Web Access Control List defining the set of rules evaluated against every HTTP request to a protected resource |
 | Managed Rule Group | Pre-configured rule set maintained by the cloud provider or third-party vendor covering common attack patterns |
 | Rate-Based Rule | WAF rule that tracks request rates per IP address and blocks IPs exceeding the threshold within a time window |

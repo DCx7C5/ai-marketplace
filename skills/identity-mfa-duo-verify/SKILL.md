@@ -1,9 +1,10 @@
 ---
 name: identity-mfa-duo-verify
-description: Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust assessment, and phishing-resistant MFA deployment aligned with NIST 800-63B AAL2/AAL3 requirements.
+description: "Identity Mfa Duo Verify."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | MFA | IA-2(1) | Multi-factor authentication for network access |
 | MFA for Privileged | IA-2(2) | MFA for privileged account access |
 | Replay Resistance | IA-2(8) | Replay-resistant authentication |

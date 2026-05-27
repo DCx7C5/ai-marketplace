@@ -1,9 +1,10 @@
 ---
 name: linux-hw-usb-policy-create-configure
-description: Use this skill when: - Restricting USB storage devices to prevent data exfiltration or malware introduction - Implementing device control policies via GPO, Intune, or EDR device control modules - Creating USB whitelists for authorized devices while blocking all others - Meeting compliance requirements for removable media control (PCI DSS, HIPAA) **
+description: "Linux Hw Usb Policy Create Configure."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **VID/PID** | Vendor ID and Product ID that uniquely identify USB device models |
 | **Device Instance ID** | Unique identifier for a specific physical USB device |
 | **Device Control** | EDR/endpoint feature restricting device access based on type, vendor, or serial number |

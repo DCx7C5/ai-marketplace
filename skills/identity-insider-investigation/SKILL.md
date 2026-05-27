@@ -1,9 +1,10 @@
 ---
 name: identity-insider-investigation
-description: - DLP (Data Loss Prevention) alerts on large data transfers to personal cloud storage or USB devices - User behavior analytics (UBA) detects anomalous access patterns for a user account - HR reports a departing employee suspected of taking proprietary information - A privileged user is observed accessing systems outside their job function - Whistle
+description: "Identity Insider Investigation."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Insider Threat** | Risk posed by individuals with authorized access who intentionally or unintentionally cause harm to the organization |
 | **User Behavior Analytics (UBA)** | Technology that analyzes user activity patterns to detect anomalies indicating potential insider threats |
 | **Data Loss Prevention (DLP)** | Technology that monitors, detects, and blocks unauthorized transfer of sensitive data outside the organization |

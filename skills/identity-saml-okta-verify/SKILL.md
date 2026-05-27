@@ -1,9 +1,10 @@
 ---
 name: identity-saml-okta-verify
-description: Implement SAML 2.0 Single Sign-On (SSO) using Okta as the Identity Provider (IdP). This skill covers end-to-end configuration of SAML authentication flows, attribute mapping, certificate management, and security hardening for enterprise SSO deployments.
+description: "Identity Saml Okta Verify."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Authentication | IA-2 | Multi-factor authentication through Okta |
 | Session Management | SC-23 | SAML session lifetime controls |
 | Audit Logging | AU-3 | Log all SSO authentication events |

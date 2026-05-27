@@ -1,9 +1,10 @@
 ---
 name: email-phishing-spearphish
-description: Spearphishing simulation is a targeted social engineering attack vector used by red teams to gain initial access. Unlike broad phishing campaigns, spearphishing uses OSINT-derived intelligence to craft highly personalized messages targeting specific individuals. This skill covers developing pretexts, building payloads, setting up email infrastructu
+description: "Email Phishing Spearphish."
 domain: cybersecurity
 ---
----|---------|---------|
+
+|
 | GoPhish | Phishing campaign management | Open Source |
 | Evilginx2 | Real-time credential harvesting with MFA bypass | Open Source |
 | King Phisher | Phishing campaign toolkit | Open Source |

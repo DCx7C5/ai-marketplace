@@ -1,9 +1,10 @@
 ---
 name: soc-monitoring-endpoint-osquery
-description: Use this skill when: - Deploying osquery across Windows, macOS, and Linux endpoints for fleet-wide visibility - Building threat hunting queries using osquery's SQL interface - Monitoring endpoint compliance (installed software, open ports, running services) - Integrating osquery data with SIEM or Kolide/Fleet for centralized management **Do not use
+description: "Soc Monitoring Endpoint Osquery."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Osquery** | Open-source endpoint agent that exposes OS state as SQL tables for querying |
 | **Schedule** | Periodic queries that run at defined intervals and log results |
 | **Pack** | Collection of related queries grouped for specific use cases (IR, compliance) |

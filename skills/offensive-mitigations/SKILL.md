@@ -1,8 +1,9 @@
 ---
 name: offensive-mitigations
-description: - Randomizes memory addresses where the kernel and its components are loaded.
+description: "- Supports Secure Boot and firmware integrity checking."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Modern Kernel Exploit Mitigations

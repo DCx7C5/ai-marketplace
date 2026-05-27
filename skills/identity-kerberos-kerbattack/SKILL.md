@@ -1,9 +1,10 @@
 ---
 name: identity-kerberos-kerbattack
-description: Kerberoasting is a post-exploitation technique that targets service accounts in Active Directory by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs) set. These tickets are encrypted with the service account's NTLM hash, allowing offline brute-force cracking without generating failed login ev
+description: "-| | Rubeus | Kerberoasting and ticket manipulation | Windows (."
 domain: cybersecurity
 ---
----|---------|----------|
+
+-|
 | Rubeus | Kerberoasting and ticket manipulation | Windows (.NET) |
 | Impacket GetUserSPNs.py | Remote Kerberoasting | Linux/Python |
 | PowerView | SPN enumeration | Windows (PowerShell) |

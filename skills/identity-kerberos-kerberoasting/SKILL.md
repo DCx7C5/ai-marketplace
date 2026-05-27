@@ -1,17 +1,10 @@
 ---
 name: identity-kerberos-kerberoasting
-description: - When proactively hunting for indicators of detecting kerberoasting attacks in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments and pu
+description: "Identity Kerberos Kerberoasting."
 domain: cybersecurity
 ---
-------|-------------|
-| T1558.003 | Kerberoasting |
-| T1558.004 | AS-REP Roasting |
-| T1558.001 | Golden Ticket |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

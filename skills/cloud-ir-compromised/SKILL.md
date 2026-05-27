@@ -1,9 +1,10 @@
 ---
 name: cloud-ir-compromised
-description: - When investigating alerts about unusual cloud API activity from unfamiliar locations - When building detection rules for credential theft and abuse across cloud environments - When responding to notifications from cloud providers about exposed credentials - When monitoring for credential stuffing or brute force attacks against cloud identities - 
+description: "Cloud Ir Compromised."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Impossible Travel | Detection of the same credential being used from geographically distant locations within a time period that makes physical travel impossible |
 | Credential Stuffing | Attack using stolen username/password combinations from data breaches to attempt login across multiple cloud services |
 | Instance Credential Exfiltration | GuardDuty finding indicating EC2 instance role credentials are being used from outside the expected AWS network |

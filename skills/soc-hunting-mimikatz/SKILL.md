@@ -1,18 +1,10 @@
 ---
 name: soc-hunting-mimikatz
-description: - When proactively hunting for indicators of detecting mimikatz execution patterns in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments 
+description: "Soc Hunting Mimikatz."
 domain: cybersecurity
 ---
-------|-------------|
-| T1003.001 | LSASS Memory |
-| T1003.006 | DCSync |
-| T1558.003 | Kerberoasting |
-| T1558.001 | Golden Ticket |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

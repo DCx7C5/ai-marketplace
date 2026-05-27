@@ -1,9 +1,10 @@
 ---
 name: webapp-auth-oauth
-description: Configure secure OAuth 2.0 authorization flows including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant. This skill covers flow selection, PKCE implementation, token lifecycle management, scope design, and alignment with OAuth 2.1 security requirements.
+description: "Webapp Auth Oauth."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Access Control | AC-3 | Token-based access enforcement |
 | Authentication | IA-5 | Client credential management |
 | Session Management | SC-23 | Token lifecycle management |

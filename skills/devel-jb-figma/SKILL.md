@@ -1,8 +1,9 @@
 ---
 name: devel-jb-figma
-description: Use the Figma MCP server for Figma-driven implementation. For setup and debugging details (env vars, config, verification), see `references/figma-mcp-config.md`.
+description: "- `references/figma-tools-and-prompts.md` — tool catalog and prompt patterns for selecting frameworks/components and fetching metadata."
 domain: cybersecurity
 ---
+
 # Figma MCP
 
 Use the Figma MCP server for Figma-driven implementation. For setup and debugging details (env vars, config, verification), see `references/figma-mcp-config.md`.

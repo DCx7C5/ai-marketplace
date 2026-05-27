@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-supply
-description: in-toto is a CNCF graduated project that ensures the integrity of software supply chains from initiation to end-user installation. It creates a verifiable record of the entire software development lifecycle by generating cryptographically signed attestations (called "link metadata") at each step, proving what happened, who performed it, and what ar
+description: "-| | Level 1 | Build process documented (layout exists) | | Level 2 | Signed attestations from hosted build service | | Level 3 | Hardened build platform, non-falsifiable provenance | | Level 4 | Two-party review, hermetic builds |  ## References  - [in-toto Official Website](https://in-toto."
 domain: cybersecurity
 ---
----------|-------------------|
+
+-|
 | Level 1 | Build process documented (layout exists) |
 | Level 2 | Signed attestations from hosted build service |
 | Level 3 | Hardened build platform, non-falsifiable provenance |

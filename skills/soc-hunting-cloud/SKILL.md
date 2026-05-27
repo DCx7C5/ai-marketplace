@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-cloud
-description: AWS Detective automatically collects and analyzes log data from AWS CloudTrail, VPC Flow Logs, GuardDuty findings, and EKS audit logs to build interactive behavior graphs. These graphs enable security analysts to investigate entities (IAM users, roles, IP addresses, EC2 instances) across time, identify anomalous API calls, detect lateral movement b
+description: "Soc Hunting Cloud."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | **Behavior Graph** | Data structure linking CloudTrail, VPC Flow, GuardDuty, and EKS logs for an account/region |
 | **Entity** | Investigable object: IAM user, IAM role, EC2 instance, IP address, S3 bucket, EKS cluster |
 | **Finding Group** | Correlated set of GuardDuty findings linked to the same attack campaign |

@@ -1,9 +1,10 @@
 ---
 name: net-capture-zeek-dnstunnel
-description: - When hunting for data exfiltration over DNS covert channels - After threat intelligence indicates DNS-based C2 frameworks targeting your industry - When dns.log shows unusually high query volumes to specific domains - During investigation of suspected data theft where no HTTP/S exfiltration is found - When monitoring for tools like iodine, dnscat
+description: "-| | T1071.004 | Application Layer Protocol: DNS | | T1048."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | T1071.004 | Application Layer Protocol: DNS |
 | T1048.003 | Exfiltration Over Alternative Protocol: DNS |
 | T1572 | Protocol Tunneling |

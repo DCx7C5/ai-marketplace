@@ -1,8 +1,9 @@
 ---
 name: intel-feeds-security
-description: - Building a threat intelligence platform that exchanges IOCs with partner organizations - Automating ingestion and export of indicators from MISP, OpenCTI, or other TIP platforms - Creating machine-readable intelligence reports for ISAC/ISAO sharing communities - Publishing threat data to a TAXII 2.1 server for downstream consumption by SIEMs and 
+description: "- Run `stix2-validator` CLI tool against exported bundles: `stix2_validator emotet_campaign_bundle."
 domain: cybersecurity
 ---
+
 # Implementing Security Information Sharing with STIX 2.1
 
 Build and share structured threat intelligence using STIX 2.1 objects

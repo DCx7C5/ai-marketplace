@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-docker-dockertrivy
-description: Trivy is a comprehensive open-source vulnerability scanner by Aqua Security that detects vulnerabilities in OS packages, language-specific dependencies, misconfigurations, secrets, and license violations within container images. It integrates into CI/CD pipelines and supports multiple output formats including SARIF, CycloneDX, and SPDX.
+description: "Cloud Containers Docker Dockertrivy."
 domain: cybersecurity
 ---
-------|------|---------|
+
+|
 | Vulnerability | `--scanners vuln` | CVEs in OS packages and libraries |
 | Misconfiguration | `--scanners misconfig` | Dockerfile/K8s manifest misconfigs |
 | Secret | `--scanners secret` | Hardcoded passwords, API keys, tokens |
@@ -112,7 +113,6 @@ trivy config ./terraform/
 
 ```yaml
 # GitHub Actions
-name: cloud-containers-docker-dockertrivy
 on: push
 
 jobs:

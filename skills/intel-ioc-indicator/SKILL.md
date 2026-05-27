@@ -1,8 +1,9 @@
 ---
 name: intel-ioc-indicator
-description: Indicator lifecycle management tracks IOCs from initial discovery through validation, enrichment, deployment, monitoring, and eventual retirement. This skill covers implementing systematic processes for IOC quality assessment, aging policies, confidence scoring decay, false positive tracking, hit-rate monitoring, and automated expiration to maintai
+description: "- [STIX Indicator Valid From/Until](https://docs.oasis-open."
 domain: cybersecurity
 ---
+
 # Performing Indicator Lifecycle Management
 
 ## Overview

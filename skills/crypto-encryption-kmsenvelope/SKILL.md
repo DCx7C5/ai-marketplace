@@ -1,9 +1,10 @@
 ---
 name: crypto-encryption-kmsenvelope
-description: Envelope encryption is a strategy where data is encrypted with a data encryption key (DEK), and the DEK itself is encrypted with a master key (KEK) managed by AWS KMS. This approach allows encrypting large volumes of data locally while keeping the master key secure in a hardware security module (HSM) managed by AWS. This skill covers implementing e
+description: "-| | Max data size | 4 KB | Unlimited | | Latency | Network round-trip per operation | Local encryption | | Cost | $0."
 domain: cybersecurity
 ---
------|-----------|-------------------|
+
+-|
 | Max data size | 4 KB | Unlimited |
 | Latency | Network round-trip per operation | Local encryption |
 | Cost | $0.03/10,000 requests | Fewer KMS requests |

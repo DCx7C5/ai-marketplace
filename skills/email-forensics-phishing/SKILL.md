@@ -1,22 +1,10 @@
 ---
 name: email-forensics-phishing
-description: - When investigating a suspected phishing email to determine its true origin - For verifying sender authenticity and detecting email spoofing - During incident response when a user has clicked a phishing link - When tracing the delivery path and relay servers of a suspicious email - For validating SPF, DKIM, and DMARC alignment to identify forgery
+description: "Email Forensics Phishing."
 domain: cybersecurity
 ---
-------|-------------|
-| SPF (Sender Policy Framework) | DNS record specifying authorized mail servers for a domain |
-| DKIM (DomainKeys Identified Mail) | Cryptographic signature verifying email content integrity |
-| DMARC | Policy framework combining SPF and DKIM for sender authentication |
-| Received headers | Server-added headers showing each hop in the delivery chain (read bottom to top) |
-| Return-Path | Envelope sender address used for bounce messages; may differ from From |
-| Message-ID | Unique identifier assigned by the originating mail server |
-| X-Originating-IP | Original sender IP address (added by some mail services) |
-| Header forgery | Attackers can forge From, Reply-To, and other headers but not Received chains |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | MXToolbox | Online email header analyzer and DNS lookup |
 | dig/nslookup | DNS record queries for SPF, DKIM, DMARC verification |
 | pyspf | Python SPF record validation library |

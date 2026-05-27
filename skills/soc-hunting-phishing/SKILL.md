@@ -1,17 +1,10 @@
 ---
 name: soc-hunting-phishing
-description: - When proactively hunting for indicators of hunting for spearphishing indicators in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments a
+description: "Soc Hunting Phishing."
 domain: cybersecurity
 ---
-------|-------------|
-| T1566.001 | Spearphishing Attachment |
-| T1566.002 | Spearphishing Link |
-| T1566.003 | Spearphishing via Service |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

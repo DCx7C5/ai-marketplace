@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-network-stack-netlink-socket-abuse-detect
-description: Detect Netlink socket privilege abuse — identify processes using Netlink to modify routing, firewall rules, or network interfaces without going through standard tools.
+description: "subdomain: kernel-security tags: - linux - netlink - socket - privilege - abuse nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

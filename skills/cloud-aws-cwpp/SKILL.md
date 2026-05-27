@@ -1,8 +1,9 @@
 ---
 name: cloud-aws-cwpp
-description: - When deploying or configuring implementing cloud workload protection capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "```python # Check for unauthorized outbound connections ssm."
 domain: cybersecurity
 ---
+
 # Implementing Cloud Workload Protection
 
 ## When to Use

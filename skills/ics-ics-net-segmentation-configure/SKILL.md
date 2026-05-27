@@ -1,9 +1,10 @@
 ---
 name: ics-ics-net-segmentation-configure
-description: - When an OT security assessment reveals a flat network with no segmentation between Purdue levels - When implementing IEC 62443 zone/conduit architecture after completing risk assessment (IEC 62443-3-2) - When separating IT and OT networks as part of an IT/OT convergence security initiative - When deploying a DMZ between corporate IT and OT to pro
+description: "Ics Ics Net Segmentation Configure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | VLAN | Virtual Local Area Network - Layer 2 broadcast domain isolation used to separate OT zones on shared switch infrastructure |
 | Industrial Firewall | Firewall with deep packet inspection capabilities for industrial protocols (Modbus, DNP3, EtherNet/IP, OPC UA) |
 | Data Diode | Hardware-enforced unidirectional gateway that physically prevents reverse data flow, used between OT operations and DMZ |

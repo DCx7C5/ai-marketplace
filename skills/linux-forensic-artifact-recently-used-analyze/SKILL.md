@@ -1,7 +1,9 @@
 ---
 name: linux-forensic-artifact-recently-used-analyze
-description: Analyze recently-used file artifacts on Linux — extract GTK recently-used.xbel, KDE recent documents, and XDG runtime artifacts to reconstruct user/attacker file access timeline.
+description: "subdomain: forensic-analysis tags: - linux - recently-used - xbel - gtk - artifact - timeline nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: forensic-analysis
 tags:
 - linux

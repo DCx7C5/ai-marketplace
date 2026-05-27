@@ -1,8 +1,9 @@
 ---
 name: soc-tuning-usecasetuning
-description: SIEM use case tuning reduces alert fatigue by systematically analyzing detection rules for false positive rates, adjusting thresholds based on environmental baselines, creating context-aware whitelists, and measuring detection efficacy through precision/recall metrics. This skill covers tuning workflows for Splunk correlation searches and Elastic d
+description: "JSON report with per-rule tuning recommendations including current FP rate, suggested threshold adjustments, whitelist entries, and projected alert reduction percentages."
 domain: cybersecurity
 ---
+
 # Implementing SIEM Use Case Tuning
 
 ## Overview

@@ -1,8 +1,9 @@
 ---
 name: offensive-xxe
-description: - Find data entry points that you can use to submit XML data.
+description: "XmlResolver = null }; using var reader = XmlReader."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # XML External Entity (XXE) Injection
@@ -358,7 +359,6 @@ ValidatingWebhookConfiguration and MutatingWebhookConfiguration receive XML-form
 apiVersion: v1
 kind: Pod
 metadata:
-name: offensive-xxe
   annotations:
     # Webhook receives and parses this XML
     config: |
@@ -389,7 +389,6 @@ curl -k https://kubernetes.default.svc/api/v1/namespaces/default/pods \
 apiVersion: v1
 kind: ConfigMap
 metadata:
-name: offensive-xxe
 data:
   config.xml: |
     <?xml version="1.0"?>

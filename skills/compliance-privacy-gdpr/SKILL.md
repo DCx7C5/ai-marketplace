@@ -1,31 +1,10 @@
 ---
 name: compliance-privacy-gdpr
-description: The General Data Protection Regulation (EU) 2016/679 (GDPR) is the EU's comprehensive data protection law governing the collection, processing, storage, and transfer of personal data. This skill covers implementing the technical and organizational measures required by GDPR, including data protection by design and by default, Data Protection Impact 
+description: "Compliance Privacy Gdpr."
 domain: cybersecurity
 ---
-------|-------------|
-| Art. 5 | Principles: lawfulness, purpose limitation, data minimization, accuracy, storage limitation, integrity and confidentiality, accountability |
-| Art. 6 | Lawful basis for processing (consent, contract, legal obligation, vital interests, public task, legitimate interest) |
-| Art. 25 | Data protection by design and by default |
-| Art. 28 | Processor obligations and contractual requirements |
-| Art. 30 | Records of processing activities (ROPA) |
-| Art. 32 | Security of processing (technical and organizational measures) |
-| Art. 33 | Breach notification to supervisory authority (72 hours) |
-| Art. 34 | Communication of breach to data subjects |
-| Art. 35 | Data Protection Impact Assessment (DPIA) |
-| Art. 37-39 | Data Protection Officer (DPO) appointment and role |
-| Art. 44-49 | Cross-border data transfers (adequacy, SCCs, BCRs) |
 
-### Article 32 Security Measures
-The regulation requires organizations to implement measures appropriate to the risk:
-- **Pseudonymization** and encryption of personal data
-- **Confidentiality, integrity, availability, and resilience** of processing systems
-- **Ability to restore** availability and access to personal data in a timely manner
-- **Regular testing** and evaluation of technical and organizational measures
-
-### Data Subject Rights (Articles 12-22)
-| Right | Article | Description |
-|-------|---------|-------------|
+-|
 | Right to be informed | 13-14 | Transparent information about processing |
 | Right of access | 15 | Obtain copy of personal data |
 | Right to rectification | 16 | Correct inaccurate data |

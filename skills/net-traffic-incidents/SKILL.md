@@ -1,9 +1,10 @@
 ---
 name: net-traffic-incidents
-description: - SIEM alerts on anomalous network traffic patterns requiring deeper investigation - C2 beaconing is suspected and needs confirmation through packet-level analysis - Data exfiltration volume or destination must be quantified from network evidence - Lateral movement between systems needs to be traced through network connections - An IDS/IPS alert re
+description: "Net Traffic Incidents."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **PCAP (Packet Capture)** | File format storing raw network packets captured from a network interface for offline analysis |
 | **Beaconing** | Regular, periodic network connections from a compromised host to a C2 server, identifiable by consistent timing intervals |
 | **JA3/JA3S** | TLS client and server fingerprinting method based on the ClientHello and ServerHello parameters; unique per application |

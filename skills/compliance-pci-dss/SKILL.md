@@ -1,8 +1,9 @@
 ---
 name: compliance-pci-dss
-description: PCI DSS 4.0.1 establishes 12 requirements across 6 control objectives for organizations that store, process, or transmit cardholder data. With PCI DSS 3.2.1 retiring April 2024 and 51 new requirements becoming mandatory March 31, 2025, this skill covers implementing all requirements including the new customized validation approach, enhanced authent
+description: "- PCI DSS 4.0 Summary of Changes - UpGuard PCI DSS 4."
 domain: cybersecurity
 ---
+
 # Implementing PCI DSS Compliance Controls
 
 ## Overview

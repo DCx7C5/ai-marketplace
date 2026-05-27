@@ -1,9 +1,10 @@
 ---
 name: soc-tuning-falsepositivereduction
-description: False positive alerts are non-malicious events that trigger security rules, overwhelming SOC analysts with noise. Studies show that up to 45% of SIEM alerts are false positives, and a typical SOC analyst can only investigate 20-25 alerts per shift effectively. Reducing false positives requires systematic tuning across thresholds, correlation logic,
+description: "| | False Positive Rate | FP / (FP + TP) * 100 | < 20% | | Alert Volume Reduction | (Old Volume - New Volume) / Old Volume * 100 | 30-50% per quarter | | Mean Triage Time | Total triage time / Total alerts | < 8 minutes | | Rule Precision | TP / (TP + FP) | > 0."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | False Positive Rate | FP / (FP + TP) * 100 | < 20% |
 | Alert Volume Reduction | (Old Volume - New Volume) / Old Volume * 100 | 30-50% per quarter |
 | Mean Triage Time | Total triage time / Total alerts | < 8 minutes |

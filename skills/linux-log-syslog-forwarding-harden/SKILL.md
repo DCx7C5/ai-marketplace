@@ -1,7 +1,9 @@
 ---
 name: linux-log-syslog-forwarding-harden
-description: Harden syslog forwarding configuration — configure TLS-encrypted log forwarding (rsyslog/syslog-ng), prevent log injection, and set up centralized SIEM integration securely.
+description: "subdomain: logging-hardening tags: - linux - syslog - rsyslog - forwarding - harden - tls nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: logging-hardening
 tags:
 - linux

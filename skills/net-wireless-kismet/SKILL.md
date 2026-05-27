@@ -1,20 +1,10 @@
 ---
 name: net-wireless-kismet
-description: Kismet is an open-source wireless network detector, packet sniffer, and wireless intrusion detection system (WIDS) supporting 802.11a/b/g/n/ac/ax. Unlike active scanners, Kismet operates in passive monitor mode, making it undetectable to the networks being assessed. It captures raw 802.11 frames, identifies access points, clients, probe requests, a
+description: "| | Open (No encryption) | Insecure | Critical - all traffic visible | | WEP | Broken | Critical - crackable in minutes | | WPA-TKIP | Deprecated | High - known vulnerabilities | | WPA2-PSK (CCMP) | Acceptable | Medium - depends on passphrase strength | | WPA2-Enterprise (802."
 domain: cybersecurity
 ---
----------|---------|-------------------|
-| Beacon | AP announces its presence | SSID, encryption, vendor |
-| Probe Request | Client searches for networks | Reveals preferred networks |
-| Probe Response | AP responds to client probe | Hidden SSID disclosure |
-| Authentication | Client authenticates to AP | Auth type identification |
-| Deauthentication | Disconnects client from AP | Potential attack indicator |
-| Association | Client joins network | Client-AP relationship |
 
-### Encryption Assessment
-
-| Encryption | Status | Risk |
-|------------|--------|------|
+|
 | Open (No encryption) | Insecure | Critical - all traffic visible |
 | WEP | Broken | Critical - crackable in minutes |
 | WPA-TKIP | Deprecated | High - known vulnerabilities |

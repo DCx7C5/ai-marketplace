@@ -1,8 +1,9 @@
 ---
 name: cloud-containers-calico
-description: Calico provides Kubernetes-native and extended network policy enforcement through its CNI plugin. This skill covers creating and auditing Calico NetworkPolicy and GlobalNetworkPolicy resources to implement pod-to-pod traffic control, namespace isolation, egress restrictions, and DNS-based policy rules using calicoctl and the Kubernetes API.
+description: "JSON audit report listing all network policies, unprotected namespaces, policy rule counts, and connectivity test results."
 domain: cybersecurity
 ---
+
 # Implementing Container Network Policies with Calico
 
 ## Overview

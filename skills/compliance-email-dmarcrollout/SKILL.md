@@ -1,9 +1,10 @@
 ---
 name: compliance-email-dmarcrollout
-description: Domain-based Message Authentication, Reporting and Conformance (DMARC) is the cornerstone of email anti-spoofing protection. A DMARC rollout progresses through three phases: monitoring (p=none), quarantine (p=quarantine), and full enforcement (p=reject). When configured at p=reject, any email that fails both SPF and DKIM checks is outright rejected
+description: "| | p=none | Monitor only, no action on failures | Discovery phase | | p=quarantine | Send failing messages to spam/junk | Transition phase | | p=reject | Block failing messages entirely | Full enforcement |  ### DMARC Record Anatomy ``` v=DMARC1; p=quarantine; pct=25; rua=mailto:dmarc-agg@company."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | p=none | Monitor only, no action on failures | Discovery phase |
 | p=quarantine | Send failing messages to spam/junk | Transition phase |
 | p=reject | Block failing messages entirely | Full enforcement |

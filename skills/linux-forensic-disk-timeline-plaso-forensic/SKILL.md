@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-disk-timeline-plaso-forensic
-description: - When building a comprehensive forensic timeline from multiple evidence sources - For correlating events across file system metadata, event logs, browser history, and registry - During complex investigations requiring chronological reconstruction of activities - When standard log analysis is insufficient to establish the sequence of events - For p
+description: "Linux Forensic Disk Timeline Plaso Forensic."
 domain: cybersecurity
 ---
-------|-------------|
-| Super-timeline | Unified chronological view combining all artifact timestamps from multiple sources |
-| MACB timestamps | Modified, Accessed, Changed (metadata), Born (created) - four key file timestamp types |
-| Plaso storage file | SQLite-based intermediate format storing parsed events before export |
-| L2T CSV | Log2timeline CSV format with standardized columns for timeline events |
-| Parser | Plaso module extracting timestamps from a specific artifact type (e.g., winevtx, prefetch) |
-| Psort | Plaso sorting and filtering tool for post-processing storage files |
-| Timesketch | Google open-source collaborative timeline analysis platform |
-| Pivot points | Known timestamps (e.g., malware execution) used to focus investigation scope |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | log2timeline (Plaso) | Primary timeline generation engine parsing 100+ artifact types |
 | psort | Plaso output filtering, sorting, and export utility |
 | Timesketch | Web-based collaborative forensic timeline analysis platform |

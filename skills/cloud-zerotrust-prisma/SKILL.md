@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-prisma
-description: - When implementing enterprise-grade SASE with integrated ZTNA, SWG, CASB, and FWaaS - When replacing both VPN and branch office firewalls with cloud-delivered security - When needing advanced threat prevention (WildFire, DNS Security) for remote access traffic - When deploying zero trust for both mobile users and remote network (branch) connection
+description: "Cloud Zerotrust Prisma."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Prisma Access | Palo Alto's cloud-delivered SASE platform providing FWaaS, SWG, CASB, DLP, and ZTNA from a single architecture |
 | ZTNA Connector | VM-based connector establishing IPSec tunnels from internal networks to Prisma Access for private application access |
 | GlobalProtect | Endpoint agent providing secure connectivity to Prisma Access with HIP checks and always-on VPN |

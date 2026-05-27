@@ -1,6 +1,6 @@
 ---
 name: cloud-logs-azure
-description: - When investigating security incidents that require analyzing azure activity logs for threats - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+description: "- When investigating security incidents that require analyzing azure activity logs for threats - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques"
 domain: cybersecurity
 ---
 # Analyzing Azure Activity Logs for Threats

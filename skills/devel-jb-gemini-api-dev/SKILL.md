@@ -1,8 +1,9 @@
 ---
 name: devel-jb-gemini-api-dev
-description: The Gemini API provides access to Google's most advanced AI models. Key capabilities include: - **Text generation** - Chat, completion, summarization - **Multimodal understanding** - Process images, audio, video, and documents - **Function calling** - Let the model invoke your functions - **Structured output** - Generate valid JSON matching your sc
+description: "For real-time, bidirectional audio/video/text streaming with the Gemini Live API, install the **`google-gemini/gemini-live-api-dev`** skill."
 domain: cybersecurity
 ---
+
 # Gemini API Development Skill
 
 ## Overview

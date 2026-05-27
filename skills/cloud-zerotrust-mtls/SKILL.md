@@ -1,6 +1,6 @@
 ---
 name: cloud-zerotrust-mtls
-description: - When deploying or configuring implementing mtls for zero trust services capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "- When deploying or configuring implementing mtls for zero trust services capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation"
 domain: cybersecurity
 ---
 # Implementing mTLS for Zero Trust Services

@@ -1,33 +1,8 @@
 ---
 name: vuln-ms17
-description: MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's SMBv1 implementation that allows remote code execution. Originally discovered by the NSA and leaked by the Shadow Brokers in 2017, it was used in the WannaCry and NotPetya ransomware campaigns. Despite patches being available since March 2017, many organizations still have unpatched 
+description: "```bash"
 domain: cybersecurity
 ---
----|---------|
-| Nmap ms-17-010 NSE scripts | Vulnerability detection |
-| Metasploit ms17_010_eternalblue | Exploitation module |
-| Metasploit ms17_010_psexec | Alternative exploitation |
-| AutoBlue-MS17-010 | Standalone Python exploit |
-| CrackMapExec | Mass SMB vulnerability scanning |
-
-## Detection Indicators
-
-- IDS/IPS signatures for EternalBlue exploit traffic
-- SMBv1 negotiation from unusual source hosts
-- Event ID 7045: New service installation after exploitation
-- Anomalous named pipe activity on SMB
-- Large SMB write requests characteristic of buffer overflow
-
-## Validation Criteria
-
-- [ ] Vulnerable systems identified via scanning
-- [ ] Exploitation achieved on authorized target
-- [ ] Code execution confirmed with session established
-- [ ] Post-exploitation activities documented
-- [ ] Remediation recommendations provided
-
----
-
 ## CyberSecSuite Integration
 
 ```bash

@@ -1,7 +1,9 @@
 ---
 name: linux-supply-shared-library-preload-detect
-description: Detect /etc/ld.so.preload backdoors and LD_PRELOAD injection — identify unauthorized entries forcing malicious shared libraries into every process's address space.
+description: "subdomain: supply-chain-security tags: - linux - ld-so-preload - shared-library - rootkit - hijack nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: supply-chain-security
 tags:
 - linux

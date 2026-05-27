@@ -1,9 +1,10 @@
 ---
 name: offensive-jwt
-description: Comprehensive JWT attack checklist for offensive security engagements. Follow steps in order; apply each technique to the current target context and track which items have been completed.
+description: "Offensive Jwt."
 domain: cybersecurity
 ---
---------|------|-------|
+
+-|
 | HS256/384/512 | Symmetric HMAC | Shared secret; confusion target |
 | RS256/384/512 | Asymmetric RSA | Public key can be misused as HMAC secret |
 | ES256/384/512 | Asymmetric ECDSA | |

@@ -1,7 +1,9 @@
 ---
 name: linux-fs-squashfs-unpack-analyze
-description: Unpack and analyze SquashFS images from AppImage, Snap packages, or embedded Linux — extract contents, verify integrity, and scan for malicious payloads.
+description: "subdomain: filesystem-forensics tags: - linux - squashfs - appimage - snap - analyze nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: filesystem-forensics
 tags:
 - linux

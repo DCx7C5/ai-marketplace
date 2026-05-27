@@ -1,8 +1,9 @@
 ---
 name: compliance-privacy-dsar
-description: - When building automated DSAR processing pipelines for GDPR/UK GDPR compliance - When implementing PII discovery across structured and unstructured data sources - When creating response templates that satisfy Article 15 disclosure requirements - When auditing existing DSAR handling for regulatory compliance gaps - When scaling DSAR processing from
+description: "- GDPR Article 12 (DSAR Modalities): https://gdpr-info."
 domain: cybersecurity
 ---
+
 # Implementing GDPR Data Subject Access Request (DSAR) Workflow
 
 ## When to Use

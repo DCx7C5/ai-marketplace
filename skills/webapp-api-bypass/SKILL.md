@@ -1,9 +1,10 @@
 ---
 name: webapp-api-bypass
-description: - Testing whether API rate limiting can be circumvented to enable brute force attacks on authentication endpoints - Assessing the effectiveness of API throttling controls against credential stuffing or account enumeration - Evaluating if rate limits are enforced consistently across all API versions, methods, and encoding formats - Testing if API ga
+description: "Webapp Api Bypass."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Rate Limiting** | Controlling the number of requests a client can make to an API within a time window, typically enforced per IP, per user, or per API key |
 | **Unrestricted Resource Consumption** | OWASP API4:2023 - APIs that do not properly limit the size or number of resources requested, enabling DoS or brute force attacks |
 | **X-Forwarded-For Spoofing** | Manipulating the X-Forwarded-For header to make the server believe requests originate from different IP addresses, bypassing IP-based rate limits |

@@ -1,9 +1,10 @@
 ---
 name: offensive-ai-security
-description: - Understand the AI system, its components (LLM, APIs, data sources, plugins), and functionalities. Identify critical assets and potential business impacts.
+description: "Offensive Ai Security."
 domain: cybersecurity
 ---
-------------------- | --------------------------------------------------------------------------------------------------------------- |
+
+|
 | Prompt Injection       | Sanitize inputs, use parameterization, implement instruction defense, adopt least privilege, define I/O schemas |
 | Insecure Output        | Validate and sanitize outputs, apply principle of least privilege, implement CSP for web content                |
 | Data Poisoning         | Vet data sources, implement sanitization and anomaly detection, maintain provenance, conduct regular audits     |

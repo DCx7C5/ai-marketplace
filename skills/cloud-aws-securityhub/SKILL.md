@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-securityhub
-description: - When establishing a centralized security findings dashboard across multiple AWS accounts - When enabling automated compliance checks against CIS, PCI-DSS, NIST, or AWS Foundational Security Best Practices - When integrating findings from GuardDuty, Inspector, Macie, and third-party security tools - When building automated remediation workflows fo
+description: "Cloud Aws Securityhub."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Security Standard | Pre-packaged set of controls mapped to compliance frameworks such as CIS, PCI-DSS, NIST 800-53, and AWS best practices |
 | Security Control | Individual automated check that evaluates a specific AWS resource configuration against a security requirement |
 | ASFF | AWS Security Finding Format, a standardized JSON schema for normalizing findings from all integrated security products |

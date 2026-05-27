@@ -1,8 +1,9 @@
 ---
 name: devel-jb-domain-decomposition-api-design-advisor
-description: Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-25`).
+description: "A bad run produces a plausible architecture diagram with no ownership, no consistency story, and no contract discipline."
 domain: cybersecurity
 ---
+
 # Domain Decomposition API Design Advisor
 
 Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-25`).

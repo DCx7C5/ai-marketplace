@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-mem-analysis-credentials-extract
-description: - During incident response to determine what credentials an attacker had access to - When assessing the scope of credential compromise after a breach - For identifying accounts that need immediate password resets - When investigating lateral movement and pass-the-hash/pass-the-ticket attacks - For recovering encryption keys or authentication tokens
+description: "| | Volatility 3 | Memory forensics framework with hashdump, lsadump, cachedump plugins | | pypykatz | Python implementation of Mimikatz for cross-platform LSASS analysis | | Mimikatz | Windows credential extraction tool (used offline against dumps) | | secretsdump."
 domain: cybersecurity
 ---
-------|-------------|
-| LSASS (Local Security Authority) | Windows process managing authentication, storing credentials in memory |
-| NTLM hash | NT LAN Manager hash of user password used for authentication |
-| Kerberos TGT | Ticket Granting Ticket allowing request of service tickets |
-| WDigest | Legacy authentication protocol storing plaintext passwords in memory (pre-Win8.1) |
-| DPAPI | Data Protection API using master keys derived from user credentials |
-| DCC2 (Domain Cached Credentials) | Cached domain password hashes for offline logon |
-| LSA Secrets | Encrypted service account passwords and other secrets stored by LSA |
-| Pass-the-Hash | Attack technique using extracted NTLM hashes without knowing the plaintext password |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Volatility 3 | Memory forensics framework with hashdump, lsadump, cachedump plugins |
 | pypykatz | Python implementation of Mimikatz for cross-platform LSASS analysis |
 | Mimikatz | Windows credential extraction tool (used offline against dumps) |

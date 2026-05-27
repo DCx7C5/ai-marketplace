@@ -1,9 +1,10 @@
 ---
 name: cloud-serverless-serverlessrev
-description: - When auditing serverless applications before production deployment - When investigating potential data exposure through function environment variables or logs - When assessing the blast radius of a compromised serverless function execution role - When compliance reviews require documentation of serverless security controls - When building secure-
+description: "Cloud Serverless Serverlessrev."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Execution Role | IAM role assumed by a serverless function during execution that defines what AWS/cloud resources the function can access |
 | Event Injection | Serverless-specific attack where untrusted data in the event trigger payload is used unsafely in function logic |
 | Function URL | Direct HTTP(S) endpoint for invoking Lambda functions without API Gateway, which may be configured without authentication |

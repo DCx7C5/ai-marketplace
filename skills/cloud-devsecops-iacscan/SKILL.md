@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-iacscan
-description: - When provisioning cloud infrastructure with Terraform, CloudFormation, or Pulumi and needing automated security validation - When compliance frameworks require evidence of infrastructure configuration review before deployment - When preventing common cloud misconfigurations like public S3 buckets, open security groups, or unencrypted storage - Wh
+description: "Cloud Devsecops Iacscan."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | IaC Scanning | Automated analysis of infrastructure code templates to detect security misconfigurations before deployment |
 | Policy as Code | Security policies defined as executable code that can be version-controlled, tested, and enforced automatically |
 | CKV Check ID | Checkov's unique identifier for each security check (e.g., CKV_AWS_18 for S3 public access) |

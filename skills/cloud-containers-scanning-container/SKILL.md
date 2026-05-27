@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-scanning-container
-description: - When building production container images that need minimal attack surface - When compliance requires CIS Docker Benchmark adherence for container configurations - When reducing image size to minimize vulnerability exposure from unused packages - When implementing defense-in-depth for containerized workloads - When migrating from fat base images 
+description: "Cloud Containers Scanning Container."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Multi-Stage Build | Docker build technique using multiple FROM stages to separate build and runtime, reducing final image size |
 | Distroless | Google-maintained minimal container images containing only the application and runtime dependencies |
 | Non-Root User | Running container processes as unprivileged user to limit impact of container escape exploits |

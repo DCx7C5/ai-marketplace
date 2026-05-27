@@ -1,9 +1,10 @@
 ---
 name: identity-privilege-general
-description: Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements.
+description: "Identity Privilege General."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Privileged Access | AC-6(7) | Privileged account controls |
 | Credential Management | IA-5 | Automated credential rotation |
 | Session Recording | AU-14 | Session audit capability |

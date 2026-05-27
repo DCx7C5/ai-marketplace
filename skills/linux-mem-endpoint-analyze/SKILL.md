@@ -1,9 +1,10 @@
 ---
 name: linux-mem-endpoint-analyze
-description: Use this skill when hardening endpoints against memory-based exploits by configuring DEP, ASLR, CFG, and Windows Exploit Protection system-wide and per-application mitigations.
+description: "Linux Mem Endpoint Analyze."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **DEP** | Marks memory pages as non-executable to prevent shellcode execution in data regions |
 | **ASLR** | Randomizes memory addresses of loaded modules to defeat hardcoded ROP gadgets |
 | **CFG** | Validates indirect call targets at runtime to prevent control flow hijacking |

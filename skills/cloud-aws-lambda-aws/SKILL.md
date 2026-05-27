@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-lambda-aws
-description: - When deploying new Lambda functions and defining their IAM execution roles - When remediating overly permissive Lambda roles discovered during security audits - When implementing least-privilege access patterns for serverless architectures - When building reusable IAM templates for Lambda functions across teams - When Security Hub or Prowler repo
+description: "Cloud Aws Lambda Aws."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Execution Role | IAM role assumed by Lambda during function execution that defines all AWS API actions the function can perform |
 | Least Privilege | Security principle of granting only the minimum permissions required for a function to perform its intended operations |
 | Permission Boundary | IAM policy that sets the maximum permissions an execution role can have, even if identity policies grant broader access |

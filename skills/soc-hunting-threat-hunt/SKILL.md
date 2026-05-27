@@ -1,18 +1,10 @@
 ---
 name: soc-hunting-threat-hunt
-description: - When proactively hunting for indicators of building threat hunt hypothesis framework in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessme
+description: "Soc Hunting Threat Hunt."
 domain: cybersecurity
 ---
-------|-------------|
-| TA0001 | Initial Access |
-| TA0003 | Persistence |
-| TA0008 | Lateral Movement |
-| TA0010 | Exfiltration |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

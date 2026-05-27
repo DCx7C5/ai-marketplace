@@ -1,9 +1,10 @@
 ---
 name: webapp-api-websocket-wssecurity
-description: - Assessing real-time communication APIs that use WebSocket (ws://) or Secure WebSocket (wss://) protocols - Testing for Cross-Site WebSocket Hijacking (CSWSH) where an attacker's page connects to a legitimate WebSocket server - Evaluating authentication and authorization enforcement on WebSocket connections and messages - Testing input validation 
+description: "Webapp Api Websocket Wssecurity."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **WebSocket** | Full-duplex communication protocol over a single TCP connection, established via HTTP upgrade handshake |
 | **CSWSH** | Cross-Site WebSocket Hijacking - an attack where a malicious website initiates a WebSocket connection to a legitimate server using the victim's browser credentials |
 | **Origin Validation** | Server-side check of the Origin header during WebSocket handshake to prevent CSWSH by rejecting connections from unauthorized domains |

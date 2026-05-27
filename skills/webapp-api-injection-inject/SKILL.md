@@ -1,9 +1,10 @@
 ---
 name: webapp-api-injection-inject
-description: - Testing API endpoints that accept user input for database queries, system commands, or external requests - Assessing APIs that interact with SQL databases, NoSQL stores (MongoDB, Redis), LDAP directories, or external URLs - Evaluating input validation and parameterized query usage across all API endpoints - Testing for SSRF where API parameters a
+description: "Webapp Api Injection Inject."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **SQL Injection** | Inserting SQL code into API parameters that are concatenated into database queries, enabling data extraction or modification |
 | **NoSQL Injection** | Injecting NoSQL operators ($ne, $gt, $regex) into MongoDB queries or manipulating Redis/Elasticsearch queries through API parameters |
 | **SSRF** | Server-Side Request Forgery (OWASP API7:2023) - forcing the server to make HTTP requests to attacker-specified destinations including internal services |

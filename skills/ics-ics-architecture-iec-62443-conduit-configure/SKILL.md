@@ -1,9 +1,10 @@
 ---
 name: ics-ics-architecture-iec-62443-conduit-configure
-description: - When replacing direct VPN connections from IT or vendors into OT control networks - When implementing IEC 62443-compliant conduit architecture for remote access paths - When deploying secure remote access for third-party vendor maintenance of ICS equipment - When building approval-based access workflows for privileged OT system access - When reme
+description: "Ics Ics Architecture Iec 62443 Conduit Configure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Conduit | IEC 62443 controlled communication path between security zones with defined security policies |
 | Jump Server | Hardened intermediary server in the DMZ through which all remote OT access must transit |
 | Session Recording | Capture of all screen activity, keystrokes, and commands during a remote access session for audit |

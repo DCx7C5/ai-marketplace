@@ -1,7 +1,9 @@
 ---
 name: linux-svc-systemd-timer-persist-detect
-description: Detect systemd timer-based persistence — enumerate all .timer units, identify timers not associated with legitimate services, and detect cron replacement via systemd timers.
+description: "subdomain: persistence-detection tags: - linux - systemd - timer - cron - persistence nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: persistence-detection
 tags:
 - linux

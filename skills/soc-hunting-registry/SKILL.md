@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-registry
-description: Registry Run keys (T1547.001) are one of the most commonly used persistence mechanisms by adversaries. When a program is added to a Run key in the Windows registry, it executes automatically when a user logs in. Attackers abuse keys under `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`, `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`, and
+description: "A JSON report listing suspicious Run key entries with the registry path, value written, modifying process, timestamp, MITRE technique mapping, severity rating, and recommended Sigma detection rules."
 domain: cybersecurity
 ---
+
 # Hunting for Registry Run Key Persistence
 
 ## Overview

@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-mem-kaslr-bypass-detect
-description: Detect KASLR (Kernel Address Space Layout Randomization) bypass attempts — side-channel leaks via /proc/kallsyms, timing attacks, and information disclosure vulnerabilities.
+description: "subdomain: kernel-security tags: - linux - kaslr - kernel - aslr - bypass nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

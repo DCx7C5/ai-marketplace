@@ -1,59 +1,10 @@
 ---
 name: identity-access-control
-description: Access recertification (also called access certification or access review) is a periodic process where designated reviewers validate that users have appropriate access to systems and data. Saviynt Enterprise Identity Cloud (EIC) automates this process through certification campaigns that present reviewers with current access assignments and collect
+description: "Identity Access Control."
 domain: cybersecurity
 ---
----|-------|---------|-----------|
-| User Manager | All access for users under a manager | Scheduled (quarterly) | Direct manager |
-| Entitlement Owner | All users with a specific entitlement | Scheduled (semi-annually) | Entitlement/app owner |
-| Application | All access to a specific application | Scheduled | Application owner |
-| Role-Based | All users assigned to a specific role | Scheduled | Role owner |
-| Event-Based | Users whose attributes changed | Attribute change trigger | New manager |
-| Micro-Certification | Single user, single entitlement | On-demand | Manager or owner |
 
-### Certification Decisions
-
-| Decision | Effect | Use Case |
-|----------|--------|----------|
-| Certify (Approve) | Access maintained | Access is still required |
-| Revoke | Access removal ticket created | Access no longer needed |
-| Conditionally Certify | Access maintained with conditions | Access needed temporarily, review again |
-| Delegate | Reassign to another certifier | Certifier lacks knowledge to decide |
-| Abstain | No decision recorded | Conflict of interest |
-
-### Campaign Lifecycle
-
-```
-CONFIGURATION → PREVIEW → ACTIVE → IN PROGRESS → COMPLETED → REMEDIATION
-       │            │         │          │             │            │
-       │            │         │          │             │            └── Revoke tickets
-       │            │         │          │             │                executed
-       │            │         │          │             │
-       │            │         │          │             └── All decisions
-       │            │         │          │                 collected
-       │            │         │          │
-       │            │         │          └── Certifiers reviewing
-       │            │         │              and making decisions
-       │            │         │
-       │            │         └── Campaign launched,
-       │            │             notifications sent
-       │            │
-       │            └── Read-only preview for validation
-       │
-       └── Campaign parameters defined
-```
-
-## Workflow
-
-### Step 1: Configure Campaign Template
-
-In Saviynt Admin Console:
-
-1. Navigate to **Certifications > Campaign > Create New Campaign**
-2. Define campaign parameters:
-
-| Parameter | Value |
-|-----------|-------|
+-|
 | Campaign Name | Q1 2025 Manager Access Review |
 | Campaign Type | User Manager |
 | Description | Quarterly review of all user access |

@@ -1,8 +1,9 @@
 ---
 name: identity-ad-foresttrust
-description: Active Directory forest trusts enable authentication across organizational boundaries but introduce attack surface if misconfigured. This skill uses impacket to enumerate trust relationships, analyze SID filtering configuration, detect SID history abuse vectors, perform cross-forest SID lookups via LSA/LSAT RPC calls, and assess inter-realm Kerbero
+description: "6. Assess trust direction and transitivity for lateral movement paths 7."
 domain: cybersecurity
 ---
+
 # Performing Active Directory Forest Trust Attack
 
 ## Overview

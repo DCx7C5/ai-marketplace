@@ -1,9 +1,10 @@
 ---
 name: intel-feeds-stixfeed
-description: Use this skill when: - Onboarding a new TAXII 2.1 collection from a government feed (CISA AIS, FS-ISAC) or commercial provider - Validating that ingested STIX bundles conform to the OASIS STIX 2.1 specification before import - Building automated pipelines that parse STIX relationship objects to reconstruct campaign context **Do not use** this skill
+description: "Intel Feeds Stixfeed."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **STIX Bundle** | Top-level STIX container object (type: "bundle") holding any number of STIX Domain Objects (SDOs) and STIX Relationship Objects (SROs) |
 | **SDO** | STIX Domain Object — core intelligence types: indicator, threat-actor, malware, campaign, attack-pattern, course-of-action |
 | **SRO** | STIX Relationship Object — links two SDOs with a labeled relationship (e.g., "uses", "attributed-to", "indicates") |

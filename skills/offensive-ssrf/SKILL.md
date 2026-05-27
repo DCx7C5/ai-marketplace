@@ -1,12 +1,10 @@
 ---
 name: offensive-ssrf
-description: - Spot the features prone to SSRF and take notes for future reference.
+description: "Offensive Ssrf."
 domain: cybersecurity
 ---
-D
-    C --- E
-    C --- F
-    C --- G
+
+G
 ```
 
 Types of SSRF include:

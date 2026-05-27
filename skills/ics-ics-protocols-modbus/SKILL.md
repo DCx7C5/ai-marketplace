@@ -1,9 +1,10 @@
 ---
 name: ics-ics-protocols-modbus
-description: - When deploying intrusion detection for environments using Modbus TCP (port 502) or Modbus RTU - When investigating suspected unauthorized modifications to PLC registers or coils - When building detection analytics for OT SOC monitoring Modbus-heavy environments - When responding to FrostyGoop-style attacks that leverage Modbus TCP for operational
+description: "Ics Ics Protocols Modbus."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Modbus TCP | Industrial protocol operating on TCP port 502, lacking authentication or encryption, making it vulnerable to command injection |
 | Function Code | Single byte in Modbus PDU specifying the operation (read coils, write registers, diagnostics); monitoring for unauthorized function codes is key to detection |
 | MBAP Header | Modbus Application Protocol header in TCP variant containing transaction ID, protocol ID, length, and unit ID |

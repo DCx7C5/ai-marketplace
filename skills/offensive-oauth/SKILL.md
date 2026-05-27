@@ -1,8 +1,9 @@
 ---
 name: offensive-oauth
-description: - Check for improper redirect validation (open redirects)
+description: "- **Token binding**: Use DPoP or MTLS to bind tokens to clients  ### Standards and Compliance  - Follow **OAuth 2."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # OAuth Security Testing

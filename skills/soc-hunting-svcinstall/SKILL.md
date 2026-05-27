@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-svcinstall
-description: Attackers frequently install malicious Windows services for persistence and privilege escalation (MITRE ATT&CK T1543.003 — Create or Modify System Process: Windows Service). Event ID 7045 in the System event log records every new service installation. This skill parses .evtx log files to extract service installation events, flags suspicious binary 
+description: "7. Generate threat hunting report with MITRE ATT&CK T1543."
 domain: cybersecurity
 ---
+
 # Hunting for Unusual Service Installations
 
 ## Overview

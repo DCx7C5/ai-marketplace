@@ -1,9 +1,10 @@
 ---
 name: webapp-ai-llm
-description: - Deploying a new LLM-powered application that processes user input and needs input/output safety controls - Adding content policy enforcement to an existing chatbot or AI agent to comply with organizational policies - Implementing PII detection and redaction in LLM pipelines handling sensitive customer data - Building topic-restricted AI assistant
+description: "Webapp Ai Llm."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Input Rail** | A guardrail that intercepts and validates user input before it reaches the LLM, blocking injection attempts and redacting sensitive data |
 | **Output Rail** | A guardrail that validates LLM-generated output before it reaches the user, filtering toxic content and enforcing schema compliance |
 | **Colang** | NVIDIA's domain-specific language for defining conversational guardrail flows, with Python-like syntax for specifying user intent patterns and bot responses |

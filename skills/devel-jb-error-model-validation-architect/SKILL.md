@@ -1,8 +1,9 @@
 ---
 name: devel-jb-error-model-validation-architect
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-07`).
+description: "A bad run produces a pretty error JSON that still conflates malformed input, business rejection, and internal failure."
 domain: cybersecurity
 ---
+
 # Error Model Validation Architect
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-07`).

@@ -1,8 +1,9 @@
 ---
 name: offensive-deserialization
-description: Happens when applications deserialize program objects without proper precaution. An attacker can then manipulate serialized objects to change program behavior and even execute code.
+description: "4.  Isolate deserialization code under least privilege and sandboxing; timeouts/memory limits."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Insecure Deserialization

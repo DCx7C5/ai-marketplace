@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-iam
-description: IAM permission boundaries are an advanced AWS feature that sets the maximum permissions an identity-based policy can grant to an IAM entity (user or role). They enable centralized security teams to safely delegate IAM role and policy creation to application developers without risking privilege escalation. The effective permissions of an entity are 
+description: "Cloud Aws Iam."
 domain: cybersecurity
 ---
--------|-------------|
+
+-|
 | Developer Delegation | Allow devs to create IAM roles without escalating beyond their boundary |
 | Sandbox Isolation | Limit what roles can do in sandbox/dev accounts |
 | Multi-Tenant Workloads | Ensure tenant-specific roles cannot access other tenants' resources |

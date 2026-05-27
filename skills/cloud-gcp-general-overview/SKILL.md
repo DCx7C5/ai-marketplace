@@ -1,8 +1,9 @@
 ---
 name: cloud-gcp-general-overview
-description: Binary Authorization is a Google Cloud deploy-time security control that ensures only trusted container images are deployed on GKE or Cloud Run. It works through a policy-based model where images must have cryptographic attestations confirming they passed predefined requirements such as vulnerability scans, code reviews, or build pipeline verificat
+description: "- GCP Binary Authorization: https://cloud.google.com/binary-authorization/docs - SLSA Framework: https://slsa."
 domain: cybersecurity
 ---
+
 # Implementing GCP Binary Authorization
 
 ## Overview

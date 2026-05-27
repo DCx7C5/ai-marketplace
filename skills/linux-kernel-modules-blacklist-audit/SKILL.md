@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-modules-blacklist-audit
-description: Audit kernel module blacklists — review /etc/modprobe.d/ blacklist entries, identify missing critical blacklists (cramfs, freevxfs, usb-storage), and verify enforcement.
+description: "subdomain: kernel-hardening tags: - linux - kernel-module - blacklist - harden - modprobe nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: kernel-hardening
 tags:
 - linux

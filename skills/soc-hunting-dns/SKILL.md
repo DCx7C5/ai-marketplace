@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-dns
-description: Attackers establish DNS-based persistence by hijacking DNS records, creating unauthorized subdomains, abusing wildcard DNS entries, or modifying NS delegations to redirect traffic through attacker-controlled infrastructure. These techniques survive credential rotations, endpoint reimaging, and traditional remediation because DNS changes persist ind
+description: "JSON report listing DNS anomalies with record type, historical changes, risk severity, and remediation recommendations for each finding."
 domain: cybersecurity
 ---
+
 # Hunting for DNS-based Persistence
 
 ## Overview

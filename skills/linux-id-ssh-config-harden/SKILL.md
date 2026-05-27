@@ -1,7 +1,9 @@
 ---
 name: linux-id-ssh-config-harden
-description: Harden SSH server configuration (sshd_config) — disable root login, enforce key-only auth, restrict ciphers, set idle timeout, enable strict mode, and validate config.
+description: "subdomain: identity-hardening tags: - linux - ssh - sshd - harden - configuration nist_csf: - PR."
 domain: cybersecurity
+---
+
 subdomain: identity-hardening
 tags:
 - linux

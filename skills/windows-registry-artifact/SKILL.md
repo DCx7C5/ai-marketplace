@@ -1,22 +1,10 @@
 ---
 name: windows-registry-artifact
-description: - When investigating user activity on a Windows system during an incident - For identifying autorun/persistence mechanisms used by malware - When tracing installed software, USB devices, and network connections - During insider threat investigations to reconstruct user actions - For correlating registry timestamps with other forensic artifacts
+description: "Windows Registry Artifact."
 domain: cybersecurity
 ---
-------|-------------|
-| Registry hive | Binary file storing a section of the registry (SAM, SYSTEM, SOFTWARE, NTUSER.DAT) |
-| MRU (Most Recently Used) | Lists tracking recently accessed files, commands, and search terms |
-| UserAssist | ROT13-encoded registry entries tracking program execution with timestamps |
-| ShimCache | Application compatibility cache recording executed programs |
-| AmCache | Detailed execution history including SHA-1 hashes of executables |
-| BAM/DAM | Background/Desktop Activity Moderator tracking program execution in Win10+ |
-| Last Write Time | Timestamp on registry keys indicating when they were last modified |
-| Transaction logs | Journal files allowing recovery of registry state after improper shutdown |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | RegRipper | Automated registry artifact extraction with plugin architecture |
 | Registry Explorer | Eric Zimmerman GUI tool for interactive registry analysis |
 | python-registry | Python library for programmatic registry hive parsing |

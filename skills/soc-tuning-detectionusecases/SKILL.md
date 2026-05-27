@@ -1,9 +1,10 @@
 ---
 name: soc-tuning-detectionusecases
-description: Use this skill when: - SOC teams need to build or expand their SIEM detection library from scratch - Threat assessments identify ATT&CK technique gaps requiring new detection rules - Detection engineers need a structured process for use case design, testing, and deployment - Compliance requirements mandate specific detection capabilities (PCI DSS, 
+description: "Soc Tuning Detectionusecases."
 domain: cybersecurity
 ---
-------------------------|-----------------------------------------------------------------------------------------------------------|
+
+--|
 | **Use Case**              | Formalized detection rule with documented logic, testing, tuning, and lifecycle management                |
 | **Detection Engineering** | Practice of designing, testing, and maintaining SIEM detection rules as a software development discipline |
 | **Correlation Search**    | SIEM query that combines events from multiple sources to identify attack patterns                         |

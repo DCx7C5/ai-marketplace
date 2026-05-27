@@ -1,93 +1,12 @@
 ---
 name: cloud-zerotrust-tailscale
-description: Tailscale is a zero trust mesh VPN built on WireGuard that creates encrypted peer-to-peer connections between devices without requiring traditional VPN servers or complex network configuration. Every connection in a Tailscale network (tailnet) is end-to-end encrypted using WireGuard's Noise protocol framework with Curve25519 key exchange. Tailscale
+description: "Cloud Zerotrust Tailscale."
 domain: cybersecurity
 ---
---------------+-----------------+
-         |                 |                 |
-    +----+----+      +----+----+      +----+----+
-    | Node A  |<---->| Node B  |<---->| Node C  |
-    | (Linux) |      | (macOS) |      |(Windows)|
-    +---------+      +---------+      +---------+
-    WireGuard         WireGuard        WireGuard
-    Encrypted         Encrypted        Encrypted
-    P2P Tunnel        P2P Tunnel       P2P Tunnel
 
-    Each node connects directly to every other node.
-    DERP relay servers used only when direct P2P fails.
-```
-
-## Installation and Setup
-
-### Linux Installation
-
-```bash
-# Add Tailscale repository and install
-curl -fsSL https://tailscale.com/install.sh | sh
-
-# Start Tailscale and authenticate
-sudo tailscale up
-
-# Check connection status
-tailscale status
-
-# View assigned IP address
-tailscale ip -4
-tailscale ip -6
-```
-
-### Windows / macOS Installation
-
-```bash
-# Windows: Download from https://tailscale.com/download/windows
-# macOS: Install via Homebrew
-brew install --cask tailscale
-
-# Or download from https://tailscale.com/download/mac
-```
-
-### Docker Deployment
-
-```yaml
-# docker-compose.yml for Tailscale sidecar
-services:
-  tailscale:
-    image: tailscale/tailscale:latest
-    container_name: tailscale
-    hostname: my-service
-    environment:
-      - TS_AUTHKEY=tskey-auth-xxxxx  # Pre-auth key
-      - TS_STATE_DIR=/var/libs/tailscale
-      - TS_EXTRA_ARGS=--advertise-tags=tag:container
-    volumes:
-      - tailscale-state:/var/libs/tailscale
-      - /dev/net/tun:/dev/net/tun
-    cap_add:
-      - net_admin
-      - sys_module
-    restart: unless-stopped
-
-volumes:
-  tailscale-state:
-```
-
-### Kubernetes Deployment
-
-```yaml
-# Tailscale operator for Kubernetes
-apiVersion: v1
-kind: Secret
-metadata:
-  name: tailscale-auth
-  namespace: tailscale
-type: Opaque
-stringData:
-  TS_AUTHKEY: "tskey-auth-xxxxx"
----
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-name: cloud-zerotrust-tailscale
   namespace: tailscale
 spec:
   selector:
@@ -105,7 +24,6 @@ spec:
         - name: TS_AUTHKEY
           valueFrom:
             secretKeyRef:
-name: cloud-zerotrust-tailscale
               key: TS_AUTHKEY
         - name: TS_KUBE_SECRET
           value: tailscale-state

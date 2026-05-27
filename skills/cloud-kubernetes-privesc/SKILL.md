@@ -1,9 +1,10 @@
 ---
 name: cloud-kubernetes-privesc
-description: Privilege escalation in Kubernetes occurs when a pod or container gains elevated permissions beyond its intended scope. This includes running as root, using privileged mode, mounting host filesystems, enabling dangerous Linux capabilities, or exploiting kernel vulnerabilities. Detection combines admission control (prevention), runtime monitoring (d
+description: "Cloud Kubernetes Privesc."
 domain: cybersecurity
 ---
------|------|-----------------|
+
+--|
 | privileged: true | Full host access | Admission control + audit |
 | hostPID: true | Access host processes | Admission control |
 | hostNetwork: true | Access host network stack | Admission control |

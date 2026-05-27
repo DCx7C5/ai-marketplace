@@ -1,7 +1,9 @@
 ---
 name: linux-svc-rc-local-backdoor-detect
-description: Detect rc.local and SysV init script backdoors — inspect /etc/rc.local, /etc/init.d/, and runlevel-specific directories for unauthorized startup scripts.
+description: "subdomain: persistence-detection tags: - linux - rc-local - sysv - init - backdoor - persistence nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: persistence-detection
 tags:
 - linux

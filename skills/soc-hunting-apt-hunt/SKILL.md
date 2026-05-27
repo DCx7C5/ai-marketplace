@@ -1,24 +1,10 @@
 ---
 name: soc-hunting-apt-hunt
-description: Full APT hunt across all attack vectors on a Linux host. Checks suspicious processes (memory mappings, deleted executables, rwx regions), network connections (C2 beaconing, DNS anomalies, ARP spoofing), browser artifacts, and filesystem indicators. Writes findings + IOCs to `session_dir/findings.md`.
+description: "Soc Hunting Apt Hunt."
 domain: cybersecurity
 ---
-|---|
-| process | rwx mappings, deleted executables, `/tmp/` libs, lsof anomalies |
-| network | ARP table, open connections, DNS anomalies, unusual ports |
-| browser | running browser processes, suspicious extensions |
-| filesystem | SUID/SGID, world-writable, recently modified system files |
 
-## Output
-
-- `session_dir/findings.md` — timestamped finding entries with severity (critical/high/medium/low)
-- `session_dir/artifacts/` — raw collection for deep mode
-- Uses `config.get_config()` for tool paths and legitimate-service whitelist
-
-## MITRE Coverage
-
-| Technique | Description |
-|---|---|
+|
 | T1057 | Process Discovery |
 | T1082 | System Information Discovery |
 | T1049 | System Network Connections Discovery |

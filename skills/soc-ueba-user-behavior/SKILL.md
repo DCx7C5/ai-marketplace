@@ -1,9 +1,10 @@
 ---
 name: soc-ueba-user-behavior
-description: Use this skill when: - SOC teams need to detect compromised accounts through abnormal authentication patterns - Insider threat programs require behavioral monitoring beyond rule-based detection - Impossible travel or geographic anomalies indicate credential compromise - Privileged account monitoring requires baseline deviation detection **Do not us
+description: "Soc Ueba User Behavior."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **UEBA** | User and Entity Behavior Analytics — behavioral analysis detecting anomalies against established baselines |
 | **Impossible Travel** | Login events from geographically distant locations within timeframes making physical travel impossible |
 | **Behavioral Baseline** | Statistical profile of normal user activity patterns built from 30-90 days of historical data |

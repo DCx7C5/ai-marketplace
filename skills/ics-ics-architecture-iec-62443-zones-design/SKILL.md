@@ -1,9 +1,10 @@
 ---
 name: ics-ics-architecture-iec-62443-zones-design
-description: - When designing a greenfield OT network architecture for a new industrial facility - When retrofitting security zones into an existing flat OT network after an assessment finding - When implementing network segmentation to comply with IEC 62443-3-2 certification requirements - When upgrading from basic VLAN segmentation to policy-enforced zone/con
+description: "Ics Ics Architecture Iec 62443 Zones Design."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Security Zone | A grouping of logical or physical assets that share common security requirements, as defined by IEC 62443-3-2 |
 | Conduit | A logical grouping of communication channels connecting two or more zones, subject to common security policies |
 | Security Level Target (SL-T) | The desired security level for a zone, ranging from SL 1 (casual violation) to SL 4 (state-sponsored attack) |

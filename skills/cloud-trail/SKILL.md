@@ -1,9 +1,10 @@
 ---
 name: cloud-trail
-description: - When building security monitoring pipelines for AWS API activity - When investigating security incidents to trace attacker actions across AWS services - When compliance requires audit logging of all administrative and data access operations - When creating detection rules for known attack patterns in AWS environments - When establishing baseline 
+description: "Cloud Trail."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | CloudTrail | AWS service that records API calls made to AWS services, providing an audit trail of actions taken by users, roles, and services |
 | Management Events | CloudTrail events for control plane operations like creating resources, modifying IAM, and configuring services |
 | Data Events | CloudTrail events for data plane operations like S3 object access and Lambda function invocations, providing granular activity logging |

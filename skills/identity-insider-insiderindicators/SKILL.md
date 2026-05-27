@@ -1,9 +1,10 @@
 ---
 name: identity-insider-insiderindicators
-description: Use this skill when: - HR refers a departing employee for monitoring during their notice period - DLP alerts indicate bulk data downloads or transfers to personal storage - UEBA detects anomalous access patterns deviating significantly from peer baselines - Management reports concerns about an employee accessing sensitive data outside their role **
+description: "Identity Insider Insiderindicators."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Insider Threat** | Risk posed by individuals with legitimate access who misuse it for unauthorized purposes |
 | **Data Exfiltration** | Unauthorized transfer of data outside the organization via email, USB, cloud, or other channels |
 | **DLP** | Data Loss Prevention — technology monitoring and blocking unauthorized data transfers based on content policies |

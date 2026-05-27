@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-beyondcorpmodel
-description: - When replacing traditional VPN infrastructure with identity-based application access - When migrating to Google Cloud and requiring zero trust access for internal applications - When implementing device trust verification as a prerequisite for resource access - When needing context-aware access policies based on user identity, device posture, and
+description: "Cloud Zerotrust Beyondcorpmodel."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | BeyondCorp | Google's zero trust security framework that shifts access controls from network perimeter to per-request identity and device verification |
 | Identity-Aware Proxy (IAP) | Google Cloud service that intercepts HTTP requests and verifies user identity and device context before forwarding to backend applications |
 | Access Context Manager | GCP service that defines fine-grained attribute-based access control policies using access levels and service perimeters |

@@ -1,9 +1,10 @@
 ---
 name: identity-tools-hashicorp
-description: - Applications use static database credentials stored in configuration files or environment variables - AWS IAM access keys are long-lived and shared across services - Need to eliminate credential sprawl by generating short-lived, per-request secrets - Compliance requirements mandate credential rotation (PCI-DSS Requirement 8, NIST 800-53 IA-5) - I
+description: "Identity Tools Hashicorp."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Dynamic Secrets** | Credentials generated on-demand by Vault with automatic expiration, ensuring each consumer receives unique short-lived credentials |
 | **Lease** | Time-bound agreement where Vault guarantees the credential is valid; consumers must renew before expiration or request new credentials |
 | **Secrets Engine** | Vault plugin that generates, stores, or encrypts data; database, AWS, PKI, and KV are common engines |

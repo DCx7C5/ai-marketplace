@@ -1,9 +1,10 @@
 ---
 name: cloud-azure-ad-azure
-description: - When performing a security assessment of an Azure tenant's identity configuration - When compliance audits require review of authentication policies, MFA enforcement, and role assignments - When onboarding a new Azure tenant after merger or acquisition - When investigating suspicious sign-in activity or compromised accounts - When validating cond
+description: "Cloud Azure Ad Azure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Microsoft Entra ID | Microsoft's cloud identity and access management service, formerly Azure Active Directory, providing authentication and authorization |
 | Conditional Access | Policy engine that evaluates signals (user, device, location, risk) to enforce access controls like MFA, device compliance, or block access |
 | Security Defaults | Microsoft's baseline identity protection settings that enforce MFA registration, block legacy auth, and protect privileged actions |

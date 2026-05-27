@@ -1,12 +1,12 @@
 ---
 name: windows-processes-thread-injection
-description: Detect Windows thread injection techniques including CreateRemoteThread, QueueUserAPC, NtCreateThreadEx, and thread hijacking via process memory analysis. domain: cybersecurity subdomain: process-forensics tags: - windows - thread-injection - createremotethread - apc-injection - nt-api - process-injection nist_csf: - DE.CM-04 - DE.AE-02 mitre: - T1
+description: "See [SKILL taxonomy](../../TAXONOMY.md) for more details."
 domain: cybersecurity
 ---
+
 ## Overview
 
 Detect Windows thread injection techniques including CreateRemoteThread, QueueUserAPC, NtCreateThreadEx, and thread hijacking via process memory analysis.
-domain: cybersecurity
 subdomain: process-forensics
 tags:
   - windows

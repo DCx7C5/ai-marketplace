@@ -1,9 +1,10 @@
 ---
 name: devel-jb-gws-calendar
-description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+description: "-| | [`+insert`](../gws-calendar-insert/SKILL.md) | create a new event | | [`+agenda`](."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | [`+insert`](../gws-calendar-insert/SKILL.md) | create a new event |
 | [`+agenda`](../gws-calendar-agenda/SKILL.md) | Show upcoming events across all calendars |
 

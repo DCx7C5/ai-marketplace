@@ -1,45 +1,10 @@
 ---
 name: identity-strategy-zero-trust
-description: Zero Standing Privileges (ZSP) is a security model where no user or identity retains persistent privileged access. Instead, elevated access is provisioned dynamically on a just-in-time (JIT) basis and automatically revoked after use. CyberArk implements ZSP through its Secure Cloud Access (SCA) module, which creates ephemeral, scoped roles in cloud
+description: "Identity Strategy Zero Trust."
 domain: cybersecurity
 ---
----------------|----------------------------------------|------------------------------------------------|
-| **Time**         | Duration of the privileged session     | Min 15 minutes, max 8 hours, default 1 hour    |
-| **Entitlements** | Permissions granted during the session | Dynamically scoped IAM roles/policies          |
-| **Approvals**    | Authorization workflow before access   | Auto-approve, manager approval, or multi-level |
 
-### ZSP Architecture
-
-```
-User requests access via CyberArk
-        │
-        ├── CyberArk evaluates request against policies:
-        │   ├── Is user eligible for this access?
-        │   ├── Does the request comply with TEA policies?
-        │   └── Is approval required?
-        │
-        ├── [If approval needed] → Route to approver (ITSM/ChatOps)
-        │
-        ├── Upon approval:
-        │   ├── CyberArk creates ephemeral IAM role in target cloud
-        │   ├── Scopes permissions to minimum required entitlements
-        │   ├── Sets session TTL (time-bound)
-        │   └── Provisions temporary credentials
-        │
-        ├── User accesses cloud resources via session
-        │   ├── All actions logged and recorded
-        │   └── Session monitored for policy violations
-        │
-        └── Session expires:
-            ├── Ephemeral role deleted
-            ├── Temporary credentials revoked
-            └── Zero standing privileges remain
-```
-
-### CyberArk Components
-
-| Component | Role |
-|-----------|------|
+|
 | Identity Security Platform | Central management and policy engine |
 | Privilege Cloud Vault | Stores privileged credentials and keys |
 | Secure Cloud Access | Creates/destroys ephemeral cloud roles |
@@ -93,7 +58,6 @@ Create policies that map job functions to cloud entitlements:
 ```yaml
 # CyberArk SCA Policy Example
 policy_name: "developer-aws-read-access"
-description: "Read-only access to AWS production for developers"
 target_cloud: "aws"
 target_accounts: ["123456789012", "987654321098"]
 

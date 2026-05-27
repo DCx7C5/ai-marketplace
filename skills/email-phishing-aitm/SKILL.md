@@ -1,9 +1,10 @@
 ---
 name: email-phishing-aitm
-description: Adversary-in-the-Middle (AiTM) phishing attacks use reverse-proxy infrastructure to sit between the victim and the legitimate authentication service, intercepting both credentials and session cookies in real time. This allows attackers to bypass multi-factor authentication (MFA). The most prevalent PhaaS kits in 2025 include Tycoon 2FA, Sneaky 2FA,
+description: "Email Phishing Aitm."
 domain: cybersecurity
 ---
-|---|---|---|
+
+|
 | Tycoon 2FA | PhaaS | Microsoft 365, Google | CAPTCHA, Cloudflare turnstile |
 | EvilProxy | PhaaS | Microsoft 365, Google, Okta | Random URLs, IP rotation |
 | Evilginx | Open-source | Any web application | Custom phishlets |

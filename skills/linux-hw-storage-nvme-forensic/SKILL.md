@@ -1,7 +1,9 @@
 ---
 name: linux-hw-storage-nvme-forensic
-description: Forensic acquisition and analysis of NVMe block devices — raw image creation, wear leveling artifact analysis, and deleted data recovery from NVMe SSDs.
+description: "subdomain: hardware-forensics tags: - linux - nvme - storage - forensics - block-device nist_csf: - RS."
 domain: cybersecurity
+---
+
 subdomain: hardware-forensics
 tags:
 - linux

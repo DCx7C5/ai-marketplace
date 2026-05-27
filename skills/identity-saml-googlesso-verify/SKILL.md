@@ -1,49 +1,10 @@
 ---
 name: identity-saml-googlesso-verify
-description: Single Sign-On (SSO) for Google Workspace allows organizations to authenticate users through their existing identity provider (IdP) such as Okta, Azure AD (Microsoft Entra ID), or ADFS, rather than managing separate Google passwords. This is implemented using SAML 2.0 protocol where Google Workspace acts as the Service Provider (SP) and the organiz
+description: "-| | Set up SSO with third-party IdP | Enabled | | Sign-in page URL | IdP's SAML SSO endpoint (e."
 domain: cybersecurity
 ---
---------|-------|
-| ACS URL | `https://www.google.com/a/{your-domain}/acs` |
-| Entity ID | `google.com/a/{your-domain}` or `google.com` |
-| NameID Format | `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` |
-| NameID Value | User's primary Google Workspace email |
-| Binding | HTTP-POST (for ACS), HTTP-Redirect (for SSO URL) |
 
-## Workflow
-
-### Step 1: Prepare the Identity Provider
-
-**For Okta:**
-1. Navigate to Applications > Add Application > Search "Google Workspace"
-2. Configure the Google Workspace app with your domain
-3. Assign users/groups to the application
-4. Download the IdP metadata or note: SSO URL, Entity ID, Certificate
-
-**For Azure AD (Microsoft Entra ID):**
-1. Navigate to Enterprise Applications > New Application > Google Cloud/Workspace
-2. Configure Single sign-on > SAML
-3. Set Basic SAML Configuration:
-   - Identifier (Entity ID): `google.com`
-   - Reply URL (ACS): `https://www.google.com/a/{your-domain}/acs`
-   - Sign on URL: `https://www.google.com/a/{your-domain}/ServiceLogin`
-4. Download Federation Metadata XML or Certificate (Base64)
-
-**For ADFS:**
-1. Add Relying Party Trust using federation metadata
-2. Configure claim rules to pass NameID as email address
-3. Export the token-signing certificate
-
-### Step 2: Configure Google Workspace SSO
-
-1. Sign in to Google Admin Console (admin.google.com) as Super Admin
-2. Navigate to Security > Authentication > SSO with third-party IdP
-3. Click "Add SSO profile" or configure the default profile
-
-**Third-Party SSO Profile Settings:**
-
-| Setting | Value |
-|---------|-------|
+-|
 | Set up SSO with third-party IdP | Enabled |
 | Sign-in page URL | IdP's SAML SSO endpoint (e.g., `https://idp.example.com/sso/saml`) |
 | Sign-out page URL | IdP's logout URL (e.g., `https://idp.example.com/slo`) |

@@ -1,9 +1,10 @@
 ---
 name: crypto-protocols-tls
-description: TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol, providing significant improvements over TLS 1.2 in both security and performance. It reduces handshake latency to 1-RTT (and 0-RTT for resumed sessions), removes obsolete cipher suites, and mandates perfect forward secrecy. This skill covers configuring TLS 1.3 on se
+description: "| | TLS_AES_256_GCM_SHA384 | ECDHE/DHE | Certificate | AES-256-GCM | SHA-384 | | TLS_AES_128_GCM_SHA256 | ECDHE/DHE | Certificate | AES-128-GCM | SHA-256 | | TLS_CHACHA20_POLY1305_SHA256 | ECDHE/DHE | Certificate | ChaCha20-Poly1305 | SHA-256 |  ### TLS 1."
 domain: cybersecurity
 ---
-----------|-------------|----------------|------------|------|
+
+|
 | TLS_AES_256_GCM_SHA384 | ECDHE/DHE | Certificate | AES-256-GCM | SHA-384 |
 | TLS_AES_128_GCM_SHA256 | ECDHE/DHE | Certificate | AES-128-GCM | SHA-256 |
 | TLS_CHACHA20_POLY1305_SHA256 | ECDHE/DHE | Certificate | ChaCha20-Poly1305 | SHA-256 |

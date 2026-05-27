@@ -1,22 +1,10 @@
 ---
 name: windows-logging-eventlog-artifact
-description: - When investigating security incidents on Windows systems through event log analysis - For detecting lateral movement, privilege escalation, and persistence mechanisms - When performing threat hunting across Windows event log data - During compliance audits requiring review of authentication and access events - When building forensic timelines fro
+description: "Windows Logging Eventlog Artifact."
 domain: cybersecurity
 ---
-------|-------------|
-| EVTX format | Binary XML-based Windows Event Log format introduced in Vista/Server 2008 |
-| Event ID | Numeric identifier for specific event types (e.g., 4624 = successful logon) |
-| Logon types | Classification of authentication methods (2=interactive, 3=network, 10=RDP) |
-| Sigma rules | Generic detection signatures that map to specific SIEM/log queries |
-| Sysmon | Microsoft system monitoring driver providing detailed process and network events |
-| Audit policy | GPO settings controlling which events Windows records |
-| Event forwarding (WEF) | Windows mechanism for centralized event log collection |
-| EVTX channels | Separate log files for different event categories and applications |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Chainsaw | Sigma-based EVTX analysis and threat hunting tool |
 | Hayabusa | Fast Windows Event Log forensic timeline generator |
 | EvtxECmd | Eric Zimmerman command-line EVTX parser with CSV/JSON output |

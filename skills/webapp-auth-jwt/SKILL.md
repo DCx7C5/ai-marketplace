@@ -1,9 +1,10 @@
 ---
 name: webapp-auth-jwt
-description: - Testing APIs that use RS256 (asymmetric) JWT tokens for authentication to check for algorithm downgrade to HS256 - Assessing JWT implementations for alg:none bypass where the server skips signature verification - Evaluating JWT libraries for key confusion vulnerabilities where the public key is used as HMAC secret - Testing kid (Key ID), jku (JWK
+description: "Webapp Auth Jwt."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Algorithm Confusion** | Attack where the server trusts the alg header in the JWT, allowing an attacker to switch from RS256 to HS256 and sign with the public key as the HMAC secret |
 | **alg:none Attack** | Setting the JWT algorithm to "none" to bypass signature verification entirely, if the library does not enforce algorithm selection |
 | **JKU Injection** | Manipulating the jku (JWK Set URL) header to point to an attacker-controlled JWKS endpoint, allowing the attacker to supply their own signing keys |

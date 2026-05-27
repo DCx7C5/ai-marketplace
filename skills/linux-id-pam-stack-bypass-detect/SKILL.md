@@ -1,7 +1,9 @@
 ---
 name: linux-id-pam-stack-bypass-detect
-description: Detect PAM authentication stack bypass — identify pam_permit abuse, 'sufficient' control flag manipulation, and PAM stack modifications that bypass authentication.
+description: "subdomain: identity-security tags: - linux - pam - authentication - bypass - detect nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: identity-security
 tags:
 - linux

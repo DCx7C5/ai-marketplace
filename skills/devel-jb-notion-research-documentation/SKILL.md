@@ -1,8 +1,9 @@
 ---
 name: devel-jb-notion-research-documentation
-description: Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).
+description: "- `examples/` — end-to-end walkthroughs (e.g., `competitor-analysis."
 domain: cybersecurity
 ---
+
 # Research & Documentation
 
 Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).

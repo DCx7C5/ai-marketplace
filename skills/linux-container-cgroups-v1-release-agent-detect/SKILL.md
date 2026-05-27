@@ -1,7 +1,9 @@
 ---
 name: linux-container-cgroups-v1-release-agent-detect
-description: Detect cgroups v1 container escape via release_agent (CVE-2022-0492) — identify writable release_agent files, notify_on_release abuse, and container escape prerequisites.
+description: "subdomain: container-security tags: - linux - cgroups - container-escape - release-agent - cve nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: container-security
 tags:
 - linux

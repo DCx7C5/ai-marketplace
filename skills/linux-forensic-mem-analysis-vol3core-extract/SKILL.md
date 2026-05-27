@@ -1,38 +1,10 @@
 ---
 name: linux-forensic-mem-analysis-vol3core-extract
-description: - When analyzing a RAM dump from a compromised or suspect system - During incident response to identify running malware, injected code, or rootkits - When you need to extract credentials, encryption keys, or network connections from memory - For detecting process hollowing, DLL injection, or hidden processes - When disk-based forensics alone is ins
+description: "Linux Forensic Mem Analysis Vol3Core Extract."
 domain: cybersecurity
 ---
-Suspicious Processes ---" >> /cases/case-2024-001/analysis/memory_report.txt
-cat /cases/case-2024-001/analysis/malfind.txt >> /cases/case-2024-001/analysis/memory_report.txt
 
-echo "--- Network Connections ---" >> /cases/case-2024-001/analysis/memory_report.txt
-cat /cases/case-2024-001/analysis/netscan.txt >> /cases/case-2024-001/analysis/memory_report.txt
-
-echo "--- YARA Matches ---" >> /cases/case-2024-001/analysis/memory_report.txt
-cat /cases/case-2024-001/analysis/yara_hits.txt >> /cases/case-2024-001/analysis/memory_report.txt
-
-# Calculate hash of the memory dump for integrity
-sha256sum /cases/case-2024-001/memory/memory.raw >> /cases/case-2024-001/analysis/memory_report.txt
-```
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
-| Volatile data | Information that exists only in RAM and is lost when power is removed |
-| Process hollowing | Technique where malware replaces legitimate process memory with malicious code |
-| DLL injection | Loading unauthorized DLLs into a running process address space |
-| EPROCESS | Windows kernel structure representing a process; basis for process listing |
-| Pool scanning | Searching memory for kernel object signatures to find hidden artifacts |
-| VAD (Virtual Address Descriptor) | Memory management structure tracking process virtual memory regions |
-| ISF (Intermediate Symbol Format) | Volatility 3 symbol table format for OS-specific structure definitions |
-| Malfind | Plugin detecting injected code by examining VAD permissions and content |
-
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Volatility 3 | Primary open-source memory forensics framework |
 | LiME | Linux Memory Extractor for acquiring Linux RAM dumps |
 | WinPmem | Windows physical memory acquisition driver |

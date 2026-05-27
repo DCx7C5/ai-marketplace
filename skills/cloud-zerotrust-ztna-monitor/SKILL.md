@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-ztna-monitor
-description: - When replacing traditional VPN-based remote access with identity-based access controls - When implementing micro-segmentation to limit lateral movement within cloud networks - When compliance or security strategy requires zero trust architecture adoption - When providing secure access to cloud workloads without exposing them to the public interne
+description: "Cloud Zerotrust Ztna Monitor."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Zero Trust | Security model that requires strict identity verification for every person and device accessing resources, regardless of network location |
 | ZTNA | Zero Trust Network Access, the technology that implements zero trust principles by providing identity-aware, context-based access to applications |
 | Identity-Aware Proxy | Proxy service that verifies user identity and device context before allowing access to backend applications, replacing VPN-based access |

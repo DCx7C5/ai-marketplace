@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-mem-kpti-bypass-detect
-description: Detect Kernel Page Table Isolation (KPTI/KAISER) bypass attempts — Meltdown exploitation indicators, kernel address leaks, and PTI disablement via cmdline.
+description: "subdomain: kernel-security tags: - linux - kpti - meltdown - kernel - bypass nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-security
 tags:
 - linux

@@ -1,9 +1,10 @@
 ---
 name: soc-endpoint-security-monitor
-description: Use this skill when: - Deploying endpoint DLP to prevent sensitive data (PII, PHI, PCI) from leaving the organization - Configuring content inspection rules for email attachments, USB transfers, and cloud uploads - Implementing Microsoft Purview DLP or Symantec DLP endpoint policies - Meeting compliance requirements for data protection (GDPR, HIPAA
+description: "Soc Endpoint Security Monitor."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **DLP** | Data Loss Prevention; technology that detects and prevents unauthorized transmission of sensitive data |
 | **SIT** | Sensitive Information Type; pattern matching rules for identifying sensitive data (regex, keywords, ML classifiers) |
 | **Policy Tip** | User-facing notification explaining why an action was blocked and how to request an override |

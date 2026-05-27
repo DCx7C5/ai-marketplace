@@ -1,9 +1,10 @@
 ---
 name: identity-pam-delinea
-description: - Organization needs centralized privileged credential management across hybrid infrastructure - Compliance requirements mandate privileged access controls (SOX, PCI-DSS, HIPAA, NIST 800-53) - Service accounts and shared credentials are stored in spreadsheets or plaintext files - Need to implement automated password rotation for privileged accounts
+description: "Identity Pam Delinea."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Privileged Access Management (PAM)** | Security framework for controlling, monitoring, and auditing elevated access to critical systems and data through credential vaulting and session management |
 | **Secret** | A stored credential or sensitive data item in the vault, including passwords, SSH keys, API tokens, and certificates |
 | **Remote Password Changing (RPC)** | Automated mechanism that connects to target systems to rotate passwords according to defined policies without manual intervention |

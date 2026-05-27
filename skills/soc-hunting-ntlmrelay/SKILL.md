@@ -1,8 +1,9 @@
 ---
 name: soc-hunting-ntlmrelay
-description: NTLM relay attacks intercept and forward NTLM authentication messages to gain unauthorized access to network resources. Attackers use tools like Responder for LLMNR/NBT-NS poisoning and ntlmrelayx for credential relay. This skill detects relay activity by querying Windows Security Event 4624 (successful logon) for type 3 network logons with NTLMSSP
+description: "JSON report with suspected relay events, IP-hostname correlation anomalies, SMB signing audit results, and MITRE ATT&CK mapping to T1557."
 domain: cybersecurity
 ---
+
 # Hunting for NTLM Relay Attacks
 
 ## Overview

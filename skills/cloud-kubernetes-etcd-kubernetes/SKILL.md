@@ -1,67 +1,10 @@
 ---
 name: cloud-kubernetes-etcd-kubernetes
-description: etcd is the distributed key-value store that serves as Kubernetes' backing store for all cluster data, including Secrets, RBAC policies, ConfigMaps, and workload configurations. Without proper hardening, etcd exposes all cluster secrets in plaintext, making it the highest-value target for attackers who gain control plane access. A comprehensive sec
+description: "-| | 2.1 | etcd cert-file set | TLS certificate configured | | 2."
 domain: cybersecurity
 ---
----|---------------|---------|
-| `--cert-file` | Path to server cert | Client-to-server TLS |
-| `--key-file` | Path to server key | Client-to-server TLS |
-| `--trusted-ca-file` | Path to CA cert | Client certificate validation |
-| `--peer-cert-file` | Path to peer cert | Peer-to-peer TLS |
-| `--peer-key-file` | Path to peer key | Peer-to-peer TLS |
-| `--peer-trusted-ca-file` | Path to peer CA | Peer certificate validation |
-| `--client-cert-auth` | true | Require client certificates |
-| `--peer-client-cert-auth` | true | Require peer certificates |
 
-### 3. Access Control
-
-```bash
-# Verify etcd is not exposed on all interfaces
-ps aux | grep etcd | tr ' ' '\n' | grep listen-client-urls
-# Should be: https://127.0.0.1:2379 (not 0.0.0.0)
-
-# Check who can access etcd certificates
-ls -la /etc/kubernetes/pki/etcd/
-# Should be readable only by root/etcd user
-
-# Verify API server is the only etcd client
-ss -tlnp | grep 2379
-# Only kube-apiserver should have connections
-```
-
-### 4. Backup Security
-
-```bash
-# Create an encrypted etcd backup
-ETCDCTL_API=3 etcdctl snapshot save /backup/etcd-snapshot.db \
-  --endpoints=https://127.0.0.1:2379 \
-  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
-  --cert=/etc/kubernetes/pki/etcd/server.crt \
-  --key=/etc/kubernetes/pki/etcd/server.key
-
-# Encrypt the backup file
-gpg --symmetric --cipher-algo AES256 /backup/etcd-snapshot.db
-
-# Verify backup integrity
-ETCDCTL_API=3 etcdctl snapshot status /backup/etcd-snapshot.db --write-out=table
-```
-
-### 5. Network Isolation
-
-```bash
-# Verify etcd ports are firewalled
-iptables -L -n | grep -E "2379|2380"
-
-# Check if etcd is accessible from worker nodes (should NOT be)
-# Run from a worker node:
-curl -k https://<control-plane-ip>:2379/health
-# Should be rejected/timeout
-```
-
-## CIS Benchmark Checks
-
-| CIS Control | Check | Expected Result |
-|-------------|-------|----------------|
+-|
 | 2.1 | etcd cert-file set | TLS certificate configured |
 | 2.2 | etcd client-cert-auth | Client certificate authentication enabled |
 | 2.3 | etcd auto-tls disabled | auto-tls=false |

@@ -1,9 +1,10 @@
 ---
 name: linux-fs-endpoint-analyze
-description: Use this skill when: - Encrypting Windows endpoints to protect data at rest for compliance (PCI DSS, HIPAA, GDPR) - Deploying BitLocker across enterprise fleet via Intune, SCCM, or GPO - Configuring TPM-based encryption with PIN or USB startup key for enhanced security - Managing BitLocker recovery keys in Active Directory or Azure AD **Do not use*
+description: "Linux Fs Endpoint Analyze."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **TPM (Trusted Platform Module)** | Hardware security chip that stores BitLocker encryption keys and provides measured boot integrity |
 | **XTS-AES 256** | Encryption cipher used by BitLocker; XTS mode provides better protection for disk encryption than CBC |
 | **Recovery Key** | 48-digit numerical password used to unlock BitLocker-encrypted drive when TPM authentication fails |

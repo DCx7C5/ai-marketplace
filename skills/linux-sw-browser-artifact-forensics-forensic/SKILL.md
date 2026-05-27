@@ -1,22 +1,10 @@
 ---
 name: linux-sw-browser-artifact-forensics-forensic
-description: - When investigating user web activity as part of a forensic examination - During insider threat investigations to establish patterns of data exfiltration - When tracing user visits to malicious or policy-violating websites - For correlating browser activity with other forensic artifacts and timelines - When investigating phishing attacks to identi
+description: "Linux Sw Browser Artifact Forensics Forensic."
 domain: cybersecurity
 ---
-------|-------------|
-| Chrome timestamp | Microseconds since January 1, 1601 (WebKit/Chrome epoch) |
-| Firefox timestamp | Microseconds since January 1, 1970 (Unix epoch in microseconds) |
-| Transition types | How a URL was accessed: typed (1), link (0), bookmark (1), redirect (5/6) |
-| DPAPI encryption | Windows Data Protection API encrypting stored passwords and cookies |
-| places.sqlite | Firefox combined history and bookmark database |
-| SQLite WAL | Write-Ahead Log that may contain recently deleted browser records |
-| Session restore | Browser data preserving open tabs across restarts |
-| IndexedDB | Browser-based database that may contain web application data |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Hindsight | Comprehensive Chrome/Chromium forensic analysis tool |
 | sqlite3 | Command-line SQLite database query tool |
 | DB Browser for SQLite | GUI tool for browsing SQLite databases |

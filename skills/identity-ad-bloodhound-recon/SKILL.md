@@ -1,20 +1,10 @@
 ---
 name: identity-ad-bloodhound-recon
-description: BloodHound Community Edition (CE) is a modern, web-based Active Directory reconnaissance platform developed by SpecterOps that uses graph theory to reveal hidden relationships and attack paths within AD environments. Unlike the legacy BloodHound application, BloodHound CE uses a PostgreSQL backend with a dedicated graph database, providing improved
+description: "Identity Ad Bloodhound Recon."
 domain: cybersecurity
 ---
----|---------|----------|
-| BloodHound CE | Web-based graph analysis platform | Docker |
-| SharpHound v2 | AD data collection (.NET, for CE) | Windows |
-| BloodHound.py | AD data collection (Python) | Linux |
-| AzureHound | Azure AD / Entra ID data collection | Cross-platform |
-| PlumHound | Automated BloodHound reporting | Python |
-| BloodHound Query Library | Community Cypher query repository | Web |
 
-## Key Attack Path Types
-
-| Path Type | Description | Example |
-|-----------|-------------|---------|
+|
 | ACL Abuse | Exploit misconfigured ACLs | GenericAll on DA group |
 | Kerberoasting | Crack service account passwords | SPN account → DA |
 | AS-REP Roasting | Attack accounts without pre-auth | No-preauth user → password crack |

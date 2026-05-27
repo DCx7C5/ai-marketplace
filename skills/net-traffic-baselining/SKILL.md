@@ -1,8 +1,9 @@
 ---
 name: net-traffic-baselining
-description: Network traffic baselining establishes normal communication patterns by analyzing historical NetFlow/IPFIX data to create statistical profiles of expected behavior. This skill uses Python pandas to compute hourly and daily traffic distributions, per-host byte/packet counts, protocol ratios, and top-N talker profiles. Anomalies are detected using z-
+description: "JSON report containing traffic baselines (hourly/daily profiles), per-host statistics, detected anomalies with z-scores, and top talker rankings with deviation indicators."
 domain: cybersecurity
 ---
+
 # Implementing Network Traffic Baselining
 
 ## Overview

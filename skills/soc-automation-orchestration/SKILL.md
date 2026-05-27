@@ -1,9 +1,10 @@
 ---
 name: soc-automation-orchestration
-description: Use this skill when: - SOC teams need to automate repetitive triage and enrichment tasks for high-volume alerts - Manual response times exceed SLA requirements and automation can reduce MTTR - Multiple security tools (SIEM, EDR, firewall, TIP) need orchestrated response actions - Playbook standardization is required to ensure consistent analyst res
+description: "Soc Automation Orchestration."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **SOAR** | Security Orchestration, Automation, and Response — platform integrating security tools with automated playbooks |
 | **Playbook** | Automated workflow defining sequential and parallel actions triggered by security events |
 | **Asset** | SOAR configuration for a connected security tool (API endpoint, credentials, connection parameters) |

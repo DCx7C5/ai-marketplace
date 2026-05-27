@@ -1,9 +1,10 @@
 ---
 name: net-capture-wireshark
-description: - Investigating suspected network intrusions by examining packet-level evidence of command-and-control traffic, data exfiltration, or lateral movement - Diagnosing network performance issues such as retransmissions, fragmentation, or DNS resolution failures - Analyzing malware communication patterns by capturing traffic from sandboxed or isolated h
+description: "Net Capture Wireshark."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Capture Filter (BPF)** | Berkeley Packet Filter syntax applied at capture time to limit which packets are recorded, reducing file size and improving performance |
 | **Display Filter** | Wireshark-specific filter syntax applied to already-captured packets for focused analysis without altering the capture file |
 | **PCAPNG** | Next-generation packet capture format supporting multiple interfaces, name resolution, annotations, and metadata in a single file |

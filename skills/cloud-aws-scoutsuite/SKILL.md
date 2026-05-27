@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-scoutsuite
-description: ScoutSuite is an open-source multi-cloud security auditing tool developed by NCC Group that enables comprehensive security posture assessment of AWS environments. It queries AWS APIs to gather configuration data across all services, stores results locally, and generates interactive HTML reports highlighting high-risk areas. ScoutSuite is agentless 
+description: "-| | IAM | Root account MFA, password policy, unused credentials, overprivileged policies | | S3 | Public buckets, unencrypted buckets, versioning disabled, logging disabled | | EC2 | Security groups with 0."
 domain: cybersecurity
 ---
-------|----------------|
+
+-|
 | IAM | Root account MFA, password policy, unused credentials, overprivileged policies |
 | S3 | Public buckets, unencrypted buckets, versioning disabled, logging disabled |
 | EC2 | Security groups with 0.0.0.0/0, unencrypted EBS volumes, public IPs |

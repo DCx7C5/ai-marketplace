@@ -1,9 +1,10 @@
 ---
 name: webapp-framework-owasp
-description: - When testing running web applications for vulnerabilities like XSS, SQLi, CSRF, and misconfigurations - When SAST alone is insufficient and runtime behavior testing is required - When compliance mandates dynamic security testing of web applications before production - When testing APIs (REST/GraphQL) for authentication, authorization, and injecti
+description: "Webapp Framework Owasp."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | DAST | Dynamic Application Security Testing — tests running applications by sending requests and analyzing responses |
 | Baseline Scan | Quick passive scan that spiders the application without active attacks, suitable for CI/CD |
 | Full Scan | Active scan including attack payloads for XSS, SQLi, and other injection vulnerabilities |

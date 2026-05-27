@@ -1,8 +1,9 @@
 ---
 name: intel-analysis-campaign
-description: Campaign attribution analysis involves systematically evaluating evidence to determine which threat actor or group is responsible for a cyber operation. This skill covers collecting and weighting attribution indicators using the Diamond Model and ACH (Analysis of Competing Hypotheses), analyzing infrastructure overlaps, TTP consistency, malware cod
+description: "- [Threat Attribution Framework](https://www.mandiant."
 domain: cybersecurity
 ---
+
 # Analyzing Campaign Attribution Evidence
 
 ## Overview

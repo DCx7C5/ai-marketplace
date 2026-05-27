@@ -1,9 +1,10 @@
 ---
 name: identity-analytics-anomalous
-description: - Security operations needs to identify compromised accounts from authentication log analysis - Implementing impossible travel detection to flag geographically inconsistent logins - Detecting brute force, password spraying, and credential stuffing attacks in real time - Building behavioral baselines for users to identify deviations indicating accou
+description: "Identity Analytics Anomalous."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Impossible Travel** | Authentication anomaly where a user logs in from two geographically distant locations within a timeframe that makes physical travel impossible |
 | **Password Spraying** | Credential attack that tries a small number of commonly used passwords against many accounts to avoid lockout thresholds |
 | **Credential Stuffing** | Automated attack using stolen username/password pairs from data breaches to gain unauthorized access to accounts |

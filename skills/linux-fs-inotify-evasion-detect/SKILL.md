@@ -1,7 +1,9 @@
 ---
 name: linux-fs-inotify-evasion-detect
-description: Detect inotify watch evasion — identify techniques to bypass filesystem monitoring (rename tricks, O_CREAT patterns, FIFO bypass) used by malware to avoid detection.
+description: "subdomain: filesystem-security tags: - linux - inotify - evasion - bypass - monitoring nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: filesystem-security
 tags:
 - linux

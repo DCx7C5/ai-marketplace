@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-just-escalate
-description: Implement Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access only when needed. This skill covers JIT architecture design, approval workflows, automatic expiration, integration with PAM and IGA platforms, and alignment with zero trust principles.
+description: "Cloud Zerotrust Just Escalate."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Temporary Access | AC-2(2) | Automated temporary account management |
 | Least Privilege | AC-6 | Time-bound minimum access |
 | Access Enforcement | AC-3 | Automated access grant/revoke |

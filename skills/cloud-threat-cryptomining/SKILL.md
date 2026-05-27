@@ -1,9 +1,10 @@
 ---
 name: cloud-threat-cryptomining
-description: - When cloud billing alerts indicate unexpected compute cost spikes - When GuardDuty generates CryptoCurrency or Impact finding types - When investigating compromised IAM credentials that may be used to launch mining instances - When monitoring container workloads for unauthorized process execution - When establishing proactive detection controls a
+description: "Cloud Threat Cryptomining."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Cryptojacking | Unauthorized use of cloud compute resources to mine cryptocurrency, typically Monero (XMR) due to its CPU-friendly algorithm |
 | Stratum Protocol | Mining pool communication protocol operating on TCP ports 3333, 4444, or custom ports, identifiable in network flow logs |
 | XMRig | Open-source Monero mining software commonly found in cryptojacking attacks, often deployed as a hidden binary in containers |

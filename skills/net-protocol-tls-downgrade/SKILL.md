@@ -1,12 +1,12 @@
 ---
 name: net-protocol-tls-downgrade
-description: Detect TLS downgrade attacks, BEAST, POODLE, CRIME, and DROWN vulnerabilities by auditing cipher suites, protocol versions, and certificate validation failures. domain: cybersecurity subdomain: network-protocol-analysis tags: - tls-downgrade - ssl - poodle - beast - cipher-suite - testssl - sslyze nist_csf: - DE.CM-04 - PR.DS-02 mitre: - T1040 - T1
+description: "See [SKILL taxonomy](../../TAXONOMY.md) for more details."
 domain: cybersecurity
 ---
+
 ## Overview
 
 Detect TLS downgrade attacks, BEAST, POODLE, CRIME, and DROWN vulnerabilities by auditing cipher suites, protocol versions, and certificate validation failures.
-domain: cybersecurity
 subdomain: network-protocol-analysis
 tags:
   - tls-downgrade

@@ -1,7 +1,9 @@
 ---
 name: linux-id-gshadow-group-audit
-description: Audit /etc/gshadow and group privilege assignments — identify groups with excessive members, sudo-equivalent groups (wheel, sudo, docker, disk), and shadow group misconfigurations.
+description: "subdomain: identity-security tags: - linux - gshadow - group - privilege - audit nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: identity-security
 tags:
 - linux

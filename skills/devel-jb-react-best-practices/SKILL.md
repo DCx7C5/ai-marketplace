@@ -1,9 +1,10 @@
 ---
 name: devel-jb-react-best-practices
-description: Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Contains 64 rules across 8 categories, prioritized by impact to guide automated refactoring and code generation.
+description: "Devel Jb React Best Practices."
 domain: cybersecurity
 ---
--------|----------|--------|--------|
+
+--|
 | 1 | Eliminating Waterfalls | CRITICAL | `async-` |
 | 2 | Bundle Size Optimization | CRITICAL | `bundle-` |
 | 3 | Server-Side Performance | HIGH | `server-` |

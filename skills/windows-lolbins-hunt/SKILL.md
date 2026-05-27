@@ -1,8 +1,9 @@
 ---
 name: windows-lolbins-hunt
-description: Living Off the Land Binaries, Scripts, and Libraries (LOLBAS) are legitimate system utilities abused by attackers to execute malicious actions while evading detection. This skill covers detecting abuse of certutil.exe, regsvr32.exe, mshta.exe, rundll32.exe, msbuild.exe, and other LOLBins using process telemetry from Sysmon and Windows Event Logs, c
+description: "5. **Score and Prioritize Alerts** — Apply risk scoring based on argument anomaly, parent process, execution path, and network indicators 6."
 domain: cybersecurity
 ---
+
 # Detecting Living Off the Land with LOLBAS
 
 ## Overview

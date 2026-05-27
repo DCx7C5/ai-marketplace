@@ -1,7 +1,9 @@
 ---
 name: linux-hw-thunderbolt-dma-attack-detect
-description: Detect Thunderbolt DMA attack vectors (Thunderspy) — enumerate Thunderbolt devices, check security levels, and detect unauthorized DMA access to host memory.
+description: "subdomain: hardware-security tags: - linux - thunderbolt - dma - thunderspy nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: hardware-security
 tags:
 - linux

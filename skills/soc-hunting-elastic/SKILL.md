@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-elastic
-description: Use this skill when: - SOC teams need to proactively search for threats not caught by existing detection rules - Threat intelligence reports describe new TTPs requiring validation against historical data - Red team exercises reveal detection gaps that need hunting query development - Periodic hunting cadence requires structured hypothesis-driven in
+description: "Soc Hunting Elastic."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **KQL** | Kibana Query Language — simplified query syntax for filtering data in Kibana Discover and dashboards |
 | **EQL** | Event Query Language — Elastic's sequence-aware query language for detecting multi-step attack patterns |
 | **ECS** | Elastic Common Schema — standardized field naming convention enabling cross-source correlation |

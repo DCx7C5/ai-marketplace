@@ -1,9 +1,10 @@
 ---
 name: soc-detection-sigma
-description: Use this skill when: - SOC engineers need to create detection rules portable across multiple SIEM platforms - Threat intelligence reports describe TTPs requiring new detection coverage - Existing vendor-specific rules need standardization into a shareable format - The team adopts Sigma as a detection-as-code standard in CI/CD pipelines **Do not use
+description: "Soc Detection Sigma."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Sigma** | Vendor-agnostic detection rule format (YAML-based) that compiles to SIEM-specific queries via backends |
 | **pySigma** | Python library replacing legacy sigmac for rule conversion, validation, and pipeline processing |
 | **Backend** | pySigma plugin that translates Sigma detection logic into a target platform query language (SPL, KQL, Lucene) |

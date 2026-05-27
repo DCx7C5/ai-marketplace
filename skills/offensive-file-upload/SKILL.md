@@ -1,8 +1,9 @@
 ---
 name: offensive-file-upload
-description: ```mermaid
+description: "- Image pipelines with `?url=` sources: treat as SSRF; block private IPs, localhost, and metadata endpoints; enforce DNS rebinding protections."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # File Upload Vulnerabilities

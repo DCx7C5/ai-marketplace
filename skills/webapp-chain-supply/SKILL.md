@@ -1,8 +1,9 @@
 ---
 name: webapp-chain-supply
-description: Software supply chain attacks exploit trust in package registries through typosquatting (registering names similar to popular packages), dependency confusion (publishing higher-version public packages matching private names), and compromised package distribution. This skill detects these attack vectors by computing Levenshtein distance between pack
+description: "JSON report with risk scores per package, detected attack vectors, hash verification results, and CVE findings."
 domain: cybersecurity
 ---
+
 # Performing Supply Chain Attack Simulation
 
 ## Overview

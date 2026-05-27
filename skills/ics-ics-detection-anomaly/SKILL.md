@@ -1,9 +1,10 @@
 ---
 name: ics-ics-detection-anomaly
-description: - When deploying continuous monitoring for OT environments that lack intrusion detection - When building behavior-based detection to complement signature-based IDS in OT networks - When establishing baselines for deterministic SCADA communications to detect deviations - When integrating machine learning anomaly detection with OT security monitoring
+description: "Ics Ics Detection Anomaly."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Deterministic Traffic | ICS networks exhibit highly predictable communication patterns where the same master polls the same slaves at fixed intervals with identical function codes |
 | Isolation Forest | Unsupervised machine learning algorithm that isolates anomalies by randomly partitioning feature space, effective for OT traffic with low anomaly rates |
 | Polling Interval | Time between consecutive SCADA master requests to a slave device, typically fixed and configurable (100ms to 10s) |

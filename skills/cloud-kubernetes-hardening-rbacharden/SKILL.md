@@ -1,33 +1,9 @@
 ---
 name: cloud-kubernetes-hardening-rbacharden
-description: Kubernetes RBAC regulates access to cluster resources based on roles assigned to users, groups, and service accounts. Default configurations often grant excessive permissions, and without active hardening, RBAC becomes a primary attack vector for privilege escalation, lateral movement, and data exfiltration. Hardening requires implementing least-pr
+description: "Cloud Kubernetes Hardening Rbacharden."
 domain: cybersecurity
 ---
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  namespace: application
-name: cloud-kubernetes-hardening-rbacharden
-subjects:
-  - kind: Group
-name: cloud-kubernetes-hardening-rbacharden
-    apiGroup: rbac.authorization.k8s.io
-roleRef:
-  kind: Role
-name: cloud-kubernetes-hardening-rbacharden
-  apiGroup: rbac.authorization.k8s.io
-```
 
-### 3. Dedicated Service Accounts Per Workload
-
-```yaml
-apiVersion: v1
-kind: ServiceAccount
-metadata:
-name: cloud-kubernetes-hardening-rbacharden
-  namespace: payments
-automountServiceAccountToken: false  # Disable auto-mount
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:

@@ -1,8 +1,9 @@
 ---
 name: offensive-edr-evasion
-description: **Antivirus (preventive approach)**:
+description: "alt Hooked APIs         L->>N: Map Clean Copy of ntdll."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Endpoint Detection and Response

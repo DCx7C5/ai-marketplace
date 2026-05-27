@@ -1,6 +1,6 @@
 ---
 name: offensive-initial-access
-description: - Email with malware attached/linked
+description: "- Email with malware attached/linked"
 domain: cybersecurity
 ---
 ## Full Methodology

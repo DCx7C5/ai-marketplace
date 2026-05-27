@@ -1,53 +1,10 @@
 ---
 name: ics-ics-assetmgmt-claroty-assess
-description: - When conducting scheduled OT vulnerability assessments per IEC 62443 or NERC CIP requirements - When deploying Claroty xDome for the first time and performing initial asset discovery and risk assessment - When correlating newly published ICS-CERT advisories against your OT asset inventory - When prioritizing OT vulnerability remediation with limi
+description: "Ics Ics Assetmgmt Claroty Assess."
 domain: cybersecurity
 ---
-{sev.upper()} RISK ({len(findings)}) ---")
-                for ra in findings[:10]:
-                    report.append(f"\n  Risk Score: {ra.risk_score}/10.0")
-                    report.append(f"  Asset: {ra.asset.name} ({ra.asset.vendor} {ra.asset.model})")
-                    report.append(f"  Zone: {ra.asset.zone} ({ra.asset.purdue_level})")
-                    report.append(f"  CVE: {ra.vulnerability.cve_id} (CVSS: {ra.vulnerability.cvss_score})")
-                    report.append(f"  Title: {ra.vulnerability.title}")
-                    if ra.vulnerability.patch_available:
-                        report.append(f"  Patch: Available - schedule for next maintenance window")
-                    else:
-                        report.append(f"  Patch: Not available - apply compensating controls")
 
-        return "\n".join(report)
-
-    def export_json(self, output_file):
-        """Export assessment to JSON."""
-        data = {
-            "assessment_date": datetime.now().isoformat(),
-            "asset_count": len(self.assets),
-            "vulnerability_count": len(self.vulnerabilities),
-            "risk_assessments": [
-                {
-                    "asset_name": ra.asset.name,
-                    "asset_ip": ra.asset.ip_address,
-                    "cve": ra.vulnerability.cve_id,
-                    "risk_score": ra.risk_score,
-                    "risk_rating": ra.risk_rating,
-                    "priority": ra.remediation_priority,
-                }
-                for ra in sorted(self.risk_assessments, key=lambda x: -x.risk_score)
-            ],
-        }
-        with open(output_file, "w") as f:
-            json.dump(data, f, indent=2)
-
-if __name__ == "__main__":
-    assessment = OTVulnerabilityAssessment()
-    advisories = assessment.fetch_ics_advisories()
-    print(f"Fetched {len(advisories)} ICS advisories from CISA KEV catalog")
-```
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+|
 | Claroty xDome | Cyber-physical systems protection platform providing asset discovery, vulnerability management, and threat detection for OT/IoT environments |
 | Passive Discovery | Identifying OT assets by analyzing network traffic without sending any packets, safe for production environments |
 | Safe Active Query | Querying OT devices using native industrial protocols at safe rates to collect detailed asset information without disrupting operations |

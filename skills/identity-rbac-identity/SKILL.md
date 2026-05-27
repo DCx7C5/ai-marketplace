@@ -1,9 +1,10 @@
 ---
 name: identity-rbac-identity
-description: - Organization lacks automated joiner-mover-leaver (JML) processes for identity management - Access provisioning is manual and takes days, creating productivity loss and security gaps - Former employees retain access to systems after termination (orphaned accounts) - Role explosion has created thousands of roles with unclear ownership and overlappi
+description: "Identity Rbac Identity."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Joiner-Mover-Leaver (JML)** | Core identity lifecycle transitions covering employee onboarding (joiner), role/department changes (mover), and offboarding (leaver) |
 | **Birthright Access** | Baseline entitlements automatically provisioned based on job code, department, or location without requiring an access request |
 | **Role Mining** | Analysis of existing access patterns to derive role definitions by identifying common entitlement groupings across similar job functions |

@@ -1,9 +1,10 @@
 ---
 name: net-ids-wazuh-install
-description: Use this skill when: - Deploying HIDS agents (Wazuh, OSSEC, AIDE) across Windows and Linux endpoints - Configuring file integrity monitoring (FIM) for compliance (PCI DSS 11.5, NIST SI-7) - Monitoring system configuration changes, rootkit detection, and security policy violations - Integrating HIDS alerts with SIEM platforms for centralized monitor
+description: "Net Ids Wazuh Install."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **HIDS** | Host-based Intrusion Detection System; monitors individual endpoints for malicious activity |
 | **FIM** | File Integrity Monitoring; detects unauthorized changes to files by comparing cryptographic hashes |
 | **Syscheck** | Wazuh/OSSEC module for file integrity monitoring and registry monitoring |

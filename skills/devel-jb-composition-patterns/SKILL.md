@@ -1,9 +1,10 @@
 ---
 name: devel-jb-composition-patterns
-description: Composition patterns for building flexible, maintainable React components. Avoid
+description: "| | 1        | Component Architecture  | HIGH   | `architecture-` | | 2        | State Management        | MEDIUM | `state-`        | | 3        | Implementation Patterns | MEDIUM | `patterns-`     | | 4        | React 19 APIs           | MEDIUM | `react19-`      |  ## Quick Reference  ### 1."
 domain: cybersecurity
 ---
------ | ----------------------- | ------ | --------------- |
+
+|
 | 1        | Component Architecture  | HIGH   | `architecture-` |
 | 2        | State Management        | MEDIUM | `state-`        |
 | 3        | Implementation Patterns | MEDIUM | `patterns-`     |

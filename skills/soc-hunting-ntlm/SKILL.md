@@ -1,26 +1,10 @@
 ---
 name: soc-hunting-ntlm
-description: NTLM relay attacks intercept NTLM authentication messages and forward them to a target service to gain unauthorized access. Attackers use tools like Responder for LLMNR/NBT-NS/mDNS poisoning, ntlmrelayx (Fox-IT/Impacket) for multi-protocol relay, and coercion techniques like PetitPotam (MS-EFSRPC) and DFSCoerce to force authentication from high-val
+description: "Soc Hunting Ntlm."
 domain: cybersecurity
 ---
----|------------|
-| **NTLM Relay (T1557.001)** | Attack that intercepts NTLM authentication messages and forwards them to a target service, authenticating as the victim without knowing their password |
-| **Event 4624 LogonType 3** | Windows Security Event for successful network logon -- the primary event generated on relay targets; source IP field reveals the relay attacker's address |
-| **IP-Hostname Mismatch** | When Event 4624 WorkstationName field does not correspond to the IpAddress field, indicating the authentication was relayed through a third party |
-| **Responder** | Attack tool that poisons LLMNR (UDP 5355), NBT-NS (UDP 137), and mDNS (UDP 5353) responses to capture NTLM authentication from victims on the local network |
-| **ntlmrelayx** | Fox-IT/Impacket tool that relays captured NTLM authentication to SMB, LDAP, HTTP, MSSQL, and other protocols to gain unauthorized access |
-| **SMB Signing** | Cryptographic signing of SMB packets that prevents relay attacks against SMB services; must be set to "Required" (not just "Enabled") for protection |
-| **LDAP Signing** | Cryptographic signing of LDAP operations that prevents relay attacks against LDAP services on domain controllers; controlled by LDAPServerIntegrity registry value |
-| **LDAP Channel Binding** | Extended Protection for Authentication (EPA) that binds the NTLM authentication to the TLS channel, preventing relay to LDAPS |
-| **NTLMv1 Downgrade** | Attack forcing authentication from NTLMv2 to the weaker NTLMv1 protocol, which is easier to crack offline and has weaker relay protections |
-| **PetitPotam** | Coercion technique abusing MS-EFSRPC to force a domain controller to authenticate to an attacker-controlled host, enabling relay to AD CS or LDAP |
-| **LmCompatibilityLevel** | Registry setting controlling which NTLM version is used; value of 5 (Send NTLMv2 only, refuse LM and NTLM) provides strongest protection |
-| **Event 8004** | NTLM operational log event on domain controllers showing all NTLM authentication pass-through, critical for auditing NTLM usage before restriction |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | **Splunk / Elastic SIEM** | Log aggregation and correlation for Event 4624 analysis, IP-hostname mismatch detection, and NTLM downgrade monitoring |
 | **Microsoft Sentinel** | Cloud SIEM with KQL queries for NTLM relay detection and built-in analytics rules for PetitPotam |
 | **CrowdStrike Falcon Identity Protection** | Detects NTLM relay attacks against domain controller accounts regardless of coercion method used |

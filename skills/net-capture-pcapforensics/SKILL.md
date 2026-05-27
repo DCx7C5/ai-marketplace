@@ -1,22 +1,10 @@
 ---
 name: net-capture-pcapforensics
-description: - When analyzing captured network traffic (PCAP files) from a security incident - For identifying command-and-control (C2) communications in captured traffic - When reconstructing data exfiltration activities from packet captures - During malware analysis to identify network indicators of compromise - For extracting files, credentials, and artifact
+description: "Net Capture Pcapforensics."
 domain: cybersecurity
 ---
-------|-------------|
-| PCAP/PCAPNG | Packet capture file formats storing raw network traffic |
-| TCP stream | Complete bidirectional communication between two endpoints |
-| Deep packet inspection | Analysis of packet payload content beyond header information |
-| Beaconing | Regular-interval callbacks from malware to C2 servers |
-| DNS tunneling | Encoding data within DNS queries for covert exfiltration |
-| TLS/SNI | Server Name Indication revealing the target hostname in encrypted connections |
-| Network flow | Summary of communication between endpoints (IPs, ports, bytes, duration) |
-| Protocol hierarchy | Statistical breakdown of protocols present in a capture |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Wireshark | GUI-based packet analyzer with deep protocol dissection |
 | tshark | Command-line version of Wireshark for scripted analysis |
 | NetworkMiner | Automated network forensic analysis and file extraction |

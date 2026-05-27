@@ -1,8 +1,9 @@
 ---
 name: offensive-fast-checking
-description: A combination of my own methodology and the Web Application Hacker's Handbook Task checklist, as a Github-Flavored Markdown file
+description: "- [ ] HTTP/2/3 behavior differences, domain fronting checks, SNI/Host mismatch."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Fast Testing Checklist

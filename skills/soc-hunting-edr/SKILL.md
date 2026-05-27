@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-edr
-description: - When hunting for credential theft activity in the environment - After compromise indicators suggest attacker has elevated privileges - When EDR alerts fire for LSASS access or suspicious process memory reads - During incident response to determine scope of credential compromise - When auditing LSASS protection controls (Credential Guard, RunAsPPL
+description: "-| | T1003.001 | LSASS Memory -- dumping credentials from LSASS process | | T1003."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | T1003.001 | LSASS Memory -- dumping credentials from LSASS process |
 | T1003.002 | Security Account Manager -- extracting local account hashes from SAM |
 | T1003.003 | NTDS -- extracting domain hashes from Active Directory database |

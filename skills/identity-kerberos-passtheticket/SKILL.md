@@ -1,9 +1,10 @@
 ---
 name: identity-kerberos-passtheticket
-description: Pass-the-Ticket (PtT) is a lateral movement technique that uses stolen Kerberos tickets (TGT or TGS) to authenticate to services without knowing the user's password. By extracting Kerberos tickets from memory (LSASS) on a compromised host, an attacker can inject those tickets into their own session to impersonate the ticket owner and access resourc
+description: "| | Mimikatz | Ticket export/import | sekurlsa::tickets /export, kerberos::ptt | | Rubeus | Ticket dumping and injection | dump, ptt, tgtdeleg | | Impacket ticketConverter | Convert between formats | ticketConverter."
 domain: cybersecurity
 ---
----|---------|---------|
+
+|
 | Mimikatz | Ticket export/import | sekurlsa::tickets /export, kerberos::ptt |
 | Rubeus | Ticket dumping and injection | dump, ptt, tgtdeleg |
 | Impacket ticketConverter | Convert between formats | ticketConverter.py ticket.kirbi ticket.ccache |

@@ -1,8 +1,9 @@
 ---
 name: net-recon-easm
-description: - When building an external attack surface management (EASM) program from scratch - When performing authorized external reconnaissance for penetration testing engagements - When continuously monitoring organizational exposure across internet-facing assets - When scoring and prioritizing external attack surface risks for remediation - When integrati
+description: "--action full_scan \     --output multi_domain_report."
 domain: cybersecurity
 ---
+
 # Implementing Attack Surface Management
 
 ## When to Use

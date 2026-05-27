@@ -1,9 +1,10 @@
 ---
 name: webapp-api-bfla
-description: - Testing whether regular users can access administrative API endpoints by direct URL access - Assessing APIs for vertical privilege escalation where users can invoke functions above their role - Evaluating if API gateways and middleware consistently enforce function-level access controls - Testing role-based access control (RBAC) implementation ac
+description: "Webapp Api Bfla."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **BFLA** | Broken Function Level Authorization (OWASP API5:2023) - regular users can invoke administrative or privileged API functions without proper authorization checks |
 | **Vertical Privilege Escalation** | Accessing functions or data restricted to a higher privilege level, such as regular user accessing admin endpoints |
 | **RBAC** | Role-Based Access Control - authorization model where permissions are assigned to roles and roles are assigned to users |

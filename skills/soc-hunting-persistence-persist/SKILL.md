@@ -1,9 +1,10 @@
 ---
 name: soc-hunting-persistence-persist
-description: - When proactively searching for fileless persistence mechanisms in Windows environments - After threat intelligence reports indicate WMI-based persistence by APT groups (APT29, APT32, FIN8) - When investigating systems where malware persists across reboots despite cleanup attempts - During incident response when standard persistence locations (Run
+description: "Soc Hunting Persistence Persist."
 domain: cybersecurity
 ---
-------|-------------|
+
+-|
 | T1546.003 | Event Triggered Execution: WMI Event Subscription |
 | __EventFilter | WMI class defining the trigger condition |
 | __EventConsumer | WMI class defining the action to perform |

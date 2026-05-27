@@ -1,17 +1,10 @@
 ---
 name: identity-serviceaccount-service
-description: - When proactively hunting for indicators of detecting service account abuse in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments and pu
+description: "Identity Serviceaccount Service."
 domain: cybersecurity
 ---
-------|-------------|
-| T1078.002 | Domain Accounts |
-| T1078.001 | Default Accounts |
-| T1021 | Remote Services |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

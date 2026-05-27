@@ -1,8 +1,9 @@
 ---
 name: devel-jb-observability-integrator
-description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-17`).
+description: "A bad run produces a large telemetry bill, noisy dashboards, and no practical improvement in diagnosis."
 domain: cybersecurity
 ---
+
 # Observability Integrator
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-17`).

@@ -1,8 +1,9 @@
 ---
 name: offensive-graphql
-description: 1.  Identify GraphQL Endpoint: Look for common paths like `/graphql`, `/graphiql`, `/graphql.php`, `/graphql/console`. Check network requests in browser developer tools.
+description: "- Federation RBAC: centralize auth policy in schema directives evaluated at the gateway and in subgraphs; avoid trusting upstream filtering blindly."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # GraphQL Vulnerabilities

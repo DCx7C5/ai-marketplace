@@ -1,67 +1,10 @@
 ---
 name: net-layer2-bandwidth-limit
-description: - Testing application resilience to degraded network conditions during authorized security assessments - Validating QoS policies detect and mitigate unauthorized traffic shaping on the network - Simulating network slowloris-style attacks that degrade bandwidth rather than causing complete outages - Assessing the impact of bandwidth-based attacks on
+description: "-| | Baseline | 947 Mbps | 0.8 ms | 0.2 ms | 0% | 4."
 domain: cybersecurity
 ---
----|------------|
-| **Traffic Shaping** | Deliberate manipulation of network traffic flow rates using queuing disciplines to control bandwidth allocation |
-| **tc (Traffic Control)** | Linux kernel subsystem for configuring packet scheduling, shaping, policing, and dropping using queuing disciplines (qdiscs) |
-| **netem (Network Emulator)** | Linux tc qdisc that simulates network conditions including delay, jitter, packet loss, corruption, and reordering |
-| **Token Bucket Filter (TBF)** | tc qdisc that limits traffic rate by allowing packets through only when tokens are available, enforcing a maximum bandwidth rate |
-| **Slowloris** | Application-layer attack that exhausts server connection pools by opening many connections and sending data very slowly |
-| **QoS (Quality of Service)** | Network mechanisms for prioritizing specific traffic types (VoIP, video) and ensuring minimum bandwidth guarantees |
 
-## Tools & Systems
-
-- **tc/netem**: Linux kernel traffic control and network emulation framework for simulating bandwidth limitations and network degradation
-- **iperf3**: Network bandwidth measurement tool for establishing baselines and measuring the impact of throttling
-- **Bettercap**: Network attack framework used for establishing MITM position to intercept and throttle traffic
-- **Scapy**: Python packet manipulation for crafting custom traffic patterns and connection exhaustion simulations
-- **NetFlow/sFlow**: Network flow monitoring protocols for detecting abnormal bandwidth utilization patterns
-
-## Common Scenarios
-
-### Scenario: Testing VoIP System Resilience to Bandwidth Degradation
-
-**Context**: A company relies on SIP-based VoIP for business communications. The security team needs to assess how VoIP quality degrades under various network attack conditions and at what point calls become unusable. The testing is authorized on a dedicated VoIP test VLAN.
-
-**Approach**:
-1. Establish baseline call quality using iperf3 UDP tests measuring jitter (<30ms) and packet loss (<1%) on the VoIP VLAN
-2. Set up MITM position between VoIP endpoints using ARP spoofing
-3. Progressively introduce latency (50ms, 100ms, 200ms, 500ms) using netem and measure MOS (Mean Opinion Score) at each level
-4. Introduce packet loss (1%, 3%, 5%, 10%) and measure call quality degradation
-5. Throttle bandwidth from 1 Mbps to 100 Kbps to determine the minimum usable bandwidth for G.711 codec (requires 87.2 Kbps)
-6. Verify that QoS policies on the network prioritize VoIP traffic and restore quality when throttling affects the shared link
-7. Document the degradation thresholds and recommend minimum QoS guarantees for the VoIP VLAN
-
-**Pitfalls**:
-- Forgetting to remove tc rules after testing, leaving bandwidth limitations in place on the test network
-- Testing at rates too low, causing complete call failure instead of measurable degradation
-- Not accounting for VoIP codec differences -- G.711 requires more bandwidth than G.729
-- Running the test on a shared VLAN and affecting non-test traffic
-
-## Output Format
-
-```
-## Bandwidth Throttling Simulation Report
-
-**Test ID**: BW-THROTTLE-2024-001
-**Target Network**: VLAN 60 (VoIP Test)
-**Test Duration**: 2024-03-15 14:00-16:00 UTC
-
-### Baseline Measurements
-| Metric | Value |
-|--------|-------|
-| Bandwidth (TCP) | 947 Mbps |
-| Bandwidth (UDP) | 912 Mbps |
-| Latency (avg) | 0.8 ms |
-| Jitter | 0.2 ms |
-| Packet Loss | 0.00% |
-
-### Degradation Impact Matrix
-
-| Condition | Bandwidth | Latency | Jitter | Loss | VoIP MOS |
-|-----------|-----------|---------|--------|------|----------|
+-|
 | Baseline | 947 Mbps | 0.8 ms | 0.2 ms | 0% | 4.4 |
 | 50ms latency | 947 Mbps | 51 ms | 5 ms | 0% | 4.0 |
 | 200ms latency | 947 Mbps | 201 ms | 25 ms | 0% | 3.2 |

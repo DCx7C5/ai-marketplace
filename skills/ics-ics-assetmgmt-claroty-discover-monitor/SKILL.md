@@ -1,9 +1,10 @@
 ---
 name: ics-ics-assetmgmt-claroty-discover-monitor
-description: - When gaining initial visibility into an OT environment with unknown or poorly documented assets - When preparing for an IEC 62443 risk assessment requiring a complete asset inventory - When onboarding Claroty xDome into a brownfield industrial environment - When validating existing asset inventory against actual network communications - When iden
+description: "Ics Ics Assetmgmt Claroty Discover Monitor."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Passive Monitoring | Observing mirrored network traffic via SPAN/TAP without injecting packets, safe for all OT devices |
 | Active Querying | Sending native protocol requests to extract detailed device information; requires careful scheduling |
 | Claroty Edge | Claroty's safe active discovery collector that uses native industrial protocols rather than IT scanning |

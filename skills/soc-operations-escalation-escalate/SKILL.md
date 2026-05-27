@@ -1,83 +1,10 @@
 ---
 name: soc-operations-escalation-escalate
-description: A SOC escalation matrix defines how security incidents move through the organization based on severity, impact, and response requirements. Modern SOCs use context-driven escalation combining business risk, asset criticality, and data sensitivity rather than purely severity-based models. Organizations using AI and automation in their SOC cut detecti
+description: "Soc Operations Escalation Escalate."
 domain: cybersecurity
 ---
-|---|
-| Impact | Active data breach, ransomware spreading, critical systems compromised |
-| Business Impact | Revenue loss, regulatory exposure, customer data at risk |
-| Initial Response | 15 minutes |
-| Escalation to Tier 2 | Immediate |
-| Escalation to Management | 30 minutes |
-| Resolution Target | 4 hours |
-| Communication | Every 30 minutes to stakeholders |
-| Examples | Active ransomware, confirmed data exfiltration, domain admin compromise |
 
-### P2 - High
-
-| Attribute | Value |
-|---|---|
-| Impact | Confirmed compromise, limited scope, no active exfiltration |
-| Business Impact | Potential revenue impact, contained risk |
-| Initial Response | 30 minutes |
-| Escalation to Tier 2 | 30 minutes if unresolved |
-| Escalation to Management | 2 hours |
-| Resolution Target | 8 hours |
-| Communication | Every 2 hours to SOC management |
-| Examples | Compromised user account, malware on single endpoint, insider threat indicator |
-
-### P3 - Medium
-
-| Attribute | Value |
-|---|---|
-| Impact | Suspicious activity requiring investigation |
-| Business Impact | Low immediate risk |
-| Initial Response | 4 hours |
-| Escalation to Tier 2 | 8 hours if unresolved |
-| Resolution Target | 24 hours |
-| Communication | Daily status update |
-| Examples | Policy violation, failed brute force, suspicious email report |
-
-### P4 - Low
-
-| Attribute | Value |
-|---|---|
-| Impact | Informational alerts, routine security events |
-| Business Impact | Minimal |
-| Initial Response | 8 hours |
-| Escalation | Only if pattern emerges |
-| Resolution Target | 72 hours |
-| Communication | Weekly summary |
-| Examples | Vulnerability scan findings, expired certificates, policy exceptions |
-
-## Escalation Decision Matrix
-
-```
-                    Asset Criticality
-                    Low        Medium      High        Critical
-Severity  Low      P4         P4          P3          P3
-          Medium   P4         P3          P2          P2
-          High     P3         P2          P2          P1
-          Critical P2         P1          P1          P1
-```
-
-## Context-Driven Escalation Triggers
-
-### Automatic Escalation (no analyst decision needed)
-
-| Trigger | Action |
-|---|---|
-| Ransomware detected on any endpoint | P1 - Immediate Tier 3 + Management |
-| Domain admin account compromise | P1 - Immediate Tier 3 + Management |
-| Active data exfiltration to external IP | P1 - Immediate Tier 3 + Management |
-| Critical infrastructure (DC, SCADA) alert | P1 - Immediate Tier 2 minimum |
-| Executive account anomaly | P2 - Immediate Tier 2 |
-| Multiple hosts with same malware | P1 - Immediate Tier 2 |
-
-### Time-Based Escalation
-
-| Condition | Action |
-|---|---|
+|
 | P2 unresolved after 4 hours | Escalate to Tier 3 |
 | P3 unresolved after 12 hours | Escalate to Tier 2 |
 | Any incident unresolved past SLA | Escalate to SOC Manager |

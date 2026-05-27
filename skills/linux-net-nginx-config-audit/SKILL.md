@@ -1,7 +1,9 @@
 ---
 name: linux-net-nginx-config-audit
-description: Security audit of nginx web server configuration — check for server version exposure, insecure headers, directory traversal, misconfigured SSL/TLS, and open proxy risks.
+description: "subdomain: network-security tags: - linux - nginx - web - configuration - audit nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: network-security
 tags:
 - linux

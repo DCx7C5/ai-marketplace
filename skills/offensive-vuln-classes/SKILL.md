@@ -1,8 +1,9 @@
 ---
 name: offensive-vuln-classes
-description: _created by AnotherOne from @Pwn3rzs Telegram channel_.
+description: "POC-Escalation) - **The Attack**: An attacker with `CAP_NET_ADMIN` capability (obtainable through unprivileged user namespaces on many distributions) could exploit the race by sending concurrent netlink messages to manipulate nf_tables rules."
 domain: cybersecurity
 ---
+
 POC-Escalation)
 - **The Attack**: An attacker with `CAP_NET_ADMIN` capability (obtainable through unprivileged user namespaces on many distributions) could exploit the race by sending concurrent netlink messages to manipulate nf_tables rules. By carefully timing these operations across multiple threads, the attacker could trigger a window where one thread frees an object while another thread still holds a reference to it.
 - **The Impact**: Local privilege escalation from unprivileged user to root on systems with unprivileged user namespaces enabled (default on Ubuntu, Debian, Fedora, and others). The use-after-free primitive could be exploited to gain arbitrary kernel read/write capabilities, typically used to modify process credentials or overwrite kernel function pointers. Affected Linux kernels prior to version 6.3.1 (May 2023).

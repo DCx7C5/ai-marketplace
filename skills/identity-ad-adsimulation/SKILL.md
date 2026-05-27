@@ -1,9 +1,10 @@
 ---
 name: identity-ad-adsimulation
-description: - Assessing the security of an Active Directory domain and forest against common and advanced attack techniques - Identifying attack paths from low-privilege domain user to Domain Admin using privilege relationship analysis - Validating that Kerberos security configurations, credential policies, and delegation settings resist known attacks - Testin
+description: "Identity Ad Adsimulation."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Kerberoasting** | Requesting Kerberos TGS tickets for accounts with Service Principal Names and cracking them offline to recover the service account's plaintext password |
 | **AS-REP Roasting** | Requesting Kerberos AS-REP responses for accounts without pre-authentication enabled and cracking the encrypted timestamp offline |
 | **DCSync** | Using Directory Replication Service privileges (DS-Replication-Get-Changes-All) to replicate password data from a domain controller, mimicking the behavior of a DC |

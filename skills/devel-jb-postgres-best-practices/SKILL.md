@@ -1,9 +1,10 @@
 ---
 name: devel-jb-postgres-best-practices
-description: Comprehensive performance optimization guide for Postgres, maintained by Supabase. Contains rules across 8 categories, prioritized by impact to guide automated query optimization and schema design.
+description: "Devel Jb Postgres Best Practices."
 domain: cybersecurity
 ---
--------|----------|--------|--------|
+
+--|
 | 1 | Query Performance | CRITICAL | `query-` |
 | 2 | Connection Management | CRITICAL | `conn-` |
 | 3 | Security & RLS | CRITICAL | `security-` |

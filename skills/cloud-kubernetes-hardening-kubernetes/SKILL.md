@@ -1,9 +1,10 @@
 ---
 name: cloud-kubernetes-hardening-kubernetes
-description: kube-bench is an open-source Go tool by Aqua Security that runs the CIS Kubernetes Benchmark checks. It verifies control plane, etcd, worker node, and policy configurations against security best practices, producing actionable pass/fail/warn reports.
+description: "| | 1.1 | Control Plane - API Server | Anonymous auth, RBAC, audit logging | | 1."
 domain: cybersecurity
 ---
-------|-----------|------------|
+
+|
 | 1.1 | Control Plane - API Server | Anonymous auth, RBAC, audit logging |
 | 1.2 | Control Plane - API Server | Admission controllers, encryption |
 | 1.3 | Control Plane - Controller Manager | Service account tokens, bind address |
@@ -39,7 +40,6 @@ domain: cybersecurity
 ### GitHub Actions
 
 ```yaml
-name: cloud-kubernetes-hardening-kubernetes
 on:
   schedule:
     - cron: '0 6 * * 1'

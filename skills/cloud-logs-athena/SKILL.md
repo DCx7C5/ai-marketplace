@@ -1,8 +1,9 @@
 ---
 name: cloud-logs-athena
-description: - When investigating AWS security incidents that require querying massive volumes of cloud logs - When performing forensic analysis across CloudTrail, VPC Flow Logs, S3 access logs, and ALB logs - When building reusable Athena tables with partition projection for ongoing incident response - When hunting for indicators of compromise across multiple 
+description: "# Create all forensic tables from scratch python agent."
 domain: cybersecurity
 ---
+
 # Performing Cloud Log Forensics with AWS Athena
 
 ## When to Use

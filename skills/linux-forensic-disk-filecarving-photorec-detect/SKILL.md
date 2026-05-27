@@ -1,22 +1,10 @@
 ---
 name: linux-forensic-disk-filecarving-photorec-detect
-description: - When recovering deleted files from a forensic disk image or storage device - When the file system is corrupted, formatted, or overwritten - During investigations requiring recovery of documents, images, videos, or databases - When file system metadata is unavailable but raw data sectors remain intact - For recovering files from memory cards, USB 
+description: "Linux Forensic Disk Filecarving Photorec Detect."
 domain: cybersecurity
 ---
-------|-------------|
-| File carving | Recovering files from raw data using file header/footer signatures |
-| File signatures | Magic bytes at the start of files identifying their type (e.g., FF D8 FF for JPEG) |
-| Unallocated space | Disk sectors not assigned to any active file; may contain deleted data |
-| Fragmented files | Files stored in non-contiguous sectors; harder to carve completely |
-| Cluster/Block size | Minimum allocation unit on a file system; affects carving granularity |
-| File footer | Byte sequence marking the end of a file (not all formats have footers) |
-| Data remanence | Residual data remaining after deletion until sectors are overwritten |
-| False positives | Carved artifacts that match signatures but contain corrupted or partial data |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | PhotoRec | Open-source file carving tool supporting 300+ file formats |
 | TestDisk | Companion tool for partition recovery and repair |
 | Foremost | Alternative file carver originally developed by US Air Force OSI |

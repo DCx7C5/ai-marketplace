@@ -1,9 +1,10 @@
 ---
 name: soc-edr-crowdstrike
-description: Use this skill when: - Deploying CrowdStrike Falcon sensors to Windows, macOS, or Linux endpoints - Configuring Falcon prevention and detection policies for different endpoint groups - Integrating CrowdStrike telemetry with SIEM (Splunk, Elastic, Sentinel) for correlated detection - Troubleshooting sensor connectivity, performance, or detection iss
+description: "Soc Edr Crowdstrike."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Falcon Sensor** | Lightweight kernel-mode agent (25-30 MB) that collects endpoint telemetry and enforces prevention policies |
 | **CID (Customer ID)** | Unique identifier that associates the sensor with your CrowdStrike Falcon tenant |
 | **RFM (Reduced Functionality Mode)** | State where sensor operates with limited capability due to cloud connectivity loss |

@@ -1,26 +1,10 @@
 ---
 name: soc-hunting-data
-description: - When hunting for data theft in compromised environments - After detecting unusual outbound data volumes or patterns - When investigating potential insider threat data theft - During incident response to determine what data was stolen - When threat intel indicates data exfiltration campaigns targeting your sector
+description: "Soc Hunting Data."
 domain: cybersecurity
 ---
-------|-------------|
-| T1041 | Exfiltration Over C2 Channel |
-| T1048 | Exfiltration Over Alternative Protocol |
-| T1048.001 | Exfiltration Over Symmetric Encrypted Non-C2 |
-| T1048.002 | Exfiltration Over Asymmetric Encrypted Non-C2 |
-| T1048.003 | Exfiltration Over Unencrypted/Obfuscated Non-C2 |
-| T1567 | Exfiltration Over Web Service |
-| T1567.002 | Exfiltration to Cloud Storage |
-| T1052 | Exfiltration Over Physical Medium |
-| T1029 | Scheduled Transfer |
-| T1030 | Data Transfer Size Limits (staging) |
-| T1537 | Transfer Data to Cloud Account |
-| T1020 | Automated Exfiltration |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | Splunk | SIEM for data volume analysis and SPL queries |
 | Zeek | Network metadata for data flow analysis |
 | Microsoft Defender for Cloud Apps | CASB for cloud exfiltration |

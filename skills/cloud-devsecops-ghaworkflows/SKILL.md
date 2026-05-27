@@ -1,9 +1,10 @@
 ---
 name: cloud-devsecops-ghaworkflows
-description: - When GitHub Actions is the CI/CD platform and workflows need hardening against supply chain attacks - When workflows handle secrets, deploy to production, or have elevated permissions - When preventing script injection via untrusted PR titles, branch names, or commit messages - When requiring audit trails and approval gates for workflow modificat
+description: "Cloud Devsecops Ghaworkflows."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | SHA Pinning | Referencing GitHub Actions by their immutable commit SHA instead of mutable version tags |
 | Script Injection | Attack where untrusted input (PR title, branch name) is interpolated into shell commands |
 | GITHUB_TOKEN | Automatically generated token with configurable permissions scoped to the current repository |

@@ -1,8 +1,9 @@
 ---
 name: cloud-identity-zerotrust-configure
-description: Microsegmentation divides a network into granular security zones, enforcing least-privilege access between workloads at the application layer rather than relying on traditional VLAN-based segmentation. In a zero trust architecture, microsegmentation eliminates implicit trust between workloads within the same network segment, preventing lateral move
+description: "- NIST SP 800-207: Zero Trust Architecture - CISA Zero Trust Maturity Model v2."
 domain: cybersecurity
 ---
+
 # Configuring Microsegmentation for Zero Trust
 
 ## Prerequisites

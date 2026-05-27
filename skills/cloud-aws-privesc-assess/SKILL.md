@@ -1,27 +1,10 @@
 ---
 name: cloud-aws-privesc-assess
-description: - When conducting authorized penetration testing of AWS IAM configurations - When validating that IAM policies follow the principle of least privilege - When assessing the blast radius of a compromised AWS credential - When building security reviews for IAM role and policy changes in CI/CD pipelines - When evaluating cross-account trust relationshi
+description: "Cloud Aws Privesc Assess."
 domain: cybersecurity
 ---
------|--------|--------------------|--------------|------|
-| iam:CreatePolicyVersion | EXPLOITABLE | test-user | AdministratorAccess | Critical |
-| iam:PassRole + lambda:CreateFunction | EXPLOITABLE | dev-role | LambdaAdminRole | Critical |
-| sts:AssumeRole (cross-account) | EXPLOITABLE | test-user | ProdAdminRole | High |
-| iam:AttachUserPolicy | BLOCKED | test-user | N/A | N/A |
-| ec2:RunInstances + iam:PassRole | BLOCKED | test-user | N/A | N/A |
 
-## Remediation
-1. Apply permission boundaries to all IAM users and roles
-2. Remove iam:CreatePolicyVersion from non-admin principals
-3. Add sts:ExternalId condition to all cross-account role trust policies
-4. Implement SCP guardrails preventing privilege escalation actions
-EOF
-```
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+|
 | IAM Privilege Escalation | Exploiting overly permissive IAM policies to gain higher-level access than originally granted to a principal |
 | Permission Boundary | IAM policy that sets the maximum permissions a principal can have, regardless of identity-based policies attached to it |
 | iam:PassRole | IAM action allowing a principal to pass an IAM role to an AWS service, enabling the service to act with that role's permissions |

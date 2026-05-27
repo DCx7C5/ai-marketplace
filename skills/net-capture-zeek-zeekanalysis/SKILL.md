@@ -1,9 +1,10 @@
 ---
 name: net-capture-zeek-zeekanalysis
-description: Zeek (formerly Bro) is an open-source network analysis framework that operates as a passive network security monitor. Unlike traditional signature-based IDS tools, Zeek generates high-fidelity structured logs from observed network traffic, capturing detailed metadata for protocols including HTTP, DNS, TLS, SSH, SMTP, FTP, and dozens more. Zeek's ex
+description: "-| | `conn.log` | TCP/UDP/ICMP connection summaries with duration, bytes, state | | `dns."
 domain: cybersecurity
 ---
--------|-------------|
+
+-|
 | `conn.log` | TCP/UDP/ICMP connection summaries with duration, bytes, state |
 | `dns.log` | DNS queries and responses with query type, answers, TTL |
 | `http.log` | HTTP requests/responses with URIs, user agents, MIME types |

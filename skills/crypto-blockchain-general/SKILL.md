@@ -1,8 +1,9 @@
 ---
 name: crypto-blockchain-general
-description: - When deploying or configuring implementing log integrity with blockchain capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+description: "If entry 42 is modified, chain_hash[42] will not match SHA256(chain_hash[41] + ."
 domain: cybersecurity
 ---
+
 # Implementing Log Integrity with Blockchain
 
 ## When to Use

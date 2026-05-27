@@ -1,9 +1,10 @@
 ---
 name: cloud-platform-general-overview
-description: - When establishing continuous security monitoring across AWS, Azure, and GCP environments - When compliance requirements demand automated posture assessment against CIS, SOC 2, or PCI DSS - When security teams need visibility into cloud misconfigurations across multiple accounts and subscriptions - When building a security operations workflow that
+description: "Cloud Platform General Overview."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | CSPM | Cloud Security Posture Management, the practice of continuously monitoring cloud infrastructure for misconfigurations and compliance violations |
 | Configuration Drift | Unintended changes to cloud resource configurations that deviate from the approved security baseline over time |
 | Security Baseline | A documented set of minimum security configuration requirements that all cloud resources must meet |

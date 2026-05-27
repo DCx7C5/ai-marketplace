@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-macie
-description: Amazon Macie is a fully managed data security and privacy service that uses machine learning and pattern matching to discover and protect sensitive data in Amazon S3. Macie automatically evaluates your S3 bucket inventory on a daily basis and identifies objects containing PII, financial information, credentials, and other sensitive data types. It p
+description: "Cloud Aws Macie."
 domain: cybersecurity
 ---
--------|---------|
+
+|
 | **PII** | SSN, passport numbers, driver's license, date of birth, names, addresses |
 | **Financial** | Credit card numbers, bank account numbers, SWIFT codes |
 | **Credentials** | AWS secret keys, API keys, SSH private keys, OAuth tokens |

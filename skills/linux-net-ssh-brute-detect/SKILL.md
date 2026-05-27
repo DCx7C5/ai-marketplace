@@ -1,7 +1,9 @@
 ---
 name: linux-net-ssh-brute-detect
-description: Detect SSH brute force attacks — analyze /var/log/auth.log for failed authentication patterns, configure fail2ban rules, and identify credential stuffing campaigns.
+description: "subdomain: network-security tags: - linux - ssh - brute-force - detect - auth-log nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: network-security
 tags:
 - linux

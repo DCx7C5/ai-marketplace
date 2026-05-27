@@ -1,7 +1,9 @@
 ---
 name: linux-container-apparmor-profile-audit
-description: Audit container AppArmor profiles — verify AppArmor confinement for container processes, identify containers with unconfined profiles, and audit policy effectiveness.
+description: "subdomain: container-security tags: - linux - container - apparmor - docker - kubernetes - audit nist_csf: - ID."
 domain: cybersecurity
+---
+
 subdomain: container-security
 tags:
 - linux

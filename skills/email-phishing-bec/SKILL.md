@@ -1,8 +1,9 @@
 ---
 name: email-phishing-bec
-description: AI-powered BEC detection uses machine learning, NLP, and behavioral analytics to identify sophisticated impersonation attacks that contain no malicious links or attachments. Traditional rule-based filters miss these attacks because BEC relies purely on social engineering. Modern AI approaches analyze writing style, tone, vocabulary, grammatical pat
+description: "- NLP correctly classifies urgency manipulation in test scenario - False positive rate below 0."
 domain: cybersecurity
 ---
+
 # Detecting Business Email Compromise with AI
 
 ## Overview

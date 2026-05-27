@@ -1,9 +1,10 @@
 ---
 name: webapp-auth-oauth-flaws
-description: - Assessing OAuth 2.0 authorization code flow for redirect URI validation weaknesses - Testing OAuth client applications for CSRF protection (state parameter usage) and PKCE enforcement - Evaluating token storage, transmission, and lifecycle management in OAuth implementations - Testing scope escalation where clients request more permissions than a
+description: "Webapp Auth Oauth Flaws."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Authorization Code Flow** | OAuth 2.0 flow where the client receives an authorization code via redirect, then exchanges it for tokens at the token endpoint |
 | **PKCE** | Proof Key for Code Exchange - extension that binds the authorization request to the token request using a code verifier/challenge, preventing authorization code interception |
 | **Redirect URI Validation** | Authorization server verification that the redirect_uri matches the registered value exactly, preventing code/token theft via open redirect |

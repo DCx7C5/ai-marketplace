@@ -1,9 +1,10 @@
 ---
 name: compliance-iso-framework
-description: ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete lifecycle from scoping through certification, including Annex A control selection, risk assessment methodology, Statement of Applicability (SoA) crea
+description: "-| | Organizational (A.5) | 37 controls | Policies, roles, threat intelligence, cloud security | | People (A."
 domain: cybersecurity
 ---
--------|----------|----------|
+
+-|
 | Organizational (A.5) | 37 controls | Policies, roles, threat intelligence, cloud security |
 | People (A.6) | 8 controls | Screening, awareness, remote working, reporting |
 | Physical (A.7) | 14 controls | Perimeters, entry controls, equipment security |

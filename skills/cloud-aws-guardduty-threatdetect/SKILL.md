@@ -1,9 +1,10 @@
 ---
 name: cloud-aws-guardduty-threatdetect
-description: - When establishing continuous threat detection for new or existing AWS accounts - When investigating GuardDuty findings related to compromised instances, credential abuse, or data exfiltration - When building automated incident response playbooks triggered by GuardDuty findings - When extending threat coverage to container workloads running on EKS
+description: "Cloud Aws Guardduty Threatdetect."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Extended Threat Detection | GuardDuty capability that correlates multiple signals across time to detect multi-stage attacks, generating Critical-severity attack sequence findings |
 | Runtime Monitoring | Protection plan that deploys a security agent to EC2 instances, ECS tasks, and EKS pods to detect runtime threats at the OS level |
 | Finding Severity | Four-tier classification (Low, Medium, High, Critical) where Critical indicates confirmed multi-stage attacks requiring immediate response |

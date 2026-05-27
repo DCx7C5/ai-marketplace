@@ -1,9 +1,10 @@
 ---
 name: identity-privilege-pam
-description: Deploy privileged access management for database systems including Oracle, SQL Server, PostgreSQL, and MySQL. Covers session proxy configuration, credential vaulting, query auditing, dynamic credential generation, and least-privilege database roles.
+description: "Identity Privilege Pam."
 domain: cybersecurity
 ---
-------|-------------|-------------|
+
+-|
 | Account Management | AC-2 | Lifecycle management |
 | Access Enforcement | AC-3 | Policy-based access control |
 | Least Privilege | AC-6 | Minimum necessary permissions |

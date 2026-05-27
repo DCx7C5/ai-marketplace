@@ -1,9 +1,10 @@
 ---
 name: crypto-signing-code
-description: - When establishing artifact integrity verification to prevent supply chain tampering - When compliance requires cryptographic proof that build artifacts are authentic and unmodified - When distributing software to customers who need to verify publisher identity - When implementing zero-trust deployment pipelines that reject unsigned artifacts - Wh
+description: "Crypto Signing Code."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Code Signing | Cryptographic process of signing software artifacts to verify publisher identity and artifact integrity |
 | Detached Signature | Signature stored in a separate file from the artifact, allowing independent distribution |
 | Keyless Signing | Sigstore's approach using short-lived certificates tied to OIDC identities instead of long-lived keys |

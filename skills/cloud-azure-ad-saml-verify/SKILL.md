@@ -1,42 +1,10 @@
 ---
 name: cloud-azure-ad-saml-verify
-description: Identity federation enables users authenticated by one identity provider to access resources managed by another without maintaining separate credentials. This skill covers establishing SAML 2.0 federation between an organization's on-premises Active Directory (via AD FS or third-party IdP) and Microsoft Entra ID (formerly Azure AD), as well as conf
+description: "Cloud Azure Ad Saml Verify."
 domain: cybersecurity
 ---
-----|------------------------|----------|
-| Federated (AD FS) | On-premises AD FS | Regulatory requirement to keep auth on-prem |
-| Managed (PHS) | Azure AD with password hash sync | Simplest cloud auth, AD FS not needed |
-| Managed (PTA) | On-premises via pass-through agent | Cloud auth validated against on-prem AD |
-| Third-Party Federation | External IdP (Okta, Ping) | Multi-IdP environment |
 
-### SAML Federation Architecture
-
-```
-User → Cloud App (SP)
-   │
-   └── Redirect to Azure AD
-          │
-          ├── Azure AD checks federated domain
-          │
-          └── Redirect to on-premises AD FS
-                 │
-                 ├── AD FS authenticates against Active Directory
-                 │
-                 ├── AD FS issues SAML token
-                 │
-                 └── Token posted back to Azure AD
-                        │
-                        ├── Azure AD validates federation trust
-                        │
-                        ├── Azure AD issues its own token
-                        │
-                        └── User receives access token for cloud app
-```
-
-### Federation Trust Components
-
-| Component | Description |
-|-----------|-------------|
+-|
 | Token-Signing Certificate | X.509 certificate used by IdP to sign SAML assertions |
 | Federation Metadata | XML document describing IdP endpoints and capabilities |
 | Relying Party Trust | Configuration in AD FS for each SP (Azure AD) |

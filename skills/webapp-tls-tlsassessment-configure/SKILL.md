@@ -1,8 +1,9 @@
 ---
 name: webapp-tls-tlsassessment-configure
-description: Assess SSL/TLS server configurations using sslyze, a fast Python-based scanning library. This skill covers evaluating supported protocol versions (SSLv2/3, TLS 1.0-1.3), cipher suite strength, certificate chain validation, HSTS enforcement, OCSP stapling, and scanning for known vulnerabilities including Heartbleed, ROBOT, and session renegotiation 
+description: "JSON report with supported protocols, accepted cipher suites, certificate details, vulnerability results (Heartbleed, ROBOT), and HSTS status."
 domain: cybersecurity
 ---
+
 # Performing SSL/TLS Security Assessment
 
 ## Overview

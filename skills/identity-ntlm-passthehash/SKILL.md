@@ -1,17 +1,10 @@
 ---
 name: identity-ntlm-passthehash
-description: - When proactively hunting for indicators of detecting pass the hash attacks in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments and pu
+description: "Identity Ntlm Passthehash."
 domain: cybersecurity
 ---
-------|-------------|
-| T1550.002 | Pass the Hash |
-| T1550.003 | Pass the Ticket |
-| T1078 | Valid Accounts |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and threat detection |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL |
 | Splunk Enterprise | SIEM log analysis with SPL queries |

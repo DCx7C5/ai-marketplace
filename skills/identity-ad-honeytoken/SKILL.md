@@ -1,9 +1,10 @@
 ---
 name: identity-ad-honeytoken
-description: - When deploying deception-based detection in Active Directory environments - When detecting Kerberoasting attacks via fake SPN honeytokens (honeyroasting) - When creating tripwire accounts to detect credential theft and lateral movement - When building decoy GPOs to detect Group Policy Preference password harvesting - When creating deceptive Blood
+description: "Identity Ad Honeytoken."
 domain: cybersecurity
 ---
--------|-------------|----------------|
+
+-|
 | 4769 | Kerberos TGS ticket requested | Detect Kerberoast against honey SPN |
 | 4625 | Failed logon attempt | Detect use of fake credentials from decoy GPO |
 | 4662 | Directory service object accessed | Detect DACL read on honeytoken user |

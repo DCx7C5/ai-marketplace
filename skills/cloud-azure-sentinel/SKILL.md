@@ -1,9 +1,10 @@
 ---
 name: cloud-azure-sentinel
-description: - When establishing a centralized security operations center for multi-cloud environments - When migrating from legacy SIEM platforms (Splunk, QRadar) to cloud-native architecture - When building automated incident response workflows for cloud-specific threats - When performing large-scale threat hunting across petabytes of security telemetry - Whe
+description: "Cloud Azure Sentinel."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | KQL | Kusto Query Language, the primary query language for Microsoft Sentinel used to search, analyze, and visualize security data |
 | Analytics Rule | Detection logic in Sentinel that evaluates log data on a schedule and creates incidents when conditions match |
 | SOAR Playbook | Automated workflow triggered by incidents that performs response actions such as blocking accounts, enriching alerts, or notifying teams |

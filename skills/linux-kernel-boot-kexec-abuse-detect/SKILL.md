@@ -1,7 +1,9 @@
 ---
 name: linux-kernel-boot-kexec-abuse-detect
-description: Detect kexec abuse — identify unauthorized kernel replacement via kexec_load syscall, which allows loading a new kernel without hardware reboot (bypasses Secure Boot).
+description: "subdomain: kernel-forensics tags: - linux - kexec - kernel - bypass - secure-boot nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: kernel-forensics
 tags:
 - linux

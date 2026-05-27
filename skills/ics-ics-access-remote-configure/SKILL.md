@@ -1,9 +1,10 @@
 ---
 name: ics-ics-access-remote-configure
-description: - When implementing or upgrading remote access architecture for OT environments - When onboarding vendors who require remote access to OT systems for support and maintenance - When implementing CIP-005-7 R2 requirements for remote access management including MFA - When replacing legacy direct VPN access to OT networks with a secure jump server arch
+description: "Ics Ics Access Remote Configure."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Intermediate System | System in the DMZ that terminates external connections and brokers new connections to OT, preventing direct network access per CIP-005 |
 | Jump Server | Hardened bastion host in the DMZ used for remote access sessions to OT systems with session recording and access controls |
 | Session Recording | Capture of all remote access session activity (screen, keystrokes, commands) for security audit and incident investigation |

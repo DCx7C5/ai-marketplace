@@ -1,9 +1,10 @@
 ---
 name: linux-proc-binary-static-analyze
-description: - A Linux server or container has been compromised and suspicious ELF binaries are found - Analyzing Linux botnets (Mirai, Gafgyt, XorDDoS), cryptominers, or ransomware - Investigating malware targeting cloud infrastructure, Docker containers, or Kubernetes pods - Reverse engineering Linux rootkits and kernel modules - Analyzing cross-platform malw
+description: "Linux Proc Binary Static Analyze."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **ELF (Executable and Linkable Format)** | Standard binary format for Linux executables, shared libraries, and core dumps containing headers, sections, and segments |
 | **Stripped Binary** | ELF binary with debug symbols removed, making reverse engineering more difficult as function names are lost |
 | **LD_PRELOAD** | Linux environment variable specifying shared libraries to load before all others; abused by rootkits to intercept system library calls |

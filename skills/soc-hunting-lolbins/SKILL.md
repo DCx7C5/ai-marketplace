@@ -1,27 +1,10 @@
 ---
 name: soc-hunting-lolbins
-description: - When investigating fileless malware campaigns that bypass traditional AV - During proactive threat hunts targeting defense evasion techniques - When EDR alerts fire on legitimate binaries executing unusual child processes - After threat intelligence reports indicate LOLBin abuse in active campaigns - During red team/purple team exercises validati
+description: "Soc Hunting Lolbins."
 domain: cybersecurity
 ---
-------|-------------|
-| LOLBin | Legitimate OS binary abused by attackers for malicious purposes |
-| LOLBAS Project | Community-curated list of Windows LOLBins, LOLLibs, and LOLScripts |
-| T1218 | MITRE ATT&CK - Signed Binary Proxy Execution |
-| T1218.001 | Compiled HTML File (mshta.exe) |
-| T1218.002 | Control Panel (control.exe) |
-| T1218.003 | CMSTP |
-| T1218.005 | Mshta |
-| T1218.010 | Regsvr32 |
-| T1218.011 | Rundll32 |
-| T1197 | BITS Jobs (bitsadmin.exe) |
-| T1140 | Deobfuscate/Decode Files (certutil.exe) |
-| Proxy Execution | Using trusted binaries to execute untrusted code |
-| Fileless Attack | Attack that operates primarily in memory without dropping files |
 
-## Tools & Systems
-
-| Tool | Purpose |
-|------|---------|
+|
 | CrowdStrike Falcon | EDR telemetry and process tree analysis |
 | Microsoft Defender for Endpoint | Advanced hunting with KQL queries |
 | Splunk | SIEM log aggregation and SPL queries |

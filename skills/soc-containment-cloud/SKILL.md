@@ -1,9 +1,10 @@
 ---
 name: soc-containment-cloud
-description: Cloud incident containment requires cloud-native approaches that differ significantly from traditional on-premises response. Containment procedures must leverage platform-specific controls including security groups, IAM policies, network ACLs, and service-level isolation to restrict compromised resources while preserving forensic evidence. Accordin
+description: "Soc Containment Cloud."
 domain: cybersecurity
 ---
---------|-------------------|
+
+-|
 | T1078 - Valid Accounts | Disable accounts, revoke tokens |
 | T1530 - Data from Cloud Storage | Lock down bucket/storage policies |
 | T1537 - Transfer to Cloud Account | Block cross-account access |

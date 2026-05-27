@@ -1,9 +1,10 @@
 ---
 name: compliance-privacy-cloud
-description: - When compliance frameworks (GDPR, HIPAA, PCI DSS) require automated sensitive data discovery and protection - When building data governance programs that classify and label data across cloud storage - When implementing data loss prevention controls for cloud-based data pipelines - When auditing cloud environments for unprotected sensitive data (P
+description: "Compliance Privacy Cloud."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Data Loss Prevention | Security controls and technologies that detect and prevent unauthorized disclosure of sensitive data from cloud environments |
 | Amazon Macie | AWS service using machine learning to discover, classify, and protect sensitive data stored in S3 buckets |
 | Google Cloud DLP | GCP API for inspecting, classifying, and de-identifying sensitive data across Cloud Storage, BigQuery, and Datastore |

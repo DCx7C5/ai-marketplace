@@ -1,9 +1,10 @@
 ---
 name: net-cdn-cloudflare-configure
-description: Cloudflare provides multi-layer DDoS protection across its global network of over 300 data centers with 477+ Tbps of capacity. The platform protects against L3/4 volumetric attacks (SYN floods, UDP amplification, DNS reflection), protocol attacks (Ping of Death, Smurf), and L7 application-layer attacks (HTTP floods, Slowloris, cache-busting). Cloud
+description: "Net Cdn Cloudflare Configure."
 domain: cybersecurity
 ---
-----|------------|----------|----------------------|
+
+-|
 | L3/4 | Volumetric | SYN flood, UDP flood, DNS amplification | Network-layer DDoS managed rules |
 | L3/4 | Protocol | Ping of Death, Smurf, IP fragmentation | Advanced TCP Protection |
 | L7 | Application | HTTP flood, Slowloris, cache busting | HTTP DDoS managed rules, WAF, Rate Limiting |

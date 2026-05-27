@@ -1,8 +1,9 @@
 ---
 name: devel-jb-skill-installer
-description: Helps install skills. By default these are from https://github.com/openai/skills/tree/main/skills/.curated, but users can also provide other locations.
+description: "- Installed annotations come from `$CODEX_HOME/skills`."
 domain: cybersecurity
 ---
+
 # Skill Installer
 
 Helps install skills. By default these are from https://github.com/openai/skills/tree/main/skills/.curated, but users can also provide other locations.

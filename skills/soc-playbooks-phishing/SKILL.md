@@ -1,8 +1,9 @@
 ---
 name: soc-playbooks-phishing
-description: This skill implements a phishing incident response workflow using the Splunk SOAR (formerly Phantom) REST API. When a suspected phishing email is reported, the agent parses email headers and body, creates a SOAR container representing the incident, attaches artifacts containing indicators of compromise (sender address, URLs, IP addresses, file hash
+description: "8. **Compile response report**: Aggregate playbook action results into a summary report with verdicts from URL reputation, domain reputation, IP geolocation, and email header analysis."
 domain: cybersecurity
 ---
+
 # Implementing SOAR Playbook for Phishing
 
 ## Overview

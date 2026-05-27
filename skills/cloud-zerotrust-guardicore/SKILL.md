@@ -1,9 +1,10 @@
 ---
 name: cloud-zerotrust-guardicore
-description: - When implementing east-west traffic controls to prevent lateral movement within data centers - When needing application-level visibility into network communication patterns before writing segmentation policies - When segmenting workloads across heterogeneous environments (VMs, containers, bare metal, cloud) - When compliance frameworks (PCI DSS, 
+description: "Cloud Zerotrust Guardicore."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | Microsegmentation | Network security technique creating granular security zones around individual workloads or applications to control east-west traffic |
 | Reveal Mode | Guardicore's simulation mode that logs policy decisions without enforcing them, allowing validation before blocking |
 | Ring-Fence Policy | Isolation policy that restricts all traffic into or out of a defined group of assets (e.g., PCI CDE) |

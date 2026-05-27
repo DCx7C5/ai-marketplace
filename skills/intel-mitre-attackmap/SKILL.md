@@ -1,9 +1,10 @@
 ---
 name: intel-mitre-attackmap
-description: Use this skill when: - Generating an ATT&CK coverage heatmap to show which techniques your detection stack addresses - Tagging existing SIEM use cases or Sigma rules with ATT&CK technique IDs for structured reporting - Aligning your security program roadmap to specific adversary groups known to target your sector **Do not use** this skill for real-
+description: "--| | **ATT&CK Technique** | Specific adversary method identified by T-number (e."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **ATT&CK Technique** | Specific adversary method identified by T-number (e.g., T1059 = Command and Scripting Interpreter) |
 | **Sub-technique** | More granular variant of a technique (e.g., T1059.001 = PowerShell, T1059.003 = Windows Command Shell) |
 | **Tactic** | Adversary goal category in ATT&CK: Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Collection, C&C, Exfiltration, Impact |

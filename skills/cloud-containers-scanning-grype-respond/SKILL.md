@@ -1,9 +1,10 @@
 ---
 name: cloud-containers-scanning-grype-respond
-description: Grype is an open-source vulnerability scanner from Anchore that inspects container images, filesystems, and SBOMs for known CVEs. It leverages Syft-generated SBOMs to match packages against multiple vulnerability databases including NVD, GitHub Advisories, and OS-specific feeds.
+description: "Cloud Containers Scanning Grype Respond."
 domain: cybersecurity
 ---
------|----------|
+
+-|
 | NVD | CVEs across all ecosystems |
 | GitHub Advisories | Open source package vulnerabilities |
 | Alpine SecDB | Alpine Linux packages |

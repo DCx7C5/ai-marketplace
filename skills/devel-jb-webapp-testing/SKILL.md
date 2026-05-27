@@ -1,8 +1,9 @@
 ---
 name: devel-jb-webapp-testing
-description: To test local web applications, write native Python Playwright scripts.
+description: "- `static_html_automation.py` - Using file:// URLs for local HTML   - `console_logging."
 domain: cybersecurity
 ---
+
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

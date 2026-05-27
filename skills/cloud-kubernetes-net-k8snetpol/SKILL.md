@@ -1,13 +1,13 @@
 ---
 name: cloud-kubernetes-net-k8snetpol
-description: Kubernetes NetworkPolicies provide pod-level network segmentation by defining ingress and egress rules that control traffic flow between pods, namespaces, and external endpoints. Combined with CNI plugins like Calico or Cilium, network policies enforce zero-trust microsegmentation to prevent lateral movement within the cluster.
+description: "- [Network Policy Editor](https://editor.networkpolicy."
 domain: cybersecurity
 ---
+
 # Allow backend to reach database only
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector:
@@ -32,7 +32,6 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector: {}
@@ -55,7 +54,6 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector:
@@ -93,7 +91,6 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-name: cloud-kubernetes-net-k8snetpol
   namespace: production
 spec:
   podSelector: {}

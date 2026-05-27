@@ -1,9 +1,10 @@
 ---
 name: intel-platforms-tipeval
-description: Use this skill when: - Conducting a formal RFP or vendor evaluation for a TIP solution - Assessing whether the current TIP (e.g., MISP) needs to be replaced or augmented as the CTI program scales - Establishing evaluation criteria aligned to organizational maturity and budget **Do not use** this skill for evaluating feed quality independently of th
+description: "Intel Platforms Tipeval."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **TIP** | Threat Intelligence Platform — software for collecting, processing, analyzing, and disseminating cyber threat intelligence |
 | **TAXII Server** | Component of a TIP that serves STIX bundles to consuming systems on request |
 | **TC Exchange** | ThreatConnect's commercial marketplace for pre-built feed integrations and app connectors |

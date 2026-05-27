@@ -1,8 +1,9 @@
 ---
 name: windows-lolbins
-description: - Building detection rules for SIEM or EDR platforms to catch LOLBin abuse in real time - Investigating alerts where legitimate system binaries appear in unexpected execution contexts - Threat hunting across endpoint telemetry for fileless attack indicators - Hardening application whitelisting policies (AppLocker, WDAC) to restrict dangerous LOLBin
+description: "- Cross-reference detections against the LOLBAS project database at https://lolbas-project."
 domain: cybersecurity
 ---
+
 # Detecting Living Off the Land Attacks
 
 Monitor for suspicious use of legitimate Windows binaries (LOLBins)
@@ -109,7 +110,6 @@ Write Sigma rules that detect specific abuse patterns, translatable to any SIEM:
 title: Certutil Used to Download File
 id: a1b2c3d4-5678-9abc-def0-123456789abc
 status: stable
-description: >
   Detects certutil.exe being used to download files from remote URLs,
   a common LOLBin technique for payload delivery (LOLBAS T1105).
 references:
@@ -142,7 +142,6 @@ tags:
 title: MSHTA Executing Remote or Inline Script
 id: b2c3d4e5-6789-abcd-ef01-234567890bcd
 status: stable
-description: >
   Detects mshta.exe executing scripts from URLs or inline VBScript/JavaScript,
   commonly used for application whitelisting bypass and initial access.
 references:
@@ -178,7 +177,6 @@ level: high
 title: Regsvr32 Squiblydoo Scriptlet Execution
 id: c3d4e5f6-7890-bcde-f012-345678901cde
 status: stable
-description: >
   Detects regsvr32.exe loading scrobj.dll with a remote scriptlet URL,
   known as the Squiblydoo technique for AppLocker bypass.
 references:

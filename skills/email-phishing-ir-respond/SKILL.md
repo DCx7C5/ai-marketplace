@@ -1,9 +1,10 @@
 ---
 name: email-phishing-ir-respond
-description: - A user reports receiving a suspicious email via the phishing report button or abuse mailbox - Email gateway detects a malicious email that bypassed initial filtering - Threat intelligence indicates an active phishing campaign targeting the organization - A user confirms they clicked a link or opened an attachment from a suspicious email - Credent
+description: "Email Phishing Ir Respond."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | **Spear Phishing** | Targeted phishing attack crafted for a specific individual or organization using personalized content |
 | **Credential Harvesting** | Phishing technique that mimics a legitimate login page to capture usernames and passwords |
 | **SPF (Sender Policy Framework)** | Email authentication protocol that specifies which mail servers are authorized to send email for a domain |

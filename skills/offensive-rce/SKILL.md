@@ -1,8 +1,9 @@
 ---
 name: offensive-rce
-description: occurs when an attacker can execute arbitrary code on a target machine because of a vulnerability or misconfiguration.
+description: "- **OAST**: Burp Collaborator, Interactsh, canarytokens."
 domain: cybersecurity
 ---
+
 ## Full Methodology
 
 # Remote Code Execution

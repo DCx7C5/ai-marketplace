@@ -1,9 +1,10 @@
 ---
 name: intel-threat-actor-profile-hunt
-description: Use this skill when: - Producing weekly, monthly, or quarterly threat intelligence summaries for security leadership - Creating a rapid intelligence assessment in response to a breaking threat (e.g., new zero-day, active ransomware campaign) - Generating sector-specific threat briefings for executive decision-making on security investments **Do not
+description: "Intel Threat Actor Profile Hunt."
 domain: cybersecurity
 ---
----|-----------|
+
+--|
 | **Finished Intelligence** | Analyzed, contextualized intelligence product ready for consumption by decision-makers; distinct from raw collected data |
 | **Key Judgment** | Primary analytical conclusion of a report; clearly stated in opening paragraph |
 | **TLP** | Traffic Light Protocol — FIRST-standard classification system for controlling intelligence sharing scope |

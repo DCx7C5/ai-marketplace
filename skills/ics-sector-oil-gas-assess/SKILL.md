@@ -1,9 +1,10 @@
 ---
 name: ics-sector-oil-gas-assess
-description: - When conducting a cybersecurity assessment of a refinery, pipeline, or production facility - When preparing for TSA Pipeline Security Directive compliance (SD-01, SD-02) - When assessing cybersecurity posture against API Standard 1164 (Pipeline SCADA Security) - When evaluating the security of remote wellhead SCADA systems and satellite communica
+description: "Ics Sector Oil Gas Assess."
 domain: cybersecurity
 ---
----|------------|
+
+|
 | API 1164 | American Petroleum Institute standard for Pipeline SCADA Security providing a risk-based framework for cybersecurity of pipeline control systems |
 | TSA Pipeline Security Directives | Mandatory cybersecurity requirements issued by TSA for pipeline operators including SD-01 (reporting) and SD-02 (implementation) |
 | Custody Transfer | Transfer of ownership of petroleum products between parties, requiring metering system integrity to prevent financial fraud |

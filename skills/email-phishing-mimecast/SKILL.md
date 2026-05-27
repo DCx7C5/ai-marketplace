@@ -1,9 +1,10 @@
 ---
 name: email-phishing-mimecast
-description: Mimecast Targeted Threat Protection (TTP) is a suite of advanced email security services designed to protect against sophisticated phishing, spearphishing, and targeted attacks. TTP consists of four core modules: URL Protect (real-time URL rewriting and click-time analysis), Attachment Protect (sandbox detonation of suspicious attachments), Imperso
+description: "Email Phishing Mimecast."
 domain: cybersecurity
 ---
-|---|---|
+
+|
 | URL Protect | Rewrites and scans URLs at click time | Real-time sandbox, pre-delivery hold |
 | Attachment Protect | Sandboxes suspicious attachments | Static + dynamic analysis |
 | Impersonation Protect | Detects BEC/whaling attacks | VIP name matching, header analysis |

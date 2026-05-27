@@ -1,73 +1,10 @@
 ---
 name: intel-mitre-coveragemap
-description: MITRE ATT&CK coverage mapping gives SOC teams a structured, adversary-centric lens to evaluate detection capabilities. Enterprise SIEMs on average have detection coverage for only 21% of ATT&CK techniques (2025 CardinalOps report), with 13% of existing rules being non-functional due to misconfigured data sources. Systematic coverage mapping identif
+description: "Intel Mitre Coveragemap."
 domain: cybersecurity
 ---
-|---|---|---|
-| 0 | Red | No Detection | No rules, missing data sources |
-| 25 | Orange | Minimal | Rule exists but not validated/tested |
-| 50 | Yellow | Partial | Rule works but limited coverage |
-| 75 | Light Green | Good | Validated rule with good data sources |
-| 100 | Green | Excellent | Multiple validated rules, tested with emulation |
 
-### Scoring Criteria Detail
-
-```
-Score = Data_Source_Score (0-25) + Rule_Quality_Score (0-25) +
-        Validation_Score (0-25) + Enrichment_Score (0-25)
-
-Data_Source_Score:
-  25: All required data sources ingested and parsed
-  15: Primary data source available
-  5:  Partial data source coverage
-  0:  Required data sources not available
-
-Rule_Quality_Score:
-  25: Rule uses CIM-compliant queries with proper thresholds
-  15: Rule works but may generate false positives
-  5:  Basic rule with no tuning
-  0:  No detection rule
-
-Validation_Score:
-  25: Validated with adversary emulation (Atomic Red Team)
-  15: Tested with synthetic data
-  5:  Logic reviewed but not tested
-  0:  Not validated
-
-Enrichment_Score:
-  25: Context-rich with asset, identity, and TI enrichment
-  15: Basic enrichment (asset lookup)
-  5:  No enrichment
-  0:  N/A (no rule)
-```
-
-### Step 4: Identify Priority Gaps
-
-#### Gap Prioritization Framework
-
-```
-Priority = Technique_Prevalence x Impact x Feasibility
-
-Technique_Prevalence (0-10):
-  - Based on MITRE Top Techniques report
-  - Frequency in your industry's threat landscape
-  - Observed in recent incidents/breaches
-
-Impact (0-10):
-  - Damage potential if technique succeeds
-  - Difficulty of recovery
-  - Data sensitivity at risk
-
-Feasibility (0-10):
-  - Data source availability
-  - Rule complexity
-  - Engineering effort required
-```
-
-#### Top Priority Techniques to Cover (2025)
-
-| Technique | ID | Prevalence | Typical Gap Reason |
-|---|---|---|---|
+|
 | Command and Scripting Interpreter | T1059 | Very High | Requires script block logging |
 | Phishing | T1566 | Very High | Email gateway integration |
 | Valid Accounts | T1078 | High | Baseline behavior needed |

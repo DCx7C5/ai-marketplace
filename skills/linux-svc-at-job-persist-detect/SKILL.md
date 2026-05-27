@@ -1,7 +1,9 @@
 ---
 name: linux-svc-at-job-persist-detect
-description: Detect at/batch job persistence — enumerate scheduled at jobs, identify unusual one-time execution jobs used for delayed payload execution or persistence.
+description: "subdomain: persistence-detection tags: - linux - at - batch - persistence - detect nist_csf: - DE."
 domain: cybersecurity
+---
+
 subdomain: persistence-detection
 tags:
 - linux
