@@ -1250,20 +1250,20 @@
       "file": "skills/cloud-serverless-general/SKILL.md"
     },
     {
-      "name": "cloud-serverless-serverlessharden",
-      "path": "cloud-serverless-serverlessharden",
+      "name": "cloud-serverless-harden",
+      "path": "cloud-serverless-harden",
       "description": "Comprehensive security hardening and assessment guide for AWS Lambda and serverless architectures, covering cold starts, event injection, IAM execution roles, function URLs, layers, concurrency contro",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/cloud-serverless-serverlessharden/SKILL.md"
+      "file": "skills/cloud-serverless-harden/SKILL.md"
     },
     {
-      "name": "cloud-serverless-serverlessrev",
-      "path": "cloud-serverless-serverlessrev",
+      "name": "cloud-serverless-rev",
+      "path": "cloud-serverless-rev",
       "description": "Cloud Serverless Serverlessrev.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/cloud-serverless-serverlessrev/SKILL.md"
+      "file": "skills/cloud-serverless-rev/SKILL.md"
     },
     {
       "name": "cloud-threat-cryptomining",

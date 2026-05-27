@@ -1,5 +1,5 @@
 ---
-name: cloud-serverless-serverlessharden
+name: cloud-serverless-harden
 description: "Comprehensive security hardening and assessment guide for AWS Lambda and serverless architectures, covering cold starts, event injection, IAM execution roles, function URLs, layers, concurrency controls, and vulnerability scanning."
 domain: cybersecurity
 ---

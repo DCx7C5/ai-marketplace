@@ -1,5 +1,5 @@
 ---
-name: cloud-serverless-serverlessrev
+name: cloud-serverless-rev
 description: "Cloud Serverless Serverlessrev."
 domain: cybersecurity
 ---
