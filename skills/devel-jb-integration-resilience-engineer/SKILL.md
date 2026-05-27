@@ -1,3 +1,8 @@
+---
+name: devel-jb-integration-resilience-engineer
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-12`).
+domain: cybersecurity
+---
 # Integration Resilience Engineer
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-12`).

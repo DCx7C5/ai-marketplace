@@ -1,3 +1,8 @@
+---
+name: devel-jb-kotlin-idiomatic-refactorer-spring-aware
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-20`).
+domain: cybersecurity
+---
 # Kotlin Idiomatic Refactorer Spring Aware
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-20`).

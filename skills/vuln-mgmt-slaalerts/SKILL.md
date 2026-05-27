@@ -1,29 +1,9 @@
-# Implementing Vulnerability SLA Breach Alerting
-
-## Overview
-
-Vulnerability remediation SLAs define maximum timeframes for addressing security findings based on severity. This skill covers building an automated alerting system that tracks remediation timelines, detects SLA breaches, sends escalation notifications, and generates compliance reports. Industry-standard SLA targets are: Critical (24-48 hours), High (15-30 days), Medium (60 days), Low (90 days).
-
-## When to Use
-
-- When deploying or configuring implementing vulnerability sla breach alerting capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Python 3.9+ with `requests`, `pandas`, `jinja2`, `smtplib` libraries
-- Vulnerability management platform with API access (DefectDojo, Qualys, Tenable)
-- SMTP server or webhook endpoint (Slack, Microsoft Teams, PagerDuty)
-- Database for SLA tracking (PostgreSQL or SQLite)
-
-## SLA Policy Definition
-
-### Standard SLA Tiers
-
-| Severity | Remediation SLA | Grace Period | Escalation Level |
-|----------|----------------|--------------|-----------------|
+---
+name: vuln-mgmt-slaalerts
+description: Vulnerability remediation SLAs define maximum timeframes for addressing security findings based on severity. This skill covers building an automated alerting system that tracks remediation timelines, detects SLA breaches, sends escalation notifications, and generates compliance reports. Industry-standard SLA targets are: Critical (24-48 hours), Hig
+domain: cybersecurity
+---
+-------|----------------|--------------|-----------------|
 | Critical (CVSS 9.0-10.0) | 48 hours | 12 hours | VP Engineering + CISO |
 | High (CVSS 7.0-8.9) | 15 days | 5 days | Director of Engineering |
 | Medium (CVSS 4.0-6.9) | 60 days | 14 days | Team Lead |

@@ -1,3 +1,8 @@
+---
+name: webapp-api-shadow
+description: Shadow APIs are API endpoints operating within an organization's environment that are not tracked, documented, or secured. They emerge from rapid development cycles, forgotten test environments, deprecated API versions left running, third-party integrations, or developer side projects deployed without governance. Shadow APIs bypass authentication a
+domain: cybersecurity
+---
 # Detecting Shadow API Endpoints
 
 ## Overview

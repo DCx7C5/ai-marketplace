@@ -1,3 +1,8 @@
+---
+name: offensive-xxe
+description: - Find data entry points that you can use to submit XML data.
+domain: cybersecurity
+---
 ## Full Methodology
 
 # XML External Entity (XXE) Injection
@@ -966,4 +971,3 @@ $old = libxml_disable_entity_loader(true);
 $xml = simplexml_load_string($data, "SimpleXMLElement", LIBXML_NONET | LIBXML_NOENT);
 libxml_disable_entity_loader($old);
 ```
-

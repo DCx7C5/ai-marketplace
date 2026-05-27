@@ -1,3 +1,8 @@
+---
+name: devel-jb-notion-meeting-intelligence
+description: Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.
+domain: cybersecurity
+---
 # Meeting Intelligence
 
 Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.

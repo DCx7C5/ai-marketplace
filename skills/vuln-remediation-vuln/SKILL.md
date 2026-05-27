@@ -1,35 +1,9 @@
-# Implementing Vulnerability Remediation SLA
-
-## Overview
-Vulnerability remediation SLAs define mandatory timeframes for patching or mitigating identified vulnerabilities based on severity, asset criticality, and exploit availability. Effective SLA programs drive accountability, ensure consistent remediation timelines, and provide measurable KPIs for vulnerability management maturity.
-
-## When to Use
-
-- When deploying or configuring implementing vulnerability remediation sla capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Vulnerability scanning program producing regular findings
-- Asset inventory with criticality classifications
-- Ticketing system (Jira, ServiceNow, etc.) for remediation tracking
-- Executive sponsorship for SLA enforcement
-- Cross-functional agreement from IT operations, development, and security
-
-## Core Concepts
-
-### SLA Framework Components
-1. **Severity Classification**: CVSS base score + threat context (EPSS, KEV)
-2. **Asset Tiering**: Business criticality and exposure level
-3. **Remediation Timeframes**: Maximum days to remediate by category
-4. **Exception Process**: Documented approval for SLA extensions
-5. **Escalation Procedures**: Actions when SLAs are breached
-6. **Metrics and Reporting**: KPIs for compliance tracking
-
-### Recommended SLA Matrix
-| Severity | Tier 1 (Critical) | Tier 2 (Important) | Tier 3 (Standard) |
-|----------|-------------------|--------------------|--------------------|
+---
+name: vuln-remediation-vuln
+description: Vulnerability remediation SLAs define mandatory timeframes for patching or mitigating identified vulnerabilities based on severity, asset criticality, and exploit availability. Effective SLA programs drive accountability, ensure consistent remediation timelines, and provide measurable KPIs for vulnerability management maturity.
+domain: cybersecurity
+---
+-------|-------------------|--------------------|--------------------|
 | Critical (CVSS 9.0-10.0) | 24-48 hours | 72 hours | 7 days |
 | High (CVSS 7.0-8.9) | 7 days | 14 days | 30 days |
 | Medium (CVSS 4.0-6.9) | 30 days | 45 days | 60 days |

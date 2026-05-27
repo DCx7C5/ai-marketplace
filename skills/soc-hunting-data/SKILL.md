@@ -1,35 +1,9 @@
-# Hunting for Data Exfiltration Indicators
-
-## When to Use
-
-- When hunting for data theft in compromised environments
-- After detecting unusual outbound data volumes or patterns
-- When investigating potential insider threat data theft
-- During incident response to determine what data was stolen
-- When threat intel indicates data exfiltration campaigns targeting your sector
-
-## Prerequisites
-
-- Network proxy/firewall logs with byte-level data transfer metrics
-- DLP solution or CASB with cloud upload visibility
-- DNS query logs for DNS exfiltration detection
-- Email gateway logs for attachment monitoring
-- SIEM with data volume anomaly detection capabilities
-
-## Workflow
-
-1. **Define Exfiltration Channels**: Identify potential channels (HTTP/S uploads, DNS tunneling, email attachments, cloud storage, removable media, encrypted protocols).
-2. **Baseline Normal Data Flows**: Establish baseline outbound data transfer volumes per user, host, and destination over a 30-day window.
-3. **Detect Volume Anomalies**: Identify hosts or users transferring significantly more data than baseline to external destinations.
-4. **Analyze Transfer Destinations**: Check destination domains/IPs against threat intel, identify newly registered domains, personal cloud storage, and foreign infrastructure.
-5. **Inspect Protocol Abuse**: Look for DNS tunneling (large/frequent TXT queries), ICMP tunneling, or data hidden in allowed protocols.
-6. **Correlate with File Access**: Link exfiltration indicators to file access events on sensitive file shares, databases, or repositories.
-7. **Report and Contain**: Document findings with evidence, estimate data exposure, and recommend containment actions.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-data
+description: - When hunting for data theft in compromised environments - After detecting unusual outbound data volumes or patterns - When investigating potential insider threat data theft - During incident response to determine what data was stolen - When threat intel indicates data exfiltration campaigns targeting your sector
+domain: cybersecurity
+---
+------|-------------|
 | T1041 | Exfiltration Over C2 Channel |
 | T1048 | Exfiltration Over Alternative Protocol |
 | T1048.001 | Exfiltration Over Symmetric Encrypted Non-C2 |

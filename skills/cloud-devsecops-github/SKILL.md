@@ -1,42 +1,9 @@
-# Implementing GitHub Advanced Security for Code Scanning
-
-## Overview
-
-GitHub Advanced Security (GHAS) integrates CodeQL-powered static application security testing directly into the GitHub development workflow. CodeQL treats code as data, enabling semantic analysis that identifies security vulnerabilities such as SQL injection, cross-site scripting, buffer overflows, and authentication flaws with significantly fewer false positives than traditional pattern-matching scanners. GHAS encompasses code scanning, secret scanning, dependency review, and Dependabot alerts to provide a comprehensive security posture for repositories.
-
-## When to Use
-
-- When deploying or configuring implementing github advanced security for code scanning capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- GitHub Enterprise Cloud or GitHub Enterprise Server 3.0+ with GHAS license
-- Repository admin or organization owner permissions
-- Familiarity with GitHub Actions workflow syntax (YAML)
-- Supported languages: C/C++, C#, Go, Java/Kotlin, JavaScript/TypeScript, Python, Ruby, Swift
-
-## Core Concepts
-
-### CodeQL Analysis Engine
-
-CodeQL compiles source code into a queryable database, then executes security-focused queries against that database. The query suites ship with hundreds of checks mapped to CWE identifiers and cover OWASP Top 10, SANS Top 25, and language-specific vulnerability patterns. Custom queries can be authored using the CodeQL query language (QL) to detect organization-specific anti-patterns.
-
-### Default Setup vs. Advanced Setup
-
-**Default Setup** enables code scanning with a single click from the repository's Code Security settings. GitHub automatically determines the languages present, selects appropriate query suites, and configures scanning triggers. This approach requires no workflow file and is ideal for rapid onboarding.
-
-**Advanced Setup** generates a `.github/workflows/codeql.yml` workflow file that can be customized. Teams control scheduling, language matrices, build commands for compiled languages, additional query packs, and integration with third-party SARIF producers. Advanced setup is required when custom build steps, monorepo configurations, or private query packs are needed.
-
-### Organization-Wide Rollout
-
-For enterprises managing hundreds of repositories, GHAS supports configuring code scanning at scale using the organization-level security overview. Administrators can enable default setup across all eligible repositories, define custom security configurations, and monitor adoption through the security coverage dashboard.
-
-## Workflow
-
-### Step 1 --- Enable GHAS on the Organization
+---
+name: cloud-devsecops-github
+description: GitHub Advanced Security (GHAS) integrates CodeQL-powered static application security testing directly into the GitHub development workflow. CodeQL treats code as data, enabling semantic analysis that identifies security vulnerabilities such as SQL injection, cross-site scripting, buffer overflows, and authentication flaws with significantly fewer 
+domain: cybersecurity
+---
+Enable GHAS on the Organization
 
 1. Navigate to Organization Settings > Code security and analysis
 2. Enable GitHub Advanced Security for all repositories or selected repositories

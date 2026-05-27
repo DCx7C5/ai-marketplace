@@ -1,3 +1,8 @@
+---
+name: devel-jb-netlify-deploy
+description: This skill automates Netlify deployments by: - Verifying Netlify CLI authentication - Detecting project configuration and framework - Linking to existing sites or creating new ones - Deploying to production or preview environments
+domain: cybersecurity
+---
 # Netlify Deployment Skill
 
 Deploy web projects to Netlify using the Netlify CLI with intelligent detection of project configuration and deployment context.

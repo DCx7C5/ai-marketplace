@@ -1,9 +1,9 @@
-# Offensive Fuzzing
-
-## Fuzzer Types
-
-| Type | Coverage | Speed | Tools |
-|------|----------|-------|-------|
+---
+name: offensive-fuzzing
+description: | Type | Coverage | Speed | Tools |
+domain: cybersecurity
+---
+---|----------|-------|-------|
 | BlackBox | Poor | Fast | Peach, Boofuzz |
 | GreyBox | Good | Fast | AFL++, Honggfuzz, libFuzzer, WinAFL |
 | Snapshot | Good | Fastest | Nyx, wtf, Snapchange |

@@ -1,9 +1,8 @@
-# Firmware Recon
-
-**Purpose:** Boot and firmware-focused reconnaissance for high-impact persistence vectors. Detects UEFI/BIOS rootkits, Secure Boot bypass, initramfs tampering, and supply-chain firmware implants.
-
 ---
-
+name: linux-hw-firmware-detect
+description: **Purpose:** Boot and firmware-focused reconnaissance for high-impact persistence vectors. Detects UEFI/BIOS rootkits, Secure Boot bypass, initramfs tampering, and supply-chain firmware implants.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **UEFI/BIOS integrity**: Version fingerprinting, checksum baseline, SPI flash dump comparison
@@ -16,7 +15,6 @@
 - **Hardware implant indicators**: Unexpected PCIe devices, DMA anomalies, USB implants
 
 ---
-
 ## Key Techniques & Tools
 
 ### UEFI/BIOS Fingerprinting
@@ -184,8 +182,8 @@ lsusb 2>/dev/null | sort > /tmp/usb_live.txt
 diff ./cybersec-shared/baselines/usb_devices.txt /tmp/usb_live.txt 2>/dev/null | head -10
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

@@ -1,3 +1,8 @@
+---
+name: misc-brand
+description: Brand impersonation attacks exploit consumer trust through lookalike domains, fake social media profiles, counterfeit mobile apps, and phishing sites that mimic legitimate brands. In 2025, brand impersonation remained one of the most costly cyber threats, with AI-generated phishing emails achieving a 54% click-through rate. This skill covers buildi
+domain: cybersecurity
+---
 # Performing Brand Monitoring for Impersonation
 
 ## Overview

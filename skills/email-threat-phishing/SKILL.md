@@ -1,3 +1,8 @@
+---
+name: email-threat-phishing
+description: A phishing reporting button empowers users to flag suspicious emails directly from their email client, creating a critical feedback loop between end users and the security operations center. Microsoft's built-in Report button is now the recommended approach, replacing the deprecated Report Message and Report Phishing add-ins. When combined with aut
+domain: cybersecurity
+---
 # Building Phishing Reporting Button Workflow
 
 ## Overview

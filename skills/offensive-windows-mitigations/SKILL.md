@@ -1,61 +1,9 @@
-## Full Methodology
-
-# Week 6: Understanding Windows Mitigations
-
-## Overview
-
-_created by AnotherOne from @Pwn3rzs Telegram channel_.
-
-Last week you learned basic exploitation in an environment without protections.
-This week, you'll learn about the defensive mechanisms that modern Windows systems employ to prevent those attacks.
-Understanding these mitigations is essential before learning to bypass them (Week 8). Week 7 continues with enterprise security topics (offensive reconnaissance, Windows 11 24H2/25H2 mitigations, cross-platform defenses).
-
-**This Week's Focus**:
-
-- Understand how each mitigation works
-- Learn to detect active mitigations
-- Verify mitigation effectiveness
-- Test exploits against protected binaries
-- Prepare for Week 7's boundaries and Week 8's bypass techniques
-
-### Prerequisites
-
-Before starting this week, ensure you have:
-
-- Completed Week 5: Basic Exploitation (Linux) - you should be able to exploit stack overflows, build ROP chains, and use pwntools
-- A Windows 11 VM (isolated, snapshot before each exercise)
-- Visual Studio 2022 Build Tools installed
-- WinDbg Preview installed
-- Basic familiarity with x64 assembly and calling conventions
-
-### Week 6 Deliverables
-
-By the end of this week, you should have completed the following:
-
-- [ ] **Lab Environment**: Windows 11 VM with Visual Studio Build Tools, WinDbg Preview, and Sysinternals installed
-- [ ] **Test Binaries**: Compiled `vulnerable_suite_win_mitigated.c` and `vuln_server_win.c` with various mitigation flags
-- [ ] **DEP Verified**: Demonstrated DEP blocking shellcode execution with crash analysis (Exception Code 0xC0000005, Param 8)
-- [ ] **ASLR Measured**: Recorded addresses of `check_aslr.exe` across 3 reboots and documented randomization behavior
-- [ ] **Stack Cookie Tested**: Triggered `/GS` cookie check failure and analyzed in WinDbg
-- [ ] **CFG Validated**: Demonstrated CFG blocking indirect call to invalid target
-- [ ] **Crash Dumps Analyzed**: Created at least 3 crash dumps and identified which mitigation caused each termination using `!analyze -v`
-- [ ] **Week 5 Exploit Retesting**: Re-ran Week 5 exploits against mitigated binaries and documented failures
-- [ ] **Mitigation Audit Report**: Generated system-wide and per-binary mitigation audit using PowerShell scripts
-- [ ] **Hardening Capstone**: Completed the SecureServer v1.0 hardening exercise (Day 7)
-
-### Context
-
-Why Mitigations Matter: Modern exploits chain multiple vulnerabilities and bypass layers of protection. Understanding mitigations helps you:
-
-- Recognize when an exploit is blocked vs. when it succeeds
-- Analyze crash dumps to identify exploitation attempts
-- Design defense-in-depth strategies
-- Prepare for Weeks 7-8 (advanced mitigations and bypass techniques)
-
-**Recent CVEs Demonstrating Mitigation Importance**:
-
-| CVE            | Vulnerability                   | Mitigations Involved | Outcome                               |
-| -------------- | ------------------------------- | -------------------- | ------------------------------------- |
+---
+name: offensive-windows-mitigations
+description: _created by AnotherOne from @Pwn3rzs Telegram channel_. Last week you learned basic exploitation in an environment without protections. This week, you'll learn about the defensive mechanisms that modern Windows systems employ to prevent those attacks. Understanding these mitigations is essential before learning to bypass them (Week 8). Week 7 conti
+domain: cybersecurity
+---
+----------- | ------------------------------- | -------------------- | ------------------------------------- |
 | CVE-2024-21338 | AppLocker (appid.sys) EoP       | KASLR, SMEP, kCFG    | Admin-to-Kernel bypass of kCFG        |
 | CVE-2024-30088 | Authz Kernel TOCTOU             | KASLR, SMEP, CFG     | Exploited via race condition          |
 | CVE-2023-36802 | MSKSSRV Object Type Confusion   | KASLR, SMEP, CFG     | Pool spray + type confusion to EoP    |

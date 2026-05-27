@@ -1,3 +1,8 @@
+---
+name: windows-lolbins
+description: - Building detection rules for SIEM or EDR platforms to catch LOLBin abuse in real time - Investigating alerts where legitimate system binaries appear in unexpected execution contexts - Threat hunting across endpoint telemetry for fileless attack indicators - Hardening application whitelisting policies (AppLocker, WDAC) to restrict dangerous LOLBin
+domain: cybersecurity
+---
 # Detecting Living Off the Land Attacks
 
 Monitor for suspicious use of legitimate Windows binaries (LOLBins)

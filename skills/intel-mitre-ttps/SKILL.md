@@ -1,3 +1,8 @@
+---
+name: intel-mitre-ttps
+description: The MITRE ATT&CK Navigator is a web application for annotating and visualizing ATT&CK matrices. Combined with the attackcti Python library (which queries ATT&CK STIX data via TAXII), analysts can programmatically generate Navigator layer files mapping specific threat group TTPs, compare multiple groups, and assess detection coverage gaps against kn
+domain: cybersecurity
+---
 # Analyzing Threat Actor TTPs with MITRE Navigator
 
 ## Overview

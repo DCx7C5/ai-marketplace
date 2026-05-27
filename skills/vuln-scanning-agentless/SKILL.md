@@ -1,29 +1,9 @@
-# Performing Agentless Vulnerability Scanning
-
-## Overview
-Agentless vulnerability scanning assesses systems for security weaknesses without requiring endpoint agent installation. This approach leverages existing network protocols (SSH for Linux, WMI for Windows), cloud provider APIs for snapshot-based analysis, and authenticated remote checks. Modern cloud platforms like Microsoft Defender for Cloud, Wiz, Datadog, and Tenable perform out-of-band analysis by taking disk snapshots and examining OS configurations and installed packages offline. The open-source tool Vuls provides agentless scanning based on NVD and OVAL data for Linux/FreeBSD systems. This skill covers configuring agentless scans across on-premises, cloud, and containerized environments.
-
-## When to Use
-
-- When conducting security assessments that involve performing agentless vulnerability scanning
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-- SSH key-based authentication configured on Linux/Unix targets
-- WMI/WinRM access on Windows targets with appropriate credentials
-- Cloud provider API credentials (AWS IAM, Azure RBAC, GCP IAM)
-- Network access from scanner to target systems on required ports
-- Service account with read-only access to target system configurations
-- Python 3.8+ for custom scanning automation
-
-## Core Concepts
-
-### Agentless vs Agent-Based Scanning
-
-| Aspect | Agentless | Agent-Based |
-|--------|-----------|-------------|
+---
+name: vuln-scanning-agentless
+description: Agentless vulnerability scanning assesses systems for security weaknesses without requiring endpoint agent installation. This approach leverages existing network protocols (SSH for Linux, WMI for Windows), cloud provider APIs for snapshot-based analysis, and authenticated remote checks. Modern cloud platforms like Microsoft Defender for Cloud, Wiz,
+domain: cybersecurity
+---
+-----|-----------|-------------|
 | Deployment | No software installation needed | Agent install on every endpoint |
 | Network dependency | Requires network connectivity | Works offline with cloud sync |
 | Performance impact | Minimal on target systems | Light continuous overhead |

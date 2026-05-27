@@ -1,9 +1,8 @@
-# Network Recon
-
-**Purpose:** Rapid network-state triage with IOC-first correlation. Establishes connection baseline, detects C2 channels, identifies rogue listeners, and maps network anomalies to MITRE techniques.
-
 ---
-
+name: net-security-monitoring
+description: **Purpose:** Rapid network-state triage with IOC-first correlation. Establishes connection baseline, detects C2 channels, identifies rogue listeners, and maps network anomalies to MITRE techniques.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Active connections**: TCP/UDP state, established/listening inventory, raw socket holders
@@ -16,7 +15,6 @@
 - **Wireless**: Rogue AP detection, promiscuous mode interfaces, monitor interfaces
 
 ---
-
 ## Key Techniques & Tools
 
 ### Connection Inventory
@@ -179,8 +177,8 @@ iw dev 2>/dev/null | grep "type monitor"
 sudo iw dev wlan0 scan 2>/dev/null | grep -E "(SSID|BSSID|signal|freq)" | head -20
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

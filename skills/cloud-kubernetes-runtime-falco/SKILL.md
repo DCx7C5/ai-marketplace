@@ -1,3 +1,8 @@
+---
+name: cloud-kubernetes-runtime-falco
+description: Falco is a CNCF-graduated runtime security tool that monitors Linux syscalls to detect anomalous container behavior. It uses a rules engine to identify container escape techniques such as mounting host filesystems, accessing sensitive host paths, loading kernel modules, and exploiting privileged container capabilities.
+domain: cybersecurity
+---
 # Detecting Container Escape with Falco Rules
 
 ## Overview

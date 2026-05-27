@@ -1,64 +1,9 @@
-# Implementing Memory Protection with DEP and ASLR
-
-## When to Use
-
-Use this skill when hardening endpoints against memory-based exploits by configuring DEP, ASLR, CFG, and Windows Exploit Protection system-wide and per-application mitigations.
-
-## Prerequisites
-
-- Windows 10/11 or Windows Server 2016+ with administrative privileges
-- Group Policy management access for enterprise-wide deployment
-- Understanding of memory corruption attack techniques (buffer overflow, ROP chains)
-- Test environment for validating application compatibility with exploit mitigations
-
-## Workflow
-
-### Step 1: Configure System-Level Mitigations
-
-```powershell
-# Enable system-wide DEP (Data Execution Prevention)
-# Boot configuration: OptIn (default), OptOut (recommended), AlwaysOn
-bcdedit /set nx AlwaysOn
-
-# Verify ASLR status (enabled by default on modern Windows)
-Get-ProcessMitigation -System
-# MandatoryASLR, BottomUpASLR, HighEntropyASLR should be ON
-
-# Enable all system-level mitigations
-Set-ProcessMitigation -System -Enable DEP,SEHOP,ForceRelocateImages,BottomUp,HighEntropy
-```
-
-### Step 2: Configure Per-Application Mitigations
-
-```powershell
-# Harden high-risk applications (browsers, Office, PDF readers)
-Set-ProcessMitigation -Name "WINWORD.EXE" -Enable DEP,SEHOP,ForceRelocateImages,CFG,StrictHandle
-Set-ProcessMitigation -Name "EXCEL.EXE" -Enable DEP,SEHOP,ForceRelocateImages,CFG,StrictHandle
-Set-ProcessMitigation -Name "AcroRd32.exe" -Enable DEP,SEHOP,ForceRelocateImages,CFG
-Set-ProcessMitigation -Name "chrome.exe" -Enable DEP,CFG,ForceRelocateImages
-Set-ProcessMitigation -Name "msedge.exe" -Enable DEP,CFG,ForceRelocateImages
-
-# Export configuration for deployment
-Get-ProcessMitigation -RegistryConfigFilePath "C:\exploit_protection.xml"
-# Deploy via Intune or GPO
-```
-
-### Step 3: Deploy via Intune/GPO
-
-```
-Intune: Endpoint Security → Attack Surface Reduction → Exploit Protection
-  Import exploit_protection.xml template
-
-GPO: Computer Configuration → Admin Templates → Windows Components
-  → Windows Defender Exploit Guard → Exploit Protection
-  → "Use a common set of exploit protection settings" → Enabled
-  → Point to XML file on network share
-```
-
-## Key Concepts
-
-| Term | Definition |
-|------|-----------|
+---
+name: linux-mem-endpoint-analyze
+description: Use this skill when hardening endpoints against memory-based exploits by configuring DEP, ASLR, CFG, and Windows Exploit Protection system-wide and per-application mitigations.
+domain: cybersecurity
+---
+---|-----------|
 | **DEP** | Marks memory pages as non-executable to prevent shellcode execution in data regions |
 | **ASLR** | Randomizes memory addresses of loaded modules to defeat hardcoded ROP gadgets |
 | **CFG** | Validates indirect call targets at runtime to prevent control flow hijacking |

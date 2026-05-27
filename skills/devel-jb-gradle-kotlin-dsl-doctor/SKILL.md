@@ -1,3 +1,8 @@
+---
+name: devel-jb-gradle-kotlin-dsl-doctor
+description: Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-04`).
+domain: cybersecurity
+---
 # Gradle Kotlin DSL Doctor
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-04`).

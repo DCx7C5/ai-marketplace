@@ -1,34 +1,9 @@
-# Detecting OAuth Token Theft
-
-## When to Use
-
-- Investigating alerts for impossible travel or anomalous token usage in Microsoft Entra ID
-- Responding to a suspected session hijacking or pass-the-cookie attack
-- Configuring proactive defenses against OAuth token theft in an Azure/M365 environment
-- Detecting OAuth device code phishing campaigns that bypass MFA
-- Analyzing sign-in logs for token replay indicators
-- Implementing Token Protection conditional access policies to bind tokens to devices
-
-**Do not use** for on-premises Kerberos ticket attacks (pass-the-ticket, golden ticket); use Active Directory-specific investigation techniques for those scenarios.
-
-## Prerequisites
-
-- Microsoft Entra ID P2 license (required for Identity Protection risk detections and conditional access)
-- Global Administrator or Security Administrator role in the Entra admin center
-- Microsoft Defender for Cloud Apps (MDCA) license for session anomaly detection
-- Access to Entra ID Sign-in Logs and Audit Logs (requires Diagnostic Settings configured to Log Analytics or Sentinel)
-- Familiarity with OAuth 2.0 authorization flows (authorization code, device code, client credentials)
-- Microsoft Sentinel or equivalent SIEM ingesting Entra ID sign-in and audit logs
-
-## Workflow
-
-### Step 1: Understand the Token Theft Attack Surface
-
-Identify which token types are at risk and how they are stolen:
-
-```
-Token Type            | Lifetime     | Theft Vector                    | Impact
-----------------------|-------------|----------------------------------|------------------
+---
+name: webapp-auth-oauth-tokentheft
+description: - Investigating alerts for impossible travel or anomalous token usage in Microsoft Entra ID - Responding to a suspected session hijacking or pass-the-cookie attack - Configuring proactive defenses against OAuth token theft in an Azure/M365 environment - Detecting OAuth device code phishing campaigns that bypass MFA - Analyzing sign-in logs for toke
+domain: cybersecurity
+---
+-------------------|-------------|----------------------------------|------------------
 Access Token          | 60-90 min   | Memory dump, proxy interception  | API access for token lifetime
 Refresh Token         | Up to 90 days| Browser cookie theft, malware   | Persistent access, new access tokens
 Primary Refresh Token | Session-based| Mimikatz, AADInternals, malware | Full SSO to all M365/Azure apps

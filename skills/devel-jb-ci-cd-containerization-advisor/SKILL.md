@@ -1,3 +1,8 @@
+---
+name: devel-jb-ci-cd-containerization-advisor
+description: Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-23`).
+domain: cybersecurity
+---
 # CI CD Containerization Advisor
 
 Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-23`).

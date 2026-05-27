@@ -1,3 +1,8 @@
+---
+name: cloud-zerotrust-zscaler-zia
+description: Zero Trust Network Access (ZTNA) replaces traditional VPN architectures by enforcing identity-based, context-aware access to private applications without placing users on the corporate network. Zscaler Private Access (ZPA) is a leading ZTNA solution that brokers secure connections between authenticated users and internal applications through the Zs
+domain: cybersecurity
+---
 # Implementing Zero Trust Network Access with Zscaler
 
 ## Prerequisites

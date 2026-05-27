@@ -1,3 +1,8 @@
+---
+name: devel-jb-yeet
+description: - Require GitHub CLI `gh`. Check `gh --version`. If missing, ask the user to install `gh` and stop.
+domain: cybersecurity
+---
 ## Prerequisites
 
 - Require GitHub CLI `gh`. Check `gh --version`. If missing, ask the user to install `gh` and stop.

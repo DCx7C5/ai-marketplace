@@ -1,3 +1,8 @@
+---
+name: crypto-hsm-hardware
+description: Hardware Security Modules (HSMs) provide tamper-resistant cryptographic key storage and operations. This skill covers integrating with HSMs via the PKCS#11 standard interface using python-pkcs11, performing key generation, signing, encryption, and verification operations, querying token and slot information, and validating HSM configuration for com
+domain: cybersecurity
+---
 # Performing Hardware Security Module Integration
 
 ## Overview

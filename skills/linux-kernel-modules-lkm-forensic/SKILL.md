@@ -1,10 +1,8 @@
-# KernelDev Forensic — Advanced Kernel Development for Cybersecurity
-
-**Purpose:**  
-Develop custom Linux Kernel Modules (LKMs) for advanced forensic investigation, rootkit detection, real-time syscall monitoring, and kernel-space threat detection. Integrates with existing CyberSec forensic framework and kerneldev-mcp for seamless development workflow.
-
 ---
-
+name: linux-kernel-modules-lkm-forensic
+description: **Purpose:**
+domain: cybersecurity
+---
 ## Core Capabilities
 
 ### 🔧 **Forensic LKM Development**
@@ -27,7 +25,6 @@ Develop custom Linux Kernel Modules (LKMs) for advanced forensic investigation, 
 - **MalwareHunter Elite**: Enhanced capabilities for the elite forensic agent
 
 ---
-
 ## Development Environment Setup
 
 ### Prerequisites
@@ -41,8 +38,8 @@ bash scripts/prerequisites.sh
 Ensure `.claude/mcp.json` is properly configured.  
 → **[`config/kerneldev_mcp.json`](config/kerneldev_mcp.json)**
 
+domain: cybersecurity
 ---
-
 ## Forensic LKM Templates
 
 ### 1. Sysfs Communication Interface
@@ -90,7 +87,6 @@ Features:
 ```
 
 ---
-
 ## Integration with CyberSec Models
 
 ### Database Integration
@@ -115,8 +111,8 @@ asyncio.run(create_forensic_session_modules(session_id='abc123'))
 "
 ```
 
+domain: cybersecurity
 ---
-
 ## Development Workflow
 
 ### 1. Module Creation
@@ -141,7 +137,6 @@ bash examples/integration_testing.sh custom_detector
 ```
 
 ---
-
 ## Security Considerations
 
 ### Module Signing
@@ -157,8 +152,8 @@ bash scripts/sign_module.sh module.ko
 - **Failure Recovery**: Safe module removal and system restoration
 - **Audit Trail**: Complete deployment and removal logging
 
+domain: cybersecurity
 ---
-
 ## Example Forensic Scenarios
 
 ### Scenario 1: APT Syscall Analysis
@@ -183,7 +178,6 @@ bash examples/scenario_memory_forensics.sh /forensic/memory-artifacts
 ```
 
 ---
-
 ## MCP Integration Commands
 
 → **[`examples/mcp_commands.sh`](examples/mcp_commands.sh)**
@@ -192,8 +186,8 @@ bash examples/scenario_memory_forensics.sh /forensic/memory-artifacts
 SESSION_ID=<your-session-id> bash examples/mcp_commands.sh
 ```
 
+domain: cybersecurity
 ---
-
 ## Troubleshooting
 
 ### Common Issues
@@ -220,7 +214,6 @@ bash scripts/debug.sh [module_name]
 ```
 
 ---
-
 ## Contributing
 
 ### Adding New Templates
@@ -235,6 +228,6 @@ bash scripts/debug.sh [module_name]
 - Session management enhancements
 - Real-time alerting improvements
 
+domain: cybersecurity
 ---
-
 *This skill enables advanced kernel-space forensic capabilities while maintaining integration with the existing CyberSec investigation framework. All modules should be developed with security, safety, and forensic integrity as primary concerns.*

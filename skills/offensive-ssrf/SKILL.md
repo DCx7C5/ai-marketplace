@@ -1,58 +1,9 @@
-## Full Methodology
-
-# Server-Side Request Forgery (SSRF)
-
-## Shortcut
-
-- Spot the features prone to SSRF and take notes for future reference.
-- Set up a callback listener to detect blind SSRF by using an online service, Netcat, or Burp's Collaborator feature.
-- Provide the potentially vulnerable endpoints with common internal addresses or the address of your callback listener.
-- Check if the server responds with information that confirms the SSRF. Or, in the case of a blind SSRF, check your server logs for requests from the target server.
-- In the case of a blind SSRF, check if the server behavior differs when you request different hosts or ports.
-- If SSRF protection is implemented, try to bypass it by using the strategies discussed in this chapter.
-- Pick a tactic to escalate the SSRF.
-
-```mermaid
-flowchart LR
-    A[Identify SSRF Vectors] --> B[Setup Callback Listener]
-    B --> C[Test Internal Addresses]
-    C --> D{Response Contains\nInternal Data?}
-    D -->|Yes| E[Basic SSRF Confirmed]
-    D -->|No| F[Check Callback\nListener Logs]
-    F --> G{Callbacks\nReceived?}
-    G -->|Yes| H[Blind SSRF Confirmed]
-    G -->|No| I[Try Bypass Techniques]
-    I --> J[Retest with Bypasses]
-    E --> K[Escalate SSRF]
-    H --> K
-    J --> D
-```
-
-## Mechanisms
-
-Server-Side Request Forgery (SSRF) is a vulnerability that allows attackers to induce a server-side application to make requests to an unintended location. In a successful SSRF attack, the attacker can force the server to connect to:
-
-- Internal services within the organization's infrastructure
-- External systems on the internet
-- Services on the same server (localhost)
-- Cloud service provider metadata endpoints
-
-```mermaid
-graph TD
-    A[Attacker] -->|Sends crafted request| B[Vulnerable Web App]
-    B -->|Makes request to| C[Unintended Target]
-    C -->|Responds with data| B
-    B -->|Includes response data| A
-
-    subgraph "Possible Targets"
-        C
-        D[Internal Network Services]
-        E[Cloud Metadata Service]
-        F[External Web Services]
-        G[Local Services on Same Server]
-    end
-
-    C --- D
+---
+name: offensive-ssrf
+description: - Spot the features prone to SSRF and take notes for future reference.
+domain: cybersecurity
+---
+D
     C --- E
     C --- F
     C --- G
@@ -800,4 +751,3 @@ http://rancher.cattle-system.svc.cluster.local
 - Spring framework protections
 - Apache HttpClient considerations
 - Apache CXF Aegis databinding SSRF (CVE-2024-28752)
-

@@ -1,55 +1,9 @@
-# Implementing Rapid7 InsightVM for Scanning
-
-## Overview
-Rapid7 InsightVM (formerly Nexpose) is an enterprise vulnerability management platform that combines on-premises scanning via Security Console and Scan Engines with cloud-based analytics through the Insight Platform. InsightVM leverages Rapid7's vulnerability research library, Metasploit exploit knowledge, global attacker behavior data, internet-wide scanning telemetry, and real-time reporting to provide comprehensive vulnerability visibility. This skill covers deploying the Security Console, configuring Scan Engines, setting up scan templates, credentialed scanning, and integrating with the Insight Agent for continuous assessment.
-
-## When to Use
-
-- When deploying or configuring implementing rapid7 insightvm for scanning capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Server meeting minimum requirements: 16 GB RAM, 4 CPU cores, 500 GB disk (Security Console)
-- Scan Engine: 8 GB RAM, 4 CPU cores, 100 GB disk
-- Network access to target subnets (ports vary by scan type)
-- Administrative credentials for authenticated scanning (SSH, WMI, SNMP)
-- Rapid7 InsightVM license and Insight Platform account
-- PostgreSQL database (bundled with Security Console)
-
-## Core Concepts
-
-### InsightVM Architecture Components
-
-#### Security Console
-The central management server that:
-- Hosts the web-based management interface (default port 3780)
-- Stores scan results in an embedded PostgreSQL database
-- Manages Scan Engine deployments and scan schedules
-- Generates reports and dashboards
-- Connects to Rapid7 Insight Platform for cloud analytics
-
-Note: Security Console is NOT supported in containerized environments.
-
-#### Scan Engines
-Distributed scanning components that:
-- Perform active network scanning against target assets
-- Can be deployed across network segments for segmented environments
-- Available as container images on Docker Hub for flexible deployment
-- Report results back to the Security Console
-
-#### Insight Agent
-Lightweight endpoint agent providing:
-- Continuous vulnerability assessment without network scans
-- Assessment of remote/roaming endpoints
-- Complement to engine-based scanning for comprehensive coverage
-- Real-time asset inventory updates
-
-### Scan Template Types
-
-| Template | Use Case | Depth |
-|----------|----------|-------|
+---
+name: vuln-rapid7
+description: Rapid7 InsightVM (formerly Nexpose) is an enterprise vulnerability management platform that combines on-premises scanning via Security Console and Scan Engines with cloud-based analytics through the Insight Platform. InsightVM leverages Rapid7's vulnerability research library, Metasploit exploit knowledge, global attacker behavior data, internet-wi
+domain: cybersecurity
+---
+-------|----------|-------|
 | Discovery Scan | Asset inventory, host enumeration | Low |
 | Full Audit without Web Spider | Standard vulnerability assessment | Medium |
 | Full Audit Enhanced Logging | Deep assessment with verbose logging | High |

@@ -1,31 +1,9 @@
-# Building Identity Federation with SAML Azure AD
-
-## Overview
-
-Identity federation enables users authenticated by one identity provider to access resources managed by another without maintaining separate credentials. This skill covers establishing SAML 2.0 federation between an organization's on-premises Active Directory (via AD FS or third-party IdP) and Microsoft Entra ID (formerly Azure AD), as well as configuring federated SSO for third-party SaaS applications. Federation eliminates password synchronization concerns and keeps authentication authority on-premises while extending SSO to cloud resources.
-
-## When to Use
-
-- When deploying or configuring building identity federation with saml azure ad capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- On-premises Active Directory domain
-- AD FS 2019+ or third-party SAML IdP (Okta, Ping, etc.)
-- Microsoft Entra ID tenant (P1 or P2 license recommended)
-- Azure AD Connect (if using hybrid identity with password hash sync as backup)
-- Public TLS certificate for federation endpoint
-- DNS records for federation service name
-
-## Core Concepts
-
-### Federation Models
-
-| Model | Authentication Authority | Use Case |
-|-------|------------------------|----------|
+---
+name: cloud-azure-ad-saml-verify
+description: Identity federation enables users authenticated by one identity provider to access resources managed by another without maintaining separate credentials. This skill covers establishing SAML 2.0 federation between an organization's on-premises Active Directory (via AD FS or third-party IdP) and Microsoft Entra ID (formerly Azure AD), as well as conf
+domain: cybersecurity
+---
+----|------------------------|----------|
 | Federated (AD FS) | On-premises AD FS | Regulatory requirement to keep auth on-prem |
 | Managed (PHS) | Azure AD with password hash sync | Simplest cloud auth, AD FS not needed |
 | Managed (PTA) | On-premises via pass-through agent | Cloud auth validated against on-prem AD |

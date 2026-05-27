@@ -1,9 +1,8 @@
-# Filesystem Recon
-
-**Purpose:** Focused, fast filesystem triage with forensic-safe defaults. Baseline comparison, anomaly detection, and timeline-first evidence collection.
-
 ---
-
+name: soc-forensics-investigation
+description: **Purpose:** Focused, fast filesystem triage with forensic-safe defaults. Baseline comparison, anomaly detection, and timeline-first evidence collection.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Baseline delta**: Compare live state against stored PersistenceBaseline/FilesystemBaseline
@@ -16,7 +15,6 @@
 - **Temporary directories**: Executable payloads in `/tmp`, `/var/tmp`, `/dev/shm`, `/run`
 
 ---
-
 ## Key Techniques & Tools
 
 ### SUID/SGID & Permission Audit
@@ -138,8 +136,8 @@ ls /proc | grep -E '^[0-9]+$' | sort > /tmp/proc_pids.txt
 comm -23 /tmp/proc_pids.txt /tmp/ps_pids.txt | head -10  # PIDs in /proc but not in ps
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

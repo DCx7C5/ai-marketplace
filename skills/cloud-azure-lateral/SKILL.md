@@ -1,3 +1,8 @@
+---
+name: cloud-azure-lateral
+description: Lateral movement in Azure AD/Entra ID differs from on-premises environments. Attackers pivot through OAuth application consent grants, service principal abuse, cross-tenant access policies, and stolen refresh tokens rather than SMB/RDP connections. Detection requires correlating Microsoft Graph API audit logs, Azure AD sign-in logs, and Entra ID pr
+domain: cybersecurity
+---
 # Detecting Azure Lateral Movement
 
 ## Overview

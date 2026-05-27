@@ -1,35 +1,9 @@
-# Hunting for Command and Control Beaconing
-
-## When to Use
-
-- When proactively hunting for compromised systems in the network
-- After threat intel indicates C2 frameworks targeting your industry
-- When investigating periodic outbound connections to suspicious domains
-- During incident response to identify active C2 channels
-- When DNS query logs show unusual patterns to specific domains
-
-## Prerequisites
-
-- Network proxy/firewall logs with full URL and timing data
-- DNS query logs (passive DNS, DNS server logs, or Sysmon Event ID 22)
-- Zeek/Bro network connection logs or NetFlow data
-- SIEM with statistical analysis capabilities (Splunk, Elastic)
-- Threat intelligence feeds for domain/IP reputation
-
-## Workflow
-
-1. **Identify Beaconing Characteristics**: Define what constitutes beaconing (regular intervals, small payload sizes, consistent destinations, jitter patterns).
-2. **Collect Network Telemetry**: Aggregate proxy logs, DNS queries, and connection metadata for analysis.
-3. **Apply Frequency Analysis**: Identify connections with regular intervals using statistical methods (standard deviation, coefficient of variation).
-4. **Filter Known-Good Traffic**: Exclude legitimate periodic traffic (Windows Update, AV updates, heartbeat services, NTP).
-5. **Analyze Domain/IP Reputation**: Check identified beaconing destinations against threat intel, WHOIS data, and certificate transparency logs.
-6. **Investigate Endpoint Context**: Correlate beaconing activity with process creation, user context, and file system changes on source endpoints.
-7. **Confirm and Respond**: Validate C2 activity, block communication, and initiate incident response.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: net-flow-c2beaconing
+description: - When proactively hunting for compromised systems in the network - After threat intel indicates C2 frameworks targeting your industry - When investigating periodic outbound connections to suspicious domains - During incident response to identify active C2 channels - When DNS query logs show unusual patterns to specific domains
+domain: cybersecurity
+---
+------|-------------|
 | T1071 | Application Layer Protocol (HTTP/HTTPS/DNS C2) |
 | T1071.001 | Web Protocols (HTTP/S beaconing) |
 | T1071.004 | DNS (DNS tunneling C2) |

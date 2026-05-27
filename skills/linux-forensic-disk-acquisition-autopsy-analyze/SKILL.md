@@ -1,67 +1,9 @@
-# Analyzing Disk Image with Autopsy
-
-## When to Use
-- When you have a forensic disk image and need structured analysis of its contents
-- During investigations requiring file recovery, keyword searching, and timeline analysis
-- When non-technical stakeholders need visual reports from forensic evidence
-- For examining file system metadata, deleted files, and embedded artifacts
-- When building a comprehensive case from multiple disk images
-
-## Prerequisites
-- Autopsy 4.x installed (Windows) or Autopsy 4.x with The Sleuth Kit (Linux)
-- Forensic disk image in raw (dd), E01 (EnCase), or AFF format
-- Minimum 8GB RAM (16GB recommended for large images)
-- Java Runtime Environment (JRE) 8+ for Autopsy
-- Sufficient disk space for the Autopsy case database (2-3x image size)
-- Hash databases (NSRL, known-bad hashes) for file identification
-
-## Workflow
-
-### Step 1: Install Autopsy and Configure Environment
-
-```bash
-# On Linux, install Sleuth Kit and Autopsy
-sudo apt-get install autopsy sleuthkit
-
-# Download Autopsy 4.x (GUI version) from official source
-wget https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.21.0/autopsy-4.21.0.zip
-unzip autopsy-4.21.0.zip -d /opt/autopsy
-
-# On Windows, run the MSI installer from sleuthkit.org
-# Launch Autopsy
-/opt/autopsy/bin/autopsy --nosplash
-
-# For Sleuth Kit command-line analysis alongside Autopsy
-sudo apt-get install sleuthkit
-```
-
-### Step 2: Create a New Case and Add the Disk Image
-
-```
-1. Launch Autopsy > "New Case"
-2. Enter Case Name: "CASE-2024-001-Workstation"
-3. Set Base Directory: /cases/case-2024-001/autopsy/
-4. Enter Case Number, Examiner Name
-5. Click "Add Data Source"
-6. Select "Disk Image or VM File"
-7. Browse to: /cases/case-2024-001/images/evidence.dd
-8. Select Time Zone of the original system
-9. Configure Ingest Modules (see Step 3)
-```
-
-```bash
-# Alternatively, use Sleuth Kit CLI to verify the image first
-img_stat /cases/case-2024-001/images/evidence.dd
-
-# List partitions in the image
-mmls /cases/case-2024-001/images/evidence.dd
-
-# Output example:
-# DOS Partition Table
-# Offset Sector: 0
-# Units are in 512-byte sectors
-#      Slot    Start        End          Length       Description
-#      00:  -----   0000000000   0000002047   0000002048   Primary Table (#0)
+---
+name: linux-forensic-disk-acquisition-autopsy-analyze
+description: - When you have a forensic disk image and need structured analysis of its contents - During investigations requiring file recovery, keyword searching, and timeline analysis - When non-technical stakeholders need visual reports from forensic evidence - For examining file system metadata, deleted files, and embedded artifacts - When building a compre
+domain: cybersecurity
+---
+--   0000000000   0000002047   0000002048   Primary Table (#0)
 #      01:  00:00   0000002048   0001026047   0001024000   NTFS (0x07)
 #      02:  00:01   0001026048   0976771071   0975745024   NTFS (0x07)
 

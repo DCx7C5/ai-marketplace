@@ -1,38 +1,9 @@
-# Performing CVE Prioritization with KEV Catalog
-
-## Overview
-The CISA Known Exploited Vulnerabilities (KEV) catalog, established through Binding Operational Directive (BOD) 22-01, is a living list of CVEs that have been actively exploited in the wild and carry significant risk. As of early 2026, the catalog contains over 1,484 entries, growing 20% in 2025 alone with 245 new additions. This skill covers integrating the KEV catalog into vulnerability prioritization workflows alongside EPSS (Exploit Prediction Scoring System) and CVSS to create a risk-based approach that prioritizes vulnerabilities with confirmed exploitation activity over theoretical severity alone.
-
-## When to Use
-
-- When conducting security assessments that involve performing cve prioritization with kev catalog
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-- Access to vulnerability scan results (Qualys, Nessus, Rapid7, etc.)
-- Familiarity with CVE identifiers and NVD
-- Understanding of CVSS scoring (v3.1 and v4.0)
-- API access to CISA KEV, EPSS, and NVD endpoints
-- Python 3.8+ with requests and pandas libraries
-
-## Core Concepts
-
-### CISA KEV Catalog Structure
-Each KEV entry contains:
-- **CVE ID**: The CVE identifier (e.g., CVE-2024-3094)
-- **Vendor/Project**: Affected vendor and product name
-- **Vulnerability Name**: Short description of the vulnerability
-- **Date Added**: When CISA added it to the catalog
-- **Short Description**: Brief technical description
-- **Required Action**: Recommended remediation action
-- **Due Date**: Deadline for federal agencies (FCEB) to remediate
-- **Known Ransomware Campaign Use**: Whether ransomware groups exploit it
-
-### BOD 22-01 Remediation Timelines
-| CVE Publication Date | Remediation Deadline |
-|----------------------|---------------------|
+---
+name: vuln-prioritization-cve
+description: The CISA Known Exploited Vulnerabilities (KEV) catalog, established through Binding Operational Directive (BOD) 22-01, is a living list of CVEs that have been actively exploited in the wild and carry significant risk. As of early 2026, the catalog contains over 1,484 entries, growing 20% in 2025 alone with 245 new additions. This skill covers integ
+domain: cybersecurity
+---
+-------------------|---------------------|
 | 2021 or later | 2 weeks from KEV listing |
 | Before 2021 | 6 months from KEV listing |
 

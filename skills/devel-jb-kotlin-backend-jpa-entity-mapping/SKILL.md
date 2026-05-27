@@ -1,3 +1,8 @@
+---
+name: devel-jb-kotlin-backend-jpa-entity-mapping
+description: Kotlin's `data class` is natural for DTOs but dangerous for JPA entities. Hibernate relies on
+domain: cybersecurity
+---
 # JPA Entity Mapping for Kotlin
 
 Kotlin's `data class` is natural for DTOs but dangerous for JPA entities. Hibernate relies on

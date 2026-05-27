@@ -1,3 +1,8 @@
+---
+name: offensive-initial-access
+description: - Email with malware attached/linked
+domain: cybersecurity
+---
 ## Full Methodology
 
 # Modern Initial Access
@@ -1498,4 +1503,3 @@ flowchart TD
     classDef evasion fill:#b7b,stroke:#333,stroke-width:2px,color:#333;
     class EvadeStatic,EvadeHeuristic,EvadeCloud,EvadeML,EvadeEmulation,EvadeBehavioral evasion;
 ```
-

@@ -1,59 +1,7 @@
-# Implementing RBAC Hardening for Kubernetes
-
-## Overview
-
-Kubernetes RBAC regulates access to cluster resources based on roles assigned to users, groups, and service accounts. Default configurations often grant excessive permissions, and without active hardening, RBAC becomes a primary attack vector for privilege escalation, lateral movement, and data exfiltration. Hardening requires implementing least-privilege principles, eliminating unnecessary ClusterRole bindings, separating service accounts, integrating external identity providers, and continuous auditing.
-
-## When to Use
-
-- When deploying or configuring implementing rbac hardening for kubernetes capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Kubernetes cluster v1.24+ with RBAC enabled (default since v1.6)
-- kubectl access with cluster-admin for initial audit
-- External identity provider (OIDC) for user authentication
-- Audit logging enabled on the API server
-
-## Core Hardening Principles
-
-### 1. Eliminate cluster-admin Sprawl
-
-Audit and remove unnecessary cluster-admin bindings:
-
-```bash
-# List all cluster-admin bindings
-kubectl get clusterrolebindings -o json | jq -r '
-  .items[] |
-  select(.roleRef.name == "cluster-admin") |
-  "\(.metadata.name) -> \(.subjects[]? | "\(.kind)/\(.name) (\(.namespace // "cluster"))")"
-'
-```
-
-### 2. Namespace-Scoped Roles Over ClusterRoles
-
-Use Role and RoleBinding instead of ClusterRole and ClusterRoleBinding:
-
-```yaml
-# Good: Namespace-scoped role
-apiVersion: rbac.authorization.k8s.io/v1
-kind: Role
-metadata:
-  namespace: application
-  name: app-developer
-rules:
-  - apiGroups: ["apps"]
-    resources: ["deployments"]
-    verbs: ["get", "list", "watch", "create", "update", "patch"]
-  - apiGroups: [""]
-    resources: ["pods", "pods/log"]
-    verbs: ["get", "list", "watch"]
-  - apiGroups: [""]
-    resources: ["configmaps"]
-    verbs: ["get", "list"]
+---
+name: cloud-kubernetes-hardening-rbacharden
+description: Kubernetes RBAC regulates access to cluster resources based on roles assigned to users, groups, and service accounts. Default configurations often grant excessive permissions, and without active hardening, RBAC becomes a primary attack vector for privilege escalation, lateral movement, and data exfiltration. Hardening requires implementing least-pr
+domain: cybersecurity
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding

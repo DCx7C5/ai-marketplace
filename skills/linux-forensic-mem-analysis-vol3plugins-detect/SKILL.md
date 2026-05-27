@@ -1,3 +1,8 @@
+---
+name: linux-forensic-mem-analysis-vol3plugins-detect
+description: Volatility3 (v2.26.0+, feature parity release May 2025) is the standard framework for memory forensics, replacing the deprecated Volatility2. It analyzes RAM dumps from Windows, Linux, and macOS to detect malicious processes, code injection, rootkits, credential harvesting, and network connections that disk-based forensics cannot reveal. Key plugin
+domain: cybersecurity
+---
 # Performing Memory Forensics with Volatility3 Plugins
 
 ## Overview

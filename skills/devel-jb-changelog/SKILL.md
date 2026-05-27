@@ -1,32 +1,9 @@
-Generate a CHANGELOG.md entry for a release. $ARGUMENTS specifies the tag version (e.g., `v0.16.0`) or omit to auto-detect via `git describe --tags --abbrev=0`.
-
-**Scope**: This skill updates `CHANGELOG.md` and syncs the website changelog (`website/src/pages/changelog.md`). It does NOT write code (use `implement-feature`) or update docs (use `update-docs`).
-
-## Workflow
-
-### Step 1: Determine Version Range
-
-```bash
-# Auto-detect latest tag
-LATEST_TAG=$(git describe --tags --abbrev=0)
-# Find previous tag
-PREV_TAG=$(git describe --tags --abbrev=0 "${LATEST_TAG}^")
-
-echo "Generating changelog: $PREV_TAG → $LATEST_TAG"
-```
-
-### Step 2: Collect Commits
-
-```bash
-git log "${PREV_TAG}..${LATEST_TAG}" --oneline --no-merges
-```
-
-### Step 3: Categorize Changes
-
-Group commits by conventional commit type:
-
-| Prefix | Category |
-|--------|----------|
+---
+name: devel-jb-changelog
+description: **Scope**: This skill updates `CHANGELOG.md` and syncs the website changelog (`website/src/pages/changelog.md`). It does NOT write code (use `implement-feature`) or update docs (use `update-docs`).
+domain: cybersecurity
+---
+-----|----------|
 | `feat` | New Features |
 | `fix` | Bug Fixes |
 | `refactor` | Refactoring |

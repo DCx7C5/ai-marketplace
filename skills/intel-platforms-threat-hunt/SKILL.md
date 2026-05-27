@@ -1,48 +1,9 @@
-# Building Threat Intelligence Platform
-
-## Overview
-
-Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. This skill covers designing TIP architecture using open-source tools (MISP, OpenCTI, TheHive, Cortex), configuring feed ingestion pipelines, establishing enrichment workflows, implementing STIX/TAXII interoperability, and building analyst dashboards for CTI operations.
-
-## When to Use
-
-- When deploying or configuring building threat intelligence platform capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Docker and Docker Compose for deploying platform components
-- Python 3.9+ with `pymisp`, `pycti`, `thehive4py` libraries
-- Elasticsearch/OpenSearch cluster for data storage
-- Redis and RabbitMQ for message queuing
-- Understanding of STIX 2.1 data model and TAXII 2.1 transport
-- API keys for enrichment services (VirusTotal, Shodan, AbuseIPDB)
-
-## Key Concepts
-
-### TIP Architecture Components
-1. **Collection Layer**: Feed ingestion from OSINT, commercial, and internal sources
-2. **Storage Layer**: Elasticsearch/OpenSearch for indexed CTI data with STIX 2.1 schema
-3. **Analysis Layer**: OpenCTI for knowledge graph analysis and MISP for IOC correlation
-4. **Enrichment Layer**: Cortex analyzers for automated IOC enrichment
-5. **Response Layer**: TheHive for case management and incident response integration
-6. **Sharing Layer**: TAXII server for outbound intelligence sharing
-
-### Platform Integration Points
-- **MISP <-> OpenCTI**: Bidirectional sync via OpenCTI MISP connector
-- **OpenCTI <-> TheHive**: Alert/case creation from high-confidence indicators
-- **TheHive <-> Cortex**: Automated analysis and enrichment of case observables
-- **All <-> SIEM**: Real-time IOC push to Splunk/Elastic via API or Kafka
-
-## Workflow
-
-### Step 1: Deploy Platform with Docker Compose
-
-```yaml
-services:
-  # --- Storage Layer ---
+---
+name: intel-platforms-threat-hunt
+description: Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. This skill covers designing TIP architecture using open-source tools (MISP, OpenCTI, TheHive, Cortex), configuring feed ingestion pipelines, establishi
+domain: cybersecurity
+---
+Storage Layer ---
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
     environment:

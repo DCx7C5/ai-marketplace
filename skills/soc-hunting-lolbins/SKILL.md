@@ -1,35 +1,9 @@
-# Hunting for Living-off-the-Land Binaries (LOLBins)
-
-## When to Use
-
-- When investigating fileless malware campaigns that bypass traditional AV
-- During proactive threat hunts targeting defense evasion techniques
-- When EDR alerts fire on legitimate binaries executing unusual child processes
-- After threat intelligence reports indicate LOLBin abuse in active campaigns
-- During red team/purple team exercises validating detection coverage for T1218
-
-## Prerequisites
-
-- Access to EDR telemetry (CrowdStrike, Microsoft Defender for Endpoint, SentinelOne)
-- SIEM with process creation logs (Sysmon Event ID 1, Windows Security 4688)
-- Familiarity with LOLBAS Project (lolbas-project.github.io) reference list
-- PowerShell command-line logging enabled (Module Logging, Script Block Logging)
-- Network proxy or firewall logs for correlating outbound connections
-
-## Workflow
-
-1. **Define Hunt Hypothesis**: Formulate a hypothesis based on threat intel (e.g., "Adversaries are using certutil.exe to download second-stage payloads from external domains").
-2. **Identify Target LOLBins**: Select specific binaries from the LOLBAS Project database to hunt for, prioritizing those matching current threat landscape (certutil, mshta, rundll32, regsvr32, msiexec, wmic, cmstp, bitsadmin).
-3. **Collect Process Telemetry**: Query EDR or SIEM for process creation events involving target LOLBins with unusual command-line arguments, parent processes, or execution contexts.
-4. **Baseline Normal Behavior**: Establish what legitimate usage looks like for each LOLBin in your environment by analyzing historical frequency, typical parent processes, and standard arguments.
-5. **Identify Anomalies**: Compare current telemetry against baselines, flagging executions with network connections, encoded commands, unusual file paths, or abnormal parent-child process chains.
-6. **Correlate and Enrich**: Cross-reference anomalous LOLBin activity with network logs, DNS queries, file creation events, and threat intelligence feeds.
-7. **Document and Report**: Record findings, update detection rules, and create IOC lists for identified malicious LOLBin usage.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-lolbins
+description: - When investigating fileless malware campaigns that bypass traditional AV - During proactive threat hunts targeting defense evasion techniques - When EDR alerts fire on legitimate binaries executing unusual child processes - After threat intelligence reports indicate LOLBin abuse in active campaigns - During red team/purple team exercises validati
+domain: cybersecurity
+---
+------|-------------|
 | LOLBin | Legitimate OS binary abused by attackers for malicious purposes |
 | LOLBAS Project | Community-curated list of Windows LOLBins, LOLLibs, and LOLScripts |
 | T1218 | MITRE ATT&CK - Signed Binary Proxy Execution |

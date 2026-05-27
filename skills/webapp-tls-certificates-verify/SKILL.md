@@ -1,3 +1,8 @@
+---
+name: webapp-tls-certificates-verify
+description: - When investigating security incidents that require analyzing tls certificate transparency logs - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+domain: cybersecurity
+---
 # Analyzing TLS Certificate Transparency Logs
 
 ## When to Use

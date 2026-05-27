@@ -1,30 +1,9 @@
-# Exploiting Zerologon Vulnerability (CVE-2020-1472)
-
-## Overview
-
-Zerologon (CVE-2020-1472) is a critical elevation of privilege vulnerability (CVSS 10.0) in the Microsoft Netlogon Remote Protocol (MS-NRPC). The flaw exists in the cryptographic implementation of AES-CFB8 mode, where the initialization vector (IV) is incorrectly set to all zeros. This allows an unauthenticated attacker with network access to a domain controller to establish a Netlogon session and reset the DC machine account password to empty, achieving full domain compromise. Microsoft patched this vulnerability in August 2020 (KB4571694).
-
-## When to Use
-
-- When performing authorized security testing that involves exploiting zerologon vulnerability cve 2020 1472
-- When analyzing malware samples or attack artifacts in a controlled environment
-- When conducting red team exercises or penetration testing engagements
-- When building detection capabilities based on offensive technique understanding
-
-## Prerequisites
-
-- Network access to a Domain Controller (TCP port 135 and dynamic RPC ports)
-- No authentication required (unauthenticated exploit)
-- Target DC must not have the February 2021 enforcement mode enabled
-- Impacket toolkit installed
-- Written authorization for red team engagement
-
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
-
-## MITRE ATT&CK Mapping
-
-| Technique ID | Name                                  | Tactic               |
-|--------------|---------------------------------------|----------------------|
+---
+name: identity-ad-zerologon
+description: Zerologon (CVE-2020-1472) is a critical elevation of privilege vulnerability (CVSS 10.0) in the Microsoft Netlogon Remote Protocol (MS-NRPC). The flaw exists in the cryptographic implementation of AES-CFB8 mode, where the initialization vector (IV) is incorrectly set to all zeros. This allows an unauthenticated attacker with network access to a dom
+domain: cybersecurity
+---
+-----------|---------------------------------------|----------------------|
 | T1068        | Exploitation for Privilege Escalation | Privilege Escalation |
 | T1210        | Exploitation of Remote Services       | Lateral Movement     |
 | T1003.006    | OS Credential Dumping: DCSync         | Credential Access    |

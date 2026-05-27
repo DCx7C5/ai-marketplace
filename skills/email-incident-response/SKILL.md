@@ -1,3 +1,8 @@
+---
+name: email-incident-response
+description: Email account compromise (EAC) is a prevalent attack vector where adversaries gain unauthorized access to mailboxes to exfiltrate sensitive data, conduct business email compromise (BEC), or establish persistence through inbox rule manipulation. Attackers commonly create forwarding rules to siphon emails, delete rules to hide evidence, or use OAuth 
+domain: cybersecurity
+---
 # Detecting Email Account Compromise
 
 ## Overview

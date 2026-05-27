@@ -1,54 +1,9 @@
-# Implementing Next-Generation Firewall with Palo Alto
-
-## Overview
-
-Palo Alto Networks Next-Generation Firewalls (NGFWs) move beyond traditional port-based rule enforcement to application-aware, identity-driven security policies. By leveraging App-ID for traffic classification, User-ID for identity-based enforcement, Content-ID for threat inspection, and SSL decryption for encrypted traffic visibility, organizations gain comprehensive control over network traffic. This skill covers end-to-end deployment from initial configuration through advanced threat prevention profiles.
-
-## When to Use
-
-- When deploying or configuring implementing next generation firewall with palo alto capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Palo Alto Networks PA-series appliance or VM-Series virtual firewall
-- PAN-OS 10.2 or later
-- Valid Threat Prevention, URL Filtering, and WildFire licenses
-- Network topology documentation with zone definitions
-- LDAP/Active Directory integration credentials for User-ID
-- Internal CA certificate for SSL Forward Proxy decryption
-
-## Core Concepts
-
-### App-ID Technology
-
-App-ID classifies network traffic by application regardless of port, protocol, or encryption. The classification engine uses multiple identification techniques in sequence:
-
-1. **Application Signatures** - Pattern matching against known application signatures
-2. **SSL/TLS Decryption** - Decrypt traffic to identify applications hidden in encrypted tunnels
-3. **Application Protocol Decoding** - Decode protocols to find applications tunneled within them
-4. **Heuristic Analysis** - Behavioral analysis for applications that evade other methods
-
-The Policy Optimizer tool assists migration from legacy port-based rules to App-ID rules by analyzing traffic logs and recommending application-specific replacements.
-
-### User-ID Integration
-
-User-ID maps IP addresses to user identities through multiple methods:
-
-- **Server Monitoring** - Parses Windows Security Event Logs (Event IDs 4624, 4768, 4769)
-- **Syslog Listening** - Receives authentication events from RADIUS, 802.1X, proxies
-- **GlobalProtect** - Maps VPN users automatically
-- **Captive Portal** - Web-based authentication for unknown users
-- **XML API** - Programmatic user mapping from custom sources
-
-### Zone-Based Architecture
-
-Zones represent logical segments of the network. Security policies control traffic between zones (inter-zone) and within zones (intra-zone):
-
-| Zone | Purpose | Trust Level |
-|------|---------|-------------|
+---
+name: net-firewall-ngfw-recover
+description: Palo Alto Networks Next-Generation Firewalls (NGFWs) move beyond traditional port-based rule enforcement to application-aware, identity-driven security policies. By leveraging App-ID for traffic classification, User-ID for identity-based enforcement, Content-ID for threat inspection, and SSL decryption for encrypted traffic visibility, organization
+domain: cybersecurity
+---
+---|---------|-------------|
 | Trust | Internal corporate LAN | High |
 | Untrust | Internet-facing | None |
 | DMZ | Public-facing servers | Medium |

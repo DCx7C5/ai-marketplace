@@ -1,9 +1,8 @@
-# Persistence Recon
-
-**Purpose:** Systematic enumeration of all persistence mechanisms across all layers. Baseline comparison and delta reporting for every vector.
-
 ---
-
+name: linux-svc-persistence-general-detect
+description: **Purpose:** Systematic enumeration of all persistence mechanisms across all layers. Baseline comparison and delta reporting for every vector.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Userland**: cron, systemd units/timers, shell RC files (.bashrc/.profile/.zshrc), XDG autostart
@@ -16,7 +15,6 @@
 - **Library injection**: /etc/ld.so.preload, LD_PRELOAD in env, rpath manipulation
 
 ---
-
 ## Key Techniques & Tools
 
 ### Systemd Services & Timers
@@ -197,8 +195,8 @@ python3 -c "import sys; print('\n'.join(sys.path))" 2>/dev/null | \
   done
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

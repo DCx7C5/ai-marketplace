@@ -1,34 +1,9 @@
-# Deploying Tailscale for Zero Trust VPN
-
-## Overview
-
-Tailscale is a zero trust mesh VPN built on WireGuard that creates encrypted peer-to-peer connections between devices without requiring traditional VPN servers or complex network configuration. Every connection in a Tailscale network (tailnet) is end-to-end encrypted using WireGuard's Noise protocol framework with Curve25519 key exchange. Tailscale implements zero trust networking by authenticating every connection request through identity providers, enforcing granular Access Control Lists (ACLs), and supporting features like exit nodes, subnet routers, MagicDNS, and Tailscale SSH. For organizations preferring self-hosted infrastructure, Headscale provides an open-source implementation of the Tailscale control server.
-
-## When to Use
-
-- When deploying or configuring deploying tailscale for zero trust vpn capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Identity provider (Okta, Azure AD, Google Workspace, GitHub, or OIDC-compatible)
-- Devices running supported OS (Linux, Windows, macOS, iOS, Android, FreeBSD)
-- Administrative access to configure DNS and firewall rules
-- Understanding of WireGuard protocol fundamentals
-- Network planning documentation for subnet routing requirements
-
-## Architecture
-
-```
-                    Tailscale Coordination Server
-                    (or self-hosted Headscale)
-                           |
-                    Key Distribution
-                    & NAT Traversal
-                           |
-         +-----------------+-----------------+
+---
+name: cloud-zerotrust-tailscale
+description: Tailscale is a zero trust mesh VPN built on WireGuard that creates encrypted peer-to-peer connections between devices without requiring traditional VPN servers or complex network configuration. Every connection in a Tailscale network (tailnet) is end-to-end encrypted using WireGuard's Noise protocol framework with Curve25519 key exchange. Tailscale
+domain: cybersecurity
+---
+--------------+-----------------+
          |                 |                 |
     +----+----+      +----+----+      +----+----+
     | Node A  |<---->| Node B  |<---->| Node C  |

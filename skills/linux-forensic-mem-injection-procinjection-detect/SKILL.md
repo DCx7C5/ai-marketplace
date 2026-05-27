@@ -1,3 +1,8 @@
+---
+name: linux-forensic-mem-injection-procinjection-detect
+description: Process injection (MITRE ATT&CK T1055) allows adversaries to execute code in the address space of another process, enabling defense evasion and privilege escalation. This skill detects injection techniques via Sysmon Event ID 8 (CreateRemoteThread), Event ID 10 (ProcessAccess with suspicious access rights), and analysis of source-target process rel
+domain: cybersecurity
+---
 # Hunting for Process Injection Techniques
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: identity-attack-bruteforce
+description: RDP brute force attacks target Windows Remote Desktop Protocol services by attempting rapid credential guessing against exposed RDP endpoints. Detection relies on analyzing Windows Security Event Logs for Event ID 4625 (failed logon with Logon Type 10 or 3) and correlating with Event ID 4624 (successful logon) to identify compromised accounts. This
+domain: cybersecurity
+---
 # Detecting RDP Brute Force Attacks
 
 ## Overview

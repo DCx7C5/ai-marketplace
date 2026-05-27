@@ -1,15 +1,9 @@
-# calendar (v3)
-
-> **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
-
-```bash
-gws calendar <resource> <method> [flags]
-```
-
-## Helper Commands
-
-| Command | Description |
-|---------|-------------|
+---
+name: devel-jb-gws-calendar
+description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+domain: cybersecurity
+---
+------|-------------|
 | [`+insert`](../gws-calendar-insert/SKILL.md) | create a new event |
 | [`+agenda`](../gws-calendar-agenda/SKILL.md) | Show upcoming events across all calendars |
 

@@ -1,15 +1,9 @@
-# chat (v1)
-
-> **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
-
-```bash
-gws chat <resource> <method> [flags]
-```
-
-## Helper Commands
-
-| Command | Description |
-|---------|-------------|
+---
+name: devel-jb-gws-chat
+description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+domain: cybersecurity
+---
+------|-------------|
 | [`+send`](../gws-chat-send/SKILL.md) | Send a message to a space |
 
 ## API Resources

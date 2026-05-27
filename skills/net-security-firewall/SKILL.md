@@ -1,30 +1,9 @@
-# Implementing Network Segmentation with Firewall Zones
-
-## Overview
-
-Network segmentation divides a flat network into isolated security zones with firewall-enforced boundaries to contain breaches, restrict lateral movement, and enforce least-privilege access between workloads. Segmentation is a foundational control required by PCI DSS, HIPAA, NIST 800-53, and zero trust architectures. Modern segmentation combines traditional VLAN-based approaches with microsegmentation at the workload level for granular east-west traffic control. This skill covers designing zone architectures, configuring inter-zone firewall policies, implementing VLAN segmentation on switches, and deploying microsegmentation for dynamic environments.
-
-## When to Use
-
-- When deploying or configuring implementing network segmentation with firewall zones capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Network topology documentation with asset inventory
-- Firewall supporting zone-based policies (Palo Alto, Fortinet, Cisco Firepower)
-- Managed switches with VLAN support (802.1Q trunking)
-- Traffic flow documentation or NetFlow data for baseline analysis
-- Compliance requirements (PCI DSS scope, HIPAA ePHI boundaries)
-
-## Core Concepts
-
-### Zone Architecture Tiers
-
-| Zone | Trust Level | Examples | Access Policy |
-|------|-------------|----------|---------------|
+---
+name: net-security-firewall
+description: Network segmentation divides a flat network into isolated security zones with firewall-enforced boundaries to contain breaches, restrict lateral movement, and enforce least-privilege access between workloads. Segmentation is a foundational control required by PCI DSS, HIPAA, NIST 800-53, and zero trust architectures. Modern segmentation combines tr
+domain: cybersecurity
+---
+---|-------------|----------|---------------|
 | **Internet** | None | Public internet | Default deny inbound |
 | **DMZ** | Low | Web servers, mail relays, DNS | Limited inbound, restricted outbound |
 | **Guest** | Low | Guest WiFi, visitor network | Internet only, no internal access |

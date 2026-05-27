@@ -1,30 +1,9 @@
-# Exploiting Kerberoasting with Impacket
-
-## Overview
-
-Kerberoasting (MITRE ATT&CK T1558.003) is a credential access technique that targets Active Directory service accounts by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs). The TGS ticket is encrypted with the service account's NTLM hash (RC4 or AES), enabling offline brute-force cracking. Impacket's `GetUserSPNs.py` is the standard tool for Linux-based Kerberoasting attacks.
-
-## When to Use
-
-- When performing authorized security testing that involves exploiting kerberoasting with impacket
-- When analyzing malware samples or attack artifacts in a controlled environment
-- When conducting red team exercises or penetration testing engagements
-- When building detection capabilities based on offensive technique understanding
-
-## Prerequisites
-
-- Valid domain credentials (any domain user can request TGS tickets)
-- Network access to a Domain Controller (TCP/88 Kerberos, TCP/389 LDAP)
-- Impacket installed (`pip install impacket`)
-- Hashcat or John the Ripper for offline cracking
-- Wordlist (e.g., rockyou.txt, SecLists)
-
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
-
-## MITRE ATT&CK Mapping
-
-| Technique ID | Name | Tactic |
-|---|---|---|
+---
+name: identity-kerberos-impacket
+description: Kerberoasting (MITRE ATT&CK T1558.003) is a credential access technique that targets Active Directory service accounts by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs). The TGS ticket is encrypted with the service account's NTLM hash (RC4 or AES), enabling offline brute-force cracking. Im
+domain: cybersecurity
+---
+|---|---|
 | T1558.003 | Steal or Forge Kerberos Tickets: Kerberoasting | Credential Access |
 | T1087.002 | Account Discovery: Domain Account | Discovery |
 | T1110.002 | Brute Force: Password Cracking | Credential Access |

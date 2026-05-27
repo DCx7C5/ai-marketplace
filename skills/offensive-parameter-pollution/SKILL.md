@@ -1,3 +1,8 @@
+---
+name: offensive-parameter-pollution
+description: HTTP Parameter Pollution (HPP) is a web attack technique that exploits how web applications and servers handle multiple occurrences of the same parameter name. When a web application receives duplicate parameters, different technologies process them differently:
+domain: cybersecurity
+---
 ## Full Methodology
 
 # HTTP Parameter Pollution (HPP)
@@ -565,4 +570,3 @@ A specific case of parameter pollution that affects social sharing functionality
 - **Explicit Parser Settings**: e.g., in Express set a custom query parser and explicitly forbid duplicates without `[]` suffix for arrays
 - **GraphQL Query Complexity Limits**: Enforce maximum query depth and alias counts
 - **WebSocket Frame Validation**: Parse and validate WS message structures consistently with HTTP parameter handling
-

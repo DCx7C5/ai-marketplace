@@ -1,35 +1,9 @@
-# Detecting Process Hollowing Technique
-
-## When to Use
-
-- When investigating suspected fileless malware or in-memory threats
-- After EDR alerts on process injection or suspicious memory operations
-- When hunting for defense evasion techniques in a compromised environment
-- When threat intel reports indicate process hollowing in active campaigns
-- During purple team exercises validating T1055.012 detection coverage
-
-## Prerequisites
-
-- EDR with memory protection monitoring (CrowdStrike, MDE, SentinelOne)
-- Sysmon with Event IDs 1 (Process Create), 8 (CreateRemoteThread), 25 (ProcessTampering)
-- Windows ETW providers for process hollowing (Microsoft-Windows-Kernel-Process)
-- Memory forensics capabilities (Volatility, WinDbg)
-- Process integrity monitoring tools
-
-## Workflow
-
-1. **Understand Hollowing Mechanics**: Process hollowing involves creating a legitimate process in suspended state, unmapping its memory, writing malicious code, then resuming execution.
-2. **Monitor Suspended Process Creation**: Hunt for processes created with CREATE_SUSPENDED flag followed by memory writes and thread resumption.
-3. **Detect Memory Section Anomalies**: Identify processes where the in-memory image differs from the on-disk binary (image mismatch).
-4. **Analyze Parent-Child Process Trees**: Flag processes whose behavior does not match their binary name (e.g., svchost.exe making unusual network connections).
-5. **Check Process Integrity**: Compare process memory sections against the legitimate binary on disk.
-6. **Correlate with Network Activity**: Hollowed processes often establish C2 connections - correlate suspicious process behavior with network logs.
-7. **Document and Contain**: Report findings, isolate affected endpoints, and update detection rules.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: linux-forensic-mem-injection-process-detect
+description: - When investigating suspected fileless malware or in-memory threats - After EDR alerts on process injection or suspicious memory operations - When hunting for defense evasion techniques in a compromised environment - When threat intel reports indicate process hollowing in active campaigns - During purple team exercises validating T1055.012 detecti
+domain: cybersecurity
+---
+------|-------------|
 | T1055.012 | Process Injection: Process Hollowing |
 | T1055 | Process Injection (parent technique) |
 | T1055.001 | DLL Injection |

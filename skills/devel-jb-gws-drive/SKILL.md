@@ -1,15 +1,9 @@
-# drive (v3)
-
-> **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
-
-```bash
-gws drive <resource> <method> [flags]
-```
-
-## Helper Commands
-
-| Command | Description |
-|---------|-------------|
+---
+name: devel-jb-gws-drive
+description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+domain: cybersecurity
+---
+------|-------------|
 | [`+upload`](../gws-drive-upload/SKILL.md) | Upload a file with automatic metadata |
 
 ## API Resources

@@ -1,3 +1,8 @@
+---
+name: offensive-open-redirect
+description: - Search for redirect URL parameters. These might be vulnerable to parameter based open redirect.
+domain: cybersecurity
+---
 ## Full Methodology
 
 # Open Redirect Vulnerabilities
@@ -457,4 +462,3 @@ flowchart TD
   - Use full URL parsing rather than simple string checks
   - Implement CSRF protection for redirect endpoints
   - For mobile deep links, validate package/bundle IDs and enforce App Links/Universal Links verification.
-

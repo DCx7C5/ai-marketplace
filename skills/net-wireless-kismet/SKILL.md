@@ -1,39 +1,9 @@
-# Performing Wireless Security Assessment with Kismet
-
-## Overview
-
-Kismet is an open-source wireless network detector, packet sniffer, and wireless intrusion detection system (WIDS) supporting 802.11a/b/g/n/ac/ax. Unlike active scanners, Kismet operates in passive monitor mode, making it undetectable to the networks being assessed. It captures raw 802.11 frames, identifies access points, clients, probe requests, and encryption types without transmitting any packets. This skill covers deploying Kismet for comprehensive wireless security assessments, identifying rogue access points, detecting weak encryption, mapping hidden networks, and analyzing client behavior.
-
-## When to Use
-
-- When conducting security assessments that involve performing wireless security assessment with kismet
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Linux system (Kali Linux, Ubuntu 22.04+) with Kismet 2023+ installed
-- Wireless adapter supporting monitor mode (e.g., Alfa AWUS036ACH, TP-Link TL-WN722N v1)
-- Written authorization for wireless assessment (legal requirement)
-- GPS receiver (optional, for geolocation mapping)
-- Target environment wireless network documentation
-
-## Core Concepts
-
-### Kismet Architecture
-
-Kismet uses a client-server architecture:
-
-- **kismet** - Main server process that captures and processes packets
-- **kismet_cap_linux_wifi** - Capture source for Linux WiFi interfaces
-- **kismet_cap_linux_bluetooth** - Capture source for Bluetooth
-- **Web UI** - Browser-based interface at http://localhost:2501
-
-### Wireless Frame Types
-
-| Frame Type | Purpose | Security Relevance |
-|------------|---------|-------------------|
+---
+name: net-wireless-kismet
+description: Kismet is an open-source wireless network detector, packet sniffer, and wireless intrusion detection system (WIDS) supporting 802.11a/b/g/n/ac/ax. Unlike active scanners, Kismet operates in passive monitor mode, making it undetectable to the networks being assessed. It captures raw 802.11 frames, identifies access points, clients, probe requests, a
+domain: cybersecurity
+---
+---------|---------|-------------------|
 | Beacon | AP announces its presence | SSID, encryption, vendor |
 | Probe Request | Client searches for networks | Reveals preferred networks |
 | Probe Response | AP responds to client probe | Hidden SSID disclosure |

@@ -1,3 +1,8 @@
+---
+name: compliance-email-dmarc-verify
+description: SPF, DKIM, and DMARC form the three pillars of email authentication. Together they prevent domain spoofing, validate message integrity, and define policies for handling unauthenticated mail. Proper implementation drastically reduces phishing attacks that impersonate your organization's domain.
+domain: cybersecurity
+---
 # Implementing DMARC, DKIM, and SPF Email Security
 
 ## Overview

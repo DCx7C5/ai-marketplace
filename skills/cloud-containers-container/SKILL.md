@@ -1,3 +1,8 @@
+---
+name: cloud-containers-container
+description: Container drift occurs when running containers deviate from their original image state through unauthorized file modifications, unexpected binary execution, configuration changes, or package installations. Since containers should be treated as immutable infrastructure, any drift is a potential indicator of compromise. Detection techniques leverage 
+domain: cybersecurity
+---
 # Detecting Container Drift at Runtime
 
 ## Overview

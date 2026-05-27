@@ -1,3 +1,8 @@
+---
+name: devel-jb-observability-integrator
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-17`).
+domain: cybersecurity
+---
 # Observability Integrator
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-17`).

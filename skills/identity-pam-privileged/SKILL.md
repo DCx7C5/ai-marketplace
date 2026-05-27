@@ -1,30 +1,9 @@
-# Performing Privileged Account Access Review
-
-## Overview
-
-Privileged Account Access Review is a critical identity governance process that validates whether users with elevated permissions still require their access. This review covers domain admins, service accounts, database administrators, cloud IAM roles, and application-level privileged accounts. Regular access reviews are mandated by SOC 2, PCI DSS, HIPAA, and SOX compliance frameworks, typically required quarterly for high-privilege accounts.
-
-## When to Use
-
-- When conducting security assessments that involve performing privileged account access review
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- PAM solution deployed (CyberArk, BeyondTrust, Delinea, or equivalent)
-- Identity governance platform (SailPoint, Saviynt, or equivalent)
-- Complete inventory of privileged accounts across all platforms
-- Defined access review policy with SLAs and escalation procedures
-- Designated reviewers (account owners, managers, security team)
-
-## Core Concepts
-
-### Privileged Account Categories
-
-| Category | Examples | Risk Level | Review Frequency |
-|----------|----------|------------|-----------------|
+---
+name: identity-pam-privileged
+description: Privileged Account Access Review is a critical identity governance process that validates whether users with elevated permissions still require their access. This review covers domain admins, service accounts, database administrators, cloud IAM roles, and application-level privileged accounts. Regular access reviews are mandated by SOC 2, PCI DSS, 
+domain: cybersecurity
+---
+-------|----------|------------|-----------------|
 | Domain Admins | Enterprise Admin, Domain Admin, Schema Admin | Critical | Monthly |
 | Service Accounts | SQL service, backup agents, monitoring agents | High | Quarterly |
 | Cloud IAM | AWS root, Azure Global Admin, GCP Owner | Critical | Monthly |

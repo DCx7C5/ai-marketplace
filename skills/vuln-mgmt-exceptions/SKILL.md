@@ -1,28 +1,9 @@
-# Building Vulnerability Exception Tracking System
-
-## Overview
-
-A vulnerability exception tracking system manages cases where vulnerabilities cannot be remediated within SLA timelines. It provides structured workflows for requesting exceptions, documenting compensating controls, obtaining risk acceptance approvals, and automatically expiring exceptions when their validity period ends. This ensures organizations maintain visibility into accepted risks while complying with frameworks like PCI DSS, SOC 2, and NIST CSF.
-
-## When to Use
-
-- When deploying or configuring building vulnerability exception tracking system capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Python 3.9+ with `flask`, `sqlalchemy`, `requests`, `jinja2`
-- PostgreSQL or SQLite database
-- Email/Slack integration for approval notifications
-- Vulnerability management platform API (DefectDojo, Qualys, Tenable)
-
-## Exception Request Workflow
-
-### Exception Categories
-| Category | Description | Max Duration | Approver Level |
-|----------|------------|-------------|----------------|
+---
+name: vuln-mgmt-exceptions
+description: A vulnerability exception tracking system manages cases where vulnerabilities cannot be remediated within SLA timelines. It provides structured workflows for requesting exceptions, documenting compensating controls, obtaining risk acceptance approvals, and automatically expiring exceptions when their validity period ends. This ensures organizations
+domain: cybersecurity
+---
+-------|------------|-------------|----------------|
 | Remediation Delay | Patch available but deployment blocked | 30 days | Team Lead + Security |
 | No Fix Available | Vendor has not released a patch | 90 days | Security Director |
 | Business Critical | System cannot be patched without outage | 60 days | VP Engineering + CISO |

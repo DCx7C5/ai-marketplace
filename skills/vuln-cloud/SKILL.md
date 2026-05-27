@@ -1,48 +1,9 @@
-# Implementing Cloud Vulnerability Posture Management
-
-## Overview
-
-Cloud Security Posture Management (CSPM) continuously monitors cloud infrastructure for misconfigurations, compliance violations, and security risks. Unlike traditional vulnerability scanning, CSPM focuses on cloud-native risks: IAM over-permissions, exposed storage buckets, unencrypted data, missing network controls, and service misconfigurations. This skill covers multi-cloud CSPM using AWS Security Hub, Azure Defender for Cloud, and open-source tools like Prowler and ScoutSuite.
-
-## When to Use
-
-- When deploying or configuring implementing cloud vulnerability posture management capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- AWS CLI configured with SecurityAudit IAM policy
-- Azure CLI with Security Reader role
-- Python 3.9+ with `boto3`, `azure-identity`, `azure-mgmt-security`
-- Prowler (https://github.com/prowler-cloud/prowler)
-- ScoutSuite (https://github.com/nccgroup/ScoutSuite)
-
-## AWS Security Hub
-
-### Enable Security Hub
-```bash
-# Enable AWS Security Hub with default standards
-aws securityhub enable-security-hub \
-  --enable-default-standards \
-  --region us-east-1
-
-# Enable specific standards
-aws securityhub batch-enable-standards \
-  --standards-subscription-requests \
-    '{"StandardsArn":"arn:aws:securityhub:us-east-1::standards/aws-foundational-security-best-practices/v/1.0.0"}' \
-    '{"StandardsArn":"arn:aws:securityhub:us-east-1::standards/cis-aws-foundations-benchmark/v/1.4.0"}'
-
-# Get findings summary
-aws securityhub get-findings \
-  --filters '{"SeverityLabel":[{"Value":"CRITICAL","Comparison":"EQUALS"}],"RecordState":[{"Value":"ACTIVE","Comparison":"EQUALS"}]}' \
-  --max-items 10
-```
-
-### Security Hub Standards
-| Standard | Description |
-|----------|------------|
+---
+name: vuln-cloud
+description: Cloud Security Posture Management (CSPM) continuously monitors cloud infrastructure for misconfigurations, compliance violations, and security risks. Unlike traditional vulnerability scanning, CSPM focuses on cloud-native risks: IAM over-permissions, exposed storage buckets, unencrypted data, missing network controls, and service misconfigurations.
+domain: cybersecurity
+---
+-------|------------|
 | AWS Foundational Security Best Practices | AWS-recommended baseline controls |
 | CIS AWS Foundations Benchmark 1.4 | CIS hardening requirements |
 | PCI DSS v3.2.1 | Payment card industry controls |

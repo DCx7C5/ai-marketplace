@@ -1,3 +1,8 @@
+---
+name: db-elasticsearch-exposure
+description: Detect publicly exposed Elasticsearch clusters with no authentication, identifying accessible indices, sensitive data fields, and cluster metadata via REST API enumeration. domain: cybersecurity subdomain: database-security tags: - elasticsearch - exposure - rest-api - index-enum - shodan - unauthenticated nist_csf: - ID.RA-01 - DE.CM-04 mitre: - T
+domain: cybersecurity
+---
 ## Overview
 
 Detect publicly exposed Elasticsearch clusters with no authentication, identifying accessible indices, sensitive data fields, and cluster metadata via REST API enumeration.

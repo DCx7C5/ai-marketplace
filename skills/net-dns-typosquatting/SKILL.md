@@ -1,78 +1,9 @@
-# Detecting Typosquatting Packages in npm and PyPI
-
-## When to Use
-
-- Auditing project dependencies to identify packages whose names are suspiciously similar to popular libraries
-- Proactively scanning package registries for newly published packages that may be typosquats of your organization's packages
-- Investigating a suspected supply chain compromise where a developer installed a misspelled package name
-- Building automated monitoring that alerts when new packages appear with names close to critical dependencies
-- Assessing the risk profile of unfamiliar packages before adding them to a project's dependency tree
-
-**Do not use** as the sole determination of malicious intent; name similarity alone does not prove a package is malicious. Do not use for bulk automated takedown requests without manual review of flagged packages. Do not use against private registries without authorization.
-
-## Prerequisites
-
-- Python 3.9+ with `requests` and `python-Levenshtein` (or `rapidfuzz`) packages installed
-- Network access to `https://pypi.org/pypi/<package>/json` (PyPI JSON API) and `https://registry.npmjs.org/<package>` (npm registry API)
-- A list of popular or critical packages to monitor (e.g., top 1000 PyPI packages, organization's dependency list)
-- Understanding of common typosquatting patterns: character omission, transposition, insertion, substitution, and hyphen/underscore manipulation
-
-## Workflow
-
-### Step 1: Build the Target Package Watchlist
-
-Establish the set of legitimate packages to monitor for typosquats:
-
-- **Extract project dependencies**: Parse `requirements.txt`, `Pipfile.lock`, `package.json`, or `package-lock.json` to extract all direct and transitive dependency names
-- **Include popular packages**: Supplement with high-value targets from the top 1000 PyPI downloads (available from `https://hugovk.github.io/top-pypi-packages/`) or top npm packages by download count
-- **Add organization packages**: Include any packages published by your organization that attackers might target with typosquats to intercept internal installations
-- **Normalize names**: PyPI treats hyphens, underscores, and periods as equivalent (PEP 503 normalization: `re.sub(r"[-_.]+", "-", name).lower()`). npm package names are case-sensitive but scoped packages use `@scope/name` format. Normalize before comparison.
-
-### Step 2: Generate Candidate Typosquat Names
-
-Produce potential typosquat variants for each target package:
-
-- **Character omission**: Remove each character one at a time (`requests` -> `rquests`, `requets`, `reqests`)
-- **Character transposition**: Swap adjacent characters (`requests` -> `erquests`, `rqeuests`, `reques ts`)
-- **Character substitution**: Replace characters with keyboard-adjacent keys using a QWERTY distance map (`requests` -> `rrquests`, `requesta`)
-- **Character insertion**: Insert common characters at each position (`requests` -> `rrequests`, `reqquests`)
-- **Separator manipulation**: For hyphenated names, try removing, doubling, or replacing separators (`my-package` -> `mypackage`, `my--package`, `my_package`)
-- **Common prefix/suffix attacks**: Prepend or append common strings (`python-requests`, `requests-python`, `requests2`, `requests-lib`)
-
-### Step 3: Query Registry APIs for Candidate Packages
-
-Check whether generated candidate names actually exist in the registry:
-
-- **PyPI JSON API**: Send `GET https://pypi.org/pypi/<candidate>/json` for each candidate. A `200` response means the package exists; `404` means it does not. Extract from the response: `info.name`, `info.version`, `info.author`, `info.summary`, `info.home_page`, `info.project_urls`, and `releases` (keyed by version with `upload_time_iso_8601` timestamps).
-- **npm registry API**: Send `GET https://registry.npmjs.org/<candidate>` with `Accept: application/json`. Extract: `name`, `description`, `dist-tags.latest`, `time.created`, `time.modified`, `maintainers`, and `versions`.
-- **Rate limiting**: PyPI has no published rate limits but respect reasonable request rates (1-2 requests/second). npm registry returns `429` when rate limited; implement exponential backoff.
-- **Batch optimization**: For large candidate lists, parallelize requests with connection pooling (`requests.Session`) and limit concurrency to avoid triggering abuse protections.
-
-### Step 4: Analyze Package Metadata for Suspicion Signals
-
-Score each existing candidate package against multiple heuristic signals:
-
-- **Levenshtein distance**: Calculate the edit distance between the candidate name and the target. Packages with distance 1-2 from a popular package are high-priority suspects. Historical analysis shows 18 of 40 known typosquats had Levenshtein distance of 2 or less from their targets.
-- **Publish date recency**: Compare the candidate's first publish date against the target's. A package created years after its near-namesake is more suspicious. Flag packages created within the last 90 days that are similar to packages published years ago.
-- **Download count disparity**: Compare weekly downloads. Legitimate similarly-named packages typically have comparable or explainable download counts. A package with 50 downloads versus its near-namesake with 5 million downloads is suspicious. PyPI download stats are available via BigQuery (`pypistats.org/api/`); npm provides download counts at `https://api.npmjs.org/downloads/point/last-week/<package>`.
-- **Author and maintainer analysis**: Check if the candidate package author matches the legitimate package author. Different authors for near-identical names increase suspicion.
-- **Description similarity**: Compare package descriptions. Typosquats frequently copy or closely paraphrase the target package description to appear legitimate.
-- **Version count**: Legitimate packages typically have many versions over time. A package with only 1-2 versions and a name similar to a popular package is suspicious.
-- **Repository URL analysis**: Check if the candidate links to the same repository as the target (likely legitimate fork/mirror) or has no repository URL (suspicious).
-
-### Step 5: Score, Rank, and Report Findings
-
-Combine signals into a composite risk score and generate an actionable report:
-
-- **Weighted scoring**: Assign weights to each signal. Example: Levenshtein distance 1 = 40 points, Levenshtein distance 2 = 25 points, created < 90 days ago = 15 points, download ratio < 0.001 = 15 points, different author = 10 points, single version = 5 points. Total score out of 100.
-- **Threshold classification**: Score >= 70: HIGH risk (likely typosquat), 40-69: MEDIUM risk (requires manual review), < 40: LOW risk (likely legitimate)
-- **Generate report**: For each flagged package, include the target it mimics, all signal values, the composite score, direct links to both packages on the registry, and a recommendation (block, investigate, or allow)
-- **Actionable output**: Produce a blocklist of flagged package names that can be imported into package manager deny-lists, CI/CD policy engines, or artifact repository proxy rules
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+---
+name: net-dns-typosquatting
+description: - Auditing project dependencies to identify packages whose names are suspiciously similar to popular libraries - Proactively scanning package registries for newly published packages that may be typosquats of your organization's packages - Investigating a suspected supply chain compromise where a developer installed a misspelled package name - Build
+domain: cybersecurity
+---
+---|------------|
 | **Typosquatting** | Registering a package name that closely resembles a popular package, exploiting common typos to trick developers into installing malicious code |
 | **Levenshtein Distance** | The minimum number of single-character edits (insertions, deletions, substitutions) required to transform one string into another; the primary metric for measuring name similarity |
 | **Dependency Confusion** | A broader supply chain attack where attackers publish malicious packages to public registries with names matching private internal packages, exploiting package manager resolution order |

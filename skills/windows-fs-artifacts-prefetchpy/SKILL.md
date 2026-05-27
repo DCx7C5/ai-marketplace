@@ -1,52 +1,9 @@
-# Analyzing Windows Prefetch with Python
-
-## Overview
-
-Windows Prefetch files (.pf) record application execution data including executable names, run counts, timestamps, loaded DLLs, and accessed directories. This skill covers parsing Prefetch files using the windowsprefetch Python library to reconstruct execution timelines, detect renamed or masquerading binaries by comparing executable names with loaded resources, and identifying suspicious programs that may indicate malware execution or lateral movement.
-
-## When to Use
-
-- When investigating security incidents that require analyzing windows prefetch with python
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- Python 3.9+ with `windowsprefetch` library (pip install windowsprefetch)
-- Windows Prefetch files from C:\Windows\Prefetch\ (versions 17-30 supported)
-- Understanding of Windows Prefetch file naming conventions (EXECUTABLE-HASH.pf)
-
-## Steps
-
-### Step 1: Collect Prefetch Files
-Gather .pf files from target system's C:\Windows\Prefetch\ directory.
-
-### Step 2: Parse Execution History
-Extract executable name, run count, last execution timestamps, and volume information.
-
-### Step 3: Detect Suspicious Execution
-Flag known attack tools (mimikatz, psexec, etc.), renamed binaries, and unusual execution patterns.
-
-### Step 4: Build Execution Timeline
-Reconstruct chronological execution timeline from all Prefetch files.
-
-## Expected Output
-
-JSON report with execution history, suspicious executables, renamed binary indicators, and timeline reconstruction.
-
-## Example Output
-
-```text
-$ python3 prefetch_analyzer.py --dir /evidence/Windows/Prefetch --output /analysis/prefetch_report
-
-Windows Prefetch Analyzer v2.1
-================================
-Source: /evidence/Windows/Prefetch/
-Prefetch Format: Windows 10 (MAM compressed, version 30)
-Files Found: 234
-
---- Execution Timeline (Incident Window: 2024-01-15 to 2024-01-18) ---
+---
+name: windows-fs-artifacts-prefetchpy
+description: Windows Prefetch files (.pf) record application execution data including executable names, run counts, timestamps, loaded DLLs, and accessed directories. This skill covers parsing Prefetch files using the windowsprefetch Python library to reconstruct execution timelines, detect renamed or masquerading binaries by comparing executable names with loa
+domain: cybersecurity
+---
+Execution Timeline (Incident Window: 2024-01-15 to 2024-01-18) ---
 Last Executed (UTC)     | Run Count | Filename                    | Hash     | Path
 ------------------------|-----------|-----------------------------|----------|------------------------------------------
 2024-01-15 14:33:15     | 1         | Q4_REPORT.XLSM-2A1B3C4D.pf | 2A1B3C4D | C:\Users\jsmith\Downloads\Q4_Report.xlsm

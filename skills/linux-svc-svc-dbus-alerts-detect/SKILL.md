@@ -1,9 +1,8 @@
-# D-Bus Alerts
-
-**Purpose:** Real-time and forensic monitoring of D-Bus alert events, suspicious service activations, polkit policy violations, and IPC abuse patterns on the session and system bus.
-
 ---
-
+name: linux-svc-svc-dbus-alerts-detect
+description: **Purpose:** Real-time and forensic monitoring of D-Bus alert events, suspicious service activations, polkit policy violations, and IPC abuse patterns on the session and system bus.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Service activation alerts**: Unexpected D-Bus service activations, unknown well-known names
@@ -15,7 +14,6 @@
 - **Credential relay**: D-Bus-based credential requests from unauthorized callers
 
 ---
-
 ## Key Techniques & Tools
 
 ### Live Bus Monitoring
@@ -115,8 +113,8 @@ journalctl -k --since "7 days ago" 2>/dev/null | \
   grep -i "dbus" | head -20
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

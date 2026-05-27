@@ -1,56 +1,9 @@
-# Implementing SOAR Playbook with Palo Alto XSOAR
-
-## Overview
-
-Cortex XSOAR (formerly Demisto) is Palo Alto Networks' Security Orchestration, Automation, and Response platform. Playbooks are the core automation engine in XSOAR, enabling SOC teams to automate repetitive incident response tasks. XSOAR provides 900+ prebuilt integration packs, 87 common playbooks, and a visual drag-and-drop editor for building custom workflows. Organizations using SOAR automation reduce mean time to respond (MTTR) by 80% on average.
-
-## When to Use
-
-- When deploying or configuring implementing soar playbook with palo alto xsoar capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Cortex XSOAR deployed (version 8.x or later, or XSOAR hosted)
-- Administrative access for playbook creation
-- Integration packs installed for relevant security tools
-- Incident types and layouts configured
-- API access to external tools (SIEM, EDR, TI platforms, ticketing)
-
-## Playbook Architecture
-
-### XSOAR Component Hierarchy
-
-```
-Incident Type (e.g., Phishing)
-    |
-    v
-Incident Layout (UI display configuration)
-    |
-    v
-Pre-Processing Rules (auto-classification, deduplication)
-    |
-    v
-Playbook (automation logic)
-    |-- Sub-Playbooks (modular reusable workflows)
-    |-- Tasks (individual automation steps)
-    |-- Conditional Tasks (decision branches)
-    |-- Scripts (custom Python/JavaScript)
-    |-- Integrations (external tool commands)
-    |
-    v
-War Room (investigation timeline)
-    |
-    v
-Closing Report
-```
-
-### Playbook Task Types
-
-| Task Type | Purpose | Example |
-|---|---|---|
+---
+name: soc-playbooks-playbook-respond
+description: Cortex XSOAR (formerly Demisto) is Palo Alto Networks' Security Orchestration, Automation, and Response platform. Playbooks are the core automation engine in XSOAR, enabling SOC teams to automate repetitive incident response tasks. XSOAR provides 900+ prebuilt integration packs, 87 common playbooks, and a visual drag-and-drop editor for building cu
+domain: cybersecurity
+---
+|---|---|
 | Standard | Execute a command | `!ip ip=8.8.8.8` |
 | Conditional | Branch logic | If severity > high, escalate |
 | Manual | Require analyst input | Approve containment action |

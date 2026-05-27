@@ -1,3 +1,8 @@
+---
+name: webapp-execution-runtime
+description: Runtime Application Self-Protection (RASP) instruments application code at runtime to detect and block attacks by examining actual execution context rather than relying solely on network traffic patterns. Unlike WAFs that inspect HTTP requests externally, RASP agents intercept dangerous operations (SQL queries, file operations, command execution, d
+domain: cybersecurity
+---
 # Implementing Runtime Application Self-Protection
 
 ## Overview

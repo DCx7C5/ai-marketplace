@@ -1,16 +1,8 @@
-# Offensive OSINT Methodology
-
-## Workflow
-
-1. Define target scope (domain, org, person, crypto address, or geo subject)
-2. Select applicable categories below based on scope
-3. Work top-down within each category; pivot on discovered artifacts
-4. Archive every key artifact: URL + timestamp + screenshot (PNG) + hash (SHA-256)
-5. Log findings in JSONL with a `run_id` and tool versions for reproducibility
-6. Suggest next steps based on what each tool returns
-
 ---
-
+name: offensive-osint
+description: 1. Define target scope (domain, org, person, crypto address, or geo subject)
+domain: cybersecurity
+---
 ## General OSINT
 
 - [Bookmarks](https://tools.myosint.training/) — Comprehensive OSINT bookmarks
@@ -34,7 +26,6 @@
 | [Google Fact Check Explorer](https://toolbox.google.com/factcheck/explorer) | Cross-site fact-check search |
 
 ---
-
 ## Username & Email Investigation
 
 | Tool | Purpose |
@@ -54,8 +45,8 @@
 
 **Browser extensions:** [GetProspect](https://chromewebstore.google.com/detail/email-finder-getprospect/bhbcbkonalnjkflmdkdodieehnmmeknp), [SignalHire](https://chrome.google.com/webstore/detail/signalhire-find-email-or/aeidadjdhppdffggfgjpanbafaedankd)
 
+domain: cybersecurity
 ---
-
 ## People Search
 
 - [TruePeopleSearch](https://www.truepeoplesearch.com/) — Free U.S. people search
@@ -67,7 +58,6 @@
 - [FaceCheck](https://facecheck.id/) / [FaceSeek](https://faceseek.online/) — Reverse face search
 
 ---
-
 ## Phone Number OSINT
 
 - [TrueCaller](https://www.truecaller.com/) — Caller ID and spam blocking
@@ -78,8 +68,8 @@
 - [CallerIDTest](https://calleridtest.com/) — Phone search
 - [Advanced Background Checks](https://www.advancedbackgroundchecks.com/) — All people linked to a number
 
+domain: cybersecurity
 ---
-
 ## Social Media
 
 | Platform | Tool |
@@ -96,7 +86,6 @@
 | Faces | [Search4Faces](https://search4faces.com/) |
 
 ---
-
 ## Public Records & Company Information
 
 - [OpenCorporates](https://opencorporates.com/) — World's largest open company database
@@ -119,8 +108,8 @@
 - [OpenSanctions](https://www.opensanctions.org/) — Aggregated persons/entities datasets
 - [OCCRP Aleph](https://aleph.occrp.org/) — Investigative documents, leaks, company records
 
+domain: cybersecurity
 ---
-
 ## Breach & Leak Data
 
 - [Have I Been Pwned](https://haveibeenpwned.com/) — Breach lookup; Pwned Passwords API (k-anonymity)
@@ -135,7 +124,6 @@
 - [LeakPeek](https://leakpeek.com/)
 
 ---
-
 ## Infrastructure & Attack-Surface OSINT
 
 - [Shodan](https://www.shodan.io/) — Internet-connected device/service search
@@ -170,8 +158,8 @@
 - [Cert Spotter](https://sslmate.com/certspotter) [Freemium] — CT monitoring and alerts
 - Favicon hash (mmh3): cluster infrastructure; pair with Shodan/Censys favicon search
 
+domain: cybersecurity
 ---
-
 ## Threat Intel & IOCs
 
 - Vendor/CERT advisories: CISA/NSA/CSA joint advisories, CERT-EU, NCSC-UK, JPCERT/CC, CERT-UA
@@ -191,7 +179,6 @@
 - TLS fingerprints: [JA3](https://github.com/salesforce/ja3), [JA4](https://github.com/FingerprinTLS/ja4)
 
 ---
-
 ## Cryptocurrency OSINT
 
 ### Blockchain Explorers
@@ -234,8 +221,8 @@
 - [L2Beat Bridges](https://l2beat.com/bridges) — Bridge risk analysis
 - [Pulsy](https://pulsy.io/) — Bridge explorer aggregator
 
+domain: cybersecurity
 ---
-
 ## Media Intelligence
 
 ### Reverse Image & Facial Search
@@ -273,7 +260,6 @@
 - [Search by Image](https://chromewebstore.google.com/detail/search-by-image/cnojnbdhbhnkbcieeekonklommdnndci)
 
 ---
-
 ## Geospatial Intelligence
 
 ### Satellite Imagery & Mapping
@@ -313,8 +299,8 @@
 - [FleetMon](https://www.fleetmon.com/) — Historical AIS data and analytics
 - [Global Fishing Watch](https://globalfishingwatch.org/map/) — Fishing vessel behavior and AIS gap analysis
 
+domain: cybersecurity
 ---
-
 ## AI-Assisted OSINT
 
 > **Warning:** Never paste PII, sensitive IOCs, or unique pivots into cloud LLMs. They log inputs and may use them for training. Use local models (Ollama, LM Studio) for sensitive analysis.
@@ -343,7 +329,6 @@
 - [CarNet](https://carnet.ai/) — AI car model identification (useful for geolocation)
 
 ---
-
 ## Archiving & Evidence Preservation
 
 - [archive.today](https://archive.today/) — One-page content archiver with screenshot
@@ -360,8 +345,8 @@
 - Separate work profiles/containers per case; store evidence read-only
 - Use JSONL (NDJSON) logs with `run_id` and tool versions for reproducibility
 
+domain: cybersecurity
 ---
-
 ## Automation & Workflows
 
 - [n8n](https://n8n.io/) — Self-hosted workflow automation (e.g., RSS → scrape → alert pipelines)
@@ -371,7 +356,6 @@
 - [Prefect](https://www.prefect.io/) / [Apache Airflow](https://airflow.apache.org/) — Workflow orchestration for data pipelines
 
 ---
-
 ## Regional Search Engines
 
 - Russia/CIS: [Yandex](https://yandex.com/), [Mail.ru Search](https://go.mail.ru/)
@@ -379,8 +363,8 @@
 - Russia social: [VK](https://vk.com/), [OK.ru](https://ok.ru/)
 - China social: [Weibo](https://weibo.com/), [Bilibili](https://www.bilibili.com/), [Zhihu](https://www.zhihu.com/), [Douyin](https://www.douyin.com/)
 
+domain: cybersecurity
 ---
-
 ## Telegram & Messaging Intelligence
 
 - [TGStat](https://tgstat.com/) — Channel analytics and search

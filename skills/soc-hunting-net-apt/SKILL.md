@@ -1,18 +1,9 @@
-## Overview
-
-Network-layer APT hunting on Linux. Checks ARP table for duplicate MAC entries (spoofing), active connections for unusual ports/destinations, DNS queries for tunneling indicators, and optionally captures raw traffic via tcpdump for post-analysis. All findings written to session findings.md.
-
-## Usage
-
-```
-Invoke when: suspected C2, lateral movement, exfiltration, or ARP/DNS poisoning.
-Options: --capture (live tcpdump), --analyze (inspect existing pcap), --duration SECONDS
-```
-
-## Checks
-
-| Check | Tool | Indicator |
-|---|---|---|
+---
+name: soc-hunting-net-apt
+description: Network-layer APT hunting on Linux. Checks ARP table for duplicate MAC entries (spoofing), active connections for unusual ports/destinations, DNS queries for tunneling indicators, and optionally captures raw traffic via tcpdump for post-analysis. All findings written to session findings.md.
+domain: cybersecurity
+---
+|---|---|
 | ARP table | `ip neigh` | Duplicate IPs with different MACs |
 | Active connections | `ss -tnp` | Unusual ports, foreign IPs, suspicious processes |
 | DNS | `/etc/resolv.conf`, `ss` | Non-standard DNS servers, high-volume lookups |

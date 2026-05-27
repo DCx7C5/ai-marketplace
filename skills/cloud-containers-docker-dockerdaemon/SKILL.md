@@ -1,3 +1,8 @@
+---
+name: cloud-containers-docker-dockerdaemon
+description: The Docker daemon (`dockerd`) runs with root privileges and controls all container operations. Hardening its configuration through `/etc/docker/daemon.json`, TLS certificates, user namespace remapping, and network restrictions is essential to prevent privilege escalation, lateral movement, and container breakout attacks.
+domain: cybersecurity
+---
 # Hardening Docker Daemon Configuration
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: net-capture-scapy
+description: Scapy is a Python packet manipulation library that enables crafting, sending, sniffing, and dissecting network packets at granular protocol layers. This skill covers using Scapy for security-relevant tasks including TCP/UDP/ICMP packet crafting, pcap file analysis, protocol field extraction, SYN scan implementation, DNS query analysis, and detectin
+domain: cybersecurity
+---
 # Analyzing Network Packets with Scapy
 
 ## Overview

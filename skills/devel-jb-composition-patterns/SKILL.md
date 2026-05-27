@@ -1,24 +1,9 @@
-# React Composition Patterns
-
-Composition patterns for building flexible, maintainable React components. Avoid
-boolean prop proliferation by using compound components, lifting state, and
-composing internals. These patterns make codebases easier for both humans and AI
-agents to work with as they scale.
-
-## When to Apply
-
-Reference these guidelines when:
-
-- Refactoring components with many boolean props
-- Building reusable component libraries
-- Designing flexible component APIs
-- Reviewing component architecture
-- Working with compound components or context providers
-
-## Rule Categories by Priority
-
-| Priority | Category                | Impact | Prefix          |
-| -------- | ----------------------- | ------ | --------------- |
+---
+name: devel-jb-composition-patterns
+description: Composition patterns for building flexible, maintainable React components. Avoid
+domain: cybersecurity
+---
+----- | ----------------------- | ------ | --------------- |
 | 1        | Component Architecture  | HIGH   | `architecture-` |
 | 2        | State Management        | MEDIUM | `state-`        |
 | 3        | Implementation Patterns | MEDIUM | `patterns-`     |

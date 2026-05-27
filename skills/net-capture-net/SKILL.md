@@ -1,3 +1,8 @@
+---
+name: net-capture-net
+description: Network packet captures (PCAP/PCAPNG files) represent the ultimate source of truth about network activity and provide irrefutable evidence of communications between hosts. PCAP files log every packet transmitted over a network segment, making them vital for forensic investigations involving data exfiltration, command-and-control communications, lat
+domain: cybersecurity
+---
 # Performing Network Packet Capture Analysis
 
 ## Overview

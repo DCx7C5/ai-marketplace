@@ -1,31 +1,9 @@
-# Implementing Alert Fatigue Reduction
-
-## When to Use
-
-Use this skill when:
-- SOC analysts face more alerts than they can reasonably investigate (>100 alerts/analyst/shift)
-- False positive rates exceed 70% on key detection rules
-- True positives are being missed or dismissed due to alert volume
-- Management reports declining analyst morale or increasing turnover related to workload
-
-**Do not use** to justify disabling detection rules without analysis — reducing alerts must not create detection blind spots.
-
-## Prerequisites
-
-- SIEM with 90+ days of alert disposition data (true positive, false positive, benign)
-- Alert metrics: volume, disposition rate, MTTD, MTTR per rule
-- Detection engineering resources for rule tuning and testing
-- Splunk ES with risk-based alerting (RBA) capability or equivalent
-- Baseline analyst capacity metrics (alerts per analyst per shift)
-
-## Workflow
-
-### Step 1: Measure Current Alert Quality
-
-Quantify the problem before making changes:
-
-```spl
---- Alert volume and disposition analysis (last 90 days)
+---
+name: soc-operations-alert-tuning
+description: Use this skill when: - SOC analysts face more alerts than they can reasonably investigate (>100 alerts/analyst/shift) - False positive rates exceed 70% on key detection rules - True positives are being missed or dismissed due to alert volume - Management reports declining analyst morale or increasing turnover related to workload **Do not use** to j
+domain: cybersecurity
+---
+Alert volume and disposition analysis (last 90 days)
 index=notable earliest=-90d
 | stats count AS total_alerts,
         sum(eval(if(status_label="Resolved - True Positive", 1, 0))) AS true_positives,

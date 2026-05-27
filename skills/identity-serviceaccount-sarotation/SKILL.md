@@ -1,30 +1,9 @@
-# Performing Service Account Credential Rotation
-
-## Overview
-
-Service accounts are non-human identities used by applications, daemons, CI/CD pipelines, and automated processes to authenticate to systems and APIs. These accounts often have elevated privileges and their credentials (passwords, API keys, certificates, tokens) are frequently long-lived and shared across teams, making them prime targets for attackers. Credential rotation is the systematic process of replacing these secrets on a scheduled basis, propagating new credentials to all dependent systems, and verifying service continuity after rotation.
-
-## When to Use
-
-- When conducting security assessments that involve performing service account credential rotation
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Inventory of all service accounts across AD, cloud, and applications
-- Secrets management platform (HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, or CyberArk)
-- Service dependency mapping (which services use which credentials)
-- Change management process for rotation windows
-- Monitoring for service health post-rotation
-
-## Core Concepts
-
-### Service Account Types
-
-| Type | Platform | Credential | Rotation Method |
-|------|----------|-----------|-----------------|
+---
+name: identity-serviceaccount-sarotation
+description: Service accounts are non-human identities used by applications, daemons, CI/CD pipelines, and automated processes to authenticate to systems and APIs. These accounts often have elevated privileges and their credentials (passwords, API keys, certificates, tokens) are frequently long-lived and shared across teams, making them prime targets for attack
+domain: cybersecurity
+---
+---|----------|-----------|-----------------|
 | Active Directory Service Account | Windows/AD | Password | gMSA (automatic) or PAM-managed |
 | AWS IAM User | AWS | Access Key/Secret Key | AWS Secrets Manager rotation Lambda |
 | GCP Service Account | GCP | JSON key file | Key rotation via IAM API |

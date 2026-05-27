@@ -1,3 +1,8 @@
+---
+name: cloud-kubernetes-runtime-escapedetect
+description: - When conducting security assessments that involve performing container escape detection - When following incident response procedures for related security events - When performing scheduled security testing or auditing activities - When validating security controls through hands-on testing
+domain: cybersecurity
+---
 # Performing Container Escape Detection
 
 ## When to Use

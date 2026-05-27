@@ -1,38 +1,9 @@
-# Implementing Digital Signatures with Ed25519
-
-## Overview
-
-Ed25519 is a high-performance digital signature algorithm using the Edwards curve Curve25519. It provides 128-bit security with 64-byte signatures and 32-byte keys, offering significant advantages over RSA and ECDSA including deterministic signatures (no random nonce needed), resistance to side-channel attacks, and fast verification. This skill covers implementing Ed25519 for document signing, code signing, and API authentication.
-
-## When to Use
-
-- When deploying or configuring implementing digital signatures with ed25519 capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Generate Ed25519 key pairs for signing
-- Sign messages and files with Ed25519
-- Verify signatures against public keys
-- Implement multi-signature verification
-- Build a simple code signing system
-- Compare Ed25519 performance with RSA and ECDSA
-
-## Key Concepts
-
-### Ed25519 vs RSA vs ECDSA
-
-| Property | Ed25519 | RSA-3072 | ECDSA P-256 |
-|----------|---------|----------|-------------|
+---
+name: crypto-asymmetric-digital-sign
+description: Ed25519 is a high-performance digital signature algorithm using the Edwards curve Curve25519. It provides 128-bit security with 64-byte signatures and 32-byte keys, offering significant advantages over RSA and ECDSA including deterministic signatures (no random nonce needed), resistance to side-channel attacks, and fast verification. This skill cov
+domain: cybersecurity
+---
+-------|---------|----------|-------------|
 | Security | 128-bit | 128-bit | 128-bit |
 | Public key size | 32 bytes | 384 bytes | 64 bytes |
 | Signature size | 64 bytes | 384 bytes | 64 bytes |

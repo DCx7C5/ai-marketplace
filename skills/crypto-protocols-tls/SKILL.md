@@ -1,38 +1,9 @@
-# Configuring TLS 1.3 for Secure Communications
-
-## Overview
-
-TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol, providing significant improvements over TLS 1.2 in both security and performance. It reduces handshake latency to 1-RTT (and 0-RTT for resumed sessions), removes obsolete cipher suites, and mandates perfect forward secrecy. This skill covers configuring TLS 1.3 on servers, validating configurations, and testing for common misconfigurations.
-
-## When to Use
-
-- When deploying or configuring configuring tls 1 3 for secure communications capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Configure TLS 1.3 on nginx and Apache web servers
-- Implement TLS 1.3 in Python applications using the ssl module
-- Validate TLS configurations with openssl and testssl.sh
-- Understand TLS 1.3 cipher suites and key exchange mechanisms
-- Configure 0-RTT early data with appropriate protections
-- Disable legacy TLS versions (1.0, 1.1) and weak cipher suites
-
-## Key Concepts
-
-### TLS 1.3 Cipher Suites
-
-| Cipher Suite | Key Exchange | Authentication | Encryption | Hash |
-|-------------|-------------|----------------|------------|------|
+---
+name: crypto-protocols-tls
+description: TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol, providing significant improvements over TLS 1.2 in both security and performance. It reduces handshake latency to 1-RTT (and 0-RTT for resumed sessions), removes obsolete cipher suites, and mandates perfect forward secrecy. This skill covers configuring TLS 1.3 on se
+domain: cybersecurity
+---
+----------|-------------|----------------|------------|------|
 | TLS_AES_256_GCM_SHA384 | ECDHE/DHE | Certificate | AES-256-GCM | SHA-384 |
 | TLS_AES_128_GCM_SHA256 | ECDHE/DHE | Certificate | AES-128-GCM | SHA-256 |
 | TLS_CHACHA20_POLY1305_SHA256 | ECDHE/DHE | Certificate | ChaCha20-Poly1305 | SHA-256 |

@@ -1,81 +1,9 @@
-# Auditing TLS Certificate Transparency Logs
-
-## When to Use
-
-- Monitoring owned domains for unauthorized or unexpected certificate issuance by unknown Certificate Authorities
-- Discovering subdomains and hidden services through certificates logged in public CT logs
-- Detecting phishing infrastructure that uses look-alike domain certificates (typosquatting, homograph attacks)
-- Auditing Certificate Authority compliance by verifying all issued certificates appear in CT logs as required by browser policies
-- Building continuous certificate monitoring into a security operations pipeline with alerting for new issuances
-
-**Do not use** for attacking or disrupting Certificate Authorities, for scraping CT logs in violation of rate limits or terms of service, or as the sole method of subdomain enumeration without corroborating results through DNS verification.
-
-## Prerequisites
-
-- Python 3.10+ with `requests`, `cryptography`, and `pyOpenSSL` libraries installed
-- Network access to crt.sh (HTTPS) and public CT log servers
-- A list of domains to monitor (owned domains, brand variations, typosquat candidates)
-- SMTP credentials or webhook URL for alerting on new certificate discoveries
-- Basic understanding of X.509 certificate structure and TLS certificate chain validation
-
-## Workflow
-
-### Step 1: Domain Inventory and Baseline
-
-Build the initial certificate inventory for monitored domains:
-
-- **Define monitoring scope**: List all owned root domains, registered brand names, and known subsidiaries. Include wildcard patterns (`%.example.com`) for comprehensive subdomain coverage.
-- **Query crt.sh for historical certificates**: Use the crt.sh JSON API to retrieve all known certificates for each domain. The API endpoint `https://crt.sh/?q=%.example.com&output=json` returns certificates matching the wildcard pattern with fields including `issuer_ca_id`, `issuer_name`, `common_name`, `name_value`, `not_before`, `not_after`, and `serial_number`.
-- **Build baseline database**: Store the initial certificate set in a local SQLite database with columns for certificate ID, domain, issuer, validity dates, SANs (Subject Alternative Names), and first-seen timestamp. This baseline prevents alerting on already-known certificates.
-- **Identify authorized CAs**: From the baseline, extract the set of Certificate Authorities that have legitimately issued certificates for your domains. Any future issuance from a CA not in this set triggers a high-priority alert.
-- **Map subdomains**: Extract all unique subdomains from the `name_value` field across all certificates to build an initial subdomain inventory.
-
-### Step 2: Continuous CT Log Monitoring
-
-Set up ongoing monitoring for new certificate issuances:
-
-- **Poll crt.sh periodically**: Query the crt.sh API at regular intervals (every 15-60 minutes) for new certificates. Use the `exclude=expired` parameter to focus on currently valid certificates. Compare results against the baseline database to identify new entries.
-- **Parse certificate details**: For each new certificate, extract the full SAN list, issuer chain, validity period, key type and size, CT log SCT (Signed Certificate Timestamp) details, and certificate fingerprint (SHA-256).
-- **Detect precertificates**: CT logs include precertificates (poisoned certificates submitted before final issuance). Track these as early warnings since they indicate a certificate is about to be issued but may not yet be active.
-- **Monitor CT log Signed Tree Heads (STH)**: For advanced monitoring, query CT log servers directly to fetch the latest STH and verify consistency proofs between consecutive tree heads. An inconsistency indicates log misbehavior (split-view attack).
-- **Rate limiting awareness**: Respect crt.sh rate limits by spacing queries and caching responses. Implement exponential backoff on HTTP 429 responses. For high-volume monitoring, consider querying the crt.sh PostgreSQL interface directly at `crt.sh:5432`.
-- **Atom/RSS feed alternative**: Subscribe to crt.sh's Atom feed for lighter-weight monitoring: `https://crt.sh/atom?q=%25.example.com` provides real-time notification of new log entries.
-
-### Step 3: Subdomain Discovery via CT Data
-
-Extract and validate subdomains found in certificate transparency data:
-
-- **Wildcard expansion**: Certificates with wildcard SANs (`*.dev.example.com`) reveal the existence of subdomains that may not be in DNS zone files. Record the parent domain as a target for further enumeration.
-- **Historical certificate mining**: Query crt.sh without the `exclude=expired` parameter to find subdomains from expired certificates that may still resolve in DNS. These represent historical infrastructure that could be vulnerable to subdomain takeover.
-- **DNS validation**: For each discovered subdomain, perform DNS resolution (A, AAAA, CNAME records) to determine if the subdomain is currently active. Cross-reference with known IP ranges to identify shadow IT or unauthorized services.
-- **Typosquat detection**: Generate permutations of the monitored domain (bitsquatting, homograph, insertion, omission, transposition, keyboard-adjacent replacement) and query CT logs for certificates issued to these variations. Certificates for typosquat domains strongly indicate phishing infrastructure.
-- **Deduplication and enrichment**: Normalize discovered subdomains (lowercase, remove trailing dots), deduplicate, and enrich with WHOIS data, IP geolocation, and HTTP response headers to prioritize investigation.
-
-### Step 4: Certificate Issuance Alerting
-
-Configure alerting rules for security-relevant certificate events:
-
-- **Unauthorized CA alert**: Trigger when a certificate is issued by a CA not in the authorized CA list. This is the highest-priority alert as it may indicate domain hijacking, BGP hijacking for domain validation, or a compromised CA.
-- **New subdomain alert**: Trigger when a certificate contains a SAN with a previously unseen subdomain. This catches shadow IT deployments and unauthorized services.
-- **Wildcard certificate alert**: Trigger on any new wildcard certificate issuance, as wildcard certificates have broader impact if compromised and their issuance should be tightly controlled.
-- **Short-lived certificate anomaly**: Alert when certificates have unusually short validity periods (under 24 hours) that deviate from the organization's normal certificate lifecycle, as this may indicate Let's Encrypt abuse or automated phishing infrastructure.
-- **Expiration warning**: Alert when certificates for critical services approach expiration (30, 14, 7 days) based on the `not_after` field from CT log data.
-- **Alert delivery**: Send alerts via email (SMTP), Slack webhook, PagerDuty, or write to a SIEM-compatible JSON log format for integration with existing security monitoring.
-
-### Step 5: CT Log Integrity Verification and Reporting
-
-Verify log integrity and produce compliance evidence:
-
-- **Signed Tree Head (STH) monitoring**: Fetch the latest STH from each monitored CT log via the `get-sth` API endpoint. The STH contains the tree size and a signed timestamp. Verify the signature using the log's public key.
-- **Consistency proof verification**: Between consecutive STH fetches, request a consistency proof via `get-sth-consistency` to verify the log remains append-only and no entries have been modified or removed.
-- **Certificate inventory report**: Produce a complete inventory of all certificates issued for monitored domains, grouped by issuer, with validity status and key strength metrics.
-- **CA diversity analysis**: Report on how many different CAs issue certificates for the organization, identifying consolidation opportunities and single-points-of-failure.
-- **Compliance evidence**: For organizations subject to PCI-DSS, SOC 2, or similar frameworks, CT monitoring logs provide evidence of certificate lifecycle management and unauthorized issuance detection capabilities.
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+---
+name: webapp-tls-ctaudit
+description: - Monitoring owned domains for unauthorized or unexpected certificate issuance by unknown Certificate Authorities - Discovering subdomains and hidden services through certificates logged in public CT logs - Detecting phishing infrastructure that uses look-alike domain certificates (typosquatting, homograph attacks) - Auditing Certificate Authority 
+domain: cybersecurity
+---
+---|------------|
 | **Certificate Transparency (CT)** | An open framework (RFC 6962) requiring Certificate Authorities to log all issued certificates in publicly auditable append-only logs, enabling domain owners to detect unauthorized issuance |
 | **Signed Certificate Timestamp (SCT)** | A promise from a CT log that a certificate will be included within the Maximum Merge Delay (typically 24 hours); browsers require SCTs from multiple logs before trusting a certificate |
 | **Merkle Tree** | The cryptographic data structure used by CT logs where leaf nodes are certificate hashes and parent nodes are hashes of their children, enabling efficient consistency and inclusion proofs |

@@ -1,11 +1,9 @@
-Nuxt is a full-stack Vue framework that provides server-side rendering, file-based routing, auto-imports, and a powerful module system. It uses Nitro as its server engine for universal deployment across Node.js, serverless, and edge platforms.
-
-> The skill is based on Nuxt 3.x, generated at 2026-01-28.
-
-## Core
-
-| Topic | Description | Reference |
-|-------|-------------|-----------|
+---
+name: devel-jb-nuxt
+description: > The skill is based on Nuxt 3.x, generated at 2026-01-28.
+domain: cybersecurity
+---
+----|-------------|-----------|
 | Directory Structure | Project folder structure, conventions, file organization | [core-directory-structure](references/core-directory-structure.md) |
 | Configuration | nuxt.config.ts, app.config.ts, runtime config, environment variables | [core-config](references/core-config.md) |
 | CLI Commands | Dev server, build, generate, preview, and utility commands | [core-cli](references/core-cli.md) |

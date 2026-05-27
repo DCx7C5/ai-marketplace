@@ -1,37 +1,9 @@
-# Java to Kotlin Conversion
-
-Convert Java source files to idiomatic Kotlin using a disciplined 4-step conversion
-methodology with 5 invariants checked at each step. Supports framework-aware conversion
-that handles annotation site targets, library idioms, and API preservation.
-
-## Workflow
-
-```dot
-digraph j2k_workflow {
-  rankdir=TB;
-  "User specifies files" -> "Step 0: Scan & Detect";
-  "Step 0: Scan & Detect" -> "Load framework guides";
-  "Load framework guides" -> "Step 1: Convert";
-  "Step 1: Convert" -> "Step 2: Write .kt";
-  "Step 2: Write .kt" -> "Step 3: Git rename";
-  "Step 3: Git rename" -> "Step 4: Verify";
-  "Step 4: Verify" -> "Next file?" [label="pass"];
-  "Step 4: Verify" -> "Fix issues" [label="fail"];
-  "Fix issues" -> "Step 1: Convert";
-  "Next file?" -> "Step 0: Scan & Detect" [label="batch: yes"];
-  "Next file?" -> "Done" [label="no more files"];
-}
-```
-
-## Step 0: Scan & Detect Frameworks
-
-Before converting, scan the Java file's import statements to detect which frameworks
-are in use. Load ONLY the matching framework reference files to keep context focused.
-
-### Framework Detection Table
-
-| Import prefix | Framework guide |
-|---|---|
+---
+name: devel-jb-kotlin-tooling-java-to-kotlin
+description: Convert Java source files to idiomatic Kotlin using a disciplined 4-step conversion
+domain: cybersecurity
+---
+|---|
 | `org.springframework.*` | [SPRING.md](references/frameworks/SPRING.md) |
 | `lombok.*` | [LOMBOK.md](references/frameworks/LOMBOK.md) |
 | `javax.persistence.*`, `jakarta.persistence.*`, `org.hibernate.*` | [HIBERNATE.md](references/frameworks/HIBERNATE.md) |

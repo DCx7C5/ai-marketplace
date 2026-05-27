@@ -1,3 +1,8 @@
+---
+name: devel-jb-gh-fix-ci
+description: Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval. - If a plan-oriented skill (for example `create-plan`) is available, use it; otherwise draft a concise plan inline and request approval before implementing. Prereq: auth
+domain: cybersecurity
+---
 # Gh Pr Checks Plan Fix
 
 ## Overview

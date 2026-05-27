@@ -1,44 +1,9 @@
-# Performing Alert Triage with Elastic SIEM
-
-## Overview
-
-Alert triage in Elastic Security is the systematic process of reviewing, classifying, and prioritizing security alerts to determine which represent genuine threats. Elastic's AI-driven Attack Discovery feature can triage hundreds of alerts down to discrete attack chains, but skilled analyst triage remains essential. A structured triage workflow typically takes 5-10 minutes per alert cluster using Elastic's built-in tools.
-
-## When to Use
-
-- When conducting security assessments that involve performing alert triage with elastic siem
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Elastic Security deployed (version 8.x or later)
-- Elastic Agent or Beats configured for endpoint and network data collection
-- Detection rules enabled and generating alerts
-- Elastic Common Schema (ECS) compliance across data sources
-- Analyst access to Kibana Security app with appropriate privileges
-
-## Alert Triage Workflow
-
-### Step 1: Initial Alert Assessment (2 minutes)
-
-When viewing an alert in Elastic Security, review the alert details panel:
-
-```
-Alert Details Panel:
-- Rule Name and Description
-- Severity and Risk Score
-- MITRE ATT&CK Mapping
-- Host and User Context
-- Process Tree (for endpoint alerts)
-- Timeline of related events
-```
-
-#### Key Fields to Examine First
-
-| Field | Purpose | ECS Field |
-|---|---|---|
+---
+name: soc-triage-elastic
+description: Alert triage in Elastic Security is the systematic process of reviewing, classifying, and prioritizing security alerts to determine which represent genuine threats. Elastic's AI-driven Attack Discovery feature can triage hundreds of alerts down to discrete attack chains, but skilled analyst triage remains essential. A structured triage workflow typ
+domain: cybersecurity
+---
+|---|---|
 | Rule severity | Initial priority assessment | `kibana.alert.severity` |
 | Risk score | Quantified threat level | `kibana.alert.risk_score` |
 | Host name | Affected system | `host.name` |

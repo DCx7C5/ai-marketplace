@@ -1,32 +1,9 @@
-# Implementing Zero Trust DNS with NextDNS
-
-## Overview
-
-NextDNS is a cloud-based DNS resolver that provides encrypted DNS resolution (DNS-over-HTTPS and DNS-over-TLS), real-time threat intelligence blocking, ad and tracker filtering, and granular DNS policy enforcement. In a zero trust architecture, DNS is a critical control point -- every network connection begins with a DNS query, making DNS filtering an effective layer for blocking malicious domains, preventing data exfiltration via DNS tunneling, enforcing acceptable use policies, and gaining visibility into all network communications. NextDNS processes queries using threat intelligence feeds containing millions of malicious domains updated in real-time, blocks cryptojacking and phishing domains, detects DNS rebinding attacks, and supports CNAME cloaking protection. For enterprise environments, Microsoft's Zero Trust DNS (ZTDNS) feature on Windows 11 extends this concept by enforcing that endpoints can only resolve domains through approved protected DNS servers.
-
-## When to Use
-
-- When deploying or configuring implementing zero trust dns with nextdns capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- NextDNS account (free tier: 300,000 queries/month; Pro: unlimited)
-- Network devices supporting DoH or DoT configuration
-- Administrative access to endpoint DNS settings
-- Understanding of DNS protocol and resolution chain
-- Familiarity with organizational acceptable use policies
-
-## Architecture
-
-```
-    Endpoint Device
-         |
-    DNS Query (Encrypted)
-         |
-    +----+----+
+---
+name: cloud-zerotrust-nextdns
+description: NextDNS is a cloud-based DNS resolver that provides encrypted DNS resolution (DNS-over-HTTPS and DNS-over-TLS), real-time threat intelligence blocking, ad and tracker filtering, and granular DNS policy enforcement. In a zero trust architecture, DNS is a critical control point -- every network connection begins with a DNS query, making DNS filtering
+domain: cybersecurity
+---
+-+----+
     |  DoH/DoT |  (DNS-over-HTTPS or DNS-over-TLS)
     |  Tunnel  |
     +----+----+

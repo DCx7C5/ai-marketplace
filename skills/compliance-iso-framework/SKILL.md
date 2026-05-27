@@ -1,38 +1,9 @@
-# Implementing ISO 27001 Information Security Management
-
-## Overview
-ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete lifecycle from scoping through certification, including Annex A control selection, risk assessment methodology, Statement of Applicability (SoA) creation, and continuous improvement processes.
-
-## When to Use
-
-- When deploying or configuring implementing iso 27001 information security management capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Understanding of information security principles and risk management concepts
-- Familiarity with organizational governance structures and business processes
-- Knowledge of IT infrastructure, network architecture, and data flows
-- Access to ISO/IEC 27001:2022 and ISO/IEC 27002:2022 standards documents
-
-## Core Concepts
-
-### ISMS Clauses (4-10)
-The management system requirements define **what** must be done:
-- **Clause 4 - Context of the Organization**: Define scope, interested parties, and internal/external issues
-- **Clause 5 - Leadership**: Top management commitment, information security policy, roles and responsibilities
-- **Clause 6 - Planning**: Risk assessment process, risk treatment plan, information security objectives
-- **Clause 7 - Support**: Resources, competence, awareness, communication, documented information
-- **Clause 8 - Operation**: Operational planning, risk assessment execution, risk treatment implementation
-- **Clause 9 - Performance Evaluation**: Monitoring, measurement, internal audit, management review
-- **Clause 10 - Improvement**: Nonconformities, corrective actions, continual improvement
-
-### Annex A Controls (2022 Edition)
-The 2022 revision restructured 93 controls into four categories:
-
-| Category | Controls | Examples |
-|----------|----------|----------|
+---
+name: compliance-iso-framework
+description: ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete lifecycle from scoping through certification, including Annex A control selection, risk assessment methodology, Statement of Applicability (SoA) crea
+domain: cybersecurity
+---
+-------|----------|----------|
 | Organizational (A.5) | 37 controls | Policies, roles, threat intelligence, cloud security |
 | People (A.6) | 8 controls | Screening, awareness, remote working, reporting |
 | Physical (A.7) | 14 controls | Perimeters, entry controls, equipment security |

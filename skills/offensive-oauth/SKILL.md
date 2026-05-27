@@ -1,3 +1,8 @@
+---
+name: offensive-oauth
+description: - Check for improper redirect validation (open redirects)
+domain: cybersecurity
+---
 ## Full Methodology
 
 # OAuth Security Testing
@@ -336,4 +341,3 @@ sequenceDiagram
 - Pin trusted issuers in client configuration
 - Conduct regular OAuth security audits
 - Keep libraries and dependencies updated
-

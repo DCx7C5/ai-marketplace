@@ -1,80 +1,9 @@
-# Performing Vulnerability Scanning with Nessus
-
-## When to Use
-
-- Conducting initial vulnerability assessment during the reconnaissance phase of a penetration test
-- Performing periodic vulnerability scans to maintain compliance with PCI-DSS (requirement 11.2), HIPAA, or SOC 2 standards
-- Validating that remediation efforts have successfully addressed previously identified vulnerabilities
-- Establishing a baseline of known vulnerabilities before targeted manual exploitation
-- Auditing patch compliance and configuration drift across server and workstation fleets
-
-**Do not use** as a substitute for manual penetration testing, against systems without written authorization, or against fragile systems (medical devices, legacy SCADA) where scanning may cause service disruption.
-
-## Prerequisites
-
-- Tenable Nessus Professional or Nessus Expert with current plugin updates (plugins should be less than 24 hours old)
-- Network connectivity to all target hosts on all ports (no firewall restrictions between scanner and targets)
-- Administrative credentials for authenticated scanning (domain admin or local admin for Windows, root/sudo for Linux, SNMP community strings for network devices)
-- Target IP ranges and hostnames documented in the scope agreement
-- Change management approval for scanning during authorized windows
-
-## Workflow
-
-### Step 1: Scan Configuration
-
-Configure the Nessus scan policy based on engagement requirements:
-
-- **Scan type selection**: Choose "Advanced Scan" for full control over plugin families, or "Credentialed Patch Audit" for patch compliance. Avoid "Basic Network Scan" for penetration tests as it uses a limited plugin set.
-- **Discovery settings**: Configure port scanning to scan all 65,535 TCP ports and top 1,000 UDP ports. Set host discovery to use ARP (local), TCP SYN, and ICMP for maximum coverage.
-- **Authentication**: Add Windows credentials (domain account with local admin), SSH credentials (key-based preferred over password), SNMP credentials (v3 with authPriv preferred), and database credentials for database-specific checks.
-- **Plugin configuration**: Enable all plugin families relevant to the target environment. For penetration testing, ensure "Denial of Service" plugins are disabled unless explicitly authorized. Enable CGI scanning for web servers.
-- **Performance settings**: Set maximum concurrent hosts per scanner (default 30, reduce for sensitive networks), maximum concurrent checks per host (4-5 for production, higher for test environments), and network timeout values appropriate for the target network.
-
-### Step 2: Scan Execution and Monitoring
-
-Launch the scan and monitor for issues:
-
-- Start the scan during the authorized testing window
-- Monitor scan progress through the Nessus web interface, checking for hosts timing out, authentication failures, or plugins causing errors
-- Watch for credential failures indicated by "Authentication Failure" results; these mean the authenticated scan fell back to unauthenticated mode, producing incomplete results
-- If specific hosts are crashing or becoming unresponsive, pause the scan, exclude those hosts, and report the issue to the client
-- For large networks (1,000+ hosts), consider splitting scans into smaller subnets to manage load and allow restartability
-
-### Step 3: Results Analysis and Validation
-
-Analyze scan results to separate true positives from false positives:
-
-- **Sort by severity**: Start with Critical and High findings; these represent the most exploitable and impactful vulnerabilities
-- **Validate authentication**: Verify that plugin 19506 (Nessus Scan Information) shows "Credentialed checks: yes" for each host. Unauthenticated results miss local vulnerabilities.
-- **Eliminate informational noise**: Filter out informational findings unless they reveal useful information for manual testing (service banners, SSL certificate details, open ports)
-- **Cross-reference CVEs**: For each Critical/High finding, verify the CVE in the National Vulnerability Database. Check if the vulnerability has a public exploit (Exploit-DB, Metasploit module).
-- **False positive identification**: Common false positives include version-based detection where backported patches make the software appear vulnerable (common in RHEL/CentOS). Check `rpm -q --changelog <package>` on the target to verify.
-- **Group by remediation**: Organize findings by the action needed to fix them (e.g., "Apply Windows KB5034441" affects 47 hosts) rather than listing each instance individually
-
-### Step 4: Vulnerability Prioritization
-
-Rank validated vulnerabilities for remediation using risk-based prioritization:
-
-- **CVSS score**: Use the CVSS v3.1 base score as the starting point. Scores 9.0-10.0 are Critical, 7.0-8.9 High, 4.0-6.9 Medium, 0.1-3.9 Low.
-- **Exploit availability**: Increase priority for vulnerabilities with publicly available exploit code, especially Metasploit modules or weaponized PoCs
-- **Network exposure**: A critical vulnerability on an internet-facing system is higher priority than the same vulnerability on an isolated internal server
-- **Asset criticality**: Consider the business value of the affected system. Domain controllers, databases with PII, and payment processing systems warrant higher priority.
-- **Compensating controls**: Reduce priority if the vulnerability is mitigated by network segmentation, WAF rules, or EDR protections (document the compensating control)
-
-### Step 5: Report Generation
-
-Generate a comprehensive vulnerability scan report:
-
-- Export the Nessus report in both executive (PDF) and detailed (CSV/HTML) formats
-- Create a custom report that includes only validated findings with false positives removed
-- Include a remediation priority matrix mapping each vulnerability to its recommended fix, affected hosts, and timeline
-- Add context from manual validation (e.g., "This finding was confirmed exploitable during the penetration test")
-- Include scan metadata: date/time, scanner version, plugin set date, scan policy used, authentication success rate
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+---
+name: vuln-scanning-nessus
+description: - Conducting initial vulnerability assessment during the reconnaissance phase of a penetration test - Performing periodic vulnerability scans to maintain compliance with PCI-DSS (requirement 11.2), HIPAA, or SOC 2 standards - Validating that remediation efforts have successfully addressed previously identified vulnerabilities - Establishing a basel
+domain: cybersecurity
+---
+---|------------|
 | **Authenticated Scan** | A vulnerability scan that uses valid credentials to log into target hosts and perform local checks, detecting significantly more vulnerabilities than unauthenticated scanning |
 | **Plugin** | A Nessus script that checks for a specific vulnerability, misconfiguration, or compliance item; Nessus maintains over 200,000 plugins updated daily |
 | **CVSS** | Common Vulnerability Scoring System; a standardized framework for rating the severity of vulnerabilities from 0.0 to 10.0 based on exploitability and impact metrics |

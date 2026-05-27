@@ -1,3 +1,8 @@
+---
+name: cloud-forensics-falco
+description: - When conducting security assessments that involve performing cloud native forensics with falco - When following incident response procedures for related security events - When performing scheduled security testing or auditing activities - When validating security controls through hands-on testing
+domain: cybersecurity
+---
 # Performing Cloud Native Forensics with Falco
 
 ## When to Use

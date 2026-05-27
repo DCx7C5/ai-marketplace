@@ -1,72 +1,9 @@
-# Exploiting Active Directory with BloodHound
-
-> **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
-
-## Overview
-
-BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attack paths from compromised accounts to high-value targets such as Domain Admins, identifying privilege escalation chains that would be nearly impossible to find manually. SharpHound is the official data collector that gathers AD objects, relationships, ACLs, sessions, and group memberships.
-
-## When to Use
-
-- When performing authorized security testing that involves exploiting active directory with bloodhound
-- When analyzing malware samples or attack artifacts in a controlled environment
-- When conducting red team exercises or penetration testing engagements
-- When building detection capabilities based on offensive technique understanding
-
-## Prerequisites
-
-- Familiarity with red teaming concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Collect Active Directory relationship data using SharpHound or BloodHound.py
-- Visualize attack paths from compromised accounts to Domain Admin
-- Identify misconfigured ACLs, group memberships, and delegation settings
-- Discover shortest attack paths to high-value targets
-- Map Kerberos delegation configurations for abuse
-- Document all identified privilege escalation chains
-
-## MITRE ATT&CK Mapping
-
-- **T1087.002** - Account Discovery: Domain Account
-- **T1069.002** - Permission Groups Discovery: Domain Groups
-- **T1482** - Domain Trust Discovery
-- **T1615** - Group Policy Discovery
-- **T1018** - Remote System Discovery
-- **T1033** - System Owner/User Discovery
-- **T1016** - System Network Configuration Discovery
-
-## Workflow
-
-### Phase 1: Data Collection with SharpHound
-1. Transfer SharpHound collector to compromised host
-2. Execute collection with appropriate method (All, DCOnly, Session, LoggedOn)
-3. Collect from all reachable domains if multi-domain environment
-4. Exfiltrate ZIP data files to analysis workstation
-5. Import data into BloodHound CE or Legacy
-
-### Phase 2: Attack Path Analysis
-1. Mark owned principals (compromised accounts)
-2. Query shortest path to Domain Admins
-3. Identify Kerberoastable accounts with admin privileges
-4. Find AS-REP Roastable accounts
-5. Analyze ACL-based attack paths (GenericAll, GenericWrite, WriteDACL, ForceChangePassword)
-6. Review GPO abuse opportunities
-
-### Phase 3: Exploitation Planning
-1. Prioritize attack paths by complexity and stealth
-2. Identify required tools for each step in the chain
-3. Plan OPSEC considerations for each technique
-4. Execute identified attack chain
-5. Document evidence at each step
-
-## Tools and Resources
-
-| Tool | Purpose | Platform |
-|------|---------|----------|
+---
+name: identity-ad-bloodhound
+description: BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attack paths from compromised accounts to high-value targets such as Domain Admins, identifying privilege escalation chains that would be nearly impossible
+domain: cybersecurity
+---
+---|---------|----------|
 | BloodHound CE | Graph visualization and analysis | Web-based |
 | SharpHound | AD data collection (.NET) | Windows |
 | BloodHound.py | AD data collection (Python) | Linux/Windows |

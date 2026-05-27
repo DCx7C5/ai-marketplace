@@ -1,3 +1,8 @@
+---
+name: identity-kerberos-goldenticket
+description: - When KRBTGT account hash may have been compromised via DCSync or NTDS.dit extraction - When hunting for forged Kerberos tickets used for persistent domain access - After incident response reveals credential theft at the domain level - When investigating impossible logon patterns (users logging in from multiple locations simultaneously) - During p
+domain: cybersecurity
+---
 # Detecting Golden Ticket Attacks in Kerberos Logs
 
 ## When to Use

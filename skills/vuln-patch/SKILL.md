@@ -1,45 +1,9 @@
-# Implementing Patch Management Workflow
-
-## Overview
-Patch management is the systematic process of identifying, testing, deploying, and verifying software updates to remediate vulnerabilities across an organization's IT infrastructure. An effective patch management workflow reduces the attack surface while minimizing operational disruption through structured testing, approval gates, and phased rollouts.
-
-## When to Use
-
-- When deploying or configuring implementing patch management workflow capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Vulnerability scan results identifying missing patches
-- Patch management tools (WSUS, SCCM/MECM, Ansible, Intune, Jamf)
-- Test environment mirroring production
-- Change management process (ITIL or equivalent)
-- Asset inventory with OS and application versions
-
-## Core Concepts
-
-### Patch Lifecycle Phases
-1. **Discovery**: Identify available patches from vendors and vulnerability scans
-2. **Assessment**: Evaluate patch applicability and risk
-3. **Prioritization**: Rank patches by severity, exploitability, and asset criticality
-4. **Testing**: Validate patches in non-production environment
-5. **Approval**: Change advisory board (CAB) review and approval
-6. **Deployment**: Phased rollout to production systems
-7. **Verification**: Confirm successful installation and no regressions
-8. **Reporting**: Document compliance metrics and exceptions
-
-### Patch Categories
-- **Security Patches**: Address CVEs and security vulnerabilities
-- **Critical Updates**: Non-security bug fixes affecting stability
-- **Service Packs**: Cumulative update collections
-- **Feature Updates**: New functionality (Windows feature updates, etc.)
-- **Firmware Updates**: BIOS/UEFI, NIC, storage controller firmware
-- **Third-Party Patches**: Adobe, Java, Chrome, Firefox, etc.
-
-### Deployment Rings (Phased Rollout)
-| Ring | Environment | % of Fleet | Soak Time | Purpose |
-|------|------------|------------|-----------|---------|
+---
+name: vuln-patch
+description: Patch management is the systematic process of identifying, testing, deploying, and verifying software updates to remediate vulnerabilities across an organization's IT infrastructure. An effective patch management workflow reduces the attack surface while minimizing operational disruption through structured testing, approval gates, and phased rollou
+domain: cybersecurity
+---
+---|------------|------------|-----------|---------|
 | Ring 0 | Lab/Test | N/A | 24-48 hrs | Functional validation |
 | Ring 1 | IT Early Adopters | 5% | 48-72 hrs | Real-world pilot |
 | Ring 2 | Business Pilot | 15% | 5-7 days | Broader compatibility |
@@ -162,6 +126,7 @@ def get_linux_pending_patches():
 
 ```yaml
 # Ansible playbook: test_patches.yml
+domain: cybersecurity
 ---
 - name: Test Patches in Lab Environment
   hosts: test_servers
@@ -292,8 +257,8 @@ curl -k -X POST "https://nessus:8834/scans/$VERIFY_SCAN_ID/launch" \
 - implementing-vulnerability-remediation-sla
 - implementing-continuous-vulnerability-monitoring
 
+domain: cybersecurity
 ---
-
 ## CyberSecSuite Integration
 
 ```bash

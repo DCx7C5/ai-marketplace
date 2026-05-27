@@ -1,32 +1,9 @@
-# Performing SOC 2 Type II Audit Preparation
-
-## When to Use
-
-- When preparing for a SOC 2 Type II audit engagement with a CPA firm
-- When conducting a gap assessment against AICPA Trust Services Criteria
-- When automating evidence collection across cloud infrastructure and identity providers
-- When validating that controls have operated effectively over the audit period (3-12 months)
-- When building continuous compliance monitoring to maintain SOC 2 posture between audits
-- When remediating control gaps identified during readiness assessment
-
-## Prerequisites
-
-- Familiarity with AICPA Trust Services Criteria (CC1-CC9)
-- Access to cloud provider APIs (AWS, Azure, or GCP) with read-only permissions
-- Access to identity provider (Okta, Azure AD, Google Workspace)
-- Access to version control system (GitHub, GitLab)
-- Access to ticketing system (Jira, Linear, ServiceNow)
-- Python 3.8+ with `boto3`, `requests`, `pyyaml` dependencies
-- Appropriate authorization to collect compliance evidence
-
-## Instructions
-
-### 1. Understand the Trust Services Criteria
-
-SOC 2 is built on five Trust Services Categories defined by AICPA. Security (Common Criteria CC1-CC9) is mandatory; the others are selected based on business relevance:
-
-| Category | Criteria | Focus |
-|----------|----------|-------|
+---
+name: compliance-soc2-auditprep
+description: - When preparing for a SOC 2 Type II audit engagement with a CPA firm - When conducting a gap assessment against AICPA Trust Services Criteria - When automating evidence collection across cloud infrastructure and identity providers - When validating that controls have operated effectively over the audit period (3-12 months) - When building continuo
+domain: cybersecurity
+---
+-------|----------|-------|
 | Security (mandatory) | CC1-CC9 | Control environment, risk, access, operations, change management |
 | Availability | A1 | System uptime and disaster recovery |
 | Processing Integrity | PI1 | Accurate and complete data processing |

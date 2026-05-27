@@ -1,3 +1,8 @@
+---
+name: devel-jb-production-incident-responder
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-24`).
+domain: cybersecurity
+---
 # Production Incident Responder
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-24`).

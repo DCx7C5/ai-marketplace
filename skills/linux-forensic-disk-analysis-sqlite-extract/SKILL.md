@@ -1,31 +1,9 @@
-# Performing SQLite Database Forensics
-
-## Overview
-
-SQLite is the most widely deployed database engine in the world, used by virtually every mobile application, web browser, and many desktop applications to store user data. In digital forensics, SQLite databases are critical evidence sources containing browser history, messaging records, call logs, GPS locations, application preferences, and cached content. Forensic analysis goes beyond simple SQL queries to examine the internal B-tree page structures, freelist pages containing deleted records, Write-Ahead Log (WAL) files preserving transaction history, and unallocated space within database pages where recoverable data may persist after deletion.
-
-## When to Use
-
-- When conducting security assessments that involve performing sqlite database forensics
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- DB Browser for SQLite (sqlitebrowser)
-- SQLite command-line tools (sqlite3)
-- Python 3.8+ with sqlite3 module
-- Belkasoft Evidence Center or Axiom (commercial)
-- Hex editor (HxD, 010 Editor) for manual page inspection
-- Understanding of B-tree data structures
-
-## SQLite Internal Structure
-
-### Database Header (First 100 Bytes)
-
-| Offset | Size | Description |
-|--------|------|-------------|
+---
+name: linux-forensic-disk-analysis-sqlite-extract
+description: SQLite is the most widely deployed database engine in the world, used by virtually every mobile application, web browser, and many desktop applications to store user data. In digital forensics, SQLite databases are critical evidence sources containing browser history, messaging records, call logs, GPS locations, application preferences, and cached 
+domain: cybersecurity
+---
+-----|------|-------------|
 | 0 | 16 | Magic string: "SQLite format 3\000" |
 | 16 | 2 | Page size (512-65536 bytes) |
 | 18 | 1 | File format write version |

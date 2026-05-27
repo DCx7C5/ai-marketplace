@@ -1,38 +1,9 @@
-# Implementing End-to-End Encryption for Messaging
-
-## Overview
-
-End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version of the Signal Protocol's Double Ratchet algorithm, using X25519 for key exchange, HKDF for key derivation, and AES-256-GCM for message encryption.
-
-## When to Use
-
-- When deploying or configuring implementing end to end encryption for messaging capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Implement X25519 Diffie-Hellman key exchange for session establishment
-- Build the Double Ratchet key management algorithm
-- Encrypt and decrypt messages with per-message keys
-- Implement forward secrecy (compromise of current key does not reveal past messages)
-- Handle out-of-order message delivery
-- Implement key agreement using X3DH (Extended Triple Diffie-Hellman)
-
-## Key Concepts
-
-### Signal Protocol Components
-
-| Component | Purpose | Algorithm |
-|-----------|---------|-----------|
+---
+name: crypto-encryption-e2eencryption-recover
+description: End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version of the Signal Protocol's Double Ratchet algorithm, using X25519 for key exchange, HKDF for key derivation, and AES-256-GCM for message encryption.
+domain: cybersecurity
+---
+--------|---------|-----------|
 | X3DH | Initial key agreement | X25519 |
 | Double Ratchet | Ongoing key management | X25519 + HKDF + AES-GCM |
 | Sending Chain | Per-message encryption keys | HMAC-SHA256 chain |

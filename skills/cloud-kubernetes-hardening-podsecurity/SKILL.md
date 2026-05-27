@@ -1,28 +1,9 @@
-# Implementing Kubernetes Pod Security Standards
-
-## Overview
-
-Pod Security Standards (PSS) define three levels of security policies -- Privileged, Baseline, and Restricted -- enforced by the Pod Security Admission (PSA) controller built into Kubernetes 1.25+. PSA replaces the deprecated PodSecurityPolicy and provides namespace-level enforcement with three modes: enforce, audit, and warn.
-
-## When to Use
-
-- When deploying or configuring implementing kubernetes pod security standards capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Kubernetes cluster 1.25+ (PSA GA)
-- kubectl configured with cluster-admin access
-- Understanding of Linux capabilities and security contexts
-
-## Core Concepts
-
-### Three Security Profiles
-
-| Profile | Purpose | Restrictions |
-|---------|---------|-------------|
+---
+name: cloud-kubernetes-hardening-podsecurity
+description: Pod Security Standards (PSS) define three levels of security policies -- Privileged, Baseline, and Restricted -- enforced by the Pod Security Admission (PSA) controller built into Kubernetes 1.25+. PSA replaces the deprecated PodSecurityPolicy and provides namespace-level enforcement with three modes: enforce, audit, and warn.
+domain: cybersecurity
+---
+------|---------|-------------|
 | **Privileged** | Unrestricted, system workloads | None |
 | **Baseline** | Prevents known escalations | No hostNetwork, hostPID, hostIPC, privileged containers, dangerous capabilities |
 | **Restricted** | Hardened best practices | Non-root, drop ALL caps, seccomp required, read-only rootfs recommended |

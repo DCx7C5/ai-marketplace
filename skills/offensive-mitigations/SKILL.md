@@ -1,3 +1,8 @@
+---
+name: offensive-mitigations
+description: - Randomizes memory addresses where the kernel and its components are loaded.
+domain: cybersecurity
+---
 ## Full Methodology
 
 # Modern Kernel Exploit Mitigations
@@ -1321,4 +1326,3 @@ flowchart LR
     FutureMitigations --> MTE
     FutureMitigations --> CFI
 ```
-

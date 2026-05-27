@@ -1,33 +1,9 @@
-# Analyzing MFT for Deleted File Recovery
-
-## Overview
-
-The NTFS Master File Table ($MFT) is the central metadata repository for every file and directory on an NTFS volume. Each file is represented by at least one 1024-byte MFT record containing attributes such as $STANDARD_INFORMATION (timestamps, permissions), $FILE_NAME (name, parent directory, timestamps), and $DATA (file content or cluster run pointers). When a file is deleted, its MFT record is marked as inactive (InUse flag cleared) but the metadata remains until the entry is reallocated by a new file. This persistence makes MFT analysis a primary technique for recovering deleted file evidence, reconstructing file system timelines, and detecting anti-forensic activity such as timestomping.
-
-## When to Use
-
-- When investigating security incidents that require analyzing mft for deleted file recovery
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- Forensic disk image (E01, raw/dd, VMDK, or VHDX format)
-- MFTECmd (Eric Zimmerman) or analyzeMFT (Python-based)
-- FTK Imager, Arsenal Image Mounter, or similar for image mounting
-- Timeline Explorer or Excel for CSV analysis
-- Python 3.8+ for custom analysis scripts
-- Understanding of NTFS file system internals
-
-## MFT Structure and Record Layout
-
-### MFT Record Header
-
-Each MFT record begins with the signature "FILE" (0x46494C45) and contains:
-
-| Offset | Size | Field |
-|--------|------|-------|
+---
+name: linux-fs-fs-ntfs-mft-forensic
+description: The NTFS Master File Table ($MFT) is the central metadata repository for every file and directory on an NTFS volume. Each file is represented by at least one 1024-byte MFT record containing attributes such as $STANDARD_INFORMATION (timestamps, permissions), $FILE_NAME (name, parent directory, timestamps), and $DATA (file content or cluster run poin
+domain: cybersecurity
+---
+-----|------|-------|
 | 0x00 | 4 bytes | Signature ("FILE") |
 | 0x04 | 2 bytes | Offset to update sequence |
 | 0x06 | 2 bytes | Size of update sequence |

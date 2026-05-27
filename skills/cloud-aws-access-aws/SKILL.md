@@ -1,33 +1,9 @@
-# Configuring AWS Verified Access for ZTNA
-
-## Overview
-
-AWS Verified Access is a Zero Trust Network Access (ZTNA) service that provides secure, VPN-less access to corporate applications hosted in AWS. It evaluates each access request in real-time against granular conditional access policies written in the Cedar policy language, ensuring access is granted per-application only when specific security requirements such as user identity and device security posture are met and maintained. Verified Access integrates with AWS IAM Identity Center, third-party identity providers (Okta, CrowdStrike, JumpCloud, Jamf), and device management solutions. For multi-account deployments, AWS Resource Access Manager (RAM) enables sharing Verified Access groups across organizational units.
-
-## When to Use
-
-- When deploying or configuring configuring aws verified access for ztna capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- AWS account with appropriate IAM permissions
-- Identity provider (AWS IAM Identity Center, Okta, or OIDC-compatible)
-- Device trust provider (CrowdStrike, Jamf, JumpCloud, or AWS Verified Access native)
-- Internal Application Load Balancer (ALB) or network interface endpoint
-- Understanding of Cedar policy language
-- VPC with application workloads to protect
-
-## Architecture
-
-```
-    End User (Browser)
-         |
-         | HTTPS
-         v
-  +------+--------+
+---
+name: cloud-aws-access-aws
+description: AWS Verified Access is a Zero Trust Network Access (ZTNA) service that provides secure, VPN-less access to corporate applications hosted in AWS. It evaluates each access request in real-time against granular conditional access policies written in the Cedar policy language, ensuring access is granted per-application only when specific security requi
+domain: cybersecurity
+---
+---+--------+
   | Verified      |
   | Access        |
   | Endpoint      |

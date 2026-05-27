@@ -1,35 +1,9 @@
-# Testing for Broken Access Control
-
-## When to Use
-
-- During authorized penetration tests as the primary assessment for OWASP A01:2021 - Broken Access Control
-- When evaluating role-based access control (RBAC) implementations across all application endpoints
-- For testing multi-tenant applications where users in one organization should not access another's data
-- When assessing API endpoints for missing or inconsistent authorization checks
-- During security audits where privilege escalation and unauthorized access are primary concerns
-
-## Prerequisites
-
-- **Authorization**: Written penetration testing agreement for the target
-- **Burp Suite Professional**: With Authorize extension for automated access control testing
-- **Multiple test accounts**: Accounts at each role level (admin, manager, user, guest)
-- **Application role matrix**: Documentation of what each role should and should not access
-- **curl/httpie**: For manual endpoint testing with different authentication contexts
-- **ffuf**: For discovering hidden endpoints that may lack access controls
-
-## Workflow
-
-### Step 1: Map All Endpoints and Create Access Control Matrix
-
-Document every endpoint and the expected access level for each role.
-
-```bash
-# Extract all endpoints from Burp Site Map
-# Target > Site Map > Right-click > Copy URLs in this host
-
-# Build a matrix of endpoints vs roles:
-# | Endpoint              | Admin | Manager | User | Guest |
-# |-----------------------|-------|---------|------|-------|
+---
+name: webapp-auth-bac
+description: - During authorized penetration tests as the primary assessment for OWASP A01:2021 - Broken Access Control - When evaluating role-based access control (RBAC) implementations across all application endpoints - For testing multi-tenant applications where users in one organization should not access another's data - When assessing API endpoints for mis
+domain: cybersecurity
+---
+--------------------|-------|---------|------|-------|
 # | GET /admin/dashboard  | Allow | Deny    | Deny | Deny  |
 # | GET /api/users        | Allow | Allow   | Deny | Deny  |
 # | PUT /api/users/{id}   | Allow | Deny    | Own  | Deny  |

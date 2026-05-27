@@ -1,38 +1,9 @@
-# Performing Hash Cracking with Hashcat
-
-## Overview
-
-Hash cracking is an essential skill for penetration testers and security auditors to evaluate password strength. Hashcat is the world's fastest password recovery tool, supporting over 300 hash types with GPU acceleration. This skill covers using hashcat for authorized password auditing, understanding attack modes, creating effective rule sets, and generating hash analysis reports. This is strictly for authorized penetration testing and password policy assessment.
-
-## When to Use
-
-- When conducting security assessments that involve performing hash cracking with hashcat
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Identify hash types from captured hashes
-- Execute dictionary, brute-force, and rule-based attacks
-- Create custom hashcat rules for targeted cracking
-- Analyze password strength from cracking results
-- Generate compliance reports on password policy effectiveness
-- Benchmark GPU performance for hash cracking
-
-## Key Concepts
-
-### Hashcat Attack Modes
-
-| Mode | Flag | Description | Use Case |
-|------|------|-------------|----------|
+---
+name: crypto-tools-hashcat-crack
+description: Hash cracking is an essential skill for penetration testers and security auditors to evaluate password strength. Hashcat is the world's fastest password recovery tool, supporting over 300 hash types with GPU acceleration. This skill covers using hashcat for authorized password auditing, understanding attack modes, creating effective rule sets, and 
+domain: cybersecurity
+---
+---|------|-------------|----------|
 | Dictionary | -a 0 | Wordlist attack | Known password patterns |
 | Combination | -a 1 | Combine two wordlists | Compound passwords |
 | Brute-force | -a 3 | Mask-based enumeration | Short passwords |

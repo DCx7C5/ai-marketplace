@@ -1,32 +1,9 @@
-# Implementing SCIM Provisioning with Okta
-
-## Overview
-
-SCIM (System for Cross-domain Identity Management) is an open standard protocol (RFC 7644) that automates the exchange of user identity information between identity providers like Okta and service providers. This skill covers building a SCIM 2.0-compliant API endpoint and integrating it with Okta for automated user lifecycle management including provisioning, deprovisioning, profile updates, and group management.
-
-## When to Use
-
-- When deploying or configuring implementing scim provisioning with okta capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Okta tenant with admin access (Developer or Production)
-- Application with REST API capable of user management
-- TLS-secured endpoint (HTTPS required)
-- Okta API token or OAuth 2.0 client credentials
-- Python 3.9+ with Flask or FastAPI
-
-## Core Concepts
-
-### SCIM 2.0 Protocol
-
-SCIM defines a standard schema for representing users and groups via JSON, with a RESTful API for CRUD operations:
-
-| Operation | HTTP Method | Endpoint | Description |
-|-----------|-------------|----------|-------------|
+---
+name: identity-provider-okta
+description: SCIM (System for Cross-domain Identity Management) is an open standard protocol (RFC 7644) that automates the exchange of user identity information between identity providers like Okta and service providers. This skill covers building a SCIM 2.0-compliant API endpoint and integrating it with Okta for automated user lifecycle management including pr
+domain: cybersecurity
+---
+--------|-------------|----------|-------------|
 | Create User | POST | /scim/v2/Users | Provisions a new user account |
 | Read User | GET | /scim/v2/Users/{id} | Retrieves user details |
 | Update User | PUT/PATCH | /scim/v2/Users/{id} | Modifies user attributes |

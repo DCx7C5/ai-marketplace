@@ -1,41 +1,9 @@
-# Implementing Pod Security Admission Controller
-
-## Overview
-
-Pod Security Admission (PSA) is a built-in Kubernetes admission controller (stable since v1.25) that enforces Pod Security Standards at the namespace level. It replaces the deprecated PodSecurityPolicy (PSP) and provides three security profiles: Privileged, Baseline, and Restricted, with three enforcement modes: enforce, audit, and warn.
-
-## When to Use
-
-- When deploying or configuring implementing pod security admission controller capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Kubernetes v1.25+ (PSA is stable/GA)
-- kubectl with cluster-admin access
-- No dependency on external tools - PSA is built into kube-apiserver
-
-## Pod Security Standards
-
-### Privileged Profile
-- **Unrestricted** - No restrictions applied
-- Use case: System-level pods (kube-system, monitoring)
-
-### Baseline Profile
-- **Minimally restrictive** - Prevents known privilege escalation
-- Blocks: privileged containers, hostPID, hostIPC, hostNetwork, hostPorts, certain volume types, adding capabilities beyond runtime defaults
-
-### Restricted Profile
-- **Heavily restricted** - Follows security best practices
-- Requires: non-root, drop ALL capabilities, seccomp RuntimeDefault, read-only root filesystem considerations
-- Blocks: Everything in Baseline plus running as root, privilege escalation, non-approved volume types
-
-## Enforcement Modes
-
-| Mode | Behavior | Use Case |
-|------|----------|----------|
+---
+name: cloud-containers-pod
+description: Pod Security Admission (PSA) is a built-in Kubernetes admission controller (stable since v1.25) that enforces Pod Security Standards at the namespace level. It replaces the deprecated PodSecurityPolicy (PSP) and provides three security profiles: Privileged, Baseline, and Restricted, with three enforcement modes: enforce, audit, and warn.
+domain: cybersecurity
+---
+---|----------|----------|
 | enforce | Reject pods violating policy | Production enforcement |
 | audit | Log violations to audit log | Pre-enforcement assessment |
 | warn | Show warnings to user | Developer feedback |

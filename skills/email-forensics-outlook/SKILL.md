@@ -1,28 +1,9 @@
-# Analyzing Outlook PST for Email Forensics
-
-## Overview
-
-Microsoft Outlook PST (Personal Storage Table) and OST (Offline Storage Table) files are critical evidence sources in digital forensics investigations. PST files store email messages, calendar events, contacts, tasks, and notes in a proprietary binary format based on the MAPI (Messaging Application Programming Interface) property system. Forensic analysis of these files enables recovery of deleted emails (from the Recoverable Items folder), extraction of email headers for tracing message routes, analysis of attachments for malware or exfiltrated data, and reconstruction of communication patterns. Modern PST files use Unicode format with 4KB pages and can grow up to 50GB, while legacy ANSI format is limited to 2GB.
-
-## When to Use
-
-- When investigating security incidents that require analyzing outlook pst for email forensics
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- libpff/pffexport (open-source PST parser)
-- Python 3.8+ with pypff or libratom libraries
-- MailXaminer, Forensic Email Collector, or SysTools PST Forensics (commercial)
-- Microsoft Outlook (optional, for native PST access)
-- Sufficient disk space for extracted content
-
-## PST File Locations
-
-| Source | Path |
-|--------|------|
+---
+name: email-forensics-outlook
+description: Microsoft Outlook PST (Personal Storage Table) and OST (Offline Storage Table) files are critical evidence sources in digital forensics investigations. PST files store email messages, calendar events, contacts, tasks, and notes in a proprietary binary format based on the MAPI (Messaging Application Programming Interface) property system. Forensic a
+domain: cybersecurity
+---
+-----|------|
 | Outlook 2016+ Default | %USERPROFILE%\Documents\Outlook Files\*.pst |
 | Outlook Legacy | %LOCALAPPDATA%\Microsoft\Outlook\*.pst |
 | OST Cache | %LOCALAPPDATA%\Microsoft\Outlook\*.ost |

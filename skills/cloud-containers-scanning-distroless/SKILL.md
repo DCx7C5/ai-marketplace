@@ -1,27 +1,9 @@
-# Implementing Container Image Minimal Base with Distroless
-
-## Overview
-
-Google distroless images contain only your application and its runtime dependencies, without package managers, shells, or other programs found in standard Linux distributions. By eliminating unnecessary OS components, distroless images achieve up to 95% reduction in attack surface compared to traditional base images like ubuntu or debian. Major projects including Kubernetes itself, Knative, and Tekton use distroless images in production. As of 2025, Docker also offers Hardened Images (DHI) as an open-source alternative for minimal container bases.
-
-## When to Use
-
-- When deploying or configuring implementing container image minimal base with distroless capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Docker 20.10+ or compatible container build tool (Buildah, Kaniko)
-- Multi-stage Dockerfile knowledge
-- Application compiled as a static binary or with runtime bundled
-- Container registry for image storage
-
-## Available Distroless Images
-
-| Image | Use Case | Size |
-|-------|----------|------|
+---
+name: cloud-containers-scanning-distroless
+description: Google distroless images contain only your application and its runtime dependencies, without package managers, shells, or other programs found in standard Linux distributions. By eliminating unnecessary OS components, distroless images achieve up to 95% reduction in attack surface compared to traditional base images like ubuntu or debian. Major pro
+domain: cybersecurity
+---
+----|----------|------|
 | `gcr.io/distroless/static-debian12` | Statically compiled binaries (Go, Rust) | ~2MB |
 | `gcr.io/distroless/base-debian12` | Dynamically linked binaries needing glibc | ~20MB |
 | `gcr.io/distroless/cc-debian12` | C/C++ applications needing libstdc++ | ~25MB |

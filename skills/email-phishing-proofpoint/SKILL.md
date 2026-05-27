@@ -1,39 +1,9 @@
-# Implementing Proofpoint Email Security Gateway
-
-## Overview
-Proofpoint Email Protection is a cloud-native secure email gateway (SEG) that acts as a security checkpoint where all inbound and outbound mail traffic routes through the gateway before reaching user inboxes. It combines signature-based detection for known malware, machine learning algorithms for emerging threats, real-time threat intelligence feeds, URL rewriting with time-of-click sandboxing, and behavioral analysis for BEC detection. Proofpoint processes over 2.8 billion emails daily and blocks over 1 million extortion attempts per day.
-
-## When to Use
-
-- When deploying or configuring implementing proofpoint email security gateway capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Proofpoint Email Protection license (PPS on-premises or Proofpoint on Demand cloud)
-- Administrative access to DNS management for MX record changes
-- Microsoft 365 or Google Workspace email environment
-- Understanding of mail flow architecture and SPF/DKIM/DMARC
-- Network firewall rules permitting Proofpoint IP ranges
-
-## Key Concepts
-
-### Deployment Models
-1. **MX-Based Gateway (Traditional SEG)**: All mail routes through Proofpoint via MX record changes; intercepts threats before delivery
-2. **API-Based Integration**: Connects directly to Microsoft 365 or Google Workspace via API; no MX changes required; can be operational within 48 hours
-3. **Hybrid Deployment**: Combines gateway and API for layered protection
-
-### Core Detection Technologies
-- **Impostor Classifier**: ML model detecting BEC/impersonation with no malicious URLs or attachments
-- **URL Defense**: Rewrites URLs and performs real-time sandboxing at time of click
-- **Attachment Defense**: Sandboxes suspicious attachments in virtual environments
-- **Nexus Threat Graph**: Cross-customer threat intelligence correlation engine
-- **Supplier Threat Detection**: Identifies compromised vendor email accounts
-
-### Protection Layers
-| Layer | Technology | Threat Type |
-|---|---|---|
+---
+name: email-phishing-proofpoint
+description: Proofpoint Email Protection is a cloud-native secure email gateway (SEG) that acts as a security checkpoint where all inbound and outbound mail traffic routes through the gateway before reaching user inboxes. It combines signature-based detection for known malware, machine learning algorithms for emerging threats, real-time threat intelligence feed
+domain: cybersecurity
+---
+|---|---|
 | Connection | IP reputation, rate limiting | Spam botnets |
 | Authentication | SPF, DKIM, DMARC enforcement | Spoofing |
 | Content | ML classifiers, NLP analysis | BEC, phishing |

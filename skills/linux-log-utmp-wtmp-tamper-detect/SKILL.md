@@ -13,8 +13,6 @@ tags:
 nist_csf:
 - DE.CM-01
 - DE.AE-02
-model: sonnet
-maxTurns: 15
 tools: [Read, Bash, Glob, Grep]
 mitre_attack:
 - T1070.006

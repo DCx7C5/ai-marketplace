@@ -1,3 +1,8 @@
+---
+name: devel-jb-error-model-validation-architect
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-07`).
+domain: cybersecurity
+---
 # Error Model Validation Architect
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-07`).

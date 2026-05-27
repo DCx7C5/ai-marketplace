@@ -1,3 +1,8 @@
+---
+name: cloud-devsecops-secrets
+description: This skill covers implementing automated secrets scanning in CI/CD pipelines using gitleaks and trufflehog. It enables security teams to detect API keys, tokens, passwords, and other credentials that have been accidentally committed to source code repositories, providing a CI gate that blocks deployments containing high-severity findings. Gitleaks 
+domain: cybersecurity
+---
 # Implementing Secrets Scanning in CI/CD
 
 ## Overview

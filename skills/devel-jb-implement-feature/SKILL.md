@@ -1,47 +1,9 @@
-Implement a feature following TDD workflow. $ARGUMENTS is a spec file path (e.g., `specs/my-feature.md`) or a plain-text feature description.
-
-**Scope**: This skill writes Go code and tests. It does NOT update website docs (use `update-docs` after) or CHANGELOG (use `changelog` after).
-
-## Workflow
-
-### Step 1: Understand Requirements
-
-If $ARGUMENTS is a file path:
-1. Read the spec file
-2. Extract acceptance criteria and edge cases
-3. Identify affected packages
-
-If $ARGUMENTS is a description:
-1. Search existing code for related functionality
-2. Identify the right package to extend
-3. Confirm scope with user before proceeding
-
-### Step 2: Identify Affected Files
-
-List all files that will be created or modified:
-
-```bash
-# Typical pattern for a new command
-cmd/skillshare/<command>.go          # Command handler
-cmd/skillshare/<command>_project.go  # Project-mode handler (if dual-mode)
-internal/<package>/<feature>.go      # Core logic
-tests/integration/<command>_test.go  # Integration test
-```
-
-Display the file list and continue. If scope is unclear, ask the user.
-
-### Step 3: Write Failing Tests First (RED)
-
-Write integration tests using `testutil.Sandbox`:
-
-```go
-func TestFeature_BasicCase(t *testing.T) {
-    sb := testutil.NewSandbox(t)
-    defer sb.Cleanup()
-
-    // Setup
-    sb.CreateSkill("test-skill", map[string]string{
-        "SKILL.md": "---\nname: test-skill\n---\n# Content",
+---
+name: devel-jb-implement-feature
+description: **Scope**: This skill writes Go code and tests. It does NOT update website docs (use `update-docs` after) or CHANGELOG (use `changelog` after).
+domain: cybersecurity
+---
+\nname: test-skill\n---\n# Content",
     })
 
     // Act

@@ -1,3 +1,8 @@
+---
+name: cloud-security-shadow
+description: Shadow IT refers to unauthorized SaaS applications and cloud services used without IT approval. This skill analyzes proxy logs, DNS query logs, and firewall/netflow data to identify unauthorized cloud service usage, classify discovered domains against known SaaS categories, measure data transfer volumes, and flag high-risk services based on securit
+domain: cybersecurity
+---
 # Detecting Shadow IT Cloud Usage
 
 ## Overview

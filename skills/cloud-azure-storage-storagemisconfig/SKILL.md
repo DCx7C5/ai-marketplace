@@ -1,3 +1,8 @@
+---
+name: cloud-azure-storage-storagemisconfig
+description: Azure Storage accounts are a frequent target for attackers due to misconfigured public access, long-lived SAS tokens, missing encryption, and outdated TLS versions. This skill uses the azure-mgmt-storage Python SDK with StorageManagementClient to enumerate all storage accounts in a subscription, inspect their security properties, list blob containe
+domain: cybersecurity
+---
 # Detecting Azure Storage Account Misconfigurations
 
 ## Overview

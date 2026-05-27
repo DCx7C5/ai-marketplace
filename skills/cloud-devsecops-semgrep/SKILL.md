@@ -1,3 +1,8 @@
+---
+name: cloud-devsecops-semgrep
+description: Semgrep is an open-source static analysis tool that uses pattern-matching to find bugs, enforce code standards, and detect security vulnerabilities. Custom rules are written in YAML using Semgrep's pattern syntax, making it accessible without requiring compiler knowledge. It supports 30+ languages including Python, JavaScript, Go, Java, and C.
+domain: cybersecurity
+---
 # Implementing Semgrep for Custom SAST Rules
 
 ## Overview

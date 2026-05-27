@@ -1,85 +1,9 @@
-# Implementing EPSS Score for Vulnerability Prioritization
-
-## Overview
-
-The Exploit Prediction Scoring System (EPSS) is a data-driven model developed by FIRST (Forum of Incident Response and Security Teams) that estimates the probability of a CVE being exploited in the wild within the next 30 days. EPSS produces scores from 0.0 to 1.0 (0% to 100%) using machine learning trained on real-world exploitation data. Unlike CVSS which measures severity, EPSS measures likelihood of exploitation, making it essential for risk-based vulnerability prioritization.
-
-## When to Use
-
-- When deploying or configuring implementing epss score for vulnerability prioritization capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Python 3.9+ with `requests`, `pandas`, `matplotlib`
-- Access to FIRST EPSS API (https://api.first.org/data/v1/epss)
-- Vulnerability scan results with CVE identifiers
-- Optional: NVD API key for CVSS enrichment
-
-## EPSS API Usage
-
-### Query Single CVE
-```bash
-# Get EPSS score for a specific CVE
-curl -s "https://api.first.org/data/v1/epss?cve=CVE-2024-3400" | python3 -m json.tool
-
-# Response:
-# {
-#   "status": "OK",
-#   "status-code": 200,
-#   "version": "1.0",
-#   "total": 1,
-#   "data": [
-#     {
-#       "cve": "CVE-2024-3400",
-#       "epss": "0.95732",
-#       "percentile": "0.99721",
-#       "date": "2024-04-15"
-#     }
-#   ]
-# }
-```
-
-### Query Multiple CVEs
-```bash
-# Batch query up to 100 CVEs
-curl -s "https://api.first.org/data/v1/epss?cve=CVE-2024-3400,CVE-2024-21887,CVE-2023-44228" | \
-  python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-for item in data['data']:
-    pct = float(item['epss']) * 100
-    print(f\"{item['cve']}: {pct:.2f}% exploitation probability (percentile: {item['percentile']})\")
-"
-```
-
-### Download Full EPSS Dataset
-```bash
-# Download complete daily EPSS scores (CSV format)
-curl -s "https://epss.cyentia.com/epss_scores-current.csv.gz" | gunzip > epss_scores_current.csv
-
-# Check size and preview
-wc -l epss_scores_current.csv
-head -5 epss_scores_current.csv
-```
-
-### Query Historical EPSS Scores
-```bash
-# Get EPSS score for a specific date
-curl -s "https://api.first.org/data/v1/epss?cve=CVE-2024-3400&date=2024-04-12"
-
-# Get time series data
-curl -s "https://api.first.org/data/v1/epss?cve=CVE-2024-3400&scope=time-series"
-```
-
-## Prioritization Strategy
-
-### EPSS + CVSS Combined Approach
-
-| EPSS Score | CVSS Score | Priority | Action |
-|-----------|-----------|----------|--------|
+---
+name: vuln-prioritization-epss
+description: The Exploit Prediction Scoring System (EPSS) is a data-driven model developed by FIRST (Forum of Incident Response and Security Teams) that estimates the probability of a CVE being exploited in the wild within the next 30 days. EPSS produces scores from 0.0 to 1.0 (0% to 100%) using machine learning trained on real-world exploitation data. Unlike C
+domain: cybersecurity
+---
+--------|-----------|----------|--------|
 | > 0.7 | >= 9.0 | P0 - Immediate | Remediate within 24 hours |
 | > 0.7 | >= 7.0 | P1 - Urgent | Remediate within 48 hours |
 | > 0.4 | >= 7.0 | P2 - High | Remediate within 7 days |

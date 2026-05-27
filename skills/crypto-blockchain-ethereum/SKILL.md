@@ -1,3 +1,8 @@
+---
+name: crypto-blockchain-ethereum
+description: Smart contract vulnerabilities have led to billions of dollars in losses across DeFi protocols. Unlike traditional software, deployed smart contracts are immutable and handle real financial assets, making pre-deployment security analysis critical. Slither performs fast static analysis using an intermediate representation to detect over 90 vulnerabi
+domain: cybersecurity
+---
 # Analyzing Ethereum Smart Contract Vulnerabilities
 
 ## Overview

@@ -1,15 +1,9 @@
-# sheets (v4)
-
-> **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
-
-```bash
-gws sheets <resource> <method> [flags]
-```
-
-## Helper Commands
-
-| Command | Description |
-|---------|-------------|
+---
+name: devel-jb-gws-sheets
+description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+domain: cybersecurity
+---
+------|-------------|
 | [`+append`](../gws-sheets-append/SKILL.md) | Append a row to a spreadsheet |
 | [`+read`](../gws-sheets-read/SKILL.md) | Read values from a spreadsheet |
 

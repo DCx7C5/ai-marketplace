@@ -1,3 +1,8 @@
+---
+name: soc-hunting-defense
+description: - Investigating suspected anti-forensic activity where an adversary may have altered file timestamps to blend malware into legitimate directories - Threat hunting for defense evasion (MITRE ATT&CK T1070.006) across compromised Windows systems - Validating timeline integrity during forensic examinations of disk images or live acquisitions - Triaging
+domain: cybersecurity
+---
 # Hunting for Defense Evasion via Timestomping
 
 Detect timestamp manipulation by analyzing NTFS MFT entries for

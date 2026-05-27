@@ -1,11 +1,8 @@
-# MCP Server Development Guide
-
-## Overview
-
-Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
-
 ---
-
+name: devel-jb-mcp-builder
+description: Create MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. The quality of an MCP server is measured by how well it enables LLMs to accomplish real-world tasks.
+domain: cybersecurity
+---
 # Process
 
 ## 🚀 High-Level Workflow
@@ -68,7 +65,6 @@ Review the service's API documentation to identify key endpoints, authentication
 Prioritize comprehensive API coverage. List endpoints to implement, starting with the most common operations.
 
 ---
-
 ### Phase 2: Implementation
 
 #### 2.1 Set Up Project Structure
@@ -116,8 +112,8 @@ For each tool:
 - `idempotentHint`: true/false
 - `openWorldHint`: true/false
 
+domain: cybersecurity
 ---
-
 ### Phase 3: Review and Test
 
 #### 3.1 Code Quality
@@ -141,7 +137,6 @@ Review for:
 See language-specific guides for detailed testing approaches and quality checklists.
 
 ---
-
 ### Phase 4: Create Evaluations
 
 After implementing your MCP server, create comprehensive evaluations to test its effectiveness.
@@ -185,8 +180,8 @@ Create an XML file with this structure:
 </evaluation>
 ```
 
+domain: cybersecurity
 ---
-
 # Reference Files
 
 ## 📚 Documentation Library

@@ -1,37 +1,9 @@
-# Implementing Zero-Knowledge Proof for Authentication
-
-## Overview
-
-Zero-Knowledge Proofs (ZKPs) allow a prover to demonstrate knowledge of a secret (such as a password or private key) without revealing the secret itself. This skill implements the Schnorr identification protocol and a simplified ZKPP (Zero-Knowledge Password Proof) using the discrete logarithm problem, enabling authentication where the server never learns the user's password.
-
-## When to Use
-
-- When deploying or configuring implementing zero knowledge proof for authentication capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Implement Schnorr's identification protocol for ZKP authentication
-- Build a non-interactive ZKP using Fiat-Shamir heuristic
-- Implement zero-knowledge password proof (ZKPP)
-- Demonstrate completeness, soundness, and zero-knowledge properties
-- Compare ZKP authentication with traditional password verification
-
-## Key Concepts
-
-### ZKP Properties
-
-| Property | Description |
-|----------|------------|
+---
+name: crypto-posthash-zero-quantum
+description: Zero-Knowledge Proofs (ZKPs) allow a prover to demonstrate knowledge of a secret (such as a password or private key) without revealing the secret itself. This skill implements the Schnorr identification protocol and a simplified ZKPP (Zero-Knowledge Password Proof) using the discrete logarithm problem, enabling authentication where the server never
+domain: cybersecurity
+---
+-------|------------|
 | Completeness | Honest prover always convinces honest verifier |
 | Soundness | Dishonest prover cannot convince verifier (except negligible probability) |
 | Zero-Knowledge | Verifier learns nothing beyond the statement's truth |

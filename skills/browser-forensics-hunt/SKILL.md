@@ -1,18 +1,9 @@
-## Overview
-
-Investigate browser compromise indicators on Linux. Analyzes running browser processes, profile data (cookies, history, preferences), installed extensions for known-malicious IDs, and network connections made by the browser. Findings logged to both `findings.md` (session dir) and ORM database via `db.browser_forensics.log_finding_async`.
-
-## Usage
-
-```
-Invoke when: suspected session hijacking, malicious extension, cookie theft, or browser-based C2.
-Options: --deep (full artifact collection), --browser brave|all, --cookies, --extensions
-```
-
-## Checks
-
-| Area | What is checked |
-|---|---|
+---
+name: browser-forensics-hunt
+description: Investigate browser compromise indicators on Linux. Analyzes running browser processes, profile data (cookies, history, preferences), installed extensions for known-malicious IDs, and network connections made by the browser. Findings logged to both `findings.md` (session dir) and ORM database via `db.browser_forensics.log_finding_async`.
+domain: cybersecurity
+---
+|---|
 | Processes | Running browser processes, open file handles, memory maps |
 | Cookies | Cookie files copied + analyzed for suspicious session tokens |
 | History | Recent URLs cross-referenced against known malicious domains |
@@ -22,8 +13,7 @@ Options: --deep (full artifact collection), --browser brave|all, --cookies, --ex
 ## Artifacts
 
 - `session_dir/artifacts/browser/` — copied profile data
-- ORM model: `db.browser_forensics` — `log_finding_async()` for each hit
-- Uses `BrowserCookiesDB`, `BrowserHistoryDB`, `BrowserPreferencesDB` abstractions
+- ORM - Uses `BrowserCookiesDB`, `BrowserHistoryDB`, `BrowserPreferencesDB` abstractions
 
 ## MITRE Coverage
 

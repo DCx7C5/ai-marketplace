@@ -1,3 +1,8 @@
+---
+name: offensive-edr-evasion
+description: **Antivirus (preventive approach)**:
+domain: cybersecurity
+---
 ## Full Methodology
 
 # Endpoint Detection and Response
@@ -1776,4 +1781,3 @@ sequenceDiagram
     K->>S: Return to User Mode
     S->>L: Continue Execution
 ```
-

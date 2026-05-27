@@ -1,52 +1,9 @@
-# Triaging Security Incidents
-
-## When to Use
-
-- A SIEM or EDR alert fires and requires human classification before escalation
-- Multiple concurrent alerts arrive and the SOC must prioritize response order
-- An end user reports suspicious activity and the incident needs initial categorization
-- A threat intelligence feed matches an IOC observed in the environment
-
-**Do not use** for routine vulnerability scanning results or compliance audit findings that do not represent active security incidents.
-
-## Prerequisites
-
-- Access to SIEM platform (Splunk, Elastic, Microsoft Sentinel) with current alert data
-- Incident classification taxonomy aligned to NIST SP 800-61r3 categories
-- Predefined severity matrix mapping asset criticality to threat type
-- Contact roster for escalation paths (Tier 1 through Tier 3 and CIRT)
-- Asset inventory with business criticality ratings
-
-## Workflow
-
-### Step 1: Collect Initial Alert Data
-
-Gather all available context from the triggering alert before making classification decisions:
-
-- **Alert source**: Which detection system generated the alert (EDR, SIEM, IDS/IPS, firewall, user report)
-- **Timestamp**: When the event occurred and when it was detected (dwell time gap)
-- **Affected assets**: Hostnames, IP addresses, user accounts involved
-- **Alert fidelity**: Historical true-positive rate for this detection rule
-- **Raw evidence**: Log entries, packet captures, process execution chains
-
-```
-Example SIEM alert context:
-Source:       CrowdStrike Falcon
-Detection:    Suspicious PowerShell Execution (T1059.001)
-Host:         WORKSTATION-FIN-042
-User:         jsmith@corp.example.com
-Timestamp:    2025-11-15T14:23:17Z
-Severity:     High (detection rule confidence: 92%)
-Process:      powershell.exe -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoA...
-Parent:       outlook.exe (PID 4812)
-```
-
-### Step 2: Classify the Incident Type
-
-Map the alert to a standard incident category per NIST SP 800-61r3:
-
-| Category | Examples |
-|----------|----------|
+---
+name: soc-triage-security
+description: - A SIEM or EDR alert fires and requires human classification before escalation - Multiple concurrent alerts arrive and the SOC must prioritize response order - An end user reports suspicious activity and the incident needs initial categorization - A threat intelligence feed matches an IOC observed in the environment **Do not use** for routine vuln
+domain: cybersecurity
+---
+-------|----------|
 | Unauthorized Access | Compromised credentials, privilege escalation, IDOR |
 | Denial of Service | Volumetric DDoS, application-layer flood, resource exhaustion |
 | Malicious Code | Malware execution, ransomware detonation, cryptominer |

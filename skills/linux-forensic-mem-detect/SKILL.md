@@ -1,18 +1,9 @@
-## Overview
-
-Userspace memory forensics on Linux via `/proc/<pid>/maps`. Detects injection indicators: rwx memory regions, anonymous executable mappings, `/tmp/`-backed libs, and deleted executables still mapped in memory. No kernel module or elevated tool required beyond read access to `/proc`.
-
-## Usage
-
-```
-Invoke when: suspicious process detected, post-exploitation suspected, or memory-resident malware suspected.
-Options: --analyze (inspect maps), --target process|all, --pid <PID>
-```
-
-## Injection Indicators
-
-| Pattern | Significance |
-|---|---|
+---
+name: linux-forensic-mem-detect
+description: Userspace memory forensics on Linux via `/proc/<pid>/maps`. Detects injection indicators: rwx memory regions, anonymous executable mappings, `/tmp/`-backed libs, and deleted executables still mapped in memory. No kernel module or elevated tool required beyond read access to `/proc`.
+domain: cybersecurity
+---
+|---|
 | `rwx` permissions | Shellcode or JIT-compiled payload |
 | `/tmp/` path | Dropper injecting from temp |
 | `deleted` in path | Executable deleted after load (fileless) |

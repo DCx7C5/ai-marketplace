@@ -1,51 +1,9 @@
-# Linux Capabilities Enumeration & Detection
-
-## Overview
-
-Linux capabilities divide root privileges into discrete units (e.g., `CAP_NET_ADMIN`, `CAP_SYS_PTRACE`). Attackers abuse misconfigured capabilities to escalate privileges without needing SUID binaries or full root access. This skill covers enumeration, audit, and detection of capability abuse.
-
-## When to Use
-
-- When auditing binaries for unnecessary elevated capabilities
-- When investigating container escapes or privilege escalation
-- When implementing least-privilege on Linux endpoints
-- When hunting for capability-based persistence or evasion
-
-## Prerequisites
-
-- `libcap2-bin` package (`getcap`, `setcap`, `capsh`)
-- `pscap` from `libcap-ng-utils` for process capability audit
-
-## Core Commands
-
-### Enumerate File Capabilities
-```bash
-# Find all files with capabilities set (recursive)
-getcap -r / 2>/dev/null
-
-# Common dangerous capabilities
-getcap -r / 2>/dev/null | grep -E "cap_setuid|cap_net_raw|cap_sys_ptrace|cap_sys_admin|cap_dac_override"
-```
-
-### Enumerate Process Capabilities
-```bash
-# Per-process capability sets
-cat /proc/<PID>/status | grep -i cap
-
-# Decode capability hex values
-capsh --decode=0x0000003fffffffff
-
-# All running processes with capabilities
-pscap -a 2>/dev/null
-
-# Check current shell capabilities
-capsh --print
-```
-
-### Identify Dangerous Capability Combinations
-
-| Capability | Abuse Vector |
-|---|---|
+---
+name: linux-kernel-id-cap-enum-detect
+description: Linux capabilities divide root privileges into discrete units (e.g., `CAP_NET_ADMIN`, `CAP_SYS_PTRACE`). Attackers abuse misconfigured capabilities to escalate privileges without needing SUID binaries or full root access. This skill covers enumeration, audit, and detection of capability abuse.
+domain: cybersecurity
+---
+|---|
 | `CAP_SYS_PTRACE` | Inject shellcode into any process (T1055) |
 | `CAP_SYS_ADMIN` | Mount namespaces, bypass seccomp, write cgroups |
 | `CAP_NET_RAW` | Raw socket sniffing, ARP poisoning |
@@ -90,4 +48,3 @@ setcap cap_net_raw-eip /usr/bin/ping
 | Binary with `cap_setuid+ep` | T1548.001 — Setuid and Setgid |
 | Process with `cap_sys_ptrace` injecting shellcode | T1055 — Process Injection |
 | Container with `cap_sys_admin` escaping namespace | T1611 — Escape to Host |
-

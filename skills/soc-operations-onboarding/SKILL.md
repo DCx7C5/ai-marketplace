@@ -1,30 +1,9 @@
-# Performing Log Source Onboarding in SIEM
-
-## Overview
-
-Log source onboarding is the systematic process of integrating new data sources into a SIEM platform to enable security monitoring and detection. Proper onboarding requires planning data sources, configuring collection agents, building parsers, normalizing fields to a common schema, and validating data quality. According to the UK NCSC, onboarding should prioritize log sources that provide the highest security value relative to their ingestion cost.
-
-## When to Use
-
-- When conducting security assessments that involve performing log source onboarding in siem
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- SIEM platform deployed (Splunk, Elastic, Sentinel, QRadar, or similar)
-- Network access from source systems to SIEM collectors
-- Administrative access on source systems for agent installation
-- Common Information Model (CIM) or equivalent schema documentation
-- Change management approval for production system modifications
-
-## Log Source Priority Framework
-
-### Tier 1 - Critical (Onboard First)
-
-| Source | Log Type | Security Value |
-|---|---|---|
+---
+name: soc-operations-onboarding
+description: Log source onboarding is the systematic process of integrating new data sources into a SIEM platform to enable security monitoring and detection. Proper onboarding requires planning data sources, configuring collection agents, building parsers, normalizing fields to a common schema, and validating data quality. According to the UK NCSC, onboarding 
+domain: cybersecurity
+---
+|---|---|
 | Active Directory | Security Event Logs | Authentication, privilege escalation |
 | Firewalls | Traffic logs | Network access, C2 detection |
 | EDR/AV | Endpoint alerts | Malware, process execution |

@@ -1,3 +1,8 @@
+---
+name: offensive-osint-methodology
+description: - Fake account that cannot be linked to you
+domain: cybersecurity
+---
 ## Full Methodology
 
 # OSINT Methodology
@@ -404,4 +409,3 @@
   - [Sensity AI](https://sensity.ai/)
   - [Hive Moderation](https://hivemoderation.com/)
   - [Reality Defender](https://realitydefender.com/)
-

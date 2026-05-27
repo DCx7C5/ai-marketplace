@@ -1,10 +1,8 @@
-# MITRE ATT&CK Mapper Skill — Comprehensive Threat Intelligence Engine
-
-**Purpose:**  
-Advanced threat intelligence engine that analyzes security indicators, IOCs, behavioral patterns, and anti-forensic techniques through the MITRE ATT&CK framework. Provides comprehensive attack surface evaluation, defense mapping, hardening recommendations, and forensic intelligence correlation for elite threat hunting and incident response.
-
 ---
-
+name: intel-analysis-mitre-attack
+description: **Purpose:**
+domain: cybersecurity
+---
 ## Enhanced Core Capabilities
 
 ### 🔍 **Advanced Forensic Intelligence Mapping**
@@ -36,7 +34,6 @@ Advanced threat intelligence engine that analyzes security indicators, IOCs, beh
 - **Temporal pattern analysis**: Track MITRE technique usage over time
 
 ---
-
 ## Enhanced Analysis Framework
 
 ### **Comprehensive Tactic Categories with Forensic Context**
@@ -70,8 +67,8 @@ Advanced threat intelligence engine that analyzes security indicators, IOCs, beh
 | T1070 (Indicator Removal on Host)       | Evidence deletion, artifact cleanup       | Secure deletion, metadata wiping      | File recovery, artifact reconstruction               |
 | T1027 (Obfuscated Files or Information) | Encoded content, encrypted payloads       | Advanced obfuscation, steganography   | Content analysis, obfuscation detection              |
 
+domain: cybersecurity
 ---
-
 ## Forensic Intelligence Integration
 
 ### 🔍 **Cross-Session MITRE Analysis**
@@ -144,7 +141,6 @@ async def map_techniques_to_defenses(techniques, system_config):
 ```
 
 ---
-
 ## Anti-Forensic Technique Analysis
 
 ### 🕵️ **Evasion Technique Mapping**
@@ -221,8 +217,8 @@ async def map_techniques_to_defenses(techniques, system_config):
 - Metadata forensics
 ```
 
+domain: cybersecurity
 ---
-
 ## Enhanced Output Format
 
 ### **Comprehensive MITRE Analysis Report**
@@ -433,7 +429,6 @@ alert tcp any any -> any any (msg:"MITRE T1001.003 Steganographic C2"; \
 ```
 
 ---
-
 ## Integration with Comprehensive Forensic Framework
 
 ### 🔄 **Database Integration**
@@ -499,8 +494,8 @@ correlate_mitre_real_time() {
 }
 ```
 
+domain: cybersecurity
 ---
-
 ## Advanced Analytics & Machine Learning
 
 ### 🧠 **MITRE Pattern Recognition**
@@ -554,7 +549,6 @@ def generate_defensive_priorities(predicted_techniques, system_config):
 ```
 
 ---
-
 ## Quality Assurance & Validation
 
 ### ✅ **MITRE Mapping Validation**
@@ -569,8 +563,8 @@ def generate_defensive_priorities(predicted_techniques, system_config):
 - **Defense effectiveness**: Measured reduction in successful attacks
 - **Time to detection**: Speed of MITRE technique identification
 
+domain: cybersecurity
 ---
-
 ## Rules for Enhanced MITRE Analysis
 
 1. **Cross-session correlation** → Always analyze MITRE technique evolution across sessions

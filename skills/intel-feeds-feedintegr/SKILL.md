@@ -1,31 +1,9 @@
-# Building Threat Intelligence Feed Integration
-
-## When to Use
-
-Use this skill when:
-- SOC teams need automated ingestion of threat intelligence feeds into SIEM platforms
-- Multiple TI sources require normalization into a common format (STIX 2.1)
-- Detection systems need real-time IOC matching against network and endpoint telemetry
-- TI feed quality assessment and deduplication processes need to be established
-
-**Do not use** for manual IOC lookup — use dedicated enrichment tools (VirusTotal, AbuseIPDB) for ad-hoc queries.
-
-## Prerequisites
-
-- MISP instance or Threat Intelligence Platform (TIP) for feed aggregation
-- STIX/TAXII client library (`taxii2-client`, `stix2` Python packages)
-- SIEM platform (Splunk ES, Elastic Security, or Sentinel) with TI framework configured
-- API keys for commercial and open-source feeds (AlienVault OTX, Abuse.ch, CISA AIS)
-- Python 3.8+ for feed processing automation
-
-## Workflow
-
-### Step 1: Identify and Catalog Intelligence Sources
-
-Map available feeds by type, format, and update frequency:
-
-| Feed Source | Format | IOC Types | Update Freq | Cost |
-|-------------|--------|-----------|-------------|------|
+---
+name: intel-feeds-feedintegr
+description: Use this skill when: - SOC teams need automated ingestion of threat intelligence feeds into SIEM platforms - Multiple TI sources require normalization into a common format (STIX 2.1) - Detection systems need real-time IOC matching against network and endpoint telemetry - TI feed quality assessment and deduplication processes need to be established 
+domain: cybersecurity
+---
+----------|--------|-----------|-------------|------|
 | AlienVault OTX | STIX/JSON | IP, Domain, Hash, URL | Real-time | Free |
 | Abuse.ch URLhaus | CSV/JSON | URL, Domain | Every 5 min | Free |
 | Abuse.ch MalwareBazaar | JSON API | File Hash | Real-time | Free |

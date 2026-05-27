@@ -1,81 +1,9 @@
-# Detecting AWS Credential Exposure with TruffleHog
-
-## When to Use
-
-- When integrating secrets detection into CI/CD pipelines to prevent credential commits reaching production
-- When performing a security audit of existing repositories for historically committed AWS credentials
-- When responding to an AWS GuardDuty alert about credential usage from an unexpected IP or region
-- When onboarding repositories from acquired companies or third-party vendors
-- When validating that credential rotation processes have removed all references to old access keys
-
-**Do not use** for real-time credential monitoring (use AWS GuardDuty or Amazon Macie), for managing secrets (use AWS Secrets Manager or HashiCorp Vault), or for detecting non-credential sensitive data like PII (use Amazon Macie or DLP tools).
-
-## Prerequisites
-
-- TruffleHog v3 installed (`brew install trufflehog` or `pip install trufflehog`)
-- git-secrets installed for pre-commit hook integration (`brew install git-secrets`)
-- Access to source code repositories (GitHub, GitLab, Bitbucket, or local git repos)
-- AWS CLI configured with permissions to check key status (`iam:ListAccessKeys`, `iam:GetAccessKeyLastUsed`)
-- GitHub or GitLab API token for scanning organization-wide repositories
-
-## Workflow
-
-### Step 1: Install and Configure TruffleHog
-
-Install TruffleHog v3 and verify it can detect the AWS credential patterns.
-
-```bash
-# Install TruffleHog v3
-pip install trufflehog
-
-# Or install from binary release
-curl -sSfL https://raw.githubusercontent.com/trufflesecurity/trufflehog/main/scripts/install.sh | sh -s -- -b /usr/local/bin
-
-# Verify installation
-trufflehog --version
-
-# Test with a known test repository
-trufflehog git https://github.com/trufflesecurity/test_keys --only-verified
-```
-
-### Step 2: Scan Git Repositories for Exposed Credentials
-
-Scan entire git history including all branches and commits for AWS access keys, secret keys, and session tokens.
-
-```bash
-# Scan a local git repository (full history)
-trufflehog git file:///path/to/repo --only-verified --json > trufflehog-results.json
-
-# Scan a GitHub organization's repositories
-trufflehog github --org=your-organization --token=$GITHUB_TOKEN --only-verified
-
-# Scan a specific GitHub repository with all branches
-trufflehog git https://github.com/org/repo.git --only-verified --branch=main
-
-# Scan a GitLab group
-trufflehog gitlab --group=your-group --token=$GITLAB_TOKEN --only-verified
-
-# Scan filesystem paths for credentials in config files
-trufflehog filesystem /path/to/project --only-verified
-```
-
-### Step 3: Analyze and Validate Detected Credentials
-
-Parse TruffleHog results to identify verified (still-active) credentials versus rotated or test keys.
-
-```bash
-# Parse TruffleHog JSON output for AWS findings
-cat trufflehog-results.json | python3 -c "
-import json, sys
-for line in sys.stdin:
-    finding = json.loads(line)
-    if 'AWS' in finding.get('DetectorName', ''):
-        print(f\"Detector: {finding['DetectorName']}\")
-        print(f\"Verified: {finding.get('Verified', False)}\")
-        print(f\"Source: {finding.get('SourceMetadata', {})}\")
-        print(f\"Commit: {finding.get('SourceMetadata', {}).get('Data', {}).get('Git', {}).get('commit', 'N/A')}\")
-        print(f\"File: {finding.get('SourceMetadata', {}).get('Data', {}).get('Git', {}).get('file', 'N/A')}\")
-        print('---')
+---
+name: cloud-aws-general-overview
+description: - When integrating secrets detection into CI/CD pipelines to prevent credential commits reaching production - When performing a security audit of existing repositories for historically committed AWS credentials - When responding to an AWS GuardDuty alert about credential usage from an unexpected IP or region - When onboarding repositories from acqu
+domain: cybersecurity
+---
+')
 "
 
 # Check if a detected access key is still active

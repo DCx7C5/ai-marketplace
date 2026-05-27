@@ -1,40 +1,9 @@
-# Deploying Active Directory Honeytokens
-
-## When to Use
-
-- When deploying deception-based detection in Active Directory environments
-- When detecting Kerberoasting attacks via fake SPN honeytokens (honeyroasting)
-- When creating tripwire accounts to detect credential theft and lateral movement
-- When building decoy GPOs to detect Group Policy Preference password harvesting
-- When creating deceptive BloodHound paths to misdirect and detect attackers
-- When supplementing existing AD monitoring with high-fidelity detection signals
-
-## Prerequisites
-
-- Domain Admin or delegated AD administration privileges
-- Active Directory domain (Windows Server 2016+ recommended)
-- Windows Event Log forwarding to SIEM (Splunk, Sentinel, Elastic)
-- PowerShell 5.1+ with ActiveDirectory module
-- Group Policy Management Console (GPMC)
-- Understanding of AD security, Kerberos, and BloodHound attack paths
-
-## Background
-
-### Why AD Honeytokens
-
-Traditional signature-based detection misses novel attack techniques. Honeytokens
-provide high-fidelity detection with near-zero false positives because any interaction
-with a decoy object is inherently suspicious. In Active Directory:
-
-- **Fake privileged accounts** detect credential dumping (DCSync, NTDS.dit extraction)
-- **Fake SPNs** detect Kerberoasting reconnaissance (TGS requests for nonexistent services)
-- **Decoy GPOs** detect Group Policy Preference password harvesting
-- **Fake BloodHound paths** mislead attackers using graph-based AD analysis
-
-### Key Detection Event IDs
-
-| Event ID | Description | Honeytoken Use |
-|----------|-------------|----------------|
+---
+name: identity-ad-honeytoken
+description: - When deploying deception-based detection in Active Directory environments - When detecting Kerberoasting attacks via fake SPN honeytokens (honeyroasting) - When creating tripwire accounts to detect credential theft and lateral movement - When building decoy GPOs to detect Group Policy Preference password harvesting - When creating deceptive Blood
+domain: cybersecurity
+---
+-------|-------------|----------------|
 | 4769 | Kerberos TGS ticket requested | Detect Kerberoast against honey SPN |
 | 4625 | Failed logon attempt | Detect use of fake credentials from decoy GPO |
 | 4662 | Directory service object accessed | Detect DACL read on honeytoken user |

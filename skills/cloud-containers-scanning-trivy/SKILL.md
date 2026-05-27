@@ -1,3 +1,8 @@
+---
+name: cloud-containers-scanning-trivy
+description: Trivy is an open-source security scanner by Aqua Security that detects vulnerabilities in OS packages and language-specific dependencies, infrastructure-as-code misconfigurations, exposed secrets, and software license issues across container images, filesystems, Git repositories, and Kubernetes clusters. Trivy generates Software Bill of Materials (
+domain: cybersecurity
+---
 # Performing Container Security Scanning with Trivy
 
 ## Overview

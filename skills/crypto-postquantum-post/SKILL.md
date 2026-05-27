@@ -1,32 +1,9 @@
-# Performing Post-Quantum Cryptography Migration
-
-## When to Use
-
-- When assessing organizational readiness for the NIST post-quantum cryptography transition
-- When building a cryptographic inventory to identify quantum-vulnerable algorithms across infrastructure
-- When evaluating hybrid TLS 1.3 configurations using X25519MLKEM768 key exchange
-- When testing CRYSTALS-Kyber (ML-KEM) and CRYSTALS-Dilithium (ML-DSA) algorithm support
-- When implementing crypto-agility to support both classical and post-quantum algorithms
-- When preparing migration roadmaps aligned with NIST IR 8547 deprecation timelines
-- When configuring oqs-provider with OpenSSL 3.x for post-quantum algorithm support
-
-## Prerequisites
-
-- Python 3.8+ with `cryptography`, `requests`, `pyOpenSSL` libraries
-- OpenSSL 3.0+ (3.5+ recommended for native ML-KEM/ML-DSA support)
-- oqs-provider for OpenSSL (for hybrid TLS testing with older OpenSSL)
-- Network access to target servers for TLS assessment
-- Administrative access for infrastructure scanning
-- Familiarity with PKI, TLS, and cryptographic protocols
-
-## Core Concepts
-
-### NIST Post-Quantum Cryptography Standards
-
-NIST published three finalized PQC standards on August 13, 2024:
-
-| Standard | Algorithm | Renamed To | Purpose | Based On |
-|----------|-----------|------------|---------|----------|
+---
+name: crypto-postquantum-post
+description: - When assessing organizational readiness for the NIST post-quantum cryptography transition - When building a cryptographic inventory to identify quantum-vulnerable algorithms across infrastructure - When evaluating hybrid TLS 1.3 configurations using X25519MLKEM768 key exchange - When testing CRYSTALS-Kyber (ML-KEM) and CRYSTALS-Dilithium (ML-DSA)
+domain: cybersecurity
+---
+-------|-----------|------------|---------|----------|
 | FIPS 203 | CRYSTALS-Kyber | ML-KEM | Key Encapsulation Mechanism | Module lattice |
 | FIPS 204 | CRYSTALS-Dilithium | ML-DSA | Digital Signatures | Module lattice |
 | FIPS 205 | SPHINCS+ | SLH-DSA | Digital Signatures (backup) | Stateless hash |

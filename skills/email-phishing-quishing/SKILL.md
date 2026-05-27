@@ -1,3 +1,8 @@
+---
+name: email-phishing-quishing
+description: QR code phishing (quishing) is a rapidly growing attack vector where malicious URLs are embedded in QR code images within phishing emails. Quishing incidents grew fivefold from 46,000 to 250,000 between August and November 2025, with credential phishing comprising 89.3% of detected incidents. Traditional email security filters struggle because QR c
+domain: cybersecurity
+---
 # Detecting QR Code Phishing with Email Security
 
 ## Overview

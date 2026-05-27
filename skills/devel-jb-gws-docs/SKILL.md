@@ -1,15 +1,9 @@
-# docs (v1)
-
-> **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
-
-```bash
-gws docs <resource> <method> [flags]
-```
-
-## Helper Commands
-
-| Command | Description |
-|---------|-------------|
+---
+name: devel-jb-gws-docs
+description: > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.
+domain: cybersecurity
+---
+------|-------------|
 | [`+write`](../gws-docs-write/SKILL.md) | Append text to a document |
 
 ## API Resources

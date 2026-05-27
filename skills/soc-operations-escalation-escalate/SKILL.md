@@ -1,58 +1,9 @@
-# Building SOC Escalation Matrix
-
-## Overview
-
-A SOC escalation matrix defines how security incidents move through the organization based on severity, impact, and response requirements. Modern SOCs use context-driven escalation combining business risk, asset criticality, and data sensitivity rather than purely severity-based models. Organizations using AI and automation in their SOC cut detection-and-containment lifecycle to approximately 161 days, an 80-day improvement over the 241-day industry average.
-
-## When to Use
-
-- When deploying or configuring building soc escalation matrix capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with soc operations concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## SOC Tier Structure
-
-### Tier 1 - Alert Triage Analyst
-- Monitors SIEM dashboards and alert queues
-- Performs initial alert classification (true/false positive)
-- Handles P3 and P4 incidents to resolution
-- Escalates P1 and P2 incidents to Tier 2 within SLA
-- Documents initial findings in ticketing system
-
-### Tier 2 - Incident Analyst
-- Performs deep-dive investigation on escalated incidents
-- Conducts root cause analysis and scoping
-- Executes containment procedures
-- Handles P2 incidents to resolution
-- Escalates P1 incidents to Tier 3 or management
-
-### Tier 3 - Senior Analyst / Threat Hunter
-- Handles P1 critical incidents and APT investigations
-- Performs proactive threat hunting
-- Develops detection rules and playbooks
-- Conducts malware reverse engineering
-- Leads incident response for major breaches
-
-### Management Escalation
-- SOC Manager: Operational decisions, resource allocation
-- CISO: Business impact decisions, executive communication
-- Legal/PR: Data breach notification, media response
-- External IR: Third-party incident response engagement
-
-## Severity Classification
-
-### P1 - Critical
-
-| Attribute | Value |
-|---|---|
+---
+name: soc-operations-escalation-escalate
+description: A SOC escalation matrix defines how security incidents move through the organization based on severity, impact, and response requirements. Modern SOCs use context-driven escalation combining business risk, asset criticality, and data sensitivity rather than purely severity-based models. Organizations using AI and automation in their SOC cut detecti
+domain: cybersecurity
+---
+|---|
 | Impact | Active data breach, ransomware spreading, critical systems compromised |
 | Business Impact | Revenue loss, regulatory exposure, customer data at risk |
 | Initial Response | 15 minutes |

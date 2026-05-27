@@ -1,36 +1,9 @@
-# Performing Web Application Scanning with Nikto
-
-## Overview
-Nikto is an open-source web server and web application scanner that tests against over 7,000 potentially dangerous files/programs, checks for outdated versions of over 1,250 servers, and identifies version-specific problems on over 270 servers. It performs comprehensive tests including XSS, SQL injection, server misconfigurations, default credentials, and known vulnerable CGI scripts.
-
-## When to Use
-
-- When conducting security assessments that involve performing web application scanning with nikto
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-- Nikto installed (Perl-based, included in Kali Linux)
-- Written authorization to scan target web servers
-- Network access to target web applications
-- Understanding of HTTP/HTTPS protocols
-
-## Core Concepts
-
-### What Nikto Detects
-- Server misconfigurations and dangerous default files
-- Outdated server software versions with known CVEs
-- Common CGI vulnerabilities and dangerous scripts
-- Default credentials and admin pages
-- HTTP methods that should be disabled (PUT, DELETE, TRACE)
-- SSL/TLS misconfigurations and weak ciphers
-- Missing security headers (X-Frame-Options, CSP, HSTS)
-- Information disclosure through headers and error pages
-
-### Nikto vs Other Web Scanners
-| Feature | Nikto | OWASP ZAP | Burp Suite | Nuclei |
-|---------|-------|-----------|------------|--------|
+---
+name: vuln-scanning-nikto
+description: Nikto is an open-source web server and web application scanner that tests against over 7,000 potentially dangerous files/programs, checks for outdated versions of over 1,250 servers, and identifies version-specific problems on over 270 servers. It performs comprehensive tests including XSS, SQL injection, server misconfigurations, default credentia
+domain: cybersecurity
+---
+------|-------|-----------|------------|--------|
 | License | Open Source | Open Source | Commercial | Open Source |
 | Focus | Server/Config | App Logic | Full Pentest | Template-Based |
 | Speed | Fast | Medium | Slow | Very Fast |

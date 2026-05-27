@@ -1,34 +1,9 @@
-# Detecting T1548 Abuse Elevation Control Mechanism
-
-## When to Use
-
-- When hunting for privilege escalation via UAC bypass in Windows environments
-- After threat intelligence indicates use of UAC bypass exploits by active threat groups
-- When investigating how attackers achieved administrative access without triggering UAC prompts
-- During security assessments to validate UAC bypass detection coverage
-- When monitoring for setuid/setgid abuse on Linux systems
-
-## Prerequisites
-
-- Sysmon Event ID 1 with command-line and parent process logging
-- Windows Security Event ID 4688 with process tracking
-- Registry auditing for UAC-related keys (HKCU\Software\Classes)
-- Sysmon Event ID 12/13 (Registry key/value modification)
-- EDR with elevation monitoring capabilities
-
-## Workflow
-
-1. **Monitor UAC Registry Modifications**: Many UAC bypasses modify registry keys under `HKCU\Software\Classes\ms-settings\shell\open\command` or `HKCU\Software\Classes\mscfile\shell\open\command`. Track Sysmon Events 12/13 for these changes.
-2. **Detect Auto-Elevating Process Abuse**: Certain Windows binaries auto-elevate without UAC prompts (fodhelper.exe, computerdefaults.exe, eventvwr.exe). Hunt for these being launched by non-standard parent processes.
-3. **Track Process Integrity Level Changes**: Monitor for processes escalating from medium to high integrity level without corresponding UAC consent events.
-4. **Hunt for Elevated Process Spawning**: Detect when auto-elevating processes spawn unexpected children (cmd.exe, powershell.exe) -- indicating UAC bypass exploitation.
-5. **Monitor Linux Elevation Abuse**: Track sudo misconfiguration exploitation, setuid binary abuse, and capability manipulation.
-6. **Correlate with Privilege Escalation Chain**: Map elevation abuse to the broader attack chain, identifying what was done with escalated privileges.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-t1548
+description: - When hunting for privilege escalation via UAC bypass in Windows environments - After threat intelligence indicates use of UAC bypass exploits by active threat groups - When investigating how attackers achieved administrative access without triggering UAC prompts - During security assessments to validate UAC bypass detection coverage - When monito
+domain: cybersecurity
+---
+------|-------------|
 | T1548.002 | Bypass User Account Control |
 | T1548.001 | Setuid and Setgid (Linux) |
 | T1548.003 | Sudo and Sudo Caching |

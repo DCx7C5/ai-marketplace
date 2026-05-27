@@ -1,3 +1,8 @@
+---
+name: net-capture-tshark
+description: This skill automates packet capture analysis using tshark (Wireshark CLI) and pyshark (Python wrapper). It extracts protocol distribution statistics, identifies suspicious network flows (port scans, beaconing, data exfiltration), extracts IOCs (IPs, domains, URLs), and detects DNS tunneling patterns from PCAP files.
+domain: cybersecurity
+---
 # Performing Network Traffic Analysis with TShark
 
 ## Overview

@@ -1,3 +1,8 @@
+---
+name: devel-jb-gemini-interactions-api
+description: The Interactions API is a unified interface for interacting with Gemini models and agents. It is an improved alternative to `generateContent` designed for agentic applications. Key capabilities include:
+domain: cybersecurity
+---
 # Gemini Interactions API Skill
 
 The Interactions API is a unified interface for interacting with Gemini models and agents. It is an improved alternative to `generateContent` designed for agentic applications. Key capabilities include:
@@ -57,7 +62,6 @@ import { GoogleGenAI } from "@google/genai";
 const client = new GoogleGenAI({});
 
 const interaction = await client.interactions.create({
-    model: "gemini-3-flash-preview",
     input: "Tell me a short joke about programming.",
 });
 console.log(interaction.outputs[interaction.outputs.length - 1].text);
@@ -94,13 +98,11 @@ const client = new GoogleGenAI({});
 
 // First turn
 const interaction1 = await client.interactions.create({
-    model: "gemini-3-flash-preview",
     input: "Hi, my name is Phil.",
 });
 
 // Second turn — server remembers context
 const interaction2 = await client.interactions.create({
-    model: "gemini-3-flash-preview",
     input: "What is my name?",
     previous_interaction_id: interaction1.id,
 });
@@ -191,7 +193,6 @@ import { GoogleGenAI } from "@google/genai";
 const client = new GoogleGenAI({});
 
 const stream = await client.interactions.create({
-    model: "gemini-3-flash-preview",
     input: "Explain quantum entanglement in simple terms.",
     stream: true,
 });

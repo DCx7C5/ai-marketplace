@@ -13,8 +13,6 @@ tags:
 nist_csf:
 - ID.RA-01
 - PR.IP-01
-model: sonnet
-maxTurns: 15
 tools: [Read, Bash, Glob, Grep]
 mitre_attack:
 - T1190

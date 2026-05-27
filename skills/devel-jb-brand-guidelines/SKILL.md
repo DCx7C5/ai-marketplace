@@ -1,3 +1,8 @@
+---
+name: devel-jb-brand-guidelines
+description: To access Anthropic's official brand identity and style resources, use this skill. **Keywords**: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design
+domain: cybersecurity
+---
 # Anthropic Brand Styling
 
 ## Overview

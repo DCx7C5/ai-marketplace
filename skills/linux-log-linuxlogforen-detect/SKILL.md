@@ -1,27 +1,9 @@
-# Performing Linux Log Forensics Investigation
-
-## Overview
-
-Linux systems maintain extensive logs that serve as primary evidence sources in forensic investigations. Unlike Windows Event Logs, Linux logs are typically plain-text files stored in /var/log/ and binary journal files managed by systemd-journald. Key forensic logs include auth.log (authentication events, sudo usage, SSH sessions), syslog (system-wide messages), kern.log (kernel events), and application-specific logs. The Linux Audit framework (auditd) provides detailed security event logging comparable to Windows Security Event Logs. Forensic analysis of these logs enables investigators to reconstruct user sessions, identify unauthorized access, detect privilege escalation, trace lateral movement, and establish comprehensive event timelines.
-
-## When to Use
-
-- When conducting security assessments that involve performing linux log forensics investigation
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Familiarity with digital forensics concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Key Log Files and Locations
-
-| Log File | Path | Contents |
-|----------|------|----------|
+---
+name: linux-log-linuxlogforen-detect
+description: Linux systems maintain extensive logs that serve as primary evidence sources in forensic investigations. Unlike Windows Event Logs, Linux logs are typically plain-text files stored in /var/log/ and binary journal files managed by systemd-journald. Key forensic logs include auth.log (authentication events, sudo usage, SSH sessions), syslog (system-w
+domain: cybersecurity
+---
+-------|------|----------|
 | auth.log / secure | /var/log/auth.log (Debian) or /var/log/secure (RHEL) | Authentication, sudo, SSH, PAM |
 | syslog / messages | /var/log/syslog (Debian) or /var/log/messages (RHEL) | General system messages |
 | kern.log | /var/log/kern.log | Kernel messages, USB events, driver loads |

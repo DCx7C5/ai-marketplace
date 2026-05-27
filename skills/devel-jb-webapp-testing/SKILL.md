@@ -1,3 +1,8 @@
+---
+name: devel-jb-webapp-testing
+description: To test local web applications, write native Python Playwright scripts.
+domain: cybersecurity
+---
 # Web Application Testing
 
 To test local web applications, write native Python Playwright scripts.

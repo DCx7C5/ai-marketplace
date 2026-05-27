@@ -1,26 +1,9 @@
-## Overview
-
-Comprehensive JWT attack checklist for offensive security engagements. Follow steps in order; apply each technique to the current target context and track which items have been completed.
-
-## Quick Reference: Misconfigurations to Check
-
-- Algorithm set to `none` — signature verification bypassed entirely
-- Algorithm switching between `RSA` and `HMAC` (confusion attack)
-- Weak or guessable HMAC secret (brute-forceable)
-- `kid`, `jku`, `jwk`, `x5u` header parameters accepted without validation
-- Expired or tampered tokens accepted by server
-- Sensitive data stored unencrypted in payload
-
-Useful tool: [JWT Tool](https://github.com/ticarpi/jwt_tool)
-
-## Mechanisms
-
-JWTs (RFC 7519) consist of three Base64URL-encoded parts: `header.payload.signature`.
-
-**Signing algorithms:**
-
-| Algorithm | Type | Notes |
-|-----------|------|-------|
+---
+name: offensive-jwt
+description: Comprehensive JWT attack checklist for offensive security engagements. Follow steps in order; apply each technique to the current target context and track which items have been completed.
+domain: cybersecurity
+---
+--------|------|-------|
 | HS256/384/512 | Symmetric HMAC | Shared secret; confusion target |
 | RS256/384/512 | Asymmetric RSA | Public key can be misused as HMAC secret |
 | ES256/384/512 | Asymmetric ECDSA | |

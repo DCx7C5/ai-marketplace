@@ -1,30 +1,9 @@
-# Detecting Network Scanning with IDS Signatures
-
-## Overview
-
-Network scanning is typically the first phase of an attack, where adversaries enumerate live hosts, open ports, running services, and OS versions using tools like Nmap, Masscan, ZMap, and custom scanners. Detecting this reconnaissance activity provides early warning of potential attacks. IDS/IPS systems like Suricata and Snort can identify scanning through signature-based detection (matching known scanner packet patterns), threshold-based detection (counting connection attempts over time), and anomaly detection (identifying unusual traffic patterns). This skill covers writing and deploying IDS signatures for scan detection, configuring threshold-based alerting, and correlating scan activity with downstream attack indicators.
-
-## When to Use
-
-- When investigating security incidents that require detecting network scanning with ids signatures
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- Suricata 7.0+ or Snort 3.0+ deployed in IDS/IPS mode
-- Network TAP or SPAN port for traffic visibility
-- Emerging Threats ruleset enabled
-- Logging infrastructure for alert analysis (ELK Stack, Splunk)
-- Baseline understanding of normal network traffic patterns
-
-## Core Concepts
-
-### Scanning Techniques and Detection Indicators
-
-| Scan Type | Nmap Flag | Packet Characteristics | Detection Method |
-|-----------|-----------|----------------------|------------------|
+---
+name: net-security-ids-configure
+description: Network scanning is typically the first phase of an attack, where adversaries enumerate live hosts, open ports, running services, and OS versions using tools like Nmap, Masscan, ZMap, and custom scanners. Detecting this reconnaissance activity provides early warning of potential attacks. IDS/IPS systems like Suricata and Snort can identify scanning
+domain: cybersecurity
+---
+--------|-----------|----------------------|------------------|
 | **TCP SYN** | `-sS` | SYN flag only, no completion | SYN without SYN/ACK response pattern |
 | **TCP Connect** | `-sT` | Full 3-way handshake | Multiple connections from single source |
 | **TCP FIN** | `-sF` | FIN flag only | FIN to closed port (RST response) |

@@ -1,7 +1,7 @@
-## Full Methodology
-
-Case study of different keylogger implementations, how to implement them and their individual IOCs.
-
+---
+name: offensive-keylogger-arch
+description: Case study of different keylogger implementations, how to implement them and their individual IOCs.
+domain: cybersecurity
 ---
 ## SetWindowHookEx
 Majority of malware uses user32.dll!SetWindowHookEx to create a global hook event. this modifies an internal structure in `win32k.sys`.
@@ -61,6 +61,7 @@ A service in session-0 **cannot** register for keyboard raw-input and expect to 
 		- Memory scanners could detect non-backed-by-disk executable memory.
 	- Does it have anything to do here?
 
+domain: cybersecurity
 ---
 ### NtUserRegisterRawInputDevices / RegisterRawInputDevices
 
@@ -111,7 +112,6 @@ The internal worker modifies our process's EPROCESS structure. This makes it so 
 	Both are **easy to alert on**.
 
 ---
-
 ## Capturing current window's name
 
 To filter for interesting keystrokes you may only monitor keystrokes from Chrome.exe \ firefox.exe, etc.
@@ -143,8 +143,8 @@ Consult [1](https://dl.malwarewatch.org/software/features/ntvdmx64/build/nt5docs
 
 its a syscall so you can use your favorite \*gate technique on it
 
+domain: cybersecurity
 ---
-
 # Novel research
 
 Now... that's all stuff that can be figured out by anyone determined
@@ -159,8 +159,8 @@ Ideas that were abandonned:
 	- Abandonned because, as above, we can't really know if that window is in foreground,
 	- doesn't help much if target PID has multiple window handles
 
+domain: cybersecurity
 ---
-
 lovestrange @ [TeamKavkaz](https://t.me/teamkavkaz25)
 join our channel for more
 hackerz 4 lyfe

@@ -1,52 +1,9 @@
-# Performing Active Directory Vulnerability Assessment
-
-## Overview
-
-Active Directory (AD) is the primary identity and access management system in most enterprise environments, making it a critical attack target. This skill covers comprehensive AD security assessment using PingCastle for health checks, BloodHound for attack path analysis, and Purple Knight for security posture scoring. These tools identify misconfigurations, excessive privileges, Kerberos weaknesses, and lateral movement opportunities.
-
-## When to Use
-
-- When conducting security assessments that involve performing active directory vulnerability assessment
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Domain-joined workstation or domain admin access for scanning
-- PingCastle (https://github.com/netwrix/pingcastle)
-- BloodHound Community Edition with SharpHound collector
-- Purple Knight from Semperis (free community tool)
-- Python 3.9+ for analysis scripts
-- .NET Framework 4.7+ for PingCastle on Windows
-
-## Tool 1: PingCastle Health Check
-
-### Installation and Execution
-```powershell
-# Download PingCastle
-Invoke-WebRequest -Uri "https://github.com/netwrix/pingcastle/releases/latest/download/PingCastle.zip" `
-  -OutFile "PingCastle.zip"
-Expand-Archive PingCastle.zip -DestinationPath C:\Tools\PingCastle
-
-# Run health check against current domain
-cd C:\Tools\PingCastle
-.\PingCastle.exe --healthcheck
-
-# Run health check against specific domain
-.\PingCastle.exe --healthcheck --server dc01.corp.local --user CORP\scanner_account --password P@ssw0rd
-
-# Run in scanner mode for multiple domains
-.\PingCastle.exe --scanner --scannerlp
-
-# Generate consolidated report
-.\PingCastle.exe --healthcheck --level Full
-```
-
-### PingCastle Scoring Categories
-
-| Category | Description | Risk Areas |
-|----------|------------|------------|
+---
+name: identity-ad-advulnassess
+description: Active Directory (AD) is the primary identity and access management system in most enterprise environments, making it a critical attack target. This skill covers comprehensive AD security assessment using PingCastle for health checks, BloodHound for attack path analysis, and Purple Knight for security posture scoring. These tools identify misconfig
+domain: cybersecurity
+---
+-------|------------|------------|
 | **Stale Objects** | Inactive accounts, old passwords, obsolete OS | Ghost accounts, expired credentials |
 | **Privileged Accounts** | Excessive admin rights, nested groups | Domain Admin sprawl, SID history |
 | **Trusts** | Forest and domain trust configurations | Transitive trust abuse, SID filtering |

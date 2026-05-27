@@ -1,36 +1,9 @@
-# Hunting for DNS Tunneling with Zeek
-
-## When to Use
-
-- When hunting for data exfiltration over DNS covert channels
-- After threat intelligence indicates DNS-based C2 frameworks targeting your industry
-- When dns.log shows unusually high query volumes to specific domains
-- During investigation of suspected data theft where no HTTP/S exfiltration is found
-- When monitoring for tools like iodine, dnscat2, DNSExfiltrator, or DNS-over-HTTPS tunneling
-
-## Prerequisites
-
-- Zeek deployed on network tap or SPAN port capturing DNS traffic
-- Zeek dns.log with full query and response fields
-- SIEM platform for dns.log analysis (Splunk, Elastic)
-- RITA (Real Intelligence Threat Analytics) for automated DNS analysis
-- Passive DNS data for historical domain resolution context
-
-## Workflow
-
-1. **Analyze Query Length Distribution**: DNS tunneling encodes data in subdomain labels, producing queries significantly longer than normal. Normal DNS queries average 20-30 characters; tunneling queries often exceed 50+ characters. Calculate mean and standard deviation of query lengths per domain.
-2. **Calculate Subdomain Entropy**: Tunneling encodes data using Base32/Base64, producing high-entropy subdomain strings. Calculate Shannon entropy of subdomain labels -- values above 3.5 bits/character strongly suggest encoded data.
-3. **Count Unique Subdomains Per Domain**: Legitimate domains have relatively few unique subdomains. DNS tunneling generates hundreds or thousands of unique subdomains under a single parent domain.
-4. **Monitor DNS Record Type Distribution**: TXT, NULL, CNAME, and MX records can carry more data than A records. Excessive TXT queries to a single domain indicate data transfer via DNS.
-5. **Detect High Query Volume**: Flag domains receiving more than 100 queries per hour from a single source, especially when combined with high subdomain uniqueness.
-6. **Analyze Query Timing**: DNS tunneling tools produce regular query patterns (beaconing) or burst patterns (data transfer). Apply frequency analysis to DNS query timestamps.
-7. **Cross-Reference with conn.log**: Correlate DNS queries with connection metadata to identify the process or endpoint generating suspicious queries.
-8. **Validate with Domain Intelligence**: Check suspicious domains against WHOIS data, certificate transparency, and threat intelligence feeds.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: net-capture-zeek-dnstunnel
+description: - When hunting for data exfiltration over DNS covert channels - After threat intelligence indicates DNS-based C2 frameworks targeting your industry - When dns.log shows unusually high query volumes to specific domains - During investigation of suspected data theft where no HTTP/S exfiltration is found - When monitoring for tools like iodine, dnscat
+domain: cybersecurity
+---
+------|-------------|
 | T1071.004 | Application Layer Protocol: DNS |
 | T1048.003 | Exfiltration Over Alternative Protocol: DNS |
 | T1572 | Protocol Tunneling |

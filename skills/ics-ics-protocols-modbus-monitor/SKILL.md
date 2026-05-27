@@ -1,213 +1,9 @@
-# Monitoring SCADA Modbus Traffic Anomalies
-
-## When to Use
-
-- Monitoring OT/ICS networks for unauthorized Modbus commands targeting PLCs, RTUs, or HMIs
-- Detecting reconnaissance activity such as Modbus device enumeration (function code 43, Read Device Identification)
-- Identifying unauthorized write operations (function codes 05, 06, 15, 16) to coils and holding registers that could alter physical process parameters
-- Baselining normal Modbus communication patterns and alerting on deviations in function code distribution, register access ranges, or timing intervals
-- Investigating suspected sabotage or insider threats manipulating SCADA process values through Modbus register writes
-
-**Do not use** on networks without authorization from the asset owner, for active injection or fuzzing against production SCADA systems, or as a replacement for safety-instrumented systems (SIS) that provide physical process protection.
-
-## Prerequisites
-
-- Network tap or SPAN port on the OT network segment carrying Modbus TCP traffic (port 502)
-- Python 3.9+ with pymodbus (>=3.6), scapy (>=2.5), and pandas for traffic analysis
-- Zeek (formerly Bro) installed with the Modbus protocol analyzer enabled for passive traffic logging
-- Wireshark or tshark for initial packet capture and validation of Modbus frame structure
-- A baseline period of normal operations (minimum 48-72 hours) to establish communication profiles per device pair
-- Network diagram identifying Modbus master-slave relationships, device IP addresses, and expected function code usage
-
-## Workflow
-
-### Step 1: Capture and Parse Modbus TCP Traffic
-
-Establish passive monitoring on the OT network segment and begin capturing Modbus TCP frames:
-
-- **Configure network tap**: Position the monitoring interface on the SPAN port mirroring the VLAN carrying Modbus TCP traffic between HMI/SCADA servers and PLCs. Verify bidirectional traffic capture with `tcpdump -i eth0 port 502 -c 100 -w modbus_capture.pcap`.
-- **Parse Modbus TCP frame structure**: Each Modbus TCP frame contains a 7-byte MBAP (Modbus Application Protocol) header followed by the PDU. The MBAP header includes:
-  - Transaction Identifier (2 bytes): Matches requests to responses
-  - Protocol Identifier (2 bytes): Always 0x0000 for Modbus
-  - Length (2 bytes): Number of following bytes including Unit ID
-  - Unit Identifier (1 byte): Slave device address (0-247)
-- **Extract function codes with Scapy**: Use Scapy's Modbus contrib module to dissect captured packets and extract function codes, register addresses, and values:
-  ```python
-  from scapy.all import rdpcap, TCP
-  from scapy.contrib.modbus import ModbusADURequest, ModbusADUResponse
-
-  packets = rdpcap("modbus_capture.pcap")
-  for pkt in packets:
-      if pkt.haslayer(ModbusADURequest):
-          adu = pkt[ModbusADURequest]
-          print(f"Src: {pkt['IP'].src} -> Dst: {pkt['IP'].dst} "
-                f"Unit: {adu.unitId} FuncCode: {adu.funcCode}")
-  ```
-- **Enable Zeek Modbus logging**: Configure Zeek with `@load policy/protocols/modbus/known-masters-slaves` to generate `modbus.log` entries containing timestamp, source/destination IPs, function code, and exception responses. This provides continuous passive logging without custom scripting.
-- **Validate frame integrity**: Check for malformed Modbus frames where the MBAP length field does not match the actual PDU length, Protocol Identifier is not 0x0000, or Unit Identifier falls outside the expected range for the monitored network.
-
-### Step 2: Baseline Normal Communication Patterns
-
-Build a behavioral profile of legitimate Modbus traffic to distinguish normal operations from anomalies:
-
-- **Catalog function code distribution**: Record the frequency of each function code per source-destination pair over the baseline period. In typical SCADA environments, read operations (FC 01-04) vastly outnumber write operations (FC 05, 06, 15, 16), often at ratios exceeding 100:1. A sudden increase in write function codes is a strong indicator of process manipulation.
-  ```
-  Normal baseline example (72-hour period):
-  HMI (10.1.1.10) -> PLC (10.1.1.50):
-    FC 03 (Read Holding Registers):  432,180 packets  (97.2%)
-    FC 04 (Read Input Registers):     10,540 packets  (2.4%)
-    FC 06 (Write Single Register):     1,780 packets  (0.4%)
-    FC 16 (Write Multiple Registers):      0 packets  (0.0%)
-    FC 43 (Read Device ID):               0 packets  (0.0%)
-  ```
-- **Map register address ranges**: Document which holding register and coil address ranges each master polls. PLCs typically expose specific register blocks for monitoring (e.g., registers 0-99 for process values, 100-199 for setpoints). Access to registers outside the documented range indicates reconnaissance or misconfiguration.
-- **Establish timing profiles**: Calculate the polling interval (mean, standard deviation) for each master-slave pair. SCADA polling is highly periodic, typically 100ms to 5s intervals. Deviations greater than 3 standard deviations from the mean suggest network issues or injected traffic from a rogue master.
-- **Identify authorized masters**: Record all IP addresses that initiate Modbus requests (master role). In a properly segmented OT network, only the HMI server and engineering workstation should act as Modbus masters. Any new source IP sending Modbus requests is immediately suspicious.
-- **Register value ranges**: For critical process registers (temperatures, pressures, flow rates, setpoints), record the observed minimum, maximum, mean, and standard deviation during normal operations. Values outside the physical process bounds indicate either sensor failure or malicious manipulation.
-
-### Step 3: Detect Function Code Anomalies
-
-Apply rule-based and statistical detection to identify suspicious function code usage:
-
-- **Unauthorized write detection**: Alert when a Modbus write function code (05, 06, 15, 16) originates from a source IP not in the authorized writers list, or when write operations exceed the baseline frequency threshold:
-  ```python
-  WRITE_FUNCTION_CODES = {5, 6, 15, 16}
-  AUTHORIZED_WRITERS = {"10.1.1.10", "10.1.1.11"}  # HMI and engineering WS
-
-  def check_unauthorized_write(src_ip, function_code):
-      if function_code in WRITE_FUNCTION_CODES and src_ip not in AUTHORIZED_WRITERS:
-          return {
-              "alert": "UNAUTHORIZED_MODBUS_WRITE",
-              "severity": "CRITICAL",
-              "src_ip": src_ip,
-              "function_code": function_code,
-              "description": f"Write FC {function_code} from unauthorized source {src_ip}"
-          }
-      return None
-  ```
-- **Reconnaissance detection**: Function code 43 (Read Device Identification) and function code 08 (Diagnostics) are rarely used during normal operations. Any occurrence from a non-engineering workstation indicates device enumeration. Also detect sequential scanning where a single source queries multiple Unit IDs within a short window.
-- **Exception response monitoring**: Modbus exception codes (01: Illegal Function, 02: Illegal Data Address, 03: Illegal Data Value) in responses indicate the master sent an invalid request. A burst of exception responses suggests fuzzing or protocol-level attacks:
-  ```
-  Exception response correlation:
-  - Isolated exception (1-2 per hour): Normal operational error
-  - Burst (>10 per minute): Active scanning or fuzzing attempt
-  - Continuous (>100 per hour): Denial-of-service or tool malfunction
-  ```
-- **Forbidden function code detection**: Some environments prohibit certain function codes entirely. Function codes 07 (Read Exception Status), 08 (Diagnostics), 17 (Report Slave ID), and 43 (Read Device Identification) are diagnostic functions that should not appear in production SCADA traffic. Alert on any occurrence.
-- **Function code frequency anomaly**: Calculate the chi-squared statistic comparing the observed function code distribution against the baseline distribution. A significant deviation (p < 0.01) triggers an alert even if no individual function code crosses its threshold.
-
-### Step 4: Monitor Register Values for Process Manipulation
-
-Detect attempts to manipulate physical process parameters through register value analysis:
-
-- **Setpoint change monitoring**: Track all write operations to holding registers that control process setpoints (temperatures, pressures, valve positions, motor speeds). Alert when:
-  - The new value exceeds the defined safe operating range
-  - The rate of change exceeds physical process capabilities (e.g., temperature setpoint jumping 50 degrees in one write)
-  - Multiple setpoints change simultaneously, which does not match normal operator behavior
-  ```python
-  REGISTER_LIMITS = {
-      40001: {"name": "Reactor Temperature Setpoint", "min": 50, "max": 200, "unit": "C",
-              "max_rate": 5},   # Max 5 degrees per write cycle
-      40010: {"name": "Pump Speed", "min": 0, "max": 3600, "unit": "RPM",
-              "max_rate": 200},  # Max 200 RPM change per cycle
-      40020: {"name": "Valve Position", "min": 0, "max": 100, "unit": "%",
-              "max_rate": 10},   # Max 10% per cycle
-  }
-
-  def check_register_value(register_addr, new_value, previous_value):
-      if register_addr not in REGISTER_LIMITS:
-          return None
-      limits = REGISTER_LIMITS[register_addr]
-      alerts = []
-      if new_value < limits["min"] or new_value > limits["max"]:
-          alerts.append({
-              "alert": "REGISTER_VALUE_OUT_OF_RANGE",
-              "severity": "CRITICAL",
-              "register": register_addr,
-              "name": limits["name"],
-              "value": new_value,
-              "range": f"{limits['min']}-{limits['max']} {limits['unit']}"
-          })
-      if previous_value is not None:
-          rate = abs(new_value - previous_value)
-          if rate > limits["max_rate"]:
-              alerts.append({
-                  "alert": "REGISTER_VALUE_EXCESSIVE_RATE",
-                  "severity": "HIGH",
-                  "register": register_addr,
-                  "name": limits["name"],
-                  "change": rate,
-                  "max_allowed": limits["max_rate"]
-              })
-      return alerts if alerts else None
-  ```
-- **Coil state monitoring**: Track coil writes (FC 05, FC 15) that control discrete outputs (pumps on/off, valves open/close, breakers trip/close). Detect rapid toggling (more than N state changes per minute) which could indicate equipment damage attempts.
-- **Register read pattern anomaly**: If a master begins reading register ranges it has never accessed before, this may indicate an attacker using a compromised HMI to map the PLC memory layout before launching a targeted write attack.
-- **Correlation with process data**: Where available, compare Modbus register values against independent process sensors (e.g., historian data). Discrepancies between the Modbus-reported value and the independent sensor indicate either sensor spoofing or register manipulation.
-
-### Step 5: Detect Network-Level Anomalies
-
-Identify anomalies in communication patterns that may indicate man-in-the-middle, replay, or denial-of-service attacks:
-
-- **Rogue master detection**: Alert when a new source IP initiates Modbus TCP connections to port 502 on any slave device. Maintain a whitelist of authorized master IPs and generate a critical alert for any connection from an unknown source:
-  ```python
-  AUTHORIZED_MASTERS = {"10.1.1.10", "10.1.1.11"}
-
-  def detect_rogue_master(src_ip, dst_ip, dst_port):
-      if dst_port == 502 and src_ip not in AUTHORIZED_MASTERS:
-          return {
-              "alert": "ROGUE_MODBUS_MASTER",
-              "severity": "CRITICAL",
-              "src_ip": src_ip,
-              "target_slave": dst_ip,
-              "description": "Unauthorized device initiating Modbus connection"
-          }
-      return None
-  ```
-- **Transaction ID anomaly**: Modbus TCP uses transaction IDs to match requests with responses. Under normal operation, transaction IDs increment sequentially per master. Detect:
-  - Duplicate transaction IDs from different sources (replay attack indicator)
-  - Transaction ID gaps or resets (session hijacking indicator)
-  - Responses with transaction IDs that do not match any recent request (injected response)
-- **Timing anomaly detection**: Calculate inter-packet arrival times for each master-slave pair. Flag deviations greater than 3 standard deviations using a sliding window:
-  ```python
-  import numpy as np
-  from collections import defaultdict
-
-  class TimingAnomalyDetector:
-      def __init__(self, window_size=1000, threshold_sigma=3.0):
-          self.windows = defaultdict(list)
-          self.window_size = window_size
-          self.threshold_sigma = threshold_sigma
-
-      def check(self, src_ip, dst_ip, timestamp):
-          key = (src_ip, dst_ip)
-          window = self.windows[key]
-          if len(window) > 0:
-              interval = timestamp - window[-1]
-              if len(window) >= 100:
-                  mean = np.mean(np.diff(window[-100:]))
-                  std = np.std(np.diff(window[-100:]))
-                  if std > 0 and abs(interval - mean) > self.threshold_sigma * std:
-                      return {
-                          "alert": "TIMING_ANOMALY",
-                          "severity": "MEDIUM",
-                          "pair": f"{src_ip}->{dst_ip}",
-                          "interval": interval,
-                          "expected_mean": mean,
-                          "deviation_sigma": abs(interval - mean) / std
-                      }
-          window.append(timestamp)
-          if len(window) > self.window_size:
-              window.pop(0)
-          return None
-  ```
-- **Connection flood detection**: Monitor the rate of new TCP connections to port 502 per slave device. Modbus slaves typically handle 1-5 persistent connections. More than 10 connection attempts per minute to a single slave indicates a connection flood DoS or scanning activity.
-- **Payload size anomaly**: Modbus PDU max size is 253 bytes. Alert on oversized frames that exceed protocol limits, as these may indicate buffer overflow exploitation attempts against vulnerable PLC firmware.
-
-## Key Concepts
-
-| Term | Definition |
-|------|------------|
+---
+name: ics-ics-protocols-modbus-monitor
+description: - Monitoring OT/ICS networks for unauthorized Modbus commands targeting PLCs, RTUs, or HMIs - Detecting reconnaissance activity such as Modbus device enumeration (function code 43, Read Device Identification) - Identifying unauthorized write operations (function codes 05, 06, 15, 16) to coils and holding registers that could alter physical process 
+domain: cybersecurity
+---
+---|------------|
 | **Modbus TCP** | An application-layer protocol encapsulating Modbus frames in TCP/IP, communicating on port 502. It uses a 7-byte MBAP header (transaction ID, protocol ID, length, unit ID) followed by the Modbus PDU containing the function code and data. |
 | **Function Code** | A single-byte identifier in the Modbus PDU specifying the operation: read coils (01), read discrete inputs (02), read holding registers (03), read input registers (04), write single coil (05), write single register (06), write multiple coils (15), write multiple registers (16), diagnostics (08), and device identification (43). |
 | **MBAP Header** | Modbus Application Protocol header used in Modbus TCP. Contains Transaction ID for request-response matching, Protocol ID (always 0x0000 for Modbus), Length of remaining bytes, and Unit Identifier for addressing slaves behind gateways. |
@@ -274,7 +70,6 @@ Identify anomalies in communication patterns that may indicate man-in-the-middle
 **Anomalies Detected**: 4
 
 ---
-
 ### Alert 1: Unauthorized Write Operation
 
 **Timestamp**: 2026-03-15 14:23:17 UTC
@@ -294,8 +89,8 @@ Combined effect would double chlorine concentration over extended period.
 source device. Check register values against expected setpoints with
 plant operator.
 
+domain: cybersecurity
 ---
-
 ### Alert 2: Device Enumeration Detected
 
 **Timestamp**: 2026-03-15 14:20:05 to 14:20:47 UTC

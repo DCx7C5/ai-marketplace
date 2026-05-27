@@ -1,27 +1,9 @@
-# Detecting Privilege Escalation in Kubernetes Pods
-
-## Overview
-
-Privilege escalation in Kubernetes occurs when a pod or container gains elevated permissions beyond its intended scope. This includes running as root, using privileged mode, mounting host filesystems, enabling dangerous Linux capabilities, or exploiting kernel vulnerabilities. Detection combines admission control (prevention), runtime monitoring (detection), and audit logging (investigation).
-
-## When to Use
-
-- When investigating security incidents that require detecting privilege escalation in kubernetes pods
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- Kubernetes cluster v1.25+ (Pod Security Admission support)
-- kubectl with cluster-admin access
-- Falco or similar runtime security tool
-- OPA Gatekeeper or Kyverno for admission policies
-
-## Privilege Escalation Vectors in Kubernetes
-
-| Vector | Risk | Detection Method |
-|--------|------|-----------------|
+---
+name: cloud-kubernetes-privesc
+description: Privilege escalation in Kubernetes occurs when a pod or container gains elevated permissions beyond its intended scope. This includes running as root, using privileged mode, mounting host filesystems, enabling dangerous Linux capabilities, or exploiting kernel vulnerabilities. Detection combines admission control (prevention), runtime monitoring (d
+domain: cybersecurity
+---
+-----|------|-----------------|
 | privileged: true | Full host access | Admission control + audit |
 | hostPID: true | Access host processes | Admission control |
 | hostNetwork: true | Access host network stack | Admission control |

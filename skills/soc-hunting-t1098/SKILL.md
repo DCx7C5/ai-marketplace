@@ -1,3 +1,8 @@
+---
+name: soc-hunting-t1098
+description: MITRE ATT&CK T1098 (Account Manipulation) covers adversary actions to maintain or expand access to compromised accounts, including adding credentials, modifying group memberships, SID history injection, and creating shadow admin accounts. This skill covers detecting these techniques through Windows Security Event Log analysis (Event IDs 4738, 4728,
+domain: cybersecurity
+---
 # Hunting for T1098 Account Manipulation
 
 ## Overview

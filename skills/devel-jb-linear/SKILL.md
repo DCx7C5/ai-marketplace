@@ -1,3 +1,8 @@
+---
+name: devel-jb-linear
+description: This skill provides a structured workflow for managing issues, projects & team workflows in Linear. It ensures consistent integration with the Linear MCP server, which offers natural-language project management for issues, projects, documentation, and team collaboration.
+domain: cybersecurity
+---
 # Linear
 
 ## Overview

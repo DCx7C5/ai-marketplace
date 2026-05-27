@@ -1,3 +1,8 @@
+---
+name: offensive-request-smuggling
+description: HTTP Request Smuggling is a vulnerability that occurs when front-end and back-end servers interpret HTTP requests differently, leading to a desynchronization in the HTTP request processing chain. This desynchronization allows attackers to "smuggle" requests to the back-end server, potentially bypassing security controls or manipulating how other us
+domain: cybersecurity
+---
 ## Full Methodology
 
 # HTTP Request Smuggling

@@ -1,30 +1,9 @@
-# Building Role Mining for RBAC Optimization
-
-## Overview
-
-Role mining is the process of analyzing existing user-permission assignments to discover optimal roles for a Role-Based Access Control (RBAC) system. Organizations accumulate excessive permissions over time through job changes, project assignments, and ad-hoc access grants, leading to "role explosion" where thousands of granular roles exist with significant overlap. Role mining uses data analysis -- including clustering algorithms, formal concept analysis, and graph-based methods -- to consolidate permissions into a minimal set of roles that accurately represent business functions while enforcing least privilege.
-
-## When to Use
-
-- When deploying or configuring building role mining for rbac optimization capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Export of current user-permission assignments (CSV/database)
-- Identity governance platform or directory service access
-- Python 3.9+ with pandas, scikit-learn, numpy
-- Understanding of organizational structure and job functions
-- Stakeholder access for role validation workshops
-
-## Core Concepts
-
-### Role Mining Approaches
-
-| Approach | Description | Best For |
-|----------|-------------|----------|
+---
+name: identity-access-rbac
+description: Role mining is the process of analyzing existing user-permission assignments to discover optimal roles for a Role-Based Access Control (RBAC) system. Organizations accumulate excessive permissions over time through job changes, project assignments, and ad-hoc access grants, leading to "role explosion" where thousands of granular roles exist with si
+domain: cybersecurity
+---
+-------|-------------|----------|
 | Bottom-Up | Analyze existing permissions to discover common patterns | Large datasets with organic permission growth |
 | Top-Down | Design roles from business requirements and job descriptions | Greenfield RBAC or organizational restructuring |
 | Hybrid | Combine bottom-up analysis with top-down business validation | Most production environments |

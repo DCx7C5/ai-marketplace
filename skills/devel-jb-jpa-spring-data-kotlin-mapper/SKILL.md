@@ -1,3 +1,8 @@
+---
+name: devel-jb-jpa-spring-data-kotlin-mapper
+description: Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-10`).
+domain: cybersecurity
+---
 # JPA Spring Data Kotlin Mapper
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-10`).

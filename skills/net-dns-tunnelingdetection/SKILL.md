@@ -1,3 +1,8 @@
+---
+name: net-dns-tunnelingdetection
+description: - When conducting security assessments that involve performing dns tunneling detection - When following incident response procedures for related security events - When performing scheduled security testing or auditing activities - When validating security controls through hands-on testing
+domain: cybersecurity
+---
 # Performing DNS Tunneling Detection
 
 ## When to Use

@@ -1,3 +1,8 @@
+---
+name: cloud-zerotrust-beyondcorp
+description: Google BeyondCorp Enterprise implements the zero trust security model by eliminating the concept of a trusted network perimeter. Instead of relying on VPNs and network location, BeyondCorp authenticates and authorizes every request based on user identity, device posture, and contextual attributes. Identity-Aware Proxy (IAP) serves as the enforcemen
+domain: cybersecurity
+---
 # Implementing Zero Trust with BeyondCorp
 
 ## Overview

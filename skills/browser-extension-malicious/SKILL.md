@@ -1,3 +1,8 @@
+---
+name: browser-extension-malicious
+description: Detect malicious browser extensions through static analysis of background scripts, content scripts, and network traffic for data exfiltration and C2 beaconing. domain: cybersecurity subdomain: browser-forensics tags: - malicious-extension - c2 - exfiltration - background-script - content-script nist_csf: - DE.CM-04 - DE.AE-02 mitre: - T1176 - T1071
+domain: cybersecurity
+---
 ## Overview
 
 Detect malicious browser extensions through static analysis of background scripts, content scripts, and network traffic for data exfiltration and C2 beaconing.

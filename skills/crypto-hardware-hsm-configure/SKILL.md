@@ -1,38 +1,9 @@
-# Configuring HSM for Key Storage
-
-## Overview
-
-Hardware Security Modules (HSMs) are tamper-resistant physical devices that safeguard cryptographic keys and perform cryptographic operations in a hardened environment. Keys stored in an HSM never leave the device boundary, providing the highest level of key protection. This skill covers configuring HSMs using the PKCS#11 standard interface, including key generation, signing, encryption, and key management using both physical HSMs and SoftHSM2 for development.
-
-## When to Use
-
-- When deploying or configuring configuring hsm for key storage capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Configure SoftHSM2 as a development PKCS#11 provider
-- Generate and manage keys inside the HSM via PKCS#11
-- Perform cryptographic operations (sign, verify, encrypt, decrypt) using HSM-resident keys
-- Implement HSM-backed certificate authority operations
-- Configure key access policies and user authentication
-- Interface with cloud HSM services (AWS CloudHSM, Azure)
-
-## Key Concepts
-
-### HSM Compliance Levels
-
-| FIPS Level | Protection | Use Case |
-|-----------|-----------|----------|
+---
+name: crypto-hardware-hsm-configure
+description: Hardware Security Modules (HSMs) are tamper-resistant physical devices that safeguard cryptographic keys and perform cryptographic operations in a hardened environment. Keys stored in an HSM never leave the device boundary, providing the highest level of key protection. This skill covers configuring HSMs using the PKCS#11 standard interface, includ
+domain: cybersecurity
+---
+--------|-----------|----------|
 | FIPS 140-2 Level 1 | Software only | Development |
 | FIPS 140-2 Level 2 | Tamper-evident, role-based auth | General production |
 | FIPS 140-2 Level 3 | Tamper-resistant, identity-based auth | Financial, government |

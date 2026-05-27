@@ -1,69 +1,7 @@
-# Implementing Policy as Code with Open Policy Agent
-
-## When to Use
-
-- When enforcing organizational security policies across Kubernetes clusters programmatically
-- When requiring admission control that blocks non-compliant resources from being created
-- When implementing policy governance that can be version-controlled, tested, and audited
-- When standardizing security rules across multiple clusters and environments
-- When needing a flexible policy engine that extends beyond Kubernetes to APIs and CI/CD
-
-**Do not use** for vulnerability scanning (use Trivy/Checkov), for runtime threat detection (use Falco), or for network policy enforcement (use Kubernetes NetworkPolicy or Calico).
-
-## Prerequisites
-
-- Kubernetes cluster with admin access for Gatekeeper installation
-- Helm for Gatekeeper deployment
-- OPA CLI or conftest for local policy testing
-- Rego knowledge for policy authoring
-
-## Workflow
-
-### Step 1: Install OPA Gatekeeper
-
-```bash
-# Install Gatekeeper via Helm
-helm repo add gatekeeper https://open-policy-agent.github.io/gatekeeper/charts
-helm install gatekeeper gatekeeper/gatekeeper \
-  --namespace gatekeeper-system --create-namespace \
-  --set replicas=3 \
-  --set audit.replicas=1 \
-  --set audit.writeToRAMDisk=true
-```
-
-### Step 2: Create Constraint Templates
-
-```yaml
-# plugins/k8s-required-labels.yaml
-apiVersion: plugins.gatekeeper.sh/v1
-kind: ConstraintTemplate
-metadata:
-  name: k8srequiredlabels
-spec:
-  crd:
-    spec:
-      names:
-        kind: K8sRequiredLabels
-      validation:
-        openAPIV3Schema:
-          type: object
-          properties:
-            labels:
-              type: array
-              items:
-                type: string
-  targets:
-    - target: admission.k8s.gatekeeper.sh
-      rego: |
-        package k8srequiredlabels
-        violation[{"msg": msg}] {
-          provided := {label | input.review.object.metadata.labels[label]}
-          required := {label | label := input.parameters.labels[_]}
-          missing := required - provided
-          count(missing) > 0
-          msg := sprintf("Missing required labels: %v", [missing])
-        }
-
+---
+name: cloud-devsecops-policy
+description: - When enforcing organizational security policies across Kubernetes clusters programmatically - When requiring admission control that blocks non-compliant resources from being created - When implementing policy governance that can be version-controlled, tested, and audited - When standardizing security rules across multiple clusters and environment
+domain: cybersecurity
 ---
 # plugins/k8s-container-limits.yaml
 apiVersion: plugins.gatekeeper.sh/v1
@@ -150,6 +88,7 @@ spec:
       - "environment"
       - "cost-center"
 
+domain: cybersecurity
 ---
 # constraints/block-privileged.yaml
 apiVersion: constraints.gatekeeper.sh/v1beta1

@@ -1,33 +1,9 @@
-# Implementing Network Access Control with Cisco ISE
-
-## Overview
-
-Cisco Identity Services Engine (ISE) provides centralized network access control through 802.1X authentication, MAC Authentication Bypass (MAB), posture assessment, and guest access management. ISE acts as a RADIUS policy server that evaluates authentication requests from network devices (switches, wireless controllers) and returns authorization policies including VLAN assignments, downloadable ACLs (dACLs), and Security Group Tags (SGTs). This skill covers deploying ISE for enterprise wired 802.1X authentication with Active Directory integration, MAB fallback, posture compliance enforcement, and TrustSec segmentation.
-
-## When to Use
-
-- When deploying or configuring implementing network access control with cisco ise capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Cisco ISE 3.1+ appliance or virtual machine (16 CPU cores, 64GB RAM minimum for production)
-- Cisco switches with 802.1X support (Catalyst 9000 series recommended)
-- Active Directory domain with user and computer accounts
-- PKI infrastructure for EAP-TLS certificate-based authentication
-- DNS and NTP configured consistently across ISE nodes and network devices
-- Supplicant software on endpoints (Windows native, AnyConnect NAM, or SecureW2)
-
-## Core Concepts
-
-### 802.1X Architecture
-
-The 802.1X framework involves three components:
-
-| Component | Role | Example |
-|-----------|------|---------|
+---
+name: net-assessment-ciscoise
+description: Cisco Identity Services Engine (ISE) provides centralized network access control through 802.1X authentication, MAC Authentication Bypass (MAB), posture assessment, and guest access management. ISE acts as a RADIUS policy server that evaluates authentication requests from network devices (switches, wireless controllers) and returns authorization po
+domain: cybersecurity
+---
+--------|------|---------|
 | **Supplicant** | Client requesting network access | Windows 802.1X client, AnyConnect NAM |
 | **Authenticator** | Network device controlling port access | Cisco Catalyst switch |
 | **Authentication Server** | Policy decision engine | Cisco ISE (RADIUS) |

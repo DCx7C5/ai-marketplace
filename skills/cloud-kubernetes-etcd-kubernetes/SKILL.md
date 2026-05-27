@@ -1,91 +1,9 @@
-# Performing Kubernetes etcd Security Assessment
-
-## Overview
-
-etcd is the distributed key-value store that serves as Kubernetes' backing store for all cluster data, including Secrets, RBAC policies, ConfigMaps, and workload configurations. Without proper hardening, etcd exposes all cluster secrets in plaintext, making it the highest-value target for attackers who gain control plane access. A comprehensive security assessment covers encryption at rest, TLS for transport, access control, backup security, and network isolation.
-
-## When to Use
-
-- When conducting security assessments that involve performing kubernetes etcd security assessment
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Access to Kubernetes control plane nodes
-- SSH access to etcd cluster nodes (or etcdctl configured)
-- CIS Kubernetes Benchmark reference document
-- Understanding of TLS certificate management and EncryptionConfiguration
-
-## Assessment Areas
-
-### 1. Encryption at Rest
-
-Verify that Kubernetes encrypts Secret data stored in etcd:
-
-```bash
-# Check if EncryptionConfiguration is configured on API server
-ps aux | grep kube-apiserver | grep encryption-provider-config
-
-# View the encryption configuration
-cat /etc/kubernetes/enc/encryption-config.yaml
-```
-
-Expected secure configuration:
-
-```yaml
-apiVersion: apiserver.config.k8s.io/v1
-kind: EncryptionConfiguration
-resources:
-  - resources:
-      - secrets
-      - configmaps
-    providers:
-      - aescbc:
-          keys:
-            - name: key1
-              secret: <base64-encoded-32-byte-key>
-      - identity: {}  # Fallback for reading unencrypted data
-```
-
-Verify secrets are actually encrypted in etcd:
-
-```bash
-# Read a secret directly from etcd
-ETCDCTL_API=3 etcdctl \
-  --endpoints=https://127.0.0.1:2379 \
-  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
-  --cert=/etc/kubernetes/pki/etcd/server.crt \
-  --key=/etc/kubernetes/pki/etcd/server.key \
-  get /registry/secrets/default/my-secret | hexdump -C | head -20
-
-# If encrypted, output starts with "k8s:enc:aescbc:v1:key1"
-# If NOT encrypted, you'll see plaintext key-value pairs
-```
-
-### 2. TLS Transport Security
-
-```bash
-# Verify etcd uses TLS for client connections
-ETCDCTL_API=3 etcdctl endpoint health \
-  --endpoints=https://127.0.0.1:2379 \
-  --cacert=/etc/kubernetes/pki/etcd/ca.crt \
-  --cert=/etc/kubernetes/pki/etcd/server.crt \
-  --key=/etc/kubernetes/pki/etcd/server.key
-
-# Check peer TLS configuration
-ps aux | grep etcd | tr ' ' '\n' | grep -E "peer-cert|peer-key|peer-trusted-ca"
-
-# Verify certificate expiration
-openssl x509 -in /etc/kubernetes/pki/etcd/server.crt -noout -enddate
-openssl x509 -in /etc/kubernetes/pki/etcd/peer.crt -noout -enddate
-```
-
-Expected flags:
-
-| Flag | Required Value | Purpose |
-|------|---------------|---------|
+---
+name: cloud-kubernetes-etcd-kubernetes
+description: etcd is the distributed key-value store that serves as Kubernetes' backing store for all cluster data, including Secrets, RBAC policies, ConfigMaps, and workload configurations. Without proper hardening, etcd exposes all cluster secrets in plaintext, making it the highest-value target for attackers who gain control plane access. A comprehensive sec
+domain: cybersecurity
+---
+---|---------------|---------|
 | `--cert-file` | Path to server cert | Client-to-server TLS |
 | `--key-file` | Path to server key | Client-to-server TLS |
 | `--trusted-ca-file` | Path to CA cert | Client certificate validation |

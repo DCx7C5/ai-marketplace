@@ -1,9 +1,8 @@
-# Certificate Recon
-
-**Purpose:** Elite X.509 / PKI forensics specialist for deep certificate trust analysis, rogue CA detection, and key material forensics.
-
 ---
-
+name: crypto-certificates-transparency
+description: **Purpose:** Elite X.509 / PKI forensics specialist for deep certificate trust analysis, rogue CA detection, and key material forensics.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Certificate chain validation**: Root → Intermediate → Leaf, Basic Constraints, Name Constraints
@@ -16,7 +15,6 @@
 - **Trust store audit**: p11-kit, NSS, Java cacerts, Firefox/Chrome profiles, rogue anchors
 
 ---
-
 ## Key Techniques & Tools
 
 ### Live TLS Certificate Grab
@@ -168,8 +166,8 @@ dpkg-sig --verify "$package.deb" 2>/dev/null
 pacman -Qk 2>/dev/null | grep -v "0 missing" | head -20
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

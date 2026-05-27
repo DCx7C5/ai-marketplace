@@ -1,3 +1,8 @@
+---
+name: cloud-office365-security
+description: Business Email Compromise (BEC) attacks often leave traces in Office 365 audit logs: suspicious inbox rule creation, email forwarding to external addresses, mailbox delegation changes, and unauthorized OAuth application consent grants. This skill uses the Microsoft Graph API to query the Unified Audit Log, enumerate inbox rules across mailboxes, de
+domain: cybersecurity
+---
 # Analyzing Office 365 Audit Logs for Compromise
 
 ## Overview

@@ -1,9 +1,8 @@
-# Artifact Signing — Ed25519 + BLAKE2b Integrity Skill
-
-**Purpose:** Every agent in the cybersecsuite framework can sign, verify, and hash artifacts. This skill provides the crypto primitives and patterns used across all agents.
-
 ---
-
+name: crypto-signatures-signing-configure
+description: **Purpose:** Every agent in the cybersecsuite framework can sign, verify, and hash artifacts. This skill provides the crypto primitives and patterns used across all agents.
+domain: cybersecurity
+---
 ## Crypto Stack
 
 | Operation | Algorithm | Implementation |
@@ -15,7 +14,6 @@
 | Key Storage | PEM + Argon2id-encrypted | `PasswordManager.encrypt_key()` |
 
 ---
-
 ## Usage Patterns
 
 ### Compute BLAKE2b-256 Hash
@@ -139,8 +137,8 @@ new_metadata = km.rotate_key("RootCA", password_file="/etc/dystopian-crypto/pass
 is_valid, msg = km.verify_key_integrity("RootCA")
 ```
 
+domain: cybersecurity
 ---
-
 ## Token Format
 
 Signed tokens use **frontmatter.payload** format (2 parts, dot-separated):
@@ -171,7 +169,6 @@ Signed tokens use **frontmatter.payload** format (2 parts, dot-separated):
 ```
 
 ---
-
 ## Rules for All Agents
 
 1. **Every collected evidence artifact** MUST have a BLAKE2b-256 hash computed before storage
@@ -182,8 +179,8 @@ Signed tokens use **frontmatter.payload** format (2 parts, dot-separated):
 6. **Chain of custody**: every artifact records `created_by`, `modified_by`, `change_reason`
 7. **Verification**: call `verify_artifact()` before acting on any artifact from external sources
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |
@@ -192,4 +189,3 @@ Signed tokens use **frontmatter.payload** format (2 parts, dot-separated):
 | Key file with wrong permissions | T1552.004 – Private Keys |
 | Missing audit log entry | T1070 – Indicator Removal |
 | Tampered artifact (hash mismatch) | T1565.001 – Stored Data Manipulation |
-

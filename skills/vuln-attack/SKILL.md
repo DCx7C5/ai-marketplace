@@ -1,30 +1,9 @@
-# Implementing Attack Path Analysis with XM Cyber
-
-## Overview
-XM Cyber is a continuous exposure management platform that uses attack graph analysis to identify how adversaries can chain together exposures -- vulnerabilities, misconfigurations, identity risks, and credential weaknesses -- to reach critical business assets. According to XM Cyber's 2024 research analyzing over 40 million exposures across 11.5 million entities, organizations typically have around 15,000 exploitable exposures, but traditional CVEs account for less than 1% of total exposures. The platform identifies that only 2% of exposures reside on "choke points" of converging attack paths, enabling security teams to focus on fixes that eliminate the most risk with the least effort.
-
-## When to Use
-
-- When deploying or configuring implementing attack path analysis with xm cyber capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- XM Cyber platform license and tenant access
-- Network connectivity to monitored environments (on-premises, cloud, hybrid)
-- Administrative access for agent deployment or agentless integration
-- Cloud provider API access (AWS, Azure, GCP) for cloud attack path analysis
-- Active Directory read access for identity-based attack path modeling
-- CMDB or asset inventory defining critical business assets
-
-## Core Concepts
-
-### Attack Graph Analysis
-Unlike point-in-time vulnerability scanning, XM Cyber continuously models all possible attack paths across the entire environment:
-
-| Traditional Scanning | XM Cyber Attack Path Analysis |
-|---------------------|-------------------------------|
+---
+name: vuln-attack
+description: XM Cyber is a continuous exposure management platform that uses attack graph analysis to identify how adversaries can chain together exposures -- vulnerabilities, misconfigurations, identity risks, and credential weaknesses -- to reach critical business assets. According to XM Cyber's 2024 research analyzing over 40 million exposures across 11.5 mi
+domain: cybersecurity
+---
+------------------|-------------------------------|
 | Lists individual vulnerabilities | Maps chained attack paths |
 | Scores by CVSS severity | Scores by reachability to critical assets |
 | Point-in-time assessment | Continuous real-time modeling |

@@ -1,3 +1,8 @@
+---
+name: net-traffic-arkime
+description: - When deploying or configuring implementing network traffic analysis with arkime capabilities in your environment - When establishing security controls aligned to compliance requirements - When building or improving security architecture for this domain - When conducting security assessments that require this implementation
+domain: cybersecurity
+---
 # Implementing Network Traffic Analysis with Arkime
 
 ## When to Use

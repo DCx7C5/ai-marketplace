@@ -1,3 +1,8 @@
+---
+name: net-traffic-domainfronting
+description: Domain fronting (MITRE ATT&CK T1090.004) is a technique where attackers use different domain names in the TLS SNI field and the HTTP Host header to disguise C2 traffic behind legitimate CDN-hosted domains. This skill detects domain fronting by parsing proxy/web gateway logs for SNI-Host header mismatches, analyzing TLS certificates for CDN provider
+domain: cybersecurity
+---
 # Hunting for Domain Fronting C2 Traffic
 
 ## Overview

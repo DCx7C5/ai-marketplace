@@ -13,8 +13,6 @@ tags:
 nist_csf:
 - PR.DS-06
 - ID.RA-05
-model: sonnet
-maxTurns: 15
 tools: [Read, Bash, Glob, Grep]
 mitre_attack:
 - T1195.002

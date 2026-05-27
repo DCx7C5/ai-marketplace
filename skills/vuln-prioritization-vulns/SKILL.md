@@ -1,65 +1,9 @@
-# Prioritizing Vulnerabilities with CVSS Scoring
-
-## Overview
-The Common Vulnerability Scoring System (CVSS) is the industry standard framework maintained by FIRST (Forum of Incident Response and Security Teams) for assessing vulnerability severity. CVSS v4.0 (released November 2023) introduces refined metrics for more accurate scoring. This skill covers calculating CVSS scores, interpreting vector strings, and using CVSS alongside contextual factors like EPSS and CISA KEV for effective vulnerability prioritization.
-
-## When to Use
-
-- When managing security operations that require prioritizing vulnerabilities with cvss scoring
-- When improving security program maturity and operational processes
-- When establishing standardized procedures for security team workflows
-- When integrating threat intelligence or vulnerability data into operations
-
-## Prerequisites
-- Understanding of common vulnerability types (buffer overflow, injection, XSS, etc.)
-- Familiarity with networking concepts (attack vectors, protocols)
-- Access to NVD (National Vulnerability Database) for CVE lookups
-- Vulnerability scan results requiring prioritization
-
-## Core Concepts
-
-### CVSS v4.0 Metric Groups
-
-#### 1. Base Metrics (Intrinsic Severity)
-Represent the inherent characteristics of a vulnerability:
-
-**Exploitability Metrics:**
-- **Attack Vector (AV)**: Network (N), Adjacent (A), Local (L), Physical (P)
-- **Attack Complexity (AC)**: Low (L), High (H)
-- **Attack Requirements (AT)**: None (N), Present (P) - NEW in v4.0
-- **Privileges Required (PR)**: None (N), Low (L), High (H)
-- **User Interaction (UI)**: None (N), Passive (P), Active (A) - Expanded in v4.0
-
-**Impact Metrics (Vulnerable System):**
-- **Confidentiality (VC)**: None (N), Low (L), High (H)
-- **Integrity (VI)**: None (N), Low (L), High (H)
-- **Availability (VA)**: None (N), Low (L), High (H)
-
-**Impact Metrics (Subsequent System):**
-- **Confidentiality (SC)**: None (N), Low (L), High (H)
-- **Integrity (SI)**: None (N), Low (L), High (H)
-- **Availability (SA)**: None (N), Low (L), High (H)
-
-#### 2. Threat Metrics (Dynamic Context)
-- **Exploit Maturity (E)**: Attacked (A), POC (P), Unreported (U)
-
-#### 3. Environmental Metrics (Organization-Specific)
-Modified versions of base metrics reflecting local deployment context, plus:
-- **Confidentiality Requirement (CR)**: High (H), Medium (M), Low (L)
-- **Integrity Requirement (IR)**: High (H), Medium (M), Low (L)
-- **Availability Requirement (AR)**: High (H), Medium (M), Low (L)
-
-#### 4. Supplemental Metrics (Advisory Information)
-- **Safety (S)**: Present (P), Negligible (X)
-- **Automatable (AU)**: Yes (Y), No (N)
-- **Recovery (R)**: Automatic (A), User (U), Irrecoverable (I)
-- **Value Density (V)**: Diffuse (D), Concentrated (C)
-- **Vulnerability Response Effort (RE)**: Low (L), Moderate (M), High (H)
-- **Provider Urgency (U)**: Red, Amber, Green, Clear
-
-### CVSS v4.0 Severity Ratings
-| Score Range | Severity |
-|-------------|----------|
+---
+name: vuln-prioritization-vulns
+description: The Common Vulnerability Scoring System (CVSS) is the industry standard framework maintained by FIRST (Forum of Incident Response and Security Teams) for assessing vulnerability severity. CVSS v4.0 (released November 2023) introduces refined metrics for more accurate scoring. This skill covers calculating CVSS scores, interpreting vector strings, a
+domain: cybersecurity
+---
+----------|----------|
 | 0.0 | None |
 | 0.1 - 3.9 | Low |
 | 4.0 - 6.9 | Medium |

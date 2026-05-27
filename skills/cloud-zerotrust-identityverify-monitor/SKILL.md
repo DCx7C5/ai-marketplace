@@ -1,3 +1,8 @@
+---
+name: cloud-zerotrust-identityverify-monitor
+description: Identity is the foundational pillar of zero trust architecture. NIST SP 800-207 mandates that all resource authentication and authorization are dynamic and strictly enforced before access is allowed. Identity verification in zero trust goes beyond traditional username/password by implementing continuous, risk-adaptive authentication using multiple 
+domain: cybersecurity
+---
 # Implementing Identity Verification for Zero Trust
 
 ## Prerequisites

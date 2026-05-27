@@ -1,20 +1,9 @@
-# Performing Cloud-Native Threat Hunting with AWS Detective
-
-## Overview
-
-AWS Detective automatically collects and analyzes log data from AWS CloudTrail, VPC Flow Logs, GuardDuty findings, and EKS audit logs to build interactive behavior graphs. These graphs enable security analysts to investigate entities (IAM users, roles, IP addresses, EC2 instances) across time, identify anomalous API calls, detect lateral movement between accounts, and correlate GuardDuty findings into coherent attack narratives — all without manual log parsing.
-
-## Prerequisites
-
-- AWS account with Detective enabled (requires GuardDuty active for 48+ hours)
-- AWS CLI v2 configured with appropriate IAM permissions (`detective:*`, `guardduty:List*`)
-- Python 3.9+ with boto3
-- IAM policy: `AmazonDetectiveFullAccess` or custom policy with `detective:SearchGraph`, `detective:GetInvestigation`, `detective:ListIndicators`
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-cloud
+description: AWS Detective automatically collects and analyzes log data from AWS CloudTrail, VPC Flow Logs, GuardDuty findings, and EKS audit logs to build interactive behavior graphs. These graphs enable security analysts to investigate entities (IAM users, roles, IP addresses, EC2 instances) across time, identify anomalous API calls, detect lateral movement b
+domain: cybersecurity
+---
+------|-------------|
 | **Behavior Graph** | Data structure linking CloudTrail, VPC Flow, GuardDuty, and EKS logs for an account/region |
 | **Entity** | Investigable object: IAM user, IAM role, EC2 instance, IP address, S3 bucket, EKS cluster |
 | **Finding Group** | Correlated set of GuardDuty findings linked to the same attack campaign |

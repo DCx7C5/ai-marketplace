@@ -1,33 +1,9 @@
-# Implementing Zero Trust with HashiCorp Boundary
-
-## Overview
-
-HashiCorp Boundary is an identity-aware proxy that provides secure, zero trust access to infrastructure resources without traditional VPNs or direct network access. Boundary operates on a default-deny model -- users start with no access and must be explicitly granted permissions for specific resources. When integrated with HashiCorp Vault, Boundary can dynamically broker credentials, ensuring users never see or manage underlying secrets. This eliminates credential sprawl and enables just-in-time access with automatic credential revocation when sessions end. Boundary supports session recording for audit compliance, OIDC/LDAP authentication, and manages access through a hierarchical scope model of organizations and projects.
-
-## When to Use
-
-- When deploying or configuring implementing zero trust with hashicorp boundary capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- HashiCorp Boundary server (self-hosted or HCP Boundary)
-- HashiCorp Vault (for credential brokering)
-- Identity provider supporting OIDC (Okta, Azure AD, Auth0)
-- PostgreSQL database for Boundary's backend
-- TLS certificates for secure communication
-- Understanding of PKI and X.509 certificate management
-
-## Architecture
-
-```
-                    Identity Provider (OIDC)
-                           |
-                    Authentication
-                           |
-                  +--------+--------+
+---
+name: cloud-zerotrust-boundary
+description: HashiCorp Boundary is an identity-aware proxy that provides secure, zero trust access to infrastructure resources without traditional VPNs or direct network access. Boundary operates on a default-deny model -- users start with no access and must be explicitly granted permissions for specific resources. When integrated with HashiCorp Vault, Boundary
+domain: cybersecurity
+---
+-----+--------+
                   |   Boundary      |
                   |   Controller    |
                   |  (Control Plane)|

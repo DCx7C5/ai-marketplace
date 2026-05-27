@@ -1,37 +1,9 @@
-# Hunting for Beaconing with Frequency Analysis
-
-## When to Use
-
-- When proactively searching for compromised endpoints calling back to C2 infrastructure
-- After threat intelligence reports indicate active C2 frameworks targeting your sector
-- When network logs show periodic outbound connections to unfamiliar destinations
-- During purple team exercises validating C2 detection capabilities
-- When investigating a potential breach and need to identify active C2 channels
-
-## Prerequisites
-
-- Network proxy/firewall logs with timestamps and destination data (minimum 24 hours)
-- Zeek conn.log, dns.log, and ssl.log or equivalent NetFlow/IPFIX data
-- SIEM platform with statistical analysis capability (Splunk, Elastic, Microsoft Sentinel)
-- RITA (Real Intelligence Threat Analytics) or AC-Hunter for automated beacon analysis
-- Threat intelligence feeds for domain/IP reputation enrichment
-
-## Workflow
-
-1. **Define Beacon Parameters**: Establish detection thresholds -- coefficient of variation (CV) below 0.20 indicates strong periodicity, minimum 50 connections over 24 hours, average interval between 30 seconds and 24 hours.
-2. **Collect Network Telemetry**: Aggregate proxy logs, DNS queries, firewall connection logs, and Zeek metadata into the analysis platform.
-3. **Calculate Connection Intervals**: For each source-destination pair, compute the time delta between consecutive connections and derive mean interval, standard deviation, and CV.
-4. **Apply Jitter Analysis**: Sophisticated C2 frameworks like Cobalt Strike add jitter (randomness) to beacon intervals. The Sunburst backdoor beaconed every 15 minutes plus/minus 90 seconds. Analyze jitter patterns to detect even randomized beaconing.
-5. **Filter Legitimate Periodic Traffic**: Exclude known-good beaconing sources including Windows Update, antivirus definition updates, NTP synchronization, SaaS heartbeat services, and CDN health checks.
-6. **Analyze Data Size Consistency**: C2 heartbeat packets typically have consistent payload sizes. Calculate the CV of bytes transferred per connection -- low variance suggests automated communication.
-7. **Enrich with Threat Intelligence**: Check identified beaconing destinations against VirusTotal, WHOIS registration data (flag domains under 30 days old), certificate transparency logs, and passive DNS history.
-8. **Correlate with Endpoint Telemetry**: Map beaconing source IPs to endpoint hostnames via DHCP logs, then correlate with process creation events (Sysmon Event ID 1, 3) to identify the responsible process.
-9. **Score and Prioritize**: Assign risk scores based on CV value, domain age, TI matches, data size consistency, and suspicious port usage. Escalate high-confidence findings.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: net-flow-beaconing
+description: - When proactively searching for compromised endpoints calling back to C2 infrastructure - After threat intelligence reports indicate active C2 frameworks targeting your sector - When network logs show periodic outbound connections to unfamiliar destinations - During purple team exercises validating C2 detection capabilities - When investigating a 
+domain: cybersecurity
+---
+------|-------------|
 | T1071.001 | Application Layer Protocol: Web Protocols -- HTTP/HTTPS beaconing |
 | T1071.004 | Application Layer Protocol: DNS -- DNS-based C2 tunneling |
 | T1573 | Encrypted Channel -- TLS/SSL encrypted C2 communication |

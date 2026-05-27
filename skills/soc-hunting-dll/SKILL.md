@@ -1,35 +1,9 @@
-# Detecting DLL Sideloading Attacks
-
-## When to Use
-
-- When investigating potential DLL hijacking in enterprise environments
-- After EDR alerts on unsigned DLLs loaded by signed applications
-- When hunting for APT persistence using legitimate application wrappers
-- During incident response to identify trojanized applications
-- When threat intel indicates DLL sideloading campaigns targeting specific software
-
-## Prerequisites
-
-- EDR with DLL load monitoring (CrowdStrike, MDE, SentinelOne)
-- Sysmon Event ID 7 (Image Loaded) with hash verification
-- Application whitelisting or DLL integrity monitoring
-- Software inventory of legitimate applications and expected DLL paths
-- Code signing verification capabilities
-
-## Workflow
-
-1. **Identify Sideloading Targets**: Research known vulnerable applications that load DLLs without full path qualification (LOLBAS, DLL-sideload databases).
-2. **Monitor DLL Load Events**: Query Sysmon Event ID 7 for DLL loads where the DLL path differs from the application's expected directory.
-3. **Check DLL Signatures**: Flag unsigned or untrusted DLLs loaded by signed executables.
-4. **Detect Path Anomalies**: Identify legitimate executables running from unusual locations (Temp, AppData, Public) that may be decoy wrappers.
-5. **Hash Verification**: Compare loaded DLL hashes against known-good versions and threat intel feeds.
-6. **Correlate with Process Behavior**: Check if the host process exhibits unusual behavior (network connections, child processes) after loading the suspicious DLL.
-7. **Document and Remediate**: Report sideloading instances, quarantine malicious DLLs, and update detection rules.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-dll
+description: - When investigating potential DLL hijacking in enterprise environments - After EDR alerts on unsigned DLLs loaded by signed applications - When hunting for APT persistence using legitimate application wrappers - During incident response to identify trojanized applications - When threat intel indicates DLL sideloading campaigns targeting specific s
+domain: cybersecurity
+---
+------|-------------|
 | T1574.002 | DLL Side-Loading |
 | T1574.001 | DLL Search Order Hijacking |
 | T1574.006 | Dynamic Linker Hijacking |

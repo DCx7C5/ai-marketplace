@@ -1,3 +1,8 @@
+---
+name: devel-jb-internal-comms
+description: To write internal communications, use this skill for:
+domain: cybersecurity
+---
 ## When to use this skill
 To write internal communications, use this skill for:
 - 3P updates (Progress, Plans, Problems)

@@ -1,32 +1,9 @@
-# Building SOC Metrics and KPI Tracking
-
-## When to Use
-
-Use this skill when:
-- SOC leadership needs data-driven visibility into operational performance
-- Continuous improvement programs require baseline measurements and trend tracking
-- Executive reporting demands quantified security posture and ROI metrics
-- Staffing decisions need objective workload and capacity data
-- Compliance audits require documented SOC performance evidence
-
-**Do not use** metrics as punitive measures against analysts — metrics should drive process improvement, not individual performance management.
-
-## Prerequisites
-
-- SIEM with 90+ days of incident and alert disposition data
-- Incident ticketing system (ServiceNow, Jira) with timestamp data for incident lifecycle
-- Analyst shift schedules and staffing data
-- ATT&CK Navigator for detection coverage tracking
-- Dashboard platform (Splunk, Grafana, or Power BI)
-
-## Workflow
-
-### Step 1: Define Core SOC Metrics Framework
-
-Establish the key metrics aligned to NIST CSF functions:
-
-| Metric | Definition | Target | NIST CSF |
-|--------|-----------|--------|----------|
+---
+name: soc-operations-kpi-metrics
+description: Use this skill when: - SOC leadership needs data-driven visibility into operational performance - Continuous improvement programs require baseline measurements and trend tracking - Executive reporting demands quantified security posture and ROI metrics - Staffing decisions need objective workload and capacity data - Compliance audits require docume
+domain: cybersecurity
+---
+-----|-----------|--------|----------|
 | MTTD | Time from threat occurrence to SOC detection | <15 min | Detect |
 | MTTA | Time from alert to analyst acknowledgment | <5 min | Respond |
 | MTTI | Time from acknowledgment to investigation start | <10 min | Respond |

@@ -1,35 +1,9 @@
-# Hunting for Persistence via WMI Subscriptions
-
-## When to Use
-
-- When proactively searching for fileless persistence mechanisms in Windows environments
-- After threat intelligence reports indicate WMI-based persistence by APT groups (APT29, APT32, FIN8)
-- When investigating systems where malware persists across reboots despite cleanup attempts
-- During incident response when standard persistence locations (Run keys, scheduled tasks) are clean
-- When WmiPrvSe.exe is observed spawning unexpected child processes
-
-## Prerequisites
-
-- Sysmon Event ID 19, 20, 21 (WMI Event Filter/Consumer/Binding) enabled
-- Windows Event ID 5861 (WMI activity logging) from Microsoft-Windows-WMI-Activity
-- PowerShell logging enabled (Script Block Logging, Module Logging)
-- WMI repository access for enumeration
-- SIEM platform for event correlation
-
-## Workflow
-
-1. **Enumerate Existing WMI Subscriptions**: Query all permanent WMI event subscriptions on target systems. A clean system typically has very few or zero permanent subscriptions, making anomalies easy to spot.
-2. **Monitor WMI Event Creation (Sysmon 19/20/21)**: Sysmon Event 19 captures WmiEventFilter activity, Event 20 captures WmiEventConsumer activity, and Event 21 captures WmiEventConsumerToFilter binding.
-3. **Analyze Consumer Types**: Focus on ActiveScriptEventConsumer (runs VBScript/JScript) and CommandLineEventConsumer (executes commands) -- these are the dangerous types used for persistence.
-4. **Check Event Filter Triggers**: Examine what triggers the subscription. Common malicious triggers include system startup (Win32_ProcessStartTrace), user logon, or timer-based execution intervals.
-5. **Investigate WmiPrvSe.exe Child Processes**: When a WMI subscription fires, the action is executed by WmiPrvSe.exe. Hunt for unusual child processes of WmiPrvSe.exe.
-6. **Correlate with MOF Compilation**: Detect `mofcomp.exe` usage which compiles MOF files to create WMI subscriptions programmatically.
-7. **Validate and Respond**: Confirm malicious subscriptions, remove them, and trace back to the initial infection vector.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-persistence-persist
+description: - When proactively searching for fileless persistence mechanisms in Windows environments - After threat intelligence reports indicate WMI-based persistence by APT groups (APT29, APT32, FIN8) - When investigating systems where malware persists across reboots despite cleanup attempts - During incident response when standard persistence locations (Run
+domain: cybersecurity
+---
+------|-------------|
 | T1546.003 | Event Triggered Execution: WMI Event Subscription |
 | __EventFilter | WMI class defining the trigger condition |
 | __EventConsumer | WMI class defining the action to perform |

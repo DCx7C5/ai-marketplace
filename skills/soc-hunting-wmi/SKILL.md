@@ -1,35 +1,9 @@
-# Detecting WMI Persistence
-
-## When to Use
-
-- When hunting for WMI event subscription persistence (MITRE ATT&CK T1546.003)
-- After detecting suspicious WMI activity in endpoint telemetry
-- During incident response to identify attacker persistence mechanisms
-- When Sysmon alerts trigger on Event IDs 19, 20, or 21
-- During purple team exercises testing WMI-based persistence
-
-## Prerequisites
-
-- Sysmon v6.1+ deployed with WMI event logging enabled (Event IDs 19, 20, 21)
-- Windows Security Event Log forwarding configured
-- SIEM with Sysmon data ingested (Splunk, Elastic, Sentinel)
-- PowerShell access for WMI enumeration on endpoints
-- Sysinternals Autoruns for manual WMI subscription review
-
-## Workflow
-
-1. **Collect Telemetry**: Parse Sysmon Event IDs 19 (WmiEventFilter), 20 (WmiEventConsumer), 21 (WmiEventConsumerToFilter).
-2. **Identify Suspicious Consumers**: Flag CommandLineEventConsumer and ActiveScriptEventConsumer types executing code.
-3. **Analyze Event Filters**: Examine WQL queries in EventFilters for process start triggers or timer-based execution.
-4. **Correlate Bindings**: Match FilterToConsumerBindings linking suspicious filters to consumers.
-5. **Check Persistence Locations**: Query WMI namespaces root\subscription and root\default for active subscriptions.
-6. **Validate Findings**: Cross-reference with known-good WMI subscriptions (SCCM, AV products).
-7. **Document and Remediate**: Remove malicious subscriptions and update detection rules.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-wmi
+description: - When hunting for WMI event subscription persistence (MITRE ATT&CK T1546.003) - After detecting suspicious WMI activity in endpoint telemetry - During incident response to identify attacker persistence mechanisms - When Sysmon alerts trigger on Event IDs 19, 20, or 21 - During purple team exercises testing WMI-based persistence
+domain: cybersecurity
+---
+------|-------------|
 | Sysmon Event 19 | WmiEventFilter creation detected |
 | Sysmon Event 20 | WmiEventConsumer creation detected |
 | Sysmon Event 21 | WmiEventConsumerToFilter binding detected |

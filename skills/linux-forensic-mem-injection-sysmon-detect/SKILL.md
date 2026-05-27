@@ -1,36 +1,9 @@
-# Detecting T1055 Process Injection with Sysmon
-
-## When to Use
-
-- When hunting for defense evasion techniques that hide malicious code inside legitimate processes
-- After EDR alerts for suspicious cross-process memory access or remote thread creation
-- When investigating malware that injects into svchost.exe, explorer.exe, or other system processes
-- During purple team exercises testing detection of process injection variants
-- When validating Sysmon configuration coverage for injection detection
-
-## Prerequisites
-
-- Sysmon deployed with comprehensive configuration capturing Events 1, 7, 8, 10, 25
-- Event ID 8 (CreateRemoteThread) enabled for remote thread detection
-- Event ID 10 (ProcessAccess) configured with appropriate access mask filters
-- Event ID 7 (ImageLoaded) for DLL injection detection
-- Event ID 25 (ProcessTampering) for process hollowing on Sysmon 13+
-- SIEM platform for correlation and alerting
-
-## Workflow
-
-1. **Monitor CreateRemoteThread (Event 8)**: Detect when one process creates a thread in another process's address space. This is the primary indicator of classic DLL injection and shellcode injection.
-2. **Analyze ProcessAccess (Event 10)**: Track cross-process handle requests with PROCESS_VM_WRITE (0x0020), PROCESS_VM_OPERATION (0x0008), and PROCESS_CREATE_THREAD (0x0002) access rights. Legitimate processes rarely need these on other processes.
-3. **Detect Anomalous DLL Loading (Event 7)**: Identify DLLs loaded from unusual paths (user temp directories, download folders) into system processes.
-4. **Hunt Process Hollowing (Event 25)**: Sysmon 13+ generates ProcessTampering events when the executable image in memory diverges from what was mapped from disk -- a hallmark of process hollowing (T1055.012).
-5. **Correlate with Process Creation**: Link injection events to the originating process creation (Event 1) to build the full attack chain from initial execution to injection.
-6. **Filter Known-Good Cross-Process Activity**: Exclude legitimate software that performs cross-process operations (debuggers, AV products, accessibility tools, RMM agents).
-7. **Map to ATT&CK Sub-Techniques**: Classify detected injection as classic injection (T1055.001), PE injection (T1055.002), thread execution hijacking (T1055.003), APC injection (T1055.004), thread local storage (T1055.005), process hollowing (T1055.012), or process doppelganging (T1055.013).
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: linux-forensic-mem-injection-sysmon-detect
+description: - When hunting for defense evasion techniques that hide malicious code inside legitimate processes - After EDR alerts for suspicious cross-process memory access or remote thread creation - When investigating malware that injects into svchost.exe, explorer.exe, or other system processes - During purple team exercises testing detection of process inj
+domain: cybersecurity
+---
+------|-------------|
 | T1055.001 | Dynamic-link Library Injection |
 | T1055.002 | Portable Executable Injection |
 | T1055.003 | Thread Execution Hijacking |

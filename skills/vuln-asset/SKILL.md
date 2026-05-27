@@ -1,28 +1,9 @@
-# Performing Asset Criticality Scoring for Vulns
-
-## Overview
-Asset criticality scoring assigns a business impact rating to each IT asset so that vulnerability remediation efforts focus on systems with the greatest organizational risk. Without criticality context, a CVSS 9.0 vulnerability on a test server receives the same urgency as the same vulnerability on a payment processing database. This skill covers building a multi-factor scoring model incorporating data sensitivity, business function dependency, regulatory scope, network exposure, and recoverability to create a 1-5 criticality tier that directly modifies vulnerability remediation SLAs.
-
-## When to Use
-
-- When conducting security assessments that involve performing asset criticality scoring for vulns
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-- Configuration Management Database (CMDB) or asset inventory
-- Business Impact Analysis (BIA) data
-- Data classification policy
-- Network architecture documentation
-- Stakeholder input from business unit owners
-
-## Core Concepts
-
-### Asset Criticality Scoring Model
-
-| Factor | Weight | Score Range | Description |
-|--------|--------|-------------|-------------|
+---
+name: vuln-asset
+description: Asset criticality scoring assigns a business impact rating to each IT asset so that vulnerability remediation efforts focus on systems with the greatest organizational risk. Without criticality context, a CVSS 9.0 vulnerability on a test server receives the same urgency as the same vulnerability on a payment processing database. This skill covers b
+domain: cybersecurity
+---
+-----|--------|-------------|-------------|
 | Business Function Impact | 25% | 1-5 | How critical is the supported business process |
 | Data Sensitivity | 25% | 1-5 | Type and sensitivity of data processed/stored |
 | Regulatory Scope | 15% | 1-5 | Regulatory requirements (PCI, HIPAA, SOX) |

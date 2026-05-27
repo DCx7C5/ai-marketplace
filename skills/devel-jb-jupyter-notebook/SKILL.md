@@ -1,3 +1,8 @@
+---
+name: devel-jb-jupyter-notebook
+description: - Create a new `.ipynb` notebook from scratch. - Convert rough notes or scripts into a structured notebook. - Refactor an existing notebook to be more reproducible and skimmable. - Build experiments or tutorials that will be read or re-run by other people.
+domain: cybersecurity
+---
 # Jupyter Notebook Skill
 
 Create clean, reproducible Jupyter notebooks for two primary modes:

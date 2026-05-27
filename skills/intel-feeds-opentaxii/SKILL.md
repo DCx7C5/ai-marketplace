@@ -1,3 +1,8 @@
+---
+name: intel-feeds-opentaxii
+description: TAXII (Trusted Automated eXchange of Intelligence Information) is an OASIS standard protocol for exchanging cyber threat intelligence over HTTPS. OpenTAXII is an open-source TAXII server implementation by EclecticIQ that supports TAXII 1.x, while the OASIS cti-taxii-server provides a TAXII 2.1 reference implementation. This skill covers deploying a
+domain: cybersecurity
+---
 # Implementing TAXII Server with OpenTAXII
 
 ## Overview

@@ -1,29 +1,9 @@
-# Scanning Docker Images with Trivy
-
-## Overview
-
-Trivy is a comprehensive open-source vulnerability scanner by Aqua Security that detects vulnerabilities in OS packages, language-specific dependencies, misconfigurations, secrets, and license violations within container images. It integrates into CI/CD pipelines and supports multiple output formats including SARIF, CycloneDX, and SPDX.
-
-## When to Use
-
-- When conducting security assessments that involve scanning docker images with trivy
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Docker Engine 20.10+
-- Trivy v0.50+ installed
-- Internet access for vulnerability database updates
-- Container registry credentials (for private registries)
-
-## Core Concepts
-
-### Scanner Types
-
-| Scanner | Flag | Detects |
-|---------|------|---------|
+---
+name: cloud-containers-docker-dockertrivy
+description: Trivy is a comprehensive open-source vulnerability scanner by Aqua Security that detects vulnerabilities in OS packages, language-specific dependencies, misconfigurations, secrets, and license violations within container images. It integrates into CI/CD pipelines and supports multiple output formats including SARIF, CycloneDX, and SPDX.
+domain: cybersecurity
+---
+------|------|---------|
 | Vulnerability | `--scanners vuln` | CVEs in OS packages and libraries |
 | Misconfiguration | `--scanners misconfig` | Dockerfile/K8s manifest misconfigs |
 | Secret | `--scanners secret` | Hardcoded passwords, API keys, tokens |

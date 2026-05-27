@@ -12,8 +12,6 @@ tags:
 nist_csf:
 - PR.IP-01
 - PR.PT-01
-model: sonnet
-maxTurns: 15
 tools: [Read, Bash, Glob, Grep]
 mitre_attack:
 - T1068

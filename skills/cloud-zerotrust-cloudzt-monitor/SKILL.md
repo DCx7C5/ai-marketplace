@@ -1,31 +1,9 @@
-# Implementing Zero Trust in Cloud
-
-## When to Use
-
-- When migrating from traditional perimeter-based security to identity-centric access controls
-- When eliminating VPN dependencies for remote workforce access to cloud applications
-- When implementing continuous verification for every access request regardless of network location
-- When designing micro-segmentation strategies for multi-cloud workloads
-- When regulatory requirements mandate zero trust architecture adoption (federal mandates, NIST guidelines)
-
-**Do not use** for simple VPN replacement without broader architectural changes, for network firewall rule management alone (see implementing-cloud-network-segmentation), or for identity provider initial setup (see managing-cloud-identity-with-okta).
-
-## Prerequisites
-
-- Identity provider capable of OIDC/SAML integration (Okta, Azure AD, Google Workspace)
-- Device management solution for endpoint trust assessment (Intune, Jamf, Google Endpoint Verification)
-- Cloud workloads accessible via HTTPS with load balancer or reverse proxy infrastructure
-- SIEM platform for continuous monitoring of access decisions and anomaly detection
-
-## Workflow
-
-### Step 1: Define Zero Trust Principles and Architecture
-
-Establish the core principles following NIST SP 800-207: never trust, always verify. Every access request must be authenticated, authorized, and encrypted regardless of origin.
-
-```
-Zero Trust Architecture Components:
-+-------------------------------------------------------------------+
+---
+name: cloud-zerotrust-cloudzt-monitor
+description: - When migrating from traditional perimeter-based security to identity-centric access controls - When eliminating VPN dependencies for remote workforce access to cloud applications - When implementing continuous verification for every access request regardless of network location - When designing micro-segmentation strategies for multi-cloud worklo
+domain: cybersecurity
+---
+----------------------------------------------------------------+
 |                        Policy Decision Point                       |
 |  +-------------------+  +------------------+  +-----------------+ |
 |  | Identity Provider |  | Device Trust     |  | Risk Engine     | |

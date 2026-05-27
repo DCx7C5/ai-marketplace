@@ -1,23 +1,9 @@
-# gws — Shared Reference
-
-## Installation
-
-The `gws` binary must be on `$PATH`. See the project README for install options.
-
-## Authentication
-
-```bash
-# Browser-based OAuth (interactive)
-gws auth login
-
-# Service Account
-export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
-```
-
-## Global Flags
-
-| Flag | Description |
-|------|-------------|
+---
+name: devel-jb-gws-shared
+description: The `gws` binary must be on `$PATH`. See the project README for install options.
+domain: cybersecurity
+---
+---|-------------|
 | `--format <FORMAT>` | Output format: `json` (default), `table`, `yaml`, `csv` |
 | `--dry-run` | Validate locally without calling the API |
 | `--sanitize <TEMPLATE>` | Screen responses through Model Armor |

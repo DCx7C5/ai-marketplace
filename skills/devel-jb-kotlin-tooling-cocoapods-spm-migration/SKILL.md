@@ -1,19 +1,9 @@
-# CocoaPods to SwiftPM Migration for KMP
-
-Migrate Kotlin Multiplatform projects from `kotlin("native.cocoapods")` to `swiftPMDependencies {}` DSL.
-
-## Requirements
-
-- **Kotlin**: Version with Swift Import support (e.g., 2.4.0-Beta1 or later)
-- **Xcode**: 16.4 or 26.0+
-- **iOS Deployment Target**: 16.0+ recommended
-
-## Migration Overview
-
-**IMPORTANT**: Keep the `cocoapods {}` block and plugin active until Phase 6. The migration adds `swiftPMDependencies {}` alongside the existing CocoaPods setup first, reconfigures Xcode, and only then removes CocoaPods.
-
-| Phase | Action |
-|-------|--------|
+---
+name: devel-jb-kotlin-tooling-cocoapods-spm-migration
+description: Migrate Kotlin Multiplatform projects from `kotlin("native.cocoapods")` to `swiftPMDependencies {}` DSL.
+domain: cybersecurity
+---
+----|--------|
 | 1 | Analyze existing CocoaPods configuration |
 | 2 | Update Gradle configuration (repos, Kotlin version) |
 | 3 | Add `swiftPMDependencies {}` alongside existing `cocoapods {}` |
@@ -24,7 +14,6 @@ Migrate Kotlin Multiplatform projects from `kotlin("native.cocoapods")` to `swif
 | 8 | Write MIGRATION_REPORT.md |
 
 ---
-
 ## Phase 1: Pre-Migration Analysis
 
 ### 1.0 Verify the project builds
@@ -118,8 +107,8 @@ To inspect klib contents and verify bundled bindings, see [troubleshooting.md](r
 10. **Check for existing Crashlytics dSYM upload script** - If using FirebaseCrashlytics, search `project.pbxproj` for a dSYM upload shell script phase. Record its current path (CocoaPods-era scripts reference `${PODS_ROOT}/FirebaseCrashlytics/upload-symbols`). This must be updated to the SPM path in Phase 5.
 11. **Identify CocoaPods-related extras in build scripts** - Search all `build.gradle.kts` files for CocoaPods workarounds beyond the standard `cocoapods {}` block (custom tasks hooking into `podInstall`, `Pods.xcodeproj` patching, podspec metadata, `extraSpecAttributes`, `noPodspec()`, etc.). See [cocoapods-extras-patterns.md](references/cocoapods-extras-patterns.md) for the full pattern list. Record all findings — these will be handled in Phase 6.
 
+domain: cybersecurity
 ---
-
 ## Phase 2: Gradle Configuration
 
 **Important scope note:** Do NOT upgrade the Gradle wrapper version, update KSP, or update any other dependencies during this migration. Those are separate concerns and out of scope. Only change what is listed below.
@@ -173,7 +162,6 @@ buildscript {
 Replace `<kotlin-version>` with the version recorded in Phase 1.0a. The `!!` suffix forces strict version resolution, ensuring no other dependency pulls in a different Kotlin Gradle plugin version.
 
 ---
-
 ## Phase 3: Add swiftPMDependencies (Keep CocoaPods)
 
 **Do NOT remove the `cocoapods {}` block or `kotlin("native.cocoapods")` plugin yet.** Add `swiftPMDependencies {}` alongside the existing CocoaPods configuration.
@@ -252,8 +240,8 @@ kotlin.compilerOptions {
 
 For full DSL reference, see [dsl-reference.md](references/dsl-reference.md).
 
+domain: cybersecurity
 ---
-
 ## Phase 4: Kotlin Source Updates
 
 ### Import Namespace Formula
@@ -305,7 +293,6 @@ After bulk replacement, **manually restore** any `cocoapods.*` imports that shou
 **Finding correct import path:** Run `./gradlew :moduleName:build` - errors show available classes.
 
 ---
-
 ## Phase 5: iOS Project Reconfiguration
 
 ### 5.1 Get migration command
@@ -390,8 +377,8 @@ cd /path/to/iosApp && pod install
 
 See [troubleshooting.md](references/troubleshooting.md) § "Manual Xcode Integration Steps" for the 5-step manual setup (build phase, sandboxing, linkage package).
 
+domain: cybersecurity
 ---
-
 ## Phase 6: Remove CocoaPods from Gradle
 
 Now that the iOS project is reconfigured, remove the CocoaPods plugin and block:
@@ -425,7 +412,6 @@ Review the extras identified in Phase 1 step 11. Podspec metadata, `noPodspec()`
 See [cocoapods-extras-patterns.md](references/cocoapods-extras-patterns.md) for the full categorized list with examples.
 
 ---
-
 ## Phase 7: Verification
 
 ### 7.1 Build Gradle project
@@ -462,8 +448,8 @@ xcodebuild -project *.xcodeproj -scheme "<AppScheme>" -destination 'generic/plat
 
 **Do NOT revert the migration.** Read the error log, re-check Phases 2-6, and consult [troubleshooting.md](references/troubleshooting.md). If unsure, present options to the user — do not silently undo migration work.
 
+domain: cybersecurity
 ---
-
 ## Phase 8: Migration Report
 
 After migration (whether successful or not), write a comprehensive `MIGRATION_REPORT.md` in the project root. Use the template in [migration-report-template.md](references/migration-report-template.md).

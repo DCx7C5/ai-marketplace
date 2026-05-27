@@ -1,3 +1,8 @@
+---
+name: devel-jb-performance-concurrency-advisor
+description: Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-18`).
+domain: cybersecurity
+---
 # Performance Concurrency Advisor
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-18`).

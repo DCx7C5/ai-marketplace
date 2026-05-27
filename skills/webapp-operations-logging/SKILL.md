@@ -1,3 +1,8 @@
+---
+name: webapp-operations-logging
+description: - When investigating security incidents that require analyzing web server logs for intrusion - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+domain: cybersecurity
+---
 # Analyzing Web Server Logs for Intrusion
 
 ## When to Use

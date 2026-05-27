@@ -1,52 +1,9 @@
-# Implementing AWS IAM Permission Boundaries
-
-## Overview
-
-IAM permission boundaries are an advanced AWS feature that sets the maximum permissions an identity-based policy can grant to an IAM entity (user or role). They enable centralized security teams to safely delegate IAM role and policy creation to application developers without risking privilege escalation. The effective permissions of an entity are the intersection of its identity-based policies and its permission boundary -- even if an identity policy grants `AdministratorAccess`, the permission boundary restricts it to only the allowed actions.
-
-## When to Use
-
-- When deploying or configuring implementing aws iam permission boundaries capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- AWS account with IAM administrative access
-- Understanding of AWS IAM policy language (JSON)
-- AWS CLI v2 configured with appropriate credentials
-- Terraform or CloudFormation for infrastructure-as-code deployment
-
-## Core Concepts
-
-### How Permission Boundaries Work
-
-```
-Identity-Based Policy          Permission Boundary
-(What the role CAN do)    ∩    (What the role MAY do)
-        │                              │
-        └──────────┬───────────────────┘
-                   │
-          Effective Permissions
-    (Only actions in BOTH policies)
-```
-
-### Policy Evaluation Logic
-
-AWS evaluates permissions in this order:
-1. **Explicit Deny** in any policy - always wins
-2. **Organizations SCP** - sets org-wide maximum
-3. **Permission Boundary** - sets entity-level maximum
-4. **Identity-Based Policy** - grants actual permissions
-5. **Resource-Based Policy** - cross-account access (evaluated separately)
-
-The entity can only perform an action if ALL applicable policy types allow it.
-
-### Key Use Cases
-
-| Use Case | Description |
-|----------|-------------|
+---
+name: cloud-aws-iam
+description: IAM permission boundaries are an advanced AWS feature that sets the maximum permissions an identity-based policy can grant to an IAM entity (user or role). They enable centralized security teams to safely delegate IAM role and policy creation to application developers without risking privilege escalation. The effective permissions of an entity are 
+domain: cybersecurity
+---
+-------|-------------|
 | Developer Delegation | Allow devs to create IAM roles without escalating beyond their boundary |
 | Sandbox Isolation | Limit what roles can do in sandbox/dev accounts |
 | Multi-Tenant Workloads | Ensure tenant-specific roles cannot access other tenants' resources |

@@ -1,3 +1,8 @@
+---
+name: intel-ioc-defanging
+description: IOC defanging modifies potentially malicious indicators (URLs, IP addresses, domains, email addresses) to prevent accidental clicks or execution while preserving readability for analysis and sharing. This skill covers building an automated pipeline that ingests raw IOCs from multiple sources, normalizes and deduplicates them, applies defanging for 
+domain: cybersecurity
+---
 # Building IOC Defanging and Sharing Pipeline
 
 ## Overview

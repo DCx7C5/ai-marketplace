@@ -1,34 +1,9 @@
-# Performing Web Application Vulnerability Triage
-
-## Overview
-
-Web application vulnerability triage is the process of reviewing findings from DAST (Dynamic Application Security Testing) and SAST (Static Application Security Testing) tools to validate true positives, dismiss false positives, assign risk ratings using the OWASP Risk Rating Methodology, and prioritize remediation. Effective triage reduces alert fatigue and focuses development teams on the vulnerabilities that matter most.
-
-## When to Use
-
-- When conducting security assessments that involve performing web application vulnerability triage
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- DAST scan results (OWASP ZAP, Burp Suite, Acunetix)
-- SAST scan results (Semgrep, SonarQube, Checkmarx, Snyk Code)
-- Python 3.9+ with `requests`, `beautifulsoup4`
-- Burp Suite Professional or OWASP ZAP for manual validation
-- DefectDojo or similar for finding management
-
-## OWASP Risk Rating Methodology
-
-### Risk Calculation
-```
-Risk = Likelihood x Impact
-```
-
-### Likelihood Factors (0-9 scale)
-| Factor Group | Factor | Description |
-|-------------|--------|------------|
+---
+name: soc-triage-web
+description: Web application vulnerability triage is the process of reviewing findings from DAST (Dynamic Application Security Testing) and SAST (Static Application Security Testing) tools to validate true positives, dismiss false positives, assign risk ratings using the OWASP Risk Rating Methodology, and prioritize remediation. Effective triage reduces alert f
+domain: cybersecurity
+---
+----------|--------|------------|
 | Threat Agent | Skill Level | How technically skilled is the attacker? |
 | Threat Agent | Motive | How motivated is the attacker? |
 | Threat Agent | Opportunity | What resources/access are needed? |

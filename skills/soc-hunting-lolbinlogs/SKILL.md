@@ -1,35 +1,9 @@
-# Hunting for LOLBins Execution in Endpoint Logs
-
-## When to Use
-
-- When hunting for fileless attack techniques that abuse built-in Windows binaries
-- After threat intelligence indicates LOLBin-based campaigns targeting your industry
-- When investigating alerts for suspicious use of certutil, mshta, rundll32, or regsvr32
-- During purple team exercises testing detection of defense evasion techniques
-- When assessing endpoint detection coverage for MITRE ATT&CK T1218 sub-techniques
-
-## Prerequisites
-
-- Sysmon Event ID 1 (Process Creation) with full command-line logging
-- Windows Security Event ID 4688 with command-line auditing enabled
-- EDR telemetry with parent-child process relationships
-- SIEM platform for query and correlation (Splunk, Elastic, Microsoft Sentinel)
-- LOLBAS project reference (lolbas-project.github.io) for known abuse patterns
-
-## Workflow
-
-1. **Build LOLBin Watchlist**: Compile a list of high-risk LOLBins from the LOLBAS project, prioritizing: certutil.exe, mshta.exe, rundll32.exe, regsvr32.exe, msbuild.exe, installutil.exe, cmstp.exe, wmic.exe, wscript.exe, cscript.exe, bitsadmin.exe, and powershell.exe.
-2. **Baseline Normal Usage**: Establish what normal LOLBin usage looks like in your environment by profiling command-line arguments, parent processes, and user contexts for each binary over 30 days.
-3. **Hunt for Anomalous Arguments**: Search for LOLBins executed with unusual command-line arguments indicating abuse -- certutil with `-urlcache -decode -encode`, mshta with URL arguments, rundll32 loading DLLs from temp/user directories, regsvr32 with `/s /n /u /i:URL`.
-4. **Analyze Parent-Child Relationships**: Identify unexpected parent processes spawning LOLBins -- for example, outlook.exe spawning mshta.exe, or winword.exe spawning certutil.exe indicates weaponized document delivery.
-5. **Check Execution from Unusual Paths**: LOLBins executed from non-standard paths (copies placed in %TEMP%, user profile directories) suggest renamed binary abuse.
-6. **Correlate with Network Activity**: Map LOLBin execution to outbound network connections (Sysmon Event ID 3) to identify download cradles and C2 callbacks.
-7. **Score and Prioritize**: Rank findings by anomaly severity, combining suspicious arguments, unusual parent process, non-standard path, and network activity indicators.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-lolbinlogs
+description: - When hunting for fileless attack techniques that abuse built-in Windows binaries - After threat intelligence indicates LOLBin-based campaigns targeting your industry - When investigating alerts for suspicious use of certutil, mshta, rundll32, or regsvr32 - During purple team exercises testing detection of defense evasion techniques - When assessi
+domain: cybersecurity
+---
+------|-------------|
 | T1218 | System Binary Proxy Execution |
 | T1218.001 | Compiled HTML File (mshta.exe) |
 | T1218.003 | CMSTP |

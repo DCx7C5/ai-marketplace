@@ -1,3 +1,8 @@
+---
+name: devel-jb-gemini-api-dev
+description: The Gemini API provides access to Google's most advanced AI models. Key capabilities include: - **Text generation** - Chat, completion, summarization - **Multimodal understanding** - Process images, audio, video, and documents - **Function calling** - Let the model invoke your functions - **Structured output** - Generate valid JSON matching your sc
+domain: cybersecurity
+---
 # Gemini API Development Skill
 
 ## Overview
@@ -64,7 +69,6 @@ import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({});
 const response = await ai.models.generateContent({
-  model: "gemini-3-flash-preview",
   contents: "Explain quantum computing"
 });
 console.log(response.text);

@@ -1,9 +1,8 @@
-# Logfile Recon
-
-**Purpose:** Log forensics, timeline reconstruction, and tampering detection. Builds a structured attacker timeline from all available log sources.
-
 ---
-
+name: linux-log-syslog-analyze
+description: **Purpose:** Log forensics, timeline reconstruction, and tampering detection. Builds a structured attacker timeline from all available log sources.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Authentication events**: SSH logins, sudo usage, su, PAM failures, brute-force patterns
@@ -16,7 +15,6 @@
 - **Fail2ban / IDS logs**: Banned IPs, signature matches, alert correlation
 
 ---
-
 ## Key Techniques & Tools
 
 ### Authentication Analysis
@@ -191,8 +189,8 @@ paste \
   2>/dev/null | sort | head -30
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

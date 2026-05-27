@@ -1,72 +1,9 @@
-# Analyzing Windows Amcache Artifacts
-
-## When to Use
-
-- Determining which programs have existed or executed on a Windows system during incident response
-- Correlating SHA-1 hashes from Amcache against known malware databases (VirusTotal, CIRCL, MISP)
-- Building an application installation and execution timeline for forensic investigations
-- Identifying deleted executables that leave traces in Amcache even after file removal
-- Investigating insider threats by documenting which portable or unauthorized applications were present
-- Analyzing driver loading history to detect rootkits or malicious kernel modules
-
-**Do not use** as sole proof of program execution. Amcache proves file existence and metadata registration, but ShimCache (AppCompatCache) and Prefetch provide stronger execution evidence. Use all three artifacts together for conclusive analysis.
-
-## Prerequisites
-
-- A forensic image or live triage copy of `C:\Windows\appcompat\Programs\Amcache.hve` (and associated `.LOG1`, `.LOG2` transaction logs)
-- Eric Zimmerman's AmcacheParser (`AmcacheParser.exe`) downloaded from https://ericzimmerman.github.io/
-- Eric Zimmerman's Timeline Explorer for viewing parsed CSV output
-- Optionally: Registry Explorer for manual hive inspection
-- A SHA-1 whitelist of known-good executables (e.g., NSRL hashset) for filtering
-- .NET 6+ runtime installed (required by current EZ tools)
-- Write access to an output directory for CSV results
-
-## Workflow
-
-### Step 1: Acquire the Amcache.hve File
-
-Extract the Amcache hive from a forensic image or live system:
-
-```powershell
-# From a live system (requires elevated privileges and raw copy tool)
-# Amcache.hve is locked by the system; use a raw disk copy tool
-# Option A: FTK Imager - mount image and navigate to:
-# C:\Windows\appcompat\Programs\Amcache.hve
-# Also collect: Amcache.hve.LOG1, Amcache.hve.LOG2
-
-# Option B: Using KAPE for automated triage collection
-kape.exe --tsource C: --tdest D:\Evidence\%m --target Amcache
-
-# Option C: From a mounted forensic image (E: = mounted image)
-copy "E:\Windows\appcompat\Programs\Amcache.hve" D:\Evidence\
-copy "E:\Windows\appcompat\Programs\Amcache.hve.LOG1" D:\Evidence\
-copy "E:\Windows\appcompat\Programs\Amcache.hve.LOG2" D:\Evidence\
-```
-
-Always collect the transaction log files (`.LOG1`, `.LOG2`) alongside the hive. AmcacheParser replays uncommitted transactions from these logs to recover the most complete data.
-
-### Step 2: Parse Amcache with AmcacheParser
-
-Run AmcacheParser against the acquired hive:
-
-```powershell
-# Basic parsing with CSV output
-AmcacheParser.exe -f "D:\Evidence\Amcache.hve" --csv "D:\Evidence\Output"
-
-# Parse with a SHA-1 whitelist to exclude known-good entries (NSRL)
-AmcacheParser.exe -f "D:\Evidence\Amcache.hve" -w "D:\Whitelists\nsrl_sha1.txt" --csv "D:\Evidence\Output"
-
-# Parse with a SHA-1 inclusion list (only show matches against known-bad hashes)
-AmcacheParser.exe -f "D:\Evidence\Amcache.hve" -b "D:\IOCs\malware_sha1.txt" --csv "D:\Evidence\Output"
-
-# Include deleted entries with high-precision timestamps
-AmcacheParser.exe -f "D:\Evidence\Amcache.hve" --csv "D:\Evidence\Output" -i --mp
-```
-
-AmcacheParser produces multiple CSV files in the output directory:
-
-| Output File | Contents |
-|-------------|----------|
+---
+name: windows-fs-artifacts-general
+description: - Determining which programs have existed or executed on a Windows system during incident response - Correlating SHA-1 hashes from Amcache against known malware databases (VirusTotal, CIRCL, MISP) - Building an application installation and execution timeline for forensic investigations - Identifying deleted executables that leave traces in Amcache 
+domain: cybersecurity
+---
+----------|----------|
 | `Amcache_AssociatedFileEntries.csv` | File entries with SHA-1 hashes, paths, sizes, and timestamps |
 | `Amcache_UnassociatedFileEntries.csv` | Orphaned file entries from older Amcache format |
 | `Amcache_ProgramEntries.csv` | Installed program metadata (name, publisher, version, install date) |

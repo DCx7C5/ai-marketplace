@@ -1,35 +1,9 @@
-# KMP AGP 9.0 Migration
-
-Android Gradle Plugin 9.0 makes the Android application and library plugins incompatible
-with the Kotlin Multiplatform plugin in the same module. This skill guides you through the
-migration.
-
-## Step 0: Analyze the Project
-
-Before making any changes, understand the project structure:
-
-1. Read `settings.gradle.kts` (or `.gradle`) to find all modules
-2. For each module, read its `build.gradle.kts` to identify which plugins are applied
-3. Check if the project uses a Gradle version catalog (`gradle/libs.versions.toml`). If it exists,
-   read it for current AGP/Gradle/Kotlin versions. If not, find versions directly in `build.gradle.kts`
-   files (typically in the root `buildscript {}` or `plugins {}` block). **Adapt all examples in this
-   guide accordingly** — version catalog examples use `alias(libs.plugins.xxx)` while direct usage
-   uses `id("plugin.id") version "x.y.z"`
-4. Read `gradle/wrapper/gradle-wrapper.properties` for the Gradle version
-5. Check `gradle.properties` for any existing workarounds (`android.enableLegacyVariantApi`)
-6. Check for `org.jetbrains.kotlin.android` plugin usage — AGP 9.0 has built-in Kotlin and this plugin must be removed
-7. Check for `org.jetbrains.kotlin.kapt` plugin usage — incompatible with built-in Kotlin, must migrate to KSP or `com.android.legacy-kapt`
-8. Check for third-party plugins that may be incompatible with AGP 9.0 (see "Plugin Compatibility" section below)
-
-If Bash is available, run `scripts/analyze-project.sh` from this skill's directory to get a
-structured summary.
-
-### Classify Each Module
-
-For each module, determine its type:
-
-| Current plugins | Migration path |
-|----------------|----------------|
+---
+name: devel-jb-kotlin-tooling-agp9-migration
+description: Android Gradle Plugin 9.0 makes the Android application and library plugins incompatible
+domain: cybersecurity
+---
+-------------|----------------|
 | `kotlin.multiplatform` + `com.android.library` | **Path A** — Library plugin swap |
 | `kotlin.multiplatform` + `com.android.application` | **Path B** — Mandatory Android split |
 | `kotlin.multiplatform` with multiple platform entry points in one module | **Path C** — Full restructure (recommended) |

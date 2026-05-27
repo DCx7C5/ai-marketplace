@@ -1,60 +1,9 @@
-# Testing API for Broken Object Level Authorization
-
-## When to Use
-
-- Assessing REST or GraphQL APIs that use object identifiers in URL paths, query parameters, or request bodies
-- Performing OWASP API Security Top 10 assessments where API1:2023 (BOLA) must be tested
-- Testing multi-tenant SaaS applications where users from different tenants should not access each other's data
-- Validating that API endpoints enforce per-object authorization checks beyond just authentication
-- Evaluating APIs after new endpoints are added to ensure authorization middleware is applied consistently
-
-**Do not use** without written authorization from the API owner. BOLA testing involves accessing or attempting to access other users' data, which requires explicit permission.
-
-## Prerequisites
-
-- Written authorization specifying the target API endpoints and scope of testing
-- At least two test accounts with different privilege levels and distinct data sets
-- Burp Suite Professional or OWASP ZAP configured as an intercepting proxy
-- Authentication tokens (JWT, session cookies, API keys) for each test account
-- API documentation (OpenAPI/Swagger spec) or access to enumerate endpoints
-- Python 3.10+ with `requests` library for scripted testing
-- Autorize Burp extension installed for automated BOLA detection
-
-## Workflow
-
-### Step 1: API Endpoint Discovery and Object ID Mapping
-
-Enumerate all API endpoints and identify parameters that reference objects:
-
-**From OpenAPI/Swagger Specification:**
-```bash
-# Download and parse the OpenAPI spec
-curl -s https://target-api.example.com/api/docs/swagger.json | python3 -m json.tool
-
-# Extract all endpoints with path parameters
-curl -s https://target-api.example.com/api/docs/swagger.json | \
-  python3 -c "
-import json, sys
-spec = json.load(sys.stdin)
-for path, methods in spec.get('paths', {}).items():
-    for method, details in methods.items():
-        if method in ('get','post','put','patch','delete'):
-            params = [p['name'] for p in details.get('parameters',[]) if p.get('in') in ('path','query')]
-            if params:
-                print(f'{method.upper()} {path} -> params: {params}')
-"
-```
-
-**From Burp Suite Traffic:**
-1. Browse the application as User A, exercising all features that involve data creation and retrieval
-2. In Burp, go to Target > Site Map and filter for API paths (e.g., `/api/v1/`, `/graphql`)
-3. Look for patterns: `/api/v1/users/{id}`, `/api/v1/orders/{order_id}`, `/api/v1/documents/{doc_uuid}`
-4. Note the object ID format: sequential integers (predictable), UUIDs (less predictable), or encoded values
-
-**Classify Object ID Types:**
-
-| ID Type | Example | Predictability | BOLA Risk |
-|---------|---------|---------------|-----------|
+---
+name: webapp-api-bola
+description: - Assessing REST or GraphQL APIs that use object identifiers in URL paths, query parameters, or request bodies - Performing OWASP API Security Top 10 assessments where API1:2023 (BOLA) must be tested - Testing multi-tenant SaaS applications where users from different tenants should not access each other's data - Validating that API endpoints enforc
+domain: cybersecurity
+---
+------|---------|---------------|-----------|
 | Sequential Integer | `/orders/1042` | High - increment/decrement | Critical |
 | UUID v4 | `/orders/550e8400-e29b-41d4-a716-446655440000` | Low - random | Medium (if leaked) |
 | Encoded/Hashed | `/orders/base64encodedvalue` | Medium - decode and predict | High |

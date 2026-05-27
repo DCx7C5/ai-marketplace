@@ -1,30 +1,9 @@
-# Implementing Zero Standing Privilege with CyberArk
-
-## Overview
-
-Zero Standing Privileges (ZSP) is a security model where no user or identity retains persistent privileged access. Instead, elevated access is provisioned dynamically on a just-in-time (JIT) basis and automatically revoked after use. CyberArk implements ZSP through its Secure Cloud Access (SCA) module, which creates ephemeral, scoped roles in cloud environments (AWS, Azure, GCP) that exist only for the duration of a session. The TEA framework -- Time, Entitlements, and Approvals -- governs every privileged access session.
-
-## When to Use
-
-- When deploying or configuring implementing zero standing privilege with cyberark capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- CyberArk Identity Security Platform (Privilege Cloud or self-hosted)
-- CyberArk Secure Cloud Access (SCA) license
-- Cloud provider accounts (AWS, Azure, GCP) with admin access for integration
-- ITSM integration (ServiceNow, Jira) for approval workflows
-- CyberArk Vault configured with safe management
-
-## Core Concepts
-
-### TEA Framework (Time, Entitlements, Approvals)
-
-| Component        | Description                            | Configuration                                  |
-|------------------|----------------------------------------|------------------------------------------------|
+---
+name: identity-strategy-zero-trust
+description: Zero Standing Privileges (ZSP) is a security model where no user or identity retains persistent privileged access. Instead, elevated access is provisioned dynamically on a just-in-time (JIT) basis and automatically revoked after use. CyberArk implements ZSP through its Secure Cloud Access (SCA) module, which creates ephemeral, scoped roles in cloud
+domain: cybersecurity
+---
+---------------|----------------------------------------|------------------------------------------------|
 | **Time**         | Duration of the privileged session     | Min 15 minutes, max 8 hours, default 1 hour    |
 | **Entitlements** | Permissions granted during the session | Dynamically scoped IAM roles/policies          |
 | **Approvals**    | Authorization workflow before access   | Auto-approve, manager approval, or multi-level |

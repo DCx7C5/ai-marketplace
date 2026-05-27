@@ -1,3 +1,8 @@
+---
+name: intel-platforms-mispshare
+description: MISP (Malware Information Sharing Platform) is an open-source threat intelligence platform designed for collecting, storing, distributing, and sharing cybersecurity indicators and threat information. PyMISP is the official Python library for interacting with MISP instances via the REST API, enabling programmatic event creation, attribute management
+domain: cybersecurity
+---
 # Performing Threat Intelligence Sharing with MISP
 
 ## Overview

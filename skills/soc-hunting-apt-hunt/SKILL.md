@@ -1,19 +1,9 @@
-## Overview
-
-Full APT hunt across all attack vectors on a Linux host. Checks suspicious processes (memory mappings, deleted executables, rwx regions), network connections (C2 beaconing, DNS anomalies, ARP spoofing), browser artifacts, and filesystem indicators. Writes findings + IOCs to `session_dir/findings.md`.
-
-## Usage
-
-```
-Invoke when: initial triage, periodic threat sweep, or after an alert fires.
-Target options: process | network | browser | all
-Mode options: quick (live checks only) | deep (+ artifact collection)
-```
-
-## Checks
-
-| Target | Indicators checked |
-|---|---|
+---
+name: soc-hunting-apt-hunt
+description: Full APT hunt across all attack vectors on a Linux host. Checks suspicious processes (memory mappings, deleted executables, rwx regions), network connections (C2 beaconing, DNS anomalies, ARP spoofing), browser artifacts, and filesystem indicators. Writes findings + IOCs to `session_dir/findings.md`.
+domain: cybersecurity
+---
+|---|
 | process | rwx mappings, deleted executables, `/tmp/` libs, lsof anomalies |
 | network | ARP table, open connections, DNS anomalies, unusual ports |
 | browser | running browser processes, suspicious extensions |

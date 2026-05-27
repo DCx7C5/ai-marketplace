@@ -1,3 +1,8 @@
+---
+name: devel-jb-managing-youtrack
+description: - NEVER use pipes after curl commands to parse the output, do that in a separate tool call.
+domain: cybersecurity
+---
 # YouTrack REST API
 
 ## Setup (minimal)

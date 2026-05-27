@@ -1,10 +1,8 @@
-# SSLKEYLOG Skill – TLS Key Logging Management & Analysis
-
-**Purpose:**  
-This skill provides specialized handling, security analysis, and monitoring of the `SSLKEYLOGFILE` environment variable and the associated keylog file. It is critical for legitimate TLS decryption (e.g. `ecapture-tls`) while detecting misuse, insecure permissions, and potential exfiltration vectors.
-
 ---
-
+name: crypto-tls-sslkeylog
+description: **Purpose:**
+domain: cybersecurity
+---
 ## Automatic Behavior
 
 When activated, this skill:
@@ -17,7 +15,6 @@ When activated, this skill:
 6. **Logs all findings** into the current session’s `iocs.md`
 
 ---
-
 ## Core Capabilities
 
 - Detect and report insecure `SSLKEYLOGFILE` permissions (especially 0666)
@@ -28,8 +25,8 @@ When activated, this skill:
 - Recommend secure hardening steps (chmod 0600, proper ownership)
 - Track keylog file size and growth rate (potential exfil indicator)
 
+domain: cybersecurity
 ---
-
 ## Key IOCs to Always Check
 
 | Type                 | Value / Pattern                                   | Severity  | Notes                 |
@@ -41,7 +38,6 @@ When activated, this skill:
 | File Growth          | Rapid increase in keylog size                     | 🟡 MEDIUM | Possible mass exfil   |
 
 ---
-
 ## Rules for the Agent
 
 1. **Always check** `$SSLKEYLOGFILE` (or `/var/log/sslkeylogfile.txt`) at session start.
@@ -53,8 +49,8 @@ When activated, this skill:
 7. **Log every check** in `session.log` and add relevant IOCs to `iocs.md`.
 8. **Sync** findings to Shared Memory at session end.
 
+domain: cybersecurity
 ---
-
 ## Example Output in iocs.md
 
 ```markdown
@@ -69,7 +65,6 @@ When activated, this skill:
 Ready to monitor and secure SSLKEYLOGFILE.
 ```
 ---
-
 ## Extended Techniques & Tools
 
 ### SSLKEYLOGFILE Detection & Audit
@@ -188,8 +183,8 @@ stat -c "%a %U %G" "$SSLKEYLOGFILE" 2>/dev/null
 sudo auditctl -w "$SSLKEYLOGFILE" -p rwa -k sslkeylog_access 2>/dev/null
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding                               | Technique                            |
@@ -202,4 +197,3 @@ sudo auditctl -w "$SSLKEYLOGFILE" -p rwa -k sslkeylog_access 2>/dev/null
 ---
 
 **Ready to use.**
-

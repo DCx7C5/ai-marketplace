@@ -1,35 +1,9 @@
-# Hunting For Scheduled Task Persistence
-
-## When to Use
-
-- When proactively hunting for indicators of hunting for scheduled task persistence in the environment
-- After threat intelligence indicates active campaigns using these techniques
-- During incident response to scope compromise related to these techniques
-- When EDR or SIEM alerts trigger on related indicators
-- During periodic security assessments and purple team exercises
-
-## Prerequisites
-
-- EDR platform with process and network telemetry (CrowdStrike, MDE, SentinelOne)
-- SIEM with relevant log data ingested (Splunk, Elastic, Sentinel)
-- Sysmon deployed with comprehensive configuration
-- Windows Security Event Log forwarding enabled
-- Threat intelligence feeds for IOC correlation
-
-## Workflow
-
-1. **Formulate Hypothesis**: Define a testable hypothesis based on threat intelligence or ATT&CK gap analysis.
-2. **Identify Data Sources**: Determine which logs and telemetry are needed to validate or refute the hypothesis.
-3. **Execute Queries**: Run detection queries against SIEM and EDR platforms to collect relevant events.
-4. **Analyze Results**: Examine query results for anomalies, correlating across multiple data sources.
-5. **Validate Findings**: Distinguish true positives from false positives through contextual analysis.
-6. **Correlate Activity**: Link findings to broader attack chains and threat actor TTPs.
-7. **Document and Report**: Record findings, update detection rules, and recommend response actions.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-scheduled-hunt
+description: - When proactively hunting for indicators of hunting for scheduled task persistence in the environment - After threat intelligence indicates active campaigns using these techniques - During incident response to scope compromise related to these techniques - When EDR or SIEM alerts trigger on related indicators - During periodic security assessments
+domain: cybersecurity
+---
+------|-------------|
 | T1053.005 | Scheduled Task |
 | T1053.003 | Cron |
 | T1053.002 | At |

@@ -1,3 +1,8 @@
+---
+name: devel-jb-project-context-ingestion
+description: Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-01`).
+domain: cybersecurity
+---
 # Project Context Ingestion
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-01`).

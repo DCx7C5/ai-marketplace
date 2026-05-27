@@ -1,3 +1,8 @@
+---
+name: offensive-graphql
+description: 1.  Identify GraphQL Endpoint: Look for common paths like `/graphql`, `/graphiql`, `/graphql.php`, `/graphql/console`. Check network requests in browser developer tools.
+domain: cybersecurity
+---
 ## Full Methodology
 
 # GraphQL Vulnerabilities
@@ -179,4 +184,3 @@ Mutations changing state (user roles, passwords, settings), queries accessing se
 - Incremental Delivery Controls: enforce cost accounting for `@defer`/`@stream`; ensure deferred subtrees still run full auth/visibility checks.
 - File Upload Hygiene: if using GraphQL upload, re‑encode images, validate content by signature, and store outside web root; apply all controls from `file-upload.md`.
 - Federation RBAC: centralize auth policy in schema directives evaluated at the gateway and in subgraphs; avoid trusting upstream filtering blindly.
-

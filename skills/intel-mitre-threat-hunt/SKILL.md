@@ -1,3 +1,8 @@
+---
+name: intel-mitre-threat-hunt
+description: MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. This skill covers systematically mapping threat actor behavior to the ATT&CK framework, building technique coverage heatmaps using the ATT&CK Navigator, identifying detection gaps, and producing actionable i
+domain: cybersecurity
+---
 # Analyzing Threat Actor TTPs with MITRE ATT&CK
 
 ## Overview

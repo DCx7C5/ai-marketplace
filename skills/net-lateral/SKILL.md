@@ -1,57 +1,9 @@
-# Performing Lateral Movement Detection
-
-## When to Use
-
-Use this skill when:
-- SOC teams need to detect attackers pivoting between systems after initial compromise
-- Incident investigations require tracking an attacker's movement path through the network
-- Detection engineering needs lateral movement rules mapped to ATT&CK TA0008 techniques
-- Red/purple team exercises identify lateral movement detection gaps
-
-**Do not use** for detecting initial access or external attacks — lateral movement detection focuses on internal host-to-host pivot activity.
-
-## Prerequisites
-
-- Windows Security Event Logs (EventCode 4624, 4625, 4648, 4672) from all endpoints and servers
-- Sysmon deployed with process creation (EventCode 1), network connections (EventCode 3), and named pipe (EventCode 17/18)
-- Network flow data (NetFlow/sFlow, Zeek connection logs) for internal traffic analysis
-- SIEM with cross-source correlation capability
-- Baseline of normal internal authentication patterns
-
-## Workflow
-
-### Step 1: Detect Pass-the-Hash / Pass-the-Ticket (T1550)
-
-**Pass-the-Hash Detection (EventCode 4624 with NTLM):**
-```spl
-index=wineventlog sourcetype="WinEventLog:Security" EventCode=4624 Logon_Type=3
-AuthenticationPackageName="NTLM"
-| where TargetUserName!="ANONYMOUS LOGON" AND TargetUserName!="$"
-| stats count, dc(ComputerName) AS unique_targets, values(ComputerName) AS targets
-  by src_ip, TargetUserName
-| where unique_targets > 3
-| eval alert = "Possible Pass-the-Hash: NTLM network logon to ".unique_targets." hosts"
-| sort - unique_targets
-| table src_ip, TargetUserName, unique_targets, count, targets, alert
-```
-
-**Overpass-the-Hash Detection (Kerberos with RC4):**
-```spl
-index=wineventlog sourcetype="WinEventLog:Security" EventCode=4769
-TicketEncryptionType="0x17"
-| where ServiceName!="krbtgt" AND ServiceName!="$"
-| stats count, dc(ServiceName) AS unique_services by src_ip, TargetUserName
-| where count > 5
-| eval alert = "Possible Overpass-the-Hash: RC4 Kerberos tickets from ".src_ip
-| table _time, src_ip, TargetUserName, unique_services, count, alert
-```
-
-**Golden/Silver Ticket Detection (T1558):**
-```spl
-index=wineventlog sourcetype="WinEventLog:Security" EventCode=4769
-| where TicketOptions="0x40810000" OR TicketOptions="0x40800000"
-| eval ticket_lifetime = TicketExpireTime - TicketIssueTime
-| where ticket_lifetime > 36000  --- >10 hours (abnormal)
+---
+name: net-lateral
+description: Use this skill when: - SOC teams need to detect attackers pivoting between systems after initial compromise - Incident investigations require tracking an attacker's movement path through the network - Detection engineering needs lateral movement rules mapped to ATT&CK TA0008 techniques - Red/purple team exercises identify lateral movement detection
+domain: cybersecurity
+---
+>10 hours (abnormal)
 | stats count by src_ip, TargetUserName, ServiceName, TicketEncryptionType, TicketOptions
 | eval alert = "Possible Golden/Silver Ticket: Abnormal ticket properties"
 ```

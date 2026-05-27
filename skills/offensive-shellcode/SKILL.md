@@ -1,14 +1,8 @@
-## Shellcode Development Workflow
-
-1. Define concept and target platform (x86/x64, Windows/Linux/macOS)
-2. Write assembly using position-independent techniques
-3. Extract binary and test in controlled environment
-4. Apply null byte avoidance and optimizations
-5. Encode/encrypt to evade static detection
-6. Package with loader and choose delivery method
-
 ---
-
+name: offensive-shellcode
+description: 1. Define concept and target platform (x86/x64, Windows/Linux/macOS)
+domain: cybersecurity
+---
 ## Basic Concepts
 
 ### Execution Pattern (Allocate-Write-Execute)
@@ -36,7 +30,6 @@ VirtualProtect(dest, 0x1234, PAGE_EXECUTE_READ, &old);
 | VDSO | Linux | Kernel-provided shared object |
 
 ---
-
 ## Windows API Resolution (PEB Walk)
 
 Identifying `kernel32.dll` without imports:
@@ -58,8 +51,8 @@ lm m kernel32   # verify base address
 r @r8           # check register
 ```
 
+domain: cybersecurity
 ---
-
 ## Shellcode Loaders
 
 ### Loader Responsibilities
@@ -108,7 +101,6 @@ Most scrutinized step — EDR checks thread start address against image-backed m
 - [ThreadlessInject](https://github.com/epi052/ThreadlessInject)
 
 ---
-
 ## PE-to-Shellcode Conversion
 
 | Tool | Purpose |
@@ -126,8 +118,8 @@ Most scrutinized step — EDR checks thread start address against image-backed m
 - [ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling) — chain multiple protections
 - Direct-syscall helpers: SysWhispers3, FreshyCalls (now baseline requirements)
 
+domain: cybersecurity
 ---
-
 ## Shellcode Storage & Hiding
 
 | Location | Risk | Notes |
@@ -148,7 +140,6 @@ Most scrutinized step — EDR checks thread start address against image-backed m
 > **Windows 11 24H2 note:** AMSI heap scanning is active. Allocate with `PAGE_NOACCESS`, decrypt in place, then switch to `PAGE_EXECUTE_READ` to avoid live-heap scans.
 
 ---
-
 ## Evasion
 
 ### Progressive Evasion Escalation
@@ -173,8 +164,8 @@ Remote injection is more detectable:
 - `InjectSyscall-LocalProcess.cpp` — direct syscalls, no suspicious IAT entries
 - `InjectSyscall-RemoteProcess.cpp` — remote process injection via direct syscalls
 
+domain: cybersecurity
 ---
-
 ## Cross-Platform Considerations
 
 ### Windows on ARM64 (WoA)
@@ -194,7 +185,6 @@ Remote injection is more detectable:
 - Kernel persistence: create sealed snapshot, mount RW, inject, resign with `kmutil`, bless
 
 ---
-
 ## DripLoader Technique
 
 [github.com/xuanxuan0/DripLoader](https://github.com/xuanxuan0/DripLoader):
@@ -206,8 +196,8 @@ Remote injection is more detectable:
 5. Overwrite prologue of `ntdll!RtlpWow64CtxFromAmd64` with JMP trampoline
 6. All calls via direct syscalls: `NtAllocateVirtualMemory`, `NtWriteVirtualMemory`, `NtCreateThreadEx`
 
+domain: cybersecurity
 ---
-
 ## Full x64 Reverse Shell Shellcode (Windows)
 
 Complete Python/Keystone example implementing PEB walk → `GetProcAddress` → `LoadLibraryA` → Winsock connect → `CreateProcessA(cmd.exe)`:

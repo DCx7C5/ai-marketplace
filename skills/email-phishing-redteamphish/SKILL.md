@@ -1,3 +1,8 @@
+---
+name: email-phishing-redteamphish
+description: - When conducting security assessments that involve performing red team phishing with gophish - When following incident response procedures for related security events - When performing scheduled security testing or auditing activities - When validating security controls through hands-on testing
+domain: cybersecurity
+---
 ## When to Use
 
 - When conducting security assessments that involve performing red team phishing with gophish

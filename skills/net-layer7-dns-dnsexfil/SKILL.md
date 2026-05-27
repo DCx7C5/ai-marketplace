@@ -1,50 +1,9 @@
-# Detecting DNS Exfiltration with DNS Query Analysis
-
-## Overview
-
-DNS exfiltration exploits the Domain Name System as a covert channel to extract data from compromised networks. Attackers encode stolen data into DNS query names (subdomains) or DNS response records (TXT, CNAME, NULL), bypassing traditional security controls that typically allow DNS traffic unrestricted. Tools like iodine, dnscat2, and dns2tcp enable full TCP tunneling over DNS. Detection requires analyzing DNS query patterns for anomalies including excessive query length, high entropy subdomain strings, abnormal query volumes to single domains, and oversized TXT record responses. This skill covers building a comprehensive DNS exfiltration detection capability using passive DNS analysis, statistical methods, and machine learning approaches.
-
-## When to Use
-
-- When investigating security incidents that require detecting dns exfiltration with dns query analysis
-- When building detection rules or threat hunting queries for this domain
-- When SOC analysts need structured procedures for this analysis type
-- When validating security monitoring coverage for related attack techniques
-
-## Prerequisites
-
-- Access to DNS query logs (passive DNS capture, DNS server logs, or PCAP)
-- Zeek, Suricata, or tcpdump for DNS traffic capture
-- Python 3.8+ with scipy, numpy, pandas, and scikit-learn
-- SIEM platform for alert correlation
-- Baseline of normal DNS traffic patterns for the environment
-
-## Core Concepts
-
-### DNS Tunneling Mechanics
-
-DNS exfiltration encodes data in different parts of DNS messages:
-
-**Outbound (Query-based exfiltration):**
-```
-Encoded data as subdomain labels:
-dGhlIHNlY3JldCBkYXRh.exfil.attacker.com
-[base64-encoded data].[tunnel domain]
-
-Query types used: A, AAAA, CNAME, MX, TXT, NULL
-```
-
-**Inbound (Response-based command channel):**
-```
-TXT records carry encoded commands/data in responses
-CNAME records chain encoded data through multiple labels
-NULL records carry arbitrary binary data
-```
-
-### Detection Indicators
-
-| Indicator | Normal DNS | DNS Tunneling |
-|-----------|-----------|---------------|
+---
+name: net-layer7-dns-dnsexfil
+description: DNS exfiltration exploits the Domain Name System as a covert channel to extract data from compromised networks. Attackers encode stolen data into DNS query names (subdomains) or DNS response records (TXT, CNAME, NULL), bypassing traditional security controls that typically allow DNS traffic unrestricted. Tools like iodine, dnscat2, and dns2tcp enab
+domain: cybersecurity
+---
+--------|-----------|---------------|
 | Subdomain length | 5-20 chars | 40-253 chars |
 | Label count | 2-4 labels | 5-10+ labels |
 | Shannon entropy | 2.5-3.5 bits | 4.0-5.5 bits |

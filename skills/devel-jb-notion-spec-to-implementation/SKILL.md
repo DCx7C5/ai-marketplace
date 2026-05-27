@@ -1,3 +1,8 @@
+---
+name: devel-jb-notion-spec-to-implementation
+description: Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.
+domain: cybersecurity
+---
 # Spec to Implementation
 
 Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.

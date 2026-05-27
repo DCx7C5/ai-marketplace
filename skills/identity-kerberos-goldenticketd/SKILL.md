@@ -1,3 +1,8 @@
+---
+name: identity-kerberos-goldenticketd
+description: A Golden Ticket attack (MITRE ATT&CK T1558.001) involves forging a Kerberos Ticket Granting Ticket (TGT) using the krbtgt account NTLM hash, granting unrestricted access to any service in the Active Directory domain. This skill detects Golden Ticket usage by analyzing Event ID 4769 for RC4 encryption type (0x17) in environments enforcing AES, ident
+domain: cybersecurity
+---
 # Detecting Golden Ticket Forgery
 
 ## Overview

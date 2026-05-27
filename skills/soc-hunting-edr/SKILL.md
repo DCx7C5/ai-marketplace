@@ -1,35 +1,9 @@
-# Detecting T1003 Credential Dumping with EDR
-
-## When to Use
-
-- When hunting for credential theft activity in the environment
-- After compromise indicators suggest attacker has elevated privileges
-- When EDR alerts fire for LSASS access or suspicious process memory reads
-- During incident response to determine scope of credential compromise
-- When auditing LSASS protection controls (Credential Guard, RunAsPPL)
-
-## Prerequisites
-
-- EDR agent deployed with LSASS access monitoring (CrowdStrike, Defender for Endpoint, SentinelOne)
-- Sysmon Event ID 10 (ProcessAccess) with LSASS-specific filters
-- Windows Security Event ID 4656/4663 (Object Access Auditing)
-- LSASS SACL auditing enabled (Windows 10+)
-- Registry auditing for SAM hive access
-
-## Workflow
-
-1. **Monitor LSASS Process Access**: Track all processes opening handles to lsass.exe with suspicious access rights (PROCESS_VM_READ 0x0010, PROCESS_ALL_ACCESS 0x1FFFFF). Non-privileged or unusual processes accessing LSASS are strong indicators.
-2. **Detect Credential Dumping Tools**: Hunt for known tool signatures -- Mimikatz (sekurlsa::logonpasswords), procdump.exe targeting LSASS, comsvcs.dll MiniDump, and Task Manager creating LSASS dumps.
-3. **Monitor NTDS.dit Access**: Detect Volume Shadow Copy creation (vssadmin, wmic shadowcopy) followed by NTDS.dit file access, or ntdsutil.exe IFM creation.
-4. **Track SAM/SECURITY/SYSTEM Hive Access**: Hunt for reg.exe save commands targeting SAM, SECURITY, and SYSTEM registry hives.
-5. **Detect DCSync Activity**: Monitor for non-DC accounts requesting directory replication (Event 4662 with replication GUIDs).
-6. **Correlate with Lateral Movement**: After credential dumping, attackers typically move laterally. Correlate credential access events with subsequent remote logon attempts.
-7. **Assess Impact**: Determine which credentials were potentially compromised and initiate password resets.
-
-## Key Concepts
-
-| Concept | Description |
-|---------|-------------|
+---
+name: soc-hunting-edr
+description: - When hunting for credential theft activity in the environment - After compromise indicators suggest attacker has elevated privileges - When EDR alerts fire for LSASS access or suspicious process memory reads - During incident response to determine scope of credential compromise - When auditing LSASS protection controls (Credential Guard, RunAsPPL
+domain: cybersecurity
+---
+------|-------------|
 | T1003.001 | LSASS Memory -- dumping credentials from LSASS process |
 | T1003.002 | Security Account Manager -- extracting local account hashes from SAM |
 | T1003.003 | NTDS -- extracting domain hashes from Active Directory database |

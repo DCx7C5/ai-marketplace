@@ -1,3 +1,8 @@
+---
+name: stego-tool-zsteg
+description: Runs steganography tool for analysis or extraction of hidden data from carrier files.
+domain: cybersecurity
+---
 ## Overview
 
 Runs steganography tool for analysis or extraction of hidden data from carrier files.

@@ -1,3 +1,8 @@
+---
+name: offensive-race-condition
+description: - Spot the features prone to race conditions in the target application and copy the corresponding requests.
+domain: cybersecurity
+---
 ## Full Methodology
 
 # Race Conditions
@@ -851,4 +856,3 @@ def queueRequests(target, wordlists):
 def handleResponse(req, interesting):
     table.add(req)
 ```
-

@@ -1,13 +1,9 @@
-# Pinia
-
-Pinia is the official state management library for Vue, designed to be intuitive and type-safe. It supports both Options API and Composition API styles, with first-class TypeScript support and devtools integration.
-
-> The skill is based on Pinia v3.0.4, generated at 2026-01-28.
-
-## Core References
-
-| Topic | Description | Reference |
-|-------|-------------|-----------|
+---
+name: devel-jb-pinia
+description: Pinia is the official state management library for Vue, designed to be intuitive and type-safe. It supports both Options API and Composition API styles, with first-class TypeScript support and devtools integration.
+domain: cybersecurity
+---
+----|-------------|-----------|
 | Stores | Defining stores, state, getters, actions, storeToRefs, subscriptions | [core-stores](references/core-stores.md) |
 
 ## Features

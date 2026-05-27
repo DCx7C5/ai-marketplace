@@ -1,34 +1,9 @@
-# Implementing Fuzz Testing in CI/CD with AFL++
-
-## Overview
-
-AFL++ (American Fuzzy Lop Plus Plus) is a community-maintained fork of AFL that provides state-of-the-art coverage-guided fuzz testing for discovering vulnerabilities in compiled applications. AFL++ uses genetic algorithms to mutate inputs, tracking code coverage to find new execution paths that trigger crashes, hangs, and undefined behavior. In CI/CD environments, AFL++ can be integrated to continuously test parsers, protocol handlers, file format processors, and any code that handles untrusted input. AFL++ supports persistent mode for high-speed fuzzing (up to 100,000+ executions per second), custom mutators, QEMU mode for binary-only fuzzing, and CmpLog/RedQueen for automatic dictionary extraction.
-
-## When to Use
-
-- When deploying or configuring implementing fuzz testing in cicd with aflplusplus capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Linux-based CI runners (AFL++ does not support Windows natively)
-- GCC or Clang compiler toolchain
-- AFL++ installed (`apt install aflplusplus` or built from source)
-- Target application with harness functions isolating input processing
-- Seed corpus of valid input samples
-
-## Core Concepts
-
-### Coverage-Guided Fuzzing
-
-AFL++ instruments the target binary at compile time (or via QEMU/Frida for binary-only targets) to track which code paths each input exercises. When a mutated input triggers a new code path, it is saved to the corpus for further mutation. This feedback loop enables AFL++ to systematically explore program state space.
-
-### Instrumentation Modes
-
-| Mode | Use Case | Performance |
-|------|----------|-------------|
+---
+name: cloud-devsecops-fuzz
+description: AFL++ (American Fuzzy Lop Plus Plus) is a community-maintained fork of AFL that provides state-of-the-art coverage-guided fuzz testing for discovering vulnerabilities in compiled applications. AFL++ uses genetic algorithms to mutate inputs, tracking code coverage to find new execution paths that trigger crashes, hangs, and undefined behavior. In CI
+domain: cybersecurity
+---
+---|----------|-------------|
 | `afl-clang-fast` (LTO) | Source available, best performance | Highest |
 | `afl-clang-fast` | Source available, standard | High |
 | `afl-gcc-fast` | GCC-based projects | High |

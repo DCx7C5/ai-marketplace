@@ -1,3 +1,8 @@
+---
+name: linux-mem-injection-code-analyze
+description: Analyse code injection artefacts including PE images in process memory, reflective DLL loading, module stomping, and transacted hollow using memory forensics tools. domain: cybersecurity subdomain: process-forensics tags: - code-injection - reflective-dll - module-stomping - pe-injection - volatility - malfind nist_csf: - DE.CM-04 - DE.AE-02 mitre:
+domain: cybersecurity
+---
 ## Overview
 
 Analyse code injection artefacts including PE images in process memory, reflective DLL loading, module stomping, and transacted hollow using memory forensics tools.

@@ -1,30 +1,9 @@
-# Performing Threat Modeling with OWASP Threat Dragon
-
-## Overview
-
-OWASP Threat Dragon is an open-source threat modeling tool that enables security teams and developers to create threat model diagrams, identify threats using established methodologies (STRIDE, LINDDUN, CIA, DIE, PLOT4ai), and generate comprehensive reports. Threat Dragon runs as both a web application and desktop application (Windows, macOS, Linux), supporting distributed teams working collaboratively on threat models. Version 2.x provides drag-and-drop diagram creation, an auto-generation rule engine for threats and mitigations, and PDF report output for documentation and GRC compliance.
-
-## When to Use
-
-- When conducting security assessments that involve performing threat modeling with owasp threat dragon
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- OWASP Threat Dragon desktop application or web instance
-- Understanding of data flow diagram (DFD) notation
-- Familiarity with STRIDE or LINDDUN threat classification
-- Application architecture documentation and network diagrams
-- Stakeholder access for design review sessions
-
-## Threat Modeling Methodologies
-
-### STRIDE
-
-| Category | Threat Type | Description | Example |
-|----------|-------------|-------------|---------|
+---
+name: webapp-owasp-threatdragon
+description: OWASP Threat Dragon is an open-source threat modeling tool that enables security teams and developers to create threat model diagrams, identify threats using established methodologies (STRIDE, LINDDUN, CIA, DIE, PLOT4ai), and generate comprehensive reports. Threat Dragon runs as both a web application and desktop application (Windows, macOS, Linux)
+domain: cybersecurity
+---
+-------|-------------|-------------|---------|
 | S | Spoofing | Impersonating a user or system | Stolen session tokens |
 | T | Tampering | Modifying data in transit or at rest | SQL injection altering records |
 | R | Repudiation | Denying an action occurred | Missing audit logs |

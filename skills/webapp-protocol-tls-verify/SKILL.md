@@ -1,30 +1,9 @@
-# Performing SSL/TLS Inspection Configuration
-
-## Overview
-
-SSL/TLS inspection (also called SSL decryption, HTTPS inspection, or TLS break-and-inspect) intercepts encrypted traffic between clients and servers to inspect the cleartext content for malware, data exfiltration, policy violations, and command-and-control communications. The inspection device acts as a trusted man-in-the-middle, terminating the TLS session from the client, inspecting the plaintext content, and establishing a new TLS session to the destination server. With over 95% of web traffic now encrypted, organizations without TLS inspection have a massive blind spot. This skill covers configuring TLS inspection on next-generation firewalls, deploying trusted CA certificates, managing exemptions for certificate-pinned applications, and ensuring compliance with privacy regulations.
-
-## When to Use
-
-- When conducting security assessments that involve performing ssl tls inspection configuration
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Next-generation firewall or secure web gateway with TLS inspection capability
-- Internal Certificate Authority (CA) for signing inspection certificates
-- Endpoint certificate management (GPO, MDM, or manual deployment)
-- Privacy and legal review for TLS inspection scope
-- Understanding of PKI, X.509 certificates, and TLS handshake
-
-## Core Concepts
-
-### SSL/TLS Inspection Modes
-
-| Mode | Direction | Description |
-|------|-----------|-------------|
+---
+name: webapp-protocol-tls-verify
+description: SSL/TLS inspection (also called SSL decryption, HTTPS inspection, or TLS break-and-inspect) intercepts encrypted traffic between clients and servers to inspect the cleartext content for malware, data exfiltration, policy violations, and command-and-control communications. The inspection device acts as a trusted man-in-the-middle, terminating the TL
+domain: cybersecurity
+---
+---|-----------|-------------|
 | **SSL Forward Proxy** | Outbound | Intercepts client-to-internet HTTPS connections |
 | **SSL Inbound Inspection** | Inbound | Decrypts traffic destined for internal servers |
 | **SSH Proxy** | Both | Inspects SSH tunneled traffic |

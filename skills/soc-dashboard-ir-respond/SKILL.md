@@ -1,77 +1,9 @@
-# Building Incident Response Dashboard
-
-## When to Use
-
-Use this skill when:
-- IR teams need real-time dashboards during active incidents for coordination and tracking
-- SOC leadership requires operational dashboards showing incident status and analyst workload
-- Post-incident reviews need visual timelines and impact assessments
-- Executive briefings require high-level incident metrics and trend analysis
-
-**Do not use** for day-to-day SOC monitoring dashboards (use Incident Review instead) — IR dashboards are designed for active incident coordination and management reporting.
-
-## Prerequisites
-
-- SIEM platform (Splunk with Dashboard Studio, Elastic Kibana, or Grafana)
-- Notable event and incident data in SIEM (Splunk ES incident_review index)
-- Ticketing system integration (ServiceNow, Jira) for remediation tracking
-- Asset and identity lookup tables for context enrichment
-- Dashboard publishing access for SOC team and management distribution
-
-## Workflow
-
-### Step 1: Design Active Incident Dashboard Layout
-
-Build a Splunk Dashboard Studio dashboard for active incident tracking:
-
-```xml
-<dashboard version="2" theme="dark">
-  <label>Active Incident Response Dashboard</label>
-  <description>Real-time tracking for IR-2024-0450</description>
-
-  <row>
-    <panel>
-      <title>Incident Summary</title>
-      <single>
-        <search>
-          <query>
-| makeresults
-| eval incident_id="IR-2024-0450",
-       status="CONTAINMENT",
-       severity="Critical",
-       affected_hosts=7,
-       contained_hosts=5,
-       iocs_identified=23,
-       hours_elapsed=round((now()-strptime("2024-03-15 14:00","%Y-%m-%d %H:%M"))/3600,1)
-| table incident_id, status, severity, affected_hosts, contained_hosts, iocs_identified, hours_elapsed
-          </query>
-        </search>
-      </single>
-    </panel>
-  </row>
-</dashboard>
-```
-
-### Step 2: Build Real-Time Affected Systems Panel
-
-Track affected systems and their containment status:
-
-```spl
-| inputlookup ir_affected_systems.csv
-| eval status_color = case(
-    status="Contained", "#2ecc71",
-    status="Compromised", "#e74c3c",
-    status="Investigating", "#f39c12",
-    status="Recovered", "#3498db",
-    1=1, "#95a5a6"
-  )
-| stats count by status
-| eval order = case(status="Compromised", 1, status="Investigating", 2,
-                    status="Contained", 3, status="Recovered", 4)
-| sort order
-| table status, count
-
---- Detailed host table
+---
+name: soc-dashboard-ir-respond
+description: Use this skill when: - IR teams need real-time dashboards during active incidents for coordination and tracking - SOC leadership requires operational dashboards showing incident status and analyst workload - Post-incident reviews need visual timelines and impact assessments - Executive briefings require high-level incident metrics and trend analysi
+domain: cybersecurity
+---
+Detailed host table
 | inputlookup ir_affected_systems.csv
 | lookup asset_lookup_by_cidr ip AS host_ip OUTPUT category, owner, priority
 | table hostname, host_ip, category, owner, status, containment_time,

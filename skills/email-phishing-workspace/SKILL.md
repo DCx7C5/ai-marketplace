@@ -1,3 +1,8 @@
+---
+name: email-phishing-workspace
+description: Google Workspace provides advanced phishing and malware protection through the Admin Console under Apps > Google Workspace > Gmail > Safety. Key features include Enhanced Pre-Delivery Scanning that examines messages more thoroughly before they reach inboxes, attachment and link protection that scans for malware and checks against known malicious si
+domain: cybersecurity
+---
 # Implementing Google Workspace Phishing Protection
 
 ## Overview

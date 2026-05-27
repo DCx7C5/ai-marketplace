@@ -1,3 +1,8 @@
+---
+name: cloud-containers-image
+description: Cosign is a Sigstore tool for signing, verifying, and attaching metadata to container images and OCI artifacts. It supports both key-based and keyless (OIDC) signing, integrates with Fulcio (certificate authority) and Rekor (transparency log), and enables supply chain security for container images.
+domain: cybersecurity
+---
 # Implementing Image Provenance Verification with Cosign
 
 ## Overview

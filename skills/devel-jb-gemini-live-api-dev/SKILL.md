@@ -1,65 +1,8 @@
-# Gemini Live API Development Skill
-
-## Overview
-
-The Live API enables **low-latency, real-time voice and video interactions** with Gemini over WebSockets. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses.
-
-Key capabilities:
-- **Bidirectional audio streaming** — real-time mic-to-speaker conversations
-- **Video streaming** — send camera/screen frames alongside audio
-- **Text input/output** — send and receive text within a live session
-- **Audio transcriptions** — get text transcripts of both input and output audio
-- **Voice Activity Detection (VAD)** — automatic interruption handling
-- **Native audio** — affective dialog, proactive audio, thinking
-- **Function calling** — synchronous and asynchronous tool use
-- **Google Search grounding** — ground responses in real-time search results
-- **Session management** — context compression, session resumption, GoAway signals
-- **Ephemeral tokens** — secure client-side authentication
-
-> [!NOTE]
-> The Live API currently **only supports WebSockets**. For WebRTC support or simplified integration, use a [partner integration](#partner-integrations).
-
-## Models
-
-- `gemini-2.5-flash-native-audio-preview-12-2025` — Native audio output, affective dialog, proactive audio, thinking. 128k context window. **This is the recommended model for all Live API use cases.**
-
-> [!WARNING]
-> The following Live API models are **deprecated** and will be shut down. Migrate to `gemini-2.5-flash-native-audio-preview-12-2025`.
-> - `gemini-live-2.5-flash-preview` — Released June 17, 2025. Shutdown: December 9, 2025.
-> - `gemini-2.0-flash-live-001` — Released April 9, 2025. Shutdown: December 9, 2025.
-
-## SDKs
-
-- **Python**: `google-genai` — `pip install google-genai`
-- **JavaScript/TypeScript**: `@google/genai` — `npm install @google/genai`
-
-> [!WARNING]
-> Legacy SDKs `google-generativeai` (Python) and `@google/generative-ai` (JS) are deprecated. Use the new SDKs above.
-
-## Partner Integrations
-
-To streamline real-time audio/video app development, use a third-party integration supporting the Gemini Live API over **WebRTC** or **WebSockets**:
-
-- [LiveKit](https://docs.livekit.io/agents/models/realtime/plugins/gemini/) — Use the Gemini Live API with LiveKit Agents.
-- [Pipecat by Daily](https://docs.pipecat.ai/guides/features/gemini-live) — Create a real-time AI chatbot using Gemini Live and Pipecat.
-- [Fishjam by Software Mansion](https://docs.fishjam.io/tutorials/gemini-live-integration) — Create live video and audio streaming applications with Fishjam.
-- [Vision Agents by Stream](https://visionagents.ai/integrations/gemini) — Build real-time voice and video AI applications with Vision Agents.
-- [Voximplant](https://voximplant.com/products/gemini-client) — Connect inbound and outbound calls to Live API with Voximplant.
-- [Firebase AI SDK](https://firebase.google.com/docs/ai-logic/live-api?api=dev) — Get started with the Gemini Live API using Firebase AI Logic.
-
-## Audio Formats
-
-- **Input**: Raw PCM, little-endian, 16-bit, mono. 16kHz native (will resample others). MIME type: `audio/pcm;rate=16000`
-- **Output**: Raw PCM, little-endian, 16-bit, mono. 24kHz sample rate.
-
-> [!IMPORTANT]
-> Use `send_realtime_input` / `sendRealtimeInput` for all real-time user input (audio, video, **and text**). Use `send_client_content` / `sendClientContent` **only** for incremental conversation history updates (appending prior turns to context), not for sending new user messages.
-
-> [!WARNING]
-> Do **not** use `media` in `sendRealtimeInput`. Use the specific keys: `audio` for audio data, `video` for images/video frames, and `text` for text input.
-
 ---
-
+name: devel-jb-gemini-live-api-dev
+description: The Live API enables **low-latency, real-time voice and video interactions** with Gemini over WebSockets. It processes continuous streams of audio, video, or text to deliver immediate, human-like spoken responses. Key capabilities: - **Bidirectional audio streaming** — real-time mic-to-speaker conversations - **Video streaming** — send camera/scree
+domain: cybersecurity
+---
 ## Quick Start
 
 ### Authentication
@@ -100,7 +43,6 @@ async with client.aio.live.connect(model="gemini-2.5-flash-native-audio-preview-
 #### JavaScript
 ```js
 const session = await ai.live.connect({
-  model: 'gemini-2.5-flash-native-audio-preview-12-2025',
   config: {
     responseModalities: ['audio'],
     systemInstruction: { parts: [{ text: 'You are a helpful assistant.' }] }

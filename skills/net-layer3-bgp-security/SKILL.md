@@ -1,65 +1,9 @@
-# Implementing BGP Security with RPKI
-
-## Overview
-
-Resource Public Key Infrastructure (RPKI) provides cryptographic validation of BGP route origins to prevent route hijacking and accidental route leaks. RPKI enables network operators to create Route Origin Authorizations (ROAs) that declare which Autonomous Systems (ASes) are authorized to originate specific IP prefixes. BGP routers validate received route announcements against RPKI data through Route Origin Validation (ROV), rejecting routes with invalid origins. This skill covers creating ROAs through Regional Internet Registries (RIRs), deploying RPKI validator software, configuring ROV on Cisco IOS-XE and Juniper Junos routers, and implementing BGP filtering policies based on RPKI validation state.
-
-## When to Use
-
-- When deploying or configuring implementing bgp security with rpki capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- IP address space allocated from an RIR (ARIN, RIPE, APNIC, AFRINIC, LACNIC)
-- RIR member portal access for ROA creation
-- BGP routers (Cisco IOS-XE 16.x+, Juniper Junos 12.2+, or similar)
-- Linux server for RPKI validator/cache (Routinator, FORT, or OctoRPKI)
-- Understanding of BGP routing and AS path concepts
-
-## Core Concepts
-
-### RPKI Architecture
-
-```
-┌──────────────────────────────────────────────┐
-│           Regional Internet Registries        │
-│    (ARIN, RIPE, APNIC, AFRINIC, LACNIC)      │
-│                                               │
-│  ┌─────────────────────────────────────────┐  │
-│  │  Trust Anchor (Root CA Certificate)      │  │
-│  │  ├── CA Certificate (ISP/Organization)   │  │
-│  │  │   ├── ROA: AS64512 → 198.51.100.0/24 │  │
-│  │  │   └── ROA: AS64512 → 2001:db8::/32   │  │
-│  │  └── CA Certificate (Another Org)        │  │
-│  │      └── ROA: AS64513 → 203.0.113.0/24  │  │
-│  └─────────────────────────────────────────┘  │
-└──────────────────────────────────────────────┘
-                     │ rsync/RRDP
-                     ▼
-         ┌──────────────────────┐
-         │  RPKI Validator/Cache │  (Routinator, FORT, OctoRPKI)
-         │  Validates ROAs       │
-         │  Serves VRPs to RTR   │
-         └──────────────────────┘
-                     │ RTR Protocol (TCP 8323)
-                     ▼
-         ┌──────────────────────┐
-         │  BGP Router           │
-         │  Performs ROV          │
-         │  Applies policy:      │
-         │   Valid → Accept      │
-         │   Invalid → Reject    │
-         │   NotFound → Accept   │
-         └──────────────────────┘
-```
-
-### RPKI Validation States
-
-| State | Meaning | Recommended Action |
-|-------|---------|-------------------|
+---
+name: net-layer3-bgp-security
+description: Resource Public Key Infrastructure (RPKI) provides cryptographic validation of BGP route origins to prevent route hijacking and accidental route leaks. RPKI enables network operators to create Route Origin Authorizations (ROAs) that declare which Autonomous Systems (ASes) are authorized to originate specific IP prefixes. BGP routers validate receiv
+domain: cybersecurity
+---
+----|---------|-------------------|
 | **Valid** | ROA exists, origin AS and prefix match | Accept route (prefer) |
 | **Invalid** | ROA exists, but origin AS or prefix length mismatch | Reject route |
 | **NotFound** | No ROA covers this prefix | Accept (but lower preference) |

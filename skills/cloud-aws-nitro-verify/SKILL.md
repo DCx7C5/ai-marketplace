@@ -1,43 +1,9 @@
-# Implementing AWS Nitro Enclave Security
-
-## When to Use
-
-- Processing sensitive data (PII, PHI, financial records, cryptographic secrets) that must be isolated from EC2 instance operators and administrators
-- Building confidential computing pipelines where even root-level access on the parent instance cannot read enclave memory or state
-- Implementing cryptographic attestation workflows that tie KMS decryption rights to a specific, verified enclave image hash
-- Deploying multi-party computation environments where two or more enclaves authenticate each other via attestation before exchanging data
-- Hardening existing workloads that currently decrypt secrets on the parent instance by migrating decryption into an enclave boundary
-
-**Do not use** when the workload does not handle sensitive data that requires hardware-level isolation, when the instance type does not support Nitro Enclaves (requires Nitro-based instances with at least 4 vCPUs), or when latency constraints make the vsock communication overhead unacceptable.
-
-## Prerequisites
-
-- An AWS account with permissions to launch Nitro-capable EC2 instances (m5.xlarge or larger, C5, R5, M6i families)
-- AWS CLI v2 and the `nitro-cli` toolset installed on the parent EC2 instance (Amazon Linux 2 or AL2023)
-- Docker installed on the parent instance for building enclave image files (EIF)
-- An AWS KMS symmetric key with key policy permissions for the enclave's IAM role
-- The `aws-nitro-enclaves-sdk-c` or Python `aws-encryption-sdk` for enclave-side KMS operations
-- The Nitro Enclaves allocator service configured with sufficient memory and vCPU allocation in `/etc/nitro_enclaves/allocator.yaml`
-
-## Workflow
-
-### Step 1: Configure the Nitro Enclaves Environment
-
-Set up the parent EC2 instance to support enclave launches:
-
-- **Install the Nitro Enclaves CLI**: On Amazon Linux 2, install the tools and allocator:
-  ```bash
-  sudo amazon-linux-extras install aws-nitro-enclaves-cli
-  sudo yum install aws-nitro-enclaves-cli-devel -y
-  sudo systemctl enable --now nitro-enclaves-allocator.service
-  sudo systemctl enable --now docker
-  sudo usermod -aG ne ec2-user
-  sudo usermod -aG docker ec2-user
-  ```
-- **Configure memory and CPU allocation**: Edit `/etc/nitro_enclaves/allocator.yaml` to reserve resources for the enclave. The enclave requires dedicated memory that is carved from the parent instance:
-  ```yaml
-  ---
-  memory_mib: 4096
+---
+name: cloud-aws-nitro-verify
+description: - Processing sensitive data (PII, PHI, financial records, cryptographic secrets) that must be isolated from EC2 instance operators and administrators - Building confidential computing pipelines where even root-level access on the parent instance cannot read enclave memory or state - Implementing cryptographic attestation workflows that tie KMS decr
+domain: cybersecurity
+---
+memory_mib: 4096
   cpu_count: 2
   ```
   Restart the allocator: `sudo systemctl restart nitro-enclaves-allocator.service`

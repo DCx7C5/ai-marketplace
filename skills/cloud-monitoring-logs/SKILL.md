@@ -1,3 +1,8 @@
+---
+name: cloud-monitoring-logs
+description: - When investigating security incidents that require analyzing cloud storage access patterns - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+domain: cybersecurity
+---
 # Analyzing Cloud Storage Access Patterns
 
 ## When to Use

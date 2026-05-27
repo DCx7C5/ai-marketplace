@@ -1,3 +1,8 @@
+---
+name: net-capture-zeek-configure
+description: - When investigating security incidents that require detecting beaconing patterns with zeek - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+domain: cybersecurity
+---
 # Detecting Beaconing Patterns with Zeek
 
 ## When to Use

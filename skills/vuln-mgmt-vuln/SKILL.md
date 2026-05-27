@@ -1,28 +1,9 @@
-# Building Vulnerability Aging and SLA Tracking
-
-## Overview
-With over 30,000 new vulnerabilities identified in 2024 (a 17% increase from the prior year), organizations must track how long vulnerabilities remain unpatched and whether remediation occurs within defined Service Level Agreements (SLAs). Vulnerability aging measures the time between discovery and remediation, while SLA tracking enforces severity-based deadlines. Industry benchmarks indicate standard SLAs of 14 days for critical, 30 days for high, 60 days for medium, and 90 days for low vulnerabilities, though more aggressive timelines (24-48 hours for actively exploited critical CVEs) are increasingly common. This skill covers designing SLA policies, building aging dashboards, implementing automated escalations, and generating compliance metrics.
-
-## When to Use
-
-- When deploying or configuring building vulnerability aging and sla tracking capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-- Vulnerability management platform with historical scan data
-- Asset inventory with criticality ratings
-- ITSM/ticketing system for remediation tracking
-- Reporting platform (Splunk, Elastic, Power BI, Grafana)
-- Stakeholder agreement on SLA timelines and escalation procedures
-
-## Core Concepts
-
-### Standard Vulnerability SLA Framework
-
-| Severity | CVSS Range | Standard SLA | Aggressive SLA | CISA KEV SLA |
-|----------|-----------|-------------|----------------|-------------|
+---
+name: vuln-mgmt-vuln
+description: With over 30,000 new vulnerabilities identified in 2024 (a 17% increase from the prior year), organizations must track how long vulnerabilities remain unpatched and whether remediation occurs within defined Service Level Agreements (SLAs). Vulnerability aging measures the time between discovery and remediation, while SLA tracking enforces severity-
+domain: cybersecurity
+---
+-------|-----------|-------------|----------------|-------------|
 | Critical | 9.0-10.0 | 14 days | 48 hours | BOD 22-01 due date |
 | High | 7.0-8.9 | 30 days | 7 days | 14 days |
 | Medium | 4.0-6.9 | 60 days | 30 days | N/A |

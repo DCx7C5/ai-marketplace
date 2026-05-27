@@ -1,31 +1,9 @@
-# Auditing Cloud with CIS Benchmarks
-
-## When to Use
-
-- When performing initial security audits of cloud environments against industry-standard benchmarks
-- When preparing for SOC 2, ISO 27001, or regulatory audits that reference CIS controls
-- When establishing a measurable security baseline for new cloud accounts or subscriptions
-- When tracking compliance improvement over time with periodic reassessment
-- When evaluating the security posture of acquired or inherited cloud environments
-
-**Do not use** for runtime threat detection (see detecting-cloud-threats-with-guardduty), for application-level security testing (see conducting-cloud-penetration-testing), or for compliance frameworks not based on CIS (refer to specific regulatory skill files).
-
-## Prerequisites
-
-- Read-only access to target cloud accounts (AWS SecurityAudit policy, Azure Reader role, GCP Viewer role)
-- Prowler, ScoutSuite, or cloud-native CSPM tools installed and configured
-- Understanding of CIS benchmark structure: sections, controls, profiles (Level 1 and Level 2)
-- Remediation access for implementing fixes (separate from audit credentials)
-
-## Workflow
-
-### Step 1: Select Appropriate CIS Benchmark Version
-
-Choose the correct benchmark version for each cloud provider. Current versions as of 2025 include CIS AWS Foundations Benchmark v5.0, CIS Azure Foundations Benchmark v4.0, and CIS GCP Foundations Benchmark v4.0.
-
-```
-CIS Benchmark Coverage Areas:
-+-------------------+-------------------------+------------------------+
+---
+name: compliance-cis-cloud
+description: - When performing initial security audits of cloud environments against industry-standard benchmarks - When preparing for SOC 2, ISO 27001, or regulatory audits that reference CIS controls - When establishing a measurable security baseline for new cloud accounts or subscriptions - When tracking compliance improvement over time with periodic reasses
+domain: cybersecurity
+---
+----------------+-------------------------+------------------------+
 | Section           | AWS v5.0                | Azure v4.0             |
 +-------------------+-------------------------+------------------------+
 | Identity & Access | IAM policies, MFA, root | Azure AD, RBAC, PIM    |

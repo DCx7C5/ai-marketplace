@@ -1,80 +1,9 @@
-# Performing Windows Artifact Analysis with Eric Zimmerman Tools
-
-## Overview
-
-Eric Zimmerman's EZ Tools suite is a collection of open-source forensic utilities that have become the global standard for Windows digital forensics investigations. Originally developed by a former FBI agent and current SANS instructor, these tools parse and analyze critical Windows artifacts including the Master File Table ($MFT), registry hives, prefetch files, event logs, shortcut (LNK) files, and jump lists. The suite integrates with KAPE (Kroll Artifact Parser and Extractor) for automated artifact collection and processing, producing structured CSV output that can be ingested into Timeline Explorer for visual analysis. EZ Tools are widely used by law enforcement, corporate incident responders, and forensic consultants worldwide.
-
-## When to Use
-
-- When conducting security assessments that involve performing windows artifact analysis with eric zimmerman tools
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Windows 10/11 or Windows Server 2016+ analysis workstation
-- .NET 6 Runtime installed (required for EZ Tools v2.x+)
-- Administrative privileges on the analysis workstation
-- Forensic disk image or triage collection from target system
-- At least 8 GB RAM (16 GB recommended for large datasets)
-- Familiarity with NTFS file system structures and Windows internals
-
-## Tool Suite Components
-
-### KAPE (Kroll Artifact Parser and Extractor)
-
-KAPE is the primary orchestration tool that automates artifact collection (Targets) and processing (Modules). It uses configuration files (.tkape and .mkape) to define what artifacts to collect and which EZ Tools to run against them.
-
-**Installation and Setup:**
-
-```powershell
-# Download KAPE from https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape
-# Extract to C:\Tools\KAPE
-
-# Update KAPE targets and modules
-C:\Tools\KAPE\gkape.exe  # GUI version
-C:\Tools\KAPE\kape.exe   # CLI version
-
-# Sync latest EZ Tools binaries
-C:\Tools\KAPE\Get-KAPEUpdate.ps1
-```
-
-**Running KAPE Collection and Processing:**
-
-```powershell
-# Collect artifacts from E: drive (mounted forensic image) and process with EZ Tools
-kape.exe --tsource E: --tdest C:\Cases\Case001\Collection --target KapeTriage --mdest C:\Cases\Case001\Processed --module !EZParser
-
-# Collect specific artifact categories
-kape.exe --tsource E: --tdest C:\Cases\Case001\Collection --target FileSystem,RegistryHives,EventLogs --mdest C:\Cases\Case001\Processed --module MFTECmd,RECmd,EvtxECmd
-
-# Live system triage collection (run as administrator)
-kape.exe --tsource C: --tdest D:\LiveTriage\Collection --target KapeTriage --mdest D:\LiveTriage\Processed --module !EZParser --vhdx LiveTriageImage
-```
-
-### MFTECmd - Master File Table Parser
-
-MFTECmd parses the NTFS $MFT, $J (USN Journal), $Boot, $SDS, and $LogFile into human-readable CSV format.
-
-```powershell
-# Parse the $MFT file
-MFTECmd.exe -f "C:\Cases\Evidence\$MFT" --csv C:\Cases\Output --csvf MFT_output.csv
-
-# Parse the USN Journal ($J)
-MFTECmd.exe -f "C:\Cases\Evidence\$J" --csv C:\Cases\Output --csvf USNJournal_output.csv
-
-# Parse $Boot for volume information
-MFTECmd.exe -f "C:\Cases\Evidence\$Boot" --csv C:\Cases\Output --csvf Boot_output.csv
-
-# Parse $SDS for security descriptors
-MFTECmd.exe -f "C:\Cases\Evidence\$SDS" --csv C:\Cases\Output --csvf SDS_output.csv
-```
-
-**Key Fields in MFT Output:**
-
-| Field | Description |
-|-------|-------------|
+---
+name: windows-artifact-forensics
+description: Eric Zimmerman's EZ Tools suite is a collection of open-source forensic utilities that have become the global standard for Windows digital forensics investigations. Originally developed by a former FBI agent and current SANS instructor, these tools parse and analyze critical Windows artifacts including the Master File Table ($MFT), registry hives, 
+domain: cybersecurity
+---
+----|-------------|
 | EntryNumber | MFT record number |
 | ParentEntryNumber | Parent directory MFT record |
 | InUse | Whether the record is active or deleted |

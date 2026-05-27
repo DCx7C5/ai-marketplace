@@ -1,3 +1,8 @@
+---
+name: webapp-api-apigee
+description: Google Apigee is an enterprise API management platform that provides native security policies for threat protection, including JSON and XML content validation, OAuth 2.0 enforcement, SpikeArrest rate limiting, regular expression threat protection, and Advanced API Security for detecting malicious clients and API abuse patterns. Apigee operates as a
+domain: cybersecurity
+---
 # Implementing API Threat Protection with Apigee
 
 ## Overview

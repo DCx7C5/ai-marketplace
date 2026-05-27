@@ -1,38 +1,9 @@
-# Implementing AES Encryption for Data at Rest
-
-## Overview
-
-AES (Advanced Encryption Standard) is a symmetric block cipher standardized by NIST (FIPS 197) used to protect classified and sensitive data. This skill covers implementing AES-256 encryption in GCM mode for encrypting files and data stores at rest, including proper key derivation, IV/nonce management, and authenticated encryption.
-
-## When to Use
-
-- When deploying or configuring implementing aes encryption for data at rest capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Implement AES-256-GCM encryption and decryption for files
-- Derive encryption keys from passwords using PBKDF2 and Argon2
-- Manage initialization vectors (IVs) and nonces securely
-- Encrypt and decrypt entire directory trees
-- Implement authenticated encryption to detect tampering
-- Handle large files with streaming encryption
-
-## Key Concepts
-
-### AES Modes of Operation
-
-| Mode | Authentication | Parallelizable | Use Case |
-|------|---------------|----------------|----------|
+---
+name: crypto-symmetric-aes
+description: AES (Advanced Encryption Standard) is a symmetric block cipher standardized by NIST (FIPS 197) used to protect classified and sensitive data. This skill covers implementing AES-256 encryption in GCM mode for encrypting files and data stores at rest, including proper key derivation, IV/nonce management, and authenticated encryption.
+domain: cybersecurity
+---
+---|---------------|----------------|----------|
 | GCM  | Yes (AEAD)    | Yes            | Network data, file encryption |
 | CBC  | No            | Decrypt only   | Legacy systems, disk encryption |
 | CTR  | No            | Yes            | Streaming encryption |

@@ -1,52 +1,9 @@
-# Implementing Google Workspace SSO Configuration
-
-## Overview
-
-Single Sign-On (SSO) for Google Workspace allows organizations to authenticate users through their existing identity provider (IdP) such as Okta, Azure AD (Microsoft Entra ID), or ADFS, rather than managing separate Google passwords. This is implemented using SAML 2.0 protocol where Google Workspace acts as the Service Provider (SP) and the organization's IdP handles authentication. SSO centralizes credential management, enforces MFA policies at the IdP, and enables immediate access revocation when users leave the organization.
-
-## When to Use
-
-- When deploying or configuring implementing google workspace sso configuration capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Google Workspace Business, Enterprise, or Education edition
-- Super Admin access to Google Admin Console
-- Identity Provider with SAML 2.0 support (Okta, Azure AD, ADFS, Ping Identity)
-- IdP signing certificate (X.509 PEM format, RSA or DSA)
-- DNS verification for the Google Workspace domain
-
-## Core Concepts
-
-### SAML 2.0 SSO Flow
-
-```
-User navigates to Google Workspace app (Gmail, Drive, etc.)
-        │
-        ├── Google checks: Is SSO configured for this domain?
-        │
-        ├── YES → Redirect user to IdP Sign-In Page URL
-        │          (SAML AuthnRequest sent via browser redirect)
-        │
-        ├── User authenticates at IdP (credentials + MFA)
-        │
-        ├── IdP generates SAML Response with signed assertion
-        │
-        ├── Browser POSTs SAML Response to Google ACS URL:
-        │   https://www.google.com/a/{domain}/acs
-        │
-        ├── Google validates SAML signature against uploaded certificate
-        │
-        └── User is granted access to Google Workspace
-```
-
-### Key SAML Parameters
-
-| Parameter | Value |
-|-----------|-------|
+---
+name: identity-saml-googlesso-verify
+description: Single Sign-On (SSO) for Google Workspace allows organizations to authenticate users through their existing identity provider (IdP) such as Okta, Azure AD (Microsoft Entra ID), or ADFS, rather than managing separate Google passwords. This is implemented using SAML 2.0 protocol where Google Workspace acts as the Service Provider (SP) and the organiz
+domain: cybersecurity
+---
+--------|-------|
 | ACS URL | `https://www.google.com/a/{your-domain}/acs` |
 | Entity ID | `google.com/a/{your-domain}` or `google.com` |
 | NameID Format | `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` |

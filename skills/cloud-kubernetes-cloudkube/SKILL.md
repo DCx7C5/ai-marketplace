@@ -1,39 +1,7 @@
-# Securing Kubernetes on Cloud
-
-## When to Use
-
-- When deploying new managed Kubernetes clusters in production with security requirements
-- When hardening existing EKS, AKS, or GKE clusters after a security audit or pentest finding
-- When implementing workload identity to eliminate static cloud credentials in pods
-- When enforcing pod security policies across namespaces to prevent container escapes
-- When integrating runtime security monitoring for detecting container-level threats
-
-**Do not use** for non-Kubernetes container deployments like ECS Fargate or Azure Container Instances, for application-level security within containers (see securing-serverless-functions), or for CI/CD pipeline security (see implementing-cloud-devsecops).
-
-## Prerequisites
-
-- Managed Kubernetes cluster provisioned on EKS, AKS, or GKE with admin access
-- kubectl configured with cluster admin credentials
-- Familiarity with Kubernetes RBAC, namespaces, and security contexts
-- Container network interface plugin supporting network policies (Calico, Cilium)
-
-## Workflow
-
-### Step 1: Enforce Pod Security Standards
-
-Apply Pod Security Admission labels at the namespace level to enforce the Restricted profile in production namespaces. Pod Security Policies were removed in Kubernetes v1.25 and replaced with Pod Security Admission.
-
-```yaml
-# Production namespace with restricted Pod Security Standard
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: production
-  labels:
-    pod-security.kubernetes.io/enforce: restricted
-    pod-security.kubernetes.io/enforce-version: latest
-    pod-security.kubernetes.io/audit: restricted
-    pod-security.kubernetes.io/warn: restricted
+---
+name: cloud-kubernetes-cloudkube
+description: - When deploying new managed Kubernetes clusters in production with security requirements - When hardening existing EKS, AKS, or GKE clusters after a security audit or pentest finding - When implementing workload identity to eliminate static cloud credentials in pods - When enforcing pod security policies across namespaces to prevent container esca
+domain: cybersecurity
 ---
 # Staging namespace with baseline enforcement
 apiVersion: v1
@@ -151,6 +119,7 @@ spec:
       ports:
         - protocol: TCP
           port: 8080
+domain: cybersecurity
 ---
 # Allow web-app to connect to database only
 apiVersion: networking.k8s.io/v1
@@ -241,6 +210,7 @@ spec:
           spec:
             containers:
               - image: "123456789012.dkr.ecr.us-east-1.amazonaws.com/* | gcr.io/my-gcp-project/*"
+domain: cybersecurity
 ---
 # Kyverno policy: require image digest (no mutable tags)
 apiVersion: kyverno.io/v1

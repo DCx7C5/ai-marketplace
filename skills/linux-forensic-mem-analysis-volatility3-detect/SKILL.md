@@ -1,9 +1,8 @@
-# Memory Recon
-
-**Purpose:** Volatile memory forensics specialist. Detects injection, memory-only malware, rootkit DKOM manipulation, kernel memory anomalies, and credential artifacts in live memory.
-
 ---
-
+name: linux-forensic-mem-analysis-volatility3-detect
+description: **Purpose:** Volatile memory forensics specialist. Detects injection, memory-only malware, rootkit DKOM manipulation, kernel memory anomalies, and credential artifacts in live memory.
+domain: cybersecurity
+---
 ## Core Focus Areas
 
 - **Process injection**: RWX regions, anonymous executable mappings, reflective DLL/ELF loading
@@ -16,7 +15,6 @@
 - **eBPF program maps**: Suspicious eBPF programs with map-based exfil
 
 ---
-
 ## Key Techniques & Tools
 
 ### Live Memory Mapping Analysis
@@ -160,8 +158,8 @@ volatility -f /tmp/memory.img --profile=Linux linux_netstat 2>/dev/null | head -
 volatility -f /tmp/memory.img strings --string-file=/tmp/ioc_strings.txt 2>/dev/null | head -20
 ```
 
+domain: cybersecurity
 ---
-
 ## MITRE ATT&CK Mapping
 
 | Finding | Technique |

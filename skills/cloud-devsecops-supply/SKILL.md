@@ -1,3 +1,8 @@
+---
+name: cloud-devsecops-supply
+description: - When investigating security incidents that require detecting supply chain attacks in ci cd - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured procedures for this analysis type - When validating security monitoring coverage for related attack techniques
+domain: cybersecurity
+---
 # Detecting Supply Chain Attacks in CI/CD
 
 ## When to Use

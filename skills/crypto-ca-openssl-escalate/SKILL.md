@@ -1,50 +1,9 @@
-# Configuring Certificate Authority with OpenSSL
-
-## Overview
-
-A Certificate Authority (CA) is the trust anchor in a PKI hierarchy, responsible for issuing, signing, and revoking digital certificates. This skill covers building a two-tier CA hierarchy (Root CA + Intermediate CA) using OpenSSL and the Python cryptography library, including CRL distribution, OCSP responder configuration, and certificate policy management.
-
-## When to Use
-
-- When deploying or configuring configuring certificate authority with openssl capabilities in your environment
-- When establishing security controls aligned to compliance requirements
-- When building or improving security architecture for this domain
-- When conducting security assessments that require this implementation
-
-## Prerequisites
-
-- Familiarity with cryptography concepts and tools
-- Access to a test or lab environment for safe execution
-- Python 3.8+ with required dependencies installed
-- Appropriate authorization for any testing activities
-
-## Objectives
-
-- Create a Root CA with self-signed certificate
-- Create an Intermediate CA signed by the Root CA
-- Issue server and client certificates from the Intermediate CA
-- Configure Certificate Revocation Lists (CRLs)
-- Implement certificate policies and constraints
-- Build a complete PKI hierarchy programmatically
-
-## Key Concepts
-
-### CA Hierarchy
-
-```
-Root CA (offline, air-gapped)
-  |
-  +-- Intermediate CA (online, operational)
-        |
-        +-- Server Certificates
-        +-- Client Certificates
-        +-- Code Signing Certificates
-```
-
-### Certificate Extensions
-
-| Extension | Purpose | Critical |
-|-----------|---------|----------|
+---
+name: crypto-ca-openssl-escalate
+description: A Certificate Authority (CA) is the trust anchor in a PKI hierarchy, responsible for issuing, signing, and revoking digital certificates. This skill covers building a two-tier CA hierarchy (Root CA + Intermediate CA) using OpenSSL and the Python cryptography library, including CRL distribution, OCSP responder configuration, and certificate policy m
+domain: cybersecurity
+---
+--------|---------|----------|
 | basicConstraints | CA:TRUE/FALSE, pathLenConstraint | Yes |
 | keyUsage | keyCertSign, cRLSign, digitalSignature | Yes |
 | extendedKeyUsage | serverAuth, clientAuth, codeSigning | No |

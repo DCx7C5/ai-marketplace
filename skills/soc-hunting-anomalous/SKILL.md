@@ -1,3 +1,8 @@
+---
+name: soc-hunting-anomalous
+description: PowerShell Script Block Logging (Event ID 4104) records the full deobfuscated script text executed on a Windows endpoint, making it the primary data source for hunting malicious PowerShell. Combined with Module Logging (4103) and process creation events, analysts can detect encoded commands, AMSI bypass patterns, download cradles, credential theft 
+domain: cybersecurity
+---
 # Hunting for Anomalous PowerShell Execution
 
 ## Overview

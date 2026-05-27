@@ -1,63 +1,9 @@
-# Triaging Vulnerabilities with SSVC Framework
-
-## Overview
-
-The Stakeholder-Specific Vulnerability Categorization (SSVC) framework, developed by Carnegie Mellon University's Software Engineering Institute (SEI) in collaboration with CISA, provides a structured decision-tree methodology for vulnerability prioritization. Unlike CVSS alone, SSVC accounts for exploitation status, technical impact, automatability, mission prevalence, and public well-being impact to produce one of four actionable outcomes: **Track**, **Track***, **Attend**, or **Act**.
-
-## When to Use
-
-- When managing security operations that require triaging vulnerabilities with ssvc framework
-- When improving security program maturity and operational processes
-- When establishing standardized procedures for security team workflows
-- When integrating threat intelligence or vulnerability data into operations
-
-## Prerequisites
-
-- Python 3.9+ with `requests`, `pandas`, and `jinja2` libraries
-- Access to CISA KEV catalog API and EPSS API from FIRST
-- NVD API key (optional, for higher rate limits)
-- Vulnerability scan results from tools like OpenVAS, Nessus, or Qualys
-
-## SSVC Decision Points
-
-### 1. Exploitation Status
-Assess current exploitation activity:
-- **None** - No evidence of active exploitation
-- **PoC** - Proof-of-concept exists publicly
-- **Active** - Active exploitation observed in the wild (check CISA KEV)
-
-```bash
-# Check if a CVE is in CISA Known Exploited Vulnerabilities catalog
-curl -s "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json" | \
-  python3 -c "import sys,json; data=json.load(sys.stdin); cves=[v['cveID'] for v in data['vulnerabilities']]; print('Active' if 'CVE-2024-3400' in cves else 'Check PoC/None')"
-```
-
-### 2. Technical Impact
-Determine scope of compromise if exploited:
-- **Partial** - Limited to a subset of system functionality or data
-- **Total** - Full control of the affected system, complete data access
-
-### 3. Automatability
-Evaluate if exploitation can be automated at scale:
-- **No** - Requires manual, targeted exploitation per victim
-- **Yes** - Can be scripted or worm-like propagation is possible
-
-### 4. Mission Prevalence
-How widespread is the affected product in your environment:
-- **Minimal** - Limited deployment, non-critical systems
-- **Support** - Supports mission-critical functions indirectly
-- **Essential** - Directly enables core mission capabilities
-
-### 5. Public Well-Being Impact
-Potential consequences for physical safety and public welfare:
-- **Minimal** - Negligible impact on safety or public services
-- **Material** - Noticeable degradation of public services
-- **Irreversible** - Loss of life, major property damage, or critical infrastructure failure
-
-## SSVC Decision Outcomes
-
-| Outcome | Action Required | SLA |
-|---------|----------------|-----|
+---
+name: vuln-prioritization-ssvc
+description: The Stakeholder-Specific Vulnerability Categorization (SSVC) framework, developed by Carnegie Mellon University's Software Engineering Institute (SEI) in collaboration with CISA, provides a structured decision-tree methodology for vulnerability prioritization. Unlike CVSS alone, SSVC accounts for exploitation status, technical impact, automatabilit
+domain: cybersecurity
+---
+------|----------------|-----|
 | **Track** | Monitor, remediate in normal patch cycle | 90 days |
 | **Track*** | Monitor closely, prioritize in next patch window | 60 days |
 | **Attend** | Escalate to senior management, accelerate remediation | 14 days |

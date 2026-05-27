@@ -1,3 +1,8 @@
+---
+name: intel-ioc-tilcm
+description: The threat intelligence lifecycle is a structured, iterative process for transforming raw data into actionable intelligence. Based on the intelligence cycle used by military and government agencies, it comprises six phases: Direction (requirements gathering), Collection (data acquisition), Processing (normalization and deduplication), Analysis (con
+domain: cybersecurity
+---
 # Implementing Threat Intelligence Lifecycle Management
 
 ## Overview

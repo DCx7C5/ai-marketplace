@@ -1,53 +1,8 @@
-# Modern Web Guidance
-
-A skill to search for specific web development use cases and retrieve their corresponding best practice guides.
-
-## When to use
-
-Must use this skill:
-- At the **start** of implementing any web feature.
-- Before creating a new component, to check if a standardized pattern already exists.
-- To avoid implementing ad-hoc solutions or loading large dependencies unnecessarily.
-
-## Usage Instructions
-
-### Step 1. Search Use Cases
-
-Search with an action-oriented query summarizing what you want to achieve using the `search` command. Run `modern-web-guidance` directly with `npx`.
-
-```sh
-npx -y modern-web-guidance@latest search "<query>" --skill-version 2026_05_16-c5e7870
-```
-
-**Example Output**:
-```json
-[
-  {
-    "id": "optimize-image-priority",
-    "description": "Optimize the loading priority of Largest Contentful Paint (LCP) candidate images.",
-    "category": "performance",
-    "featuresUsed": [ "Fetch priority" ],
-    "tokenCount": 985,
-    "similarity": 0.7289
-  },
-  {
-    "id": "defer-rendering-heavy-content",
-    "description": "Reduce rendering times in content-heavy web pages by deferring rendering for offscreen content.",
-    "category": "performance",
-    "featuresUsed": [ "content-visibility", "hidden=\"until-found\"" ],
-    "tokenCount": 1250,
-    "similarity": 0.6961
-  }
-]
-```
-
-> **Note**: If search results are vague, return no matches, or show low similarity scores, run the `list` command to browse all guides:
-> ```sh
-> npx -y modern-web-guidance@latest list
-> ```
-
 ---
-
+name: devel-jb-modern-web-guidance
+description: Must use this skill: - At the **start** of implementing any web feature. - Before creating a new component, to check if a standardized pattern already exists. - To avoid implementing ad-hoc solutions or loading large dependencies unnecessarily.
+domain: cybersecurity
+---
 ### Step 2. Retrieve Best Practices
 
 Once you have a relevant `id` from the search results, call this script using the `retrieve` command to get the full guide. You can pass multiple IDs separated by commas.

@@ -1,30 +1,9 @@
-# Performing Access Recertification with Saviynt
-
-## Overview
-
-Access recertification (also called access certification or access review) is a periodic process where designated reviewers validate that users have appropriate access to systems and data. Saviynt Enterprise Identity Cloud (EIC) automates this process through certification campaigns that present reviewers with current access assignments and collect approve/revoke/conditionally-certify decisions. Campaigns can be triggered on schedule (quarterly, semi-annually), event-driven (department transfer, role change), or on-demand. Saviynt provides intelligence features including risk scoring, usage analytics, and peer-group analysis to help reviewers make informed decisions.
-
-## When to Use
-
-- When conducting security assessments that involve performing access recertification with saviynt
-- When following incident response procedures for related security events
-- When performing scheduled security testing or auditing activities
-- When validating security controls through hands-on testing
-
-## Prerequisites
-
-- Saviynt Enterprise Identity Cloud (EIC) tenant with admin access
-- Identity data synchronized from authoritative sources (HR, AD, cloud)
-- Entitlement data imported from target applications
-- Certifier roles assigned (managers, application owners, data owners)
-- Campaign templates defined for each certification type
-
-## Core Concepts
-
-### Campaign Types
-
-| Type | Scope | Trigger | Certifier |
-|------|-------|---------|-----------|
+---
+name: identity-access-control
+description: Access recertification (also called access certification or access review) is a periodic process where designated reviewers validate that users have appropriate access to systems and data. Saviynt Enterprise Identity Cloud (EIC) automates this process through certification campaigns that present reviewers with current access assignments and collect
+domain: cybersecurity
+---
+---|-------|---------|-----------|
 | User Manager | All access for users under a manager | Scheduled (quarterly) | Direct manager |
 | Entitlement Owner | All users with a specific entitlement | Scheduled (semi-annually) | Entitlement/app owner |
 | Application | All access to a specific application | Scheduled | Application owner |

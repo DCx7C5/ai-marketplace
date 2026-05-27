@@ -1,3 +1,8 @@
+---
+name: devel-jb-notion-knowledge-capture
+description: Convert conversations and notes into structured, linkable Notion pages for easy reuse.
+domain: cybersecurity
+---
 # Knowledge Capture
 
 Convert conversations and notes into structured, linkable Notion pages for easy reuse.

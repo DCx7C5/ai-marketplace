@@ -13,8 +13,6 @@ tags:
 nist_csf:
 - RS.AN-01
 - RS.AN-02
-model: sonnet
-maxTurns: 15
 tools: [Read, Bash, Glob, Grep]
 mitre_attack:
 - T1542.001
