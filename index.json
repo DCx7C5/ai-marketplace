@@ -1002,12 +1002,12 @@
       "file": "skills/cloud-ir-compromised/SKILL.md"
     },
     {
-      "name": "cloud-ir-ir-respond",
-      "path": "cloud-ir-ir-respond",
+      "name": "cloud-ir-respond",
+      "path": "cloud-ir-respond",
       "description": "Cloud Ir Ir Respond.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/cloud-ir-ir-respond/SKILL.md"
+      "file": "skills/cloud-ir-respond/SKILL.md"
     },
     {
       "name": "cloud-kubernetes-cloudkube",
@@ -1252,7 +1252,7 @@
     {
       "name": "cloud-serverless-serverlessharden",
       "path": "cloud-serverless-serverlessharden",
-      "description": "Cloud Serverless Serverlessharden.",
+      "description": "Comprehensive security hardening and assessment guide for AWS Lambda and serverless architectures, covering cold starts, event injection, IAM execution roles, function URLs, layers, concurrency contro",
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/cloud-serverless-serverlessharden/SKILL.md"
@@ -2754,172 +2754,76 @@
       "file": "skills/email-threat-phishing/SKILL.md"
     },
     {
-      "name": "ics-ics-access-remote-configure",
-      "path": "ics-ics-access-remote-configure",
+      "name": "ics-access-remote-configure",
+      "path": "ics-access-remote-configure",
       "description": "Ics Ics Access Remote Configure.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-access-remote-configure/SKILL.md"
+      "file": "skills/ics-access-remote-configure/SKILL.md"
     },
     {
-      "name": "ics-ics-architecture-iec-62443-conduit-configure",
-      "path": "ics-ics-architecture-iec-62443-conduit-configure",
+      "name": "ics-architecture-iec-62443-conduit-configure",
+      "path": "ics-architecture-iec-62443-conduit-configure",
       "description": "Ics Ics Architecture Iec 62443 Conduit Configure.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-architecture-iec-62443-conduit-configure/SKILL.md"
+      "file": "skills/ics-architecture-iec-62443-conduit-configure/SKILL.md"
     },
     {
-      "name": "ics-ics-architecture-iec-62443-zones-design",
-      "path": "ics-ics-architecture-iec-62443-zones-design",
+      "name": "ics-architecture-iec-62443-zones-design",
+      "path": "ics-architecture-iec-62443-zones-design",
       "description": "Ics Ics Architecture Iec 62443 Zones Design.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-architecture-iec-62443-zones-design/SKILL.md"
+      "file": "skills/ics-architecture-iec-62443-zones-design/SKILL.md"
     },
     {
-      "name": "ics-ics-architecture-purdue-configure",
-      "path": "ics-ics-architecture-purdue-configure",
+      "name": "ics-architecture-purdue-configure",
+      "path": "ics-architecture-purdue-configure",
       "description": "| | Purdue Model (PERA) | Hierarchical reference architecture organizing industrial networks into levels 0-5 based on function and trust | | Level 3.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-architecture-purdue-configure/SKILL.md"
+      "file": "skills/ics-architecture-purdue-configure/SKILL.md"
     },
     {
-      "name": "ics-ics-assetmgmt-claroty-assess",
-      "path": "ics-ics-assetmgmt-claroty-assess",
+      "name": "ics-assetmgmt-claroty-assess",
+      "path": "ics-assetmgmt-claroty-assess",
       "description": "Ics Ics Assetmgmt Claroty Assess.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-assetmgmt-claroty-assess/SKILL.md"
+      "file": "skills/ics-assetmgmt-claroty-assess/SKILL.md"
     },
     {
-      "name": "ics-ics-assetmgmt-claroty-discover-monitor",
-      "path": "ics-ics-assetmgmt-claroty-discover-monitor",
+      "name": "ics-assetmgmt-claroty-discover-monitor",
+      "path": "ics-assetmgmt-claroty-discover-monitor",
       "description": "Ics Ics Assetmgmt Claroty Discover Monitor.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-assetmgmt-claroty-discover-monitor/SKILL.md"
+      "file": "skills/ics-assetmgmt-claroty-discover-monitor/SKILL.md"
     },
     {
-      "name": "ics-ics-detection-anomaly",
-      "path": "ics-ics-detection-anomaly",
+      "name": "ics-detection-anomaly",
+      "path": "ics-detection-anomaly",
       "description": "Ics Ics Detection Anomaly.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-detection-anomaly/SKILL.md"
+      "file": "skills/ics-detection-anomaly/SKILL.md"
     },
     {
-      "name": "ics-ics-historian-attack",
-      "path": "ics-ics-historian-attack",
+      "name": "ics-historian-attack",
+      "path": "ics-historian-attack",
       "description": "Ics Ics Historian Attack.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-historian-attack/SKILL.md"
+      "file": "skills/ics-historian-attack/SKILL.md"
     },
     {
-      "name": "ics-ics-historian-server",
-      "path": "ics-ics-historian-server",
+      "name": "ics-historian-server",
+      "path": "ics-historian-server",
       "description": "Ics Ics Historian Server.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/ics-ics-historian-server/SKILL.md"
-    },
-    {
-      "name": "ics-ics-malware-stuxnet",
-      "path": "ics-ics-malware-stuxnet",
-      "description": "Ics Ics Malware Stuxnet.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-malware-stuxnet/SKILL.md"
-    },
-    {
-      "name": "ics-ics-monitoring-dragos",
-      "path": "ics-ics-monitoring-dragos",
-      "description": "Ics Ics Monitoring Dragos.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-monitoring-dragos/SKILL.md"
-    },
-    {
-      "name": "ics-ics-net-firewall",
-      "path": "ics-ics-net-firewall",
-      "description": "Ics Ics Net Firewall.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-net-firewall/SKILL.md"
-    },
-    {
-      "name": "ics-ics-net-segmentation-configure",
-      "path": "ics-ics-net-segmentation-configure",
-      "description": "Ics Ics Net Segmentation Configure.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-net-segmentation-configure/SKILL.md"
-    },
-    {
-      "name": "ics-ics-plc-firmware",
-      "path": "ics-ics-plc-firmware",
-      "description": "Ics Ics Plc Firmware.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-plc-firmware/SKILL.md"
-    },
-    {
-      "name": "ics-ics-protocols-dnp3",
-      "path": "ics-ics-protocols-dnp3",
-      "description": "Ics Ics Protocols Dnp3.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-protocols-dnp3/SKILL.md"
-    },
-    {
-      "name": "ics-ics-protocols-modbus",
-      "path": "ics-ics-protocols-modbus",
-      "description": "Ics Ics Protocols Modbus.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-protocols-modbus/SKILL.md"
-    },
-    {
-      "name": "ics-ics-protocols-modbus-monitor",
-      "path": "ics-ics-protocols-modbus-monitor",
-      "description": "indicators. Block FC 43 from non-engineering subnets at OT firewall.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-protocols-modbus-monitor/SKILL.md"
-    },
-    {
-      "name": "ics-ics-protocols-s7comm",
-      "path": "ics-ics-protocols-s7comm",
-      "description": "Ics Ics Protocols S7Comm.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-protocols-s7comm/SKILL.md"
-    },
-    {
-      "name": "ics-ics-scada-attack",
-      "path": "ics-ics-scada-attack",
-      "description": "Ics Ics Scada Attack.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-scada-attack/SKILL.md"
-    },
-    {
-      "name": "ics-ics-scada-hmi-assess",
-      "path": "ics-ics-scada-hmi-assess",
-      "description": "Ics Ics Scada Hmi Assess.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-scada-hmi-assess/SKILL.md"
-    },
-    {
-      "name": "ics-ics-vuln-patch-manage",
-      "path": "ics-ics-vuln-patch-manage",
-      "description": "Ics Ics Vuln Patch Manage.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/ics-ics-vuln-patch-manage/SKILL.md"
+      "file": "skills/ics-historian-server/SKILL.md"
     },
     {
       "name": "ics-iot-device-pentest",
@@ -2928,6 +2832,94 @@
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/ics-iot-device-pentest/SKILL.md"
+    },
+    {
+      "name": "ics-malware-stuxnet",
+      "path": "ics-malware-stuxnet",
+      "description": "Ics Ics Malware Stuxnet.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-malware-stuxnet/SKILL.md"
+    },
+    {
+      "name": "ics-monitoring-dragos",
+      "path": "ics-monitoring-dragos",
+      "description": "Ics Ics Monitoring Dragos.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-monitoring-dragos/SKILL.md"
+    },
+    {
+      "name": "ics-net-firewall",
+      "path": "ics-net-firewall",
+      "description": "Ics Ics Net Firewall.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-net-firewall/SKILL.md"
+    },
+    {
+      "name": "ics-net-segmentation-configure",
+      "path": "ics-net-segmentation-configure",
+      "description": "Ics Ics Net Segmentation Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-net-segmentation-configure/SKILL.md"
+    },
+    {
+      "name": "ics-plc-firmware",
+      "path": "ics-plc-firmware",
+      "description": "Ics Ics Plc Firmware.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-plc-firmware/SKILL.md"
+    },
+    {
+      "name": "ics-protocols-dnp3",
+      "path": "ics-protocols-dnp3",
+      "description": "Ics Ics Protocols Dnp3.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-protocols-dnp3/SKILL.md"
+    },
+    {
+      "name": "ics-protocols-modbus",
+      "path": "ics-protocols-modbus",
+      "description": "Ics Ics Protocols Modbus.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-protocols-modbus/SKILL.md"
+    },
+    {
+      "name": "ics-protocols-modbus-monitor",
+      "path": "ics-protocols-modbus-monitor",
+      "description": "indicators. Block FC 43 from non-engineering subnets at OT firewall.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-protocols-modbus-monitor/SKILL.md"
+    },
+    {
+      "name": "ics-protocols-s7comm",
+      "path": "ics-protocols-s7comm",
+      "description": "Ics Ics Protocols S7Comm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-protocols-s7comm/SKILL.md"
+    },
+    {
+      "name": "ics-scada-attack",
+      "path": "ics-scada-attack",
+      "description": "Ics Ics Scada Attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-scada-attack/SKILL.md"
+    },
+    {
+      "name": "ics-scada-hmi-assess",
+      "path": "ics-scada-hmi-assess",
+      "description": "Ics Ics Scada Hmi Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-scada-hmi-assess/SKILL.md"
     },
     {
       "name": "ics-sector-oil-gas-assess",
@@ -2944,6 +2936,14 @@
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/ics-sector-power-grid-assess/SKILL.md"
+    },
+    {
+      "name": "ics-vuln-patch-manage",
+      "path": "ics-vuln-patch-manage",
+      "description": "Ics Ics Vuln Patch Manage.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/ics-vuln-patch-manage/SKILL.md"
     },
     {
       "name": "identity-access-control",
@@ -4122,70 +4122,6 @@
       "file": "skills/linux-fs-file-detect/SKILL.md"
     },
     {
-      "name": "linux-fs-fs-ntfs-ads-detect",
-      "path": "linux-fs-fs-ntfs-ads-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-ntfs-ads-detect/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-ntfs-mft-forensic",
-      "path": "linux-fs-fs-ntfs-mft-forensic",
-      "description": "- 148923    | exfil_tool.exe      | 2023-06-15 10:00:00  | 2024-01-15 14:34:02  | -214 days | TIMESTOMPED 149200    | mimikatz.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-ntfs-mft-forensic/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-ntfs-mft-parse",
-      "path": "linux-fs-fs-ntfs-mft-parse",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-ntfs-mft-parse/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-ntfs-prefetch-parse",
-      "path": "linux-fs-fs-ntfs-prefetch-parse",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-ntfs-prefetch-parse/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-ntfs-usnjrnl-analyze",
-      "path": "linux-fs-fs-ntfs-usnjrnl-analyze",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-ntfs-usnjrnl-analyze/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-tmp-artifact-collect",
-      "path": "linux-fs-fs-tmp-artifact-collect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-tmp-artifact-collect/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-vfs-hook-detect",
-      "path": "linux-fs-fs-vfs-hook-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-vfs-hook-detect/SKILL.md"
-    },
-    {
-      "name": "linux-fs-fs-xfs-metadata-analyze",
-      "path": "linux-fs-fs-xfs-metadata-analyze",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-fs-fs-xfs-metadata-analyze/SKILL.md"
-    },
-    {
       "name": "linux-fs-fuse-rootkit-detect",
       "path": "linux-fs-fuse-rootkit-detect",
       "description": "subdomain: filesystem-forensics tags: - linux - fuse - rootkit - filesystem - hide nist_csf: - DE.",
@@ -4258,6 +4194,46 @@
       "file": "skills/linux-fs-lvm-snapshot-forensic/SKILL.md"
     },
     {
+      "name": "linux-fs-ntfs-ads-detect",
+      "path": "linux-fs-ntfs-ads-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-ntfs-ads-detect/SKILL.md"
+    },
+    {
+      "name": "linux-fs-ntfs-mft-forensic",
+      "path": "linux-fs-ntfs-mft-forensic",
+      "description": "- 148923    | exfil_tool.exe      | 2023-06-15 10:00:00  | 2024-01-15 14:34:02  | -214 days | TIMESTOMPED 149200    | mimikatz.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-ntfs-mft-forensic/SKILL.md"
+    },
+    {
+      "name": "linux-fs-ntfs-mft-parse",
+      "path": "linux-fs-ntfs-mft-parse",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-ntfs-mft-parse/SKILL.md"
+    },
+    {
+      "name": "linux-fs-ntfs-prefetch-parse",
+      "path": "linux-fs-ntfs-prefetch-parse",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-ntfs-prefetch-parse/SKILL.md"
+    },
+    {
+      "name": "linux-fs-ntfs-usnjrnl-analyze",
+      "path": "linux-fs-ntfs-usnjrnl-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-ntfs-usnjrnl-analyze/SKILL.md"
+    },
+    {
       "name": "linux-fs-overlayfs-layer-analyze",
       "path": "linux-fs-overlayfs-layer-analyze",
       "description": "subdomain: filesystem-forensics tags: - linux - overlayfs - container - filesystem - analyze nist_csf: - DE.",
@@ -4322,12 +4298,36 @@
       "file": "skills/linux-fs-timeline-mtime-ctime-analyze/SKILL.md"
     },
     {
+      "name": "linux-fs-tmp-artifact-collect",
+      "path": "linux-fs-tmp-artifact-collect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-tmp-artifact-collect/SKILL.md"
+    },
+    {
       "name": "linux-fs-veracrypt-deploy",
       "path": "linux-fs-veracrypt-deploy",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-fs-veracrypt-deploy/SKILL.md"
+    },
+    {
+      "name": "linux-fs-vfs-hook-detect",
+      "path": "linux-fs-vfs-hook-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-vfs-hook-detect/SKILL.md"
+    },
+    {
+      "name": "linux-fs-xfs-metadata-analyze",
+      "path": "linux-fs-xfs-metadata-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-fs-xfs-metadata-analyze/SKILL.md"
     },
     {
       "name": "linux-harden-apparmor-profile-create-configure",
@@ -4498,44 +4498,20 @@
       "file": "skills/linux-hw-usb-policy-create-configure/SKILL.md"
     },
     {
+      "name": "linux-id-cap-audit",
+      "path": "linux-id-cap-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-id-cap-audit/SKILL.md"
+    },
+    {
       "name": "linux-id-gshadow-group-audit",
       "path": "linux-id-gshadow-group-audit",
       "description": "subdomain: identity-security tags: - linux - gshadow - group - privilege - audit nist_csf: - ID.",
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-id-gshadow-group-audit/SKILL.md"
-    },
-    {
-      "name": "linux-id-id-cap-audit",
-      "path": "linux-id-id-cap-audit",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-id-id-cap-audit/SKILL.md"
-    },
-    {
-      "name": "linux-id-id-sudo-abuse-detect",
-      "path": "linux-id-id-sudo-abuse-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-id-id-sudo-abuse-detect/SKILL.md"
-    },
-    {
-      "name": "linux-id-id-suid-binary-detect",
-      "path": "linux-id-id-suid-binary-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-id-id-suid-binary-detect/SKILL.md"
-    },
-    {
-      "name": "linux-id-id-suid-permission-enum",
-      "path": "linux-id-id-suid-permission-enum",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-id-id-suid-permission-enum/SKILL.md"
     },
     {
       "name": "linux-id-pam-module-backdoor-detect",
@@ -4608,6 +4584,30 @@
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-id-ssh-config-harden/SKILL.md"
+    },
+    {
+      "name": "linux-id-sudo-abuse-detect",
+      "path": "linux-id-sudo-abuse-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-id-sudo-abuse-detect/SKILL.md"
+    },
+    {
+      "name": "linux-id-suid-binary-detect",
+      "path": "linux-id-suid-binary-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-id-suid-binary-detect/SKILL.md"
+    },
+    {
+      "name": "linux-id-suid-permission-enum",
+      "path": "linux-id-suid-permission-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-id-suid-permission-enum/SKILL.md"
     },
     {
       "name": "linux-kernel-boot-grub-tamper-detect",
@@ -5002,20 +5002,20 @@
       "file": "skills/linux-mem-injection-code-analyze/SKILL.md"
     },
     {
-      "name": "linux-mem-mem-rop-chain-detect",
-      "path": "linux-mem-mem-rop-chain-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-mem-mem-rop-chain-detect/SKILL.md"
-    },
-    {
       "name": "linux-mem-nx-bypass-detect",
       "path": "linux-mem-nx-bypass-detect",
       "description": "subdomain: memory-security tags: - linux - nx - dep - rop - bypass nist_csf: - DE.",
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-mem-nx-bypass-detect/SKILL.md"
+    },
+    {
+      "name": "linux-mem-rop-chain-detect",
+      "path": "linux-mem-rop-chain-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-mem-rop-chain-detect/SKILL.md"
     },
     {
       "name": "linux-mem-shellcode-pattern-detect",
@@ -5090,100 +5090,36 @@
       "file": "skills/linux-net-ftp-tls-cert-analyze/SKILL.md"
     },
     {
-      "name": "linux-net-net-nfs-acl-audit",
-      "path": "linux-net-net-nfs-acl-audit",
+      "name": "linux-net-nfs-acl-audit",
+      "path": "linux-net-nfs-acl-audit",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-net-net-nfs-acl-audit/SKILL.md"
+      "file": "skills/linux-net-nfs-acl-audit/SKILL.md"
     },
     {
-      "name": "linux-net-net-nfs-export-enum",
-      "path": "linux-net-net-nfs-export-enum",
+      "name": "linux-net-nfs-export-enum",
+      "path": "linux-net-nfs-export-enum",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-net-net-nfs-export-enum/SKILL.md"
+      "file": "skills/linux-net-nfs-export-enum/SKILL.md"
     },
     {
-      "name": "linux-net-net-nfs-mount-analyze",
-      "path": "linux-net-net-nfs-mount-analyze",
+      "name": "linux-net-nfs-mount-analyze",
+      "path": "linux-net-nfs-mount-analyze",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-net-net-nfs-mount-analyze/SKILL.md"
+      "file": "skills/linux-net-nfs-mount-analyze/SKILL.md"
     },
     {
-      "name": "linux-net-net-nfs-rootsquash-bypass",
-      "path": "linux-net-net-nfs-rootsquash-bypass",
+      "name": "linux-net-nfs-rootsquash-bypass",
+      "path": "linux-net-nfs-rootsquash-bypass",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-net-net-nfs-rootsquash-bypass/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-brute-exploit",
-      "path": "linux-net-net-smb-brute-exploit",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-brute-exploit/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-config-audit",
-      "path": "linux-net-net-smb-config-audit",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-config-audit/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-credential-intercept",
-      "path": "linux-net-net-smb-credential-intercept",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-credential-intercept/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-null-session-detect",
-      "path": "linux-net-net-smb-null-session-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-null-session-detect/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-relay-exploit",
-      "path": "linux-net-net-smb-relay-exploit",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-relay-exploit/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-share-enum",
-      "path": "linux-net-net-smb-share-enum",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-share-enum/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-smb-signing-audit",
-      "path": "linux-net-net-smb-signing-audit",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-smb-signing-audit/SKILL.md"
-    },
-    {
-      "name": "linux-net-net-tftp-exposure-detect",
-      "path": "linux-net-net-tftp-exposure-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-net-net-tftp-exposure-detect/SKILL.md"
+      "file": "skills/linux-net-nfs-rootsquash-bypass/SKILL.md"
     },
     {
       "name": "linux-net-nginx-config-audit",
@@ -5202,6 +5138,62 @@
       "file": "skills/linux-net-rsync-exposure-detect/SKILL.md"
     },
     {
+      "name": "linux-net-smb-brute-exploit",
+      "path": "linux-net-smb-brute-exploit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-brute-exploit/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-config-audit",
+      "path": "linux-net-smb-config-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-config-audit/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-credential-intercept",
+      "path": "linux-net-smb-credential-intercept",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-credential-intercept/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-null-session-detect",
+      "path": "linux-net-smb-null-session-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-null-session-detect/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-relay-exploit",
+      "path": "linux-net-smb-relay-exploit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-relay-exploit/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-share-enum",
+      "path": "linux-net-smb-share-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-share-enum/SKILL.md"
+    },
+    {
+      "name": "linux-net-smb-signing-audit",
+      "path": "linux-net-smb-signing-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-smb-signing-audit/SKILL.md"
+    },
+    {
       "name": "linux-net-ssh-brute-detect",
       "path": "linux-net-ssh-brute-detect",
       "description": "subdomain: network-security tags: - linux - ssh - brute-force - detect - auth-log nist_csf: - DE.",
@@ -5218,6 +5210,14 @@
       "file": "skills/linux-net-ssh-tunnel-detect/SKILL.md"
     },
     {
+      "name": "linux-net-tftp-exposure-detect",
+      "path": "linux-net-tftp-exposure-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-net-tftp-exposure-detect/SKILL.md"
+    },
+    {
       "name": "linux-net-webdav-upload-exploit",
       "path": "linux-net-webdav-upload-exploit",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
@@ -5232,6 +5232,14 @@
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-proc-binary-static-analyze/SKILL.md"
+    },
+    {
+      "name": "linux-proc-cmdline-spoof-detect",
+      "path": "linux-proc-cmdline-spoof-detect",
+      "description": "subdomain: process-forensics tags: - linux - proc - cmdline - spoof - masquerade nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-proc-cmdline-spoof-detect/SKILL.md"
     },
     {
       "name": "linux-proc-daemon-hidden-detect",
@@ -5266,6 +5274,38 @@
       "file": "skills/linux-proc-elf-section-inject-detect/SKILL.md"
     },
     {
+      "name": "linux-proc-environ-extract",
+      "path": "linux-proc-environ-extract",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-proc-environ-extract/SKILL.md"
+    },
+    {
+      "name": "linux-proc-fd-enum",
+      "path": "linux-proc-fd-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-proc-fd-enum/SKILL.md"
+    },
+    {
+      "name": "linux-proc-ipc-named-pipe-detect",
+      "path": "linux-proc-ipc-named-pipe-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-proc-ipc-named-pipe-detect/SKILL.md"
+    },
+    {
+      "name": "linux-proc-ipc-shared-memory-analyze",
+      "path": "linux-proc-ipc-shared-memory-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-proc-ipc-shared-memory-analyze/SKILL.md"
+    },
+    {
       "name": "linux-proc-ld-preload-hijack-detect",
       "path": "linux-proc-ld-preload-hijack-detect",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
@@ -5274,60 +5314,20 @@
       "file": "skills/linux-proc-ld-preload-hijack-detect/SKILL.md"
     },
     {
-      "name": "linux-proc-proc-cmdline-spoof-detect",
-      "path": "linux-proc-proc-cmdline-spoof-detect",
-      "description": "subdomain: process-forensics tags: - linux - proc - cmdline - spoof - masquerade nist_csf: - DE.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-proc-proc-cmdline-spoof-detect/SKILL.md"
-    },
-    {
-      "name": "linux-proc-proc-environ-extract",
-      "path": "linux-proc-proc-environ-extract",
+      "name": "linux-proc-maps-analyze",
+      "path": "linux-proc-maps-analyze",
       "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-proc-proc-environ-extract/SKILL.md"
+      "file": "skills/linux-proc-maps-analyze/SKILL.md"
     },
     {
-      "name": "linux-proc-proc-fd-enum",
-      "path": "linux-proc-proc-fd-enum",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-proc-proc-fd-enum/SKILL.md"
-    },
-    {
-      "name": "linux-proc-proc-ipc-named-pipe-detect",
-      "path": "linux-proc-proc-ipc-named-pipe-detect",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-proc-proc-ipc-named-pipe-detect/SKILL.md"
-    },
-    {
-      "name": "linux-proc-proc-ipc-shared-memory-analyze",
-      "path": "linux-proc-proc-ipc-shared-memory-analyze",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-proc-proc-ipc-shared-memory-analyze/SKILL.md"
-    },
-    {
-      "name": "linux-proc-proc-maps-analyze",
-      "path": "linux-proc-proc-maps-analyze",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-proc-proc-maps-analyze/SKILL.md"
-    },
-    {
-      "name": "linux-proc-proc-mem-inject-detect",
-      "path": "linux-proc-proc-mem-inject-detect",
+      "name": "linux-proc-mem-inject-detect",
+      "path": "linux-proc-mem-inject-detect",
       "description": "subdomain: process-security tags: - linux - proc - mem - injection - ptrace nist_csf: - DE.",
       "domain": "cybersecurity",
       "model": "sonnet",
-      "file": "skills/linux-proc-proc-mem-inject-detect/SKILL.md"
+      "file": "skills/linux-proc-mem-inject-detect/SKILL.md"
     },
     {
       "name": "linux-proc-ptrace-injection-detect",
@@ -5466,6 +5466,30 @@
       "file": "skills/linux-svc-cron-job-backdoor-detect/SKILL.md"
     },
     {
+      "name": "linux-svc-dbus-alerts-detect",
+      "path": "linux-svc-dbus-alerts-detect",
+      "description": "5. Cross-correlate D-Bus alerts with authentication log timestamps 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-svc-dbus-alerts-detect/SKILL.md"
+    },
+    {
+      "name": "linux-svc-dbus-msgs-exploit",
+      "path": "linux-svc-dbus-msgs-exploit",
+      "description": "5. High-frequency calls (>10/sec) to the same interface = **MEDIUM** minimum 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-svc-dbus-msgs-exploit/SKILL.md"
+    },
+    {
+      "name": "linux-svc-dbus-service-enum",
+      "path": "linux-svc-dbus-service-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "file": "skills/linux-svc-dbus-service-enum/SKILL.md"
+    },
+    {
       "name": "linux-svc-logrotate-race-exploit",
       "path": "linux-svc-logrotate-race-exploit",
       "description": "subdomain: vulnerability-exploitation tags: - linux - logrotate - race-condition - privesc - cve nist_csf: - ID.",
@@ -5496,30 +5520,6 @@
       "domain": "cybersecurity",
       "model": "sonnet",
       "file": "skills/linux-svc-rc-local-backdoor-detect/SKILL.md"
-    },
-    {
-      "name": "linux-svc-svc-dbus-alerts-detect",
-      "path": "linux-svc-svc-dbus-alerts-detect",
-      "description": "5. Cross-correlate D-Bus alerts with authentication log timestamps 6.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-svc-svc-dbus-alerts-detect/SKILL.md"
-    },
-    {
-      "name": "linux-svc-svc-dbus-msgs-exploit",
-      "path": "linux-svc-svc-dbus-msgs-exploit",
-      "description": "5. High-frequency calls (>10/sec) to the same interface = **MEDIUM** minimum 6.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-svc-svc-dbus-msgs-exploit/SKILL.md"
-    },
-    {
-      "name": "linux-svc-svc-dbus-service-enum",
-      "path": "linux-svc-svc-dbus-service-enum",
-      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
-      "domain": "cybersecurity",
-      "model": "sonnet",
-      "file": "skills/linux-svc-svc-dbus-service-enum/SKILL.md"
     },
     {
       "name": "linux-svc-systemd-timer-persist-detect",

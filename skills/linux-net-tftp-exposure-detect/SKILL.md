@@ -1,0 +1,29 @@
+---
+name: linux-net-tftp-exposure-detect
+description: "See [SKILL taxonomy](../../TAXONOMY.md) for more details."
+domain: cybersecurity
+---
+
+## Overview
+
+Detect exposed TFTP servers and enumerate accessible files using TFTP clients, identifying network device configurations, firmware, and sensitive data.
+subdomain: network-filesystem-security
+tags:
+  - tftp
+  - anonymous
+  - udp
+  - file-exposure
+  - network-device
+nist_csf:
+  - ID.RA-01
+  - DE.CM-04
+mitre:
+  - T1039
+  - T1083
+cwe:
+  - CWE-284
+capec: []
+
+## Reference
+
+See [SKILL taxonomy](../../TAXONOMY.md) for more details.

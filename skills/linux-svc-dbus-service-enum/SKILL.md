@@ -1,0 +1,30 @@
+---
+name: linux-svc-dbus-service-enum
+description: "See [SKILL taxonomy](../../TAXONOMY.md) for more details."
+domain: cybersecurity
+---
+
+## Overview
+
+Enumerate D-Bus services and method calls to identify over-privileged interfaces, missing PolicyKit authentication, and local privilege escalation via bus services.
+subdomain: process-forensics
+tags:
+  - dbus
+  - polkit
+  - policykit
+  - ipc
+  - privilege-escalation
+  - d-bus-service
+nist_csf:
+  - ID.RA-01
+  - DE.CM-04
+mitre:
+  - T1548
+  - T1068
+cwe:
+  - CWE-269
+capec: []
+
+## Reference
+
+See [SKILL taxonomy](../../TAXONOMY.md) for more details.
