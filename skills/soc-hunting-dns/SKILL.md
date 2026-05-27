@@ -1,40 +1,8 @@
----
-name: soc-hunting-dns
-description: Hunt for DNS-based persistence mechanisms including DNS hijacking, dangling CNAME records, wildcard DNS abuse, and unauthorized zone modifications using passive DNS databases, SecurityTrails API, and DNS audit log analysis.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- dns
-- persistence
-- threat-hunting
-- passive-dns
-- dns-hijacking
-- subdomain-takeover
-- securitytrails
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1547
-- T1595.002
-cwe:
-- CWE-284
-capec: []
----
-
 # Hunting for DNS-based Persistence
 
 ## Overview
 
 Attackers establish DNS-based persistence by hijacking DNS records, creating unauthorized subdomains, abusing wildcard DNS entries, or modifying NS delegations to redirect traffic through attacker-controlled infrastructure. These techniques survive credential rotations, endpoint reimaging, and traditional remediation because DNS changes persist independently of compromised hosts. Detection requires passive DNS historical analysis, zone file auditing, and monitoring for unauthorized record modifications. This skill covers hunting methodologies using SecurityTrails passive DNS API, DNS audit logs from Route53/Azure DNS/Cloudflare, and zone transfer analysis.
-
 
 ## When to Use
 

@@ -1,34 +1,3 @@
----
-name: webapp-api-injection-inject
-description: Tests APIs for injection vulnerabilities including SQL injection, NoSQL injection, OS command injection, LDAP injection, and Server-Side Request Forgery (SSRF) through API parameters, headers, and request bodies. The tester crafts malicious payloads targeting different backend technologies and injection contexts to extract data, execute commands, or access internal services. Maps to OWASP API8:2023 Security Misconfiguration and API7:2023 SSRF. Activates for requests involving API injection testing, SQLi in APIs, NoSQL injection, SSRF testing, or API input validation assessment.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- owasp
-- injection
-- sqli
-- nosql
-- ssrf
-- command-injection
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1087.002
-- T1190
-cwe:
-- CWE-78
-- CWE-89
-- CWE-918
-capec: []
----
-
 # Exploiting API Injection Vulnerabilities
 
 ## When to Use
@@ -49,7 +18,6 @@ capec: []
 - Burp Suite Professional with Active Scan capabilities
 - Knowledge of the backend database technology (MySQL, PostgreSQL, MongoDB, Redis)
 - Isolated test environment to avoid production data corruption
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

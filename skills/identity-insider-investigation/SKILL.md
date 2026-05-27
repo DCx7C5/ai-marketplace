@@ -1,31 +1,3 @@
----
-name: identity-insider-investigation
-description: Investigates insider threat incidents involving employees, contractors, or trusted partners who misuse authorized access to steal data, sabotage systems, or violate security policies. Combines digital forensics, user behavior analytics, and HR/legal coordination to build an evidence-based case. Activates for requests involving insider threat investigation, employee data theft, privilege misuse, user behavior anomaly, or internal threat detection.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- insider-threat
-- user-behavior-analytics
-- data-exfiltration
-- privilege-misuse
-- DFIR
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078
-- T1048
-- T1567
-- T1114
-- T1041
-capec: []
----
-
 # Performing Insider Threat Investigation
 
 ## When to Use

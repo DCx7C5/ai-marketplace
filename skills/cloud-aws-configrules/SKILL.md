@@ -1,28 +1,3 @@
----
-name: cloud-aws-configrules
-description: Implementing AWS Config rules for continuous compliance monitoring of AWS resources, deploying managed and custom rules aligned to CIS and PCI DSS frameworks, configuring automatic remediation with SSM Automation, and aggregating compliance data across accounts.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- aws
-- config-rules
-- compliance
-- automation
-- remediation
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Implementing AWS Config Rules for Compliance
 
 ## When to Use

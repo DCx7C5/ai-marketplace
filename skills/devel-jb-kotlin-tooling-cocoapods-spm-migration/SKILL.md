@@ -1,13 +1,3 @@
----
-name: "devel-jb-kotlin-tooling-cocoapods-spm-migration"
-description: "Migrate KMP projects from CocoaPods (kotlin("native.cocoapods")) to Swift Package Manager (swiftPMDependencies DSL) — replaces pod() with swiftPackage(), transforms cocoapods.* imports to swiftPMImport.*, and reconfigures the Xcode project."
-license: "Apache-2.0"
-metadata: ""
-short-description: "Migrate KMP from CocoaPods to SPM"
-author: "JetBrains"
-version: "1.0.0"
-source: "https://github.com/Kotlin/kotlin-agent-skills/tree/main/skills/kotlin-tooling-cocoapods-spm-migration"
----
 # CocoaPods to SwiftPM Migration for KMP
 
 Migrate Kotlin Multiplatform projects from `kotlin("native.cocoapods")` to `swiftPMDependencies {}` DSL.

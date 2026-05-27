@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-syscall-ptrace-abuse-detect"
-description: "---"
----
-
----
 name: linux-kernel-syscall-ptrace-abuse-detect
 description: Detect ptrace syscall abuse beyond process injection — unauthorized debugger attachment, credential scraping from traced processes, and ptrace-based sandbox escape.
 domain: cybersecurity

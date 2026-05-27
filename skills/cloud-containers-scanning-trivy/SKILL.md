@@ -1,38 +1,8 @@
----
-name: cloud-containers-scanning-trivy
-description: Scan container images, filesystems, and Kubernetes manifests for vulnerabilities, misconfigurations, exposed secrets, and license compliance issues using Aqua Security Trivy with SBOM generation and CI/CD integration.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- trivy
-- container-security
-- vulnerability-scanning
-- sbom
-- docker
-- kubernetes
-- devsecops
-- supply-chain
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1195
-- T1610
-capec: []
----
-
 # Performing Container Security Scanning with Trivy
 
 ## Overview
 
 Trivy is an open-source security scanner by Aqua Security that detects vulnerabilities in OS packages and language-specific dependencies, infrastructure-as-code misconfigurations, exposed secrets, and software license issues across container images, filesystems, Git repositories, and Kubernetes clusters. Trivy generates Software Bill of Materials (SBOM) in CycloneDX and SPDX formats for supply chain transparency. This skill covers comprehensive container image scanning, CI/CD pipeline integration, Kubernetes operator deployment, and scan result triage for security operations.
-
 
 ## When to Use
 

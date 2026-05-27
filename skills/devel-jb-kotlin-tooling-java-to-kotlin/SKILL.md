@@ -1,13 +1,3 @@
----
-name: "devel-jb-kotlin-tooling-java-to-kotlin"
-description: ">"
-license: "Apache-2.0"
-metadata: ""
-short-description: "Convert Java code to idiomatic Kotlin"
-author: "JetBrains"
-version: "1.0.0"
-source: "https://github.com/Kotlin/kotlin-agent-skills/tree/main/skills/kotlin-tooling-java-to-kotlin"
----
 # Java to Kotlin Conversion
 
 Convert Java source files to idiomatic Kotlin using a disciplined 4-step conversion

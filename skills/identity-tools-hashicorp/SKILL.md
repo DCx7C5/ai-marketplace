@@ -1,29 +1,3 @@
----
-name: identity-tools-hashicorp
-description: Implements HashiCorp Vault dynamic secrets engines for database credentials, AWS IAM keys, and PKI certificates with automatic generation, lease management, and credential rotation to eliminate static secrets in application configurations. Activates for requests involving Vault secrets engine configuration, dynamic database credentials, ephemeral cloud credentials, or automated secret rotation.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- HashiCorp-Vault
-- dynamic-secrets
-- secrets-management
-- database-credentials
-- AWS-secrets
-- PKI
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-capec: []
----
-
 # Implementing HashiCorp Vault Dynamic Secrets
 
 ## When to Use

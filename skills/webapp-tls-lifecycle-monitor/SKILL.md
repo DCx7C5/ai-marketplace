@@ -1,31 +1,8 @@
----
-name: webapp-tls-lifecycle-monitor
-description: SSL/TLS certificate lifecycle management encompasses the full process of requesting, issuing, deploying, monitoring, renewing, and revoking X.509 certificates. Poor certificate management is a leading
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- ssl
-- certificates
-- pki
-- tls
-- key-management
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing SSL Certificate Lifecycle Management
 
 ## Overview
 
 SSL/TLS certificate lifecycle management encompasses the full process of requesting, issuing, deploying, monitoring, renewing, and revoking X.509 certificates. Poor certificate management is a leading cause of outages and security incidents. This skill covers automating the entire certificate lifecycle using Python and ACME protocol tools.
-
 
 ## When to Use
 

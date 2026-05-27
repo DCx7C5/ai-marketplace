@@ -1,35 +1,8 @@
----
-name: cloud-containers-registry-harbor
-description: Harbor is an open-source container registry that provides security features including vulnerability scanning (integrated Trivy), image signing (Notary/Cosign), RBAC, content trust policies, replicatio
-domain: cybersecurity
-subdomain: container-security
-tags:
-- containers
-- kubernetes
-- docker
-- security
-- registry
-- harbor
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1610
-capec: []
----
-
 # Securing Container Registry with Harbor
 
 ## Overview
 
 Harbor is an open-source container registry that provides security features including vulnerability scanning (integrated Trivy), image signing (Notary/Cosign), RBAC, content trust policies, replication, and audit logging. Securing Harbor involves configuring these features to enforce image provenance, prevent vulnerable image deployment, and maintain registry access control.
-
 
 ## When to Use
 

@@ -1,42 +1,8 @@
----
-name: intel-mitre-apt
-description: Analyze advanced persistent threat (APT) group techniques using MITRE ATT&CK Navigator to create layered heatmaps of adversary TTPs for detection gap analysis and threat-informed defense.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- mitre-attack
-- navigator
-- apt
-- threat-actor
-- ttp-analysis
-- heatmap
-- detection-gap
-- threat-intelligence
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Analyzing APT Group with MITRE ATT&CK Navigator
 
 ## Overview
 
 MITRE ATT&CK Navigator is a web-based tool for annotating and exploring ATT&CK matrices, enabling analysts to visualize threat actor technique coverage, compare multiple APT groups, identify detection gaps, and build threat-informed defense strategies. This skill covers querying ATT&CK data programmatically, mapping APT group TTPs to Navigator layers, creating multi-layer overlays for gap analysis, and generating actionable intelligence reports for detection engineering teams.
-
 
 ## When to Use
 

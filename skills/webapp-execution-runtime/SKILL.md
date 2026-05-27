@@ -1,45 +1,8 @@
----
-name: webapp-execution-runtime
-description: Deploy Runtime Application Self-Protection (RASP) agents to detect and block attacks from within application runtime, covering OpenRASP integration, attack pattern detection, and security policy configuration for Java and Python web applications.
-domain: cybersecurity
-subdomain: application-security
-tags:
-- rasp
-- application-security
-- openrasp
-- runtime-protection
-- sqli
-- xss
-- rce
-- devsecops
-nist_ai_rmf:
-- GOVERN-1.1
-- MEASURE-2.7
-- MANAGE-3.1
-nist_csf:
-- PR.PS-01
-- PR.PS-04
-- ID.RA-01
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-- T1190
-cwe:
-- CWE-502
-- CWE-79
-- CWE-89
-capec: []
----
-
 # Implementing Runtime Application Self-Protection
 
 ## Overview
 
 Runtime Application Self-Protection (RASP) instruments application code at runtime to detect and block attacks by examining actual execution context rather than relying solely on network traffic patterns. Unlike WAFs that inspect HTTP requests externally, RASP agents intercept dangerous operations (SQL queries, file operations, command execution, deserialization) at the function level inside the application, achieving near-zero false positives. This skill covers deploying OpenRASP for Java applications, configuring detection policies for OWASP Top 10 attacks, tuning alerting thresholds, and integrating RASP telemetry with SIEM platforms.
-
 
 ## When to Use
 

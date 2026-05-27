@@ -1,44 +1,8 @@
----
-name: soc-hunting-datastaging
-description: Detect data staging activity before exfiltration by monitoring for archive creation with 7-Zip/RAR, unusual temp folder access, large file consolidation, and staging directory patterns via EDR and process telemetry
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- data-staging
-- exfiltration
-- t1074
-- archive-detection
-- edr
-- threat-hunting
-- dlp
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-- Platform Hardening
-- File Format Verification
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1074
-- T1560
-capec: []
----
-
 # Hunting for Data Staging Before Exfiltration
 
 ## Overview
 
 Before exfiltrating data, adversaries typically stage collected files in a central location (MITRE ATT&CK T1074). This involves creating archives with tools like 7-Zip, RAR, or tar, consolidating files from multiple directories, and using temporary or hidden staging directories. This skill detects staging behavior by analyzing process creation logs for archiver activity, monitoring file system events in common staging paths, and identifying anomalous file consolidation patterns.
-
 
 ## When to Use
 

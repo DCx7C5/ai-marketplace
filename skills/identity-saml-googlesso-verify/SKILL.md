@@ -1,36 +1,8 @@
----
-name: identity-saml-googlesso-verify
-description: Configure SAML 2.0 single sign-on for Google Workspace with a third-party identity provider, enabling centralized authentication and enforcing organization-wide access policies.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- google-workspace
-- sso
-- saml
-- identity-provider
-- authentication
-- federation
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-- T1550
-capec: []
----
-
 # Implementing Google Workspace SSO Configuration
 
 ## Overview
 
 Single Sign-On (SSO) for Google Workspace allows organizations to authenticate users through their existing identity provider (IdP) such as Okta, Azure AD (Microsoft Entra ID), or ADFS, rather than managing separate Google passwords. This is implemented using SAML 2.0 protocol where Google Workspace acts as the Service Provider (SP) and the organization's IdP handles authentication. SSO centralizes credential management, enforces MFA policies at the IdP, and enables immediate access revocation when users leave the organization.
-
 
 ## When to Use
 

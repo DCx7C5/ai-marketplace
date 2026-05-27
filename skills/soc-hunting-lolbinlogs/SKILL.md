@@ -1,37 +1,3 @@
----
-name: soc-hunting-lolbinlogs
-description: Hunt for adversary abuse of Living Off the Land Binaries (LOLBins) by analyzing endpoint process creation logs for suspicious execution patterns of legitimate Windows system binaries used for malicious purposes.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- lolbins
-- living-off-the-land
-- endpoint-detection
-- process-monitoring
-- mitre-t1218
-- defense-evasion
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Content Format Conversion
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1059
-- T1218
-capec: []
----
-
 # Hunting for LOLBins Execution in Endpoint Logs
 
 ## When to Use

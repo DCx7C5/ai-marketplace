@@ -1,39 +1,3 @@
----
-name: net-capture-zeek-dnstunnel
-description: Detect DNS tunneling and data exfiltration by analyzing Zeek dns.log for high-entropy subdomain queries, excessive query volume, long query lengths, and unusual DNS record types indicating covert channel communication.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- dns-tunneling
-- zeek
-- data-exfiltration
-- covert-channel
-- mitre-t1071-004
-- network-monitoring
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- DNS Traffic Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1071
-- T1071.004
-- T1595.002
-capec: []
----
-
 # Hunting for DNS Tunneling with Zeek
 
 ## When to Use

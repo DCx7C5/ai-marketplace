@@ -1,33 +1,3 @@
----
-name: linux-svc-persistence-general-detect
-description: Linux persistence mechanism specialist. Userland (cron, systemd, shell rc, autostart, at), kernel (LKMs, eBPF, kprobes), firmware/bootloader (UEFI, initramfs, GRUB), and supply-chain (package hooks, PAM modules, SSH keys, udev rules) persistence hunting.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- malware
-- persistence
-- linux
-- persistence-recon
-mitre_attack:
-- T1053.003
-- T1195
-- T1546.004
-- T1547
-- T1548.003
-- T1595
-nist_csf: []
-capec: []
----
-
 # Persistence Recon
 
 **Purpose:** Systematic enumeration of all persistence mechanisms across all layers. Baseline comparison and delta reporting for every vector.

@@ -1,31 +1,3 @@
----
-name: email-phishing-ir-respond
-description: Responds to phishing incidents by analyzing reported emails, extracting indicators, assessing credential compromise, quarantining malicious messages across the organization, and remediating affected accounts. Covers email header analysis, URL/attachment sandboxing, and mailbox-wide purge operations. Activates for requests involving phishing response, email incident, credential phishing, spear phishing investigation, or phishing remediation.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- phishing-response
-- email-security
-- credential-compromise
-- email-header-analysis
-- mailbox-remediation
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1204
-- T1534
-- T1598
-- T1003
-capec: []
----
-
 # Conducting Phishing Incident Response
 
 ## When to Use

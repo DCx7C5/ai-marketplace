@@ -1,26 +1,3 @@
----
-name: linux-forensic-disk-acquisition-autopsy-analyze
-description: Perform comprehensive forensic analysis of disk images using Autopsy to recover files, examine artifacts, and build investigation timelines.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- autopsy
-- disk-analysis
-- sleuth-kit
-- file-recovery
-- artifact-analysis
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing Disk Image with Autopsy
 
 ## When to Use

@@ -1,46 +1,10 @@
----
-name: identity-ad-dcsync
-description: Perform DCSync attacks to replicate Active Directory credentials and establish domain persistence by extracting KRBTGT, Domain Admin, and service account hashes for Golden Ticket creation.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- active-directory
-- dcsync
-- persistence
-- credential-dumping
-- golden-ticket
-- mimikatz
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1003.006
-- T1547
-- T1558.001
-capec: []
----
-
 # Conducting Domain Persistence with DCSync
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 DCSync is an attack technique that abuses the Microsoft Directory Replication Service Remote Protocol (MS-DRSR) to impersonate a Domain Controller and request password data from the target DC. The attack was introduced by Benjamin Delpy (Mimikatz author) and Vincent Le Toux, leveraging the DS-Replication-Get-Changes and DS-Replication-Get-Changes-All extended rights. Any principal (user or computer) with these rights can replicate password hashes for any account in the domain, including the KRBTGT account. With the KRBTGT hash, attackers can forge Golden Tickets for indefinite domain persistence. DCSync is categorized as MITRE ATT&CK T1003.006 and is a critical post-exploitation technique used by APT groups including APT28 (Fancy Bear), APT29 (Cozy Bear), and FIN6.
-
 
 ## When to Use
 

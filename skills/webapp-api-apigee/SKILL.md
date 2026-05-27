@@ -1,37 +1,8 @@
----
-name: webapp-api-apigee
-description: Implement API threat protection using Google Apigee policies including JSON/XML threat protection, OAuth 2.0, SpikeArrest, and Advanced API Security for OWASP Top 10 defense.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- apigee
-- api-gateway
-- threat-protection
-- json-threat-protection
-- xml-threat-protection
-- spike-arrest
-- oauth2
-- google-cloud
-- owasp-api-top-10
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-capec: []
----
-
 # Implementing API Threat Protection with Apigee
 
 ## Overview
 
 Google Apigee is an enterprise API management platform that provides native security policies for threat protection, including JSON and XML content validation, OAuth 2.0 enforcement, SpikeArrest rate limiting, regular expression threat protection, and Advanced API Security for detecting malicious clients and API abuse patterns. Apigee operates as a reverse proxy that intercepts all API traffic, applying security policies before requests reach backend services, effectively shielding APIs against the OWASP API Security Top 10 threats.
-
 
 ## When to Use
 

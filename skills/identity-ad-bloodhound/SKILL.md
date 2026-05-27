@@ -1,45 +1,10 @@
----
-name: identity-ad-bloodhound
-description: BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attac
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- adversary-simulation
-- mitre-attack
-- exploitation
-- post-exploitation
-- active-directory
-- bloodhound
-d3fend_techniques:
-- Restore Access
-- Password Authentication
-- Biometric Authentication
-- Strong Password Policy
-- Restore User Account Access
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1071
-- T1087
-- T1595
-capec: []
----
-
 # Exploiting Active Directory with BloodHound
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attack paths from compromised accounts to high-value targets such as Domain Admins, identifying privilege escalation chains that would be nearly impossible to find manually. SharpHound is the official data collector that gathers AD objects, relationships, ACLs, sessions, and group memberships.
-
 
 ## When to Use
 

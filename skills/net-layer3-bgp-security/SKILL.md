@@ -1,37 +1,8 @@
----
-name: net-layer3-bgp-security
-description: Implement BGP route origin validation using RPKI with Route Origin Authorizations, RPKI-to-Router protocol, and ROV policies on Cisco and Juniper routers to prevent route hijacking.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- bgp
-- rpki
-- route-origin-validation
-- rov
-- roa
-- route-hijacking
-- internet-routing
-- bgp-security
-- prefix-hijack
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1557
-capec: []
----
-
 # Implementing BGP Security with RPKI
 
 ## Overview
 
 Resource Public Key Infrastructure (RPKI) provides cryptographic validation of BGP route origins to prevent route hijacking and accidental route leaks. RPKI enables network operators to create Route Origin Authorizations (ROAs) that declare which Autonomous Systems (ASes) are authorized to originate specific IP prefixes. BGP routers validate received route announcements against RPKI data through Route Origin Validation (ROV), rejecting routes with invalid origins. This skill covers creating ROAs through Regional Internet Registries (RIRs), deploying RPKI validator software, configuring ROV on Cisco IOS-XE and Juniper Junos routers, and implementing BGP filtering policies based on RPKI validation state.
-
 
 ## When to Use
 
@@ -251,7 +222,6 @@ import json
 import sys
 import urllib.request
 
-
 class RPKIMonitor:
     def __init__(self, routinator_url: str = "http://localhost:8080"):
         self.routinator_url = routinator_url
@@ -299,7 +269,6 @@ class RPKIMonitor:
                 validity = result.get("validated_route", {}).get(
                     "validity", {}).get("state", "error")
                 print(f"  AS{asn} -> {prefix}: {validity.upper()}")
-
 
 if __name__ == "__main__":
     monitor = RPKIMonitor()

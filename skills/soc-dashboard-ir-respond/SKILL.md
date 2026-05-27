@@ -1,29 +1,3 @@
----
-name: soc-dashboard-ir-respond
-description: Builds real-time incident response dashboards in Splunk, Elastic, or Grafana to provide SOC analysts and leadership with situational awareness during active incidents, tracking affected systems, containment status, IOC spread, and response timeline. Use when IR teams need unified visibility during incident coordination and post-incident reporting.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- dashboard
-- incident-response
-- splunk
-- visualization
-- situational-awareness
-- metrics
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-capec: []
----
-
 # Building Incident Response Dashboard
 
 ## When to Use

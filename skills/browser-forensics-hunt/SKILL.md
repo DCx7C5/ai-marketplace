@@ -1,28 +1,3 @@
----
-name: browser-forensics-hunt
-description: Browser forensics — investigate running browser processes, profiles, cookies, history, and extensions for compromise indicators. Logs findings to ORM DB and session artifacts. Supports Brave and other Chromium-based browsers.
-domain: cybersecurity
-subdomain: browser-forensics
-tags:
-- browser
-- forensics
-- cookies
-- extensions
-- chromium
-- brave
-mitre_attack:
-- T1539
-- T1185
-- T1217
-- T1176
-cve: []
-cwe:
-- CWE-312
-nist_csf:
-- DE.CM-1
-capec:
-- CAPEC-60
----
 ## Overview
 
 Investigate browser compromise indicators on Linux. Analyzes running browser processes, profile data (cookies, history, preferences), installed extensions for known-malicious IDs, and network connections made by the browser. Findings logged to both `findings.md` (session dir) and ORM database via `db.browser_forensics.log_finding_async`.

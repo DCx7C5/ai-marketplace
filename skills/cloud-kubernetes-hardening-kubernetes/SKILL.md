@@ -1,34 +1,8 @@
----
-name: cloud-kubernetes-hardening-kubernetes
-description: Audit Kubernetes cluster security posture against CIS benchmarks using kube-bench with automated checks for control plane, worker nodes, and RBAC.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- kube-bench
-- cis-benchmark
-- kubernetes
-- compliance
-- hardening
-- aquasecurity
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1610
-capec: []
----
-
 # Performing Kubernetes CIS Benchmark with kube-bench
 
 ## Overview
 
 kube-bench is an open-source Go tool by Aqua Security that runs the CIS Kubernetes Benchmark checks. It verifies control plane, etcd, worker node, and policy configurations against security best practices, producing actionable pass/fail/warn reports.
-
 
 ## When to Use
 
@@ -161,7 +135,7 @@ kube-bench run --group 1.2
 ### GitHub Actions
 
 ```yaml
-name: kubernetes-hardening-kubernetes
+name: cloud-kubernetes-hardening-kubernetes
 on:
   schedule:
     - cron: '0 6 * * 1'

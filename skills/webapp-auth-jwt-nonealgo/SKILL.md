@@ -1,42 +1,8 @@
----
-name: webapp-auth-jwt-nonealgo
-description: Execute and test the JWT none algorithm attack to bypass signature verification by manipulating the alg header field in JSON Web Tokens.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- jwt
-- none-algorithm
-- authentication-bypass
-- token-manipulation
-- signature-bypass
-- penetration-testing
-- owasp
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1134
-- T1550
-cwe:
-- CWE-287
-- CWE-347
-cve:
-- CVE-2018-0114
-capec: []
----
-
 # Performing JWT None Algorithm Attack
 
 ## Overview
 
 The JWT none algorithm attack exploits a vulnerability in JSON Web Token libraries that accept tokens with the `alg` header set to `none`, effectively bypassing signature verification. When a server processes a JWT with `"alg": "none"`, it treats the token as valid without checking any cryptographic signature, allowing attackers to forge tokens with arbitrary claims such as escalated privileges, impersonated users, or extended expiration times. This vulnerability was first disclosed by Tim McLean in 2015 and has affected multiple JWT libraries across languages.
-
 
 ## When to Use
 
@@ -52,7 +18,6 @@ The JWT none algorithm attack exploits a vulnerability in JSON Web Token librari
 - Python 3.8+ with PyJWT library for token crafting
 - Understanding of JWT structure (Header.Payload.Signature)
 - Authorization to perform security testing on the target
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
@@ -249,7 +214,6 @@ class JWTNoneAttack:
 
         return results
 
-
 def main():
     if len(sys.argv) < 3:
         print("Usage: python jwt_none_attack.py <target_url> <original_token>")
@@ -275,7 +239,6 @@ def main():
         print("[!] The server does not properly validate JWT signatures")
     else:
         print(f"\n[+] SECURE: All none algorithm variants were rejected")
-
 
 if __name__ == "__main__":
     main()

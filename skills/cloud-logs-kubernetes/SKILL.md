@@ -1,29 +1,4 @@
----
-name: cloud-logs-kubernetes
-description: Parses Kubernetes API server audit logs (JSON lines) to detect exec-into-pod, secret access, RBAC modifications, privileged pod creation, and anonymous API access. Builds threat detection rules from audit event patterns. Use when investigating Kubernetes cluster compromise or building k8s-specific SIEM detection rules.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- analyzing
-- kubernetes
-- audit
-- logs
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1610
-capec: []
----
-
 # Analyzing Kubernetes Audit Logs
-
 
 ## When to Use
 

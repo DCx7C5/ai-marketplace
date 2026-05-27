@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-ebpf-map-covert-channel-detect"
-description: "---"
----
-
----
 name: linux-kernel-ebpf-map-covert-channel-detect
 description: Detect eBPF maps used as covert communication channels — identify BPF maps shared between processes for inter-process communication bypassing normal IPC auditing.
 domain: cybersecurity

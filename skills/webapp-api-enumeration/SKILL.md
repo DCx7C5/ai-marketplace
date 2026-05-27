@@ -1,38 +1,8 @@
----
-name: webapp-api-enumeration
-description: Detect and prevent API enumeration attacks including BOLA and IDOR exploitation by monitoring sequential identifier access patterns and authorization failures.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- enumeration
-- bola
-- idor
-- broken-object-level-authorization
-- owasp-api-top-10
-- access-control
-- rate-limiting
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.001
-cwe:
-- CWE-639
-capec: []
----
-
 # Detecting API Enumeration Attacks
 
 ## Overview
 
 API enumeration attacks occur when attackers systematically probe API endpoints with sequential or predictable identifiers to discover and access unauthorized resources. Broken Object Level Authorization (BOLA), ranked as API1:2023 in the OWASP API Security Top 10, is the most critical API vulnerability. Attackers manipulate object identifiers (user IDs, order numbers, account references) in API requests to bypass authorization and access other users' data. Detection requires monitoring for patterns of rapid sequential access attempts, authorization failures, and abnormal API usage behavior.
-
 
 ## When to Use
 
@@ -343,7 +313,6 @@ class EnumerationDetector:
         except ValueError:
             return False
 
-
 def main():
     detector = EnumerationDetector(
         time_window_minutes=5,
@@ -375,7 +344,6 @@ def main():
             print()
     else:
         print("[+] No enumeration attacks detected.")
-
 
 if __name__ == "__main__":
     main()

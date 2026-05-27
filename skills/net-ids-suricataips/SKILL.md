@@ -1,38 +1,8 @@
----
-name: net-ids-suricataips
-description: Deploy and configure Suricata as a network intrusion prevention system with custom rules, Emerging Threats rulesets, and inline traffic inspection for real-time threat blocking.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- suricata
-- ips
-- ids
-- intrusion-prevention
-- network-security
-- emerging-threats
-- rule-management
-- nfqueue
-- inline-mode
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1562.001
-capec: []
----
-
 # Implementing Network Intrusion Prevention with Suricata
 
 ## Overview
 
 Suricata is a high-performance, open-source network threat detection engine developed by the Open Information Security Foundation (OISF). It functions as an IDS (Intrusion Detection System), IPS (Intrusion Prevention System), and network security monitoring tool. Suricata performs deep packet inspection using extensive rule sets, protocol analysis, and file extraction capabilities. In IPS mode, Suricata inspects packets inline and can actively block malicious traffic. This skill covers deploying Suricata in IPS mode, configuring rulesets, writing custom rules, performance tuning, and integration with logging infrastructure.
-
 
 ## When to Use
 

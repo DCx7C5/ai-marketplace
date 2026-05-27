@@ -1,28 +1,3 @@
----
-name: soc-playbooks-phishing
-description: Automate phishing incident response using Splunk SOAR REST API to create containers, add artifacts, and trigger playbooks
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- soar
-- splunk-phantom
-- phishing
-- incident-response
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-- T1566
-- T1610
-capec: []
----
-
 # Implementing SOAR Playbook for Phishing
 
 ## Overview
@@ -30,7 +5,6 @@ capec: []
 This skill implements a phishing incident response workflow using the Splunk SOAR (formerly Phantom) REST API. When a suspected phishing email is reported, the agent parses email headers and body, creates a SOAR container representing the incident, attaches artifacts containing indicators of compromise (sender address, URLs, IP addresses, file hashes), triggers an automated investigation playbook, and polls for action results.
 
 Splunk SOAR orchestrates and automates security operations through playbooks that chain together investigative and response actions. The REST API at `/rest/container`, `/rest/artifact`, and `/rest/playbook_run` enables programmatic incident creation and automation triggering from external tools, email gateways, and SIEM alerts.
-
 
 ## When to Use
 

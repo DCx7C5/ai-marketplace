@@ -1,25 +1,3 @@
----
-name: cloud-zerotrust-software
-description: Deploy a Software-Defined Perimeter using the CSA v2.0 specification with Single Packet Authorization, mutual TLS, and SDP controller/gateway configuration to enforce zero trust network access.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- sdp
-- software-defined-perimeter
-- network-access
-- ztna
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Deploying Software-Defined Perimeter
 
 ## Prerequisites
@@ -34,7 +12,6 @@ capec: []
 A Software-Defined Perimeter (SDP) implements zero trust by creating a dynamically provisioned, identity-centric perimeter around individual resources. Defined by the Cloud Security Alliance (CSA), SDP makes application infrastructure invisible to unauthorized users through a "dark cloud" approach where services are hidden until authenticated and authorized. Unlike traditional VPN, SDP establishes one-to-one encrypted connections between verified users and specific applications.
 
 This skill covers deploying SDP using the CSA v2.0 specification, implementing Single Packet Authorization (SPA), configuring the SDP controller and gateway, and validating the deployment against NIST SP 800-207 requirements.
-
 
 ## When to Use
 

@@ -1,34 +1,8 @@
----
-name: intel-platforms-opencti
-description: OpenCTI is an open-source platform for managing cyber threat intelligence knowledge, built on STIX 2.1 as its native data model. This skill covers building an automated IOC enrichment pipeline using O
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- opencti
-- enrichment
-- virustotal
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Building IOC Enrichment Pipeline with OpenCTI
 
 ## Overview
 
 OpenCTI is an open-source platform for managing cyber threat intelligence knowledge, built on STIX 2.1 as its native data model. This skill covers building an automated IOC enrichment pipeline using OpenCTI's connector ecosystem to enrich indicators with context from VirusTotal, Shodan, AbuseIPDB, GreyNoise, and other sources. The pipeline automatically enriches newly ingested indicators, correlates them with known threat actors and campaigns, and scores them for analyst prioritization.
-
 
 ## When to Use
 
@@ -131,7 +105,6 @@ from stix2 import (
     IPv4Address, DomainName
 )
 import requests
-
 
 class CustomEnrichmentConnector:
     def __init__(self):
@@ -261,7 +234,6 @@ class CustomEnrichmentConnector:
             self.helper.log_error(f"SecurityTrails enrichment failed: {e}")
 
         return objects
-
 
 if __name__ == "__main__":
     connector = CustomEnrichmentConnector()

@@ -1,36 +1,8 @@
----
-name: intel-feeds-opentaxii
-description: Deploy and configure an OpenTAXII server to share and consume STIX-formatted cyber threat intelligence using the TAXII 2.1 protocol for automated indicator exchange between organizations.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- taxii
-- stix
-- opentaxii
-- threat-sharing
-- cti
-- indicator-exchange
-- taxii-server
-- automation
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Implementing TAXII Server with OpenTAXII
 
 ## Overview
 
 TAXII (Trusted Automated eXchange of Intelligence Information) is an OASIS standard protocol for exchanging cyber threat intelligence over HTTPS. OpenTAXII is an open-source TAXII server implementation by EclecticIQ that supports TAXII 1.x, while the OASIS cti-taxii-server provides a TAXII 2.1 reference implementation. This skill covers deploying a TAXII server, configuring collections for threat intelligence feeds, publishing STIX 2.1 bundles, and integrating with SIEM/SOAR platforms for automated indicator ingestion.
-
 
 ## When to Use
 

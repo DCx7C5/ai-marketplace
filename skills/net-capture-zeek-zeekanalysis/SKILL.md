@@ -1,40 +1,8 @@
----
-name: net-capture-zeek-zeekanalysis
-description: Deploy Zeek network security monitor to capture, parse, and analyze network traffic metadata for threat detection, anomaly identification, and forensic investigation.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- zeek
-- network-monitoring
-- traffic-analysis
-- ids
-- nids
-- pcap
-- threat-detection
-- forensics
-- siem-integration
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1040
-- T1059
-- T1070
-- T1562.001
-capec: []
----
-
 # Performing Network Traffic Analysis with Zeek
 
 ## Overview
 
 Zeek (formerly Bro) is an open-source network analysis framework that operates as a passive network security monitor. Unlike traditional signature-based IDS tools, Zeek generates high-fidelity structured logs from observed network traffic, capturing detailed metadata for protocols including HTTP, DNS, TLS, SSH, SMTP, FTP, and dozens more. Zeek's extensible scripting language enables custom detection logic, behavioral analysis, and automated response. This skill covers deploying Zeek, understanding its log architecture, writing custom detection scripts, and integrating outputs with SIEM platforms.
-
 
 ## When to Use
 

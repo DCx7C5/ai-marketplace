@@ -1,27 +1,3 @@
----
-name: webapp-api-excessive
-description: Tests APIs for excessive data exposure where endpoints return more data than the client application needs, relying on the frontend to filter sensitive fields. The tester intercepts API responses and analyzes them for leaked PII, internal identifiers, debug information, or sensitive business data that the UI does not display but the API transmits. This maps to OWASP API3:2023 Broken Object Property Level Authorization. Activates for requests involving API data leakage testing, excessive data exposure, response filtering bypass, or API over-fetching.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- owasp
-- data-exposure
-- rest-security
-- pii-leakage
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-200
-capec: []
----
-
 # Exploiting Excessive Data Exposure in API
 
 ## When to Use
@@ -42,7 +18,6 @@ capec: []
 - Browser developer tools or mobile proxy setup for traffic capture
 - Python 3.10+ with `requests` and `json` libraries
 - API documentation (OpenAPI spec) for comparison against actual responses
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

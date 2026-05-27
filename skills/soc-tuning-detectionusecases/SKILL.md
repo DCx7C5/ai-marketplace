@@ -1,45 +1,3 @@
----
-name: soc-tuning-detectionusecases
-description: Implements SIEM detection use cases by designing correlation rules, threshold alerts, and behavioral analytics mapped to MITRE ATT&CK techniques across Splunk, Elastic, and Sentinel. Use when SOC teams need to expand detection coverage, formalize use case lifecycle management, or build a detection library aligned to organizational threat profile.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- siem
-- use-cases
-- detection-engineering
-- mitre-attack
-- splunk
-- elastic
-- sentinel
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Password Authentication
-- Reissue Credential
-- Strong Password Policy
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Implementing SIEM Use Cases for Detection
 
 ## When to Use
@@ -112,7 +70,7 @@ Document each use case with a standardized template:
 
 ```yaml
 use_case_id: UC-2024-015
-name: tuning-detection-use-cases
+name: soc-tuning-detectionusecases
 description: Detects tools accessing LSASS process memory for credential extraction
 mitre_attack:
   tactic: Credential Access (TA0006)

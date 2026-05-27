@@ -1,35 +1,3 @@
----
-name: webapp-data-sensitive-protect
-description: Identifying sensitive data exposure vulnerabilities including API key leakage, PII in responses, insecure storage, and unprotected data transmission during security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- data-exposure
-- pii
-- owasp
-- web-security
-- api-keys
-- secrets
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Testing for Sensitive Data Exposure
 
 ## When to Use

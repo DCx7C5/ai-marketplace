@@ -1,11 +1,3 @@
----
-name: "devel-jb-ci-cd-containerization-advisor"
-description: "Design reproducible build, image, and deployment pipelines for Kotlin plus Spring applications, including CI verification, layered containers, rollout safety, and deployment-time migration coordination. Use when creating or improving Dockerfiles, CI workflows, image hardening, Kubernetes manifests, release gates, or deployment strategies for Spring Boot services, especially where build reproducibility and operational safety matter."
-metadata: ""
-short-description: "Ship Spring apps reliably and repeatably"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/ci-cd-containerization-advisor"
----
 # CI CD Containerization Advisor
 
 Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-23`).

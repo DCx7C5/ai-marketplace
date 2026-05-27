@@ -1,39 +1,8 @@
----
-name: cloud-aws-guardduty
-description: Automate AWS GuardDuty threat detection findings processing using EventBridge and Lambda to enable real-time incident response, automatic quarantine of compromised resources, and security notification workflows.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- aws
-- guardduty
-- eventbridge
-- lambda
-- threat-detection
-- automation
-- incident-response
-- siem
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1059.009
-- T1070
-- T1530
-capec: []
----
-
 # Detecting AWS GuardDuty Findings Automation
 
 ## Overview
 
 Amazon GuardDuty is a threat detection service that continuously monitors AWS accounts for malicious activity and unauthorized behavior. By integrating GuardDuty with Amazon EventBridge and AWS Lambda, security teams achieve automated, real-time responses to threats, reducing mean time to response (MTTR) from hours to seconds. GuardDuty analyzes VPC Flow Logs, CloudTrail management and data events, DNS logs, EKS audit logs, and S3 data events.
-
 
 ## When to Use
 

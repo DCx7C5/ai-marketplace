@@ -1,28 +1,3 @@
----
-name: linux-hw-usb-forensics-forensic
-description: Investigate USB device connection history from Windows registry, event logs, and setupapi logs to track removable media usage and potential data exfiltration.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- usb-forensics
-- removable-media
-- registry-analysis
-- data-exfiltration
-- device-history
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-capec: []
----
-
 # Analyzing USB Device Connection History
 
 ## When to Use

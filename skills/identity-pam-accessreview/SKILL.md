@@ -1,34 +1,7 @@
----
-name: identity-pam-accessreview
-description: Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based p
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- access-review
-- certification
-- compliance
-- governance
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Performing Access Review and Certification
 
 ## Overview
 Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based prioritization, micro-certification strategies, and remediation tracking for compliance with SOX, HIPAA, and PCI DSS requirements.
-
 
 ## When to Use
 

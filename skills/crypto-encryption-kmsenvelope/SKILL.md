@@ -1,31 +1,8 @@
----
-name: crypto-encryption-kmsenvelope
-description: Envelope encryption is a strategy where data is encrypted with a data encryption key (DEK), and the DEK itself is encrypted with a master key (KEK) managed by AWS KMS. This approach allows encrypting
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- encryption
-- aws
-- kms
-- envelope-encryption
-- key-management
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Envelope Encryption with AWS KMS
 
 ## Overview
 
 Envelope encryption is a strategy where data is encrypted with a data encryption key (DEK), and the DEK itself is encrypted with a master key (KEK) managed by AWS KMS. This approach allows encrypting large volumes of data locally while keeping the master key secure in a hardware security module (HSM) managed by AWS. This skill covers implementing envelope encryption using AWS KMS GenerateDataKey API.
-
 
 ## When to Use
 

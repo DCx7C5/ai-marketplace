@@ -1,39 +1,8 @@
----
-name: intel-analysis-landscape
-description: Conduct a sector-specific threat landscape assessment by analyzing threat actor targeting patterns, common attack vectors, and industry-specific vulnerabilities to inform organizational risk management.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-landscape
-- sector-analysis
-- risk-assessment
-- threat-intelligence
-- industry-targeting
-- cti
-- strategic-intelligence
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Threat Landscape Assessment for Sector
 
 ## Overview
 
 A sector-specific threat landscape assessment analyzes the cyber threat environment facing a particular industry vertical (healthcare, financial services, energy, government, manufacturing) by examining which threat actors target the sector, their preferred attack vectors and TTPs, common vulnerabilities exploited, historical incident data, and emerging threats. This produces actionable intelligence for risk management, security investment prioritization, and board-level reporting.
-
 
 ## When to Use
 

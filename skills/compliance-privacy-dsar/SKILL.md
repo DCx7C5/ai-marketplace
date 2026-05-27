@@ -1,28 +1,3 @@
----
-name: compliance-privacy-dsar
-description: Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII discovery across databases and files using regex and NER, data mapping, response templating per Article 15 requirements, deadline tracking, and audit logging. Covers ICO/EDPB guidance compliance, exemption handling, and scalable batch processing. Use when building or auditing DSAR response capabilities under GDPR/UK GDPR.
-domain: cybersecurity
-subdomain: privacy-compliance
-tags:
-- gdpr
-- dsar
-- privacy
-- pii-discovery
-- data-subject-rights
-- compliance
-- article-15
-nist_csf:
-- GV.PO-01
-- PR.DS-01
-- GV.OC-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-capec: []
----
-
 # Implementing GDPR Data Subject Access Request (DSAR) Workflow
 
 ## When to Use

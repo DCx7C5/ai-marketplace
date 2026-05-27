@@ -1,9 +1,4 @@
 ---
-name: "linux-mem-aslr-entropy-analyze"
-description: "---"
----
-
----
 name: linux-mem-aslr-entropy-analyze
 description: Analyze ASLR implementation strength on Linux — measure address randomization entropy, identify ASLR-defeating techniques (brute force, info leaks), and verify ASLR configuration.
 domain: cybersecurity

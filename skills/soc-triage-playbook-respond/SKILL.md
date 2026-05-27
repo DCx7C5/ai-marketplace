@@ -1,31 +1,3 @@
----
-name: soc-triage-playbook-respond
-description: Classify and prioritize security incidents using structured IR playbooks to determine severity, assign response teams, and initiate appropriate response procedures.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- incident-response
-- triage
-- playbook
-- severity-classification
-- soc
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-- T1566
-- T1078
-- T1059
-- T1070
-capec: []
----
-
 # Triaging Security Incidents with IR Playbooks
 
 ## When to Use

@@ -1,37 +1,8 @@
----
-name: net-assessment-ciscoise
-description: Deploy Cisco Identity Services Engine for 802.1X wired and wireless authentication, MAC Authentication Bypass, posture assessment, and dynamic VLAN assignment for network access control.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- cisco-ise
-- 802.1x
-- nac
-- radius
-- network-access-control
-- posture-assessment
-- mab
-- dynamic-vlan
-- eap-tls
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1557
-capec: []
----
-
 # Implementing Network Access Control with Cisco ISE
 
 ## Overview
 
 Cisco Identity Services Engine (ISE) provides centralized network access control through 802.1X authentication, MAC Authentication Bypass (MAB), posture assessment, and guest access management. ISE acts as a RADIUS policy server that evaluates authentication requests from network devices (switches, wireless controllers) and returns authorization policies including VLAN assignments, downloadable ACLs (dACLs), and Security Group Tags (SGTs). This skill covers deploying ISE for enterprise wired 802.1X authentication with Active Directory integration, MAB fallback, posture compliance enforcement, and TrustSec segmentation.
-
 
 ## When to Use
 

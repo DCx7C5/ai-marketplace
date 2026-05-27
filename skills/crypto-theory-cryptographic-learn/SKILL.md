@@ -1,30 +1,8 @@
----
-name: crypto-theory-cryptographic-learn
-description: A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardco
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- audit
-- security-review
-- compliance
-- vulnerability-assessment
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Cryptographic Audit of Application
 
 ## Overview
 
 A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardcoded keys, insufficient entropy, and protocol misconfigurations. This skill covers building an automated crypto audit tool that scans Python and configuration files for common cryptographic weaknesses.
-
 
 ## When to Use
 

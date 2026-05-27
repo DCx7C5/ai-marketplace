@@ -1,36 +1,8 @@
----
-name: cloud-containers-helm
-description: Secure Helm chart deployments by validating chart integrity, scanning plugins for misconfigurations, and enforcing security contexts in Kubernetes releases.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- helm
-- kubernetes
-- chart-security
-- supply-chain
-- configuration-security
-- deployment
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1195
-- T1610
-capec: []
----
-
 # Securing Helm Chart Deployments
 
 ## Overview
 
 Helm is the Kubernetes package manager. Securing Helm deployments requires validating chart provenance, scanning templates for security misconfigurations, enforcing pod security contexts, managing secrets securely, and controlling RBAC for Helm operations.
-
 
 ## When to Use
 

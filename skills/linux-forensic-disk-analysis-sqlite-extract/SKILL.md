@@ -1,36 +1,8 @@
----
-name: linux-forensic-disk-analysis-sqlite-extract
-description: Perform forensic analysis of SQLite databases to recover deleted records from freelists and WAL files, decode encoded timestamps, and extract evidence from browser history, messaging apps, and mobile device databases.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- sqlite
-- database-forensics
-- freelist
-- wal
-- write-ahead-log
-- browser-history
-- mobile-forensics
-- deleted-records
-- b-tree
-- unallocated-space
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing SQLite Database Forensics
 
 ## Overview
 
 SQLite is the most widely deployed database engine in the world, used by virtually every mobile application, web browser, and many desktop applications to store user data. In digital forensics, SQLite databases are critical evidence sources containing browser history, messaging records, call logs, GPS locations, application preferences, and cached content. Forensic analysis goes beyond simple SQL queries to examine the internal B-tree page structures, freelist pages containing deleted records, Write-Ahead Log (WAL) files preserving transaction history, and unallocated space within database pages where recoverable data may persist after deletion.
-
 
 ## When to Use
 
@@ -88,7 +60,6 @@ import struct
 import sqlite3
 import os
 
-
 def analyze_freelist(db_path: str) -> dict:
     """Analyze SQLite freelist to identify pages containing deleted data."""
     with open(db_path, "rb") as f:
@@ -136,7 +107,6 @@ def analyze_freelist(db_path: str) -> dict:
             trunk_page = next_trunk
 
     return freelist_info
-
 
 def extract_freelist_content(db_path: str, output_dir: str):
     """Extract raw content from freelist pages for analysis."""

@@ -1,35 +1,3 @@
----
-name: cloud-zerotrust-identityverify-monitor
-description: Implement continuous identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- identity
-- authentication
-- mfa
-- identity-verification
-atlas_techniques:
-- AML.T0052
-nist_ai_rmf:
-- GOVERN-1.1
-- GOVERN-1.7
-- MAP-1.1
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1550
-- T1566
-capec: []
----
-
 # Implementing Identity Verification for Zero Trust
 
 ## Prerequisites
@@ -44,7 +12,6 @@ capec: []
 Identity is the foundational pillar of zero trust architecture. NIST SP 800-207 mandates that all resource authentication and authorization are dynamic and strictly enforced before access is allowed. Identity verification in zero trust goes beyond traditional username/password by implementing continuous, risk-adaptive authentication using multiple signals including device posture, behavioral biometrics, location, and network context.
 
 This skill covers implementing phishing-resistant MFA, continuous identity verification, risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model Identity Pillar.
-
 
 ## When to Use
 

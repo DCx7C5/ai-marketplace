@@ -1,39 +1,3 @@
----
-name: identity-serviceaccount-service
-description: Detect abuse of service accounts through anomalous interactive logons, privilege escalation, lateral movement, and unauthorized access patterns.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- service-accounts
-- privilege-escalation
-- t1078
-- proactive-detection
-d3fend_techniques:
-- Restore Access
-- Password Authentication
-- Biometric Authentication
-- Strong Password Policy
-- Restore User Account Access
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1059
-- T1068
-- T1070
-cwe:
-- CWE-269
-capec: []
----
-
 # Detecting Service Account Abuse
 
 ## When to Use

@@ -1,34 +1,8 @@
----
-name: intel-platforms-threat-hunt
-description: Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. T
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- platform-building
-- misp
-- opencti
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Building Threat Intelligence Platform
 
 ## Overview
 
 Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. This skill covers designing TIP architecture using open-source tools (MISP, OpenCTI, TheHive, Cortex), configuring feed ingestion pipelines, establishing enrichment workflows, implementing STIX/TAXII interoperability, and building analyst dashboards for CTI operations.
-
 
 ## When to Use
 

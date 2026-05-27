@@ -1,14 +1,3 @@
----
-name: "devel-jb-devcontainer"
-description: ">-"
-Use this skill whenever you need to: "execute skillshare CLI commands for"
-argument-hint: "[command-to-run | task-description]"
-targets: ["claude", "codex"]
-metadata: ""
-short-description: "Run skillshare inside the devcontainer"
-author: "Runkids"
-source: "https://github.com/runkids/skillshare/tree/main/.skillshare/skills/devcontainer"
----
 Execute CLI commands and tests inside the devcontainer. The host machine is macOS but the project binary is Linux — running CLI commands on the host will silently produce wrong results or fail. This skill prevents that mistake.
 
 ## When to Use This

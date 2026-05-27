@@ -1,11 +1,3 @@
----
-name: "devel-jb-openai-docs"
-description: "Use when the user asks how to build with OpenAI products or APIs and needs up-to-date official documentation with citations, help choosing the latest model for a use case, or explicit GPT-5.4 upgrade and prompt-upgrade guidance; prioritize OpenAI docs MCP tools, use bundled references only as helper context, and restrict any fallback browsing to official OpenAI domains."
-metadata: ""
-short-description: "Reference official OpenAI docs, including upgrade guidance"
-author: "OpenAI"
-source: "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs"
----
 # OpenAI Docs
 
 Provide authoritative, current guidance from OpenAI developer docs using the developers.openai.com MCP server. Always prioritize the developer docs MCP tools over web.run for OpenAI-related questions. This skill may also load targeted files from `references/` for model-selection and GPT-5.4-specific requests, but current OpenAI docs remain authoritative. Only if the MCP server is installed and returns no meaningful results should you fall back to web search.

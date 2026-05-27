@@ -1,29 +1,4 @@
----
-name: linux-forensic-mem-acquisition-volatility-analyze
-description: Performs Linux memory acquisition using LiME (Linux Memory Extractor) kernel module and analysis with Volatility 3 framework. Extracts process lists, network connections, bash history, loaded kernel modules, and injected code from Linux memory images. Use when performing incident response on compromised Linux systems.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- analyzing
-- memory
-- forensics
-- with
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-capec: []
----
-
 # Analyzing Memory Forensics with LiME and Volatility
-
 
 ## When to Use
 

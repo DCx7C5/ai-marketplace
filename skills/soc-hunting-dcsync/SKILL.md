@@ -1,38 +1,3 @@
----
-name: soc-hunting-dcsync
-description: Detect DCSync attacks by analyzing Windows Event ID 4662 for unauthorized DS-Replication-Get-Changes requests from non-domain-controller accounts.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- dcsync
-- active-directory
-- credential-access
-- t1003.006
-- mimikatz
-- windows
-- dfir
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1003.006
-- T1059
-capec: []
----
-
 # Hunting for DCSync Attacks
 
 ## When to Use

@@ -1,38 +1,8 @@
----
-name: net-traffic-arppoisoning
-description: Detect and prevent ARP spoofing attacks using ARPWatch, Dynamic ARP Inspection, Wireshark analysis, and custom monitoring scripts to protect against man-in-the-middle interception.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- arp-poisoning
-- arp-spoofing
-- mitm
-- dynamic-arp-inspection
-- arpwatch
-- network-security
-- man-in-the-middle
-- layer-2-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1557
-- T1557.002
-capec: []
----
-
 # Detecting ARP Poisoning in Network Traffic
 
 ## Overview
 
 ARP poisoning (ARP spoofing) is a Layer 2 attack where an adversary sends falsified ARP messages to associate their MAC address with the IP address of a legitimate host, enabling man-in-the-middle (MitM) interception, session hijacking, or denial of service. Since ARP has no built-in authentication mechanism, any device on a broadcast domain can forge ARP replies. Detection requires monitoring ARP traffic for anomalies such as gratuitous ARP floods, IP-to-MAC mapping changes, and duplicate IP addresses. This skill covers deploying multiple detection layers including ARPWatch, Dynamic ARP Inspection (DAI), Wireshark-based analysis, and custom Python monitoring tools.
-
 
 ## When to Use
 
@@ -199,7 +169,6 @@ try:
 except ImportError:
     SCAPY_AVAILABLE = False
 
-
 class ARPPoisonDetector:
     def __init__(self, interface: str, gateway_ip: str, gateway_mac: str):
         self.interface = interface
@@ -360,7 +329,6 @@ class ARPPoisonDetector:
             'arp_table_size': len(self.arp_table),
             'alerts': self.alerts,
         }
-
 
 if __name__ == '__main__':
     if len(sys.argv) < 4:

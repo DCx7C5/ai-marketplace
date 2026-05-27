@@ -1,9 +1,4 @@
 ---
-name: "linux-fs-fuse-rootkit-detect"
-description: "---"
----
-
----
 name: linux-fs-fuse-rootkit-detect
 description: Detect FUSE-based filesystem rootkits — identify user-space filesystem mounts that intercept file operations to hide files or manipulate data transparently.
 domain: cybersecurity

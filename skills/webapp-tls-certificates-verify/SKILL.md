@@ -1,32 +1,4 @@
----
-name: webapp-tls-certificates-verify
-description: Queries Certificate Transparency logs via crt.sh and pycrtsh to detect phishing domains, unauthorized certificate issuance, and shadow IT. Monitors newly issued certificates for typosquatting and brand impersonation using Levenshtein distance. Use for proactive phishing domain detection and certificate monitoring.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- analyzing
-- tls
-- certificate
-- transparency
-atlas_techniques:
-- AML.T0073
-- AML.T0052
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1566
-capec: []
----
-
 # Analyzing TLS Certificate Transparency Logs
-
 
 ## When to Use
 

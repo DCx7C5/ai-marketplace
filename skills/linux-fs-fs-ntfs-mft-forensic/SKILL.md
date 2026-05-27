@@ -1,36 +1,8 @@
----
-name: linux-fs-fs-ntfs-mft-forensic
-description: Analyze the NTFS Master File Table ($MFT) to recover metadata and content of deleted files by examining MFT record entries, $LogFile, $UsnJrnl, and MFT slack space using MFTECmd, analyzeMFT, and X-Ways Forensics.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- mft
-- ntfs
-- deleted-files
-- file-recovery
-- mftecmd
-- usn-journal
-- logfile
-- mft-slack-space
-- file-system-forensics
-- dfir
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing MFT for Deleted File Recovery
 
 ## Overview
 
 The NTFS Master File Table ($MFT) is the central metadata repository for every file and directory on an NTFS volume. Each file is represented by at least one 1024-byte MFT record containing attributes such as $STANDARD_INFORMATION (timestamps, permissions), $FILE_NAME (name, parent directory, timestamps), and $DATA (file content or cluster run pointers). When a file is deleted, its MFT record is marked as inactive (InUse flag cleared) but the metadata remains until the entry is reallocated by a new file. This persistence makes MFT analysis a primary technique for recovering deleted file evidence, reconstructing file system timelines, and detecting anti-forensic activity such as timestomping.
-
 
 ## When to Use
 

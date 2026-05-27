@@ -1,32 +1,3 @@
----
-name: ics-ics-net-firewall
-description: Deploy and configure Tofino industrial firewalls from Belden/Hirschmann to protect SCADA systems and PLCs using deep packet inspection for OT protocols including Modbus, EtherNet/IP, OPC, and S7comm, enforcing granular access control between ICS security zones.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- firewall
-- tofino
-- belden
-- deep-packet-inspection
-- network-security
-- scada
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0801
-- T0855
-- T1562.004
-capec: []
----
-
 # Implementing ICS Firewall with Tofino
 
 ## When to Use
@@ -121,7 +92,6 @@ import json
 import sys
 from datetime import datetime
 from typing import Dict, List
-
 
 class TofinoRuleGenerator:
     """Generates Tofino ICS firewall DPI rules."""
@@ -273,7 +243,6 @@ class TofinoRuleGenerator:
                 if "allowed_operations" in dpi:
                     ops = [o["name"] for o in dpi["allowed_operations"]]
                     print(f"      DPI - Allowed S7 Ops: {', '.join(ops)}")
-
 
 if __name__ == "__main__":
     gen = TofinoRuleGenerator()

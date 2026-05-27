@@ -1,31 +1,3 @@
----
-name: net-ids-wazuh-install
-description: Configures host-based intrusion detection systems (HIDS) to monitor endpoint file integrity, system calls, and configuration changes for security violations. Use when deploying OSSEC, Wazuh, or AIDE for endpoint monitoring, building file integrity monitoring (FIM) policies, or meeting compliance requirements for change detection. Activates for requests involving HIDS configuration, file integrity monitoring, OSSEC/Wazuh deployment, or host-based detection.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- HIDS
-- Wazuh
-- OSSEC
-- file-integrity-monitoring
-- intrusion-detection
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1014
-- T1059
-- T1070
-- T1562.001
-capec: []
----
-
 # Configuring Host-Based Intrusion Detection
 
 ## When to Use

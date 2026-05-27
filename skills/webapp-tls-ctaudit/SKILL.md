@@ -1,32 +1,3 @@
----
-name: webapp-tls-ctaudit
-description: Monitors Certificate Transparency (CT) logs to detect unauthorized certificate issuance, discover subdomains via CT data, and alert on suspicious certificate activity for owned domains. Uses the crt.sh API and direct CT log querying based on RFC 6962 to build continuous monitoring pipelines that catch rogue certificates, track CA behavior, and map the external attack surface. Activates for requests involving certificate transparency monitoring, CT log auditing, subdomain discovery via certificates, or certificate issuance alerting.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- certificate-transparency
-- CT-logs
-- crt-sh
-- subdomain-discovery
-- TLS-monitoring
-- RFC-6962
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1566
-- T1583.001
-- T1595.002
-- T1596.002
-capec: []
----
-
 # Auditing TLS Certificate Transparency Logs
 
 ## When to Use

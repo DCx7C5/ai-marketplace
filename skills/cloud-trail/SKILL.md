@@ -1,29 +1,3 @@
----
-name: cloud-trail
-description: Implementing AWS CloudTrail log analysis for security monitoring, threat detection, and forensic investigation using Athena, CloudWatch Logs Insights, and SIEM integration to identify unauthorized access, privilege escalation, and suspicious API activity.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- aws
-- cloudtrail
-- log-analysis
-- threat-detection
-- forensics
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Implementing CloudTrail Log Analysis
 
 ## When to Use

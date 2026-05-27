@@ -1,32 +1,3 @@
----
-name: ics-ics-vuln-patch-manage
-description: This skill covers implementing a structured patch management program for OT/ICS environments where traditional IT patching approaches can cause process disruption or safety hazards. It addresses vendor compatibility testing, risk-based patch prioritization, staged deployment through test environments, maintenance window coordination, rollback procedures, and compensating controls when patches cannot be applied due to operational constraints or vendor restrictions.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- patch-management
-- vulnerability-management
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-cve:
-- CVE-2023-44374
-- CVE-2024-21914
-capec: []
----
-
 # Implementing Patch Management for OT Systems
 
 ## When to Use
@@ -69,7 +40,6 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime, timedelta
 from enum import Enum
 
-
 class PatchStatus(str, Enum):
     IDENTIFIED = "identified"
     EVALUATING = "evaluating"
@@ -79,7 +49,6 @@ class PatchStatus(str, Enum):
     DEPLOYED = "deployed"
     DEFERRED = "deferred"
     NOT_APPLICABLE = "not_applicable"
-
 
 @dataclass
 class OTPatch:
@@ -102,7 +71,6 @@ class OTPatch:
     risk_rating: str = ""
     maintenance_window: str = ""
     rollback_procedure: str = ""
-
 
 class OTPatchManager:
     """Manages the OT patch lifecycle."""
@@ -222,7 +190,6 @@ class OTPatchManager:
                 report.append(f"    Compensating Controls: {p.compensating_controls}")
 
         return "\n".join(report)
-
 
 if __name__ == "__main__":
     manager = OTPatchManager()

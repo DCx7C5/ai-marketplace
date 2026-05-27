@@ -1,35 +1,8 @@
----
-name: intel-analysis-iam
-description: The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features - Adversary, Capability, Infrastructure, and Victim. This skill covers implementing the Diamond Model programmatically to classify and correlate intrusion events, build activity threads, and generate pivot-ready intelligence.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- diamond-model
-- intrusion-analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Diamond Model Analysis
 
 ## Overview
 
 The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features: Adversary, Capability, Infrastructure, and Victim. This skill covers implementing the Diamond Model programmatically to classify and correlate intrusion events, build activity threads linking related events, create activity-attack graphs, and generate pivot-ready intelligence from intrusion data.
-
 
 ## When to Use
 

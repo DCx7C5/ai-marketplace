@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-drive"
-version: "1.0.0"
-description: "Google Drive: Manage files, folders, and shared drives."
-metadata: ""
-short-description: "Manage Google Drive files"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws drive --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-drive"
----
 # drive (v3)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

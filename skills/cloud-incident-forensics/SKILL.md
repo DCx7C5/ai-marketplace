@@ -1,44 +1,8 @@
----
-name: cloud-incident-forensics
-description: Perform forensic acquisition and analysis of cloud storage services including Google Drive, OneDrive, Dropbox, and Box by collecting both API-based remote data and local sync client artifacts from endpoint devices.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- cloud-forensics
-- google-drive
-- onedrive
-- dropbox
-- box
-- cloud-acquisition
-- api-forensics
-- sync-client
-- endpoint-artifacts
-- magnet-axiom
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Cloud Storage Forensic Acquisition
 
 ## Overview
 
 Cloud storage forensic acquisition involves collecting digital evidence from services like Google Drive, OneDrive, Dropbox, and Box through both API-based remote acquisition and local endpoint artifact analysis. Modern investigations must address the challenge that cloud-synced files may exist in multiple states: locally synchronized, cloud-only (on-demand), cached, and deleted. Endpoint devices that have synchronized with cloud storage contain a wealth of metadata about locally synced files, files present only in the cloud, and even deleted items recoverable from cache folders. API-based acquisition using service-specific APIs provides direct access to remote data with valid credentials and proper legal authorization.
-
 
 ## When to Use
 
@@ -70,7 +34,6 @@ import io
 import os
 import json
 from datetime import datetime
-
 
 class GoogleDriveForensicAcquisition:
     """Forensically acquire files and metadata from Google Drive via API."""
@@ -165,7 +128,6 @@ import requests
 import os
 import json
 from datetime import datetime
-
 
 class OneDriveForensicAcquisition:
     """Forensically acquire files and metadata from OneDrive via Microsoft Graph API."""

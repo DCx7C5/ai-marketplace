@@ -1,29 +1,3 @@
----
-name: linux-forensic-mem-analysis-vol3core-extract
-description: Analyze volatile memory dumps using Volatility 3 to extract running processes, network connections, loaded modules, and evidence of malicious activity.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- memory-forensics
-- volatility
-- ram-analysis
-- malware-detection
-- incident-response
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-capec: []
----
-
 # Performing Memory Forensics with Volatility 3
 
 ## When to Use

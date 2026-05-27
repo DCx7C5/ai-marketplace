@@ -1,33 +1,3 @@
----
-name: webapp-redirect-open
-description: Identify and test open redirect vulnerabilities in web applications by analyzing URL redirection parameters, bypass techniques, and exploitation chains for phishing and token theft.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- open-redirect
-- url-redirect
-- phishing
-- owasp
-- url-validation
-- redirect-bypass
-- unvalidated-redirect
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1550
-- T1566
-cwe:
-- CWE-601
-capec: []
----
-
 # Testing for Open Redirect Vulnerabilities
 
 ## When to Use
@@ -44,7 +14,6 @@ capec: []
 - Understanding of URL parsing and encoding schemes
 - Browser with developer tools for observing redirect chains
 - Knowledge of HTTP 301/302/303/307/308 redirect status codes
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

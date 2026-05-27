@@ -1,7 +1,3 @@
----
-name: stego-net-http-covert
-description: ">\n  Detects HTTP header steganography and covert communication channels."
----
 ## Overview
 
 Detects steganographically hidden data in carrier files using statistical analysis and tool-assisted extraction.

@@ -1,29 +1,3 @@
----
-name: ics-ics-architecture-iec-62443-zones-design
-description: This skill covers designing and implementing security zones and conduits for industrial automation and control systems (IACS) per IEC 62443-3-2. It addresses zone partitioning based on risk assessment, assigning Security Level targets (SL-T), designing conduit security controls, implementing microsegmentation with industrial firewalls, and validating zone architecture through traffic analysis and penetration testing against the Purdue Reference Model.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- network-segmentation
-- zones-conduits
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Implementing IEC 62443 Security Zones
 
 ## When to Use
@@ -322,7 +296,6 @@ import time
 import json
 from datetime import datetime
 
-
 class DataDiodeValidator:
     """Validates data diode unidirectional enforcement."""
 
@@ -421,7 +394,6 @@ class DataDiodeValidator:
             print(f"      {r['detail']}")
 
         return self.results
-
 
 if __name__ == "__main__":
     validator = DataDiodeValidator(

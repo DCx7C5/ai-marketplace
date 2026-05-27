@@ -1,36 +1,8 @@
----
-name: cloud-gcp-gcppolicy
-description: Implement GCP Organization Policy constraints to enforce security guardrails across the entire resource hierarchy, restricting risky configurations and ensuring compliance at organization, folder, and project levels.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- gcp
-- organization-policy
-- constraints
-- governance
-- compliance
-- cloud-security
-- resource-manager
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1562.001
-capec: []
----
-
 # Implementing GCP Organization Policy Constraints
 
 ## Overview
 
 The GCP Organization Policy Service provides centralized and programmatic control over cloud resources. Organization policies configure constraints that restrict one or more Google Cloud services, enforced at organization, folder, or project levels. They improve security by blocking external IPs, requiring encryption, and minimizing unauthorized access. Changes can take up to 15 minutes to propagate.
-
 
 ## When to Use
 
@@ -216,7 +188,7 @@ gcloud org-policies list-custom-constraints \
 
 ```yaml
 # custom-constraint.yaml
-name: gcp-gcppolicy
+name: cloud-gcp-gcppolicy
 resourceTypes:
   - container.googleapis.com/NodePool
 methodTypes:

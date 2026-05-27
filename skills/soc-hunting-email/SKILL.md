@@ -1,38 +1,3 @@
----
-name: soc-hunting-email
-description: Detect malicious email forwarding rules created by adversaries to maintain persistent access to email communications for intelligence collection and BEC attacks.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- email-forwarding
-- persistence
-- bec
-- t1114
-- proactive-detection
-d3fend_techniques:
-- Restore Object
-- Restore Configuration
-- Application Configuration Hardening
-- Application Hardening
-- Disable Remote Access
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1114.003
-- T1547
-capec: []
----
-
 # Detecting Email Forwarding Rules Attack
 
 ## When to Use

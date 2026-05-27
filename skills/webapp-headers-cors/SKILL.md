@@ -1,29 +1,3 @@
----
-name: webapp-headers-cors
-description: Identifying and exploiting Cross-Origin Resource Sharing misconfigurations that allow unauthorized cross-domain data access and credential theft during security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- cors
-- web-security
-- owasp
-- same-origin-policy
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-16
-- CWE-942
-capec: []
----
-
 # Testing CORS Misconfiguration
 
 ## When to Use

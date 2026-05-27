@@ -1,15 +1,8 @@
----
-name: vuln-prioritization-epss
-description: ">\n  Integrate FIRST's Exploit Prediction Scoring System (EPSS) API\
-  \ to prioritize vulnerability remediation based on real-world exploitation probability\
-  \ within 30 days."
----
 # Implementing EPSS Score for Vulnerability Prioritization
 
 ## Overview
 
 The Exploit Prediction Scoring System (EPSS) is a data-driven model developed by FIRST (Forum of Incident Response and Security Teams) that estimates the probability of a CVE being exploited in the wild within the next 30 days. EPSS produces scores from 0.0 to 1.0 (0% to 100%) using machine learning trained on real-world exploitation data. Unlike CVSS which measures severity, EPSS measures likelihood of exploitation, making it essential for risk-based vulnerability prioritization.
-
 
 ## When to Use
 
@@ -198,7 +191,6 @@ def detect_epss_spikes(cve_id, threshold=0.3):
 - [EPSS Model Documentation](https://www.first.org/epss/model)
 - [EPSS Data Downloads](https://epss.cyentia.com/)
 - [Cyentia Institute Research](https://www.cyentia.com/epss/)
-
 
 ---
 

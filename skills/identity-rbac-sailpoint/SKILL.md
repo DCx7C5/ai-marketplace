@@ -1,34 +1,7 @@
----
-name: identity-rbac-sailpoint
-description: Deploy SailPoint IdentityNow or IdentityIQ for identity governance and administration. Covers identity lifecycle management, access request workflows, certification campaigns, role mining, SOD policy
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- governance
-- sailpoint
-- iga
-- lifecycle
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Identity Governance with SailPoint
 
 ## Overview
 Deploy SailPoint IdentityNow or IdentityIQ for identity governance and administration. Covers identity lifecycle management, access request workflows, certification campaigns, role mining, SOD policy enforcement, and compliance reporting for enterprise IAM.
-
 
 ## When to Use
 

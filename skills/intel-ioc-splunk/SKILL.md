@@ -1,36 +1,8 @@
----
-name: intel-ioc-splunk
-description: Build automated threat intelligence enrichment pipelines in Splunk Enterprise Security using lookup tables, modular inputs, and the Threat Intelligence Framework.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- splunk
-- threat-intelligence
-- enrichment
-- ioc
-- lookup
-- siem
-- soc
-- enterprise-security
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-capec: []
----
-
 # Building Threat Intelligence Enrichment in Splunk
 
 ## Overview
 
 Splunk's Threat Intelligence Framework in Enterprise Security enables SOC teams to automatically correlate indicators of compromise (IOCs) against security events. The framework ingests threat feeds, normalizes indicators into KV Store collections, and uses lookup-based correlation searches to flag matching events. Splunk Threat Intelligence Management centralizes collection, normalization, and enrichment from multiple sources, reducing triage time by providing analysts with immediate context.
-
 
 ## When to Use
 
@@ -110,7 +82,6 @@ import sys
 import requests
 from splunklib.modularinput import Script, Scheme, Argument, Event
 
-
 class OTXFeedInput(Script):
     def get_scheme(self):
         scheme = Scheme("OTX AlienVault Feed")
@@ -160,7 +131,6 @@ class OTXFeedInput(Script):
                         ew.write_event(event)
             except requests.RequestException as e:
                 ew.log("ERROR", f"OTX feed collection failed: {str(e)}")
-
 
 if __name__ == "__main__":
     sys.exit(OTXFeedInput().run(sys.argv))

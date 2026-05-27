@@ -1,9 +1,4 @@
 ---
-name: "linux-harden-sysctl-kernel-harden"
-description: "---"
----
-
----
 name: linux-harden-sysctl-kernel-harden
 description: Harden Linux kernel via sysctl parameters — configure ASLR, kernel pointer hiding, TCP hardening, SYN cookies, ICMP restrictions, and core dump disabling.
 domain: cybersecurity

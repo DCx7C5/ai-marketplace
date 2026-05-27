@@ -1,38 +1,3 @@
----
-name: ics-ics-scada-attack
-description: This skill covers detecting cyber attacks targeting Supervisory Control and Data Acquisition (SCADA) systems including man-in-the-middle attacks on industrial protocols, unauthorized command injection into PLCs, HMI compromise, historian data manipulation, and denial-of-service against control system communications. It leverages OT-specific intrusion detection systems, industrial protocol anomaly detection, and process data analytics to identify attacks that traditional IT security tools miss.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- intrusion-detection
-- threat-detection
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1059
-capec: []
----
-
 # Detecting Attacks on SCADA Systems
 
 ## When to Use
@@ -88,7 +53,6 @@ MODBUS_FUNC_NAMES = {
     22: "Mask Write Register", 23: "Read/Write Multiple Registers",
     43: "Encapsulated Interface Transport",
 }
-
 
 class SCADABaselineBuilder:
     """Builds deterministic baselines from SCADA traffic captures."""
@@ -208,7 +172,6 @@ class SCADABaselineBuilder:
             print(f"    Polling Interval: {data['polling_interval_avg_sec']}s (+/- {data['polling_interval_stddev']}s)")
             print(f"    Register Ranges: {len(data['register_ranges'])}")
             print(f"    Total Requests: {data['total_requests']}")
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -358,7 +321,6 @@ except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
 
-
 @dataclass
 class ProcessVariable:
     """Represents a monitored process variable."""
@@ -371,7 +333,6 @@ class ProcessVariable:
     engineering_low: float
     engineering_high: float
 
-
 @dataclass
 class Anomaly:
     """Represents a detected process anomaly."""
@@ -383,7 +344,6 @@ class Anomaly:
     expected_range: str
     description: str
     attack_pattern: str = ""
-
 
 class ProcessAnomalyDetector:
     """Detects anomalies in SCADA process data from historian."""
@@ -521,7 +481,6 @@ class ProcessAnomalyDetector:
             print(f"    Detail: {a.description}")
             if a.attack_pattern:
                 print(f"    Attack Pattern: {a.attack_pattern}")
-
 
 if __name__ == "__main__":
     from collections import defaultdict

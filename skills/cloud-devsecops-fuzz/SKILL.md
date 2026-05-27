@@ -1,43 +1,8 @@
----
-name: cloud-devsecops-fuzz
-description: Integrate AFL++ coverage-guided fuzz testing into CI/CD pipelines to discover memory corruption, input handling, and logic vulnerabilities in C/C++ and compiled applications.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- aflplusplus
-- fuzz-testing
-- cicd
-- coverage-guided-fuzzing
-- security-testing
-- vulnerability-discovery
-- afl
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-capec: []
----
-
 # Implementing Fuzz Testing in CI/CD with AFL++
 
 ## Overview
 
 AFL++ (American Fuzzy Lop Plus Plus) is a community-maintained fork of AFL that provides state-of-the-art coverage-guided fuzz testing for discovering vulnerabilities in compiled applications. AFL++ uses genetic algorithms to mutate inputs, tracking code coverage to find new execution paths that trigger crashes, hangs, and undefined behavior. In CI/CD environments, AFL++ can be integrated to continuously test parsers, protocol handlers, file format processors, and any code that handles untrusted input. AFL++ supports persistent mode for high-speed fuzzing (up to 100,000+ executions per second), custom mutators, QEMU mode for binary-only fuzzing, and CmpLog/RedQueen for automatic dictionary extraction.
-
 
 ## When to Use
 
@@ -164,7 +129,7 @@ done
 **GitHub Actions:**
 
 ```yaml
-name: devsecops-fuzz
+name: cloud-devsecops-fuzz
 on:
   push:
     branches: [main]

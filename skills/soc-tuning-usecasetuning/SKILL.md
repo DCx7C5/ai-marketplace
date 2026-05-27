@@ -1,36 +1,8 @@
----
-name: soc-tuning-usecasetuning
-description: Tune SIEM detection rules to reduce false positives by analyzing alert volumes, creating whitelists, adjusting thresholds, and measuring detection efficacy metrics in Splunk and Elastic
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- siem
-- detection-engineering
-- false-positive-reduction
-- splunk
-- elastic
-- alert-tuning
-- soc
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Implementing SIEM Use Case Tuning
 
 ## Overview
 
 SIEM use case tuning reduces alert fatigue by systematically analyzing detection rules for false positive rates, adjusting thresholds based on environmental baselines, creating context-aware whitelists, and measuring detection efficacy through precision/recall metrics. This skill covers tuning workflows for Splunk correlation searches and Elastic detection rules, including statistical baselining, exclusion list management, and alert-to-incident conversion tracking.
-
 
 ## When to Use
 

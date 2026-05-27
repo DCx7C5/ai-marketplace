@@ -1,28 +1,3 @@
----
-name: linux-forensic-disk-analysis-endpoint-analyze
-description: Performs digital forensics investigation on compromised endpoints including memory acquisition, disk imaging, artifact analysis, and timeline reconstruction. Use when investigating security incidents, collecting evidence for legal proceedings, or analyzing endpoint compromise scope. Activates for requests involving endpoint forensics, memory analysis, disk forensics, or incident investigation.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- forensics
-- memory-analysis
-- disk-imaging
-- incident-investigation
-- Volatility
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-capec: []
----
-
 # Performing Endpoint Forensics Investigation
 
 ## When to Use

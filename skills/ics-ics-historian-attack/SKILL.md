@@ -1,33 +1,3 @@
----
-name: ics-ics-historian-attack
-description: Detect cyber attacks targeting OT historian servers (OSIsoft PI, Ignition, Wonderware) that sit at the IT/OT boundary and serve as pivot points for lateral movement between enterprise and control networks, including data manipulation, unauthorized queries, and exploitation of historian-specific vulnerabilities.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- historian
-- osisoft-pi
-- ignition
-- pivot-point
-- data-integrity
-- lateral-movement
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1021
-cve:
-- CVE-2025-0921
-capec: []
----
-
 # Detecting Attacks on Historian Servers
 
 ## When to Use
@@ -72,7 +42,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class HistorianAttackDetector:
     """Detects attacks targeting OT historian servers."""
@@ -235,7 +204,6 @@ class HistorianAttackDetector:
             print(f"\n  Check: {indicator['check']}")
             print(f"    Risk: {indicator['description']}")
             print(f"    Detection: {indicator['detection']}")
-
 
 if __name__ == "__main__":
     detector = HistorianAttackDetector(

@@ -1,38 +1,3 @@
----
-name: linux-forensic-mem-injection-process-detect
-description: Detect process hollowing (T1055.012) by analyzing memory-mapped sections, hollowed process indicators, and parent-child process anomalies in EDR telemetry.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- process-hollowing
-- process-injection
-- edr
-- t1055
-- proactive-detection
-d3fend_techniques:
-- Platform Monitoring
-- Process Code Segment Verification
-- Segment Address Offset Randomization
-- Process Analysis
-- Application Hardening
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1055
-- T1055.012
-- T1059
-capec: []
----
-
 # Detecting Process Hollowing Technique
 
 ## When to Use

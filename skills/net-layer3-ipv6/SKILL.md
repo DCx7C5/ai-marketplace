@@ -1,30 +1,3 @@
----
-name: net-layer3-ipv6
-description: Identifies and exploits IPv6-specific vulnerabilities including SLAAC spoofing, Router Advertisement flooding, and IPv6 tunneling during authorized assessments to test dual-stack security controls and IPv6-aware network defenses.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- ipv6
-- slaac
-- router-advertisement
-- dual-stack-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1557
-- T1562.001
-- T1562.004
-capec: []
----
-
 # Exploiting IPv6 Vulnerabilities
 
 ## When to Use

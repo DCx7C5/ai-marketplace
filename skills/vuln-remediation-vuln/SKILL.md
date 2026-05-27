@@ -1,14 +1,7 @@
----
-name: vuln-remediation-vuln
-description: ">\n  Vulnerability remediation SLAs define mandatory timeframes for\
-  \ patching or mitigating identified vulnerabilities based on severity, asset criticality,\
-  \ and exploit availability. Effective SLA programs"
----
 # Implementing Vulnerability Remediation SLA
 
 ## Overview
 Vulnerability remediation SLAs define mandatory timeframes for patching or mitigating identified vulnerabilities based on severity, asset criticality, and exploit availability. Effective SLA programs drive accountability, ensure consistent remediation timelines, and provide measurable KPIs for vulnerability management maturity.
-
 
 ## When to Use
 
@@ -168,7 +161,6 @@ Exception requirements:
 - implementing-patch-management-workflow
 - implementing-vulnerability-metrics-and-reporting
 - implementing-exception-management-process
-
 
 ---
 

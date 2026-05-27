@@ -1,28 +1,3 @@
----
-name: linux-proc-binary-static-analyze
-description: Analyzes malicious Linux ELF (Executable and Linkable Format) binaries including botnets, cryptominers, ransomware, and rootkits targeting Linux servers, containers, and cloud infrastructure. Covers static analysis, dynamic tracing, and reverse engineering of x86_64 and ARM ELF samples. Activates for requests involving Linux malware analysis, ELF binary investigation, Linux server compromise assessment, or container malware analysis.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- malware
-- Linux
-- ELF
-- reverse-engineering
-- server-malware
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1486
-- T1610
-capec: []
----
-
 # Analyzing Linux ELF Malware
 
 ## When to Use

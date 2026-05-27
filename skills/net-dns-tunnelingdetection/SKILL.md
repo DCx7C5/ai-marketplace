@@ -1,28 +1,4 @@
----
-name: net-dns-tunnelingdetection
-description: Detects DNS tunneling by computing Shannon entropy of DNS query names, analyzing query length distributions, inspecting TXT record payloads, and identifying high subdomain cardinality. Uses scapy for packet capture analysis and statistical methods to distinguish legitimate DNS from covert channels. Use when hunting for data exfiltration.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- performing
-- dns
-- tunneling
-- detection
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Performing DNS Tunneling Detection
-
 
 ## When to Use
 

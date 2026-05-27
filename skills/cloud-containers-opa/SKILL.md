@@ -1,34 +1,8 @@
----
-name: cloud-containers-opa
-description: Enforce Kubernetes admission policies using OPA Gatekeeper with ConstraintTemplates, Rego rules, and the Gatekeeper policy library.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- opa
-- gatekeeper
-- kubernetes
-- admission-control
-- policy-as-code
-- rego
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1610
-capec: []
----
-
 # Implementing OPA Gatekeeper for Policy Enforcement
 
 ## Overview
 
 OPA Gatekeeper is a Kubernetes admission controller that enforces policies written in Rego. It uses ConstraintTemplates (policy blueprints with Rego logic) and Constraints (instantiated policies with parameters) to validate, mutate, or deny Kubernetes resource requests at admission time.
-
 
 ## When to Use
 

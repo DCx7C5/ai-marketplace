@@ -1,28 +1,3 @@
----
-name: cloud-zerotrust-ztna-monitor
-description: Implementing Zero Trust Network Access (ZTNA) in cloud environments by configuring identity-aware proxies, micro-segmentation, continuous verification with conditional access policies, and replacing traditional VPN-based access with BeyondCorp-style architectures across AWS, Azure, and GCP.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- zero-trust
-- ztna
-- beyondcorp
-- identity-aware-proxy
-- micro-segmentation
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-capec: []
----
-
 # Implementing Zero Trust Network Access
 
 ## When to Use

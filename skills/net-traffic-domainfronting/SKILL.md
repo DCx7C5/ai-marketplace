@@ -1,43 +1,8 @@
----
-name: net-traffic-domainfronting
-description: Detect domain fronting C2 traffic by analyzing SNI vs HTTP Host header mismatches in proxy logs and TLS certificate discrepancies using pyOpenSSL for certificate inspection
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- domain-fronting
-- c2-detection
-- tls-inspection
-- proxy-logs
-- pyopenssl
-- threat-hunting
-- network-security
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1071
-- T1090.004
-capec: []
----
-
 # Hunting for Domain Fronting C2 Traffic
 
 ## Overview
 
 Domain fronting (MITRE ATT&CK T1090.004) is a technique where attackers use different domain names in the TLS SNI field and the HTTP Host header to disguise C2 traffic behind legitimate CDN-hosted domains. This skill detects domain fronting by parsing proxy/web gateway logs for SNI-Host header mismatches, analyzing TLS certificates for CDN provider identification, flagging connections where the SNI points to a high-reputation domain but the Host header targets an attacker-controlled domain, and correlating with known CDN provider IP ranges.
-
 
 ## When to Use
 

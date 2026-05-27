@@ -1,33 +1,3 @@
----
-name: webapp-security-waf-configure
-description: This skill covers deploying and tuning Web Application Firewall rules on AWS WAF, Azure WAF, and Cloudflare to protect cloud-hosted applications against OWASP Top 10 attacks. It details configuring managed rule sets, creating custom rules for business logic protection, implementing rate limiting, deploying bot management, and reducing false positives through rule tuning and logging analysis.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-waf
-- aws-waf
-- azure-waf
-- cloudflare-waf
-- owasp-protection
-- rate-limiting
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-- T1189
-- T1562.004
-cwe:
-- CWE-79
-capec: []
----
-
 # Implementing Cloud WAF Rules
 
 ## When to Use

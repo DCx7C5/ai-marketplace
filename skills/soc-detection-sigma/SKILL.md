@@ -1,37 +1,3 @@
----
-name: soc-detection-sigma
-description: Builds vendor-agnostic detection rules using the Sigma rule format for threat detection across SIEM platforms including Splunk, Elastic, and Microsoft Sentinel. Use when creating portable detection logic from threat intelligence, mapping rules to MITRE ATT&CK techniques, or converting community Sigma rules into platform-specific queries using sigmac or pySigma backends.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- sigma
-- detection-rules
-- siem
-- mitre-attack
-- splunk
-- elastic
-- sentinel
-d3fend_techniques:
-- Execution Isolation
-- Process Termination
-- Hardware-based Process Isolation
-- Web Session Access Mediation
-- Process Suspension
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Building Detection Rules with Sigma
 
 ## When to Use
@@ -266,7 +232,7 @@ Store rules in Git with automated testing:
 
 ```yaml
 # .github/workflows/sigma-ci.yml
-name: detection-sigma-deploy
+name: soc-detection-sigma
 on: [push, pull_request]
 jobs:
   validate:

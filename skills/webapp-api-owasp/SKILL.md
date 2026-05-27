@@ -1,29 +1,3 @@
----
-name: webapp-api-owasp
-description: Systematically assessing REST and GraphQL API endpoints against the OWASP API Security Top 10 risks using automated and manual testing techniques.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- api-security
-- owasp
-- rest-api
-- graphql
-- burpsuite
-- postman
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-200
-capec: []
----
-
 # Testing API Security with OWASP Top 10
 
 ## When to Use

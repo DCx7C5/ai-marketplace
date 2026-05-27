@@ -1,32 +1,3 @@
----
-name: net-dns-subfinder
-description: Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passive reconnaissance tool to map the attack surface during security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- subdomain-enumeration
-- reconnaissance
-- bug-bounty
-- attack-surface
-- subfinder
-- passive-recon
-- osint
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1593
-- T1595
-- T1595.002
-capec: []
----
-
 # Performing Subdomain Enumeration with Subfinder
 
 ## When to Use

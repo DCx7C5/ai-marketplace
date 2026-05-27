@@ -1,26 +1,3 @@
----
-name: linux-forensic-disk-acquisition-dcfldd-forensic
-description: Create forensically sound bit-for-bit disk images using dd and dcfldd while preserving evidence integrity through hash verification.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- disk-imaging
-- evidence-acquisition
-- dd
-- dcfldd
-- hash-verification
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Acquiring Disk Image with dd and dcfldd
 
 ## When to Use

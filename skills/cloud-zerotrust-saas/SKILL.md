@@ -1,30 +1,3 @@
----
-name: cloud-zerotrust-saas
-description: Implementing zero trust access controls for SaaS applications using CASB, SSPM, conditional access policies, OAuth app governance, and session controls to enforce identity verification, device compliance, and data protection for cloud-hosted services.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- saas-security
-- casb
-- sspm
-- conditional-access
-- oauth-governance
-- session-controls
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1550
-capec: []
----
-
 # Implementing Zero Trust for SaaS Applications
 
 ## When to Use

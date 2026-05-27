@@ -1,30 +1,3 @@
----
-name: soc-hunting-net-apt
-description: Network APT hunting — capture and analyze traffic for C2 beaconing, ARP spoofing, DNS anomalies, and unusual outbound connections on Linux. Uses ip, ss, tcpdump, and ARP table analysis.
-domain: cybersecurity
-subdomain: network-forensics
-tags:
-- network
-- apt
-- c2
-- arp
-- dns
-- beaconing
-- linux
-mitre_attack:
-- T1071
-- T1071.001
-- T1041
-- T1090
-- T1557.002
-cve: []
-cwe: []
-nist_csf:
-- DE.CM-1
-- DE.CM-7
-capec:
-- CAPEC-609
----
 ## Overview
 
 Network-layer APT hunting on Linux. Checks ARP table for duplicate MAC entries (spoofing), active connections for unusual ports/destinations, DNS queries for tunneling indicators, and optionally captures raw traffic via tcpdump for post-analysis. All findings written to session findings.md.

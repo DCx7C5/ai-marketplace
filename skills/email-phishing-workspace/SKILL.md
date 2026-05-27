@@ -1,36 +1,7 @@
----
-name: email-phishing-workspace
-description: Configure Google Workspace advanced phishing and malware protection settings including pre-delivery scanning, attachment protection, spoofing detection, and Enhanced Safe Browsing.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- google-workspace
-- gmail
-- phishing
-- email-security
-- safe-browsing
-- anti-spoofing
-- admin-console
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1566
-capec: []
----
-
 # Implementing Google Workspace Phishing Protection
 
 ## Overview
 Google Workspace provides advanced phishing and malware protection through the Admin Console under Apps > Google Workspace > Gmail > Safety. Key features include Enhanced Pre-Delivery Scanning that examines messages more thoroughly before they reach inboxes, attachment and link protection that scans for malware and checks against known malicious sites, and spoofing detection for domain and employee name impersonation. Google's Advanced Protection Program (APP) provides the strongest account security for high-privilege users.
-
 
 ## When to Use
 

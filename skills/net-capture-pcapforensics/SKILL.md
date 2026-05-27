@@ -1,30 +1,3 @@
----
-name: net-capture-pcapforensics
-description: Capture and analyze network traffic using Wireshark and tshark to reconstruct network events, extract artifacts, and identify malicious communications.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- network-forensics
-- wireshark
-- pcap
-- packet-analysis
-- traffic-analysis
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1040
-- T1041
-- T1071
-capec: []
----
-
 # Performing Network Forensics with Wireshark
 
 ## When to Use

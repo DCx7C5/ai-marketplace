@@ -1,30 +1,3 @@
----
-name: ics-ics-access-remote-configure
-description: This skill covers implementing secure remote access to OT/ICS environments for operators, engineers, and vendors while preventing unauthorized access that could compromise industrial operations. It addresses jump server architecture, multi-factor authentication, session recording, privileged access management, vendor remote access controls, and compliance with IEC 62443 and NERC CIP-005 remote access requirements.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- remote-access
-- jump-server
-- mfa
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Securing Remote Access to OT Environment
 
 ## When to Use
@@ -118,7 +91,6 @@ from dataclasses import dataclass, field, asdict
 from datetime import datetime, timedelta
 from enum import Enum
 
-
 class SessionState(str, Enum):
     PENDING_APPROVAL = "pending_approval"
     APPROVED = "approved"
@@ -127,13 +99,11 @@ class SessionState(str, Enum):
     EXPIRED = "expired"
     DENIED = "denied"
 
-
 class UserRole(str, Enum):
     OT_OPERATOR = "ot_operator"
     OT_ENGINEER = "ot_engineer"
     VENDOR = "vendor"
     SECURITY_ANALYST = "security_analyst"
-
 
 @dataclass
 class RemoteAccessSession:
@@ -154,7 +124,6 @@ class RemoteAccessSession:
     max_duration_minutes: int = 120
     recording_path: str = ""
     actions_logged: list = field(default_factory=list)
-
 
 class OTRemoteAccessManager:
     """Manages remote access sessions to OT environment."""
@@ -312,7 +281,6 @@ class OTRemoteAccessManager:
                 report.append(f"    MFA: {'Verified' if s.mfa_verified else 'NOT VERIFIED'}")
 
         return "\n".join(report)
-
 
 if __name__ == "__main__":
     manager = OTRemoteAccessManager()

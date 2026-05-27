@@ -1,15 +1,8 @@
----
-name: vuln-prioritization-ssvc
-description: ">\n  Triage and prioritize vulnerabilities using CISA's Stakeholder-Specific\
-  \ Vulnerability Categorization (SSVC) decision tree framework to produce actionable\
-  \ remediation priorities."
----
 # Triaging Vulnerabilities with SSVC Framework
 
 ## Overview
 
 The Stakeholder-Specific Vulnerability Categorization (SSVC) framework, developed by Carnegie Mellon University's Software Engineering Institute (SEI) in collaboration with CISA, provides a structured decision-tree methodology for vulnerability prioritization. Unlike CVSS alone, SSVC accounts for exploitation status, technical impact, automatability, mission prevalence, and public well-being impact to produce one of four actionable outcomes: **Track**, **Track***, **Attend**, or **Act**.
-
 
 ## When to Use
 
@@ -188,7 +181,6 @@ print('All SSVC decision tests passed')
 - [CISA SSVC Guide PDF](https://www.cisa.gov/sites/default/files/publications/cisa-ssvc-guide%20508c.pdf)
 - [FIRST EPSS API](https://www.first.org/epss/)
 - [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-
 
 ---
 

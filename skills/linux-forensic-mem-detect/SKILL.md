@@ -1,27 +1,3 @@
----
-name: linux-forensic-mem-detect
-description: Memory forensics — analyze process memory maps for injection indicators (rwx, /tmp/ libs, deleted executables, anonymous mappings). Reads /proc/<pid>/maps directly; no kernel module required.
-domain: cybersecurity
-subdomain: memory-forensics
-tags:
-- memory
-- injection
-- process
-- /proc
-- linux
-mitre_attack:
-- T1055
-- T1055.001
-- T1055.012
-- T1620
-cve: []
-cwe:
-- CWE-119
-nist_csf:
-- DE.CM-4
-capec:
-- CAPEC-640
----
 ## Overview
 
 Userspace memory forensics on Linux via `/proc/<pid>/maps`. Detects injection indicators: rwx memory regions, anonymous executable mappings, `/tmp/`-backed libs, and deleted executables still mapped in memory. No kernel module or elevated tool required beyond read access to `/proc`.

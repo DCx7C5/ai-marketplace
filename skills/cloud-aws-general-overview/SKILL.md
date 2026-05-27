@@ -1,29 +1,3 @@
----
-name: cloud-aws-general-overview
-description: Detecting exposed AWS credentials in source code repositories, CI/CD pipelines, and configuration files using TruffleHog, git-secrets, and AWS-native detection mechanisms to prevent credential theft and unauthorized account access.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- aws
-- credential-exposure
-- trufflehog
-- secrets-detection
-- devsecops
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-capec: []
----
-
 # Detecting AWS Credential Exposure with TruffleHog
 
 ## When to Use
@@ -142,7 +116,7 @@ Add TruffleHog scanning as a CI/CD gate to block deployments containing exposed 
 
 ```yaml
 # GitHub Actions workflow (.github/workflows/secrets-scan.yml)
-name: aws-general-overview
+name: cloud-aws-general-overview
 on: [push, pull_request]
 
 jobs:

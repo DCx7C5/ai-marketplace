@@ -1,35 +1,7 @@
----
-name: identity-ad-tieredmodel-escalate
-description: Implement Microsoft's Enhanced Security Admin Environment (ESAE) tiered administration model for Active Directory. Covers Tier 0/1/2 separation, privileged access workstations (PAWs), administrative f
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- active-directory
-- tiered-model
-- paw
-- esae
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-capec: []
----
-
 # Configuring Active Directory Tiered Model
 
 ## Overview
 Implement Microsoft's Enhanced Security Admin Environment (ESAE) tiered administration model for Active Directory. Covers Tier 0/1/2 separation, privileged access workstations (PAWs), administrative forest design, authentication policy silos, and credential theft mitigation.
-
 
 ## When to Use
 

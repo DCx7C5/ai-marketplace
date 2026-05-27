@@ -1,31 +1,3 @@
----
-name: webapp-auth-jwt
-description: Exploits JWT algorithm confusion vulnerabilities where the server''s token verification library accepts the algorithm specified in the JWT header rather than enforcing a fixed algorithm. The tester manipulates the alg header to switch from RS256 to HS256 (using the RSA public key as the HMAC secret), sets alg to none to bypass signature verification, or exploits kid/jku/x5u header injection to supply attacker-controlled keys. Activates for requests involving JWT algorithm confusion, alg none attack, key confusion attack, or JWT signature bypass.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- jwt
-- algorithm-confusion
-- token-forgery
-- cryptographic-attack
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-cwe:
-- CWE-347
-cve:
-- CVE-2024-54150
-capec: []
----
-
 # Exploiting JWT Algorithm Confusion Attack
 
 ## When to Use
@@ -46,7 +18,6 @@ capec: []
 - Python 3.10+ with `PyJWT`, `cryptography`, and `requests` libraries
 - jwt_tool for automated JWT attack testing
 - Burp Suite with JWT Editor extension
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

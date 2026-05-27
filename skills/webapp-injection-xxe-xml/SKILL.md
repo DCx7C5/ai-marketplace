@@ -1,34 +1,3 @@
----
-name: webapp-injection-xxe-xml
-description: Test web applications for XML injection vulnerabilities including XXE, XPath injection, and XML entity attacks to identify data exposure and server-side request forgery risks.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- xml-injection
-- xxe
-- xpath-injection
-- xml-parsing
-- web-security
-- entity-injection
-- dtd-attack
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-- T1550
-cwe:
-- CWE-611
-- CWE-643
-- CWE-91
-capec: []
----
-
 # Testing for XML Injection Vulnerabilities
 
 ## When to Use

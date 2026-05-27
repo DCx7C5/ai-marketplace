@@ -1,18 +1,3 @@
----
-name: linux-hw-usb-device-detect
-description: >
-  Detect unauthorized, suspicious, or newly connected USB devices on Linux systems using udev rules, dmesg, lsusb, and audit log correlation.
-domain: cybersecurity
-subdomain: hardware-security
-tags: [linux, usb, hardware, detect]
-nist_csf: [DE.CM-01, PR.AC-02]
-model: sonnet
-maxTurns: 15
-tools: [Read, Bash, Glob, Grep]
-mitre_attack: [T1200]
-capec: []
----
-
 # Hardware USB Device Detect
 
 ## Overview

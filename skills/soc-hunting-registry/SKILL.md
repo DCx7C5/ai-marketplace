@@ -1,43 +1,8 @@
----
-name: soc-hunting-registry
-description: Detect MITRE ATT&CK T1547.001 registry Run key persistence by analyzing Sysmon Event ID 13 logs and registry queries to identify malicious auto-start entries.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- persistence
-- registry-run-keys
-- t1547-001
-- sysmon
-- threat-hunting
-- windows-forensics
-- mitre-attack
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1547
-- T1547.001
-capec: []
----
-
 # Hunting for Registry Run Key Persistence
 
 ## Overview
 
 Registry Run keys (T1547.001) are one of the most commonly used persistence mechanisms by adversaries. When a program is added to a Run key in the Windows registry, it executes automatically when a user logs in. Attackers abuse keys under `HKLM\Software\Microsoft\Windows\CurrentVersion\Run`, `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`, and their RunOnce counterparts to maintain persistence. Sysmon Event ID 13 (RegistryEvent - Value Set) captures registry value modifications including the target object path, the process that made the change, and the new value. Detection involves monitoring these events for suspicious executables in temp directories, encoded PowerShell commands, LOLBin paths, and processes that do not normally create Run key entries. Chaining Event 13 with Event 1 (Process Creation) and Event 11 (FileCreate) strengthens detection by confirming payload creation and execution.
-
 
 ## When to Use
 

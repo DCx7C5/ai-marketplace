@@ -1,34 +1,3 @@
----
-name: linux-forensic-disk-filecarving-photorec-detect
-description: Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine regardless of file system damage.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- file-recovery
-- photorec
-- file-carving
-- data-recovery
-- evidence-recovery
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Recovering Deleted Files with PhotoRec
 
 ## When to Use

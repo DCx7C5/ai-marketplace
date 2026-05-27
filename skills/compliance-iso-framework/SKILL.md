@@ -1,23 +1,7 @@
----
-name: compliance-iso-framework
-description: ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete
-domain: cybersecurity
-subdomain: compliance-governance
-nist_csf: [GV.OC-01, GV.RM-01, GV.PO-01, ID.RA-01, PR.DS-01]
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-tags:
-- compliance
-- iso
-capec: []
----
-
 # Implementing ISO 27001 Information Security Management
 
 ## Overview
 ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete lifecycle from scoping through certification, including Annex A control selection, risk assessment methodology, Statement of Applicability (SoA) creation, and continuous improvement processes.
-
 
 ## When to Use
 

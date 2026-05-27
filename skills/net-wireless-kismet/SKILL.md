@@ -1,39 +1,8 @@
----
-name: net-wireless-kismet
-description: Conduct wireless network security assessments using Kismet to detect rogue access points, hidden SSIDs, weak encryption, and unauthorized clients through passive RF monitoring.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- kismet
-- wireless-security
-- wifi-assessment
-- rogue-ap
-- 802.11
-- wardriving
-- wids
-- wireless-ids
-- rf-monitoring
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1557
-- T1562.001
-capec: []
----
-
 # Performing Wireless Security Assessment with Kismet
 
 ## Overview
 
 Kismet is an open-source wireless network detector, packet sniffer, and wireless intrusion detection system (WIDS) supporting 802.11a/b/g/n/ac/ax. Unlike active scanners, Kismet operates in passive monitor mode, making it undetectable to the networks being assessed. It captures raw 802.11 frames, identifies access points, clients, probe requests, and encryption types without transmitting any packets. This skill covers deploying Kismet for comprehensive wireless security assessments, identifying rogue access points, detecting weak encryption, mapping hidden networks, and analyzing client behavior.
-
 
 ## When to Use
 
@@ -181,7 +150,6 @@ import json
 import sys
 from collections import defaultdict
 
-
 def analyze_kismet_db(db_path: str):
     """Analyze Kismet SQLite database for security issues."""
     conn = sqlite3.connect(db_path)
@@ -290,7 +258,6 @@ def analyze_kismet_db(db_path: str):
 
     conn.close()
 
-
 if __name__ == '__main__':
     db_path = sys.argv[1] if len(sys.argv) > 1 else 'Kismet-*.kismet'
     analyze_kismet_db(db_path)
@@ -307,7 +274,6 @@ Compare discovered APs against authorized inventory:
 import json
 import sys
 
-
 def load_authorized_aps(filepath: str) -> set:
     """Load authorized AP MAC addresses from file."""
     authorized = set()
@@ -317,7 +283,6 @@ def load_authorized_aps(filepath: str) -> set:
             if mac and not mac.startswith('#'):
                 authorized.add(mac)
     return authorized
-
 
 def detect_rogues(kismet_json: str, authorized_file: str):
     """Compare discovered APs against authorized list."""
@@ -354,7 +319,6 @@ def detect_rogues(kismet_json: str, authorized_file: str):
             print()
     else:
         print("No rogue access points detected.")
-
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:

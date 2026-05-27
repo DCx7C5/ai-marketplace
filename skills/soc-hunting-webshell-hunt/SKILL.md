@@ -1,38 +1,3 @@
----
-name: soc-hunting-webshell-hunt
-description: Hunt for web shell deployments on internet-facing servers by analyzing file creation in web directories, suspicious process spawning from web servers, and anomalous HTTP patterns.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- webshell
-- persistence
-- web-server
-- t1505
-- proactive-detection
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Restore Access
-- Process Termination
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1505.003
-- T1547
-capec: []
----
-
 # Hunting For Webshell Activity
 
 ## When to Use

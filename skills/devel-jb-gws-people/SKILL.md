@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-people"
-version: "1.0.0"
-description: "Google People: Manage contacts and profiles."
-metadata: ""
-short-description: "Manage Google contacts and profiles"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws people --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-people"
----
 # people (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

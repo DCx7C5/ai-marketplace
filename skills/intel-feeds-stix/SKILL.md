@@ -1,39 +1,8 @@
----
-name: intel-feeds-stix
-description: STIX (Structured Threat Information eXpression) and TAXII (Trusted Automated eXchange of Intelligence Information) are OASIS open standards for representing and transporting cyber threat intelligence.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- taxii
-- feed-integration
-- oasis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-- T1082
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Implementing STIX/TAXII Feed Integration
 
 ## Overview
 
 STIX (Structured Threat Information eXpression) and TAXII (Trusted Automated eXchange of Intelligence Information) are OASIS open standards for representing and transporting cyber threat intelligence. This skill covers implementing a STIX/TAXII 2.1 feed consumer and producer using Python, configuring TAXII server discovery, collection management, polling for new intelligence, parsing STIX 2.1 objects, and integrating feeds into SIEM and TIP platforms.
-
 
 ## When to Use
 
@@ -245,7 +214,6 @@ class TAXIIConsumer:
                     "id": obj.get("id"),
                 })
         return observables
-
 
 # Usage
 consumer = TAXIIConsumer(

@@ -1,34 +1,7 @@
----
-name: identity-privilege-general
-description: Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, c
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- privileged-access
-- pam
-- cyberark
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-capec: []
----
-
 # Implementing Privileged Access Management with CyberArk
 
 ## Overview
 Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements.
-
 
 ## When to Use
 

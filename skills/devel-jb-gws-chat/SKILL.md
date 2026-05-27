@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-chat"
-version: "1.0.0"
-description: "Google Chat: Manage Chat spaces and messages."
-metadata: ""
-short-description: "Manage Google Chat spaces"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws chat --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-chat"
----
 # chat (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

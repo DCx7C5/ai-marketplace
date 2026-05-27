@@ -1,38 +1,8 @@
----
-name: cloud-containers-scanning-distroless
-description: Reduce container attack surface by building application images on Google distroless base images that contain only the application runtime with no shell, package manager, or unnecessary OS utilities.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- distroless
-- container-images
-- minimal-base
-- attack-surface
-- docker
-- security-hardening
-- supply-chain
-- kubernetes
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1195
-- T1595
-- T1610
-capec: []
----
-
 # Implementing Container Image Minimal Base with Distroless
 
 ## Overview
 
 Google distroless images contain only your application and its runtime dependencies, without package managers, shells, or other programs found in standard Linux distributions. By eliminating unnecessary OS components, distroless images achieve up to 95% reduction in attack surface compared to traditional base images like ubuntu or debian. Major projects including Kubernetes itself, Knative, and Tekton use distroless images in production. As of 2025, Docker also offers Hardened Images (DHI) as an open-source alternative for minimal container bases.
-
 
 ## When to Use
 

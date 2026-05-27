@@ -1,28 +1,4 @@
----
-name: webapp-operations-logging
-description: Parse Apache and Nginx access logs to detect SQL injection attempts, local file inclusion, directory traversal, web scanner fingerprints, and brute-force patterns. Uses regex-based pattern matching against OWASP attack signatures, GeoIP enrichment for source attribution, and statistical anomaly detection for request frequency and response size outliers.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- analyzing
-- web
-- server
-- logs
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Analyzing Web Server Logs for Intrusion
-
 
 ## When to Use
 

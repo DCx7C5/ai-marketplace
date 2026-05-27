@@ -1,41 +1,7 @@
----
-name: email-phishing-aitm
-description: Detect and respond to Adversary-in-the-Middle (AiTM) phishing attacks that use reverse proxy kits like EvilProxy, Evilginx, and Tycoon 2FA to bypass MFA and steal session tokens.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- aitm
-- evilproxy
-- evilginx
-- phishing
-- mfa-bypass
-- session-hijacking
-- reverse-proxy
-- credential-theft
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1550
-- T1566
-- T1583.001
-cwe:
-- CWE-384
-capec: []
----
-
 # Performing Adversary-in-the-Middle Phishing Detection
 
 ## Overview
 Adversary-in-the-Middle (AiTM) phishing attacks use reverse-proxy infrastructure to sit between the victim and the legitimate authentication service, intercepting both credentials and session cookies in real time. This allows attackers to bypass multi-factor authentication (MFA). The most prevalent PhaaS kits in 2025 include Tycoon 2FA, Sneaky 2FA, EvilProxy, and Evilginx. Over 1 million PhaaS attacks were detected in January-February 2025 alone. These attacks have evolved from QR codes to HTML attachments and SVG files for link distribution.
-
 
 ## When to Use
 

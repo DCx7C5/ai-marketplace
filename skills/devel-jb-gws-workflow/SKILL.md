@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-workflow"
-version: "1.0.0"
-description: "Google Workflow: Cross-service productivity workflows."
-metadata: ""
-short-description: "Orchestrate Google Workspace workflows"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws workflow --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-workflow"
----
 # workflow (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

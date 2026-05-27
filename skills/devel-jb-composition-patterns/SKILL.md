@@ -1,13 +1,3 @@
----
-name: "devel-jb-composition-patterns"
-description: "# React Composition Patterns"
-license: "MIT"
-metadata: ""
-short-description: "Design scalable React composition APIs"
-author: "Vercel"
-version: "1.0.0"
-source: "https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns"
----
 # React Composition Patterns
 
 Composition patterns for building flexible, maintainable React components. Avoid

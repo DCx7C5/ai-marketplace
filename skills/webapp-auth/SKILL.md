@@ -1,28 +1,3 @@
----
-name: webapp-auth
-description: Discovering and accessing unprotected pages, APIs, and administrative interfaces by enumerating URLs and bypassing authentication controls during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- authentication-bypass
-- forced-browsing
-- ffuf
-- directory-enumeration
-- owasp
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-287
-capec: []
----
-
 # Bypassing Authentication with Forced Browsing
 
 ## When to Use

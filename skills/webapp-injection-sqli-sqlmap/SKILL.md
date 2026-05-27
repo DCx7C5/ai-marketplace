@@ -1,30 +1,3 @@
----
-name: webapp-injection-sqli-sqlmap
-description: Detecting and exploiting SQL injection vulnerabilities using sqlmap to extract database contents during authorized penetration tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- sql-injection
-- sqlmap
-- owasp
-- database-security
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-89
-capec: []
----
-
 # Exploiting SQL Injection with sqlmap
 
 ## When to Use

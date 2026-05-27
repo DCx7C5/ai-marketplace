@@ -1,41 +1,8 @@
----
-name: intel-mitre-threat-hunt
-description: MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. This skill covers systematically mapping threat actor beh
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- ttp-analysis
-- threat-actors
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Analyzing Threat Actor TTPs with MITRE ATT&CK
 
 ## Overview
 
 MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. This skill covers systematically mapping threat actor behavior to the ATT&CK framework, building technique coverage heatmaps using the ATT&CK Navigator, identifying detection gaps, and producing actionable intelligence reports that link observed IOCs to specific adversary techniques across the Enterprise, Mobile, and ICS matrices.
-
 
 ## When to Use
 
@@ -184,7 +151,6 @@ def create_navigator_layer(group_name, technique_map, description=""):
     }
 
     return layer
-
 
 # Generate and save layer
 layer = create_navigator_layer("APT29", technique_map, "APT29 (Cozy Bear) TTP analysis")

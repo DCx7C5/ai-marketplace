@@ -1,45 +1,8 @@
----
-name: soc-tools-velociraptor
-description: Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS environments.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- velociraptor
-- dfir
-- endpoint-collection
-- vql
-- forensic-artifacts
-- rapid7
-- threat-hunting
-- incident-response
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1003
-- T1070
-- T1547
-capec: []
----
-
 # Implementing Velociraptor for IR Collection
 
 ## Overview
 
 Velociraptor is an advanced open-source endpoint monitoring, digital forensics, and incident response platform developed by Rapid7. It uses the Velociraptor Query Language (VQL) to create custom artifacts that collect, query, and monitor almost any aspect of an endpoint. Velociraptor enables incident response teams to rapidly collect and examine forensic artifacts from across a network, supporting large-scale deployments with minimal performance impact. The client-server architecture with Fleetspeak communication enables real-time data collection from thousands of endpoints simultaneously, with offline endpoints picking up hunts when they reconnect.
-
 
 ## When to Use
 

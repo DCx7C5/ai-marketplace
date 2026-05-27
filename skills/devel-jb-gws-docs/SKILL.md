@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-docs"
-version: "1.0.0"
-description: "Read and write Google Docs."
-metadata: ""
-short-description: "Read and write Google Docs"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws docs --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-docs"
----
 # docs (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

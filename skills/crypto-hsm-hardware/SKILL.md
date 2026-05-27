@@ -1,40 +1,8 @@
----
-name: crypto-hsm-hardware
-description: Integrate Hardware Security Modules (HSMs) using PKCS#11 interface for cryptographic key management, signing operations, and secure key storage with python-pkcs11, AWS CloudHSM, and YubiHSM2.
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- HSM
-- PKCS11
-- CloudHSM
-- YubiHSM2
-- key-management
-- cryptographic-operations
-- hardware-security
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Hardware Security Module Integration
 
 ## Overview
 
 Hardware Security Modules (HSMs) provide tamper-resistant cryptographic key storage and operations. This skill covers integrating with HSMs via the PKCS#11 standard interface using python-pkcs11, performing key generation, signing, encryption, and verification operations, querying token and slot information, and validating HSM configuration for compliance with FIPS 140-2/3 requirements.
-
 
 ## When to Use
 

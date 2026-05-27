@@ -1,32 +1,3 @@
----
-name: intel-feeds-security
-description: Create, validate, and share STIX 2.1 threat intelligence objects using the stix2 Python library. Covers indicators, malware, campaigns, relationships, bundles, and TAXII 2.1 publishing.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- stix
-- taxii
-- threat-sharing
-- intelligence-exchange
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Implementing Security Information Sharing with STIX 2.1
 
 Build and share structured threat intelligence using STIX 2.1 objects

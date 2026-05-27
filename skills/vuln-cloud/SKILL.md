@@ -1,15 +1,8 @@
----
-name: vuln-cloud
-description: ">\n  Implement Cloud Security Posture Management using AWS Security\
-  \ Hub, Azure Defender for Cloud, and open-source tools like Prowler and ScoutSuite\
-  \ for multi-cloud vulnerability detection."
----
 # Implementing Cloud Vulnerability Posture Management
 
 ## Overview
 
 Cloud Security Posture Management (CSPM) continuously monitors cloud infrastructure for misconfigurations, compliance violations, and security risks. Unlike traditional vulnerability scanning, CSPM focuses on cloud-native risks: IAM over-permissions, exposed storage buckets, unencrypted data, missing network controls, and service misconfigurations. This skill covers multi-cloud CSPM using AWS Security Hub, Azure Defender for Cloud, and open-source tools like Prowler and ScoutSuite.
-
 
 ## When to Use
 
@@ -205,7 +198,6 @@ def generate_posture_report(findings, output_path):
 - [Prowler](https://github.com/prowler-cloud/prowler)
 - [ScoutSuite](https://github.com/nccgroup/ScoutSuite)
 - [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
-
 
 ---
 

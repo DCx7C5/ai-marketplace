@@ -1,27 +1,3 @@
----
-name: webapp-protocol-api
-description: Conducts security testing of REST, GraphQL, and gRPC APIs to identify vulnerabilities in authentication, authorization, rate limiting, input validation, and business logic. The tester uses the OWASP API Security Top 10 as the testing framework, combining Burp Suite interception with Postman collections and custom scripts to test endpoint security at every privilege level. Activates for requests involving API security testing, REST API pentest, GraphQL security assessment, or API vulnerability testing.
-domain: cybersecurity
-subdomain: penetration-testing
-tags:
-- API-security
-- OWASP-API-Top10
-- REST
-- GraphQL
-- authorization-testing
-nist_csf:
-- ID.RA-01
-- ID.RA-06
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-200
-capec: []
----
-
 # Conducting API Security Testing
 
 ## When to Use

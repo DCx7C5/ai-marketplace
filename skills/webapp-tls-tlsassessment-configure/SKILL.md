@@ -1,37 +1,8 @@
----
-name: webapp-tls-tlsassessment-configure
-description: Assess SSL/TLS server configurations using the sslyze Python library to evaluate cipher suites, certificate chains, protocol versions, HSTS headers, and known vulnerabilities like Heartbleed and ROBOT.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- ssl
-- tls
-- sslyze
-- certificate
-- cipher-suites
-- vulnerability-assessment
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-cve:
-- CVE-2014-0160
-capec: []
----
-
 # Performing SSL/TLS Security Assessment
 
 ## Overview
 
 Assess SSL/TLS server configurations using sslyze, a fast Python-based scanning library. This skill covers evaluating supported protocol versions (SSLv2/3, TLS 1.0-1.3), cipher suite strength, certificate chain validation, HSTS enforcement, OCSP stapling, and scanning for known vulnerabilities including Heartbleed, ROBOT, and session renegotiation weaknesses.
-
 
 ## When to Use
 

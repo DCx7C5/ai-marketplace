@@ -1,29 +1,3 @@
----
-name: crypto-signing-code
-description: This skill covers implementing code signing for build artifacts to ensure integrity and authenticity throughout the software supply chain. It addresses signing binaries, packages, and containers using GPG, Sigstore, and platform-specific signing tools, establishing trust chains, and verifying signatures in deployment pipelines.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- code-signing
-- supply-chain
-- sigstore
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1195
-- T1553.002
-capec: []
----
-
 # Implementing Code Signing for Artifacts
 
 ## When to Use
@@ -71,7 +45,7 @@ gpg --armor --export-secret-keys ci-signing@company.com > signing-key.priv
 
 ```yaml
 # .github/workflows/build-sign.yml
-name: signing-code
+name: crypto-signing-code
 
 on:
   push:

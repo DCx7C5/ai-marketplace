@@ -1,32 +1,8 @@
----
-name: cloud-devsecops-semgrep
-description: Write custom Semgrep SAST rules in YAML to detect application-specific vulnerabilities, enforce coding standards, and integrate into CI/CD pipelines.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- semgrep
-- sast
-- static-analysis
-- custom-rules
-- devsecops
-- code-security
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Semgrep for Custom SAST Rules
 
 ## Overview
 
 Semgrep is an open-source static analysis tool that uses pattern-matching to find bugs, enforce code standards, and detect security vulnerabilities. Custom rules are written in YAML using Semgrep's pattern syntax, making it accessible without requiring compiler knowledge. It supports 30+ languages including Python, JavaScript, Go, Java, and C.
-
 
 ## When to Use
 
@@ -262,7 +238,7 @@ semgrep --config rules/sql-injection.yaml --test
 ### GitHub Actions
 
 ```yaml
-name: devsecops-semgrep
+name: cloud-devsecops-semgrep
 on: [pull_request]
 
 jobs:

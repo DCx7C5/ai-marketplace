@@ -1,39 +1,3 @@
----
-name: linux-forensic-mem-injection-sysmon-detect
-description: Detect process injection techniques (T1055) including classic DLL injection, process hollowing, and APC injection by analyzing Sysmon events for cross-process memory operations, remote thread creation, and anomalous DLL loading patterns.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- process-injection
-- sysmon
-- mitre-t1055
-- defense-evasion
-- dll-injection
-- process-hollowing
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1055
-- T1055.001
-- T1055.012
-- T1059
-capec: []
----
-
 # Detecting T1055 Process Injection with Sysmon
 
 ## When to Use

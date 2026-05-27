@@ -1,14 +1,7 @@
----
-name: vuln-scanning-agentless
-description: ">\n  Configure and execute agentless vulnerability scanning using network\
-  \ protocols, cloud snapshot analysis, and API-based discovery to assess systems\
-  \ without installing endpoint agents."
----
 # Performing Agentless Vulnerability Scanning
 
 ## Overview
 Agentless vulnerability scanning assesses systems for security weaknesses without requiring endpoint agent installation. This approach leverages existing network protocols (SSH for Linux, WMI for Windows), cloud provider APIs for snapshot-based analysis, and authenticated remote checks. Modern cloud platforms like Microsoft Defender for Cloud, Wiz, Datadog, and Tenable perform out-of-band analysis by taking disk snapshots and examining OS configurations and installed packages offline. The open-source tool Vuls provides agentless scanning based on NVD and OVAL data for Linux/FreeBSD systems. This skill covers configuring agentless scans across on-premises, cloud, and containerized environments.
-
 
 ## When to Use
 
@@ -392,7 +385,6 @@ vuls tui
 - implementing-wazuh-for-vulnerability-detection
 - deploying-osquery-for-endpoint-monitoring
 - performing-remediation-validation-scanning
-
 
 ---
 

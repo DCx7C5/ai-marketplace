@@ -1,9 +1,4 @@
 ---
-name: "linux-forensic-artifact-bash-history-collect"
-description: "---"
----
-
----
 name: linux-forensic-artifact-bash-history-collect
 description: Collect and preserve shell history artifacts for forensic investigation — acquire .bash_history, .zsh_history, and in-memory history from all users including cleared history artifacts.
 domain: cybersecurity

@@ -1,36 +1,3 @@
----
-name: soc-hunting-supply
-description: Hunt for supply chain compromise indicators including trojanized software updates, compromised dependencies, unauthorized code modifications, and tampered build artifacts.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- supply-chain
-- initial-access
-- t1195
-- proactive-detection
-d3fend_techniques:
-- Platform Hardening
-- Restore Object
-- Restore Software
-- Software Update
-- Asset Inventory
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1195
-capec: []
----
-
 # Hunting For Supply Chain Compromise
 
 ## When to Use

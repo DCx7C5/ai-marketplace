@@ -1,30 +1,3 @@
----
-name: webapp-smuggling-http
-description: Detecting and exploiting HTTP request smuggling vulnerabilities caused by Content-Length and Transfer-Encoding parsing discrepancies between front-end and back-end servers.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- request-smuggling
-- http-desync
-- web-security
-- burpsuite
-- owasp
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-444
-capec: []
----
-
 # Exploiting HTTP Request Smuggling
 
 ## When to Use
@@ -129,7 +102,6 @@ Transfer-Encoding: chunked
 8
 SMUGGLED
 0
-
 
 # If vulnerable (TE.CL):
 # Front-end reads chunked: chunk "SMUGGLED" + final "0"

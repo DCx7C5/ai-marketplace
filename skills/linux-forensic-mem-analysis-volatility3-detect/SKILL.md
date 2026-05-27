@@ -1,33 +1,3 @@
----
-name: linux-forensic-mem-analysis-volatility3-detect
-description: Linux volatile memory forensics. Process injection detection (RWX regions, hollowing, reflective loading), memory-resident malware, DKOM rootkit indicators, heap/stack anomalies, kernel memory integrity, and credential extraction patterns.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- forensics
-- memory
-- analysis
-- volatility3
-- memory-recon
-mitre_attack:
-- T1003
-- T1014
-- T1027
-- T1059
-- T1595
-nist_csf: []
-capec: []
----
-
 # Memory Recon
 
 **Purpose:** Volatile memory forensics specialist. Detects injection, memory-only malware, rootkit DKOM manipulation, kernel memory anomalies, and credential artifacts in live memory.

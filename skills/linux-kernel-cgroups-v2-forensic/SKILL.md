@@ -1,27 +1,3 @@
----
-name: linux-kernel-cgroups-v2-forensic
-description: Linux cgroups v2 forensic analysis — resource isolation inspection, container escape detection via cgroup release agents, and cgroup-based persistence hunting.
-domain: cybersecurity
-subdomain: endpoint-forensics
-tags:
-- linux
-- cgroups
-- container-escape
-- kernel
-- blue-team
-model: sonnet
-maxTurns: 15
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1611
-- T1055
-- T1543
-nist_csf:
-- DE.CM-01
-- PR.PT-04
-capec: []
----
-
 # Linux cgroups v2 Forensic Analysis
 
 ## Overview

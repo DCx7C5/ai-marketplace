@@ -1,36 +1,3 @@
----
-name: cloud-azure-sentinel
-description: This skill covers deploying Microsoft Sentinel as a cloud-native SIEM and SOAR platform for centralized security operations. It details configuring data connectors for multi-cloud log ingestion, writing KQL detection queries, building automated response playbooks with Logic Apps, and leveraging the Sentinel data lake for petabyte-scale threat hunting across AWS, Azure, and GCP security telemetry.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- microsoft-sentinel
-- cloud-siem
-- kql-queries
-- soar-automation
-- threat-detection
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Building Cloud SIEM with Sentinel
 
 ## When to Use

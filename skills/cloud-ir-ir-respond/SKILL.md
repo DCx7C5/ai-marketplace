@@ -1,31 +1,3 @@
----
-name: cloud-ir-ir-respond
-description: Responds to security incidents in cloud environments (AWS, Azure, GCP) by performing identity-based containment, cloud-native log analysis, resource isolation, and forensic evidence acquisition adapted for ephemeral cloud infrastructure. Activates for requests involving cloud incident response, AWS security incident, Azure compromise, GCP breach, cloud forensics, or cloud identity compromise.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- cloud-IR
-- AWS-forensics
-- Azure-incident-response
-- GCP-security
-- identity-containment
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078
-- T1537
-- T1580
-- T1525
-- T1078.004
-capec: []
----
-
 # Conducting Cloud Incident Response
 
 ## When to Use

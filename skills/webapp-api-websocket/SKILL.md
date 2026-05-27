@@ -1,28 +1,3 @@
----
-name: webapp-api-websocket
-description: Testing WebSocket implementations for authentication bypass, cross-site hijacking, injection attacks, and insecure message handling during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- websocket
-- web-security
-- owasp
-- real-time
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-1385
-capec: []
----
-
 # Exploiting WebSocket Vulnerabilities
 
 ## When to Use

@@ -1,9 +1,4 @@
 ---
-name: "linux-harden-kernel-config-audit"
-description: "---"
----
-
----
 name: linux-harden-kernel-config-audit
 description: Audit kernel build configuration for security settings — review /boot/config-*, check for missing hardening options (CFI, SMEP, SMAP, KASLR, KPTI) against security benchmarks.
 domain: cybersecurity

@@ -1,37 +1,8 @@
----
-name: cloud-zerotrust-tailscale
-description: Deploy and configure Tailscale as a WireGuard-based zero trust mesh VPN with identity-aware access controls, ACLs, and exit nodes for secure peer-to-peer connectivity.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- tailscale
-- wireguard
-- mesh-vpn
-- ztna
-- peer-to-peer
-- acl
-- identity-aware
-- headscale
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Deploying Tailscale for Zero Trust VPN
 
 ## Overview
 
 Tailscale is a zero trust mesh VPN built on WireGuard that creates encrypted peer-to-peer connections between devices without requiring traditional VPN servers or complex network configuration. Every connection in a Tailscale network (tailnet) is end-to-end encrypted using WireGuard's Noise protocol framework with Curve25519 key exchange. Tailscale implements zero trust networking by authenticating every connection request through identity providers, enforcing granular Access Control Lists (ACLs), and supporting features like exit nodes, subnet routers, MagicDNS, and Tailscale SSH. For organizations preferring self-hosted infrastructure, Headscale provides an open-source implementation of the Tailscale control server.
-
 
 ## When to Use
 

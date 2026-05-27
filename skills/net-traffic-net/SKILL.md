@@ -1,44 +1,8 @@
----
-name: net-traffic-net
-description: Detect and analyze covert communication channels used by malware including DNS tunneling, ICMP exfiltration, steganographic HTTP, and protocol abuse for C2 and data exfiltration.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- covert-channels
-- dns-tunneling
-- icmp-exfiltration
-- malware-analysis
-- network-forensics
-- c2-detection
-- data-exfiltration
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Certificate Analysis
-- Application Protocol Command Analysis
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1071
-- T1071.004
-capec: []
----
-
 # Analyzing Network Covert Channels in Malware
 
 ## Overview
 
 Malware uses covert channels to disguise C2 communication and data exfiltration within legitimate-looking network traffic. DNS tunneling encodes data in DNS queries and responses (used by tools like iodine, dnscat2, and malware families like FrameworkPOS). ICMP tunneling hides data in echo request/reply payloads (icmpsh, ptunnel). HTTP covert channels embed C2 data in headers, cookies, or steganographic images. Protocol abuse exploits allowed protocols to bypass firewalls. DNS tunneling detection achieves 99%+ recall with modern ML-based approaches, though low-throughput exfiltration remains challenging. Palo Alto Unit42 tracked three major DNS tunneling campaigns (TrkCdn, SecShow, Savvy Seahorse) through 2024, showing the technique's continued prevalence.
-
 
 ## When to Use
 
@@ -73,14 +37,12 @@ except ImportError:
     print("pip install scapy")
     sys.exit(1)
 
-
 def entropy(data):
     if not data:
         return 0
     freq = Counter(data)
     length = len(data)
     return -sum((c/length) * math.log2(c/length) for c in freq.values())
-
 
 def analyze_dns_tunneling(pcap_path):
     """Detect DNS tunneling indicators in PCAP."""
@@ -150,7 +112,6 @@ def analyze_dns_tunneling(pcap_path):
 
     return sorted(suspicious, key=lambda x: -x["score"])
 
-
 def analyze_icmp_tunneling(pcap_path):
     """Detect ICMP tunneling in PCAP."""
     packets = rdpcap(pcap_path)
@@ -182,7 +143,6 @@ def analyze_icmp_tunneling(pcap_path):
             })
 
     return suspicious
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

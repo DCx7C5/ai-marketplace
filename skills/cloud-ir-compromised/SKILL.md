@@ -1,30 +1,3 @@
----
-name: cloud-ir-compromised
-description: Detecting compromised cloud credentials across AWS, Azure, and GCP by analyzing anomalous API activity, impossible travel patterns, unauthorized resource provisioning, and credential abuse indicators using GuardDuty, Defender for Identity, and SCC Event Threat Detection.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- credential-compromise
-- threat-detection
-- guardduty
-- incident-response
-- anomaly-detection
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1078.004
-capec: []
----
-
 # Detecting Compromised Cloud Credentials
 
 ## When to Use

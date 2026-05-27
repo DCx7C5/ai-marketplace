@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-gmail"
-version: "1.0.0"
-description: "Gmail: Send, read, and manage email."
-metadata: ""
-short-description: "Send, read, and manage Gmail"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws gmail --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-gmail"
----
 # gmail (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

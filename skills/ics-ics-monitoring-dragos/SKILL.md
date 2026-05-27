@@ -1,40 +1,3 @@
----
-name: ics-ics-monitoring-dragos
-description: Deploy and configure the Dragos Platform for OT network monitoring, leveraging its 600+ industrial protocol parsers, intelligence-driven threat detection analytics, and asset visibility capabilities to protect ICS environments against threat groups like VOLTZITE, GRAPHITE, and BAUXITE.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- dragos
-- threat-detection
-- ot-monitoring
-- scada
-- threat-intelligence
-- ndr
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1059
-- T1082
-capec: []
----
-
 # Implementing Dragos Platform for OT Monitoring
 
 ## When to Use
@@ -78,7 +41,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class DragosPlatformManager:
     """Interface with Dragos Platform API for OT monitoring management."""
@@ -213,7 +175,6 @@ class DragosPlatformManager:
         print(f"\n--- {siem_type.upper()} INTEGRATION CONFIG ---")
         print(json.dumps(config, indent=2))
         return config
-
 
 if __name__ == "__main__":
     manager = DragosPlatformManager(

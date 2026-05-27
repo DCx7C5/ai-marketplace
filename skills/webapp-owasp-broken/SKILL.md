@@ -1,33 +1,3 @@
----
-name: webapp-owasp-broken
-description: Discover and exploit broken link hijacking vulnerabilities by identifying references to expired domains, decommissioned cloud resources, and dead external services that can be claimed by an attacker.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- broken-link-hijacking
-- blh
-- subdomain-takeover
-- dead-link
-- expired-domain
-- supply-chain
-- external-resource
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1195
-- T1595.002
-cwe:
-- CWE-284
-capec: []
----
-
 # Exploiting Broken Link Hijacking
 
 ## When to Use
@@ -44,7 +14,6 @@ capec: []
 - Understanding of CDN and cloud service provisioning (S3, Azure Blob, GitHub Pages)
 - blc (broken-link-checker) or similar tool for automated link validation
 - Knowledge of services vulnerable to subdomain takeover (can-i-take-over-xyz)
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

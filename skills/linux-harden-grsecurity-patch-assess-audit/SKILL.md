@@ -1,8 +1,4 @@
 ---
-name: "linux-harden-grsecurity-patch-assess-audit"
-description: "---"
----
----
 name: linux-harden-grsecurity-patch-assess-audit
 description: Assess Grsecurity/PaX kernel hardening patch effectiveness — evaluate RBAC policy, UDEREF, SMEP/SMAP enforcement, and PAX_MEMORY_SANITIZE configuration.
 domain: cybersecurity

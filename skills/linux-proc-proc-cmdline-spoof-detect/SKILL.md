@@ -1,9 +1,4 @@
 ---
-name: "linux-proc-proc-cmdline-spoof-detect"
-description: "---"
----
-
----
 name: linux-proc-proc-cmdline-spoof-detect
 description: Detect process name and cmdline spoofing — identify processes manipulating argv[0], prctl(PR_SET_NAME), or /proc/self/comm to disguise malicious activity.
 domain: cybersecurity

@@ -1,32 +1,3 @@
----
-name: net-capture-wireshark
-description: Captures and analyzes network packet data using Wireshark and tshark to identify malicious traffic patterns, diagnose protocol issues, extract artifacts, and support incident response investigations on authorized network segments.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- wireshark
-- packet-analysis
-- traffic-analysis
-- pcap
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1040
-- T1041
-- T1071
-- T1562.001
-- T1562.004
-capec: []
----
-
 # Analyzing Network Traffic with Wireshark
 
 ## When to Use

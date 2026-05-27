@@ -1,9 +1,4 @@
 ---
-name: "linux-id-pam-module-backdoor-detect"
-description: "---"
----
-
----
 name: linux-id-pam-module-backdoor-detect
 description: Detect malicious PAM module insertion — identify unauthorized .so files in /lib/security/, modules logging credentials, and modified pam.d configurations.
 domain: cybersecurity

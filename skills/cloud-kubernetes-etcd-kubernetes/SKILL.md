@@ -1,36 +1,8 @@
----
-name: cloud-kubernetes-etcd-kubernetes
-description: Assess the security posture of Kubernetes etcd clusters by evaluating encryption at rest, TLS configuration, access controls, backup encryption, and network isolation.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- kubernetes
-- etcd
-- encryption
-- tls
-- security-assessment
-- backup
-- secrets
-- control-plane
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1610
-capec: []
----
-
 # Performing Kubernetes etcd Security Assessment
 
 ## Overview
 
 etcd is the distributed key-value store that serves as Kubernetes' backing store for all cluster data, including Secrets, RBAC policies, ConfigMaps, and workload configurations. Without proper hardening, etcd exposes all cluster secrets in plaintext, making it the highest-value target for attackers who gain control plane access. A comprehensive security assessment covers encryption at rest, TLS for transport, access control, backup security, and network isolation.
-
 
 ## When to Use
 

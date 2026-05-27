@@ -1,40 +1,8 @@
----
-name: webapp-api-ratelimit
-description: Implement API abuse detection using token bucket, sliding window, and adaptive rate limiting algorithms to prevent DDoS, brute force, and credential stuffing attacks.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- rate-limiting
-- token-bucket
-- sliding-window
-- ddos-protection
-- brute-force-prevention
-- api-abuse
-- api-gateway
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1110
-- T1190
-- T1498
-capec: []
----
-
 # Implementing API Abuse Detection with Rate Limiting
 
 ## Overview
 
 API rate limiting is a critical security control that restricts the number of requests a client can make within a defined time period. It defends against denial-of-service (DDoS), brute force login attempts, credential stuffing, API scraping, and resource exhaustion attacks. Modern implementations use algorithms like token bucket, sliding window, and fixed window counters, often backed by distributed stores like Redis. Adaptive rate limiting dynamically tightens limits during detected attacks and relaxes during normal operation, achieving a 94% reduction in successful DDoS attempts compared to static IP-based approaches.
-
 
 ## When to Use
 

@@ -1,32 +1,8 @@
----
-name: identity-access-rbac
-description: Apply bottom-up and top-down role mining techniques to discover optimal RBAC roles from existing user-permission assignments, reducing role explosion and enforcing least privilege.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- rbac
-- role-mining
-- identity-governance
-- access-control
-- least-privilege
-- clustering
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Building Role Mining for RBAC Optimization
 
 ## Overview
 
 Role mining is the process of analyzing existing user-permission assignments to discover optimal roles for a Role-Based Access Control (RBAC) system. Organizations accumulate excessive permissions over time through job changes, project assignments, and ad-hoc access grants, leading to "role explosion" where thousands of granular roles exist with significant overlap. Role mining uses data analysis -- including clustering algorithms, formal concept analysis, and graph-based methods -- to consolidate permissions into a minimal set of roles that accurately represent business functions while enforcing least privilege.
-
 
 ## When to Use
 

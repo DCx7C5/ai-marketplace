@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-boot-uefi-variable-tamper-detect"
-description: "---"
----
-
----
 name: linux-kernel-boot-uefi-variable-tamper-detect
 description: Detect unauthorized UEFI variable manipulation — monitor EFI variable store for persistence via NVRAM, rogue boot entries, and BootOrder manipulation.
 domain: cybersecurity

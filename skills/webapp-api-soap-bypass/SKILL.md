@@ -1,41 +1,8 @@
----
-name: webapp-api-soap-bypass
-description: Perform security testing of SOAP web services by analyzing WSDL definitions and testing for XML injection, XXE, WS-Security bypass, and SOAPAction spoofing.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- soap
-- web-services
-- wsdl
-- xml-injection
-- xxe
-- ws-security
-- penetration-testing
-- soapaction-spoofing
-- xpath-injection
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-611
-- CWE-643
-- CWE-91
-capec: []
----
-
 # Performing SOAP Web Service Security Testing
 
 ## Overview
 
 SOAP (Simple Object Access Protocol) web services remain widely deployed in enterprise environments, financial systems, healthcare, and government integrations. Security testing of SOAP services involves analyzing WSDL (Web Services Description Language) definitions to understand available methods, testing for XML-based injection attacks (XXE, XPath injection, XML bombs), evaluating WS-Security implementation correctness, SOAPAction header spoofing, and assessing authentication and authorization controls. Unlike REST APIs, SOAP services use XML envelopes and often implement complex security standards that can be misconfigured.
-
 
 ## When to Use
 
@@ -415,7 +382,6 @@ class SOAPSecurityTester:
             "findings": self.findings
         }
 
-
 def main():
     wsdl_url = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8080/ws?wsdl"
     tester = SOAPSecurityTester(wsdl_url)
@@ -444,7 +410,6 @@ def main():
         print(f"\n  [{finding['severity']}] {finding['type']}")
         print(f"  Operation: {finding['operation']}")
         print(f"  Details: {finding['details']}")
-
 
 if __name__ == "__main__":
     main()

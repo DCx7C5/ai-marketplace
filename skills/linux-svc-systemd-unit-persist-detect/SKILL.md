@@ -1,9 +1,4 @@
 ---
-name: "linux-svc-systemd-unit-persist-detect"
-description: "---"
----
-
----
 name: linux-svc-systemd-unit-persist-detect
 description: Detect systemd service and unit file persistence — scan all unit directories for unauthorized services, check WantedBy/RequiredBy dependencies, and identify post-exploit persistence.
 domain: cybersecurity

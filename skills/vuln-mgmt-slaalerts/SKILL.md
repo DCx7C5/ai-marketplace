@@ -1,15 +1,8 @@
----
-name: vuln-mgmt-slaalerts
-description: ">\n  Build automated alerting for vulnerability remediation SLA breaches\
-  \ with severity-based timelines, escalation workflows, and compliance reporting\
-  \ dashboards."
----
 # Implementing Vulnerability SLA Breach Alerting
 
 ## Overview
 
 Vulnerability remediation SLAs define maximum timeframes for addressing security findings based on severity. This skill covers building an automated alerting system that tracks remediation timelines, detects SLA breaches, sends escalation notifications, and generates compliance reports. Industry-standard SLA targets are: Critical (24-48 hours), High (15-30 days), Medium (60 days), Low (90 days).
-
 
 ## When to Use
 
@@ -280,7 +273,6 @@ def calculate_sla_metrics(db_connection, period_start, period_end):
 - [NIST SP 800-40 Rev 4 - Patch Management](https://csrc.nist.gov/publications/detail/sp/800-40/rev-4/final)
 - [PagerDuty Events API v2](https://developer.pagerduty.com/api-reference/a7d81b0e9200f-send-an-event-to-pager-duty)
 - [Slack Incoming Webhooks](https://api.slack.com/messaging/webhooks)
-
 
 ---
 

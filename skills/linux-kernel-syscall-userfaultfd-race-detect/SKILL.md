@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-syscall-userfaultfd-race-detect"
-description: "---"
----
-
----
 name: linux-kernel-syscall-userfaultfd-race-detect
 description: Detect userfaultfd-based race condition exploits — identify processes using userfaultfd to slow kernel operations and win race conditions in privilege escalation.
 domain: cybersecurity

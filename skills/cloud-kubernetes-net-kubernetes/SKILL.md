@@ -1,34 +1,8 @@
----
-name: cloud-kubernetes-net-kubernetes
-description: Implement Kubernetes network segmentation using Calico NetworkPolicy and GlobalNetworkPolicy for zero-trust pod-to-pod communication.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- calico
-- kubernetes
-- network-policy
-- network-segmentation
-- zero-trust
-- cni
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1610
-capec: []
----
-
 # Implementing Kubernetes Network Policy with Calico
 
 ## Overview
 
 Calico is an open-source CNI plugin that provides fine-grained network policy enforcement for Kubernetes clusters. It implements the full Kubernetes NetworkPolicy API and extends it with Calico-specific GlobalNetworkPolicy, supporting policy ordering, deny rules, and service-account-based selectors.
-
 
 ## When to Use
 

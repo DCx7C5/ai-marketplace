@@ -1,32 +1,8 @@
----
-name: identity-access-control
-description: Configure and execute access recertification campaigns in Saviynt Enterprise Identity Cloud to validate user entitlements, revoke excessive access, and maintain compliance with SOX, SOC2, and HIPAA.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- saviynt
-- access-recertification
-- identity-governance
-- compliance
-- certification-campaign
-- iga
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Access Recertification with Saviynt
 
 ## Overview
 
 Access recertification (also called access certification or access review) is a periodic process where designated reviewers validate that users have appropriate access to systems and data. Saviynt Enterprise Identity Cloud (EIC) automates this process through certification campaigns that present reviewers with current access assignments and collect approve/revoke/conditionally-certify decisions. Campaigns can be triggered on schedule (quarterly, semi-annually), event-driven (department transfer, role change), or on-demand. Saviynt provides intelligence features including risk scoring, usage analytics, and peer-group analysis to help reviewers make informed decisions.
-
 
 ## When to Use
 

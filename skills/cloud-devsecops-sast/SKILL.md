@@ -1,28 +1,3 @@
----
-name: cloud-devsecops-sast
-description: This skill covers integrating Static Application Security Testing (SAST) tools—CodeQL and Semgrep—into GitHub Actions CI/CD pipelines. It addresses configuring automated code scanning on pull requests and pushes, tuning rules to reduce false positives, uploading SARIF results to GitHub Advanced Security, and establishing quality gates that block merges when high-severity vulnerabilities are detected.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- sast
-- codeql
-- semgrep
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Integrating SAST into GitHub Actions Pipeline
 
 ## When to Use
@@ -50,7 +25,7 @@ Create a CodeQL workflow that runs on pull requests and on a weekly schedule to 
 
 ```yaml
 # .github/workflows/codeql-analysis.yml
-name: devsecops-sast
+name: cloud-devsecops-sast
 
 on:
   push:

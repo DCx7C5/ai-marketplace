@@ -1,35 +1,8 @@
----
-name: identity-pam-privileged
-description: Conduct systematic reviews of privileged accounts to validate access rights, identify excessive permissions, and enforce least privilege across PAM infrastructure.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- pam
-- access-review
-- privileged-accounts
-- least-privilege
-- compliance
-- audit
-- identity-governance
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Performing Privileged Account Access Review
 
 ## Overview
 
 Privileged Account Access Review is a critical identity governance process that validates whether users with elevated permissions still require their access. This review covers domain admins, service accounts, database administrators, cloud IAM roles, and application-level privileged accounts. Regular access reviews are mandated by SOC 2, PCI DSS, HIPAA, and SOX compliance frameworks, typically required quarterly for high-privilege accounts.
-
 
 ## When to Use
 

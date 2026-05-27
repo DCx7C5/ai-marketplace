@@ -1,36 +1,8 @@
----
-name: webapp-api-broken
-description: Detect and test for OWASP API3:2023 Broken Object Property Level Authorization vulnerabilities including excessive data exposure and mass assignment attacks.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- bopla
-- owasp-api3
-- mass-assignment
-- excessive-data-exposure
-- property-level-authorization
-- api-testing
-- penetration-testing
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-915
-capec: []
----
-
 # Detecting Broken Object Property Level Authorization
 
 ## Overview
 
 Broken Object Property Level Authorization (BOPLA), classified as API3:2023 in the OWASP API Security Top 10, combines two related vulnerability classes: Excessive Data Exposure (API returning more data than needed) and Mass Assignment (API accepting more data than intended). Even when APIs enforce object-level authorization correctly, they may fail to control which specific properties of an object a user can read or modify. Attackers exploit this by reading sensitive properties from API responses or injecting additional properties into request bodies to modify fields they should not have access to.
-
 
 ## When to Use
 

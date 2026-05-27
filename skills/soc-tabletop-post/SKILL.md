@@ -1,29 +1,3 @@
----
-name: soc-tabletop-post
-description: Facilitate structured post-incident reviews to identify root causes, document what worked and failed, and produce actionable recommendations to improve future incident response.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- incident-response
-- lessons-learned
-- post-incident
-- after-action-review
-- process-improvement
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-- T1566
-- T1078
-capec: []
----
-
 # Conducting Post-Incident Lessons Learned
 
 ## When to Use

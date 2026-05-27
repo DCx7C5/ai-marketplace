@@ -1,43 +1,8 @@
----
-name: soc-splunk-detectionrules
-description: Build effective detection rules using Splunk Search Processing Language (SPL) correlation searches to identify security threats in SOC environments.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- splunk
-- spl
-- detection-engineering
-- correlation-search
-- siem
-- soc
-- threat-detection
-- enterprise-security
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Building Detection Rules with Splunk SPL
 
 ## Overview
 
 Splunk Search Processing Language (SPL) is the primary query language used in Splunk Enterprise Security for building correlation searches that detect suspicious events and patterns. A well-crafted detection rule aggregates, correlates, and enriches security events to generate actionable notable events for SOC analysts. Enterprise SIEMs on average cover only 21% of MITRE ATT&CK techniques, making skilled SPL rule writing essential for closing detection gaps.
-
 
 ## When to Use
 

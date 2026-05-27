@@ -1,38 +1,8 @@
----
-name: webapp-protocol-tls-verify
-description: Configure SSL/TLS inspection on network security devices to decrypt, inspect, and re-encrypt HTTPS traffic for threat detection while managing certificates, exemptions, and privacy compliance.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- ssl-inspection
-- tls-decryption
-- https-inspection
-- certificate-management
-- proxy
-- man-in-the-middle
-- network-security
-- forward-proxy
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1071
-- T1557
-capec: []
----
-
 # Performing SSL/TLS Inspection Configuration
 
 ## Overview
 
 SSL/TLS inspection (also called SSL decryption, HTTPS inspection, or TLS break-and-inspect) intercepts encrypted traffic between clients and servers to inspect the cleartext content for malware, data exfiltration, policy violations, and command-and-control communications. The inspection device acts as a trusted man-in-the-middle, terminating the TLS session from the client, inspecting the plaintext content, and establishing a new TLS session to the destination server. With over 95% of web traffic now encrypted, organizations without TLS inspection have a massive blind spot. This skill covers configuring TLS inspection on next-generation firewalls, deploying trusted CA certificates, managing exemptions for certificate-pinned applications, and ensuring compliance with privacy regulations.
-
 
 ## When to Use
 

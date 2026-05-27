@@ -1,9 +1,4 @@
 ---
-name: "linux-shell-environment-variable-audit"
-description: "---"
----
-
----
 name: linux-shell-environment-variable-audit
 description: Audit shell environment variables across all running processes — identify sensitive data in environment, dangerous overrides, and variables used for privilege escalation.
 domain: cybersecurity

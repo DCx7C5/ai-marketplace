@@ -1,28 +1,3 @@
----
-name: net-capture-zeek-dnsexfil
-description: Detect DNS-based data exfiltration by analyzing Zeek dns.log for high-entropy subdomains and anomalous query patterns
-domain: cybersecurity
-subdomain: network-security
-tags:
-- dns-exfiltration
-- zeek
-- entropy-analysis
-- threat-hunting
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1595.002
-capec: []
----
-
 # Detecting Exfiltration over DNS with Zeek
 
 ## Overview
@@ -30,7 +5,6 @@ capec: []
 DNS tunneling and exfiltration is a technique used by attackers to bypass firewalls and DLP controls by encoding stolen data into DNS query subdomains. Legitimate DNS queries have predictable entropy and length patterns, while exfiltration queries contain encoded data with high Shannon entropy, unusually long subdomain labels, and high volumes of unique subdomains per parent domain.
 
 This skill analyzes Zeek dns.log files (TSV format) to detect exfiltration indicators. The agent computes Shannon entropy for each subdomain component, identifies queries exceeding the 63-character DNS label limit, counts unique subdomains per parent domain, and flags domains that exceed configurable thresholds. These techniques detect tools like dnscat2, iodine, dns2tcp, and custom DNS tunneling implementations.
-
 
 ## When to Use
 

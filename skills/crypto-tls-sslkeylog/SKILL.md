@@ -1,29 +1,3 @@
----
-name: crypto-tls-sslkeylog
-description: TLS key logging management and SSLKEYLOGFILE forensics. Detects insecure keylog file permissions, unauthorized reader processes, ecapture-tls integration, TLS session decryption, and SSLKEYLOGFILE-based exfiltration indicators.
-model: sonnet
-maxTurns: 20
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - network/recon
-  - threats/mitre-attack-mapper
-tags:
-- crypto-pki
-- tls
-- sslkeylog
-- tls-sslkeylog
-mitre_attack:
-- T1041
-nist_csf: []
-capec: []
----
-
 # SSLKEYLOG Skill – TLS Key Logging Management & Analysis
 
 **Purpose:**  

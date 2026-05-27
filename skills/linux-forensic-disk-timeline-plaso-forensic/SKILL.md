@@ -1,26 +1,3 @@
----
-name: linux-forensic-disk-timeline-plaso-forensic
-description: Build comprehensive forensic super-timelines using Plaso (log2timeline) to correlate events across file systems, logs, and artifacts into a unified chronological view.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- timeline-analysis
-- plaso
-- log2timeline
-- super-timeline
-- event-correlation
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Timeline Reconstruction with Plaso
 
 ## When to Use

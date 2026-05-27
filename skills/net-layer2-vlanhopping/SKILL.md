@@ -1,27 +1,3 @@
----
-name: net-layer2-vlanhopping
-description: Simulates VLAN hopping attacks using switch spoofing and double tagging techniques in authorized environments to test VLAN segmentation effectiveness and validate switch port security configurations against Layer 2 bypass attacks.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- vlan-hopping
-- layer2-attack
-- switch-security
-- 802.1q
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1599
-capec: []
----
-
 # Performing VLAN Hopping Attack
 
 ## When to Use
@@ -42,7 +18,6 @@ capec: []
 - Understanding of 802.1Q trunking, DTP, and VLAN tagging at the frame level
 - Access to switch CLI for verification of configurations (read-only is sufficient)
 - Wireshark for capturing and verifying tagged frames
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

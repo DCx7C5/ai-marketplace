@@ -1,34 +1,4 @@
----
-name: intel-platforms-misp
-description: Analyze the threat landscape using MISP (Malware Information Sharing Platform) by querying event statistics, attribute distributions, threat actor galaxy clusters, and tag trends over time. Uses PyMISP to pull event data, compute IOC type breakdowns, identify top threat actors and malware families, and generate threat landscape reports with temporal trends.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- analyzing
-- threat
-- landscape
-- with
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Analyzing Threat Landscape with MISP
-
 
 ## When to Use
 

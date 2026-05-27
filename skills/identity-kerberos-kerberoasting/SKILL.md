@@ -1,39 +1,3 @@
----
-name: identity-kerberos-kerberoasting
-description: Detect Kerberoasting attacks by monitoring for anomalous Kerberos TGS requests targeting service accounts with SPNs for offline password cracking.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- kerberoasting
-- credential-access
-- kerberos
-- t1558
-- proactive-detection
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1070
-- T1558
-- T1558.003
-capec: []
----
-
 # Detecting Kerberoasting Attacks
 
 ## When to Use

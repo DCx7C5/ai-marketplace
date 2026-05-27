@@ -1,30 +1,3 @@
----
-name: net-ids-suricata-configure
-description: Deploys and configures Suricata IDS/IPS with Emerging Threats rulesets, EVE JSON logging, and custom rules for real-time network traffic inspection, threat detection, and integration with SIEM platforms for centralized security monitoring.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- suricata
-- ids
-- ips
-- network-monitoring
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021.002
-- T1059
-- T1070
-- T1562.001
-capec: []
----
-
 # Configuring Suricata for Network Monitoring
 
 ## When to Use

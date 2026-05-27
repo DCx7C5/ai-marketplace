@@ -1,36 +1,8 @@
----
-name: windows-fs-artifacts-prefetchpy
-description: Parse Windows Prefetch files using the windowsprefetch Python library to reconstruct application execution history, detect renamed or masquerading binaries, and identify suspicious program execution patterns.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- digital-forensics
-- windows
-- prefetch
-- execution-history
-- incident-response
-- malware-analysis
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1204
-- T1036
-capec: []
----
-
 # Analyzing Windows Prefetch with Python
 
 ## Overview
 
 Windows Prefetch files (.pf) record application execution data including executable names, run counts, timestamps, loaded DLLs, and accessed directories. This skill covers parsing Prefetch files using the windowsprefetch Python library to reconstruct execution timelines, detect renamed or masquerading binaries by comparing executable names with loaded resources, and identifying suspicious programs that may indicate malware execution or lateral movement.
-
 
 ## When to Use
 

@@ -1,34 +1,8 @@
----
-name: identity-ad-foresttrust
-description: Enumerate and audit Active Directory forest trust relationships using impacket for SID filtering analysis, trust key extraction, cross-forest SID history abuse detection, and inter-realm Kerberos ticket assessment.
-domain: cybersecurity
-subdomain: red-team
-tags:
-- active-directory
-- forest-trust
-- impacket
-- SID-filtering
-- kerberos
-- red-team
-- trust-enumeration
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1558
-capec: []
----
-
 # Performing Active Directory Forest Trust Attack
 
 ## Overview
 
 Active Directory forest trusts enable authentication across organizational boundaries but introduce attack surface if misconfigured. This skill uses impacket to enumerate trust relationships, analyze SID filtering configuration, detect SID history abuse vectors, perform cross-forest SID lookups via LSA/LSAT RPC calls, and assess inter-realm Kerberos ticket configurations for trust ticket forgery risks.
-
 
 ## When to Use
 
@@ -43,7 +17,6 @@ Active Directory forest trusts enable authentication across organizational bound
 - Domain credentials with read access to AD trust objects
 - Network access to Domain Controllers (ports 389, 445, 88)
 - Authorized penetration testing engagement or lab environment
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

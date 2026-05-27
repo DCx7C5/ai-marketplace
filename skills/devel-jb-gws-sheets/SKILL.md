@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-sheets"
-version: "1.0.0"
-description: "Google Sheets: Read and write spreadsheets."
-metadata: ""
-short-description: "Read and write Google Sheets"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws sheets --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-sheets"
----
 # sheets (v4)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

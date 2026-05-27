@@ -1,38 +1,3 @@
----
-name: soc-triage-security
-description: Performs initial triage of security incidents to determine severity, scope, and required response actions using the NIST SP 800-61r3 and SANS PICERL frameworks. Classifies incidents by type, assigns priority based on business impact, and routes to appropriate response teams. Activates for requests involving incident triage, security alert classification, severity assessment, incident prioritization, or initial incident analysis.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- incident-triage
-- NIST-800-61
-- SANS-PICERL
-- severity-classification
-- SOC-operations
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-- T1566
-- T1078
-- T1059
-- T1046
-- T1070
-capec: []
----
-
 # Triaging Security Incidents
 
 ## When to Use

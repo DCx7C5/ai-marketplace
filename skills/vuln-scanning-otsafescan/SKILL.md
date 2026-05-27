@@ -1,10 +1,3 @@
----
-name: vuln-scanning-otsafescan
-description: ">\n  Perform vulnerability scanning in OT/ICS environments safely using\
-  \ passive monitoring, native protocol queries, and carefully controlled active scanning\
-  \ with Tenable OT Security to identify vulnerabilities without disrupting industrial\
-  \ processes or crashing legacy controllers."
----
 # Performing OT Vulnerability Scanning Safely
 
 ## When to Use
@@ -51,7 +44,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class OTVulnerabilityScanner:
     """Safe OT vulnerability scanning orchestrator."""
@@ -215,7 +207,6 @@ class OTVulnerabilityScanner:
                 writer.writerows(self.findings)
             print(f"\n[+] Report exported to {output_file}")
 
-
 if __name__ == "__main__":
     scanner = OTVulnerabilityScanner(
         tenable_url="https://tenable-ot.plant.local",
@@ -268,7 +259,6 @@ PATCH PRIORITIZATION:
   Next Window: [list]
   Acceptable Risk: [list with justification]
 ```
-
 
 ---
 

@@ -1,10 +1,3 @@
----
-name: vuln-binary
-description: ">\n  Analyze binary exploitation techniques including buffer overflows\
-  \ and ROP chains using pwntools Python library. Covers checksec analysis, gadget\
-  \ discovery with ROPgadget, and exploit development for CTF and authorized security\
-  \ assessments."
----
 # Performing Binary Exploitation Analysis
 
 **For authorized security testing and CTF challenges only.**
@@ -436,7 +429,6 @@ exploit(local)
 - Verify that PIE bypass correctly rebases all addresses by checking GDB `vmmap` output against calculated addresses
 - Test that the exploit fails gracefully when mitigations are re-enabled (confirms the exploit targets the correct weakness)
 - Run `ROPgadget` output through a deduplication filter to confirm all referenced gadgets exist at the specified offsets in the target binary
-
 
 ---
 

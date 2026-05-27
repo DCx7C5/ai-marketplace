@@ -1,41 +1,8 @@
----
-name: identity-credentials-lazagne
-description: Extract stored credentials from compromised endpoints using the LaZagne post-exploitation tool to recover passwords from browsers, databases, system vaults, and applications during authorized red team operations.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- credential-access
-- lazagne
-- post-exploitation
-- password-recovery
-- credential-dumping
-- lateral-movement
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-- Platform Hardening
-- File Format Verification
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1021
-capec: []
----
-
 # Performing Credential Access with LaZagne
 
 ## Overview
 
 LaZagne is an open-source post-exploitation tool designed to retrieve credentials stored on local systems. It supports Windows, Linux, and macOS, with the most extensive module library for Windows. LaZagne recovers passwords from browsers (Chrome, Firefox, Edge, Opera), email clients (Outlook, Thunderbird), databases (PostgreSQL, MySQL, SQLite), system stores (Windows Credential Manager, LSA secrets, DPAPI), Wi-Fi profiles, Git credentials, and dozens of other applications. The tool is categorized under MITRE ATT&CK T1555 (Credentials from Password Stores) and is listed as software S0349. Red teams use LaZagne after gaining initial access to harvest stored credentials that enable lateral movement and privilege escalation.
-
 
 ## When to Use
 

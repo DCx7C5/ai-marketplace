@@ -1,38 +1,8 @@
----
-name: cloud-containers-supply
-description: Implement software supply chain integrity verification for container builds using the in-toto framework to create cryptographically signed attestations across CI/CD pipeline steps.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- in-toto
-- supply-chain-security
-- attestation
-- slsa
-- sigstore
-- container-security
-- cncf
-- provenance
-- sbom
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1195
-- T1610
-capec: []
----
-
 # Implementing Supply Chain Security with in-toto
 
 ## Overview
 
 in-toto is a CNCF graduated project that ensures the integrity of software supply chains from initiation to end-user installation. It creates a verifiable record of the entire software development lifecycle by generating cryptographically signed attestations (called "link metadata") at each step, proving what happened, who performed it, and what artifacts were produced. For container environments, in-toto verifies that images deployed to Kubernetes followed approved build processes and have not been tampered with.
-
 
 ## When to Use
 

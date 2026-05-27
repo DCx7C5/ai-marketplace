@@ -1,28 +1,3 @@
----
-name: windows-registry-artifact
-description: Extract and analyze Windows Registry hives to uncover user activity, installed software, autostart entries, and evidence of system compromise.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- windows-registry
-- artifact-analysis
-- regripper
-- registry-explorer
-- evidence-collection
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1547
-capec: []
----
-
 # Analyzing Windows Registry for Artifacts
 
 ## When to Use

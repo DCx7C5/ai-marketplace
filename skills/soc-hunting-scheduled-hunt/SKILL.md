@@ -1,36 +1,3 @@
----
-name: soc-hunting-scheduled-hunt
-description: Hunt for adversary persistence via Windows Scheduled Tasks by analyzing task creation events, suspicious task actions, and unusual scheduling patterns.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- scheduled-tasks
-- persistence
-- t1053
-- proactive-detection
-d3fend_techniques:
-- Execution Isolation
-- Process Termination
-- Hardware-based Process Isolation
-- Platform Monitoring
-- Process Suspension
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1547
-capec: []
----
-
 # Hunting For Scheduled Task Persistence
 
 ## When to Use

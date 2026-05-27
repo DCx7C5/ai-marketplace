@@ -1,27 +1,3 @@
----
-name: net-layer2-vlan-configure
-description: Designs and implements VLAN-based network segmentation on managed switches to isolate network zones, enforce access control between segments, and reduce the attack surface by limiting lateral movement paths in enterprise network environments.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- vlan
-- network-segmentation
-- switch-security
-- 802.1q
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-capec: []
----
-
 # Configuring Network Segmentation with VLANs
 
 ## When to Use

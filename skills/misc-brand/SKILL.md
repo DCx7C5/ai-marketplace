@@ -1,36 +1,8 @@
----
-name: misc-brand
-description: Monitor for brand impersonation attacks across domains, social media, mobile apps, and dark web channels to detect phishing campaigns, fake sites, and unauthorized brand usage targeting your organization.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- brand-monitoring
-- impersonation
-- phishing
-- domain-monitoring
-- social-media
-- brand-protection
-- threat-intelligence
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1593.001
-capec: []
----
-
 # Performing Brand Monitoring for Impersonation
 
 ## Overview
 
 Brand impersonation attacks exploit consumer trust through lookalike domains, fake social media profiles, counterfeit mobile apps, and phishing sites that mimic legitimate brands. In 2025, brand impersonation remained one of the most costly cyber threats, with AI-generated phishing emails achieving a 54% click-through rate. This skill covers building a comprehensive brand monitoring program that detects domain squatting, social media impersonation, fake mobile apps, unauthorized logo usage, and dark web brand mentions using automated scanning and alerting.
-
 
 ## When to Use
 

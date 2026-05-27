@@ -1,37 +1,7 @@
----
-name: email-phishing-mimecast
-description: Deploy Mimecast Targeted Threat Protection including URL Protect, Attachment Protect, Impersonation Protect, and Internal Email Protect to defend against advanced phishing and spearphishing attacks.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- mimecast
-- email-security
-- targeted-threat-protection
-- url-protect
-- impersonation
-- attachment-sandboxing
-- phishing
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1566
-- T1566.001
-capec: []
----
-
 # Implementing Mimecast Targeted Attack Protection
 
 ## Overview
 Mimecast Targeted Threat Protection (TTP) is a suite of advanced email security services designed to protect against sophisticated phishing, spearphishing, and targeted attacks. TTP consists of four core modules: URL Protect (real-time URL rewriting and click-time analysis), Attachment Protect (sandbox detonation of suspicious attachments), Impersonation Protect (BEC and whaling detection), and Internal Email Protect (scanning internal/outbound email for threats). As of November 2025, Mimecast enabled URL Pre-Delivery Action with Hold setting for all customers by default.
-
 
 ## When to Use
 

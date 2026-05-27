@@ -1,29 +1,4 @@
----
-name: identity-insider-threat-hunt
-description: Detects insider data exfiltration by analyzing DLP policy violations, file access patterns, upload volume anomalies, and off-hours activity in endpoint and cloud logs. Uses pandas for behavioral analytics and statistical baselines. Use when investigating insider threats or building user behavior analytics for data loss prevention.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- detecting
-- insider
-- data
-- exfiltration
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-capec: []
----
-
 # Detecting Insider Data Exfiltration via DLP
-
 
 ## When to Use
 

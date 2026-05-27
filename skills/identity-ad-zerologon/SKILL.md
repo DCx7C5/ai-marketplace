@@ -1,44 +1,8 @@
----
-name: identity-ad-zerologon
-description: Exploit the Zerologon vulnerability (CVE-2020-1472) in the Netlogon Remote Protocol to achieve domain controller compromise by resetting the machine account password to empty.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- zerologon
-- cve-2020-1472
-- netlogon
-- domain-controller
-- privilege-escalation
-- active-directory
-- ms-nrpc
-d3fend_techniques:
-- Platform Monitoring
-- Process Code Segment Verification
-- Stack Frame Canary Validation
-- Segment Address Offset Randomization
-- Process Analysis
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-cwe:
-- CWE-269
-cve:
-- CVE-2020-1472
-capec: []
----
-
 # Exploiting Zerologon Vulnerability (CVE-2020-1472)
 
 ## Overview
 
 Zerologon (CVE-2020-1472) is a critical elevation of privilege vulnerability (CVSS 10.0) in the Microsoft Netlogon Remote Protocol (MS-NRPC). The flaw exists in the cryptographic implementation of AES-CFB8 mode, where the initialization vector (IV) is incorrectly set to all zeros. This allows an unauthenticated attacker with network access to a domain controller to establish a Netlogon session and reset the DC machine account password to empty, achieving full domain compromise. Microsoft patched this vulnerability in August 2020 (KB4571694).
-
 
 ## When to Use
 
@@ -54,7 +18,6 @@ Zerologon (CVE-2020-1472) is a critical elevation of privilege vulnerability (CV
 - Target DC must not have the February 2021 enforcement mode enabled
 - Impacket toolkit installed
 - Written authorization for red team engagement
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

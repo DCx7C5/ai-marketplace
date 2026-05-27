@@ -1,29 +1,3 @@
----
-name: cloud-zerotrust-guardicore
-description: Implementing microsegmentation using Akamai Guardicore Segmentation to map application dependencies, create granular network policies, visualize east-west traffic flows, and enforce least-privilege communication between workloads across data centers and cloud.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- microsegmentation
-- guardicore
-- akamai
-- zero-trust
-- east-west-traffic
-- network-segmentation
-- lateral-movement
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-capec: []
----
-
 # Implementing Microsegmentation with Guardicore
 
 ## When to Use

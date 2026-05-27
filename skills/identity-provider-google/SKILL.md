@@ -1,30 +1,3 @@
----
-name: identity-provider-google
-description: Implements comprehensive Google Workspace security hardening including admin console configuration, phishing-resistant MFA enforcement, DLP policies, email authentication (SPF/DKIM/DMARC), OAuth app control, and external sharing restrictions. Activates for requests involving Google Workspace hardening, G Suite security configuration, or cloud office security administration.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- Google-Workspace
-- admin-security
-- MFA
-- DMARC
-- DLP
-- OAuth
-- cloud-security
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-- T1566
-capec: []
----
-
 # Implementing Google Workspace Admin Security
 
 ## When to Use

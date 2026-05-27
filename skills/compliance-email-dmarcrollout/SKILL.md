@@ -1,35 +1,7 @@
----
-name: compliance-email-dmarcrollout
-description: Execute a phased DMARC rollout from p=none monitoring through p=quarantine to p=reject enforcement, ensuring all legitimate email sources are authenticated before blocking unauthorized senders.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- dmarc
-- spf
-- dkim
-- email-authentication
-- anti-spoofing
-- phishing
-- dns
-- email-security
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-capec: []
----
-
 # Performing DMARC Policy Enforcement Rollout
 
 ## Overview
 Domain-based Message Authentication, Reporting and Conformance (DMARC) is the cornerstone of email anti-spoofing protection. A DMARC rollout progresses through three phases: monitoring (p=none), quarantine (p=quarantine), and full enforcement (p=reject). When configured at p=reject, any email that fails both SPF and DKIM checks is outright rejected. Google and Yahoo now require DMARC for bulk senders (5,000+ emails), driving a 65% reduction in unauthenticated messages. The rollout typically takes 3-6 months for safe deployment.
-
 
 ## When to Use
 

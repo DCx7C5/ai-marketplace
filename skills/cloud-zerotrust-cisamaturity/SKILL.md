@@ -1,43 +1,8 @@
----
-name: cloud-zerotrust-cisamaturity
-description: Implement the CISA Zero Trust Maturity Model v2.0 across the five pillars of identity, devices, networks, applications, and data to achieve progressive organizational zero trust maturity.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- cisa
-- maturity-model
-- federal-compliance
-- governance
-- nist-800-207
-- identity
-- devices
-- networks
-- applications
-- data-security
-nist_ai_rmf:
-- GOVERN-1.1
-- GOVERN-1.7
-- MAP-1.1
-- GOVERN-4.2
-- MAP-2.3
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing CISA Zero Trust Maturity Model
 
 ## Overview
 
 The CISA Zero Trust Maturity Model (ZTMM) Version 2.0, released in April 2023, provides federal agencies and organizations with a structured roadmap for adopting zero trust architecture. The model defines five core pillars -- Identity, Devices, Networks, Applications & Workloads, and Data -- each progressing through four maturity stages: Traditional, Initial, Advanced, and Optimal. Three cross-cutting capabilities (Visibility and Analytics, Automation and Orchestration, and Governance) span all pillars. This skill covers assessment, gap analysis, and progressive implementation across all pillars and maturity levels.
-
 
 ## When to Use
 

@@ -1,49 +1,8 @@
----
-name: cloud-azure-general-overview
-description: Detect and investigate Azure service principal abuse including privilege escalation, credential compromise, admin consent bypass, and unauthorized enumeration in Microsoft Entra ID environments.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- azure
-- entra-id
-- service-principal
-- privilege-escalation
-- credential-abuse
-- detection
-- splunk
-- sentinel
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Application Protocol Command Analysis
-- Reissue Credential
-- Network Isolation
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1021
-- T1059
-- T1068
-- T1070
-- T1078.004
-cwe:
-- CWE-269
-capec: []
----
-
 # Detecting Azure Service Principal Abuse
 
 ## Overview
 
 Azure service principals are identity objects used by applications, services, and automation tools to access Azure resources. Attackers exploit service principals for privilege escalation, lateral movement, and persistent access. Key abuse patterns include: adding credentials to existing principals, assigning privileged roles, bypassing admin consent, and enumerating service principals for attack paths. Application ownership grants the ability to manage credentials and configure permissions, creating hidden privilege escalation paths.
-
 
 ## When to Use
 

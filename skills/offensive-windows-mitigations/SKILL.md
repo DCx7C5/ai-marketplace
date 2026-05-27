@@ -1,28 +1,3 @@
-# SKILL: Week 6: Understanding Windows Mitigations
-
-## Metadata
-- **Skill Name**: windows-mitigations
-- **Folder**: offensive-windows-mitigations
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/6-windows-mitigations.md
-
-## Description
-Deep-dive on Windows exploit mitigations: ASLR, DEP/NX, CFG, CET/Shadow Stack, SEHOP, Heap Guard, ACG, Arbitrary Code Guard. Covers both the protection mechanism and known bypass techniques. Use when researching Windows exploit mitigations, planning bypass strategies, or understanding protection depth.
-
-## Trigger Phrases
-Use this skill when the conversation involves any of:
-`Windows mitigations, ASLR, DEP, NX, CFG, CET, shadow stack, SEHOP, heap guard, ACG, mitigation bypass, exploit mitigation, Windows hardening`
-
-## Instructions for Claude
-
-When this skill is active:
-1. Load and apply the full methodology below as your operational checklist
-2. Follow steps in order unless the user specifies otherwise
-3. For each technique, consider applicability to the current target/context
-4. Track which checklist items have been completed
-5. Suggest next steps based on findings
-
----
-
 ## Full Methodology
 
 # Week 6: Understanding Windows Mitigations
@@ -2323,7 +2298,6 @@ context.arch = 'amd64'
 context.os = 'windows'
 context.log_level = 'info'
 
-
 def leak_stack_values(r):
     """
     Stage 1: Use format string bug to leak stack values.
@@ -2419,7 +2393,6 @@ def leak_stack_values(r):
     print()
     return leaks
 
-
 def exploit():
     """
     Discovery phase:
@@ -2473,7 +2446,6 @@ def exploit():
     log.info("4. Update HANDLER_OFFSET and DANGEROUS_HANDLER in this script")
     log.info("5. Run: python exploits\\sc_1.py --exploit")
     log.info("=" * 60)
-
 
 def exploit_with_known_offset():
     """
@@ -2542,7 +2514,6 @@ def exploit_with_known_offset():
     log.info("NOTE: CFG is coarse-grained — dangerous_handler IS a valid function")
     log.info("entry, so CFG will ALLOW this redirect. CFG only blocks calls to")
     log.info("mid-function addresses, shellcode, or ROP gadgets.")
-
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--exploit":
@@ -2709,7 +2680,6 @@ context.arch = 'amd64'
 context.os = 'windows'
 context.log_level = 'info'
 
-
 def parse_address(output_bytes, label):
     """
     Parse a function address from the binary's output.
@@ -2723,7 +2693,6 @@ def parse_address(output_bytes, label):
     if m:
         return int(m.group(2), 16)
     return None
-
 
 def discover():
     """
@@ -2770,7 +2739,6 @@ def discover():
         log.info(f"Run exploit: python exploits\\sc_2_partial.py --exploit")
     else:
         log.error("Could not parse addresses from output")
-
 
 def exploit():
     """
@@ -2857,7 +2825,6 @@ def exploit():
         log.info(f"Exit code: {hex(exit_code)}")
 
     p.close()
-
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--exploit":
@@ -3038,7 +3005,6 @@ context.arch = 'amd64'
 context.os = 'windows'
 context.log_level = 'info'
 
-
 def parse_address(output_bytes, label):
     """
     Parse a function address from binary output.
@@ -3051,7 +3017,6 @@ def parse_address(output_bytes, label):
         return int(m.group(2), 16)
     return None
 
-
 def parse_offset(output_bytes):
     """
     Parse the handler offset from 'offset NNN from data' in binary output.
@@ -3061,7 +3026,6 @@ def parse_offset(output_bytes):
     if m:
         return int(m.group(1))
     return 128  # default fallback
-
 
 def discover():
     """Run the binary to find function addresses and verify struct layout."""
@@ -3102,7 +3066,6 @@ def discover():
         log.info(f"Run: python exploits\\sc_3_funcptr.py --exploit")
     else:
         log.error("Could not parse addresses from output")
-
 
 def exploit():
     """Overwrite handler with dangerous_handler address (auto-parsed)."""
@@ -3171,7 +3134,6 @@ def exploit():
             log.info("GS cookie check fired AFTER handler ran (expected)")
 
     p.close()
-
 
 def cfg_test():
     """
@@ -3308,7 +3270,6 @@ def cfg_test():
     log.info("  Fine-grained CFI (e.g., Clang CFI, LLVM type-based) would block")
     log.info("  the valid-function redirect too, by checking type signatures.")
     log.info("=" * 60)
-
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--exploit":
@@ -3549,7 +3510,6 @@ context.arch = 'amd64'
 context.os = 'windows'
 context.log_level = 'info'
 
-
 def exploit():
     binary_path = r'C:\Windows_Mitigations_Lab\bin\exception_bypass.exe'
 
@@ -3620,7 +3580,6 @@ def exploit():
             log.info("Clean exit - exception was handled, cookie was OK")
 
     p.close()
-
 
 if __name__ == "__main__":
     exploit()
@@ -4459,7 +4418,6 @@ context.arch = 'amd64'
 context.os = 'windows'
 context.log_level = 'info'
 
-
 def parse_address(output_bytes, label):
     """
     Parse an address from binary output like:
@@ -4476,7 +4434,6 @@ def parse_address(output_bytes, label):
         if m:
             return int(m.group(1), 16)
     return None
-
 
 def exploit():
     binary_path = r'C:\Windows_Mitigations_Lab\bin\www_vuln.exe'
@@ -4575,7 +4532,6 @@ def exploit():
             log.info(f"Exit code: {hex(exit_code)}")
 
     p.close()
-
 
 if __name__ == "__main__":
     exploit()
@@ -4824,7 +4780,6 @@ psapi = ctypes.WinDLL('psapi', use_last_error=True)
 PROCESS_VM_READ = 0x0010
 PROCESS_QUERY_INFORMATION = 0x0400
 
-
 def read_process_memory(handle, address, size):
     """Read 'size' bytes from 'address' in the target process."""
     buffer = ctypes.create_string_buffer(size)
@@ -4841,7 +4796,6 @@ def read_process_memory(handle, address, size):
         print(f"  [!] ReadProcessMemory failed at 0x{address:016X}: error {err}")
         return b""
     return buffer.raw[:bytes_read.value]
-
 
 def get_module_base(handle):
     """
@@ -4874,7 +4828,6 @@ def get_module_base(handle):
 
     print(f"  [*] Main module: {mod_name.value.decode()} @ 0x{base:016X}")
     return base
-
 
 def analyze_cookie(pid, cookie_rva):
     """
@@ -4961,7 +4914,6 @@ def analyze_cookie(pid, cookie_rva):
     print(f"\n[*] Done. To see the stack-stored (XOR'd) cookie:")
     print(f"    Attach WinDbg -> bp on a /GS function -> examine [rsp+N]")
     print(f"    Stack cookie = global cookie XOR RSP (x64)")
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -9447,7 +9399,6 @@ Single Page Table for process:
 │ Kernel Space Mappings                   │  ← Visible but protected
 │ (ntoskrnl, drivers, kernel data)        │     (Meltdown leaks this!)
 └─────────────────────────────────────────┘
-
 
 With KVA Shadow:
 ---------------------------------------------------------------------
@@ -14541,4 +14492,3 @@ After completing Weeks 6-7 (understanding mitigations), Week 8 teaches bypass te
 - **ARM64 Exploitation — PAC, BTI & MTE Bypass**: Learn ARM64-specific exploitation including pointer authentication code signing bypasses, branch target identification circumvention, and memory tagging exploitation
 
 <!-- Written by AnotherOne from @Pwn3rzs Telegram channel -->
-

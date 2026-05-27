@@ -1,28 +1,3 @@
----
-name: linux-fs-endpoint-analyze
-description: Implements full disk encryption using Microsoft BitLocker on Windows endpoints to protect data at rest from unauthorized access in case of device loss or theft. Use when deploying encryption for compliance requirements, securing mobile workstations, or implementing data protection controls across the enterprise. Activates for requests involving BitLocker encryption, disk encryption, TPM configuration, or data-at-rest protection.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- encryption
-- BitLocker
-- TPM
-- data-protection
-- windows-security
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Disk Encryption with BitLocker
 
 ## When to Use

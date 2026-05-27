@@ -1,30 +1,3 @@
----
-name: ics-ics-architecture-iec-62443-conduit-configure
-description: Implement secure conduit architecture for OT remote access following IEC 62443 zones and conduits model, deploying jump servers, MFA-enabled gateways, session recording, and approval-based workflows to control vendor and engineer access to industrial control systems without exposing OT networks directly.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- remote-access
-- iec62443
-- jump-server
-- zero-trust
-- conduit
-- mfa
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Implementing Conduit Security for OT Remote Access
 
 ## When to Use
@@ -158,7 +131,6 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 from enum import Enum
 
-
 class AccessRequestStatus(Enum):
     PENDING = "pending"
     APPROVED = "approved"
@@ -166,7 +138,6 @@ class AccessRequestStatus(Enum):
     ACTIVE = "active"
     EXPIRED = "expired"
     REVOKED = "revoked"
-
 
 class RemoteAccessRequest:
     """Represents an OT remote access request."""
@@ -207,7 +178,6 @@ class RemoteAccessRequest:
             "actor": rejector,
             "reason": reason,
         })
-
 
 class OTConduitManager:
     """Manages OT remote access conduit security."""
@@ -305,7 +275,6 @@ class OTConduitManager:
             print(f"    Targets: {', '.join(req.target_systems)}")
             for entry in req.audit_trail:
                 print(f"    [{entry['timestamp']}] {entry['action']} by {entry['actor']}")
-
 
 if __name__ == "__main__":
     manager = OTConduitManager()

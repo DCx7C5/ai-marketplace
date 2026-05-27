@@ -1,37 +1,8 @@
----
-name: webapp-api-42crunch
-description: Implement comprehensive API security testing using the 42Crunch platform to perform static audit and dynamic conformance scanning of OpenAPI specifications.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- 42crunch
-- openapi
-- api-audit
-- api-scan
-- conformance-testing
-- shift-left
-- ci-cd-security
-- owasp-api-top-10
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Implementing API Security Testing with 42Crunch
 
 ## Overview
 
 42Crunch is an API security platform that combines Shift-Left security testing with Shield-Right runtime protection. It provides API Audit for static security analysis of OpenAPI definitions, API Conformance Scan for dynamic vulnerability detection, and API Protect for real-time threat prevention. The platform integrates into CI/CD pipelines and IDEs to identify OWASP API Security Top 10 vulnerabilities before and after deployment.
-
 
 ## When to Use
 
@@ -204,7 +175,7 @@ npm install -g @42crunch/cicd-cli
 **GitHub Actions Integration:**
 
 ```yaml
-name: api-42crunch
+name: webapp-api-42crunch
 on:
   push:
     paths:

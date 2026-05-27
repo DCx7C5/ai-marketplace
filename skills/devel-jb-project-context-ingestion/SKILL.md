@@ -1,11 +1,3 @@
----
-name: "devel-jb-project-context-ingestion"
-description: "Inspect a Kotlin + Spring repository before making changes or answering implementation, debugging, build, architecture, or review questions. Use when the agent must map modules, Spring Boot/Kotlin/Gradle/JDK versions, compiler plugins, profiles, dependencies, runtime stack, and architectural boundaries so later advice stays compatible with the real project."
-metadata: ""
-short-description: "Map Kotlin/Spring repo before acting"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/project-context-ingestion"
----
 # Project Context Ingestion
 
 Source mapping: Tier 1 critical skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-01`).

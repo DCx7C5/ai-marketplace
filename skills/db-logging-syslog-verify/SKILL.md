@@ -1,26 +1,4 @@
----
-name: db-logging-syslog-verify
-description: Configure rsyslog for centralized log collection with TLS encryption, custom plugins, and log rotation. Generates server and client configuration files with GnuTLS stream drivers, x509 certificate authentication, per-host log segregation, and reliable queue settings for high-availability syslog infrastructure.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- implementing
-- syslog
-- centralization
-- with
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Syslog Centralization with Rsyslog
-
 
 ## When to Use
 

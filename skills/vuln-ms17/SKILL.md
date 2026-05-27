@@ -1,15 +1,8 @@
----
-name: vuln-ms17
-description: ">\n  MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's\
-  \ SMBv1 implementation that allows remote code execution. Originally discovered\
-  \ by the NSA and leaked by the Shadow Brokers in 2017, it"
----
 # Exploiting MS17-010 EternalBlue Vulnerability
 
 ## Overview
 
 MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's SMBv1 implementation that allows remote code execution. Originally discovered by the NSA and leaked by the Shadow Brokers in 2017, it was used in the WannaCry and NotPetya ransomware campaigns. Despite patches being available since March 2017, many organizations still have unpatched systems, making it a viable red team exploitation vector especially in legacy environments.
-
 
 ## When to Use
 
@@ -76,7 +69,6 @@ MS17-010 (EternalBlue) is a critical vulnerability in Microsoft's SMBv1 implemen
 - [ ] Code execution confirmed with session established
 - [ ] Post-exploitation activities documented
 - [ ] Remediation recommendations provided
-
 
 ---
 

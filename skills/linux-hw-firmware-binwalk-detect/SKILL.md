@@ -1,29 +1,3 @@
----
-name: linux-hw-firmware-binwalk-detect
-description: Performs firmware image extraction and analysis using binwalk to identify embedded filesystems, compressed archives, bootloaders, kernel images, and cryptographic material. Covers entropy analysis for detecting encrypted or compressed regions, recursive extraction of nested archives, SquashFS/CramFS/JFFS2 filesystem mounting, and string analysis for credential and configuration discovery. Activates for requests involving firmware reverse engineering, IoT device analysis, embedded system security assessment, or router/camera firmware extraction.
-domain: cybersecurity
-subdomain: firmware-analysis
-tags:
-- firmware
-- binwalk
-- extraction
-- entropy
-- IoT-security
-- reverse-engineering
-nist_csf:
-- ID.RA-01
-- PR.PS-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-42373
-- CVE-2021-42374
-- CVE-2016-3116
-capec: []
----
-
 # Performing Firmware Extraction with Binwalk
 
 ## When to Use

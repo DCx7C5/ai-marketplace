@@ -1,11 +1,3 @@
----
-name: "devel-jb-kotlin-idiomatic-refactorer-spring-aware"
-description: "Refactor Kotlin code toward clearer, more idiomatic design without breaking Spring behavior, serialization, persistence, or public contracts. Use when Java-flavored Kotlin needs cleanup, domain modeling should become more expressive, or boilerplate should be reduced, but the refactoring must remain safe for proxies, Jackson, JPA, configuration binding, and existing tests."
-metadata: ""
-short-description: "Refactor Kotlin without breaking Spring"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/kotlin-idiomatic-refactorer-spring-aware"
----
 # Kotlin Idiomatic Refactorer Spring Aware
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-20`).

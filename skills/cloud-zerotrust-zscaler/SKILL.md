@@ -1,27 +1,3 @@
----
-name: cloud-zerotrust-zscaler
-description: Configuring Zscaler Private Access (ZPA) to replace traditional VPN with zero trust network access by deploying App Connectors, defining application segments, configuring access policies based on user identity and device posture, and integrating with IdPs.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zscaler
-- zpa
-- ztna
-- zero-trust
-- app-connector
-- access-policy
-- sase
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Configuring Zscaler Private Access for ZTNA
 
 ## When to Use

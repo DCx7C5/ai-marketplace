@@ -1,28 +1,3 @@
----
-name: intel-ioc-iocauto
-description: Automates Indicator of Compromise (IOC) enrichment by orchestrating lookups across VirusTotal, AbuseIPDB, Shodan, MISP, and other intelligence sources to provide contextual scoring and disposition recommendations. Use when SOC analysts need rapid multi-source enrichment of IPs, domains, URLs, and file hashes during alert triage or incident investigation.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- ioc
-- enrichment
-- automation
-- virustotal
-- abuseipdb
-- shodan
-- threat-intelligence
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing IOC Enrichment Automation
 
 ## When to Use

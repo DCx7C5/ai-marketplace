@@ -1,14 +1,7 @@
----
-name: vuln-metasploit
-description: ">\n  The Metasploit Framework is the world's most widely used penetration\
-  \ testing platform, maintained by Rapid7. It contains over 2,300 exploits, 1,200\
-  \ auxiliary modules, and 400 post-exploitation modules"
----
 # Exploiting Vulnerabilities with Metasploit Framework
 
 ## Overview
 The Metasploit Framework is the world's most widely used penetration testing platform, maintained by Rapid7. It contains over 2,300 exploits, 1,200 auxiliary modules, and 400 post-exploitation modules. Within vulnerability management, Metasploit serves as a validation tool to confirm that identified vulnerabilities are actually exploitable, enabling risk-based prioritization and demonstrating real-world impact to stakeholders.
-
 
 ## When to Use
 
@@ -192,7 +185,6 @@ msf6> check
 - performing-red-team-validated-vulnerability-testing
 - scanning-infrastructure-with-nessus
 - performing-network-vulnerability-assessment
-
 
 ---
 

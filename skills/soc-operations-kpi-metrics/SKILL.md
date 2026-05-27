@@ -1,36 +1,3 @@
----
-name: soc-operations-kpi-metrics
-description: Builds SOC performance metrics and KPI tracking dashboards measuring Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), alert quality ratios, analyst productivity, and detection coverage using SIEM data. Use when SOC leadership needs operational visibility, continuous improvement tracking, or executive-level reporting on security operations effectiveness.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- metrics
-- kpi
-- mttd
-- mttr
-- dashboard
-- reporting
-- continuous-improvement
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Building SOC Metrics and KPI Tracking
 
 ## When to Use

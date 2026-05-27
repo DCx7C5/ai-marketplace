@@ -1,14 +1,3 @@
----
-name: "devel-jb-implement-feature"
-description: ">-"
-this skill whenever the user asks to: "add a new CLI command, implement a"
-argument-hint: "[spec-file-path | feature description]"
-targets: ["claude", "codex"]
-metadata: ""
-short-description: "Implement features with TDD"
-author: "Runkids"
-source: "https://github.com/runkids/skillshare/tree/main/.skillshare/skills/implement-feature"
----
 Implement a feature following TDD workflow. $ARGUMENTS is a spec file path (e.g., `specs/my-feature.md`) or a plain-text feature description.
 
 **Scope**: This skill writes Go code and tests. It does NOT update website docs (use `update-docs` after) or CHANGELOG (use `changelog` after).

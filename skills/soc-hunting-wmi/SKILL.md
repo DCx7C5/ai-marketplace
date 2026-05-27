@@ -1,39 +1,3 @@
----
-name: soc-hunting-wmi
-description: Detect WMI event subscription persistence by analyzing Sysmon Event IDs 19, 20, and 21 for malicious EventFilter, EventConsumer, and FilterToConsumerBinding creation.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- wmi
-- persistence
-- sysmon
-- t1546.003
-- mitre-attack
-- windows
-- dfir
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1047
-- T1059
-- T1547
-- T1562.001
-capec: []
----
-
 # Detecting WMI Persistence
 
 ## When to Use

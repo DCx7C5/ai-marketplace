@@ -1,40 +1,3 @@
----
-name: ics-ics-protocols-dnp3
-description: Detect anomalies in DNP3 (Distributed Network Protocol 3) communications used in SCADA systems by monitoring for unauthorized control commands, firmware update attempts, protocol violations, and deviations from baseline traffic patterns using deep packet inspection and machine learning approaches.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- dnp3
-- scada
-- anomaly-detection
-- protocol-analysis
-- energy-sector
-- ids
-atlas_techniques:
-- AML.T0043
-- AML.T0018
-nist_ai_rmf:
-- MEASURE-2.7
-- MEASURE-2.5
-- MAP-5.1
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0814
-- T0855
-- T1059
-- T1562.001
-capec: []
----
-
 # Detecting DNP3 Protocol Anomalies
 
 ## When to Use
@@ -81,7 +44,6 @@ except ImportError:
     print("Install scapy: pip install scapy")
     sys.exit(1)
 
-
 # DNP3 Function Codes
 DNP3_FUNCTIONS = {
     0x00: "Confirm", 0x01: "Read", 0x02: "Write",
@@ -112,7 +74,6 @@ DNP3_CRITICAL_FUNCTIONS = {
     0x12,  # Stop Application
     0x19, 0x1A, 0x1B,  # File operations (firmware update)
 }
-
 
 class DNP3AnomalyDetector:
     """Detects anomalies in DNP3 protocol communications."""
@@ -311,7 +272,6 @@ class DNP3AnomalyDetector:
                 print(f"    Function: {alert['function']}")
                 print(f"    Detail: {alert['description']}")
                 print(f"    MITRE ICS: {alert.get('mitre', 'N/A')}")
-
 
 if __name__ == "__main__":
     detector = DNP3AnomalyDetector(

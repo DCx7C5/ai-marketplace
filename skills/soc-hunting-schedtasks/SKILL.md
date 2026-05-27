@@ -1,29 +1,3 @@
----
-name: soc-hunting-schedtasks
-description: Hunt for adversary persistence and execution via Windows scheduled tasks by analyzing task creation events, suspicious task properties, and unusual execution patterns that indicate T1053.005 abuse.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- scheduled-tasks
-- persistence
-- mitre-t1053-005
-- windows
-- endpoint-detection
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1547
-capec: []
----
-
 # Hunting for Suspicious Scheduled Tasks
 
 ## When to Use

@@ -1,38 +1,3 @@
----
-name: soc-hunting-mimikatz
-description: Detect Mimikatz execution through command-line patterns, LSASS access signatures, binary indicators, and in-memory detection of known modules.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- mimikatz
-- credential-dumping
-- edr
-- t1003
-- proactive-detection
-d3fend_techniques:
-- Execution Isolation
-- Process Termination
-- Hardware-based Process Isolation
-- Web Session Access Mediation
-- Process Suspension
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1003.001
-- T1059
-- T1070
-capec: []
----
-
 # Detecting Mimikatz Execution Patterns
 
 ## When to Use

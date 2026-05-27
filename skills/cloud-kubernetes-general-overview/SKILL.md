@@ -1,30 +1,3 @@
----
-name: cloud-kubernetes-general-overview
-description: Auditing Kubernetes cluster RBAC configurations to identify overly permissive roles, wildcard permissions, dangerous ClusterRoleBindings, service account abuse, and privilege escalation paths using kubectl, rbac-tool, KubiScan, and Kubeaudit.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- kubernetes
-- rbac
-- access-control
-- eks
-- gke
-- aks
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1610
-capec: []
----
-
 # Auditing Kubernetes Cluster RBAC
 
 ## When to Use

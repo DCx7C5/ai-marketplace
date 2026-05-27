@@ -1,9 +1,4 @@
 ---
-name: "linux-container-seccomp-profile-audit"
-description: "---"
----
-
----
 name: linux-container-seccomp-profile-audit
 description: Audit container seccomp profiles — analyze Docker/Kubernetes seccomp policies for dangerous syscalls, identify containers running without seccomp, and compare against default profiles.
 domain: cybersecurity

@@ -1,38 +1,8 @@
----
-name: net-security-firewall
-description: Design and implement network segmentation using firewall security zones, VLANs, ACLs, and microsegmentation policies to restrict lateral movement and enforce least-privilege network access.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-segmentation
-- firewall-zones
-- vlan
-- microsegmentation
-- lateral-movement
-- zero-trust
-- acl
-- east-west-traffic
-- pci-dss
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1562.004
-capec: []
----
-
 # Implementing Network Segmentation with Firewall Zones
 
 ## Overview
 
 Network segmentation divides a flat network into isolated security zones with firewall-enforced boundaries to contain breaches, restrict lateral movement, and enforce least-privilege access between workloads. Segmentation is a foundational control required by PCI DSS, HIPAA, NIST 800-53, and zero trust architectures. Modern segmentation combines traditional VLAN-based approaches with microsegmentation at the workload level for granular east-west traffic control. This skill covers designing zone architectures, configuring inter-zone firewall policies, implementing VLAN segmentation on switches, and deploying microsegmentation for dynamic environments.
-
 
 ## When to Use
 
@@ -230,7 +200,6 @@ import sys
 import json
 from datetime import datetime
 
-
 class SegmentationValidator:
     """Test network segmentation controls between zones."""
 
@@ -317,7 +286,6 @@ class SegmentationValidator:
         with open(report_path, 'w') as f:
             json.dump(report, f, indent=2)
         print(f"\nReport saved to: {report_path}")
-
 
 if __name__ == "__main__":
     validator = SegmentationValidator()

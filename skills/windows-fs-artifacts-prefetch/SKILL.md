@@ -1,26 +1,3 @@
----
-name: windows-fs-artifacts-prefetch
-description: Parse Windows Prefetch files to determine program execution history including run counts, timestamps, and referenced files for forensic investigation.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- prefetch
-- windows-artifacts
-- execution-history
-- timeline-analysis
-- evidence-collection
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing Prefetch Files for Execution History
 
 ## When to Use

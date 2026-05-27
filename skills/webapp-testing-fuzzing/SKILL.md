@@ -1,34 +1,3 @@
----
-name: webapp-testing-fuzzing
-description: Perform coverage-guided fuzzing of compiled binaries using AFL++ (American Fuzzy Lop Plus Plus) to discover memory corruption, crashes, and security vulnerabilities. The tester instruments target binaries with afl-cc/afl-clang-fast, manages input corpora with afl-cmin and afl-tmin, runs parallel fuzzing campaigns with afl-fuzz, and triages crashes using CASR or GDB scripts. Activates for requests involving binary fuzzing, crash discovery, coverage-guided testing, or AFL++ fuzzing campaigns.
-domain: cybersecurity
-subdomain: application-security
-tags:
-- fuzzing
-- aflplusplus
-- coverage-guided
-- crash-triage
-- binary-analysis
-- security-testing
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- PR.PS-04
-- ID.RA-01
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Fuzzing with AFL++
 
 ## Overview
@@ -38,7 +7,6 @@ fuzzing for compiled binaries. It instruments targets at compile time or via QEM
 for binary-only fuzzing, then mutates input corpora to discover new code paths. AFL++ includes
 advanced scheduling (MOpt, rare), custom mutators, CMPLOG for input-to-state comparison solving,
 and persistent mode for high-throughput fuzzing.
-
 
 ## When to Use
 

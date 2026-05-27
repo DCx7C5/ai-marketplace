@@ -1,28 +1,3 @@
-# SKILL: Week 7: Defeating Windows Security Boundaries
-
-## Metadata
-- **Skill Name**: windows-boundaries
-- **Folder**: offensive-windows-boundaries
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/7-windows-boundaries.md
-
-## Description
-Windows security boundary taxonomy and attack surface enumeration: kernel/user boundary, sandbox boundaries (LPAC, AppContainer), COM/RPC boundaries, hypervisor boundary, trust level transitions. Use when planning privilege escalation paths, sandbox escapes, or understanding Windows security architecture.
-
-## Trigger Phrases
-Use this skill when the conversation involves any of:
-`Windows boundaries, security boundary, kernel user boundary, sandbox escape, AppContainer, LPAC, COM boundary, RPC boundary, hypervisor, Hyper-V, privilege escalation, trust level`
-
-## Instructions for Claude
-
-When this skill is active:
-1. Load and apply the full methodology below as your operational checklist
-2. Follow steps in order unless the user specifies otherwise
-3. For each technique, consider applicability to the current target/context
-4. Track which checklist items have been completed
-5. Suggest next steps based on findings
-
----
-
 ## Full Methodology
 
 # Week 7: Defeating Windows Security Boundaries
@@ -1189,7 +1164,6 @@ class LinuxMitigationScanner:
             print("\n[+] SMAP not supported - kernel can access userspace directly")
 
         return checks
-
 
 if __name__ == "__main__":
     scanner = LinuxMitigationScanner()
@@ -2792,7 +2766,6 @@ BOOL PatchAmsiWithNtAPI() {
 
     return TRUE;
 }
-
 
 // Alternative: Patch via direct memory write (simpler)
 BOOL PatchAmsiDirect() {
@@ -15148,4 +15121,3 @@ Week 10 covers operational evasion:
 - ETW blinding
 - Kernel callback manipulation
 - Complete EDR bypass chains
-

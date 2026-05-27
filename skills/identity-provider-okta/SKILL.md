@@ -1,35 +1,8 @@
----
-name: identity-provider-okta
-description: Implement automated user provisioning and deprovisioning using SCIM 2.0 protocol with Okta as the identity provider.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- scim
-- okta
-- provisioning
-- identity-management
-- automation
-- sso
-- lifecycle-management
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Implementing SCIM Provisioning with Okta
 
 ## Overview
 
 SCIM (System for Cross-domain Identity Management) is an open standard protocol (RFC 7644) that automates the exchange of user identity information between identity providers like Okta and service providers. This skill covers building a SCIM 2.0-compliant API endpoint and integrating it with Okta for automated user lifecycle management including provisioning, deprovisioning, profile updates, and group management.
-
 
 ## When to Use
 

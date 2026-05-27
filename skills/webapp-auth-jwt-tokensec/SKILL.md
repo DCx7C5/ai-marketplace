@@ -1,30 +1,3 @@
----
-name: webapp-auth-jwt-tokensec
-description: Assessing JSON Web Token implementations for cryptographic weaknesses, algorithm confusion attacks, and authorization bypass vulnerabilities during security engagements.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- jwt
-- authentication
-- web-security
-- token-security
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-cwe:
-- CWE-347
-capec: []
----
-
 # Testing JWT Token Security
 
 ## When to Use

@@ -1,38 +1,8 @@
----
-name: cloud-gcp-general-overview
-description: Implement GCP Binary Authorization to enforce deploy-time security controls that ensure only trusted, attested container images are deployed to Google Kubernetes Engine and Cloud Run.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- gcp
-- binary-authorization
-- container-security
-- supply-chain
-- gke
-- cloud-run
-- attestation
-- software-integrity
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1195
-- T1610
-capec: []
----
-
 # Implementing GCP Binary Authorization
 
 ## Overview
 
 Binary Authorization is a Google Cloud deploy-time security control that ensures only trusted container images are deployed on GKE or Cloud Run. It works through a policy-based model where images must have cryptographic attestations confirming they passed predefined requirements such as vulnerability scans, code reviews, or build pipeline verification. Continuous validation (CV) monitors running pods against policies and logs violations.
-
 
 ## When to Use
 

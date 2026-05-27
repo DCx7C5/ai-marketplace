@@ -1,30 +1,3 @@
----
-name: linux-svc-svc-dbus-alerts-detect
-description: D-Bus security monitoring and IPC forensics. Detects suspicious service activations, polkit authentication bypasses, DBUS_SESSION_BUS_ADDRESS hijacking, and lateral movement via session/system bus event monitoring.
-model: sonnet
-maxTurns: 20
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- ops
-- dbus
-- alerts
-- dbus-alerts
-mitre_attack:
-- T1021
-cve:
-- CVE-2021-3560
-nist_csf: []
-capec: []
----
-
 # D-Bus Alerts
 
 **Purpose:** Real-time and forensic monitoring of D-Bus alert events, suspicious service activations, polkit policy violations, and IPC abuse patterns on the session and system bus.

@@ -1,36 +1,8 @@
----
-name: linux-fs-file-detect
-description: Configure AIDE (Advanced Intrusion Detection Environment) for file integrity monitoring including baseline creation, scheduled integrity checks, change detection, and alerting
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- aide
-- file-integrity
-- hids
-- baseline
-- intrusion-detection
-- compliance
-- linux-security
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1053.003
-- T1059
-capec: []
----
-
 # Implementing File Integrity Monitoring with AIDE
 
 ## Overview
 
 AIDE (Advanced Intrusion Detection Environment) is a host-based intrusion detection system that monitors file and directory integrity using cryptographic checksums. This skill covers generating AIDE configuration files, initializing baseline databases, running integrity checks, parsing change reports, and setting up automated cron-based monitoring with alerting.
-
 
 ## When to Use
 

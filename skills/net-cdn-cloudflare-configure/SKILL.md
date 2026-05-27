@@ -1,38 +1,8 @@
----
-name: net-cdn-cloudflare-configure
-description: Configure Cloudflare DDoS protection with managed rulesets, rate limiting, WAF rules, Bot Management, and origin protection to mitigate volumetric, protocol, and application-layer attacks.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- ddos
-- cloudflare
-- ddos-mitigation
-- rate-limiting
-- waf
-- bot-management
-- layer-7
-- volumetric-attack
-- network-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1498
-capec: []
----
-
 # Implementing DDoS Mitigation with Cloudflare
 
 ## Overview
 
 Cloudflare provides multi-layer DDoS protection across its global network of over 300 data centers with 477+ Tbps of capacity. The platform protects against L3/4 volumetric attacks (SYN floods, UDP amplification, DNS reflection), protocol attacks (Ping of Death, Smurf), and L7 application-layer attacks (HTTP floods, Slowloris, cache-busting). Cloudflare's autonomous detection systems identify and mitigate attacks within approximately 3 seconds using traffic profiling, machine learning, and adaptive rulesets. This skill covers configuring Cloudflare's DDoS protection stack including managed rulesets, WAF rules, rate limiting, Bot Management, and origin server hardening.
-
 
 ## When to Use
 
@@ -301,7 +271,6 @@ BASE_URL = f"https://api.cloudflare.com/client/v4/zones/{ZONE_ID}"
 NORMAL_RPS_THRESHOLD = 5000  # Requests per second threshold
 CHECK_INTERVAL = 30  # Seconds between checks
 
-
 def get_current_security_level():
     """Get current security level setting."""
     resp = requests.get(
@@ -309,7 +278,6 @@ def get_current_security_level():
         headers=HEADERS
     )
     return resp.json()["result"]["value"]
-
 
 def set_security_level(level: str):
     """Set security level (off, essentially_off, low, medium, high, under_attack)."""
@@ -324,7 +292,6 @@ def set_security_level(level: str):
     else:
         print(f"[-] Failed to set security level: {result['errors']}")
     return result["success"]
-
 
 def get_traffic_analytics():
     """Get recent traffic data from Cloudflare analytics."""
@@ -352,7 +319,6 @@ def get_traffic_analytics():
         json={"query": query}
     )
     return resp.json()
-
 
 def monitor_and_respond():
     """Monitor traffic and auto-enable under attack mode."""
@@ -393,7 +359,6 @@ def monitor_and_respond():
             print(f"[-] Error: {e}")
 
         time.sleep(CHECK_INTERVAL)
-
 
 if __name__ == "__main__":
     monitor_and_respond()

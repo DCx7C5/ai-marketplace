@@ -1,37 +1,3 @@
----
-name: linux-forensic-mem-injection-detection-detect
-description: Detects and analyzes process injection techniques used by malware including classic DLL injection, process hollowing, APC injection, thread hijacking, and reflective loading. Uses memory forensics, API monitoring, and behavioral analysis to identify injection artifacts. Activates for requests involving process injection detection, code injection analysis, hollowed process investigation, or in-memory threat detection.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- malware
-- process-injection
-- detection
-- memory-forensics
-- defense-evasion
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1027
-- T1055
-- T1059
-- T1218
-capec: []
----
-
 # Detecting Process Injection Techniques
 
 ## When to Use

@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-boot-initramfs-backdoor-detect"
-description: "---"
----
-
----
 name: linux-kernel-boot-initramfs-backdoor-detect
 description: Detect malicious modifications to initramfs/initrd — unpack and inspect early userspace for backdoored binaries, added scripts, or unauthorized kernel modules.
 domain: cybersecurity

@@ -1,33 +1,3 @@
----
-name: webapp-headers-security
-description: Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protections.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- security-headers
-- csp
-- hsts
-- owasp
-- web-security
-- hardening
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-- T1595
-cwe:
-- CWE-1021
-- CWE-79
-capec: []
----
-
 # Performing Security Headers Audit
 
 ## When to Use

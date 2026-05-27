@@ -1,38 +1,8 @@
----
-name: intel-platforms-feedaggr
-description: Deploy MISP (Malware Information Sharing Platform) to aggregate, correlate, and distribute threat intelligence feeds from multiple sources for centralized IOC management and automated SIEM integration.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- misp
-- threat-feed
-- aggregation
-- indicator
-- sharing
-- correlation
-- siem-integration
-- threat-intelligence
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-- T1593
-- T1610
-capec: []
----
-
 # Building Threat Feed Aggregation with MISP
 
 ## Overview
 
 MISP is the leading open-source threat intelligence platform for collecting, storing, distributing, and sharing cybersecurity indicators and threat intelligence. It aggregates feeds from OSINT sources, commercial providers, and sharing communities into a unified platform with automatic correlation, STIX/TAXII export, and direct integration with SIEMs and security tools. This skill covers deploying MISP via Docker, configuring feeds from sources like abuse.ch, AlienVault OTX, and CIRCL, setting up automated feed synchronization, and integrating with Splunk, Elasticsearch, and SOAR platforms.
-
 
 ## When to Use
 

@@ -1,11 +1,3 @@
----
-name: vuln-remediation-bucket
-description: ">\n  This skill provides step-by-step procedures for identifying and\
-  \ remediating Amazon S3 bucket misconfigurations that expose sensitive data to unauthorized\
-  \ access. It covers enabling S3 Block Public Access at account and bucket levels,\
-  \ auditing bucket policies and ACLs, enforcing encryption, configuring access logging,\
-  \ and deploying automated remediation using AWS Config and Lambda."
----
 # Remediating S3 Bucket Misconfiguration
 
 ## When to Use
@@ -292,7 +284,6 @@ SUMMARY:
   Access Logging Coverage: 100%
   Block Public Access: 156/156 buckets
 ```
-
 
 ---
 

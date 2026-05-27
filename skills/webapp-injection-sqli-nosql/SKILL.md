@@ -1,30 +1,3 @@
----
-name: webapp-injection-sqli-nosql
-description: Detect and exploit NoSQL injection vulnerabilities in MongoDB, CouchDB, and other NoSQL databases to demonstrate authentication bypass, data extraction, and unauthorized access risks.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- nosql-injection
-- mongodb
-- authentication-bypass
-- injection-attack
-- web-security
-- database-security
-- api-testing
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-287
-- CWE-943
-capec: []
----
-
 # Exploiting NoSQL Injection Vulnerabilities
 
 ## When to Use

@@ -1,41 +1,8 @@
----
-name: net-capture-net
-description: Perform forensic analysis of network packet captures (PCAP/PCAPNG) using Wireshark, tshark, and tcpdump to reconstruct network communications, extract transferred files, identify malicious traffic, and establish evidence of data exfiltration or command-and-control activity.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- pcap
-- wireshark
-- tshark
-- tcpdump
-- network-forensics
-- packet-capture
-- protocol-analysis
-- traffic-analysis
-- pcapng
-- network-evidence
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1040
-- T1041
-- T1071
-capec: []
----
-
 # Performing Network Packet Capture Analysis
 
 ## Overview
 
 Network packet captures (PCAP/PCAPNG files) represent the ultimate source of truth about network activity and provide irrefutable evidence of communications between hosts. PCAP files log every packet transmitted over a network segment, making them vital for forensic investigations involving data exfiltration, command-and-control communications, lateral movement, malware delivery, and unauthorized access. Wireshark is the primary tool for interactive analysis, while tshark provides command-line capabilities for automated processing and scripting. Modern PCAPNG format supports additional metadata including interface descriptions, capture comments, precise timestamps, and per-packet annotations.
-
 
 ## When to Use
 
@@ -151,7 +118,6 @@ import json
 from collections import defaultdict, Counter
 from datetime import datetime
 
-
 class PCAPForensicAnalyzer:
     """Forensic analysis of PCAP files using Scapy."""
 
@@ -244,14 +210,12 @@ class PCAPForensicAnalyzer:
         print(f"[*] Potential beacons: {len(report['potential_beacons'])}")
         return report_path
 
-
 def main():
     if len(sys.argv) < 3:
         print("Usage: python process.py <pcap_file> <output_dir>")
         sys.exit(1)
     analyzer = PCAPForensicAnalyzer(sys.argv[1], sys.argv[2])
     analyzer.generate_report()
-
 
 if __name__ == "__main__":
     main()

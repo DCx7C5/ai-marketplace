@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-admin-reports"
-version: "1.0.0"
-description: "Google Workspace Admin SDK: Audit logs and usage reports."
-metadata: ""
-short-description: "Access Google Workspace audit reports"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws admin-reports --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-admin-reports"
----
 # admin-reports (reports_v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

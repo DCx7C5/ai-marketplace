@@ -1,14 +1,3 @@
----
-name: "devel-jb-cli-e2e-test"
-description: ">-"
-skill whenever the user asks to: "run an E2E test, execute a test runbook,"
-argument-hint: "[runbook-name | new]"
-targets: ["claude", "codex"]
-metadata: ""
-short-description: "Run isolated CLI E2E runbooks"
-author: "Runkids"
-source: "https://github.com/runkids/skillshare/tree/main/.skillshare/skills/cli-e2e-test"
----
 Run isolated E2E tests in devcontainer. $ARGUMENTS specifies runbook name or "new".
 
 ## Flow

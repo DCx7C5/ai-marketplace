@@ -1,38 +1,8 @@
----
-name: webapp-api-graphql
-description: Execute and test GraphQL depth limit attacks using deeply nested recursive queries to identify denial-of-service vulnerabilities in GraphQL APIs.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- graphql
-- depth-limit
-- denial-of-service
-- nested-queries
-- api-security
-- query-complexity
-- resource-exhaustion
-- penetration-testing
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1498
-cwe:
-- CWE-200
-capec: []
----
-
 # Performing GraphQL Depth Limit Attack
 
 ## Overview
 
 GraphQL depth limit attacks exploit the recursive nature of GraphQL schemas to craft deeply nested queries that consume excessive server resources, leading to denial of service. Unlike REST APIs with fixed endpoints, GraphQL allows clients to request arbitrary data structures. When schemas contain circular relationships (e.g., User -> Posts -> Author -> Posts), attackers can create queries that recurse indefinitely, overwhelming the server's CPU, memory, database connections, and network bandwidth.
-
 
 ## When to Use
 
@@ -48,7 +18,6 @@ GraphQL depth limit attacks exploit the recursive nature of GraphQL schemas to c
 - Python 3.8+ with requests library for automated testing
 - Burp Suite or mitmproxy for traffic analysis
 - Authorization to perform security testing on the target
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
@@ -344,7 +313,6 @@ class GraphQLDepthTester:
             "vulnerability": "HIGH" if max_successful_depth > 10 else
                            "MEDIUM" if max_successful_depth > 5 else "LOW"
         }
-
 
 if __name__ == "__main__":
     endpoint = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:4000/graphql"

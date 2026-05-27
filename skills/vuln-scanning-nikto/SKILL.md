@@ -1,14 +1,7 @@
----
-name: vuln-scanning-nikto
-description: ">\n  Nikto is an open-source web server and web application scanner\
-  \ that tests against over 7,000 potentially dangerous files/programs, checks for\
-  \ outdated versions of over 1,250 servers, and identifies ve"
----
 # Performing Web Application Scanning with Nikto
 
 ## Overview
 Nikto is an open-source web server and web application scanner that tests against over 7,000 potentially dangerous files/programs, checks for outdated versions of over 1,250 servers, and identifies version-specific problems on over 270 servers. It performs comprehensive tests including XSS, SQL injection, server misconfigurations, default credentials, and known vulnerable CGI scripts.
-
 
 ## When to Use
 
@@ -221,7 +214,6 @@ for item in tree.findall('.//item'):
 - scanning-infrastructure-with-nessus
 - scanning-apis-for-security-vulnerabilities
 - performing-network-vulnerability-assessment
-
 
 ---
 

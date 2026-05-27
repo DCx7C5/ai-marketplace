@@ -1,41 +1,8 @@
----
-name: soc-wazuh-detection
-description: Deploy and configure Wazuh SIEM/XDR for endpoint detection including agent management, custom decoder and rule XML creation, alert querying via the Wazuh REST API, and automated response actions.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- siem
-- xdr
-- wazuh
-- endpoint-detection
-- custom-rules
-- incident-response
-nist_ai_rmf:
-- GOVERN-1.1
-- MEASURE-2.7
-- MANAGE-3.1
-- MANAGE-2.4
-- MEASURE-3.1
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Implementing Endpoint Detection with Wazuh
 
 ## Overview
 
 Wazuh is an open-source SIEM and XDR platform for endpoint monitoring, threat detection, and compliance. This skill covers managing agents via the Wazuh REST API, creating custom decoders and rules in XML for organization-specific detections, querying alerts, and testing rule logic using the logtest endpoint.
-
 
 ## When to Use
 

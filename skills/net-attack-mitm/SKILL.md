@@ -1,28 +1,3 @@
----
-name: net-attack-mitm
-description: Simulates man-in-the-middle attacks using Ettercap, mitmproxy, and Bettercap in authorized environments to intercept, analyze, and modify network traffic for testing encryption enforcement, certificate validation, and detection capabilities.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- mitm
-- bettercap
-- ettercap
-- mitmproxy
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1557
-capec: []
----
-
 # Conducting Man-in-the-Middle Attack Simulation
 
 ## When to Use

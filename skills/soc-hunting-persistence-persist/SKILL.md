@@ -1,37 +1,3 @@
----
-name: soc-hunting-persistence-persist
-description: Hunt for adversary persistence through Windows Management Instrumentation event subscriptions by monitoring WMI consumer, filter, and binding creation events that execute malicious code triggered by system events.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- wmi-persistence
-- mitre-t1546-003
-- event-subscription
-- windows
-- endpoint-detection
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1047
-- T1059
-- T1547
-capec: []
----
-
 # Hunting for Persistence via WMI Subscriptions
 
 ## When to Use

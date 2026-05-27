@@ -1,36 +1,8 @@
----
-name: webapp-auth-oauth-consent
-description: Detect risky OAuth application consent grants in Azure AD / Microsoft Entra ID using Microsoft Graph API, audit logs, and permission analysis to identify illicit consent grant attacks.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- OAuth
-- Azure-AD
-- Entra-ID
-- Microsoft-Graph
-- illicit-consent
-- cloud-security
-- application-permissions
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1550
-capec: []
----
-
 # Detecting Suspicious OAuth Application Consent
 
 ## Overview
 
 Illicit consent grant attacks trick users into granting excessive permissions to malicious OAuth applications in Azure AD / Microsoft Entra ID. This skill uses the Microsoft Graph API to enumerate OAuth2 permission grants, analyze application permissions for overly broad scopes, review directory audit logs for consent events, and flag high-risk applications based on publisher verification status and permission scope.
-
 
 ## When to Use
 

@@ -1,46 +1,8 @@
----
-name: identity-attack-credentialdump
-description: Detect LSASS credential dumping, SAM database extraction, and NTDS.dit theft using Sysmon Event ID 10, Windows Security logs, and SIEM correlation rules
-domain: cybersecurity
-subdomain: threat-detection
-tags:
-- credential-dumping
-- lsass
-- mimikatz
-- sysmon
-- active-directory
-- windows-security
-- defense-evasion
-d3fend_techniques:
-- Token Binding
-- Execution Isolation
-- File Metadata Consistency Validation
-- Restore Access
-- Application Protocol Command Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-06
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1003.001
-- T1003.002
-- T1003.003
-- T1027
-- T1059
-capec: []
----
-
 # Detecting Credential Dumping Techniques
 
 ## Overview
 
 Credential dumping (MITRE ATT&CK T1003) is a post-exploitation technique where adversaries extract authentication credentials from OS memory, registry hives, or domain controller databases. This skill covers detection of LSASS memory access via Sysmon Event ID 10 (ProcessAccess), SAM registry hive export via reg.exe, NTDS.dit extraction via ntdsutil/vssadmin, and comsvcs.dll MiniDump abuse. Detection rules analyze GrantedAccess bitmasks, suspicious calling processes, and known tool signatures.
-
 
 ## When to Use
 

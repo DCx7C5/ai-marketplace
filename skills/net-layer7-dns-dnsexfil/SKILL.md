@@ -1,40 +1,8 @@
----
-name: net-layer7-dns-dnsexfil
-description: Detect data exfiltration through DNS tunneling by analyzing query entropy, subdomain length, query volume, TXT record abuse, and response payload sizes using passive DNS monitoring.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- dns-exfiltration
-- dns-tunneling
-- data-exfiltration
-- threat-detection
-- entropy-analysis
-- passive-dns
-- network-monitoring
-- iodine
-- dnscat2
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1071.004
-- T1595.002
-capec: []
----
-
 # Detecting DNS Exfiltration with DNS Query Analysis
 
 ## Overview
 
 DNS exfiltration exploits the Domain Name System as a covert channel to extract data from compromised networks. Attackers encode stolen data into DNS query names (subdomains) or DNS response records (TXT, CNAME, NULL), bypassing traditional security controls that typically allow DNS traffic unrestricted. Tools like iodine, dnscat2, and dns2tcp enable full TCP tunneling over DNS. Detection requires analyzing DNS query patterns for anomalies including excessive query length, high entropy subdomain strings, abnormal query volumes to single domains, and oversized TXT record responses. This skill covers building a comprehensive DNS exfiltration detection capability using passive DNS analysis, statistical methods, and machine learning approaches.
-
 
 ## When to Use
 
@@ -148,7 +116,6 @@ from datetime import datetime, timedelta
 
 import pandas as pd
 
-
 def calculate_entropy(domain: str) -> float:
     """Calculate Shannon entropy of a string."""
     if not domain:
@@ -163,7 +130,6 @@ def calculate_entropy(domain: str) -> float:
     )
     return entropy
 
-
 def extract_subdomain(query: str) -> str:
     """Extract subdomain portion from FQDN."""
     parts = query.rstrip('.').split('.')
@@ -171,14 +137,12 @@ def extract_subdomain(query: str) -> str:
         return '.'.join(parts[:-2])
     return ''
 
-
 def get_base_domain(query: str) -> str:
     """Extract registered domain from FQDN."""
     parts = query.rstrip('.').split('.')
     if len(parts) >= 2:
         return '.'.join(parts[-2:])
     return query
-
 
 def is_base64_like(s: str) -> bool:
     """Check if string resembles base64 encoding."""
@@ -188,7 +152,6 @@ def is_base64_like(s: str) -> bool:
     char_ratio = sum(1 for c in s if c in b64_chars) / len(s)
     return char_ratio > 0.9 and calculate_entropy(s) > 4.0
 
-
 def is_hex_encoded(s: str) -> bool:
     """Check if string appears hex-encoded."""
     hex_chars = set('0123456789abcdefABCDEF')
@@ -196,7 +159,6 @@ def is_hex_encoded(s: str) -> bool:
         return False
     clean = s.replace('.', '').replace('-', '')
     return all(c in hex_chars for c in clean) and len(clean) % 2 == 0
-
 
 class DNSExfiltrationDetector:
     def __init__(self):
@@ -345,7 +307,6 @@ class DNSExfiltrationDetector:
                 except (json.JSONDecodeError, KeyError, ValueError):
                     continue
 
-
 def main():
     detector = DNSExfiltrationDetector()
 
@@ -374,7 +335,6 @@ def main():
             print()
     else:
         print("No DNS exfiltration indicators detected.")
-
 
 if __name__ == '__main__':
     main()

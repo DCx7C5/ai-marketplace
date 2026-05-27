@@ -1,37 +1,8 @@
----
-name: cloud-devsecops-github
-description: Configure GitHub Advanced Security with CodeQL to perform automated static analysis and vulnerability detection across repositories at enterprise scale.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- github-advanced-security
-- codeql
-- sast
-- code-scanning
-- supply-chain-security
-- devops-security
-- shift-left
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1195
-capec: []
----
-
 # Implementing GitHub Advanced Security for Code Scanning
 
 ## Overview
 
 GitHub Advanced Security (GHAS) integrates CodeQL-powered static application security testing directly into the GitHub development workflow. CodeQL treats code as data, enabling semantic analysis that identifies security vulnerabilities such as SQL injection, cross-site scripting, buffer overflows, and authentication flaws with significantly fewer false positives than traditional pattern-matching scanners. GHAS encompasses code scanning, secret scanning, dependency review, and Dependabot alerts to provide a comprehensive security posture for repositories.
-
 
 ## When to Use
 
@@ -83,7 +54,7 @@ For enterprises managing hundreds of repositories, GHAS supports configuring cod
 Create `.github/workflows/codeql-analysis.yml`:
 
 ```yaml
-name: devsecops-github
+name: cloud-devsecops-github
 
 on:
   push:

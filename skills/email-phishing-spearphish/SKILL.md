@@ -1,46 +1,10 @@
----
-name: email-phishing-spearphish
-description: Spearphishing simulation is a targeted social engineering attack vector used by red teams to gain initial access. Unlike broad phishing campaigns, spearphishing uses OSINT-derived intelligence to craf
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- adversary-simulation
-- mitre-attack
-- exploitation
-- post-exploitation
-- spearphishing
-- social-engineering
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1071
-- T1566
-- T1566.001
-- T1593
-capec: []
----
-
 # Conducting Spearphishing Simulation Campaign
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 Spearphishing simulation is a targeted social engineering attack vector used by red teams to gain initial access. Unlike broad phishing campaigns, spearphishing uses OSINT-derived intelligence to craft highly personalized messages targeting specific individuals. This skill covers developing pretexts, building payloads, setting up email infrastructure, executing the campaign, and tracking results.
-
 
 ## When to Use
 

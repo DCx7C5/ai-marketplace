@@ -1,13 +1,3 @@
----
-name: "devel-jb-codebase-audit"
-description: ">-"
-codebase. Use this skill whenever the user asks to: "audit the codebase, check"
-targets: ["claude", "codex"]
-metadata: ""
-short-description: "Audit docs, flags, tests, and targets"
-author: "Runkids"
-source: "https://github.com/runkids/skillshare/tree/main/.skillshare/skills/codebase-audit"
----
 Read-only consistency audit across the skillshare codebase. $ARGUMENTS specifies focus area (e.g., "flags", "tests", "targets") or omit for full audit.
 
 **Scope**: This skill only READS and REPORTS. It does not modify any files. Use `implement-feature` to fix issues or `update-docs` to fix documentation gaps.

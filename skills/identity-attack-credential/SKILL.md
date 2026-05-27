@@ -1,29 +1,4 @@
----
-name: identity-attack-credential
-description: Detects credential stuffing attacks by analyzing authentication logs for login velocity anomalies, ASN diversity, password spray patterns, and geographic distribution of failed logins. Uses statistical analysis on Splunk or raw log data. Use when investigating account takeover campaigns or building detection rules for auth abuse.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- hunting
-- credential
-- stuffing
-- attacks
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-capec: []
----
-
 # Hunting Credential Stuffing Attacks
-
 
 ## When to Use
 

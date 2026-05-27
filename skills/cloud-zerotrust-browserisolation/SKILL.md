@@ -1,29 +1,3 @@
----
-name: cloud-zerotrust-browserisolation
-description: Deploys remote browser isolation (RBI) as a core component of a Zero Trust architecture. Implements isolation policies with URL categorization and risk-based routing, content disarming and reconstruction (CDR) for file sanitization, data loss prevention controls within isolated sessions, and integration with Secure Web Gateway and ZTNA platforms. Based on Cloudflare Browser Isolation, Menlo Security, and Zscaler RBI approaches. Use when hardening web access against zero-day exploits, phishing, credential theft, and browser-based data exfiltration.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- browser-isolation
-- zero-trust
-- RBI
-- CDR
-- URL-categorization
-- content-disarming
-- secure-web-gateway
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-capec: []
----
-
 # Implementing Browser Isolation for Zero Trust
 
 ## When to Use

@@ -1,29 +1,3 @@
----
-name: net-ids-snort
-description: Installs, configures, and tunes Snort 3 intrusion detection system to monitor network traffic for malicious activity using custom and community rulesets, preprocessors, and alert output plugins on authorized network segments.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- snort
-- ids
-- intrusion-detection
-- rule-writing
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1562.001
-capec: []
----
-
 # Configuring Snort IDS for Intrusion Detection
 
 ## When to Use

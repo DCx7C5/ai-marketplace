@@ -1,23 +1,3 @@
----
-name: crypto-signatures-signing-configure
-description: Ed25519 artifact signing, BLAKE2b-256 integrity verification, chain of custody, Argon2id key protection, AES-256-GCM encryption. Available to ALL agents as a core skill — not a standalone agent.
-model: sonnet
-maxTurns: 10
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-skills:
-  - shared-memory
-tags:
-- crypto-pki
-- signing
-- artifact-signing
-nist_csf: []
-capec: []
----
-
 # Artifact Signing — Ed25519 + BLAKE2b Integrity Skill
 
 **Purpose:** Every agent in the cybersecsuite framework can sign, verify, and hash artifacts. This skill provides the crypto primitives and patterns used across all agents.

@@ -1,30 +1,3 @@
----
-name: webapp-injection-ssti-template
-description: Detecting and exploiting Server-Side Template Injection (SSTI) vulnerabilities across Jinja2, Twig, Freemarker, and other template engines to achieve remote code execution.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- ssti
-- template-injection
-- rce
-- web-security
-- owasp
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-1336
-capec: []
----
-
 # Exploiting Template Injection Vulnerabilities
 
 ## When to Use

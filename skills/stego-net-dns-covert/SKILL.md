@@ -1,8 +1,3 @@
----
-name: stego-net-dns-covert
-description: ">\n  Detects DNS-based covert channel steganography via query entropy\
-  \ analysis."
----
 ## Overview
 
 Detects steganographically hidden data in carrier files using statistical analysis and tool-assisted extraction.

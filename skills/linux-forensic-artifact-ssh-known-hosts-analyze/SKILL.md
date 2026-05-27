@@ -1,9 +1,4 @@
 ---
-name: "linux-forensic-artifact-ssh-known-hosts-analyze"
-description: "---"
----
-
----
 name: linux-forensic-artifact-ssh-known-hosts-analyze
 description: Analyze SSH known_hosts files for forensic intelligence — extract host fingerprints, identify lateral movement targets, detect unusual hosts, and correlate with network connections.
 domain: cybersecurity

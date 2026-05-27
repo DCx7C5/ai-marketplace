@@ -1,32 +1,3 @@
----
-name: cloud-devsecops-scanning
-description: Integrates Static Application Security Testing (SAST), Dynamic Application Security Testing (DAST), and Software Composition Analysis (SCA) into CI/CD pipelines using open-source tools. Covers Semgrep for SAST, Trivy for SCA and container scanning, OWASP ZAP for DAST, and Gitleaks for secrets detection. Activates for requests involving DevSecOps pipeline setup, automated security scanning in CI/CD, SAST/DAST/SCA integration, or shift-left security implementation.
-domain: cybersecurity
-subdomain: application-security
-tags:
-- devsecops
-- SAST
-- DAST
-- SCA
-- semgrep
-- trivy
-- owasp-zap
-- gitleaks
-- CI-CD
-- shift-left
-nist_csf:
-- PR.PS-01
-- PR.PS-04
-- ID.RA-01
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-capec: []
----
-
 # Implementing DevSecOps Security Scanning
 
 ## When to Use
@@ -58,7 +29,7 @@ capec: []
 Secrets detection runs first because leaked credentials are the highest-priority finding. Add to `.github/workflows/security.yml`:
 
 ```yaml
-name: devsecops-scanning
+name: cloud-devsecops-scanning
 on:
   push:
     branches: [main, develop]

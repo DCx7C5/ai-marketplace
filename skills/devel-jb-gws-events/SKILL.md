@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-events"
-version: "1.0.0"
-description: "Subscribe to Google Workspace events."
-metadata: ""
-short-description: "Subscribe to Google Workspace events"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws events --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-events"
----
 # events (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

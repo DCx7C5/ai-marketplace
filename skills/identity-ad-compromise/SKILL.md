@@ -1,49 +1,8 @@
----
-name: identity-ad-compromise
-description: Investigate Active Directory compromise by analyzing authentication logs, replication metadata, Group Policy changes, and Kerberos ticket anomalies to identify attacker persistence and lateral movement paths.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- active-directory
-- compromise-investigation
-- identity-forensics
-- kerberos
-- lateral-movement
-- dfir
-- ntds-dit
-- golden-ticket
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1558
-- T1021
-- T1078
-- T1484
-- T1003.003
-- T1547
-- T1558.001
-capec: []
----
-
 # Performing Active Directory Compromise Investigation
 
 ## Overview
 
 Active Directory (AD) compromise investigation is a critical incident response capability that focuses on identifying how attackers gained access to domain services, what persistence mechanisms they established, and the scope of credential compromise. Since 88% of breaches involve compromised credentials (Verizon 2025 DBIR), AD is the primary target for enterprise-wide attacks. Investigators must analyze NTDS.dit database integrity, Kerberos ticket-granting activity, Group Policy modifications, replication metadata, and privileged group membership changes to reconstruct the attack chain and determine full compromise scope.
-
 
 ## When to Use
 

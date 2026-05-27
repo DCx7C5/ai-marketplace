@@ -1,14 +1,7 @@
----
-name: vuln-rapid7
-description: ">\n  Deploy and configure Rapid7 InsightVM Security Console and Scan\
-  \ Engines for authenticated and unauthenticated vulnerability scanning across enterprise\
-  \ environments."
----
 # Implementing Rapid7 InsightVM for Scanning
 
 ## Overview
 Rapid7 InsightVM (formerly Nexpose) is an enterprise vulnerability management platform that combines on-premises scanning via Security Console and Scan Engines with cloud-based analytics through the Insight Platform. InsightVM leverages Rapid7's vulnerability research library, Metasploit exploit knowledge, global attacker behavior data, internet-wide scanning telemetry, and real-time reporting to provide comprehensive vulnerability visibility. This skill covers deploying the Security Console, configuring Scan Engines, setting up scan templates, credentialed scanning, and integrating with the Insight Agent for continuous assessment.
-
 
 ## When to Use
 
@@ -310,7 +303,6 @@ class InsightVMClient:
         response.raise_for_status()
         return response.json()
 
-
 # Usage
 client = InsightVMClient("https://insightvm-console:3780", "api-key-here")
 sites = client.get_sites()
@@ -341,7 +333,6 @@ for site in sites:
 - building-vulnerability-data-pipeline-with-api
 - implementing-wazuh-for-vulnerability-detection
 - performing-remediation-validation-scanning
-
 
 ---
 

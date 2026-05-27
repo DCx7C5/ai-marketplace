@@ -1,26 +1,3 @@
----
-name: webapp-logic-business
-description: Identifying flaws in application business logic that allow price manipulation, workflow bypass, and privilege escalation beyond what technical vulnerability scanners can detect.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- business-logic
-- owasp
-- web-security
-- burpsuite
-- manual-testing
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Testing for Business Logic Vulnerabilities
 
 ## When to Use

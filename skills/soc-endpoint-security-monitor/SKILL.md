@@ -1,36 +1,3 @@
----
-name: soc-endpoint-security-monitor
-description: Implements endpoint Data Loss Prevention (DLP) controls to detect and prevent sensitive data exfiltration through email, USB, cloud storage, and printing. Use when deploying DLP agents, creating content inspection policies, or preventing unauthorized data movement from endpoints. Activates for requests involving DLP, data exfiltration prevention, content inspection, or sensitive data protection on endpoints.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- DLP
-- data-loss-prevention
-- data-protection
-- content-inspection
-atlas_techniques:
-- AML.T0024
-- AML.T0056
-nist_ai_rmf:
-- GOVERN-1.1
-- MEASURE-2.7
-- MANAGE-3.1
-- MAP-5.1
-- MANAGE-2.4
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-capec: []
----
-
 # Implementing Endpoint DLP Controls
 
 ## When to Use

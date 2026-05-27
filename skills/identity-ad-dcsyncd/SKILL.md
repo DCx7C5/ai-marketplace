@@ -1,39 +1,3 @@
----
-name: identity-ad-dcsyncd
-description: Detect DCSync attacks where adversaries abuse Active Directory replication privileges to extract password hashes by monitoring for non-domain-controller accounts requesting directory replication via DsGetNCChanges.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- active-directory
-- dcsync
-- credential-theft
-- mitre-t1003-006
-- mimikatz
-- kerberos
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Platform Monitoring
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1003.006
-- T1021
-- T1059
-- T1558
-capec: []
----
-
 # Detecting DCSync Attack in Active Directory
 
 ## When to Use

@@ -1,30 +1,3 @@
----
-name: net-capture-zeek-zeekanomaly
-description: Deploys and configures Zeek (formerly Bro) network security monitor to passively analyze network traffic, generate structured logs, detect anomalous behavior, and create custom detection scripts for threat hunting and incident response.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- zeek
-- network-monitoring
-- anomaly-detection
-- threat-hunting
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1071.001
-- T1562.001
-capec: []
----
-
 # Detecting Network Anomalies with Zeek
 
 ## When to Use

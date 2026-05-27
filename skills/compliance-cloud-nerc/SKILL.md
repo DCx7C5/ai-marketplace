@@ -1,30 +1,3 @@
----
-name: compliance-cloud-nerc
-description: This skill covers implementing North American Electric Reliability Corporation Critical Infrastructure Protection (NERC CIP) compliance controls for Bulk Electric System (BES) cyber systems. It addresses asset categorization (CIP-002), electronic security perimeters (CIP-005), system security management (CIP-007), configuration management (CIP-010), supply chain risk management (CIP-013), and the 2025 updates including mandatory MFA for remote access and expanded low-impact asset requirements.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- nerc-cip
-- power-grid
-- compliance
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Implementing NERC CIP Compliance Controls
 
 ## When to Use
@@ -64,7 +37,6 @@ import sys
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-
 @dataclass
 class BESCyberSystem:
     """Represents a BES Cyber System for CIP-002 categorization."""
@@ -83,7 +55,6 @@ class BESCyberSystem:
     impact_rating: str = ""  # high, medium, low
     categorization_basis: str = ""
     cyber_assets: list = field(default_factory=list)
-
 
 class CIP002Categorizer:
     """NERC CIP-002-5.1a BES Cyber System categorization engine."""
@@ -220,7 +191,6 @@ class CIP002Categorizer:
         }
         with open(output_file, "w") as f:
             json.dump(data, f, indent=2)
-
 
 if __name__ == "__main__":
     categorizer = CIP002Categorizer()

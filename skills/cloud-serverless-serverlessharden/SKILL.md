@@ -1,34 +1,3 @@
----
-name: cloud-serverless-serverlessharden
-description: This skill covers security hardening for serverless compute platforms including AWS Lambda, Azure Functions, and Google Cloud Functions. It addresses least privilege IAM roles, dependency vulnerability scanning, secrets management integration, input validation, function URL authentication, and runtime monitoring to protect against injection attacks, credential theft, and supply chain compromises.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- serverless-security
-- aws-lambda
-- azure-functions
-- function-hardening
-- supply-chain
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059.009
-- T1078.004
-- T1195
-cve:
-- CVE-2023-45857
-- CVE-2022-23529
-- CVE-2021-23337
-capec: []
----
-
 # Securing Serverless Functions
 
 ## When to Use
@@ -155,7 +124,7 @@ trivy fs --severity HIGH,CRITICAL ./lambda-package/
 
 ```yaml
 # GitHub Actions CI/CD security scanning
-name: serverless-serverlessharden
+name: cloud-serverless-serverlessharden
 on: [push, pull_request]
 jobs:
   security:

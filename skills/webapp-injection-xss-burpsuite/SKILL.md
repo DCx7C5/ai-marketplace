@@ -1,30 +1,3 @@
----
-name: webapp-injection-xss-burpsuite
-description: Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- xss
-- burpsuite
-- owasp
-- web-security
-- cross-site-scripting
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-cwe:
-- CWE-79
-capec: []
----
-
 # Testing for XSS Vulnerabilities with Burp Suite
 
 ## When to Use

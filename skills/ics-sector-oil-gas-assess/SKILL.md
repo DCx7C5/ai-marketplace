@@ -1,30 +1,3 @@
----
-name: ics-sector-oil-gas-assess
-description: This skill covers conducting cybersecurity assessments specific to oil and gas facilities including upstream (exploration/production), midstream (pipeline/transport), and downstream (refining/distribution) operations. It addresses SCADA systems controlling pipeline operations, DCS for refinery process control, safety instrumented systems for hazardous processes, remote terminal units at unmanned wellhead sites, and compliance with API 1164, TSA Pipeline Security Directives, IEC 62443, and NIST Cybersecurity Framework for critical infrastructure.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- oil-gas
-- pipeline-security
-- api1164
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Performing Oil & Gas Cybersecurity Assessment
 
 ## When to Use
@@ -132,7 +105,6 @@ import sys
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-
 @dataclass
 class AssessmentFinding:
     finding_id: str
@@ -145,7 +117,6 @@ class AssessmentFinding:
     remediation: str
     timeline: str
 
-
 @dataclass
 class ComplianceCheck:
     requirement_id: str
@@ -154,7 +125,6 @@ class ComplianceCheck:
     status: str  # compliant, partial, non-compliant
     evidence: str
     gap: str = ""
-
 
 class PipelineSCADAAssessment:
     """Pipeline SCADA security assessment per API 1164 / TSA SD-02."""
@@ -308,7 +278,6 @@ class PipelineSCADAAssessment:
                 report.append(f"      Gap: {c.gap}")
 
         return "\n".join(report)
-
 
 if __name__ == "__main__":
     assessment = PipelineSCADAAssessment("Gulf Coast Refinery")

@@ -1,32 +1,3 @@
----
-name: net-layer7-dns-c2
-description: Detects command-and-control (C2) communications tunneled through DNS protocol including DNS tunneling tools (Iodine, dnscat2, dns2tcp, Cobalt Strike DNS beacon), domain generation algorithms (DGA), encoded payload delivery via TXT/CNAME records, and DNS beaconing patterns. Covers Shannon entropy analysis of query subdomains, statistical anomaly detection, ML-based DGA classification, passive DNS correlation, and Zeek/Suricata signature development. Activates for requests involving DNS-based C2 detection, DNS tunnel identification, suspicious DNS traffic investigation, or DGA domain classification.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- dns
-- c2
-- tunneling
-- dga
-- network-forensics
-- threat-detection
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1071
-- T1071.001
-- T1595.002
-capec: []
----
-
 # Detecting Command and Control Over DNS
 
 ## When to Use
@@ -110,7 +81,6 @@ try:
 except ImportError:
     HAS_TLDEXTRACT = False
 
-
 def shannon_entropy(data):
     """Calculate Shannon entropy of a string (bits per character)."""
     if not data:
@@ -122,7 +92,6 @@ def shannon_entropy(data):
         for count in counter.values()
     )
     return entropy
-
 
 def extract_subdomain(fqdn):
     """Extract the subdomain portion from a fully qualified domain name."""
@@ -137,7 +106,6 @@ def extract_subdomain(fqdn):
         if len(parts) > 2:
             return ".".join(parts[:-2]), ".".join(parts[-2:])
         return "", fqdn
-
 
 def analyze_dns_entropy(queries, entropy_threshold=3.5, length_threshold=30):
     """
@@ -217,7 +185,6 @@ def analyze_dns_entropy(queries, entropy_threshold=3.5, length_threshold=30):
     results.sort(key=lambda x: x["score"], reverse=True)
     return results
 
-
 # Thresholds for known tunneling tools
 TOOL_SIGNATURES = {
     "iodine": {
@@ -245,7 +212,6 @@ TOOL_SIGNATURES = {
         "description": "Cobalt Strike DNS beacon - encoded commands in A/TXT records",
     },
 }
-
 
 def print_entropy_report(results, top_n=25):
     """Print formatted entropy analysis report."""
@@ -304,7 +270,6 @@ import re
 import math
 from collections import Counter
 
-
 def shannon_entropy(data):
     """Calculate Shannon entropy."""
     if not data:
@@ -312,7 +277,6 @@ def shannon_entropy(data):
     counter = Counter(data)
     length = len(data)
     return -sum((c / length) * math.log2(c / length) for c in counter.values())
-
 
 def analyze_txt_record(txt_data, domain=""):
     """
@@ -443,7 +407,6 @@ def analyze_txt_record(txt_data, domain=""):
     findings["suspicious"] = len(findings["indicators"]) > 0
     return findings
 
-
 def analyze_txt_records_bulk(records):
     """Analyze a batch of DNS TXT records."""
     results = []
@@ -498,7 +461,6 @@ try:
 except ImportError:
     HAS_SKLEARN = False
 
-
 # English language character bigram frequencies (normalized, top bigrams)
 # Source: Peter Norvig's English letter frequency analysis
 ENGLISH_BIGRAMS = {
@@ -516,7 +478,6 @@ ENGLISH_BIGRAMS = {
 
 VOWELS = set("aeiou")
 CONSONANTS = set("bcdfghjklmnpqrstvwxyz")
-
 
 def extract_domain_features(domain):
     """Extract numerical features from a domain name for ML classification."""
@@ -615,7 +576,6 @@ def extract_domain_features(domain):
         "special_count": special_count,
     }
 
-
 FEATURE_COLUMNS = [
     "length", "entropy", "digit_ratio", "vowel_ratio", "consonant_ratio",
     "max_consonant_run", "distinct_chars", "distinct_ratio",
@@ -623,11 +583,9 @@ FEATURE_COLUMNS = [
     "transition_ratio", "repeat_ratio", "special_count",
 ]
 
-
 def features_to_vector(features):
     """Convert feature dict to numpy array."""
     return np.array([features[col] for col in FEATURE_COLUMNS])
-
 
 def train_dga_classifier(legitimate_domains, dga_domains, model_type="random_forest"):
     """
@@ -725,7 +683,6 @@ def train_dga_classifier(legitimate_domains, dga_domains, model_type="random_for
 
     return model, scaler, metrics
 
-
 def classify_domains(domains, model, scaler):
     """Classify a list of domains as legitimate or DGA using a trained model."""
     results = []
@@ -765,7 +722,6 @@ from datetime import datetime, timedelta
 
 import numpy as np
 
-
 def parse_timestamp(ts_str):
     """Parse various timestamp formats to datetime."""
     formats = [
@@ -789,7 +745,6 @@ def parse_timestamp(ts_str):
         pass
 
     return None
-
 
 def detect_beaconing(dns_queries, min_queries=10, max_jitter_pct=25,
                      min_interval_sec=10, max_interval_sec=7200):
@@ -929,7 +884,6 @@ def detect_beaconing(dns_queries, min_queries=10, max_jitter_pct=25,
 
     beacons.sort(key=lambda x: x["score"], reverse=True)
     return beacons
-
 
 def print_beacon_report(beacons, top_n=20):
     """Print formatted beacon detection report."""

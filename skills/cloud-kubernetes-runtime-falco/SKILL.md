@@ -1,44 +1,8 @@
----
-name: cloud-kubernetes-runtime-falco
-description: Detect container escape attempts in real-time using Falco runtime security rules that monitor syscalls, file access, and privilege escalation.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- falco
-- container-escape
-- runtime-security
-- syscall-monitoring
-- kubernetes
-- detection
-d3fend_techniques:
-- Token Binding
-- Execution Isolation
-- File Metadata Consistency Validation
-- Restore Access
-- Application Protocol Command Analysis
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1610
-- T1611
-cve:
-- CVE-2022-0492
-capec: []
----
-
 # Detecting Container Escape with Falco Rules
 
 ## Overview
 
 Falco is a CNCF-graduated runtime security tool that monitors Linux syscalls to detect anomalous container behavior. It uses a rules engine to identify container escape techniques such as mounting host filesystems, accessing sensitive host paths, loading kernel modules, and exploiting privileged container capabilities.
-
 
 ## When to Use
 

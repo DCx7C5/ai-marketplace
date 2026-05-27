@@ -1,32 +1,8 @@
----
-name: crypto-encryption-e2eencryption-recover
-description: End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- encryption
-- e2e
-- messaging
-- signal-protocol
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cve:
-- CVE-2021-26855
-capec: []
----
-
 # Implementing End-to-End Encryption for Messaging
 
 ## Overview
 
 End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version of the Signal Protocol's Double Ratchet algorithm, using X25519 for key exchange, HKDF for key derivation, and AES-256-GCM for message encryption.
-
 
 ## When to Use
 

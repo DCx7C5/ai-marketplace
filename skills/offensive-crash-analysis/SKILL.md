@@ -1,28 +1,3 @@
-# SKILL: Week 4: Crash Analysis and Exploitability Assessment
-
-## Metadata
-- **Skill Name**: crash-analysis
-- **Folder**: offensive-crash-analysis
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/4-crash-analysis.md
-
-## Description
-Week 4 exploit development curriculum. Crash triage and analysis methodology: WinDbg/GDB analysis, ASAN/MSAN output interpretation, exploitability assessment, register/stack trace reading, root cause identification. Use when analyzing crash dumps, assessing exploitability, or understanding fuzzer-generated crashes.
-
-## Trigger Phrases
-Use this skill when the conversation involves any of:
-`crash analysis, crash triage, WinDbg, GDB, ASAN, MSAN, exploitability, stack trace, register dump, segfault, null deref, access violation, week 4`
-
-## Instructions for Claude
-
-When this skill is active:
-1. Load and apply the full methodology below as your operational checklist
-2. Follow steps in order unless the user specifies otherwise
-3. For each technique, consider applicability to the current target/context
-4. Track which checklist items have been completed
-5. Suggest next steps based on findings
-
----
-
 ## Full Methodology
 
 # Week 4: Crash Analysis and Exploitability Assessment

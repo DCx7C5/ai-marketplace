@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-ebpf-verifier-bypass-detect"
-description: "---"
----
-
----
 name: linux-kernel-ebpf-verifier-bypass-detect
 description: Detect eBPF verifier bypass exploits — identify malformed BPF programs exploiting verifier bugs (CVE-2021-3490, CVE-2022-23222) to achieve kernel code execution.
 domain: cybersecurity

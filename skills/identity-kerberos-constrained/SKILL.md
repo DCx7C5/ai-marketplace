@@ -1,47 +1,10 @@
----
-name: identity-kerberos-constrained
-description: Exploit Kerberos Constrained Delegation misconfigurations in Active Directory to impersonate privileged users via S4U2self and S4U2proxy extensions for lateral movement and privilege escalation.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- active-directory
-- kerberos
-- constrained-delegation
-- s4u2proxy
-- privilege-escalation
-- lateral-movement
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1068
-- T1558
-cwe:
-- CWE-269
-capec: []
----
-
 # Exploiting Constrained Delegation Abuse
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 Kerberos Constrained Delegation (KCD) is a Windows Active Directory feature that allows a service to impersonate a user and access specific services on their behalf. The delegation targets are defined in the msDS-AllowedToDelegateTo attribute. When an attacker compromises an account configured with Constrained Delegation (particularly with the TRUSTED_TO_AUTH_FOR_DELEGATION flag), they can use the S4U2self and S4U2proxy Kerberos protocol extensions to request service tickets as any user (including Domain Admins) to the delegated services. If the delegation target includes services like CIFS, HTTP, or LDAP on a Domain Controller, this results in full domain compromise. The S4U2self extension requests a forwardable ticket on behalf of any user to the compromised service, and S4U2proxy forwards that ticket to the allowed delegation target.
-
 
 ## When to Use
 

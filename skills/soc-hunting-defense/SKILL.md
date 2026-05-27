@@ -1,33 +1,3 @@
----
-name: soc-hunting-defense
-description: Detect NTFS timestamp manipulation (MITRE T1070.006) by comparing $STANDARD_INFORMATION vs $FILE_NAME timestamps in the MFT. Uses analyzeMFT and Python to identify files with anomalous temporal patterns indicating anti-forensic timestomping activity.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- timestomping
-- ntfs-forensics
-- mft-analysis
-- defense-evasion
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-- Platform Hardening
-- File Format Verification
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1070.006
-capec: []
----
-
 # Hunting for Defense Evasion via Timestomping
 
 Detect timestamp manipulation by analyzing NTFS MFT entries for

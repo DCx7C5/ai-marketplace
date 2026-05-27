@@ -1,11 +1,3 @@
----
-name: "devel-jb-dependency-conflict-resolver"
-description: "Diagnose and resolve Gradle and Spring classpath conflicts, version drift, and binary incompatibilities in Kotlin applications. Use when `NoSuchMethodError`, `ClassNotFoundException`, linkage errors, duplicate logging bindings, Jackson or Hibernate mismatches, or BOM-versus-explicit-version conflicts appear, and the fix must respect the repository's real version authorities."
-metadata: ""
-short-description: "Untangle Gradle classpath conflicts"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/dependency-conflict-resolver"
----
 # Dependency Conflict Resolver
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-05`).

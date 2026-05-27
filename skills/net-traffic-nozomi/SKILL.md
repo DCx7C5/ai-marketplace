@@ -1,41 +1,3 @@
----
-name: net-traffic-nozomi
-description: Deploy Nozomi Networks Guardian sensors for passive OT network traffic analysis to achieve comprehensive asset visibility, real-time threat detection, and vulnerability assessment across industrial control systems without disrupting operations, leveraging behavioral anomaly detection and protocol-aware monitoring.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- nozomi
-- guardian
-- network-monitoring
-- asset-visibility
-- anomaly-detection
-- ndr
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1046
-- T1059
-- T1070
-capec: []
----
-
 # Implementing OT Network Traffic Analysis with Nozomi
 
 ## When to Use
@@ -79,7 +41,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class NozomiGuardianManager:
     """Manages Nozomi Networks Guardian for OT monitoring."""
@@ -222,7 +183,6 @@ class NozomiGuardianManager:
                 print(f"    {comm['source']} ({comm['source_zone']}) -> "
                       f"{comm['destination']} ({comm['dest_zone']}) "
                       f"via {', '.join(comm['protocols'])}")
-
 
 if __name__ == "__main__":
     manager = NozomiGuardianManager(

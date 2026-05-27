@@ -1,35 +1,3 @@
----
-name: identity-threat-insider
-description: Detect insider threat behavioral indicators including unusual data access, off-hours activity, mass file downloads, privilege abuse, and resignation-correlated data theft.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- insider-threat
-- data-theft
-- ueba
-- proactive-detection
-d3fend_techniques:
-- Restore Access
-- Password Authentication
-- Biometric Authentication
-- Strong Password Policy
-- Restore User Account Access
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Detecting Insider Threat Behaviors
 
 ## When to Use

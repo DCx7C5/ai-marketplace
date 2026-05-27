@@ -1,26 +1,4 @@
----
-name: cloud-zerotrust-mtls
-description: Configures mutual TLS (mTLS) authentication between microservices using Python cryptography library for certificate generation and ssl module for TLS verification. Validates certificate chains, checks expiration, and audits mTLS deployment status. Use when implementing zero-trust service-to-service authentication.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- implementing
-- mtls
-- for
-- zero
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing mTLS for Zero Trust Services
-
 
 ## When to Use
 

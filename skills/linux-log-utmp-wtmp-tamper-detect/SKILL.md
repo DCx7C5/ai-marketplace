@@ -1,9 +1,4 @@
 ---
-name: "linux-log-utmp-wtmp-tamper-detect"
-description: "---"
----
-
----
 name: linux-log-utmp-wtmp-tamper-detect
 description: Detect utmp/wtmp login record tampering — identify modifications to /var/run/utmp, /var/log/wtmp, /var/log/btmp used to erase attacker login history.
 domain: cybersecurity

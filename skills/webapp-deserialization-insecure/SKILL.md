@@ -1,32 +1,3 @@
----
-name: webapp-deserialization-insecure
-description: Identifying and exploiting insecure deserialization vulnerabilities in Java, PHP, Python, and .NET applications to achieve remote code execution during authorized penetration tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- deserialization
-- rce
-- owasp
-- web-security
-- ysoserial
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-502
-cve:
-- CVE-2015-7501
-capec: []
----
-
 # Exploiting Insecure Deserialization
 
 ## When to Use

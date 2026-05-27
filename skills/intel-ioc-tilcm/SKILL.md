@@ -1,34 +1,8 @@
----
-name: intel-ioc-tilcm
-description: Implement a structured threat intelligence lifecycle encompassing planning, collection, processing, analysis, dissemination, and feedback stages to produce actionable intelligence for organizational decision-making.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- lifecycle
-- intelligence-cycle
-- collection
-- analysis
-- dissemination
-- strategic-intelligence
-- cti-program
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Threat Intelligence Lifecycle Management
 
 ## Overview
 
 The threat intelligence lifecycle is a structured, iterative process for transforming raw data into actionable intelligence. Based on the intelligence cycle used by military and government agencies, it comprises six phases: Direction (requirements gathering), Collection (data acquisition), Processing (normalization and deduplication), Analysis (contextualization and assessment), Dissemination (distribution to stakeholders), and Feedback (evaluation and refinement). This skill covers building each phase with tooling, metrics, and integration points for a mature CTI program.
-
 
 ## When to Use
 

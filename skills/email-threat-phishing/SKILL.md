@@ -1,36 +1,7 @@
----
-name: email-threat-phishing
-description: Implement a phishing report button in email clients with automated triage workflow that analyzes user-reported suspicious emails and provides feedback to reporters.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- phishing-reporting
-- email-security
-- incident-response
-- security-awareness
-- outlook
-- microsoft-365
-- soar
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1204
-- T1534
-capec: []
----
-
 # Building Phishing Reporting Button Workflow
 
 ## Overview
 A phishing reporting button empowers users to flag suspicious emails directly from their email client, creating a critical feedback loop between end users and the security operations center. Microsoft's built-in Report button is now the recommended approach, replacing the deprecated Report Message and Report Phishing add-ins. When combined with automated triage using SOAR platforms, reported emails can be classified, IOCs extracted, and remediation actions taken within minutes. Organizations with effective phishing reporting programs see 70%+ report rates in phishing simulations.
-
 
 ## When to Use
 

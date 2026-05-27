@@ -1,13 +1,3 @@
----
-name: vuln-scanning-nessus
-description: ">\n  Performs authenticated and unauthenticated vulnerability scanning\
-  \ using Tenable Nessus to identify known vulnerabilities, misconfigurations, default\
-  \ credentials, and missing patches across network infrastructure, servers, and applications.\
-  \ The scanner correlates findings with CVE databases and CVSS scores to produce\
-  \ prioritized remediation guidance. Activates for requests involving vulnerability\
-  \ scanning, Nessus assessment, patch compliance checking, or automated vulnerability\
-  \ detection."
----
 # Performing Vulnerability Scanning with Nessus
 
 ## When to Use
@@ -152,7 +142,6 @@ Generate a comprehensive vulnerability scan report:
 - Remediation: Upgrade OpenSSH to 9.8p1 or later
 - Priority: Within 7 days - authenticated remote code execution
 ```
-
 
 ---
 

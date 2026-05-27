@@ -1,37 +1,8 @@
----
-name: net-firewall-ngfw-recover
-description: Configure and deploy Palo Alto Networks next-generation firewalls with App-ID, User-ID, zone-based policies, SSL decryption, and threat prevention profiles for enterprise network security.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- palo-alto
-- ngfw
-- firewall
-- app-id
-- user-id
-- threat-prevention
-- network-security
-- ssl-decryption
-- zone-protection
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.004
-capec: []
----
-
 # Implementing Next-Generation Firewall with Palo Alto
 
 ## Overview
 
 Palo Alto Networks Next-Generation Firewalls (NGFWs) move beyond traditional port-based rule enforcement to application-aware, identity-driven security policies. By leveraging App-ID for traffic classification, User-ID for identity-based enforcement, Content-ID for threat inspection, and SSL decryption for encrypted traffic visibility, organizations gain comprehensive control over network traffic. This skill covers end-to-end deployment from initial configuration through advanced threat prevention profiles.
-
 
 ## When to Use
 

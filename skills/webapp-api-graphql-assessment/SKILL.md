@@ -1,30 +1,3 @@
----
-name: webapp-api-graphql-assessment
-description: Assessing GraphQL API endpoints for introspection leaks, injection attacks, authorization flaws, and denial-of-service vulnerabilities during authorized security tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- graphql
-- api-security
-- owasp
-- web-security
-- introspection
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1498
-cwe:
-- CWE-200
-capec: []
----
-
 # Performing GraphQL Security Assessment
 
 ## When to Use

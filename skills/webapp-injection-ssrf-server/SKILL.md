@@ -1,30 +1,3 @@
----
-name: webapp-injection-ssrf-server
-description: Identifying and exploiting SSRF vulnerabilities to access internal services, cloud metadata, and restricted network resources during authorized penetration tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- ssrf
-- owasp
-- cloud-security
-- web-security
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-918
-capec: []
----
-
 # Exploiting Server-Side Request Forgery
 
 ## When to Use

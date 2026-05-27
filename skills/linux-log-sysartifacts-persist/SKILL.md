@@ -1,31 +1,3 @@
----
-name: linux-log-sysartifacts-persist
-description: Examine Linux system artifacts including auth logs, cron jobs, shell history, and system configuration to uncover evidence of compromise or unauthorized activity.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- linux-forensics
-- system-artifacts
-- log-analysis
-- persistence-detection
-- incident-investigation
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1053.003
-- T1059
-- T1070
-- T1547
-capec: []
----
-
 # Analyzing Linux System Artifacts
 
 ## When to Use

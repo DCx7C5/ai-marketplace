@@ -1,8 +1,3 @@
----
-name: offensive-shellcode
-description: "Shellcode development reference for offensive security engagements. Use when writing custom x86/x64 shellcode, implementing position-independent code (PIC), building shellcode loaders, evading AV/EDR detection, or converting PE files to shellcode. Covers null byte avoidance, API hashing, encoder/decoder patterns, staged vs stageless payloads, Windows PEB traversal, and cross-platform shellcode techniques."
----
-
 ## Shellcode Development Workflow
 
 1. Define concept and target platform (x86/x64, Windows/Linux/macOS)

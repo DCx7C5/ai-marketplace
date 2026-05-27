@@ -1,28 +1,3 @@
----
-name: cloud-infrastructure-terraform
-description: Auditing Terraform infrastructure-as-code for security misconfigurations using Checkov, tfsec, Terrascan, and OPA/Rego policies to detect overly permissive IAM policies, public resource exposure, missing encryption, and insecure defaults before cloud deployment.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- terraform
-- infrastructure-as-code
-- checkov
-- tfsec
-- policy-as-code
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-capec: []
----
-
 # Auditing Terraform Infrastructure for Security
 
 ## When to Use
@@ -196,7 +171,7 @@ Add IaC security scanning as a mandatory CI/CD gate.
 
 ```yaml
 # GitHub Actions: Terraform security pipeline
-name: infrastructure-terraform-audit
+name: cloud-infrastructure-terraform
 on:
   pull_request:
     paths: ['terraform/**']

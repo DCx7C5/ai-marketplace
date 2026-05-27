@@ -1,29 +1,3 @@
----
-name: webapp-language-type
-description: Exploit PHP type juggling vulnerabilities caused by loose comparison operators to bypass authentication, circumvent hash verification, and manipulate application logic through type coercion attacks.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- type-juggling
-- php-security
-- loose-comparison
-- authentication-bypass
-- magic-hash
-- type-coercion
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-287
-capec: []
----
-
 # Exploiting Type Juggling Vulnerabilities
 
 ## When to Use
@@ -40,7 +14,6 @@ capec: []
 - PHP development environment for testing payloads locally
 - Collection of magic hash strings from PayloadsAllTheThings
 - Ability to send JSON or serialized data to control input types
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

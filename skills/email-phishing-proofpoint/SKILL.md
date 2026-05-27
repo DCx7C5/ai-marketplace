@@ -1,36 +1,7 @@
----
-name: email-phishing-proofpoint
-description: Deploy and configure Proofpoint Email Protection as a secure email gateway to detect and block phishing, malware, BEC, and spam before messages reach user inboxes.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- email-security
-- proofpoint
-- secure-email-gateway
-- phishing
-- anti-spam
-- anti-malware
-- bec
-- email-filtering
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1566
-capec: []
----
-
 # Implementing Proofpoint Email Security Gateway
 
 ## Overview
 Proofpoint Email Protection is a cloud-native secure email gateway (SEG) that acts as a security checkpoint where all inbound and outbound mail traffic routes through the gateway before reaching user inboxes. It combines signature-based detection for known malware, machine learning algorithms for emerging threats, real-time threat intelligence feeds, URL rewriting with time-of-click sandboxing, and behavioral analysis for BEC detection. Proofpoint processes over 2.8 billion emails daily and blocks over 1 million extortion attempts per day.
-
 
 ## When to Use
 

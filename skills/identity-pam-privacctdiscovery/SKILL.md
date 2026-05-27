@@ -1,35 +1,7 @@
----
-name: identity-pam-privacctdiscovery
-description: Discover and inventory all privileged accounts across enterprise infrastructure including domain admins, local admins, service accounts, database admins, cloud IAM roles, and application admin account
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- privileged-access
-- discovery
-- inventory
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1078.004
-- T1082
-capec: []
----
-
 # Performing Privileged Account Discovery
 
 ## Overview
 Discover and inventory all privileged accounts across enterprise infrastructure including domain admins, local admins, service accounts, database admins, cloud IAM roles, and application admin accounts. Covers automated scanning, risk classification, and onboarding to PAM.
-
 
 ## When to Use
 

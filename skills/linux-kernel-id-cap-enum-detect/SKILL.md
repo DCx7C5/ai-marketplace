@@ -1,27 +1,3 @@
----
-name: linux-kernel-id-cap-enum-detect
-description: Linux capability enumeration, auditing, and abuse detection. Covers CAP_* flags, capability sets (effective/permitted/inheritable/ambient/bounding), container escapes via capabilities, and forensic detection of capability misuse.
-domain: cybersecurity
-subdomain: endpoint-forensics
-tags:
-- linux
-- capabilities
-- privilege-escalation
-- kernel
-- blue-team
-model: sonnet
-maxTurns: 15
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1548
-- T1068
-- T1611
-nist_csf:
-- PR.AC-04
-- DE.CM-01
-capec: []
----
-
 # Linux Capabilities Enumeration & Detection
 
 ## Overview

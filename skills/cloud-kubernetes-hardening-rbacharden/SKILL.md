@@ -1,39 +1,8 @@
----
-name: cloud-kubernetes-hardening-rbacharden
-description: Harden Kubernetes Role-Based Access Control by implementing least-privilege policies, auditing role bindings, eliminating cluster-admin sprawl, and integrating external identity providers.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- kubernetes
-- rbac
-- access-control
-- least-privilege
-- security-hardening
-- iam
-- oidc
-- service-accounts
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1041
-- T1078.004
-- T1610
-capec: []
----
-
 # Implementing RBAC Hardening for Kubernetes
 
 ## Overview
 
 Kubernetes RBAC regulates access to cluster resources based on roles assigned to users, groups, and service accounts. Default configurations often grant excessive permissions, and without active hardening, RBAC becomes a primary attack vector for privilege escalation, lateral movement, and data exfiltration. Hardening requires implementing least-privilege principles, eliminating unnecessary ClusterRole bindings, separating service accounts, integrating external identity providers, and continuous auditing.
-
 
 ## When to Use
 

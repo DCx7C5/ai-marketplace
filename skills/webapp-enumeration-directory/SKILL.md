@@ -1,31 +1,3 @@
----
-name: webapp-enumeration-directory
-description: Testing web applications for path traversal vulnerabilities that allow reading or writing arbitrary files on the server by manipulating file path parameters.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- directory-traversal
-- path-traversal
-- lfi
-- owasp
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-22
-- CWE-98
-capec: []
----
-
 # Performing Directory Traversal Testing
 
 ## When to Use

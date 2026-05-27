@@ -1,29 +1,3 @@
----
-name: net-layer4-port-enumerate
-description: Configures Fail2ban with custom filters and actions to detect port scanning activity, SSH brute force attempts, and network reconnaissance, automatically banning offending IP addresses and alerting security teams to suspicious network probing.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- fail2ban
-- port-scanning
-- intrusion-prevention
-- automated-defense
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1562.001
-capec: []
----
-
 # Detecting Port Scanning with Fail2ban
 
 ## When to Use

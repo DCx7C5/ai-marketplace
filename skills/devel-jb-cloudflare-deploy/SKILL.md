@@ -1,11 +1,3 @@
----
-name: "devel-jb-cloudflare-deploy"
-description: "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare."
-metadata: ""
-short-description: "Deploy Workers, Pages, and platform services on Cloudflare"
-author: "OpenAI"
-source: "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy"
----
 # Cloudflare Deploy
 
 Consolidated skill for building on the Cloudflare platform. Use decision trees below to find the right product, then load detailed references.

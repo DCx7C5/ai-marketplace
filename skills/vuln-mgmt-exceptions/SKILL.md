@@ -1,14 +1,8 @@
----
-name: vuln-mgmt-exceptions
-description: ">\n  Build a vulnerability exception and risk acceptance tracking system\
-  \ with approval workflows, compensating controls documentation, and expiration management."
----
 # Building Vulnerability Exception Tracking System
 
 ## Overview
 
 A vulnerability exception tracking system manages cases where vulnerabilities cannot be remediated within SLA timelines. It provides structured workflows for requesting exceptions, documenting compensating controls, obtaining risk acceptance approvals, and automatically expiring exceptions when their validity period ends. This ensures organizations maintain visibility into accepted risks while complying with frameworks like PCI DSS, SOC 2, and NIST CSF.
-
 
 ## When to Use
 
@@ -161,7 +155,6 @@ For each exception, compensating controls must address:
 - [NIST SP 800-53 Rev 5 - CA-7 Continuous Monitoring](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 - [PCI DSS v4.0 Compensating Controls](https://docs-prv.pcisecuritystandards.org/PCI%20DSS/Standard/PCI-DSS-v4_0.pdf)
 - [CIS Controls v8 - Control 7.7](https://www.cisecurity.org/controls/continuous-vulnerability-management)
-
 
 ---
 

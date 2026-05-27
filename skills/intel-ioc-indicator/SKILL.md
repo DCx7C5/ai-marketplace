@@ -1,35 +1,8 @@
----
-name: intel-ioc-indicator
-description: Indicator lifecycle management tracks IOCs from initial discovery through validation, enrichment, deployment, monitoring, and eventual retirement. This skill covers implementing systematic processes f
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- indicator-lifecycle
-- ioc-management
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-capec: []
----
-
 # Performing Indicator Lifecycle Management
 
 ## Overview
 
 Indicator lifecycle management tracks IOCs from initial discovery through validation, enrichment, deployment, monitoring, and eventual retirement. This skill covers implementing systematic processes for IOC quality assessment, aging policies, confidence scoring decay, false positive tracking, hit-rate monitoring, and automated expiration to maintain a high-quality, actionable indicator database that minimizes analyst fatigue and maximizes detection efficacy.
-
 
 ## When to Use
 

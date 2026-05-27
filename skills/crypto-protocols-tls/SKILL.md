@@ -1,30 +1,8 @@
----
-name: crypto-protocols-tls
-description: TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol, providing significant improvements over TLS 1.2 in both security and performance. It reduces handshake latency to 1-R
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- tls
-- ssl
-- transport-security
-- network-security
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Configuring TLS 1.3 for Secure Communications
 
 ## Overview
 
 TLS 1.3 (RFC 8446) is the latest version of the Transport Layer Security protocol, providing significant improvements over TLS 1.2 in both security and performance. It reduces handshake latency to 1-RTT (and 0-RTT for resumed sessions), removes obsolete cipher suites, and mandates perfect forward secrecy. This skill covers configuring TLS 1.3 on servers, validating configurations, and testing for common misconfigurations.
-
 
 ## When to Use
 

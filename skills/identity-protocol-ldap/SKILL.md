@@ -1,35 +1,7 @@
----
-name: identity-protocol-ldap
-description: Harden LDAP directory services against common attacks including credential harvesting, LDAP injection, anonymous binding, and channel binding bypass. Covers LDAPS enforcement, channel binding, LDAP si
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- ldap
-- directory-services
-- hardening
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1078.004
-- T1087.002
-capec: []
----
-
 # Configuring LDAP Security Hardening
 
 ## Overview
 Harden LDAP directory services against common attacks including credential harvesting, LDAP injection, anonymous binding, and channel binding bypass. Covers LDAPS enforcement, channel binding, LDAP signing, access control lists, and monitoring for LDAP-based attacks.
-
 
 ## When to Use
 

@@ -1,35 +1,8 @@
----
-name: cloud-azure-ad-pim
-description: Configure Microsoft Entra Privileged Identity Management to enforce just-in-time role activation, approval workflows, and access reviews for Azure AD privileged roles.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- azure-ad
-- pim
-- entra-id
-- just-in-time
-- privileged-roles
-- identity-governance
-- zero-trust
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Azure AD Privileged Identity Management
 
 ## Overview
 
 Microsoft Entra Privileged Identity Management (PIM) provides time-based and approval-based role activation to mitigate risks from excessive, unnecessary, or misused access to critical resources. PIM replaces permanent (standing) privilege assignments with eligible assignments that require users to explicitly activate their role before use, with configurable duration, MFA enforcement, approval workflows, and justification requirements. This is a core component of Zero Trust identity governance in Microsoft environments.
-
 
 ## When to Use
 

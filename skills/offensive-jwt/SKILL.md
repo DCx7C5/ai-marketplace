@@ -1,8 +1,3 @@
----
-name: offensive-jwt
-description: "JWT attack methodology for penetration testers. Covers algorithm confusion (alg:none, RS256→HS256), weak HMAC secret brute force, kid parameter injection (SQLi, path traversal), jku/x5u/jwk header injection, JWKS cache poisoning, JWS/JWE confusion, timing attacks, and mobile JWT storage extraction. Use when testing JWT-based authentication, hunting auth bypass via token manipulation, or evaluating JWT implementation security in web or mobile apps."
----
-
 ## Overview
 
 Comprehensive JWT attack checklist for offensive security engagements. Follow steps in order; apply each technique to the current target context and track which items have been completed.

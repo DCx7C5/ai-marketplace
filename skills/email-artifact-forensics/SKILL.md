@@ -1,29 +1,3 @@
----
-name: email-artifact-forensics
-description: Test web application email functionality for SMTP header injection vulnerabilities that allow attackers to inject additional email headers, modify recipients, and abuse contact forms for spam relay.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- email-injection
-- smtp-injection
-- crlf-injection
-- header-injection
-- spam-relay
-- contact-form
-- email-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-113
-capec: []
----
-
 # Testing for Email Header Injection
 
 ## When to Use

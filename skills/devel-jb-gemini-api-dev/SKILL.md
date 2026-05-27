@@ -1,11 +1,3 @@
----
-name: "devel-jb-gemini-api-dev"
-description: "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities."
-metadata: ""
-short-description: "Build apps with the Gemini API"
-author: "Google Gemini"
-source: "https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-api-dev"
----
 # Gemini API Development Skill
 
 ## Overview
@@ -24,7 +16,6 @@ The Gemini API provides access to Google's most advanced AI models. Key capabili
 - `gemini-3-pro-preview`: 1M tokens, complex reasoning, coding, research
 - `gemini-3-flash-preview`: 1M tokens, fast, balanced performance, multimodal
 - `gemini-3-pro-image-preview`: 65k / 32k tokens, image generation and editing
-
 
 > [!IMPORTANT]
 > Models like `gemini-2.5-*`, `gemini-2.0-*`, `gemini-1.5-*` are legacy and deprecated. Use the new models above. Your knowledge is outdated.

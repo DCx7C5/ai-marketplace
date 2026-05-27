@@ -1,30 +1,3 @@
----
-name: ics-ics-architecture-purdue-configure
-description: Implement network segmentation based on the Purdue Enterprise Reference Architecture (PERA) model to separate industrial control system networks into hierarchical security zones from Level 0 physical process through Level 5 enterprise, enforcing strict traffic control between OT and IT domains.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- purdue-model
-- network-segmentation
-- iec62443
-- defense-in-depth
-- dmz
-- scada
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Implementing Purdue Model Network Segmentation
 
 ## When to Use
@@ -65,7 +38,6 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 from typing import Dict, List
-
 
 PURDUE_LEVELS = {
     0: {
@@ -118,7 +90,6 @@ PURDUE_LEVELS = {
         "allowed_protocols": ["HTTPS", "IPsec VPN"],
     },
 }
-
 
 class PurdueSegmentationPlanner:
     """Plans Purdue Model network segmentation."""
@@ -299,7 +270,6 @@ class PurdueSegmentationPlanner:
             print(f"      {rule['source_zone']} -> {rule['dest_zone']}")
             print(f"      Service: {rule['service']}")
             print(f"      Reason: {rule['description']}")
-
 
 if __name__ == "__main__":
     planner = PurdueSegmentationPlanner()

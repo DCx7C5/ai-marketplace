@@ -1,43 +1,7 @@
----
-name: identity-mfa-fido2
-description: Deploy FIDO2/WebAuthn passwordless authentication using security keys and platform authenticators. Covers WebAuthn API integration, FIDO2 server configuration, passkey enrollment, biometric authentica
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- authentication
-- fido2
-- webauthn
-- passwordless
-atlas_techniques:
-- AML.T0051
-- AML.T0054
-- AML.T0056
-nist_ai_rmf:
-- MEASURE-2.7
-- MEASURE-2.5
-- GOVERN-6.1
-- MAP-5.1
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Passwordless Authentication with FIDO2
 
 ## Overview
 Deploy FIDO2/WebAuthn passwordless authentication using security keys and platform authenticators. Covers WebAuthn API integration, FIDO2 server configuration, passkey enrollment, biometric authentication, and migration from password-based systems aligned with NIST SP 800-63B AAL3.
-
 
 ## When to Use
 

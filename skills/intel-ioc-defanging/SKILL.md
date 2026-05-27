@@ -1,36 +1,8 @@
----
-name: intel-ioc-defanging
-description: Build an automated pipeline to defang indicators of compromise (URLs, IPs, domains, emails) for safe sharing and distribute them in STIX format through TAXII feeds and threat intelligence platforms.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- ioc
-- defanging
-- threat-sharing
-- stix
-- pipeline
-- indicator
-- automation
-- threat-intelligence
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.001
-capec: []
----
-
 # Building IOC Defanging and Sharing Pipeline
 
 ## Overview
 
 IOC defanging modifies potentially malicious indicators (URLs, IP addresses, domains, email addresses) to prevent accidental clicks or execution while preserving readability for analysis and sharing. This skill covers building an automated pipeline that ingests raw IOCs from multiple sources, normalizes and deduplicates them, applies defanging for safe human consumption, converts them to STIX 2.1 format for machine consumption, and distributes through TAXII servers, MISP instances, and email reports.
-
 
 ## When to Use
 

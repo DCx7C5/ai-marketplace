@@ -1,30 +1,3 @@
----
-name: webapp-access-idor
-description: Identifying and exploiting Insecure Direct Object Reference vulnerabilities to access unauthorized resources by manipulating object identifiers in API requests and URLs.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- idor
-- access-control
-- owasp
-- burpsuite
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.001
-cwe:
-- CWE-639
-capec: []
----
-
 # Exploiting IDOR Vulnerabilities
 
 ## When to Use

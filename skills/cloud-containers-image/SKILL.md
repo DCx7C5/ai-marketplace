@@ -1,36 +1,8 @@
----
-name: cloud-containers-image
-description: Sign and verify container image provenance using Sigstore Cosign with keyless OIDC-based signing, attestations, and Kubernetes admission enforcement.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- cosign
-- sigstore
-- image-signing
-- supply-chain
-- provenance
-- keyless
-- slsa
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1195
-- T1610
-capec: []
----
-
 # Implementing Image Provenance Verification with Cosign
 
 ## Overview
 
 Cosign is a Sigstore tool for signing, verifying, and attaching metadata to container images and OCI artifacts. It supports both key-based and keyless (OIDC) signing, integrates with Fulcio (certificate authority) and Rekor (transparency log), and enables supply chain security for container images.
-
 
 ## When to Use
 
@@ -199,7 +171,7 @@ cosign verify-attestation --key cosign.pub \
 ### GitHub Actions
 
 ```yaml
-name: containers-image
+name: cloud-containers-image
 on:
   push:
     tags: ['v*']

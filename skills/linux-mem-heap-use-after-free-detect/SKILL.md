@@ -1,9 +1,4 @@
 ---
-name: "linux-mem-heap-use-after-free-detect"
-description: "---"
----
-
----
 name: linux-mem-heap-use-after-free-detect
 description: Detect heap use-after-free vulnerabilities in userland applications — identify dangling pointer dereferences, double-free conditions, and heap metadata corruption.
 domain: cybersecurity

@@ -1,31 +1,3 @@
----
-name: intel-feeds-feedintegr
-description: Builds automated threat intelligence feed integration pipelines connecting STIX/TAXII feeds, open-source threat intel, and commercial TI platforms into SIEM and security tools for real-time IOC matching and alerting. Use when SOC teams need to operationalize threat intelligence by automating feed ingestion, normalization, scoring, and distribution to detection systems.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- threat-intelligence
-- stix
-- taxii
-- misp
-- feeds
-- ioc
-- siem-integration
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Building Threat Intelligence Feed Integration
 
 ## When to Use

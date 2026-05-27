@@ -1,26 +1,3 @@
----
-name: email-phishing-redteamphish
-description: Automate GoPhish phishing simulation campaigns using the Python gophish library. Creates email plugins with tracking pixels, configures SMTP sending profiles, builds target groups from CSV, launches campaigns, and analyzes results including open rates, click rates, and credential submission statistics for security awareness assessment.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- performing
-- red
-- team
-- phishing
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-capec: []
----
-
 ## When to Use
 
 - When conducting security assessments that involve performing red team phishing with gophish

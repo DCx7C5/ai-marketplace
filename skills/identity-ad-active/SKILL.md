@@ -1,28 +1,3 @@
----
-name: identity-ad-active
-description: Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths
-domain: cybersecurity
-subdomain: identity-security
-tags:
-- active-directory
-- acl-abuse
-- ldap
-- privilege-escalation
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-- T1087.002
-cwe:
-- CWE-269
-capec: []
----
-
 # Analyzing Active Directory ACL Abuse
 
 ## Overview
@@ -30,7 +5,6 @@ capec: []
 Active Directory Access Control Lists (ACLs) define permissions on AD objects through Discretionary Access Control Lists (DACLs) containing Access Control Entries (ACEs). Misconfigured ACEs can grant non-privileged users dangerous permissions such as GenericAll (full control), WriteDACL (modify permissions), WriteOwner (take ownership), and GenericWrite (modify attributes) on sensitive objects like Domain Admins groups, domain controllers, or GPOs.
 
 This skill uses the ldap3 Python library to connect to a Domain Controller, query objects with their nTSecurityDescriptor attribute, parse the binary security descriptor into SDDL (Security Descriptor Definition Language) format, and identify ACEs that grant dangerous permissions to non-administrative principals. These misconfigurations are the basis for ACL-based attack paths discovered by tools like BloodHound.
-
 
 ## When to Use
 

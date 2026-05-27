@@ -1,27 +1,3 @@
----
-name: webapp-api-graphql-introspection
-description: Performs GraphQL introspection attacks to extract the full API schema including types, queries, mutations, subscriptions, and field definitions from GraphQL endpoints. The tester uses introspection queries to map the attack surface, identifies sensitive fields and mutations, tests for query depth and complexity limits, and exploits GraphQL-specific vulnerabilities including batching attacks, alias-based brute force, and nested query DoS. Activates for requests involving GraphQL security testing, introspection attack, GraphQL enumeration, or GraphQL API penetration testing.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- graphql
-- introspection
-- schema-extraction
-- query-abuse
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-200
-capec: []
----
-
 # Performing GraphQL Introspection Attack
 
 ## When to Use
@@ -42,7 +18,6 @@ capec: []
 - GraphQL Voyager or GraphQL Playground for schema visualization
 - Clairvoyance tool for schema reconstruction when introspection is disabled
 - Wordlists for GraphQL field and type name brute-forcing
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

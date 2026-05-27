@@ -1,9 +1,4 @@
 ---
-name: "linux-id-ssh-authorized-keys-backdoor-detect"
-description: "---"
----
-
----
 name: linux-id-ssh-authorized-keys-backdoor-detect
 description: Detect SSH authorized_keys backdoors — scan all user ~/.ssh/authorized_keys for unauthorized keys, detect non-standard AuthorizedKeysFile locations, and identify key-based persistence.
 domain: cybersecurity

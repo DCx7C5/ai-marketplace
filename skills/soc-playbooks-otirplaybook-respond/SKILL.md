@@ -1,31 +1,3 @@
----
-name: soc-playbooks-otirplaybook-respond
-description: Develop and implement OT-specific incident response playbooks aligned with SANS PICERL framework, IEC 62443, and NIST SP 800-82 that address unique ICS challenges including safety-critical systems, limited downtime tolerance, and coordination between IT SOC, OT engineering, and plant operations teams.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- incident-response
-- playbook
-- sans
-- iec62443
-- nist
-- safety-critical
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1486
-capec: []
----
-
 # Implementing OT Incident Response Playbook
 
 ## When to Use
@@ -65,14 +37,12 @@ from datetime import datetime
 from enum import Enum
 from typing import Dict, List, Optional
 
-
 class OTIncidentSeverity(Enum):
     SEV1_SAFETY = "SEV1-SAFETY"  # Safety system compromise
     SEV2_PROCESS = "SEV2-PROCESS"  # Active process manipulation
     SEV3_ACCESS = "SEV3-ACCESS"  # Unauthorized OT access
     SEV4_RECON = "SEV4-RECON"  # Reconnaissance in OT network
     SEV5_IT_SPILLOVER = "SEV5-IT-SPILLOVER"  # IT incident with OT exposure
-
 
 class OTIncidentCategory(Enum):
     RANSOMWARE = "ransomware"
@@ -83,7 +53,6 @@ class OTIncidentCategory(Enum):
     DATA_EXFILTRATION = "ot_data_exfiltration"
     SUPPLY_CHAIN = "supply_chain_compromise"
     INSIDER_THREAT = "insider_threat"
-
 
 # PICERL phase definitions for OT
 PICERL_PHASES = {
@@ -155,7 +124,6 @@ PICERL_PHASES = {
     },
 }
 
-
 class OTIncident:
     """Represents an active OT security incident."""
 
@@ -194,7 +162,6 @@ class OTIncident:
         }
         self.decisions.append(entry)
         return entry
-
 
 class OTPlaybookEngine:
     """Executes OT incident response playbooks."""
@@ -310,7 +277,6 @@ class OTPlaybookEngine:
             print(f"\n  [{phase.upper()}] {info['description']}")
             for item in info["ot_specific"][:3]:
                 print(f"    - {item}")
-
 
 if __name__ == "__main__":
     engine = OTPlaybookEngine()

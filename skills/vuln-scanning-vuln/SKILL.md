@@ -1,11 +1,3 @@
----
-name: vuln-scanning-vuln
-description: ">\n  Builds a structured vulnerability scanning workflow using tools\
-  \ like Nessus, Qualys, and OpenVAS to discover, prioritize, and track remediation\
-  \ of security vulnerabilities across infrastructure. Use when SOC teams need to\
-  \ establish recurring vulnerability assessment processes, integrate scan results\
-  \ with SIEM alerting, and build remediation tracking dashboards."
----
 # Building Vulnerability Scanning Workflow
 
 ## When to Use
@@ -325,7 +317,6 @@ SLA Compliance:
 
 Tickets Created: 39 (ServiceNow)
 ```
-
 
 ---
 

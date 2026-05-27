@@ -1,9 +1,4 @@
 ---
-name: "linux-shell-history-tamper-detect"
-description: "---"
----
-
----
 name: linux-shell-history-tamper-detect
 description: Detect shell history tampering — identify HISTFILE=/dev/null tricks, HISTSIZE=0, history deletion, and commands to disable history recording used to cover attacker tracks.
 domain: cybersecurity

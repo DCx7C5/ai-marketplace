@@ -1,25 +1,3 @@
----
-name: linux-hw-firmware-analyze
-description: Analyzes firmware images for embedded malware, backdoors, and unauthorized modifications targeting routers, IoT devices, UEFI/BIOS, and embedded systems. Covers firmware extraction, filesystem analysis, binary reverse engineering, and bootkit detection. Activates for requests involving firmware security analysis, IoT malware investigation, UEFI rootkit detection, or embedded device compromise assessment.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- malware
-- firmware
-- IoT
-- UEFI
-- embedded-security
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Firmware Malware Analysis
 
 ## When to Use

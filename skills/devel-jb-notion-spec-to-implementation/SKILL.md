@@ -1,11 +1,3 @@
----
-name: "devel-jb-notion-spec-to-implementation"
-description: "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them."
-metadata: ""
-short-description: "Turn Notion specs into implementation plans, tasks, and progress tracking"
-author: "OpenAI"
-source: "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation"
----
 # Spec to Implementation
 
 Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.

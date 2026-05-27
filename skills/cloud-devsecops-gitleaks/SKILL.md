@@ -1,29 +1,3 @@
----
-name: cloud-devsecops-gitleaks
-description: This skill covers implementing Gitleaks for detecting and preventing hardcoded secrets in git repositories. It addresses configuring pre-commit hooks, CI/CD pipeline integration, custom rule authoring for organization-specific secrets, baseline management for existing repositories, and remediation workflows for exposed credentials.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- secret-scanning
-- gitleaks
-- pre-commit
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-capec: []
----
-
 # Implementing Secret Scanning with Gitleaks
 
 ## When to Use
@@ -105,7 +79,7 @@ git commit -m "test"  # Should be blocked by gitleaks
 
 ```yaml
 # .github/workflows/secret-scanning.yml
-name: devsecops-gitleaks
+name: cloud-devsecops-gitleaks
 
 on:
   push:

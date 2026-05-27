@@ -1,27 +1,3 @@
----
-name: net-firewall-pfsense
-description: Configures pfSense firewall rules, NAT policies, VPN tunnels, and traffic shaping to enforce network segmentation, control traffic flow, and protect internal network zones in enterprise and small-to-medium business environments.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- pfsense
-- firewall
-- nat
-- network-segmentation
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.004
-capec: []
----
-
 # Configuring pfSense Firewall Rules
 
 ## When to Use

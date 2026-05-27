@@ -1,40 +1,8 @@
----
-name: intel-analysis-actorinfra
-description: Threat actor infrastructure tracking involves monitoring and mapping adversary-controlled assets including command-and-control (C2) servers, phishing domains, exploit kit hosts, bulletproof hosting, a
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- threat-intelligence
-- cti
-- ioc
-- mitre-attack
-- stix
-- infrastructure-tracking
-- shodan
-- censys
-- passive-dns
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1071
-- T1566
-- T1596.002
-capec: []
----
-
 # Tracking Threat Actor Infrastructure
 
 ## Overview
 
 Threat actor infrastructure tracking involves monitoring and mapping adversary-controlled assets including command-and-control (C2) servers, phishing domains, exploit kit hosts, bulletproof hosting, and staging servers. This skill covers using passive DNS, certificate transparency logs, Shodan/Censys scanning, WHOIS analysis, and network fingerprinting to discover, track, and pivot across threat actor infrastructure over time.
-
 
 ## When to Use
 
@@ -161,7 +129,6 @@ def passive_dns_lookup(indicator, api_key, indicator_type="ip"):
         return resp.json()
     return None
 
-
 def query_passive_total(indicator, user, api_key):
     """Query PassiveTotal for passive DNS and WHOIS data."""
     base_url = "https://api.passivetotal.org/v2"
@@ -231,7 +198,6 @@ def search_ct_logs(domain):
             "certificates": cert_info[:50],
         }
     return None
-
 
 def monitor_new_certs(domains, interval_hours=1):
     """Monitor for newly issued certificates for a list of domains."""

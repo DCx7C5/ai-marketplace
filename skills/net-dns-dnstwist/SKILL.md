@@ -1,40 +1,8 @@
----
-name: net-dns-dnstwist
-description: Detect typosquatting, homograph phishing, and brand impersonation domains using dnstwist to generate domain permutations and identify registered lookalike domains targeting your organization.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- dnstwist
-- typosquatting
-- phishing
-- domain-monitoring
-- brand-protection
-- homograph
-- dns
-- threat-intelligence
-atlas_techniques:
-- AML.T0073
-- AML.T0052
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1583.001
-capec: []
----
-
 # Analyzing Typosquatting Domains with DNSTwist
 
 ## Overview
 
 DNSTwist is a domain name permutation engine that generates similar-looking domain names to detect typosquatting, homograph phishing attacks, and brand impersonation. It creates thousands of domain permutations using techniques like character substitution, transposition, insertion, omission, and homoglyph replacement, then checks DNS records (A, AAAA, NS, MX), calculates web page similarity using fuzzy hashing (ssdeep) and perceptual hashing (pHash), and identifies potentially malicious registered domains.
-
 
 ## When to Use
 

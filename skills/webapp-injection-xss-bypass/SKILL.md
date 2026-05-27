@@ -1,31 +1,3 @@
----
-name: webapp-injection-xss-bypass
-description: Tests web applications for Cross-Site Scripting (XSS) vulnerabilities by injecting JavaScript payloads into reflected, stored, and DOM-based contexts to demonstrate client-side code execution, session hijacking, and user impersonation. The tester identifies all injection points and output contexts, crafts context-appropriate payloads, and bypasses sanitization and CSP protections. Activates for requests involving XSS testing, cross-site scripting assessment, client-side injection testing, or JavaScript injection vulnerability testing.
-domain: cybersecurity
-subdomain: penetration-testing
-tags:
-- XSS
-- cross-site-scripting
-- client-side-security
-- OWASP-A03
-- JavaScript-injection
-nist_csf:
-- ID.RA-01
-- ID.RA-06
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1189
-- T1566
-cwe:
-- CWE-79
-capec: []
----
-
 # Testing for XSS Vulnerabilities
 
 ## When to Use
@@ -45,7 +17,6 @@ capec: []
 - Browser with developer tools and XSS testing extensions (HackBar, XSS Hunter)
 - XSS Hunter or Burp Collaborator for out-of-band payload verification
 - SecLists XSS payload lists and custom payloads for WAF bypass scenarios
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

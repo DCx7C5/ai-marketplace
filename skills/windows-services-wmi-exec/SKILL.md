@@ -1,44 +1,10 @@
----
-name: windows-services-wmi-exec
-description: Perform lateral movement across Windows networks using WMI-based remote execution techniques including Impacket wmiexec.py, CrackMapExec, and native WMI commands for stealthy post-exploitation during red team engagements.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- lateral-movement
-- wmiexec
-- wmi
-- post-exploitation
-- impacket
-- windows
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1047
-capec: []
----
-
 # Performing Lateral Movement with WMIExec
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 WMI (Windows Management Instrumentation) is a legitimate Windows administration framework that red teams abuse for lateral movement because it provides remote command execution without deploying additional services or leaving obvious artifacts like PsExec. Impacket's wmiexec.py creates a semi-interactive shell over WMI by executing commands through Win32_Process.Create and reading output via temporary files on ADMIN$ share. Unlike PsExec, WMIExec does not install a service on the target, making it stealthier and less likely to trigger security alerts. WMI-based lateral movement maps to MITRE ATT&CK T1047 (Windows Management Instrumentation) and is used by threat actors including APT29, APT32, and Lazarus Group.
-
 
 ## When to Use
 

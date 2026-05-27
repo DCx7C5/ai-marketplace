@@ -1,28 +1,3 @@
----
-name: webapp-cache-cachepoisoning
-description: Exploiting web cache mechanisms to serve malicious content to other users by poisoning cached responses through unkeyed headers and parameters during authorized security tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- cache-poisoning
-- web-security
-- cdn
-- burpsuite
-- owasp
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1036
-capec: []
----
-
 # Performing Web Cache Poisoning Attack
 
 ## When to Use
@@ -41,7 +16,6 @@ capec: []
 - **Target knowledge**: Understanding of the caching layer (CDN provider, cache headers)
 - **Cache buster**: Unique query parameter to isolate test requests from other users
 - **Caution**: Cache poisoning affects all users; test with cache-busting parameters first
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

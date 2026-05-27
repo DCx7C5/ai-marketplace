@@ -1,43 +1,8 @@
----
-name: soc-hunting-t1098
-description: Hunt for MITRE ATT&CK T1098 account manipulation including shadow admin creation, SID history injection, group membership changes, and credential modifications using Windows Security Event Logs.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- t1098
-- account-manipulation
-- active-directory
-- persistence
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Application Protocol Command Analysis
-- Password Authentication
-- Biometric Authentication
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1098
-- T1547
-- T1562.001
-capec: []
----
-
 # Hunting for T1098 Account Manipulation
 
 ## Overview
 
 MITRE ATT&CK T1098 (Account Manipulation) covers adversary actions to maintain or expand access to compromised accounts, including adding credentials, modifying group memberships, SID history injection, and creating shadow admin accounts. This skill covers detecting these techniques through Windows Security Event Log analysis (Event IDs 4738, 4728, 4732, 4756, 4670, 5136), correlating group membership changes with privilege escalation indicators, and identifying anomalous account modification patterns.
-
 
 ## When to Use
 

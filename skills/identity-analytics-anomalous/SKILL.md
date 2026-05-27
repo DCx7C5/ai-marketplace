@@ -1,38 +1,3 @@
----
-name: identity-analytics-anomalous
-description: Detects anomalous authentication patterns using UEBA analytics, statistical baselines, and machine learning models to identify impossible travel, credential stuffing, brute force, password spraying, and compromised account behaviors across authentication logs. Activates for requests involving authentication anomaly detection, login behavior analysis, UEBA implementation, or suspicious sign-in investigation.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- UEBA
-- authentication-anomaly
-- impossible-travel
-- brute-force
-- credential-stuffing
-- behavioral-analytics
-atlas_techniques:
-- AML.T0043
-- AML.T0018
-nist_ai_rmf:
-- MEASURE-2.7
-- MEASURE-2.5
-- MAP-5.1
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1110
-- T1110.004
-capec: []
----
-
 # Detecting Anomalous Authentication Patterns
 
 ## When to Use

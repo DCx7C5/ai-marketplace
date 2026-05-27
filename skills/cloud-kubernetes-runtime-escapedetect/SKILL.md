@@ -1,31 +1,4 @@
----
-name: cloud-kubernetes-runtime-escapedetect
-description: Detects container escape attempts by analyzing namespace configurations, privileged container checks, dangerous capability assignments, and host path mounts using the kubernetes Python client. Identifies CVE-2022-0492 style escapes via cgroup abuse. Use when auditing container security posture or investigating escape attempts.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- performing
-- container
-- escape
-- detection
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1610
-cve:
-- CVE-2022-0492
-capec: []
----
-
 # Performing Container Escape Detection
-
 
 ## When to Use
 

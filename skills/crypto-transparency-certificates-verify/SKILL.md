@@ -1,40 +1,8 @@
----
-name: crypto-transparency-certificates-verify
-description: Monitor Certificate Transparency logs using crt.sh and Certstream to detect phishing domains, lookalike certificates, and unauthorized certificate issuance targeting your organization.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- certificate-transparency
-- ct-logs
-- phishing
-- crt-sh
-- certstream
-- ssl
-- domain-monitoring
-- threat-intelligence
-atlas_techniques:
-- AML.T0052
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1566
-- T1596.002
-capec: []
----
-
 # Analyzing Certificate Transparency for Phishing
 
 ## Overview
 
 Certificate Transparency (CT) is an Internet security standard that creates a public, append-only log of all issued SSL/TLS certificates. Monitoring CT logs enables early detection of phishing domains that register certificates mimicking legitimate brands, unauthorized certificate issuance for owned domains, and certificate-based attack infrastructure. This skill covers querying CT logs via crt.sh, real-time monitoring with Certstream, building automated alerting for suspicious certificates, and integrating findings into threat intelligence workflows.
-
 
 ## When to Use
 

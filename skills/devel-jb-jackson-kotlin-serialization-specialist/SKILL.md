@@ -1,11 +1,3 @@
----
-name: "devel-jb-jackson-kotlin-serialization-specialist"
-description: "Diagnose and design JSON serialization and deserialization behavior for Kotlin plus Jackson in Spring applications. Use when DTOs fail to deserialize, default parameters or nullability behave unexpectedly, date-time or enum formats drift, polymorphic payloads are involved, PATCH semantics must distinguish null from absent, or ObjectMapper changes risk breaking existing API or message contracts."
-metadata: ""
-short-description: "Fix Kotlin JSON edge cases safely"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/jackson-kotlin-serialization-specialist"
----
 # Jackson Kotlin Serialization Specialist
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-08`).

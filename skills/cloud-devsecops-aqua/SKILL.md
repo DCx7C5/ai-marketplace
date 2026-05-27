@@ -1,37 +1,8 @@
----
-name: cloud-devsecops-aqua
-description: Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- aqua-security
-- trivy
-- container-scanning
-- vulnerability-scanning
-- sbom
-- image-security
-- supply-chain
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1195
-- T1610
-capec: []
----
-
 # Implementing Aqua Security for Container Scanning
 
 ## Overview
 
 Aqua Security provides Trivy, the world's most popular open-source universal security scanner, designed to find vulnerabilities, misconfigurations, secrets, SBOM data, and license issues in containers, Kubernetes, code repositories, and cloud environments. Trivy covers OS packages (Alpine, Debian, Ubuntu, RHEL, etc.) and language-specific dependencies (npm, pip, Maven, Go modules, Cargo, etc.) with vulnerability databases sourced from NVD, vendor advisories, and GitHub Security Advisories. The enterprise Aqua Platform extends Trivy with centralized policy management, runtime protection, and compliance reporting.
-
 
 ## When to Use
 
@@ -116,7 +87,7 @@ trivy config ./k8s-manifests/
 ### GitHub Actions
 
 ```yaml
-name: devsecops-aqua
+name: cloud-devsecops-aqua
 on:
   push:
     branches: [main]

@@ -1,26 +1,3 @@
----
-name: identity-rbac-entitlement
-description: Performs entitlement review and access certification campaigns using SailPoint IdentityIQ including manager certifications, targeted entitlement reviews, role-based access validation, SOD violation remediation, and automated revocation workflows. Activates for requests involving access reviews, entitlement certifications, SailPoint IIQ governance, or periodic user access recertification.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- SailPoint
-- IdentityIQ
-- access-review
-- entitlement-certification
-- IGA
-- access-governance
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Entitlement Review with SailPoint IdentityIQ
 
 ## When to Use

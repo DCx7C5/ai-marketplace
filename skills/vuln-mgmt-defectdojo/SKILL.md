@@ -1,15 +1,8 @@
----
-name: vuln-mgmt-defectdojo
-description: ">\n  Deploy DefectDojo as a centralized vulnerability management dashboard\
-  \ with scanner integrations, deduplication, metrics tracking, and Jira ticketing\
-  \ workflows."
----
 # Building Vulnerability Dashboard with DefectDojo
 
 ## Overview
 
 DefectDojo is an open-source application vulnerability management platform that aggregates findings from 200+ security tools, deduplicates results, tracks remediation progress, and provides executive dashboards. It serves as a central hub for vulnerability management, integrating with CI/CD pipelines, Jira for ticketing, and Slack for notifications. DefectDojo supports OWASP-based categorization and provides REST API for automation.
-
 
 ## When to Use
 
@@ -161,7 +154,7 @@ curl -X POST "${DD_URL}/reimport-scan/" \
 ### CI/CD Integration (GitHub Actions)
 ```yaml
 # .github/workflows/security-scan.yml
-name: Security Scan
+name: vuln-mgmt-defectdojo
 on: [push]
 jobs:
   scan:
@@ -228,7 +221,6 @@ product_data = resp.json()
 - [DefectDojo REST API](https://defectdojo.github.io/django-DefectDojo/integrations/api-v2-docs/)
 - [OWASP DefectDojo Project](https://owasp.org/www-project-defectdojo/)
 - [DefectDojo Integrations](https://defectdojo.com/integrations)
-
 
 ---
 

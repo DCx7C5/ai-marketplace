@@ -1,27 +1,3 @@
----
-name: linux-forensic-disk-analysis-slack-recover
-description: Examine file system slack space, MFT entries, USN journal, and alternate data streams to recover hidden data and reconstruct file activity on NTFS volumes.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- slack-space
-- ntfs
-- mft
-- usn-journal
-- alternate-data-streams
-- file-system-analysis
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing Slack Space and File System Artifacts
 
 ## When to Use

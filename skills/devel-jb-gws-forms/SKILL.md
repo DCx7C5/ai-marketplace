@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-forms"
-version: "1.0.0"
-description: "Read and write Google Forms."
-metadata: ""
-short-description: "Read and write Google Forms"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws forms --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-forms"
----
 # forms (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

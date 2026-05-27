@@ -1,29 +1,3 @@
----
-name: net-injection-packet
-description: Crafts and injects custom network packets using Scapy, hping3, and Nemesis during authorized security assessments to test firewall rules, IDS detection, protocol handling, and network stack resilience against malformed and spoofed traffic.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- packet-injection
-- scapy
-- hping3
-- protocol-testing
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1562.001
-- T1562.004
-capec: []
----
-
 # Performing Packet Injection Attack
 
 ## When to Use

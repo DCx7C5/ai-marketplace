@@ -1,36 +1,8 @@
----
-name: soc-operations-onboarding
-description: Perform structured log source onboarding into SIEM platforms by configuring collectors, parsers, normalization, and validation for complete security visibility.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- siem
-- log-onboarding
-- log-management
-- data-ingestion
-- parsing
-- normalization
-- soc
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Performing Log Source Onboarding in SIEM
 
 ## Overview
 
 Log source onboarding is the systematic process of integrating new data sources into a SIEM platform to enable security monitoring and detection. Proper onboarding requires planning data sources, configuring collection agents, building parsers, normalizing fields to a common schema, and validating data quality. According to the UK NCSC, onboarding should prioritize log sources that provide the highest security value relative to their ingestion cost.
-
 
 ## When to Use
 

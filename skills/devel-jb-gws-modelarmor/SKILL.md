@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-modelarmor"
-version: "1.0.0"
-description: "Google Model Armor: Filter user-generated content for safety."
-metadata: ""
-short-description: "Filter content with Google Model Armor"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws modelarmor --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-modelarmor"
----
 # modelarmor (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

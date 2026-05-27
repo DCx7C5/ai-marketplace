@@ -1,48 +1,8 @@
----
-name: intel-mitre-coveragemap
-description: Implement MITRE ATT&CK coverage mapping to identify detection gaps, prioritize rule development, and measure SOC detection maturity against adversary techniques.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- mitre-attack
-- detection-coverage
-- gap-analysis
-- attack-navigator
-- soc
-- detection-engineering
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Application Protocol Command Analysis
-- Password Authentication
-- Reissue Credential
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Implementing MITRE ATT&CK Coverage Mapping
 
 ## Overview
 
 MITRE ATT&CK coverage mapping gives SOC teams a structured, adversary-centric lens to evaluate detection capabilities. Enterprise SIEMs on average have detection coverage for only 21% of ATT&CK techniques (2025 CardinalOps report), with 13% of existing rules being non-functional due to misconfigured data sources. Systematic coverage mapping identifies gaps, prioritizes rule development, and tracks detection maturity over time. ATT&CK v18.1 (December 2025) is the latest version.
-
 
 ## When to Use
 

@@ -1,31 +1,4 @@
----
-name: webapp-injection-sqli
-description: Analyze WAF (ModSecurity/AWS WAF/Cloudflare) logs to detect SQL injection attack campaigns. Parses ModSecurity audit logs and JSON WAF event logs to identify SQLi patterns (UNION SELECT, OR 1=1, SLEEP(), BENCHMARK()), tracks attack sources, correlates multi-stage injection attempts, and generates incident reports with OWASP classification.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- detecting
-- sql
-- injection
-- via
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1190
-cwe:
-- CWE-89
-capec: []
----
-
 # Detecting SQL Injection via WAF Logs
-
 
 ## When to Use
 

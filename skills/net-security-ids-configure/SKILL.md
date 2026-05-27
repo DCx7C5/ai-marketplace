@@ -1,40 +1,8 @@
----
-name: net-security-ids-configure
-description: Detect network reconnaissance and port scanning using Suricata and Snort IDS signatures, threshold-based detection rules, and traffic anomaly analysis to identify Nmap, Masscan, and custom scanning activity.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- ids
-- nmap-detection
-- port-scanning
-- snort
-- suricata
-- reconnaissance
-- network-security
-- signature-detection
-- threshold-rules
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1562.001
-- T1595
-capec: []
----
-
 # Detecting Network Scanning with IDS Signatures
 
 ## Overview
 
 Network scanning is typically the first phase of an attack, where adversaries enumerate live hosts, open ports, running services, and OS versions using tools like Nmap, Masscan, ZMap, and custom scanners. Detecting this reconnaissance activity provides early warning of potential attacks. IDS/IPS systems like Suricata and Snort can identify scanning through signature-based detection (matching known scanner packet patterns), threshold-based detection (counting connection attempts over time), and anomaly detection (identifying unusual traffic patterns). This skill covers writing and deploying IDS signatures for scan detection, configuring threshold-based alerting, and correlating scan activity with downstream attack indicators.
-
 
 ## When to Use
 
@@ -167,7 +135,6 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 
-
 class ScanDetector:
     """Correlate IDS alerts to identify scanning campaigns."""
 
@@ -273,7 +240,6 @@ class ScanDetector:
             )[:5]:
                 print(f"    - {sig}: {count}")
             print()
-
 
 if __name__ == '__main__':
     detector = ScanDetector()

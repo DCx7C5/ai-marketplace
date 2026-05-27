@@ -1,30 +1,8 @@
----
-name: crypto-asymmetric-digital-sign
-description: Ed25519 is a high-performance digital signature algorithm using the Edwards curve Curve25519. It provides 128-bit security with 64-byte signatures and 32-byte keys, offering significant advantages ove
-domain: cybersecurity
-subdomain: cryptography
-tags:
-- cryptography
-- digital-signatures
-- ed25519
-- authentication
-- integrity
-nist_csf:
-- PR.DS-01
-- PR.DS-02
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Digital Signatures with Ed25519
 
 ## Overview
 
 Ed25519 is a high-performance digital signature algorithm using the Edwards curve Curve25519. It provides 128-bit security with 64-byte signatures and 32-byte keys, offering significant advantages over RSA and ECDSA including deterministic signatures (no random nonce needed), resistance to side-channel attacks, and fast verification. This skill covers implementing Ed25519 for document signing, code signing, and API authentication.
-
 
 ## When to Use
 

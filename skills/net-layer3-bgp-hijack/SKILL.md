@@ -1,27 +1,3 @@
----
-name: net-layer3-bgp-hijack
-description: Analyzes and simulates BGP hijacking scenarios in authorized lab environments to assess route origin validation, RPKI deployment, and BGP monitoring defenses against prefix hijacking and route leak attacks on internet routing infrastructure.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- bgp
-- routing-security
-- rpki
-- route-hijacking
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1557
-capec: []
----
-
 # Exploiting BGP Hijacking Vulnerabilities
 
 ## When to Use
@@ -52,7 +28,7 @@ sudo bash -c "$(curl -sL https://get.containerlab.dev)"
 
 # Create a BGP lab topology file
 cat > bgp-lab.clab.yml << 'EOF'
-name: layer3-bgp-hijack
+name: net-layer3-bgp-hijack
 topology:
   nodes:
     # Legitimate AS (AS65001) announcing 10.0.0.0/24

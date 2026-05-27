@@ -1,28 +1,3 @@
----
-name: cloud-forensics-docker
-description: Investigate compromised Docker containers by analyzing images, layers, volumes, logs, and runtime artifacts to identify malicious activity and evidence.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- docker
-- container-forensics
-- container-security
-- image-analysis
-- runtime-investigation
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1610
-capec: []
----
-
 # Analyzing Docker Container Forensics
 
 ## When to Use

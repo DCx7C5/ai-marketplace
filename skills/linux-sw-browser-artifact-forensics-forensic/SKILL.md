@@ -1,30 +1,3 @@
----
-name: linux-sw-browser-artifact-forensics-forensic
-description: Extract and analyze browser history, cookies, cache, downloads, and bookmarks from Chrome, Firefox, and Edge for forensic evidence of user web activity.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- browser-forensics
-- chrome
-- firefox
-- edge
-- web-history
-- artifact-extraction
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1566
-capec: []
----
-
 # Extracting Browser History Artifacts
 
 ## When to Use

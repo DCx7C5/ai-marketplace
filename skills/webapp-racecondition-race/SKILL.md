@@ -1,30 +1,3 @@
----
-name: webapp-racecondition-race
-description: Detect and exploit race condition vulnerabilities in web applications using Turbo Intruder's single-packet attack technique to bypass rate limits, duplicate transactions, and exploit time-of-check-to-time-of-use flaws.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- race-condition
-- turbo-intruder
-- toctou
-- concurrency
-- single-packet-attack
-- limit-overrun
-- burp-suite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-362
-- CWE-367
-capec: []
----
-
 # Exploiting Race Condition Vulnerabilities
 
 ## When to Use
@@ -41,7 +14,6 @@ capec: []
 - Knowledge of TOCTOU (Time-of-Check-to-Time-of-Use) vulnerabilities
 - Target application with state-changing operations (purchases, votes, transfers)
 - Multiple user accounts for testing cross-user race conditions
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

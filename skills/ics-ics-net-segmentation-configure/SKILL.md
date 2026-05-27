@@ -1,29 +1,3 @@
----
-name: ics-ics-net-segmentation-configure
-description: This skill covers implementing network segmentation in Operational Technology environments using VLANs, industrial firewalls, data diodes, and software-defined networking. It addresses the Purdue Model-based segmentation strategy, migration from flat networks to segmented architectures without disrupting operations, configuring OT-aware firewalls with industrial protocol deep packet inspection, and validating segmentation effectiveness through traffic analysis.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- network-segmentation
-- vlan
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Implementing Network Segmentation for OT
 
 ## When to Use
@@ -65,7 +39,6 @@ from collections import defaultdict
 from dataclasses import dataclass, field, asdict
 from ipaddress import ip_address, ip_network
 
-
 @dataclass
 class VLANDesign:
     vlan_id: int
@@ -75,7 +48,6 @@ class VLANDesign:
     gateway: str
     description: str
     devices: list = field(default_factory=list)
-
 
 @dataclass
 class FirewallRule:
@@ -89,7 +61,6 @@ class FirewallRule:
     action: str
     dpi_profile: str = ""
     comment: str = ""
-
 
 class SegmentationDesigner:
     """Generates segmentation design from traffic baseline."""
@@ -257,7 +228,6 @@ class SegmentationDesigner:
 
         return design
 
-
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python segmentation_designer.py <baseline.json> [output.json]")
@@ -355,7 +325,6 @@ import sys
 import time
 from dataclasses import dataclass, asdict
 
-
 @dataclass
 class ValidationTest:
     test_id: str
@@ -366,7 +335,6 @@ class ValidationTest:
     expected_result: str  # "blocked" or "allowed"
     actual_result: str = ""
     status: str = ""  # PASS or FAIL
-
 
 class SegmentationValidator:
     """Validates OT network segmentation implementation."""
@@ -418,7 +386,6 @@ class SegmentationValidator:
 
         print(f"\n  Results: {passed} passed, {failed} failed out of {len(self.tests)} tests")
         return {"passed": passed, "failed": failed, "total": len(self.tests)}
-
 
 if __name__ == "__main__":
     validator = SegmentationValidator()

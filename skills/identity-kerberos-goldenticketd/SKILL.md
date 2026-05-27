@@ -1,45 +1,8 @@
----
-name: identity-kerberos-goldenticketd
-description: Detect Kerberos Golden Ticket forgery by analyzing Windows Event ID 4769 for RC4 encryption downgrades (0x17), abnormal ticket lifetimes, and krbtgt account anomalies in Splunk and Elastic SIEM
-domain: cybersecurity
-subdomain: threat-detection
-tags:
-- golden-ticket
-- kerberos
-- active-directory
-- mimikatz
-- splunk
-- credential-theft
-- windows-security
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Reissue Credential
-- Decoy User Credential
-- Authentication Cache Invalidation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-06
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1070
-- T1550.002
-- T1558
-- T1558.001
-capec: []
----
-
 # Detecting Golden Ticket Forgery
 
 ## Overview
 
 A Golden Ticket attack (MITRE ATT&CK T1558.001) involves forging a Kerberos Ticket Granting Ticket (TGT) using the krbtgt account NTLM hash, granting unrestricted access to any service in the Active Directory domain. This skill detects Golden Ticket usage by analyzing Event ID 4769 for RC4 encryption type (0x17) in environments enforcing AES, identifying tickets with abnormal lifetimes exceeding domain policy, correlating TGS requests with missing corresponding TGT requests (Event ID 4768), and detecting krbtgt password age anomalies.
-
 
 ## When to Use
 

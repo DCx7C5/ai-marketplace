@@ -1,39 +1,3 @@
----
-name: ics-ics-assetmgmt-claroty-discover-monitor
-description: Perform comprehensive ICS/OT asset discovery using Claroty xDome platform, leveraging passive monitoring, Claroty Edge active queries, and integration ecosystem to gain full visibility into industrial control system assets including PLCs, RTUs, HMIs, and network infrastructure across Purdue Model levels.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- asset-discovery
-- claroty
-- xdome
-- scada
-- network-visibility
-- iec62443
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1082
-capec: []
----
-
 # Performing ICS Asset Discovery with Claroty
 
 ## When to Use
@@ -79,7 +43,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class ClarotyAssetDiscovery:
     """Interface with Claroty xDome API for ICS asset discovery."""
@@ -223,7 +186,6 @@ class ClarotyAssetDiscovery:
                     for a in high_risk[:5]:
                         print(f"      - {a['name']} (Risk: {a.get('risk_score')})")
 
-
 if __name__ == "__main__":
     discovery = ClarotyAssetDiscovery(
         base_url="https://your-claroty-instance.claroty.cloud",
@@ -346,7 +308,6 @@ except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
 
-
 class AssetValidator:
     """Validates and enriches OT asset inventory."""
 
@@ -442,7 +403,6 @@ class AssetValidator:
         print(f"  Potentially end-of-life firmware: {len(end_of_life)}")
         print(f"  Assets using unencrypted protocols: {len(no_encryption)}")
         print(f"  Inventory discrepancies: {len(self.discrepancies)}")
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

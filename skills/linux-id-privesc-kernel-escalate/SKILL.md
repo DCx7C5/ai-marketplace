@@ -1,53 +1,10 @@
----
-name: linux-id-privesc-kernel-escalate
-description: Linux privilege escalation involves elevating from a low-privilege user account to root access on a compromised system. Red teams exploit misconfigurations, vulnerable services, kernel exploits, and w
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- adversary-simulation
-- mitre-attack
-- exploitation
-- post-exploitation
-- privilege-escalation
-- linux
-d3fend_techniques:
-- Restore Object
-- Network Traffic Policy Mapping
-- Restore Configuration
-- Access Modeling
-- Operational Activity Mapping
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-- T1071
-cwe:
-- CWE-269
-cve:
-- CVE-2021-3156
-- CVE-2016-5195
-- CVE-2022-0847
-- CVE-2021-4034
-- CVE-2023-2640
-- CVE-2023-32629
-capec: []
----
-
 # Performing Privilege Escalation on Linux
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 Linux privilege escalation involves elevating from a low-privilege user account to root access on a compromised system. Red teams exploit misconfigurations, vulnerable services, kernel exploits, and weak permissions to achieve root. This skill covers both manual enumeration techniques and automated tools for identifying and exploiting privilege escalation vectors.
-
 
 ## When to Use
 

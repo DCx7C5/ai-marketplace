@@ -1,34 +1,8 @@
----
-name: identity-strategy-zero-trust
-description: Deploy CyberArk Secure Cloud Access to eliminate standing privileges in hybrid and multi-cloud environments using just-in-time access with time, entitlement, and approval controls.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- cyberark
-- zero-standing-privilege
-- jit-access
-- pam
-- cloud-security
-- least-privilege
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Zero Standing Privilege with CyberArk
 
 ## Overview
 
 Zero Standing Privileges (ZSP) is a security model where no user or identity retains persistent privileged access. Instead, elevated access is provisioned dynamically on a just-in-time (JIT) basis and automatically revoked after use. CyberArk implements ZSP through its Secure Cloud Access (SCA) module, which creates ephemeral, scoped roles in cloud environments (AWS, Azure, GCP) that exist only for the duration of a session. The TEA framework -- Time, Entitlements, and Approvals -- governs every privileged access session.
-
 
 ## When to Use
 

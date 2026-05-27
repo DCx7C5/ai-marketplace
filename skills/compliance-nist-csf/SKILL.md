@@ -1,25 +1,7 @@
----
-name: compliance-nist-csf
-description: >
-  >
-  The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024, provides a comprehensive taxonomy for managing cybersecurity risk through six core Functions - Govern, Identify, Protect, Detect, Respond, and Recover. This skill covers conducting a maturity assessment against the CSF using Implementation Tiers to measure organizational cybersecurity posture and create improvement roadmaps.
-domain: cybersecurity
-subdomain: compliance-governance
-nist_csf: [GV.OC-01, GV.RM-01, GV.PO-01, ID.RA-01, GV.OV-01]
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-tags:
-- compliance
-- nist
-capec: []
----
-
 # Performing NIST CSF Maturity Assessment
 
 ## Overview
 The NIST Cybersecurity Framework (CSF) 2.0, released in February 2024, provides a comprehensive taxonomy for managing cybersecurity risk through six core Functions: Govern, Identify, Protect, Detect, Respond, and Recover. This skill covers conducting a maturity assessment against the CSF, using the four Implementation Tiers (Partial, Risk-Informed, Repeatable, Adaptive) to measure organizational cybersecurity posture and create improvement roadmaps.
-
 
 ## When to Use
 

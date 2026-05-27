@@ -1,14 +1,7 @@
----
-name: vuln-mgmt-vuln
-description: ">\n  Implement a vulnerability aging dashboard and SLA tracking system\
-  \ to measure remediation performance against severity-based timelines and drive\
-  \ accountability."
----
 # Building Vulnerability Aging and SLA Tracking
 
 ## Overview
 With over 30,000 new vulnerabilities identified in 2024 (a 17% increase from the prior year), organizations must track how long vulnerabilities remain unpatched and whether remediation occurs within defined Service Level Agreements (SLAs). Vulnerability aging measures the time between discovery and remediation, while SLA tracking enforces severity-based deadlines. Industry benchmarks indicate standard SLAs of 14 days for critical, 30 days for high, 60 days for medium, and 90 days for low vulnerabilities, though more aggressive timelines (24-48 hours for actively exploited critical CVEs) are increasingly common. This skill covers designing SLA policies, building aging dashboards, implementing automated escalations, and generating compliance metrics.
-
 
 ## When to Use
 
@@ -269,7 +262,6 @@ sla_trend_query = {
 - building-executive-vulnerability-risk-report
 - implementing-security-metrics-and-kpis
 - performing-remediation-validation-scanning
-
 
 ---
 

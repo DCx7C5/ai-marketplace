@@ -1,35 +1,3 @@
----
-name: windows-lolbins
-description: Detect abuse of legitimate Windows binaries (LOLBins) used for living off the land attacks. Monitors process creation, command-line arguments, and parent-child relationships to identify suspicious LOLBin execution patterns.
-domain: cybersecurity
-subdomain: threat-detection
-tags:
-- lolbins
-- lotl
-- fileless-attacks
-- process-monitoring
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-06
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1059
-- T1070
-- T1218
-capec: []
----
-
 # Detecting Living Off the Land Attacks
 
 Monitor for suspicious use of legitimate Windows binaries (LOLBins)

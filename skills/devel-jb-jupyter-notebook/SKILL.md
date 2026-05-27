@@ -1,11 +1,3 @@
----
-name: "devel-jb-jupyter-notebook"
-description: "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook."
-metadata: ""
-short-description: "Create Jupyter notebooks for experiments and tutorials"
-author: "OpenAI"
-source: "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook"
----
 # Jupyter Notebook Skill
 
 Create clean, reproducible Jupyter notebooks for two primary modes:

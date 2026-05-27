@@ -1,42 +1,8 @@
----
-name: soc-tuning-falsepositivereduction
-description: Perform systematic SIEM false positive reduction through rule tuning, threshold adjustment, correlation refinement, and threat intelligence enrichment to combat alert fatigue.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- siem
-- false-positive
-- alert-tuning
-- detection-engineering
-- alert-fatigue
-- soc
-- correlation
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Password Authentication
-- Reissue Credential
-- Strong Password Policy
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Performing False Positive Reduction in SIEM
 
 ## Overview
 
 False positive alerts are non-malicious events that trigger security rules, overwhelming SOC analysts with noise. Studies show that up to 45% of SIEM alerts are false positives, and a typical SOC analyst can only investigate 20-25 alerts per shift effectively. Reducing false positives requires systematic tuning across thresholds, correlation logic, allowlists, enrichment, and continuous validation. SIEM rules should be reviewed on a quarterly cycle at minimum.
-
 
 ## When to Use
 

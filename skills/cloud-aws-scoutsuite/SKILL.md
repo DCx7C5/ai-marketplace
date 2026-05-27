@@ -1,36 +1,8 @@
----
-name: cloud-aws-scoutsuite
-description: Perform comprehensive security posture assessment of AWS accounts using ScoutSuite to enumerate resources, identify misconfigurations, and generate actionable security reports.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- aws
-- scoutsuite
-- cloud-security
-- enumeration
-- misconfiguration
-- security-audit
-- cspm
-- nccgroup
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-16
-capec: []
----
-
 # Performing AWS Account Enumeration with ScoutSuite
 
 ## Overview
 
 ScoutSuite is an open-source multi-cloud security auditing tool developed by NCC Group that enables comprehensive security posture assessment of AWS environments. It queries AWS APIs to gather configuration data across all services, stores results locally, and generates interactive HTML reports highlighting high-risk areas. ScoutSuite is agentless and works by analyzing how cloud resources are configured, accessed, and monitored.
-
 
 ## When to Use
 

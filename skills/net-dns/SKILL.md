@@ -1,28 +1,3 @@
----
-name: net-dns
-description: Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and maps DNS infrastructure during authorized reconnaissance to identify attack surface, misconfigurations, and information disclosure in target domains.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- dns
-- enumeration
-- zone-transfer
-- reconnaissance
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1595
-- T1595.002
-capec: []
----
-
 # Performing DNS Enumeration and Zone Transfer
 
 ## When to Use

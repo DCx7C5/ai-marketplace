@@ -1,38 +1,8 @@
----
-name: soc-hunting-wmilateral
-description: Detect WMI-based lateral movement by analyzing Windows Event ID 4688 process creation and Sysmon Event ID 1 for WmiPrvSE.exe child process patterns, remote process execution, and WMI event subscription persistence.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- lateral-movement
-- wmi
-- sysmon
-- mitre-attack
-- process-creation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1047
-- T1059
-- T1059.001
-- T1547
-capec: []
----
-
 # Hunting for Lateral Movement via WMI
 
 ## Overview
 
 Windows Management Instrumentation (WMI) is commonly abused for lateral movement via `wmic process call create` or Win32_Process.Create() to execute commands on remote hosts. Detection focuses on identifying WmiPrvSE.exe spawning child processes (cmd.exe, powershell.exe) in Windows Security Event ID 4688 and Sysmon Event ID 1 logs, along with WMI-Activity/Operational events (5857, 5860, 5861) for event subscription persistence.
-
 
 ## When to Use
 

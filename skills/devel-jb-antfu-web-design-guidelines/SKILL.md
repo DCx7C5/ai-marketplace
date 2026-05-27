@@ -1,13 +1,3 @@
----
-name: "devel-jb-antfu-web-design-guidelines"
-description: "Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices"."
-metadata: ""
-short-description: "Review UI against web design guidelines"
-author: "Vercel"
-version: "1.0.0"
-argument-hint: "<file-or-pattern>"
-source: "https://github.com/antfu/skills/tree/main/skills/web-design-guidelines"
----
 # Web Interface Guidelines
 
 Review files for compliance with Web Interface Guidelines.

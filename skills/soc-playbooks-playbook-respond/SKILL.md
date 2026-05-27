@@ -1,38 +1,8 @@
----
-name: soc-playbooks-playbook-respond
-description: Implement automated incident response playbooks in Cortex XSOAR to orchestrate security workflows across SOC tools and reduce manual response time.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- xsoar
-- soar
-- palo-alto
-- playbook
-- automation
-- incident-response
-- orchestration
-- cortex
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1204
-- T1078
-capec: []
----
-
 # Implementing SOAR Playbook with Palo Alto XSOAR
 
 ## Overview
 
 Cortex XSOAR (formerly Demisto) is Palo Alto Networks' Security Orchestration, Automation, and Response platform. Playbooks are the core automation engine in XSOAR, enabling SOC teams to automate repetitive incident response tasks. XSOAR provides 900+ prebuilt integration packs, 87 common playbooks, and a visual drag-and-drop editor for building custom workflows. Organizations using SOAR automation reduce mean time to respond (MTTR) by 80% on average.
-
 
 ## When to Use
 
@@ -110,7 +80,7 @@ sla: 60 minutes
 
 ```yaml
 id: phishing-investigation-full
-name: playbooks-playbook
+name: soc-playbooks-playbook-respond
 description: Automated phishing email investigation with enrichment, analysis, and response
 starttaskid: "0"
 tasks:

@@ -1,38 +1,3 @@
----
-name: soc-hunting-phishing
-description: Hunt for spearphishing campaign indicators across email logs, endpoint telemetry, and network data to detect targeted email attacks.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- spearphishing
-- initial-access
-- email-security
-- t1566
-- proactive-detection
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1566
-- T1566.001
-capec: []
----
-
 # Hunting For Spearphishing Indicators
 
 ## When to Use

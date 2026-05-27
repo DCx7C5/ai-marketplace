@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-syscall-io-uring-abuse-detect"
-description: "---"
----
-
----
 name: linux-kernel-syscall-io-uring-abuse-detect
 description: Detect io_uring syscall interface abuse — identify exploitation of io_uring vulnerabilities (CVE-2022-29582, CVE-2023-2598) and unauthorized use for sandboxed process escape.
 domain: cybersecurity

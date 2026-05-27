@@ -1,43 +1,8 @@
----
-name: cloud-kubernetes-runtime-container
-description: Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators
-domain: cybersecurity
-subdomain: container-security
-tags:
-- containers
-- kubernetes
-- docker
-- security
-- runtime-security
-- escape-detection
-d3fend_techniques:
-- Platform Monitoring
-- Process Code Segment Verification
-- Stack Frame Canary Validation
-- Segment Address Offset Randomization
-- Process Analysis
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1610
-cve:
-- CVE-2022-0185
-capec: []
----
-
 # Detecting Container Escape Attempts
 
 ## Overview
 
 Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators such as namespace manipulation, capability abuse, kernel exploits, mounted sensitive paths, and anomalous syscall patterns using runtime security tools like Falco, Sysdig, and custom seccomp/audit rules.
-
 
 ## When to Use
 

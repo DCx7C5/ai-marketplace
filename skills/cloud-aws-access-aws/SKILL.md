@@ -1,35 +1,8 @@
----
-name: cloud-aws-access-aws
-description: Configure AWS Verified Access to provide VPN-less zero trust network access to internal applications using identity and device posture verification with Cedar policy language.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- aws
-- verified-access
-- ztna
-- cedar-policy
-- vpn-less
-- identity-verification
-- device-posture
-- aws-ram
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Configuring AWS Verified Access for ZTNA
 
 ## Overview
 
 AWS Verified Access is a Zero Trust Network Access (ZTNA) service that provides secure, VPN-less access to corporate applications hosted in AWS. It evaluates each access request in real-time against granular conditional access policies written in the Cedar policy language, ensuring access is granted per-application only when specific security requirements such as user identity and device security posture are met and maintained. Verified Access integrates with AWS IAM Identity Center, third-party identity providers (Okta, CrowdStrike, JumpCloud, Jamf), and device management solutions. For multi-account deployments, AWS Resource Access Manager (RAM) enables sharing Verified Access groups across organizational units.
-
 
 ## When to Use
 

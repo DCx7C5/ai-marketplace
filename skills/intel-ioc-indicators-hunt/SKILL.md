@@ -1,32 +1,3 @@
----
-name: intel-ioc-indicators-hunt
-description: Analyzes indicators of compromise (IOCs) including IP addresses, domains, file hashes, URLs, and email artifacts to determine maliciousness confidence, campaign attribution, and blocking priority. Use when triaging IOCs from phishing emails, security alerts, or external threat feeds; enriching raw IOCs with multi-source intelligence; or making block/monitor/whitelist decisions. Activates for requests involving VirusTotal, AbuseIPDB, MalwareBazaar, MISP, or IOC enrichment pipelines.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- IOC
-- VirusTotal
-- AbuseIPDB
-- MalwareBazaar
-- MISP
-- threat-intelligence
-- STIX
-- NIST-CSF
-atlas_techniques:
-- AML.T0052
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-capec: []
----
-
 # Analyzing Indicators of Compromise
 
 ## When to Use

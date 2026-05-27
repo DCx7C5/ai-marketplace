@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-ebpf-rootkit-detect"
-description: "---"
----
-
----
 name: linux-kernel-ebpf-rootkit-detect
 description: Detect eBPF-based rootkits (Boopkit, bad-bpf) — identify unauthorized BPF programs hiding processes, files, or network connections via BPF map inspection and program enumeration.
 domain: cybersecurity

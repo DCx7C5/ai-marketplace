@@ -1,34 +1,8 @@
----
-name: identity-serviceaccount-sarotation
-description: Automate credential rotation for service accounts across Active Directory, cloud platforms, and application databases to eliminate stale secrets and reduce compromise risk.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- service-accounts
-- credential-rotation
-- secrets-management
-- pam
-- automation
-- vault
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-capec: []
----
-
 # Performing Service Account Credential Rotation
 
 ## Overview
 
 Service accounts are non-human identities used by applications, daemons, CI/CD pipelines, and automated processes to authenticate to systems and APIs. These accounts often have elevated privileges and their credentials (passwords, API keys, certificates, tokens) are frequently long-lived and shared across teams, making them prime targets for attackers. Credential rotation is the systematic process of replacing these secrets on a scheduled basis, propagating new credentials to all dependent systems, and verifying service continuity after rotation.
-
 
 ## When to Use
 

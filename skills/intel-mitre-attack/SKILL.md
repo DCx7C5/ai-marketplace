@@ -1,43 +1,8 @@
----
-name: intel-mitre-attack
-description: Extract and catalog attack patterns from cyber threat intelligence reports into a structured STIX-based library mapped to MITRE ATT&CK for detection engineering and threat-informed defense.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- attack-pattern
-- cti-reports
-- mitre-attack
-- stix
-- detection-engineering
-- threat-intelligence
-- nlp
-- extraction
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1562.001
-capec: []
----
-
 # Building Attack Pattern Library from CTI Reports
 
 ## Overview
 
 Cyber threat intelligence (CTI) reports from vendors like Mandiant, CrowdStrike, Talos, and Microsoft contain detailed descriptions of adversary behaviors that can be extracted, normalized, and cataloged into a structured attack pattern library. This skill covers parsing CTI reports to extract adversary techniques, mapping behaviors to MITRE ATT&CK technique IDs, creating STIX 2.1 Attack Pattern objects, building a searchable library indexed by tactic, technique, and threat actor, and generating detection rule templates from documented patterns.
-
 
 ## When to Use
 

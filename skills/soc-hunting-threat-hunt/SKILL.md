@@ -1,29 +1,3 @@
----
-name: soc-hunting-threat-hunt
-description: Build a systematic threat hunt hypothesis framework that transforms threat intelligence, attack patterns, and environmental data into testable hunting hypotheses.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- methodology
-- hypothesis
-- threat-intelligence
-- hunting-framework
-- proactive-detection
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Building Threat Hunt Hypothesis Framework
 
 ## When to Use

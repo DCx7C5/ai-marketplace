@@ -1,36 +1,3 @@
----
-name: webapp-ui-clickjacking
-description: Testing web applications for clickjacking vulnerabilities by assessing frame embedding controls and crafting proof-of-concept overlay attacks during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- clickjacking
-- ui-redressing
-- web-security
-- owasp
-- x-frame-options
-atlas_techniques:
-- AML.T0024
-- AML.T0035
-nist_ai_rmf:
-- MEASURE-2.8
-- MAP-5.1
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-cwe:
-- CWE-1021
-capec: []
----
-
 # Performing Clickjacking Attack Test
 
 ## When to Use
@@ -49,7 +16,6 @@ capec: []
 - **Burp Suite**: For examining response headers
 - **HTML/CSS knowledge**: For crafting clickjacking overlay pages
 - **curl**: For checking framing headers on target pages
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

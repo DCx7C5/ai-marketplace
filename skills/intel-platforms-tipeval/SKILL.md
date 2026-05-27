@@ -1,29 +1,3 @@
----
-name: intel-platforms-tipeval
-description: Evaluates and selects Threat Intelligence Platform (TIP) products based on organizational requirements including feed integration capability, STIX/TAXII support, workflow automation, analyst interface, and total cost of ownership. Use when conducting a TIP procurement, migrating between TIP solutions, or assessing whether the current TIP meets program maturity requirements. Activates for requests involving ThreatConnect, MISP, OpenCTI, Anomali, EclecticIQ, or TIP procurement decisions.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- TIP
-- ThreatConnect
-- MISP
-- OpenCTI
-- Anomali
-- EclecticIQ
-- STIX-TAXII
-- CTI-program
-- procurement
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Evaluating Threat Intelligence Platforms
 
 ## When to Use

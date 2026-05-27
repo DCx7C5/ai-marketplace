@@ -1,32 +1,3 @@
----
-name: webapp-auth-jwt-json
-description: Test JWT implementations for critical vulnerabilities including algorithm confusion, none algorithm bypass, kid parameter injection, and weak secret exploitation to achieve authentication bypass and privilege escalation.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- jwt
-- json-web-token
-- algorithm-confusion
-- authentication-bypass
-- token-forgery
-- kid-injection
-- jku-attack
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-cwe:
-- CWE-287
-- CWE-347
-capec: []
----
-
 # Testing for JSON Web Token Vulnerabilities
 
 ## When to Use
@@ -44,7 +15,6 @@ capec: []
 - hashcat or john for brute-forcing weak JWT secrets
 - Python PyJWT library for custom JWT forging scripts
 - Access to application using JWT-based authentication
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

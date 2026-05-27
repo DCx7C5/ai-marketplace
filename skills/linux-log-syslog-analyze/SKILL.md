@@ -1,32 +1,3 @@
----
-name: linux-log-syslog-analyze
-description: Linux log forensics and event correlation. Authentication events, auditd analysis, journald forensics, web server logs, cron/systemd-timer abuse, sudo trail, timeline reconstruction, and log tampering detection.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- forensics
-- log
-- linux
-- logfile-recon
-mitre_attack:
-- T1053.003
-- T1059
-- T1110
-- T1548.003
-- T1595
-nist_csf: []
-capec: []
----
-
 # Logfile Recon
 
 **Purpose:** Log forensics, timeline reconstruction, and tampering detection. Builds a structured attacker timeline from all available log sources.

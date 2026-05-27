@@ -1,37 +1,8 @@
----
-name: cloud-azure-ad-saml-verify
-description: Establish SAML 2.0 identity federation between on-premises Active Directory and Azure AD (Microsoft Entra ID) for seamless cross-domain authentication and SSO to cloud applications.
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- saml
-- azure-ad
-- entra-id
-- federation
-- identity
-- sso
-- adfs
-- hybrid-identity
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1550
-capec: []
----
-
 # Building Identity Federation with SAML Azure AD
 
 ## Overview
 
 Identity federation enables users authenticated by one identity provider to access resources managed by another without maintaining separate credentials. This skill covers establishing SAML 2.0 federation between an organization's on-premises Active Directory (via AD FS or third-party IdP) and Microsoft Entra ID (formerly Azure AD), as well as configuring federated SSO for third-party SaaS applications. Federation eliminates password synchronization concerns and keeps authentication authority on-premises while extending SSO to cloud resources.
-
 
 ## When to Use
 

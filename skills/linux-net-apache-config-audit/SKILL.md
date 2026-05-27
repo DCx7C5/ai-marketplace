@@ -1,9 +1,4 @@
 ---
-name: "linux-net-apache-config-audit"
-description: "---"
----
-
----
 name: linux-net-apache-config-audit
 description: Security audit of Apache httpd configuration — review ServerTokens, directory indexing, mod_status exposure, .htaccess risks, and SSL/TLS configuration weaknesses.
 domain: cybersecurity

@@ -1,32 +1,3 @@
----
-name: webapp-auth-oauth-tokentheft
-description: Detects and responds to OAuth token theft and replay attacks in cloud environments, focusing on Microsoft Entra ID (Azure AD) token protection, conditional access policies, and sign-in anomaly detection. Covers access token theft, refresh token replay, Primary Refresh Token (PRT) abuse, and pass-the-cookie attacks. Activates for requests involving OAuth token theft detection, token replay prevention, Azure AD conditional access token protection, or cloud identity attack investigation.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- oauth
-- token-theft
-- azure-ad
-- entra-id
-- conditional-access
-- token-replay
-- identity-security
-- PRT
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1550
-- T1566
-capec: []
----
-
 # Detecting OAuth Token Theft
 
 ## When to Use

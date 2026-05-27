@@ -1,16 +1,3 @@
----
-name: "devel-jb-postgres-best-practices"
-description: "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations."
-license: "MIT"
-metadata: ""
-short-description: "Optimize Postgres schema and queries"
-author: "Supabase"
-version: "1.1.0"
-organization: "Supabase"
-date: "January 2026"
-abstract: "Comprehensive Postgres performance optimization guide for developers using Supabase and Postgres. Contains performance rules across 8 categories, prioritized by impact from critical (query performance, connection management) to incremental (advanced features). Each rule includes detailed explanations, incorrect vs. correct SQL examples, query plan analysis, and specific performance metrics to guide automated optimization and code generation."
-source: "https://github.com/supabase/agent-skills/tree/main/skills/supabase-postgres-best-practices"
----
 # Supabase Postgres Best Practices
 
 Comprehensive performance optimization guide for Postgres, maintained by Supabase. Contains rules across 8 categories, prioritized by impact to guide automated query optimization and schema design.

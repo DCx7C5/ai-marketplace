@@ -1,36 +1,7 @@
----
-name: identity-mfa-duo-verify
-description: Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- authentication
-- mfa
-- duo
-- multi-factor
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021.001
-- T1078.004
-- T1566
-capec: []
----
-
 # Configuring Multi-Factor Authentication with Duo
 
 ## Overview
 Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust assessment, and phishing-resistant MFA deployment aligned with NIST 800-63B AAL2/AAL3 requirements.
-
 
 ## When to Use
 

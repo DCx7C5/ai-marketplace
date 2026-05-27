@@ -1,36 +1,7 @@
----
-name: email-phishing-gateway-bypass
-description: Spearphishing targets specific individuals using personalized, researched content that bypasses generic spam filters. Email security gateways (SEGs) like Microsoft Defender for Office 365, Proofpoint,
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- phishing
-- email-security
-- social-engineering
-- dmarc
-- awareness
-- spearphishing
-- email-gateway
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1566
-- T1566.001
-capec: []
----
-
 # Detecting Spearphishing with Email Gateway
 
 ## Overview
 Spearphishing targets specific individuals using personalized, researched content that bypasses generic spam filters. Email security gateways (SEGs) like Microsoft Defender for Office 365, Proofpoint, Mimecast, and Barracuda provide advanced detection capabilities including behavioral analysis, URL detonation, attachment sandboxing, and impersonation detection. This skill covers configuring these gateways to detect and block targeted phishing attacks.
-
 
 ## When to Use
 

@@ -1,38 +1,3 @@
----
-name: soc-hunting-lolbins
-description: Proactively hunt for adversary abuse of legitimate system binaries (LOLBins) to execute malicious payloads while evading detection.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- lolbins
-- edr
-- siem
-- proactive-detection
-- defense-evasion
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Content Format Conversion
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1059
-- T1070
-- T1218
-capec: []
----
-
 # Hunting for Living-off-the-Land Binaries (LOLBins)
 
 ## When to Use

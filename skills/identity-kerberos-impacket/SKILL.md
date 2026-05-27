@@ -1,44 +1,8 @@
----
-name: identity-kerberos-impacket
-description: Perform Kerberoasting attacks using Impacket's GetUserSPNs to extract and crack Kerberos TGS tickets for Active Directory service accounts.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- kerberoasting
-- impacket
-- active-directory
-- credential-access
-- kerberos
-- t1558-003
-- service-accounts
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1110
-- T1550.002
-- T1558
-- T1558.003
-capec: []
----
-
 # Exploiting Kerberoasting with Impacket
 
 ## Overview
 
 Kerberoasting (MITRE ATT&CK T1558.003) is a credential access technique that targets Active Directory service accounts by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs). The TGS ticket is encrypted with the service account's NTLM hash (RC4 or AES), enabling offline brute-force cracking. Impacket's `GetUserSPNs.py` is the standard tool for Linux-based Kerberoasting attacks.
-
 
 ## When to Use
 
@@ -54,7 +18,6 @@ Kerberoasting (MITRE ATT&CK T1558.003) is a credential access technique that tar
 - Impacket installed (`pip install impacket`)
 - Hashcat or John the Ripper for offline cracking
 - Wordlist (e.g., rockyou.txt, SecLists)
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

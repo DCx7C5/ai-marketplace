@@ -1,9 +1,4 @@
 ---
-name: "linux-net-dns-server-zone-exfil-detect"
-description: "---"
----
-
----
 name: linux-net-dns-server-zone-exfil-detect
 description: Detect DNS zone transfer data exfiltration — identify unauthorized AXFR/IXFR requests, misconfigured BIND allow-transfer ACLs, and DNS zone data as exfiltration vector.
 domain: cybersecurity

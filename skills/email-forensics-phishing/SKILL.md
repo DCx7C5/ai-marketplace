@@ -1,31 +1,3 @@
----
-name: email-forensics-phishing
-description: Parse and analyze email headers to trace the origin of phishing emails, verify sender authenticity, and identify spoofing through SPF, DKIM, and DMARC validation.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- email-analysis
-- phishing
-- spf
-- dkim
-- dmarc
-- header-analysis
-atlas_techniques:
-- AML.T0052
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-capec: []
----
-
 # Analyzing Email Headers for Phishing Investigation
 
 ## When to Use

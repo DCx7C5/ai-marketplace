@@ -1,37 +1,8 @@
----
-name: webapp-api-shadow
-description: Discover and inventory shadow API endpoints that operate outside documented specifications using traffic analysis, code scanning, and API discovery platforms.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- shadow-apis
-- api-discovery
-- undocumented-apis
-- zombie-apis
-- api-inventory
-- attack-surface-management
-- api-governance
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1595
-capec: []
----
-
 # Detecting Shadow API Endpoints
 
 ## Overview
 
 Shadow APIs are API endpoints operating within an organization's environment that are not tracked, documented, or secured. They emerge from rapid development cycles, forgotten test environments, deprecated API versions left running, third-party integrations, or developer side projects deployed without governance. Shadow APIs bypass authentication and monitoring controls, creating hidden entry points for attackers. Studies show that up to 30% of API endpoints in large organizations are undocumented, making shadow API detection a critical component of API security posture management.
-
 
 ## When to Use
 
@@ -269,7 +240,6 @@ class ShadowAPIDetector:
 
         return report
 
-
 def main():
     detector = ShadowAPIDetector()
 
@@ -301,7 +271,6 @@ def main():
     with open("shadow_api_report.json", "w") as f:
         json.dump(report, f, indent=2, default=str)
     print(f"\nFull report saved to shadow_api_report.json")
-
 
 if __name__ == "__main__":
     main()

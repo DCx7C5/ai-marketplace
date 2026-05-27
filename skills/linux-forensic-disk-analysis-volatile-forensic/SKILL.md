@@ -1,32 +1,3 @@
----
-name: linux-forensic-disk-analysis-volatile-forensic
-description: Collect volatile forensic evidence from a compromised system following order of volatility, preserving memory, network connections, processes, and system state before they are lost.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- incident-response
-- dfir
-- forensics
-- volatile-evidence
-- memory-forensics
-- chain-of-custody
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1055
-- T1059
-- T1547
-- T1027
-capec: []
----
-
 # Collecting Volatile Evidence from Compromised Hosts
 
 ## When to Use

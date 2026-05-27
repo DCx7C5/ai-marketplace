@@ -1,30 +1,3 @@
----
-name: cloud-devsecops-ghaworkflows
-description: This skill covers hardening GitHub Actions workflows against supply chain attacks, credential theft, and privilege escalation. It addresses pinning actions to SHA digests, minimizing GITHUB_TOKEN permissions, protecting secrets from exfiltration, preventing script injection in workflow expressions, and implementing required reviewers for workflow changes.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- github-actions
-- supply-chain
-- workflow-security
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1195
-capec: []
----
-
 # Securing GitHub Actions Workflows
 
 ## When to Use
@@ -69,7 +42,7 @@ updates:
 
 ```yaml
 # Set restrictive default permissions at workflow level
-name: devsecops-ghaworkflows
+name: cloud-devsecops-ghaworkflows
 permissions: {}  # Start with no permissions
 
 on: [push, pull_request]

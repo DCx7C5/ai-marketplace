@@ -1,36 +1,8 @@
----
-name: webapp-api-posture
-description: Implement API Security Posture Management to continuously discover, classify, and score APIs based on risk while enforcing security policies across the API lifecycle.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- aspm
-- api-posture-management
-- api-discovery
-- risk-scoring
-- api-governance
-- continuous-monitoring
-- api-inventory
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-capec: []
----
-
 # Implementing API Security Posture Management
 
 ## Overview
 
 API Security Posture Management (API-SPM) provides continuous visibility into an organization's API attack surface by automatically discovering, classifying, and risk-scoring all APIs including internal, external, partner, and shadow endpoints. Unlike point-in-time testing tools, API-SPM operates continuously to detect configuration drift, policy violations, missing security controls, sensitive data exposure, and compliance gaps. It aggregates findings from DAST, SAST, SCA, and runtime monitoring tools to provide a unified view of API risk posture across the organization.
-
 
 ## When to Use
 

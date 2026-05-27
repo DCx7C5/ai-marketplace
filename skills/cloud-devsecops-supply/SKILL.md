@@ -1,35 +1,4 @@
----
-name: cloud-devsecops-supply
-description: Scans GitHub Actions workflows and CI/CD pipeline configurations for supply chain attack vectors including unpinned actions, script injection via expressions, dependency confusion, and secrets exposure. Uses PyGithub and YAML parsing for automated audit. Use when hardening CI/CD pipelines or investigating compromised build systems.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- detecting
-- supply
-- chain
-- attacks
-atlas_techniques:
-- AML.T0010
-- AML.T0104
-nist_ai_rmf:
-- GOVERN-5.2
-- MAP-1.6
-- MANAGE-2.2
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Detecting Supply Chain Attacks in CI/CD
-
 
 ## When to Use
 

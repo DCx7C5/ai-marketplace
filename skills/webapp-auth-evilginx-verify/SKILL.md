@@ -1,43 +1,8 @@
----
-name: webapp-auth-evilginx-verify
-description: Perform authorized initial access using EvilGinx3 adversary-in-the-middle phishing framework to capture session tokens and bypass multi-factor authentication during red team engagements.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- initial-access
-- phishing
-- evilginx
-- mfa-bypass
-- adversary-in-the-middle
-- credential-theft
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1557
-- T1566
-- T1583.001
-capec: []
----
-
 # Performing Initial Access with EvilGinx3
 
 ## Overview
 
 EvilGinx3 is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, enabling bypass of multi-factor authentication (MFA). Unlike traditional credential phishing that only captures usernames and passwords, EvilGinx3 operates as a transparent reverse proxy between the victim and the legitimate authentication service, intercepting the full authentication flow including MFA tokens and session cookies. This makes it the primary tool for red teams demonstrating the risk of adversary-in-the-middle (AiTM) attacks against organizations relying solely on MFA for protection.
-
 
 ## When to Use
 

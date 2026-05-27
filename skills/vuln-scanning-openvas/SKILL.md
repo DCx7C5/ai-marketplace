@@ -1,15 +1,8 @@
----
-name: vuln-scanning-openvas
-description: ">\n  Configure and execute authenticated vulnerability scans using OpenVAS/Greenbone\
-  \ Vulnerability Management with SSH and SMB credentials for comprehensive host-level\
-  \ assessment."
----
 # Performing Authenticated Scan with OpenVAS
 
 ## Overview
 
 OpenVAS (Open Vulnerability Assessment Scanner) is the scanner component of the Greenbone Vulnerability Management (GVM) framework. Authenticated scans use valid credentials (SSH for Linux, SMB for Windows, ESXi for VMware) to log into target systems, enabling detection of local vulnerabilities, missing patches, and misconfigurations that unauthenticated scans cannot identify. Authenticated scans typically find 10-50x more vulnerabilities than unauthenticated scans.
-
 
 ## When to Use
 
@@ -246,7 +239,6 @@ gvm-cli socket --socketpath /run/gvmd/gvmd.sock --gmp-username admin --gmp-passw
 - [GVM GitHub Repository](https://github.com/greenbone/openvas-scanner)
 - [python-gvm Library](https://github.com/greenbone/python-gvm)
 - [GVM Docker Deployment](https://greenbone.github.io/docs/latest/22.4/container/)
-
 
 ---
 

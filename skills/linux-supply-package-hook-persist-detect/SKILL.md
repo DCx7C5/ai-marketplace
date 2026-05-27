@@ -1,9 +1,4 @@
 ---
-name: "linux-supply-package-hook-persist-detect"
-description: "---"
----
-
----
 name: linux-supply-package-hook-persist-detect
 description: Detect persistence via package manager hooks — identify malicious dpkg/apt pre/post-install hooks, rpm scriptlets, and pacman hooks that execute attacker code on package operations.
 domain: cybersecurity

@@ -1,37 +1,3 @@
----
-name: soc-hunting-shadow-monitor
-description: Hunt for Volume Shadow Copy deletion activity that indicates ransomware preparation or anti-forensics by monitoring vssadmin, wmic, and PowerShell shadow copy commands.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- shadow-copy
-- ransomware
-- anti-forensics
-- t1490
-- proactive-detection
-d3fend_techniques:
-- Platform Hardening
-- Restore Object
-- Restore Configuration
-- Restore Software
-- Software Update
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1486
-capec: []
----
-
 # Hunting For Shadow Copy Deletion
 
 ## When to Use

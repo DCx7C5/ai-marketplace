@@ -1,28 +1,3 @@
----
-name: cloud-aws-hubcompliance
-description: Implementing AWS Security Hub to aggregate security findings across AWS accounts, enable compliance standards like CIS AWS Foundations and PCI DSS, configure automated remediation with EventBridge and Lambda, and create custom security insights for organizational risk management.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- aws
-- security-hub
-- compliance
-- cspm
-- cis-benchmark
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1562.004
-capec: []
----
-
 # Implementing AWS Security Hub Compliance
 
 ## When to Use

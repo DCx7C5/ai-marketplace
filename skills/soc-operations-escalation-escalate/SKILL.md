@@ -1,35 +1,8 @@
----
-name: soc-operations-escalation-escalate
-description: Build a structured SOC escalation matrix defining severity tiers, response SLAs, escalation paths, and notification procedures for security incidents.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- escalation
-- incident-management
-- severity
-- sla
-- triage
-- tiered-soc
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Building SOC Escalation Matrix
 
 ## Overview
 
 A SOC escalation matrix defines how security incidents move through the organization based on severity, impact, and response requirements. Modern SOCs use context-driven escalation combining business risk, asset criticality, and data sensitivity rather than purely severity-based models. Organizations using AI and automation in their SOC cut detection-and-containment lifecycle to approximately 161 days, an 80-day improvement over the 241-day industry average.
-
 
 ## When to Use
 

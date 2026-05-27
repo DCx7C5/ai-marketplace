@@ -1,33 +1,3 @@
----
-name: linux-kernel-modules-lkm-forensic
-description: Advanced Linux Kernel Module development for cybersecurity forensics. Custom LKM creation for rootkit detection, real-time syscall monitoring, kernel-space threat detection, eBPF forensics, and kerneldev-mcp integration.
-model: opus
-maxTurns: 30
-tools:
-  - Read
-  - Write
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-  - kerneldev
-tags:
-- kernel
-- linux
-- lkm
-- kerneldev-forensic
-mitre_attack:
-- T1014
-- T1059
-- T1547
-- T1547.006
-nist_csf: []
-capec: []
----
-
 # KernelDev Forensic — Advanced Kernel Development for Cybersecurity
 
 **Purpose:**  

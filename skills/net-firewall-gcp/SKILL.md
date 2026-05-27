@@ -1,29 +1,3 @@
----
-name: net-firewall-gcp
-description: Implementing and auditing GCP VPC firewall rules to enforce network segmentation, restrict ingress and egress traffic, apply hierarchical firewall policies across the organization, and monitor firewall rule effectiveness using VPC Flow Logs.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- gcp
-- vpc
-- firewall-rules
-- network-security
-- segmentation
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1562.004
-capec: []
----
-
 # Implementing GCP VPC Firewall Rules
 
 ## When to Use

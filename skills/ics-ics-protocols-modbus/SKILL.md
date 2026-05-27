@@ -1,36 +1,3 @@
----
-name: ics-ics-protocols-modbus
-description: Detect command injection attacks against Modbus TCP/RTU protocol in ICS environments by monitoring for unauthorized write operations, anomalous function codes, malformed frames, and deviations from established communication baselines using ICS-aware IDS and protocol deep packet inspection.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- modbus
-- command-injection
-- protocol-analysis
-- ids
-- scada
-- threat-detection
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0801
-- T0843
-- T0855
-- T1059
-- T1562.001
-cwe:
-- CWE-78
-capec: []
----
-
 # Detecting Modbus Command Injection Attacks
 
 ## When to Use
@@ -80,7 +47,6 @@ except ImportError:
     print("Install scapy: pip install scapy")
     sys.exit(1)
 
-
 # Modbus function code definitions
 MODBUS_READ_FUNCTIONS = {1, 2, 3, 4}
 MODBUS_WRITE_FUNCTIONS = {5, 6, 15, 16}
@@ -95,7 +61,6 @@ MODBUS_FUNC_NAMES = {
     22: "Mask Write Register", 23: "Read/Write Multiple Registers",
     43: "Encapsulated Interface Transport",
 }
-
 
 class ModbusAlert:
     """Represents a detected Modbus anomaly."""
@@ -119,7 +84,6 @@ class ModbusAlert:
             f"[{self.severity}] {self.alert_type} | {self.src_ip} -> {self.dst_ip} "
             f"| Unit {self.unit_id} | {self.func_name} | {self.description}"
         )
-
 
 class ModbusInjectionDetector:
     """Detects Modbus command injection attacks."""
@@ -370,7 +334,6 @@ class ModbusInjectionDetector:
         except KeyboardInterrupt:
             pass
         self.print_report()
-
 
 if __name__ == "__main__":
     detector = ModbusInjectionDetector(

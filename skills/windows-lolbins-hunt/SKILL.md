@@ -1,42 +1,8 @@
----
-name: windows-lolbins-hunt
-description: Detect Living Off the Land Binaries (LOLBins/LOLBAS) abuse including certutil, regsvr32, mshta, and rundll32 via process telemetry, Sigma rules, and parent-child process analysis
-domain: cybersecurity
-subdomain: threat-detection
-tags:
-- lolbas
-- lolbins
-- sigma-rules
-- process-monitoring
-- sysmon
-- endpoint-detection
-- threat-hunting
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Content Format Conversion
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-06
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1218
-capec: []
----
-
 # Detecting Living Off the Land with LOLBAS
 
 ## Overview
 
 Living Off the Land Binaries, Scripts, and Libraries (LOLBAS) are legitimate system utilities abused by attackers to execute malicious actions while evading detection. This skill covers detecting abuse of certutil.exe, regsvr32.exe, mshta.exe, rundll32.exe, msbuild.exe, and other LOLBins using process telemetry from Sysmon and Windows Event Logs, combined with Sigma rule-based detection.
-
 
 ## When to Use
 

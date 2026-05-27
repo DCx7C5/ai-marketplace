@@ -1,29 +1,4 @@
----
-name: soc-detection-correlation-create-configure
-description: Write multi-event correlation rules that detect APT lateral movement by chaining Windows authentication events, process execution telemetry, and network connection logs across hosts. Uses Splunk SPL and Sigma rule format to correlate Event IDs 4624, 4648, 4688, and Sysmon Events 1/3 within sliding time windows to surface attack sequences invisible to single-event detections.
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- implementing
-- siem
-- correlation
-- rules
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1070
-capec: []
----
-
 # Implementing SIEM Correlation Rules for APT
-
 
 ## When to Use
 

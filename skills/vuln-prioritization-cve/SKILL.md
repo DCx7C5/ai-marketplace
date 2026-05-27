@@ -1,13 +1,7 @@
----
-name: vuln-prioritization-cve
-description: ">\n  Leverage the CISA Known Exploited Vulnerabilities catalog alongside\
-  \ EPSS and CVSS to prioritize CVE remediation based on real-world exploitation evidence."
----
 # Performing CVE Prioritization with KEV Catalog
 
 ## Overview
 The CISA Known Exploited Vulnerabilities (KEV) catalog, established through Binding Operational Directive (BOD) 22-01, is a living list of CVEs that have been actively exploited in the wild and carry significant risk. As of early 2026, the catalog contains over 1,484 entries, growing 20% in 2025 alone with 245 new additions. This skill covers integrating the KEV catalog into vulnerability prioritization workflows alongside EPSS (Exploit Prediction Scoring System) and CVSS to create a risk-based approach that prioritizes vulnerabilities with confirmed exploitation activity over theoretical severity alone.
-
 
 ## When to Use
 
@@ -237,7 +231,6 @@ def generate_report(df, output_file="kev_prioritized_report.csv"):
 - building-vulnerability-data-pipeline-with-api
 - implementing-threat-intelligence-scoring
 - implementing-vulnerability-remediation-sla
-
 
 ---
 

@@ -1,32 +1,4 @@
----
-name: net-flow-net
-description: Parse NetFlow v9 and IPFIX records to detect volumetric anomalies, port scanning, data exfiltration, and C2 beaconing patterns. Uses the Python netflow library to decode flow records, builds traffic baselines, and applies statistical analysis to identify flows with abnormal byte counts, connection durations, and periodic timing patterns.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- analyzing
-- network
-- flow
-- data
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1046
-- T1059
-- T1071
-- T1071.001
-capec: []
----
-
 # Analyzing Network Flow Data with Netflow
-
 
 ## When to Use
 

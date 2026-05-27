@@ -1,14 +1,7 @@
----
-name: vuln-patch
-description: ">\n  Patch management is the systematic process of identifying, testing,\
-  \ deploying, and verifying software updates to remediate vulnerabilities across\
-  \ an organization's IT infrastructure. An effective patc"
----
 # Implementing Patch Management Workflow
 
 ## Overview
 Patch management is the systematic process of identifying, testing, deploying, and verifying software updates to remediate vulnerabilities across an organization's IT infrastructure. An effective patch management workflow reduces the attack surface while minimizing operational disruption through structured testing, approval gates, and phased rollouts.
-
 
 ## When to Use
 
@@ -298,7 +291,6 @@ curl -k -X POST "https://nessus:8834/scans/$VERIFY_SCAN_ID/launch" \
 - prioritizing-vulnerabilities-with-cvss-scoring
 - implementing-vulnerability-remediation-sla
 - implementing-continuous-vulnerability-monitoring
-
 
 ---
 

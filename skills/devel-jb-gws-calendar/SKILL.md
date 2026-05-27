@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-calendar"
-version: "1.0.0"
-description: "Google Calendar: Manage calendars and events."
-metadata: ""
-short-description: "Manage Google Calendar events"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws calendar --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-calendar"
----
 # calendar (v3)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

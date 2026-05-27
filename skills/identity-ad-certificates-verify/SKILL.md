@@ -1,43 +1,8 @@
----
-name: identity-ad-certificates-verify
-description: Exploit misconfigured Active Directory Certificate Services (AD CS) ESC1 vulnerability to request certificates as high-privileged users and escalate domain privileges during authorized red team assessments.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- active-directory
-- ad-cs
-- esc1
-- certificate-abuse
-- privilege-escalation
-- domain-escalation
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Certificate Analysis
-- Content Format Conversion
-- File Content Analysis
-- Platform Hardening
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-cwe:
-- CWE-16
-- CWE-269
-capec: []
----
-
 # Exploiting Active Directory Certificate Services ESC1
 
 ## Overview
 
 ESC1 (Escalation Scenario 1) is a critical misconfiguration in Active Directory Certificate Services where a certificate template allows a low-privileged user to request a certificate on behalf of any other user, including Domain Admins. The vulnerability exists when a template has the CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT flag enabled (also called "Supply in Request"), combined with an Extended Key Usage (EKU) that permits client authentication (Client Authentication, PKINIT Client Authentication, Smart Card Logon, or Any Purpose). This allows an attacker to specify an arbitrary Subject Alternative Name (SAN) in the certificate request, effectively impersonating any domain user. ESC1 was documented by SpecterOps researchers Will Schroeder and Lee Christensen in their "Certified Pre-Owned" whitepaper (2021) and remains one of the most common AD CS attack paths. The MITRE ATT&CK framework tracks this as T1649 (Steal or Forge Authentication Certificates).
-
 
 ## When to Use
 

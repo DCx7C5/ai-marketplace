@@ -1,32 +1,3 @@
----
-name: cloud-security-data-protect
-description: Detecting data exfiltration attempts from AWS S3 buckets by analyzing CloudTrail S3 data events, VPC Flow Logs, GuardDuty findings, Amazon Macie alerts, and S3 access patterns to identify unauthorized bulk downloads and cross-account data transfers.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- aws
-- s3
-- data-exfiltration
-- guardduty
-- macie
-- threat-detection
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1059
-- T1530
-- T1562.001
-capec: []
----
-
 # Detecting S3 Data Exfiltration Attempts
 
 ## When to Use

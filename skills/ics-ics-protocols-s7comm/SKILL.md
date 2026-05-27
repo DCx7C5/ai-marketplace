@@ -1,37 +1,3 @@
----
-name: ics-ics-protocols-s7comm
-description: Perform security analysis of Siemens S7comm and S7CommPlus protocols used by SIMATIC S7 PLCs to identify vulnerabilities including replay attacks, integrity bypass, unauthorized CPU stop commands, and program download manipulation exploiting weaknesses in S7-300, S7-400, S7-1200, and S7-1500 controllers.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- s7comm
-- siemens
-- plc-security
-- protocol-analysis
-- scada
-- vulnerability-assessment
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0843
-- T0855
-- T1046
-- T1059
-cve:
-- CVE-2019-13945
-- CVE-2022-38773
-- CVE-2019-10929
-capec: []
----
-
 # Performing S7comm Protocol Security Analysis
 
 ## When to Use
@@ -78,7 +44,6 @@ except ImportError:
     print("Install scapy: pip install scapy")
     sys.exit(1)
 
-
 # S7comm ROSCTR (PDU type) definitions
 S7_ROSCTR = {
     0x01: "Job (Request)",
@@ -107,7 +72,6 @@ S7_FUNCTIONS = {
 CRITICAL_FUNCTIONS = {0x1A, 0x1B, 0x1C, 0x28, 0x29, 0x05}
 PROGRAM_FUNCTIONS = {0x1A, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F}
 
-
 class S7commSecurityFinding:
     """Represents a security finding in S7comm traffic."""
 
@@ -123,7 +87,6 @@ class S7commSecurityFinding:
         self.description = description
         self.cve = cve
         self.recommendation = recommendation
-
 
 class S7commAnalyzer:
     """Analyzes S7comm protocol traffic for security vulnerabilities."""
@@ -363,7 +326,6 @@ class S7commAnalyzer:
             print(f"    CVE: {vuln['cve']}")
             print(f"    Affected: {vuln['affected']}")
             print(f"    Detail: {vuln['description']}")
-
 
 if __name__ == "__main__":
     analyzer = S7commAnalyzer()

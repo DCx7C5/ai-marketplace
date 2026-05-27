@@ -1,30 +1,3 @@
----
-name: webapp-auth-csrf
-description: Testing web applications for Cross-Site Request Forgery vulnerabilities by crafting forged requests that exploit authenticated user sessions during authorized security assessments.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- csrf
-- owasp
-- web-security
-- session-management
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-cwe:
-- CWE-352
-capec: []
----
-
 # Performing CSRF Attack Simulation
 
 ## When to Use
@@ -43,7 +16,6 @@ capec: []
 - **Two browsers**: One authenticated as victim, one as attacker
 - **Target application**: Authenticated session with valid test credentials
 - **HTML/JavaScript knowledge**: For crafting custom CSRF payloads
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

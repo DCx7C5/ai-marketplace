@@ -1,30 +1,3 @@
----
-name: ics-ics-historian-server
-description: This skill covers hardening and securing process historian servers (OSIsoft PI, Honeywell PHD, GE Proficy, AVEVA Historian) in OT environments. It addresses network placement across Purdue levels, access control for historian interfaces, data replication through DMZ using data diodes or PI-to-PI connectors, SQL injection prevention in historian queries, and integrity protection of process data used for safety analysis, regulatory reporting, and process optimization.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- historian
-- osisoft-pi
-- data-integrity
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Securing Historian Server in OT Environment
 
 ## When to Use
@@ -68,7 +41,6 @@ import sys
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-
 @dataclass
 class AuditFinding:
     finding_id: str
@@ -77,7 +49,6 @@ class AuditFinding:
     title: str
     detail: str
     remediation: str
-
 
 class HistorianSecurityAudit:
     """Security audit for OT historian servers."""
@@ -227,7 +198,6 @@ class HistorianSecurityAudit:
                     report.append(f"    Fix: {f.remediation}")
 
         return "\n".join(report)
-
 
 if __name__ == "__main__":
     target = sys.argv[1] if len(sys.argv) > 1 else "10.30.1.50"

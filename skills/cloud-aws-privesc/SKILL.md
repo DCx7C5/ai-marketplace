@@ -1,39 +1,8 @@
----
-name: cloud-aws-privesc
-description: Detect AWS IAM privilege escalation paths using boto3 and Cloudsplaining policy analysis to identify overly permissive policies, dangerous permission combinations, and least-privilege violations
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- aws
-- iam
-- privilege-escalation
-- cloudsplaining
-- boto3
-- policy-analysis
-- least-privilege
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059.009
-- T1068
-- T1078.004
-cwe:
-- CWE-269
-capec: []
----
-
 # Detecting AWS IAM Privilege Escalation
 
 ## Overview
 
 This skill uses boto3 and Cloudsplaining-style analysis to identify IAM privilege escalation paths in AWS accounts. It downloads the account authorization details, analyzes each policy for dangerous permission combinations (iam:PassRole + lambda:CreateFunction, iam:CreatePolicyVersion, sts:AssumeRole), and flags policies that violate least-privilege principles.
-
 
 ## When to Use
 

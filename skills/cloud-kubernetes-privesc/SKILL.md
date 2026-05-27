@@ -1,44 +1,8 @@
----
-name: cloud-kubernetes-privesc
-description: Detect and prevent privilege escalation in Kubernetes pods by monitoring security contexts, capabilities, and syscall patterns with Falco and OPA policies.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- kubernetes
-- privilege-escalation
-- security-context
-- capabilities
-- detection
-- pod-security
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Restore Access
-- Password Authentication
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1068
-- T1610
-cwe:
-- CWE-269
-capec: []
----
-
 # Detecting Privilege Escalation in Kubernetes Pods
 
 ## Overview
 
 Privilege escalation in Kubernetes occurs when a pod or container gains elevated permissions beyond its intended scope. This includes running as root, using privileged mode, mounting host filesystems, enabling dangerous Linux capabilities, or exploiting kernel vulnerabilities. Detection combines admission control (prevention), runtime monitoring (detection), and audit logging (investigation).
-
 
 ## When to Use
 

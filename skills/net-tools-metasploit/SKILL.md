@@ -1,34 +1,3 @@
----
-name: net-tools-metasploit
-description: Identifies and exploits SMB protocol vulnerabilities using Metasploit Framework during authorized penetration tests to demonstrate risks from unpatched Windows systems, misconfigured shares, and weak authentication in enterprise networks.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- smb
-- metasploit
-- exploitation
-- eternalblue
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1021
-- T1021.002
-- T1550.002
-cve:
-- CVE-2017-0144
-- CVE-2021-34527
-- CVE-2020-0796
-capec: []
----
-
 # Exploiting SMB Vulnerabilities with Metasploit
 
 ## When to Use

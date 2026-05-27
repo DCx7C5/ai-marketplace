@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-meet"
-version: "1.0.0"
-description: "Manage Google Meet conferences."
-metadata: ""
-short-description: "Manage Google Meet conferences"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws meet --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-meet"
----
 # meet (v2)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

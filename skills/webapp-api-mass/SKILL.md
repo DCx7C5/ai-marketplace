@@ -1,32 +1,3 @@
----
-name: webapp-api-mass
-description: Discover and exploit mass assignment vulnerabilities in REST APIs to escalate privileges, modify restricted fields, and bypass authorization controls by injecting unexpected parameters in API requests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- mass-assignment
-- api-security
-- privilege-escalation
-- rest-api
-- autobinding
-- parameter-injection
-- owasp-api
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-cwe:
-- CWE-269
-- CWE-915
-capec: []
----
-
 # Exploiting Mass Assignment in REST APIs
 
 ## When to Use
@@ -43,7 +14,6 @@ capec: []
 - Multiple user accounts with different privilege levels for testing
 - Knowledge of common sensitive fields (role, isAdmin, verified, balance, price)
 - Arjun or param-miner for hidden parameter discovery
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

@@ -1,34 +1,3 @@
----
-name: linux-forensic-mem-analysis-credentials-extract
-description: Extract cached credentials, password hashes, Kerberos tickets, and authentication tokens from memory dumps using Volatility and Mimikatz for forensic investigation.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- credential-extraction
-- memory-forensics
-- volatility
-- mimikatz
-- password-hashes
-- incident-response
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1558
-- T1552
-- T1021
-- T1550.002
-- T1550.003
-capec: []
----
-
 # Extracting Credentials from Memory Dump
 
 ## When to Use

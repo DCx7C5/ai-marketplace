@@ -1,26 +1,3 @@
----
-name: net-wireless-btassessment
-description: Assess Bluetooth Low Energy device security by scanning, enumerating GATT services, and detecting vulnerabilities
-domain: cybersecurity
-subdomain: wireless-security
-tags:
-- bluetooth
-- ble
-- gatt
-- wireless-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1557
-capec: []
----
-
 # Performing Bluetooth Security Assessment
 
 ## Overview
@@ -28,7 +5,6 @@ capec: []
 This skill covers performing Bluetooth Low Energy (BLE) security assessments using the Python bleak library. BLE devices are ubiquitous in IoT, healthcare, fitness, and smart home applications, and many ship with weak or absent security controls. This assessment identifies unencrypted GATT characteristics, devices broadcasting sensitive data, known vulnerable device fingerprints, and improperly secured pairing configurations.
 
 The agent uses bleak's asyncio API to discover nearby BLE devices, connect to target devices, enumerate all GATT services and characteristics, and analyze security properties of each characteristic. It flags characteristics that allow unauthenticated read/write access to sensitive data and identifies devices matching known vulnerable profiles.
-
 
 ## When to Use
 

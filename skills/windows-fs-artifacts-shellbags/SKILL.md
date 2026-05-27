@@ -1,36 +1,8 @@
----
-name: windows-fs-artifacts-shellbags
-description: Analyze Windows Shellbag registry artifacts to reconstruct folder browsing activity, detect access to removable media and network shares, and establish user interaction with directories even after deletion using SBECmd and ShellBags Explorer.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- shellbags
-- windows-registry
-- sbecmd
-- shellbags-explorer
-- folder-access
-- user-activity
-- removable-media
-- network-shares
-- bagmru
-- dfir
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing Windows Shellbag Artifacts
 
 ## Overview
 
 Shellbags are Windows registry artifacts that track how users interact with folders through Windows Explorer, storing view settings such as icon size, window position, sort order, and view mode. From a forensic perspective, Shellbags provide definitive evidence of folder access -- even folders that no longer exist on the system. When a user browses to a folder via Windows Explorer, the Open/Save dialog, or the Control Panel, a Shellbag entry is created or updated in the user's registry hive. These entries persist after folder deletion, drive disconnection, and even across user profile resets, making them invaluable for proving that a user navigated to specific directories on local drives, USB devices, network shares, or zip archives.
-
 
 ## When to Use
 

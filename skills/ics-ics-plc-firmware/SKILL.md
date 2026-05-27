@@ -1,30 +1,3 @@
----
-name: ics-ics-plc-firmware
-description: This skill covers analyzing Programmable Logic Controller (PLC) firmware for security vulnerabilities including hardcoded credentials, insecure update mechanisms, backdoor functions, memory corruption flaws, and undocumented debug interfaces. It addresses firmware extraction from common PLC platforms (Siemens S7, Allen-Bradley, Schneider Modicon), static analysis of firmware images, dynamic analysis in emulated environments, and comparison against known-good baselines to detect tampering.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- firmware-analysis
-- plc-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0843
-- T0855
-capec: []
----
-
 # Performing PLC Firmware Security Analysis
 
 ## When to Use
@@ -68,7 +41,6 @@ import sys
 import zipfile
 from datetime import datetime
 from pathlib import Path
-
 
 class PLCFirmwareAcquisition:
     """Handles PLC firmware acquisition from various sources."""
@@ -192,7 +164,6 @@ class PLCFirmwareAcquisition:
             json.dump(self.manifest, f, indent=2)
         print(f"\n[*] Manifest saved: {manifest_path}")
 
-
 if __name__ == "__main__":
     acq = PLCFirmwareAcquisition()
 
@@ -280,7 +251,6 @@ import sys
 import time
 from dataclasses import dataclass
 
-
 @dataclass
 class ProtocolTestResult:
     test_name: str
@@ -289,7 +259,6 @@ class ProtocolTestResult:
     result: str  # PASS, FAIL, ERROR
     severity: str
     detail: str
-
 
 class ModbusSecurityTester:
     """Tests Modbus/TCP implementation security."""
@@ -439,7 +408,6 @@ class ModbusSecurityTester:
             print(f"    Detail: {r.detail}")
 
         return self.results
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

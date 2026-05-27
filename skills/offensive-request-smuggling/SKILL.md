@@ -1,28 +1,3 @@
-# SKILL: HTTP Request Smuggling
-
-## Metadata
-- **Skill Name**: request-smuggling
-- **Folder**: offensive-request-smuggling
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/req-smuggle.md
-
-## Description
-HTTP request smuggling checklist: CL.TE, TE.CL, TE.TE variants, detection with timing and differential responses, WAF bypass, cache poisoning, credential hijacking, and request smuggling via HTTP/2. Use when testing reverse proxy/load balancer configurations.
-
-## Trigger Phrases
-Use this skill when the conversation involves any of:
-`request smuggling, HTTP smuggling, CL.TE, TE.CL, TE.TE, HTTP/2 smuggling, cache poisoning, WAF bypass, differential response, smuggling detection, proxy desync`
-
-## Instructions for Claude
-
-When this skill is active:
-1. Load and apply the full methodology below as your operational checklist
-2. Follow steps in order unless the user specifies otherwise
-3. For each technique, consider applicability to the current target/context
-4. Track which checklist items have been completed
-5. Suggest next steps based on findings
-
----
-
 ## Full Methodology
 
 # HTTP Request Smuggling
@@ -153,7 +128,6 @@ Modern variations include:
    x=1
    0
 
-
    ```
 
    Send twice. The second request should show the effect of the smuggled `GPOST`.
@@ -176,7 +150,6 @@ Modern variations include:
 
    x=1
    0
-
 
    ```
 
@@ -768,4 +741,3 @@ Transfer-Encoding: chunked\x0d\x0a
 - **WebSocket Security**: Validate WebSocket upgrade requests; sanitize Sec-WebSocket-\* headers; limit concurrent upgrades
 - **Client-Side Desync Prevention**: Set `Connection: close` on sensitive responses; use HTTP/2 exclusively; implement strict cache controls
 - **Monitoring**: Log anomalous header patterns; alert on multiple Content-Length or Transfer-Encoding headers; track connection reuse metrics
-

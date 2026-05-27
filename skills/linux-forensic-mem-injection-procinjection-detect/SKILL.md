@@ -1,43 +1,8 @@
----
-name: linux-forensic-mem-injection-procinjection-detect
-description: Detect process injection techniques (T1055) including CreateRemoteThread, process hollowing, and DLL injection via Sysmon Event IDs 8 and 10 and EDR process telemetry
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- process-injection
-- t1055
-- sysmon
-- createremotethread
-- dll-injection
-- edr
-- threat-hunting
-d3fend_techniques:
-- Executable Denylisting
-- Execution Isolation
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1055
-- T1055.001
-- T1059
-capec: []
----
-
 # Hunting for Process Injection Techniques
 
 ## Overview
 
 Process injection (MITRE ATT&CK T1055) allows adversaries to execute code in the address space of another process, enabling defense evasion and privilege escalation. This skill detects injection techniques via Sysmon Event ID 8 (CreateRemoteThread), Event ID 10 (ProcessAccess with suspicious access rights), and analysis of source-target process relationships to distinguish legitimate from malicious injection.
-
 
 ## When to Use
 

@@ -1,30 +1,3 @@
----
-name: ics-ics-assetmgmt-claroty-assess
-description: This skill covers performing vulnerability assessments in OT environments using the Claroty xDome platform for comprehensive asset discovery, risk scoring, vulnerability correlation, and remediation prioritization. It addresses passive vulnerability identification through traffic analysis, active safe querying of OT devices, integration with CVE databases and ICS-CERT advisories, and risk-based prioritization that accounts for operational impact and compensating controls.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- vulnerability-assessment
-- claroty
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1082
-capec: []
----
-
 # Performing OT Vulnerability Assessment with Claroty
 
 ## When to Use
@@ -68,7 +41,6 @@ from datetime import datetime
 
 import requests
 
-
 @dataclass
 class OTAsset:
     asset_id: str
@@ -82,7 +54,6 @@ class OTAsset:
     protocol: str
     criticality: str  # critical, high, medium, low
     zone: str
-
 
 @dataclass
 class OTVulnerability:
@@ -100,7 +71,6 @@ class OTVulnerability:
     patch_available: bool = False
     compensating_controls: str = ""
 
-
 @dataclass
 class RiskAssessment:
     asset: OTAsset
@@ -111,7 +81,6 @@ class RiskAssessment:
     operational_impact: str = ""
     compensating_controls: list = field(default_factory=list)
     remediation_priority: int = 0
-
 
 class OTVulnerabilityAssessment:
     """OT vulnerability assessment and prioritization engine."""
@@ -264,7 +233,6 @@ class OTVulnerabilityAssessment:
         }
         with open(output_file, "w") as f:
             json.dump(data, f, indent=2)
-
 
 if __name__ == "__main__":
     assessment = OTVulnerabilityAssessment()

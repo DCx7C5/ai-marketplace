@@ -1,32 +1,3 @@
----
-name: webapp-injection-ssrf
-description: Detect and exploit blind Server-Side Request Forgery vulnerabilities using out-of-band techniques, DNS interactions, and timing analysis to access internal services and cloud metadata endpoints.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- blind-ssrf
-- ssrf
-- out-of-band
-- burp-collaborator
-- cloud-metadata
-- internal-network
-- oob-detection
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1190
-cwe:
-- CWE-918
-capec: []
----
-
 # Performing Blind SSRF Exploitation
 
 ## When to Use

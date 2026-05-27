@@ -1,9 +1,4 @@
 ---
-name: "linux-supply-package-rpm-integrity-verify"
-description: "---"
----
-
----
 name: linux-supply-package-rpm-integrity-verify
 description: Verify RPM package integrity — use rpm -V to check all installed file attributes, validate GPG signatures, and detect modified system binaries.
 domain: cybersecurity

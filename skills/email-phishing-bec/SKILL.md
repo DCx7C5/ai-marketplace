@@ -1,51 +1,7 @@
----
-name: email-phishing-bec
-description: Deploy AI and NLP-powered detection systems to identify business email compromise attacks by analyzing writing style, behavioral patterns, and contextual anomalies that evade traditional rule-based filters.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- bec
-- ai
-- nlp
-- machine-learning
-- email-security
-- behavioral-analytics
-- impersonation
-- fraud-detection
-atlas_techniques:
-- AML.T0073
-- AML.T0052
-- AML.T0088
-nist_ai_rmf:
-- GOVERN-6.2
-- MAP-5.2
-- GOVERN-6.1
-- MEASURE-2.7
-- MEASURE-2.5
-d3fend_techniques:
-- Sender MTA Reputation Analysis
-- Email Filtering
-- Sender Reputation Analysis
-- Homoglyph Detection
-- Message Analysis
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Detecting Business Email Compromise with AI
 
 ## Overview
 AI-powered BEC detection uses machine learning, NLP, and behavioral analytics to identify sophisticated impersonation attacks that contain no malicious links or attachments. Traditional rule-based filters miss these attacks because BEC relies purely on social engineering. Modern AI approaches analyze writing style, tone, vocabulary, grammatical patterns, and behavioral context to determine if an email genuinely comes from the stated sender. BERT-based models achieve 98.65% accuracy in BEC detection, and AI-enhanced platforms show a 25% increase in phishing identification over keyword-based rules.
-
 
 ## When to Use
 

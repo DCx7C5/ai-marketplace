@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-mem-kaslr-bypass-detect"
-description: "---"
----
-
----
 name: linux-kernel-mem-kaslr-bypass-detect
 description: Detect KASLR (Kernel Address Space Layout Randomization) bypass attempts — side-channel leaks via /proc/kallsyms, timing attacks, and information disclosure vulnerabilities.
 domain: cybersecurity

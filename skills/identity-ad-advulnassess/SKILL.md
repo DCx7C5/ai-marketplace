@@ -1,48 +1,8 @@
----
-name: identity-ad-advulnassess
-description: Assess Active Directory security posture using PingCastle, BloodHound, and Purple Knight to identify misconfigurations, privilege escalation paths, and attack vectors.
-domain: cybersecurity
-subdomain: vulnerability-management
-tags:
-- active-directory
-- pingcastle
-- bloodhound
-- purple-knight
-- ad-security
-- privilege-escalation
-- ldap
-- kerberos
-d3fend_techniques:
-- Restore Object
-- Network Traffic Policy Mapping
-- Restore Configuration
-- Access Modeling
-- Operational Activity Mapping
-nist_csf:
-- ID.RA-01
-- ID.RA-02
-- ID.IM-02
-- ID.RA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1068
-- T1087
-- T1087.002
-- T1558
-cwe:
-- CWE-269
-capec: []
----
-
 # Performing Active Directory Vulnerability Assessment
 
 ## Overview
 
 Active Directory (AD) is the primary identity and access management system in most enterprise environments, making it a critical attack target. This skill covers comprehensive AD security assessment using PingCastle for health checks, BloodHound for attack path analysis, and Purple Knight for security posture scoring. These tools identify misconfigurations, excessive privileges, Kerberos weaknesses, and lateral movement opportunities.
-
 
 ## When to Use
 

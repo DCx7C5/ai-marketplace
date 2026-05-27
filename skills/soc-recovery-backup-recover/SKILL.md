@@ -1,29 +1,3 @@
----
-name: soc-recovery-backup-recover
-description: Validate backup integrity through cryptographic hash verification, automated restore testing, corruption detection, and recoverability checks to ensure backups are reliable for disaster recovery and ransomware response scenarios.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- incident-response
-- backup
-- integrity
-- hash-verification
-- restore-testing
-- disaster-recovery
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1486
-capec: []
----
-
 # Validating Backup Integrity for Recovery
 
 ## When to Use

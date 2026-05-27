@@ -1,36 +1,3 @@
----
-name: webapp-waf-firewall
-description: Bypass Web Application Firewall protections using encoding techniques, HTTP method manipulation, parameter pollution, and payload obfuscation to deliver SQL injection, XSS, and other attack payloads past WAF detection rules.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- waf-bypass
-- waf-evasion
-- sql-injection
-- xss
-- payload-obfuscation
-- encoding-bypass
-- web-security
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1059
-- T1189
-- T1190
-- T1562.004
-cwe:
-- CWE-79
-- CWE-89
-capec: []
----
-
 # Performing Web Application Firewall Bypass
 
 ## When to Use

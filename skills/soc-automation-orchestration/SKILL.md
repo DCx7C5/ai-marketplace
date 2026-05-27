@@ -1,34 +1,3 @@
----
-name: soc-automation-orchestration
-description: Implements Security Orchestration, Automation, and Response (SOAR) workflows using Splunk SOAR (formerly Phantom) to automate alert triage, IOC enrichment, containment actions, and incident response playbooks. Use when SOC teams need to reduce manual analyst work, standardize response procedures, or integrate multiple security tools into automated workflows.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- soar
-- phantom
-- splunk-soar
-- automation
-- playbook
-- orchestration
-- incident-response
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566
-- T1059
-- T1078
-- T1070
-- T1562.004
-capec: []
----
-
 # Implementing SOAR Automation with Phantom
 
 ## When to Use

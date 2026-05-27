@@ -1,30 +1,3 @@
----
-name: soc-workflow-ticketing-integrate
-description: Implements an integrated incident ticketing system connecting SIEM alerts to ServiceNow, Jira, or TheHive for structured incident tracking, SLA management, escalation workflows, and compliance documentation. Use when SOC teams need formalized incident lifecycle management with automated ticket creation, assignment routing, and resolution tracking.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- ticketing
-- servicenow
-- jira
-- thehive
-- incident-management
-- sla
-- workflow
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-capec: []
----
-
 # Implementing Ticketing System for Incidents
 
 ## When to Use

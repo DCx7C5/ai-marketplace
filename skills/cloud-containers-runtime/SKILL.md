@@ -1,46 +1,8 @@
----
-name: cloud-containers-runtime
-description: Implement eBPF-based runtime security observability and enforcement in Kubernetes clusters using Cilium Tetragon for kernel-level threat detection and policy enforcement.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- tetragon
-- ebpf
-- runtime-security
-- kubernetes
-- cilium
-- container-security
-- observability
-- kernel-security
-- cncf
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1547
-- T1610
-capec: []
----
-
 # Implementing Runtime Security with Tetragon
 
 ## Overview
 
 Tetragon is a CNCF project under Cilium that provides flexible Kubernetes-aware security observability and runtime enforcement using eBPF. By operating at the Linux kernel level, Tetragon can monitor and enforce policies on process execution, file access, network connections, and system calls with less than 1% performance overhead -- far more efficient than traditional user-space security agents.
-
 
 ## When to Use
 

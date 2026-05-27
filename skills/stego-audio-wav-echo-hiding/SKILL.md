@@ -1,7 +1,3 @@
----
-name: stego-audio-wav-echo-hiding
-description: ">\n  Detects echo-hiding steganography in WAV audio via cepstrum analysis."
----
 ## Overview
 
 Detects steganographically hidden data in carrier files using statistical analysis and tool-assisted extraction.

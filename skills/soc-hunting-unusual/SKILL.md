@@ -1,36 +1,3 @@
----
-name: soc-hunting-unusual
-description: Hunt for unusual network connections by analyzing outbound traffic patterns, rare destinations, non-standard ports, and anomalous connection frequencies from endpoints.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- network-analysis
-- c2
-- anomaly-detection
-- proactive-detection
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Certificate Analysis
-- Application Protocol Command Analysis
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1071
-capec: []
----
-
 # Hunting For Unusual Network Connections
 
 ## When to Use

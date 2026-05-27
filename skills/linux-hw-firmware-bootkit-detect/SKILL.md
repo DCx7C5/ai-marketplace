@@ -1,30 +1,3 @@
----
-name: linux-hw-firmware-bootkit-detect
-description: Analyzes bootkit and advanced rootkit malware that infects the Master Boot Record (MBR), Volume Boot Record (VBR), or UEFI firmware to gain persistence below the operating system. Covers boot sector analysis, UEFI module inspection, and anti-rootkit detection techniques. Activates for requests involving bootkit analysis, MBR malware investigation, UEFI persistence analysis, or pre-OS malware detection.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- malware
-- bootkit
-- rootkit
-- UEFI
-- MBR-analysis
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1014
-- T1542
-cve:
-- CVE-2022-21894
-capec: []
----
-
 # Analyzing Bootkit and Rootkit Samples
 
 ## When to Use

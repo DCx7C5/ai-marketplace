@@ -1,11 +1,3 @@
----
-name: "devel-jb-gemini-interactions-api"
-description: "Use this skill when writing code that calls the Gemini API for text generation, multi-turn chat, multimodal understanding, image generation, streaming responses, background research tasks, function calling, structured output, or migrating from the old generateContent API. This skill covers the Interactions API, the recommended way to use Gemini models and agents in Python and TypeScript."
-metadata: ""
-short-description: "Use the Gemini Interactions API"
-author: "Google Gemini"
-source: "https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-interactions-api"
----
 # Gemini Interactions API Skill
 
 The Interactions API is a unified interface for interacting with Gemini models and agents. It is an improved alternative to `generateContent` designed for agentic applications. Key capabilities include:

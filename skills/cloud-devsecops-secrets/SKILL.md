@@ -1,26 +1,3 @@
----
-name: cloud-devsecops-secrets
-description: Integrate gitleaks and trufflehog into CI/CD pipelines to detect leaked secrets before deployment
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- secrets-scanning
-- gitleaks
-- trufflehog
-- ci-cd
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-capec: []
----
-
 # Implementing Secrets Scanning in CI/CD
 
 ## Overview
@@ -28,7 +5,6 @@ capec: []
 This skill covers implementing automated secrets scanning in CI/CD pipelines using gitleaks and trufflehog. It enables security teams to detect API keys, tokens, passwords, and other credentials that have been accidentally committed to source code repositories, providing a CI gate that blocks deployments containing high-severity findings.
 
 Gitleaks scans git repositories and directories for hardcoded secrets using regex patterns and entropy analysis. TruffleHog performs filesystem and git history scans with optional secret verification against live services. Together they provide comprehensive coverage for secrets detection.
-
 
 ## When to Use
 

@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-network-stack-netfilter-nftables-audit"
-description: "---"
----
-
----
 name: linux-kernel-network-stack-netfilter-nftables-audit
 description: Forensic audit of nftables rules — enumerate nft tables/chains/rules, detect unauthorized modifications, and identify rules bypassing security controls.
 domain: cybersecurity

@@ -1,36 +1,8 @@
----
-name: cloud-security-shadow
-description: Detect unauthorized SaaS and cloud service usage (shadow IT) by analyzing proxy logs, DNS query logs, and netflow data using Python pandas for traffic pattern analysis and domain classification.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- shadow-IT
-- SaaS-discovery
-- proxy-logs
-- DNS-analysis
-- netflow
-- cloud-security
-- pandas
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1562.004
-capec: []
----
-
 # Detecting Shadow IT Cloud Usage
 
 ## Overview
 
 Shadow IT refers to unauthorized SaaS applications and cloud services used without IT approval. This skill analyzes proxy logs, DNS query logs, and firewall/netflow data to identify unauthorized cloud service usage, classify discovered domains against known SaaS categories, measure data transfer volumes, and flag high-risk services based on security posture and compliance requirements.
-
 
 ## When to Use
 

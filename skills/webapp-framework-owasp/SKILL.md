@@ -1,35 +1,3 @@
----
-name: webapp-framework-owasp
-description: This skill covers integrating OWASP ZAP (Zed Attack Proxy) for Dynamic Application Security Testing in CI/CD pipelines. It addresses configuring baseline, full, and API scans against running applications, interpreting ZAP findings, tuning scan policies, and establishing DAST quality gates in GitHub Actions and GitLab CI.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- dast
-- owasp-zap
-- dynamic-testing
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1189
-- T1190
-cwe:
-- CWE-200
-- CWE-352
-- CWE-79
-- CWE-89
-capec: []
----
-
 # Integrating DAST with OWASP ZAP in Pipeline
 
 ## When to Use
@@ -55,7 +23,7 @@ capec: []
 
 ```yaml
 # .github/workflows/dast-scan.yml
-name: framework-owasp-audit
+name: webapp-framework-owasp
 
 on:
   deployment_status:

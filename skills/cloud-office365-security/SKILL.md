@@ -1,35 +1,8 @@
----
-name: cloud-office365-security
-description: Parse Office 365 Unified Audit Logs via Microsoft Graph API to detect email forwarding rule creation, inbox delegation, suspicious OAuth app grants, and other indicators of account compromise.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- Office365
-- Microsoft-Graph
-- audit-logs
-- email-compromise
-- inbox-rules
-- OAuth
-- BEC
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-capec: []
----
-
 # Analyzing Office 365 Audit Logs for Compromise
 
 ## Overview
 
 Business Email Compromise (BEC) attacks often leave traces in Office 365 audit logs: suspicious inbox rule creation, email forwarding to external addresses, mailbox delegation changes, and unauthorized OAuth application consent grants. This skill uses the Microsoft Graph API to query the Unified Audit Log, enumerate inbox rules across mailboxes, detect forwarding configurations, and identify compromised account indicators.
-
 
 ## When to Use
 

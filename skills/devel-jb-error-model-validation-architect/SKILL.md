@@ -1,11 +1,3 @@
----
-name: "devel-jb-error-model-validation-architect"
-description: "Design and implement consistent API validation and error-handling behavior for Kotlin plus Spring services. Use when defining error payloads, mapping framework and domain exceptions, standardizing HTTP status codes, adding `@ControllerAdvice`, preventing internal-detail leakage, or ensuring clients can rely on stable machine-readable error semantics across endpoints."
-metadata: ""
-short-description: "Design safe and consistent API errors"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/error-model-validation-architect"
----
 # Error Model Validation Architect
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-07`).

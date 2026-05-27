@@ -1,25 +1,3 @@
----
-name: webapp-api-postman-verify
-description: Uses Postman to perform structured API security testing by building collections that test for OWASP API Security Top 10 vulnerabilities including authentication bypass, authorization flaws, injection, and data exposure. The tester creates environments with multiple user roles, writes test scripts for automated security validation, and integrates Postman with OWASP ZAP and Newman for CI/CD security testing. Activates for requests involving Postman security testing, API security collection, automated API testing, or OWASP API testing with Postman.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- postman
-- owasp
-- automated-testing
-- security-validation
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing API Security Testing with Postman
 
 ## When to Use
@@ -287,7 +265,7 @@ done
 **GitHub Actions Integration:**
 ```yaml
 # .github/workflows/api-security-test.yml
-name: api-postman
+name: webapp-api-postman-verify
 on:
   pull_request:
     paths: ['src/api/**', 'openapi.yaml']

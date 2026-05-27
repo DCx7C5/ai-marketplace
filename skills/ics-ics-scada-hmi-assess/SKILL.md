@@ -1,32 +1,3 @@
----
-name: ics-ics-scada-hmi-assess
-description: Perform security assessments of SCADA Human-Machine Interface (HMI) systems to identify vulnerabilities in web-based HMIs, thin-client configurations, authentication mechanisms, and communication channels between HMI and PLCs, aligned with IEC 62443 and NIST SP 800-82 guidelines.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- hmi
-- security-assessment
-- vulnerability
-- iec62443
-- nist-800-82
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-cve:
-- CVE-2025-0921
-capec: []
----
-
 # Performing SCADA HMI Security Assessment
 
 ## When to Use
@@ -70,7 +41,6 @@ try:
 except ImportError:
     print("Install requests: pip install requests")
     sys.exit(1)
-
 
 class HMISecurityAssessment:
     """Performs security assessment of SCADA HMI systems."""
@@ -267,7 +237,6 @@ class HMISecurityAssessment:
         print(f"Version: {self.hmi_info.get('version', 'Unknown')}")
         print(f"Total Checks: {self.checks_run}")
         print(f"Findings: {len(self.findings)}")
-
 
 if __name__ == "__main__":
     assessment = HMISecurityAssessment(hmi_info={

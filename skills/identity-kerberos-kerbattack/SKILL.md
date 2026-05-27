@@ -1,47 +1,10 @@
----
-name: identity-kerberos-kerbattack
-description: Kerberoasting is a post-exploitation technique that targets service accounts in Active Directory by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- adversary-simulation
-- mitre-attack
-- exploitation
-- post-exploitation
-- kerberoasting
-- active-directory
-- credential-access
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1071
-- T1558
-- T1558.003
-capec: []
----
-
 # Performing Kerberoasting Attack
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 Kerberoasting is a post-exploitation technique that targets service accounts in Active Directory by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs) set. These tickets are encrypted with the service account's NTLM hash, allowing offline brute-force cracking without generating failed login events. It is one of the most common privilege escalation paths in AD environments because any domain user can request TGS tickets.
-
 
 ## When to Use
 

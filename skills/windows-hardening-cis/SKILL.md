@@ -1,26 +1,3 @@
----
-name: windows-hardening-cis
-description: Hardens Windows endpoints using CIS (Center for Internet Security) Benchmark recommendations to reduce attack surface, enforce security baselines, and meet compliance requirements. Use when deploying new Windows workstations or servers, remediating audit findings, or establishing organization-wide security baselines. Activates for requests involving Windows hardening, CIS benchmarks, GPO security baselines, or endpoint configuration compliance.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- hardening
-- windows-security
-- CIS-benchmark
-- GPO
-- baseline-configuration
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Hardening Windows Endpoint with CIS Benchmark
 
 ## When to Use

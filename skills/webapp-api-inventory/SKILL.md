@@ -1,29 +1,3 @@
----
-name: webapp-api-inventory
-description: Performs API inventory and discovery to identify all API endpoints in an organization''s environment including documented, undocumented, shadow, zombie, and deprecated APIs. The tester uses passive traffic analysis, active scanning, DNS enumeration, JavaScript analysis, and cloud resource inventory to build a comprehensive API catalog. Maps to OWASP API9:2023 Improper Inventory Management. Activates for requests involving API discovery, shadow API detection, API inventory audit, or attack surface mapping.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- owasp
-- api-discovery
-- shadow-api
-- inventory
-- attack-surface
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1595
-capec: []
----
-
 # Performing API Inventory and Discovery
 
 ## When to Use

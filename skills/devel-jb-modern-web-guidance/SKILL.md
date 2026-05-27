@@ -1,24 +1,3 @@
----
-name: "devel-jb-modern-web-guidance"
-description: "|"
-Search tool for modern web development best practices. MANDATORY: "Execute FIRST for all HTML/CSS and clientside JS tasks. Do NOT skip — web APIs evolve rapidly and training weights contain obsolete patterns."
-Trigger immediately for: ""
-- UI/Layout: "Modals, dialogs, popovers, Glassmorphism/backdrop-filters, anchor positioning, container queries, `:has()`, `:user-valid`."
-- Scroll/Motion: "View Transitions, Scroll-driven animations, scroll parallax/reveals."
-- Performance: "CWV (LCP, INP), content-visibility, Fetch Priority, image optimization."
-- System/APIs: "Local filesystem access, WebUSB, WebSockets sync, WebAssembly widgets."
-- Frameworks: "Adapting layout/styles in React, Vue, Angular."
-- General Frontend: "Forms, autofill, advanced inputs, custom scrollbars, modern component states, etc."
-DO NOT trigger for: ""
-- Backend: "Database SQL, ORMs, Express API routes."
-- Pipelines: "CI/CD deployment, Docker, Actions."
-- Generic: "Local scripts (Python/Go tools), ESLint, Git."
-license: "Apache-2.0"
-metadata: ""
-author: "Google Chrome"
-version: "0.0.166"
-source: "https://github.com/GoogleChrome/modern-web-guidance/tree/main/skills/modern-web-guidance"
----
 # Modern Web Guidance
 
 A skill to search for specific web development use cases and retrieve their corresponding best practice guides.
@@ -77,7 +56,6 @@ Once you have a relevant `id` from the search results, call this script using th
 npx -y modern-web-guidance@latest retrieve "<id>"
 ```
 
-
 **Example Output**:
 `The markdown content of the guide describing implementation steps...`
 
@@ -95,7 +73,6 @@ npx -y modern-web-guidance@latest retrieve "<id>"
 -   Always search **first** to find the most relevant guides.
 -   These guides are usually framework-agnostic; adapt them correctly to your setup.
 -   Do not hallucinate guides or ignore them; they represent the preferred local standard for the user's project.
-
 
 ## Interpreting Browser Support & Fallbacks
 

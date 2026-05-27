@@ -1,36 +1,8 @@
----
-name: windows-fs-artifacts-lnk-parse
-description: Analyze Windows LNK shortcut files and Jump List artifacts to establish evidence of file access, program execution, and user activity using LECmd, JLECmd, and manual binary parsing of the Shell Link Binary format.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- lnk-files
-- jump-lists
-- lecmd
-- jlecmd
-- windows-forensics
-- shell-link
-- user-activity
-- file-access
-- program-execution
-- recent-files
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing LNK File and Jump List Artifacts
 
 ## Overview
 
 Windows LNK (shortcut) files and Jump Lists are critical forensic artifacts that provide evidence of file access, program execution, and user behavior. LNK files are created automatically when a user opens a file through Windows Explorer or the Open/Save dialog, storing metadata about the target file including its original path, timestamps, volume serial number, NetBIOS name, and MAC address of the host system. Jump Lists, introduced in Windows 7, extend this by maintaining per-application lists of recently and frequently accessed files. These artifacts persist even after the target files are deleted, making them invaluable for establishing that a user accessed specific files at specific times.
-
 
 ## When to Use
 

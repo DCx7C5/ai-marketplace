@@ -1,25 +1,3 @@
----
-name: cloud-zerotrust-cloudzt-monitor
-description: This skill guides organizations through implementing zero trust architecture in cloud environments following NIST SP 800-207 and Google BeyondCorp principles. It covers identity-centric access controls, micro-segmentation, continuous verification, device trust assessment, and deploying Identity-Aware Proxy to eliminate implicit network trust in AWS, Azure, and GCP environments.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- zero-trust
-- beyondcorp
-- identity-aware-proxy
-- micro-segmentation
-- continuous-verification
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Zero Trust in Cloud
 
 ## When to Use

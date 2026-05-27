@@ -1,43 +1,8 @@
----
-name: soc-hunting-svcinstall
-description: Detect suspicious Windows service installations (MITRE ATT&CK T1543.003) by parsing System event logs for Event ID 7045, analyzing service binary paths, and identifying indicators of persistence mechanisms.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- T1543.003
-- service-installation
-- persistence
-- Event-7045
-- Sysmon
-- Windows-services
-d3fend_techniques:
-- Platform Hardening
-- System Configuration Permissions
-- Restore Object
-- Restore Database
-- Asset Inventory
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1059.001
-- T1547
-capec: []
----
-
 # Hunting for Unusual Service Installations
 
 ## Overview
 
 Attackers frequently install malicious Windows services for persistence and privilege escalation (MITRE ATT&CK T1543.003 — Create or Modify System Process: Windows Service). Event ID 7045 in the System event log records every new service installation. This skill parses .evtx log files to extract service installation events, flags suspicious binary paths (temp directories, PowerShell, cmd.exe, encoded commands), and correlates with known attack patterns.
-
 
 ## When to Use
 

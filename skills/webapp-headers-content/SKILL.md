@@ -1,33 +1,3 @@
----
-name: webapp-headers-content
-description: Analyze and bypass Content Security Policy implementations to achieve cross-site scripting by exploiting misconfigurations, JSONP endpoints, unsafe directives, and policy injection techniques.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- csp-bypass
-- content-security-policy
-- xss
-- script-injection
-- nonce-bypass
-- jsonp
-- policy-misconfiguration
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1189
-cwe:
-- CWE-16
-- CWE-79
-capec: []
----
-
 # Performing Content Security Policy Bypass
 
 ## When to Use

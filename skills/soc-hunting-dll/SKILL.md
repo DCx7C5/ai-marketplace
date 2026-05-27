@@ -1,37 +1,3 @@
----
-name: soc-hunting-dll
-description: Detect DLL side-loading attacks where adversaries place malicious DLLs alongside legitimate applications to hijack execution flow for defense evasion.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- dll-sideloading
-- defense-evasion
-- t1574
-- edr
-- proactive-detection
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Content Format Conversion
-- File Content Analysis
-- Platform Hardening
-- File Format Verification
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1027
-- T1059
-- T1547
-capec: []
----
-
 # Detecting DLL Sideloading Attacks
 
 ## When to Use

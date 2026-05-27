@@ -1,38 +1,8 @@
----
-name: linux-kernel-rootkits-general-detect
-description: Detect kernel-level rootkits in Linux memory dumps using Volatility3 linux plugins (check_syscall, lsmod, hidden_modules), rkhunter system scanning, and /proc vs /sys discrepancy analysis to identify hooked syscalls, hidden kernel modules, and tampered system structures.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- rootkit
-- linux
-- kernel
-- volatility3
-- memory-forensics
-- malware-analysis
-- rkhunter
-- forensics
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1014
-- T1059
-capec: []
----
-
 # Analyzing Linux Kernel Rootkits
 
 ## Overview
 
 Linux kernel rootkits operate at ring 0, modifying kernel data structures to hide processes, files, network connections, and kernel modules from userspace tools. Detection requires either memory forensics (analyzing physical memory dumps with Volatility3) or cross-view analysis (comparing /proc, /sys, and kernel data structures for inconsistencies). This skill covers using Volatility3 Linux plugins to detect syscall table hooks, hidden kernel modules, and modified function pointers, supplemented by live system scanning with rkhunter and chkrootkit.
-
 
 ## When to Use
 

@@ -1,39 +1,8 @@
----
-name: cloud-kubernetes-hardening-kubesecmanifest
-description: Perform security risk analysis on Kubernetes resource manifests using Kubesec to identify misconfigurations, privilege escalation risks, and deviations from security best practices.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- kubesec
-- kubernetes
-- manifest-scanning
-- security-scanning
-- devsecops
-- misconfiguration
-- static-analysis
-- ci-cd
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1610
-cwe:
-- CWE-16
-capec: []
----
-
 # Scanning Kubernetes Manifests with Kubesec
 
 ## Overview
 
 Kubesec is an open-source security risk analysis tool developed by ControlPlane that inspects Kubernetes resource manifests for common exploitable risks such as privilege escalation, writable host mounts, and excessive capabilities. It assigns a numerical security score to each resource and provides actionable recommendations for hardening. Kubesec can be used as a CLI binary, Docker container, kubectl plugin, admission webhook, or REST API endpoint.
-
 
 ## When to Use
 
@@ -194,7 +163,7 @@ curl -sSX POST --data-binary @deployment.yaml \
 ### GitHub Actions
 
 ```yaml
-name: kubernetes-hardening-kubesecmanifest
+name: cloud-kubernetes-hardening-kubesecmanifest
 on: [pull_request]
 jobs:
   kubesec:

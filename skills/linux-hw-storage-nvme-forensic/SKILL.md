@@ -1,9 +1,4 @@
 ---
-name: "linux-hw-storage-nvme-forensic"
-description: "---"
----
-
----
 name: linux-hw-storage-nvme-forensic
 description: Forensic acquisition and analysis of NVMe block devices — raw image creation, wear leveling artifact analysis, and deleted data recovery from NVMe SSDs.
 domain: cybersecurity

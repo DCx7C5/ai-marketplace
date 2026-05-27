@@ -1,34 +1,3 @@
----
-name: soc-hunting-cloud
-description: Hunt for threats in AWS environments using Detective behavior graphs, entity investigation timelines, GuardDuty finding correlation, and automated entity profiling across IAM users, EC2 instances, and IP addresses.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- aws-detective
-- threat-hunting
-- cloud-security
-- guardduty
-- behavior-graph
-- aws
-- iam
-- ec2
-- incident-investigation
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1059
-- T1078.004
-- T1578.002
-capec: []
----
-
 # Performing Cloud-Native Threat Hunting with AWS Detective
 
 ## Overview

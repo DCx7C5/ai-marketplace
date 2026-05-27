@@ -1,48 +1,10 @@
----
-name: identity-ad-nopac
-description: Exploit the noPac vulnerability chain (CVE-2021-42278 sAMAccountName spoofing and CVE-2021-42287 KDC PAC confusion) to escalate from standard domain user to Domain Admin in Active Directory environments.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- active-directory
-- nopac
-- cve-2021-42278
-- cve-2021-42287
-- privilege-escalation
-- domain-escalation
-d3fend_techniques:
-- Platform Monitoring
-- Process Code Segment Verification
-- Stack Frame Canary Validation
-- Segment Address Offset Randomization
-- Process Analysis
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-cwe:
-- CWE-269
-cve:
-- CVE-2021-42278
-- CVE-2021-42287
-capec: []
----
-
 # Exploiting noPac (CVE-2021-42278 / CVE-2021-42287)
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 noPac is a critical exploit chain combining two Active Directory vulnerabilities: CVE-2021-42278 (sAMAccountName spoofing) and CVE-2021-42287 (KDC PAC confusion). Together, they allow any authenticated domain user to escalate to Domain Admin privileges, potentially achieving full domain compromise in under 60 seconds. CVE-2021-42278 allows an attacker to modify a machine account's sAMAccountName attribute to match a Domain Controller's name (minus the trailing $). CVE-2021-42287 exploits a flaw in the Kerberos PAC validation where the KDC, unable to find the renamed account, falls back to appending $ and issues a ticket for the Domain Controller account. Microsoft patched both vulnerabilities in November 2021 (KB5008380 and KB5008602), but many environments remain unpatched. The exploit was publicly released by cube0x0 and Ridter in December 2021.
-
 
 ## When to Use
 

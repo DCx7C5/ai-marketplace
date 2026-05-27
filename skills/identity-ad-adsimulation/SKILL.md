@@ -1,37 +1,3 @@
----
-name: identity-ad-adsimulation
-description: Executes authorized attack simulations against Active Directory environments to identify misconfigurations, weak credentials, dangerous privilege paths, and exploitable trust relationships that could lead to domain compromise. The tester uses BloodHound for attack path analysis, Mimikatz for credential extraction, and Impacket for protocol-level attacks including Kerberoasting, AS-REP Roasting, and delegation abuse. Activates for requests involving Active Directory pentest, AD attack simulation, domain compromise testing, or Kerberos attack assessment.
-domain: cybersecurity
-subdomain: penetration-testing
-tags:
-- Active-Directory
-- BloodHound
-- Mimikatz
-- Kerberoasting
-- domain-compromise
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- ID.RA-01
-- ID.RA-06
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1087
-- T1558
-- T1558.003
-capec: []
----
-
 # Executing Active Directory Attack Simulation
 
 ## When to Use

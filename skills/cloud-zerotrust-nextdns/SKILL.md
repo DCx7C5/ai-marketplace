@@ -1,38 +1,8 @@
----
-name: cloud-zerotrust-nextdns
-description: Implement NextDNS as a zero trust DNS filtering layer with encrypted resolution, threat intelligence blocking, privacy protection, and organizational policy enforcement across all endpoints.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- dns
-- nextdns
-- dns-over-https
-- dns-over-tls
-- threat-blocking
-- dns-filtering
-- privacy
-- encrypted-dns
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1041
-- T1071.004
-capec: []
----
-
 # Implementing Zero Trust DNS with NextDNS
 
 ## Overview
 
 NextDNS is a cloud-based DNS resolver that provides encrypted DNS resolution (DNS-over-HTTPS and DNS-over-TLS), real-time threat intelligence blocking, ad and tracker filtering, and granular DNS policy enforcement. In a zero trust architecture, DNS is a critical control point -- every network connection begins with a DNS query, making DNS filtering an effective layer for blocking malicious domains, preventing data exfiltration via DNS tunneling, enforcing acceptable use policies, and gaining visibility into all network communications. NextDNS processes queries using threat intelligence feeds containing millions of malicious domains updated in real-time, blocks cryptojacking and phishing domains, detects DNS rebinding attacks, and supports CNAME cloaking protection. For enterprise environments, Microsoft's Zero Trust DNS (ZTDNS) feature on Windows 11 extends this concept by enforcing that endpoints can only resolve domains through approved protected DNS servers.
-
 
 ## When to Use
 

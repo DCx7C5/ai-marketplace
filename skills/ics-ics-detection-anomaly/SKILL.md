@@ -1,38 +1,3 @@
----
-name: ics-ics-detection-anomaly
-description: This skill covers deploying anomaly detection systems for industrial control environments using machine learning models trained on OT network baselines, physics-based process models, and behavioral analysis of industrial protocol communications. It addresses building normal behavior profiles for SCADA polling patterns, detecting deviations in Modbus/DNP3/OPC UA traffic, identifying rogue devices, and correlating network anomalies with physical process data from historians.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- anomaly-detection
-- machine-learning
-atlas_techniques:
-- AML.T0043
-- AML.T0018
-nist_ai_rmf:
-- MEASURE-2.7
-- MEASURE-2.5
-- MAP-5.1
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-- T1059
-- T1562.001
-capec: []
----
-
 # Detecting Anomalies in Industrial Control Systems
 
 ## When to Use
@@ -83,7 +48,6 @@ from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings("ignore")
 
-
 @dataclass
 class CommunicationProfile:
     """Profile for a single master-slave communication pair."""
@@ -98,7 +62,6 @@ class CommunicationProfile:
     packets_per_minute: float = 0.0
     first_seen: str = ""
     last_seen: str = ""
-
 
 class ICSAnomalyDetector:
     """Multi-dimensional anomaly detection for ICS environments."""
@@ -287,7 +250,6 @@ class ICSAnomalyDetector:
         for a in self.anomalies[:20]:
             print(f"\n  [{a['severity'].upper()}] {a['type']}")
             print(f"    {a['detail']}")
-
 
 if __name__ == "__main__":
     print("ICS Anomaly Detection System")

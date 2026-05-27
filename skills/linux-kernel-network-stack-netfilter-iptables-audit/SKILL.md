@@ -1,9 +1,4 @@
 ---
-name: "linux-kernel-network-stack-netfilter-iptables-audit"
-description: "---"
----
-
----
 name: linux-kernel-network-stack-netfilter-iptables-audit
 description: Forensic audit of iptables rules — enumerate all tables/chains, detect firewall rule tampering, identify rules that allow unauthorized traffic or disable logging.
 domain: cybersecurity

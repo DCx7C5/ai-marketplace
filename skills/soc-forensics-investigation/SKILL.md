@@ -1,30 +1,3 @@
----
-name: soc-forensics-investigation
-description: Filesystem forensic reconnaissance. Baseline/delta comparison, SUID/SGID audit, hidden file detection, inode anomalies, extended attributes, deleted-but-open files, setuid rootkits, and forensic timeline analysis.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- endpoint-security
-- forensics
-- investigation
-- filesystem-recon
-mitre_attack:
-- T1059
-- T1548.001
-- T1595
-nist_csf: []
-capec: []
----
-
 # Filesystem Recon
 
 **Purpose:** Focused, fast filesystem triage with forensic-safe defaults. Baseline comparison, anomaly detection, and timeline-first evidence collection.

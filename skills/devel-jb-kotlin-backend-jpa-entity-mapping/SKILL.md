@@ -1,13 +1,3 @@
----
-name: "devel-jb-kotlin-backend-jpa-entity-mapping"
-description: ">"
-license: "Apache-2.0"
-metadata: ""
-short-description: "Model Kotlin JPA entities correctly"
-author: "JetBrains"
-version: "1.0.0"
-source: "https://github.com/Kotlin/kotlin-agent-skills/tree/main/skills/kotlin-backend-jpa-entity-mapping"
----
 # JPA Entity Mapping for Kotlin
 
 Kotlin's `data class` is natural for DTOs but dangerous for JPA entities. Hibernate relies on

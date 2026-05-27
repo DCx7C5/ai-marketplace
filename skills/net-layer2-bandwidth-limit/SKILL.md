@@ -1,25 +1,3 @@
----
-name: net-layer2-bandwidth-limit
-description: Simulates bandwidth throttling and network degradation attacks using tc, iperf3, and Scapy in authorized environments to test quality-of-service controls, application resilience, and network monitoring detection of traffic manipulation attacks.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- bandwidth-throttling
-- qos
-- traffic-shaping
-- network-resilience
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Bandwidth Throttling Attack Simulation
 
 ## When to Use
@@ -40,7 +18,6 @@ capec: []
 - MITM position established (ARP spoofing) for traffic interception scenarios
 - Network monitoring tools deployed for detecting the simulation
 - Baseline bandwidth measurements before testing
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

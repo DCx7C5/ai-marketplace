@@ -1,43 +1,8 @@
----
-name: webapp-api-schema
-description: Implement API schema validation using OpenAPI specifications and JSON Schema to enforce input/output contracts and prevent injection, data exposure, and mass assignment attacks.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- schema-validation
-- openapi
-- json-schema
-- input-validation
-- data-leakage-prevention
-- mass-assignment
-- api-gateway
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1189
-- T1190
-cwe:
-- CWE-20
-- CWE-611
-- CWE-79
-- CWE-89
-- CWE-915
-capec: []
----
-
 # Implementing API Schema Validation Security
 
 ## Overview
 
 API schema validation enforces that all data exchanged through APIs conforms to a predefined structure defined in OpenAPI Specification (OAS) or JSON Schema documents. This prevents injection attacks (SQLi, XSS, XXE), blocks mass assignment by rejecting unknown properties, prevents data leakage by validating response schemas, and ensures type safety across all API interactions. Schema validation operates at both the API gateway level (runtime enforcement) and during development (shift-left security).
-
 
 ## When to Use
 
@@ -236,7 +201,6 @@ from starlette.middleware.base import BaseHTTPMiddleware
 
 app = FastAPI()
 
-
 # Strict Pydantic models with security constraints
 class ProductCreate(BaseModel):
     model_config = ConfigDict(extra='forbid')  # Reject unknown fields (mass assignment)
@@ -284,7 +248,6 @@ class ProductCreate(BaseModel):
                 raise ValueError(f'Invalid tag format: {tag}')
         return v
 
-
 class ProductResponse(BaseModel):
     """Response model that explicitly defines allowed output fields.
     Prevents leakage of internal fields like internal_notes, cost_price, etc."""
@@ -296,7 +259,6 @@ class ProductResponse(BaseModel):
     category: str
     tags: List[str] = []
     created_at: str
-
 
 class ResponseValidationMiddleware(BaseHTTPMiddleware):
     """Middleware to validate response payloads against schema.
@@ -355,9 +317,7 @@ class ResponseValidationMiddleware(BaseHTTPMiddleware):
             media_type=response.media_type
         )
 
-
 app.add_middleware(ResponseValidationMiddleware)
-
 
 @app.post("/api/v2/products", response_model=ProductResponse, status_code=201)
 async def create_product(product: ProductCreate):
@@ -391,7 +351,7 @@ curl -X PATCH "https://api.cloudflare.com/client/v4/zones/{zone_id}/api_gateway/
 
 ```yaml
 # GitHub Actions workflow for schema validation in CI
-name: api-schema
+name: webapp-api-schema
 on:
   pull_request:
     paths: ['api/**', 'openapi/**']

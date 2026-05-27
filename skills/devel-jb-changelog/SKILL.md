@@ -1,14 +1,3 @@
----
-name: "devel-jb-changelog"
-description: ">-"
-syncs the website changelog page. Use this skill whenever the user asks to: ""
-argument-hint: "[tag-version]"
-targets: ["claude", "codex"]
-metadata: ""
-short-description: "Generate changelogs and release notes"
-author: "Runkids"
-source: "https://github.com/runkids/skillshare/tree/main/.skillshare/skills/changelog"
----
 Generate a CHANGELOG.md entry for a release. $ARGUMENTS specifies the tag version (e.g., `v0.16.0`) or omit to auto-detect via `git describe --tags --abbrev=0`.
 
 **Scope**: This skill updates `CHANGELOG.md` and syncs the website changelog (`website/src/pages/changelog.md`). It does NOT write code (use `implement-feature`) or update docs (use `update-docs`).

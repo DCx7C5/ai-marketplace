@@ -1,30 +1,3 @@
----
-name: ics-sector-power-grid-assess
-description: This skill covers conducting cybersecurity assessments of electric power grid infrastructure including generation facilities, transmission substations, distribution systems, and energy management system (EMS) control centers. It addresses NERC CIP compliance verification, substation automation security, IEC 61850 protocol analysis, synchrophasor (PMU) network security, and the unique threat landscape targeting power grid operations as demonstrated by Industroyer/CrashOverride and related attacks.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- nerc-cip
-- power-grid
-- substation
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Performing Power Grid Cybersecurity Assessment
 
 ## When to Use
@@ -120,7 +93,6 @@ import sys
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 
-
 @dataclass
 class SubstationFinding:
     finding_id: str
@@ -132,7 +104,6 @@ class SubstationFinding:
     nerc_cip_ref: str
     iec_62351_ref: str
     remediation: str
-
 
 class SubstationAssessment:
     """Assesses cybersecurity of substation automation systems."""
@@ -248,7 +219,6 @@ class SubstationAssessment:
                     report.append(f"    Remediation: {f.remediation[:80]}...")
 
         return "\n".join(report)
-
 
 if __name__ == "__main__":
     assessment = SubstationAssessment("Substation Alpha - 345kV")

@@ -1,46 +1,8 @@
----
-name: identity-kerberos-pttdetect
-description: Detect Kerberos Pass-the-Ticket (PtT) attacks by analyzing Windows Event IDs 4768, 4769, and 4771 for anomalous ticket usage patterns in Splunk and Elastic SIEM
-domain: cybersecurity
-subdomain: threat-detection
-tags:
-- kerberos
-- pass-the-ticket
-- active-directory
-- splunk
-- elastic
-- credential-theft
-- windows-security
-d3fend_techniques:
-- Token Binding
-- Execution Isolation
-- Restore Access
-- Application Protocol Command Analysis
-- Process Termination
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-06
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1070
-- T1550.003
-- T1558
-- T1562.001
-capec: []
----
-
 # Detecting Pass-the-Ticket Attacks
 
 ## Overview
 
 Pass-the-Ticket (PtT) is a credential theft technique (MITRE ATT&CK T1550.003) where adversaries steal Kerberos tickets (TGT or TGS) from one system and replay them on another to authenticate without knowing the user's password. This skill teaches detection of PtT attacks by correlating Windows Security Event IDs 4768 (TGT request), 4769 (TGS request), and 4771 (pre-authentication failure) for anomalies such as ticket reuse across different hosts, RC4 encryption downgrades, and unusual service ticket request volumes.
-
 
 ## When to Use
 

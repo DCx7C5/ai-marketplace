@@ -1,31 +1,3 @@
----
-name: webapp-cache-cachedeception
-description: Execute web cache deception attacks by exploiting path normalization discrepancies between CDN caching layers and origin servers to cache and retrieve sensitive authenticated content.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- web-cache-deception
-- cdn-attack
-- cache-poisoning
-- path-normalization
-- cloudflare
-- cache-key
-- static-resource
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1036
-cwe:
-- CWE-16
-capec: []
----
-
 # Performing Web Cache Deception Attack
 
 ## When to Use
@@ -42,7 +14,6 @@ capec: []
 - Two browser sessions (authenticated victim and unauthenticated attacker)
 - Understanding of URL path parsing differences across technologies
 - Familiarity with common CDN platforms (Cloudflare, Akamai, Fastly, AWS CloudFront)
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

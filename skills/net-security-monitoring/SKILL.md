@@ -1,32 +1,3 @@
----
-name: net-security-monitoring
-description: Network forensic reconnaissance. Active connection inventory, suspicious listeners, routing anomalies, DNS/mDNS analysis, ARP cache poisoning detection, firewall rule audit, and IOC infrastructure correlation.
-model: sonnet
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-  - WebFetch
-skills:
-  - shared-memory
-  - tls/sslkeylog
-  - threats/mitre-attack-mapper
-tags:
-- network
-- monitoring2
-- network-recon
-mitre_attack:
-- T1059
-- T1071
-- T1562.004
-- T1595
-nist_csf: []
-capec: []
----
-
 # Network Recon
 
 **Purpose:** Rapid network-state triage with IOC-first correlation. Establishes connection baseline, detects C2 channels, identifies rogue listeners, and maps network anomalies to MITRE techniques.

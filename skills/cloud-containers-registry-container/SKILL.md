@@ -1,31 +1,3 @@
----
-name: cloud-containers-registry-container
-description: Securing container registry images by implementing vulnerability scanning with Trivy and Grype, enforcing image signing with Cosign and Sigstore, configuring registry access controls, and building CI/CD pipelines that prevent deploying unscanned or unsigned images.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- cloud-security
-- containers
-- registry
-- image-scanning
-- trivy
-- cosign
-- supply-chain
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1195
-- T1610
-capec: []
----
-
 # Securing Container Registry Images
 
 ## When to Use
@@ -193,7 +165,7 @@ Integrate scanning and signing into the CI/CD pipeline as mandatory gates.
 
 ```yaml
 # GitHub Actions: Scan, sign, and push image
-name: containers-registry-container
+name: cloud-containers-registry-container
 on: push
 
 jobs:

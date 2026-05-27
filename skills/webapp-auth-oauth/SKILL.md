@@ -1,36 +1,7 @@
----
-name: webapp-auth-oauth
-description: Configure secure OAuth 2.0 authorization flows including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant. This skill covers flow selection, PKCE implementation, token
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- authentication
-- authorization
-- oauth2
-- oidc
-- pkce
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1550
-capec: []
----
-
 # Configuring OAuth 2.0 Authorization Flow
 
 ## Overview
 Configure secure OAuth 2.0 authorization flows including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant. This skill covers flow selection, PKCE implementation, token lifecycle management, scope design, and alignment with OAuth 2.1 security requirements.
-
 
 ## When to Use
 

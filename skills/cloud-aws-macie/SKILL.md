@@ -1,46 +1,8 @@
----
-name: cloud-aws-macie
-description: Implement Amazon Macie to automatically discover, classify, and protect sensitive data in S3 buckets using machine learning and pattern matching for PII, financial data, and credentials detection.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- aws
-- macie
-- data-classification
-- s3
-- pii
-- sensitive-data
-- dlp
-- compliance
-atlas_techniques:
-- AML.T0043
-- AML.T0018
-nist_ai_rmf:
-- GOVERN-1.1
-- GOVERN-4.2
-- MAP-2.3
-- MEASURE-2.7
-- MEASURE-2.5
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1082
-- T1530
-capec: []
----
-
 # Implementing AWS Macie for Data Classification
 
 ## Overview
 
 Amazon Macie is a fully managed data security and privacy service that uses machine learning and pattern matching to discover and protect sensitive data in Amazon S3. Macie automatically evaluates your S3 bucket inventory on a daily basis and identifies objects containing PII, financial information, credentials, and other sensitive data types. It provides two discovery approaches: automated sensitive data discovery for broad visibility and targeted discovery jobs for deep analysis.
-
 
 ## When to Use
 

@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-keep"
-version: "1.0.0"
-description: "Manage Google Keep notes."
-metadata: ""
-short-description: "Manage Google Keep notes"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws keep --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-keep"
----
 # keep (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

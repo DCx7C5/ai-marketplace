@@ -1,35 +1,3 @@
----
-name: webapp-design-prototype-review
-description: Detect and exploit JavaScript prototype pollution vulnerabilities on both client-side and server-side applications to achieve XSS, RCE, and authentication bypass through property injection.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- prototype-pollution
-- javascript
-- node-js
-- xss
-- rce
-- property-injection
-- dom-xss
-- server-side-pollution
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1189
-- T1190
-cwe:
-- CWE-1321
-- CWE-79
-capec: []
----
-
 # Exploiting Prototype Pollution in JavaScript
 
 ## When to Use
@@ -46,7 +14,6 @@ capec: []
 - Knowledge of common pollution gadgets (sources, sinks, and exploitable properties)
 - Prototype Pollution Gadgets Scanner Burp extension for server-side detection
 - Browser developer console for client-side prototype manipulation
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

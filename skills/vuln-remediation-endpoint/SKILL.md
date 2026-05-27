@@ -1,12 +1,3 @@
----
-name: vuln-remediation-endpoint
-description: ">\n  Performs vulnerability remediation on endpoints by prioritizing\
-  \ CVEs based on risk scoring, deploying patches, applying configuration changes,\
-  \ and validating fixes. Use when remediating findings from vulnerability scans,\
-  \ responding to critical CVE advisories, or maintaining endpoint compliance with\
-  \ patch management SLAs. Activates for requests involving vulnerability remediation,\
-  \ CVE patching, endpoint vulnerability management, or security fix deployment."
----
 # Performing Endpoint Vulnerability Remediation
 
 ## When to Use
@@ -216,7 +207,6 @@ Remediation Metrics:
 - **Not validating remediation**: Deploying a patch does not guarantee installation. Always re-scan to confirm closure.
 - **Excluding critical servers from patching**: Servers that "cannot be rebooted" accumulate critical vulnerabilities. Schedule maintenance windows.
 - **Treating all CVEs equally**: Risk-based prioritization (CVSS + EPSS + asset criticality + exposure) is more effective than patching all criticals first.
-
 
 ---
 

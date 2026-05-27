@@ -1,42 +1,8 @@
----
-name: webapp-owasp-threatdragon
-description: Use OWASP Threat Dragon to create data flow diagrams, identify threats using STRIDE and LINDDUN methodologies, and generate threat model reports for secure design review.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- threat-modeling
-- owasp
-- threat-dragon
-- stride
-- linddun
-- secure-design
-- dfd
-- data-flow
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing Threat Modeling with OWASP Threat Dragon
 
 ## Overview
 
 OWASP Threat Dragon is an open-source threat modeling tool that enables security teams and developers to create threat model diagrams, identify threats using established methodologies (STRIDE, LINDDUN, CIA, DIE, PLOT4ai), and generate comprehensive reports. Threat Dragon runs as both a web application and desktop application (Windows, macOS, Linux), supporting distributed teams working collaboratively on threat models. Version 2.x provides drag-and-drop diagram creation, an auto-generation rule engine for threats and mitigations, and PDF report output for documentation and GRC compliance.
-
 
 ## When to Use
 

@@ -1,34 +1,8 @@
----
-name: cloud-kubernetes-net-k8snetpol
-description: Kubernetes NetworkPolicies provide pod-level network segmentation by defining ingress and egress rules that control traffic flow between pods, namespaces, and external endpoints. Combined with CNI plu
-domain: cybersecurity
-subdomain: container-security
-tags:
-- containers
-- kubernetes
-- security
-- network-policies
-- microsegmentation
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1610
-capec: []
----
-
 # Implementing Network Policies for Kubernetes
 
 ## Overview
 
 Kubernetes NetworkPolicies provide pod-level network segmentation by defining ingress and egress rules that control traffic flow between pods, namespaces, and external endpoints. Combined with CNI plugins like Calico or Cilium, network policies enforce zero-trust microsegmentation to prevent lateral movement within the cluster.
-
 
 ## When to Use
 

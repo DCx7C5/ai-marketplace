@@ -1,48 +1,8 @@
----
-name: soc-containment-cloud
-description: Execute cloud-native incident containment across AWS, Azure, and GCP by isolating compromised resources, revoking credentials, preserving forensic evidence, and applying security group restrictions to prevent lateral movement.
-domain: cybersecurity
-subdomain: incident-response
-tags:
-- cloud-security
-- incident-containment
-- aws
-- azure
-- gcp
-- cloud-forensics
-- credential-revocation
-- network-isolation
-d3fend_techniques:
-- Restore Access
-- Password Authentication
-- Biometric Authentication
-- Strong Password Policy
-- Restore User Account Access
-nist_csf:
-- RS.MA-01
-- RS.MA-02
-- RS.AN-03
-- RC.RP-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078
-- T1537
-- T1580
-- T1525
-- T1098
-- T1003
-- T1078.004
-capec: []
----
-
 # Performing Cloud Incident Containment Procedures
 
 ## Overview
 
 Cloud incident containment requires cloud-native approaches that differ significantly from traditional on-premises response. Containment procedures must leverage platform-specific controls including security groups, IAM policies, network ACLs, and service-level isolation to restrict compromised resources while preserving forensic evidence. According to the 2025 Unit 42 Global Incident Response Report, responding to cloud incidents requires understanding shared responsibility models, ephemeral infrastructure, and API-driven operations. Effective containment involves credential revocation, resource isolation, evidence snapshot creation, and automated response playbook execution.
-
 
 ## When to Use
 

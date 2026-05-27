@@ -1,44 +1,8 @@
----
-name: soc-triage-elastic
-description: Perform systematic alert triage in Elastic Security SIEM to rapidly classify, prioritize, and investigate security alerts for SOC operations.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- elastic
-- siem
-- alert-triage
-- soc
-- elastic-security
-- detection
-- esql
-- kibana
-d3fend_techniques:
-- Token Binding
-- Restore Access
-- Application Protocol Command Analysis
-- Password Authentication
-- Reissue Credential
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-- T1082
-capec: []
----
-
 # Performing Alert Triage with Elastic SIEM
 
 ## Overview
 
 Alert triage in Elastic Security is the systematic process of reviewing, classifying, and prioritizing security alerts to determine which represent genuine threats. Elastic's AI-driven Attack Discovery feature can triage hundreds of alerts down to discrete attack chains, but skilled analyst triage remains essential. A structured triage workflow typically takes 5-10 minutes per alert cluster using Elastic's built-in tools.
-
 
 ## When to Use
 

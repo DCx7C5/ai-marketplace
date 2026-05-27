@@ -1,38 +1,3 @@
----
-name: cloud-zerotrust-cloudflare
-description: Deploying Cloudflare Access with Cloudflare Tunnel to provide zero trust access to self-hosted and private applications, configuring identity-aware access policies, device posture checks, and WARP client enrollment for VPN replacement.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- cloudflare
-- cloudflare-access
-- zero-trust
-- cloudflare-tunnel
-- warp
-- ztna
-- cloudflare-one
-atlas_techniques:
-- AML.T0051
-- AML.T0054
-- AML.T0056
-nist_ai_rmf:
-- MEASURE-2.7
-- MEASURE-2.5
-- GOVERN-6.1
-- MAP-5.1
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021.001
-capec: []
----
-
 # Deploying Cloudflare Access for Zero Trust
 
 ## When to Use

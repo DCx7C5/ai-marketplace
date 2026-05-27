@@ -1,42 +1,7 @@
----
-name: email-phishing-quishing
-description: Detect and prevent QR code phishing (quishing) attacks that bypass traditional email security by embedding malicious URLs in QR code images within emails.
-domain: cybersecurity
-subdomain: phishing-defense
-tags:
-- quishing
-- qr-code
-- phishing
-- email-security
-- image-analysis
-- ocr
-- mobile-security
-atlas_techniques:
-- AML.T0052
-- AML.T0024
-- AML.T0035
-nist_ai_rmf:
-- MEASURE-2.8
-- MAP-5.1
-nist_csf:
-- PR.AT-01
-- DE.CM-09
-- RS.CO-02
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1566
-capec: []
----
-
 # Detecting QR Code Phishing with Email Security
 
 ## Overview
 QR code phishing (quishing) is a rapidly growing attack vector where malicious URLs are embedded in QR code images within phishing emails. Quishing incidents grew fivefold from 46,000 to 250,000 between August and November 2025, with credential phishing comprising 89.3% of detected incidents. Traditional email security filters struggle because QR codes cannot be read by humans or standard URL scanners, and when scanned, users typically use personal mobile devices that lack corporate security controls. Attackers have evolved to use split QR codes (two separate images), nested QR codes, and ASCII text-based QR codes to evade detection.
-
 
 ## When to Use
 

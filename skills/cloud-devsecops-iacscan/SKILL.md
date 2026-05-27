@@ -1,30 +1,3 @@
----
-name: cloud-devsecops-iacscan
-description: This skill covers implementing automated security scanning for Infrastructure as Code (IaC) plugins using tools like Checkov, tfsec, and KICS. It addresses detecting misconfigurations in Terraform, CloudFormation, Kubernetes manifests, and Helm charts before deployment, establishing policy-based governance, and integrating IaC scanning into CI/CD pipelines to prevent insecure cloud resource provisioning.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- devsecops
-- cicd
-- iac-security
-- checkov
-- tfsec
-- terraform
-- secure-sdlc
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1530
-capec: []
----
-
 # Implementing Infrastructure as Code Security Scanning
 
 ## When to Use
@@ -71,7 +44,7 @@ checkov -d ./terraform/ --skip-check CKV_AWS_145,CKV2_AWS_6
 
 ```yaml
 # .github/workflows/iac-security.yml
-name: devsecops-iacscan
+name: cloud-devsecops-iacscan
 
 on:
   pull_request:
@@ -132,7 +105,6 @@ jobs:
 from checkov.terraform.checks.resource.base_resource_check import BaseResourceCheck
 from checkov.common.models.enums import CheckResult, CheckCategories
 
-
 class S3BucketVersioning(BaseResourceCheck):
     def __init__(self):
         name = "Ensure S3 bucket has versioning enabled"
@@ -148,7 +120,6 @@ class S3BucketVersioning(BaseResourceCheck):
             if versioning[0].get("enabled", [False])[0]:
                 return CheckResult.PASSED
         return CheckResult.FAILED
-
 
 check = S3BucketVersioning()
 ```

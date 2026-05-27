@@ -1,28 +1,3 @@
----
-name: cloud-security-secrets-manage
-description: This skill covers deploying HashiCorp Vault for centralized secrets management across cloud environments, including dynamic secret generation for databases and cloud providers, transit encryption, PKI certificate management, and Kubernetes integration. It addresses eliminating hardcoded credentials from application code and CI/CD pipelines by implementing short-lived, automatically rotated secrets.
-domain: cybersecurity
-subdomain: cloud-security
-tags:
-- hashicorp-vault
-- secrets-management
-- dynamic-secrets
-- credential-rotation
-- zero-trust
-nist_csf:
-- PR.IR-01
-- ID.AM-08
-- GV.SC-06
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1610
-capec: []
----
-
 # Implementing Secrets Management with Vault
 
 ## When to Use

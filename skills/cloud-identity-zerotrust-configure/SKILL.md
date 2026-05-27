@@ -1,28 +1,3 @@
----
-name: cloud-identity-zerotrust-configure
-description: Configure microsegmentation policies to enforce least-privilege workload-to-workload access using tools like VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures.
-domain: cybersecurity
-subdomain: zero-trust-architecture
-tags:
-- zero-trust
-- microsegmentation
-- network-access
-- lateral-movement
-- network-security
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-- GV.PO-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1562.004
-capec: []
----
-
 # Configuring Microsegmentation for Zero Trust
 
 ## Prerequisites
@@ -37,7 +12,6 @@ capec: []
 Microsegmentation divides a network into granular security zones, enforcing least-privilege access between workloads at the application layer rather than relying on traditional VLAN-based segmentation. In a zero trust architecture, microsegmentation eliminates implicit trust between workloads within the same network segment, preventing lateral movement even after an attacker gains initial access.
 
 This skill covers designing microsegmentation policies using workload identity, implementing host-based and network-based enforcement, and validating segmentation effectiveness with tools like Illumio Core and VMware NSX.
-
 
 ## When to Use
 

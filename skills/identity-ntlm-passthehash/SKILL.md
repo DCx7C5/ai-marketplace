@@ -1,37 +1,3 @@
----
-name: identity-ntlm-passthehash
-description: Detect Pass-the-Hash attacks by analyzing NTLM authentication patterns, identifying Type 3 logons with NTLM where Kerberos is expected, and correlating with credential dumping.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- mitre-attack
-- pass-the-hash
-- credential-access
-- t1550
-- proactive-detection
-d3fend_techniques:
-- Token Binding
-- Execution Isolation
-- Restore Access
-- Application Protocol Command Analysis
-- Process Termination
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1059
-- T1070
-- T1550.002
-capec: []
----
-
 # Detecting Pass The Hash Attacks
 
 ## When to Use

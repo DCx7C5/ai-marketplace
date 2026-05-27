@@ -1,36 +1,8 @@
----
-name: cloud-containers-scanning-grype-respond
-description: Scan container images for known vulnerabilities using Anchore Grype with SBOM-based matching and configurable severity thresholds.
-domain: cybersecurity
-subdomain: container-security
-tags:
-- grype
-- vulnerability-scanning
-- container-security
-- sbom
-- anchore
-- supply-chain
-nist_csf:
-- PR.PS-01
-- PR.IR-01
-- ID.AM-08
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1195
-- T1610
-capec: []
----
-
 # Scanning Container Images with Grype
 
 ## Overview
 
 Grype is an open-source vulnerability scanner from Anchore that inspects container images, filesystems, and SBOMs for known CVEs. It leverages Syft-generated SBOMs to match packages against multiple vulnerability databases including NVD, GitHub Advisories, and OS-specific feeds.
-
 
 ## When to Use
 

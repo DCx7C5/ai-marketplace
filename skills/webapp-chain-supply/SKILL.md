@@ -1,37 +1,8 @@
----
-name: webapp-chain-supply
-description: Simulate and detect software supply chain attacks including typosquatting detection via Levenshtein distance, dependency confusion testing against private registries, package hash verification with pip, and known vulnerability scanning with pip-audit.
-domain: cybersecurity
-subdomain: application-security
-tags:
-- supply-chain
-- typosquatting
-- dependency-confusion
-- package-verification
-- pip-audit
-- PyPI
-- software-composition-analysis
-nist_csf:
-- PR.PS-01
-- PR.PS-04
-- ID.RA-01
-- PR.DS-10
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1195
-- T1583.001
-capec: []
----
-
 # Performing Supply Chain Attack Simulation
 
 ## Overview
 
 Software supply chain attacks exploit trust in package registries through typosquatting (registering names similar to popular packages), dependency confusion (publishing higher-version public packages matching private names), and compromised package distribution. This skill detects these attack vectors by computing Levenshtein distance between package names and popular PyPI packages, verifying package integrity via SHA-256 hash comparison, scanning for known CVEs with pip-audit, and testing dependency resolution order for confusion vulnerabilities.
-
 
 ## When to Use
 
@@ -45,7 +16,6 @@ Software supply chain attacks exploit trust in package registries through typosq
 - Python 3.9+ with `pip-audit`, `Levenshtein`, `requests`
 - Access to PyPI JSON API (https://pypi.org/pypi/{package}/json)
 - Network access for package metadata retrieval
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

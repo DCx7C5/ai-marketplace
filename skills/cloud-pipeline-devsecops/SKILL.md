@@ -1,38 +1,8 @@
----
-name: cloud-pipeline-devsecops
-description: Design and implement a comprehensive DevSecOps pipeline in GitLab CI/CD integrating SAST, DAST, container scanning, dependency scanning, and secret detection.
-domain: cybersecurity
-subdomain: devsecops
-tags:
-- gitlab-ci
-- devsecops
-- sast
-- dast
-- container-scanning
-- dependency-scanning
-- secret-detection
-- cicd-security
-nist_csf:
-- PR.PS-01
-- GV.SC-07
-- ID.IM-04
-- PR.PS-04
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1046
-- T1059
-- T1610
-capec: []
----
-
 # Building DevSecOps Pipeline with GitLab CI
 
 ## Overview
 
 GitLab provides an integrated DevSecOps platform that embeds security testing directly into the CI/CD pipeline. By leveraging GitLab's built-in security scanners---SAST, DAST, container scanning, dependency scanning, secret detection, and license compliance---teams can shift security left, catching vulnerabilities during development rather than post-deployment. GitLab Duo AI assists with false positive detection for SAST vulnerabilities, helping security teams focus on genuine issues.
-
 
 ## When to Use
 

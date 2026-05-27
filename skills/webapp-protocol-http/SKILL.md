@@ -1,31 +1,3 @@
----
-name: webapp-protocol-http
-description: Execute HTTP Parameter Pollution attacks to bypass input validation, WAF rules, and security controls by injecting duplicate parameters that are processed differently by front-end and back-end systems.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- http-parameter-pollution
-- hpp
-- waf-bypass
-- input-validation
-- web-security
-- parameter-injection
-- server-parsing
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1550
-cwe:
-- CWE-20
-capec: []
----
-
 # Performing HTTP Parameter Pollution Attack
 
 ## When to Use
@@ -41,7 +13,6 @@ capec: []
 - Knowledge of server-side parameter handling differences (first, last, array, concatenated)
 - cURL or httpie for manual parameter crafting
 - Target application technology stack identification (Apache, IIS, Tomcat, Node.js, etc.)
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

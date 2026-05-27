@@ -1,14 +1,7 @@
----
-name: vuln-scanning-nessusinfra
-description: ">\n  Tenable Nessus is the industry-leading vulnerability scanner used\
-  \ to identify security weaknesses across network infrastructure including servers,\
-  \ workstations, network devices, and operating systems."
----
 # Scanning Infrastructure with Nessus
 
 ## Overview
 Tenable Nessus is the industry-leading vulnerability scanner used to identify security weaknesses across network infrastructure including servers, workstations, network devices, and operating systems. This skill covers configuring scan policies, running authenticated and unauthenticated scans, interpreting results, and integrating Nessus into continuous vulnerability management workflows.
-
 
 ## When to Use
 
@@ -156,7 +149,6 @@ curl -k -X POST "https://localhost:8834/scans/<SCAN_ID>/export" \
 - prioritizing-vulnerabilities-with-cvss-scoring
 - implementing-continuous-vulnerability-monitoring
 - performing-network-vulnerability-assessment
-
 
 ---
 

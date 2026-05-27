@@ -1,34 +1,7 @@
----
-name: cloud-zerotrust-just-escalate
-description: Implement Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access only when needed. This skill covers JIT architecture design, approval workflo
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- jit
-- provisioning
-- zero-trust
-- least-privilege
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-capec: []
----
-
 # Implementing Just-In-Time Access Provisioning
 
 ## Overview
 Implement Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access only when needed. This skill covers JIT architecture design, approval workflows, automatic expiration, integration with PAM and IGA platforms, and alignment with zero trust principles.
-
 
 ## When to Use
 

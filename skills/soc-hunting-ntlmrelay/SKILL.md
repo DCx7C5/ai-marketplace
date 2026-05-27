@@ -1,46 +1,8 @@
----
-name: soc-hunting-ntlmrelay
-description: Detect NTLM relay attacks by analyzing Windows Event 4624 logon type 3 with NTLMSSP authentication, identifying IP-to-hostname mismatches, Responder traffic signatures, SMB signing status, and suspicious authentication patterns across the domain.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- NTLM-relay
-- Windows-events
-- Event-4624
-- NTLMSSP
-- Responder
-- SMB-signing
-- credential-access
-- T1557.001
-- Active-Directory
-d3fend_techniques:
-- Application Protocol Command Analysis
-- Network Isolation
-- Network Traffic Analysis
-- Client-server Payload Profiling
-- Network Traffic Community Deviation
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1003
-- T1021.002
-- T1550.002
-- T1557.001
-capec: []
----
-
 # Hunting for NTLM Relay Attacks
 
 ## Overview
 
 NTLM relay attacks intercept and forward NTLM authentication messages to gain unauthorized access to network resources. Attackers use tools like Responder for LLMNR/NBT-NS poisoning and ntlmrelayx for credential relay. This skill detects relay activity by querying Windows Security Event 4624 (successful logon) for type 3 network logons with NTLMSSP authentication, identifying mismatches between WorkstationName and source IpAddress, detecting rapid multi-host authentication from single accounts, and auditing SMB signing configuration across domain hosts.
-
 
 ## When to Use
 

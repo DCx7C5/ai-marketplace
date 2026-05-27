@@ -1,32 +1,3 @@
----
-name: linux-forensic-mem-analysis-volatility-analyze
-description: Analyzes RAM memory dumps from compromised systems using the Volatility framework to identify malicious processes, injected code, network connections, loaded modules, and extracted credentials. Supports Windows, Linux, and macOS memory forensics. Activates for requests involving memory forensics, RAM analysis, volatile data examination, process injection detection, or memory-resident malware investigation.
-domain: cybersecurity
-subdomain: malware-analysis
-tags:
-- malware
-- memory-forensics
-- Volatility
-- RAM-analysis
-- incident-response
-nist_csf:
-- DE.AE-02
-- RS.AN-03
-- ID.RA-01
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1055
-- T1003
-- T1059
-- T1620
-- T1014
-- T1027
-capec: []
----
-
 # Analyzing Memory Dumps with Volatility
 
 ## When to Use

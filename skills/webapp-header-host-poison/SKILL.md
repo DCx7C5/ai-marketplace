@@ -1,32 +1,3 @@
----
-name: webapp-header-host-poison
-description: Test web applications for HTTP Host header injection vulnerabilities to identify password reset poisoning, web cache poisoning, SSRF, and virtual host routing manipulation risks.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- host-header-injection
-- password-reset-poisoning
-- cache-poisoning
-- virtual-host
-- web-security
-- header-manipulation
-- ssrf
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-113
-- CWE-918
-capec: []
----
-
 # Testing for Host Header Injection
 
 ## When to Use
@@ -43,7 +14,6 @@ capec: []
 - Access to an attacker-controlled domain for receiving poisoned requests
 - Burp Collaborator or interact.sh for out-of-band detection
 - Multiple test accounts for password reset testing
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

@@ -1,30 +1,3 @@
----
-name: net-layer2-arp-poison
-description: Simulates ARP spoofing attacks in authorized lab or pentest environments using arpspoof, Ettercap, and Scapy to demonstrate man-in-the-middle risks, test network detection capabilities, and validate ARP inspection countermeasures.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- arp-spoofing
-- mitm
-- ettercap
-- layer2-attack
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-- T1557
-- T1557.002
-- T1562.001
-capec: []
----
-
 # Performing ARP Spoofing Attack Simulation
 
 ## When to Use
@@ -45,7 +18,6 @@ capec: []
 - IP forwarding knowledge and ability to enable/disable packet forwarding on the attacker machine
 - Wireshark or tcpdump for capturing traffic to verify interception
 - Isolated lab environment or approved production test window
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

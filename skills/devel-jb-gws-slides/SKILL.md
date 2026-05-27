@@ -1,17 +1,3 @@
----
-name: "devel-jb-gws-slides"
-version: "1.0.0"
-description: "Google Slides: Read and write presentations."
-metadata: ""
-short-description: "Read and write Google Slides"
-author: "Google Workspace"
-openclaw: ""
-category: "productivity"
-requires: ""
-bins: ["gws"]
-cliHelp: "gws slides --help"
-source: "https://github.com/googleworkspace/cli/tree/main/skills/gws-slides"
----
 # slides (v1)
 
 > **PREREQUISITE:** Read `../gws-shared/SKILL.md` for auth, global flags, and security rules. If missing, run `gws generate-skills` to create it.

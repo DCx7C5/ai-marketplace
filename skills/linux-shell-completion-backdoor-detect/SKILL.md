@@ -1,9 +1,4 @@
 ---
-name: "linux-shell-completion-backdoor-detect"
-description: "---"
----
-
----
 name: linux-shell-completion-backdoor-detect
 description: Detect shell completion script backdoors — identify malicious completion functions in /etc/bash_completion.d/ or ~/.bash_completion that execute commands on tab-completion events.
 domain: cybersecurity

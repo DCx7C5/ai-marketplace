@@ -1,32 +1,3 @@
----
-name: webapp-injection-xxe
-description: Discovering and exploiting XML External Entity injection vulnerabilities to read server files, perform SSRF, and exfiltrate data during authorized penetration tests.
-domain: cybersecurity
-subdomain: web-application-security
-tags:
-- penetration-testing
-- xxe
-- xml-injection
-- owasp
-- web-security
-- burpsuite
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1190
-cwe:
-- CWE-611
-- CWE-91
-- CWE-918
-capec: []
----
-
 # Testing for XXE Injection Vulnerabilities
 
 ## When to Use

@@ -1,8 +1,3 @@
----
-name: stego-image-jpg-dct
-description: ">\n  Detects DCT-domain steganography in JPEG images using StegDetect\
-  \ or F5 analysis."
----
 ## Overview
 
 Detects steganographically hidden data in carrier files using statistical analysis and tool-assisted extraction.

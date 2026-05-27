@@ -1,31 +1,4 @@
-# SKILL: Novel research
-
-## Metadata
-- **Skill Name**: keylogger-architecture
-- **Folder**: offensive-keylogger-arch
-- **Source**: https://github.com/SnailSploit/offensive-checklist/blob/main/Low-level%20Keylogger%20architecture_.md
-
-## Description
-Low-level keylogger architecture design: kernel driver hooks (WH_KEYBOARD_LL, SetWindowsHookEx), ETW-based input capture, user-mode vs kernel-mode approaches, stealth techniques, and data exfiltration. Use for understanding input capture mechanisms, EDR evasion research, or malware architecture analysis.
-
-## Trigger Phrases
-Use this skill when the conversation involves any of:
-`keylogger, keyboard hook, WH_KEYBOARD_LL, SetWindowsHookEx, ETW, kernel driver, input capture, low-level keylogger, malware architecture, stealth, exfiltration`
-
-## Instructions for Claude
-
-When this skill is active:
-1. Load and apply the full methodology below as your operational checklist
-2. Follow steps in order unless the user specifies otherwise
-3. For each technique, consider applicability to the current target/context
-4. Track which checklist items have been completed
-5. Suggest next steps based on findings
-
----
-
 ## Full Methodology
-
-
 
 Case study of different keylogger implementations, how to implement them and their individual IOCs.
 
@@ -70,7 +43,6 @@ Internally, `SetWindowsHookEx` is just a user-mode wrapper around `NtUserSetWind
 	- Does it have anything to do here?
 	- Could be bypassed by ovewriting a present, mapped DLL with our memory?
 		- Would need to prevent user from interacting with keyboard while it happens.
-
 
 ---
 ## NtUserSetWindowsHookEx / zzzzNtUserSetWindowsHookEx
@@ -177,7 +149,6 @@ its a syscall so you can use your favorite \*gate technique on it
 
 Now... that's all stuff that can be figured out by anyone determined
 for the unique research... contact me @ lovestrangekz on tg, everything has a price :]
-
 
 ---
 Ideas that were abandonned:

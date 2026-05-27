@@ -1,32 +1,3 @@
----
-name: linux-hw-firmware-detect
-description: Firmware and bootloader forensic reconnaissance. UEFI/BIOS integrity, Secure Boot key chain, TPM PCR state, initramfs inspection, GRUB configuration, ACPI table analysis, and firmware rootkit/implant detection.
-model: opus
-maxTurns: 30
-tools:
-  - Read
-  - Bash
-  - Glob
-  - Grep
-  - WebSearch
-  - WebFetch
-skills:
-  - shared-memory
-  - threats/mitre-attack-mapper
-tags:
-- kernel
-- firmware
-- firmware-recon
-mitre_attack:
-- T1014
-- T1059
-- T1195
-- T1547
-- T1595
-nist_csf: []
-capec: []
----
-
 # Firmware Recon
 
 **Purpose:** Boot and firmware-focused reconnaissance for high-impact persistence vectors. Detects UEFI/BIOS rootkits, Secure Boot bypass, initramfs tampering, and supply-chain firmware implants.

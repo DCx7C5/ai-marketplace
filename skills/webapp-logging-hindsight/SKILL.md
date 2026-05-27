@@ -1,36 +1,8 @@
----
-name: webapp-logging-hindsight
-description: Analyze Chromium-based browser artifacts using Hindsight to extract browsing history, downloads, cookies, cached content, autofill data, saved passwords, and browser extensions from Chrome, Edge, Brave, and Opera for forensic investigation.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- browser-forensics
-- hindsight
-- chrome-forensics
-- chromium
-- edge
-- browsing-history
-- cookies
-- downloads
-- cache
-- web-artifacts
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Analyzing Browser Forensics with Hindsight
 
 ## Overview
 
 Hindsight is an open-source browser forensics tool designed to parse artifacts from Google Chrome and other Chromium-based browsers (Microsoft Edge, Brave, Opera, Vivaldi). It extracts and correlates data from multiple browser database files to create a unified timeline of web activity. Hindsight can parse URLs, download history, cache records, bookmarks, autofill records, saved passwords, preferences, browser extensions, HTTP cookies, Local Storage (HTML5 cookies), login data, and session/tab information. The tool produces chronological timelines in multiple output formats (XLSX, JSON, SQLite) that enable investigators to reconstruct user web activity for incident response, insider threat investigations, and criminal cases.
-
 
 ## When to Use
 
@@ -141,9 +113,7 @@ import json
 import sys
 from datetime import datetime, timedelta
 
-
 CHROME_EPOCH = datetime(1601, 1, 1)
-
 
 def chrome_time_to_datetime(chrome_ts: int):
     """Convert Chrome timestamp to datetime."""
@@ -153,7 +123,6 @@ def chrome_time_to_datetime(chrome_ts: int):
         return CHROME_EPOCH + timedelta(microseconds=chrome_ts)
     except (OverflowError, OSError):
         return None
-
 
 def analyze_chrome_history(profile_path: str, output_dir: str) -> dict:
     """Analyze Chrome History database for forensic evidence."""
@@ -219,13 +188,11 @@ def analyze_chrome_history(profile_path: str, output_dir: str) -> dict:
 
     return report
 
-
 def main():
     if len(sys.argv) < 3:
         print("Usage: python process.py <chrome_profile_path> <output_dir>")
         sys.exit(1)
     analyze_chrome_history(sys.argv[1], sys.argv[2])
-
 
 if __name__ == "__main__":
     main()

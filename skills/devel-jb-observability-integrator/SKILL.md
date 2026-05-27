@@ -1,11 +1,3 @@
----
-name: "devel-jb-observability-integrator"
-description: "Design actionable observability for Kotlin plus Spring services across logs, metrics, tracing, and health endpoints. Use when instrumenting a service, improving incident diagnosis, defining SLO-driven metrics and alerts, adding trace propagation, controlling metric-cardinality cost, or ensuring async and coroutine flows remain observable in production."
-metadata: ""
-short-description: "Design metrics, logs, and tracing well"
-author: "Kotlin"
-source: "https://github.com/Kotlin/kotlin-backend-agent-skills/tree/main/.agents/skills/observability-integrator"
----
 # Observability Integrator
 
 Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-17`).

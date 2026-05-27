@@ -1,36 +1,3 @@
----
-name: email-phishing-investigation
-description: Investigates phishing email incidents from initial user report through header analysis, URL/attachment detonation, impacted user identification, and containment actions using SOC tools like Splunk, Microsoft Defender, and sandbox analysis platforms. Use when a reported phishing email requires full incident investigation to determine scope and impact.
-domain: cybersecurity
-subdomain: soc-operations
-tags:
-- soc
-- phishing
-- incident-response
-- email-security
-- splunk
-- defender
-- sandbox
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- RS.MA-01
-- DE.AE-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1566.001
-- T1566.002
-- T1204.001
-- T1598.003
-- T1003
-- T1059
-- T1070
-- T1566
-capec: []
----
-
 # Investigating Phishing Email Incident
 
 ## When to Use

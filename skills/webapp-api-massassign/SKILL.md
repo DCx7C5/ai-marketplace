@@ -1,27 +1,3 @@
----
-name: webapp-api-massassign
-description: Tests APIs for mass assignment (auto-binding) vulnerabilities where clients can modify object properties they should not have access to by including additional parameters in API requests. The tester identifies writable endpoints, adds undocumented fields to request bodies (role, isAdmin, price, balance), and checks if the server binds these to the data model without filtering. Part of OWASP API3:2023 Broken Object Property Level Authorization. Activates for requests involving mass assignment testing, parameter binding abuse, auto-binding vulnerability, or API over-posting.
-domain: cybersecurity
-subdomain: api-security
-tags:
-- api-security
-- owasp
-- mass-assignment
-- auto-binding
-- parameter-tampering
-nist_csf:
-- PR.PS-01
-- ID.RA-01
-- PR.DS-10
-- DE.CM-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-cwe:
-- CWE-915
-capec: []
----
-
 # Testing API for Mass Assignment Vulnerability
 
 ## When to Use

@@ -1,36 +1,8 @@
----
-name: db-logging-aggregation-configure
-description: Configure Fluentd and Fluent Bit for centralized log aggregation, routing, filtering, and enrichment across distributed infrastructure
-domain: cybersecurity
-subdomain: security-operations
-tags:
-- fluentd
-- fluent-bit
-- log-aggregation
-- log-forwarding
-- siem
-- centralized-logging
-- observability
-nist_csf:
-- DE.CM-01
-- RS.MA-01
-- GV.OV-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1070
-- T1530
-capec: []
----
-
 # Implementing Log Forwarding with Fluentd
 
 ## Overview
 
 This skill covers configuring Fluentd and Fluent Bit for centralized log collection, routing, and enrichment. Fluent Bit acts as a lightweight log forwarder on endpoints, while Fluentd serves as the central aggregator and processor. The configuration covers input plugins for syslog, file tailing, and application logs, with output routing to Elasticsearch, S3, and Splunk.
-
 
 ## When to Use
 

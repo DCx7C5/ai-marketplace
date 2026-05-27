@@ -1,40 +1,8 @@
----
-name: linux-log-linuxlogforen-detect
-description: Perform forensic investigation of Linux system logs including syslog, auth.log, systemd journal, kern.log, and application logs to reconstruct user activity, detect unauthorized access, and establish event timelines on compromised Linux systems.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- linux-forensics
-- syslog
-- auth-log
-- systemd-journal
-- journalctl
-- linux-logs
-- ssh-forensics
-- cron
-- audit-log
-- log-analysis
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1053.003
-- T1070
-- T1548.003
-capec: []
----
-
 # Performing Linux Log Forensics Investigation
 
 ## Overview
 
 Linux systems maintain extensive logs that serve as primary evidence sources in forensic investigations. Unlike Windows Event Logs, Linux logs are typically plain-text files stored in /var/log/ and binary journal files managed by systemd-journald. Key forensic logs include auth.log (authentication events, sudo usage, SSH sessions), syslog (system-wide messages), kern.log (kernel events), and application-specific logs. The Linux Audit framework (auditd) provides detailed security event logging comparable to Windows Security Event Logs. Forensic analysis of these logs enables investigators to reconstruct user sessions, identify unauthorized access, detect privilege escalation, trace lateral movement, and establish comprehensive event timelines.
-
 
 ## When to Use
 
@@ -167,7 +135,6 @@ import os
 from datetime import datetime
 from collections import defaultdict
 
-
 class LinuxLogForensicAnalyzer:
     """Analyze Linux system logs for forensic investigation."""
 
@@ -276,14 +243,12 @@ class LinuxLogForensicAnalyzer:
         print(f"[*] Brute force sources: {report['summary']['brute_force_sources']}")
         return report_path
 
-
 def main():
     if len(sys.argv) < 3:
         print("Usage: python process.py <auth_log_path> <output_dir>")
         sys.exit(1)
     analyzer = LinuxLogForensicAnalyzer(os.path.dirname(sys.argv[1]), sys.argv[2])
     analyzer.generate_report(sys.argv[1])
-
 
 if __name__ == "__main__":
     main()

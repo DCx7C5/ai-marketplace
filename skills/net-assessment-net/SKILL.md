@@ -1,28 +1,3 @@
----
-name: net-assessment-net
-description: This skill covers conducting comprehensive security assessments of Operational Technology (OT) networks including SCADA systems, DCS architectures, and industrial control system communication paths. It addresses the Purdue Reference Model layers, identifies IT/OT convergence risks, evaluates firewall rules between zones, and maps industrial protocol traffic (Modbus, DNP3, OPC UA, EtherNet/IP) to detect misconfigurations, unauthorized connections, and attack surfaces in critical infrastructure.
-domain: cybersecurity
-subdomain: ot-ics-security
-tags:
-- ot-security
-- ics
-- scada
-- industrial-control
-- iec62443
-- network-assessment
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-05
-- GV.OC-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T0855
-capec: []
----
-
 # Performing OT Network Security Assessment
 
 ## When to Use
@@ -131,7 +106,6 @@ PURDUE_LEVEL_RANGES = {
     "Level 4 (Enterprise)": ["10.0.0.0/16"],
 }
 
-
 def classify_purdue_level(ip_addr):
     """Classify an IP address to its Purdue Reference Model level."""
     from ipaddress import ip_address, ip_network
@@ -142,7 +116,6 @@ def classify_purdue_level(ip_addr):
             if addr in ip_network(subnet):
                 return level
     return "Unknown"
-
 
 def analyze_ot_pcap(pcap_file):
     """Analyze pcap file to discover OT assets and communication patterns."""
@@ -219,7 +192,6 @@ def analyze_ot_pcap(pcap_file):
         "cross_zone_flows": cross_zone_flows[:50],
     }
 
-
 def generate_assessment_report(results):
     """Generate the OT network assessment findings report."""
     report = []
@@ -261,7 +233,6 @@ def generate_assessment_report(results):
 
     return "\n".join(report)
 
-
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python ot_network_discovery.py <pcap_file>")
@@ -295,7 +266,6 @@ import sys
 from dataclasses import dataclass, field
 from typing import Optional
 
-
 @dataclass
 class FirewallRule:
     rule_id: str
@@ -308,7 +278,6 @@ class FirewallRule:
     action: str
     enabled: bool
     comment: str = ""
-
 
 # IEC 62443 zone communication policy
 # Defines which zone pairs are allowed to communicate and through what conduit
@@ -349,7 +318,6 @@ PROHIBITED_CONDUITS = [
     ("Internet", "Level 1"),
 ]
 
-
 def parse_firewall_rules(csv_file):
     """Parse firewall rules from CSV export."""
     rules = []
@@ -369,7 +337,6 @@ def parse_firewall_rules(csv_file):
                 comment=row.get("comment", ""),
             ))
     return rules
-
 
 def analyze_rules(rules):
     """Analyze firewall rules against IEC 62443 zone model."""
@@ -412,7 +379,6 @@ def analyze_rules(rules):
                 })
 
     return findings
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

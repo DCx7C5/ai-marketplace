@@ -1,34 +1,7 @@
----
-name: identity-serviceaccount-saaudit
-description: Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud pl
-domain: cybersecurity
-subdomain: identity-access-management
-tags:
-- iam
-- identity
-- access-control
-- service-accounts
-- audit
-- governance
-nist_csf:
-- PR.AA-01
-- PR.AA-02
-- PR.AA-05
-- PR.AA-06
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1078.004
-- T1082
-capec: []
----
-
 # Performing Service Account Audit
 
 ## Overview
 Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud platforms, databases, and applications, assessing privilege levels, identifying missing owners, and enforcing lifecycle policies.
-
 
 ## When to Use
 

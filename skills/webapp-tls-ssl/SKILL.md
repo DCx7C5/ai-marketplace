@@ -1,25 +1,3 @@
----
-name: webapp-tls-ssl
-description: Simulates SSL stripping attacks using sslstrip, Bettercap, and mitmproxy in authorized environments to test HSTS enforcement, certificate validation, and HTTPS upgrade mechanisms that protect users from downgrade attacks on encrypted connections.
-domain: cybersecurity
-subdomain: network-security
-tags:
-- network-security
-- ssl-stripping
-- https
-- hsts
-- tls-security
-nist_csf:
-- PR.IR-01
-- DE.CM-01
-- ID.AM-03
-- PR.DS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Performing SSL Stripping Attack
 
 ## When to Use
@@ -40,7 +18,6 @@ capec: []
 - IP forwarding enabled on the attacker machine
 - Wireshark for verifying attack success and capturing evidence
 - Test accounts (not real user credentials) for demonstrating credential interception
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 

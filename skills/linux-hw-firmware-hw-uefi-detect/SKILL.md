@@ -1,39 +1,3 @@
----
-name: linux-hw-firmware-hw-uefi-detect
-description: Analyzes UEFI bootkit persistence mechanisms including firmware implants in SPI flash, EFI System Partition (ESP) modifications, Secure Boot bypass techniques, and UEFI variable manipulation. Covers detection of known bootkit families (BlackLotus, LoJax, MosaicRegressor, MoonBounce, CosmicStrand), ESP partition forensic inspection, chipsec-based firmware integrity verification, and Secure Boot configuration auditing. Activates for requests involving UEFI malware analysis, firmware persistence investigation, boot chain integrity verification, or Secure Boot bypass detection.
-domain: cybersecurity
-subdomain: firmware-security
-tags:
-- UEFI
-- bootkit
-- firmware
-- Secure-Boot
-- chipsec
-- ESP
-- persistence
-d3fend_techniques:
-- Platform Hardening
-- Restore Object
-- Platform Monitoring
-- Firmware Verification
-- Firmware Embedded Monitoring Code
-nist_csf:
-- ID.RA-01
-- PR.PS-01
-- PR.PS-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1014
-- T1071
-- T1542
-- T1547
-cve:
-- CVE-2022-21894
-capec: []
----
-
 # Analyzing UEFI Bootkit Persistence
 
 ## When to Use

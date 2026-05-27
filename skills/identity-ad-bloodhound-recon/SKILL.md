@@ -1,47 +1,10 @@
----
-name: identity-ad-bloodhound-recon
-description: Conduct internal Active Directory reconnaissance using BloodHound Community Edition to map attack paths, identify privilege escalation chains, and discover misconfigurations in domain environments.
-domain: cybersecurity
-subdomain: red-teaming
-tags:
-- red-team
-- reconnaissance
-- bloodhound
-- active-directory
-- attack-paths
-- privilege-escalation
-- graph-analysis
-d3fend_techniques:
-- Restore Access
-- Password Authentication
-- Biometric Authentication
-- Strong Password Policy
-- Restore User Account Access
-nist_csf:
-- ID.RA-01
-- GV.OV-02
-- DE.AE-07
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1068
-- T1087
-- T1595
-cwe:
-- CWE-269
-capec: []
----
-
 # Conducting Internal Reconnaissance with BloodHound CE
-
 
 > **Legal Notice:** This skill is for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have written permission to test is illegal and may violate computer fraud laws.
 
 ## Overview
 
 BloodHound Community Edition (CE) is a modern, web-based Active Directory reconnaissance platform developed by SpecterOps that uses graph theory to reveal hidden relationships and attack paths within AD environments. Unlike the legacy BloodHound application, BloodHound CE uses a PostgreSQL backend with a dedicated graph database, providing improved performance, a modern web UI, and enhanced API capabilities. Red teams use BloodHound CE to collect AD objects, ACLs, sessions, group memberships, and trust relationships, then visualize attack paths from compromised low-privileged accounts to high-value targets like Domain Admins. The SharpHound collector (v2 for CE) gathers data from Active Directory, while AzureHound collects from Azure AD / Entra ID environments.
-
 
 ## When to Use
 

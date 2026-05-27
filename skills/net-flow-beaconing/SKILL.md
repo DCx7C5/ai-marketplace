@@ -1,39 +1,3 @@
----
-name: net-flow-beaconing
-description: Identify command-and-control beaconing patterns in network traffic by applying statistical frequency analysis, jitter calculation, and coefficient of variation scoring to detect periodic callbacks from compromised endpoints.
-domain: cybersecurity
-subdomain: threat-hunting
-tags:
-- threat-hunting
-- beaconing
-- c2-detection
-- frequency-analysis
-- network-traffic
-- RITA
-- jitter-detection
-- mitre-t1071
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Certificate Analysis
-- Application Protocol Command Analysis
-- Content Format Conversion
-- File Content Analysis
-nist_csf:
-- DE.CM-01
-- DE.AE-02
-- DE.AE-07
-- ID.RA-05
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1040
-- T1059
-- T1071
-- T1071.001
-capec: []
----
-
 # Hunting for Beaconing with Frequency Analysis
 
 ## When to Use

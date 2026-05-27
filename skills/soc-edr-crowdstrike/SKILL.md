@@ -1,39 +1,3 @@
----
-name: soc-edr-crowdstrike
-description: Deploys and configures CrowdStrike Falcon EDR agents across enterprise endpoints to enable real-time threat detection, behavioral analysis, and automated response. Use when onboarding endpoints to EDR coverage, configuring detection policies, or integrating Falcon telemetry with SIEM platforms. Activates for requests involving CrowdStrike deployment, Falcon sensor installation, EDR policy configuration, or endpoint detection and response.
-domain: cybersecurity
-subdomain: endpoint-security
-tags:
-- endpoint
-- edr
-- CrowdStrike
-- Falcon
-- threat-detection
-- sensor-deployment
-nist_ai_rmf:
-- GOVERN-1.1
-- MEASURE-2.7
-- MANAGE-3.1
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-nist_csf:
-- PR.PS-01
-- PR.PS-02
-- DE.CM-01
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-- T1070
-capec: []
----
-
 # Deploying EDR Agent with CrowdStrike
 
 ## When to Use

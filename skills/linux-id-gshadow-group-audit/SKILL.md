@@ -1,9 +1,4 @@
 ---
-name: "linux-id-gshadow-group-audit"
-description: "---"
----
-
----
 name: linux-id-gshadow-group-audit
 description: Audit /etc/gshadow and group privilege assignments — identify groups with excessive members, sudo-equivalent groups (wheel, sudo, docker, disk), and shadow group misconfigurations.
 domain: cybersecurity

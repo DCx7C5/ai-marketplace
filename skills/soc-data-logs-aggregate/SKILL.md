@@ -1,30 +1,3 @@
----
-name: soc-data-logs-aggregate
-description: Collect, parse, and correlate system, application, and security logs to reconstruct events and establish timelines during forensic investigations.
-domain: cybersecurity
-subdomain: digital-forensics
-tags:
-- forensics
-- log-analysis
-- siem
-- event-correlation
-- timeline-analysis
-- evidence-collection
-nist_csf:
-- RS.AN-01
-- RS.AN-03
-- DE.AE-02
-- RS.MA-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1021
-- T1041
-- T1070
-capec: []
----
-
 # Performing Log Analysis for Forensic Investigation
 
 ## When to Use

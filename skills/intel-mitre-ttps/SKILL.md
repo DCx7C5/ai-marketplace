@@ -1,43 +1,3 @@
----
-name: intel-mitre-ttps
-description: Map advanced persistent threat (APT) group tactics, techniques, and procedures (TTPs) to the MITRE ATT&CK framework using the ATT&CK Navigator and attackcti Python library. The analyst queries STIX/TAXII data for group-technique associations, generates Navigator layer files for visualization, and compares defensive coverage against adversary profiles. Activates for requests involving APT TTP mapping, ATT&CK Navigator layers, threat actor profiling, or MITRE technique coverage analysis.
-domain: cybersecurity
-subdomain: threat-intelligence
-tags:
-- mitre-attack
-- navigator
-- threat-intelligence
-- apt
-- ttp-mapping
-- stix
-- attackcti
-nist_ai_rmf:
-- MEASURE-2.7
-- MAP-5.1
-- MANAGE-2.4
-atlas_techniques:
-- AML.T0070
-- AML.T0066
-- AML.T0082
-d3fend_techniques:
-- File Metadata Consistency Validation
-- Application Protocol Command Analysis
-- Identifier Analysis
-- Content Format Conversion
-- Message Analysis
-nist_csf:
-- ID.RA-01
-- ID.RA-05
-- DE.CM-01
-- DE.AE-02
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-mitre_attack:
-- T1059
-capec: []
----
-
 # Analyzing Threat Actor TTPs with MITRE Navigator
 
 ## Overview
@@ -46,7 +6,6 @@ The MITRE ATT&CK Navigator is a web application for annotating and visualizing A
 Combined with the attackcti Python library (which queries ATT&CK STIX data via TAXII), analysts
 can programmatically generate Navigator layer files mapping specific threat group TTPs, compare
 multiple groups, and assess detection coverage gaps against known adversaries.
-
 
 ## When to Use
 

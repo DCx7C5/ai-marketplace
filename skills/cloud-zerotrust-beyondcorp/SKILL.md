@@ -1,32 +1,8 @@
----
-name: cloud-zerotrust-beyondcorp
-description: Deploy Google BeyondCorp Enterprise zero trust access controls using Identity-Aware Proxy (IAP), context-aware access policies, device trust validation, and Access Context Manager to enforce identity and posture-based access to GCP resources and internal applications.
-domain: cybersecurity
-subdomain: zero-trust
-tags:
-- zero-trust
-- beyondcorp
-- google-cloud
-- iap
-- context-aware-access
-- device-trust
-- identity
-nist_csf:
-- PR.AA-01
-- PR.AA-05
-- PR.IR-01
-model: sonnet
-maxTurns: 20
-tools: [Read, Bash, Glob, Grep]
-capec: []
----
-
 # Implementing Zero Trust with BeyondCorp
 
 ## Overview
 
 Google BeyondCorp Enterprise implements the zero trust security model by eliminating the concept of a trusted network perimeter. Instead of relying on VPNs and network location, BeyondCorp authenticates and authorizes every request based on user identity, device posture, and contextual attributes. Identity-Aware Proxy (IAP) serves as the enforcement point, intercepting all requests to protected resources and evaluating them against Access Context Manager policies. This skill covers configuring IAP for web applications, defining access levels based on device trust and network attributes, and auditing access policies for compliance.
-
 
 ## When to Use
 

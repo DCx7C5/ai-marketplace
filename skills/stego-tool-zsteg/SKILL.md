@@ -1,8 +1,3 @@
----
-name: stego-tool-zsteg
-description: ">\n  Runs zsteg to detect and extract steganographic payloads from PNG/BMP\
-  \ files."
----
 ## Overview
 
 Runs steganography tool for analysis or extraction of hidden data from carrier files.

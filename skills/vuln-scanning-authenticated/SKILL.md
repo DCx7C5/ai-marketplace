@@ -1,14 +1,7 @@
----
-name: vuln-scanning-authenticated
-description: ">\n  Authenticated (credentialed) vulnerability scanning uses valid\
-  \ system credentials to log into target hosts and perform deep inspection of installed\
-  \ software, patches, configurations, and security sett"
----
 # Performing Authenticated Vulnerability Scan
 
 ## Overview
 Authenticated (credentialed) vulnerability scanning uses valid system credentials to log into target hosts and perform deep inspection of installed software, patches, configurations, and security settings. Compared to unauthenticated scanning, credentialed scans detect 45-60% more vulnerabilities with significantly fewer false positives because they can directly query installed packages, registry keys, and file system contents.
-
 
 ## When to Use
 
@@ -214,7 +207,6 @@ After scan completion, check credential verification results:
 - scanning-infrastructure-with-nessus
 - performing-network-vulnerability-assessment
 - implementing-continuous-vulnerability-monitoring
-
 
 ---
 

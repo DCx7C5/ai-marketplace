@@ -1,14 +1,7 @@
----
-name: vuln-continuous
-description: ">\n  Deploy Breach and Attack Simulation tools to continuously validate\
-  \ security control effectiveness by safely emulating real-world attack techniques\
-  \ across the kill chain."
----
 # Implementing Continuous Security Validation with BAS
 
 ## Overview
 Breach and Attack Simulation (BAS) is an automated, continuous approach to validating security control effectiveness by safely executing real-world attack techniques against production security infrastructure. Unlike traditional penetration testing (point-in-time), BAS platforms continuously simulate threats mapped to MITRE ATT&CK, testing endpoint protection, network security, email gateways, SIEM detection, and incident response capabilities. Leading platforms include SafeBreach, AttackIQ, Picus Security (2024 Gartner Customers' Choice), Cymulate, Pentera, and SCYTHE. BAS 2.0 solutions safely emulate real attacker behavior across the entire IT environment without requiring pre-deployed agents on every endpoint.
-
 
 ## When to Use
 
@@ -235,7 +228,6 @@ Validation Schedule:
 - performing-purple-team-exercise
 - implementing-siem-use-cases-for-detection
 - implementing-threat-modeling-with-mitre-attack
-
 
 ---
 
