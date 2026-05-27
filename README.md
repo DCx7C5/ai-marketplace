@@ -3,7 +3,7 @@
 > A production-grade marketplace of **1,064 Claude skills** and **38 AI agents** — unified discovery, instant install, enterprise-ready.
 
 [![Agents](https://img.shields.io/badge/agents-38-blue?style=flat-square)](agents/)
-[![Skills](https://img.shields.io/badge/skills-1%2C064-green?style=flat-square)](skills/)
+[![Skills](https://img.shields.io/badge/skills-1%2C117-green?style=flat-square)](skills/)
 [![Status](https://img.shields.io/badge/status-production-success?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-purple?style=flat-square)](LICENSE)
 [![CyberSecSuite](https://img.shields.io/badge/CyberSecSuite-v0.1-red?style=flat-square)](https://github.com/DCx7C5/cybersecsuite)
@@ -17,7 +17,7 @@
 | Category | Count | Description |
 |----------|-------|-------------|
 | [**Agents**](agents/) | 38 | Claude Code sub-agents (31 templates + AgentFactory + 6 sub-agents) |
-| [**Skills**](skills/) | 1,064 | AI skills organized by domain (security, cloud, forensics, etc.) |
+| [**Skills**](skills/) | 1,117 | AI skills in a flat structure at skills/ root |
 | [**MCPs**](mcps/) | 6 | Model Context Protocol servers (csscore, canvas, memory, template, playwright, crypto) |
 | [**Search Index**](search-index.json) | 1,064+ | Full-text searchable asset catalog |
 
@@ -138,16 +138,18 @@ Claude Code sub-agents are markdown files placed in `.claude/agents/`. Each agen
 
 ## 🧠 Skills
 
-CyberSecSuite skills are modular capability modules placed in `.claude/skills/`. They follow a hierarchical taxonomy (`domain/subdomain/.../SKILL.md`).
+CyberSecSuite skills are modular capability modules placed in `.claude/skills/`. They now use a flat naming structure at the root of the skills/ directory (e.g. `skills/cloud-aws-iam/SKILL.md`).
 
 ### Available Skill Domains
 
-| Domain | Skills | Description |
-|--------|--------|-------------|
-| [`deception/`](skills/deception/) | 4 | Honeypots, honeytokens, canary tokens, deception tech |
-| [`mobile/`](skills/mobile/) | 12 | Android/iOS forensics, APK analysis, IPC, dynamic analysis |
-| [`steganography/`](skills/steganography/) | 8 | LSB detection across PNG/JPG/BMP/GIF, audio steg, metadata |
-| [`vulnerabilities/`](skills/vulnerabilities/) | 36+ | CVE analysis, exploit detection, patch management |
+Skills are now organized in a **flat structure** directly under `skills/`. Common prefixes include:
+
+- `cloud-*`, `webapp-*`, `linux-*`, `windows-*`, `net-*`
+- `offensive-*`, `vuln-*`, `malware-*`, `soc-*`, `intel-*`
+- `browser-*`, `email-*`, `crypto-*`, `compliance-*`
+- `identity-*`, `ics-*`, `db-*`, `stego-*`, and many others
+
+See the full list in [`index.json`](index.json) or browse `skills/`.
 
 ---
 
@@ -156,35 +158,13 @@ CyberSecSuite skills are modular capability modules placed in `.claude/skills/`.
 ```
 ai-marketplace/
 ├── agents/                    # Claude Code sub-agent definitions
-│   ├── cybersec-analyst.md
-│   ├── python-developer.md
-│   └── ...
-├── skills/                    # CyberSecSuite skill modules
-│   ├── deception/
-│   │   ├── SKILL.md
-│   │   ├── honeypot/SKILL.md
-│   │   ├── honeytoken/SKILL.md
-│   │   └── canarytoken/SKILL.md
-│   ├── mobile/
-│   ├── steganography/
-│   └── vulnerabilities/
+├── skills/                    # Flat skill modules (e.g. cloud-aws-iam/, linux-foo-bar/)
+├── mcps/                      # Model Context Protocol servers
 ├── docs/                      # Extended documentation
-│   ├── AGENT_SCHEMA.md        # Agent YAML frontmatter spec
-│   ├── SKILL_SCHEMA.md        # Skill YAML frontmatter spec
-│   └── USAGE.md               # Detailed usage guide
 ├── scripts/                   # Helper scripts
-│   └── install.sh             # One-liner installer
-├── .github/
-│   ├── workflows/
-│   │   ├── validate.yml       # Validate agent/skill schemas
-│   │   └── index.yml          # Auto-generate index.json
-│   └── ISSUE_TEMPLATE/
-│       ├── new-agent.md
-│       └── new-skill.md
-├── index.json                 # Machine-readable catalog
-├── CONTRIBUTING.md
-└── LICENSE
+└── index.json                 # Canonical skill index
 ```
+
 
 ---
 
