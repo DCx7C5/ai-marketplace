@@ -3,6 +3,7 @@ name: cloud-serverless-serverlessharden
 description: - When deploying Lambda functions or Azure Functions with access to sensitive data or cloud APIs - When auditing existing serverless workloads for overly permissive IAM roles - When integrating serverless functions into a DevSecOps pipeline with automated security scanning - When hardcoded secrets or vulnerable dependencies are discovered in functi
 domain: cybersecurity
 ---
+
 ---|------------|
 | Cold Start | Initial function invocation that includes container provisioning, increasing latency and creating a window where cached secrets may not be available |
 | Event Injection | Attack where malicious input is embedded in Lambda event data from API Gateway, S3, SQS, or other event sources to exploit the function |
