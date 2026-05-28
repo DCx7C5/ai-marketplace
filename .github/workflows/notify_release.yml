@@ -1,0 +1,58 @@
+name: "Notify Marketplace Release to Telegram"
+
+on:
+  release:
+    types:
+      - published
+      - released
+      - prereleased
+      - created
+
+permissions:
+  contents: read
+
+jobs:
+  trigger-notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Telegram notification in actions repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          
+          # Extract release details
+          VERSION="${{ github.event.release.tag_name }}"
+          PRERELEASE="${{ github.event.release.prerelease }}"
+          DRAFT="${{ github.event.release.draft }}"
+          BODY="${{ github.event.release.body }}"
+          RELEASE_URL="${{ github.event.release.html_url }}"
+          ASSETS_COUNT="${{ github.event.release.assets_count }}"
+          
+          # Trigger dispatch event in actions repo
+          gh api repos/DCx7C5/actions/dispatches \
+            -f event_type='marketplace-release' \
+            -f "client_payload={\"version\":\"${VERSION}\",\"tag\":\"${VERSION}\",\"prerelease\":${PRERELEASE},\"draft\":${DRAFT},\"body\":\"${BODY}\",\"release_url\":\"${RELEASE_URL}\",\"assets\":[],\"assets_count\":${ASSETS_COUNT:-0}}"
+          
+          echo "✅ Dispatch event sent to actions repo"
+
+      - name: Job Summary
+        if: always()
+        env:
+          VERSION: ${{ github.event.release.tag_name }}
+          PRERELEASE: ${{ github.event.release.prerelease }}
+          DRAFT: ${{ github.event.release.draft }}
+          RELEASE_URL: ${{ github.event.release.html_url }}
+        run: |
+          {
+            echo "### 📢 Marketplace Release Notification Triggered"
+            echo ""
+            echo "| Property | Value |"
+            echo "|:---------|:------|"
+            echo "| Version | \`${VERSION}\` |"
+            echo "| Type | $([ "$DRAFT" = "true" ] && echo "Draft" || ([ "$PRERELEASE" = "true" ] && echo "Pre-release" || echo "Release")) |"
+            echo "| Release URL | [View](${RELEASE_URL}) |"
+            echo ""
+            echo "→ Telegram notification dispatched to actions repo"
+            echo ""
+          } >> "$GITHUB_STEP_SUMMARY"
