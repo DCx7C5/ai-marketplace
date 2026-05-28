@@ -1,0 +1,41 @@
+{
+  "name": "sequential-thinking-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for sequential thinking and problem solving",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "sequential-thinking-mcp": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "sequential-thinking",
+    "problem-solving",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "reasoning"
+  ],
+  "author": "taybr99",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taybr99/sequential-thinking-mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

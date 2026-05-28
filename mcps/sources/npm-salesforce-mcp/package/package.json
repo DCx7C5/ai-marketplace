@@ -1,0 +1,45 @@
+{
+  "name": "salesforce-mcp",
+  "version": "1.0.2",
+  "description": "MCP server for Salesforce Data Dictionary Generation",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "salesforce-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "jest",
+    "prepare": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "salesforce",
+    "cursor",
+    "ide",
+    "sobject"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.6.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  }
+}

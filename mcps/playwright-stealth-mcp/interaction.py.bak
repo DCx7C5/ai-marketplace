@@ -1,0 +1,25 @@
+import random
+from mcp.server.fastmcp import FastMCP
+from utils import get_minimal_state
+
+
+def register_interaction_tools(mcp: FastMCP, app):
+    @mcp.tool()
+    async def click(selector: str) -> dict:
+        """Click element with human-like delay."""
+        page = app.state.page
+        await page.wait_for_selector(selector, timeout=10000)
+        await page.click(selector, delay=random.randint(50, 150))
+        await page.wait_for_timeout(random.randint(600, 1200))
+        return await get_minimal_state(page)
+
+    @mcp.tool()
+    async def type_text(selector: str, text: str) -> dict:
+        """Type text with human-like typing."""
+        page = app.state.page
+        await page.wait_for_selector(selector, timeout=10000)
+        await page.fill(selector, "")
+        for char in text:
+            await page.type(selector, char, delay=random.randint(30, 120))
+        await page.wait_for_timeout(random.randint(400, 900))
+        return await get_minimal_state(page)

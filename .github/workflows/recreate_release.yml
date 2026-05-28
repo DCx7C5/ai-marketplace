@@ -1,0 +1,236 @@
+name: "Recreate v0.1.0 Release"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'agents/**'
+      - 'skills/**'
+      - 'mcps/**'
+      - 'index.json'
+      - 'README.md'
+      - '.github/workflows/recreate_release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: 'recreate-release'
+  cancel-in-progress: true
+
+jobs:
+  recreate-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GITHUB_APP_ID }}
+          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Check if v0.1.0 release exists
+        id: check_release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          if gh release view v0.1.0 >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Release v0.1.0 exists, will be deleted and recreated"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Release v0.1.0 does not exist, will be created"
+          fi
+
+      - name: Delete existing release v0.1.0
+        if: steps.check_release.outputs.exists == 'true'
+        id: delete_release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          echo "Deleting release v0.1.0..."
+          gh release delete v0.1.0 --yes || {
+            echo "::warning::Could not delete release (may not exist)"
+          }
+          echo "::notice::Release v0.1.0 deleted"
+
+      - name: Delete existing tag v0.1.0
+        if: steps.check_release.outputs.exists == 'true'
+        id: delete_tag
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          echo "Deleting tag v0.1.0..."
+          git push origin --delete v0.1.0 2>/dev/null || {
+            echo "::warning::Could not delete tag (may not exist locally)"
+          }
+          gh api repos/${{ github.repository }}/git/refs/tags/v0.1.0 -X DELETE 2>/dev/null || {
+            echo "::warning::Could not delete tag via API (may not exist)"
+          }
+          echo "::notice::Tag v0.1.0 deleted"
+
+      - name: Create new tag v0.1.0
+        id: create_tag
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          echo "Creating new tag v0.1.0..."
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git tag -a v0.1.0 -m "Release v0.1.0 - AI Marketplace" || {
+            echo "::error::Failed to create tag"
+            exit 1
+          }
+          
+          git push origin v0.1.0 || {
+            echo "::error::Failed to push tag"
+            exit 1
+          }
+          
+          echo "::notice::Tag v0.1.0 created and pushed"
+          echo "tag_created=true" >> "$GITHUB_OUTPUT"
+
+      - name: Get commit metadata
+        id: commit_meta
+        shell: bash
+        run: |
+          COMMIT_SHA=$(git rev-parse HEAD)
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          AUTHOR=$(git log -1 --pretty=%an)
+          
+          echo "sha=${COMMIT_SHA:0:7}" >> "$GITHUB_OUTPUT"
+          echo "author=$AUTHOR" >> "$GITHUB_OUTPUT"
+          echo "message=$(echo "$COMMIT_MSG" | head -1)" >> "$GITHUB_OUTPUT"
+
+      - name: Generate release notes
+        id: release_notes
+        shell: bash
+        run: |
+          cat > /tmp/release_notes.md << 'EOF'
+          # AI Marketplace v0.1.0
+          
+          ## 🚀 Release Overview
+          
+          This is the AI Marketplace collection of agents, skills, and MCPs.
+          
+          **Latest Commit:** ${{ steps.commit_meta.outputs.sha }}  
+          **Author:** ${{ steps.commit_meta.outputs.author }}  
+          **Message:** ${{ steps.commit_meta.outputs.message }}
+          
+          ## 📦 Contents
+          
+          This release includes:
+          
+          - **Agents** — Specialized AI agents for various tasks
+          - **Skills** — Reusable skills and utilities
+          - **MCPs** — Model Context Protocols for AI integration
+          - **Index** — Full searchable marketplace index
+          
+          ## 🔍 What's in This Release
+          
+          ### Agents
+          Available specialized agents for automation and coding tasks.
+          
+          ### Skills
+          Composable skills for extending AI capabilities.
+          
+          ### MCPs
+          Model Context Protocols for AI tool integration.
+          
+          ## 📖 Documentation
+          
+          - [README](./README.md) — Project overview
+          - [INSTALL.md](./INSTALL.md) — Installation guide
+          - [CONTRIBUTING.md](./CONTRIBUTING.md) — Contribution guidelines
+          - [Daily Key Rotation](./DAILY_KEY_ROTATION.md) — Security workflows
+          
+          ## 🔐 Security
+          
+          This release includes:
+          - Daily key rotation workflow
+          - Automated release recreation on updates
+          - Comprehensive security documentation
+          
+          ## 📋 Version History
+          
+          - **v0.1.0** — Initial marketplace release
+          
+          ## 🤝 Support
+          
+          For issues, feature requests, or contributions, please refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
+          
+          ---
+          
+          **Build Date:** $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+          EOF
+          
+          cat /tmp/release_notes.md
+
+      - name: Create new release v0.1.0
+        id: create_release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          echo "Creating release v0.1.0..."
+          
+          gh release create v0.1.0 \
+            --title "AI Marketplace v0.1.0" \
+            --notes-file /tmp/release_notes.md \
+            --target main \
+            || {
+              echo "::error::Failed to create release"
+              exit 1
+            }
+          
+          echo "::notice::Release v0.1.0 created successfully"
+          echo "release_created=true" >> "$GITHUB_OUTPUT"
+
+      - name: Verify release
+        id: verify
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token || github.token }}
+        run: |
+          echo "Verifying release v0.1.0..."
+          
+          if gh release view v0.1.0 >/dev/null 2>&1; then
+            RELEASE_URL=$(gh release view v0.1.0 --json url -q .url)
+            echo "::notice::✓ Release verified: $RELEASE_URL"
+            echo "release_verified=true" >> "$GITHUB_OUTPUT"
+            echo "release_url=$RELEASE_URL" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::Release verification failed"
+            exit 1
+          fi
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          echo "╔════════════════════════════════════════════════════════╗"
+          echo "║          Release Recreation Summary                   ║"
+          echo "╚════════════════════════════════════════════════════════╝"
+          echo ""
+          echo "Release: v0.1.0"
+          echo "Status: ${{ steps.verify.outputs.release_verified == 'true' && '✓ SUCCESS' || '✗ FAILED' }}"
+          echo "URL: ${{ steps.verify.outputs.release_url }}"
+          echo ""
+          echo "Commit: ${{ steps.commit_meta.outputs.sha }}"
+          echo "Author: ${{ steps.commit_meta.outputs.author }}"
+          echo ""
+          [[ "${{ steps.verify.outputs.release_verified }}" == "true" ]] && echo "✓ Release v0.1.0 recreated successfully" || echo "✗ Release creation failed"

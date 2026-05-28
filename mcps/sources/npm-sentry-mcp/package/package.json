@@ -1,0 +1,29 @@
+{
+  "name": "sentry-mcp",
+  "version": "0.0.1",
+  "description": "sentry MCP Server",
+  "license": "MIT",
+  "author": "godsenal",
+  "type": "module",
+  "bin": {
+    "mcp-server-sentry": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "npx tsx index.ts",
+    "build": "tsc && shx chmod +x dist/*.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.0.1",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22",
+    "shx": "^0.3.4",
+    "typescript": "^5.6.2"
+  }
+}

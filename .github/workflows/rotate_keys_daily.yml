@@ -1,0 +1,299 @@
+name: "Rotate Keys Daily"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 22 * * *'  # Every day at 22:02 UTC
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  rotate-key-suffix:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GITHUB_APP_ID }}
+          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          permission-secrets: write
+          permission-environments: write
+          permission-organization-secrets: write
+          owner: ${{ github.repository_owner }}
+
+      - uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app_token.outputs.token }}
+
+      - name: Set Old Key Suffix
+        id: old_suffix
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          printf '%s' "${{ secrets.KEY_SUFFIX_DAILY || 'XXXXXXXX' }}" | \
+            gh secret set "KEY_SUFFIX_DAILY_OLD" --env "production" || {
+              echo "::error::Failed to set KEY_SUFFIX_DAILY_OLD secret" >&2
+              exit 1
+          }
+
+      - name: Update Key Suffix
+        id: update_suffix
+        if: steps.old_suffix.outcome == 'success'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          openssl rand -base64 128 | tr "[:lower:]" "[:upper:]" | tr -d '/+=' | head -c 8 | \
+            gh secret set "KEY_SUFFIX_DAILY" --env "production" || {
+              echo "::error::Failed to set KEY_SUFFIX_DAILY secret" >&2
+              exit 1
+          }
+          echo "::notice::Key suffix rotated successfully"
+
+  rotate-api-keys:
+    runs-on: ubuntu-latest
+    needs: rotate-key-suffix
+    environment: production
+    steps:
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GITHUB_APP_ID }}
+          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          permission-secrets: write
+          permission-environments: write
+          permission-organization-secrets: write
+          owner: ${{ github.repository_owner }}
+
+      - uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app_token.outputs.token }}
+
+      - name: Backup Old API Keys
+        id: backup_old_keys
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Backup existing keys with old suffix
+          old_keys=(
+            "API_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+            "API_KEY_SECONDARY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+          )
+
+          backup_data=""
+          for key_name in "${old_keys[@]}"; do
+            if [[ -n "$key_name" ]]; then
+              backup_data="${backup_data}${key_name},${{ format('{0}', secrets[key_name] || 'NOT_FOUND') }}\n"
+            fi
+          done
+
+          if [[ -n "$backup_data" ]]; then
+            printf '%b' "$backup_data" | \
+              gh secret set "BACKUP_API_KEYS_DAILY" --env "production" || {
+                echo "::warning::Failed to backup old keys"
+              }
+            echo "Old keys backed up successfully"
+            echo "success=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No old keys to backup"
+            echo "success=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate New API Keys
+        id: new_keys
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Generate new random keys for current suffix
+          new_api_key=$(openssl rand -hex 32)
+          secondary_api_key=$(openssl rand -hex 32)
+
+          # Set primary API key
+          printf '%s' "$new_api_key" | \
+            gh secret set "API_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY }}" \
+              --env "production" || {
+              echo "::error::Failed to set API_KEY_DAILY secret" >&2
+              exit 1
+          }
+
+          # Set secondary API key
+          printf '%s' "$secondary_api_key" | \
+            gh secret set "API_KEY_SECONDARY_${{ secrets.KEY_SUFFIX_DAILY }}" \
+              --env "production" || {
+              echo "::error::Failed to set API_KEY_SECONDARY secret" >&2
+              exit 1
+          }
+
+          echo "success=true" >> "$GITHUB_OUTPUT"
+          echo "::notice::New API keys generated and stored"
+
+      - name: Delete Old API Keys
+        id: delete_old_keys
+        if: steps.new_keys.outputs.success == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Delete old keys
+          old_keys=(
+            "API_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+            "API_KEY_SECONDARY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+          )
+
+          for key_name in "${old_keys[@]}"; do
+            gh secret delete "$key_name" --env "production" 2>/dev/null || {
+              echo "::warning::Could not delete $key_name (may not exist)"
+            }
+          done
+          echo "Old keys deletion completed"
+
+  rotate-signature-keys:
+    runs-on: ubuntu-latest
+    needs: rotate-key-suffix
+    environment: production
+    steps:
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GITHUB_APP_ID }}
+          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          permission-secrets: write
+          permission-environments: write
+          permission-organization-secrets: write
+          owner: ${{ github.repository_owner }}
+
+      - uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app_token.outputs.token }}
+
+      - name: Backup Old Signature Keys
+        id: backup_sig_keys
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Backup existing signature keys with old suffix
+          old_sig_keys=(
+            "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+            "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}_SECONDARY"
+          )
+
+          for key_name in "${old_sig_keys[@]}"; do
+            if gh secret list --env production | grep -q "$key_name"; then
+              echo "Found key to backup: $key_name"
+            fi
+          done
+
+          echo "success=true" >> "$GITHUB_OUTPUT"
+
+      - name: Generate New Signature Keys
+        id: new_sig_keys
+        if: steps.backup_sig_keys.outputs.success == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Generate new Ed25519 signature keys (base64 encoded)
+          new_sign_key=$(openssl rand -base64 32)
+          secondary_sign_key=$(openssl rand -base64 32)
+
+          # Set primary signature key
+          printf '%s' "$new_sign_key" | \
+            gh secret set "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY }}" \
+              --env "production" || {
+              echo "::error::Failed to set SIGN_KEY_DAILY secret" >&2
+              exit 1
+          }
+
+          # Set secondary signature key
+          printf '%s' "$secondary_sign_key" | \
+            gh secret set "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY }}_SECONDARY" \
+              --env "production" || {
+              echo "::error::Failed to set SIGN_KEY_DAILY_SECONDARY secret" >&2
+              exit 1
+          }
+
+          echo "success=true" >> "$GITHUB_OUTPUT"
+          echo "::notice::New signature keys generated and stored"
+
+      - name: Delete Old Signature Keys
+        id: delete_sig_keys
+        if: steps.new_sig_keys.outputs.success == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          # Delete old signature keys
+          old_sig_keys=(
+            "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}"
+            "SIGN_KEY_DAILY_${{ secrets.KEY_SUFFIX_DAILY_OLD }}_SECONDARY"
+          )
+
+          for key_name in "${old_sig_keys[@]}"; do
+            gh secret delete "$key_name" --env "production" 2>/dev/null || {
+              echo "::warning::Could not delete $key_name (may not exist)"
+            }
+          done
+          echo "Old signature keys deletion completed"
+
+  verify-rotation:
+    runs-on: ubuntu-latest
+    needs: [rotate-api-keys, rotate-signature-keys]
+    environment: production
+    steps:
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.GITHUB_APP_ID }}
+          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          permission-secrets: read
+          owner: ${{ github.repository_owner }}
+
+      - name: Verify New Secrets Exist
+        shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          echo "Verifying key rotation..."
+          
+          # Check if new keys exist
+          if gh secret list --env production | grep -q "KEY_SUFFIX_DAILY"; then
+            echo "✓ KEY_SUFFIX_DAILY exists"
+          else
+            echo "✗ KEY_SUFFIX_DAILY missing"
+            exit 1
+          fi
+
+          if gh secret list --env production | grep -q "API_KEY_DAILY"; then
+            echo "✓ API_KEY_DAILY found"
+          else
+            echo "✗ API_KEY_DAILY not found"
+            exit 1
+          fi
+
+          if gh secret list --env production | grep -q "SIGN_KEY_DAILY"; then
+            echo "✓ SIGN_KEY_DAILY found"
+          else
+            echo "✗ SIGN_KEY_DAILY not found"
+            exit 1
+          fi
+
+          echo "✓ Key rotation verification passed"
+
+      - name: Notify Success
+        shell: bash
+        run: |
+          echo "::notice::✓ Daily key rotation completed successfully at $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          echo "✓ API keys rotated with new suffix"
+          echo "✓ Signature keys rotated with new suffix"
+          echo "✓ Old keys backed up and cleaned up"

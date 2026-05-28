@@ -1,0 +1,43 @@
+{
+  "name": "hubspot-mcp",
+  "version": "1.1.0",
+  "description": "HubSpot MCP server for CRM operations",
+  "private": false,
+  "type": "module",
+  "bin": {
+    "hubspot-mcp": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yespark/hubspot-mcp.git"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\" && mkdir -p dist && cp build/index.js dist/index.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "abort-controller": "^3.0.0",
+    "axios": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^20.17.22",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "hubspot",
+    "mcp",
+    "crm",
+    "model-context-protocol"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,3 @@
+# electron-mcp-manager
+
+WIP
