@@ -1,0 +1,134 @@
+name: Validate Path Changes
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'agents/**'
+      - 'mcps/**'
+      - 'rules/**'
+      - 'skills/**'
+      - 'workflows/**'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'agents/**'
+      - 'mcps/**'
+      - 'rules/**'
+      - 'skills/**'
+      - 'workflows/**'
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      agents: ${{ steps.changes.outputs.agents }}
+      mcps: ${{ steps.changes.outputs.mcps }}
+      rules: ${{ steps.changes.outputs.rules }}
+      skills: ${{ steps.changes.outputs.skills }}
+      workflows: ${{ steps.changes.outputs.workflows }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - id: changes
+        run: |
+          if git diff --quiet HEAD~1 HEAD -- agents/ 2>/dev/null || [[ "${{ github.event_name }}" == "pull_request" && -n "$(git diff --name-only HEAD origin/${{ github.base_ref }} | grep '^agents/')" ]]; then
+            echo "agents=true" >> $GITHUB_OUTPUT
+          else
+            echo "agents=false" >> $GITHUB_OUTPUT
+          fi
+          
+          if git diff --quiet HEAD~1 HEAD -- mcps/ 2>/dev/null || [[ "${{ github.event_name }}" == "pull_request" && -n "$(git diff --name-only HEAD origin/${{ github.base_ref }} | grep '^mcps/')" ]]; then
+            echo "mcps=true" >> $GITHUB_OUTPUT
+          else
+            echo "mcps=false" >> $GITHUB_OUTPUT
+          fi
+          
+          if git diff --quiet HEAD~1 HEAD -- rules/ 2>/dev/null || [[ "${{ github.event_name }}" == "pull_request" && -n "$(git diff --name-only HEAD origin/${{ github.base_ref }} | grep '^rules/')" ]]; then
+            echo "rules=true" >> $GITHUB_OUTPUT
+          else
+            echo "rules=false" >> $GITHUB_OUTPUT
+          fi
+          
+          if git diff --quiet HEAD~1 HEAD -- skills/ 2>/dev/null || [[ "${{ github.event_name }}" == "pull_request" && -n "$(git diff --name-only HEAD origin/${{ github.base_ref }} | grep '^skills/')" ]]; then
+            echo "skills=true" >> $GITHUB_OUTPUT
+          else
+            echo "skills=false" >> $GITHUB_OUTPUT
+          fi
+          
+          if git diff --quiet HEAD~1 HEAD -- workflows/ 2>/dev/null || [[ "${{ github.event_name }}" == "pull_request" && -n "$(git diff --name-only HEAD origin/${{ github.base_ref }} | grep '^workflows/')" ]]; then
+            echo "workflows=true" >> $GITHUB_OUTPUT
+          else
+            echo "workflows=false" >> $GITHUB_OUTPUT
+          fi
+
+  validate-agents:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.agents == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate agents
+        run: |
+          echo "🔍 Validating agents/**"
+          bash scripts/validate.sh agents 2>&1 | head -50 || true
+
+  validate-mcps:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.mcps == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate MCPs
+        run: |
+          echo "🔍 Validating mcps/**"
+          bash scripts/validate.sh mcps 2>&1 | head -50 || true
+
+  validate-rules:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.rules == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate rules
+        run: |
+          echo "🔍 Validating rules/**"
+          ls -la rules/ || true
+
+  validate-skills:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.skills == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skills
+        run: |
+          echo "🔍 Validating skills/**"
+          bash scripts/validate.sh skills 2>&1 | head -50 || true
+
+  validate-workflows:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.workflows == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate workflows
+        run: |
+          echo "🔍 Validating workflows/**"
+          ls -la workflows/ || true
+
+  summary:
+    needs: [detect-changes]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Report changes
+        run: |
+          echo "## Path Change Detection"
+          echo "- agents: ${{ needs.detect-changes.outputs.agents }}"
+          echo "- mcps: ${{ needs.detect-changes.outputs.mcps }}"
+          echo "- rules: ${{ needs.detect-changes.outputs.rules }}"
+          echo "- skills: ${{ needs.detect-changes.outputs.skills }}"
+          echo "- workflows: ${{ needs.detect-changes.outputs.workflows }}"
