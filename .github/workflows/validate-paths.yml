@@ -9,6 +9,18 @@ on:
       - 'rules/**'
       - 'skills/**'
       - 'workflows/**'
+      - 'boot/**'
+      - 'dracut/**'
+      - 'grub/**'
+      - 'hooks/**'
+      - 'initramfs/**'
+      - 'efi/**'
+      - 'udev/**'
+      - 'systemd/**'
+      - '**/grubenv'
+      - '**/grub.cfg'
+      - '**/bootorder'
+      - '**/*.conf'
   pull_request:
     branches: [main, develop]
     paths:
@@ -17,6 +29,18 @@ on:
       - 'rules/**'
       - 'skills/**'
       - 'workflows/**'
+      - 'boot/**'
+      - 'dracut/**'
+      - 'grub/**'
+      - 'hooks/**'
+      - 'initramfs/**'
+      - 'efi/**'
+      - 'udev/**'
+      - 'systemd/**'
+      - '**/grubenv'
+      - '**/grub.cfg'
+      - '**/bootorder'
+      - '**/*.conf'
 
 jobs:
   detect-changes:
@@ -27,6 +51,8 @@ jobs:
       rules: ${{ steps.changes.outputs.rules }}
       skills: ${{ steps.changes.outputs.skills }}
       workflows: ${{ steps.changes.outputs.workflows }}
+      boot: ${{ steps.changes.outputs.boot }}
+      security: ${{ steps.changes.outputs.security }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -62,6 +88,16 @@ jobs:
             echo "workflows=true" >> $GITHUB_OUTPUT
           else
             echo "workflows=false" >> $GITHUB_OUTPUT
+          fi
+          
+          # Detect boot-related changes
+          BOOT_CHANGES=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || git diff --name-only HEAD origin/${{ github.base_ref }} 2>/dev/null | grep -E '(boot/|dracut/|grub/|hooks/|initramfs/|efi/|udev/|systemd/|grubenv|grub\.cfg|bootorder|\.conf)' | wc -l)
+          if [[ $BOOT_CHANGES -gt 0 ]]; then
+            echo "boot=true" >> $GITHUB_OUTPUT
+            echo "security=true" >> $GITHUB_OUTPUT
+          else
+            echo "boot=false" >> $GITHUB_OUTPUT
+            echo "security=false" >> $GITHUB_OUTPUT
           fi
 
   validate-agents:
@@ -119,6 +155,63 @@ jobs:
           echo "🔍 Validating workflows/**"
           ls -la workflows/ || true
 
+  validate-boot-security:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.security == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 🔐 SECURITY ALERT - Boot Configuration Changes Detected
+        run: |
+          echo "⚠️  CRITICAL: Boot/Security-related files were modified!"
+          echo ""
+          echo "Changed files:"
+          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E '(boot/|dracut/|grub/|hooks/|initramfs/|efi/|udev/|systemd/|grubenv|grub\.cfg|bootorder|\.conf)' || git diff --name-only HEAD origin/${{ github.base_ref }} 2>/dev/null | grep -E '(boot/|dracut/|grub/|hooks/|initramfs/|efi/|udev/|systemd/|grubenv|grub\.cfg|bootorder|\.conf)' || true
+          echo ""
+          
+      - name: Validate boot configurations
+        run: |
+          echo "📋 Checking for suspicious patterns..."
+          
+          # Check for unauthorized GRUB modifications
+          if git diff HEAD~1 HEAD 2>/dev/null | grep -E '\+.*GRUB_CMDLINE_LINUX.*root='; then
+            echo "⚠️  Root parameter changed - review required"
+          fi
+          
+          # Check for bootorder changes
+          if git diff HEAD~1 HEAD 2>/dev/null | grep -E '\+.*bootorder'; then
+            echo "⚠️  Boot order modified - verify authenticity"
+          fi
+          
+          # Check for hook modifications
+          if git diff HEAD~1 HEAD 2>/dev/null | grep -E '\.hook|/hooks/' | grep -E '^\+'; then
+            echo "⚠️  ALPM hooks modified - verify for tampering"
+          fi
+          
+          # Check for dracut changes
+          if git diff HEAD~1 HEAD 2>/dev/null | grep -E 'dracut|initramfs' | grep -E '^\+'; then
+            echo "⚠️  Initramfs configuration changed - kernel modification detected"
+          fi
+          
+          # Check EFI/Secure Boot changes
+          if git diff HEAD~1 HEAD 2>/dev/null | grep -E 'efi|secboot|mokutil' | grep -E '^\+'; then
+            echo "⚠️  EFI/Secure Boot configuration changed"
+          fi
+          
+          echo "✓ Boot security scan complete"
+      
+      - name: Post security comment
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '🔐 **Security Check Required**\n\nThis PR modifies boot, GRUB, dracut, or system configuration files.\n\n**Manual review required for:**\n- Bootloader changes\n- Kernel parameters (GRUB_CMDLINE_LINUX)\n- Boot order modifications\n- ALPM hooks\n- EFI/Secure Boot settings\n\nPlease verify all changes are intentional and signed.'
+            })
+
   summary:
     needs: [detect-changes]
     runs-on: ubuntu-latest
@@ -132,3 +225,4 @@ jobs:
           echo "- rules: ${{ needs.detect-changes.outputs.rules }}"
           echo "- skills: ${{ needs.detect-changes.outputs.skills }}"
           echo "- workflows: ${{ needs.detect-changes.outputs.workflows }}"
+          echo "- 🔐 **boot/security**: ${{ needs.detect-changes.outputs.security }}"
