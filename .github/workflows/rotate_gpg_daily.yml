@@ -164,6 +164,7 @@ jobs:
 
       - name: Commit and push
         if: steps.test_sign.outputs.sign_ok == 'true' && steps.verify_sig.outputs.verify_ok == 'true'
+        id: commit_push
         env:
           GIT_AUTHOR_NAME: "Copilot"
           GIT_AUTHOR_EMAIL: "223556219+Copilot@users.noreply.github.com"
@@ -176,7 +177,62 @@ jobs:
             git add .github/gpg-rotation-records/
             git commit -m "chore: rotate GPG signing key - $(date +%Y-%m-%d)"
             git push
+            echo "commit_pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "commit_pushed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Notify Telegram (Success)
+        if: steps.commit_push.outputs.commit_pushed == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          NEW_KEY_FP: ${{ steps.derive_key.outputs.new_key_fp }}
+          EXPIRE_DATE: ${{ steps.derive_key.outputs.expire_date }}
+          ROOT_FP: ${{ steps.gpg_import.outputs.fingerprint }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          WORKFLOW_RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          
+          MSG="🔄 *GPG Key Rotation — Success*%0A%0A"
+          MSG="${MSG}📅 Date: $(date -u +%Y-%m-%d\ %H:%M:%SZ)%0A"
+          MSG="${MSG}🔑 Root: \`${ROOT_FP:0:16}...\`%0A"
+          MSG="${MSG}🆕 Daily: \`${NEW_KEY_FP:0:16}...\`%0A"
+          MSG="${MSG}⏰ Expires: ${EXPIRE_DATE}%0A%0A"
+          MSG="${MSG}✅ Signature & Verification: OK%0A"
+          MSG="${MSG}📦 Record: Committed%0A%0A"
+          MSG="${MSG}[View Workflow](${WORKFLOW_RUN})"
+          
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHANNEL_ID}" \
+            -d "text=${MSG}" \
+            -d "parse_mode=Markdown" \
+            -d "disable_web_page_preview=true" | jq '.ok' > /dev/null
+          
+          echo "✅ Telegram notification sent"
+
+      - name: Notify Telegram (Failure)
+        if: failure() && steps.test_sign.outputs.sign_ok != 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          WORKFLOW_RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          
+          MSG="❌ *GPG Key Rotation — Failed*%0A%0A"
+          MSG="${MSG}📅 Date: $(date -u +%Y-%m-%d\ %H:%M:%SZ)%0A"
+          MSG="${MSG}⚠️  Signing or verification failed%0A%0A"
+          MSG="${MSG}[Check Workflow](${WORKFLOW_RUN})"
+          
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHANNEL_ID}" \
+            -d "text=${MSG}" \
+            -d "parse_mode=Markdown" \
+            -d "disable_web_page_preview=true" | jq '.ok' > /dev/null
+          
+          echo "📢 Failure notification sent to Telegram"
 
       - name: Job Summary
         if: always()
