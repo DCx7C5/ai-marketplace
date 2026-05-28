@@ -1,0 +1,150 @@
+version: 2
+
+updates:
+  # Python dependencies
+  - package-ecosystem: "pip"
+    directory: "/mcps/create-tempemail-mcp"
+    schedule:
+      interval: "daily"
+      time: "03:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  - package-ecosystem: "pip"
+    directory: "/mcps/token-optimization-mcp"
+    schedule:
+      interval: "daily"
+      time: "03:15"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  - package-ecosystem: "pip"
+    directory: "/skills/devel-jb-mcp-builder/scripts"
+    schedule:
+      interval: "daily"
+      time: "03:30"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  # NPM dependencies in vendor sources
+  - package-ecosystem: "npm"
+    directory: "/mcps/sources/npm-at_cyanheads__git-mcp-server"
+    schedule:
+      interval: "daily"
+      time: "04:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  - package-ecosystem: "npm"
+    directory: "/mcps/sources/npm-at_e2b__mcp-server"
+    schedule:
+      interval: "daily"
+      time: "04:15"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  - package-ecosystem: "npm"
+    directory: "/mcps/sources/npm-at_e2b__mcp-server/packages/js"
+    schedule:
+      interval: "daily"
+      time: "04:30"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  - package-ecosystem: "npm"
+    directory: "/mcps/sources/npm-at_modelcontextprotocol__server-brave-search/package"
+    schedule:
+      interval: "daily"
+      time: "04:45"
+      timezone: "UTC"
+    open-pull-requests-limit: 3
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "dependencies"
+      - "security"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "fix(deps):"
+      include: "scope"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "05:00"
+      timezone: "UTC"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "DCx7C5"
+    labels:
+      - "ci/cd"
+      - "github-actions"
+    allow:
+      - dependency-type: "all"
+    commit-message:
+      prefix: "ci:"
+      include: "scope"

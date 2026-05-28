@@ -1,0 +1,107 @@
+name: Security Audit
+
+on:
+  schedule:
+    # Run daily at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'mcps/**/requirements.txt'
+      - 'mcps/**/package.json'
+      - 'skills/**/requirements.txt'
+      - 'package.json'
+      - '.github/workflows/security-audit.yml'
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  audit-python:
+    runs-on: ubuntu-latest
+    name: Audit Python Dependencies
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install safety
+        run: pip install --upgrade safety
+      
+      - name: Audit mcps/create-tempemail-mcp
+        continue-on-error: true
+        run: |
+          echo "🔍 Scanning mcps/create-tempemail-mcp/requirements.txt"
+          safety check --file mcps/create-tempemail-mcp/requirements.txt --json 2>/dev/null || true
+      
+      - name: Audit mcps/token-optimization-mcp
+        continue-on-error: true
+        run: |
+          echo "🔍 Scanning mcps/token-optimization-mcp/requirements.txt"
+          safety check --file mcps/token-optimization-mcp/requirements.txt --json 2>/dev/null || true
+      
+      - name: Audit skills/devel-jb-mcp-builder
+        continue-on-error: true
+        run: |
+          echo "🔍 Scanning skills/devel-jb-mcp-builder/scripts/requirements.txt"
+          safety check --file skills/devel-jb-mcp-builder/scripts/requirements.txt --json 2>/dev/null || true
+
+  audit-npm:
+    runs-on: ubuntu-latest
+    name: Audit NPM Dependencies
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Audit mcps/sources/npm-at_cyanheads__git-mcp-server
+        continue-on-error: true
+        run: |
+          if [ -f "mcps/sources/npm-at_cyanheads__git-mcp-server/package.json" ]; then
+            cd mcps/sources/npm-at_cyanheads__git-mcp-server
+            echo "🔍 Scanning npm-at_cyanheads__git-mcp-server"
+            npm audit --json 2>/dev/null | jq '.vulnerabilities | length' || true
+          fi
+      
+      - name: Audit mcps/sources/npm-at_e2b__mcp-server
+        continue-on-error: true
+        run: |
+          if [ -f "mcps/sources/npm-at_e2b__mcp-server/package.json" ]; then
+            cd mcps/sources/npm-at_e2b__mcp-server
+            echo "🔍 Scanning npm-at_e2b__mcp-server"
+            npm audit --json 2>/dev/null | jq '.vulnerabilities | length' || true
+          fi
+      
+      - name: Audit npm-at_e2b__mcp-server/packages/js
+        continue-on-error: true
+        run: |
+          if [ -f "mcps/sources/npm-at_e2b__mcp-server/packages/js/package.json" ]; then
+            cd mcps/sources/npm-at_e2b__mcp-server/packages/js
+            echo "🔍 Scanning npm-at_e2b__mcp-server/packages/js"
+            npm audit --json 2>/dev/null | jq '.vulnerabilities | length' || true
+          fi
+
+  vulnerability-summary:
+    runs-on: ubuntu-latest
+    name: Security Summary
+    if: always()
+    steps:
+      - name: 📊 Security Status
+        run: |
+          echo "## Security Audit Summary"
+          echo ""
+          echo "✅ Dependabot enabled for:"
+          echo "- Python (pip): mcps/create-tempemail-mcp, mcps/token-optimization-mcp, skills/devel-jb-mcp-builder"
+          echo "- NPM: mcps/sources/* packages"
+          echo "- GitHub Actions"
+          echo ""
+          echo "📅 Dependabot runs daily (03:00 UTC)"
+          echo "🔔 PRs auto-created for vulnerable updates"
+          echo "👤 Reviews assigned to: @DCx7C5"
