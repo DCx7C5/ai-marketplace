@@ -187,7 +187,7 @@
     {
       "package": "youtube-mcp",
       "status": "cloned",
-      "target_dir": "/home/daen/Projects/ai-marketplace/mcps/sources/npm-youtube-mcp",
+      "target_dir": "/home/daen/Projects/ai-marketplace/mcps/npm-youtube-mcp",
       "source": "https://github.com/kenji200056/youtube_mcp.git"
     }
   ],
