@@ -1,7 +1,6 @@
 ---
-title: "Worktree create post-hook"
-event: "postToolUse"
-matcher: "(?is).*\\bgit\\b.*\\bworktree\\s+add\\b.*"
+apply: off
+instructions:
 ---
 After creating a worktree:
 1. Verify `git worktree list` includes the new path.

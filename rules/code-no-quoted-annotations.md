@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Never quote annotations"
-rule: "never quote type annotations"
+apply: off
+instructions:
 ---
+never quote type annotations

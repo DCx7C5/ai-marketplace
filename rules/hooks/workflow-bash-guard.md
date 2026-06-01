@@ -1,7 +1,6 @@
 ---
-title: "Bash workflow guard"
-event: "preToolUse"
-matcher: "^bash$"
+apply: off
+instructions:
 ---
 For todo/task/phase execution via bash:
 

@@ -1,7 +1,6 @@
 ---
-title: "Todo workflow entrypoint"
-event: "userPromptSubmitted"
-matcher: "(?i).*(\\btodo\\b|workflow 1|pre-todo|post-todo).*"
+apply: off
+instructions:
 ---
 Apply **WORKFLOW 1 (single TODO)** from `.plan/development-workflow.md` using strict PRE → ACTIVE → POST order.
 

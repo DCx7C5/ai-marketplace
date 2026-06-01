@@ -1,7 +1,6 @@
 ---
-title: "Phase workflow checklist"
-event: "userPromptSubmitted"
-matcher: "(?i).*(\\bphase\\b|workflow 3|pre-phase|post-phase).*"
+apply: off
+instructions:
 ---
 Apply **WORKFLOW 3 (finish PHASE)** from `.plan/development-workflow.md`.
 

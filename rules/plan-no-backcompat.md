@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "No backwards compatibility"
-rule: "there is no backwards compatibility requirement"
+apply: off
+instructions:
 ---
+there is no backwards compatibility requirement

@@ -1,5 +1,5 @@
 ---
-priority: "CRITICAL"
-name: "Use pyright project"
-rule: "Run basedpyright with `--project pyrightconfig.json`."
+apply: off
+instructions:
 ---
+Run basedpyright with `--project pyrightconfig.json`.

@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Dataclass is legacy"
-rule: "`@dataclass` is legacy, and `@dataclass + ABC` is forbidden"
+apply: off
+instructions:
 ---
+`@dataclass` is legacy, and `@dataclass + ABC` is forbidden

@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Start app with manage.py"
-rule: "start app with `python manage.py ...`"
+apply: off
+instructions:
 ---
+start app with `python manage.py ...`

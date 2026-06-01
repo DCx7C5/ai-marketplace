@@ -1,7 +1,6 @@
 ---
-title: "SQL workflow guard"
-event: "preToolUse"
-matcher: "^sql$"
+apply: off
+instructions:
 ---
 When using SQL for todo/task/phase workflows, enforce these gates:
 

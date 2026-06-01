@@ -1,5 +1,5 @@
 ---
-priority: "CRITICAL"
-name: "Read nearest planning doc"
-rule: "Read the nearest local planning markdown first."
+apply: off
+instructions:
 ---
+Read the nearest local planning markdown first.

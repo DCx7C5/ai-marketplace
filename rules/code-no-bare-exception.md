@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "No bare Exception"
-rule: "never use bare `Exception`"
+apply: off
+instructions:
 ---
+never use bare `Exception`

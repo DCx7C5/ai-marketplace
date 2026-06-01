@@ -6,42 +6,35 @@
       "name": "agent-factory",
       "description": "> \"Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-re",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/AGENT_FACTORY.md"
     },
     {
       "name": "audiovideo-analyst",
       "description": "'Audio and video forensics specialist. Invoke for media metadata analysis,",
-      "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/audiovideo-analyst.md"
     },
     {
       "name": "certificate-analyst",
       "description": "Elite X.509  PKI forensics specialist. Invoke for certificate chain",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/certificate-analyst.md"
     },
     {
       "name": "code-reviewer",
       "description": "Comprehensive code review skill for TypeScript, JavaScript, Python, Swift,",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/code-reviewer.md"
     },
     {
       "name": "command-verifier",
       "description": "'Pure visual command safety inspector. Receives any command and outputs",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/command-verifier.md"
     },
     {
       "name": "cpp-developer",
       "description": "'C/C++ specialist \u2014 reverse engineering, exploit analysis, kernel module",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/cpp-developer.md"
     },
     {
@@ -55,119 +48,102 @@
       "name": "cybersec-analyst",
       "description": "'CVE lookup, IOC analysis, MITRE ATT&CK mapping, threat intelligence",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/cybersec-analyst.md"
     },
     {
       "name": "filesystem-analyst",
       "description": "'Linux filesystem forensics \u2014 timeline analysis (mtime/ctime/atime anomalies),",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/filesystem-analyst.md"
     },
     {
       "name": "firmware-analyst",
       "description": "'Expert firmware and hardware security analyst. Invoke for UEFIBIOS analysis",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/firmware-analyst.md"
     },
     {
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with high design",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/frontend-design.md"
     },
     {
       "name": "kernel-analyst",
       "description": "'Kernel module analysis, eBPF program inspection, firmware extraction,",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/kernel-analyst.md"
     },
     {
       "name": "layer2-specialist",
       "description": "'Pure OSI Layer 2 cybersecurity specialist. Invoke exclusively for Data",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer2-specialist.md"
     },
     {
       "name": "layer3-specialist",
       "description": "'Pure OSI Layer 3 cybersecurity specialist. Invoke exclusively for Network",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer3-specialist.md"
     },
     {
       "name": "layer4-specialist",
       "description": "'Elite pure OSI Layer 4 cybersecurity specialist. Invoke exclusively",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer4-specialist.md"
     },
     {
       "name": "layer5-specialist",
       "description": "'Elite pure OSI Layer 5 cybersecurity specialist. Invoke exclusively",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer5-specialist.md"
     },
     {
       "name": "layer6-specialist",
       "description": "'Pure OSI Layer 6 cybersecurity specialist. Invoke exclusively for Presentation",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer6-specialist.md"
     },
     {
       "name": "layer7-specialist",
       "description": "'Pure OSI Layer 7 cybersecurity specialist. Invoke exclusively for Application",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/layer7-specialist.md"
     },
     {
       "name": "logfile-analyst",
       "description": "'Linux log file forensics and event correlation specialist. Invoke for",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/logfile-analyst.md"
     },
     {
       "name": "memory-analyst",
       "description": "'Process memory inspection, injection detection, credential extraction,",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/memory-analyst.md"
     },
     {
       "name": "network-analyst",
       "description": "'Network traffic analysis, C2 detection, DNS anomalies, firewall rule",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/network-analyst.md"
     },
     {
       "name": "persistence-analyst",
       "description": "'Persistence mechanism hunting \u2014 startup scripts, systemd units, cron",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/persistence-analyst.md"
     },
     {
       "name": "postgres-db-engineer",
       "description": "Elite PostgreSQL Database Engineer + Professional Administrator (18+",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/postgres-db-engineer.md"
     },
     {
       "name": "process-analyst",
       "description": "'Linux process forensics specialist. Invoke for live process enumeration,",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/process-analyst.md"
     },
     {
@@ -181,14 +157,12 @@
       "name": "python-developer",
       "description": "'Python development specialist \u2014 write, debug, refactor, and review Python",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/python-developer.md"
     },
     {
       "name": "reverse-engineer",
       "description": "'Binary reverse engineering expert. Invoke for static and dynamic analysis",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/reverse-engineer.md"
     },
     {
@@ -202,49 +176,42 @@
       "name": "senior-frontend",
       "description": "Comprehensive frontend development skill for building modern, performant",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/senior-frontend.md"
     },
     {
       "name": "settings-analyst",
       "description": "'Linux system configuration and security settings analyst. Invoke for",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/settings-analyst.md"
     },
     {
       "name": "steganography-analyst",
       "description": "'Linux steganography detection and extraction specialist. Invoke when",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/steganography-analyst.md"
     },
     {
       "name": "threat-modeler",
       "description": "'STRIDE threat modeling, attack surface analysis, risk assessment, security",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/threat-modeler.md"
     },
     {
       "name": "token-optimizer",
       "description": "'Token-efficiency specialist for LLM context windows. Detects redundant",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/token-optimizer.md"
     },
     {
       "name": "vulnerability-scanner",
       "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/vuln-scanner.md"
     },
     {
       "name": "watchdog",
       "description": "A monitoring service that watches for changes to critical files and directories,",
       "model": "sonnet",
-      "maxTurns": 20,
       "file": "agents/watchdog.md"
     }
   ],

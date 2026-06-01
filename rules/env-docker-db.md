@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Use docker compose for databases"
-rule: "use docker compose to manage databases"
+apply: off
+instructions:
 ---
+use docker compose to manage databases

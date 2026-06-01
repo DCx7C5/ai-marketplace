@@ -1,3 +1,7 @@
+---
+apply: off
+instructions:
+---
 # Copilot Rule Markdown
 
 Markdown rule files in this directory are loaded by

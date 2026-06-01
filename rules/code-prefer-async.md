@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Prefer async Python"
-rule: "always prefer async Python whenever possible"
+apply: off
+instructions:
 ---
+always prefer async Python whenever possible

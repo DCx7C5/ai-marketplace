@@ -1,7 +1,6 @@
 ---
-title: "Workflow failure recovery"
-event: "postToolUseFailure"
-matcher: "^(sql|bash|task)$"
+apply: off
+instructions:
 ---
 A workflow-critical step failed.
 

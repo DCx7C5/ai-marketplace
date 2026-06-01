@@ -1,7 +1,6 @@
 ---
-title: "Task workflow checklist"
-event: "userPromptSubmitted"
-matcher: "(?i).*(\\btask\\b|workflow 2|pre-task|post-task).*"
+apply: off
+instructions:
 ---
 Apply **WORKFLOW 2 (finish TASK)** from `.plan/development-workflow.md`.
 

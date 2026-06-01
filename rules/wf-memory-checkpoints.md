@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Update memory and checkpoints"
-rule: "update `memory.md` and `checkpoints.md` at the end of every PHASE"
+apply: off
+instructions:
 ---
+update `memory.md` and `checkpoints.md` at the end of every PHASE

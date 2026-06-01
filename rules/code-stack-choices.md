@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Required stack choices"
-rule: "use the required stack choices"
+apply: off
+instructions:
 ---
+use the required stack choices

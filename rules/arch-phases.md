@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Planning hierarchy"
-rule: "planning hierarchy is always PHASE > TASK > TODO"
+apply: off
+instructions:
 ---
+planning hierarchy is always PHASE > TASK > TODO

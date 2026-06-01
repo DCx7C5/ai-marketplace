@@ -1,3 +1,7 @@
+---
+apply: off
+instructions:
+---
 # Hook-Specific Rules
 
 Markdown rule files in this directory are loaded by the hook-rule loader and

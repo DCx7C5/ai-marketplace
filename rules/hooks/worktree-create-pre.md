@@ -1,7 +1,6 @@
 ---
-title: "Worktree create pre-hook"
-event: "preToolUse"
-matcher: "(?is).*\\bgit\\b.*\\bworktree\\s+add\\b.*"
+apply: off
+instructions:
 ---
 Before creating a worktree:
 1. Use path `~/.copilot/session-state/<uuid>/wt<n>`.

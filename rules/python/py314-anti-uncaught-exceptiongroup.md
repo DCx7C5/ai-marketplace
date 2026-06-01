@@ -1,5 +1,5 @@
 ---
-priority: CRITICAL
-name: "Avoid uncaught exception groups"
-rule: "Do not let grouped async failures escape without explicit `except*` handling or clear propagation."
+apply: off
+instructions:
 ---
+Do not let grouped async failures escape without explicit `except*` handling or clear propagation.
