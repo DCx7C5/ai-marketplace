@@ -34,8 +34,8 @@ jobs:
         id: app_token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.GITHUB_APP_ID }}
-          private-key: ${{ secrets.GITHUB_APP_PRIVATE_KEY }}
+          client-id: ${{ secrets.DYSTOPIANBOT_CLIENT_ID }}
+          private-key: ${{ secrets.DYSTOPIANBOT_KEY }}
           owner: ${{ github.repository_owner }}
 
       - name: Check if v0.1.0 release exists
@@ -156,7 +156,6 @@ jobs:
           - [README](./README.md) — Project overview
           - [INSTALL.md](./INSTALL.md) — Installation guide
           - [CONTRIBUTING.md](./CONTRIBUTING.md) — Contribution guidelines
-          - [Daily Key Rotation](./DAILY_KEY_ROTATION.md) — Security workflows
           
           ## 🔐 Security
           

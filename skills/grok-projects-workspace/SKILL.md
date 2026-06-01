@@ -1,5 +1,5 @@
 ---
-name: grok-projects-scope
+name: grok-projects-workspace
 description: Use for grok-projects-workspace, projects scope, clone workspace repo, sync worktree with main repo, commit and push changes. Activate when user mentions grok-projects-workspace or wants consistent workspace across chats.
 ---
 
