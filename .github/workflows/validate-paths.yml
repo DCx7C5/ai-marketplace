@@ -54,7 +54,7 @@ jobs:
       boot: ${{ steps.changes.outputs.boot }}
       security: ${{ steps.changes.outputs.security }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
       
@@ -105,7 +105,7 @@ jobs:
     if: needs.detect-changes.outputs.agents == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Validate agents
         run: |
           echo "🔍 Validating agents/**"
@@ -116,7 +116,7 @@ jobs:
     if: needs.detect-changes.outputs.mcps == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Validate MCPs
         run: |
           echo "🔍 Validating mcps/**"
@@ -127,7 +127,7 @@ jobs:
     if: needs.detect-changes.outputs.rules == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Validate rules
         run: |
           echo "🔍 Validating rules/**"
@@ -138,7 +138,7 @@ jobs:
     if: needs.detect-changes.outputs.skills == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Validate skills
         run: |
           echo "🔍 Validating skills/**"
@@ -149,7 +149,7 @@ jobs:
     if: needs.detect-changes.outputs.workflows == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Validate workflows
         run: |
           echo "🔍 Validating workflows/**"
@@ -160,7 +160,7 @@ jobs:
     if: needs.detect-changes.outputs.security == 'true'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: 🔐 SECURITY ALERT - Boot Configuration Changes Detected
         run: |
           echo "⚠️  CRITICAL: Boot/Security-related files were modified!"
