@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "access-rbac-audit",
+      "path": "identity/access/rbac/audit",
+      "description": "Apply bottom-up and top-down role mining techniques to discover optimal RBAC roles from existing user-permission assignments, reducing role explosion and enforcing least privilege.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e7d2e1c32cd2592dd173c872f3d81ea44f8b297ab405ced6fe69bf30900a1aedc12e1f5ca1d06cfd6bd48e82d170d481eb7b93ba112bed5aedf6a1eb17d8f30a",
+      "file": "skills/identity/access/rbac/audit/SKILL.md"
+    }
+  ]
+}

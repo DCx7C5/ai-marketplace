@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "leak",
+      "description": "skill directory index",
+      "sha512": "31ba05f29c47cb388a24b588aa2d4aa8ebfe7ea7408b70a67bd96734d12416bda5c51c0d64b623c59a4c48bc07b1ef8f1d61672e9088d67107ccbe7790c14fc2",
+      "file": "skills/windows/processes/handle/leak/index.json"
+    }
+  ]
+}

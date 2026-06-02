@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-policy",
+      "path": "cloud-devsecops-policy",
+      "description": "Cloud Devsecops Policy.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac58b45bf48438b5c51b5ad6a6804cfd2ea038ce7b1ceea5ee0b95411b00a370c3345001b0774c1b081c1a2ea55abb39d102565dbf3c8dbb6f1639c51a1f5f09",
+      "file": "skills/cloud-devsecops-policy/SKILL.md"
+    }
+  ]
+}

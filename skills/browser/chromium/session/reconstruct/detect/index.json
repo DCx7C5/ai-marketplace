@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chromium-session-reconstruct-detect",
+      "path": "browser/chromium/session/reconstruct/detect",
+      "description": "Reconstruct Chromium browsing sessions from Session and Tabs files to identify open tabs, navigation history, and form data at time of forensic acquisition.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d986e39dbaccce47923f6dd2529e7446992d323fed30019e29ec1367d684cfd9d87cb9a78c9d55499375d7c6f2ca19da021130b8b563ff511c1a2f512f44b3d5",
+      "file": "skills/browser/chromium/session/reconstruct/detect/SKILL.md"
+    }
+  ]
+}

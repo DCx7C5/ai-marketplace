@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-workflow",
+      "path": "devel-jb-gws-workflow",
+      "description": "-| | [`+standup-report`](../gws-workflow-standup-report/SKILL.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "eb27f6ea28c744cfe923b40abd2147f94533c450bc99346a390609ce7e28f5734928de9d6603e1c4bde31ba1d18ef0d024fe5e9336e795471dba694225911888",
+      "file": "skills/devel-jb-gws-workflow/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "0d2d90ea85e33c55359762a296d353c2cc8df784282934ab6672696c28372fc791b5dabe7532f51ddc1ff3ee0671ed04af641c5f3c1e952059d1b4e1c04d8d78",
+      "file": "skills/network/lateral-movement/detection-splunk/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0de357298dea6d7f4072d0b57c4419a27988c8d6c4d7e6c91f2dfba7645a78001d5bd82cbacd421e1f44d9cc07f9233cd75f4a37e10044f4d7f69fbc8c2faab5",
+      "file": "skills/network/lateral-movement/detection-splunk/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "517bb6402a05905ac79e4f689b556d5e6890a20c50d6ec4369a4421f86c04ca07b5396ad69f8599e64d0efccafe8a11e3a58aeeaf57b3a31c6d64b522d3524e2",
+      "file": "skills/network/lateral-movement/detection-splunk/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "bf9ea926da90cc575cd311f56205370edbdf72a2c0b73ed7b7b3616c6734681e7a86576c3f96ae09d37a75531a4743a6d11fbdc48c6d2df2ae02dbf295c84b3e",
+      "file": "skills/network/lateral-movement/detection-splunk/scripts/index.json"
+    }
+  ]
+}

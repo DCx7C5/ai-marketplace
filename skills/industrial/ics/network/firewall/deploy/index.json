@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-network-firewall-deploy",
+      "path": "industrial/ics/network/firewall/deploy",
+      "description": "Deploy and configure Tofino industrial firewalls from Belden/Hirschmann to protect SCADA systems and PLCs using deep packet inspection for OT protocols including Modbus, EtherNet/IP, OPC, and S7comm, ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f42686d9024ae405f295e2677fdb98df66d760b533f5de99e3a57a8673ccd142e0cd85a93686c53368e972d0181f11587a963fd53bc7fb63a4859ba25761b750",
+      "file": "skills/industrial/ics/network/firewall/deploy/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "02f3dd667457009102c28f687b4839125d13760f9081007b13052ac81efe63f17ce9296177c37563be72c079021e5d97a5301f76aaabe3ba78582d11d413357b",
+      "file": "skills/industrial/ics/network/firewall/deploy/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "be36abbc33f93d2073dd6c6a05643b0b7323be75c77217cf1abbcda045576b5445dbe53f1a2e113d03e700eeb94bfd4cd029692c0b967a88bc22d43882ccd6d8",
+      "file": "skills/industrial/ics/network/firewall/deploy/scripts/index.json"
+    }
+  ]
+}

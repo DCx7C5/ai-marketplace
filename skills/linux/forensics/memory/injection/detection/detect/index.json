@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-memory-injection-detection-detect",
+      "path": "linux/forensics/memory/injection/detection/detect",
+      "description": "Detects and analyzes process injection techniques used by malware including classic DLL injection, process hollowing, APC injection, thread hijacking, and reflective loading. Uses memory forensics, AP",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "939ed87edfe98eca3ae175bc5ea66f2e32022ec18235bccb3ae5d4be753052e9212974f50d9ddbc0fb890e1531912d53469aff2e272eed44f7fd2b7bb363112c",
+      "file": "skills/linux/forensics/memory/injection/detection/detect/SKILL.md"
+    }
+  ]
+}

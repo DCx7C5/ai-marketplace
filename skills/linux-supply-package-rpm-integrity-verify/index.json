@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-supply-package-rpm-integrity-verify",
+      "path": "linux-supply-package-rpm-integrity-verify",
+      "description": "subdomain: supply-chain-security tags: - linux - rpm - redhat - package - integrity - verify nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b5d1feef276390d19d1d98c46ac280f73ea20867c437762f57279817135c9dd2e2dc9d8e3e21eeaabc026fc062e8ddd23c4694fead72e7917d3e553cd79edaa7",
+      "file": "skills/linux-supply-package-rpm-integrity-verify/SKILL.md"
+    }
+  ]
+}

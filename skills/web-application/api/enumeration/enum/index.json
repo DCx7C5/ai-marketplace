@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-enumeration-enum",
+      "path": "web-application/api/enumeration/enum",
+      "description": "Detect and prevent API enumeration attacks including BOLA and IDOR exploitation by monitoring sequential identifier access patterns and authorization failures.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2a6dba808036dd0eedf2bdadbfbc99b2c26a1640e1009aaba4a678c619ae5372a9fa98068add84cf23b73aadfdb47e149d92180a9b0b0d5a44bbc26985bf1608",
+      "file": "skills/web-application/api/enumeration/enum/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chrome-password",
+      "path": "browser-chrome-password",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3827d79b1c342574da4f56d6775bdd809602182cfee70397ef41e41aa2cdbff7b08be411a1bc6b4a5ad46671930f0884a749f81d9021dcd32305d141ebdfe022",
+      "file": "skills/browser-chrome-password/SKILL.md"
+    }
+  ]
+}

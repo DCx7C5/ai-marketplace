@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-security-data-protect",
+      "path": "cloud-security-data-protect",
+      "description": "Cloud Security Data Protect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "44a3658091e5c06c6715301068284e68f09c3a40aca7fbf676719c8828d7379b14aa6dbff42c6425f468a7363512c1f5dfb9f053689d90e241acb7bf5621899d",
+      "file": "skills/cloud-security-data-protect/SKILL.md"
+    }
+  ]
+}

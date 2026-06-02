@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "72249122998f1d2f39ae63f896206fb163e5f3eb5da095560c20b096654fef5e3c0938fcfbb4fc0ab53198fea64342163ea9e6b52cde63b942287b3c1355cff2",
+      "file": "skills/identity/serviceaccount/sarotation/assets/index.json"
+    },
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "41f19ad2bd40a7e8c0b69fe31f865e6ca8c8d57f517a6ad1798646a040c8cae7bd6b54aa83c94920663e0f6b66757d57bd86df76d07f06715797705dca4ae5ff",
+      "file": "skills/identity/serviceaccount/sarotation/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "949ef0267967d75e9349ad6ddc9d87fc6825945f9daa279ebfc0539cb3478c90300344717b2ae93ddc0a19d7c7bcc7d1a8a0ebcb0e6374708d1f4ca23361486b",
+      "file": "skills/identity/serviceaccount/sarotation/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "caa03131386911a33d5df94d1181141720990ef328872d65792f3ba3516f32d5287de48b8a46d4089acdc480c944dcea0d1ead4d99b43e96f6b1fc4858ea3ac8",
+      "file": "skills/identity/serviceaccount/sarotation/scripts/index.json"
+    }
+  ]
+}

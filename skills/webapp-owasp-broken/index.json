@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-owasp-broken",
+      "path": "webapp-owasp-broken",
+      "description": "--| | 1 | analytics.expired-domain.com | JavaScript | Domain available | Full XSS | | 2 | assets.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "697575b63a4ab5eb688ee0be26206a4dd369054686ae2542c5ed10870f0051ae14680f0e19f49b4b9f87ec7b34c8dbb8cd5773a10413c0844c2f9e03f34dfde3",
+      "file": "skills/webapp-owasp-broken/SKILL.md"
+    }
+  ]
+}

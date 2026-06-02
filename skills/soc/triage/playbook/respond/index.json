@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "triage-playbook-respond",
+      "path": "soc/triage/playbook/respond",
+      "description": "Classify and prioritize security incidents using structured IR playbooks to determine severity, assign response teams, and initiate appropriate response procedures.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6701db7cc17d739585f3525e1bf8099e132f8f8cf918c66c128d0f1a7bf0e14bf15b78b7c1d8bcd2ae355117456a91320faceec1a88e8f04b8e8d28bc735785d",
+      "file": "skills/soc/triage/playbook/respond/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis-iam-audit",
+      "path": "intel/analysis/iam/audit",
+      "description": "The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features - Adversary, Capability, Infrastructure, and Victim. This skill c",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "237cfecc1ebd028ab5aaff3722870aa98d83b9686041994f15a8bb3885048de4b1acb6195c36edd2248c373ecb08b840c6bae6e56f099d07532528821de03e5a",
+      "file": "skills/intel/analysis/iam/audit/SKILL.md"
+    }
+  ]
+}

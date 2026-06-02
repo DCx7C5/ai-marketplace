@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-injection-process-detect",
+      "path": "linux-forensic-mem-injection-process-detect",
+      "description": "Linux Forensic Mem Injection Process Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "705acedebf6ce4697e3c51fa2fdb7d45a2fb9541a70f6b16cb30b1e3ba5f9e5cb0290afb435c48ad022065cb576d50c4cccae80add6057cee3f5878603cf0214",
+      "file": "skills/linux-forensic-mem-injection-process-detect/SKILL.md"
+    }
+  ]
+}

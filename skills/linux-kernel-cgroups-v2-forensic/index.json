@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-cgroups-v2-forensic",
+      "path": "linux-kernel-cgroups-v2-forensic",
+      "description": "| | `release_agent` with script payload | T1611 \u2014 Escape to Host | | Process bypassing cgroup limits | T1055 \u2014 Process Injection | | Service registered in cgroup without systemd unit | T1543.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "796e2f650e17d43a90d5afbb641e4e09f85762b968811ca056b050e7a518fb727f9fa2354828931be0a087c60def8d3451ab4708ae8f33d7bf99054382093059",
+      "file": "skills/linux-kernel-cgroups-v2-forensic/SKILL.md"
+    }
+  ]
+}

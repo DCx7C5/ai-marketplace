@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-investigation",
+      "path": "email-phishing-investigation",
+      "description": "Email Phishing Investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d30bc351dc94aeaba84a0884b7b2ac77b304989de96f6c14780314db199e3b28aebbe8fc237112e3a70595ceecd2ddad1685a6e378e5aa3e8bf4863f9d873721",
+      "file": "skills/email-phishing-investigation/SKILL.md"
+    }
+  ]
+}

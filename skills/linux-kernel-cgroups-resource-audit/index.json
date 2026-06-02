@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-cgroups-resource-audit",
+      "path": "linux-kernel-cgroups-resource-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7fdd4e4552005f06fb9c64e7cae272e5dde6781b0407e87b8f0d2f8be885ea880e4e859f14c2890a2226eb6411dd6142bd515334ad0ac16ffdb792b2e9013ff9",
+      "file": "skills/linux-kernel-cgroups-resource-audit/SKILL.md"
+    }
+  ]
+}

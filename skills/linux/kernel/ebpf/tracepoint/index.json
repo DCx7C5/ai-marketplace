@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "828f97d1f6f5bef0be643db931f65bca387482964a93321f61cd68012e1f4dcad7f7d27e510670b08e4991db979bbf89cb460c1ff1c12726fe75491746912b0d",
+      "file": "skills/linux/kernel/ebpf/tracepoint/deploy/index.json"
+    }
+  ]
+}

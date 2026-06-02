@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-analysis-volatile-forensic",
+      "path": "linux-forensic-disk-analysis-volatile-forensic",
+      "description": "Linux Forensic Disk Analysis Volatile Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4c55f06ffa2a08a78b7051462a32d039e2e45d178e567109e298a6d84febf330255397de54e6b03346e7327e318dfa0db8c3a81556cc7d9de572765bc9b31b9",
+      "file": "skills/linux-forensic-disk-analysis-volatile-forensic/SKILL.md"
+    }
+  ]
+}

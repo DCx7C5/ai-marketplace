@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-net",
+      "path": "net-traffic-net",
+      "description": "- [MITRE ATT&CK T1071 - Application Layer Protocol](https://attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fa4315ab1d11c27dd419a2be71739b1f908878522c323baf39729568f05e400261d3c288537b1f29f1470c1721f999e712111473b6a7a997532917876287934c",
+      "file": "skills/net-traffic-net/SKILL.md"
+    }
+  ]
+}

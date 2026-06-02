@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-scada-hmi-assess-audit",
+      "path": "industrial/ics/scada/hmi/assess/audit",
+      "description": "Perform security assessments of SCADA Human-Machine Interface (HMI) systems to identify vulnerabilities in web-based HMIs, thin-client configurations, authentication mechanisms, and communication chan",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fe0ccddb9394dbfb28d0cd11001b8d4d996e42adc3adaf0d4c6489346246bb4637c3ef7e75c8197605ce48c8c5b7cedb9421636babb1efc7665fd047ae736eaf",
+      "file": "skills/industrial/ics/scada/hmi/assess/audit/SKILL.md"
+    }
+  ]
+}

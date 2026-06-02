@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ad598a17944c4e92e86ab0bd87c0e39a3170fc9288fddbc0cfd5abddc62e422eac497069182041c48d75a3cf3600892b7c8f7a8f25084f6774281d3369193102",
+      "file": "skills/cloud/aws/cwpp/detect/index.json"
+    }
+  ]
+}

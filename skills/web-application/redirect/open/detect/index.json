@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "redirect-open-detect",
+      "path": "web-application/redirect/open/detect",
+      "description": "Identify and test open redirect vulnerabilities in web applications by analyzing URL redirection parameters, bypass techniques, and exploitation chains for phishing and token theft.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "10664d61a5ffe99a38d21e9ce42769945f9d0f41b0e1872d6982e67064d5d90db24fbdab02ef7a7518156448391f17cf5155e57078600977958179f7aaa452d0",
+      "file": "skills/web-application/redirect/open/detect/SKILL.md"
+    }
+  ]
+}

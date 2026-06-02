@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-cli-e2e-test",
+      "path": "devel-jb-cli-e2e-test",
+      "description": "| | **Scope** | Skillshare project-specific E2E | General-purpose runbook authoring | | **Infrastructure** | Devcontainer, ssenv, binary build | None \u2014 format and assertions only | | **Config** | `ai_",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e908422d247d773d415e0770defe33302c7410a5b6cc1d800963ca06adacf922452e366d78de527616db2c11d2548430894c759e4b1a47c088d5ce82c484a8b",
+      "file": "skills/devel-jb-cli-e2e-test/SKILL.md"
+    }
+  ]
+}

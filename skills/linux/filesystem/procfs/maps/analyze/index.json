@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-procfs-maps-analyze",
+      "path": "linux/filesystem/procfs/maps/analyze",
+      "description": "Analyse /proc/<PID>/maps entries to identify memory-mapped libraries, anonymous executable regions, and injected code segments indicating process compromise.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "da66405f3375d6c39d2a371f8f09baa7f34dd25d1adf64eb9a37343b19c044082c73a333d65f8bba433ec31807df2ae41cea11c0732a5808e262933d59602e93",
+      "file": "skills/linux/filesystem/procfs/maps/analyze/SKILL.md"
+    }
+  ]
+}

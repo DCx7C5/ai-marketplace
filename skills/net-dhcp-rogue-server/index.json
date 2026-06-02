@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dhcp-rogue-server",
+      "path": "net-dhcp-rogue-server",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "903101996b38897327b780fc5ae85e96977ea0ccdf43872c697cefe6ed5e36ce3185b556f732ea854f5d0d29afca7d2c16ac7523f67458f5bd5dfda0aa4df376",
+      "file": "skills/net-dhcp-rogue-server/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rule",
+      "description": "skill directory index",
+      "sha512": "e6809e149d659a04e707e4c15e23a4bc583fbf489dfb76e966b4b4661ef452fbb4e185d345c6a4c94a5deb456ce0928b28a2b684ab300b945aed82aa6400b0b4",
+      "file": "skills/linux/services/udev/rule/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logging-sysmon",
+      "path": "windows-logging-sysmon",
+      "description": "Source: \\\\192.168.1.50 (remote creation)   MITRE: T1053.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c9a3e944c93bdf73781f0a2706658528bbda2465150466e977611e3afdf267611261554e18c5108f6c923370ed7c9de8739dba8f31a6950ad17c569627ca90ab",
+      "file": "skills/windows-logging-sysmon/SKILL.md"
+    }
+  ]
+}

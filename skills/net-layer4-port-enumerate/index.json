@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer4-port-enumerate",
+      "path": "net-layer4-port-enumerate",
+      "description": "--| | 45.33.32.156 | portscan | 12 | 00:15 | 23:47 | | 198.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "326795f571691c6094222ab5b56e646adebb0bb716c1a2581145d895eb178c6a935a73be8d206785de0e9d29c04591a4109133e54fa7b4433f68fd7e7e259859",
+      "file": "skills/net-layer4-port-enumerate/SKILL.md"
+    }
+  ]
+}

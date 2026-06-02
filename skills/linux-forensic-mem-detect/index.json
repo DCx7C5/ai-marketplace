@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-detect",
+      "path": "linux-forensic-mem-detect",
+      "description": "| | T1055 | Process Injection | | T1055.001 | Dynamic-link Library Injection | | T1055.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4e8fbd175291ea8b374bdcb0148aedea17fa28661870024b2339e42717c695e3aff989a96a1ba88a4722504ee300f91533d5d9f0bd186de50ccede1ea81b8df",
+      "file": "skills/linux-forensic-mem-detect/SKILL.md"
+    }
+  ]
+}

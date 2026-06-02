@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "platforms-mispshare-analyze",
+      "path": "intel/platforms/mispshare/analyze",
+      "description": "Use PyMISP to create, enrich, and share threat intelligence events on a MISP platform, including IOC management, feed integration, STIX export, and community sharing workflows.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c86c6172279506b9f0cccaaebda5777aaacf04688cf44983aad945c3ebd34178a2275cb07f7ecc71b7cb499f48f8cd1738449968fb380bf18bf06e5ed71ef209",
+      "file": "skills/intel/platforms/mispshare/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-design-prototype-review",
+      "path": "webapp-design-prototype-review",
+      "description": "--| | 1 | POST /api/merge __proto__ | EJS escapeFunction | Template render | RCE | | 2 | POST /api/profile __proto__ | isAdmin property | Auth middleware | Privilege Escalation | | 3 | URL ?",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "182f2a8c6bee12dd0a5abb8552c6fb40d6fa3e410f852c07781093908399647a3b0ecf8c3cb5e430161f6f12259b183533e0645ba56cae2044136d554de52f32",
+      "file": "skills/webapp-design-prototype-review/SKILL.md"
+    }
+  ]
+}

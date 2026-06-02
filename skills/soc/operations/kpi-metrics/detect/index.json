@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "operations-kpi-metrics-detect",
+      "path": "soc/operations/kpi-metrics/detect",
+      "description": "Builds SOC performance metrics and KPI tracking dashboards measuring Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), alert quality ratios, analyst productivity, and detection coverage using S",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e3ea3e162846a8e7335aff7cc0c10af684b4c72762eb2754d1f35e62404e26cbf7eefe29e320d3c0f209c774bcd852f5ce93f325b43fb0b753ae10409c39031f",
+      "file": "skills/soc/operations/kpi-metrics/detect/SKILL.md"
+    }
+  ]
+}

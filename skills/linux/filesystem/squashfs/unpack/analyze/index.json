@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-squashfs-unpack-analyze",
+      "path": "linux/filesystem/squashfs/unpack/analyze",
+      "description": "Unpack and analyze SquashFS images from AppImage, Snap packages, or embedded Linux \u2014 extract contents, verify integrity, and scan for malicious payloads.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "41f6062a7bd1a3c26c511362a196b67a5ce35d25e183f01426e94208466fdf97175cb8e80f070602cc90bcc03ac635c87bc7e78f080f19087dc3410e38168aa0",
+      "file": "skills/linux/filesystem/squashfs/unpack/analyze/SKILL.md"
+    }
+  ]
+}

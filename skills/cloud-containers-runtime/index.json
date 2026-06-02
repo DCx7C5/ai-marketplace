@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-runtime",
+      "path": "cloud-containers-runtime",
+      "description": "Cloud Containers Runtime.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "309b582aae5fd57425058840a6885a7e19d13eb8a4b88dae748bf9fa1657decbf25011dbb68dd036c2499445dc1764b9692c1d8d8c0a53c6c67d056be08614b8",
+      "file": "skills/cloud-containers-runtime/SKILL.md"
+    }
+  ]
+}

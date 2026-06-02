@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-operations-kpi-metrics",
+      "path": "soc-operations-kpi-metrics",
+      "description": "Soc Operations Kpi Metrics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d824c02d3f66967c08413b1bc3df185a36086e5266b9e5996af65cebc75b6f0541f49720af7d31343a9cefe1e2851baa11512b295ea1c901ccf4cd30f8f34a77",
+      "file": "skills/soc-operations-kpi-metrics/SKILL.md"
+    }
+  ]
+}

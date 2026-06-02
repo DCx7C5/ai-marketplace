@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "da4ed79f4fa8fc58b600cb09814622fb108f22d9e1a0afb7b0974a73389309d914ffa90a72ba1356bbe668951fa7a048048edbf4064889a92af1454423615051",
+      "file": "skills/soc/triage/web/harden/index.json"
+    }
+  ]
+}

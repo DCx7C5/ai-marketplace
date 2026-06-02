@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-keep",
+      "path": "devel-jb-gws-keep",
+      "description": "Use `gws schema` output to build your `--params` and `--json` flags.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8dccb116c0e09f9760b639f2940a44580caf98b52f164daf169ead10147d0f89584d3910a90c189441f304cd3fe2948f7600d93820a2daf2ee8c7b814195b158",
+      "file": "skills/devel-jb-gws-keep/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-graphql-assessment",
+      "path": "webapp-api-graphql-assessment",
+      "description": "Webapp Api Graphql Assessment.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "db96508b0993c99428302b3da40cb4d35b7deea4e731c37e3e1784af182894505b85eae239251eba4ff1b0cc41a431006df86b62f2129f8f7bc705a9fd729731",
+      "file": "skills/webapp-api-graphql-assessment/SKILL.md"
+    }
+  ]
+}

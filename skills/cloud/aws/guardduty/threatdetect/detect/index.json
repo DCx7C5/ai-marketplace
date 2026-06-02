@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-guardduty-threatdetect-detect",
+      "path": "cloud/aws/guardduty/threatdetect/detect",
+      "description": "This skill teaches security teams how to deploy and operationalize Amazon GuardDuty for continuous threat detection across AWS accounts and workloads. It covers enabling protection plans for S3, EKS, ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "05d3b928caa1fad7334621e1020cba24767b5bd4b89d4752e62bced1d54f60f71ce8275ee05edd6ad68e83ab4e6ed3d264c920672cfc592a5edfafc1bac7e42f",
+      "file": "skills/cloud/aws/guardduty/threatdetect/detect/SKILL.md"
+    }
+  ]
+}

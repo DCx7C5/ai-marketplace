@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-defense",
+      "path": "soc-hunting-defense",
+      "description": "- Create a test file and use a timestomping tool (e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "227b3ad2357426fb32334d3549aabb9699c4bee203d2a948b962c21b2e68112f548a7cfb136cfb19c1a4250c29ea5a7b2adc1da73d76dd898161afc166c442a1",
+      "file": "skills/soc-hunting-defense/SKILL.md"
+    }
+  ]
+}

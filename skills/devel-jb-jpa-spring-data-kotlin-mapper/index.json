@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-jpa-spring-data-kotlin-mapper",
+      "path": "devel-jb-jpa-spring-data-kotlin-mapper",
+      "description": "A bad run proposes mappings that look neat in Kotlin but violate JPA identity, proxy, or loading semantics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a521aa743e48f1b5a1986b37b4c28e5ac76b8493decf310333d0afa48e0305542903d2af34fb7baf4459c782b6a9a55749fb1afe3ebd744a4d68f0f73cd3da73",
+      "file": "skills/devel-jb-jpa-spring-data-kotlin-mapper/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "63ea918355199def409bd3358033daf3ea48f8b7f23082e5258996a054b851c1b3c2fa2eb5c27de24052f9e33a47129c033ecc6b9e76da7e0208b707aa4e6c93",
+      "file": "skills/devel-jb-jpa-spring-data-kotlin-mapper/agents/index.json"
+    }
+  ]
+}

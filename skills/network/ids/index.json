@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "snort",
+      "description": "skill directory index",
+      "sha512": "2babc9fd561d023da48192a239cb7dc7ed06a7b6c93b88ce91676a5e893296773ac4a0a86b30777dbe944128368a0c229f2b74f6bf059520d82954bbe8c33a76",
+      "file": "skills/network/ids/snort/index.json"
+    },
+    {
+      "name": "suricata",
+      "description": "skill directory index",
+      "sha512": "10901b675ba3087fc2fa702684645b300d230f496be9ec38e719b94e1dffbc7b6bfe30dcac533cde3760ce7166f0b7a4745652ae88a1d089773343ab3d917e02",
+      "file": "skills/network/ids/suricata/index.json"
+    },
+    {
+      "name": "suricataips",
+      "description": "skill directory index",
+      "sha512": "c9498e3ce14ecbcd02bea8e1aaab112b00cfea16164ff528ea58d616e755d5da9145d3c3cfe5388ac5094db667c522f248b85cbfe7559d619d044b94b99541d4",
+      "file": "skills/network/ids/suricataips/index.json"
+    },
+    {
+      "name": "wazuh",
+      "description": "skill directory index",
+      "sha512": "d74358f291ca7f0448c704781f87b98668599c3c045cefa1221efe60a2ef6a7345ebbf302ebf507eac8dce52b1d8db4e3dc8a860a9ce7978c24e90637401aeec",
+      "file": "skills/network/ids/wazuh/index.json"
+    }
+  ]
+}

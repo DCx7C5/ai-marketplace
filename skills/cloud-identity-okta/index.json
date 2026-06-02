@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-identity-okta",
+      "path": "cloud-identity-okta",
+      "description": "Cloud Identity Okta.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9bdc327a8cac48d3f2f7bcd8d8366c7272a188e5ab57d94f3b2174911351bc582543cfde506382bade0a140298b3830bdb98417b05dfa915a1f46a1deb0b71c4",
+      "file": "skills/cloud-identity-okta/SKILL.md"
+    }
+  ]
+}

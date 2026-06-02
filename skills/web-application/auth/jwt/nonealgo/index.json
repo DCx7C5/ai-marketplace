@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "46dd967f590779246219de9d4b3405438db6f038e4fc17d4ea3d289be5a95204011244531afb5b0268e6039e07eeda3d6932fc79b8ffec7c0cf31b170b3739ea",
+      "file": "skills/web-application/auth/jwt/nonealgo/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ee6531520be026a0cecc473efda84e25492c815d38136204ca914211250effe53c2c59c76c342d61e4b9e5a827a4d90752c0ce58ebb5c6a4d51da4722d1ac091",
+      "file": "skills/web-application/auth/jwt/nonealgo/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2e0868c23b2e5e9869d1cb9acd294f6efd07f4aedfc4d12dd126bdaeafdb65f8080d953228499c6e3dce54d1f434e3ad319db96be6b14df499f8d53001ab4e89",
+      "file": "skills/web-application/auth/jwt/nonealgo/scripts/index.json"
+    }
+  ]
+}

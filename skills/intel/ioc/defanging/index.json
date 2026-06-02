@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0c73fb558aebab5503275568322fe465bb1428a8d2290aa0fb4b9bcdf7c58381aa9dadfc7a449cbab9fb2d47bd720afe54b1346c14e1509bb887b4847747d313",
+      "file": "skills/intel/ioc/defanging/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "unpack",
+      "description": "skill directory index",
+      "sha512": "ae1c14b333d121f619e033384fceb482b5cdcac4933b2d9688ee85ddefcdfcfe825666f0462293d1c677d4e5addc89c30cbfcc3611da6acadae0333671664bd2",
+      "file": "skills/linux/filesystem/squashfs/unpack/index.json"
+    }
+  ]
+}

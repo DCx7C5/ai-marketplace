@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-helm",
+      "path": "cloud-containers-helm",
+      "description": "apiVersion: rbac.authorization.k8s.io/v1 kind: RoleBinding metadata:   namespace: production subjects:   - kind: ServiceAccount     namespace: production roleRef:   kind: Role   apiGroup: rbac.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3745b62779a0c065aaee2ba0a03fceef91046931462767377bd2df352cf65fe11c0df00ff90ad8ecd6f58aa3826d70b37e05272f8aac724a8c44ea90dd640f75",
+      "file": "skills/cloud-containers-helm/SKILL.md"
+    }
+  ]
+}

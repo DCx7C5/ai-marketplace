@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-coredump-artifact-collect",
+      "path": "linux-fs-coredump-artifact-collect",
+      "description": "subdomain: filesystem-forensics tags: - linux - coredump - core-dump - artifact - forensics nist_csf: - RS.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b9fc225bc368dae48f2e0dd3594be0390defd54e245353950c18ddfefc53fcb4b5555e9d4593fa0f23006d034ebdae405be1026e1a27aaae208d4da32eca064",
+      "file": "skills/linux-fs-coredump-artifact-collect/SKILL.md"
+    }
+  ]
+}

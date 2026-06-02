@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "passthehash",
+      "description": "skill directory index",
+      "sha512": "d55c74ed3ead2042fee23c076a01eb3eb82bb83b85f9a3c099c6943ebc4ccf3853c4bc53f4135c5b1d95e94a4890a3e6fbe0a8a50f9c1c5293dde3d8b7af96f8",
+      "file": "skills/identity/ntlm/passthehash/index.json"
+    }
+  ]
+}

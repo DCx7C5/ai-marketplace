@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "f42686d9024ae405f295e2677fdb98df66d760b533f5de99e3a57a8673ccd142e0cd85a93686c53368e972d0181f11587a963fd53bc7fb63a4859ba25761b750",
+      "file": "skills/industrial/ics/network/firewall/deploy/index.json"
+    }
+  ]
+}

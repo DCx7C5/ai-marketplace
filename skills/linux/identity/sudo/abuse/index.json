@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "a28a33105b7ab9a1de98ac944547788c5354f136245362bbdcfff1b527e11dfd52bd5d5590844944b0293a92a63fd75022dcf0417bf4bc4a259abc002187ac90",
+      "file": "skills/linux/identity/sudo/abuse/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-honeytoken",
+      "path": "identity-ad-honeytoken",
+      "description": "Identity Ad Honeytoken.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1d35487b7d5019fb113908cb4eaa397b7f7c5287352eb4c21a0810e473142886674e201a2613747ab8553ecbb0d5144a9ce5bc8ce5096fe5ff39c0f3c39ef7e",
+      "file": "skills/identity-ad-honeytoken/SKILL.md"
+    }
+  ]
+}

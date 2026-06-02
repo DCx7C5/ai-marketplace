@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hidden",
+      "description": "skill directory index",
+      "sha512": "0a1635e3bcf5216441752c6e923d6a3e51f1ca991d43b9e6464daf0c6d17c7585aee74513a4d6422cdc57f804322885cccc2aa57ec4452c6dd113025d62f54a3",
+      "file": "skills/linux/processes/daemon/hidden/index.json"
+    }
+  ]
+}

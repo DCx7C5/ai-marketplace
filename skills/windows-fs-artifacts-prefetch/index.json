@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-prefetch",
+      "path": "windows-fs-artifacts-prefetch",
+      "description": "Windows Fs Artifacts Prefetch.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0c059d02f71497132fd7a6cdbac527f644f8842eb9ed4671ec7fbd0b0fc11a307f56219f4fe849fcb8914f02029133bb807f243cf6ac562285d5f4008473d1d",
+      "file": "skills/windows-fs-artifacts-prefetch/SKILL.md"
+    }
+  ]
+}

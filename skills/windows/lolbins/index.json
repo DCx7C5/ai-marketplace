@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1a472275c4b72ff10e58177f39b5ffbb332ee04507c810be5f4dfdb578a9f2273e720bb698260227970046966f5969028376bd3f2ccdbb5a23a848a247d4c011",
+      "file": "skills/windows/lolbins/detect/index.json"
+    },
+    {
+      "name": "hunt",
+      "description": "skill directory index",
+      "sha512": "4da74a94fed7ce649fcbeb4e1abbda6910b9ed245705ebf058dd4e9511b246b5f9679169c00ef8712c2d54c787db567e44967561fd8142e63a71fc0de73c3876",
+      "file": "skills/windows/lolbins/hunt/index.json"
+    }
+  ]
+}

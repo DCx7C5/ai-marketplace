@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "18b524f0ffa8dad6221dae7aadba0f217b847de1c529ecb8de9371898f35db56e4cef2388840e41abc4af67dc9252fcd6ef666f0af30d2414349e5a650f9b4e9",
+      "file": "skills/network/traffic/domainfronting/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "slipstream",
+      "description": "skill directory index",
+      "sha512": "1ac49a9afab18b2aaf49e6500f0bb185f7acf8ed86afdca5fdc8214b3830007c73e3e220a41c9e866e5fdeedf4f3c2e74680e2a9b900e53189ce7fc21ebcb81d",
+      "file": "skills/network/nat/slipstream/index.json"
+    }
+  ]
+}

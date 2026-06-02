@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer2-vlanhopping",
+      "path": "net-layer2-vlanhopping",
+      "description": "--| | DTP Switch Spoofing | All VLANs | VULNERABLE | Full trunk access gained | | Double Tagging | VLAN 50 | VULNERABLE | Unidirectional access to CDE | | VTP Injection | N/A | NOT VULNERABLE | VTP tr",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce2f23bfefca65fd86c838f7af8dc8bbe3c9dcba5fcacecdbaf6f0dac643067b574afa7ababa4e725e1db5021c70feb0d1c785065bb9aa43ff812bd63bb9632f",
+      "file": "skills/net-layer2-vlanhopping/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "429563cfa18b4fefa3a2502f9d70ecce7de5eadf5481581b7be269f6d7986aef9a700637af8a187ed11af16eb6a8f736eecf3b80177bca909ad6d6229a10680f",
+      "file": "skills/identity/ad/foresttrust/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "253a1fe08cbf096131de2bd0ce4c85a1904224aa45ef3353d9c4a986bbcae98693a1937d9a5be778d68654b92d92297f3e74a8482bb6c0db95c685179346340b",
+      "file": "skills/identity/ad/foresttrust/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ec273af75fb49e8fec55c0ed033a90703ccc4c45127c481f500275ef308832eb5df0738853e8904f54dd5cf3df16d26940fd5e3590ea463487ada22d4cf8a052",
+      "file": "skills/identity/ad/foresttrust/scripts/index.json"
+    }
+  ]
+}

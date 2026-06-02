@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "f6d496284d6963df54294391cc03f819c2cf44dd315358362e54525d935d9d19488771da41e544dd6e90dde737b374112cdd08351a814e9e7c0775b9fc223fc7",
+      "file": "skills/identity/okta/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0729eb1f546eef5fd8e2791c113ce782c8ce4edc8e65057e6f4762c26abee5852087ad1b768d2732b850231f77e8e463e2ae1dba856f22bea8854118e2bf2097",
+      "file": "skills/identity/okta/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b2b25ef566db056460ac08c85d48e617b1bdb0c5003415fdc9d55c6a9242b8b5e6fa958eaa6262ec26a7ef8888c6d160adac7b66e5bc30122073de935f3918e3",
+      "file": "skills/identity/okta/scripts/index.json"
+    }
+  ]
+}

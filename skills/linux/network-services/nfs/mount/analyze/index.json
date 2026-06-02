@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-nfs-mount-analyze",
+      "path": "linux/network-services/nfs/mount/analyze",
+      "description": "Analyse NFS mount configurations, version usage, transport security, and Kerberos authentication settings for security misconfigurations and exposure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ea1ec68f760a2e888cf1ea91049733eae3f683310a714270eae05a07dcacaf22059e9d0f77a8839788080d877ef19ef488e8e38c3d37164a685f71ca1374e7c4",
+      "file": "skills/linux/network-services/nfs/mount/analyze/SKILL.md"
+    }
+  ]
+}

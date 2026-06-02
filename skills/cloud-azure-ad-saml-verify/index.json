@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-ad-saml-verify",
+      "path": "cloud-azure-ad-saml-verify",
+      "description": "Cloud Azure Ad Saml Verify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2cc9c8e0b2fdf9627db0284a3903d21a402a5452c30fe26f2dcfaa0f0eb81d6449e7b95802503022a517bb905c449b634a5401c60c755be818399026e6c6c7e4",
+      "file": "skills/cloud-azure-ad-saml-verify/SKILL.md"
+    }
+  ]
+}

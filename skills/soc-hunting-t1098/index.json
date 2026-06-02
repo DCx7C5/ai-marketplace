@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-t1098",
+      "path": "soc-hunting-t1098",
+      "description": "JSON report with detected account manipulation events, privileged group changes, shadow admin indicators, and timeline correlation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0e9707d12ffb6ae9fa7dd71fe86907017e698f04cdae883f1ed534b8a602818311f8df87249e723f07c0b65df33d1fde48572e626ea8438b2293fc660c086d52",
+      "file": "skills/soc-hunting-t1098/SKILL.md"
+    }
+  ]
+}

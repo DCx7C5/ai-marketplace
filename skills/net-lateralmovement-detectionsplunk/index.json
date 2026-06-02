@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-lateralmovement-detectionsplunk",
+      "path": "net-lateralmovement-detectionsplunk",
+      "description": "Net Lateralmovement Detectionsplunk.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84576f3a8e118f641b7438f24fc3d1e89712ca8ab053e61b9f43e963f82c24ca8e8253c00354cf4872e1011f0a35e3a455c7e8749082c7c75866024e09ed9e25",
+      "file": "skills/net-lateralmovement-detectionsplunk/SKILL.md"
+    }
+  ]
+}

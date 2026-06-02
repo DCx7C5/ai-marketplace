@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "create",
+      "description": "skill directory index",
+      "sha512": "bc90a1f57cab34db705c2bdd6c6e83168c060a24304c232e9fdee0c44cdcbc8946e673a235f4f6580f98386ed5ec2364e351711a4ca97772453219538349836d",
+      "file": "skills/soc/detection/correlation/create/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-modules-lkm-forensic",
+      "path": "linux-kernel-modules-lkm-forensic",
+      "description": "*This skill enables advanced kernel-space forensic capabilities while maintaining integration with the existing CyberSec investigation framework.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6dc6a71cff08e2d7ec703e700a4792ae930712e005fb94a91a0251657799ebc0749c3e65641a4dfebdf68820385e6e67d35cea4d88f82b894247c0102bf1b482",
+      "file": "skills/linux-kernel-modules-lkm-forensic/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-credentials-extract",
+      "path": "linux-forensic-mem-analysis-credentials-extract",
+      "description": "| | Volatility 3 | Memory forensics framework with hashdump, lsadump, cachedump plugins | | pypykatz | Python implementation of Mimikatz for cross-platform LSASS analysis | | Mimikatz | Windows creden",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b0e5510546c1b43140ca7a33330945ae568b79e974259c5d019f7a23b5a22ec96863f3bbd45f67c523c888b41da4365d44fbe5c04334ec4f204dc5439167845c",
+      "file": "skills/linux-forensic-mem-analysis-credentials-extract/SKILL.md"
+    }
+  ]
+}

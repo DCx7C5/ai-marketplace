@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-tls-ssl",
+      "path": "webapp-tls-ssl",
+      "description": "--| | banking.example.com | Chrome (cached) | Active | BLOCKED | | banking.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4ceed79f13d073802a6947df59ac5809084a4999c4799822c131fc318a843ec86d39f7980fdc0527196de1e5c08949ffe29409b19545381ccb69df2fd6a40b0b",
+      "file": "skills/webapp-tls-ssl/SKILL.md"
+    }
+  ]
+}

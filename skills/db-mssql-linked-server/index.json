@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mssql-linked-server",
+      "path": "db-mssql-linked-server",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "29a6aced89c01a577ae773204400a2366726ab26aab7cf8571ff8c86b82145867e7eea47d01b4cef78b04f8177079a68517e533b56ec7ec7a727d0edf73cd164",
+      "file": "skills/db-mssql-linked-server/SKILL.md"
+    }
+  ]
+}

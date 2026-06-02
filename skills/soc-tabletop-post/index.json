@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tabletop-post",
+      "path": "soc-tabletop-post",
+      "description": "| | TheHive/ServiceNow | Incident timeline and documentation | | Jira/Azure DevOps | Action item tracking | | Confluence/SharePoint | Lessons learned documentation | | Splunk/Elastic | Incident metric",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "41c6ef17bf67f0b3553f6deb152aa8ac21bf450b24a8885b064a163770a079f3135c356ef4e27ae2d1227fb2a67ddb4fb4bf65f62ee93f46585a90fdb08d6b68",
+      "file": "skills/soc-tabletop-post/SKILL.md"
+    }
+  ]
+}

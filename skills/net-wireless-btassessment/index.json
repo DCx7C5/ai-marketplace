@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-wireless-btassessment",
+      "path": "net-wireless-btassessment",
+      "description": "This skill covers performing Bluetooth Low Energy (BLE) security assessments using the Python bleak library. BLE devices are ubiquitous in IoT, healthcare, fitness, and smart home applications, and ma",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9b70a5e0a5c28c7641423b8f4b7b51b23deec66c186dd3125427d83f73243b8a9f50d262b4262f39e356b0b5b96f8aff84f226e5f882894e2864bcf72704bea5",
+      "file": "skills/net-wireless-btassessment/SKILL.md"
+    }
+  ]
+}

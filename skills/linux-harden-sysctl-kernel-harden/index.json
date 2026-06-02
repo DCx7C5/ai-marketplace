@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-sysctl-kernel-harden",
+      "path": "linux-harden-sysctl-kernel-harden",
+      "description": "subdomain: hardening-implementation tags: - linux - sysctl - kernel - harden - configuration nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fd18d44efd0561e8eb626f3ae6279832bd691cfc4dad7ab1d2dadd4e281c174cb6d49857400bc2c0756bd2b83b8e9e0017d1e8544986857a449f47cff806b67b",
+      "file": "skills/linux-harden-sysctl-kernel-harden/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "race",
+      "description": "skill directory index",
+      "sha512": "d450cd0554a4cc4e6007f17629d1f4fa23f92fe115f577f06289672e2bc249c13e8c5294bcf44893f43345beee16c4be286fc0a0173ccefce4176cffe311a6d4",
+      "file": "skills/linux/filesystem/symlink/race/index.json"
+    }
+  ]
+}

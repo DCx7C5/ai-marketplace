@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-injection-inject",
+      "path": "web-application/api/injection/inject",
+      "description": "Tests APIs for injection vulnerabilities including SQL injection, NoSQL injection, OS command injection, LDAP injection, and Server-Side Request Forgery (SSRF) through API parameters, headers, and req",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec3a0623daa839394499c9ad5a52c6eed43bff859dbb4867e4024410c79a8fb088e88d33f691499b025afead7fb88de3e38cd125b6fe216091af1349a51601fc",
+      "file": "skills/web-application/api/injection/inject/SKILL.md"
+    }
+  ]
+}

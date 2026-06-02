@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-s7comm-analyze",
+      "path": "industrial/ics/protocols/s7comm/analyze",
+      "description": "Perform security analysis of Siemens S7comm and S7CommPlus protocols used by SIMATIC S7 PLCs to identify vulnerabilities including replay attacks, integrity bypass, unauthorized CPU stop commands, and",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2ee5eb756499019fcaa566437e72910462dd99aabf655ede2d9255932794a13193a642f4d597a710d2af8433aec5c5b7ec65eb98f8fffe978e428c362e4e947f",
+      "file": "skills/industrial/ics/protocols/s7comm/analyze/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "11b9f1e6f9137bf5aa3e745c10918fa6087950ad836ecc591afe085f3f403701ca1414a84ebbec7b68d6545bfe052daa2b3229a1329885f5872b2d81f228bd24",
+      "file": "skills/industrial/ics/protocols/s7comm/analyze/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "26fa4f70fbbbe3391ff4908d4f820f19506b0fae47bd5278325ec6d78a9804823446ebfe7698cda7f2b21e541318459e7ad6e128b6b8ca42c7bd5cb6c4228108",
+      "file": "skills/industrial/ics/protocols/s7comm/analyze/scripts/index.json"
+    }
+  ]
+}

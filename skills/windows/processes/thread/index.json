@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "1521dc059694e63b4cb7c615f6b7ba67ae1d0eff641dad71bbdff142020b3a6b9f5e7b1c00022007b053a3a6d896b7896635d2df476c563518660d81ec773a38",
+      "file": "skills/windows/processes/thread/injection/index.json"
+    }
+  ]
+}

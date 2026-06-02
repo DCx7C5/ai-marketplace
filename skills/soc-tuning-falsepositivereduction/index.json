@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tuning-falsepositivereduction",
+      "path": "soc-tuning-falsepositivereduction",
+      "description": "| | False Positive Rate | FP / (FP + TP) * 100 | < 20% | | Alert Volume Reduction | (Old Volume - New Volume) / Old Volume * 100 | 30-50% per quarter | | Mean Triage Time | Total triage time / Total a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a4e8866f5c520e3def1c436422eaa83f9b08ad83c8e04edd70df58b7928b8b45bbec10f2146d583e18f395fe297ef9d2800596f6969a697af28f74e41d8200b0",
+      "file": "skills/soc-tuning-falsepositivereduction/SKILL.md"
+    }
+  ]
+}

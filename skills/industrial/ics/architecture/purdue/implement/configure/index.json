@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-architecture-purdue-implement-configure",
+      "path": "industrial/ics/architecture/purdue/implement/configure",
+      "description": "Implement network segmentation based on the Purdue Enterprise Reference Architecture (PERA) model to separate industrial control system networks into hierarchical security zones from Level 0 physical ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "05b382bee6bad671cc399f75fadb4d83bae66730bb95bd8d84bd73f3d1e2ce05f7cf15a912d667d3b0d75e16d5eb68fd5f09ce07a8345a5ec269f64b29a7dfd2",
+      "file": "skills/industrial/ics/architecture/purdue/implement/configure/SKILL.md"
+    }
+  ]
+}

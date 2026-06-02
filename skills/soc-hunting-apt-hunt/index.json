@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-apt-hunt",
+      "path": "soc-hunting-apt-hunt",
+      "description": "Soc Hunting Apt Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d2fbf1f5541f95680268bf86bcd6964e70e18a33c65f84ae5ed4fbfdd8ad97dbcf6ff870a5fdc69e7cad89b6f0d460fc33d6d06fecf842f19706c84bb3bdaa0e",
+      "file": "skills/soc-hunting-apt-hunt/SKILL.md"
+    }
+  ]
+}

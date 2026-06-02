@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-sqli-detect",
+      "path": "web-application/injection/sqli/detect",
+      "description": "Analyze WAF (ModSecurity/AWS WAF/Cloudflare) logs to detect SQL injection attack campaigns. Parses ModSecurity audit logs and JSON WAF event logs to identify SQLi patterns (UNION SELECT, OR 1=1, SLEEP",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "58a83fb68a4024d9a23ddda27304ef378949b2fd532c60979c400c156530267afdf7ba93afcf988aa779a1f61de1d0df5241de0ba9a8d9b73a5ba3c5deb5ec68",
+      "file": "skills/web-application/injection/sqli/detect/SKILL.md"
+    }
+  ]
+}

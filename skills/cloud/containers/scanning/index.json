@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "container",
+      "description": "skill directory index",
+      "sha512": "a75867d5c5445fbc18eb9ff116fee9f7e3422110ac2450631f72fbc8556f6a7d64cb83b1c2040bb253dc3b33548d59884bd3403be57f08aa5f620ff5ac5f1f88",
+      "file": "skills/cloud/containers/scanning/container/index.json"
+    },
+    {
+      "name": "distroless",
+      "description": "skill directory index",
+      "sha512": "e53d6a33066129f8c4218499c5c59a196186d9be116f7bf781a0aeff73b1c0f47f97068ff81cd1819be432da6485ad64ffe721a79ceb76c88d89c831b8610caa",
+      "file": "skills/cloud/containers/scanning/distroless/index.json"
+    },
+    {
+      "name": "grype",
+      "description": "skill directory index",
+      "sha512": "4b63823d9c1ac9b1915aee0f6808c75cc7f6ec85842137b46477884aed5544f263875f2dc0dfad184b96daf7c3b113c0a785c4cb8a0b6857e8ab9b94b9bccdf1",
+      "file": "skills/cloud/containers/scanning/grype/index.json"
+    },
+    {
+      "name": "trivy",
+      "description": "skill directory index",
+      "sha512": "5a1ce669e4a7fc458e7b684f15d07c11e0577bdd48587a5113846c9e0bd2b0c2ef8f508d1da208dd114d032523ef72de370c68dfa06c370ea6c61b80386d457d",
+      "file": "skills/cloud/containers/scanning/trivy/index.json"
+    },
+    {
+      "name": "trivycicd",
+      "description": "skill directory index",
+      "sha512": "821aa6c462d66c2573463dc0cfc8099fffe5c7128bc7db1d99aadaa3ee8d487755d459716298c7fc9f497f35e12529403844be21e8768dac96adc867ff29ad97",
+      "file": "skills/cloud/containers/scanning/trivycicd/index.json"
+    }
+  ]
+}

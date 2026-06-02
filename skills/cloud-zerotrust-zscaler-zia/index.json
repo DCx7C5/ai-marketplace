@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-zscaler-zia",
+      "path": "cloud-zerotrust-zscaler-zia",
+      "description": "- CSA Software-Defined Perimeter and Zero Trust Specification v2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6e432b7bfffb7b947756c0a7f25bf57ae2a521bda8ad6b587cd8273bcc70957f0c313ed79ffd2e1c10682429f06a5670e2e6b6927c5c83c9ee0da981dca645bf",
+      "file": "skills/cloud-zerotrust-zscaler-zia/SKILL.md"
+    }
+  ]
+}

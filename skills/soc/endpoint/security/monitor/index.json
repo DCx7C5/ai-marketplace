@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "endpoint-security-monitor",
+      "path": "soc/endpoint/security/monitor",
+      "description": "Implements endpoint Data Loss Prevention (DLP) controls to detect and prevent sensitive data exfiltration through email, USB, cloud storage, and printing. Use when deploying DLP agents, creating conte",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "775a29ac1d14e2b6770900918111d10c8fcb862012477060a8858ac155c9cb33e7729eaf10f6338c049cfecc0d6767629e07aac48312e6510e374b8ab4f3eaf0",
+      "file": "skills/soc/endpoint/security/monitor/SKILL.md"
+    }
+  ]
+}

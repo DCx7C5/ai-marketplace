@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0efc63627e3cd2b88f647ead6abe080a901f2050b8855ec3f8315a4344e37248a1902d10c0d09a33d6c137006b43add889710b1cf3e9d1e7da1eaa50c019ee41",
+      "file": "skills/web-application/api/postman/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ebd60467cff95f73b2a7c419bbe6b085eac41d88bc8fee1e4352c1612287a6f97680de342bff87cffdb84aa4cb4f8aab270acfd7a1531a11f343375518d1a875",
+      "file": "skills/web-application/api/postman/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "75dad45897e685dde5e2414c75bfb034c32a2990d91e9ba69f9215eeb4f0e677004670d91f03abb738ef4292e0575c7813e861f90b90b58dcf481cab75405335",
+      "file": "skills/web-application/api/postman/verify/index.json"
+    }
+  ]
+}

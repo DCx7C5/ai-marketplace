@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "grub",
+      "description": "skill directory index",
+      "sha512": "ce8a58b7743072aa4472385ad0f80275e0b0b9c7a4a50f8e1a52ad9215014463606f472c77b8333087d39fb9b27ef8b004e95a37f993f7414d37e62ed0218e77",
+      "file": "skills/linux/kernel/boot/grub/index.json"
+    },
+    {
+      "name": "initramfs",
+      "description": "skill directory index",
+      "sha512": "dd66bec90bef922aacc9ccaccef5a0832b2eeca4e58398064c5f39aa0e828d3d4b6fe96b6ddaa0312821f158b9479de678c000cec6c2a3d7b6ad0d74ebe6bc1e",
+      "file": "skills/linux/kernel/boot/initramfs/index.json"
+    },
+    {
+      "name": "kexec",
+      "description": "skill directory index",
+      "sha512": "af93d8e5252c141bfa79593f40691b416875d0543c4f7d49274ea35bbd4c3a1bccb1265c9ce8a3263b79d73c703eb90d5c02f7899da1bf4004b9e7809e048412",
+      "file": "skills/linux/kernel/boot/kexec/index.json"
+    },
+    {
+      "name": "secure-boot",
+      "description": "skill directory index",
+      "sha512": "db60733d7f3b0711f21b4be188fe2db64b64f30bb9fb29c2030feac4ee6f6cf601fc5facabac1d1c03cd6fc6be87ed68098db46bda4f9b09a84ab5cccc58550c",
+      "file": "skills/linux/kernel/boot/secure-boot/index.json"
+    },
+    {
+      "name": "uefi-variable",
+      "description": "skill directory index",
+      "sha512": "3cb4f7e47e095f7af21884d29a6821f3d32435bccd4b74687189a9be3b65c4e094f87be68bbd8e5b6fbdf4acc04b01857fbbd63cbbd790cd76ed051a4b6546f7",
+      "file": "skills/linux/kernel/boot/uefi-variable/index.json"
+    }
+  ]
+}

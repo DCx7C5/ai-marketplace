@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "container",
+      "description": "skill directory index",
+      "sha512": "197f8c3b65bcf6e621d1c9efa96091440f9ad1f6efaf8825088ac3fd62f72a340a436cdb8b168c13cedbee2b26e54ee09e334ca50e11f6e1e860ec076769fe97",
+      "file": "skills/cloud/kubernetes/runtime/container/index.json"
+    },
+    {
+      "name": "escapedetect",
+      "description": "skill directory index",
+      "sha512": "656be47fc9c03812268132d473e601834e4d01f8f1e52bf6b16f63fb2558d50dec6c432359abb34b125b46ba4e2628e05c87e5a0f3b90a45bae11baf7e3f89fd",
+      "file": "skills/cloud/kubernetes/runtime/escapedetect/index.json"
+    },
+    {
+      "name": "falco",
+      "description": "skill directory index",
+      "sha512": "b1d96ff0c8ae638f323f356463c527da3f91d2ce3522b0369212b14d304a5fd002d6c4398bb105799bae05741d0ba85d73d30ca13eeb5277833462b678f9bd65",
+      "file": "skills/cloud/kubernetes/runtime/falco/index.json"
+    }
+  ]
+}

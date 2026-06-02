@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ntfs-ads-detect",
+      "path": "linux-fs-ntfs-ads-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1e9592d3e3285bd863133c605f17a457ae6b34cc2bbcf114adc0bdad1ae9318243b4bfa56471a2f0a7ff9fb71f9aebd829c64b7cfeb91a013510c11f432ed6c4",
+      "file": "skills/linux-fs-ntfs-ads-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-encryption-kmsenvelope",
+      "path": "crypto-encryption-kmsenvelope",
+      "description": "-| | Max data size | 4 KB | Unlimited | | Latency | Network round-trip per operation | Local encryption | | Cost | $0.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2fbe3c83f4e3e79cb6ad4c41fb1362cd3af786aafe5b719efbffa9da7044756e1adb8399e046b3d1962cc9fcd5b4db6c51388947d635735dede050f6c26d6fc2",
+      "file": "skills/crypto-encryption-kmsenvelope/SKILL.md"
+    }
+  ]
+}

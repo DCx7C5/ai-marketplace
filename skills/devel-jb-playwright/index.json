@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-playwright",
+      "path": "devel-jb-playwright",
+      "description": "- Default to CLI commands and workflows, not Playwright test specs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0cf66acb2281f97a4c08be7a6074154de497de3e071f7f36c8af4513194492d2309bd8cec503f4b92ecf943d96c336333d0432610d1f5ba461944f8e2748bf2c",
+      "file": "skills/devel-jb-playwright/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "852696d882bef25b44a7314c0cb6560df1257493b95e940d84fc958081f9319975e803db43ab98ec4a45ab3590f98ea9df3440e11eb0895ead5e77af995c88ad",
+      "file": "skills/devel-jb-playwright/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "a7601b56344802414a7471abfffcf1defc1f18b68b21039f11b3a71e4a319276ecfc963c5b0cc258b75fd547a4dc0ef8de8c8f3b68126183cae49e84130d6444",
+      "file": "skills/devel-jb-playwright/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "77abff14aea5a50cdfffe4decea85f07d16e1afb02367226a2074bb3de406ac73f5c5e2f37d8c8d94d50ee23bc6e64207f51f206279d4d0fd070b299c634c3de",
+      "file": "skills/devel-jb-playwright/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b86b40617f1c62f619eb9d4103cad31dfc671ada2f96f1bd4f5fd747af1321cf69b985108d039bb65c880fcaebf43c47842598d775679bc7afcd6464ba1eb328",
+      "file": "skills/devel-jb-playwright/scripts/index.json"
+    }
+  ]
+}

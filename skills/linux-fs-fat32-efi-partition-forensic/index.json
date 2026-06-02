@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-fat32-efi-partition-forensic",
+      "path": "linux-fs-fat32-efi-partition-forensic",
+      "description": "subdomain: filesystem-forensics tags: - linux - fat32 - efi - esp - bootloader - forensics nist_csf: - RS.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f7af2914d8e04091b4f9f9b0aecdb01f392420b78296109e0e32a0875019832f668b57e84cffe49a82e7c6527c9c69e744f2474bf2b6408772fbc645aaf2719",
+      "file": "skills/linux-fs-fat32-efi-partition-forensic/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "f8beebaa9642db3c3042f6e07111953044752fb81d3f27eadc75f8ec8b0de697940d24ebf19d92efa1da25287a9208b8478026678ccae0217b732e1a67cd08a1",
+      "file": "skills/soc/containment/active/extract/index.json"
+    }
+  ]
+}

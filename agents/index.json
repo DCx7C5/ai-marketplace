@@ -1,0 +1,261 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [
+    {
+      "name": "agent-factory",
+      "description": "> \"Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-re",
+      "model": "sonnet",
+      "sha512": "b32252f2825adae5c477f8f3c9965e268a214e782b3717eb9b85fe5df4a0b49656f948a80f8dfad67f796c63439acaf1f133c61c6c6cd4ddda202983071e6982",
+      "file": "agents/AGENT_FACTORY.md"
+    },
+    {
+      "name": "audiovideo-analyst",
+      "description": "'Audio and video forensics specialist. Invoke for media metadata analysis,",
+      "model": "sonnet",
+      "sha512": "249d98676de0dd9ac4378242188a284e463d80c467f5892a71920c8f406019aab6215453c08511b85a65458721749e4349cc4d86de15b62c85cc214f6675b39d",
+      "file": "agents/audiovideo-analyst.md"
+    },
+    {
+      "name": "certificate-analyst",
+      "description": "Elite X.509  PKI forensics specialist. Invoke for certificate chain",
+      "model": "sonnet",
+      "sha512": "46c2d76d6d39377cf7b8fdce8bb8d55941319b072c1051a8b3b93ed44bdbca01f7e18f77bae23fba0ff5219c99c832c9ae7b9f43e4820cabf284c033a43eb569",
+      "file": "agents/certificate-analyst.md"
+    },
+    {
+      "name": "code-reviewer",
+      "description": "Comprehensive code review skill for TypeScript, JavaScript, Python, Swift,",
+      "model": "sonnet",
+      "sha512": "cea804653cb18f7e4a3499561954838f7ef5f64cc87f3efd449f75dcd18d8bf5cd60dcf292138a210503cab088b82f51aff7daab62c31becf5d9140dc23809cd",
+      "file": "agents/code-reviewer.md"
+    },
+    {
+      "name": "command-verifier",
+      "description": "'Pure visual command safety inspector. Receives any command and outputs",
+      "model": "sonnet",
+      "sha512": "526368701f700bf8eebde2745e14614db199c67e6083eff504febc2388475914f8435a993053778284537f08de9525acb25efd59e28034ea41efc89de0ec550c",
+      "file": "agents/command-verifier.md"
+    },
+    {
+      "name": "cpp-developer",
+      "description": "'C/C++ specialist \u2014 reverse engineering, exploit analysis, kernel module",
+      "model": "sonnet",
+      "sha512": "05cc7559b1935aa26dc54c3ab68110e292404f84552b61a4e74ea0be533daab47d7aa215216928d99214c9d5b00494908d2e05dd17a2fc7eb013e407c7b42b21",
+      "file": "agents/cpp-developer.md"
+    },
+    {
+      "name": "cybersec-agent",
+      "description": "Central orchestrator for cybersecsuite APT/rootkit investigations. Accepts optional mode argument (blue|red|purple). Defaults to blue-team. Delegates to all specialist sub-agents. Triggers: any invest",
+      "model": "sonnet",
+      "sha512": "1b4346362750332b24f081d98d026f301ba06eb28ba3007ae63cabc4432449f17d42a8b3893ee5cd6f4eeac58e7af4ff347e9910947d95699605e94f0a2b9fb5",
+      "file": "agents/cybersec-agent.md",
+      "maxTurns": 50
+    },
+    {
+      "name": "cybersec-analyst",
+      "description": "'CVE lookup, IOC analysis, MITRE ATT&CK mapping, threat intelligence",
+      "model": "sonnet",
+      "sha512": "6a9165ac30925e83cc8a1475d47e549c7ec0e6bd72ba2c2071503d6a8b8198c513cb38a5252f97ce1fea7048febbd13e3ebb826929d453d0dfb3886b01bd322a",
+      "file": "agents/cybersec-analyst.md"
+    },
+    {
+      "name": "filesystem-analyst",
+      "description": "'Linux filesystem forensics \u2014 timeline analysis (mtime/ctime/atime anomalies),",
+      "model": "sonnet",
+      "sha512": "8a8eb17464303d7b2a5f70cd3a8cb47537f3ce496e54a75c76478c0fec0947603f880890b55dc5fa9371111a842bb8420c39b6845b48a2e40bf3ec5f4ee3bfb9",
+      "file": "agents/filesystem-analyst.md"
+    },
+    {
+      "name": "firmware-analyst",
+      "description": "'Expert firmware and hardware security analyst. Invoke for UEFIBIOS analysis",
+      "model": "sonnet",
+      "sha512": "d326d5377975da1652deefea2eb43a8353f506b7e7933da7aa63806f01e6a77fc4c03055d06edff0aa924e75ef8b0b8b4b794fb9d1b481f7e05b5b8d93e0801f",
+      "file": "agents/firmware-analyst.md"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design",
+      "model": "sonnet",
+      "sha512": "b0b811aa965ba5d591d7eeed1e36edab1b89270a0a971832cd0d5b08d91677e534752083799a3101d205b5b1015f8d07bdbf216d4a98a9dfeeae364636ea97ac",
+      "file": "agents/frontend-design.md"
+    },
+    {
+      "name": "kernel-analyst",
+      "description": "'Kernel module analysis, eBPF program inspection, firmware extraction,",
+      "model": "sonnet",
+      "sha512": "7094055eaf190453229fa4be6bef9c4bb4821496ee43f43a0865242a22ddb2495b53df617399b573a267f62820e1c432030872f67638b4ae191b1219560883fa",
+      "file": "agents/kernel-analyst.md"
+    },
+    {
+      "name": "layer2-specialist",
+      "description": "'Pure OSI Layer 2 cybersecurity specialist. Invoke exclusively for Data",
+      "model": "sonnet",
+      "sha512": "f86af4b5f9831005c176ac7273cdaa67dd003bff7de25bc309002cac867e3dde1e378f753a2d05b4a1420f6c965671a1318ad7f4fc9ae7af2daa2d7af3270d58",
+      "file": "agents/layer2-specialist.md"
+    },
+    {
+      "name": "layer3-specialist",
+      "description": "'Pure OSI Layer 3 cybersecurity specialist. Invoke exclusively for Network",
+      "model": "sonnet",
+      "sha512": "0d3acca0ceaa69d3a0fa61c8ffbc203c805f5a73ba9260a967e4f9cf6acbc99d5b28f38f408a2f9159a18d7cbb175bedfeb2bd14ffbba19d80f6d66bd70d1ab9",
+      "file": "agents/layer3-specialist.md"
+    },
+    {
+      "name": "layer4-specialist",
+      "description": "'Elite pure OSI Layer 4 cybersecurity specialist. Invoke exclusively",
+      "model": "sonnet",
+      "sha512": "37e159eae49248a06f9516050cd8684eefc9f241bd587405d6e99655d65894cc9cfadd02f08fd69add82e3efa04ae57962fbff68b271dd7b7b8902e9d97a0793",
+      "file": "agents/layer4-specialist.md"
+    },
+    {
+      "name": "layer5-specialist",
+      "description": "'Elite pure OSI Layer 5 cybersecurity specialist. Invoke exclusively",
+      "model": "sonnet",
+      "sha512": "ebd1caaa7d0d7a3a692d4dcd10da71ec09210e14ce06e91d232da06fab1203cff31ec7c7f1cdfdd576ab91f86685fd0143396d7e49eb62c4aa7aa869d5eb962e",
+      "file": "agents/layer5-specialist.md"
+    },
+    {
+      "name": "layer6-specialist",
+      "description": "'Pure OSI Layer 6 cybersecurity specialist. Invoke exclusively for Presentation",
+      "model": "sonnet",
+      "sha512": "f30c5dd0716c4110373c9afc1efb298947fbe7b1913247e6f0934c88b3027bde3f2a85c5f8eaccb3b77676cddacac4daf965e0abbc6c8c43f26058fe402a2d7d",
+      "file": "agents/layer6-specialist.md"
+    },
+    {
+      "name": "layer7-specialist",
+      "description": "'Pure OSI Layer 7 cybersecurity specialist. Invoke exclusively for Application",
+      "model": "sonnet",
+      "sha512": "0653414fe9fcec109d250753cdc095a6118217cd5dc2cd2c48fff34ec5a62c1fe5d079b8ca2aa55ac78ec6fe8f45985cb7c02ad021b6bda48adb9443a99f1b89",
+      "file": "agents/layer7-specialist.md"
+    },
+    {
+      "name": "logfile-analyst",
+      "description": "'Linux log file forensics and event correlation specialist. Invoke for",
+      "model": "sonnet",
+      "sha512": "ee67a067bdcc7d353076a1befc8681f258cb8dff5c1c0f010b53998bea30d73280bef12cc2931dafcba1650bbb751b77cc2e2d38811fdfed3d295fd2d889c861",
+      "file": "agents/logfile-analyst.md"
+    },
+    {
+      "name": "memory-analyst",
+      "description": "'Process memory inspection, injection detection, credential extraction,",
+      "model": "sonnet",
+      "sha512": "745783259c23dcfc07a539166bb55f918c6c303439d86738143c26400c8120ea62da071504b939353a2b9cd7159adc7ea899c1a222ed50d1e6ef60d96cb43fcd",
+      "file": "agents/memory-analyst.md"
+    },
+    {
+      "name": "network-analyst",
+      "description": "'Network traffic analysis, C2 detection, DNS anomalies, firewall rule",
+      "model": "sonnet",
+      "sha512": "42e2d6d9a6d9ed878ce47a067ec37c26e0f03aa416b34f738c32cceb7ee7fd78c9de970a549470386ea7ba0665b6c3e36fd6a3b3655d253d7d3e0bcf1bc174d8",
+      "file": "agents/network-analyst.md"
+    },
+    {
+      "name": "persistence-analyst",
+      "description": "'Persistence mechanism hunting \u2014 startup scripts, systemd units, cron",
+      "model": "sonnet",
+      "sha512": "b8bbc6622ef4a10202871a0ad7103c6b311b2fbf32432d5533ab68aa3cd70698ab8f0a0073cfc81c0ea8b21c84c7580a4169ea5babb6ad4d75e43e2eda92ba78",
+      "file": "agents/persistence-analyst.md"
+    },
+    {
+      "name": "postgres-db-engineer",
+      "description": "Elite PostgreSQL Database Engineer + Professional Administrator (18+",
+      "model": "sonnet",
+      "sha512": "33370f4881dee8806ef621968fa6dfc4e5ddbc92f4f36486aa04bc43154529746f03855f75b9f39ce155f5bef5f83c72bffd44cedd11cb0ed3cc38949c809945",
+      "file": "agents/postgres-db-engineer.md"
+    },
+    {
+      "name": "process-analyst",
+      "description": "'Linux process forensics specialist. Invoke for live process enumeration,",
+      "model": "sonnet",
+      "sha512": "fc71c0344f0dfeb19e3c5f75f71befcb11c74c16a230fedb1baae1b0a33345e8332617363c2c042d21c4fcd2f4aed483c51e493f0ecdda94a61df8c291397e07",
+      "file": "agents/process-analyst.md"
+    },
+    {
+      "name": "python-code-reviewer",
+      "description": "Python-specialized code reviewer for cybersecsuite. Reviews Python code across async/await, Tortoise ORM, FastAPI, Pydantic v2, cryptography (Ed25519/BLAKE2b/Argon2id), A2A protocol, uv dependency man",
+      "model": "sonnet",
+      "sha512": "f7671f28276463200c0f3d93e1eb3679e410df0e65c58a90818afa73a020db63b66456c752218a5bd5ebbbf06e3883e7694b7d97347c6e3cf8c2244386b4a628",
+      "file": "agents/python-code-reviewer.md",
+      "maxTurns": 30
+    },
+    {
+      "name": "python-developer",
+      "description": "'Python development specialist \u2014 write, debug, refactor, and review Python",
+      "model": "sonnet",
+      "sha512": "f7388592fe333b03a341bf0298bc706873ddacc88a7e4dc0f0a88a321891216eebd7eaf2d2cd46158428d286f63d294484efe7a5f9b2b8de8d4e42b0047516de",
+      "file": "agents/python-developer.md"
+    },
+    {
+      "name": "reverse-engineer",
+      "description": "'Binary reverse engineering expert. Invoke for static and dynamic analysis",
+      "model": "sonnet",
+      "sha512": "4cbf5bd41f5bb2f109c5379db05e4a5261eb670c7df2bc6f25cab14319c3acd2f8efeb617e762638dc7a2bfb1dca27236d69de15248551efd9b6ed924ddca587",
+      "file": "agents/reverse-engineer.md"
+    },
+    {
+      "name": "rubber-duck",
+      "description": "High-signal plan and implementation critic. Catches bugs, logic errors, and",
+      "model": "sonnet",
+      "sha512": "d8f779b7dc1b3389d34023f13111673e7f6c2d990507c5dfd74e79523185fac034ff0089daf4f4ce1f9e6c5ea7595ba8d1681bb5298ac8d8b81779110603f9d4",
+      "file": "agents/rubber-duck.md",
+      "maxTurns": 10
+    },
+    {
+      "name": "senior-frontend",
+      "description": "Comprehensive frontend development skill for building modern, performant",
+      "model": "sonnet",
+      "sha512": "12509e941ca5e0ac5738365d378b7e7339cbdd8718a53c71c4bb0d00979d2298177e92a50d00cbd13f4abe83cdd871cc9efdcb3c779e3549df366366a9e75782",
+      "file": "agents/senior-frontend.md"
+    },
+    {
+      "name": "settings-analyst",
+      "description": "'Linux system configuration and security settings analyst. Invoke for",
+      "model": "sonnet",
+      "sha512": "780d145585a6e80464c48884ca899d2d7091a80946ce83be7253f2ed648b5521a54a52ceeda47beb386d8015e71a60b4ec666bdd6db0e503e213be04208ba467",
+      "file": "agents/settings-analyst.md"
+    },
+    {
+      "name": "steganography-analyst",
+      "description": "'Linux steganography detection and extraction specialist. Invoke when",
+      "model": "sonnet",
+      "sha512": "7b110d656a3c2e06e430a8e55618a2d513412a7924b0f2d3c7520420a409ca6f04bc6b3dde220dde91c267820ce91667feb4dad1e12ad871d01483b934a5ccc5",
+      "file": "agents/steganography-analyst.md"
+    },
+    {
+      "name": "threat-modeler",
+      "description": "'STRIDE threat modeling, attack surface analysis, risk assessment, security",
+      "model": "sonnet",
+      "sha512": "166aacffe0932e4bd95a4b7b379fe124a6725f7d956fa5bc51c17d0709a9ecf20d80e5afc695bfd9d1d40c1f98c011ba80a54b1a366eac6c9c123f43e7a09933",
+      "file": "agents/threat-modeler.md"
+    },
+    {
+      "name": "token-optimizer",
+      "description": "'Token-efficiency specialist for LLM context windows. Detects redundant",
+      "model": "sonnet",
+      "sha512": "843f619462e5dce41a12902b14c0a59f3d32788f2d581537ec66d7e88f33f088f12dc0f64369bbdf034232128a17f857a5f6ad6893052ff6b50ce5ec2049d62b",
+      "file": "agents/token-optimizer.md"
+    },
+    {
+      "name": "vulnerability-scanner",
+      "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain",
+      "model": "sonnet",
+      "sha512": "1924147232865891e1a3e61bce74294fd6fc3786300ed7f8ea0471f09d4fce46482e5115e5d36d9dd0c9f1346a7677502a0deea804c17ecb5d4a76522b988a2c",
+      "file": "agents/vuln-scanner.md"
+    },
+    {
+      "name": "watchdog",
+      "description": "A monitoring service that watches for changes to critical files and directories,",
+      "model": "sonnet",
+      "sha512": "9734859605a694f2126400f7ffdc7c7532cec83c83086c557929eb5a6ee3b2e036e6084511c644a6fac742b8a8d53cd53db552ebd49d02f89bbcb8d131ad009e",
+      "file": "agents/watchdog.md"
+    },
+    {
+      "name": "teams",
+      "description": "agent directory index",
+      "sha512": "7c855c8eaf93423ea02b347e8cf653280fadebb6f79f0755409e9f2ae64be2acaed9060f365514080ee85c75227edc70c8507470988e7c0d1f95db6975017d84",
+      "file": "agents/teams/index.json"
+    }
+  ],
+  "skills": []
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-cpu-microcode-integrity-verify",
+      "path": "linux-hw-cpu-microcode-integrity-verify",
+      "description": "subdomain: hardware-security tags: - linux - cpu - microcode - integrity nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "505364b1c8f072cfc9ef8d51a392a75a5d7e3787526cd0f14505acdc7d21db6235ebbc42616e0166cb500fa2c9f628b4bfa9717044eafdf57039473d8d531d11",
+      "file": "skills/linux-hw-cpu-microcode-integrity-verify/SKILL.md"
+    }
+  ]
+}

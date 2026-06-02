@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-passtheticket",
+      "path": "identity-kerberos-passtheticket",
+      "description": "| | Mimikatz | Ticket export/import | sekurlsa::tickets /export, kerberos::ptt | | Rubeus | Ticket dumping and injection | dump, ptt, tgtdeleg | | Impacket ticketConverter | Convert between formats | ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1e46745d419d2573e22d7f30dd00b23c1259577f17c22e89376397f8717d242365a610ee8499fe8ffbb38df98b194fc685c60a777d5c40aaac57131adac5cba",
+      "file": "skills/identity-kerberos-passtheticket/SKILL.md"
+    }
+  ]
+}

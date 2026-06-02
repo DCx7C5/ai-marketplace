@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mfa-fido2-extract",
+      "path": "identity/mfa/fido2/extract",
+      "description": "Deploy FIDO2/WebAuthn passwordless authentication using security keys and platform authenticators. Covers WebAuthn API integration, FIDO2 server configuration, passkey enrollment, biometric authentica",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b30f08ab66aed20f4f0e43352206877737243d82deeb3f6ab0d3b7c6d2178347db7c296f493af430f0eb09c188b26f3e18f6af6b63891d2b4e40d260c9cefd74",
+      "file": "skills/identity/mfa/fido2/extract/SKILL.md"
+    }
+  ]
+}

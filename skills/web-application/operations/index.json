@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging",
+      "description": "skill directory index",
+      "sha512": "c64f7523e1c3560c5f16dcf97eddcd4a7d14ed5e66251e207798c82431a23c1f9a19e3cf85bb2dad331e7c34bfb5579fdb5825b5511338a827addf21705c7733",
+      "file": "skills/web-application/operations/logging/index.json"
+    }
+  ]
+}

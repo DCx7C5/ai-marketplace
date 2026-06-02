@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-scanning-trivy",
+      "path": "cloud-containers-scanning-trivy",
+      "description": "JSON/table report listing CVEs with severity, CVSS scores, fixed versions, affected packages, misconfiguration findings, and exposed secrets with file locations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dbfda97b7c5f194ab1ca9fd3a73324628d28b8553640ca9dda678563cb6e65cfbb0af24e246b23a2cbfddf2d2cd414d4bb5f200f8d628577b0b44f94308b39d9",
+      "file": "skills/cloud-containers-scanning-trivy/SKILL.md"
+    }
+  ]
+}

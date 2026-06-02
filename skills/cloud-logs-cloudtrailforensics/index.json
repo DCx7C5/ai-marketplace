@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-cloudtrailforensics",
+      "path": "cloud-logs-cloudtrailforensics",
+      "description": "Cloud Logs Cloudtrailforensics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3f8e1385a7ddc180125e3310070d23ffa7725b4f845e8da60b1538a913be7cde4764d9ca6f89f537130e03422263e5c751fa3a84458bd2d08ac04523a066db9f",
+      "file": "skills/cloud-logs-cloudtrailforensics/SKILL.md"
+    }
+  ]
+}

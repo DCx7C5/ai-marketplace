@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "3454d6330efa1f7e012a214e65271b8f930a9d2ea95dd3483703fd5f8823b0ad44daf268c755f2db0f933ee3ddf195f59ac82f761c41bd0f4109063102f1eb20",
+      "file": "skills/linux/hardware/usb/policy/create/configure/index.json"
+    }
+  ]
+}

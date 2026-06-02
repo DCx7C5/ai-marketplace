@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-endpoint-analyze",
+      "path": "linux-fs-endpoint-analyze",
+      "description": "Linux Fs Endpoint Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "627fb0d5965f1d2f00358e74611b263f47203a9d09e68367165d128be138870153580e09ec4be2bf813f677827377df7bc2577105747334408fc9b73c1fa0666",
+      "file": "skills/linux-fs-endpoint-analyze/SKILL.md"
+    }
+  ]
+}

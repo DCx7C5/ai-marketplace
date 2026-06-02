@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pid",
+      "description": "skill directory index",
+      "sha512": "aff150815381dcd47b2c43db516c3e83e92cd479fe8e8ff7892c900425cfb648370b896d5f9edf75c33dd4292d54a74d8142a5d2eeff6a616b68212ac73a5a7d",
+      "file": "skills/linux/kernel/namespaces/pid/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "layer",
+      "description": "skill directory index",
+      "sha512": "4398a5a7c95e4f23a1cecba4ee3c3454a1824a0589fc4981e26fbfb6936c6687d7359c20eaf4b28f6086c0c4a080eea574437906a209ccd5908f436044384c18",
+      "file": "skills/linux/filesystem/overlayfs/layer/index.json"
+    }
+  ]
+}

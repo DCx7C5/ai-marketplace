@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-privesc-assess-audit",
+      "path": "linux-id-privesc-assess-audit",
+      "description": "Linux Id Privesc Assess Audit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "53f4448e79ccb73827546a6293eb89feb45b6c2352dea71cac7f6d5450f212b431ec97f8a5ee90f1fa2735cc26330ff3b71473b1edf5c393ccb203800fc6a5e3",
+      "file": "skills/linux-id-privesc-assess-audit/SKILL.md"
+    }
+  ]
+}

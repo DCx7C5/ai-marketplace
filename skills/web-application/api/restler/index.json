@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "a92f14b9911cd623b7b69b105e161035972e478b011d33818f1fb6e9bb88aba1d8c39595c2f7e88f3897478bccc8c3217362c472d8852132b3284ba581836d19",
+      "file": "skills/web-application/api/restler/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "af97e0f0bc628645a389324e5b97e59f5c0e716e9387461f38ba964f936de65a9cf3bd2f920632c59c04c572ac851fa64cc7425ab8d84ba48e2a60b93cd43ce0",
+      "file": "skills/web-application/api/restler/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "82c71865783f76c1e81f873732382e701e7c507b21f36a76e1cabaaf14099bff53d0ed9ea7a248e87f4cc5521e657f20a97ea079887d3318aadcacf099e0066b",
+      "file": "skills/web-application/api/restler/scripts/index.json"
+    }
+  ]
+}

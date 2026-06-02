@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-boot-grub-tamper-detect",
+      "path": "linux/kernel/boot/grub/tamper/detect",
+      "description": "Detect GRUB bootloader tampering \u2014 check GRUB binary hashes, grub.cfg integrity, password protection, and unauthorized menu entries that could load malicious kernels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8920b64068f1c4c46f06bcfc7f1031428ac426e9662432c88f1d70fa393c776040cf6be40a264ad5f33e30ff70dd2759d24adb4c6051020a2151c47719c2a092",
+      "file": "skills/linux/kernel/boot/grub/tamper/detect/SKILL.md"
+    }
+  ]
+}

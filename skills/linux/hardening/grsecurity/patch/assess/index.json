@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "efbb1a4c13ce5043232c2011c1a781d9361ea23f4b7ef89cfb0640c6b695eebce9eca3e394521a1fc6708688e17e1366dfccda403716ce9ddf78fd3e510fcf39",
+      "file": "skills/linux/hardening/grsecurity/patch/assess/audit/index.json"
+    }
+  ]
+}

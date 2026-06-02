@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7cd845fb14a8afbbe7e09bc1a389b5ae06c7c8de5fe50f65abc32237d81e16e8f20d990dac3a733e0994aab2b6fe12f0d52ad9daa67095c7531a668efc253c88",
+      "file": "skills/cloud/ir/compromised/detect/index.json"
+    }
+  ]
+}

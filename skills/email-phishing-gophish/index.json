@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-gophish",
+      "path": "email-phishing-gophish",
+      "description": "- **Evilginx2** (for advanced AiTM testing): https://github.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8897a279e9642bc5eb83eb16bba706a968a2e44b09368c97850a4ee2cf955d22ff6484295111d3be65c2b8879699c0a71533771d69a10142a0688b859bf6c93",
+      "file": "skills/email-phishing-gophish/SKILL.md"
+    }
+  ]
+}

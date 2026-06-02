@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-accessreview",
+      "path": "identity-pam-accessreview",
+      "description": "Identity Pam Accessreview.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5238afb49bd584f580298772cd44e5eb3ec2526777640fe18fb909fc522ee7a1e781182f97e1945d2e243c538b608410527778c639cb3a1cae702e5e123c5a49",
+      "file": "skills/identity-pam-accessreview/SKILL.md"
+    }
+  ]
+}

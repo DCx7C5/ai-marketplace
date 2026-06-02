@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-assessment-net",
+      "path": "net-assessment-net",
+      "description": "Net Assessment Net.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ced38a08b8d2e6efa1c576d0c091877e28fc51e05524ced6f04fc1f582d9186e1019ea630d1648d464e7f966935444f948dbaea68dfb86d04ecf4e672ceebe3a",
+      "file": "skills/net-assessment-net/SKILL.md"
+    }
+  ]
+}

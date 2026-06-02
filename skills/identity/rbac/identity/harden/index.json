@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rbac-identity-harden",
+      "path": "identity/rbac/identity/harden",
+      "description": "Builds comprehensive identity governance and lifecycle management processes including joiner-mover-leaver automation, role mining, access request workflows, periodic recertification, and orphaned acco",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "775b9332c17fb4200828471ce2035ccca8c37521106200c18b582d3724cf085cb797bdbf6afdc1d5241ae65c4a3269dd97f37d983eb7bc32311bbcbadc14a82c",
+      "file": "skills/identity/rbac/identity/harden/SKILL.md"
+    }
+  ]
+}

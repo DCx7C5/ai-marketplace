@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "6bcdfe78767b01779b25baafa2929070951ce51517fdd08e92835b75155ba074944424acedf0813bb4ed04c1c39a439698409df0235a2380a7fa71b538de9748",
+      "file": "skills/linux/memory/heap/use-after-free/detect/index.json"
+    }
+  ]
+}

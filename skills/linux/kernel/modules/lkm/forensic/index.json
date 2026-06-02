@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-modules-lkm-forensic",
+      "path": "linux/kernel/modules/lkm/forensic",
+      "description": "Advanced Linux Kernel Module development for cybersecurity forensics. Custom LKM creation for rootkit detection, real-time syscall monitoring, kernel-space threat detection, eBPF forensics, and kernel",
+      "domain": "cybersecurity",
+      "model": "opus",
+      "sha512": "de63f42d55e3e66f0a6e3f2cdc6e9bd1d2d32fd5c64cdb0d52ae7a5f36bc0b89d00169fc2318a8244c023f1d8435ebd79f8fcd6855b425d732332a8bee17d839",
+      "file": "skills/linux/kernel/modules/lkm/forensic/SKILL.md"
+    }
+  ]
+}

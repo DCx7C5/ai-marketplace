@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-btrfs-snapshot-analyze",
+      "path": "linux/filesystem/btrfs/snapshot/analyze",
+      "description": "Compare Btrfs snapshots to identify file changes between known-good and potentially compromised filesystem states for rootkit and tampering detection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d81757100f0812ef850598f3074c05ddce86c7c799bc0620663585d641c924c5826d74161f03b6ab5cb0cbc4c67098b406dc59f22fd35b7d8b6eadba5d0b0e4",
+      "file": "skills/linux/filesystem/btrfs/snapshot/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-zeek-dnstunnel-detect",
+      "path": "network/capture/zeek/dnstunnel/detect",
+      "description": "Detect DNS tunneling and data exfiltration by analyzing Zeek dns.log for high-entropy subdomain queries, excessive query volume, long query lengths, and unusual DNS record types indicating covert chan",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5a907023e72d0e16b4c90c38c3e52177fff25a9cd87d540292ecac1afe980c3634fc23c251376313dff7ebf2c6f9a0132d9c1d6f824371d3b087bae0c174d62c",
+      "file": "skills/network/capture/zeek/dnstunnel/detect/SKILL.md"
+    }
+  ]
+}

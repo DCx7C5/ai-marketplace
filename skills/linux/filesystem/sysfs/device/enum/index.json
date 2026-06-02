@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-sysfs-device-enum",
+      "path": "linux/filesystem/sysfs/device/enum",
+      "description": "Enumerate sysfs device nodes, driver bindings, and USB device history to identify unauthorized hardware devices and persistence mechanisms via kernel subsystems.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "61bdb56535ffb6dfc3936be4166c512a8722f62268527d9bbe0078f279d09e8a2fe998d136d97784e76e699c16a00b8712f9a852696eebd57c9a653f5cc7071f",
+      "file": "skills/linux/filesystem/sysfs/device/enum/SKILL.md"
+    }
+  ]
+}

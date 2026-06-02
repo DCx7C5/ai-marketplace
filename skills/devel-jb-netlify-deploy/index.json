@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-netlify-deploy",
+      "path": "devel-jb-netlify-deploy",
+      "description": "- [Deployment patterns](references/deployment-patterns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3cc49514f6d02d464734603f25a705843b58de81a782e7717118a2fa66f2fe486754622b18b8d09f56705af2ae36152a541cc7a856f5b87f6f762e50d544a904",
+      "file": "skills/devel-jb-netlify-deploy/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "b75bd40a707ab4f1192e3b1420bc456397c03563da02b509184ee675b274d1828681d9019dd361f34ded25272c13dd972b161c893b8973c5f82f0914c396d13c",
+      "file": "skills/devel-jb-netlify-deploy/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "be4cd2f0789b0fd945ff453613d3f2ca1b8ed4a84bfc03f380b2d12a68db5c8382428e78f1ec5ba817223c12d9d818bb6130e5dde3d0dfa54f3f902815e3801f",
+      "file": "skills/devel-jb-netlify-deploy/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d860190e3afdd17e77d06160a268b637c68c3a0849b7591fc09df623f11ab7dca592bc9c15911f9000d84eaefbc090542e23c6635de85bbd4399f2d685dfa6f1",
+      "file": "skills/devel-jb-netlify-deploy/references/index.json"
+    }
+  ]
+}

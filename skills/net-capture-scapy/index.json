@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-scapy",
+      "path": "net-capture-scapy",
+      "description": "JSON report containing packet statistics, protocol distribution, top source/destination IPs, detected anomalies (SYN floods, DNS tunneling indicators, fragmentation attacks), and per-flow summaries.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c7468c4ec63602489c783a493e7f20523950ca9b902a1f6e43b435a04dd89dbf1e5aff91f6df5ae2aa130e05d9d578ab6434c7d93573f8cd0d2a8013edc2e0ba",
+      "file": "skills/net-capture-scapy/SKILL.md"
+    }
+  ]
+}

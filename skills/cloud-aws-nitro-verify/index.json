@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-nitro-verify",
+      "path": "cloud-aws-nitro-verify",
+      "description": "| | PCR0 (Image) | a1b2c3d4e5f6... | Yes | | PCR1 (Kernel) | f6e5d4c3b2a1.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "67a008b19faa9e32fa2d872eb88a2746eedf7a564266fa97b56e3a89bb407c66bf5554f501d22aa26b31f35f34520e83cde3745e7c9f74823b956bab5733fd4f",
+      "file": "skills/cloud-aws-nitro-verify/SKILL.md"
+    }
+  ]
+}

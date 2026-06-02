@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-iam",
+      "path": "intel-analysis-iam",
+      "description": "- [STIX 2.1 Campaign Object](https://docs.oasis-open.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cc05a82d2fe6d65e14e4ff89343e8dfcf141df9ff8ed95ca243232011d9e8fd552dcc5ab919525bd0c513143bee102dae941aac6064dc4e6b928ffd2386b0c8d",
+      "file": "skills/intel-analysis-iam/SKILL.md"
+    }
+  ]
+}

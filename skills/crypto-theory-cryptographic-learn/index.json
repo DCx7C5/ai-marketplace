@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-theory-cryptographic-learn",
+      "path": "crypto-theory-cryptographic-learn",
+      "description": "Crypto Theory Cryptographic Learn.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "22de6e37231a77505526fb4976110fde0db1aa4d48b5b97b073760d686bd9ce6373d11761c992ad3aacd0fc453669143e77728f5f11dcebe964dc5b863e83248",
+      "file": "skills/crypto-theory-cryptographic-learn/SKILL.md"
+    }
+  ]
+}

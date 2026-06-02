@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-arkime-detect",
+      "path": "network/traffic/arkime/detect",
+      "description": "Deploy and query Arkime (formerly Moloch) for full packet capture network traffic analysis. Uses the Arkime API v3 to search sessions, download PCAPs, analyze connection patterns, detect beaconing beh",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80fe37c0524210ac2513d62b42e122ea8c9c0a4d4adbd133ca15bbc54a6a4f7bb3406a7ac23bc73db6342721f91ef81a899ee4bcdf36afea60b7969c04085f4a",
+      "file": "skills/network/traffic/arkime/detect/SKILL.md"
+    }
+  ]
+}

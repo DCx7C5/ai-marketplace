@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-security-firewall",
+      "path": "net-security-firewall",
+      "description": "Net Security Firewall.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "24898e9aa5b77eba382ddf38ae04f599426af639cadb8787d79da213a57d856cc17a64e29d4ec07b5ce9fa822fb4f064f7f052c0306e2e1c662a57129eb4ed9e",
+      "file": "skills/net-security-firewall/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-certificates-transparency",
+      "path": "crypto-certificates-transparency",
+      "description": "6. Always read-only \u2014 never modify trust stores or key material 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "da23887235e28f2520197005d1178faa4882fef2fe875277a12592f6476fd7f2d317b275353f979b2d920ddbc4276b6b9e33da767c0fbd2ee3f4a4b5a4515310",
+      "file": "skills/crypto-certificates-transparency/SKILL.md"
+    }
+  ]
+}

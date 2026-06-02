@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-lvm-snapshot-forensic",
+      "path": "linux-fs-lvm-snapshot-forensic",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d90db6f848940a7b5d8ccc681586fb524df33031dd6f7c94c838c6ddb050fea9add568cb28d6053ca13c2449adedb145b2a5002b691070f90833e5381a4dafb5",
+      "file": "skills/linux-fs-lvm-snapshot-forensic/SKILL.md"
+    }
+  ]
+}

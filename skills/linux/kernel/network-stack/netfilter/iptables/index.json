@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "9f68decea843f7a46b0f8b6a13dce99bbb8fbacb857747e326800db0c536ce10e6d465739f8d6e9af345cc42c66e9efd8070e8971c37b6fedff9ea1a21efbbdb",
+      "file": "skills/linux/kernel/network-stack/netfilter/iptables/audit/index.json"
+    }
+  ]
+}

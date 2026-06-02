@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-ad-conditional",
+      "path": "cloud-azure-ad-conditional",
+      "description": "Cloud Azure Ad Conditional.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "14ce22259cfe7ff7aff5dbcd87d8eed1958442984e66ecd67b53dc59c519f4e46108e2f49ae9a105e17b4ea71f276c02dbe3b4359cdfcabb1bfd00933ff7c88d",
+      "file": "skills/cloud-azure-ad-conditional/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "brave-wallet-extract",
+      "path": "browser/brave/wallet/extract",
+      "description": "Extract Brave Wallet seed phrases, private keys, and transaction history from the browser profile for cryptocurrency forensics and theft investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fd33f227da84e9db449f3a0e8c6ab9769a38d2bad3331ba803fbedc3e0c603e08deccbca010f0f4dd61cf3b5cbffc6860d05e6920285cb0a50c92c5059a9b5fa",
+      "file": "skills/browser/brave/wallet/extract/SKILL.md"
+    }
+  ]
+}

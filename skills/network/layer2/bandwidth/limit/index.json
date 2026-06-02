@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "293786c8602973db6873fb252cf880b710508965272fc65d82a161b9d76538df6c784fb78d155527fbc9fbfa5788e83b1e181a40e8a8753550c72aac7fc024c8",
+      "file": "skills/network/layer2/bandwidth/limit/detect/index.json"
+    }
+  ]
+}

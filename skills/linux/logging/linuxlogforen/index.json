@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c68f843e04bdaff106616ae6c5171d2ecc313ed04253c5e217cc80a0f28869340c93b16a3ed3fa93e1eaa8e08b24f20bcda2bb8736d1d1d434fb5a0cd1c0c5a2",
+      "file": "skills/linux/logging/linuxlogforen/detect/index.json"
+    }
+  ]
+}

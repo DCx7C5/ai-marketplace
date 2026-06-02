@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "http-covert-detect",
+      "path": "steganography/network/http/covert/detect",
+      "description": ">\\n  Detects HTTP header steganography and covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6355804812a794717c0b9555ec91b7e5db93e4cb910b61991a8dbeb9b414031da0cf1a3e974d2a6052c07af42cca788e0b177d38198f5ca049f8ffd6e72649a4",
+      "file": "skills/steganography/network/http/covert/detect/SKILL.md"
+    }
+  ]
+}

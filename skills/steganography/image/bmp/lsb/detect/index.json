@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bmp-lsb-detect",
+      "path": "steganography/image/bmp/lsb/detect",
+      "description": ">\\n  Detects least-significant-bit steganography in BMP images via statistical\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68a3aabb0f9cb879ca9588580c4ba06493242a36f953d6fb627f3ec89778703079d55c6efe91c809c865851f11cca37182d17de1369c59b895d15a1bb5bc8027",
+      "file": "skills/steganography/image/bmp/lsb/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-graphql-introspection",
+      "path": "webapp-api-graphql-introspection",
+      "description": "Webapp Api Graphql Introspection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "471aaad089700527fb94c7e29753bb8f11f2e51b74ad9602b1b83ee5e55853eced7055120a442bc84b4736409c5b5a409c7d176600dc7eeb55adff454f26c56f",
+      "file": "skills/webapp-api-graphql-introspection/SKILL.md"
+    }
+  ]
+}

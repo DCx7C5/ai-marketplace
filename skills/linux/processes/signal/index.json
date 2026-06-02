@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "handler",
+      "description": "skill directory index",
+      "sha512": "fefd222946254ddc7d6850ad85a97db90358698a5ad17e37cb9f5457d6019450238fd6568fa75bdcded3afa39738e7baa29e239ddf12fe91cff5dd7e5f8612f6",
+      "file": "skills/linux/processes/signal/handler/index.json"
+    }
+  ]
+}

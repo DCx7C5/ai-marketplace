@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-sysfs-device-enum",
+      "path": "linux-fs-sysfs-device-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "52df8727e19ae7e0c446a58f26aa44df6e840ad2572653e4cde3a96927846e5c7be6db7601869db8f0696ed2919b91e5c1b66cad862d7d0f2924b687c225d36f",
+      "file": "skills/linux-fs-sysfs-device-enum/SKILL.md"
+    }
+  ]
+}

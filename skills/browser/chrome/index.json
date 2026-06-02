@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cache",
+      "description": "skill directory index",
+      "sha512": "11d1dadaf51b04dc8c933939a140191fff485d87168402df8fa98236b1c8b98c02e9a5bb7ed1fa62ea3e579f2c052a4c0bd0d24d4b8fd13812a5cf5a1ed3300a",
+      "file": "skills/browser/chrome/cache/index.json"
+    },
+    {
+      "name": "cookie",
+      "description": "skill directory index",
+      "sha512": "5890f7c9d3c2a22bffc3e7e64d5840d3ddc4a130e94e5bdfefd075630a5d15fadf57c4fdec617c0c387663aa60ec6d7dd9b70f719989744f1c62b0e796b9f93a",
+      "file": "skills/browser/chrome/cookie/index.json"
+    },
+    {
+      "name": "extension",
+      "description": "skill directory index",
+      "sha512": "986f497201169eedc15c9627926c6dc2fcbcdff3f8c34b4608b7a05f96e02258189c35cca2963c7e4cce67eac41751308bef9c174e8efb7218458b5bb6b8036a",
+      "file": "skills/browser/chrome/extension/index.json"
+    },
+    {
+      "name": "history",
+      "description": "skill directory index",
+      "sha512": "ab79f80988595ea3480adf523730b2362aa7c2f155c5c734ec3fba9e0e5f3641411c7a4ef80603ec5de29e7dcbc0ed55e13561467c2ca8346e945496030ab61c",
+      "file": "skills/browser/chrome/history/index.json"
+    },
+    {
+      "name": "indexeddb",
+      "description": "skill directory index",
+      "sha512": "01f01872efd85f2de9dec6f152debb6001ebc107e8c8a145f450bfe04dfd206f03a69d993b2c18c25c9127a7078d4a2c1ea5532032402a7d53a4ad9a6083242d",
+      "file": "skills/browser/chrome/indexeddb/index.json"
+    },
+    {
+      "name": "password",
+      "description": "skill directory index",
+      "sha512": "5c704c4c3a274a2d136dfc34e609fbe36110e07f3877f762e79dbd3f8dc786fe742611867b1c03a16b2f6ac7746d576e946f5480e334e60b3b0a8871d14b4aab",
+      "file": "skills/browser/chrome/password/index.json"
+    }
+  ]
+}

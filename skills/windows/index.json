@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "a52c99d976bda714fced51fc0df5e1719af8dbc048303a5e9672ee2029d36801d25092320fb086c23dc4bd15e5a922d5937a6cca27c63e707e15ee58dc6d7d7f",
+      "file": "skills/windows/artifact/index.json"
+    },
+    {
+      "name": "filesystem",
+      "description": "skill directory index",
+      "sha512": "58bdb170e6783acd6edd59f82e9f2d501cf09dcb2fd29094471b27ec0cf06b628d556aaf44316343e5258f812a49954214b6075da32f0efcc4cf278c507cf306",
+      "file": "skills/windows/filesystem/index.json"
+    },
+    {
+      "name": "hardening",
+      "description": "skill directory index",
+      "sha512": "77ba17961fdbbafa69c0465589093d61657bece62fa56cf4869f7fb96dfbee3d3795e97b1e97e09d607ff72932bbc3f25b9c9cfd69fe552d4e9232cb1410a961",
+      "file": "skills/windows/hardening/index.json"
+    },
+    {
+      "name": "logging",
+      "description": "skill directory index",
+      "sha512": "77b1f92f7e4127c8a2471175dc86f495f088d10e93e624dd27d403b93c037b73e555fb957c82f966a44b672b4e74626ec7dde12548a19e714a9b7ebe9349f588",
+      "file": "skills/windows/logging/index.json"
+    },
+    {
+      "name": "logs",
+      "description": "skill directory index",
+      "sha512": "3db7abee67573af7ce035e17e9c5711d0109e7978f943a89394844e14e456acb6d0a06174d089652db18ceb352acb44132cd2712ad8a295e95f26fc64474ad76",
+      "file": "skills/windows/logs/index.json"
+    },
+    {
+      "name": "lolbins",
+      "description": "skill directory index",
+      "sha512": "93f656975a871f36f8af509e50adfd4a5d6c42ea6b5f1d2ed8ed578cbcd7fd19b4c8f3d333e679a95552d30bfd6e0a2c6cc14235bfb9f21fe3d37d732a854914",
+      "file": "skills/windows/lolbins/index.json"
+    },
+    {
+      "name": "processes",
+      "description": "skill directory index",
+      "sha512": "6675f0265681a97567dbc4da46fcdb6f9823f01d052100a0dbe35c944b46d6ba7e1890707c8777d677bd9b20eb8aaee0d99571ed6bdd8b6cf548fa6ce39367e8",
+      "file": "skills/windows/processes/index.json"
+    },
+    {
+      "name": "registry",
+      "description": "skill directory index",
+      "sha512": "e65bfd8e93dd54003f8cf3d6a631c0c60dcb271cbdaaa696560138406d12027e9b52ec503cb79be454f62f7dc3290c9b939ff9e1ba0804e8ddd355d6cfde1dc6",
+      "file": "skills/windows/registry/index.json"
+    },
+    {
+      "name": "services",
+      "description": "skill directory index",
+      "sha512": "9955f462b20ee29eb7a68ed512c0d1822aae97eb0be4028cc318929c32b9b7d61b54eb7d0502cab961867180628b7de34de4888f0a4f7b66dfee470241759f17",
+      "file": "skills/windows/services/index.json"
+    }
+  ]
+}

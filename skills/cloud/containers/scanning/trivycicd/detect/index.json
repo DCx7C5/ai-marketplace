@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-scanning-trivycicd-detect",
+      "path": "cloud/containers/scanning/trivycicd/detect",
+      "description": "This skill covers integrating Aqua Security''s Trivy scanner into CI/CD pipelines for comprehensive container image vulnerability detection. It addresses scanning Docker images for OS package and appl",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e5ce18f9fbe6425d9125c2d1158a25e2f0e23eebee8116283f49110c136d0dde6568f3ca2fd929fd7b5c51772c928cbbefe72b6dc56878c43ad3c455ddd69f8",
+      "file": "skills/cloud/containers/scanning/trivycicd/detect/SKILL.md"
+    }
+  ]
+}

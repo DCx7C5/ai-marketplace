@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "wmi",
+      "description": "skill directory index",
+      "sha512": "a57f9251b28bfd9c2e8e7cf36bb833cb8ec65796482a253bb128e59c171d3c0a973bf385b85d163990bdcd17661b4922631a18a5a35b24290165e49593b75e7f",
+      "file": "skills/windows/services/wmi/index.json"
+    }
+  ]
+}

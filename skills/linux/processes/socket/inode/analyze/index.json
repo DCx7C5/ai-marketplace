@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-socket-inode-analyze",
+      "path": "linux/processes/socket/inode/analyze",
+      "description": "Map Linux network socket inodes from /proc/<PID>/net/tcp to process PIDs for attributing network connections to specific processes and detecting hidden listeners.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dbe0a217e24d37559c0b3a2437c23b81fe59cacd4544ae5a28abaf727a659ce87fbd77afd06f5799a779e7657e253cea1ed480d899dde4da3980818fb03fc042",
+      "file": "skills/linux/processes/socket/inode/analyze/SKILL.md"
+    }
+  ]
+}

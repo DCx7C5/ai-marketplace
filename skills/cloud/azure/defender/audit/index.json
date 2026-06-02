@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-defender-audit",
+      "path": "cloud/azure/defender/audit",
+      "description": "Implementing Microsoft Defender for Cloud to enable cloud security posture management, workload protection across VMs, containers, databases, and storage, configure security recommendations, and set u",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f8802e0351b049f0c89ab3a0534f68c7d1744946f610fd771000763b8d2c5c69152f05b42e335f837452c1b8007720842d9866e42ee395a9c181f358742c8582",
+      "file": "skills/cloud/azure/defender/audit/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "ccf96777bf46e21ca580f48395ec86d5c772ac4f85bc7aeb612a54df25378dbc37bc3c81d9a23ae4280cd06f08bbc25ce3c78435456e63f28b2edcbc1ad93e5b",
+      "file": "skills/network/capture/zeek/configure/index.json"
+    },
+    {
+      "name": "dnsexfil",
+      "description": "skill directory index",
+      "sha512": "da9ae6b75c42d2f82f562ab75ddfdaeeb500bf404c56a4d9fd5ec209f2cfa8899417b3082c6a247cdec1afd11323fae183e25bd584597035b8688b4fbb81a9dd",
+      "file": "skills/network/capture/zeek/dnsexfil/index.json"
+    },
+    {
+      "name": "dnstunnel",
+      "description": "skill directory index",
+      "sha512": "daca2ab062823ae4886e3984f3091ebf432b99e86681d1f023d570c28ab4510dea948c6f42c3848fe6278d07370effe6ef58bd36fbf0812548beff29606b0804",
+      "file": "skills/network/capture/zeek/dnstunnel/index.json"
+    },
+    {
+      "name": "zeekanalysis",
+      "description": "skill directory index",
+      "sha512": "9ed2ee82cd27ccce065dc79c69b9695d112fa9addef7ace93eb3c7f48971676d916bace7ab3d8a915f3685efbcf2082e5ece0a7838bdf3613b06898113a9f63b",
+      "file": "skills/network/capture/zeek/zeekanalysis/index.json"
+    },
+    {
+      "name": "zeekanomaly",
+      "description": "skill directory index",
+      "sha512": "ad6b8b2ae28929d42ae302ece1b06ca62ba72b426b2fb55a6c573f7da1d6ab1284e1f4aed7de4a8855761dcea65d7d700cc0fc925894fd6dd47533f68b3d884c",
+      "file": "skills/network/capture/zeek/zeekanomaly/index.json"
+    },
+    {
+      "name": "zeeklateral",
+      "description": "skill directory index",
+      "sha512": "5ab1ae883248025c77158755136a347e7367d1ac835a9ec413b633a65be28ad2e72b8716407540bdd5f97947a94633cda8a9abebe6d47fe9a3a18ec343703579",
+      "file": "skills/network/capture/zeek/zeeklateral/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-scanning-container-analyze",
+      "path": "cloud/containers/scanning/container/analyze",
+      "description": "This skill covers hardening container images by minimizing attack surface, removing unnecessary packages, implementing multi-stage builds, configuring non-root users, and applying CIS Docker Benchmark",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "062cff8d754cf531a8a7a9ca9da667832c168e430e05f0082590e0ed8410596486cfa368aeafc7aa8bb70402cf266bff908c2c7db6a90a8c42e47afeb6b135f6",
+      "file": "skills/cloud/containers/scanning/container/analyze/SKILL.md"
+    }
+  ]
+}

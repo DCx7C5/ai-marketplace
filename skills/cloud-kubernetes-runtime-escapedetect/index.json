@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-runtime-escapedetect",
+      "path": "cloud-kubernetes-runtime-escapedetect",
+      "description": "- When conducting security assessments that involve performing container escape detection - When following incident response procedures for related security events - When performing scheduled security",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "236faef456a0e183326efe96e01ce08a4e90e2ebee4d41ca2f7fcf36273f6452b5e12671c602024a09bad374d3b55e320d0e1e75aab18a854bbaf31513b80f8e",
+      "file": "skills/cloud-kubernetes-runtime-escapedetect/SKILL.md"
+    }
+  ]
+}

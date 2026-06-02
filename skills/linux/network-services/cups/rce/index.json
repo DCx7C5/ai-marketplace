@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "e54c1f20338ef8fad438356a4301f0bb59f1e73c1b847a9185d41a2d5db864643ff1df2a450c9ba585d558d907fc659d7d1c350b2a5114e3f1bb1be68f7b71f0",
+      "file": "skills/linux/network-services/cups/rce/detect/index.json"
+    }
+  ]
+}

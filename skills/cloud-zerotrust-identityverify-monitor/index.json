@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-identityverify-monitor",
+      "path": "cloud-zerotrust-identityverify-monitor",
+      "description": "- NIST SP 800-63B: Digital Identity Guidelines - Authentication - CISA Zero Trust Maturity Model v2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6b75c9edfe8789eb23d1156bae3ca4cdc4f02ae3ab832dc4062fd58efd2c9321a8c7fb256789b3c00d91c991646fc9659c4b2bdd876881be3c0da6b98eefe5ff",
+      "file": "skills/cloud-zerotrust-identityverify-monitor/SKILL.md"
+    }
+  ]
+}

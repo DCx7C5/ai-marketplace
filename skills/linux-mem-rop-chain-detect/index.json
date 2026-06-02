@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-rop-chain-detect",
+      "path": "linux-mem-rop-chain-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6c85c4e1e7e199e46ff4bbaeb3c853801476d9f8b02326e866fd63bf5766d5c8b5072a7491684dda1e8d74988aa421684859d68fa93ad24fedf2b135bdf6dbc5",
+      "file": "skills/linux-mem-rop-chain-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "group",
+      "description": "skill directory index",
+      "sha512": "eeef324370c4b6d7f0a8e88fedf638fe86af94d08e867add170873d1cd7eb852ee2252757966621008dce6d7c179a68a13af7f32fbe8715498da629982716620",
+      "file": "skills/linux/identity/gshadow/group/index.json"
+    }
+  ]
+}

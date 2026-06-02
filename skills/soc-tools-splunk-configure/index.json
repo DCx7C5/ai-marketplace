@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tools-splunk-configure",
+      "path": "soc-tools-splunk-configure",
+      "description": "Soc Tools Splunk Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "aff1555854d7ebba3b3e46e5ae4230868c2c1ac9813a3f7f5f4322041a477c916a32280c178a6e1deb34b7ed4d48eb2c8ce9467660bafbe9ed947aa0eb0d9787",
+      "file": "skills/soc-tools-splunk-configure/SKILL.md"
+    }
+  ]
+}

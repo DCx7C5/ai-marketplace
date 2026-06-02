@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "acl",
+      "description": "skill directory index",
+      "sha512": "c453a6066597bdaa61698277eff994ac0e84c64f5af25806d5c5dac40e43ce3a665398efb14595aa6d0e3d2e885119c52bf416e356ffe6f6f9ec2f512fd86417",
+      "file": "skills/linux/network-services/nfs/acl/index.json"
+    },
+    {
+      "name": "export",
+      "description": "skill directory index",
+      "sha512": "49008d8b5d95aa04ecd437c0c4db95ad0b50a526a17dd85323e69ccceaf82ea8e57758c87cc64144120214adeb556e97f8d3bd758f1ec53e6bbfcdaf4b1ee818",
+      "file": "skills/linux/network-services/nfs/export/index.json"
+    },
+    {
+      "name": "mount",
+      "description": "skill directory index",
+      "sha512": "7b3a80404bde1dc43dff704dafb87cc74f5ea0843f95193269ac837eeb7b71156178c59f1fc8a094f9d681a012343b2ff6cdfaec971c82c4adffd6aac6e1e065",
+      "file": "skills/linux/network-services/nfs/mount/index.json"
+    },
+    {
+      "name": "rootsquash",
+      "description": "skill directory index",
+      "sha512": "dcf45202d645e0ee626b50895137e93d60044a5af8dce123faff8e731af736c58d4bc3dbb423676d2c27fa4dc63c1521cdb5ff125378ed11d6826fde89e33033",
+      "file": "skills/linux/network-services/nfs/rootsquash/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-tpm-pcr-attestation-verify",
+      "path": "linux/hardware/tpm/pcr/attestation/verify",
+      "description": "Verify TPM PCR values and perform remote attestation to confirm system boot integrity \u2014 detect PCR tampering indicating bootkit or firmware compromise.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "832460fa4f7754caf7cd18de3b23a745df1a1746ab57d45b09fda5c308c8ca251efbc1c33aa38192cf14d0235b70ed41b0c3776bbfb00bca17c2adb777ecaa00",
+      "file": "skills/linux/hardware/tpm/pcr/attestation/verify/SKILL.md"
+    }
+  ]
+}

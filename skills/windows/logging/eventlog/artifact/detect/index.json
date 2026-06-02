@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-eventlog-artifact-detect",
+      "path": "windows/logging/eventlog/artifact/detect",
+      "description": "Extract, parse, and analyze Windows Event Logs (EVTX) using Chainsaw, Hayabusa, and EvtxECmd to detect lateral movement, persistence, and privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "47ee12b3e4a933db59daed78189f6e32b196fa764c8f44feae0493a3cc7d2a6522a7001d5a9d19c32129c446cda615b798120f339c9c12e531c3e38891d54792",
+      "file": "skills/windows/logging/eventlog/artifact/detect/SKILL.md"
+    }
+  ]
+}

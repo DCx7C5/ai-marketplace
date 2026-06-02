@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-cwpp",
+      "path": "cloud-aws-cwpp",
+      "description": "```python # Check for unauthorized outbound connections ssm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f1ea21d4c2db18f995c1e06ffcd54c0c0342f078c9f4a1444efe1c378a38645bb4741e058966eade5d3f806a76aef4e996f96e29c626b21a5e8511f154b7917",
+      "file": "skills/cloud-aws-cwpp/SKILL.md"
+    }
+  ]
+}

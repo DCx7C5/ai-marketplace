@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws",
+      "description": "skill directory index",
+      "sha512": "acd09bdd872b6793abd18cc002effd0295508a30c365a19a48e54921926552b8c396c4653ed4bfc8b2d35dcb49caec21d4dee10625d3a1dad6f3bb73945481d9",
+      "file": "skills/cloud/aws/access/aws/index.json"
+    }
+  ]
+}

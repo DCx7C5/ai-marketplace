@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "conduit",
+      "description": "skill directory index",
+      "sha512": "e07e75c1ad63228074dc9e65a73ce4e5a39f7ef4b64c40f7b2eb833a48a572371edbf685a2d9da9596e0278a79bdfc7846f39e7c1bb0ea80219f2d134e754e33",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/index.json"
+    },
+    {
+      "name": "zones",
+      "description": "skill directory index",
+      "sha512": "48f636bc56e3e1ae382d7a0f8d3019a710d5f64f9e30ab6983d44577aa1b816c5c03787dfab0670424be77432ac85ad8093d4c8014d3ee50e11dfa62ef9e0d88",
+      "file": "skills/industrial/ics/architecture/iec-62443/zones/index.json"
+    }
+  ]
+}

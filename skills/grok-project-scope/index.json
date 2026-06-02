@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "grok-project-scope",
+      "path": "grok-project-scope",
+      "description": "Use for grok-project-scope \u2014 defining, enforcing and maintaining clear documented scopes for every project inside the GrokProjects workspace. Requires the grok-projects-workspace skill. Activate when ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "04b15afe0aa14d0aea32225b25935d0a9295cc7c2722172c6090ecd374163aa5d5900f762a29ac56323535fb7dd45c6c843b9612fa2977e64d569ac4ee5ccaa1",
+      "file": "skills/grok-project-scope/SKILL.md"
+    }
+  ]
+}

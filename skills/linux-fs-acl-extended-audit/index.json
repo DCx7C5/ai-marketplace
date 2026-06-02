@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-acl-extended-audit",
+      "path": "linux-fs-acl-extended-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e290707c36a73b1a80de48f102b886abf0dc704b751eaae9db603fc4b6f378a621ad6ef31f532d53021ac3a5e531fe7a9d99776ddb97704d06c8981578ffff5",
+      "file": "skills/linux-fs-acl-extended-audit/SKILL.md"
+    }
+  ]
+}

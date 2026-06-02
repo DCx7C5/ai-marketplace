@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ext4-inode-analyze",
+      "path": "linux-fs-ext4-inode-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "894aa33675e260c4a285f2d4357f41e406ee3ff8ee3fd0d36fa26a39a708da47ba05e08374af9a1310cddb07931dae0eb911293964e97c439718b72bd2052f89",
+      "file": "skills/linux-fs-ext4-inode-analyze/SKILL.md"
+    }
+  ]
+}

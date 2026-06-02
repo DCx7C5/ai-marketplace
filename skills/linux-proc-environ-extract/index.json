@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-environ-extract",
+      "path": "linux-proc-environ-extract",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6092a8f7939bfdf9cf48550f2f514ab8b733df9b72e5b3d5e175645b651783c7ef17cdb528d5bfa67f5f2ca3a11861840010027d4c987c16b978d58bf12cc7c2",
+      "file": "skills/linux-proc-environ-extract/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-tailscale-harden",
+      "path": "cloud/zerotrust/tailscale/harden",
+      "description": "Deploy and configure Tailscale as a WireGuard-based zero trust mesh VPN with identity-aware access controls, ACLs, and exit nodes for secure peer-to-peer connectivity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bb58052dbf893782aad8035ed54ab8fb948125c00a13098f57e4a13b9e26d40677a0a4fb45ce509d64e9b10d780fedb2fd335c9c953f3a8eff943d17e132e7a5",
+      "file": "skills/cloud/zerotrust/tailscale/harden/SKILL.md"
+    }
+  ]
+}

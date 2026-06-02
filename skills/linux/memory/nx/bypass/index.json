@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "56ac001efe8f399c322e0e33e0aa2066fd3422e94e8fd1949b7afbdb0a275d642c3375ca5e6bd8f2e6d1d0cf5ccdbfdee573f5cb9b8ba894b5f479893d896634",
+      "file": "skills/linux/memory/nx/bypass/detect/index.json"
+    }
+  ]
+}

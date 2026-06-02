@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "oracle-tns-listener-enum",
+      "path": "database/oracle/tns-listener/enum",
+      "description": "Enumerate Oracle TNS Listener services to identify database SIDs, version information, and unauthenticated registration vulnerabilities using tnscmd10g and nmap NSE scripts.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5cd460be5e592f37e8e264aedfe528cf5d1f24486e5d67ff8ff71948f68134f22d6755b44d23bb368289c3cf7e2baa735a354f5fbcd6ffe05b0450a0f97a803b",
+      "file": "skills/database/oracle/tns-listener/enum/SKILL.md"
+    }
+  ]
+}

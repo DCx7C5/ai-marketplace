@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "create",
+      "description": "skill directory index",
+      "sha512": "c2f428e96f61a5e6f31d7c678a20d5d02438996ce01811aaa85e78beee85322580b4afe3cd02f853e8d14d227c2b0398d152d81f542bbba0710ad526456d9cef",
+      "file": "skills/linux/forensics/timeline/plaso/create/index.json"
+    }
+  ]
+}

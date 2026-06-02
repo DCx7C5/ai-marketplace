@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "254351b339d5439dc3779e3f441179cf61fd7d55227a1fb6c28d2d266c68bfa37b17bf872a055a41ef53cdb17533addfa6cb813560a7d7d443589f48a436aadc",
+      "file": "skills/windows/artifact/forensics/index.json"
+    }
+  ]
+}

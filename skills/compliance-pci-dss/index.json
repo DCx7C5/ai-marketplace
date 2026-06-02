@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-pci-dss",
+      "path": "compliance-pci-dss",
+      "description": "- PCI DSS 4.0 Summary of Changes - UpGuard PCI DSS 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "95a5526d474b903c5bb1ed6f6a85d4421a89646cf7bcce518c21ba77c02728698f8c1b30c001033d2d66b2d6a39a84af7320c37176c090f067e08c9882086cff",
+      "file": "skills/compliance-pci-dss/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "user-behavior",
+      "description": "skill directory index",
+      "sha512": "001d21fc31902d895734fab6cbb95ed17edc22648b83d8361335f3c78ed10f58371e74f61937609d87a4da2e3d4c5669ea55b6336a888d62b378e30c7e03aeb7",
+      "file": "skills/soc/ueba/user-behavior/index.json"
+    }
+  ]
+}

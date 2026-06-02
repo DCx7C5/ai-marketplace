@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "263c91356c6784b45493b160adb0539f53a95f4912a421def6233f1fbf117da1e456c7f407da4b91586250ed386527ae058104fbfa6fe909110f412bd4233b9c",
+      "file": "skills/web-application/deserialization/insecure/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f0be0d4426996d1925b588fb5572e1514e42777bdb1d353f3ba4980b92d2bd3776569556d3996d4730f20dc41f3bd8ad45c4f44fb4ad1b0d7c4b9989a1d54cef",
+      "file": "skills/web-application/deserialization/insecure/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2e6c3ec43044253a7e2fbde8544cac4869ac23c87edcf5194590be128e6611a484c73dad0275900a1e50e709a7f1ccab455c4a239d78e1e2319fc54e10b7b78f",
+      "file": "skills/web-application/deserialization/insecure/scripts/index.json"
+    }
+  ]
+}

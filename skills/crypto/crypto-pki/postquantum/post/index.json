@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f89ea61e85dc328cf4ce280656029f8c2d3d8351d69a88dfb3e077bdc0bbe08ef284e78317b6754defc7ee5686937c2e871129e8e69a3c38ebda4701fab8abf1",
+      "file": "skills/crypto/crypto-pki/postquantum/post/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f7145652d64dd19dde82783290217b5e4113453cfa3430541f3bbd895fab05bb0783514e62816340a7c306e99828b3f9238ad7e8b856a7f1015f0578941d8279",
+      "file": "skills/crypto/crypto-pki/postquantum/post/scripts/index.json"
+    }
+  ]
+}

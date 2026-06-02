@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-network-k8snetpol-harden",
+      "path": "cloud/kubernetes/network/k8snetpol/harden",
+      "description": "Kubernetes NetworkPolicies provide pod-level network segmentation by defining ingress and egress rules that control traffic flow between pods, namespaces, and external endpoints. Combined with CNI plu",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "70f75d5512e40dd7792bbd90637cf6d631ca43f72291c30cbd2e89a801eb92ed4d72baec1ed0005f1672d969c48011a8382aaab0c2b19aa6a87d2053aae8f995",
+      "file": "skills/cloud/kubernetes/network/k8snetpol/harden/SKILL.md"
+    }
+  ]
+}

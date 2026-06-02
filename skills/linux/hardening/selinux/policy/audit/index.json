@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardening-selinux-policy-audit",
+      "path": "linux/hardening/selinux/policy/audit",
+      "description": "Audit SELinux policy effectiveness \u2014 review policy modules, identify permissive domains, audit-allow rules, and detect policy weaknesses that allow privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "497e4c36990ecd145d0f1e618f5497e5cc109523923a92e675a62ebd57f774e1e4b885863a7150a947a4512e4d4e6c4054157eafe926b2691a10b958ae83ff87",
+      "file": "skills/linux/hardening/selinux/policy/audit/SKILL.md"
+    }
+  ]
+}

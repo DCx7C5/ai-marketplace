@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-stack-bypass-detect",
+      "path": "linux/identity/pam/stack/bypass/detect",
+      "description": "Detect PAM authentication stack bypass \u2014 identify pam_permit abuse, 'sufficient' control flag manipulation, and PAM stack modifications that bypass authentication.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ab3e1c2e19c6f357c63b73cd3b6430123f222da1929f6e6767730736788db87974d2a391f39422d2db3a58d57f62c90a4b3438ec188bedf782bb6ee068c03b85",
+      "file": "skills/linux/identity/pam/stack/bypass/detect/SKILL.md"
+    }
+  ]
+}

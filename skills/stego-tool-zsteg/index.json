@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-tool-zsteg",
+      "path": "stego-tool-zsteg",
+      "description": "Use when extracting or testing embedded payloads in media files.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3a41ae0bfe9b04af4bbaa44595c1e7c9a120dc7e85b2b53240b8532a6fde472a686ce183152392946ea0f0579e9a7aae8489a09ed4aaf4ec0e3c5586dba59046",
+      "file": "skills/stego-tool-zsteg/SKILL.md"
+    }
+  ]
+}

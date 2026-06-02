@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assessment",
+      "description": "skill directory index",
+      "sha512": "e2a1451dc9ef4a1febacace42024f2466ee33837ea26ba3d6f587348e568c1ef7bf6598da148fac815cea25caef7960a427533b8715f719475cd71da0a7cb5d8",
+      "file": "skills/web-application/api/graphql/assessment/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "00249d30bd627e9793fea18ce19ede3bc7e459692ebf093c8c9e4e8b117c8ad7ca05e2e7e338d65f695a1cda927c504d8d5878011fa85902fbd6da6a3590fd40",
+      "file": "skills/web-application/api/graphql/detect/index.json"
+    },
+    {
+      "name": "introspection",
+      "description": "skill directory index",
+      "sha512": "4a707677fd7f56cf7a53ddf20a945ed49243e9a83b6e6fc04d6e28441b4dbdd3864734d7363e0d7324a18472bef18dad15a370539a5735a8b538b58a28fec2b2",
+      "file": "skills/web-application/api/graphql/introspection/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "340e7ffc5d0d8e688ad268cbdfc7dda14124a8602dfe6f26bc4505a201e309a27091ba7ef48db0283d04c2e2578da718a8eff9f2d10516cc1505083c78889fb0",
+      "file": "skills/web-application/api/graphql/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6acb6cdfba696e235fab83184b6ca9146b4fb1b3ad5d47a946681a3ff27b2de1d2206f689970b73dc73a5068a3f8075e20d9d4fa0dc631272394099c3f0467ff",
+      "file": "skills/web-application/api/graphql/scripts/index.json"
+    }
+  ]
+}

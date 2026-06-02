@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "profile",
+      "description": "skill directory index",
+      "sha512": "b3667214ab98f58c88f94598340b8d927af7a89f9eb34284f768b912725538b95189cca4a3fe1dcf860bfef8f734492c12df0f8a63c688c02e935ed4a1da59de",
+      "file": "skills/linux/containers/seccomp/profile/index.json"
+    }
+  ]
+}

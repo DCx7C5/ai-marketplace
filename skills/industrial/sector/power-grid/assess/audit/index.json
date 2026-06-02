@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sector-power-grid-assess-audit",
+      "path": "industrial/sector/power-grid/assess/audit",
+      "description": "This skill covers conducting cybersecurity assessments of electric power grid infrastructure including generation facilities, transmission substations, distribution systems, and energy management syst",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bb2f272a3c9f2a71566a3e5cec876848c97cf55d651265dff1494a3aaa057d89a863d4c4e979907e3956aeb465a3e35c9c5218dc9012f14ed1725a09ca3caa3b",
+      "file": "skills/industrial/sector/power-grid/assess/audit/SKILL.md"
+    }
+  ]
+}

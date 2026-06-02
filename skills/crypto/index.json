@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "asymmetric",
+      "description": "skill directory index",
+      "sha512": "528328e370ada16d8150285b7b6af063a212df6b09f1b3c51b48b90c382940681f72b5c84eb40cb0020320d6b784fa58e8b7b522d7977768599cf46cd8c19ffc",
+      "file": "skills/crypto/asymmetric/index.json"
+    },
+    {
+      "name": "blockchain",
+      "description": "skill directory index",
+      "sha512": "94460134d17cab4105b7908ba14851ef51350fc6969341bad6c3f486e04aef125132af8aed996cbb7dfc67be679430549389e6590e53f3779122e6174d36a732",
+      "file": "skills/crypto/blockchain/index.json"
+    },
+    {
+      "name": "ca",
+      "description": "skill directory index",
+      "sha512": "1369a75da957c29ccf3fb593d69281fad7d0c287d11470e68809a3973c6174134ca9076591bea6d0de556f026836f8bb58954539104d35b137acef628fb419f9",
+      "file": "skills/crypto/ca/index.json"
+    },
+    {
+      "name": "certificates",
+      "description": "skill directory index",
+      "sha512": "2060ddeee3c4721b65a706416e5635376a6ea66618d58b7d692faabb26eda2643b73c6e09a791c7e522979a458a8126f3bdb099eca79f2dcd2ded2f1d9ffe355",
+      "file": "skills/crypto/certificates/index.json"
+    },
+    {
+      "name": "crypto-pki",
+      "description": "skill directory index",
+      "sha512": "fe9ff8a7165f4f31e13daf283a477a52a86a67a863a3d2741ea24a53dbcf9b531d2838b4ffd9545e5dd962d415fa856b840ca84ee7895933ba6466d46058904a",
+      "file": "skills/crypto/crypto-pki/index.json"
+    },
+    {
+      "name": "encryption",
+      "description": "skill directory index",
+      "sha512": "e68c797d3ffee8839a1eacf99d8613344bbe4f64ca0385486f3a962d2b2a08595c3640e5ad72ada12968b7c10e2dee16414c7946386ed6d7d2d5e532b059aaff",
+      "file": "skills/crypto/encryption/index.json"
+    },
+    {
+      "name": "hardware",
+      "description": "skill directory index",
+      "sha512": "e96e29b1179176c2ced897c774393c7e98db6cb9402c85515008de7584cd54fb9d080e94390478a5d8944a7a1af8dccd5b7e911bdc0ff4df04d87730a0aa0281",
+      "file": "skills/crypto/hardware/index.json"
+    },
+    {
+      "name": "hsm",
+      "description": "skill directory index",
+      "sha512": "8e5041644ab2591d79a14bb6ec0eb8aa39400709c3451bfeea0afd22ba69addd09c33a5fb713cfce72e15c49d8d39b66cbb341df54f5da3d5d2058ed71ce97e9",
+      "file": "skills/crypto/hsm/index.json"
+    },
+    {
+      "name": "posthash",
+      "description": "skill directory index",
+      "sha512": "2cefad9266a5b1de4395fb30f58d5f7af2ccb59540651e2edf7407c5b3444e0820fc380e695a52d8c1187e46f13c4a9a791a7bdb00e6e6916f50a5d03deb9bbe",
+      "file": "skills/crypto/posthash/index.json"
+    },
+    {
+      "name": "postquantum",
+      "description": "skill directory index",
+      "sha512": "2ee83a36a8cf1667337815534053ca504e434f2fc27c7d07c48d2c5ed4f12360e4a12a659ea0148ae109464c9d14ca1c63d1ce57e7afdc7bc8ac6949f38c9968",
+      "file": "skills/crypto/postquantum/index.json"
+    },
+    {
+      "name": "protocols",
+      "description": "skill directory index",
+      "sha512": "fee862447a02bed8564b0959fe560ca03aab653c6dc059af2294a22a58d2ad427713982b4374fdb93eaed9a39fc1ff70877a2f6f95c670b5c5639006dd98636f",
+      "file": "skills/crypto/protocols/index.json"
+    },
+    {
+      "name": "signatures",
+      "description": "skill directory index",
+      "sha512": "69bdf5deaee757649734e8f7c8ffae1d3517f3dce66780d7166cc4ddfbac87fc5b4221605f9c029fcc88573e696f4c68503729e293de8ad4ea3704a226d08391",
+      "file": "skills/crypto/signatures/index.json"
+    },
+    {
+      "name": "signing",
+      "description": "skill directory index",
+      "sha512": "26c8540a813abfca39790b16f9e42a1381445100c23feb71f678344a055228557b132041515dbaf6c6d2c3d913e21afdaa67866c2054a6f1ece16377989c5649",
+      "file": "skills/crypto/signing/index.json"
+    },
+    {
+      "name": "symmetric",
+      "description": "skill directory index",
+      "sha512": "1f3f2e9e2475483516ca1ee8d06805bb385ada820cb47fcfe39ca537b05d289cdcfd5a5fd5b7383f381003b3a510b9e8dab8c91276338e7658cb895665d4ee29",
+      "file": "skills/crypto/symmetric/index.json"
+    },
+    {
+      "name": "theory",
+      "description": "skill directory index",
+      "sha512": "305da31ff5fc9fbd57676041dbf93f19ab93c324608616c2e4b4e48df22b93645a068237bda70359d06eeb7935f6251d3ee5b066ecd900f0fc67f5194c1ea52d",
+      "file": "skills/crypto/theory/index.json"
+    },
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "d0a0bc2529945095765c7295b76c3bfaa8813745829ee31e098beb282681e6e7a334211931b9d8090adfced1e16c638ace7134ac86d1f98626d2b5fbdc703d26",
+      "file": "skills/crypto/tls/index.json"
+    },
+    {
+      "name": "tools",
+      "description": "skill directory index",
+      "sha512": "ab8a0f37544cf17a415c34a2842a5c71fde6e18ea01129215575bfbe90c5bf0bbb1e14979a747dfa794c1d05798ed0b77d8bafe195f980b45e7e2d8f9f644b5c",
+      "file": "skills/crypto/tools/index.json"
+    },
+    {
+      "name": "transparency",
+      "description": "skill directory index",
+      "sha512": "25aaf326420d2ce56419746911e12288904bf0410bbffcfe8220a48d24244b1ac1556b454659cfe251da64804035a1da62e9f3e0cb80a0e0c567cd8d0c768bc7",
+      "file": "skills/crypto/transparency/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-apt-hunt-detect",
+      "path": "soc/hunting/apt-hunt/detect",
+      "description": "APT Hunt \u2014 multi-vector threat detection across processes, network, browser, and filesystem on any Linux system. Runs quick or deep scans, auto-detects system config, logs findings + IOCs to session d",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f9494c314086291acc55cb9d00f4cfb3ffcbe98e96ee1f937ccb171b37a18f5d9c79c35a3d3f8e038e191b19422104d8d2d156b794e5defe11d07543d89c5eec",
+      "file": "skills/soc/hunting/apt-hunt/detect/SKILL.md"
+    }
+  ]
+}

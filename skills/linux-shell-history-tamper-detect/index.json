@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-shell-history-tamper-detect",
+      "path": "linux-shell-history-tamper-detect",
+      "description": "subdomain: forensic-detection tags: - linux - shell - history - tamper - anti-forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0fc4ee3b8dc5413f837964b23ec85846925fc96c8e9759e6fb7d230487f72c82e421c224b3d9d69baa988b32f6dbd7f82d16c00841609d9873f01bc66984d1bd",
+      "file": "skills/linux-shell-history-tamper-detect/SKILL.md"
+    }
+  ]
+}

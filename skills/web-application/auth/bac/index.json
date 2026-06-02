@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "ac46ff965e41d54afe7a1a84bc66944ab1b1ce095804f720f066a2974668f05b6e5f86df0c3014812a109a411838811bca04fe3a81d09270b25b6ece046856e3",
+      "file": "skills/web-application/auth/bac/harden/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f4b29e59fa9f81989f9ebf3e1b47db855cbf6c014457e3feda7985267f64ef166bbec021b4efe5c408fc0ea371c61afaf3357c8aa5c5d9f168ca7fe532d8d946",
+      "file": "skills/web-application/auth/bac/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "102be2f6d0fa6ab0f747faf029e6e1b75974a62a312ffb9c86dde61916eea09d4d793259fa2ef0b33e476301a1c4a3fe851741fe44312d27e61fd02fbad737d5",
+      "file": "skills/web-application/auth/bac/scripts/index.json"
+    }
+  ]
+}

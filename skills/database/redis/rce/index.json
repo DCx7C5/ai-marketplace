@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "6f0d5c0a535121eba3c8c2570cacc9e9ef8bef0f1c9340d2bcea58d384ecfc64ef8ec6f539d8740011a00317c51290cb3112afb85aee0477e596c99634c9b47a",
+      "file": "skills/database/redis/rce/exploit/index.json"
+    }
+  ]
+}

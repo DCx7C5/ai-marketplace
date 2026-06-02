@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-inventory-detect",
+      "path": "web-application/api/inventory/detect",
+      "description": "Performs API inventory and discovery to identify all API endpoints in an organization''s environment including documented, undocumented, shadow, zombie, and deprecated APIs. The tester uses passive tr",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84de7ae3cefd5fc18af98b683fdb2eb4a8b309a0835d4e085d5aebe0a872583426c4a2c2316730082323e6f79a5d140299e910fc2a399ec53d006904d18925c0",
+      "file": "skills/web-application/api/inventory/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-ssrf",
+      "path": "offensive-ssrf",
+      "description": "Offensive Ssrf.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0eb3b17de44c10f40c297133b7029e84e37d34a4b73dc65317e67b40b20362e005ebbfd2b74cf9358afc87204dddfba62daf2d6350c31a8d20ae870c7b26f777",
+      "file": "skills/offensive-ssrf/SKILL.md"
+    }
+  ]
+}

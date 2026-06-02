@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "template",
+      "description": "skill directory index",
+      "sha512": "837a0e0aadc022821ea240cb0dedd6e5e86c1b08b28447bd4813d74c0e157491e2f1f93922abc0057b8b7de92513c4a4934a9088e19fb0c4251004009f6af299",
+      "file": "skills/web-application/injection/ssti/template/index.json"
+    }
+  ]
+}

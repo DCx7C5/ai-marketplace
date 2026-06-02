@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "1fa027c699a6fb68d2533891df6eed37e9b6df17d3d8192a0e1d812bf376bc0f6aa6ae655939c3e7f45f949efb82a7282a25737a4e3b643810a807a00c9264d2",
+      "file": "skills/cloud/platform/general/index.json"
+    }
+  ]
+}

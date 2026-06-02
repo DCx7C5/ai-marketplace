@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "2d7b1bb06681705a488c4a4c2ffa8842caff0b64d3aa14fa9a524312d946de95b01af34720a472f0539ee56d081f3d97fa420e4aa96b6a1370e2786fde905771",
+      "file": "skills/web-application/auth/oauth/flaws/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f768cddef78c9f21f4f72107a533f8e86d67e36522dfd1264a4955e8b7101308974440d753c99acb66d21dfefe456baebbee0ed60212773ea1edf82cb2c13ff9",
+      "file": "skills/web-application/auth/oauth/flaws/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "826f11b546118c526874f04754be01f51ab43897bfa961817d91054250320697d2f72d8aed55bc0f1463450d191acc4d2a1732b83cc34abe85d4ab0e5ac3cd4d",
+      "file": "skills/web-application/auth/oauth/flaws/scripts/index.json"
+    }
+  ]
+}

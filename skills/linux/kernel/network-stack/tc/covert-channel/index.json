@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "145fc12a44ee0e2bf0ece071f0f3d62aaaf3b1415eb56fd5405e1a32d74c4ab9593e96fdcb1c921576938f74f44a486c33cfac9db4d0d83eb73e6fe5050febbe",
+      "file": "skills/linux/kernel/network-stack/tc/covert-channel/detect/index.json"
+    }
+  ]
+}

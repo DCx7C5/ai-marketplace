@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-modbus-detect",
+      "path": "industrial/ics/protocols/modbus/detect",
+      "description": "Detect command injection attacks against Modbus TCP/RTU protocol in ICS environments by monitoring for unauthorized write operations, anomalous function codes, malformed frames, and deviations from es",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b26b6d4c0e21b66e613536795a2eab70514492a528f0807868939847cbab269d5fb8dbca630664b504fab841e1907d413aa0ff21ceaa3d15646a6225b7751dc2",
+      "file": "skills/industrial/ics/protocols/modbus/detect/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ea4cdb61311462cbadcf101a566ca116be9f620186da5c134d6779fef7b5766e039462d8ea4a34c3101b521cc4764a393f9180c88f766413a5d2be963fdaef91",
+      "file": "skills/industrial/ics/protocols/modbus/detect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "abced07df5f249123fb1fb929b6934adf9916570cf28457a2ab010886f92ac94b10e9cf5d9fbbfcfa14e67301299108321c316231d745dc2390337a51c9e8db8",
+      "file": "skills/industrial/ics/protocols/modbus/detect/scripts/index.json"
+    }
+  ]
+}

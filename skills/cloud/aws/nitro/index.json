@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "70ee6f73db512d9d5a338e7e21758ea7734a99919cb7e040f8f4fbb618cb318238cfd1215efa672d7bcdaaba2dc4cce261a5838c4e19b1535e02db196676fb14",
+      "file": "skills/cloud/aws/nitro/verify/index.json"
+    }
+  ]
+}

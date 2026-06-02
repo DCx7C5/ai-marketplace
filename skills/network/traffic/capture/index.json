@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pcap",
+      "description": "skill directory index",
+      "sha512": "b53185d3b3fc81fc55df31e5dc44fe59b02e69c98ea60e360fa36a30e4abffb3a9e8dbbec792f6c310e87c02a0c799d7d590ffa36f11aa4bd32f4d6310022353",
+      "file": "skills/network/traffic/capture/pcap/index.json"
+    }
+  ]
+}

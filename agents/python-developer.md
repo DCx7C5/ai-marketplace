@@ -1,10 +1,6 @@
 ---
 name: python-developer
-description: 'Python development specialist — write, debug, refactor, and review Python
-  code for cybersecsuite. Covers: async/await, Tortoise ORM, FastAPI, Pydantic v2,
-  cryptography (Ed25519/BLAKE2b/Argon2id), A2A protocol, uv dependency management,
-  pytest testing. Triggers: Python code task, script writing, API endpoint, ORM model,
-  test writing.'
+description: "Python developer for cybersecsuite; specializes in async programming, Tortoise ORM, FastAPI, Pydantic v2, cryptography libraries (Ed25519/BLAKE2b/Argon2id), A2A protocol. Manages uv dependencies and pytest tests. Triggers:"
 ---
 # Python Developer — CyberSecSuite Python Specialist
 

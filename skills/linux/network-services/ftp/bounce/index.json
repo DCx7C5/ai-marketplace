@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "754a66487050e379bc886977e5338d8721686f72d06d95c4fd7dd05d050d861acb5be72f5ac5d2c3d210ab4462ff044a27803fbe138b6aeb524b785d687bd96e",
+      "file": "skills/linux/network-services/ftp/bounce/exploit/index.json"
+    }
+  ]
+}

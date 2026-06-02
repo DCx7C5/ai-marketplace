@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "04131f393613d2084d7644a720f31fc576a9c75c852a045377a4dd5ee227124bc0b35739ee6a0444f40fbfb420f815d6c87ddaa7da2d6149989abbe7d24713cc",
+      "file": "skills/identity/kerberos/passtheticket/assets/index.json"
+    },
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "0237f15af8494993904ed0925c9b0688599416854e604fcbee45a9e93c766bb29e0c61e626c0442fce4ae6bf694e44508c4cd2c02a948100293ecf18107fad59",
+      "file": "skills/identity/kerberos/passtheticket/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c5c21702838e6c77eb577afa1f58e5670629934aba2ecd356fd1439c6470a6f2746018462bf107e8738dec4e588c5391959f83baa525d57d0d3e46049e3edb81",
+      "file": "skills/identity/kerberos/passtheticket/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "aa1d23a5d862f000c9d00b61708025250fb53c3f98b78978a63ed40b3882cf6bf4cf9e70e4e022f07d1c78182844429c8e7922edd90232f43e4b50f7dff9f4be",
+      "file": "skills/identity/kerberos/passtheticket/scripts/index.json"
+    }
+  ]
+}

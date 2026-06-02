@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "waf-firewall-detect",
+      "path": "web-application/waf/firewall/detect",
+      "description": "Bypass Web Application Firewall protections using encoding techniques, HTTP method manipulation, parameter pollution, and payload obfuscation to deliver SQL injection, XSS, and other attack payloads p",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3c8b5a64236c6ccbfb1049ae893ed4279fbae08b03b554c7002e556076ca03ce0755f497e878a96e7f313c11cedfe39532665117146cbc9477e469fabb6282e6",
+      "file": "skills/web-application/waf/firewall/detect/SKILL.md"
+    }
+  ]
+}

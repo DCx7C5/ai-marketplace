@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dma",
+      "description": "skill directory index",
+      "sha512": "4aba482d793ae6ace45fed1d44fe0b1cae37b03b4d0eae813aaf7a26ea92d21335178961e0ec0b627664ab3f8b3f6257062fc67073f18383cc85c8dd6eea84ca",
+      "file": "skills/linux/kernel/memory/dma/index.json"
+    },
+    {
+      "name": "huge-pages",
+      "description": "skill directory index",
+      "sha512": "c7dba3aa468f4c5e077fff7a2006470e4b202d45dc7bcb1b5f0e257e1ae0588de7e8b8fbd9f452f3f987fb48a053601574757610452cbc21f5c42bda49182f29",
+      "file": "skills/linux/kernel/memory/huge-pages/index.json"
+    },
+    {
+      "name": "kaslr",
+      "description": "skill directory index",
+      "sha512": "6c3ac01b2750f11ed47f45d6faa4fd603f2c195509d9fe0e66fd362b97fab1c6d03ed3780f4413f4032276886009073c13de1c39334e0ca0932dc500193ad22e",
+      "file": "skills/linux/kernel/memory/kaslr/index.json"
+    },
+    {
+      "name": "kpti",
+      "description": "skill directory index",
+      "sha512": "49969cfcd0a4b18cda3d631f65dec47df24f11b6ee4026db9f50c53a3e362f453468b4ebcc2b12a537299332c1de74722d728cd652cdf0f219e175e51ceb224d",
+      "file": "skills/linux/kernel/memory/kpti/index.json"
+    },
+    {
+      "name": "slab",
+      "description": "skill directory index",
+      "sha512": "60f042630db479b2043d66ab8f4c66de94cef7640545313f04d5f9956afb1c2f17c279f0c82b7afde96c875569d8a69ea30460b7a2454235fddf5b8a27bf12e5",
+      "file": "skills/linux/kernel/memory/slab/index.json"
+    }
+  ]
+}

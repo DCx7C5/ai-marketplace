@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-saas",
+      "path": "cloud-zerotrust-saas",
+      "description": "Cloud Zerotrust Saas.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5adccba3f7e34a4e40cfedaa8308797ea3bcf189b37463ac6e0e5e77f3cf9691dba09a6b9bf179ec86fbbc3ed74ab4ba469e35d914acd88f2e5ea97a86c7e50f",
+      "file": "skills/cloud-zerotrust-saas/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-analysis-slack-recover",
+      "path": "linux-forensic-disk-analysis-slack-recover",
+      "description": "Linux Forensic Disk Analysis Slack Recover.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2c2f5779baac49c54e09d5af20ce496bf801ed4e7acaea3ebf95f62e381fe6f149599b15c03b76ef36b84d3da394f19587686439a336a5ea5b6bc5e9cda123cf",
+      "file": "skills/linux-forensic-disk-analysis-slack-recover/SKILL.md"
+    }
+  ]
+}

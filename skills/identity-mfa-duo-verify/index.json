@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-mfa-duo-verify",
+      "path": "identity-mfa-duo-verify",
+      "description": "Identity Mfa Duo Verify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0860f6563dc537db2f233e1f4063654d1215ca7353fabe8f0abe80fcab4466bc64cee9058ec1bbcaf194a6302bbbc03595fd50e94d28e4380062dae79aa9c9d",
+      "file": "skills/identity-mfa-duo-verify/SKILL.md"
+    }
+  ]
+}

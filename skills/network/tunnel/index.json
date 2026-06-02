@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns-covert",
+      "description": "skill directory index",
+      "sha512": "3b82700c51915b931520288d65073bb985f5030b4864f2edc85a44dcfdd5dcadc655e3cc56aecd46b94d9660f39adc911f4181058e96eb49fd2833068127c56f",
+      "file": "skills/network/tunnel/dns-covert/index.json"
+    },
+    {
+      "name": "ssh-reverse",
+      "description": "skill directory index",
+      "sha512": "f3b4947e85726412cce54f1d6a6fab918ecb2d9fb9d739979e7208b45bc12ad304af6fde9aad1884f795bcaa3cadfa651ac8dd64edcaba21a0794ccfdb58c48b",
+      "file": "skills/network/tunnel/ssh-reverse/index.json"
+    }
+  ]
+}

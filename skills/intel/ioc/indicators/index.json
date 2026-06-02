@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunt",
+      "description": "skill directory index",
+      "sha512": "11619045c2d34c76f1c155cee2f52e9f66e3a636de29de2141f6f16fdaea5d5d69f44070f3202365c5784447eb7de124aea9c13838464f88e8aa3c51876cda25",
+      "file": "skills/intel/ioc/indicators/hunt/index.json"
+    }
+  ]
+}

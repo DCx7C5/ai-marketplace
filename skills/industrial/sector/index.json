@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "oil-gas",
+      "description": "skill directory index",
+      "sha512": "621cad3271d240922ca9fbc2be7068ef9d348f2bae95596aaae43676a3a39ff6c2bf17abfbf04b01c75ab26ba496af28b4faded346c3e65956e7d02d9e63b26a",
+      "file": "skills/industrial/sector/oil-gas/index.json"
+    },
+    {
+      "name": "power-grid",
+      "description": "skill directory index",
+      "sha512": "a5fa83f80d65908f900e9f0a39957dd5cab1ec0c6855c7b9406ae67590c43a8b109c863061472400adf76af3002391dca8e5a55dd33595c00f9378a3823ac498",
+      "file": "skills/industrial/sector/power-grid/index.json"
+    }
+  ]
+}

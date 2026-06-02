@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-general",
+      "path": "windows-fs-artifacts-general",
+      "description": "|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7c527b029a419482de8fed345f93d0ec2ca5af220f959456707d15db610dd3759086cb937cad3bd9cfefb696ec1c19c80f4d6da3bb798ebacc6c69df59da083c",
+      "file": "skills/windows-fs-artifacts-general/SKILL.md"
+    }
+  ]
+}

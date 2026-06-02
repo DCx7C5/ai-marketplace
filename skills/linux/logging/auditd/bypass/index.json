@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "cfac39864325142df8da0533bb71edbd6097b24471319ebf6ce791ce439adba49f8b921d4bc2f7119e8d8dab54f9a1f2474245e31ecbbad6a8c836af752bbc4e",
+      "file": "skills/linux/logging/auditd/bypass/detect/index.json"
+    }
+  ]
+}

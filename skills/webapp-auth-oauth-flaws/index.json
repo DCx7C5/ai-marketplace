@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth-flaws",
+      "path": "webapp-auth-oauth-flaws",
+      "description": "Webapp Auth Oauth Flaws.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f66ffcfbb1115cb2b3dea07d5fd291429f8aceef7a691110b4855bd1eb7a8a588d0f470d599a39505c34598d6b4f9172fa7a311605bf436a9dcefd6c0b4f2281",
+      "file": "skills/webapp-auth-oauth-flaws/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-gshadow-group-audit",
+      "path": "linux-id-gshadow-group-audit",
+      "description": "subdomain: identity-security tags: - linux - gshadow - group - privilege - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80707c5b51f100b9b566ee4c5296923ab4c1befd5e3cb23e7f66c26a1dd7b46067b95e7f4d9c6894433ca027898a2576a4b33bed730cc0cfa49305318af57ad7",
+      "file": "skills/linux-id-gshadow-group-audit/SKILL.md"
+    }
+  ]
+}

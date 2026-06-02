@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f2cfc453f678c5798b005a2d6c59631c609cf152f8da50e373845a9fd045c9e5cabfacf944db66ba6b3bf6634c061e1fc65e254bc4c052857bb4145d31270e94",
+      "file": "skills/network/wireless/bluetooth/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6cd50d9cea65b5db3a5066e051aef280fc3ac5dee95f3caf010d7b0e450afd150d6ca3f72097118c8abf760b2a1f3e62d89c6a56ac8b3ed077340c448e2a82f5",
+      "file": "skills/network/wireless/bluetooth/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "368ce59d47e4e0806df9ae97e3bf3200e67113e3d1326778811fce62521658959c862307e87d4877240bf370fe4fb33c2bf00a2a8878ec49df71db33f9ff8470",
+      "file": "skills/network/wireless/bluetooth/scripts/index.json"
+    }
+  ]
+}

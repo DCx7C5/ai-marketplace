@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-usb-policy-create-configure",
+      "path": "linux-hw-usb-policy-create-configure",
+      "description": "Linux Hw Usb Policy Create Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d96f1f67e0aaf857d69c727037e7ebf79ab5b8197b265d6617eb4f77bf25686447ceff5e43d805243ac9326a5349ef9a7edc6188d935af77fbe81f4d6bf9cafd",
+      "file": "skills/linux-hw-usb-policy-create-configure/SKILL.md"
+    }
+  ]
+}

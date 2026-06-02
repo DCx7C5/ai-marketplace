@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "protocol-http-audit",
+      "path": "web-application/protocol/http/audit",
+      "description": "Execute HTTP Parameter Pollution attacks to bypass input validation, WAF rules, and security controls by injecting duplicate parameters that are processed differently by front-end and back-end systems",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6329e0957e31169d1a5a6563847f5113befc91fcbfce36e60c057621d3079f4d3b384f6736b905d672f7629a886da2281d25d25941347143125775eeac51ecc5",
+      "file": "skills/web-application/protocol/http/audit/SKILL.md"
+    }
+  ]
+}

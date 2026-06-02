@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "dce6161e01185e040426196c843dcc8aab80b36ad7d0be5961c1211e65d4cc5b26be6cb848c2315b8a790731fc52446c0c767711f7894b66810fe003c2faefb6",
+      "file": "skills/browser/extension/malicious/detect/index.json"
+    }
+  ]
+}

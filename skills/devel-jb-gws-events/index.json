@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-events",
+      "path": "devel-jb-gws-events",
+      "description": "-| | [`+subscribe`](../gws-events-subscribe/SKILL.md) | Subscribe to Workspace events and stream them as NDJSON | | [`+renew`](.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fc27c96ab6f472e0ea8a798ba7a86bb8efe4415113092cd63a3ebce39cbde0deeddb5527e7efc041c9e1f3f9ca3def980f040c7c2798e637e683bf4968054281",
+      "file": "skills/devel-jb-gws-events/SKILL.md"
+    }
+  ]
+}

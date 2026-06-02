@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-chain-supply",
+      "path": "webapp-chain-supply",
+      "description": "JSON report with risk scores per package, detected attack vectors, hash verification results, and CVE findings.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e0b36e5c798067092c017968389b50fbe07ef4182223a170333db96d2469a265ed6d55673c724fcd9f5d884b99f3e6acf422ce58581458fc3834e5f30e1512f9",
+      "file": "skills/webapp-chain-supply/SKILL.md"
+    }
+  ]
+}

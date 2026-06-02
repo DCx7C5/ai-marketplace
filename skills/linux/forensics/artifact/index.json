@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bash-history",
+      "description": "skill directory index",
+      "sha512": "cea81127111dea397196f428a63e67a069a879e7b46c5f1eecec2a994668931b9bcbb8d0c0c264e9238807035d3e9f13d35d675d3350c8233b5d541302ba0735",
+      "file": "skills/linux/forensics/artifact/bash-history/index.json"
+    },
+    {
+      "name": "recently-used",
+      "description": "skill directory index",
+      "sha512": "97592c95380300aa2e0da405a8cdee00e8a419287e52d8cc10a62cc5fc068c2ee86c513a5d143a21781e19d9dd28b664b3fb3063568f08a4e03765ee555a67a9",
+      "file": "skills/linux/forensics/artifact/recently-used/index.json"
+    },
+    {
+      "name": "ssh-known-hosts",
+      "description": "skill directory index",
+      "sha512": "7bc4f4056c0d53d2a99d42fce940a8cdec7b2a006395033adf92a5d730879b51438307feef2b38904dfc06dc65b6512e79d7c33e0c72ce2820031103934a7e36",
+      "file": "skills/linux/forensics/artifact/ssh-known-hosts/index.json"
+    },
+    {
+      "name": "thumbnails",
+      "description": "skill directory index",
+      "sha512": "797972acdf963ee2a00c06b92d056ad5419ea1e55744b125869d03ca02fbd2789b31a9e3ff66782dad4fae9945c13d9de48ef261885cdb980d10f91f903a1ae3",
+      "file": "skills/linux/forensics/artifact/thumbnails/index.json"
+    }
+  ]
+}

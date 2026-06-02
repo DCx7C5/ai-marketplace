@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-tpm-pcr-attestation-verify",
+      "path": "linux-hw-tpm-pcr-attestation-verify",
+      "description": "subdomain: hardware-security tags: - linux - tpm - pcr - attestation - secure-boot nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f7d3a5ec0e8c9e42a8b7575ae22b0e27879b12aa89807a61fb7c9345f6c3cd428eb3b3bc3db6156e096d95a108251ef55e8874e00c484cbfc0acc1efb6b34ea4",
+      "file": "skills/linux-hw-tpm-pcr-attestation-verify/SKILL.md"
+    }
+  ]
+}

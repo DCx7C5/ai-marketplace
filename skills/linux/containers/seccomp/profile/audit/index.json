@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-seccomp-profile-audit",
+      "path": "linux/containers/seccomp/profile/audit",
+      "description": "Audit container seccomp profiles \u2014 analyze Docker/Kubernetes seccomp policies for dangerous syscalls, identify containers running without seccomp, and compare against default profiles.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "921dfb1a2590afc7b0349096f697a33e20acddd098ff7fd782fd4c443864875c2f63b52763d772f66a6edb229096acfb557527e6ea34ba3249b249b739319ab3",
+      "file": "skills/linux/containers/seccomp/profile/audit/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-outlook-forensic",
+      "path": "email/forensics/outlook/forensic",
+      "description": "Analyze Microsoft Outlook PST and OST files for email forensic evidence including message content, headers, attachments, deleted items, and metadata using libpff, pst-utils, and forensic email analysi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a51b8d13668aa89a97322340e4616199077c82fba1e17726717729a4a888908aa06ce99035354085d8e278ae010d4f2a398d4128c72ec3cb942d3b9b9051e4c7",
+      "file": "skills/email/forensics/outlook/forensic/SKILL.md"
+    }
+  ]
+}

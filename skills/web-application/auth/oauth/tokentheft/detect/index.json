@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-oauth-tokentheft-detect",
+      "path": "web-application/auth/oauth/tokentheft/detect",
+      "description": "Detects and responds to OAuth token theft and replay attacks in cloud environments, focusing on Microsoft Entra ID (Azure AD) token protection, conditional access policies, and sign-in anomaly detecti",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "319ed960a0bd99402f9abfc6c1dc80abdecc0798b1960b8ed80a7012d5c4c1f2606266e872550b55aa0b1f16e90b4bd5d1823898c3dbe2613b7d48267b7e457e",
+      "file": "skills/web-application/auth/oauth/tokentheft/detect/SKILL.md"
+    }
+  ]
+}

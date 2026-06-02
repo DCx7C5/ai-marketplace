@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-daemon-hidden-detect",
+      "path": "linux-proc-daemon-hidden-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "368ea98c164f95b265e338fde3b19bbdacd1de76d6d106ebb7e6943554383179f2753bcf4c4b994528db7ffe126251254f96f0a192d0bd266e2d3aa7a53a1b68",
+      "file": "skills/linux-proc-daemon-hidden-detect/SKILL.md"
+    }
+  ]
+}

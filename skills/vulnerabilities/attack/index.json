@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attack-SKILL.md",
+      "path": "vulnerabilities/attack",
+      "description": ">\\n  Deploy XM Cyber's continuous exposure management platform to map\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "54d1770f3dbbefddd7ae86dfb35cf8ece288bb0a3360d43f7995005fd7d8868114879a0879d49df41422e65dfc8586a89677c73d372e83dae40a7cbccbdc8cb0",
+      "file": "skills/vulnerabilities/attack/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "de5396bad6ab302f4ad937cb6fb96899520141c1c22ccc9bc1279b274e5bfbecb344cd98e7f9ffc675901aac997b222b8f9e108a6bd625a749bd1231c6c7d0df",
+      "file": "skills/vulnerabilities/attack/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "cc27d2008ffe48666dc4b7ede7d0b25d195c87f5d66edca7583db8ab3ae9fb71a8112686fca34fed19ecdd43b036dd331032cb3f2011ab10aab2405eae936547",
+      "file": "skills/vulnerabilities/attack/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0c7814d6884c190e73e15f09e4edd8abab3c81c3b354b9cb7b31912164d169830d4af99e61f178f132cff2d9a9de3caa76ee5fd7d6874d852878bcd7949e0b5e",
+      "file": "skills/vulnerabilities/attack/scripts/index.json"
+    }
+  ]
+}

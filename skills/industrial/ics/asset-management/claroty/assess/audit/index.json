@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-asset-management-claroty-assess-audit",
+      "path": "industrial/ics/asset-management/claroty/assess/audit",
+      "description": "This skill covers performing vulnerability assessments in OT environments using the Claroty xDome platform for comprehensive asset discovery, risk scoring, vulnerability correlation, and remediation p",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "45be2f352ad488b41e260b929a628a18205e84c86b106ffb940cca9b6f2b41a5ff86ba1dce0997ad1dbce4224a1ee4c0f380522ccb12c3f388bdca78bc4437c1",
+      "file": "skills/industrial/ics/asset-management/claroty/assess/audit/SKILL.md"
+    }
+  ]
+}

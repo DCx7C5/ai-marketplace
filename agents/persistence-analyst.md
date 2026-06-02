@@ -1,10 +1,6 @@
 ---
 name: persistence-analyst
-description: 'Persistence mechanism hunting — startup scripts, systemd units, cron
-  jobs, eBPF programs, kernel modules, udev rules, PAM modules, SSH authorized_keys,
-  .bashrc/.profile injections. Invoke for: Persistence Hunt phase, suspicious autostart,
-  unexpected services, kernel-level persistence. Triggers: new service, cron anomaly,
-  kernel module.'
+description: "Persistence mechanism hunting - Identifies unusual startup scripts and system components like sysd units or udev rules indicating potential malicious activity; triggers on anomalies in"
 ---
 # Persistence Analyst — All-Layer Persistence Hunting Specialist
 

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "71e57a5be787c3f110a3e4b49183078169eb71e3d7cc9fc7f5f2903dc86622f27595848d25aaeb1dac17c51a95700a1281dcfe3d66f7fc550b8fe2b390dc98ac",
+      "file": "skills/linux/filesystem/ntfs/ads/detect/index.json"
+    }
+  ]
+}

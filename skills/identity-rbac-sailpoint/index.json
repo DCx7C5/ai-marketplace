@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-rbac-sailpoint",
+      "path": "identity-rbac-sailpoint",
+      "description": "Identity Rbac Sailpoint.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9276b963e2a3603d256b7f663f1324dd1e2a72dc3a66fb6d94d5a4b88d3fc751baef30f9fcb28945125103ebd2c81bd2966a471b8e854590a30978b45561543f",
+      "file": "skills/identity-rbac-sailpoint/SKILL.md"
+    }
+  ]
+}

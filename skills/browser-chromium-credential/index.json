@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chromium-credential",
+      "path": "browser-chromium-credential",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a800b04ad4917e649d856ecee0372b8341b1f4a9773067ee140d2f13f243eccfbd8ea73887258de86043d063b2c5db5d48718aed23f92dc5ec6e7971c3a8f596",
+      "file": "skills/browser-chromium-credential/SKILL.md"
+    }
+  ]
+}

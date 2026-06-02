@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bench",
+      "description": "skill directory index",
+      "sha512": "19d74a9bfcd140b0134a402694db24021c6ecce8e4dddf09483a93b65e65f34e70646d72f50287478a66e70930c6f36e9be5fa0f6a2467b99bb5b09b1e8a52db",
+      "file": "skills/cloud/containers/docker/bench/index.json"
+    },
+    {
+      "name": "dockerdaemon",
+      "description": "skill directory index",
+      "sha512": "31312d8042cdede32f2d2ba1e2e7dedd3cc76cd8a9c17cfc8a89513ea13933a10126f88decbc6cf3d4678b58a173e52dcc41bdc906c2e5f8655e43f210b0a914",
+      "file": "skills/cloud/containers/docker/dockerdaemon/index.json"
+    },
+    {
+      "name": "dockertrivy",
+      "description": "skill directory index",
+      "sha512": "b1561e1356dae44fc53c243b2c313cce0566511520bb55ce036208c624e7feb3a429e6b0e1d73917e26e4c8e8750449faa3bcf79d814bc61f135314107b757b6",
+      "file": "skills/cloud/containers/docker/dockertrivy/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "8ec6241cc7234a362cc29225b33772d19d618a10cfc37fa4e205f0309a32e380b4f86383a003a9b52d145beffb345572da975ee4a9853580317f0971b9336af4",
+      "file": "skills/cloud/containers/docker/exploit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-bloodhound-analyze",
+      "path": "identity/ad/bloodhound/analyze",
+      "description": "Use BloodHound and SharpHound to enumerate Active Directory relationships and identify attack paths from compromised users to Domain Admin.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b022751475dba18bd0b6af74b78e99496e92951aba96c6c8673ba1965b16854cf11f1c04d6eacd097f05031c970bb7a6c0da942ae52ae3297fc8cb72fedb2afe",
+      "file": "skills/identity/ad/bloodhound/analyze/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "583931274cf296cc9a7577a497393b6fc31a339189846b0d2c7132b3d5379106e622e3d0157d2cc419fc2cff1327488e52901ea96629e0f5fcfbee4d56dd426c",
+      "file": "skills/identity/ad/bloodhound/analyze/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "566c9efa626713d71ecfcf929d14a776b9c7899c469473d14a02a99cb24278b63aea64b7e9535dea66976f9a67fa1ee8d0f66963e0dfe200a8a9cdeb13bdc9c2",
+      "file": "skills/identity/ad/bloodhound/analyze/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "df2d56d5cde7854af2c8887dd7a7b2049ad583c428c20af84099277cd90515ab221dc2993680408827b971c19a66c786f9192502d3abfc49a887c9b59b5e9bc0",
+      "file": "skills/identity/ad/bloodhound/analyze/scripts/index.json"
+    }
+  ]
+}

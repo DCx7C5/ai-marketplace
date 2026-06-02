@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-broken-detect",
+      "path": "web-application/api/broken/detect",
+      "description": "Detect and test for OWASP API3:2023 Broken Object Property Level Authorization vulnerabilities including excessive data exposure and mass assignment attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "61f0fe6475c1b1d06992daed2a0793b4b6a77d836590f4a1ca4cff24b21d24ffc94049e110c9dc32a1c7a29f37a2b59014a38cabae4fc4dbc203c59d7ebb129b",
+      "file": "skills/web-application/api/broken/detect/SKILL.md"
+    }
+  ]
+}

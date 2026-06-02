@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-monitoring-endpoint-osquery",
+      "path": "soc-monitoring-endpoint-osquery",
+      "description": "Soc Monitoring Endpoint Osquery.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a25c3644ef97cf04052943805a9d0d047361edf50916335cc4fb787379df9e8628e4c9f8a612fa2a9a2ab542b46fe0c815711899d358da11164208c72853b4ff",
+      "file": "skills/soc-monitoring-endpoint-osquery/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7a2e466c93c360377999e46118956a19beb1664c39b7ec76b482ab599022555dd46214c92ea76f123dade7e1fd13aaccbc8fec92a7f19abeb19a2ccadc706c57",
+      "file": "skills/industrial/ics/scada/attack/detect/index.json"
+    }
+  ]
+}

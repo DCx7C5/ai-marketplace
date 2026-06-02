@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-scanning-vuln",
+      "path": "vuln-scanning-vuln",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fa5a1ae07a9dc16ae03ee66d8ef4a6a46580d65747e859159a4da99c8101f4e4caa4832a6c3a7d3fe7f083b4011b8e0604c703c876d4873543943d95ecb6798f",
+      "file": "skills/vuln-scanning-vuln/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4c07d09a0323fa49ba32d2334b7cdc324603f9cf4388778804fdc30ccd7196e090c44362ea93e2b602e642cf5740aab0833b23bc2ecbeeae07ffc6b8d77328e8",
+      "file": "skills/vuln-scanning-vuln/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b1560e540974ad61c3a7f162c951f43ede2926b50bd4e7714681f48718c6594a720728bce674ed20f016908b372019d9749adeec866f83c3ce0fcbe93c1c0b82",
+      "file": "skills/vuln-scanning-vuln/scripts/index.json"
+    }
+  ]
+}

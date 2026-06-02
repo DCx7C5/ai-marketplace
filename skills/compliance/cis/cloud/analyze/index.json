@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cis-cloud-analyze",
+      "path": "compliance/cis/cloud/analyze",
+      "description": "This skill details how to conduct cloud security audits using Center for Internet Security benchmarks for AWS, Azure, and GCP. It covers interpreting CIS Foundations Benchmark controls, running automa",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c100b5073321aa263092371364c6e7145e2e340f235218cf372bfa0367af475db2f57bcef039477009d520f72d295150c52cbfa2259ae4878654f29f65d1e114",
+      "file": "skills/compliance/cis/cloud/analyze/SKILL.md"
+    }
+  ]
+}

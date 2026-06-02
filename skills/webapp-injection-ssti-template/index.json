@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-ssti-template",
+      "path": "webapp-injection-ssti-template",
+      "description": "Webapp Injection Ssti Template.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b3df0576aa17caa6f13c208bd14057cd8aaeddffa0e9a8fb4ca80b15e8bdefea2c1ee8b4197f3545e9e991101c6691e85c433649b3585120465acec856abd006",
+      "file": "skills/webapp-injection-ssti-template/SKILL.md"
+    }
+  ]
+}

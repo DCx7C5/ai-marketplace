@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "firewall-ngfw-recover",
+      "path": "network/firewall/ngfw/recover",
+      "description": "Configure and deploy Palo Alto Networks next-generation firewalls with App-ID, User-ID, zone-based policies, SSL decryption, and threat prevention profiles for enterprise network security.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "920b6701653e83ed51aa79daf389b9956b3107538f64d1f82abbf895a88ba4773805f0ca399ceb6c552cfd256229ebca9336548b8a2ddaab522001bad7b287f3",
+      "file": "skills/network/firewall/ngfw/recover/SKILL.md"
+    }
+  ]
+}

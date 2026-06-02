@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-gateway",
+      "path": "webapp-api-gateway",
+      "description": "| | Authentication | JWT Plugin | Cognito IdP, 1-hour max TTL | | Rate Limiting | Rate Limiting Plugin | 60 req/min (user), Redis-backed | | Request Validation | OAS Validation | Strict mode, no addit",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "23eba5de9911320e54a0d1b0efe63ab8f02213fd4543b6ce4cd45481ee8a170859b1cf6d978a2a691d694f0f3f59974ad4cfd5eb4817f597b3b636e9f91748db",
+      "file": "skills/webapp-api-gateway/SKILL.md"
+    }
+  ]
+}

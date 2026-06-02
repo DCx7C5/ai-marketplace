@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "86e49f6afb9df272e7f2900a860edc24baaaca7619cff35e1600055f91e72019c432cf49fa88336d80b734522e305bc1d0ff7d0cb2fd4b480f38d5dffe0d7f0a",
+      "file": "skills/linux/kernel/modules/signing/verify/index.json"
+    }
+  ]
+}

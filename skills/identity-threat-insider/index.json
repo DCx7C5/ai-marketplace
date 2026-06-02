@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-threat-insider",
+      "path": "identity-threat-insider",
+      "description": "Identity Threat Insider.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3dd1da30975299ec44b9c64c6edcfcb919924a9ea0ad1affd3f669e7916495c08e193f3a1bf5409eca14293b4adf6307a41f3b3afb9fcaaaec934fca0b1ca739",
+      "file": "skills/identity-threat-insider/SKILL.md"
+    }
+  ]
+}

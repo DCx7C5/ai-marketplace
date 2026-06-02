@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "access",
+      "description": "skill directory index",
+      "sha512": "575937786d8b5f27befc5feafb59d200ea0f2d9e0523ccad85eedc332f3846b5f6537bc672429f8b1e1d43b874029cfe766c3c2d7595460857d86a2c254e772a",
+      "file": "skills/cloud/aws/access/index.json"
+    },
+    {
+      "name": "configrules",
+      "description": "skill directory index",
+      "sha512": "306d18c381cad6e00a10424b357893220fc70d9f99312096615ec39053251f64968bfa8fbedafd154a755d575ebae7c672bf9d6e60987f3f7fe1116d67e7df7c",
+      "file": "skills/cloud/aws/configrules/index.json"
+    },
+    {
+      "name": "cwpp",
+      "description": "skill directory index",
+      "sha512": "ce588d6890300ff4fbeb87b8aefff000fb72d9fa888600d14f95506470760fbc019955458a7c7c191731b6439bce6f6e3c3ad87b2728f6121b9c52cda788d14b",
+      "file": "skills/cloud/aws/cwpp/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "8dad68a037559cb9d8b13bd67452dc0aec9be3f5618da4bde802324baf645f01855e39148f9673efcf1dc2389d7b8ef9411373f3ccbfe627151a25db34f7821a",
+      "file": "skills/cloud/aws/general/index.json"
+    },
+    {
+      "name": "guardduty",
+      "description": "skill directory index",
+      "sha512": "c898ab406c90e65dac960cf7a720ab7f92037748693fc7ce2a082fea73880ac1ff7a34e8382d04497005bbb59b59ca2fb2e486ef30f9fc384bfd3b6e279b10a7",
+      "file": "skills/cloud/aws/guardduty/index.json"
+    },
+    {
+      "name": "hubcompliance",
+      "description": "skill directory index",
+      "sha512": "5448cea21c5de45a8b9e691c5f2a8b8414214c2d1ee5ba065ec9cd2659d79c98ea351766041ab0ec2b505e7f8dcfb483746167cfdc9b41a5ffb2b140d846a865",
+      "file": "skills/cloud/aws/hubcompliance/index.json"
+    },
+    {
+      "name": "iam",
+      "description": "skill directory index",
+      "sha512": "4e880ec2d5a5a73088aa17e8af7f0843d91ea2fa0faf362a9618ab0c6142f2995733561158fd5c02d9a661e2e8ca6dcfeba5d005b8cc164e089f02d42b82bda0",
+      "file": "skills/cloud/aws/iam/index.json"
+    },
+    {
+      "name": "iamharden",
+      "description": "skill directory index",
+      "sha512": "3ad925c45c49ac541614a01b7776363f77cdef66b94c46f4f12fccc1bb1efb7f2f47c4f96fde03608478d13b7a7ead984ae466432ba48f900ff74ea4cb463d6b",
+      "file": "skills/cloud/aws/iamharden/index.json"
+    },
+    {
+      "name": "lambda",
+      "description": "skill directory index",
+      "sha512": "080c86d0fa0658cd28049b6dfc195e70f265b775a31799953d94c4c618344545971609fbe885e55c0490abc38fe47a3158a746b629f409686e095f8358a51bef",
+      "file": "skills/cloud/aws/lambda/index.json"
+    },
+    {
+      "name": "macie",
+      "description": "skill directory index",
+      "sha512": "44dd8ae2bccc3f28bb61cda926100e3e5a642b06cc641d957b10305d480de0b5ba23060bc4b2774b8a4f17fe3419fa0823f24cd9ee9739f4d9d326b77eca217c",
+      "file": "skills/cloud/aws/macie/index.json"
+    },
+    {
+      "name": "nitro",
+      "description": "skill directory index",
+      "sha512": "6a82698e68d772df5935818f17d123cd1643fdbf87541c30cc66346263bdad16c3c3c324dc149eaf26ed024e3a7f910a38c60bbf07d818603a18018dcb311dce",
+      "file": "skills/cloud/aws/nitro/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "b56b5ab05b7eb325a79bf4393dad60bf70bef06e27643e4544f38d2abd83e172250fe12ab5ff97c3446340b145a6a6adba4fb7051646d2aab6c62b5f24db6fee",
+      "file": "skills/cloud/aws/pentest/index.json"
+    },
+    {
+      "name": "privesc",
+      "description": "skill directory index",
+      "sha512": "a53f3d66f92538b1f6b49b5855bef1a789d1a6eb1a0f7b46e9770263e80d64d8d5b328ed4370004ca3abf9a2d9a791dd0fa7a66f89fc0f453e8ffeb3faf46012",
+      "file": "skills/cloud/aws/privesc/index.json"
+    },
+    {
+      "name": "scoutsuite",
+      "description": "skill directory index",
+      "sha512": "859cd9099a16a532e1547ab1bff97c72e17d730df8eb796afa497af81c36b52aa0d4d546310e1ed684f1900a8e3b9b981c892b6dee34f7f7210a669e0eb6f207",
+      "file": "skills/cloud/aws/scoutsuite/index.json"
+    },
+    {
+      "name": "securityhub",
+      "description": "skill directory index",
+      "sha512": "ea6610128fa763e072ad34bb752401974dd98abb6e9317a7db2fd8bbac9f15c0ce2277c9b216f026680c76c76115350309f30245211b3762bc7905363155f126",
+      "file": "skills/cloud/aws/securityhub/index.json"
+    }
+  ]
+}

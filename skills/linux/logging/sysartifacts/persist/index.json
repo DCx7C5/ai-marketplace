@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-sysartifacts-persist",
+      "path": "linux/logging/sysartifacts/persist",
+      "description": "Examine Linux system artifacts including auth logs, cron jobs, shell history, and system configuration to uncover evidence of compromise or unauthorized activity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f21f515055151cbf17b145932a193af7162edb60f8d8c82902466377c1c6060a10eecae97e6e5e2d61965a08942eb0cf508335fd7a41ff82bd830d86c13c7c4b",
+      "file": "skills/linux/logging/sysartifacts/persist/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-windows-boundaries",
+      "path": "offensive-windows-boundaries",
+      "description": "-",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e5597364b074df1700e9063a0d9cfc89eb75c0efb55d500d9442ddc1104e25e7d3c981642e8376a31dd3c42a2d6312d6babd00ea86c24588ad6894f05dffcf50",
+      "file": "skills/offensive-windows-boundaries/SKILL.md"
+    }
+  ]
+}

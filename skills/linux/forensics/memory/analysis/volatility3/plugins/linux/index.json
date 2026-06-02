@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes",
+      "description": "skill directory index",
+      "sha512": "e8a09a1880dea8a380e3bc765f1e7eee22860e0035eb4d7fb57ebaa2d8b3110d54dfa296448b497578d9076ba22626f9997e34786bda4e680e103270a9f5f324",
+      "file": "skills/linux/forensics/memory/analysis/volatility3/plugins/linux/processes/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-runtime-escapedetect-detect",
+      "path": "cloud/kubernetes/runtime/escapedetect/detect",
+      "description": "Detects container escape attempts by analyzing namespace configurations, privileged container checks, dangerous capability assignments, and host path mounts using the kubernetes Python client. Identif",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3145abbc6eb2ec760e09bc04e71a8107164dad9bf8ae96629e5a3052fff75ebfca3f13ee09e90fa2e4fffaadd42e0e06940fa174b01e4d7c215f078131e2dad7",
+      "file": "skills/cloud/kubernetes/runtime/escapedetect/detect/SKILL.md"
+    }
+  ]
+}

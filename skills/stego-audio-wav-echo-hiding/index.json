@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-audio-wav-echo-hiding",
+      "path": "stego-audio-wav-echo-hiding",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b65dada35dc039071016405b937b1ac97b58722b0e16b12b13baa4d650c13c64c6db736ba04e5bd4e2dfee0f6e076b758b70588d85f1ca10c07a4a0d69ec9b7",
+      "file": "skills/stego-audio-wav-echo-hiding/SKILL.md"
+    }
+  ]
+}

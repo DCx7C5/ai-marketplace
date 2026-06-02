@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "17cc5aca131ece5ee05f4ab3fc98ef2a220f164ddcbf6e120b0bec7514239bbca8949f65201e0686a54959ff2ec70282d2af0d4c763dacfb6a5e40bc13024c2d",
+      "file": "skills/network/layer4/port/enumerate/detect/index.json"
+    }
+  ]
+}

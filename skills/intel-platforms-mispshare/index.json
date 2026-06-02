@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-mispshare",
+      "path": "intel-platforms-mispshare",
+      "description": "A JSON report summarizing events created, attributes added, tags applied, feed sync status, and any correlation hits against existing intelligence, with event IDs and distribution metadata.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1cde7d542ad9074c959bcd2e33c385e0356edd8229fe0076f49eb327a17284e815a1a3d9d2cf6293255c747b4c422e8d68b24edb18e5bb6b69e03fec02598022",
+      "file": "skills/intel-platforms-mispshare/SKILL.md"
+    }
+  ]
+}

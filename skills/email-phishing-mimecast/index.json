@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-mimecast",
+      "path": "email-phishing-mimecast",
+      "description": "Email Phishing Mimecast.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ae2ee86ded44b9feb05eaffe92de7356c8083ca7fc57147c22ec3ebaa4e3248d8fe45c7858364bb3dd7b938572a52412e7921f1237b9094069beac695fc408ad",
+      "file": "skills/email-phishing-mimecast/SKILL.md"
+    }
+  ]
+}

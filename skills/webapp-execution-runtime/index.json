@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-execution-runtime",
+      "path": "webapp-execution-runtime",
+      "description": "JSON report containing RASP policy audit results, detected attack attempts with stack traces, blocked requests summary, and coverage assessment against OWASP Top 10.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "850977387617ff252960900880053ee3937a7d50967eedf7a6506f7b4962ca24dce3964821a0dda291301c96ebb804c431836010a3753d977ecbb1729b766fcd",
+      "file": "skills/webapp-execution-runtime/SKILL.md"
+    }
+  ]
+}

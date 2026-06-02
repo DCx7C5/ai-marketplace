@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns-enum",
+      "path": "network/dns/enum",
+      "description": "Enumerates DNS records, attempts zone transfers, brute-forces subdomains, and maps DNS infrastructure during authorized reconnaissance to identify attack surface, misconfigurations, and information di",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a9de8bc1b000ce6aed0012d925ab7e6228742c41feeaf07dec3bb41cb9830e1cc72000ab725f251293d4bfc4057de4adb47aebe71f30f75c6c7044e66e11852",
+      "file": "skills/network/dns/enum/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "90e56fe604ac0fcce8e3e8f290b95d3db40f7be108851134cb65c258cd4ac6863e8d8dbdfaf1f80df62e6ce66211e9703a0d6e5a7b79f09df4c0819a508225c2",
+      "file": "skills/network/dns/enum/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d45503340f609c6c9323da62ec130770c8d3e6d77e57a1c32cd65a0dc311ea44d7d57ae9ca1f24fab41ad1b5a884a1a7b262d964eceb4545b58b9e7207a14c02",
+      "file": "skills/network/dns/enum/scripts/index.json"
+    }
+  ]
+}

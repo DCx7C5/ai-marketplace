@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-docker",
+      "path": "cloud-containers-docker",
+      "description": "-| | Non-root user | USER instruction in Dockerfile | 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e6675490f93dedc56c9384bf332901498300c079d4e3ebd8388127774354a114b020221eb9ab8923c96335b6efb257b00ab75aa7d95540d90865f926c38db1b3",
+      "file": "skills/cloud-containers-docker/SKILL.md"
+    }
+  ]
+}

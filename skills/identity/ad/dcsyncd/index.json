@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6ea354030f6d8f929f33c16a0454afccbc952237fb2a39976fa9536bad5a240c7bdfdbc051a03ef1aac11b4e2f780eac78741d1e253bfa09f1e52619decc50c4",
+      "file": "skills/identity/ad/dcsyncd/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1ffc1b099a8d9fa460c36c23f615b9039ea062e39a3762bfebdfc2c1a9fb48706214dc036bf982b637df3a423338a794e160b5bda052ca201c518d359f9d41ed",
+      "file": "skills/identity/ad/dcsyncd/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "18653492afdd69c9a0db6fc32b06da95e3aa30ac1e1553b73ebf24c1bbc325b0e786c93824701accb6d5604e85f0d3479357def514df30b63b26ca866fc2abf6",
+      "file": "skills/identity/ad/dcsyncd/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0444e568fa0cb374df449c9faace1fb9b345a127ea264341d626458f5c274c5776d75fa622f62cf08ea058e6b437bc16af6e2a8a39a64cfdf1725993353e5518",
+      "file": "skills/identity/ad/dcsyncd/scripts/index.json"
+    }
+  ]
+}

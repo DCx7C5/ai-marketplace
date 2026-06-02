@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-wireshark",
+      "path": "net-capture-wireshark",
+      "description": "Net Capture Wireshark.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4ea4063ef6d4eff4f02656ad914003489048d3de292736510bc86f487e830f031fc4110f2b794315e1b5e66048ace30687bdf06bc7a9cd3fe67fa26a629e32fd",
+      "file": "skills/net-capture-wireshark/SKILL.md"
+    }
+  ]
+}

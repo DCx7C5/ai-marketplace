@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-advanced-hunt",
+      "path": "soc/hunting/advanced/hunt",
+      "description": "Proactively hunts for Advanced Persistent Threat (APT) activity within enterprise environments using hypothesis-driven searches across endpoint telemetry, network logs, and memory artifacts. Use when ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce8003ed9d3d5ad0ecbfaac79df1f8bb9cd824bffeb5adb1ddd50770bda007d2c020cc6058fd7de14239e0f8c94c8884c9c6f83e8cd630e718382c45645e54ee",
+      "file": "skills/soc/hunting/advanced/hunt/SKILL.md"
+    }
+  ]
+}

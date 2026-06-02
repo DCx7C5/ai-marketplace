@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "e68e3697543f82dd07746d588227b224be3d419fe233a9e4ac6eab979790bdda084c0f74393fe9e7c24e665bb8d93a11b325c5cfd6f22e6b079bd05d1ea3aeb8",
+      "file": "skills/web-application/auth/jwt/detect/index.json"
+    },
+    {
+      "name": "json",
+      "description": "skill directory index",
+      "sha512": "1eee34c51166edf9f42f7415e17efc2124aea42a295471570cfe7f30e5959b128ed860a49240ea14174068ba65a32f8fa43f5568956bb26721191575425181ca",
+      "file": "skills/web-application/auth/jwt/json/index.json"
+    },
+    {
+      "name": "nonealgo",
+      "description": "skill directory index",
+      "sha512": "21c77f3cb92abb446d43e71d618aa488db3c59a144cfdcd7abd06d2b9606f6e8552e071ccd630ee6f92af2cdcf7ec168d4ef1f98d67bc67ec257ec8641814adc",
+      "file": "skills/web-application/auth/jwt/nonealgo/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4cc8de6b549ac9e1ec774b18db3ebf997ffd3563fe765b69c3d7fbeb2baa05fd97665ef5cc0b04673de30738d960db93c7c813234088d9e2c59d9e8076508e3b",
+      "file": "skills/web-application/auth/jwt/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "88759bd581f92c3d88c1f41b6680e13cfb3663660b2932f1e8d73857ac4153de44b81ba7963278eddfbf3025072182011b8245afb83a8adca9055015c358201a",
+      "file": "skills/web-application/auth/jwt/scripts/index.json"
+    },
+    {
+      "name": "signing",
+      "description": "skill directory index",
+      "sha512": "4ea1dc0aba87ac4a2692c8dc5f0907733ec401434147379b82c4e868e6ce53886880418f138b2360af24a1da0b8e5df781d943dd8ae05d3450d830fe9d234093",
+      "file": "skills/web-application/auth/jwt/signing/index.json"
+    },
+    {
+      "name": "tokensec",
+      "description": "skill directory index",
+      "sha512": "7137c706164e30067196a1c3fde041db43d233620af9ed7d134e32dba3ea15aa886c923ed22861e7e72781978d2e91603a223a02bd645f6862741e49bcd79dc4",
+      "file": "skills/web-application/auth/jwt/tokensec/index.json"
+    }
+  ]
+}

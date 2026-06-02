@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "b489edfd367eddf25262e1457c40c7898a4a5b8a37e543a3cff913a06d6ee4e027dde62283b396fb64d70de294af606c0816385c7b6e59bc745b29faa06982e1",
+      "file": "skills/compliance/soc2/auditprep/assets/index.json"
+    },
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "f70b120af613baf4ab4c3746e71a1a10c1c76068c67450a0efffebed375790295170dde71aff897a748e3a8b3d2bb4ae3712af3aa5f8a9421322ad1e726b9af4",
+      "file": "skills/compliance/soc2/auditprep/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3eca6a4e7ae56fe974e8cccf934106d3549446cb0850295a7f5e6321424d9ef03f976a022ed0a20c62075e2183b50d9314ca1d69c765d2904490b8368424e7ea",
+      "file": "skills/compliance/soc2/auditprep/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "887ab51f439b0956c62185964dffe5736dd175541e5d3f7899d67948840956e4470012333319e4a7d389fb1f6e16eba9a591dd25246952f4c170341bc43382aa",
+      "file": "skills/compliance/soc2/auditprep/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-systemd-unit-persist-detect",
+      "path": "linux/services/systemd/unit/persist/detect",
+      "description": "Detect systemd service and unit file persistence \u2014 scan all unit directories for unauthorized services, check WantedBy/RequiredBy dependencies, and identify post-exploit persistence.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "73795633e2a2ef8a96c433a3438bfad87389f3d533f09b33d838910fe9a7559bfb89b9141715aa33eba03b1d508576ebd44cd0f304d51affa2454b8274b80fd7",
+      "file": "skills/linux/services/systemd/unit/persist/detect/SKILL.md"
+    }
+  ]
+}

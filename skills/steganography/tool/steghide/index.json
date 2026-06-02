@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "execute",
+      "description": "skill directory index",
+      "sha512": "232f88e8b4eada79d26fdba0966ed0af05669d1e6fd1e7da95019ae1b609f17670d2dfd7a8a017cb9059ae1c986a19a6ebbd963edccbbf5523da5168dc90032d",
+      "file": "skills/steganography/tool/steghide/execute/index.json"
+    }
+  ]
+}

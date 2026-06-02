@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "okta",
+      "description": "skill directory index",
+      "sha512": "2cbd958e6f3b3b3a830dea3e811dae8e9cff7c730605a0493b31da66ccbd14880c1310f920c771ac340f63be28f056090a8abd9cd40e33b9a3cacdbb5a6197f8",
+      "file": "skills/cloud/identity/okta/index.json"
+    },
+    {
+      "name": "zerotrust",
+      "description": "skill directory index",
+      "sha512": "423088046b69ad13ee9287aad033adedaf9a293e25f4f6c3d9467d037270efb5c92b6b13b3592ba90fa0f04e403ec8b1793d16da8a0d565b58143a3c2937ad0a",
+      "file": "skills/cloud/identity/zerotrust/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-storage-misconfigured-detect",
+      "path": "cloud/azure/storage/misconfigured/detect",
+      "description": "Detecting misconfigured Azure Storage accounts including publicly accessible blob containers, missing encryption settings, overly permissive SAS tokens, disabled logging, and network access violations",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f69cdb349f6d2e028c0b1f827269fa51cc2f556cc5120a38c963b6be9d103efd8d19eac9cb32f0d6458034ac127edea20b28dfcf1134d7d6d92529504ef298a",
+      "file": "skills/cloud/azure/storage/misconfigured/detect/SKILL.md"
+    }
+  ]
+}

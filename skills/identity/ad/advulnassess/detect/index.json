@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-advulnassess-detect",
+      "path": "identity/ad/advulnassess/detect",
+      "description": "Assess Active Directory security posture using PingCastle, BloodHound, and Purple Knight to identify misconfigurations, privilege escalation paths, and attack vectors.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e13061371d0f31b6038959814fbc993be011b04499e413ca296804f87c4a3e2b04ef9162828233d2a8cca89068d52885ec8c086b6ebc04d166ca843b52fae021",
+      "file": "skills/identity/ad/advulnassess/detect/SKILL.md"
+    }
+  ]
+}

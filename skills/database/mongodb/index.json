@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exposure",
+      "description": "skill directory index",
+      "sha512": "c2a7000d1129254bcd454a1cb2295a92f407d2925f84f64908a4ca9520de739aa33c6c7003ae7a034d5a8338fa3a275ecffc67a5f62c333f38fa65ae5c7b2e49",
+      "file": "skills/database/mongodb/exposure/index.json"
+    },
+    {
+      "name": "nosql-injection",
+      "description": "skill directory index",
+      "sha512": "b0a72388a950dd12c7de9f769cd34fa0f4b0a8e3cb3d79655a71e47461c2e27289d679ff7cde9c831c5447bd72fe4e8eec1aa71757f2200ed69cba365b17918c",
+      "file": "skills/database/mongodb/nosql-injection/index.json"
+    }
+  ]
+}

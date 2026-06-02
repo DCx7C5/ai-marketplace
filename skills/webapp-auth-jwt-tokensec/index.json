@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-jwt-tokensec",
+      "path": "webapp-auth-jwt-tokensec",
+      "description": "Webapp Auth Jwt Tokensec.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7c6ffe9e3fd04544c1c4309bc3da4d10ffeccb9a0f15f3b3506283f9a0390c3f79a3e2e5d88e392c32d0d2e34e0233e5207ec59ab016654dc63d7b253349e9d6",
+      "file": "skills/webapp-auth-jwt-tokensec/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "feaeb82af2ae6bfc8821073c9908838f07396c392efcbf04afda431f5f989b91c64b299deb724c5906d0aa115fc10589169b09efaa62c3a4059b1c3ff71d6847",
+      "file": "skills/cloud/aws/securityhub/audit/index.json"
+    }
+  ]
+}

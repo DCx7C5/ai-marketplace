@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "script",
+      "description": "skill directory index",
+      "sha512": "d2aea0f19add234a8e6bf92e6066c05dfd4884a3253941c8eced40d2e46ffd67c33928773c42bd00ef01f4d89afaface02ac9565fb6450f03d68c6f2c52b57b1",
+      "file": "skills/linux/services/motd/script/index.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "broken",
+      "description": "skill directory index",
+      "sha512": "8f5f300aa6c9801e2fc2b7ce6ec89bd592d4bf5227f295800b43df1aab3936c04362dbab2c44c0496fe0956825fbb724cbbeebe349ff6a0fcaeb4296a8a2ae1c",
+      "file": "skills/web-application/owasp/broken/index.json"
+    },
+    {
+      "name": "threatdragon",
+      "description": "skill directory index",
+      "sha512": "a2cdd9db9d4d0dbec4dd64d0dcddac16dc7703237862a9bea3723ce9b563b8d269f6f656a73daeefdd0f17d774c46bae737cd24d7de953b1b65d7dce1d2b0c8f",
+      "file": "skills/web-application/owasp/threatdragon/index.json"
+    }
+  ]
+}

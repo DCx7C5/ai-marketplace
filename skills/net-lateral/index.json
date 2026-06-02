@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-lateral",
+      "path": "net-lateral",
+      "description": "Net Lateral.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5fa141ee4fc0b6be51dc218c047ec3167a609c7e76ab28773d3dc57edb3bbcf386008662a32a3bc8c215967783bfff70ee86126b087ebbdf83dfaf9cf94f3444",
+      "file": "skills/net-lateral/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7bedfdf1314f5131867793836bcc8c6db80603d366fbf27ebe3b4ed95f00367fcff06ef32d46abbd2e7eea9400c5cd622d70771aecf54467725070e24b2df43f",
+      "file": "skills/net-lateral/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6542d07da1d6750a20d0ae1a4f49a3b7ae316459e3d4835457ca6f752359fb07d3b18eafa9070cd68ad5ab7a632992ca3febe47f447ed013e361559ee53e613f",
+      "file": "skills/net-lateral/scripts/index.json"
+    }
+  ]
+}

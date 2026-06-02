@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-landscape",
+      "path": "intel-analysis-landscape",
+      "description": "-|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "434c44da3473881f97a52c30485c0c511c4f09a81756bbfc75009754d0a12512771d79662c616d6ca828b0774286e11fc3a5b7322695d8acb1f9a9de0984011e",
+      "file": "skills/intel-analysis-landscape/SKILL.md"
+    }
+  ]
+}

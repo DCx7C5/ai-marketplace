@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-syslog-verify",
+      "path": "database/logging/syslog/verify",
+      "description": "Configure rsyslog for centralized log collection with TLS encryption, custom plugins, and log rotation. Generates server and client configuration files with GnuTLS stream drivers, x509 certificate aut",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0b08efb08156f211146a6ce5388398144cabbf483c32dcc95cca557712a2a0f6715070129153dd504f3edfd32971cc4e01ae9f99306e1c3ac5c7cbe70e9ccdd",
+      "file": "skills/database/logging/syslog/verify/SKILL.md"
+    }
+  ]
+}

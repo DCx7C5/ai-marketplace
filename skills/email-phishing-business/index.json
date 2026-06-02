@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-business",
+      "path": "email-phishing-business",
+      "description": "- **Abnormal Security**: AI-driven BEC detection - **FBI IC3 BEC Advisory**: https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a58da870037f64c2a2c2f176250f6d0cc16af7fe31ab98e9c9a8940b5b53b69972410f5f2e058477e739618f10244e0f500d66663422cf328aa3bca7ae5812d6",
+      "file": "skills/email-phishing-business/SKILL.md"
+    }
+  ]
+}

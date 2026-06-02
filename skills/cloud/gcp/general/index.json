@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "overview",
+      "description": "skill directory index",
+      "sha512": "9349e8ce9542c19ae984d7f40eade77fe4161877b74fc6787e93a2011f84cae740bb63d79e03446946d296c8970690a0d6a6fa3044f19f6fe84d3b57b47a8e5c",
+      "file": "skills/cloud/gcp/general/overview/index.json"
+    }
+  ]
+}

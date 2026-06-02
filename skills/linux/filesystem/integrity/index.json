@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aide",
+      "description": "skill directory index",
+      "sha512": "bef6008c60c341af51e70959924995f670555d9b78df0b785b40a194c9113e7b7a30b85269b2e8e5004b96a14bdb7c8e520e61ca1c40e1e059b680d929d95753",
+      "file": "skills/linux/filesystem/integrity/aide/index.json"
+    },
+    {
+      "name": "tripwire",
+      "description": "skill directory index",
+      "sha512": "8b55bfe3f7e897f1b9c71cbc275ce3f4988f00d39bdad41864563f8cf75e228a5e566e1f41b624323357b89ed85a4b00298b63509932ab35fdbf27598028b6aa",
+      "file": "skills/linux/filesystem/integrity/tripwire/index.json"
+    }
+  ]
+}

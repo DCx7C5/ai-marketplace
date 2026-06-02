@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-cups-rce-detect",
+      "path": "linux-net-cups-rce-detect",
+      "description": "subdomain: network-security tags: - linux - cups - printing - rce - cve-2024 - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ae5686248d0e5a4a51bff614fb1fab25d37d5aa26efbf377573da6c0348577ca62f9b4e400379259ac6c75ef2a73d6384d9cfb7482891c70efff3244dcd9e20",
+      "file": "skills/linux-net-cups-rce-detect/SKILL.md"
+    }
+  ]
+}

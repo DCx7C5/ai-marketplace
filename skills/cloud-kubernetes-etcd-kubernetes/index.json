@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-etcd-kubernetes",
+      "path": "cloud-kubernetes-etcd-kubernetes",
+      "description": "-| | 2.1 | etcd cert-file set | TLS certificate configured | | 2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f434419df61fdb4864ba7cfc01dc20f00c7fe956039897d7a6a966d6a16188941cb8a609210d2aa462382c7e1aa4c7122dd6783e0ffe1296cc700ee8f240be61",
+      "file": "skills/cloud-kubernetes-etcd-kubernetes/SKILL.md"
+    }
+  ]
+}

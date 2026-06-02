@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logs-eventlog-collect",
+      "path": "windows/logs/eventlog/collect",
+      "description": "Configures Windows Event Logging with advanced audit policies to generate high-fidelity security events for threat detection and forensic investigation. Use when enabling audit policies for logon even",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "30533dace090d6fd6ab2f375e06ad30065470196db7c2c1d8bda72ec8d547c834fe5859159cf5c03c69ad5cdaaac2aed307f04e859e256b91746c5e1680a3deb",
+      "file": "skills/windows/logs/eventlog/collect/SKILL.md"
+    }
+  ]
+}

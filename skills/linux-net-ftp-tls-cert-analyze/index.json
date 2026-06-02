@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-ftp-tls-cert-analyze",
+      "path": "linux-net-ftp-tls-cert-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d00bf24109047c44e2107fc43bd40d8181a6a77307fba608a2c38b93e60c1c6fed9b52ece1dc54322ce78d5a1b8fd2a19d7314785a762c04f4830a7afe553893",
+      "file": "skills/linux-net-ftp-tls-cert-analyze/SKILL.md"
+    }
+  ]
+}

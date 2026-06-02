@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-artifact-thumbnails-analyze",
+      "path": "linux-forensic-artifact-thumbnails-analyze",
+      "description": "subdomain: forensic-analysis tags: - linux - thumbnails - cache - artifact - forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "28a0b6fc2cbc2ae08a85ae62e42690e1a16ebd4089ca9aea242750b4cda067dfe02b862c76d25fbbfd4ccaf50556782a87f943f943cdc2af5e4e2a7d1b83f6f2",
+      "file": "skills/linux-forensic-artifact-thumbnails-analyze/SKILL.md"
+    }
+  ]
+}

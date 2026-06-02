@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-pcapforensics",
+      "path": "net-capture-pcapforensics",
+      "description": "Net Capture Pcapforensics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "032b63afc1dcfc6cc4b2512e1826e52bc460e87fe34c8369ce9cf1ea900f4d511de11b518140f7088d8148919dd94b0514044cd053ecc1872951b81a84d798ea",
+      "file": "skills/net-capture-pcapforensics/SKILL.md"
+    }
+  ]
+}

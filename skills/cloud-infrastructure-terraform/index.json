@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-infrastructure-terraform",
+      "path": "cloud-infrastructure-terraform",
+      "description": "Cloud Infrastructure Terraform.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "94387e09b2450629de85119930fa6ccbf955d46996631f19bde625e67753f31404dbef5690b45fc0523e8446064d16186c87a0df94e9787e987504b35719a35d",
+      "file": "skills/cloud-infrastructure-terraform/SKILL.md"
+    }
+  ]
+}

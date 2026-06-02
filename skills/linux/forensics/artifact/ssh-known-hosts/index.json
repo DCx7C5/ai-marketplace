@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "f8feb9174309476fd061c25e5e021d301d466df5088d29e096d2198d93cd594377d190817086201670c200f3e8d161a41e42af7ce75088b043c8755848162f43",
+      "file": "skills/linux/forensics/artifact/ssh-known-hosts/analyze/index.json"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "binary",
+      "description": "skill directory index",
+      "sha512": "61f1b39c60a9ce656f340810bc1a2e828b25baadffe2b66077f8bba8ec74da662a29d04cbde62eace974a773ce0460328bb81be47d1e36bb8100bc657467f8f5",
+      "file": "skills/linux/processes/binary/index.json"
+    },
+    {
+      "name": "daemon",
+      "description": "skill directory index",
+      "sha512": "087a9e091b1017fd95eb55faf7bdf6f6f444cb24336ec6d1a4141d63850f30d2cd26a817101d69623f4fad52fda3380f7aba2ce2a8c9ccaea2ba9c21542597c6",
+      "file": "skills/linux/processes/daemon/index.json"
+    },
+    {
+      "name": "elf",
+      "description": "skill directory index",
+      "sha512": "a8ec1df24e4ac60f84998f3a1da3a488aaaac19b91615d19add3a6a4f5ef698c9df99a7e1cca03e5de60b14a4840c4a0c5e5497e08f6698a48bce4515a75e3c8",
+      "file": "skills/linux/processes/elf/index.json"
+    },
+    {
+      "name": "ipc",
+      "description": "skill directory index",
+      "sha512": "cba4fe2de883fe4352de078ec1a6c6f4ad820b7431ed1f9dfb45262e9fe754f60f6d06e052f2132b77c57bb83c28d9ac2a23479cc3c8ad3efa4788214775772c",
+      "file": "skills/linux/processes/ipc/index.json"
+    },
+    {
+      "name": "ld-preload",
+      "description": "skill directory index",
+      "sha512": "a4f2df44a08a38e5f91f11eaf925f27ea4751ba3b8df3f5ec1f532f81f1e712579faefb5375cfae9009b6d1cc9132a55758382938d14d8489ce4e7efe8d12899",
+      "file": "skills/linux/processes/ld-preload/index.json"
+    },
+    {
+      "name": "proc-fs",
+      "description": "skill directory index",
+      "sha512": "058ac1a157343b9ad7559887a53ff47fb976d28844e4545559352ccd576c4002fc83d67bbcba7885ed22af8a02ab7ed3ddbccd01694c320d25c7ff8c3baaf633",
+      "file": "skills/linux/processes/proc-fs/index.json"
+    },
+    {
+      "name": "ptrace",
+      "description": "skill directory index",
+      "sha512": "8cf8fd54f52a6d4623a1441500afe5d8360f4ec0dc561ae282cf87e3b18ded90e3d9a2f74f478ce253c9d3e3ab71781a4eb96bea54bbc16aa986dbc6bcc36b91",
+      "file": "skills/linux/processes/ptrace/index.json"
+    },
+    {
+      "name": "signal",
+      "description": "skill directory index",
+      "sha512": "0564cabaf18f479e074e3b88acb488166a9b095b2b5c12f60024b25c048de0960d409fb9c62e8809db4aa3a4660c3218d94b093928b03c0851a0512f9b122e6c",
+      "file": "skills/linux/processes/signal/index.json"
+    },
+    {
+      "name": "socket",
+      "description": "skill directory index",
+      "sha512": "3115c8ec6cea0e1a151b4cd74c3044669782667654db629c8fdc035db5a9f1914e138022527ff939352d7e4d55dfddc1d985a24c7717c7aa1889bb1d7cae7ac1",
+      "file": "skills/linux/processes/socket/index.json"
+    },
+    {
+      "name": "zombie",
+      "description": "skill directory index",
+      "sha512": "1dc3252a6c98be2183f9c65e78b42682b820b31fed41f6e302a3e065f4543aad09ea8a2a3fb036a45dc4739a243654947bb5cd3bd86889bc81acb046c5a8f07a",
+      "file": "skills/linux/processes/zombie/index.json"
+    }
+  ]
+}

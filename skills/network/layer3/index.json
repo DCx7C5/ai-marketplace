@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bgp",
+      "description": "skill directory index",
+      "sha512": "71dd03ac2b6782ef279198fa489ada58ab4b26b2918b0755869b14e29b35a70c06193b93529a9ddca23184ce7895c1fb1f5260302de940694c6de3af925cbdcc",
+      "file": "skills/network/layer3/bgp/index.json"
+    },
+    {
+      "name": "ipv6",
+      "description": "skill directory index",
+      "sha512": "68fc87f16a0d88142f4a02b1d3d33860f65362920ed96edc874361bd6f68dc0cc423b1d5d8d80a1ddcb813b8abe81a3acf51288164376348678388b2587eef60",
+      "file": "skills/network/layer3/ipv6/index.json"
+    }
+  ]
+}

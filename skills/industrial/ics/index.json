@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "access",
+      "description": "skill directory index",
+      "sha512": "b223e70d61ec6985b73b1b53f65ec0a04d259a312f22764dd9e7fa9fd94b2a329ecfdfb966858194a16e344bf7797337bcae47ec07f85d103e3505ccd6a3a920",
+      "file": "skills/industrial/ics/access/index.json"
+    },
+    {
+      "name": "architecture",
+      "description": "skill directory index",
+      "sha512": "5bd50eb5582c6718e81ef108a000bb59591d83cab7355638f0af7690d7c8cdc730b7a1c16615b92f1999ca132539d7ecd00ebe77d6747286b7f3208e4b5f0767",
+      "file": "skills/industrial/ics/architecture/index.json"
+    },
+    {
+      "name": "asset-management",
+      "description": "skill directory index",
+      "sha512": "add14a9b524ba36d1ef6e899635f533114903e332f8ecf21fde418fe0d429c438303658739acfc04e4f94732fe3cb9bd82b2f7ba1872891af484a6bb8bbe254e",
+      "file": "skills/industrial/ics/asset-management/index.json"
+    },
+    {
+      "name": "detection",
+      "description": "skill directory index",
+      "sha512": "2a791469f292ef45b1a3d99d635f543ed0b53e280e2e699bc7f60a7f0e18ee523016b4f94bf670693f0197ee1a6422d571b39252c24905efdb7b9c482bae4ea6",
+      "file": "skills/industrial/ics/detection/index.json"
+    },
+    {
+      "name": "historian",
+      "description": "skill directory index",
+      "sha512": "cb2982899c4f87a6681abc4c8a18b5d3448bedf790a108ae81005902ad20f4ee716268eb4bfe618f8b6e8d31604a5bd7b907d97cbbbb90986042942eaddb5943",
+      "file": "skills/industrial/ics/historian/index.json"
+    },
+    {
+      "name": "malware",
+      "description": "skill directory index",
+      "sha512": "d494413b58285e3130d230f1c878de0168e36b431caa8cadadb0dee8a7bd9ffab669ce518bb21559d2b050cbb768b70bb4e7cb66f72f04878f5f6002c08103d3",
+      "file": "skills/industrial/ics/malware/index.json"
+    },
+    {
+      "name": "monitoring",
+      "description": "skill directory index",
+      "sha512": "db3c2a14641d8a252fa04ec43bc1c9087d7dce4a978b2cf64dbf1f742ff2e545f1fa0803587f6c500ed18b3087238b87fee15de9f2c7a3b7ca88553ddfcc6e63",
+      "file": "skills/industrial/ics/monitoring/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "24f849987d12180af3534ef33c85db56d9ef6019a2e6e833c5698521d515b35dc6cf1bf1f77b285d266eaa93be9a792cabe5d27120310de3ffc7503ee2110252",
+      "file": "skills/industrial/ics/network/index.json"
+    },
+    {
+      "name": "plc",
+      "description": "skill directory index",
+      "sha512": "74b594ab42afe71c0a889351ff121ab0ae71270da97d19c28f44c60b5526874ed05d45cbd6fb5ff891481c87ef15745d81123dc8020d4d171a771f6ac2c91d7d",
+      "file": "skills/industrial/ics/plc/index.json"
+    },
+    {
+      "name": "protocols",
+      "description": "skill directory index",
+      "sha512": "0534385ef6a70d7d0aedc426de498b4de83240b08a00d74d6e8d1f675d1fabbf3272d230cdb7ee1bc3d33437053e39261d00283d78e35fcb07649f449d658706",
+      "file": "skills/industrial/ics/protocols/index.json"
+    },
+    {
+      "name": "scada",
+      "description": "skill directory index",
+      "sha512": "47305dfb9858aa22b7b1ba355370ec6d65cf6cb3a4a251e5a32607e6c7e6406cb5a611a5cfddbd0326b41271f3429f150c003c775f5ddf7e0cf98f8c7a2d9183",
+      "file": "skills/industrial/ics/scada/index.json"
+    },
+    {
+      "name": "vulnerability",
+      "description": "skill directory index",
+      "sha512": "ff8d8c258552b3b86ebc537fd34fda6ed196ee09b0850777c2936aedf7e00e1d75dfe3e0d2bf84325be47fb589275275a5ee4d7efb35bc58e638f4474599f0f7",
+      "file": "skills/industrial/ics/vulnerability/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-supply-shared-library-preload-detect",
+      "path": "linux-supply-shared-library-preload-detect",
+      "description": "subdomain: supply-chain-security tags: - linux - ld-so-preload - shared-library - rootkit - hijack nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "24ce1671b38987c78ed23148da7648949dfbc73e2d833de4499a2c85a6ca40937bcfc97413ac9395fad41f1e5d216bde9838fd76ef4a297a7b45bf472df1ab06",
+      "file": "skills/linux-supply-shared-library-preload-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analytics-anomalous-detect",
+      "path": "identity/analytics/anomalous/detect",
+      "description": "Detects anomalous authentication patterns using UEBA analytics, statistical baselines, and machine learning models to identify impossible travel, credential stuffing, brute force, password spraying, a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a39baecf4481df3a8143337fa99514e74bb3eaab4679ae6a1428a3f5b806b3aea8ca91f4d906c011c25e850dd02c1190bab998e5a644f803447a2f2feb920ca2",
+      "file": "skills/identity/analytics/anomalous/detect/SKILL.md"
+    }
+  ]
+}

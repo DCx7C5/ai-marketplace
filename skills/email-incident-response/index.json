@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-incident-response",
+      "path": "email-incident-response",
+      "description": "A JSON report listing compromised or suspicious accounts, malicious inbox rules detected, impossible travel events, suspicious OAuth grants, and recommended containment actions with severity ratings.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "45365c78ea2d7e1fe689cd50d553d491f442f158fad089f6535cacf36ca2a2ae8df7f33e5fe8ecf67c3a5a4fab86d615fa918db75f9435ad59815318c3fb857c",
+      "file": "skills/email-incident-response/SKILL.md"
+    }
+  ]
+}

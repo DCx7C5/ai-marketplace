@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "incident-forensics-analyze",
+      "path": "cloud/incident/forensics/analyze",
+      "description": "Perform forensic acquisition and analysis of cloud storage services including Google Drive, OneDrive, Dropbox, and Box by collecting both API-based remote data and local sync client artifacts from end",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4fd22835a83434db5cf52465e2cc30ec2ef94ba8f52ca878e686a34743508789a4a2dff00ccce3bf7b7c41f961a005cd175c2f7998397a519f597cdad9bd3fae",
+      "file": "skills/cloud/incident/forensics/analyze/SKILL.md"
+    }
+  ]
+}

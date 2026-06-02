@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-schema",
+      "path": "webapp-api-schema",
+      "description": "Webapp Api Schema.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "55733459f0298a9d1e54cf2e927f56897f7358767e8893d6c8418e96ecfd81ca0054c7fb9dae1c38eedda372e8fe2740a8eae1b5a02646841f200b95c5910b0a",
+      "file": "skills/webapp-api-schema/SKILL.md"
+    }
+  ]
+}

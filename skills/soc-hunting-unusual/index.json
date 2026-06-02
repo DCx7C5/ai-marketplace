@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-unusual",
+      "path": "soc-hunting-unusual",
+      "description": "Soc Hunting Unusual.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "33828dd4b9f03ace1d83c8fd0ed2c841644425ab7a08ba297d39cd9731dbf9c6816b6007b7ddb74eeaeb170ff2d658187ccceb0f1ec792a4914bf078305274ad",
+      "file": "skills/soc-hunting-unusual/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth",
+      "path": "webapp-auth",
+      "description": "| | /admin/dashboard | 200 | No | Full admin panel | | /admin/users | 200 | No | User management | | /actuator/env | 200 | No | Environment variables | | /config.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9edd1a02f15d08ebdcaa7b67a04e8cfd634499d08dbaf45ff54fc09755c37b93d994ce3009627ccc177af8c2d0e2d729de21f159e9ce425c50ceefcdd775b7e9",
+      "file": "skills/webapp-auth/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "054c047e0722772166ff044510dc91df724755fc632732929fb9111689435fe529b14733a16d75a807f200375b5363de2005601d48c95354c4bbb1cf8871a027",
+      "file": "skills/webapp-auth/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "115b69176f8df9a74258186acce4a58abc87f83d27449663e38babb47af2543a2f9fb73fa40bcce8837a5d2068b592735d9534a16ecddf7549a19d8b64894738",
+      "file": "skills/webapp-auth/scripts/index.json"
+    }
+  ]
+}

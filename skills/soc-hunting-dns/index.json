@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-dns",
+      "path": "soc-hunting-dns",
+      "description": "JSON report listing DNS anomalies with record type, historical changes, risk severity, and remediation recommendations for each finding.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6abd8b698361237555a97e67bb87f2c2bac2b7750ae27508e7ae295965f0e9baf941675d410fcf1721bb8f6a9ea1c4c809170573dfc813804d9ade272ed793e2",
+      "file": "skills/soc-hunting-dns/SKILL.md"
+    }
+  ]
+}

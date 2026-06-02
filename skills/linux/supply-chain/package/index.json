@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apt",
+      "description": "skill directory index",
+      "sha512": "e6ed2ac3a031e77b02d2a739b54b44d2ae1964024c538dacbb006a6131d0df5b740497a58610d44fef9e7e566f5cf49a1d3a12e46111ea4f2ef4118d2b11c866",
+      "file": "skills/linux/supply-chain/package/apt/index.json"
+    },
+    {
+      "name": "hook",
+      "description": "skill directory index",
+      "sha512": "90c05daacb5b682c9eefee2f49fb0406f52696aaa8a466983704fa68dc9c2af333604b914e967e3781826352ac14f2a072dfbf2482991927fa71a8e6440b8746",
+      "file": "skills/linux/supply-chain/package/hook/index.json"
+    },
+    {
+      "name": "rpm",
+      "description": "skill directory index",
+      "sha512": "973c06c440bb3b15c19782a00936b92aacb51303bcdb743ee13fd62dda68e127b36bb3f0d42253a3068ba8c80e7295fad04f1dcd32e239d29d9db2a1f4c26a52",
+      "file": "skills/linux/supply-chain/package/rpm/index.json"
+    }
+  ]
+}

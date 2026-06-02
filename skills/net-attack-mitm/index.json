@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-attack-mitm",
+      "path": "net-attack-mitm",
+      "description": "Net Attack Mitm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b52dc7e843bdd56f87a1df8f5b3921892833aee84e43f25bf71c58d462c713a057e61992b30fea33c16917ec827abec2d342dccc4f449b48994aa5a573adf349",
+      "file": "skills/net-attack-mitm/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-file-upload",
+      "path": "offensive-file-upload",
+      "description": "- Image pipelines with `?url=` sources: treat as SSRF; block private IPs, localhost, and metadata endpoints; enforce DNS rebinding protections.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ffbafdfec7476a61d175086d4f651001f9abeac0efe5f4f91a9019dbfa6f312b6256c866a5fb9987d9b6239e29e203d37291bea4c1ec341638222fadb4b516fb",
+      "file": "skills/offensive-file-upload/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-prioritization-ssvc",
+      "path": "vuln-prioritization-ssvc",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f2f74a032c2691aabc7b26fd693eb3cb9cfc956e37b83d23b0b65b0e9bbd768a6c6b9925f372922322d52f22a19f0cf12c921811fcc1e3d49f2803e928155775",
+      "file": "skills/vuln-prioritization-ssvc/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b2964b7f3e8a40833a3e824b703433b3945161613a4f061a3dbd1139c3524a45e83acee876022b656c7574c5c9fadabc90a1407af74d9e02c3c763c69571efaa",
+      "file": "skills/vuln-prioritization-ssvc/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3238a4df058e6a6717a495ed22faefe205d4ae525659950c4bcda39e9fffdf26ced268adfc59f05a06defefba971d53021d88a9676e12daf2b43297e30535215",
+      "file": "skills/vuln-prioritization-ssvc/scripts/index.json"
+    }
+  ]
+}

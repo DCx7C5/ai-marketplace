@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-injection-packet",
+      "path": "net-injection-packet",
+      "description": "Net Injection Packet.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cdf0fd310423d8daaa57646fed18b8bdd06312539cd29fdf3d0c80c14dd6927b96d43302bbaa02dbb3dc4991921bc67fb7a4235cb10b90b451dc9fb1aca39bfd",
+      "file": "skills/net-injection-packet/SKILL.md"
+    }
+  ]
+}

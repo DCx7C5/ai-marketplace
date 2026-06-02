@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-network-stack-raw-socket-abuse-detect",
+      "path": "linux/kernel/network-stack/raw-socket/abuse/detect",
+      "description": "Detect raw socket abuse by unprivileged processes \u2014 identify CAP_NET_RAW abuse, packet sniffing without legitimate tools, and packet injection via raw sockets.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "33bdc07acb9614f3160e8bee29c33b029e815f1df10ae04694bed7a27cb7e0abb66221f2a5ce6e817140823d61cb637f1e5946cacb697289ddede988a8b5b42e",
+      "file": "skills/linux/kernel/network-stack/raw-socket/abuse/detect/SKILL.md"
+    }
+  ]
+}

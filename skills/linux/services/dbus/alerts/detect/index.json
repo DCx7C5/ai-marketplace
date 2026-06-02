@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-dbus-alerts-detect",
+      "path": "linux/services/dbus/alerts/detect",
+      "description": "D-Bus security monitoring and IPC forensics. Detects suspicious service activations, polkit authentication bypasses, DBUS_SESSION_BUS_ADDRESS hijacking, and lateral movement via session/system bus eve",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "75debb955897f341b472c09319b8aab8ee008a891e72fe2cf083e4489ce9c1041ad11922bc3c882378500ba419e7cd190a510f2879a80df5a2782bb0830615a8",
+      "file": "skills/linux/services/dbus/alerts/detect/SKILL.md"
+    }
+  ]
+}

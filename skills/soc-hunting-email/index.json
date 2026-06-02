@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-email",
+      "path": "soc-hunting-email",
+      "description": "Soc Hunting Email.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80691178eda77feb1aa8633eb2e375bbc18934bd72e8d427c1b87bfa6cb60285f01a4cfdd77ce2016207115f9d88b3206753f18fc1a716d9b9ecbccc6294a853",
+      "file": "skills/soc-hunting-email/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "firewall",
+      "description": "skill directory index",
+      "sha512": "638906fa13960f4984724d7f8fb3cf7b838c7f06d50469d7c464ef8f8f330ac9996c31c43c6c810503cc2eed54b829eb349bd2152080f1bd2eae8d2e3e8afd3e",
+      "file": "skills/industrial/ics/network/firewall/index.json"
+    },
+    {
+      "name": "segmentation",
+      "description": "skill directory index",
+      "sha512": "dc7a3db6fd942f276dc51228363cd429027c63c9b3f4ba826213b43125ac02d46da6d7a6c2a59d32d59a5ee5324dd30ec4ca0d31e147c50ad3c953618d97cafe",
+      "file": "skills/industrial/ics/network/segmentation/index.json"
+    }
+  ]
+}

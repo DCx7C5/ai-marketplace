@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-access-rbac",
+      "path": "identity-access-rbac",
+      "description": "Identity Access Rbac.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "302e913662855a85c02efa82c95f8f49f2076f5983b4901a84c0b51ecb2ba08f3ed1f3e4c722bf27386392ce49457bccf8cdbdaadefed2f721e884708ef108ab",
+      "file": "skills/identity-access-rbac/SKILL.md"
+    }
+  ]
+}

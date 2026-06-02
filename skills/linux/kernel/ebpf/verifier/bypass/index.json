@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0bc8268a811099829fb18edff99f9304275768eb046c72afedfb61ab9bda3267579f323e945e0da250ab09f1fae82a1c26ca7fcadf9f5c71b505697d732c9430",
+      "file": "skills/linux/kernel/ebpf/verifier/bypass/detect/index.json"
+    }
+  ]
+}

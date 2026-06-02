@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-just-escalate",
+      "path": "cloud/zerotrust/just/escalate",
+      "description": "Implement Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access only when needed. This skill covers JIT architecture design, approval workflo",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b628fa43b7dcffb10663fd7e034e84ea67b890f8f2da1439a9756e7410b2b6734ad80c46b1dabded4bfc6744283f8ee2f0b53765c73f49fa7dac582f4641e616",
+      "file": "skills/cloud/zerotrust/just/escalate/SKILL.md"
+    }
+  ]
+}

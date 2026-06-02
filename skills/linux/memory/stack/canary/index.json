@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "d1a3e0c53256e2578fdd703598e1f344a1cdc32bcf295b6abcc7aa4cd94443f89981d3ce52374ca774550b35b20270b067b358727d2a7d9c12d4f599d991922c",
+      "file": "skills/linux/memory/stack/canary/bypass/index.json"
+    }
+  ]
+}

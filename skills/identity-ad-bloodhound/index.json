@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-bloodhound",
+      "path": "identity-ad-bloodhound",
+      "description": "Identity Ad Bloodhound.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "11978c3b9b6a6faca2505abbcfdf41d8f4055c5a9fbce20f508afca7c12dcb4b396c235ac454eec7fcf60c2ddcd8696ae7dc4d46e0763d9946628ca7abb30547",
+      "file": "skills/identity-ad-bloodhound/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6402b3e6e18e28ba480ed093635768d14e727717eba79fceef8158d4af8690b9c74affd5fd3084ec5c9ac9921905af2711178e5cf3a0b0c26fd20a16f8ff8bac",
+      "file": "skills/identity-ad-bloodhound/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "56e41bc66f07dc989f20299a3072fb8c3d46856dda148085ff5d35570fced9c3227516967a5e358cf373c15733e9f4716d062948b24123b438e088c2d524f214",
+      "file": "skills/identity-ad-bloodhound/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "98af6ca2b449396a1d54388a172d9d59c3d4611beded122fb16daec0e6624f5220f7f66997a0ea21205d1684922fdb6962d0d1f814ceecc7c71c0c06837e0471",
+      "file": "skills/identity-ad-bloodhound/scripts/index.json"
+    }
+  ]
+}

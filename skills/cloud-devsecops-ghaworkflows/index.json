@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-ghaworkflows",
+      "path": "cloud-devsecops-ghaworkflows",
+      "description": "Cloud Devsecops Ghaworkflows.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "578c766d0835699be988b591990a53b3cad00bd5a4f0072f479a4f418fe8a0806e1cfc9beda74df432de8ca88bbd70eda84e4fc337910bfd4379dddcb0766dfc",
+      "file": "skills/cloud-devsecops-ghaworkflows/SKILL.md"
+    }
+  ]
+}

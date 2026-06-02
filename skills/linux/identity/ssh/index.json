@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "authorized-keys",
+      "description": "skill directory index",
+      "sha512": "491939b77395a748e4ccf492c73c62105e0b9397f6b2f5326361d13ce3539f6e9da460b46a6e537c53ab9bf65a663efcb709dbb81500b780aed407e6ae63c0c5",
+      "file": "skills/linux/identity/ssh/authorized-keys/index.json"
+    },
+    {
+      "name": "config",
+      "description": "skill directory index",
+      "sha512": "94c2ccbefa6fb527f8e6188f48ec89ae745180b510cbc91b596c5dac7cf7a190f6df38d973c062364e74e4ef4f650bb4e2381d3a9e9c8b045f931778d8137bfb",
+      "file": "skills/linux/identity/ssh/config/index.json"
+    }
+  ]
+}

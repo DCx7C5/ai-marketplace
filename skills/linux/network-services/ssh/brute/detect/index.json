@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-ssh-brute-detect",
+      "path": "linux/network-services/ssh/brute/detect",
+      "description": "Detect SSH brute force attacks \u2014 analyze /var/log/auth.log for failed authentication patterns, configure fail2ban rules, and identify credential stuffing campaigns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce640d3896912901329d668dddbacc3668e58ecc1e5d936085fb84e3e1b65100bce84f4222dc4d8eb29edab36324834ece39239baa2a1285e72bfc739bb2ccb4",
+      "file": "skills/linux/network-services/ssh/brute/detect/SKILL.md"
+    }
+  ]
+}

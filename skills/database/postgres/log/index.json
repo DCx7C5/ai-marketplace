@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "f0e0d87500048a396debdcbdc91065b148a082482e40c448de9a84fff5942642f1803bab114cf4ad80951f8346058ac378e7c5047894d9ba1613afaa041a4e8a",
+      "file": "skills/database/postgres/log/analyze/index.json"
+    }
+  ]
+}

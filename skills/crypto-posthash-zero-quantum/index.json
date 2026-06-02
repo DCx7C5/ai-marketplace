@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-posthash-zero-quantum",
+      "path": "crypto-posthash-zero-quantum",
+      "description": "| | Completeness | Honest prover always convinces honest verifier | | Soundness | Dishonest prover cannot convince verifier (except negligible probability) | | Zero-Knowledge | Verifier learns nothing",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3a44efc0078527e223db75cee0584ed741c92693786d2f1269528e0ec249a05316e7429af7c16a777764656f70cf50c9de75e1759580cf9a78d4e53679cb04a5",
+      "file": "skills/crypto-posthash-zero-quantum/SKILL.md"
+    }
+  ]
+}

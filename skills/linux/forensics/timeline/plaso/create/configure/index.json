@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-timeline-plaso-create-configure",
+      "path": "linux/forensics/timeline/plaso/create/configure",
+      "description": "Create a forensic super-timeline of a Linux system using Plaso (log2timeline) \u2014 aggregate artifacts from filesystem, logs, shell history, browser data into a unified timeline.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "838241a497a439dd5b49c3ddb854783d11b91c873f0476ce2daaa8580818daa1a7bc40332b4231e5f2f2cbeb67a725b5166f61ba7af142b49d16b4e0f5101ecd",
+      "file": "skills/linux/forensics/timeline/plaso/create/configure/SKILL.md"
+    }
+  ]
+}

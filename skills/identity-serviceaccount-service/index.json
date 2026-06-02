@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-serviceaccount-service",
+      "path": "identity-serviceaccount-service",
+      "description": "Identity Serviceaccount Service.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d1719cdf442616d5c49be56852e4636a7c6c6ea49f8e1d34e3a02958e8cd8a325f460f03ca7eed4923b3e79fbc63213caed4ba049dd025fb6e3e903dac1535a8",
+      "file": "skills/identity-serviceaccount-service/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "constrained",
+      "description": "skill directory index",
+      "sha512": "8ad280599637012579ec7c9982d16b14b696951f7a63536b9a4cc10507b46b086e8511fb381202bdf230b88e3549f5516bb2d3904838bc781fa98703fbfb2920",
+      "file": "skills/identity/kerberos/constrained/index.json"
+    },
+    {
+      "name": "goldenticket",
+      "description": "skill directory index",
+      "sha512": "a0d703b93d9176133662c414f56dc87c65fb18656ab6faedc17e28071e9348838c862b3b507f54310dfb4419fd786975e0998e1b481fe655eda4e28ee3b93d38",
+      "file": "skills/identity/kerberos/goldenticket/index.json"
+    },
+    {
+      "name": "goldenticketd",
+      "description": "skill directory index",
+      "sha512": "1f5650c87dcf4e559e807b828a7bc8aacee74071fc7b55417373dea18974cc0dd819af6181a056f72a107e8fb31ab96789cf2ce83565c6519f06e1d424c848c2",
+      "file": "skills/identity/kerberos/goldenticketd/index.json"
+    },
+    {
+      "name": "impacket",
+      "description": "skill directory index",
+      "sha512": "2167e0346356aac2ee09a3817465eb81881809b110ffc3a12be58a2d533218897c03b3910ce9b37062e25b83b5513924589c96be8a127764c6b62ca663266718",
+      "file": "skills/identity/kerberos/impacket/index.json"
+    },
+    {
+      "name": "kerbattack",
+      "description": "skill directory index",
+      "sha512": "4b6ec9a575994cee91464a149ff2ab496853446ab0724f598a5904eadd307fff9730e0841e53931fb77bf26877cb4084d20d48fe70ab68b5e5814134357f4f8b",
+      "file": "skills/identity/kerberos/kerbattack/index.json"
+    },
+    {
+      "name": "kerberoasting",
+      "description": "skill directory index",
+      "sha512": "e4eeb0e0614e5aeae0da1a6b84bd63d6a3218a586c50e3727a508a293b37bd951009c2ca0b066deaa115ffd52c767c8baabbd4761141274d957e4679dbbc1d99",
+      "file": "skills/identity/kerberos/kerberoasting/index.json"
+    },
+    {
+      "name": "passtheticket",
+      "description": "skill directory index",
+      "sha512": "5a3e7884a7d85df4431a10e31f8692dbafb49fca9c1ba3d7e615d661992036c70cbb74444a02aa54dbc15898d84028e1623b17c419be5e4ecf22f13a432c3273",
+      "file": "skills/identity/kerberos/passtheticket/index.json"
+    },
+    {
+      "name": "pttdetect",
+      "description": "skill directory index",
+      "sha512": "1d14b9f7785647d465e799db7f2ee8021429c195893795ecc736e9e6ca039349ec73435da6a906c9ca72cbea792581fa07fc8a0d717135545ca1c7d8f23e8e23",
+      "file": "skills/identity/kerberos/pttdetect/index.json"
+    }
+  ]
+}

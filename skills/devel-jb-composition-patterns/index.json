@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-composition-patterns",
+      "path": "devel-jb-composition-patterns",
+      "description": "| | 1        | Component Architecture  | HIGH   | `architecture-` | | 2        | State Management        | MEDIUM | `state-`        | | 3        | Implementation Patterns | MEDIUM | `patterns-`     | ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e8c5c68ce1aa69711dd6ac8c3b37d0dbbcc7e47df4dd33920bf0c28423f4c622a8504559856faef6a26631da71d4bcbb4c61b146cae25ca5b2290e08e9761873",
+      "file": "skills/devel-jb-composition-patterns/SKILL.md"
+    },
+    {
+      "name": "rules",
+      "description": "skill directory index",
+      "sha512": "84dbd73185b5274f413c04e9ff31cebc43cb0744ea706316b1b95bc86f080283eca1bb1dd2677741fd722f598bda7093878800c499d984fe53a8f134631053ac",
+      "file": "skills/devel-jb-composition-patterns/rules/index.json"
+    }
+  ]
+}

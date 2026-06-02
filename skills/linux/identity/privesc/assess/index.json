@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "3b8f7a36af5dd40cc5b68e2935e7c0446ab17142bdbbeb24830342f386cff5c936f3364f23c890a663b0412fb95bb5fd90adc7f905930aa43e1d71eeb10cff71",
+      "file": "skills/linux/identity/privesc/assess/audit/index.json"
+    }
+  ]
+}

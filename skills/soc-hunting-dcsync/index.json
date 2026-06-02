@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-dcsync",
+      "path": "soc-hunting-dcsync",
+      "description": "| | Windows Event Viewer | Direct event log analysis | | Splunk | SIEM correlation of Event 4662 | | Elastic Security | Detection rules for DCSync patterns | | Mimikatz lsadump::dcsync | Attack tool u",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec3e7529017f6c6637f9029c06af879b47358b52255e081fba617323ae92a9911590b3ccb6da24e61b6b1228ceaabaf06813d65ac865cd79291f34fb7d9dcca8",
+      "file": "skills/soc-hunting-dcsync/SKILL.md"
+    }
+  ]
+}

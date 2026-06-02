@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-tools-metasploit",
+      "path": "net-tools-metasploit",
+      "description": "Net Tools Metasploit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e1ff98b0a0eebadcb768cbe2112375701bceebab2cc609214920059d4487d2f0f4d85213a5b61fbca0008e3b2b92297b72dd1dd89747c94d5dddb4344bf76e3e",
+      "file": "skills/net-tools-metasploit/SKILL.md"
+    }
+  ]
+}

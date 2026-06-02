@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cpu",
+      "description": "skill directory index",
+      "sha512": "1545751187f91ff6bc47fc80b1614b2746e738142e12ad827ed76f86cccdf83929bbdbb555216833c95a86f1404c6e74eeeae028ad7c68b8a268ef9fe827902e",
+      "file": "skills/linux/hardware/cpu/index.json"
+    },
+    {
+      "name": "firmware",
+      "description": "skill directory index",
+      "sha512": "0c2dcdb2a5977e0a3f1c83db48386ee8444324232f8df4db3071e3cd92c11d799382e666d23e1e7731a876142a8b4bf0258ca8e649e9c323852b95d7436cc188",
+      "file": "skills/linux/hardware/firmware/index.json"
+    },
+    {
+      "name": "memory",
+      "description": "skill directory index",
+      "sha512": "996b2ab039f9b236924f30b2f5871659184a8589e76cc1908f1c781744055c6e763cab621717725e1b91aca514f62a7815c8e41e9eb6b4c6cadf6974df5e23c8",
+      "file": "skills/linux/hardware/memory/index.json"
+    },
+    {
+      "name": "storage",
+      "description": "skill directory index",
+      "sha512": "9d0c9ca6dd7d820577af99f126d2fb7c65284bb52d1d3e27b23772b461d715a0b2aa2c953080915280be70acf7824297e5f16c17ae9ba958eddf7346f9d48c8d",
+      "file": "skills/linux/hardware/storage/index.json"
+    },
+    {
+      "name": "thunderbolt",
+      "description": "skill directory index",
+      "sha512": "88abdb1d5c1ed5a609fb2eb7243d19d9e5cda19194d14b15771f888a9394d97a10ce43b0c3bb07940b576082e543fdc9ebe3328a4efa9625e37d5fc2149b2e32",
+      "file": "skills/linux/hardware/thunderbolt/index.json"
+    },
+    {
+      "name": "tpm",
+      "description": "skill directory index",
+      "sha512": "2d4fc58452a12b4b192184905f9ea251b1f0f6c5c03b221523386efbbb4f4826aab671b9c7655b5601220e439bfbe2a7530617558db073df43bf986069759007",
+      "file": "skills/linux/hardware/tpm/index.json"
+    },
+    {
+      "name": "usb",
+      "description": "skill directory index",
+      "sha512": "20771e889f11654e8c6b95d4a89cc766267cf409d03557d789908eac109ab774109f7859cfb933ca2cf0ba0815e9f685d5eb0a48921c6fa013b1735750b15d6d",
+      "file": "skills/linux/hardware/usb/index.json"
+    }
+  ]
+}

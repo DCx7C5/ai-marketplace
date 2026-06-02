@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-extension-malicious",
+      "path": "browser-extension-malicious",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e4e3abd4329321837fb3ee3dfc8f05cc851812be2592fc363558d735c14a413238ededfaceb121a625f358af37a0ae93de52257beff06dc756fd9e517c4316e0",
+      "file": "skills/browser-extension-malicious/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-arppoisoning-detect",
+      "path": "network/traffic/arppoisoning/detect",
+      "description": "Detect and prevent ARP spoofing attacks using ARPWatch, Dynamic ARP Inspection, Wireshark analysis, and custom monitoring scripts to protect against man-in-the-middle interception.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b189073299a9e04abefbc3a4f9f5893d85346a1662fdfb30481a91c727f72d8fd61dd64515ae0450fdc76be79615b294014289b67e1fcb29bde1b2409c1b7d38",
+      "file": "skills/network/traffic/arppoisoning/detect/SKILL.md"
+    }
+  ]
+}

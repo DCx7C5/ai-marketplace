@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "host",
+      "description": "skill directory index",
+      "sha512": "2e2b57f8607bc48c1e38b4549183b10b38b2c324d588d430c1a5d077bed7ec89d21ec5b56925970fd9c60e1fb4d564ff9d3dbee8408cfd0f44062b0be3bbf552",
+      "file": "skills/network/scanning/host/index.json"
+    },
+    {
+      "name": "port",
+      "description": "skill directory index",
+      "sha512": "dc7c2d5a4e389b6ecce6a08f7eec285eff9a8f867f25d910edda61f211143bc8726dd27f46dad6b53d10f7c6c69c904a0fee0ccb929b3b0d6e25cfc8020c363c",
+      "file": "skills/network/scanning/port/index.json"
+    },
+    {
+      "name": "vulnerability",
+      "description": "skill directory index",
+      "sha512": "ba0849e60df6b958fdf1be3d20583c06ecd23b6a1594bb828fc3e805017668e8874e105d59032d40ec000638c101f578ff613615a8a8ddfe74c043d630543d36",
+      "file": "skills/network/scanning/vulnerability/index.json"
+    }
+  ]
+}

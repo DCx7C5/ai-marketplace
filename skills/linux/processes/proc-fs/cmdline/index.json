@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "spoof",
+      "description": "skill directory index",
+      "sha512": "419fde9ebe36d12111015de5727b7ccb419e954dea6a3fbad2370d19a2e89d980d1b1bd91c35e98ade793df192ef8b23da95b7634d579610edf783465362ecea",
+      "file": "skills/linux/processes/proc-fs/cmdline/spoof/index.json"
+    }
+  ]
+}

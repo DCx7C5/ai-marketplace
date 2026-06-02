@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linked-server",
+      "description": "skill directory index",
+      "sha512": "5f2624f4b597c3f7a5dab0533f7067a6ca37dfa93e599dbbde888954972164bfc83c81a64f87f4bf59d577d28d56b2e3881d2dc22e1acc336d2a53b2ece36fb9",
+      "file": "skills/database/mssql/linked-server/index.json"
+    },
+    {
+      "name": "token",
+      "description": "skill directory index",
+      "sha512": "866731ce46739a3b8f7b56d3d8c770d0fd8a049891fee0ffd70a284ecc941f1069f19ce5fb76aa7c2a9a23caf550f83af5b975395fb0154067269d929591e170",
+      "file": "skills/database/mssql/token/index.json"
+    },
+    {
+      "name": "xp-cmdshell",
+      "description": "skill directory index",
+      "sha512": "538accb2bbd1ea5d6a6c41a46b5c17658bf6cbd84656a61533a89339f908f332dd736aee029ccba0d58f349b868f9d111874337410dc13734c952116d2ce03a5",
+      "file": "skills/database/mssql/xp-cmdshell/index.json"
+    }
+  ]
+}

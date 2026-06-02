@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-shadow-enum",
+      "path": "web-application/api/shadow/enum",
+      "description": "Discover and inventory shadow API endpoints that operate outside documented specifications using traffic analysis, code scanning, and API discovery platforms.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c549289ec6e790219cc423a1a649140975ae84b6cd378189e3d7e8300f138ca71da862b090114549a4498fb7ab5e2031b97900204d0e08a9ccd43cae5ac9778e",
+      "file": "skills/web-application/api/shadow/enum/SKILL.md"
+    }
+  ]
+}

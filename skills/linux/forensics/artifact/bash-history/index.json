@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "da20ce6a5b8c200d78d0a9dfcd836b1854bd858e3fe6aa9e19ba1b6c5d414ae5e601141d1fff892c9d6f685cae0198f7ed8a71235a7f8f3d7b6664279a50f115",
+      "file": "skills/linux/forensics/artifact/bash-history/collect/index.json"
+    }
+  ]
+}

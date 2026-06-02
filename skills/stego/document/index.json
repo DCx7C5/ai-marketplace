@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "docx",
+      "description": "skill directory index",
+      "sha512": "5b409fa81c1f86ee877da4622fcb80f9db429f183891e747c9ab37b2906da71e533178ef16ddbeeecc0672a0ac6c310547e3b75d769e14dd6a3c332aee9c13c5",
+      "file": "skills/stego/document/docx/index.json"
+    },
+    {
+      "name": "pdf",
+      "description": "skill directory index",
+      "sha512": "dcc3349c34b403a4abec859ec923af68c57d215661c5ba26332e7aeef2645b6bf6c3577febe1a5d35c3f8baf94a78ff54c22191354b971446bf123cdd20e2c20",
+      "file": "skills/stego/document/pdf/index.json"
+    }
+  ]
+}

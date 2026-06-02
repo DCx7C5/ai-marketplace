@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "053b6df2559a01cb2cc0ffb9e2d9e0ac0e785fb3f915658b1c22fc04c7b0fb016603c8c5d05025c3b1aab1b884efa3bba726a8b3bf9fb85502cd348cdf41cca9",
+      "file": "skills/windows/logging/powershell/detect/index.json"
+    }
+  ]
+}

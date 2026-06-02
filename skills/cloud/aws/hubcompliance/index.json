@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "8e401d617b4c1d21fdc72cbf3a016862e92d86e1439af06d1668cb98e3241c05d48c9de77fbcef8df670fb7356e2cfa7db72b4d43ff9aeff13329460cf01ca1b",
+      "file": "skills/cloud/aws/hubcompliance/audit/index.json"
+    }
+  ]
+}

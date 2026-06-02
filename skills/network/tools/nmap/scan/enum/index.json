@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tools-nmap-scan-enum",
+      "path": "network/tools/nmap/scan/enum",
+      "description": "Performs advanced network reconnaissance using Nmap''s scripting engine, timing controls, evasion techniques, and output parsing to discover hosts, enumerate services, detect vulnerabilities, and fing",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f3a28f2e149d91c9ab836367cb0b5db998d06e3f876237bf004f701e44eb9b5e08803d51d7c4a951a40d2db1a6142669c9545c04f24e4a043342cca5da6121d8",
+      "file": "skills/network/tools/nmap/scan/enum/SKILL.md"
+    }
+  ]
+}

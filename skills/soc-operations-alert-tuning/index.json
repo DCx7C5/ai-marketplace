@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-operations-alert-tuning",
+      "path": "soc-operations-alert-tuning",
+      "description": "Soc Operations Alert Tuning.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "91c2ba0b3dbcad49cd7a3929a5aa40a1051021480173a1fc7332e879d11955502ae022d185d3470017ec447ce5909bd91bf9b703cc4948778820377ff985891b",
+      "file": "skills/soc-operations-alert-tuning/SKILL.md"
+    }
+  ]
+}

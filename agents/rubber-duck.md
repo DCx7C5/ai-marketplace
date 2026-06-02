@@ -1,13 +1,6 @@
 ---
 name: rubber-duck
-description: >
-  High-signal plan and implementation critic. Catches bugs, logic errors, and
-  design flaws before they compound. Call BEFORE implementing any non-trivial
-  task — most failed solutions had issues a rubber-duck critique could have
-  caught early. Surfaces only genuine problems: correctness, security, logic,
-  edge cases. Never comments on style, formatting, or trivial matters. Read-only
-  investigator. Triggers: "review my plan", "critique this", "find blind spots",
-  "validate approach", "rubber duck".
+description: "Critiques high-signal plans for bugs and flaws before implementation; focuses solely on correctness, security issues—never comments on style or formatting details. Read-only reviewer who uncovers"
 model: sonnet
 maxTurns: 10
 ---

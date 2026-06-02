@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-webshell-hunt",
+      "path": "soc-hunting-webshell-hunt",
+      "description": "Soc Hunting Webshell Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6eceb508255e3da6542d0818644836aa2494c142a3644979273901432e8a41be1e287e04eef2b9720b0841f0f706ad36bbf62eb060f88d1b73580ac8e7682e2c",
+      "file": "skills/soc-hunting-webshell-hunt/SKILL.md"
+    }
+  ]
+}

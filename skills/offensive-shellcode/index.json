@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-shellcode",
+      "path": "offensive-shellcode",
+      "description": "> **Windows 11 23H2:** Smart App Control may block outbound TCP 443/4444 to local subnets.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec482a3abf19eff051b554e36d890d7f6a195f0c659d675640f171c80466c99e1908d438a7040d510b96d1b06b04f70dcc62f5e2e47388ee25949bfc6f6d46f1",
+      "file": "skills/offensive-shellcode/SKILL.md"
+    }
+  ]
+}

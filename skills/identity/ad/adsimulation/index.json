@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "455094e3a96d06ca0192eb43b8404055101b2c770f1f1c37272d23b03d0f3d827df6bf5c42290469bbd7ce9e51a583e912a1c1f2710351f7930af0dc176abea9",
+      "file": "skills/identity/ad/adsimulation/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7109ed49a80982e6d4207f3d1ee79f02419712c8938a70af942733dda41e7ae8f2e3c44b1eb9fc6b57ac20a0fd4ed344f17a0977543b4b122b2a4a7c16ae6bf8",
+      "file": "skills/identity/ad/adsimulation/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "082ae2b05214d34dcb491316a9819d757af44ea4c3866595d7a0cf00a2fc14b04b7ee61e2260db58f29bb074cf47ebaaaee16803b7b697be8f49ffc1bd0d0a7d",
+      "file": "skills/identity/ad/adsimulation/scripts/index.json"
+    }
+  ]
+}

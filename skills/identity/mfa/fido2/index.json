@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "b30f08ab66aed20f4f0e43352206877737243d82deeb3f6ab0d3b7c6d2178347db7c296f493af430f0eb09c188b26f3e18f6af6b63891d2b4e40d260c9cefd74",
+      "file": "skills/identity/mfa/fido2/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b410019c260591a457af022255488ccbdbfd69fce9730a0076dbb9d15b012f82874d6efcb47f70d000eaa5458ff1d9c0eaae9144ec05bf86470354edd5b6b910",
+      "file": "skills/identity/mfa/fido2/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "99ecbcc28091257fa1baf6f0739c2d3a76b19529cca4ef5b9e6fb4475d05fb62605369ab3bf052e56742a128c7862e50907547c8fa217160ec001852d6c2ee74",
+      "file": "skills/identity/mfa/fido2/scripts/index.json"
+    }
+  ]
+}

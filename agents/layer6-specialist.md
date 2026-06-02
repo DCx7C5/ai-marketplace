@@ -1,16 +1,6 @@
 ---
 name: layer6-specialist
-description: 'Pure OSI Layer 6 cybersecurity specialist. Invoke exclusively for Presentation
-  Layer analysis: encodingdecoding attacks (Base64, URL, HTML entities, Unicode, charset
-  confusion, doubletriple encoding, homograph), cryptographic weaknesses (padding
-  oracles, BEASTCRIME/BREACH, TLS downgrade, weak cipher suites, improper key exchange,
-  certificate validation failures), compression side-channel attacks, serialization
-  and deserialization exploits (Pickle, Java, XMLYAML/JSON/Protobuf injection, object
-  gadget chains), cookie encryption and signing weaknesses, MIME-type confusion, and
-  content-sniffing attacks. Triggers: encoding anomalies, TLS downgrade alerts, deserialization
-  gadget chain detection, certificate issues.
-
-  '
+description: "Pure OSI Layer 6 specialist for Presentation Layer analysis; focuses on Base64 decoding, URL/HTML entity vulnerabilities (Unicode charset), cryptographic flaws like padding oracles & weak"
 ---
 # Layer 6 Cybersecurity Specialist
 

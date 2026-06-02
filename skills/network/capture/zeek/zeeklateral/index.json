@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4487fbeb5c69bf6b589c214a1b35a233a4456e0c1b97061f032e101b0765340b1de4dd762d92f8628390c09df56a22a03b48ea3a98f87048cbb91a59c1a38bae",
+      "file": "skills/network/capture/zeek/zeeklateral/detect/index.json"
+    }
+  ]
+}

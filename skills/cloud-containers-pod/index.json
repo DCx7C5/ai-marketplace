@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-pod",
+      "path": "cloud-containers-pod",
+      "description": "Cloud Containers Pod.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a663ae11db2722cc59b0c13a364c3915769a16bf33964bb9117b514601b0875d9da3e12e64362c9355b1c8e22223cfd18abb79e6298e9b414ca7b68aa185c6a6",
+      "file": "skills/cloud-containers-pod/SKILL.md"
+    }
+  ]
+}

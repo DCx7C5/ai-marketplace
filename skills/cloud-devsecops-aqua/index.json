@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-aqua",
+      "path": "cloud-devsecops-aqua",
+      "description": "Cloud Devsecops Aqua.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac79e8154da91484e90c5ca97330a03547b53add119025fd6b5d918d15279a17a947f50a304ef056491529f23e5a18fe3527958ff76feb2389c06b47f51528a1",
+      "file": "skills/cloud-devsecops-aqua/SKILL.md"
+    }
+  ]
+}

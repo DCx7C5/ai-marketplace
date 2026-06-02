@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-pnpm",
+      "path": "devel-jb-pnpm",
+      "description": "--| | CI/CD Setup | GitHub Actions, GitLab CI, Docker, and caching strategies | [best-practices-ci](references/best-practices-ci.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6983e82860565dcc5f1596e00370ed9b7a02c6b444cb2c715dabf9b493649e9b1ef4cd2be089ee404bd47309f522f991361885674adc79f5f8f8ab5c59e16f4b",
+      "file": "skills/devel-jb-pnpm/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5287f63ab510c29c338006c6bb17c093e8934b81d297506393544bd73862bb53c8990040428edee06b5a01994cf736e895d18042989f333cafcea7d76e980c35",
+      "file": "skills/devel-jb-pnpm/references/index.json"
+    }
+  ]
+}

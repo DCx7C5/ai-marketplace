@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "threat-insider-detect",
+      "path": "identity/threat/insider/detect",
+      "description": "Detect insider threat behavioral indicators including unusual data access, off-hours activity, mass file downloads, privilege abuse, and resignation-correlated data theft.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7beeeb620ca78e4a9a7b549e7ef1066ece100edde0f82cee1b34b9373a45cee7404f4bf5f2e66221dda91bcf69019d06c9e62abb6bdc8e4f923eeaece386cd8c",
+      "file": "skills/identity/threat/insider/detect/SKILL.md"
+    }
+  ]
+}

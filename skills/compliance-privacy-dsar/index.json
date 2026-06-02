@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-privacy-dsar",
+      "path": "compliance-privacy-dsar",
+      "description": "- GDPR Article 12 (DSAR Modalities): https://gdpr-info.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8b66aa2c75561f9cafc53920b5cb6f946d4aa1cba958d37d07832358b672b6b9a12e6eb435ab686991180295e390a8690bf92c756394373e15bcafcf6eae7be4",
+      "file": "skills/compliance-privacy-dsar/SKILL.md"
+    }
+  ]
+}

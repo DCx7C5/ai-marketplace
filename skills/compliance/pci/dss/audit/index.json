@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pci-dss-audit",
+      "path": "compliance/pci/dss/audit",
+      "description": "PCI DSS 4.0.1 establishes 12 requirements across 6 control objectives for organizations that store, process, or transmit cardholder data. With PCI DSS 3.2.1 retiring April 2024 and 51 new requirements",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18669e845603830d6de4695e20b65580a879aa47afd2135e7158f99a364a7fa12504b272036ff168a977ed10bc6f747faf6fbe577d992ba1d5c001f4d29d8b41",
+      "file": "skills/compliance/pci/dss/audit/SKILL.md"
+    }
+  ]
+}

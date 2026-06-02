@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "race",
+      "description": "skill directory index",
+      "sha512": "b3b96c9ba7ffa6fe18d37cf6abd7229dec0bcbd88ee5515d7d1626549ef58540695a7675b8ae337bb59a8e30973f87833c13a5cfdf9faedd2ea8d0a029e8a63c",
+      "file": "skills/web-application/racecondition/race/index.json"
+    }
+  ]
+}

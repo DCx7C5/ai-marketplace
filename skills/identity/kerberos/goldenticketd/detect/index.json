@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kerberos-goldenticketd-detect",
+      "path": "identity/kerberos/goldenticketd/detect",
+      "description": "Detect Kerberos Golden Ticket forgery by analyzing Windows Event ID 4769 for RC4 encryption downgrades (0x17), abnormal ticket lifetimes, and krbtgt account anomalies in Splunk and Elastic SIEM",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90deb8eae0a46eb778cb8e7579d34a237e8157f63079f4617d13a55ba121d4ff6bc2e960c3d1452b9fcc44da587b990b9263f60b9799c3fe291ca898c081004c",
+      "file": "skills/identity/kerberos/goldenticketd/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "2e24b2afef1c5821d66600a2e979bcb100584dc3dbf23d7f98c1d0f2a88c217ae3a82381bdb963e1268910d7a2671d0a7d6afb90346fe694ded2704bda574d56",
+      "file": "skills/linux/services/motd/script/backdoor/detect/index.json"
+    }
+  ]
+}

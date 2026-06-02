@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-analysis-netflow-analyze",
+      "path": "network/traffic/analysis/netflow/analyze",
+      "description": "Collect and analyse NetFlow v5/v9/IPFIX records with nfdump, ntopng, and ElastiFlow to detect anomalous traffic volumes, lateral movement, and data exfiltration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f3da0a195a625b6eb76fab3a171aa1e8e8a57b25a33970aaa68692e8ee65907c6b4a6f2045b5c1cf6fb232cbeb2fe5271ee7e5b3448e231db7f5dd4c8ba1ada",
+      "file": "skills/network/traffic/analysis/netflow/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-ssti",
+      "path": "offensive-ssti",
+      "description": "| | CVE\u20112024\u201122195 | Jinja2 sandbox / `xmlattr` filter bypass    | High     | 3.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "def170335fa4fa2b301d4323de2b722f754ef6bde74a74f236defd3fc96a3d93ec1d672212319e96194970586f1f9218a46da3dac7705b8a1cd4ce6a060de252",
+      "file": "skills/offensive-ssti/SKILL.md"
+    }
+  ]
+}

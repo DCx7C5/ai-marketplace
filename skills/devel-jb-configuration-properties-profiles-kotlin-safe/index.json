@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-configuration-properties-profiles-kotlin-safe",
+      "path": "devel-jb-configuration-properties-profiles-kotlin-safe",
+      "description": "Source mapping: Tier 2 high-value skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-16`).",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c4b4c2539653b3c8e48b7241577ac633cef23346f8b04824b1d722608cf82edaa2890807f6c96abaa334d9ff0cdd832090f6a2966d8cccc41b66191de78e6c80",
+      "file": "skills/devel-jb-configuration-properties-profiles-kotlin-safe/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "7ede21ecf5efb2cf2430b26b2d1dd668f05dff230171d7a8ac2a8eb54ed3e532d8ec1f2769c355700d6814cee452a355ea7ff8e000e47ebc349bb5b63a8d1180",
+      "file": "skills/devel-jb-configuration-properties-profiles-kotlin-safe/agents/index.json"
+    }
+  ]
+}

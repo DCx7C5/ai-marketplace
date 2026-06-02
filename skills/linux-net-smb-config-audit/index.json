@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-smb-config-audit",
+      "path": "linux-net-smb-config-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "39c110a1343500719d2e604506ff5a3f0d2a7713e64d254e49c5009a43d847f7fa48a6acdc41403c1cf55519cd5dbd185d27b739182bd6e7835e400f83c25bac",
+      "file": "skills/linux-net-smb-config-audit/SKILL.md"
+    }
+  ]
+}

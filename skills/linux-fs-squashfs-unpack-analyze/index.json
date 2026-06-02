@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-squashfs-unpack-analyze",
+      "path": "linux-fs-squashfs-unpack-analyze",
+      "description": "subdomain: filesystem-forensics tags: - linux - squashfs - appimage - snap - analyze nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e29f425dc91db04a3f102307d72a2e46e3521eae926dc679a922efe0924ff51c77efb86b4374f16de685135467130ef09f4b22d471a4b1cfc7a3385377da9c8d",
+      "file": "skills/linux-fs-squashfs-unpack-analyze/SKILL.md"
+    }
+  ]
+}

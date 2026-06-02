@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c483d0692095bbf87715607ccb140ce35a534d237178380850e3344125acb223ac40c6db6d9040a33244918777053ca7a17120adb9da6c1b9e31a2e0f891956f",
+      "file": "skills/cloud/logs/cloudtrailforensics/detect/index.json"
+    }
+  ]
+}

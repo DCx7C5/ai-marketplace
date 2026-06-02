@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "recover",
+      "description": "skill directory index",
+      "sha512": "fca599a0bd91fa1dd310c72269ca714a1dd82caed6eed52d431497e2eee749e30ceea7287608a533c9c6a9ea951ef9f797c964f0e1ff1b578d0874863c28c599",
+      "file": "skills/crypto/encryption/e2eencryption/recover/index.json"
+    }
+  ]
+}

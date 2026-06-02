@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-heap-spray-detect",
+      "path": "linux-mem-heap-spray-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f228a3f4eabcdb0529077379871cd08d9c884b7a7f3376fe09311d541b60c653b2cc9bca8f467dde96b1b7af39bbd0efa15c6099bc5cce3ef37f91605dd4f4a",
+      "file": "skills/linux-mem-heap-spray-detect/SKILL.md"
+    }
+  ]
+}

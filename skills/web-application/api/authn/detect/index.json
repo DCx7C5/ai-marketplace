@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-authn-detect",
+      "path": "web-application/api/authn/detect",
+      "description": "Tests API authentication mechanisms for weaknesses including broken token validation, missing authentication on endpoints, weak password policies, credential stuffing susceptibility, token leakage in ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6fcf89c9dc1f6b3bbf7a077d94ff5d3af3ebd70254bc7e36a988ddb99fcb5ce578ac9c5aa8812a96238efc7270c1e308dcc94b551e72bb9367af8e8c3a250079",
+      "file": "skills/web-application/api/authn/detect/SKILL.md"
+    }
+  ]
+}

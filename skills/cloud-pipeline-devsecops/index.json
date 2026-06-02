@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-pipeline-devsecops",
+      "path": "cloud-pipeline-devsecops",
+      "description": "Cloud Pipeline Devsecops.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "81ece06c9aceb5f92c7d6c0fa12298aae0455d52773f45d42610f48242ac01f7b2df789d63870ff7a253cd3a4a654e05486750ed8188b6210853df0b405a16e8",
+      "file": "skills/cloud-pipeline-devsecops/SKILL.md"
+    }
+  ]
+}

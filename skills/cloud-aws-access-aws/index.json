@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-access-aws",
+      "path": "cloud-aws-access-aws",
+      "description": "--+ ```  ## Core Components  ### Verified Access Instance  The regional entity that evaluates access requests against policies.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ae320e340e3a21d3585aeab27c9564103584d01c337e0ea4bc93f3eb072f60038ab890205df2bc0ad2926ca25c926014d5ea61d17ac3c202f7cdf8aa6b005a07",
+      "file": "skills/cloud-aws-access-aws/SKILL.md"
+    }
+  ]
+}

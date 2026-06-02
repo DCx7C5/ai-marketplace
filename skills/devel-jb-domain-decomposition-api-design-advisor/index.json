@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-domain-decomposition-api-design-advisor",
+      "path": "devel-jb-domain-decomposition-api-design-advisor",
+      "description": "A bad run produces a plausible architecture diagram with no ownership, no consistency story, and no contract discipline.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "47c2d6cb7eadb2d3b3c69fceb1f5d3e63cd226c341300317839e7e3dcf0d139fedc521ae9bbc8403bb27d28787cf102c09d538661a9f4132c4744bf26244c84f",
+      "file": "skills/devel-jb-domain-decomposition-api-design-advisor/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "64dcabfa08dc4e2baf6c26ea55c9deda7752be97e149b63b78b233a2f7899383dbf26cea4ab3451be7c7992f36cffc48f52a7a1c03546481a5ab9b1678efe92f",
+      "file": "skills/devel-jb-domain-decomposition-api-design-advisor/agents/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "6d3a5df9cff09e3b259f845cd1ed94fba877ca49498709a8f2c5ef4f037511aa5c18559585bafde8317e987dfd084bf60e3bcc71a2e11e0b399d105854376bc7",
+      "file": "skills/linux/shell/environment/variable/audit/index.json"
+    }
+  ]
+}

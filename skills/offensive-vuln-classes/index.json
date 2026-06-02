@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-vuln-classes",
+      "path": "offensive-vuln-classes",
+      "description": "POC-Escalation) - **The Attack**: An attacker with `CAP_NET_ADMIN` capability (obtainable through unprivileged user namespaces on many distributions) could exploit the race by sending concurrent netli",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1326d5283a4287f505c9187bb5e716d26c929cdc1ba28ceb096068f82cb17421e3964e48236750c35a22e0351720f67fbdb4938d4fd37ef8f0cf4c901e5baf23",
+      "file": "skills/offensive-vuln-classes/SKILL.md"
+    }
+  ]
+}

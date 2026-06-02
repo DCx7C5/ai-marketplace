@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-quishing",
+      "path": "email-phishing-quishing",
+      "description": "- Pattern-based detection faces trade-off: aggressive tuning causes false positives, cautious tuning causes misses - Average similarity score of 0.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b190100e21688ab96b67d0451716b3612afd0b57a3d0d16d0800d34200990febaa0b00f757c8fbf88c008d52100082358c85564a8e382ca1837dfcde0028b384",
+      "file": "skills/email-phishing-quishing/SKILL.md"
+    }
+  ]
+}

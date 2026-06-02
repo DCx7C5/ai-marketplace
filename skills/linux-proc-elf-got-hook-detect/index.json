@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-elf-got-hook-detect",
+      "path": "linux-proc-elf-got-hook-detect",
+      "description": "subdomain: process-forensics tags: - linux - elf - got - hook - rootkit nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f3fafaa8ebac81811da1739cc882ced8432e03e0ab6088b8dbf2ad8100c9dfb54bf608705ba21727eb1c61b04f955d560bf7249d7e5e80f12a601ace9099f12",
+      "file": "skills/linux-proc-elf-got-hook-detect/SKILL.md"
+    }
+  ]
+}

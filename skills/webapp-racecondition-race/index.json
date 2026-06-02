@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-racecondition-race",
+      "path": "webapp-racecondition-race",
+      "description": "Webapp Racecondition Race.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7528c8143ba53cd5e34e7d1573daef7cfccbc81d0eb1c407ad5b868d3382aa22d1242fd7cb3bd265dae7d138c06786747de20a66038ddcc8f8ab4b5e6f99bb9f",
+      "file": "skills/webapp-racecondition-race/SKILL.md"
+    }
+  ]
+}

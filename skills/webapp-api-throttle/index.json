@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-throttle",
+      "path": "webapp-api-throttle",
+      "description": "Webapp Api Throttle.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0227cf4fa51cfb67b3ec833817888d6a1840d6a78a76aa48953e68d41a808cef1530178a9844339a88d6dce492738b45a05c3818e3828661b292a2db38a28232",
+      "file": "skills/webapp-api-throttle/SKILL.md"
+    }
+  ]
+}

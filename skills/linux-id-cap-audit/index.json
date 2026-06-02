@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-cap-audit",
+      "path": "linux-id-cap-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1bbc330a6e90e7f06b3404de71bb11d88d4902fbb1dee05c7d3dbd024b5194e11303e31f4b9b24ba7571bccd77533612893023b55dba169b4f5cc81c810f5036",
+      "file": "skills/linux-id-cap-audit/SKILL.md"
+    }
+  ]
+}

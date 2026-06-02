@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-linuxlogforen-detect",
+      "path": "linux-log-linuxlogforen-detect",
+      "description": "-| | auth.log / secure | /var/log/auth.log (Debian) or /var/log/secure (RHEL) | Authentication, sudo, SSH, PAM | | syslog / messages | /var/log/syslog (Debian) or /var/log/messages (RHEL) | General sy",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c7330f81570a7f1f52dcf15fc193443f700e5624bb23f208498cbcc78eb8c1127070ebfed1e22bbf4c4d36cc2d9475cbdae6801844a862702bd5e150a5b67501",
+      "file": "skills/linux-log-linuxlogforen-detect/SKILL.md"
+    }
+  ]
+}

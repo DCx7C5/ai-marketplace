@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feedintegr",
+      "description": "skill directory index",
+      "sha512": "9766d79fd9df8af1bcfa710ac398e96c50621ea519ae0e906e7d688440a90c809f06a1a118a2ab41d7b9607f153751814dc709e3ffbb88ec77ad0f90ccb47b53",
+      "file": "skills/intel/feeds/feedintegr/index.json"
+    },
+    {
+      "name": "opentaxii",
+      "description": "skill directory index",
+      "sha512": "11fef1c970d2370b689de814557bcc4c19ebad5cd7b21c81dfee4a36d38495839d158ca1f94093213443ddf6944d7ca3b385a2be7b17561e145f3753de284e30",
+      "file": "skills/intel/feeds/opentaxii/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "a01db741eb8291b21d6cc0c0fd6de477c7a0be64404b3145bd1ae324d1e617130d9f64a7049388de3275201e94ce70f82845805979266fc42b4e3a7e9318ef31",
+      "file": "skills/intel/feeds/security/index.json"
+    },
+    {
+      "name": "stix",
+      "description": "skill directory index",
+      "sha512": "39b90e8e2aa2e6a0c6bb944de100b63638a7428fea333e1b2f14f0a0acc9c99c0cdf811e06d40e16405238a582a56d66da07b273ec541f77951e36cbc8ecfbc7",
+      "file": "skills/intel/feeds/stix/index.json"
+    },
+    {
+      "name": "stixfeed",
+      "description": "skill directory index",
+      "sha512": "5c0b170f85a059f5a56a6d70117face99366367052038f70a1d619abcd855b007256580efcf5989f875eba94f40d7f3c9cbc835f49188ce1f4fd20c72c9394cc",
+      "file": "skills/intel/feeds/stixfeed/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "bfc53725f5029e70109f050228c4a13aa0975ee0b54116e9145b05d43736399689635e6fd34c20e89748c71922e86b55674d633429cc9a5a182c2e320d4ed7b3",
+      "file": "skills/intel/feeds/threat/index.json"
+    }
+  ]
+}

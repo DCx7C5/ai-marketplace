@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vpn-wireguard-server-deploy",
+      "path": "network/vpn/wireguard/server/deploy",
+      "description": "Deploy a WireGuard VPN server with peer management, split-tunnel routing, DNS leak prevention, and firewall rules for road-warrior and site-to-site configurations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ca555d509ae1fbb2de770474ae0786f42fb7a8fba80ecafe39eccba08f747a43e5eed2559ce48d61282894b97d17ac50626bf25ea25e8d0f8c3efa47ed9553b0",
+      "file": "skills/network/vpn/wireguard/server/deploy/SKILL.md"
+    }
+  ]
+}

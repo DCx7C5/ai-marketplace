@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-ssh-config-harden",
+      "path": "linux-id-ssh-config-harden",
+      "description": "subdomain: identity-hardening tags: - linux - ssh - sshd - harden - configuration nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fb48dcd7f1004c228deaec0c0c68b9064339cdf3c7244d55b78527fed01faa22c8a343559305ad15e604d9be00217f9652b5a281f976fb167c71b04e24886512",
+      "file": "skills/linux-id-ssh-config-harden/SKILL.md"
+    }
+  ]
+}

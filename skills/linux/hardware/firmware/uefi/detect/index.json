@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-firmware-uefi-detect",
+      "path": "linux/hardware/firmware/uefi/detect",
+      "description": "Analyzes UEFI bootkit persistence mechanisms including firmware implants in SPI flash, EFI System Partition (ESP) modifications, Secure Boot bypass techniques, and UEFI variable manipulation. Covers d",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "67b7f3a980bf307ddaa9ddc6efbfa08b1b642f171ba92917fa23a144d67df754c49918a0b982a424a5afa5f098bbb8973cdebda45d117128f0523ab0ebb68bca",
+      "file": "skills/linux/hardware/firmware/uefi/detect/SKILL.md"
+    }
+  ]
+}

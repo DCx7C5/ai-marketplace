@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "629f691dc2be8b02143175f31a7a91e996a6d8526314260ec3e8b1cdd37c65ae4539f61fab34c1fc9829f7f8599d7f1e4cdfe95c5ca8c4914213fa21cbaecfe8",
+      "file": "skills/web-application/auth/csrf/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "e1bc93807c583ccfbc74b7e9611baeb207a18e1646c7d79d5e0be9bc913ff82199db49ab60e6c4b675b8d85d4d025f742bb655197065207a94a1387421ee58bc",
+      "file": "skills/web-application/auth/csrf/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "8545f3335296ce245aba7099752bd537eef3f8527ad24ad70ea9f3347c9a569d8889d0051a1d83b5068e75b042d739c84fc06eb856f5cf9199d04beff767dd8f",
+      "file": "skills/web-application/auth/csrf/scripts/index.json"
+    }
+  ]
+}

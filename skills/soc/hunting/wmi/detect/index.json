@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-wmi-detect",
+      "path": "soc/hunting/wmi/detect",
+      "description": "Detect WMI event subscription persistence by analyzing Sysmon Event IDs 19, 20, and 21 for malicious EventFilter, EventConsumer, and FilterToConsumerBinding creation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a75c934a31b84d111c4f8d494ba431962c82f26d2da9ee6b6337a63edda39330f0f9da9ffed8ea1ebde170184a4d43bfcf2ef6aff3a0025f7b5dec3c8f83ab4",
+      "file": "skills/soc/hunting/wmi/detect/SKILL.md"
+    }
+  ]
+}

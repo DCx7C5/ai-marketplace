@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-zscaler",
+      "path": "cloud-zerotrust-zscaler",
+      "description": "Cloud Zerotrust Zscaler.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3b1156aaa4806a9171e174fe136afa7ff9970bae486d08dda9d9feee6cca48f2569b0ed65edd217858810a8945ba9833256742ff9276f2c2d39dd52c9ff5177a",
+      "file": "skills/cloud-zerotrust-zscaler/SKILL.md"
+    }
+  ]
+}

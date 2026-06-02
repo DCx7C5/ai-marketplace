@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "61f0fe6475c1b1d06992daed2a0793b4b6a77d836590f4a1ca4cff24b21d24ffc94049e110c9dc32a1c7a29f37a2b59014a38cabae4fc4dbc203c59d7ebb129b",
+      "file": "skills/web-application/api/broken/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5d020cf09992bc76cd25c0530a8399c640a3a2b128af3eaf5c9d6c219365f5cd3a75bead56dbac8c98f34463218d1413b88bc0132af5b9dc98e6a755334a93f1",
+      "file": "skills/web-application/api/broken/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0e92b89a60fb11128244b14b63ecbfb56077cbc07844bd9522b14ae11de1e0726c535888498750a2ff00a7c5e86e08e5eb3a0bce16d4a138256cfbfd68977b66",
+      "file": "skills/web-application/api/broken/scripts/index.json"
+    }
+  ]
+}

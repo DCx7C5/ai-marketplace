@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-edr-crowdstrike",
+      "path": "soc-edr-crowdstrike",
+      "description": "Soc Edr Crowdstrike.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "924a34165c3e240ebcd8be88460725f187abee5b629c4798af64090fef623c318eecb6b58d7984e2a6edc8fce9e1f5b6debccb080f6f0aa1faab1c383686a354",
+      "file": "skills/soc-edr-crowdstrike/SKILL.md"
+    }
+  ]
+}

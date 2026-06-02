@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-supply",
+      "path": "cloud-devsecops-supply",
+      "description": "- When investigating security incidents that require detecting supply chain attacks in ci cd - When building detection rules or threat hunting queries for this domain - When SOC analysts need structur",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e22a079e6c49b180aed601024aaf07cedbe36706acfef94041c7a2a1f681f4ac6665880a931f94fa51eff98195851741d7304b0c9fa95fce4d9d703441b838c",
+      "file": "skills/cloud-devsecops-supply/SKILL.md"
+    }
+  ]
+}

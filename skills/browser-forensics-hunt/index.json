@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-forensics-hunt",
+      "path": "browser-forensics-hunt",
+      "description": "Browser Forensics Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f6f4e0ebcf856e483e64750c2b7dc73d236ab0bf18c9d14a1c90dae05295d09c0751741573253ffbd76937313bcc207eac4efccc0d58f6601ecdf5daf300d97a",
+      "file": "skills/browser-forensics-hunt/SKILL.md"
+    }
+  ]
+}

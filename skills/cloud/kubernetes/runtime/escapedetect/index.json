@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "3145abbc6eb2ec760e09bc04e71a8107164dad9bf8ae96629e5a3052fff75ebfca3f13ee09e90fa2e4fffaadd42e0e06940fa174b01e4d7c215f078131e2dad7",
+      "file": "skills/cloud/kubernetes/runtime/escapedetect/detect/index.json"
+    }
+  ]
+}

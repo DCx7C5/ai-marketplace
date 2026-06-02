@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "postquantum-post-detect",
+      "path": "crypto/postquantum/post/detect",
+      "description": "Assesses organizational readiness for post-quantum cryptography migration per NIST FIPS 203/204/205 standards. Performs cryptographic inventory scanning to identify quantum-vulnerable algorithms (RSA,",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2390f8507ab46219321732418cb036ed28dda945085234b536efa6af36fc2194d2074673c638f984ae630acbad6a70a87ef52d64ffe04a3c64cbddbfc7ad4e72",
+      "file": "skills/crypto/postquantum/post/detect/SKILL.md"
+    }
+  ]
+}

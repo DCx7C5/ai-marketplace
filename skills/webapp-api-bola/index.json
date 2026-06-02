@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-bola",
+      "path": "webapp-api-bola",
+      "description": "Webapp Api Bola.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8a0ff72f92bb80eed5ef4162a9a78f6c4483854ce3f41cbfd157ec0c420c35627e71d7328408be00f063a922b3abc43e235242460fe7c6d3a539ba51fafee282",
+      "file": "skills/webapp-api-bola/SKILL.md"
+    }
+  ]
+}

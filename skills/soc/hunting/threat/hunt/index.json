@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-threat-hunt",
+      "path": "soc/hunting/threat/hunt",
+      "description": "Build a systematic threat hunt hypothesis framework that transforms threat intelligence, attack patterns, and environmental data into testable hunting hypotheses.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "871006010ad6faedbcc417eaa9abf3ab00efc9fc56a0997123123f997d508fc566a03d91d8e14d29103460ea85a8d30d8ec1f90d12e9fb5def8f7e8e1172dac6",
+      "file": "skills/soc/hunting/threat/hunt/SKILL.md"
+    }
+  ]
+}

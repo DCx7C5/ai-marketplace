@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "correlation",
+      "description": "skill directory index",
+      "sha512": "6a65730acbf762f6061ff8c4545265011c8b6d84755ef0b7db767144d0fe18172d86b545ab69842c6af8c055b28355adb7028790e5d7c5952059ec40f4046ffb",
+      "file": "skills/soc/detection/correlation/index.json"
+    },
+    {
+      "name": "sigma",
+      "description": "skill directory index",
+      "sha512": "e5865aa706aa54c3d5345a45a4b4e42a43eb90aedf81a7b88f3c62294e33cc3099de496b148e54fee75d639f13e265937e87cc4374f478ff4a7b5ea4c5f3a266",
+      "file": "skills/soc/detection/sigma/index.json"
+    }
+  ]
+}

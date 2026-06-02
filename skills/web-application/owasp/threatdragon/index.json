@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "d287e4b2a910b09b987df9823be740e30a6837ac738c5bd08069055f21bad7b1f635913af23fe9ec6cac465d591ee0fba05782304fc440eb187e8534ad6a2e23",
+      "file": "skills/web-application/owasp/threatdragon/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f3fbf9d73b554b495974f2f2659c9e9b380559590f343cecaa37770007412ca270675d68586509d33d42dfdd557d19f68f010734c39aea3762e5bb11f3c33ee9",
+      "file": "skills/web-application/owasp/threatdragon/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f721b7f9aedce7d5a437ce7569c564e0b079b0e3ab027d3cbc42e6290b38d245e1d9170f4a97bb82565ddb5add58dac09c73625a293fa47d432481eafd1b29a4",
+      "file": "skills/web-application/owasp/threatdragon/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1cdb95a658b8c52d6128a07de346280d28ff11649001ecec90924a673efd491f76f68ae2a0db649dc6ed2e2bff8a8f576cf6ec5deea9e6f901ba8a6418327685",
+      "file": "skills/web-application/owasp/threatdragon/scripts/index.json"
+    }
+  ]
+}

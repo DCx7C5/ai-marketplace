@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "70af505be6474bd3cf939f08c0d56b9292032288028f20a49cbe6cb62d9548d6f61b911058c07e6fd17fa5832ed62ccf14a56a3559faa25d257aa6361d64e8c6",
+      "file": "skills/network/wireless/kismet/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "aaa8c991d9e09f4443f0f472555e01245891d345f9cf5d551e6121e4520963d5a34ebc10838b621267dc67f4942aa46c87420f162ed8a1b9da3269758aa21889",
+      "file": "skills/network/wireless/kismet/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3c63703c94875fd5a474b059d642e0c17b204af2570bc7147269314100474439d0dbd24e140884bf1eabc517294374201434c01bf58bd71034a87e9ed364da1a",
+      "file": "skills/network/wireless/kismet/scripts/index.json"
+    }
+  ]
+}

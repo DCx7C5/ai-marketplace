@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "5677b9f6d2feda307eab0996380755abc1a75cb9a76a3efa30e5ca5e478e6e0eb6d57c60b404c63ad4cb59149af12a3757639ef5deb3997c9b0bc0390720af01",
+      "file": "skills/cloud/logs/athena/detect/index.json"
+    }
+  ]
+}

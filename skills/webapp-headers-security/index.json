@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-headers-security",
+      "path": "webapp-headers-security",
+      "description": "| | Server | Apache/2.4.52 | Technology fingerprinting | | X-Powered-By | PHP/8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e45d0aee5b93326dbdc709548598d621482ab645737590730c7903b56dde82ec86eef1300db6eeb3ad7828e647287c65f14479184c8f50b104c43561e571900e",
+      "file": "skills/webapp-headers-security/SKILL.md"
+    }
+  ]
+}

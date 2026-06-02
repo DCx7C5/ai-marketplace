@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-rsync-exposure-detect",
+      "path": "linux-net-rsync-exposure-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b16911a698379d85134e7dfe0e1ca9ecd4d57fc2e914a8f0a1933150abb06483509dcc52c9bccc084e44a01b79c8d39340349d1dd7b8f7780e480b2a7b107e3",
+      "file": "skills/linux-net-rsync-exposure-detect/SKILL.md"
+    }
+  ]
+}

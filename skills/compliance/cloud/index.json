@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "nerc",
+      "description": "skill directory index",
+      "sha512": "3da56ec019e39eae2564ca19c09bd2cb91a68a7c12e331029d1c5cf274a99e59a6795277183a28b3e00695fdd63b11f93df31c54bdd53ac8b4c6ccb3c92ccf87",
+      "file": "skills/compliance/cloud/nerc/index.json"
+    }
+  ]
+}

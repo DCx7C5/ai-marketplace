@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-supply-binary-hash-verify",
+      "path": "linux-supply-binary-hash-verify",
+      "description": "subdomain: supply-chain-security tags: - linux - binary - hash - integrity - trojan - verify nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3a125848a4257f04f4abfe773e696625693967bbcaaf61829dc2b45375d325a9bb5e3f33d40be1995ff13a9515d673753b6e55fc8c4bdae215fa15c75edf7b1d",
+      "file": "skills/linux-supply-binary-hash-verify/SKILL.md"
+    }
+  ]
+}

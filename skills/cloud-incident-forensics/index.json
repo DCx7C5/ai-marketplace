@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-incident-forensics",
+      "path": "cloud-incident-forensics",
+      "description": "Cloud Incident Forensics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f2f2d6ab7bf633cae5aefbfdd7172f27d736bb7eb178e476f3006f294c6d30416e91eafc0ec67670babc0700b06d506e38e94566877d90e30e84f60858de53c8",
+      "file": "skills/cloud-incident-forensics/SKILL.md"
+    }
+  ]
+}

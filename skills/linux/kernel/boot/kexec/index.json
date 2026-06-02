@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "abuse",
+      "description": "skill directory index",
+      "sha512": "17b6cdd843e25d4d6c65aa6d9a950252fb78f80b2b8ed8b07380463970f7f18676528a5f0d7f04c8853fe3cbe3cf37993f681a48f323acf7ed53483c699db1df",
+      "file": "skills/linux/kernel/boot/kexec/abuse/index.json"
+    }
+  ]
+}

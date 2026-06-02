@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [
+    {
+      "name": "blue-team",
+      "description": "",
+      "model": "sonnet",
+      "sha512": "714483162a0af51729c7a7be084bb3333842139a5858312c93b3d4813514059ab599a3c8dfb8fb3d5681b526d0e5f4e936431ff75c73fe75598c4f1400491590",
+      "file": "agents/teams/blue-team.md"
+    },
+    {
+      "name": "purple-team",
+      "description": "",
+      "model": "sonnet",
+      "sha512": "ee10506aac0933c4ca456de8151e57f3fd2c87a3cc71d7f0e3a2c0607e30cc04d1b34c8a5afb65cc672ef9cc297b60a68a8a93169a4eceb0929deb3fb91c315a",
+      "file": "agents/teams/purple-team.md"
+    },
+    {
+      "name": "red-team",
+      "description": "",
+      "model": "sonnet",
+      "sha512": "188b3a85d9c82c38caed8c5627bd48069671a94521ad9779965aaaf96f080d1b98d7399b1392750332dbd421b060d6e6e87b482a202be312fda9c37d1fde1215",
+      "file": "agents/teams/red-team.md"
+    }
+  ],
+  "skills": []
+}

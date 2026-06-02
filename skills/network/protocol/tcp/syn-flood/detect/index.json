@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "protocol-tcp-syn-flood-detect",
+      "path": "network/protocol/tcp/syn-flood/detect",
+      "description": "Detect TCP SYN flood denial-of-service attacks by monitoring half-open connection state, SYN cookie effectiveness, and rate-based anomalies with netstat, ss, and iptables counters.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "126ca2d1b0c55dce49699f99aa35a1f2918ad0fb1c4a9357ff05a718c3f9b9ac524510a367af6e27c6e84813aa7811be1fc4f633035aa0f2a8f9147a1410987b",
+      "file": "skills/network/protocol/tcp/syn-flood/detect/SKILL.md"
+    }
+  ]
+}

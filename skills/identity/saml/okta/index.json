@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "37e107c9055ab027be54b030679f256e0374a0cc2b1a2ea2188e8bf2e4052302f3c314b79e6faad9bafddc3beeaf28d85afc5d7404686747982f4de5740dc58f",
+      "file": "skills/identity/saml/okta/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0d62d627a44563e55ebfa181452a8670c4d1fcf00720062a651341864857b76ce6ced065b6755e96db511640f1c39b69ae931fc2aa2f2e0ca2b76dc836db538e",
+      "file": "skills/identity/saml/okta/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "180972164dc9449ea8183370263bd5e0018f5f05da61e23a9a100c020bacd316c9359e98fcd58bd9157f6969c1efc4115897bd603e5415fa489db40b063e2593",
+      "file": "skills/identity/saml/okta/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "b25b837fc79eb3ea4dd84353206a986ec1c9841b7a2e23503cc780b71ed166c08221f04da2d1d489800c6dd8aa0014dfb31122173bd89a45caa5ec191bb2db9e",
+      "file": "skills/identity/saml/okta/verify/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-scanning-distroless",
+      "path": "cloud-containers-scanning-distroless",
+      "description": "Cloud Containers Scanning Distroless.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0b8fc744f3e5f0f87c773d5437384a504db9f1e5139dddd863edcbd9250ae3d4f4a1c83d0ec0f6c4b59308cdf9790b7fcdaaa8f2c8f7100162de80b68a36ba1",
+      "file": "skills/cloud-containers-scanning-distroless/SKILL.md"
+    }
+  ]
+}

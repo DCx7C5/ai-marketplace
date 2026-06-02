@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "eccfdff79f2e8d031b667c699d0a0291fc18d743b98e1bca6c608fbb2ff4774a20171fa0e85e5be50529d3f2a8c2cb549c8d2bf721e559c1d30975d1519345a4",
+      "file": "skills/identity/kerberos/kerberoasting/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "6efa2df5c3016778365c7e149054609598681cce39ac007430de7cd51b11d656b0fb114bbfd47d8b57f64648551c0dc2ee345f29c0824219c5f05517e1305048",
+      "file": "skills/identity/kerberos/kerberoasting/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "83b4c56063b0356463a25edb5f16eec80079e47d9e6574456e6f6da670ffa414e4e0ff2f2c280594d5a39a4006199fbe031e51a784d7c7a4e0fe49520cbc2f8b",
+      "file": "skills/identity/kerberos/kerberoasting/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "62ec131ffebb0bb12aa51505342a43866849b432c8b9f33c249ce551e99c4169df401c6d9c9a0a9d986f2499af071005c7e154bc36e624650336df972a44e45e",
+      "file": "skills/identity/kerberos/kerberoasting/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-nginx-config-audit",
+      "path": "linux-net-nginx-config-audit",
+      "description": "subdomain: network-security tags: - linux - nginx - web - configuration - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8711a76ecf00165a17f242e9f674916df86f7eadb64f2689f2ef35dd4141185fd406c5e031577778ce07edd65061ab2bc8677210f816dc9debc66007b4e6437f",
+      "file": "skills/linux-net-nginx-config-audit/SKILL.md"
+    }
+  ]
+}

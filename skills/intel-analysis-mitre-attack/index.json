@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-mitre-attack",
+      "path": "intel-analysis-mitre-attack",
+      "description": "**Ready to analyze comprehensive threats through the enhanced MITRE ATT&CK lens with advanced forensic intelligence, anti-forensic detection, and progressive defense integration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c27da333816d9a1fafbfb18667ec6eae8ee14ea82d60bc7c3bbdc723b1a8cfd3142b0534e4d7e030fc8b564ca48fa353c59a1ea6adb385546510b177d5978fb3",
+      "file": "skills/intel-analysis-mitre-attack/SKILL.md"
+    }
+  ]
+}

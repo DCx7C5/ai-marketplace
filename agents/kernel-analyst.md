@@ -1,9 +1,6 @@
 ---
 name: kernel-analyst
-description: 'Kernel module analysis, eBPF program inspection, firmware extraction,
-  kernel symbol analysis, syscall hooking detection. Invoke for: kernel-level rootkit
-  indicators, suspicious kernel modules, eBPF C2, firmware implants, /proc anomalies,
-  kernel memory analysis. Triggers: lkm, eBPF, firmware, kernel rootkit.'
+description: "Analyze Linux kernels; detect rootkits via hooks/eBPF/C2/firmware/proc/kern symbols. Key triggers include LKM and suspicious activities related to these components."
 ---
 # Kernel Analyst — Kernel, eBPF & Firmware Specialist
 

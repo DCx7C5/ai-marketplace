@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-privacy-gdpr",
+      "path": "compliance-privacy-gdpr",
+      "description": "Compliance Privacy Gdpr.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8df1250dae743c59229422872036e35395533d9cb9e2b2c200a72f1f6691443f50f108dbd34e2c813d5a51336d017394bf1eeb834e7964d02920f91d87d95215",
+      "file": "skills/compliance-privacy-gdpr/SKILL.md"
+    }
+  ]
+}

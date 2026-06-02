@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-modbus-analyze",
+      "path": "industrial/ics/protocols/modbus/analyze",
+      "description": "This skill covers detecting anomalies in Modbus/TCP and Modbus RTU communications in industrial control systems. It addresses function code monitoring, register range validation, timing analysis, unau",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1059159ca101642cb7f42a1452eacac8eb1e52fb99e53c53112f4d92841fc70ba168d3798981d10c52624a15ca88a0e0cdd9dceef50974bf6c97fde0edb7b866",
+      "file": "skills/industrial/ics/protocols/modbus/analyze/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "477f97204f8b59a9a89c23caf72659e846084613d66eac39999732528ad2681fc9013ac694217c5a795b176adbb3436327e5133c7a9c9c3cf1063f42919a4b7d",
+      "file": "skills/industrial/ics/protocols/modbus/analyze/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7b7db34dbed09cb9946ee3ddd596f49a90c78fe5cfa0db95b8883f880df32b1384864522775a622dea50bb2d0631e696331c7999103f20d636a1f7a82ff5db1a",
+      "file": "skills/industrial/ics/protocols/modbus/analyze/scripts/index.json"
+    }
+  ]
+}

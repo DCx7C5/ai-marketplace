@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-injection-sysmon-detect",
+      "path": "linux-forensic-mem-injection-sysmon-detect",
+      "description": "Linux Forensic Mem Injection Sysmon Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0cf5e1b6c9519345de31f7411f4a6c4ff8edf3ff19e9d0a435cb5feb7926c7b274e7f9324550dc3d589beeef975da17c7a8527ac4934af20a8ca59f265abe37",
+      "file": "skills/linux-forensic-mem-injection-sysmon-detect/SKILL.md"
+    }
+  ]
+}

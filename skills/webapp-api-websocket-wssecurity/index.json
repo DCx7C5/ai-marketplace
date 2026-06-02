@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-websocket-wssecurity",
+      "path": "webapp-api-websocket-wssecurity",
+      "description": "Webapp Api Websocket Wssecurity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "13686db7487c376fae83f11028a8f7070da3255ebd940e064242eba2f6852beb25fea17b743bc76551c32cbfee6790731ef036581a7c77a9788c81ef40e8c11f",
+      "file": "skills/webapp-api-websocket-wssecurity/SKILL.md"
+    }
+  ]
+}

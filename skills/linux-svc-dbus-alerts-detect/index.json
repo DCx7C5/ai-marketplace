@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-dbus-alerts-detect",
+      "path": "linux-svc-dbus-alerts-detect",
+      "description": "5. Cross-correlate D-Bus alerts with authentication log timestamps 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b26b271b73d56e2b362240b9c77a7509ab36a16b93b57a2f37c56c2eedd4ba938d545b2a77721762b3a631185c8197c0d12ea14217bd5f3b4eb02d8c7f0a5e27",
+      "file": "skills/linux-svc-dbus-alerts-detect/SKILL.md"
+    }
+  ]
+}

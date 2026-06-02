@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tuning-usecasetuning",
+      "path": "soc-tuning-usecasetuning",
+      "description": "JSON report with per-rule tuning recommendations including current FP rate, suggested threshold adjustments, whitelist entries, and projected alert reduction percentages.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5390013ff291a22890c62f357d74b6d12612bba1dfac3697dbb9c8bbe32a984f9e1e8a41ee8e42485659c2321c544f29de54be514e97e427f609677869eabc18",
+      "file": "skills/soc-tuning-usecasetuning/SKILL.md"
+    }
+  ]
+}

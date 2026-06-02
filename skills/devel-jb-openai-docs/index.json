@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-openai-docs",
+      "path": "devel-jb-openai-docs",
+      "description": "- When falling back to web search, restrict to official OpenAI domains (developers.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3efff7f44e92ad45a4b294d4818d8161dea5532076a07e8d92ce222325c510789b915ca1cd1165f92fd1f81132fc93a3f0384da61fbd48daaf8c0d3a906253c5",
+      "file": "skills/devel-jb-openai-docs/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "017eedee5c079712d2d90bf57c4d81c47b28c28755f591dc3bcedce8002c96a4948995a161f001586b2f11b98f530ecb7293b5598764db07ec46b65aadb3df81",
+      "file": "skills/devel-jb-openai-docs/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "d0eb806cd6ce7c0f32e35b77eb8af8e898a064c6dda741909c83698e4c49e00a65da780da476202e6a6c20387943edc33dfb08d7a51985b6c4d53e970fae1121",
+      "file": "skills/devel-jb-openai-docs/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "781d7d5f9f28645678ab93bc0e75c3bcb1dcfa8f47c015c29c7aa192f6366067d467521b5c4ca1c1132cc578097f45a4b7112545311ac4a691868d50c6f03fc4",
+      "file": "skills/devel-jb-openai-docs/references/index.json"
+    }
+  ]
+}

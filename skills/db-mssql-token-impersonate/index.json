@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mssql-token-impersonate",
+      "path": "db-mssql-token-impersonate",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "eab429946df2bb09401c1d3b4aba2c3986ff834d16542753bd5ef82611220316899f5b958ffbe08e2177a0b8c679c406dd755b3213a66049cac1780e54a2a895",
+      "file": "skills/db-mssql-token-impersonate/SKILL.md"
+    }
+  ]
+}

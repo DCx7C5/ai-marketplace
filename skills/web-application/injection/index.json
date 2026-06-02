@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sqli",
+      "description": "skill directory index",
+      "sha512": "c04b5aa64cb41e224888a5ac3157a75fd0d572afe709d5498743c1cfefb0621dd94b532934aa418100294714e3536f70f8a0c86343ee0a4e133c5448235e3cbe",
+      "file": "skills/web-application/injection/sqli/index.json"
+    },
+    {
+      "name": "ssrf",
+      "description": "skill directory index",
+      "sha512": "1e1ab3d0f318205ae1ad1771b2e46e393db2e563398e96de0e59e9b952f22a0273591b86ff468443c68e9f364d5234f553f5c8c8a2d8366f73ab485dd75dea5a",
+      "file": "skills/web-application/injection/ssrf/index.json"
+    },
+    {
+      "name": "ssti",
+      "description": "skill directory index",
+      "sha512": "4a01357e56d3d03aae8ac6ea34f304404131dd117899e04a3435b741f78aa6fbda0b6c26c8547d1d67da5d5de98140434e10dc49fe872490248cf780dcd0cb46",
+      "file": "skills/web-application/injection/ssti/index.json"
+    },
+    {
+      "name": "xss",
+      "description": "skill directory index",
+      "sha512": "95e356a1718f68d3d38ca43b3a0026f2212aef2d86da86789e7352cf8712e508e33656af332b5bb690c0a731e8d5f321d14b3cfe94ed24925508e8273a8b8ff5",
+      "file": "skills/web-application/injection/xss/index.json"
+    },
+    {
+      "name": "xxe",
+      "description": "skill directory index",
+      "sha512": "6b8b73c71eb6a77d978a30d1987cd71c2967a45b497e086d13cca2c752d3a2fdc12ca2e8953a24a4dfbd4fccc6b31f2757867f92ffdbf0e508fbc1feb5ede2d7",
+      "file": "skills/web-application/injection/xxe/index.json"
+    }
+  ]
+}

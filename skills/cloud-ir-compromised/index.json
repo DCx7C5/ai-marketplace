@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-ir-compromised",
+      "path": "cloud-ir-compromised",
+      "description": "Cloud Ir Compromised.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dacaa931bb530eb1dcbd75ee32ece57db99fd0634a6d29de4ad5586dc75696ac77e1340514388a620480ac8f257afe856b74189844f86cd164ae14c07093410b",
+      "file": "skills/cloud-ir-compromised/SKILL.md"
+    }
+  ]
+}

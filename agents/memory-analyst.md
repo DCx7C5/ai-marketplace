@@ -1,9 +1,6 @@
 ---
 name: memory-analyst
-description: 'Process memory inspection, injection detection, credential extraction,
-  rootkit in-memory detection, heap/stack analysis. Invoke for: memory-resident malware,
-  process hollowing, DLL injection, credential theft, in-memory IOCs. Triggers: suspicious
-  process, memory anomaly, injection indicator, Phase 5 Memory Forensics.'
+description: "Inspect and analyze system processes to detect malicious activities like rootkits (25 words). Key functions include identifying injected code or stolen credentials; used for malware"
 ---
 # Memory Analyst — Process & Memory Forensics Specialist
 

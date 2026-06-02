@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-hardening-cis",
+      "path": "windows-hardening-cis",
+      "description": "Windows Hardening Cis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b33cb9484f66a17c18bc5e62b2270d72de75c7918e132478ad5b7a317a746a694e5e58693e8f454dc059de61901d14de39df1e6e33401adfa5f33e3e048ba3dc",
+      "file": "skills/windows-hardening-cis/SKILL.md"
+    }
+  ]
+}

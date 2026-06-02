@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-drive",
+      "path": "devel-jb-gws-drive",
+      "description": "-| | [`+upload`](../gws-drive-upload/SKILL.md) | Upload a file with automatic metadata |  ## API Resources  ### about    - `get` \u2014 Gets information about the user, the user's Drive, and system capabil",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "434a8539f7a28b5a825fee4a18bdbc30b8d28f8024ed34a1123bbbc685b7068e03d6851c3bc93a03fba0343f49247eb18bcc356184bc907bb95ed60c6e4fcc33",
+      "file": "skills/devel-jb-gws-drive/SKILL.md"
+    }
+  ]
+}

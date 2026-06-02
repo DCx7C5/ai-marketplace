@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "9852c341cb371725201982af136de839be3837f267f9d6445bfaf669ac3901bedf3721b424bef52635e03e4e6478c67f6fc42863d487fd6e09406bcfc21c23f2",
+      "file": "skills/cloud/zerotrust/cisamaturity/analyze/index.json"
+    }
+  ]
+}

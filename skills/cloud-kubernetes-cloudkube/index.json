@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-cloudkube",
+      "path": "cloud-kubernetes-cloudkube",
+      "description": "Cloud Kubernetes Cloudkube.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a7e21c18b92cc77eb9bc3377569f98485b319b7600b902c879f80b9019a5b66fe26c7943e9a5e486fe9eb16569e7cd3de2b10c9dcce23e9b61352014c0db0359",
+      "file": "skills/cloud-kubernetes-cloudkube/SKILL.md"
+    }
+  ]
+}

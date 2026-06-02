@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "83540b8b7b026914692b21419d2de68bc7a19664a8d94fcb95043b36692d024e22393f458166ef7be6522818aac79fcbbd49955a66771081c75f588a47a694a2",
+      "file": "skills/intel/intel-platform/feeds/security/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "24cad897c07738bfda7756a0433771050a68a554114fd25994c4f08afccc34026531a8792c177634f2b7197f02cf76890651177970a9c48bd6858b73c9e3c1fe",
+      "file": "skills/intel/intel-platform/feeds/security/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ai-model-detect",
+      "path": "web-application/ai/model/detect",
+      "description": "Detects prompt injection attacks targeting LLM-based applications using a multi-layered defense combining regex pattern matching for known attack signatures, heuristic scoring for structural anomalies",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ff9f6e37e63fc250d2baa999e7a9adbb333cf4caf4d4d8e936372cc5c8e8e1bc4b70805da11e6f8d3b6e4d9e9a85c2f1ded76eed38b1666fb7cd334e0b00c5be",
+      "file": "skills/web-application/ai/model/detect/SKILL.md"
+    }
+  ]
+}

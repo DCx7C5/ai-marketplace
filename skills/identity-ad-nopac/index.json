@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-nopac",
+      "path": "identity-ad-nopac",
+      "description": "Identity Ad Nopac.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e064f399aecefadfd45aaa70626f7ba065587de219102ee5b9d231c5ebaf0f40c043e20a2c3c08323da118f47c613f0490f04f500f7bec8af323983727bd6e6c",
+      "file": "skills/identity-ad-nopac/SKILL.md"
+    }
+  ]
+}

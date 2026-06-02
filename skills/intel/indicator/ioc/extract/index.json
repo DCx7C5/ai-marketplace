@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "indicator-ioc-extract",
+      "path": "intel/indicator/ioc/extract",
+      "description": "Automates the enrichment of raw indicators of compromise with multi-source threat intelligence context using SOAR platforms, Python pipelines, or TIP playbooks to reduce analyst triage time and standa",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "faabd665ed3fa70c1a86fad02d3d82c2347f4f9e03416559e4540858661635cc8e935072c69eaca3ad1257c68f07445aaf503206245dcadcff172b44a25b454a",
+      "file": "skills/intel/indicator/ioc/extract/SKILL.md"
+    }
+  ]
+}

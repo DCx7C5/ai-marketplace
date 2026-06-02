@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensic",
+      "description": "skill directory index",
+      "sha512": "e55eeda203505ff0c635d68cf1c194c43d14c74c9d73b4c7cc93241f29089afc37077ccf025d18ebc8cb1e6f72e18bc23a163034eac29e403e98249dbdb6b9f0",
+      "file": "skills/email/phishing/investigation/forensic/index.json"
+    }
+  ]
+}

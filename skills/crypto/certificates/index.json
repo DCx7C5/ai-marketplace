@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "transparency",
+      "description": "skill directory index",
+      "sha512": "d4a47f8f99b7c5723202a72b180ad3adc136ec89e0171a0af38f40b099fd00b3687a4d6b193b2d98d03115e8eb1ff0029a3030e2c42655f6f3a32a2da3ca0702",
+      "file": "skills/crypto/certificates/transparency/index.json"
+    }
+  ]
+}

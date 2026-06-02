@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-artifacts-shellbags-detect",
+      "path": "windows/filesystem/artifacts/shellbags/detect",
+      "description": "Analyze Windows Shellbag registry artifacts to reconstruct folder browsing activity, detect access to removable media and network shares, and establish user interaction with directories even after del",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bb3af2b4463e1346a6531a999def0545f41aa119c32b7f6a672061c6079ce598ccb01c7a921a31adffac483b30b3daacb2b324666412c3e5a84970391304ccd1",
+      "file": "skills/windows/filesystem/artifacts/shellbags/detect/SKILL.md"
+    }
+  ]
+}

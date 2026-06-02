@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feedaggr",
+      "description": "skill directory index",
+      "sha512": "d2bbd82430e255f2ce880f28d8c8198d6b412f9ae7a0c87021174fa5707881562459b413ed2c8d622728906dc37dbad041cbc22c17f8129819b11b98f11a161d",
+      "file": "skills/intel/platforms/feedaggr/index.json"
+    },
+    {
+      "name": "misp",
+      "description": "skill directory index",
+      "sha512": "2c5a8009bd2fd651f01f9803996a51be9ac7bf51118f96df45625c47b2752c8a44c0124e78e4e305279d27aca7d6d4b1da5fec89c7516472a0eed36bcdd85fe1",
+      "file": "skills/intel/platforms/misp/index.json"
+    },
+    {
+      "name": "mispcollect",
+      "description": "skill directory index",
+      "sha512": "e9b2ba00ac76186c9902e914cdb23b29d3462f25dbdb281affdfa07d2b650735c0cdb7fe4dc93e1e56bc18bf49c3b042b1999dd06e45e4bb4f7c4961507ac114",
+      "file": "skills/intel/platforms/mispcollect/index.json"
+    },
+    {
+      "name": "mispshare",
+      "description": "skill directory index",
+      "sha512": "1394ed381f132e416dd36c352f82ae06891341275c2aee4e054c4e7d234224d6287791a5d65e033597205b7d8a166be1139e9bd0fbfd5a0e274c6af400653d74",
+      "file": "skills/intel/platforms/mispshare/index.json"
+    },
+    {
+      "name": "opencti",
+      "description": "skill directory index",
+      "sha512": "7a6cbe65ad332a2ff3536aff5a74d556a8b66090a286b6f40ac4de86fc8d5b9bb7c8517a5c359c2c765a92a5fa4266fc55e355009580b9ac84124254323637dd",
+      "file": "skills/intel/platforms/opencti/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "50447c8a18b878f1a746e2111d23e99facd70b2712043a9dbb33ca8b1dcd7c26222e63e9692fd2eb15e8d863db7505d9ba4403349416277e07e4dfb2912f742d",
+      "file": "skills/intel/platforms/threat/index.json"
+    },
+    {
+      "name": "tipeval",
+      "description": "skill directory index",
+      "sha512": "12f7f605ee5bd910fe54d9fcb998bbbe9a6c1931fed4d22fd7d1e3380e2ff9a2c3c4f9c7511dc30dca81bc14657c24658f89b59eca6fc6ece2e6e4e5e1db24bf",
+      "file": "skills/intel/platforms/tipeval/index.json"
+    }
+  ]
+}

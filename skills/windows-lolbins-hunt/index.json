@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-lolbins-hunt",
+      "path": "windows-lolbins-hunt",
+      "description": "5. **Score and Prioritize Alerts** \u2014 Apply risk scoring based on argument anomaly, parent process, execution path, and network indicators 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "58233c2f66baf98889d130e4ef9b14d5611858636c6c72cd9d1a17c3322022bd07b6e5884f3458ff595e9146dea58e4fdb90a13ca0756278450e9bc286a11139",
+      "file": "skills/windows-lolbins-hunt/SKILL.md"
+    }
+  ]
+}

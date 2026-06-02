@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-owasp",
+      "path": "webapp-api-owasp",
+      "description": "Webapp Api Owasp.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e1a3da6812f30d3abcc927b2730774af535598e90fd6706b0af494c904806ac801de6abb47321d172165b4ff842a73dfc7366915551ab902c58f3cf0272df1ed",
+      "file": "skills/webapp-api-owasp/SKILL.md"
+    }
+  ]
+}

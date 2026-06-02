@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-cloudzt-monitor",
+      "path": "cloud-zerotrust-cloudzt-monitor",
+      "description": "Cloud Zerotrust Cloudzt Monitor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8674931b4f0b95c8687076bf8c7c62c36304c2a4c714abc115e94791e69d920ff9b4b35edfe5eecc841c50b127e10e121f03846bc1cf590c3bbfbea9d96fe5b6",
+      "file": "skills/cloud-zerotrust-cloudzt-monitor/SKILL.md"
+    }
+  ]
+}

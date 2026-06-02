@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-boot-uefi-variable-tamper-detect",
+      "path": "linux-kernel-boot-uefi-variable-tamper-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - uefi - efi-variable - nvram - tamper nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7d194f17326eca5e00b74cd81a043d7cada3c6825697efc382da5b375f3e8c537659d4177c250e74da53540de4305bb6814e1e817ce56e7c7f87075c4bf93e18",
+      "file": "skills/linux-kernel-boot-uefi-variable-tamper-detect/SKILL.md"
+    }
+  ]
+}

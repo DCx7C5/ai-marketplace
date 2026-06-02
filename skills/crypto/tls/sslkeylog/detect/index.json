@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls-sslkeylog-detect",
+      "path": "crypto/tls/sslkeylog/detect",
+      "description": "TLS key logging management and SSLKEYLOGFILE forensics. Detects insecure keylog file permissions, unauthorized reader processes, ecapture-tls integration, TLS session decryption, and SSLKEYLOGFILE-bas",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e8948e04e09fcc925bedf23c743e4cbfe7a26ae675e74c56b735a06fde4edb6fed618cda530e996808c4c6b3b07c87f77dd95b8f40ba5e37487b025cb4a292a7",
+      "file": "skills/crypto/tls/sslkeylog/detect/SKILL.md"
+    }
+  ]
+}

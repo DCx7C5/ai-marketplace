@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "acb976dac249e8390b8130eb12169525dca2da17f750036e59cc67a8f66c99e9ae408b05702a816ad660210681400a92426bcb31ebdaceb4efb7a2b7ab6e6d6d",
+      "file": "skills/network/layer2/vlanhopping/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "aeaf73774b1a8235d9b8f322d2b3a2cfd130c1ad26c3cbc176d4d26f65e628e2ede542276bcdd12bb61cb57d252d3b27710fb33396ed4a5bc49ad042f50fb02b",
+      "file": "skills/network/layer2/vlanhopping/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "bf96b0d21b9abdba485d1db5926f0822383177d8bd70b394fe83addd44f2281c8589ee325713d3215f2592a6ae8bd116217b6dc965dae7d8ec68d1d7899d3669",
+      "file": "skills/network/layer2/vlanhopping/scripts/index.json"
+    }
+  ]
+}

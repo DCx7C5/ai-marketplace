@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "8074551f576a2847831f734935e104cf788e54c24eabcfbc8f2c258e71f5e90379de62ab0953dd07e0eb3f3ec5c796478773a9e6ab03f4210677a48dab153f15",
+      "file": "skills/linux/filesystem/tmpfs/artifact/collect/index.json"
+    }
+  ]
+}

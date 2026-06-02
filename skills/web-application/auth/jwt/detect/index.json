@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-jwt-detect",
+      "path": "web-application/auth/jwt/detect",
+      "description": "Exploits JWT algorithm confusion vulnerabilities where the server''s token verification library accepts the algorithm specified in the JWT header rather than enforcing a fixed algorithm. The tester ma",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e68e3697543f82dd07746d588227b224be3d419fe233a9e4ac6eab979790bdda084c0f74393fe9e7c24e665bb8d93a11b325c5cfd6f22e6b079bd05d1ea3aeb8",
+      "file": "skills/web-application/auth/jwt/detect/SKILL.md"
+    }
+  ]
+}

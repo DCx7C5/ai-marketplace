@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "nvme",
+      "description": "skill directory index",
+      "sha512": "490b0d2479207dcd93589d45fd3b5fe390cc0d77a57f205200af15b41c63f778bc49fa5b96fa4a57ae28ca3d2097554d1530235449b73dd12fdf8833e818761a",
+      "file": "skills/linux/hardware/storage/nvme/index.json"
+    }
+  ]
+}

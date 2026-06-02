@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sqlite-wal-analyze",
+      "path": "database/sqlite/wal/analyze",
+      "description": "Analyse SQLite Write-Ahead Log (WAL) files to recover uncommitted transactions, reconstruct modification history, and identify database tampering.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f9e1761d13b596c1ee72d9d4a6f8e2560ad067d9c9ec2d089e07a16e795f50fa2fc8ff88c616999c099a50cbedce31ffa88c1350786cf14d20a9d6438fe07f73",
+      "file": "skills/database/sqlite/wal/analyze/SKILL.md"
+    }
+  ]
+}

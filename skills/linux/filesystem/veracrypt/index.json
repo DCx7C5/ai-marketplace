@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "8334dbba296537c0e78485a776702fddad1898bec4998a8a43744f8f98733b57b8835fb1c6b7e7881d1ac23c2cdb4eb4dcfa4bde147096498102e7d3d051a2b3",
+      "file": "skills/linux/filesystem/veracrypt/deploy/index.json"
+    }
+  ]
+}

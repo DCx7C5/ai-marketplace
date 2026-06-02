@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "a8d640552d9e76ad5489cfaff0dadec5daca9dce01320d311d0ac2be8fd1d2eb9e328ebe113b8c09f83fcec87ce1cdac1aea9f94f745a01f2ce9102601448428",
+      "file": "skills/network/assessment/network/analyze/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "3a819293bfdb94d42bb0182e5cb07e39171e71d10bad8187b29bb4064737cdb27807ce27d546c9616537af5c1be308bfb67199577d251886abb1ee245d07ca3f",
+      "file": "skills/network/assessment/network/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5df6a9f2caf886d05f19555354f62cf6f4af8914c68e50135e68165fb2b738f2956fbed5328e91ba8662cd84ee71f9846110f5a5aeb8b7a9efa9514fe38244bc",
+      "file": "skills/network/assessment/network/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7991967d6068f714b5dfd1ac957143a09ba68ad96072fecb72b51b3813faa8230e41dfbef5e34099b26c3244734aac37a05078b42f22f3a3adf9edb90442d936",
+      "file": "skills/network/assessment/network/scripts/index.json"
+    }
+  ]
+}

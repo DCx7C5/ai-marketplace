@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "lateral-analyze",
+      "path": "network/lateral/analyze",
+      "description": "Identifies lateral movement techniques in enterprise networks by analyzing authentication logs, network flows, SMB traffic, and RDP sessions using Zeek, Velociraptor, and SIEM correlation rules to det",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f2e1567b84356293fbc72caeb3940d0a57c62a06514f3948fcc9cdfec8a5fc10d52f0e18a02747451b7abb7445e29d6cb8eb916c97c46acb32ee782e1a38c37",
+      "file": "skills/network/lateral/analyze/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7f90810246af3daf6df0f39981023f6351dc6a7e69990b58ab1de72a24a789086e958033f853a1ea6438da0d8dec53beee9e5e875e443c595fa772ec931f554b",
+      "file": "skills/network/lateral/analyze/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5f3a5762af4ba79e4b43b58d329dfda956ad1dd8e57897cd6d53541911e4e1a6cb084cbebc15b53eb64a964929d71e9c698da4ef1ee2feb2a566af527272a385",
+      "file": "skills/network/lateral/analyze/scripts/index.json"
+    }
+  ]
+}

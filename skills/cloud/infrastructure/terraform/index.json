@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "1efcef50e9364e6743e31a939e721bcf6c9928d6e4f06ad9cd5f3484b0cc9f4b150024d9fd5db78d62e0c388c60a3a987eb38040ed7f2e7af88b5ae412b383cb",
+      "file": "skills/cloud/infrastructure/terraform/audit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-ci-cd-containerization-advisor",
+      "path": "devel-jb-ci-cd-containerization-advisor",
+      "description": "A bad run outputs a fashionable Dockerfile and CI YAML that still leave runtime drift and deployment risk unresolved.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0f3287cfbeef73a2060136734f14f669f1d169e04418ed8b8e7c4d0f5a2aabc5f87d16fab787d37ebbd27d35754fdd74834d03ce06e09efc9cf0a69491bbab1d",
+      "file": "skills/devel-jb-ci-cd-containerization-advisor/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "2ac8fc56bf03b4dde816d129867268d9ffa60497d2cfaa9d8c9458bd25c8c4fd592f3325ed95f099d25aac89c63aab5bd18fc5ddf3043864b94f803716371584",
+      "file": "skills/devel-jb-ci-cd-containerization-advisor/agents/index.json"
+    }
+  ]
+}

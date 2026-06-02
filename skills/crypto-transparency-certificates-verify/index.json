@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-transparency-certificates-verify",
+      "path": "crypto-transparency-certificates-verify",
+      "description": "-|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "81a6ce54a800adc79582695186ff84ebeb99ca5041ab341a84324da628bda05a9150008803928aad18912a409900d9f1f1a813c9b5dca035fd3c698bbcf853b1",
+      "file": "skills/crypto-transparency-certificates-verify/SKILL.md"
+    }
+  ]
+}

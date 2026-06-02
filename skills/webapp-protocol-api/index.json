@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-protocol-api",
+      "path": "webapp-protocol-api",
+      "description": "Webapp Protocol Api.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "adf4c572a54800afca657912e4218e7b97ed061d5a52ab512c5ad18acc5669071eab7d93bb8c9817cc57d8e3e932b8a337789e780c21f8f67fecf8016bc5dc54",
+      "file": "skills/webapp-protocol-api/SKILL.md"
+    }
+  ]
+}

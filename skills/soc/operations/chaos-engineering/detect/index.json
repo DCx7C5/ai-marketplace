@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "operations-chaos-engineering-detect",
+      "path": "soc/operations/chaos-engineering/detect",
+      "description": "Implements security chaos engineering experiments that deliberately disable or degrade security controls to verify detection and response capabilities. Tests WAF bypass, firewall rule removal, log pip",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a59b6ee5e8b8d0e40fa072f4824f4872fb5a22a17a2c41b892bb74f161c08118b41250961d479e95d050bbff845813df05f8f3254afafef581d3a763a25ebcaa",
+      "file": "skills/soc/operations/chaos-engineering/detect/SKILL.md"
+    }
+  ]
+}

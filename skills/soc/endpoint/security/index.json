@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "775a29ac1d14e2b6770900918111d10c8fcb862012477060a8858ac155c9cb33e7729eaf10f6338c049cfecc0d6767629e07aac48312e6510e374b8ab4f3eaf0",
+      "file": "skills/soc/endpoint/security/monitor/index.json"
+    }
+  ]
+}

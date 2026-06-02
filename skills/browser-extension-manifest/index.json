@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-extension-manifest",
+      "path": "browser-extension-manifest",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac037295ac2570ebe538c8713879dd7faf8ce2585ab804cdd26cd5a7b035868c418ef182d996699bc9d5c562fe92450d115d74bf2aa458fdfb12f03a08a43ea8",
+      "file": "skills/browser-extension-manifest/SKILL.md"
+    }
+  ]
+}

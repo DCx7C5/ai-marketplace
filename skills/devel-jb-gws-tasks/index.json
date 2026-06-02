@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-tasks",
+      "path": "devel-jb-gws-tasks",
+      "description": "Use `gws schema` output to build your `--params` and `--json` flags.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "46320e5ca4f3528d0517030664ce725327bedd5ee704275c07d5ebc4a936095fca54eb0469715e13945ae7b96f1f469e6d8b003b9983020a181934c3c76b5b5e",
+      "file": "skills/devel-jb-gws-tasks/SKILL.md"
+    }
+  ]
+}

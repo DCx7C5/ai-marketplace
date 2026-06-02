@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "8df737d539325539849142ec0074b2cf7b357025c0537c5d9c50877828424a43f75a3e00b32453c40d119bc21581a8f2b27217e37918bc9e70dce5881bc2dea5",
+      "file": "skills/network/capture/tshark/analyze/index.json"
+    }
+  ]
+}

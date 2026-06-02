@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-tls-sslkeylog",
+      "path": "crypto-tls-sslkeylog",
+      "description": "Crypto Tls Sslkeylog.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a3b71879e31b6740842ab7888bf001061531b1b9229ae7a66f858d27a7adec8ff84a2537c94f4e9010b747a9def9128a07322575c1ced8c11e06b450953ecb92",
+      "file": "skills/crypto-tls-sslkeylog/SKILL.md"
+    }
+  ]
+}

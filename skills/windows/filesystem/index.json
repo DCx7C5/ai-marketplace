@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifacts",
+      "description": "skill directory index",
+      "sha512": "21ddb920bb9c39205dab742b3f7f79f8df6eeaa5718e23b9b3c4dcccb3e178c08dc4d4c02a41312858c29cdad784a1992e216d3e613158de9156221aab8baf6d",
+      "file": "skills/windows/filesystem/artifacts/index.json"
+    }
+  ]
+}

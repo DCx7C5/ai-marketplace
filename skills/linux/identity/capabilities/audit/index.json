@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-capabilities-audit",
+      "path": "linux/identity/capabilities/audit",
+      "description": "Audit Linux capabilities assigned to processes and executables using capsh, getcap, and /proc/<PID>/status to identify over-privileged capability sets.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a6e1250574d3e0b95b259416f39ddf7a8217830463c7c99f54d38f0b344fe04adc3c21ea0177522f65aa187c86a246572061f17ac7dba0b4a88a63a29a023c47",
+      "file": "skills/linux/identity/capabilities/audit/SKILL.md"
+    }
+  ]
+}

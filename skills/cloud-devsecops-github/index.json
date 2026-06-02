@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-github",
+      "path": "cloud-devsecops-github",
+      "description": "Only active committers to GHAS-enabled repositories consume license seats; plan capacity accordingly  ## References  - [GitHub Code Scanning Documentation](https://docs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9649d1bc50e63a09e7d9463f757a8106a7873663315a42dbd7ba5838229f4dcedea1f46fe884ba26695e916701827e75d5aa4513f241c14810b5d37182d87516",
+      "file": "skills/cloud-devsecops-github/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chrome-cache-recover",
+      "path": "browser-chrome-cache-recover",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "874f1a84be2de92875d5d56760ee0d4f58fe64486967dfc3c1e4a6fb1ba0b7963771cad26ce856d5d52885af76ccf06fe9d1f20fc8663ff1b7eb6276932fec76",
+      "file": "skills/browser-chrome-cache-recover/SKILL.md"
+    }
+  ]
+}

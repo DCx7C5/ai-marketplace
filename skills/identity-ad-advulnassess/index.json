@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-advulnassess",
+      "path": "identity-ad-advulnassess",
+      "description": "Identity Ad Advulnassess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "339477473f4666c1437c6e31d75e1cd432d0d35525733f7d82b77ce37173eebfa7ee73bc041fc57abe1b98661b003d20ec0dd1224885fb4ae4e629f3cd065848",
+      "file": "skills/identity-ad-advulnassess/SKILL.md"
+    }
+  ]
+}

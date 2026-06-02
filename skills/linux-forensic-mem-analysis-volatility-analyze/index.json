@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-volatility-analyze",
+      "path": "linux-forensic-mem-analysis-volatility-analyze",
+      "description": "Linux Forensic Mem Analysis Volatility Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "560908b1a5f4cb20a6a8d73c30ec12be14e373351a8ceb7ed69033b19edbb092772ab48310f24092d66b9827eb10034caf1f50281811648dbedfb6a7bf5ed5b0",
+      "file": "skills/linux-forensic-mem-analysis-volatility-analyze/SKILL.md"
+    }
+  ]
+}

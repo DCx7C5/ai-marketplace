@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "7445a096c1d40123b968db89af4317e8af173b10803e39d0b82df602a1e15f2486f95a67a5e82acf205220a68882cb5a3e47450527c9c6533cc3ac85ac124e92",
+      "file": "skills/compliance/cloud/nerc/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "39e363172722026e6b53d80042f57c38a33208015d64d3b6bfe0e70e91f0f29a4dfbfeb7871d96d541e67031f9b9c0b66cb16f43042ffc6ede9ebdcf9e2b7938",
+      "file": "skills/compliance/cloud/nerc/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b07f3ffab801d528d87e740603e09db8f3eaccd743ce1e8ca50e31d37cc66e5d1a03bf3d9b72825fcf42a2fb0d3cc955f41f04a41d057fd9c6605444b42fe603",
+      "file": "skills/compliance/cloud/nerc/scripts/index.json"
+    }
+  ]
+}

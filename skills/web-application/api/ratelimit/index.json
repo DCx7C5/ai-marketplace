@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "17cd4af852c22d1923370484fbc6e8b7424efac87b33dc359f8236b3fcddd2b05ce5055cb05e8298536f3023eb8e83d259208813a3cc6004d004fc45ae242632",
+      "file": "skills/web-application/api/ratelimit/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "81cf54f19cde10cfa1245cd669a46a015b900196818c6f90264acd595ef78a1d145fa0437ffd37ba6ef0f53116aea36a28fc688aac637dde90edea86bab02559",
+      "file": "skills/web-application/api/ratelimit/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1e65b3bb7544ed6ec4badb5355df675831842326a41aaf9f725f74e1214b8e04f27e88904ddcbf12c017ece2e3376528e14a84182f891ccbb934697052681fcb",
+      "file": "skills/web-application/api/ratelimit/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "threat-actor-profile-hunt",
+      "path": "intel/threat/actor/profile/hunt",
+      "description": "Generates structured cyber threat intelligence reports at strategic, operational, and tactical levels tailored to specific audiences including executives, security operations teams, and technical anal",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8a857ef6862241ffdf1f2459212e0c8bfb5489bf9cad56e7234292a8f4c3f8303d7f3ab167371dcc1a52c18d4d344b317747cf561289616d3003bfb099210c42",
+      "file": "skills/intel/threat/actor/profile/hunt/SKILL.md"
+    }
+  ]
+}

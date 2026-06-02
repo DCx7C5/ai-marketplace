@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "2e289f17545eda280c2accc7cbf4241e88194740d673af49ee6bab0c3e3b512ab4b9c749d48a9b85a5844adfbb95641b8b111461a7c21d4965ed79fa2f0ebfe2",
+      "file": "skills/linux/forensics/memory/analysis/vol3plugins/detect/index.json"
+    }
+  ]
+}

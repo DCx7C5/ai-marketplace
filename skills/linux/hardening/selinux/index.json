@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "policy",
+      "description": "skill directory index",
+      "sha512": "161a1a3785de83857e9f90368cdae984335adb90f605a10ab81c033807dc519710a9e4ad7dabf9bf8e1d9de423ec25f5e3360b4629a10b91bf256491f12767bc",
+      "file": "skills/linux/hardening/selinux/policy/index.json"
+    }
+  ]
+}

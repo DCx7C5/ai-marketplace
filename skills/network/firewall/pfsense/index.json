@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "2375ba0369ad3f68d0faab86cd0468d9abdef411239be860fb073e5899c55d151f303f1a7db3789787faae92422e225a5555bab6f569c85479001492d7515688",
+      "file": "skills/network/firewall/pfsense/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "92692ec572ad47a382d1e107f74bede38a5a628e10610b19c4e49daefb3a09185a4bc506909469aa0248cefc4d04135d34d5b20d4b36b6f4ab88eb595c94af2c",
+      "file": "skills/network/firewall/pfsense/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f1a0b07a3681868606e5df9319ceff49c9cd17dbed9a10a5b28b903eafdd2573c298d86109c3c5c647b5b5b561fe51bbd635b55376428f2c8cad5eb040b1e545",
+      "file": "skills/network/firewall/pfsense/scripts/index.json"
+    }
+  ]
+}

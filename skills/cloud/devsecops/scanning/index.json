@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "bcdb3dc3200b3e719b73fad13d04485292c9b6828aad91a43335a5991dde1baa9ada22d780d5db7ecb4199ce8595f3d501417e3664f6f34593ca1dfb87e10b6c",
+      "file": "skills/cloud/devsecops/scanning/detect/index.json"
+    }
+  ]
+}

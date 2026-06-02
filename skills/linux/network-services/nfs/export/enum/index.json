@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-nfs-export-enum",
+      "path": "linux/network-services/nfs/export/enum",
+      "description": "Enumerate NFS exports and mount points using showmount, rpcinfo, and nmap NSE scripts to identify world-readable shares and misconfigured export policies.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "88a3c3d29d53e3ae34527dc86d659ce4545ebe1315df0b39f57948e3f8626aeaa09bcddea824604b53061fb75a67149dbb399df1db05fea4093da896dc6c02a5",
+      "file": "skills/linux/network-services/nfs/export/enum/SKILL.md"
+    }
+  ]
+}

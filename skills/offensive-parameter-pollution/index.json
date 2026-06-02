@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-parameter-pollution",
+      "path": "offensive-parameter-pollution",
+      "description": "- **Drop Duplicates at the Edge**: Normalize parameters at CDN/API gateway and log events - **Explicit Parser Settings**: e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "97cc58e3bbbd2921fb9cfc0c241dc4e870af02e0b34f4f68b3d5e3f13f3b4f66e1db3f747973d32d33d65a9aa0ed209a26720f8097bc4f7b31928a203eb48c74",
+      "file": "skills/offensive-parameter-pollution/SKILL.md"
+    }
+  ]
+}

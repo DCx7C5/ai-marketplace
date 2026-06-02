@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-shadow",
+      "path": "webapp-api-shadow",
+      "description": "- SecureLayer7 Shadow APIs: https://blog.securelayer7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "623d1fdb837e370cc06ae06cf47817d0ebb5ac1748e264818fde7a9f8ebcad0e58b2284e98509a0a441773e64cc2f90596bb1d8321c68ff143a21f7e36703491",
+      "file": "skills/webapp-api-shadow/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-privesc-assess-audit",
+      "path": "cloud/aws/privesc/assess/audit",
+      "description": "Performing authorized privilege escalation assessments in AWS environments to identify IAM misconfigurations that allow users or roles to elevate their permissions using Pacu, CloudFox, Principal Mapp",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "35fdbe4b8c76b0688236cf1557e6070ed66319f9c6ec6026fd9c5cf9a421779469a5e9758183864f3e5b0480ca424dead0b3111fde5adcb5f25e8ee70e34d222",
+      "file": "skills/cloud/aws/privesc/assess/audit/SKILL.md"
+    }
+  ]
+}

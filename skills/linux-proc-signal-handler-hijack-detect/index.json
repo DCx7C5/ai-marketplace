@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-signal-handler-hijack-detect",
+      "path": "linux-proc-signal-handler-hijack-detect",
+      "description": "subdomain: process-forensics tags: - linux - signal - handler - hijack - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a3961f07bb859503971fee680dbb59737c37006a706c78f4b4bdbc820df9d6685802c76ebc68975c9d3e017a21ba9e83bac11c50002e1aefd7f2a21fe52a0016",
+      "file": "skills/linux-proc-signal-handler-hijack-detect/SKILL.md"
+    }
+  ]
+}

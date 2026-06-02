@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "serverless-general-audit",
+      "path": "cloud/serverless/general/audit",
+      "description": "Detects and prevents code injection attacks targeting serverless functions (AWS Lambda, Azure Functions, Google Cloud Functions) through event source poisoning, malicious layer injection, runtime comm",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "99bb1f16a46d133ea8191c3e672b7feccd235eed7e40856705e53506fb1211ae78b70ec06aa39ade2f201df11f04ff804f56a18ec26e3270f0ed358f91573a81",
+      "file": "skills/cloud/serverless/general/audit/SKILL.md"
+    }
+  ]
+}

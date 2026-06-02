@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "01d68bb1ca726be539fef8e19478f5a90c3fb83827916602b10a92db924c791624158c8e3228c7b7607a788200939a49f0877412fcf0e5d5835bad765059a146",
+      "file": "skills/browser/firefox/profile/analyze/index.json"
+    }
+  ]
+}

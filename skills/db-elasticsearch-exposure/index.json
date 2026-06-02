@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-elasticsearch-exposure",
+      "path": "db-elasticsearch-exposure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1228e3a4cbd15171811a485dc92336506c6f7655a2644987a71b595035f2ad763cd19ec28b843555c5d42714733f832d3e71f3a63f3b636ef7bbf504d08b38d",
+      "file": "skills/db-elasticsearch-exposure/SKILL.md"
+    }
+  ]
+}

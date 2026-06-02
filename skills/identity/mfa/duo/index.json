@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "14a93618faaeb09238f7f094f4e791f2d802eb3d53d16b10c3b4a768c45ed3eee7382423b2f36a61304108c5258a7893686e41991e550875e6e0d1cea80a6c84",
+      "file": "skills/identity/mfa/duo/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "e4cd3aeee8d1f727e065c528454e2337f2ee1a979d4dbb28546ef7037641a2042bc7af92d2e34a66db7ee4208666eca5998badbba9926ad49ed23b47510aabf0",
+      "file": "skills/identity/mfa/duo/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c86ddfb5f084bec27ca10d92a5130abeff80ff2347e9e32357f4dcb9c95ced72f88d9efde791e81704c60524279efe2250ace65c0e4546e93e21185f951fe2cf",
+      "file": "skills/identity/mfa/duo/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "a0275414aa68ab01a1e5f4077a37b968d10d2bcdfc5ae1039cfbcb5a030cdb4ad799bdbba823f07e93e6a478722ab7f0d731a7f14d49fb3546a9d514538c283f",
+      "file": "skills/identity/mfa/duo/verify/index.json"
+    }
+  ]
+}

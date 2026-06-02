@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-tool-steghide",
+      "path": "stego-tool-steghide",
+      "description": "Use when extracting or testing embedded payloads in media files.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a782af880a1ca57d79e481e0d28fd8f17a7f46c3c83182bcec0b2f44c5db9b168f844bae7599d1409ab2fd3dc0f333d6b8c8ab60c34c3d73217f1aa0c4851cb3",
+      "file": "skills/stego-tool-steghide/SKILL.md"
+    }
+  ]
+}

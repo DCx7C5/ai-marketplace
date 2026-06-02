@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "execute",
+      "description": "skill directory index",
+      "sha512": "2d6ec995cfcf74d5251c62cd3e0b46eae789ce9fef62f177cd48b9460e1d6ac4079dced3f2ac0a338f450e8a61b4168a7edeae9851dcfd756822ea8ee7585d0b",
+      "file": "skills/web-application/testing/fuzzing/execute/index.json"
+    }
+  ]
+}

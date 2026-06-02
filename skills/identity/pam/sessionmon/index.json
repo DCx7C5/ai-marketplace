@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "fd5d6eb25f63740f705dec390ed8b1ef6c74ac6bf50f4183a381a2e35c5ebb2a2947e1c45db6d6e0276741259e64e773fde4f1d1868d4abd046a6e2bc8053b0f",
+      "file": "skills/identity/pam/sessionmon/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2c61dd223e1ee598e988b9c96cf48df857286f8bd5336c4416e7238378026e983f5ec2ca11f321614cb3eb27556960a7b548f991fdf732c57001d25024a310e2",
+      "file": "skills/identity/pam/sessionmon/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5cedc115865576e834e5d6f0469a431370a7b0d681ecb341ea48a1b50f352c8a975e9e976eb27951457d36f8c897249bf92ba8b3313ce7e270652fa3c19c1c93",
+      "file": "skills/identity/pam/sessionmon/scripts/index.json"
+    }
+  ]
+}

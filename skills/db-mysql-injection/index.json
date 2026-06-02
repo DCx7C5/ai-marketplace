@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mysql-injection",
+      "path": "db-mysql-injection",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6acf2ba95beb595c656440ae32b92382f331f71dc8310bd6ae5b7c266963cc968389edc56655d5485267ef70019378020417acc9aeea6e171e386d21bf96e30a",
+      "file": "skills/db-mysql-injection/SKILL.md"
+    }
+  ]
+}

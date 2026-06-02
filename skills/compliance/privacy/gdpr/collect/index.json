@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privacy-gdpr-collect",
+      "path": "compliance/privacy/gdpr/collect",
+      "description": "The General Data Protection Regulation (EU) 2016/679 (GDPR) is the EU's comprehensive data protection law governing the collection, processing, storage, and transfer of personal data. This skill cover",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "213e4d7bd1ec60b31e00089701e8683e0f7fefa641889467e8ac0196a1c23e21d64303d8abdf9cf31b1f8372ca70764bf2dd0365763cb5914d76d96c30092460",
+      "file": "skills/compliance/privacy/gdpr/collect/SKILL.md"
+    }
+  ]
+}

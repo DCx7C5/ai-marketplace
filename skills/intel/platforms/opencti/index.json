@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "a84fd72419b00aae6c6be9f244fb0e7f68ea64408d3a56a06d6c56029558d7720cccb2ed195cb552c055d1a7c919f378685da829aa464813a0551a416a705949",
+      "file": "skills/intel/platforms/opencti/exploit/index.json"
+    }
+  ]
+}

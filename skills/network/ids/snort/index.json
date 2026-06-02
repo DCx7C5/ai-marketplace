@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0227335eb329f97c038b08e235122702d3c48fbac462dcc8bb3702f52752049791fcbf8fe2f14d1cc37b073768b3fecd95c88746b65cfc2e8edaf04007bcf203",
+      "file": "skills/network/ids/snort/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "034771153c2796ee606ff6131c184a2078cd92bb3cbeaf83f9f60eb490652f045e2fb1460607603efeb5db053d990a3e02ab85604d088ac18bf142a77f3d8078",
+      "file": "skills/network/ids/snort/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "553581057f8031191fc83ba044d6134a2be401f4bebb862cfe138f5074457884a82607931bd878d24898d9b14155dc2af17a97120cf68574966c8b022947f3f1",
+      "file": "skills/network/ids/snort/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ntfs-mft-parse",
+      "path": "linux-fs-ntfs-mft-parse",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "79c3c6b0b1cb7e61d47ede568d39c327614a337db1be89ddcd2b7805f35868a2cc2549e03eea64247db8ed395ed3151ef547f56d34712e14897bf4b3ac546411",
+      "file": "skills/linux-fs-ntfs-mft-parse/SKILL.md"
+    }
+  ]
+}

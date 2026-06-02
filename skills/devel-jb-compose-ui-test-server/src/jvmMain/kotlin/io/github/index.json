@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forketyfork",
+      "description": "skill directory index",
+      "sha512": "17a21fe95c9794f0a52b4b4cea2067e9b812e37882fa1cba04ba2f874ccf1745bf9004e8ecd488efebb3232a7ee5c424322bf604f3eca5abd956745bc40408fe",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/kotlin/io/github/forketyfork/index.json"
+    }
+  ]
+}

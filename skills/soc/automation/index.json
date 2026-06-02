@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "orchestration",
+      "description": "skill directory index",
+      "sha512": "e58ebe93a218f40aedaf62060c1171de77ad5e753216e16105dacfb6bee47fcafa013669d2343abb3aad293610b1766218990afb269ddbfabfd6443945737345",
+      "file": "skills/soc/automation/orchestration/index.json"
+    }
+  ]
+}

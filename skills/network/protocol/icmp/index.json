@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "covert-channel",
+      "description": "skill directory index",
+      "sha512": "39edb0ef1730f5bad6abcb2a73cb618eff6e589a27d62c24aa8bde420668e4e63988609e00d4465076ed0e77c36f2a3255c65bf86e2874af7f2d19079728f467",
+      "file": "skills/network/protocol/icmp/covert-channel/index.json"
+    }
+  ]
+}

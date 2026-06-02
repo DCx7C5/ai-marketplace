@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-docker-dockertrivy",
+      "path": "cloud-containers-docker-dockertrivy",
+      "description": "Cloud Containers Docker Dockertrivy.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "82129d35c09ef88c4c4e496a74199a7e0da846c35a5bde65be7a3e285aa926d21819d3507abe769269e3e27ea3a50825fe56c9765f339d1908c1ec95e7567f1f",
+      "file": "skills/cloud-containers-docker-dockertrivy/SKILL.md"
+    }
+  ]
+}

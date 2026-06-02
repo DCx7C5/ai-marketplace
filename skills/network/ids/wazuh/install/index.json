@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "b7c928e52d1fb00150abc6dff6b32aee0d38e5e9a5b090202a1de065c405148c5147a345b4c4639ba51b555ed9b21a71de8989efea10a5457427cfadcd8975ef",
+      "file": "skills/network/ids/wazuh/install/assets/index.json"
+    },
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "a1ebc303aba4efda848a4c613e4ef9a0044fe22c98eec42c0339474521b4ba9bae6e08a1d7cc7c1708f1a366faf8f8cbdb92ac3bf22a1f0c9f5d9af04edc2d7f",
+      "file": "skills/network/ids/wazuh/install/deploy/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0d21580379a4946311b0a9d1e0d498717149b32b84be54cfed4b42c15ca5bd89e840998baf2639be6f4d163dfeaecde10e3bdd31225d21ddbd501dbd39505903",
+      "file": "skills/network/ids/wazuh/install/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3747557bd8ab6db912832f73f7d34a5c5e9088557cd6afd063268ee585004fa44818b79e19db5343ecc69ce4e061b89f2b5f6a3d8fbe2d9483b9984c6a6a8035",
+      "file": "skills/network/ids/wazuh/install/scripts/index.json"
+    }
+  ]
+}

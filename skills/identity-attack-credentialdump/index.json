@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-attack-credentialdump",
+      "path": "identity-attack-credentialdump",
+      "description": "JSON report containing detected credential dumping indicators with technique classification, severity ratings, process details, MITRE ATT&CK mapping, and Splunk/Elastic detection queries.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e58c7fe59ee39e3626cf2965561550478a21df2f92498f53384698a2009b8cb34c1dc755b04f84a8be5cc3c2778af1cc53a72c2086a01ccbf4a07efa5e5d2739",
+      "file": "skills/identity-attack-credentialdump/SKILL.md"
+    }
+  ]
+}

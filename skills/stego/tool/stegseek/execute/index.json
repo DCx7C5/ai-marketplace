@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stegseek-execute-SKILL.md",
+      "path": "stego/tool/stegseek/execute",
+      "description": ">\\n  Runs stegseek for fast dictionary-based extraction of steghide-embedded\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9f3bb6d57e7ca5b988f86dc4f7ebc23d7a6e464c6cf1f55f384721249e48412365f499f9e2c88c75845695300191c42e2f00094909c004bf00181d32c7d776ef",
+      "file": "skills/stego/tool/stegseek/execute/SKILL.md"
+    }
+  ]
+}

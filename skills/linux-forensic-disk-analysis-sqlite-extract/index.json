@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-analysis-sqlite-extract",
+      "path": "linux-forensic-disk-analysis-sqlite-extract",
+      "description": "5012   | payload.ps1            | https://raw.githubusercontent.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "67f06a048f347ee2d7e7d33b58cacc180ff7ddf8a8ac0fb63b8b4e709b42f40256829b7251b450a922ac6e0d2194e12fc4f49c93ce13947582dda30ec75375bc",
+      "file": "skills/linux-forensic-disk-analysis-sqlite-extract/SKILL.md"
+    }
+  ]
+}

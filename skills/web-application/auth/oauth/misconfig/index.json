@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "5c7662981d5e1e787c6c6d49343e6dc2279d1ff5577c2cd00f6336c1e945af485b3deac83c92611e4d04e04aff80e84f69646861ebcb337165de627bcf0509c8",
+      "file": "skills/web-application/auth/oauth/misconfig/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5c32c904d0d9857c90d9f63f7d4694b1c5503b62dd17167888ef4dccc69897cb09b9c7b5209665c183a729e4e2727fc59fa43dcba4368d80c0c682195e29bb8a",
+      "file": "skills/web-application/auth/oauth/misconfig/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "64ededc48da2fe10b8f1c1b028387df58cfce00a691f54e3fc27f9a39d0cc745defef0703eae4947c9896e7b8b2787d2b16bcfbdde4afdb60dc7707dde69b3c4",
+      "file": "skills/web-application/auth/oauth/misconfig/scripts/index.json"
+    }
+  ]
+}

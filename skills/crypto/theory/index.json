@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cryptographic",
+      "description": "skill directory index",
+      "sha512": "d401cd03546fa76b9102452bc1e468a1225e42a3ceb079c0f9548ce193b091c5a988b1e2c118f293ebd04b461697f36e346a8d1a223de3beb5375330bbc0db23",
+      "file": "skills/crypto/theory/cryptographic/index.json"
+    }
+  ]
+}

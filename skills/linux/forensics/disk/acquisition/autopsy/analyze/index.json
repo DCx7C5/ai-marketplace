@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-acquisition-autopsy-analyze",
+      "path": "linux/forensics/disk/acquisition/autopsy/analyze",
+      "description": "Perform comprehensive forensic analysis of disk images using Autopsy to recover files, examine artifacts, and build investigation timelines.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90ee060f59706d6e6cf6dc9bc3626addde22227c6580cdc08b3fd9f3000ba6c320948a16074869d14e8b2cc9eae9ed965d00f2bbda86b27d6551d50a755f742a",
+      "file": "skills/linux/forensics/disk/acquisition/autopsy/analyze/SKILL.md"
+    }
+  ]
+}

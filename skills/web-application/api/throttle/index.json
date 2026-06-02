@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "d5c4dc07967385493163296e6f00dd39fc03a8899734498a8d7482a0a4e541db0ca47a5a0ab5e0c4bbb2ce6176a633baf330bb200bff0dcbb652f2c6d0d6a97c",
+      "file": "skills/web-application/api/throttle/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f673e4f49377a2391cff4802c84f2cec8a24ca2d3c10cd481f5608c42c7a87f0c2af8ff490cefe5404b6f42a0ee2acbfe0a62b2eaf2f154a9a6a24e8356d981d",
+      "file": "skills/web-application/api/throttle/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0ebf16d40d966f78cd334770d4afef1217681ae816197837a5eabf68941ae961838bc93b85aaee83eb65ad437917548aea289493dbfe1310ab7c3f9dd67f1fe2",
+      "file": "skills/web-application/api/throttle/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-soap-bypass",
+      "path": "web-application/api/soap/bypass",
+      "description": "Perform security testing of SOAP web services by analyzing WSDL definitions and testing for XML injection, XXE, WS-Security bypass, and SOAPAction spoofing.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a2ef7b624e2a97f77d1d8c73d5e827991d6518e347615dec95aff4696fa56c82f01e3961875a73c0c1269790ae9c1751bd282c02b2240fa6bbde1dc6430885c1",
+      "file": "skills/web-application/api/soap/bypass/SKILL.md"
+    }
+  ]
+}

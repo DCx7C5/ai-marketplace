@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "respond",
+      "description": "skill directory index",
+      "sha512": "7ebff30402d3293b22283e64c544dd8650c0f8e5cceede715ce02902d12999a0bbe68f0bc1db9b8681a1c3c81c592db9005fc51b9a0568e857cecf8f398757bc",
+      "file": "skills/cloud/containers/scanning/grype/respond/index.json"
+    }
+  ]
+}

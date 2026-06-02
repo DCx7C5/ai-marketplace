@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "dc5ccc503a7f7542e7639c1ead39b0ed07180137507ae6e0c2f7c70371af6eb647b2a4cbe3f84c72fb67590cb7a1de27961e83c40070361f1a1d88725dd63471",
+      "file": "skills/soc/hunting/t1098/extract/index.json"
+    }
+  ]
+}

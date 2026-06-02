@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privilege",
+      "description": "skill directory index",
+      "sha512": "5d2eee30388075fcdcd25b68d9a52773b018193305dfc9b3294d1659e9fe954d3ac932c9aefff4b374f59f373c61b8bfa0a15e727e2c6f08bdcbaf55362d4970",
+      "file": "skills/database/oracle/privilege/index.json"
+    },
+    {
+      "name": "tns-listener",
+      "description": "skill directory index",
+      "sha512": "4c09244d2928969b769e2c8f9ae3c01f4201a8d4e79f9b74e375e3432fb0e8b8a9f91d65bc428c79d0b0797208e8bb1375812ac81c7a5034c7d66aa21592b59f",
+      "file": "skills/database/oracle/tns-listener/index.json"
+    }
+  ]
+}

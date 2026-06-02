@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4c989aaa4b78979cb801cd312c595f39989b7281b0496c7cc31426d37c5c74e3086668b32828149a717c042547a944fa463053591580883f180476096d696adf",
+      "file": "skills/soc/hunting/svcinstall/detect/index.json"
+    }
+  ]
+}

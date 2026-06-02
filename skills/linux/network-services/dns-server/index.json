@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zone",
+      "description": "skill directory index",
+      "sha512": "ccc9f5c90a5987125502ef52078c314fc742e4cf6369ec467adca5d60d63f64365c367f973101a26070dea1e5e9bf11ed95d19257352e10ad835fa7ad7468d1b",
+      "file": "skills/linux/network-services/dns-server/zone/index.json"
+    }
+  ]
+}

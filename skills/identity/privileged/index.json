@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "bb00780be3bb4fcd69e359266e61b232e97720f37c979e9c4c1f468d6a75b83bf5fa0078632047ce7916691a84bb2f72df1e54ebcbc6a8dde46c81bdc7cc96d6",
+      "file": "skills/identity/privileged/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "244143a58d2bab605fb741e73b6a8465fa0f6d8bc1206a1da5725480f4b343ccdcfa4d53c33684f3c3fa043b534fcd8595a9531e488ab3830d07d47c8ea946e6",
+      "file": "skills/identity/privileged/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "41d3c233d3c4640530bd7c5064c44e805ddd2d5466cdb34235cbef70a380afcf83e3316610d9a249d9d364f693b8c63a36b4394ef23830633c974ad9ab058083",
+      "file": "skills/identity/privileged/scripts/index.json"
+    }
+  ]
+}

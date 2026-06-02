@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-just-escalate",
+      "path": "cloud-zerotrust-just-escalate",
+      "description": "Cloud Zerotrust Just Escalate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0dd78b7c77038d40c96be78fd10aa03770bd88e30cd03a189eb090c9d031760cbc27fce530a0676914b779f2c55e345ff893c72bc3c72275a03bafc0e2d2f6e",
+      "file": "skills/cloud-zerotrust-just-escalate/SKILL.md"
+    }
+  ]
+}

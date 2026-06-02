@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "credentials",
+      "description": "skill directory index",
+      "sha512": "dadcc40acb762f39628ec6e9297369fa70182b54309a1da8d2e7f91782b3972e79689da8be678e8559402ac75d34ae7e265084b814f6ad856b8917acb574248f",
+      "file": "skills/linux/forensics/memory/analysis/credentials/index.json"
+    },
+    {
+      "name": "heap",
+      "description": "skill directory index",
+      "sha512": "71cc6f1a30706517455959e78f17a32c9bcb826d9afba8a57c554b43a46681eade15c131e15ec2d1685417f7f54db669978279191fef67ebfd500bc39bec2bd1",
+      "file": "skills/linux/forensics/memory/analysis/heap/index.json"
+    },
+    {
+      "name": "siem-integration",
+      "description": "skill directory index",
+      "sha512": "50bd3816a9a5448c45c097ee531d23dabcf575f021e0d6d70468c938fb4f8b716d3d3136923fd18703ffdac1fb60144efc0620b1b95a86c42eb808df638e914a",
+      "file": "skills/linux/forensics/memory/analysis/siem-integration/index.json"
+    },
+    {
+      "name": "vol3core",
+      "description": "skill directory index",
+      "sha512": "0e7241f2ca20b1c90c779cf299f0f9d482e8e3c8a2529cd4b770c158fdd3d86e24f398298ee16dd5d99ea9e9ef562f9df8b464094899593b94992049e6b924c9",
+      "file": "skills/linux/forensics/memory/analysis/vol3core/index.json"
+    },
+    {
+      "name": "vol3plugins",
+      "description": "skill directory index",
+      "sha512": "34a4260ea1c17e5efd8d9069cc85ec579ed53f008c7cbe283b35ee2e75d48614f1b754a18be6dc37025b8ab330294c873ac18919d121c2da325ede5e69d26d04",
+      "file": "skills/linux/forensics/memory/analysis/vol3plugins/index.json"
+    },
+    {
+      "name": "volatility",
+      "description": "skill directory index",
+      "sha512": "ae93906d19407a88f6d7bea32487c71fad06dd60f72e6b1c405ba2194110e39740f11ae3d9b0dcdc0f88751238c9fa787fe11fa81b2406ad85718fd06d2f009b",
+      "file": "skills/linux/forensics/memory/analysis/volatility/index.json"
+    },
+    {
+      "name": "volatility3",
+      "description": "skill directory index",
+      "sha512": "7bc355d93e0a2c95dc465ba3dc258e4d59a1a1e9d20a6f9f1741b236872215594ac1e4fee940d46a0805d675165ef801c1970fcb995b33d90e5137984b04e168",
+      "file": "skills/linux/forensics/memory/analysis/volatility3/index.json"
+    },
+    {
+      "name": "volcombined",
+      "description": "skill directory index",
+      "sha512": "47e089116f327541a8dd1a15c1b7a1197ec983e299a408c64498c01eff4d36e6214698fe7b0295a61d603eac8fc122d8c060550cf798006bad9f888f6e38504e",
+      "file": "skills/linux/forensics/memory/analysis/volcombined/index.json"
+    }
+  ]
+}

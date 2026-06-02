@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "misc-brand",
+      "path": "misc-brand",
+      "description": "- [Flare: Digital Brand Protection](https://flare.io/glossary/digital-brand-protection/) - [dnstwist GitHub](https://github.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0d420da0578335acde2b18c4507480932c2fc96e30a83281d2d95b9eeef13847cec5e1332f9a4151459e232790d99d6ee5e0bda109c020a21168ccaec284b3d5",
+      "file": "skills/misc-brand/SKILL.md"
+    }
+  ]
+}

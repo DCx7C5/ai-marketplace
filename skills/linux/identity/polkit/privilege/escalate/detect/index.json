@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-polkit-privilege-escalate-detect",
+      "path": "linux/identity/polkit/privilege/escalate/detect",
+      "description": "Detect polkit privilege escalation (PwnKit CVE-2021-4034, CVE-2021-3560) \u2014 identify pkexec abuse, unauthorized polkit policy modifications, and privilege escalation via D-Bus.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce7944b03957d8cfe59415980b6ff494248cc331d5e2f8219d40ea077c2450a4e786f8c367faf71dd3af2bfb6eeeb06f964fdcba48feb0547bc25c4be22064eb",
+      "file": "skills/linux/identity/polkit/privilege/escalate/detect/SKILL.md"
+    }
+  ]
+}

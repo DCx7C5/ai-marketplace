@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "bc041ed8180683675ecd0c4e9c7ccbc9aa999f5cddb7ddfc30928a954a54980580ad915892baaac6ca1c34ffd35de337512ee2b547d83ceab2bba69c0eabb9e8",
+      "file": "skills/web-application/auth/jwt/tokensec/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3091ddbf4ee702ba951b74477262ab4a8e76d9ee800c479ba4541be2fbc54ed3314fe31fd5fd26715bd58b085ded9eff3d1cb11982e1ca9ff6544d986097fbe1",
+      "file": "skills/web-application/auth/jwt/tokensec/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f1284c2a122a19ae950f440353e498c874ee58a91b21275e632419d8af40841cb02d75b5298d5ad64be546986129ed29f3a139e8476bf8c80ddb1205303ba4c8",
+      "file": "skills/web-application/auth/jwt/tokensec/scripts/index.json"
+    }
+  ]
+}

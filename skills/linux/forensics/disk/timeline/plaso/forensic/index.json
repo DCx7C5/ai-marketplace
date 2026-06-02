@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-timeline-plaso-forensic",
+      "path": "linux/forensics/disk/timeline/plaso/forensic",
+      "description": "Build comprehensive forensic super-timelines using Plaso (log2timeline) to correlate events across file systems, logs, and artifacts into a unified chronological view.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a04aea02e0c4efba1db10999d83ef2c5ccb762fae55b7a85a3951ec866642cf35fa65e4fc2c09a10958f69f7c168c74cda3654bf42991c19168aab16697ec263",
+      "file": "skills/linux/forensics/disk/timeline/plaso/forensic/SKILL.md"
+    }
+  ]
+}

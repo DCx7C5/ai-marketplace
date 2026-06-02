@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-lolbins",
+      "path": "windows-lolbins",
+      "description": "- Cross-reference detections against the LOLBAS project database at https://lolbas-project.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2e390fa3af37c2dfd5977789fd6e8454f68a715a73474ce69670914b8a8d23b94480c613af6f407510c302db30cd5112f215a538eca349d7b30282fbc009ba1b",
+      "file": "skills/windows-lolbins/SKILL.md"
+    }
+  ]
+}

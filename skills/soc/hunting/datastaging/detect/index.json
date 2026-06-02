@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-datastaging-detect",
+      "path": "soc/hunting/datastaging/detect",
+      "description": "Detect data staging activity before exfiltration by monitoring for archive creation with 7-Zip/RAR, unusual temp folder access, large file consolidation, and staging directory patterns via EDR and pro",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43f786a0e01719d849d621c81dd3248e5425570fe99fa8a64c592109f0a8c0c6b9755fbeb19c7992c14c26b2c3797ddcfa11488779537849818646753b221a1d",
+      "file": "skills/soc/hunting/datastaging/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "6b15de0484f24d4cf06ad4fd99058c55d07a89ba36725ca416237e2d0f85d3d3d03b4b08d314889349702835a240e1431e5644c95f9bed09460f70e86a7fa041",
+      "file": "skills/cloud/devsecops/fuzz/enum/index.json"
+    }
+  ]
+}

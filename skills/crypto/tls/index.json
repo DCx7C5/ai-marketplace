@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sslkeylog",
+      "description": "skill directory index",
+      "sha512": "b26874f6218c5c60c2352dddb1dcf4e422ce81b499cd8d677971d48b7b2bdafcc98ee4f29c6d2a8b8d8226a60cbf036982c354c531a0d994ccbc165494479cbf",
+      "file": "skills/crypto/tls/sslkeylog/index.json"
+    }
+  ]
+}

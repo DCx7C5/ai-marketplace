@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "ee0db3aa2b19a5a5cf65e21d63bca8f582d1bb0e69eae0bd56372090a0738b0a5fb8a2775cfd0562419cf5cd226bd614cdbe45c915e07f9c3b496f89f78fc923",
+      "file": "skills/identity/pam/privacctdiscovery/enum/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "87c1c3a76404ee63718a20bcf55687a23c1423e85b3757d2307d8a0a1374f1298d0cc92e7a9925e260d2b343db13cd710c971815bc9bc1844124b5d892c9a103",
+      "file": "skills/identity/pam/privacctdiscovery/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e59f59073838b38a6bf95295b9916c501512abaacf55a267647f6d9a2510d73276e6fd3b5bc3fe993da1d46bf668ee9aa6f50c404fd467ad1a1e5d7950c63a5f",
+      "file": "skills/identity/pam/privacctdiscovery/scripts/index.json"
+    }
+  ]
+}

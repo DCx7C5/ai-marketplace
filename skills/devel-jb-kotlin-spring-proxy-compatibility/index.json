@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-kotlin-spring-proxy-compatibility",
+      "path": "devel-jb-kotlin-spring-proxy-compatibility",
+      "description": "A bad run tells the user to add annotations or `open` keywords without proving why interception failed.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6ab33defcf08efae71fe04f5f89111b2880dbd23629052a5ae0debc8cebb1df4df57ab45a43557f48a06a496e7f8c09918376af8bc6ee2d9ebaadfdf3f7741d4",
+      "file": "skills/devel-jb-kotlin-spring-proxy-compatibility/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "97292494801312c7f2868012b29641b00d01e40f2c118df023790770124fc8594e4d41e3b0b977df1b81494bbca1f0208cbf16022d3c7dcf31ffea5a8176bea7",
+      "file": "skills/devel-jb-kotlin-spring-proxy-compatibility/agents/index.json"
+    }
+  ]
+}

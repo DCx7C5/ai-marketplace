@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-supply-package-hook-persist-detect",
+      "path": "linux-supply-package-hook-persist-detect",
+      "description": "subdomain: supply-chain-security tags: - linux - apt - dpkg - rpm - hook - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "882ef53d10c7ecf8bd1189d8983ebb397b08a2915743731f641419636092918aa645cd48b879c53aa0d58fdd0e6039c23f7cdae564df7fbcb3e39e5735d51bcc",
+      "file": "skills/linux-supply-package-hook-persist-detect/SKILL.md"
+    }
+  ]
+}

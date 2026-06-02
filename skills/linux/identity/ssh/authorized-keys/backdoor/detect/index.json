@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ssh-authorized-keys-backdoor-detect",
+      "path": "linux/identity/ssh/authorized-keys/backdoor/detect",
+      "description": "Detect SSH authorized_keys backdoors \u2014 scan all user ~/.ssh/authorized_keys for unauthorized keys, detect non-standard AuthorizedKeysFile locations, and identify key-based persistence.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f0f8807c0f58f60766adcdbf087ab2bb7ac3bb2d2f8b0a8c82d509843dcf3ba5d98220713d98fc3fddb9889cb0bb232439140c7a0ce068628ec23919f966d69",
+      "file": "skills/linux/identity/ssh/authorized-keys/backdoor/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "91b4af0538c288c0e5d48c26ac71f515e1d0195c4aaeb6d632dde8f0cef6b21ed31aad0c22af3275a039441fd8616d981d3703a247b597e653c8e886d2d13869",
+      "file": "skills/network/layer2/arp/poison/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "3880988967630cea1d0dad074d25c67e5f193e7fcb49b93eb170ec1b595990c01f4205e99e08b0539afbaf3d2de1ca237cd513be047b789ad78c606816ba9b24",
+      "file": "skills/web-application/api/bola/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7ef9ceb9f4446450337180bb7e473b01eb03b4660b91921cc637527cece47e67397b7881a0cfcf9a465c4b97a481e789a758a157f3b54dc3b295a1ac2c41e5e8",
+      "file": "skills/web-application/api/bola/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4c543ae8981fc9f25140c0b451fa47ab50d83bba9807d436643a555217af53d4decd930468a111040c30d242ac61a1b74ab1d447d46a18d6e8d4f91fe5fb0803",
+      "file": "skills/web-application/api/bola/scripts/index.json"
+    }
+  ]
+}

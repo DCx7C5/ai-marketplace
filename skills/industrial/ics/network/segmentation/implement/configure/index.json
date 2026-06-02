@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-network-segmentation-implement-configure",
+      "path": "industrial/ics/network/segmentation/implement/configure",
+      "description": "This skill covers implementing network segmentation in Operational Technology environments using VLANs, industrial firewalls, data diodes, and software-defined networking. It addresses the Purdue Mode",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1df2a0ea887e6a839ff4776894605624a3a8e5e9873858546e39c553caa74a9826a590fd4129573a2e762e1ccefa2333c1083e21c7610b9ef6f349a745ec7661",
+      "file": "skills/industrial/ics/network/segmentation/implement/configure/SKILL.md"
+    }
+  ]
+}

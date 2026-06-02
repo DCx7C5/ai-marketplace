@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hash",
+      "description": "skill directory index",
+      "sha512": "bf291b76fcab0f0dfd8820061d856765a6367b54f33dee292e094c761d81144f9146d41d44e488b01378b0631bed1cb25bf84d462a872d2b15741e0705f252c1",
+      "file": "skills/linux/supply-chain/binary/hash/index.json"
+    }
+  ]
+}

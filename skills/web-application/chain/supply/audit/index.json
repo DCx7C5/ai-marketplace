@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chain-supply-audit",
+      "path": "web-application/chain/supply/audit",
+      "description": "Simulate and detect software supply chain attacks including typosquatting detection via Levenshtein distance, dependency confusion testing against private registries, package hash verification with pi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5cb389788493b5655e1f9e6b0ea0ef448feb3745cfb20b42665ba85d8b0b0839898d67b770d5528ce22ef4a6a28c59bdc6799f8fcae2e54d3c1daf2603e48200",
+      "file": "skills/web-application/chain/supply/audit/SKILL.md"
+    }
+  ]
+}

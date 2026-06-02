@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "2a6dba808036dd0eedf2bdadbfbc99b2c26a1640e1009aaba4a678c619ae5372a9fa98068add84cf23b73aadfdb47e149d92180a9b0b0d5a44bbc26985bf1608",
+      "file": "skills/web-application/api/enumeration/enum/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "a26d7c552f0c9a0a12458b73348089aefe02c9a1b699eb0fa02593c220dccdb590bee736da1994b9d9c9e68fe58fe90eaf4ec398370dbc439e68968b125e1add",
+      "file": "skills/web-application/api/enumeration/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4651149e3da619aa44bf4c9b780e7515b85849d400d5f3b38094608fdc79c9fd917525a1b88daf2581e198bc953a7d460997d21fbade4703e70dffb3eaba42b8",
+      "file": "skills/web-application/api/enumeration/scripts/index.json"
+    }
+  ]
+}

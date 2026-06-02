@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-modules-blacklist-audit",
+      "path": "linux-kernel-modules-blacklist-audit",
+      "description": "subdomain: kernel-hardening tags: - linux - kernel-module - blacklist - harden - modprobe nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1c606eee3d67c4783a246593173ac0eab332b02182d26d78341dafc5f5ae70197dd1667ee1e133a5ad5e905f56c4c9b042eb643bd881295e9ca34c0318cb1a88",
+      "file": "skills/linux-kernel-modules-blacklist-audit/SKILL.md"
+    }
+  ]
+}

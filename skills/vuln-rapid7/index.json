@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-rapid7",
+      "path": "vuln-rapid7",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "69b46ba448e1f134bad94edbf539c16ee352b030431f7df06dfa72aac29d24a10cbabec1fcad56db9a2775ea8082bf73cf3a58c9ea76c2ff4a64155085903c91",
+      "file": "skills/vuln-rapid7/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "8e027ad31fc1dca318ff4d942db4b454ec2419f29a407b54211f106e5e79299444709df5a21551823d7b499c46c1f2342cf58c53a3fef28856ed2f85599079bb",
+      "file": "skills/vuln-rapid7/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "afabd68fd0c7a15a6b243001bce57533f0659170cc364e6393a6ccd73fcc28236516842f3a78de35ca8251d653f05e55ea509b6c7715290772fa86506c0341e8",
+      "file": "skills/vuln-rapid7/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "186847a2a80ed4df3636e7406a7d28dbdf699756718bf2d8e3234956e412b421ac4dddfd79b620f41624a6a1849fe55a4b2c81f964ca4375092cf5db7a7cd298",
+      "file": "skills/vuln-rapid7/scripts/index.json"
+    }
+  ]
+}

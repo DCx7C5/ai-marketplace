@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "orphan",
+      "description": "skill directory index",
+      "sha512": "13f528e0a1eacf7e309604534a05193bfdbcca10c3ffb5cf4a3e18098bcff5086e335ca836bd4eeb6a6721cfc928d06af1672614483f62ef3a2536bb19b295f8",
+      "file": "skills/linux/processes/zombie/orphan/index.json"
+    }
+  ]
+}

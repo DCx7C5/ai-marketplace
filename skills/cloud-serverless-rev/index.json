@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-serverless-rev",
+      "path": "cloud-serverless-rev",
+      "description": "Cloud Serverless Serverlessrev.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8752bf936cf8734b8b6d5c9a5e0949d14389bc859b439360452f31f754ffba6b6e133acf080c31029f0f0b02898d009b5385251714e62e19dd8781f71753a109",
+      "file": "skills/cloud-serverless-rev/SKILL.md"
+    }
+  ]
+}

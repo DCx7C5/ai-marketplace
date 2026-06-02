@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "9a0e19c45cc9dc72b8b72699f207e14a827c3d61dce2d2be4b9d69c39e12c049d9e24ad2bc7e3f111eb883deaf4ea3de9440381824f9d378e35070720e1acabe",
+      "file": "skills/cloud/azure/storage/storagemisconfig/audit/index.json"
+    }
+  ]
+}

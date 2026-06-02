@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ethereum",
+      "description": "skill directory index",
+      "sha512": "825504e4b1b5aa9cd6586a63bac46dd07b219015e13afebb751b34b0163cae5d1c6f73296e897578ebc57d8e6ba50cd313b0b0ea6b709d327f2700d6fe8eafe6",
+      "file": "skills/crypto/blockchain/ethereum/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "171c12f67cbba741ac4828a23c7c6f209dddb17368348dd305352f655a1460a71372ca5e2a41df8149ee1b0b06b08afd975ca94e3af5509373bc9afc82164f0b",
+      "file": "skills/crypto/blockchain/general/index.json"
+    }
+  ]
+}

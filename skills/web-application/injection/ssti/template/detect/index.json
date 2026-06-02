@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-ssti-template-detect",
+      "path": "web-application/injection/ssti/template/detect",
+      "description": "Detecting and exploiting Server-Side Template Injection (SSTI) vulnerabilities across Jinja2, Twig, Freemarker, and other template engines to achieve remote code execution.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1df9195886bedf9283f76c2867a0131c4c70b3d2cfc8be725a6bdc1e0e58661fb99d0d7d3ae79ecd8154c2044390b0444c284b9f45319f73d78f0468b9fd1c2c",
+      "file": "skills/web-application/injection/ssti/template/detect/SKILL.md"
+    }
+  ]
+}

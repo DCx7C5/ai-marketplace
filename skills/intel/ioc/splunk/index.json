@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "f032d3057ee2ab3fe41ecda55c02baea449f7801341c16db842e099991806faddd044e0668a4e3180be668f8aebb43415920e2b040541594e8615e332eb68ace",
+      "file": "skills/intel/ioc/splunk/analyze/index.json"
+    }
+  ]
+}

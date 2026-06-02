@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "covert",
+      "description": "skill directory index",
+      "sha512": "25da6712bfa2a0616cddca4ec689041f0ffa035c15fb6818f24fac7b950b10a0fc7bcb72d41ce157f61ce1dbae57ea669b75c549e497e0875402346dfeee172b",
+      "file": "skills/stego/network/http/covert/index.json"
+    }
+  ]
+}

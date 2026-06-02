@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "81993e039eeb413aed625795270550018b1b4fe5bd0a9b538750a95e3750afa5133ee76c3ed2f4b9fe74fbfae52fe6d5bd866f6b830b99e99515fdd14aece5b1",
+      "file": "skills/cloud/containers/docker/dockertrivy/detect/index.json"
+    }
+  ]
+}

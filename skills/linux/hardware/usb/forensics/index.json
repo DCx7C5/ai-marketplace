@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensic",
+      "description": "skill directory index",
+      "sha512": "29a8b4013a84c215774442fc51910537eb37fed0bceb994d3a7f8f362a7331640948645f50093eee7dfc78ad160c4b52838524f2bf6b2453b675b7cf64618ae1",
+      "file": "skills/linux/hardware/usb/forensics/forensic/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "49cd2b45007f6cb585c2f1d422ff9863a7007d095104e2c40baf36bc4175448e3d304ad0b9fe6f1e66a7213a447aed2bcb10895dcd5a1129cc7c7f4d8c89f04d",
+      "file": "skills/linux/filesystem/xfs/metadata/analyze/index.json"
+    }
+  ]
+}

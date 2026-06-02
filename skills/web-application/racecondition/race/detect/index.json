@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "racecondition-race-detect",
+      "path": "web-application/racecondition/race/detect",
+      "description": "Detect and exploit race condition vulnerabilities in web applications using Turbo Intruder's single-packet attack technique to bypass rate limits, duplicate transactions, and exploit time-of-check-to-",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed0b601a555785c0bad7f2c6af39c3541b17b0abdaef6c0832bfdeefa520c33f37c8b5b586b562e078cb009fa19ccf323149e667cb590ab4574f2fbb99605e97",
+      "file": "skills/web-application/racecondition/race/detect/SKILL.md"
+    }
+  ]
+}

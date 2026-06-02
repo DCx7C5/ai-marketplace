@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-strategy-zero-trust",
+      "path": "identity-strategy-zero-trust",
+      "description": "Identity Strategy Zero Trust.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5459ac707f454e47bc2d53e78fa9bcbe895be707784d71f22b218633bc6fe10623b9c9e16dcb6c420445c822a7dd458f5a90a6469943b413e36befc0ba199bb0",
+      "file": "skills/identity-strategy-zero-trust/SKILL.md"
+    }
+  ]
+}

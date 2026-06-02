@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "939f9b6810b248b67b2cea68234884ed4c575467c8ee2237536da333267e4dec915d3188a79e44f4d7bbabf0ef4a80f6716101a56f57b4eb58e45dd83323c5c6",
+      "file": "skills/linux/processes/proc-fs/mem/inject/detect/index.json"
+    }
+  ]
+}

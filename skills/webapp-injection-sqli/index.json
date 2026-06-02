@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-sqli",
+      "path": "webapp-injection-sqli",
+      "description": "URI: /api/users?id=1' UNION SELECT username,password FROM users-- Source IP: 203.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e73b66bc8f5488c8e89f725167e1d1f7126712ee64eded3b4b873b912519b598ee461c59f758e8fd3ab207a4ecee8a7101de16db26fe12c8a0d4e9a9b15b44c5",
+      "file": "skills/webapp-injection-sqli/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "3b53eb60273329bd64ebe5cce41cf083dc41afe85bd703891cd74111755dce0b479b4f72e32a3ce9754a727c3675987e24ea14e6deec81a89a732bd476e2cfea",
+      "file": "skills/network/protocol/http/request-smuggling/detect/index.json"
+    }
+  ]
+}

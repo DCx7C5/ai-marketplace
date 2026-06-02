@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-ipc-named-pipe-detect",
+      "path": "linux/processes/ipc/named-pipe/detect",
+      "description": "Detect named pipe impersonation abuse where a privileged service connects to an attacker-controlled pipe enabling token theft and privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6e5399411b326403e8f45b02149a6b6e56e4d3474c2ebd5e0b89a0bd64b1a28f330629d19d8c60f6431bd67be29c51effda06868b30fb76f9a5565d04726a66d",
+      "file": "skills/linux/processes/ipc/named-pipe/detect/SKILL.md"
+    }
+  ]
+}

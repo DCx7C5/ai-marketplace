@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-cloudkube-audit",
+      "path": "cloud/kubernetes/cloudkube/audit",
+      "description": "This skill covers hardening managed Kubernetes clusters on EKS, AKS, and GKE by implementing Pod Security Standards, network policies, workload identity, RBAC scoping, image admission controls, and ru",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dd2eb2bd441d2cdb5cf379fc3a7b7c899fdf8d1f323f15573349b2919bb312bfa6e29625401a396f49831ca22f6bde2755a67c01a7acb534d4e8ca38ae8a29fe",
+      "file": "skills/cloud/kubernetes/cloudkube/audit/SKILL.md"
+    }
+  ]
+}

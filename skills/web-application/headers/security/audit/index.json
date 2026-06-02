@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "headers-security-audit",
+      "path": "web-application/headers/security/audit",
+      "description": "Auditing HTTP security headers including CSP, HSTS, X-Frame-Options, and cookie attributes to identify missing or misconfigured browser-level protections.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2004900e0c2bfdaf9167dc87521685bfbd20e4355f47edf153de39b5b864e7e97ebc2fd88c4e6b859db4210a88046abf8507a8820d25740f1e1db951bb8dc3ee",
+      "file": "skills/web-application/headers/security/audit/SKILL.md"
+    }
+  ]
+}

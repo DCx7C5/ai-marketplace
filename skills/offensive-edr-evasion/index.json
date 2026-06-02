@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-edr-evasion",
+      "path": "offensive-edr-evasion",
+      "description": "alt Hooked APIs         L->>N: Map Clean Copy of ntdll.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f84f226c83cbe49ef708ecb3681f23f28c7d83fffe4d159935b30847f2eed7251821e188312d750f3bdd4fb9b832449a6c5100f798ab036bfa2760f53ffdc74e",
+      "file": "skills/offensive-edr-evasion/SKILL.md"
+    }
+  ]
+}

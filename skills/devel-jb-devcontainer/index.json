@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-devcontainer",
+      "path": "devel-jb-devcontainer",
+      "description": "-| | 5173 | Vite dev server | React dashboard with HMR | | 19420 | Go API backend | `skillshare ui` server | | 3000 | Docusaurus | `docs` command in devcontainer |  ## Common Mistakes to Avoid  1.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b927dbca06f1945a24940e707495bdcb7ab6453ba12bf2ee3f7bd6658b23a7478fc876a51bee29a53be6cac3fad43d4cf0c2fc2e456ec016cdece42421ca0a82",
+      "file": "skills/devel-jb-devcontainer/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-mass",
+      "path": "webapp-api-mass",
+      "description": "--|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9b4a296c7fc7e64e00ea02569b3b3acf4ce1c516f49bf449b11916fc0b9a24611057f02a14396e73358d823d2ff38eb31ab2d3746d67d75be68a248356ad9e7e",
+      "file": "skills/webapp-api-mass/SKILL.md"
+    }
+  ]
+}

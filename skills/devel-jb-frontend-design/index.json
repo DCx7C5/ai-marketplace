@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-frontend-design",
+      "path": "devel-jb-frontend-design",
+      "description": "This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic \\\"AI slop\\\" aesthetics. Implement real working code with exceptional attention to aesthetic details a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "103b96105cbca09ce26cc92374fd64773c9775c59c79d13a7402e41b83f20e5b712f81514aab4626615cce95207ac36b59f040b817b4fb7dc6c3c1cdbe6ffd00",
+      "file": "skills/devel-jb-frontend-design/SKILL.md"
+    }
+  ]
+}

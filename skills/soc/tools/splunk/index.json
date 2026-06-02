@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "f84e1bfe7b0cd1ec0b87784cbb0ad1c89292365a64227ae606a6e26d9322edd25ae3325356eb69933ab681da0d479850112d7dfc476bf069aee115a84308e632",
+      "file": "skills/soc/tools/splunk/configure/index.json"
+    }
+  ]
+}

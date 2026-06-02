@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "514a81e7e40eff14ee9f76c6209e9e37b7687382c6d77bbad039cd139104ed9e1f52f974073a08b1837553766222ad3e4486896a4660eecedeac83a58a51bd05",
+      "file": "skills/cloud/aws/privesc/assess/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4a7e44da59b7aac8297b048cce1e1c6c7947f1439eee0c60ea3213a6b80dd2336ff8248cd2999a179dc5df2e2bfb29da90e1281db926d87e759acce4ac15d13a",
+      "file": "skills/cloud/aws/privesc/detect/index.json"
+    }
+  ]
+}

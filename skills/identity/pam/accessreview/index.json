@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "bf18ba9f13c4b0b20b86ad20be95116d84c728f613b3ded571ed51be786270a882357d77afcb80beed011fa187b17b8ab747be6ff432f107c3195054f86cb44a",
+      "file": "skills/identity/pam/accessreview/analyze/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "c22e3b6885973884b282848788cddd688c4b8e89d3a619302962067da4bff2fba3e40fde5b97776c66caaf5e7a64801f4deaa812730c8d08dd3af0397dd4b1f3",
+      "file": "skills/identity/pam/accessreview/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d9e1fbccb6c0a3048349bf2c3fb6b7f2a17993bc84195acd55867ebe306563c59be5bf68035351a438f87a34ed8cd8daec1c58eaeb380e6dc7f7ca176c243452",
+      "file": "skills/identity/pam/accessreview/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d7ce7ff996e56f7620bc87ba76d1ef2b64e4ac1f6ba7f88bfab4da4ac3e9c21680d55ddd8357959b7e55ddd9ab1ecddbacd62f435e5ad3dbc3ac1d440bc3d476",
+      "file": "skills/identity/pam/accessreview/scripts/index.json"
+    }
+  ]
+}

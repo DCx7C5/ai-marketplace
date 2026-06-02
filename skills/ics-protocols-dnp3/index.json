@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-dnp3",
+      "path": "ics-protocols-dnp3",
+      "description": "Ics Ics Protocols Dnp3.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f318a37f5a8f24f00af174b5a1c46efee4690affb7a1f8c5d8723b358e3de1553a358668a874446776bb266095649b5ebc9e8d3c37ea7adea4b58dc0b9b8141",
+      "file": "skills/ics-protocols-dnp3/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9b59dc341a4ca2d6027e2fac7749b5ed28fc75d6c8ed278d1b5283442d9bee403bcc994b2964572d5a98bf98e4ba2ea2c6856f0822cc1626ce168b515f024145",
+      "file": "skills/ics-protocols-dnp3/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "a0b3360ea6eada6e8bb17637c7655c07fa8ccdd5632c41ee28b862d7fdac836efa8ff5d2047546b4f2b77d5c2d894fd57e85af679819e9501692809c5e7b900b",
+      "file": "skills/ics-protocols-dnp3/scripts/index.json"
+    }
+  ]
+}

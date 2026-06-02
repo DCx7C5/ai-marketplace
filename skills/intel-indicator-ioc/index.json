@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-indicator-ioc",
+      "path": "intel-indicator-ioc",
+      "description": "Intel Indicator Ioc.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ddd996938f82bf2f9a8fa2f682b344b319f189343436770603d4ae02420209d48ea4041fbf643c8479a5c492400dca1e670d2124a53e91544055174ad666faea",
+      "file": "skills/intel-indicator-ioc/SKILL.md"
+    }
+  ]
+}

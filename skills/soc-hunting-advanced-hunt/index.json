@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-advanced-hunt",
+      "path": "soc-hunting-advanced-hunt",
+      "description": "Soc Hunting Advanced Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0bed4459f7895bc79a5703517cefe6679c1b5f9dd0f75c31d1bfffb0acb251f725516ca7212664b3c5d192874de5fa6ffe514a05ed925ffd351e291e6ce72a4d",
+      "file": "skills/soc-hunting-advanced-hunt/SKILL.md"
+    }
+  ]
+}

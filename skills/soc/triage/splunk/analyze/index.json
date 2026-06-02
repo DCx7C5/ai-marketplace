@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "triage-splunk-analyze",
+      "path": "soc/triage/splunk/analyze",
+      "description": "Triages security alerts in Splunk Enterprise Security by classifying severity, investigating notable events, correlating related telemetry, and making escalation or closure decisions using SPL queries",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ae47d007297674dee49a7072b8beef7bc1c29e6e1bd28c18359e97175a57219cb9e9312cbe4907961ac3bfaa595521a15034a33694645bc858f06cf30072ccd6",
+      "file": "skills/soc/triage/splunk/analyze/SKILL.md"
+    }
+  ]
+}

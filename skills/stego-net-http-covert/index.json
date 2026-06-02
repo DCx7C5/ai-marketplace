@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-net-http-covert",
+      "path": "stego-net-http-covert",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2697397e3201e67c52b5c7c3360b176e8df25b80af84042831bd4b5e1488eefb315c31884d9049e8610686c0c0f4e5e1ad8d0777e40ebf34f3120069b0e98e60",
+      "file": "skills/stego-net-http-covert/SKILL.md"
+    }
+  ]
+}

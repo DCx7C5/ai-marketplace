@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "create",
+      "description": "skill directory index",
+      "sha512": "55bbb9cc8fd783e442e8f2f910a65213bd3234e257c7b7f7bb31a5e290de74b1887a2ff4ad22b82fa0b9a0f46394f812a6c55ec32b2048590ca6f8edc245778b",
+      "file": "skills/network/proxy/socks5/tunnel/create/index.json"
+    }
+  ]
+}

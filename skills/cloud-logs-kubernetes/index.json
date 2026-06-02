@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-kubernetes",
+      "path": "cloud-logs-kubernetes",
+      "description": "- When investigating security incidents that require analyzing kubernetes audit logs - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured proce",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8b2e2b29d332e38ad96f95cab4b9eb3caf771197d84d0ddcf4d97b5b4fae1f7dad41dda7a6aab05b871bb605d7fddc3fbd9c155ee1ff07b5ed7d2d3b0766a01",
+      "file": "skills/cloud-logs-kubernetes/SKILL.md"
+    }
+  ]
+}

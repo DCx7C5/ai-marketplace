@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux",
+      "description": "skill directory index",
+      "sha512": "4fc0dc0e4da4df27d5d8d25bd4eee3ea88a39e206b295c60e1e17c71c53ceed949fb2c2403173e2e92a85aded9e5cd4048c8c19ca90e1898ef2d12235a39a288",
+      "file": "skills/linux/forensics/memory/volatility/linux/index.json"
+    }
+  ]
+}

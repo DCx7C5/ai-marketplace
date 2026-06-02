@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-mem-kpti-bypass-detect",
+      "path": "linux-kernel-mem-kpti-bypass-detect",
+      "description": "subdomain: kernel-security tags: - linux - kpti - meltdown - kernel - bypass nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "63dd7eed176e45d003f733e7d70da1c40143a0e3884dd8fd73cdaf70ad84b173bd61cfaeaff8249c8386c1c20316ba8b2c946cc6d00e4ff07a1698682bf45702",
+      "file": "skills/linux-kernel-mem-kpti-bypass-detect/SKILL.md"
+    }
+  ]
+}

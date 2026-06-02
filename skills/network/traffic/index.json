@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis",
+      "description": "skill directory index",
+      "sha512": "2460c1b8736d3d673ce59fd38f23091ae1370648e4e71d4eb2e55ae1c5d1c85cc4798200341f327797ece146bdbd30d96a68afd351a81f43ee740957cdd90503",
+      "file": "skills/network/traffic/analysis/index.json"
+    },
+    {
+      "name": "anomaly",
+      "description": "skill directory index",
+      "sha512": "99b16e01d1644301f86f10bc13e48cbcb6bad98e793b3281802a9f7f0ef95c0fac079059f95e2f1c136f50eeab66e4f77037f7e705828ab002bb2bf29075a4f3",
+      "file": "skills/network/traffic/anomaly/index.json"
+    },
+    {
+      "name": "arkime",
+      "description": "skill directory index",
+      "sha512": "5b729389938259fb5320c6ffd8b18d89fb2f29b76adbf9ce08be401b3a1b99ca5293303a7c06b44474cc3658d9153b3548518b385e7d89d359df71e48525d51c",
+      "file": "skills/network/traffic/arkime/index.json"
+    },
+    {
+      "name": "arppoisoning",
+      "description": "skill directory index",
+      "sha512": "0f00edde3284441fee8eff067b8d15e5a66d062b46051170823b5ce053d34fd42360b8aea113067d3389f488d25fc63ce303896638a191085cd568601954cc0c",
+      "file": "skills/network/traffic/arppoisoning/index.json"
+    },
+    {
+      "name": "baselining",
+      "description": "skill directory index",
+      "sha512": "fe56834b3b573bf300b07fdbd690970e9f2ccf03b9917d5b00ca2270f24eba7d8e8b2c1406d31daf99ec5863bba5d466cddcac957f8b1ac2878f5435aec0bbfe",
+      "file": "skills/network/traffic/baselining/index.json"
+    },
+    {
+      "name": "c2traffic",
+      "description": "skill directory index",
+      "sha512": "f5657edc130ff8d36ac54e8158e16d82394145f97cb46b4206d8ed9ee0526cd305c4e27cb8c8fd51501ea84d0141e2e89546ba5e945dde6cdc8be41c2fa22156",
+      "file": "skills/network/traffic/c2traffic/index.json"
+    },
+    {
+      "name": "capture",
+      "description": "skill directory index",
+      "sha512": "89c865cdd70605b6c7d50c3a8e46be97726a313775ed0fe8ff376e1bacf904911f69c6c848ad3419e1c12320c637a8431a2a725bcaa2945bc3d28d4f6b3c4f6a",
+      "file": "skills/network/traffic/capture/index.json"
+    },
+    {
+      "name": "domainfronting",
+      "description": "skill directory index",
+      "sha512": "93f2066fecc003958ec5e65eeb10ef6c79a8e42b5f30080dc991a5340666cc48ab281b54e7ab582d2052a95506ee9e703e7bae728c2233e3e0a0473caa1ee707",
+      "file": "skills/network/traffic/domainfronting/index.json"
+    },
+    {
+      "name": "incidents",
+      "description": "skill directory index",
+      "sha512": "e2717359556abba7f1a99e1b00306b90b02d110526f01e40129ac9fa576c48b64645c348a30276eb09994ca474390a3c3b67a2b237b4c8d00e9eb4a27bef1dd0",
+      "file": "skills/network/traffic/incidents/index.json"
+    },
+    {
+      "name": "maltraffic",
+      "description": "skill directory index",
+      "sha512": "b6746ae8dc0565df0b2ba6967792226080d7a5c7b7960cae8085362acdb8b3a81e094b5017aa1e09dd5bc9ea7305cad7e3b7eeeae3bce99df17117877f3fbf72",
+      "file": "skills/network/traffic/maltraffic/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "83c99e02ce034e1d5202813865427b6e397e3d1bcd42c3a756657dd08fbb2886f53febf526f244d0a6ac11e100fe8bd0d065bddda22515ed4c3c0050bac990ce",
+      "file": "skills/network/traffic/network/index.json"
+    },
+    {
+      "name": "nozomi",
+      "description": "skill directory index",
+      "sha512": "d470c49ba08c76e33dbea941b9aa72872604e09e7014c6e4e2f3070e7336abe77d5ffc792faa5c6670d9c737d63aa4dd86414c3819e82b767b47239299fb2161",
+      "file": "skills/network/traffic/nozomi/index.json"
+    }
+  ]
+}

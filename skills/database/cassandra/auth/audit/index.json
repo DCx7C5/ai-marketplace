@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cassandra-auth-audit",
+      "path": "database/cassandra/auth/audit",
+      "description": "Audit Apache Cassandra authentication and authorization configuration, checking for AllowAll authenticator, default credentials, and JMX unauthenticated access.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c61887638db149387f386ec6860367558fd74962fcdab73c39df664b4a4ec2fdbd338cc4e307005b23991c6abb310cbebc66838ce3aff080dcf4600519e95a86",
+      "file": "skills/database/cassandra/auth/audit/SKILL.md"
+    }
+  ]
+}

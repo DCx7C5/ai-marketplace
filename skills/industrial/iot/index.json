@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "device",
+      "description": "skill directory index",
+      "sha512": "5e9e1e3ce72dd24808a8327585b9d888908efb6983f1dbf9e6080562861cb181aee0a2bdaafd8a78563086992a0bfae6c7e3bbc54e52b6c1d123da8197626f50",
+      "file": "skills/industrial/iot/device/index.json"
+    }
+  ]
+}

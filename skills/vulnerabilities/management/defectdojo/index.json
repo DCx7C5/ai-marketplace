@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "defectdojo-SKILL.md",
+      "path": "vulnerabilities/management/defectdojo",
+      "description": ">\\n  Deploy DefectDojo as a centralized vulnerability management dashboard\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4ebaa685b94aa42c8c1fe1eaf5cc41ddd8d2da51d71a8cc8d8a48ba7c89f6c17fed89f56c69a02f17a3151f36d0763c5b7ac3b93c4881c2abfd8dde80fb74632",
+      "file": "skills/vulnerabilities/management/defectdojo/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "0f7e3a14f688ff81d3e5c4a8f41d4efadeb692711fdb90fc2d7c2432d84dfef82deb6223cab66f7267f26f2a4652aba2fe1fe73f8254843522288f2338d1997a",
+      "file": "skills/vulnerabilities/management/defectdojo/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f016fa712dfb1d7c5703edcc1cb2e069ad69bf25feda4586c07518524349862ff514ea72c2f7550da1e6f113c7b32213f455eec60a00f1ab5812157a84f0f436",
+      "file": "skills/vulnerabilities/management/defectdojo/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "104d15a5e638550c41de60635f7434b286c6ab12b84ac55454d48e790715159d93c11d70e11710a399bf5c02054bded07e3d9e3fe4960833a798b2197020ea4b",
+      "file": "skills/vulnerabilities/management/defectdojo/scripts/index.json"
+    }
+  ]
+}

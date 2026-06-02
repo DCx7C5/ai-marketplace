@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "155cb7a9338e8e2b99ee15061e80a9cca7c786c5799b6c7b6a5267b27aaa3b21fd14cdacd2bad98ef01ad1980b6cf473962e817a593013516f849f3d92285d01",
+      "file": "skills/identity/insider/ueba/detect/index.json"
+    }
+  ]
+}

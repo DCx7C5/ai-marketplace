@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "socket",
+      "description": "skill directory index",
+      "sha512": "a4288008e8eae55b24d10931b3ed9e40f14f583ef6b959e162cc6ab4fcf6b404cabc201d752073619e0b0db77e47d376db32503b73fbc5a36ca14556cd7ef409",
+      "file": "skills/linux/kernel/network-stack/netlink/socket/index.json"
+    }
+  ]
+}

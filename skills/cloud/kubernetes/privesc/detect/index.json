@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-privesc-detect",
+      "path": "cloud/kubernetes/privesc/detect",
+      "description": "Detect and prevent privilege escalation in Kubernetes pods by monitoring security contexts, capabilities, and syscall patterns with Falco and OPA policies.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2b11fdfa1719e19af39104f51011903ec9d57b2d091915f34965829099eb416218dcfb41cec1db4926ff737b9a7e3453a1ef6666a8161e4c88750262fef2df85",
+      "file": "skills/cloud/kubernetes/privesc/detect/SKILL.md"
+    }
+  ]
+}

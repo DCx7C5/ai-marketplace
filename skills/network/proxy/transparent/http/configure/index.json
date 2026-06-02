@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "proxy-transparent-http-configure",
+      "path": "network/proxy/transparent/http/configure",
+      "description": "Configure a transparent HTTP/HTTPS proxy with mitmproxy or Squid for traffic interception, SSL inspection, content filtering, and security policy enforcement.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "384d5511cf18cedcc464e3b564374c5faace1de86762c811ec320ab36de17270a7061a0c27d6f49634d50f0067f9fa8b87474b924916c8183ba29b641d3aaf75",
+      "file": "skills/network/proxy/transparent/http/configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-historian-server",
+      "path": "ics-historian-server",
+      "description": "Ics Ics Historian Server.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e309bd9becc0af0d503d5a0fc7d3adaeff9e7483a747511998c7c844827e4d7f96363177097371ce206c20ea1c9976771ec781952c30ac072eae34a969a0050f",
+      "file": "skills/ics-historian-server/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1d3cbd631571c874116ff849a82023ed60759522db416383a8cfe908b091cf52102cd6e9dc1c549e3bd1d865d7bc1875a283091c8977feacab0f5e29b3774fbc",
+      "file": "skills/ics-historian-server/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2adb0148cfbc0e5431d7e0522dc0f7cf199ed9dfc4550d2b5aa0232d3bbe03c0ec36e6ddb901fde8d94220aeac45ca8dab73e00890d8398692aacf05c5334ee6",
+      "file": "skills/ics-historian-server/scripts/index.json"
+    }
+  ]
+}

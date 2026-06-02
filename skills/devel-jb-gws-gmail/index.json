@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-gmail",
+      "path": "devel-jb-gws-gmail",
+      "description": "-| | [`+send`](../gws-gmail-send/SKILL.md) | Send an email | | [`+triage`](.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "156f0b835bafd3d904d684ce920cd47f6ea02167ba85cc878d946d8993b595dc9a99d1d865e99ff591a147879015f27c37bf25477bb0f4dbfbda916f18a8a55d",
+      "file": "skills/devel-jb-gws-gmail/SKILL.md"
+    }
+  ]
+}

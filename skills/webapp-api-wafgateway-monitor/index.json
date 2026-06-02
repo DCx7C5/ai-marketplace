@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-wafgateway-monitor",
+      "path": "webapp-api-wafgateway-monitor",
+      "description": "Webapp Api Wafgateway Monitor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "267579ada03712393b19afa1854658bce17f89d8dc2274fe630a4fe5f5f4db34be87e4d9e032fde79cb01596d9d2009190563e1c77323d3e479f5effd63788d3",
+      "file": "skills/webapp-api-wafgateway-monitor/SKILL.md"
+    }
+  ]
+}

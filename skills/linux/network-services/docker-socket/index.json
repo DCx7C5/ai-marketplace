@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "expose",
+      "description": "skill directory index",
+      "sha512": "415b5614dcbed04e65040bb45ed8e4a4f980624f357003efb170cdeb0f0b7ab5d9d3aad0fe438a511ddfda0b1e504f1a72b6c35a500feaf9447935cf2a84d105",
+      "file": "skills/linux/network-services/docker-socket/expose/index.json"
+    }
+  ]
+}

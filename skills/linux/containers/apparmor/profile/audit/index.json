@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-apparmor-profile-audit",
+      "path": "linux/containers/apparmor/profile/audit",
+      "description": "Audit container AppArmor profiles \u2014 verify AppArmor confinement for container processes, identify containers with unconfined profiles, and audit policy effectiveness.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a7e6e34ab03a3b2ae92b8d9b7a7a0e33c08a0fe81277dbcfa71a38d9a885aebe6444ef898d7b17dae6c228c97714da968386aa8e1b07553218fce47e88df75d7",
+      "file": "skills/linux/containers/apparmor/profile/audit/SKILL.md"
+    }
+  ]
+}

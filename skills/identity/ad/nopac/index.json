@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "e37a8bb079cd65b3968a26892534b570d21ece02811fd3165ee059679fab39277e0c274b203be00a5ab56f7e078f493760408852bdc0561dbab709d7a668bc21",
+      "file": "skills/identity/ad/nopac/assets/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "77a43907d62a3b6e076ae4fb0b325c6c86135cdaa4bd29447f4b193b80779a3daad1072a28f7f1610db221c8fa343511a3d28bfe01da43a590e925cc74964190",
+      "file": "skills/identity/ad/nopac/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2a6f2a2345e4a5437deea1989e926672b07fcac2a6daf4918abf2a6dd1ec20ed4dd10f3850cc75707954e27a7592f4345cad08021116c0c3bf75d49bd7e42bb0",
+      "file": "skills/identity/ad/nopac/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "386ac9ab75543ce74cb1e7bff22e7fae8380a257609603abdcc084e750cb6fa44c5cda516c2e40db767d806721a6c026d2959beea1a67ac49a162448d74499c7",
+      "file": "skills/identity/ad/nopac/scripts/index.json"
+    }
+  ]
+}

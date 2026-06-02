@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-brave-wallet",
+      "path": "browser-brave-wallet",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed0b0f4c60ffa771874b0b22ae0849a5b6c4a3f9f4c61ffa342654aac8cc67e1f0fbb7842330efa08fb1e288ea5681274a0812131b0cb4457db013e872d69d14",
+      "file": "skills/browser-brave-wallet/SKILL.md"
+    }
+  ]
+}

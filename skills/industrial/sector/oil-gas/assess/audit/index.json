@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sector-oil-gas-assess-audit",
+      "path": "industrial/sector/oil-gas/assess/audit",
+      "description": "This skill covers conducting cybersecurity assessments specific to oil and gas facilities including upstream (exploration/production), midstream (pipeline/transport), and downstream (refining/distribu",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4045eb050ee4c5985a88936ba31ad4072e9d7a31690f413600da0c52838834a69d3391afc860506ff2b478c5816facb6d7b85c5b94c00804bc720ab8a848ddfc",
+      "file": "skills/industrial/sector/oil-gas/assess/audit/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "arp",
+      "description": "skill directory index",
+      "sha512": "da5b842f63e76d94ca8e44f9891b9b336d573364479674b60bb296b5aa77966323e987775b32941ad1a6298124999564ede4e926cd0f7704af950c88fbb0e33d",
+      "file": "skills/network/arp/index.json"
+    },
+    {
+      "name": "assessment",
+      "description": "skill directory index",
+      "sha512": "7320b5a9982bdfd97de3cba2e1ffab7eb8862dc1e1355b22dee2f7e6357c2911d33d37ba37940c0c8d99ca58d9a7d27ab35ff825138547efec0f55cddeaf23e9",
+      "file": "skills/network/assessment/index.json"
+    },
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "59a124a14b651f31c7c81cda60cbe85512dfba85f29934eac03fb14e725c72d52c512db243e88e0ba6ee38792fcbb13a7f74cce974684b50209dc4343e541241",
+      "file": "skills/network/attack/index.json"
+    },
+    {
+      "name": "bandwidth",
+      "description": "skill directory index",
+      "sha512": "d3bcca28a5f8f74c274a3facf748346da335e6a64a4dd68aef632596fcb15689c93983cce4eda40c8470e7d6528f603b1ee914a7c9a4f00dbdf9b31c5852deab",
+      "file": "skills/network/bandwidth/index.json"
+    },
+    {
+      "name": "bgp",
+      "description": "skill directory index",
+      "sha512": "e2f24d1fa088382026c251c855219abd7a3a2837065d198e8125e461823b82a2be9f46a7f13f03dfab0498e229235f27efde365c90e4f902bb34cf813c50bd13",
+      "file": "skills/network/bgp/index.json"
+    },
+    {
+      "name": "bgpsecurity",
+      "description": "skill directory index",
+      "sha512": "1d44d323989da8c4a7564268d10fd19b0c599eabf57368d3e9d982e9dabaa6e6c540f1dcc247ae7de8ae190c5a9f61d6675e6705ab4ffd1dd2d9790c3ab552e4",
+      "file": "skills/network/bgpsecurity/index.json"
+    },
+    {
+      "name": "capture",
+      "description": "skill directory index",
+      "sha512": "4ba3beb5c25df7e5ed1b337d171480e36191b50852652e90945c5054590c447864b1682f0b36fd96c1e31fd7867949c3666aec0a17571e7fc78d246fc1aef438",
+      "file": "skills/network/capture/index.json"
+    },
+    {
+      "name": "cdn",
+      "description": "skill directory index",
+      "sha512": "810649e9ec52244728e6dd846e1de97556aa6e52593bedc9b1db180a4b7c7455731a316117a638fa03f846fa18449c6d164e874c653c69571202ddc1d6feea01",
+      "file": "skills/network/cdn/index.json"
+    },
+    {
+      "name": "cloudflare",
+      "description": "skill directory index",
+      "sha512": "df9490fe602ee14e25dffb1b957b5d39c78668143a40da8cc97bc2e48a3c38b81683c62c0a0942199f09cbec3e5ded8650041b8f9884b8a1bc53d98e83c2ba96",
+      "file": "skills/network/cloudflare/index.json"
+    },
+    {
+      "name": "dhcp",
+      "description": "skill directory index",
+      "sha512": "0e406d6206b5796ef06c065d7045611c98e565e06f5cd8471c3cc9908288291b54959d6b526210a350834cb262f67e4d1255284754fe8dd5d67c49946cb3f187",
+      "file": "skills/network/dhcp/index.json"
+    },
+    {
+      "name": "dns",
+      "description": "skill directory index",
+      "sha512": "0e548a25435b32126fae795001818c6c3f38e5be5d582aa057de180cf4c866a960f45f000056001ba551cf3f4e385862e86b17780cef47eedbd8a90a40c62cd4",
+      "file": "skills/network/dns/index.json"
+    },
+    {
+      "name": "dnsc2",
+      "description": "skill directory index",
+      "sha512": "1771de4266ab2a62c376bc16f9aac77b9fc2e4e2c8ea71dec599c7db328742d90a0e598cbfc6f4f5d3089a18daf4158bd9c62abb6ee8f5e5c7b1d52f825c0a15",
+      "file": "skills/network/dnsc2/index.json"
+    },
+    {
+      "name": "firewall",
+      "description": "skill directory index",
+      "sha512": "e8ba93b2c2b475abc8f35a3d1b802f17c9fa1c749817055f00f61dae144645271ab31759df88221d320f41e9011149540a31f30b65f40f4dc19dbc89e079bd0c",
+      "file": "skills/network/firewall/index.json"
+    },
+    {
+      "name": "flow",
+      "description": "skill directory index",
+      "sha512": "276ddf4cf3053b22944a8e5889952d0d1c36cf0c205740a364a78fff9f8ad669eb79247930768c3afd19ceca1cd84cfd8730abac77ca0f59de8d27acdecfb1f7",
+      "file": "skills/network/flow/index.json"
+    },
+    {
+      "name": "ids",
+      "description": "skill directory index",
+      "sha512": "2036e7129507d98079cc5a76712e35beb32f38cb59284747e795ade877d1f8aed766e3689e03cf3b97f94ba9858e458d023a68c7c396ee6df375e726aa8926b4",
+      "file": "skills/network/ids/index.json"
+    },
+    {
+      "name": "idsscanning",
+      "description": "skill directory index",
+      "sha512": "695b24f84cf905ec5613201ff10a1c2788879654521a14534fcc231ed43ac3b860d3aa4d3763277f165fc7e746a33655b5b6f4b3ac16109f92ddd0d6ba387df2",
+      "file": "skills/network/idsscanning/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "c53afaf2a62de228a96cb15a6d8a02e27b8a61c4eec9d05a3a171575c8f5c222d13631f86918dd829aaec95aba7ccfd7952fd7f188c6c8a8711ecd343d4d9be3",
+      "file": "skills/network/injection/index.json"
+    },
+    {
+      "name": "ipv6",
+      "description": "skill directory index",
+      "sha512": "ad67598ca0a1831d1109b53055bb8e96cfeca7f15d55346abbb42eaa650a4a0bdb88d1670a9990f7629611109c2a88c8568ed32d326aaddd0abe6388c0bdb820",
+      "file": "skills/network/ipv6/index.json"
+    },
+    {
+      "name": "lateral",
+      "description": "skill directory index",
+      "sha512": "40b5c2581bc32cf93bb8057c428bd18b414848b81010e3b55eda483d82288e00c62ca4604cd4373f6248b082ef144ccb70414e522a0d2820fdf61a51e4071df9",
+      "file": "skills/network/lateral/index.json"
+    },
+    {
+      "name": "lateral-movement",
+      "description": "skill directory index",
+      "sha512": "0ff60453cec5649b6f1fd59845604e0997c07840f6ea7f495f7a8aad4b1f4e280d188ff8dc6b6abaf6b0c6df14e912155a437d833c2c9f810a66b53013abad84",
+      "file": "skills/network/lateral-movement/index.json"
+    },
+    {
+      "name": "layer2",
+      "description": "skill directory index",
+      "sha512": "de767213b9385347af490c22f532d98f63df1d0e97c7a68adcff4f4329705b589f78408395c0bb82f9aa3cdcd8ebe26a26ae486ac24b2d039b4dd0197c2b2a81",
+      "file": "skills/network/layer2/index.json"
+    },
+    {
+      "name": "layer3",
+      "description": "skill directory index",
+      "sha512": "cb166e7460cd709ebd6eb48769f588b4c2b5a1a45536b6b915b4556887975db426015d1e8a43827cabf900fe6c26540cca77c263d3939d4692e2da2af856ebf6",
+      "file": "skills/network/layer3/index.json"
+    },
+    {
+      "name": "layer4",
+      "description": "skill directory index",
+      "sha512": "8b2c22787bf58501ea48df084686fd6f43251314301e5c0920cd0b71361c359cd9f78634eb489e92b23c42742a5a017d2f850255580b7640d1f9c34a14ec0738",
+      "file": "skills/network/layer4/index.json"
+    },
+    {
+      "name": "layer7",
+      "description": "skill directory index",
+      "sha512": "8d0e8c41c914f1562ed86b27aaa63e66b04b4906ae5a5884b337449f801629b7203b6878dc021bdef624a9c3025149375d2f264cd22bd91303253b1f03ff3acf",
+      "file": "skills/network/layer7/index.json"
+    },
+    {
+      "name": "load-balancer",
+      "description": "skill directory index",
+      "sha512": "09958f30b5d993392665c82136675d3e28216d0f5a32cdeae109d4d0693758821d5187f2db2197482114dcb2f1f1f9966bd8be72b455d74d29a83702f1854654",
+      "file": "skills/network/load-balancer/index.json"
+    },
+    {
+      "name": "metasploit",
+      "description": "skill directory index",
+      "sha512": "e61981d1e47d23fc4ece9e35adf6a9bc6d69d614b716eca954942cf7d659543151f0649a665e7325aea0481aaa472871bed6ebb05272e4759b10cbd9a7c46cca",
+      "file": "skills/network/metasploit/index.json"
+    },
+    {
+      "name": "mitm",
+      "description": "skill directory index",
+      "sha512": "cfbcdee5c49511ceeb363882da5b2166eb429636bc458b9d13ac64f0626760f8398ae7dd6adb1d71f54ba11e2ff199f51da32124013ef6ed020fb0f476339879",
+      "file": "skills/network/mitm/index.json"
+    },
+    {
+      "name": "nat",
+      "description": "skill directory index",
+      "sha512": "aa85cb815647aa2ee108f29a7803618ac4cbb7db0eb4e33eed3f59bf44a1879d32a046dfa5a40439d1366aee112e354b92dfc01277ad5d5b2266a854b0ff5465",
+      "file": "skills/network/nat/index.json"
+    },
+    {
+      "name": "nmap",
+      "description": "skill directory index",
+      "sha512": "5fd6fdebe39694d0c5d150b7e121b39a7d95ca8feee6547529523913def20ed54d5cc83fdac17ee13ca89363bd95267e7d3373b161c5478cdfc764fa80ca7aa2",
+      "file": "skills/network/nmap/index.json"
+    },
+    {
+      "name": "port",
+      "description": "skill directory index",
+      "sha512": "a2d0740642f91c0b1be0c64ed6bbbe15c79e090951b19972945971b7b74fb0d6d4719f648f1d4d4e29a0d73244711980e3e12eb128b5389d1bd58da0110944b9",
+      "file": "skills/network/port/index.json"
+    },
+    {
+      "name": "protocol",
+      "description": "skill directory index",
+      "sha512": "57492daaafa4e9501f4713cbafcb3b890b6d552e1f4be19dab382d84b6507246aa056bc71fcf86cd626982218718146b15192f33760f8049f23640731125a7d4",
+      "file": "skills/network/protocol/index.json"
+    },
+    {
+      "name": "proxy",
+      "description": "skill directory index",
+      "sha512": "ee113e595f321c3c3c1948951f1aca18acbc2472ae8ac0e06d0ba53d36aa8a6360c46aa3df8fdfc0d2fe3d449b9d2f76586e62cb3e70faf83ccdef173c696411",
+      "file": "skills/network/proxy/index.json"
+    },
+    {
+      "name": "recon",
+      "description": "skill directory index",
+      "sha512": "08cab8b689b0e6d0f5f5fdcbd1a0657facea74dcc66caa2316c6b7dc9861021db3b18a6b3c6b402be8eb114a30527734f902c12509157c9da3e53ae400658cd8",
+      "file": "skills/network/recon/index.json"
+    },
+    {
+      "name": "scanning",
+      "description": "skill directory index",
+      "sha512": "c5ed662d3b0201734892fd8b4a8d51dae1be39ee2b3b73a6651cc460dae1ebff3615e76e58d90b7544500be5ac460f96e6e5e8b2ed9dd02f467a18f0249519d1",
+      "file": "skills/network/scanning/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "1745e1ab554a09a48f00110067e20620fc6f3fd716a4f511b4aeaa6d8f3de63e44a4317a73dde5f04a133cbd03c5ce5a1650f53344330570fe81518a0b469286",
+      "file": "skills/network/security/index.json"
+    },
+    {
+      "name": "tools",
+      "description": "skill directory index",
+      "sha512": "6476b269a76367b10d1f8a4631da7f0f12ebf8419981e5e7c0d5e72db008a9c935cbfd25e91f1824f69ddfdb813a8cc3109b99ceeb0bddc5be2331d76778dad4",
+      "file": "skills/network/tools/index.json"
+    },
+    {
+      "name": "traffic",
+      "description": "skill directory index",
+      "sha512": "90e7a72a36e14a097509d89f5a975af9617e69cfb4c96b09547f0ed8a9c65437c0385961d554f5bfac0275b57675e85bba326ee9acad0b064f628ba758cf5ace",
+      "file": "skills/network/traffic/index.json"
+    },
+    {
+      "name": "tunnel",
+      "description": "skill directory index",
+      "sha512": "b1521a7806a6226142648f9920a0630e80b2753810001ed60657ec96f4c926a3dc9122f5e1659eb20e88a651ab96838038b23e1db5ef9098418257a0bd0795ab",
+      "file": "skills/network/tunnel/index.json"
+    },
+    {
+      "name": "vlan",
+      "description": "skill directory index",
+      "sha512": "173ce50a32016c35ec122ad1f41f74f5f19b3322405f980fd2fa5f2cb6be8e1ea1659b2b8b743abd71f1e466b69b08be2353d2cb5d84358f36b12ee135285759",
+      "file": "skills/network/vlan/index.json"
+    },
+    {
+      "name": "vpn",
+      "description": "skill directory index",
+      "sha512": "24bca20e15208b54b294891104a2e615e3d81341dd4ca688a3a407222e84ea885468a5314fbc141800e6c18223ba98e702d58606242ba1b8449f70ce40b51ba8",
+      "file": "skills/network/vpn/index.json"
+    },
+    {
+      "name": "wireless",
+      "description": "skill directory index",
+      "sha512": "7475b387ae96bf7bc6c5022d00176eaf66995ee35be28a4ac1654da44d461f9d62f36ec9af33a5a7327755f6d63b87f3c3e288fb9083a2122cc122dc7d466b4e",
+      "file": "skills/network/wireless/index.json"
+    }
+  ]
+}

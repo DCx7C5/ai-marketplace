@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tools-velociraptor-deploy",
+      "path": "soc/tools/velociraptor/deploy",
+      "description": "Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS en",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a9303b329ff7035714de50546d02aaa8ccd1e379e268ec565b63756dac1096e075611874704b73f6e641708598b505195b5b12a48374c73bca002cc1803e7d41",
+      "file": "skills/soc/tools/velociraptor/deploy/SKILL.md"
+    }
+  ]
+}

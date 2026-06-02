@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "93c6ce6d98b48e7b0e47b8d47afb572ba225d78f43093df68695608328092bb45975e01f3206703565029798d2e91508042d0abf61cac5a10f33a1d3bd358570",
+      "file": "skills/linux/forensics/memory/analysis/vol3core/extract/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "static",
+      "description": "skill directory index",
+      "sha512": "be0973066c5b7d4e542d08cf32e44cd1b920c192b421585346f300602fd1ca3c2d8d168963bbeb211fe0257bafbb1eea5d8e9ac4d9bd214eabba78e8bd2165e8",
+      "file": "skills/linux/processes/binary/static/index.json"
+    }
+  ]
+}

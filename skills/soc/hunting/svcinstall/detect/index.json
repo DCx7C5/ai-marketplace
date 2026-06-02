@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-svcinstall-detect",
+      "path": "soc/hunting/svcinstall/detect",
+      "description": "Detect suspicious Windows service installations (MITRE ATT&CK T1543.003) by parsing System event logs for Event ID 7045, analyzing service binary paths, and identifying indicators of persistence mecha",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4c989aaa4b78979cb801cd312c595f39989b7281b0496c7cc31426d37c5c74e3086668b32828149a717c042547a944fa463053591580883f180476096d696adf",
+      "file": "skills/soc/hunting/svcinstall/detect/SKILL.md"
+    }
+  ]
+}

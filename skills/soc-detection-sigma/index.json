@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-detection-sigma",
+      "path": "soc-detection-sigma",
+      "description": "Soc Detection Sigma.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d36699fac25255703377839db28a82ebfd2d619619569d281d79a2784b1282803b995b748828170a08fbf17de00d9652699a484ab896704a6d50362dcc23636b",
+      "file": "skills/soc-detection-sigma/SKILL.md"
+    }
+  ]
+}

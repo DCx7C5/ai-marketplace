@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-trail",
+      "path": "cloud-trail",
+      "description": "Cloud Trail.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bffcf9a37f52b58ad4b6186df37b1f5b381db6acbb9cdea13d34816fb60f491da7cfe979cc5d3b9f18404fbf9129f01534ebcaa7b80bbab2d9ab568b86bbf482",
+      "file": "skills/cloud-trail/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-tieredmodel-escalate",
+      "path": "identity/ad/tieredmodel/escalate",
+      "description": "Implement Microsoft's Enhanced Security Admin Environment (ESAE) tiered administration model for Active Directory. Covers Tier 0/1/2 separation, privileged access workstations (PAWs), administrative f",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d624b5ca5be78b17dbf9dee65c27a3d335e05aa45fa2810e4d1b58f34d7e1e2ad86d30ebf7441553e24560646444e0ce3f0eb8a8fad8709df71cbd4653703c17",
+      "file": "skills/identity/ad/tieredmodel/escalate/SKILL.md"
+    }
+  ]
+}

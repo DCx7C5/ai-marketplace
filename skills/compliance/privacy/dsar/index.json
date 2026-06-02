@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "5fb7e174327ccba12ffd797725e294719ecbab0413d03f126c06ea31e2b8af68708131fad50d06492eb13598dc7d29bea9bdcf60fb0858a9e296dfab6120d327",
+      "file": "skills/compliance/privacy/dsar/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b51f4286ba9b1fdba67d28287cd910377977eab4a44d06d5c50caf03d91559a8f82a888cf8bc5608c7df74decc15f8aa663ec1c5ac4ca6ef193a9cf71137172a",
+      "file": "skills/compliance/privacy/dsar/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "46d63719f575f406fd4181ec2763627eb942e93899e3981de7b6a8ad3e5f24fea9cf19dcf785e5e1da205c37c77bd032639c3a9cf87b6749d2d05e509d9883eb",
+      "file": "skills/compliance/privacy/dsar/scripts/index.json"
+    }
+  ]
+}

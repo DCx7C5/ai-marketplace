@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "554c7c34c385327259b0895d902e091f5e422d40de9f31e9960a4adf55670c5b9af78cb574194f32d610f3cf47a5c349f06da60439b2924d56183f4346a01d8e",
+      "file": "skills/linux/forensics/memory/analysis/siem-integration/detect/index.json"
+    }
+  ]
+}

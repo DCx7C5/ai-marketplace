@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-permission-world-writable-detect",
+      "path": "linux/filesystem/permission/world-writable/detect",
+      "description": "Detect world-writable files, directories, and scripts used in privilege escalation, cron job hijacking, and library path injection attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "811e5e86fe6f0b830a15e7daa3c1092a565f06fecbd28c0e1ea1b30d09890bc793b7576628766f76f315aa1864344bd6aa68f9a8d9906d36e4fc046d4b0cac35",
+      "file": "skills/linux/filesystem/permission/world-writable/detect/SKILL.md"
+    }
+  ]
+}

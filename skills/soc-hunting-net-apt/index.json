@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-net-apt",
+      "path": "soc-hunting-net-apt",
+      "description": "| | T1071 | Application Layer Protocol C2 | | T1071.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e78172b358bed985168837dbd284301fe47619b58be5ab0472e7c29372e7450c6b10b40efc7d91ea4b07f61c0d694f98a616e729e32bf8c966ba937e97e20f39",
+      "file": "skills/soc-hunting-net-apt/SKILL.md"
+    }
+  ]
+}

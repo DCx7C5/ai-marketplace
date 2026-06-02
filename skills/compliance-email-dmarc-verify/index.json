@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-email-dmarc-verify",
+      "path": "compliance-email-dmarc-verify",
+      "description": "## Validation - SPF record passes validation at mxtoolbox.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1f2aa494d64392e76890c06e3adcb6a252e733e9c5ab07049c4ad0c82895531c7d9a81a2ea82ee7bdb121e3570879aac47cdecfcc9be4aa5a3ee4642b3134ce",
+      "file": "skills/compliance-email-dmarc-verify/SKILL.md"
+    }
+  ]
+}

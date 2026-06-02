@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-stix",
+      "path": "intel-feeds-stix",
+      "description": "- [MITRE ATT&CK TAXII Server](https://cti-taxii.mitre.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d62a14a48391fe86c88240666a4ff42e3e8f2751c9a3d0d4b4468ed063cc9f36ea432f615155f2a14d34bc82bd5cb9c9a299e69760c267b1f8938fb1c883b026",
+      "file": "skills/intel-feeds-stix/SKILL.md"
+    }
+  ]
+}

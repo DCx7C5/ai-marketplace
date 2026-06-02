@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-azure",
+      "path": "cloud-logs-azure",
+      "description": "- When investigating security incidents that require analyzing azure activity logs for threats - When building detection rules or threat hunting queries for this domain - When SOC analysts need struct",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "42c7645c40a91ff1a23fd3a480ae2c6b8a7ddfd26b414e1f000b055c4bba42b0a7b2ea22bc7004517fb20967d196f53d33b9a81c2aad4dfe5e79fae127c48a45",
+      "file": "skills/cloud-logs-azure/SKILL.md"
+    }
+  ]
+}

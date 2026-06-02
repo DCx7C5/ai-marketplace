@@ -1,0 +1,367 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "agents-sdk",
+      "description": "skill directory index",
+      "sha512": "80d40a668b5f08f0bc689a9624b6d6330db28ddc4e26d59f72e8809fb62f7bd8093c1f3119650696788dfbe4a492a268d05a4f12972fbf30f8448f107ff822f6",
+      "file": "skills/devel-jb-cloudflare-deploy/references/agents-sdk/index.json"
+    },
+    {
+      "name": "ai-gateway",
+      "description": "skill directory index",
+      "sha512": "1923ba7d55f5838c9c6b6c1458578dfb3b24d42a02398d7dd1d1583fccd2bc82502daa1ae124b8510d36d0275daa1ebbd2114899c057e4c73e8d00f63fb8e654",
+      "file": "skills/devel-jb-cloudflare-deploy/references/ai-gateway/index.json"
+    },
+    {
+      "name": "ai-search",
+      "description": "skill directory index",
+      "sha512": "68be538231ea9efc3e2b9a30cb55910eaa38a0aa59e04b56f4c0d6bb4d14c03056d2168b47553875d6b3c0b26eaeae38d1d5729a86bd391aac342925fef04857",
+      "file": "skills/devel-jb-cloudflare-deploy/references/ai-search/index.json"
+    },
+    {
+      "name": "analytics-engine",
+      "description": "skill directory index",
+      "sha512": "1ff557dfb03ac74e0411d23b1a988559525b2326bdd04a26dfbd35700cb60802c8256aa2c39b7d7ef7eb2d86cc93a2fe0c8a5a7aa5be9b848fcc57481e4ad955",
+      "file": "skills/devel-jb-cloudflare-deploy/references/analytics-engine/index.json"
+    },
+    {
+      "name": "api",
+      "description": "skill directory index",
+      "sha512": "a3c5cae1e8eb2e65a80789b92328ce84aee67d7d8db359a4dcfc671e8b7ce9c1e323147b53279e2e75e86e47225bda55cb1b2bced6c5e71d97064ce71d243633",
+      "file": "skills/devel-jb-cloudflare-deploy/references/api/index.json"
+    },
+    {
+      "name": "api-shield",
+      "description": "skill directory index",
+      "sha512": "c95ae8d7cb27ee4b24c0f3b72c6fbb3bdd27c69cefc527b26b00c1704c3ffb2c28ba6afbeca8261f62c27242687871ca6c088506a4e6b565b64da3a39a0d85d4",
+      "file": "skills/devel-jb-cloudflare-deploy/references/api-shield/index.json"
+    },
+    {
+      "name": "argo-smart-routing",
+      "description": "skill directory index",
+      "sha512": "dfd58b36cfb0484fcc5ef27819226f1a70638b1543c3e6deca1b33cbe6f1a36c9e3014c61911fb6fe7e057817281c3b2239d533da477b5882e43dafdb80da59b",
+      "file": "skills/devel-jb-cloudflare-deploy/references/argo-smart-routing/index.json"
+    },
+    {
+      "name": "bindings",
+      "description": "skill directory index",
+      "sha512": "8d8b21ed00ba1ffac7e98d3de4c72776b86dcf10c47cae1b3a331535fc4cd4ebd93f65ef4fdc477e044de7fe76c9cb75a69f7751ce931b37230c277193d4f146",
+      "file": "skills/devel-jb-cloudflare-deploy/references/bindings/index.json"
+    },
+    {
+      "name": "bot-management",
+      "description": "skill directory index",
+      "sha512": "f5c229efadf3a9f0e00d9009184470e0044ef1235178870928cbd3d9839c25137f93aacef3af63d3464123468839dfcbdddc942f9d7b608d365fdf3c27d8f730",
+      "file": "skills/devel-jb-cloudflare-deploy/references/bot-management/index.json"
+    },
+    {
+      "name": "browser-rendering",
+      "description": "skill directory index",
+      "sha512": "99e94aaa5652309000bb20f592fad3d4e269f53cc72f549f07fcea33fa983b3f57bbe4cda4dcfa3dbef78abc41a6b8e66d0b1561f37ce5c8209eb1170996a299",
+      "file": "skills/devel-jb-cloudflare-deploy/references/browser-rendering/index.json"
+    },
+    {
+      "name": "c3",
+      "description": "skill directory index",
+      "sha512": "1e9c8d65091f886c2ca3b8962e25f9f80945abd496a9c1444909c99ae13daaaf13062c45f01d82b75bc62f2db09556c49cb927c74022f89f7cfcebf0f7446c79",
+      "file": "skills/devel-jb-cloudflare-deploy/references/c3/index.json"
+    },
+    {
+      "name": "cache-reserve",
+      "description": "skill directory index",
+      "sha512": "a3b0321b64d28443f3c393f650b528ad62cdbab85351d4989d5eb7f5a555b226f18b8630a615c8055b21ad0d0c104b4ed7a3680d5714749a4615b3ecbb3009bd",
+      "file": "skills/devel-jb-cloudflare-deploy/references/cache-reserve/index.json"
+    },
+    {
+      "name": "containers",
+      "description": "skill directory index",
+      "sha512": "d078e917e284b005c435e6453a6dee706847e57945120edc6884db821de097bdf3df27d44f77e37dae2eee6548a3f09ea37795bcd957c39a3e54ebc1e32b7e4a",
+      "file": "skills/devel-jb-cloudflare-deploy/references/containers/index.json"
+    },
+    {
+      "name": "cron-triggers",
+      "description": "skill directory index",
+      "sha512": "8759feaf9a2332db1f42ef7df6f4c99b60cebfca4cc0b9fbc24bd5c25f82a5fcfbea4ca44348ebb0aa02147b0bcef8a9d40dc501cf620f3a1c9efe6e7be15911",
+      "file": "skills/devel-jb-cloudflare-deploy/references/cron-triggers/index.json"
+    },
+    {
+      "name": "d1",
+      "description": "skill directory index",
+      "sha512": "9028d017d8fd14ef7aeb1716122d8c3deca5a463bcc6e41a162a2a61e1dc0af92bcf5c94cdd6e1e06ebdc991b1333d677d195242cef0d573300a764f2cb6a017",
+      "file": "skills/devel-jb-cloudflare-deploy/references/d1/index.json"
+    },
+    {
+      "name": "ddos",
+      "description": "skill directory index",
+      "sha512": "ddb439a0945cdc88e906c52d0b02b4772d20b2ab3c0de4f473d98263b3b5c79b19906dbdf08830bbe73f5f5218e93a038f8316b7e9eec0b94bfb62e44af88c99",
+      "file": "skills/devel-jb-cloudflare-deploy/references/ddos/index.json"
+    },
+    {
+      "name": "do-storage",
+      "description": "skill directory index",
+      "sha512": "7e8e159685edcc4fb25d2e8cdf46280ce414e07ad94e96fe64eb0d1d2275535ae5e63d95b2e5bda6317c98b0d1c2b9323af3ab266e4df2e36923e7836650914c",
+      "file": "skills/devel-jb-cloudflare-deploy/references/do-storage/index.json"
+    },
+    {
+      "name": "durable-objects",
+      "description": "skill directory index",
+      "sha512": "0339bcf9a7078283a8411be906fea722efa248329f5ec786ded1426349c94d09380b4112876a9a223e4e211dc7d6e57a7b4672bcbf85d62bebbe0a5330d97d33",
+      "file": "skills/devel-jb-cloudflare-deploy/references/durable-objects/index.json"
+    },
+    {
+      "name": "email-routing",
+      "description": "skill directory index",
+      "sha512": "a8823e5d05dba3a008e23aa03e3f388f8a63c22811c9c78441118280ced6bb02b96dc4e32cc0ae2dc8ce01753188cf65b4405c337b7df2bb13fb73f230d4446d",
+      "file": "skills/devel-jb-cloudflare-deploy/references/email-routing/index.json"
+    },
+    {
+      "name": "email-workers",
+      "description": "skill directory index",
+      "sha512": "531723e0501b01c41cd98274cd9c8927ec32e7e804ecf904ed97c298a5cbb17469d8eaf34eab878bd9841eb97e5d847b30d54fca9ac861037d5e79edcdf24a14",
+      "file": "skills/devel-jb-cloudflare-deploy/references/email-workers/index.json"
+    },
+    {
+      "name": "hyperdrive",
+      "description": "skill directory index",
+      "sha512": "e516a91a7fa23b8c3fb1ae6a1383d6f87f92db05ca47b6e55adbc81b52ba2369bcddb64992972c47b692c61f3bb857486d54d62c87d65dd8971ba395568cc96c",
+      "file": "skills/devel-jb-cloudflare-deploy/references/hyperdrive/index.json"
+    },
+    {
+      "name": "images",
+      "description": "skill directory index",
+      "sha512": "9e19c50caece6742e395a22a64ec6118a0993f77595da627bc907a0c9a4d7819b226416e12dcf3728ba64ea851031664c4c566f8a90afc7353af22cdd8f36d19",
+      "file": "skills/devel-jb-cloudflare-deploy/references/images/index.json"
+    },
+    {
+      "name": "kv",
+      "description": "skill directory index",
+      "sha512": "52b35d34752653f90622106bd690478a043a36851c516648707f5d2fe3d1d73db5733ad19245e2b09c6a96c2564e023e8099fd3ad2fab645bc12e04a8165c122",
+      "file": "skills/devel-jb-cloudflare-deploy/references/kv/index.json"
+    },
+    {
+      "name": "miniflare",
+      "description": "skill directory index",
+      "sha512": "44d8dadf3c32db75f46f33e0cb360b95f54d74330885c0582073fcb0f52b60dc29fde241c9fe277aacd5d4915e1f3eb4eaeb99988bd96808f5d0a9ffb7319f0e",
+      "file": "skills/devel-jb-cloudflare-deploy/references/miniflare/index.json"
+    },
+    {
+      "name": "network-interconnect",
+      "description": "skill directory index",
+      "sha512": "f2f529055de9dfd989abdeb9565b78f3aa96a1be0c5f111b2c064cd4a49965b23f4581487e583f7d1cbd554d648fb27799b4004c003c257cb99f5894db3db06e",
+      "file": "skills/devel-jb-cloudflare-deploy/references/network-interconnect/index.json"
+    },
+    {
+      "name": "observability",
+      "description": "skill directory index",
+      "sha512": "e79074cc1f772aadadb561ac1f4f35fc3b96aa563d1e33b7921b21785830484b38f62cc457f33784b592ee18f4ef4af0222ea10a315c7b3817c702e0e8c44dc6",
+      "file": "skills/devel-jb-cloudflare-deploy/references/observability/index.json"
+    },
+    {
+      "name": "pages",
+      "description": "skill directory index",
+      "sha512": "3d3d0a97ee9a37d796d2fd63c794eb6ac243c827da0ca3167874f5c97eabb06340f1dc14af4ae21d41724fb40a70b2d912e0d8bc7a8041a7ce67bbe358d44137",
+      "file": "skills/devel-jb-cloudflare-deploy/references/pages/index.json"
+    },
+    {
+      "name": "pages-functions",
+      "description": "skill directory index",
+      "sha512": "e3157a7ece0aac718df8a92a216a1042e33e116309c593d07b147791a01fb30416636a3e090316282935df775464b38350801344e6f35526482b0574abba764e",
+      "file": "skills/devel-jb-cloudflare-deploy/references/pages-functions/index.json"
+    },
+    {
+      "name": "pipelines",
+      "description": "skill directory index",
+      "sha512": "e371b587af462de1e72a751b93f38fc260c72a6c8d91e4830f517e97f08bf428322c75c1a242aacfff37ffec049ec8c3982218ef395f8a81e4538f47cff7c2e6",
+      "file": "skills/devel-jb-cloudflare-deploy/references/pipelines/index.json"
+    },
+    {
+      "name": "pulumi",
+      "description": "skill directory index",
+      "sha512": "97e984afc5626b98856c34efaf6ed5a7ab7590d0b37ecfb710935d2b68ade916a43f98fba33e7dd34b08022f53d7e73bb1f2afaedb0933ee8b8e2be583b98244",
+      "file": "skills/devel-jb-cloudflare-deploy/references/pulumi/index.json"
+    },
+    {
+      "name": "queues",
+      "description": "skill directory index",
+      "sha512": "92d083e853fa2b51b70ea10e54e9a37ae74f544c4c9d2e5c613306c99bcfbc69b5fd254ec0a0f43ea80d02418b7139f0ada1872886580113300a00637ebc5abf",
+      "file": "skills/devel-jb-cloudflare-deploy/references/queues/index.json"
+    },
+    {
+      "name": "r2",
+      "description": "skill directory index",
+      "sha512": "fe6f79298f3ad0dd63241ea7026165f1422f94cab26ec1fa3602e8776dbdfb2a2bfc50869ae395f193f6e862d818529ae8bab9c1a1c7d956fa6c9bb544e7a319",
+      "file": "skills/devel-jb-cloudflare-deploy/references/r2/index.json"
+    },
+    {
+      "name": "r2-data-catalog",
+      "description": "skill directory index",
+      "sha512": "9d41e98ec2aacdb43868abb08cd41e86c8ce6152ef40c3e3fad08833534413c9ad61f1f8128e77285713ad251dfa8024301974efa93acbc33632bda52b06c7bb",
+      "file": "skills/devel-jb-cloudflare-deploy/references/r2-data-catalog/index.json"
+    },
+    {
+      "name": "r2-sql",
+      "description": "skill directory index",
+      "sha512": "78c6eed21d302d245f031545cdebfba770b51bab234e92c278e85e15410dbd90eb8548aa5f9526f413675874acd6d1f3994ed6bff34ddd474ea2a84a267b3fd3",
+      "file": "skills/devel-jb-cloudflare-deploy/references/r2-sql/index.json"
+    },
+    {
+      "name": "realtime-sfu",
+      "description": "skill directory index",
+      "sha512": "0eea0abf75b88df94380d848acf53814bba2af75ac85adddf08ef41a97a2ec4fc78466bc98c8ad30760c5ace1e90a75a21ebcaa92adc5be371d2970a77222bb3",
+      "file": "skills/devel-jb-cloudflare-deploy/references/realtime-sfu/index.json"
+    },
+    {
+      "name": "realtimekit",
+      "description": "skill directory index",
+      "sha512": "898dfe16f00ec4da0e7fd89fd3d958bdb4f7526f1fa2d539ed153f2152f474329a4bbd5e4b255f3399da50e8bbbb7126d18c724d70966fc483e387970bf8c5ff",
+      "file": "skills/devel-jb-cloudflare-deploy/references/realtimekit/index.json"
+    },
+    {
+      "name": "sandbox",
+      "description": "skill directory index",
+      "sha512": "a30227d788a00ce35b0551179c5f1c2f548bab0ca3f8c5664ee151514500382dbc5f8d73b0056a363b3bcc214f19d8f9f75dc4648543bab8c5788a7d4148961a",
+      "file": "skills/devel-jb-cloudflare-deploy/references/sandbox/index.json"
+    },
+    {
+      "name": "secrets-store",
+      "description": "skill directory index",
+      "sha512": "a5bb179fd9fdd48c1bea9df7926774e0260b00b59385e8ff9a86ef63d9a81793a70a99c327ff95b8ca3d797c2fd109e271b4682a7c9e95800096a73f88d1766a",
+      "file": "skills/devel-jb-cloudflare-deploy/references/secrets-store/index.json"
+    },
+    {
+      "name": "smart-placement",
+      "description": "skill directory index",
+      "sha512": "4f4d4ab09612880e8221878f283e00caacc8b5c46baea4ddadcc167e7c3804ef280329421fff49867bf2d70c84a9609c7aa8bcc923152dedf7f12ba4b0d8eb90",
+      "file": "skills/devel-jb-cloudflare-deploy/references/smart-placement/index.json"
+    },
+    {
+      "name": "snippets",
+      "description": "skill directory index",
+      "sha512": "b735c0bd0de703147709da786ee8d22f4efe769137f21cba22f96784a851cd1a59ea43a13418ab1cce1f33a0e65fc0a80bccd8f6f8494ef62351dbcd65afdf2b",
+      "file": "skills/devel-jb-cloudflare-deploy/references/snippets/index.json"
+    },
+    {
+      "name": "spectrum",
+      "description": "skill directory index",
+      "sha512": "3f03aed3b2885848e802f870821492c0242ddbf8f4265f6aee40ab34df309cc99c0eece179a443c9a3b0df111265380345d5a60b4b5ad8a3fb09c3b0f63b8ba6",
+      "file": "skills/devel-jb-cloudflare-deploy/references/spectrum/index.json"
+    },
+    {
+      "name": "static-assets",
+      "description": "skill directory index",
+      "sha512": "99952cff83142f89ff3e55eac3ea49d15f3724a0414a14991c4f53e344a77bfbbe323c05c73c7cd7d05b8c2a30c43a51be34b965cf84b7c64ac7ec21b1873465",
+      "file": "skills/devel-jb-cloudflare-deploy/references/static-assets/index.json"
+    },
+    {
+      "name": "stream",
+      "description": "skill directory index",
+      "sha512": "c302b91026982e5202ddc9839bd80b378dff066448ca50cde888a93fad27f4ca6c34135f4e82cc36c8f165c1c49dbbb9b85520f04e6aecda3c4fb99c7016c0c1",
+      "file": "skills/devel-jb-cloudflare-deploy/references/stream/index.json"
+    },
+    {
+      "name": "tail-workers",
+      "description": "skill directory index",
+      "sha512": "f6ab069d2c83c6a40d30f1b621189c95effeceea0b47ef7b48c329adf5736be2b413966dafc6f8606ed14f0b54aed048b54555ce5909293b8e572bb2ce5953aa",
+      "file": "skills/devel-jb-cloudflare-deploy/references/tail-workers/index.json"
+    },
+    {
+      "name": "terraform",
+      "description": "skill directory index",
+      "sha512": "839209a39acf7399f37c50551ae98ff1bc46532ce2ea031ec4715b5fd08d154a78c319e92d7624c68eeda3808c84535f2106058f8690a08e689f23b7384072a8",
+      "file": "skills/devel-jb-cloudflare-deploy/references/terraform/index.json"
+    },
+    {
+      "name": "tunnel",
+      "description": "skill directory index",
+      "sha512": "381277952fad77bbc7ef0f345334a1a70a8fd7ec19623b79a2a21970a2f052aca808ae384b537248dd0e0676f22afc85f3348343775581875754a90aee95e2c3",
+      "file": "skills/devel-jb-cloudflare-deploy/references/tunnel/index.json"
+    },
+    {
+      "name": "turn",
+      "description": "skill directory index",
+      "sha512": "bcd16c1b905fa8ce885513ae706133935f8ff604b72367608886f19053a22da4dd9a5b17d4afce9d5de425ccd16c86f894ee76ef1caff4fda7081d3651c3d256",
+      "file": "skills/devel-jb-cloudflare-deploy/references/turn/index.json"
+    },
+    {
+      "name": "turnstile",
+      "description": "skill directory index",
+      "sha512": "03325c2690250825b343822a1b13fd8a25103beb5bea0abe43744d6b7b6861cc08c167b26dd1daba4c90d22556883fcf3d7d4a26a0e9368caeaab76e27b58842",
+      "file": "skills/devel-jb-cloudflare-deploy/references/turnstile/index.json"
+    },
+    {
+      "name": "vectorize",
+      "description": "skill directory index",
+      "sha512": "779d9cacb15300ab4c16c8e306dcea7c764ef71fa1b1b1eb1b8075f8b5e7704841ecf42c9ab5b74661a02e291a8e14364f31a272f169a1db04085b74e521433f",
+      "file": "skills/devel-jb-cloudflare-deploy/references/vectorize/index.json"
+    },
+    {
+      "name": "waf",
+      "description": "skill directory index",
+      "sha512": "91fad22d4c835517a417820009417039cb05b33ffd237f8217efa87b441897919824bc665b693d2fb5fc42ca56e8b4b7657668509f110fa88d5914a986728197",
+      "file": "skills/devel-jb-cloudflare-deploy/references/waf/index.json"
+    },
+    {
+      "name": "web-analytics",
+      "description": "skill directory index",
+      "sha512": "0afc7320f936c9af8ca405f357f4e02f1f651bfd0dc6d5c34effbf553ab18abb74a065e1a0bc595a702c78e68229177a8096da15940f9a5a5476c88d1aebb83b",
+      "file": "skills/devel-jb-cloudflare-deploy/references/web-analytics/index.json"
+    },
+    {
+      "name": "workerd",
+      "description": "skill directory index",
+      "sha512": "4b4ac65ce57be3f13f007b3164bfe1a9f316569af8235ee5584c85f098980a278e340b82abbeec715a47a164c786da493bceaa1c4115843acd5029ed2f1d12d8",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workerd/index.json"
+    },
+    {
+      "name": "workers",
+      "description": "skill directory index",
+      "sha512": "b877c9fbc33750aafc8ca0f3c8b68c7b80b890759c1e17ed565f5cf1441787b7d1acd2b5e506e828a9ceec3326a6caa389306ac432e5879607d696811ab240a1",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workers/index.json"
+    },
+    {
+      "name": "workers-ai",
+      "description": "skill directory index",
+      "sha512": "a442a35be504f997345da3982054c0c3e419f678104a63965783459cf9df0c9d9dd2283022313c7c5749769bdfee0f5d037bc03730a37371d24798b025f87505",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workers-ai/index.json"
+    },
+    {
+      "name": "workers-for-platforms",
+      "description": "skill directory index",
+      "sha512": "aafcdea20249c8e562807d9c8088c45a6a15406f96c180ca0ba9c69d0028da8f8a610166192acfc757fcdc76d65699340f3bdd334af6f0d1b5cb303c61c00318",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workers-for-platforms/index.json"
+    },
+    {
+      "name": "workers-playground",
+      "description": "skill directory index",
+      "sha512": "13e0d7a4ab821e08ceca6dc4513f2210c002abbb3eb9ec776b9f8433129001ce839e9efc5dc98db21beab9bf68ce9e3b8486ddfe506b7513cf9a74517e16264f",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workers-playground/index.json"
+    },
+    {
+      "name": "workers-vpc",
+      "description": "skill directory index",
+      "sha512": "01fa22f239dd405176dfa440aaae6661e44dcd0c9033f074aefbc1c22e8c37319a62aa29e020992032f5af6deb5a60971fab2bdce8d0d426adef429acae4d157",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workers-vpc/index.json"
+    },
+    {
+      "name": "workflows",
+      "description": "skill directory index",
+      "sha512": "74e0ca12b8131aafc24feae61f273be06db7ffd9c1fbed32cfc9991302dc1be611f1f6480ec879684f6913f022611aa84855c147d40845b7c9154d11126b9314",
+      "file": "skills/devel-jb-cloudflare-deploy/references/workflows/index.json"
+    },
+    {
+      "name": "wrangler",
+      "description": "skill directory index",
+      "sha512": "3b99921eec43dfa8c32d7cb665e397c2912458bc015289ee280788447b0bbcf6c21276580d1aaf4d19d459a1381f55904f17db201d99cae388f4776a36acf26d",
+      "file": "skills/devel-jb-cloudflare-deploy/references/wrangler/index.json"
+    },
+    {
+      "name": "zaraz",
+      "description": "skill directory index",
+      "sha512": "a8d95a539cc1abc40dc43c8cb4cfffc51317e435521f3deb4f02251d97f8703c96b6dbf650711074c42a3cb4ad245820083f16dcc93405902221ac2a534dbc27",
+      "file": "skills/devel-jb-cloudflare-deploy/references/zaraz/index.json"
+    }
+  ]
+}

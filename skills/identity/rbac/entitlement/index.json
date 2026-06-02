@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "4a1d40982d1016af566f9b6590019dffb2b4011290daee384b9bc7549fed85b753c5e4659d447ac3a92494017f89272353aed7a1bb1fae3dda233d65de08f761",
+      "file": "skills/identity/rbac/entitlement/harden/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d52b2c4754a2425d41725c26127af682b1d17e9e1e16eadde69611f744c9aea4d0933af8210ce4d5fd015b2e74c113b2c8ddd6cd85ed46950b2c68f1be6e2a8a",
+      "file": "skills/identity/rbac/entitlement/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f378ea40d62af01e06647c46772e2dbf761027a68099c4bf6a5623ac728edb0c5218f0d2750d18ed7b3bcb521f00f2b88e5436791557b4988a03a9e308e766ae",
+      "file": "skills/identity/rbac/entitlement/scripts/index.json"
+    }
+  ]
+}

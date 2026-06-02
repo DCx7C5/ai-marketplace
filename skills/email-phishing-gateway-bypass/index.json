@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-gateway-bypass",
+      "path": "email-phishing-gateway-bypass",
+      "description": "- **Barracuda Email Protection**: https://www.barracuda.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4f1a6a0fb41f3bb8dc93459703048d1aa561688d831258b19a151c617071c4f0dac2ded05d00746e40d43226afa2157d4d00115388933ec7bb1a3142be44106",
+      "file": "skills/email-phishing-gateway-bypass/SKILL.md"
+    }
+  ]
+}

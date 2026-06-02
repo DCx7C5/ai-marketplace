@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "timer",
+      "description": "skill directory index",
+      "sha512": "06531425e3d95fabb483f901b6d0a11ebcb675f600f7fb0e5f56153e4f04bde9324eaacd973010e6a159fd51fce9ae4ebce73830534d52cd81fb2473a7e360ec",
+      "file": "skills/linux/services/systemd/timer/index.json"
+    },
+    {
+      "name": "unit",
+      "description": "skill directory index",
+      "sha512": "5f17d41f44486b2e57b8a0af09adee8c7c8c915d90a4975184072778fb393b7c1874412de94f836cc5ef1eac59bf91b1dd64dd0b55d3128dd896c6c255e0592a",
+      "file": "skills/linux/services/systemd/unit/index.json"
+    }
+  ]
+}

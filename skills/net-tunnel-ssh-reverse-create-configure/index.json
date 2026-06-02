@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-tunnel-ssh-reverse-create-configure",
+      "path": "net-tunnel-ssh-reverse-create-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b4f1823c636804ce88fa6cd38848379c99a7e7486c33a6b0def66c989b1943a5219460f48f407812326617b0d97d9056943bcec73c10db4e5a2e13ac8db04104",
+      "file": "skills/net-tunnel-ssh-reverse-create-configure/SKILL.md"
+    }
+  ]
+}

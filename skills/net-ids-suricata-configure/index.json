@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-ids-suricata-configure",
+      "path": "net-ids-suricata-configure",
+      "description": "-| | 312 | 2024897 | ET POLICY curl User-Agent Outbound | 3 | | 189 | 9000003 | LOCAL Cobalt Strike JA3 Hash | 1 | | 145 | 2028765 | ET SCAN Nmap SYN Scan | 2 | | 98 | 9000002 | LOCAL DNS Tunneling Lo",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0cc79428100ebbbc25d0fbc07bd8fb07b0d3f034bf39e68ccb38e70a4ee932c68fa1ef9b0449176e414b9dd189ca3fc082be97ad3482c3479852832541f0a0a9",
+      "file": "skills/net-ids-suricata-configure/SKILL.md"
+    }
+  ]
+}

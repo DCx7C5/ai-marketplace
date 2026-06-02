@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-indicator",
+      "path": "intel-ioc-indicator",
+      "description": "- [STIX Indicator Valid From/Until](https://docs.oasis-open.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1691bb16eabf0ad46d46ff90c23ee8ad8e75fdea88595cd582c5a3d9a66ccd6efacdb5bee9da52c464ebeae85731874ef4a1b756c91f72f392906bf1acf233c",
+      "file": "skills/intel-ioc-indicator/SKILL.md"
+    }
+  ]
+}

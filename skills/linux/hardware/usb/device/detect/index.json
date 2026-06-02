@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-usb-device-detect",
+      "path": "linux/hardware/usb/device/detect",
+      "description": "Detect unauthorized, suspicious, or newly connected USB devices on Linux systems using udev rules, dmesg, lsusb, and audit log correlation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8ca029bbbff5595de9c524d3b428eb3364e3b1f73e2d294e703f930b92f49423fd99ce011e566e771f017bffb33fff9e8db1d87fc8079de2e6afa118059433b",
+      "file": "skills/linux/hardware/usb/device/detect/SKILL.md"
+    }
+  ]
+}

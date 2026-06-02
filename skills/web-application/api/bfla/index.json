@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "02e861b29b46b036f3b0f86b8fc139e87c321f32122d542908afc90bff208ef22524396e841563748243fa0c703f77fb7ca7049faaa5292c81e60d5d5007cdc0",
+      "file": "skills/web-application/api/bfla/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "a44d85dc2da78f69b57d858ce79376e8955bcf8590e00306e196f5c931b211dd85cb0998a3d3322c6ce4b424e8cc00a47565022db3b2f637996a891943387657",
+      "file": "skills/web-application/api/bfla/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "99390b5d86f93a3f28cd3e9e249356222c1869f4c9da3fb7b5eae28597954076c3fd8ea21fd4023904239722abe0fbdf63e1bb1cee0ac3fd8ebeb378068de87c",
+      "file": "skills/web-application/api/bfla/scripts/index.json"
+    }
+  ]
+}

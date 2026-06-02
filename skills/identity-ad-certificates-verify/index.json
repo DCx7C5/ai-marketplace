@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-certificates-verify",
+      "path": "identity-ad-certificates-verify",
+      "description": "--| | Certificate request with SAN different from requester | Windows Event 4886 / 4887 on CA server | | Unusual PKINIT authentication | Event 4768 with certificate-based pre-auth | | Certify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b78acb8ac7024fbbadd709bbfbff3d5ad30a5244eb73c93d52bc5f998b7b97480ffb40e40a10f8feb0ef6df24647d80eb89e0ff29d1548b10a853f486a48ebd",
+      "file": "skills/identity-ad-certificates-verify/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "a2f14f74f071bed950ee3bb6839b8ef681285bd32817f4811fd942329c76a469af8d792c1762b0f556cf0e5202cbb171744b1158ee761e738469d27e70662da3",
+      "file": "skills/linux/logging/syslog/forwarding/harden/index.json"
+    }
+  ]
+}

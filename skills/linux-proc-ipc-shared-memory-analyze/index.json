@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-ipc-shared-memory-analyze",
+      "path": "linux-proc-ipc-shared-memory-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9a71205cc0751000986368ea50fe6c4566e48fdc0de17a85ad9055df202111da339e0812640231c5022a3365bdb889e2735a532c48a6ef00221fa36e2ca7a6b5",
+      "file": "skills/linux-proc-ipc-shared-memory-analyze/SKILL.md"
+    }
+  ]
+}

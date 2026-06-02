@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "e55c693bdbe014631f02a7d2a2d58d3baeb86fa6d1887abc703b8c0c78d3f63c5292d849bd3c5ab47803edb25d98439235ddf7d4f81ce7b8af7bb6a1c8f76240",
+      "file": "skills/network/assessment/ciscoise/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4ae348f476f1aedcef432d5139d1967490378c748005e50ae2109cccc0206d1c3a3b6a6ad1300f9dd3fc39921d8474247fbb89ee45acaa9a9f4d8194e911861c",
+      "file": "skills/network/assessment/ciscoise/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d9560da8229002cebdb1d7040e1305d4b59f2986cc965c545c95e7fd457f8d828b48b3d9242e4d762d3e2fcc2af2ca68a9e8def562143af5a131b1802b81364a",
+      "file": "skills/network/assessment/ciscoise/scripts/index.json"
+    }
+  ]
+}

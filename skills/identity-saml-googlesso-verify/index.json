@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-saml-googlesso-verify",
+      "path": "identity-saml-googlesso-verify",
+      "description": "-| | Set up SSO with third-party IdP | Enabled | | Sign-in page URL | IdP's SAML SSO endpoint (e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9e69e28c6d8ac376a4999444e5b3d47402ba7f8680540824209e52ed7fd60b3accb97223afc8e015909f4eb2d66126c806a3dbaac509e1a50a1ff4e700340fa1",
+      "file": "skills/identity-saml-googlesso-verify/SKILL.md"
+    }
+  ]
+}

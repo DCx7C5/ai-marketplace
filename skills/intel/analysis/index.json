@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "actorinfra",
+      "description": "skill directory index",
+      "sha512": "e07dc1dd55ad06cdb570789eafc68570fdbb35c27762fbab6a10272aa81464c60d1bc630d23dfc3b6f720cd953a7ea3eb40f575fd00cb564608f2547062043fd",
+      "file": "skills/intel/analysis/actorinfra/index.json"
+    },
+    {
+      "name": "actorprofile",
+      "description": "skill directory index",
+      "sha512": "d813ae26d6dc09bd04824f93dc84e0231c3b7399c81b9d473d2f19a3dc1164e3631196a60230b86b97fe30c5d8fc990d7921d5df166ecd9d2f08d97de9d90105",
+      "file": "skills/intel/analysis/actorprofile/index.json"
+    },
+    {
+      "name": "campaign",
+      "description": "skill directory index",
+      "sha512": "3ed26e76b2b84e6d77a484b32e717d5d1bd78674b59eecaa6c29ecbb827315b81033d398f960d06b72bc8ed05ff64670f3ee2fb31979027b718d304ba0ebabe1",
+      "file": "skills/intel/analysis/campaign/index.json"
+    },
+    {
+      "name": "cyber",
+      "description": "skill directory index",
+      "sha512": "0cbbfd560abd4d7f6002622c32e54d684d661133d31007c9518027d04c72251d4fd4b0e7961a5b0a809123868749fc4d93e635f6b84fa013c2e674feff2af33b",
+      "file": "skills/intel/analysis/cyber/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "8d8120e439af120edabf5f8c8c0a8d55f68f028084ab76417841ec3b185934cdbb5b2db999f4404806508654420bc5d5c738dddfb5b5fb51606685a0a67b4c48",
+      "file": "skills/intel/analysis/general/index.json"
+    },
+    {
+      "name": "iam",
+      "description": "skill directory index",
+      "sha512": "06396ac8dbd045005d256e65fdc085fcaa86267d80223ff0dc54ed3bffa97cc015cdfd60248e6311095be51b85a1968cbe89453930fe5a1749d829a831ffd854",
+      "file": "skills/intel/analysis/iam/index.json"
+    },
+    {
+      "name": "landscape",
+      "description": "skill directory index",
+      "sha512": "a0b85fac97e7d2327670aefa131be0cabec3515d4f780ad2d89b2f1968429a5650e1518e92c2147dae1dd0b8b8ddcf47ab5f14edec3120eb438a02406e755466",
+      "file": "skills/intel/analysis/landscape/index.json"
+    },
+    {
+      "name": "mitre-attack",
+      "description": "skill directory index",
+      "sha512": "ce5697bcc1ac92685646fb61b378f3e9b1cbabd677ee14508c206c8c093a8be66f39ba0718374af3e144d338bc6a7f79414e3d9a9ff441edbb12fc4a410ab06b",
+      "file": "skills/intel/analysis/mitre-attack/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "654545580b2caac2083d6ec1e1420bc35da581f3d775887904d88cd2ffee92f6dce630ec05e5ca39a21575bb53bc10c1672e13436a9a301dae3dba72b2563739",
+      "file": "skills/intel/analysis/threat/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "a9303b329ff7035714de50546d02aaa8ccd1e379e268ec565b63756dac1096e075611874704b73f6e641708598b505195b5b12a48374c73bca002cc1803e7d41",
+      "file": "skills/soc/tools/velociraptor/deploy/index.json"
+    }
+  ]
+}

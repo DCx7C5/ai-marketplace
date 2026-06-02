@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-inventory",
+      "path": "webapp-api-inventory",
+      "description": "-| | Total APIs Discovered | 127 | | Documented APIs | 82 | | Shadow APIs (undocumented) | 31 | | Zombie APIs (deprecated) | 14 | | APIs Without Authentication | 8 | | APIs Exposing Sensitive Data | 5",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "281d70a644a66e7abc6b0fbe9e260a890cad0db67e2b39c8d1c5e67d657219cfffbc1f51eeef4f3c0f3a8cf4ee7215ed79c465f3be02e19a888e949b34767abc",
+      "file": "skills/webapp-api-inventory/SKILL.md"
+    }
+  ]
+}

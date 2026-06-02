@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes",
+      "description": "skill directory index",
+      "sha512": "66c6327bdd3a9c6ea9b800a0efa1694ce32a4390e578dc28e53667f262d1df23dc91eb08bf71ccefa7b98f01b595b10db5bbc469468bb72c65c22c5e80e4cca5",
+      "file": "skills/cloud/kubernetes/etcd/kubernetes/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-error-model-validation-architect",
+      "path": "devel-jb-error-model-validation-architect",
+      "description": "A bad run produces a pretty error JSON that still conflates malformed input, business rejection, and internal failure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84f8725a82613cb5cb95ba46f10b6e63cb8a49541100ac30021be68bb6688311661fe255378f957ef67a7d6caaaba6f5d92928714ac9081761f28b4b52a90a53",
+      "file": "skills/devel-jb-error-model-validation-architect/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "795596737f3e176ad0daf5d3623b3df22d1db336d048a623b6d9e62329dbc9a88351f361ad58b38901723ae7d6988d2c00197d97980c80f99e09b5794d68307d",
+      "file": "skills/devel-jb-error-model-validation-architect/agents/index.json"
+    }
+  ]
+}

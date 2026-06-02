@@ -1,9 +1,6 @@
 ---
 name: network-analyst
-description: 'Network traffic analysis, C2 detection, DNS anomalies, firewall rule
-  review, lateral movement detection, protocol inspection (L2-L7). Invoke for: suspicious
-  outbound connections, C2 beaconing, DNS tunneling, unusual ports, lateral movement
-  indicators, packet captures. Triggers: network IOC, C2 pattern, beaconing.'
+description: "Network analysis tool detects threats like C2 communication and anomalies in traffic patterns; used when observing unexpected behavior such as new inbound/outbound rules or suspicious"
 ---
 # Network Analyst — L2–L7 Traffic & C2 Detection Specialist
 

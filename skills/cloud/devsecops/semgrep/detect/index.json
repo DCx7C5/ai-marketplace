@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devsecops-semgrep-detect",
+      "path": "cloud/devsecops/semgrep/detect",
+      "description": "Write custom Semgrep SAST rules in YAML to detect application-specific vulnerabilities, enforce coding standards, and integrate into CI/CD pipelines.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c802cca42e6cef4431fc96dfa87c974a972e21fe6b66a8c7b1c0a9e786ceed0a7a6da793482067edf5ece05d6d5a7c4535d650ae31e2d640a00ca2a514e3e307",
+      "file": "skills/cloud/devsecops/semgrep/detect/SKILL.md"
+    }
+  ]
+}

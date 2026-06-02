@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c284956f6fbd3c998a6e59afdd92cb739cdf8f9bb80cb7936cb62fd2174902d87e1910be86b020d9c270852a7a13879dcd4021df0c806bbec6576b3aec79617a",
+      "file": "skills/soc/siem-soc/orchestration/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1a7d97acc0084fbcbbb9b4455b81d3e66c9a82b5627479eadc69e710af5a8225f898a58ce0a59d7660f977ebf7378f9803169a69f2322698c33422c96730f280",
+      "file": "skills/soc/siem-soc/orchestration/scripts/index.json"
+    }
+  ]
+}

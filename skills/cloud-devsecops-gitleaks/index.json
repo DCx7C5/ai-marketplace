@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-gitleaks",
+      "path": "cloud-devsecops-gitleaks",
+      "description": "Cloud Devsecops Gitleaks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0adb2909629c949ba4352d44e1683f15a56a2d1a830e515b00d6f5b7ad5cf94f97e824a2a9f590227fd875bca4ac4da84317692ed9242db49f1077e35d2ee57b",
+      "file": "skills/cloud-devsecops-gitleaks/SKILL.md"
+    }
+  ]
+}

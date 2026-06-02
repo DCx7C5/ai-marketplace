@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1d0d09d6bd1f9f0c754a5fbb4bee520e4d29fd48ef5dbcef89829337b89380346a53906fb39cc7963534da56e26424db5f5d93ee11537926d2d6e9fe4cbfd07b",
+      "file": "skills/linux/network-services/ftp/anonymous/detect/index.json"
+    }
+  ]
+}

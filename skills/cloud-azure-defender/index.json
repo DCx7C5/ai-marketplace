@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-defender",
+      "path": "cloud-azure-defender",
+      "description": "Cloud Azure Defender.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ca62b50c58680bb2c06f1b37ac4b91636b921dc252f02550aa8e33caa226e27a0a55852241e0213cf5e7a9f6ea968012014062c448fc7758f798d91d52580e5a",
+      "file": "skills/cloud-azure-defender/SKILL.md"
+    }
+  ]
+}

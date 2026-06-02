@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "continuous-SKILL.md",
+      "path": "vuln/continuous",
+      "description": ">\\n  Deploy Breach and Attack Simulation tools to continuously validate\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90fa0a9bd63950fec7078453f30693ea8ad06b2d18382ea1acf86fdbffa44c7b96a6ab89ffaa183c23525bf7adc0662657f78e320f36b733e5ef3be8c6b11f68",
+      "file": "skills/vuln/continuous/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "044bd2f567ed5eafa1008c3f390b3c02c1c0cca1411e0eb05ba2c61fc90739f86773147ae41aa8ce9605b3b0fb03b07a809ccdd34682aa5e0cbac28d14d4e650",
+      "file": "skills/vuln/continuous/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "eb1b365c1c4e847ec82fd0bd2af03bbf6de21ea5bff9541b14d9d4814fee9dc4cd991ef7f42d9c64f67e0894272df0251f9a613adfb5c7c88f1b9817a6f0bebf",
+      "file": "skills/vuln/continuous/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4a451ebf6ee6565a5885c20d8dfd13423ecdc457a1d330ada196949ff9a9ada7e051cacd41e9c73b8343439a89441de5708b6598ee72992fba01abcc1ed4d009",
+      "file": "skills/vuln/continuous/scripts/index.json"
+    }
+  ]
+}

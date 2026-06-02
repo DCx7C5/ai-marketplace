@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chain",
+      "description": "skill directory index",
+      "sha512": "fceb26a42c3fb140db53ca468622e05a42e494de87f6aeb259f09608409b60c0ed2f059c6378d28321a7c11f4795a9a26aece3020df3efd196bab7042c41c862",
+      "file": "skills/linux/memory/rop/chain/index.json"
+    }
+  ]
+}

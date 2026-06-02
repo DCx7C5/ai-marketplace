@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-lambda-aws",
+      "path": "cloud-aws-lambda-aws",
+      "description": "Cloud Aws Lambda Aws.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bee874da56fe8e7a91cfc506463ef62e69e053e630050c0ce3586c993548b112273ad57d600b23cac118e04d2354a962531c9ded69ffc66ae580036fb2a02056",
+      "file": "skills/cloud-aws-lambda-aws/SKILL.md"
+    }
+  ]
+}

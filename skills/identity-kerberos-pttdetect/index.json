@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-pttdetect",
+      "path": "identity-kerberos-pttdetect",
+      "description": "JSON report containing detected PtT indicators including anomalous ticket requests, RC4 downgrades, cross-host ticket reuse events, and risk-scored users with MITRE ATT&CK technique mapping.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "96154c432057e6cb8c94210a2cf8fc9998cd52dc88a4b7cfc50e672f33c3011e71548fead04d53d1e18bf6a97f408efae81150298e180d31fdb924f436a5b659",
+      "file": "skills/identity-kerberos-pttdetect/SKILL.md"
+    }
+  ]
+}

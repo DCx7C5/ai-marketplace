@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ntfs-usnjrnl-analyze",
+      "path": "linux-fs-ntfs-usnjrnl-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1b2250975bab54bed73bea2b210e04a15381f2c94e17632d71204c4b767bfe941f5c4a9a4b2edefab6ad7e4808a8a56fab341a3da41b4801f1ab5439866b157",
+      "file": "skills/linux-fs-ntfs-usnjrnl-analyze/SKILL.md"
+    }
+  ]
+}

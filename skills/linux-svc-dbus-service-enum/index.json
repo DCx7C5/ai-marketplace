@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-dbus-service-enum",
+      "path": "linux-svc-dbus-service-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bf278f92a8071b6f55da77895248ff2d488677622720219ebed17e00e16d97eaf23610c60f3c291016edbac655c84a75c0e18516a7cdc2afd8ed582b7397b25f",
+      "file": "skills/linux-svc-dbus-service-enum/SKILL.md"
+    }
+  ]
+}

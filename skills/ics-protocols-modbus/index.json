@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-modbus",
+      "path": "ics-protocols-modbus",
+      "description": "Ics Ics Protocols Modbus.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bbe0f23bd3496a58bb656358e0fc5222d5848ea60b7842fc5490777c611464575bb3a6e83ff421d7f2c5ec068323311198c76df52e58d2e8cfdf7c80425351b9",
+      "file": "skills/ics-protocols-modbus/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ea4cdb61311462cbadcf101a566ca116be9f620186da5c134d6779fef7b5766e039462d8ea4a34c3101b521cc4764a393f9180c88f766413a5d2be963fdaef91",
+      "file": "skills/ics-protocols-modbus/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "abced07df5f249123fb1fb929b6934adf9916570cf28457a2ab010886f92ac94b10e9cf5d9fbbfcfa14e67301299108321c316231d745dc2390337a51c9e8db8",
+      "file": "skills/ics-protocols-modbus/scripts/index.json"
+    }
+  ]
+}

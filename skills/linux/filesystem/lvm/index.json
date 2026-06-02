@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "snapshot",
+      "description": "skill directory index",
+      "sha512": "76ba1ef52b01e9099240cbaff0cc2b421facf998a4103704f7214fd3291ba9fdc54efd2d16df625f3f5a1261c9dfc94aec24250158aef6071210394537610a57",
+      "file": "skills/linux/filesystem/lvm/snapshot/index.json"
+    }
+  ]
+}

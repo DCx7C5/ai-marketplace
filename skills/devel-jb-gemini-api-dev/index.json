@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gemini-api-dev",
+      "path": "devel-jb-gemini-api-dev",
+      "description": "For real-time, bidirectional audio/video/text streaming with the Gemini Live API, install the **`google-gemini/gemini-live-api-dev`** skill.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9718c3202ca2550bcc005e4bf55eb3f8fe82c6672c5b2ab7aec97b0f233369917c31f2919e2fc6c67b711ebcbbada2c4c53b21ef66a5e50ebb3eb9f06b0b4002",
+      "file": "skills/devel-jb-gemini-api-dev/SKILL.md"
+    }
+  ]
+}

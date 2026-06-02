@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-modbus-monitor",
+      "path": "industrial/ics/protocols/modbus/monitor",
+      "description": "Monitors Modbus TCP traffic on SCADA and ICS networks to detect anomalous function code usage, unauthorized register writes, and suspicious communication patterns. The analyst uses deep packet inspect",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7bf6b248c777440fd3c5258720e998e193b6d9efd5b50576e2dd050e65ebe29ae1f7c6e3c38353826ac2004f0a0ca3ebba38c0b02fe911eec577e372a58701fc",
+      "file": "skills/industrial/ics/protocols/modbus/monitor/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d8c6455ac2b44df4db787567b492bb2f194baba847b92edbea8e02de267c59533929c8aad6a889ffc799b039f10da92833b05bc116a4b4a2ca8e10d08bb1aab8",
+      "file": "skills/industrial/ics/protocols/modbus/monitor/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ab7f8d91095ecbcd8fb1875acc68665e6ea84f2b0abd4c29d8344cd9ac322eb42a67ab848ae03a94dd55b90d75cbcaf245d455e7b2d0f1e4051b4e664dac3dac",
+      "file": "skills/industrial/ics/protocols/modbus/monitor/scripts/index.json"
+    }
+  ]
+}

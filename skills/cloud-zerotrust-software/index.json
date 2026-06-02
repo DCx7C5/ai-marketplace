@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-software",
+      "path": "cloud-zerotrust-software",
+      "description": "- NIST SP 800-207: Zero Trust Architecture - CISA Zero Trust Maturity Model v2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b589b63c149e2138b7d2cd779cb83b3b3718c63b4a9c4d15ae09103c6cf7a5f39967bfce7b6825e320af38316976d9d79c3f1e939f191fbeeb7c7ff65ae9cf58",
+      "file": "skills/cloud-zerotrust-software/SKILL.md"
+    }
+  ]
+}

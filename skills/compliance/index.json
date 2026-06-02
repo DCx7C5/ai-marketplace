@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cis",
+      "description": "skill directory index",
+      "sha512": "09e45b6a7629123382ae021e68a03308ae4554d1affa5f55e461aab6a218cf56f245e661db8834e30e8ff02c4d9a0b0387bbc5ff0acb05c78edd132710ee96ba",
+      "file": "skills/compliance/cis/index.json"
+    },
+    {
+      "name": "cloud",
+      "description": "skill directory index",
+      "sha512": "c1b290a48fdcdfb4f64d304664b685695b49baae9f02ff1a3ae8ad0a2b1ae75646ca54704559027062ad62ee4ae04e6cbc79c61675cf3373f4476c560348956e",
+      "file": "skills/compliance/cloud/index.json"
+    },
+    {
+      "name": "email",
+      "description": "skill directory index",
+      "sha512": "d1b32f0af564402b8c45a42efe4e2fbf7a13b63e3ebde8a3cff757b51e9f6b4d7a09c69c125fa560805b79b806c0572664d26be63a5300e1656605c3bf3dde1c",
+      "file": "skills/compliance/email/index.json"
+    },
+    {
+      "name": "iso",
+      "description": "skill directory index",
+      "sha512": "3a4e791df91d9e36557ced7998ef6d127fe8f718d91de82a416c086733a40e8110d50647ff646b455d6f05653b8584b1cf9d442897fa6ddaf606d1279fcb571c",
+      "file": "skills/compliance/iso/index.json"
+    },
+    {
+      "name": "nist",
+      "description": "skill directory index",
+      "sha512": "093ca0a13c9fe693c56ad34b726c8272eeb146d14b5105961eb18de268cb0895a34d586fc65787fdebc10c2d85a33edbb4e76b03527bab6a55d6587d3245eea9",
+      "file": "skills/compliance/nist/index.json"
+    },
+    {
+      "name": "pci",
+      "description": "skill directory index",
+      "sha512": "649eb5175f9f2072a918f222e32e5ad0cf98ff8075d7ed8f500014c5c53d3d06ecc8a42dabfc6341b63c04db5efd943a1ad91c416537d8165953024bda6ab809",
+      "file": "skills/compliance/pci/index.json"
+    },
+    {
+      "name": "privacy",
+      "description": "skill directory index",
+      "sha512": "b855368927b8969e5b6f658fb333e9347ea1501e27b2b9f49d804e1452559673765a511e982acc055f528bbd2cfc35ca2d2b5b982ae77f6e27d5d1db3b19e99f",
+      "file": "skills/compliance/privacy/index.json"
+    },
+    {
+      "name": "soc2",
+      "description": "skill directory index",
+      "sha512": "b1bb5d79b872e9c17ec9be57559bd9c737acbf1fdbf97c52d5be8bb41424db8e2a510e23a5274e154a0417f503417c37185fc90eaaae3e55e2dc9df05287f0c1",
+      "file": "skills/compliance/soc2/index.json"
+    }
+  ]
+}

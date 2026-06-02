@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-playbooks-phishing",
+      "path": "soc-playbooks-phishing",
+      "description": "8. **Compile response report**: Aggregate playbook action results into a summary report with verdicts from URL reputation, domain reputation, IP geolocation, and email header analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6becd01ece0cbc3dde9c8edd6fb24eb07471e86ff0cc7f575da789fd92d4495f6021e97511b3414d398f8120f1a489f330bd94425a089ea4633e118379018488",
+      "file": "skills/soc-playbooks-phishing/SKILL.md"
+    }
+  ]
+}

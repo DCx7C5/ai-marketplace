@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-bfla",
+      "path": "webapp-api-bfla",
+      "description": "Webapp Api Bfla.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27052701a350ee24c1d623dc5dbcf770e97f3319ee7422af11c0620c42188dfec5759370c985077915da6e48e6eb9d4c2ef9f3dc674b3ff14ef396b052d85a0b",
+      "file": "skills/webapp-api-bfla/SKILL.md"
+    }
+  ]
+}

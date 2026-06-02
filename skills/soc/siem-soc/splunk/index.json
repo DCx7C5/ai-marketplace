@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection-rules",
+      "description": "skill directory index",
+      "sha512": "21f9f7f03e3648dc1eb59d8309a746ad3dca0198c2fd6dcd51b2bbd243b19a823fce6bec6d6c05d85c4005a0a672ea7b4cbf8d25ef68cef5ae6eb4a1cdeeff7c",
+      "file": "skills/soc/siem-soc/splunk/detection-rules/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "db4313b55be5bb1368ed8ee3302246858504579c442644c42fb53ec669ed1a8e77f43758eda2f1ea2c5ab163d9d5f662ee94cb34e14b33462cb3d90a4ea2def2",
+      "file": "skills/soc/siem-soc/splunk/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "95d9ae15cdbb7cf6892aa017357c130ee8db76eeb24ae480cf3a8c450aed226e998f83e8a013da44ea78512c51da7ed49be18fcd43f7a002352de280029e35a6",
+      "file": "skills/soc/siem-soc/splunk/scripts/index.json"
+    }
+  ]
+}

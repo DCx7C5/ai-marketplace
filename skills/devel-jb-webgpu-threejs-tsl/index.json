@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-webgpu-threejs-tsl",
+      "path": "devel-jb-webgpu-threejs-tsl",
+      "description": "- [WebGPU Examples](https://github.com/mrdoob/three.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8e3b99d3e0c1d45b0085de5abbc840c1fd3b0aa0225c892ea83be76ab41bef5c331874ae97bc84cf831cbd5dccb8e6a46adb0a7ffd09c8514108fb1d66d8bb9",
+      "file": "skills/devel-jb-webgpu-threejs-tsl/SKILL.md"
+    },
+    {
+      "name": "docs",
+      "description": "skill directory index",
+      "sha512": "bd3a42b4e97e8e2f7f1a00575f70bb9f74b1a5288de909b59011c1d7d47a8ca24e2768e4c944973c2906c5420809c4525b6fe374bd34299cae93e095b00cc835",
+      "file": "skills/devel-jb-webgpu-threejs-tsl/docs/index.json"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "e99de1e4a1c882d6895ec0fb45fe29f6dd51d4749e1bf499bd61acc0544bbeb8aa988a2bbf965de6a35dbe76e1faa1f1e550406cdd30352c4130bca811ad06fa",
+      "file": "skills/devel-jb-webgpu-threejs-tsl/examples/index.json"
+    },
+    {
+      "name": "templates",
+      "description": "skill directory index",
+      "sha512": "a55f3a9347497a7791c108a2dcb76a7793b0522fc3b8927c4f71e0a6a476248295ce9a1af6c1375f003eed809a0ba35bcfdea383882441f2e43f023806be0685",
+      "file": "skills/devel-jb-webgpu-threejs-tsl/templates/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-architecture-purdue-configure",
+      "path": "ics-architecture-purdue-configure",
+      "description": "| | Purdue Model (PERA) | Hierarchical reference architecture organizing industrial networks into levels 0-5 based on function and trust | | Level 3.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d3999301d92c5120196e5b737f2a4a77739faadfb11a579e7fdf2f1ee5270fd6af836190b7cd8aafc7b81dbb6ecf2b9ac4856dd71045acb50d296be99ea24540",
+      "file": "skills/ics-architecture-purdue-configure/SKILL.md"
+    }
+  ]
+}

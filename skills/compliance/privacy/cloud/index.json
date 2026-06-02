@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "2e9bf92c584556d08eb98343cf19d194cd39ca2ab6296010681ed7b0fcdd43b54f90e96cb43ba96e326e693863f58599363085c69d4ab8fb22cbdd1f0e013cc4",
+      "file": "skills/compliance/privacy/cloud/analyze/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f5f5c5de14010f7b08d4f23bf8d63905a449c2d6112150bcbb336a2220c3cdd96eca17585a3ecc008231b3f02d16c9d52f21a3cea65c687daf2ec8de495056de",
+      "file": "skills/compliance/privacy/cloud/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5ccc0faa0a64af774a5cbf498a51b4542714bd6685505e1eb7560212258e130015aba9ab78a270e675a90617e3e33ae4eb7f5f3e350b3304b9a8431a925fa058",
+      "file": "skills/compliance/privacy/cloud/scripts/index.json"
+    }
+  ]
+}

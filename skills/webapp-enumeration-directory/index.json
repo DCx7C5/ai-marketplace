@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-enumeration-directory",
+      "path": "webapp-enumeration-directory",
+      "description": "--| | /etc/passwd | User enumeration (42 accounts) | | /var/www/html/.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "141f7fb5f182a6fc26a7a57a00b73ad5e323355c4e1e696e35855e68b6f539fecb321ac9c8e56d45c6bc20d315fcd552ec3e16d448310b54adac54620fcdfbec",
+      "file": "skills/webapp-enumeration-directory/SKILL.md"
+    }
+  ]
+}

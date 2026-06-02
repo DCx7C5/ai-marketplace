@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "design-prototype-review-detect",
+      "path": "web-application/design/prototype/review/detect",
+      "description": "Detect and exploit JavaScript prototype pollution vulnerabilities on both client-side and server-side applications to achieve XSS, RCE, and authentication bypass through property injection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "56f90e552c67f3c13b37442366507468f9d0d0e5f709d1054e82ebb9f5f07163249c3ab5350556f44b12d7c689dfdcbd01e476116cd82066651ee9ca763251cc",
+      "file": "skills/web-application/design/prototype/review/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-csrf",
+      "path": "webapp-auth-csrf",
+      "description": "Webapp Auth Csrf.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "63e7c426a80bb4e157ba5baad4478bcb6ff98b97e08f5677f7ee686ba548ef3633ac98e1d1545851e3f783cf63734d48e644cce6f0606eaaa0fafb24550725d7",
+      "file": "skills/webapp-auth-csrf/SKILL.md"
+    }
+  ]
+}

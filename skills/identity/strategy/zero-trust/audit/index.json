@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "strategy-zero-trust-audit",
+      "path": "identity/strategy/zero-trust/audit",
+      "description": "Deploy CyberArk Secure Cloud Access to eliminate standing privileges in hybrid and multi-cloud environments using just-in-time access with time, entitlement, and approval controls.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0948abe93218e40667fec0f22bb67ea1ba5b5732af78ccd02a5de26651ac3a677107f098ae1b592b77113c33667769116c7a409bf8fb88132d4fb4ddc58197ca",
+      "file": "skills/identity/strategy/zero-trust/audit/SKILL.md"
+    }
+  ]
+}

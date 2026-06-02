@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "05d3b928caa1fad7334621e1020cba24767b5bd4b89d4752e62bced1d54f60f71ce8275ee05edd6ad68e83ab4e6ed3d264c920672cfc592a5edfafc1bac7e42f",
+      "file": "skills/cloud/aws/guardduty/threatdetect/detect/index.json"
+    }
+  ]
+}

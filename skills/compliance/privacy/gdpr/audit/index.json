@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privacy-gdpr-audit",
+      "path": "compliance/privacy/gdpr/audit",
+      "description": "Automates the Privacy Impact Assessment (PIA) workflow including data flow mapping, privacy risk scoring matrices, GDPR Article 35 DPIA and CCPA/CPRA alignment checks, data inventory cataloging, and r",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "107c307720477b16f46d25668d00fcbff09d0d4bb28d8a1e9984fea47158e5128df7363e2947d78cb5ea8975e547f158df76ef070784a160c25391d266f155b9",
+      "file": "skills/compliance/privacy/gdpr/audit/SKILL.md"
+    }
+  ]
+}

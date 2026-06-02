@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privesc",
+      "description": "skill directory index",
+      "sha512": "61a8e850644e9e6a555635725d83bd603f3d666aa2e21b0ab50f71907642442664885da95f7a97b97f14abd1b7b52e57de217fab8da84feaea5787c945743328",
+      "file": "skills/linux/containers/namespace/user/privesc/index.json"
+    }
+  ]
+}

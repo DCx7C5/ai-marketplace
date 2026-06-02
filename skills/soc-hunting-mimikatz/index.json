@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-mimikatz",
+      "path": "soc-hunting-mimikatz",
+      "description": "Soc Hunting Mimikatz.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "83f5003026ae67f6727aa2f039132ef9705791aeb4d9161609d24824c9065eab47b182fd56fda762dc2e717bbdfed6396963ee1799985bd5058f2deea98d7d6f",
+      "file": "skills/soc-hunting-mimikatz/SKILL.md"
+    }
+  ]
+}

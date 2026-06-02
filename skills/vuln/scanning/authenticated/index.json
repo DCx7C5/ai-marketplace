@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "authenticated-SKILL.md",
+      "path": "vuln/scanning/authenticated",
+      "description": ">\\n  Authenticated (credentialed) vulnerability scanning uses valid\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7f44575e41bae997de5d4bebdb29911a3ae377b31531c0b1970165658a3fbc63b0704afd0aa743e1cc49a848683c3ca99c9a5ca11adbeb8e6e6b571cfec0aec2",
+      "file": "skills/vuln/scanning/authenticated/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "5172c48066f4089e1c7d1140e29af315f0d4c98a29fe9a715e59170217536a2537e2bb92a5b8ec68fb3722599a14eda13ffe7e8c04d9bbaebeb79e314d3cc666",
+      "file": "skills/vuln/scanning/authenticated/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "de66cbe51a92d562ca2a2de03477b40ecda4d9833af2dc822bc6c19e9958c64d63c877402ef1e3236f96676895bc48d0171cedcdb0605e535a7fbdccf0b208fb",
+      "file": "skills/vuln/scanning/authenticated/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e3a29831c5a2cc953379014df5892a4a3d2e57711e07ba0d92e977e2b3d1596c9dd96a10038789f81be5890b82f822a1068182169a69dce9c4e2a87d8e3f2f47",
+      "file": "skills/vuln/scanning/authenticated/scripts/index.json"
+    }
+  ]
+}

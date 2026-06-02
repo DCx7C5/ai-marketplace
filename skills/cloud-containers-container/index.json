@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-container",
+      "path": "cloud-containers-container",
+      "description": "- [Ensure Immutability of Containers at Runtime](https://notes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d32474547f34bd4873838a9c640cf7e427fe720e4c01146482c6877b044f7e8e285578df3d9b0acf8f267f50df5d7d2c1e0117b4ed7ade9df9e9f8feb89911d6",
+      "file": "skills/cloud-containers-container/SKILL.md"
+    }
+  ]
+}

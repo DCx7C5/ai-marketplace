@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "binary",
+      "description": "skill directory index",
+      "sha512": "08f4258bdd99fa192253f8949e7edf9ee213e03a2217bb03b5692cc771ad951da80d9b6f61b2b96d9d0004b0aab0a0075494104e04d26a716332cb6a85e9871f",
+      "file": "skills/linux/supply-chain/binary/index.json"
+    },
+    {
+      "name": "package",
+      "description": "skill directory index",
+      "sha512": "a5745e044097ebd6c65e16dd79045eae6d0a45d70fb70dd36d56155ceb9ad77b554ea38bf6af991f7a8998458532c7708c6f0d7c3d179969694f76987a14d7e2",
+      "file": "skills/linux/supply-chain/package/index.json"
+    },
+    {
+      "name": "shared-library",
+      "description": "skill directory index",
+      "sha512": "d4a91006626209381fa0f1ccb886104d582975d41ea7187da9978ecdb7e46ceac4c8184a4fd67972fd95cc5e0619d9b216be315ef336da526cdfc861dee69f8b",
+      "file": "skills/linux/supply-chain/shared-library/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-inotify-evasion-detect",
+      "path": "linux-fs-inotify-evasion-detect",
+      "description": "subdomain: filesystem-security tags: - linux - inotify - evasion - bypass - monitoring nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fdce2f201f8ca4c946d0a8cce15353723bee8b04a40fcfb4cfcae3574bada9bcff975cfabfa05e4f1ac05f71c3ba832924596fe23e79308c837e510884513ad9",
+      "file": "skills/linux-fs-inotify-evasion-detect/SKILL.md"
+    }
+  ]
+}

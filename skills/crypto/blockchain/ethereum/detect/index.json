@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "blockchain-ethereum-detect",
+      "path": "crypto/blockchain/ethereum/detect",
+      "description": "Perform static and symbolic analysis of Solidity smart contracts using Slither and Mythril to detect reentrancy, integer overflow, access control, and other vulnerability classes before deployment to ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43d17721ff5e7ca157959aa6e3481be2c467235706a52b47935e1161bbe1c9b3361f75d59ab9da2d832a55fbc66c7a0087938b4c231373e5fb120d94a2a00169",
+      "file": "skills/crypto/blockchain/ethereum/detect/SKILL.md"
+    }
+  ]
+}

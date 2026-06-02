@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "90dcc117be81be14cabddd3b382d1f62f57d6b48f669fde06d224e84e6c1b94dcebb427a948e5847b462c4f2f2a0f1df82c05b5d389cd9966ac67405ec21a376",
+      "file": "skills/cloud/containers/scanning/distroless/exploit/index.json"
+    }
+  ]
+}

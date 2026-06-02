@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-fuzzing-course",
+      "path": "offensive-fuzzing-course",
+      "description": "Offensive Fuzzing Course.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5a9fc31b4230edfc4732d19b01f37459ab2abad6d0170dff73ec4903d387e9735ab5bc112ab320c85493834e36d66a3a4b0cc4d9911d29678dd4d8ae45cea334",
+      "file": "skills/offensive-fuzzing-course/SKILL.md"
+    }
+  ]
+}

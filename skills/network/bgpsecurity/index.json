@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b503d535cb962f68e92a489dd0c113988e8451769fc3cbc18fc70265a825c9d3c41c1772890026558babf3ef5c313f2887bb04e0359dac5d307eaaa858f7798e",
+      "file": "skills/network/bgpsecurity/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7e14958fbe4e88a025fe7c8ed1d7445e09d08aafa5313b71b961df80d50c762fd9895d74e475a7ea2abef29ba25fe969f73331f304ad55d8138872eb89398a32",
+      "file": "skills/network/bgpsecurity/scripts/index.json"
+    }
+  ]
+}

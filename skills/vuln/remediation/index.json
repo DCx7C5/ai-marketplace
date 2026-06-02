@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bucket",
+      "description": "skill directory index",
+      "sha512": "7c3446235a0a2cf2c87de6561a49c145c614ce73f0b950541ffd092a2df409eff3d0529f681277174368ff2938e8427a8778a0d4efb48f213db8509c9338a7b4",
+      "file": "skills/vuln/remediation/bucket/index.json"
+    },
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "b279e4d2d152277a23567f28676aee93fe7f95899b8ef9186be83db71787252fb85f8ffe891c98675e557cdefe5562bc6dab74c6d0a9e8174b0d3f6278de7506",
+      "file": "skills/vuln/remediation/endpoint/index.json"
+    },
+    {
+      "name": "patch",
+      "description": "skill directory index",
+      "sha512": "160f939536ad90180a35692761525b901961f6c6b3b48e622f9b36606ee0c2a2d96b643fd36edcc0d4fe6117bae34f28356fb07f28a76aa151dcffa82df11ab1",
+      "file": "skills/vuln/remediation/patch/index.json"
+    },
+    {
+      "name": "vulnerability",
+      "description": "skill directory index",
+      "sha512": "fa1d629e498385c0ea7711c811720fa4a0f199879d49323c523ae0305c211dab4a435b59f163715ea4623476c29e15531702e89ab083d34f96cfe1a42c64393e",
+      "file": "skills/vuln/remediation/vulnerability/index.json"
+    }
+  ]
+}

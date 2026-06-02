@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "74871fb7f76187e73b5b111982ab91458fc05b0a6ecc1c4060b33fbbc0fd4d0233a1daaed2200793f7adaf84745f8b6aa5e8be6c0fdddebbd209daa5d3a35617",
+      "file": "skills/web-application/api/owasp/analyze/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d0cc668fb322a755ef3cddc2bad400f437611dc23230e8246746502fe7f5c20313342199d79bf5a05502cd37ec49543868c184debdcb471be9f5d67428675222",
+      "file": "skills/web-application/api/owasp/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "8af68b862a408d8ba5fa8ef5f1c304b556c5be7ca6589cc7853fc8203996bacfed21bd539893b9dedc41cd0f93d485234d0261369c347e4d6594940c6ddfc08c",
+      "file": "skills/web-application/api/owasp/scripts/index.json"
+    }
+  ]
+}

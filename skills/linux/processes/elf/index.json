@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "got",
+      "description": "skill directory index",
+      "sha512": "ecfc961b7f3b07503d7935dba180c58fd1ce7ba90da2c6c2aef44714d5de1dfc65a0e28254717934b94197e6ee2657c6393485ab31bb2bc373bf5b4251e48051",
+      "file": "skills/linux/processes/elf/got/index.json"
+    },
+    {
+      "name": "plt",
+      "description": "skill directory index",
+      "sha512": "12e5a2c12a83137a6c7722de0957af10f3f1334d7b8fc7c79ab01c2e22fdd6ff17eb8b43339a8bda6f478b7c84e9badc39d956bf30a0e74ac855f17e6fdcd835",
+      "file": "skills/linux/processes/elf/plt/index.json"
+    },
+    {
+      "name": "section",
+      "description": "skill directory index",
+      "sha512": "db5b5c2f3c8afae151a4fc34e22e4d04da25beeb13acaea04d9e498d61fffe01a1d97e8401d3849d046eb94cfbe23678815649495572090e8f5613ef9e33fa12",
+      "file": "skills/linux/processes/elf/section/index.json"
+    }
+  ]
+}

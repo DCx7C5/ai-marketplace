@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-ipc-shared-memory-analyze",
+      "path": "linux/processes/ipc/shared-memory/analyze",
+      "description": "Analyse shared memory segments (POSIX shm, SysV IPC) for data leakage, injection, and cross-process communication abuse in containerised environments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "37e8bffcbdd21919104b2f5ad82bfc8b88197cc608adeabab6df79cb7641abdfce77fa5f0c7230e7aa5559b14a5479ab71c4a93fd06ec1328e5d59f172e3848a",
+      "file": "skills/linux/processes/ipc/shared-memory/analyze/SKILL.md"
+    }
+  ]
+}

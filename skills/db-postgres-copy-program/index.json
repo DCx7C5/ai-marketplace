@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-postgres-copy-program",
+      "path": "db-postgres-copy-program",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27c34a2448edce229197b1d8ea84934d6668482f7efb63ce19eaf30f9f7a0d58b83451e8c5c96e376488d36ac3015d873f1f44ef07b34ef7d54298111e9602bf",
+      "file": "skills/db-postgres-copy-program/SKILL.md"
+    }
+  ]
+}

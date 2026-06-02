@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "37e8bffcbdd21919104b2f5ad82bfc8b88197cc608adeabab6df79cb7641abdfce77fa5f0c7230e7aa5559b14a5479ab71c4a93fd06ec1328e5d59f172e3848a",
+      "file": "skills/linux/processes/ipc/shared-memory/analyze/index.json"
+    }
+  ]
+}

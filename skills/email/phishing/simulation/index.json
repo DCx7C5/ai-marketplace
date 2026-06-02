@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "f33b3912c619d4512e6c3240e0f3a9312bf93c9dad7e94c750951890552d5f4dc6606f9243512856e32e98c0947b9c43aa60cb73f29498cdff164ba5fad13fcf",
+      "file": "skills/email/phishing/simulation/exploit/index.json"
+    }
+  ]
+}

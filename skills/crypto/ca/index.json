@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "openssl",
+      "description": "skill directory index",
+      "sha512": "cdfdbe2fdd14ac375fa6171143f478544144990d5c81920a56cb20b918847387d91f59146a44ab8102f2f88097227e542961895c1dfe3ed3a45c07ebfa289e99",
+      "file": "skills/crypto/ca/openssl/index.json"
+    }
+  ]
+}

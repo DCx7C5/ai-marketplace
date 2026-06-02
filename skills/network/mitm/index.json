@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "edf2fbdf11cc97d72c9064f7ac274cbd442df64bd0174578f57b995dd39e0bde2736aaa100e79f3d5ef010c2560628907d88a3605ebba554ff155ad014cfb86a",
+      "file": "skills/network/mitm/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f5cce251e0988110e56687ca1f59046a32b45f024bc44bb5f691cfdfcb824f99b5ab483371f7b03e7719967768a4f96524d8cb09fe7f7e648a263fd8d13ce979",
+      "file": "skills/network/mitm/scripts/index.json"
+    }
+  ]
+}

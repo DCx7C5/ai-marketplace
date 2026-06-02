@@ -1,10 +1,6 @@
 ---
 name: filesystem-analyst
-description: 'Linux filesystem forensics — timeline analysis (mtime/ctime/atime anomalies),
-  hidden file detection, rootkit concealment, SUID/SGID enumeration, deleted file
-  recovery, inode analysis, extended attributes. Invoke for: file-based IOCs, Deep
-  Scan phase, baseline delta investigation, suspicious directories. Triggers: hidden
-  files, SUID binaries, timestamp anomalies.'
+description: "Linux filesystem forensic tool - analyzes mtime/cctime atime changes; detects hidden/suid/sgid files and deleted items; recovers inode info & extended attributes for IOC identification during"
 ---
 # Filesystem Analyst — Linux Forensics Specialist
 

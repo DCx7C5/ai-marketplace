@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-firewall-ngfw-recover",
+      "path": "net-firewall-ngfw-recover",
+      "description": "Net Firewall Ngfw Recover.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9c590765bc1e6ac9f89d08ed6d727bc4994edb1701c32d7869ce60d7e4ac04f55101f4beced248c2531a435b51509ce8f22f2c4af672af8a3f052eb277f09611",
+      "file": "skills/net-firewall-ngfw-recover/SKILL.md"
+    }
+  ]
+}

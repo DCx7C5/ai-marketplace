@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-ids-snort",
+      "path": "net-ids-snort",
+      "description": "--| | Attempted Recon | 342 | 1:2100498 (ICMP ping) | | Trojan Activity | 12 | 1:1000001 (Reverse shell) | | Policy Violation | 87 | 1:1000004 (FTP cleartext) | | Web Application Attack | 23 | 1:21006",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a01eee198d7b690810e21e3cc344198aea7ccb25f9c727ccee9a27b6073c29e8fc0d07946fe052c4459e3e2de2ebcfd2168cb2265785c9c9f217a3066607f512",
+      "file": "skills/net-ids-snort/SKILL.md"
+    }
+  ]
+}

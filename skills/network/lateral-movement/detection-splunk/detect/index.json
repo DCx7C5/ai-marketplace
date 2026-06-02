@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "lateral-movement-detection-splunk-detect",
+      "path": "network/lateral-movement/detection-splunk/detect",
+      "description": "Detect adversary lateral movement across networks using Splunk SPL queries against Windows authentication logs, SMB traffic, and remote service abuse.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0de357298dea6d7f4072d0b57c4419a27988c8d6c4d7e6c91f2dfba7645a78001d5bd82cbacd421e1f44d9cc07f9233cd75f4a37e10044f4d7f69fbc8c2faab5",
+      "file": "skills/network/lateral-movement/detection-splunk/detect/SKILL.md"
+    }
+  ]
+}

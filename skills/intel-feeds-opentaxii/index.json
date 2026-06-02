@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-opentaxii",
+      "path": "intel-feeds-opentaxii",
+      "description": "- [Kraven Security: STIX/TAXII Complete Guide](https://kravensecurity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "39090cc9e04ea0aedfb53f36db4393a97d7535a1eba0e3db34d9e20fa72fb96c9e40349a733bfc15bb753abd3cd393462ac46e5bf4c6bc391f9f468c56122967",
+      "file": "skills/intel-feeds-opentaxii/SKILL.md"
+    }
+  ]
+}

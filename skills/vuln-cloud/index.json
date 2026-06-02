@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-cloud",
+      "path": "vuln-cloud",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c8f398f2f6ca9de5f9e7ebd0808675a76e74cebd2fe6bc00a2710198ae123e72a712b7ea535558e49d9f518066e84e2b365cc59cc2317b70f592c64607fd9e97",
+      "file": "skills/vuln-cloud/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "ce4749365109e3144d75aaadc2e36c6bc391da0ceecc7eafe6045766d541e9dadf72c0407b062771cc3badde765c2670c8d0e698523fe5539fb9ffe475cc5144",
+      "file": "skills/vuln-cloud/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "08c339736029401f8ffadd44b81cf0228cb643dd1f596d61adce734d8375d14e2ac77a82637374bbcff059c956b8d5ffa6c0cf151cc2f77a7952e86a0a5c1359",
+      "file": "skills/vuln-cloud/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "fc4252d1119e09ca15825d0533d0a917a08c142524c4f9f875f1588087d754895abd881f63b51618a906bf52c85517df9418605fa3126453f98344f760368cc0",
+      "file": "skills/vuln-cloud/scripts/index.json"
+    }
+  ]
+}

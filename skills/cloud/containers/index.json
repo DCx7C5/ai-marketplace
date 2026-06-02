@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "calico",
+      "description": "skill directory index",
+      "sha512": "87f8fcc635386c7985ae9e4ff9d95a9069729ef0033cb7035bd9cc7afc2c0bffcc7c2bd2fc8242403ae2954f4d20143180af4227052e3862d3c54e24ebe2a91a",
+      "file": "skills/cloud/containers/calico/index.json"
+    },
+    {
+      "name": "container",
+      "description": "skill directory index",
+      "sha512": "a2d094f71aefaa73accf29f4d7ac4a155e3eb9a88ebcd344aa93be81a68b6ebe21dbbeec01717eca82a8388bd4a9302301d9a0ddde4cf3f9bba7b2e4686c5297",
+      "file": "skills/cloud/containers/container/index.json"
+    },
+    {
+      "name": "docker",
+      "description": "skill directory index",
+      "sha512": "637232fd941cc675d303dfa4aa753e5a2076a9f17f2e9a1f5abc8a9dba0384ae46021b53cd77cb25d79d2afe35de23886645a8043ff0b6514fc5e01e39ec2566",
+      "file": "skills/cloud/containers/docker/index.json"
+    },
+    {
+      "name": "helm",
+      "description": "skill directory index",
+      "sha512": "b9aa3e022b3ce6677ff55bcb34a89ef61191f29a1157574e632e32b34266482d9d588e4d4fe5de13451f5b5f8f69bcafe147df425801da584c99fd3739eb697e",
+      "file": "skills/cloud/containers/helm/index.json"
+    },
+    {
+      "name": "image",
+      "description": "skill directory index",
+      "sha512": "24efa5a7e570b567929b5022971e04bfa52b472c6dbdd32a65e1bd257fcd5b53480e125509725fa97e1c72d3595a6f9aaa41d1b72a68c56c73c37873889d73d8",
+      "file": "skills/cloud/containers/image/index.json"
+    },
+    {
+      "name": "opa",
+      "description": "skill directory index",
+      "sha512": "b6f403b65e9e982e4b23ab9952ec822bace6f698c494bb6868768c81d2fa3674df31a2cbea30dc915c060c75f7fd78c7be4c10657a58fdc3fbe76977d17ffb23",
+      "file": "skills/cloud/containers/opa/index.json"
+    },
+    {
+      "name": "pod",
+      "description": "skill directory index",
+      "sha512": "e1159bc1bf1cf8525e230da4753b9b9e6c39731b23fba34a676a2aab09ee1640c06e031433c4bf79e5b9098bd5d8428ce5973a6929284506d98d81d846bf6430",
+      "file": "skills/cloud/containers/pod/index.json"
+    },
+    {
+      "name": "registry",
+      "description": "skill directory index",
+      "sha512": "ba6a33be9b7c6939523bf5ce7043c5738b9bbbdf27d9d42fbb6bb99943c8802d49adea41b82e8759df15101dd88ccba7ff0dcff84dc5eb290b74d6d0b4a833fb",
+      "file": "skills/cloud/containers/registry/index.json"
+    },
+    {
+      "name": "runtime",
+      "description": "skill directory index",
+      "sha512": "ca32348274e7f08888d880cbe91716805fc4bb5589b5a4433d50b75405fff4e9ac34484a38f71fa4a5f2fe64513fe83b8095aa889c90fc5eecab01aff168e26e",
+      "file": "skills/cloud/containers/runtime/index.json"
+    },
+    {
+      "name": "scanning",
+      "description": "skill directory index",
+      "sha512": "36a5bdcd60ab0335d5a5463cb1ab2cae5934370836e8913959646118823eb2c7b6baa9e0f676361c84ba3b8b47ffffe6dcdf03dbca88aecda21ea1698fa7316e",
+      "file": "skills/cloud/containers/scanning/index.json"
+    },
+    {
+      "name": "supply",
+      "description": "skill directory index",
+      "sha512": "1a1e3a4a30868e979762ca3c92f5717be4c06af8b3a2833e9450c370d0ddcf8398461c4025b4f8ef7051888f871d317c250ba5eb2a99c3796474cc84b597647a",
+      "file": "skills/cloud/containers/supply/index.json"
+    }
+  ]
+}

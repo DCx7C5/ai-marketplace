@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-wireshark-analyze",
+      "path": "network/capture/wireshark/analyze",
+      "description": "Captures and analyzes network packet data using Wireshark and tshark to identify malicious traffic patterns, diagnose protocol issues, extract artifacts, and support incident response investigations o",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a9dd93883a260471e26bdf0bd48d3d09275a8791eff83de010d92db34388e04d45c0f5bc5f6ec9bbe150221e480bb441db87fdfc72385a2cc0effb5cacb173f",
+      "file": "skills/network/capture/wireshark/analyze/SKILL.md"
+    }
+  ]
+}

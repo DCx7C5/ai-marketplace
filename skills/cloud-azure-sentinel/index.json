@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-sentinel",
+      "path": "cloud-azure-sentinel",
+      "description": "Cloud Azure Sentinel.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e059dc59efa5ab4188e3570bf4b01d46f1341afd477c4e29921baf98773da546cff6b6f30045d1893e529778e67229cf77ece1f6a1ec09825df7640169fe6ce2",
+      "file": "skills/cloud-azure-sentinel/SKILL.md"
+    }
+  ]
+}

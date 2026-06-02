@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vulnerabilities-SKILL.md",
+      "path": "vulnerabilities/prioritization/vulnerabilities",
+      "description": ">\\n  The Common Vulnerability Scoring System (CVSS) is the industry\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e3650b155c0678c2a3d8ab5c2ecde346fe7463b0c703a5375e09d634ff415fd64d3fe5288432cedc597081bb449d1542913a33351d297363258217366d58b122",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "f02679c790e9993aa26a803ddb18d1ebbd7f77248fe50f983b76344876cd8dfa7f7139ab1b8b3e97cc44464f4ef4e88a1e198406701d42b7537e2633bc17f991",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2163bd3a4ff76f2ff5999de7cfe8ab3a9a5a7b0753886cc933992c306f5cb63cd90066be986df14d55266c91f76e0daba3577c43f09dde87505c5e8fbcb3b149",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ca3078ab4b7657359bbdc05b9cde674eb40712844e0c84681e7d6291bb826a6c272cb88921dcbdf654254d53c79023376552c86868e2f319949a980f3cbea748",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/scripts/index.json"
+    }
+  ]
+}

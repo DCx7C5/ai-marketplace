@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ir",
+      "description": "skill directory index",
+      "sha512": "767aac1388ead832238dd6e1ce4d16128b3491b1affd952daaa47ca24efe91e728fe03d84e99f0120c27966929f7a88fa920d98cdc2a6f60e0b9b01230462b7d",
+      "file": "skills/soc/dashboard/ir/index.json"
+    }
+  ]
+}

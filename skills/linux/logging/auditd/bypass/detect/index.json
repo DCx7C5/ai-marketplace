@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-auditd-bypass-detect",
+      "path": "linux/logging/auditd/bypass/detect",
+      "description": "Detect auditd bypass and evasion techniques \u2014 identify LD_PRELOAD hooking of audit libraries, auditd process termination, rule flooding, and buffer overflow evasion.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cfac39864325142df8da0533bb71edbd6097b24471319ebf6ce791ce439adba49f8b921d4bc2f7119e8d8dab54f9a1f2474245e31ecbbad6a8c836af752bbc4e",
+      "file": "skills/linux/logging/auditd/bypass/detect/SKILL.md"
+    }
+  ]
+}

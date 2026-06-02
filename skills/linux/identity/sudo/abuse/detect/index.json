@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-sudo-abuse-detect",
+      "path": "linux/identity/sudo/abuse/detect",
+      "description": "Detect sudo rule misconfigurations enabling privilege escalation including NOPASSWD, wildcard commands, LD_PRELOAD abuse, and env_keep bypass techniques.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a28a33105b7ab9a1de98ac944547788c5354f136245362bbdcfff1b527e11dfd52bd5d5590844944b0293a92a63fd75022dcf0417bf4bc4a259abc002187ac90",
+      "file": "skills/linux/identity/sudo/abuse/detect/SKILL.md"
+    }
+  ]
+}

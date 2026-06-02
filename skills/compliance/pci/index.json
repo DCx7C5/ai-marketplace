@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "798230f6217b3d6ca7749263e7250c87c62a8ad2790ab0a69c33fdda59710d44d46f48bc96e3915ba3db857098c49de9284be42ddee9c9a18a8f205e8c6abe78",
+      "file": "skills/compliance/pci/assets/index.json"
+    },
+    {
+      "name": "dss",
+      "description": "skill directory index",
+      "sha512": "0c5ddcbe42a1224d4efaf1e85fc3303f4d2ce6a4dc8496d426b8bf21966d598f5d17ec500dabad04405722cc6abc8aca6bb0162e9f640e790e607fefa4ad29b8",
+      "file": "skills/compliance/pci/dss/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1f0a8587ffc087b134c962d7165259aa3e72d4e25ec6dd70a25b9255e27497d1ff658cb3bcdb545bb23e33640999de5de08d38eb81e1d14a1b43ce912ea01aef",
+      "file": "skills/compliance/pci/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "676ac029cb86d03fc7f27bf634b9661909aff29064d66264b4a185a386fbe2ef84c33f6ce2449ef9b6aefe6bc25c7144a5dfe4642cca59032b0efbc8129a1994",
+      "file": "skills/compliance/pci/scripts/index.json"
+    }
+  ]
+}

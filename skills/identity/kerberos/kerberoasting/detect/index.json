@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kerberos-kerberoasting-detect",
+      "path": "identity/kerberos/kerberoasting/detect",
+      "description": "Detect Kerberoasting attacks by monitoring for anomalous Kerberos TGS requests targeting service accounts with SPNs for offline password cracking.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6efa2df5c3016778365c7e149054609598681cce39ac007430de7cd51b11d656b0fb114bbfd47d8b57f64648551c0dc2ee345f29c0824219c5f05517e1305048",
+      "file": "skills/identity/kerberos/kerberoasting/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-scoutsuite-detect",
+      "path": "cloud/aws/scoutsuite/detect",
+      "description": "Perform comprehensive security posture assessment of AWS accounts using ScoutSuite to enumerate resources, identify misconfigurations, and generate actionable security reports.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "415657b8980df1cd97642b3b05c53f1535bbca24a75333ad78a1e66564b5977eaac77e3b1475fd7ceb909c4641dd5deebab3196c1af8f6455983318f91e51b40",
+      "file": "skills/cloud/aws/scoutsuite/detect/SKILL.md"
+    }
+  ]
+}

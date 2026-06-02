@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-postman-verify",
+      "path": "webapp-api-postman-verify",
+      "description": "Webapp Api Postman Verify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ba34ca1f537e63761ff375d842b032b75c8b9665322973178ee39e3583a56f09eb426d736f70f4be4f82e4ab2e1e405fd5d6b979d7b8837ae80d373c64b987be",
+      "file": "skills/webapp-api-postman-verify/SKILL.md"
+    }
+  ]
+}

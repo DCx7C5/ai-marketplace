@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "splunk-detection-rules-detect",
+      "path": "soc/splunk/detection-rules/detect",
+      "description": "Build effective detection rules using Splunk Search Processing Language (SPL) correlation searches to identify security threats in SOC environments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4e08978e2cf4262226452f36ab9264a51e7b0e740c88f61d9c689998f9336c68765608a3fe806427fc5de4afe1226d8269feca4ae6554b9a1b0b7569bd3da3d7",
+      "file": "skills/soc/splunk/detection-rules/detect/SKILL.md"
+    }
+  ]
+}

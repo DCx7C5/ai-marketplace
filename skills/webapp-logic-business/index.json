@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-logic-business",
+      "path": "webapp-logic-business",
+      "description": "Webapp Logic Business.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3c792ca51af7926ab08ecfb483a5390c0e113bd18f5d1230397e4f80cb75cbc5aebd53c0b69d4ebf2c59efae610a573fe021101a58dbe5160e9723e72376aa69",
+      "file": "skills/webapp-logic-business/SKILL.md"
+    }
+  ]
+}

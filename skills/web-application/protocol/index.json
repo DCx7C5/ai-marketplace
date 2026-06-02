@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api",
+      "description": "skill directory index",
+      "sha512": "3c945990d5dfbbe65d81031be0270e7f7e9a32c78d679e13a24f2cc6e9ee14853584c264df5ccc216053039813bb76d7d55eff772e650b154ca69cbeb72c9a30",
+      "file": "skills/web-application/protocol/api/index.json"
+    },
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "5db21c76f214beb77f016987fb49ec75bfa186949510e81814309f435e6304858bf5fbe9f906d978e33d681e2c2d1910e35033443c72e238e3a9deb650fcc969",
+      "file": "skills/web-application/protocol/http/index.json"
+    },
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "6704150079b9e7343ea33cc3d1eeb13468636fca1844e2ea367dccc352b5eac4d2fe30e2d1e14b74deb4ac6ca1d6599a5ef5f5ba19a64b7020e63a0d2c9db2bd",
+      "file": "skills/web-application/protocol/tls/index.json"
+    }
+  ]
+}

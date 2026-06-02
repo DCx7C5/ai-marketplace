@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "8924387bbca7a4253c0d243064864db833d6365e6bd07b9e381060d978a148dcf8bd19579304f490eb7f5ff1f92f156f55fd2a8427818c61ed5e7ca20150d765",
+      "file": "skills/cloud/zerotrust/identity/exploit/index.json"
+    }
+  ]
+}

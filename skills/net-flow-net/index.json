@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-flow-net",
+      "path": "net-flow-net",
+      "description": "print(flow.IPV4_SRC_ADDR, flow.IPV4_DST_ADDR, flow.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9db5b16437e75549d884e9c4d484f7702ea5b2dce426e83c624d7320b0f1a0bb7b3bfd6212aa7d746b18f2b705350a83e47d615d251209fb8110b907179785e5",
+      "file": "skills/net-flow-net/SKILL.md"
+    }
+  ]
+}

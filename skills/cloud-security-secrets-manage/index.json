@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-security-secrets-manage",
+      "path": "cloud-security-secrets-manage",
+      "description": "Cloud Security Secrets Manage.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "db6da954c736e1306122a4acd7b4f381877877a026f699a8dc83cda3ee1f7689f65bd57166fc447bf821fe88191f5cde9cc5763cd89c910e68d0dacd3f186916",
+      "file": "skills/cloud-security-secrets-manage/SKILL.md"
+    }
+  ]
+}

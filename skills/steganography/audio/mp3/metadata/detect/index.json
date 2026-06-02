@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mp3-metadata-detect",
+      "path": "steganography/audio/mp3/metadata/detect",
+      "description": ">\\n  Detects hidden data in MP3 ID3 tags and metadata fields.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1985c119792d462262e626602309d0b3c17ddbc9bc02d2cf2bac72e2713e9a9198b841164b03d1548a268f608554ae6310b1865f1c3b18372abd2ff646768048",
+      "file": "skills/steganography/audio/mp3/metadata/detect/SKILL.md"
+    }
+  ]
+}

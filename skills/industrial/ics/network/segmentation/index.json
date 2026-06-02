@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "implement",
+      "description": "skill directory index",
+      "sha512": "b7710dd478af8d0ad0d56647bc130e49e462283f7eb42d881e2cc601b1b40d32571118219d4b12418f50bd52326ef2cd339802853141df7a2d82410cf30862e9",
+      "file": "skills/industrial/ics/network/segmentation/implement/index.json"
+    }
+  ]
+}

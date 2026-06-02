@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "proxy-socks5-tunnel-create-configure",
+      "path": "network/proxy/socks5/tunnel/create/configure",
+      "description": "Create SOCKS5 proxy tunnels for traffic pivoting and C2 redirection using SSH dynamic port forwarding, Chisel, Ligolo-ng, and microsocks for post-exploitation access.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "64154152d7727cbe5a6478faed7d4a201d8ec4f52d51deb6e2f08c828b67147bb4d50513fb1bec298b03ee6a122d76662689c2c4b0e114714b030392abe30144",
+      "file": "skills/network/proxy/socks5/tunnel/create/configure/SKILL.md"
+    }
+  ]
+}

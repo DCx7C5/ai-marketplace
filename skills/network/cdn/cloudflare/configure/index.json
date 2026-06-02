@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cdn-cloudflare-configure",
+      "path": "network/cdn/cloudflare/configure",
+      "description": "Configure Cloudflare DDoS protection with managed rulesets, rate limiting, WAF rules, Bot Management, and origin protection to mitigate volumetric, protocol, and application-layer attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a1f9e6b82f5cfd061999ca3c645ee1f874e487cfad34bbf16ffc2081b3d9fa838b47b3cf21c350383fd1b1dae4678aa253ba976e5fa4fdf5e09a7c526019e41c",
+      "file": "skills/network/cdn/cloudflare/configure/SKILL.md"
+    }
+  ]
+}

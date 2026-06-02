@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-btrfs-snapshot-analyze",
+      "path": "linux-fs-btrfs-snapshot-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3be4d8f0c4e36d783ef831999bb4fe6c4bfb265690c36d82aa216c8b990d5b0981a84168f3051780f4eb04e2c26b10ab5768eeeeeed05e9af1ebc4f07ac1ae41",
+      "file": "skills/linux-fs-btrfs-snapshot-analyze/SKILL.md"
+    }
+  ]
+}

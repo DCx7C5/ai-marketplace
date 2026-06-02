@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "lateral-detect",
+      "path": "network/lateral/detect",
+      "description": "Detects lateral movement techniques including Pass-the-Hash, PsExec, WMI execution, RDP pivoting, and SMB-based spreading using SIEM correlation of Windows event logs, network flow data, and endpoint ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6fa8b00707720c0b4771e028a0c005a1a5b1321859d953e48dc849e37ca7c9779f69867b18609187c9f4a04cade1729a2ea14853dddd81f7e572a7c74371b197",
+      "file": "skills/network/lateral/detect/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7bedfdf1314f5131867793836bcc8c6db80603d366fbf27ebe3b4ed95f00367fcff06ef32d46abbd2e7eea9400c5cd622d70771aecf54467725070e24b2df43f",
+      "file": "skills/network/lateral/detect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6542d07da1d6750a20d0ae1a4f49a3b7ae316459e3d4835457ca6f752359fb07d3b18eafa9070cd68ad5ab7a632992ca3febe47f447ed013e361559ee53e613f",
+      "file": "skills/network/lateral/detect/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-protocol-ldap",
+      "path": "identity-protocol-ldap",
+      "description": "Identity Protocol Ldap.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f923c8d57e22232c6f0100336e28eaa144411eedf9c71490da5e8deeb35dfa97b8349fa813204c5135da6b5c9d78193aeb19e173dac871ab06d1308868df0b5b",
+      "file": "skills/identity-protocol-ldap/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "13c61fa7812c29f18b969c91333f9cdc5e899c0519de2f0c2cb2fc086c2f23ed3429e1ae943b2674bc72ef6cb88ac973ef0795e41e4a798d500a0665c1fb0604",
+      "file": "skills/linux/kernel/syscall/audit/index.json"
+    },
+    {
+      "name": "io-uring",
+      "description": "skill directory index",
+      "sha512": "26ebb3d580ba20f9cd07944a2d95edc320eade12031d9bd47cecfaac509f6ffee6a97b46521b693de9cfbbe25e09f93aad588258b19990ee98f6694da72c676e",
+      "file": "skills/linux/kernel/syscall/io-uring/index.json"
+    },
+    {
+      "name": "ptrace",
+      "description": "skill directory index",
+      "sha512": "7e3814e74c11badfd0952215a7363df7bb2dc821a10aeaa3c5ccdb6e2e63f5e63cb244a728b7e1e61cd739d0c55c83a5f3c379059c5686320316daa00ab853a8",
+      "file": "skills/linux/kernel/syscall/ptrace/index.json"
+    },
+    {
+      "name": "seccomp",
+      "description": "skill directory index",
+      "sha512": "d969f5c5e1b715fcc407824d3e80b9bc3b919e353488b2477caa6d4c4eb0b666927b3fc16cd020b53588502426122379f1e2c5ac6d61e50b7e0a571ab85fbcc4",
+      "file": "skills/linux/kernel/syscall/seccomp/index.json"
+    },
+    {
+      "name": "userfaultfd",
+      "description": "skill directory index",
+      "sha512": "5fdde3ebb24ccbb3dc601a8e51b44760f46508823334d1cf0c6e10a493230f35bc0765b7479d5d6dbab2bed8f9b9961aa464650e037cce195d6fd72a5cdc4559",
+      "file": "skills/linux/kernel/syscall/userfaultfd/index.json"
+    }
+  ]
+}

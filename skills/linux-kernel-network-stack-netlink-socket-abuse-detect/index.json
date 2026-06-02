@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-network-stack-netlink-socket-abuse-detect",
+      "path": "linux-kernel-network-stack-netlink-socket-abuse-detect",
+      "description": "subdomain: kernel-security tags: - linux - netlink - socket - privilege - abuse nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5988e90559b3a96578b2842baed8e22bf1c0f5a7f55791a9ca995e947588cccc3c9256fb7ad3c77a08c4fd5f2307ca13868dd2eed597bfd07d496225efe6d437",
+      "file": "skills/linux-kernel-network-stack-netlink-socket-abuse-detect/SKILL.md"
+    }
+  ]
+}

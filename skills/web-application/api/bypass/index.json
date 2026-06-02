@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-bypass",
+      "path": "web-application/api/bypass",
+      "description": "Tests API rate limiting implementations for bypass vulnerabilities by manipulating request headers, IP addresses, HTTP methods, API versions, and encoding schemes to circumvent request throttling cont",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6180e2573322d9eb07b61e13f2cda9e6516bfcedc33d7f512231aa4b0533c84eac011793329df52340ccba70e5aa8a33ac7b8e189c7144f51524fe343f5731f8",
+      "file": "skills/web-application/api/bypass/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3d8c3da032bbb07f4df1992d79d4226de5e134aae81fe5472fd95baefd25249a81d6d8541526cd68b83758db56d99c010d0116027c356156c7c2ea7a19b17bc6",
+      "file": "skills/web-application/api/bypass/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f3b57318bc58ab7dd6b4390f274122ddbf0015f84b05bab0badef8b10e3cabac6ab8bbf4faf7cc870a755ef7132c7567b68e3f792f3a2e6bf48dc40f568cbe3d",
+      "file": "skills/web-application/api/bypass/scripts/index.json"
+    }
+  ]
+}

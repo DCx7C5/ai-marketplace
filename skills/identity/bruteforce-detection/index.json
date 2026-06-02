@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9581efef333fd8fb0e35951268c8dcf18318f02b761602003384cc9b1336de3ef66804cae2c3fee9903362ce967686c7802d2d7fdce49d45b249462da5a75aee",
+      "file": "skills/identity/bruteforce-detection/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "bcae2ad8229725b1fa066ef0fcb70e20c27fcde3413f88dff3ad6ce978fb3b7ce353029b8572926f44e22a2caae849f572cbe26bf985759da0fbcd5b1455b4d1",
+      "file": "skills/identity/bruteforce-detection/scripts/index.json"
+    }
+  ]
+}

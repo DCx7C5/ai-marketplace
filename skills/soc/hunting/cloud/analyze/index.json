@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-cloud-analyze",
+      "path": "soc/hunting/cloud/analyze",
+      "description": "Hunt for threats in AWS environments using Detective behavior graphs, entity investigation timelines, GuardDuty finding correlation, and automated entity profiling across IAM users, EC2 instances, and",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3f6817301c4504c563aaf7fdaae67bf298d2d2358799551475e084ba16c01091171af323fc08da4f4f6b7fa5f240c1f6313a85e7e568ed2aea112ea4847be411",
+      "file": "skills/soc/hunting/cloud/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tuning-use-case-tuning-detect",
+      "path": "soc/tuning/use-case-tuning/detect",
+      "description": "Tune SIEM detection rules to reduce false positives by analyzing alert volumes, creating whitelists, adjusting thresholds, and measuring detection efficacy metrics in Splunk and Elastic",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d79f1f367558118b90f4a8e53619f92748cd9e489bdb7b2944d9117ecd935149f72f214163a0c4df1b3d442fb4ae772c8eaeec51b5bd25c10eb41ad197957670",
+      "file": "skills/soc/tuning/use-case-tuning/detect/SKILL.md"
+    }
+  ]
+}

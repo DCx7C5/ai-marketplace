@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "syslog",
+      "description": "skill directory index",
+      "sha512": "2045a2fe8283f1c035f7e703afc8e915983ef8d7d901e25bde2c3d605c1fb0d19863809d2facf84ec5c814bb5ec279e35adafcca00a517e16d67d9e7c356490f",
+      "file": "skills/linux/logs/syslog/index.json"
+    }
+  ]
+}

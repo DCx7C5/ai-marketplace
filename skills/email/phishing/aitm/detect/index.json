@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-aitm-detect",
+      "path": "email/phishing/aitm/detect",
+      "description": "Detect and respond to Adversary-in-the-Middle (AiTM) phishing attacks that use reverse proxy kits like EvilProxy, Evilginx, and Tycoon 2FA to bypass MFA and steal session tokens.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "691ea7f3744880e2b878dd1ae46bc9113da86a4c1f582bb3fc73eefb7cc2d784654af0d02ed1b591d2ebd9ef71611c48c4346353b49989b7f87dc6096cc94c27",
+      "file": "skills/email/phishing/aitm/detect/SKILL.md"
+    }
+  ]
+}

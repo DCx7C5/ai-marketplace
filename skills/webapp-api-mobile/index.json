@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-mobile",
+      "path": "webapp-api-mobile",
+      "description": "Webapp Api Mobile.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "812b6bca4e7fa3566eb81058d5f5020c89ef6e4fc63605c123b770191271806f7a293f5a2497ff630f6f4a92fa818f4b71118aea04c68581018b6798d2ee364e",
+      "file": "skills/webapp-api-mobile/SKILL.md"
+    }
+  ]
+}

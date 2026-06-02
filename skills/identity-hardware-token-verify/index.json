@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-hardware-token-verify",
+      "path": "identity-hardware-token-verify",
+      "description": "| | alice | YubiKey Primary | 2fc0579f... | 2026-02-15 | 2026-03-19 | 847 | | alice | YubiKey Backup | 2fc0579f.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9b6c5d29ae64b45cbdc2dcfd41668c94ab938e2990e05d12d7f08d166137af84eb374549917eb642c57c60271f023209b5ad744b130e7ce0fe8af3fcb0781255",
+      "file": "skills/identity-hardware-token-verify/SKILL.md"
+    }
+  ]
+}

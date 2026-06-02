@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-ad-pim",
+      "path": "cloud-azure-ad-pim",
+      "description": "Cloud Azure Ad Pim.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "79124ff402597b5f93d1f09b1061ee015bbe31f5dcfc21f0b4ef60e4ca5230f2f1112df7f5bbef2f890fe8411f64efc77e73a911fb3849ff40c22a4390eded15",
+      "file": "skills/cloud-azure-ad-pim/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-blockchain-ethereum",
+      "path": "crypto-blockchain-ethereum",
+      "description": "JSON report listing vulnerabilities with SWC (Smart Contract Weakness Classification) identifiers, severity ratings, affected functions, and suggested fixes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8484eca53744054c83d6355c981013273ebd7129411d0bc05124f119926b1cdac0d65f6caacf480f11ab7def0998ec20591744db00f13a02f784d427d8689a41",
+      "file": "skills/crypto-blockchain-ethereum/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-sudo-abuse-detect",
+      "path": "linux-id-sudo-abuse-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "79c6228c11e766189d197de60a6f44f0b9d8480b6e2a614452a547b63611c595eff17bfdeff8a1e80f6736582982eb996f6ae8e362d1351343e05fa653ce4864",
+      "file": "skills/linux-id-sudo-abuse-detect/SKILL.md"
+    }
+  ]
+}

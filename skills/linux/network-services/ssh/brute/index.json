@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ce640d3896912901329d668dddbacc3668e58ecc1e5d936085fb84e3e1b65100bce84f4222dc4d8eb29edab36324834ece39239baa2a1285e72bfc739bb2ccb4",
+      "file": "skills/linux/network-services/ssh/brute/detect/index.json"
+    }
+  ]
+}

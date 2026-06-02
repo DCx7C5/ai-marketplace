@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-t1548",
+      "path": "soc-hunting-t1548",
+      "description": "-| | T1548.002 | Bypass User Account Control | | T1548.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "13a4ac425574b1fcc5ce0025fc7e8cde3931bdabc00e5a95fd3a208a287a5582373a8e8da2bb7fd066f80b6b549f5c22a15b60021176c2377825f55314253216",
+      "file": "skills/soc-hunting-t1548/SKILL.md"
+    }
+  ]
+}

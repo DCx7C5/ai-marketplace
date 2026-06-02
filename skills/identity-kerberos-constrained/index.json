@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-constrained",
+      "path": "identity-kerberos-constrained",
+      "description": "--| | S4U2self ticket requests | Event 4769 with unusual service and impersonation | | S4U2proxy forwarded tickets | Event 4769 with delegation flags set | | Alternate service name in ticket | Mismatc",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e5c58bee1823a3b866f2594d71062cfdc8cc316046a12bc20cd69ce47f885cad0469d2868f09f5d24dfd1967375a09237fa0ad3ddf8c212590a432745de76a9",
+      "file": "skills/identity-kerberos-constrained/SKILL.md"
+    }
+  ]
+}

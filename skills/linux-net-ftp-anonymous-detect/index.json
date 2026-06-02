@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-ftp-anonymous-detect",
+      "path": "linux-net-ftp-anonymous-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0dfc7a43581d36dab00d3b6dbbeb1db689f6dcd81f653b07e43838c325b836d97693f148b4704fff168a5301bf9a581419c04a746f9904ba0b3544d0825db4a",
+      "file": "skills/linux-net-ftp-anonymous-detect/SKILL.md"
+    }
+  ]
+}

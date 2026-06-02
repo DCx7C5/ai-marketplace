@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-token-verify",
+      "path": "identity/hardware/token/verify",
+      "description": "Implements FIDO2/WebAuthn hardware security key authentication including registration ceremonies, authentication flows, YubiKey enrollment, and passkey migration strategies. Builds a complete relying ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1b3acde7dc07eaf7b1dc3379e56d6e1d773a1ada980a7a69bc2bcace7501bae1502b95a43e6bb68ab6df05cb479876d4d36a727e23269b3af2437cf59a55808a",
+      "file": "skills/identity/hardware/token/verify/SKILL.md"
+    }
+  ]
+}

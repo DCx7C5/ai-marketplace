@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth",
+      "description": "skill directory index",
+      "sha512": "b848cd4f2c10610e535f9c1ee4117857c6170d4858abff8ba57c584559b60ba217b098c8fa1237a4bc4f53e013e0a1b4e1200b96fe3232d65074b0483c4d5988",
+      "file": "skills/database/cassandra/auth/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hindsight",
+      "description": "skill directory index",
+      "sha512": "95ba2fd9641d0e1c747e82c7506d4d0c69488b46177971beaa8e3c033ffc919803d572b709765556b2e61fe5c87fff13a7ba4f779b58d1cc07957ffa308ce5bf",
+      "file": "skills/web-application/logging/hindsight/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7a008c4a9a88c1ed709332e646d150f6c77b01eb761450ac56c6f88180606588d04ef993d1567a3c4b71abbf46466b29b88f7ad4d50120a51c9d0fe9d17259ea",
+      "file": "skills/web-application/logging/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "56e0db16e2eed088afe84915c0eda2be014fdab00471ba9c5f37556d85b64343bd64381b0a1bffa9f1b6571e0139049df87e5da4b76ee2687bfc25ad966901f0",
+      "file": "skills/web-application/logging/scripts/index.json"
+    }
+  ]
+}

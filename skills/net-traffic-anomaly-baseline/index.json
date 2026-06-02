@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-anomaly-baseline",
+      "path": "net-traffic-anomaly-baseline",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1884d9c22ea8be9c7fabb96bef8e9ca2c760cdaf9bb94a2c4320b3610a79c13bb8b01b8e2dc7cee9306a1197244909b12a057f393fd7091cacf40af1501172fe",
+      "file": "skills/net-traffic-anomaly-baseline/SKILL.md"
+    }
+  ]
+}

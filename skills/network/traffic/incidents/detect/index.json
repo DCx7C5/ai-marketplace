@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-incidents-detect",
+      "path": "network/traffic/incidents/detect",
+      "description": "Analyzes network traffic captures and flow data to identify adversary activity during security incidents, including command-and-control communications, lateral movement, data exfiltration, and exploit",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90c5fac7cce9db519c2f646cd9610a740c22317fc7bf5bbfe86b60846e394a951af315ed7bf23088f66b28f2d004972494248c9c120abc13c64f4e4018c4e660",
+      "file": "skills/network/traffic/incidents/detect/SKILL.md"
+    }
+  ]
+}

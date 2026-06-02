@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-vpn-openvpn-server-configure",
+      "path": "net-vpn-openvpn-server-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1e7c709ae7e1fcf930952bcf3255e8ae9f069440a756b3c9999760d06de2e9b3a9074bc63dd3fda7c6d95df36e7c13aab550d15f7a17501b7c6c257751000fd2",
+      "file": "skills/net-vpn-openvpn-server-configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "41ec165ac32cca89e7bd8788b5dfb9292dbc59e68b9487dad57f03dfda0d65a384773065e78cd71f9d35325ba0b342c2ffcead6debe62b40fbfb2f4aa05e6fae",
+      "file": "skills/identity/hardware/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3d4a72694b551759e0d8e8c144a34b42d67d9c7b003b1a82ade424ccf818e3a5bb9a9062d1a7e1bd5984dc0e85be0c72d0f0124e0d67d0476ca4f2eaee5e0fe7",
+      "file": "skills/identity/hardware/scripts/index.json"
+    },
+    {
+      "name": "token",
+      "description": "skill directory index",
+      "sha512": "4b4697b815c93c0d7ca8aae7251e938471f33b3a77320e30576c529d3a12afa11a1dac00caa13159b4e0b926fc5ba508d2b5fc38a70a433d8ac380083965f580",
+      "file": "skills/identity/hardware/token/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-deserialization-insecure",
+      "path": "webapp-deserialization-insecure",
+      "description": "| | **ysoserial** | Java deserialization payload generator with multiple gadget chains | | **ysoserial.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f8b8250ffb160d88953ca896aebdc8df2655236ab27a37cc1dd2a3634ed0008f15197469df463b87d34922281973196b6cb07ab21ec3079fc16dc26d5e70d9ae",
+      "file": "skills/webapp-deserialization-insecure/SKILL.md"
+    }
+  ]
+}

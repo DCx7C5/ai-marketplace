@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "883b8d3b9e80891d3ed97c5432a7a594e9e59f9eaaf2b0638c28f04a12f306790c38ca5cce4486826b1372fe472ea65243abb45c6abb2cf6b5af6d1ddbb38068",
+      "file": "skills/web-application/fuzzing/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ac0b8d9d70da2acd5ce1e0d168497642b2695fad81481e095ae7f279d841ec47287eeb70c3b6dc20e5e1c2a8155e9bb8ffbd1eaca40b6be0b10ee2ac6c596d43",
+      "file": "skills/web-application/fuzzing/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "d91b0bb01c00030425b520a4b43b290eca421dac3e7ac60a46910a836a18c0be1cac8c1f92ef58340309735b6e29fd07f0bce925e5f225df8a8260ee0cf1b523",
+      "file": "skills/linux/filesystem/acl/extended/audit/index.json"
+    }
+  ]
+}

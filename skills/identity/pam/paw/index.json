@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "7a07d6b510d5c2f3bfc60c24008e4339b685364de8621137b818e6482a1124b5264c73589bbcf161fe5b06ad72c42d9f8d0455f6cc0a67b50d5294c84fd364a7",
+      "file": "skills/identity/pam/paw/harden/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "695a9776e25092d605975ff133e8ce7e11083624bae96d72acc6a73800ff10221243916b0467eb82974719685470c1a4b45f7512dcd552332998b5c226203c97",
+      "file": "skills/identity/pam/paw/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0700a34a2b62be1bbe71df49119f670e7e8497416dad9e46cb2903ba01871ffdf8cfa0d546852551c3d49b7280012234e6cca8cabbfecc807c01c1e8c1fa2a7f",
+      "file": "skills/identity/pam/paw/scripts/index.json"
+    }
+  ]
+}

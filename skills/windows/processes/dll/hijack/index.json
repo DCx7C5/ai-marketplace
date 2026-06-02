@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f505385cd733831535a222b16cd2f524e28dc9b138e3a36ff9f50ec709ef654c56aa4a0bcc412b1238e38e9a147575992007750d952779a3ab8f082b1741fe6d",
+      "file": "skills/windows/processes/dll/hijack/detect/index.json"
+    }
+  ]
+}

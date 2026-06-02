@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "escalate",
+      "description": "skill directory index",
+      "sha512": "bdf190866ef5617d21daf27ec33b67f71fbf28b76feb0e3b4805795b7fca4727a4661ac9ddf87590c0274b6c82fc14a67ad163322a3c6a6d7695d87d2846f1e3",
+      "file": "skills/linux/identity/polkit/privilege/escalate/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-workspace",
+      "path": "email-phishing-workspace",
+      "description": "- Configure DMARC with monitoring: `v=DMARC1; p=none; rua=mailto:dmarc@company.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a9034314cd07aa05810aca823b27b442fd5c5cba4d834768f6902bfba330a748f8ce245eacac34b46cb844c5284c3818730847ded0ff2bfd8e34649cae98455a",
+      "file": "skills/email-phishing-workspace/SKILL.md"
+    }
+  ]
+}

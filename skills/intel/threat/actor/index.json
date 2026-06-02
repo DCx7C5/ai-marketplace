@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "profile",
+      "description": "skill directory index",
+      "sha512": "c262bd4b83161c7166ad7b21ce0e10709ee9530ce7eb10636140ea27c86018d4054cccdeeffff115c81a359f6e34b1b2bc0db418707b858eb8db1de235c068b6",
+      "file": "skills/intel/threat/actor/profile/index.json"
+    }
+  ]
+}

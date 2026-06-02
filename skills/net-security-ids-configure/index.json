@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-security-ids-configure",
+      "path": "net-security-ids-configure",
+      "description": "| | Paranoid | `-T0` | 1 probe/5 min | Very difficult | | Sneaky | `-T1` | 1 probe/15 sec | Difficult | | Polite | `-T2` | 1 probe/0.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5df75f1921ea241940ad401ee15642970cc35a632c65e8274ebe083cbd17fb0b7ae95792f7a4686ac413885c225a24beb785d241e698955023b15c9b8646e985",
+      "file": "skills/net-security-ids-configure/SKILL.md"
+    }
+  ]
+}

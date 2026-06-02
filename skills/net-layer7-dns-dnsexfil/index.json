@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer7-dns-dnsexfil",
+      "path": "net-layer7-dns-dnsexfil",
+      "description": "Net Layer7 Dns Dnsexfil.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1493d21415e5ed174222a852182a41fe0b500e45f92663306a0ba836d321789236d7f6b0952bd4d876ac4154e03b1402f8b10ca3fdb57e90501137ddbea831e5",
+      "file": "skills/net-layer7-dns-dnsexfil/SKILL.md"
+    }
+  ]
+}

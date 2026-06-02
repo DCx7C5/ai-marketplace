@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "55241dd9c21d3337b793f6b635f7a1770eebdbef23ee8814a8ec2c173b118db4c5f168a05b5301e88b3e65df78256ad8d13f11531eb199db5572af38ec800d42",
+      "file": "skills/identity/attack/credential-dump/detect/index.json"
+    }
+  ]
+}

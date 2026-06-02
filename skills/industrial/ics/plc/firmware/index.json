@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "d85273b64373d98cd02cb6d481b1cc33ab906793a68db5a546a4f098ca606f0c9c639a7a8b211ae168bede3d590c7585cc085a856cc4dba662ec5e601001e52f",
+      "file": "skills/industrial/ics/plc/firmware/analyze/index.json"
+    }
+  ]
+}

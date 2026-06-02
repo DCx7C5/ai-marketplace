@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ticketing",
+      "description": "skill directory index",
+      "sha512": "4f7c1b7faba242d39acc22371d299f27bc59bef1d29f258a4f4b9a6f6905fba0f38205cae287054f38bc0890988b2232e48817c180b0eb6f051a113cb19073f5",
+      "file": "skills/soc/workflow/ticketing/index.json"
+    }
+  ]
+}

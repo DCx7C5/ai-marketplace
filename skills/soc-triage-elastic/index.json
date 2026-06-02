@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-triage-elastic",
+      "path": "soc-triage-elastic",
+      "description": "Soc Triage Elastic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c6eec286b84e8f58b9ffa94f30b368225f90aae29ea0d36bb80cd02c861d89b1916df03a563c6b66860cb9bd440e7ce7f86524aad49e95198f0c37e6963eb8b5",
+      "file": "skills/soc-triage-elastic/SKILL.md"
+    }
+  ]
+}

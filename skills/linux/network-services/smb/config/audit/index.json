@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-smb-config-audit",
+      "path": "linux/network-services/smb/config/audit",
+      "description": "Audit Samba server configuration for security misconfigurations including guest access, print server exposure, weak cipher suites, and NTLMv1 compatibility.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a0e250d2d66b3b35c3732b17e303554b144f6d8f75be2db028c49662c600b9f273fda91004b7831e9dbc09a715c27aa6242a3bb6dfd6ff1601b2b77a5dcd3026",
+      "file": "skills/linux/network-services/smb/config/audit/SKILL.md"
+    }
+  ]
+}

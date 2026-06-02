@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-xxe-xml",
+      "path": "webapp-injection-xxe-xml",
+      "description": "--|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "047642c5dae3d14b01fedc346cc385acb24964bb46d9a3e12030c14a7ae3b14a7640663d5dedf4efcdd275653dfb0fde3a67fd0a27691246e460493119be45fd",
+      "file": "skills/webapp-injection-xxe-xml/SKILL.md"
+    }
+  ]
+}

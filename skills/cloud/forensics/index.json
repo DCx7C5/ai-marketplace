@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "docker",
+      "description": "skill directory index",
+      "sha512": "6d8691ee2911e5962620bab753edab6b43860a0ffb035796c2120931077e7b8a7242ec7be5a039c5f76b73b28edb297a2d948263c611ae4985655a2320fe72ff",
+      "file": "skills/cloud/forensics/docker/index.json"
+    },
+    {
+      "name": "falco",
+      "description": "skill directory index",
+      "sha512": "26efac789abdf9361a65fafa4ea6ca91e7770cc31da823981d2eac97ff090bd479d2816b4a2ba90fbb8161d4666f8ccfaae6d389252b29102aca43c04bb858e2",
+      "file": "skills/cloud/forensics/falco/index.json"
+    }
+  ]
+}

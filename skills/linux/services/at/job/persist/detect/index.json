@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-at-job-persist-detect",
+      "path": "linux/services/at/job/persist/detect",
+      "description": "Detect at/batch job persistence \u2014 enumerate scheduled at jobs, identify unusual one-time execution jobs used for delayed payload execution or persistence.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c4c352127aa8ee4d5ee7e52cf1622bcd6f574641ac74c400a3ca7b10674464fd0ee537fac1137418e75e218bca72505aff6fe0d87d4b97921330860b8ac2bb92",
+      "file": "skills/linux/services/at/job/persist/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0b2923df68176b7e22a0c881e2f87c7ffe8007ba71c22374b90712d6076e5d77caae28965de7db45e37b7963a6158e499a52ef435eccfb0569b4b973faf74140",
+      "file": "skills/linux/kernel/memory/kpti/bypass/detect/index.json"
+    }
+  ]
+}

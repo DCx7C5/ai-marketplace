@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-production-incident-responder",
+      "path": "devel-jb-production-incident-responder",
+      "description": "A bad run jumps to speculative code fixes while the service remains unstable and evidence disappears.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1d7a36f4fd343cdc61801876e2fe815081afe3d446844c9527867b815ecb8f7efd2d685723ff99a71f46f687c85c7aa4c636aadd3b746d1c079c142c29462acd",
+      "file": "skills/devel-jb-production-incident-responder/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "ed75cb7470f61ec929d53c00c81716149f8f7531a727cfad4e7ac9a8380c4ebea10c368f87e8ab7909171384f38794610429e519710d68774e0d05fc0ee6b2ec",
+      "file": "skills/devel-jb-production-incident-responder/agents/index.json"
+    }
+  ]
+}

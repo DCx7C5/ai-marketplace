@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-kotlin-tooling-cocoapods-spm-migration",
+      "path": "devel-jb-kotlin-tooling-cocoapods-spm-migration",
+      "description": "- [Migration Report Template](references/migration-report-template.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e88603695577008fea74ef2bcc62fc5cdbcbe7968c7a61e2428757dde58c99276c7dc2d5e6b8c414bb3772c830f288331d18ea7d1fbfda16ffcc1fd3597378ef",
+      "file": "skills/devel-jb-kotlin-tooling-cocoapods-spm-migration/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c3f05216ff28338ffe9cb0e653e3b19022a57bb9b3a1af2f920cca364c3c4400f19e138b632ece28f95f9120e907305e25d9cbbbc46f477a881c53de2bdf443f",
+      "file": "skills/devel-jb-kotlin-tooling-cocoapods-spm-migration/references/index.json"
+    }
+  ]
+}

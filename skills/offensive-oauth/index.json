@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-oauth",
+      "path": "offensive-oauth",
+      "description": "- **Token binding**: Use DPoP or MTLS to bind tokens to clients  ### Standards and Compliance  - Follow **OAuth 2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e4616293b72a4f76288c1464b358249fd622816bdd1a25d3eefbcda0e1fc0691e2666bcf6b3283bc706e0a450962b91adb24ded60ef27b33e697c9198e59472",
+      "file": "skills/offensive-oauth/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-request-smuggling",
+      "path": "offensive-request-smuggling",
+      "description": "- **HTTP/2 Isolation**: Avoid translating between HTTP/2 and HTTP/1.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a8609af637499e0dd9ed04a8b7dbd0f0e4e108750aceb46538e5e70dc2363814f5eced87c02a8296cc9fab936468547fabbf23282edd5469c87db6726200ea2d",
+      "file": "skills/offensive-request-smuggling/SKILL.md"
+    }
+  ]
+}

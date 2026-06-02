@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-operations-escalation-escalate",
+      "path": "soc-operations-escalation-escalate",
+      "description": "Soc Operations Escalation Escalate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4f1d96d28892707f4b15fe1771b009a3ad9c318391964fe5ce379339c0f108ee31b0971f175bf4040631dd39937323859ffb1644f5565ec0c379c6831630e7b4",
+      "file": "skills/soc-operations-escalation-escalate/SKILL.md"
+    }
+  ]
+}

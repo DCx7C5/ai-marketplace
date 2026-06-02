@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-luks-configure",
+      "path": "linux-fs-luks-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef159c2d460225fec3f12ba83b66c5fccac15286679a1769bdaebcb57cdb7465281c6a24815fe6ebdfb2ca4e1b17b098424ea1d6da9a869ef0ef280d3333d799",
+      "file": "skills/linux-fs-luks-configure/SKILL.md"
+    }
+  ]
+}

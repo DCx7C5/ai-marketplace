@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-net-kubernetes",
+      "path": "cloud-kubernetes-net-kubernetes",
+      "description": "7. **Monitor denied traffic** - Enable Calico flow logs for visibility into blocked connections 8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "575457b87bdbbd7fcd0b8ab1696f3738e2c3d37be3cdf00c159e34bcc4b76d438de17a53a28e4873a54619a0813efd7d74d565e3708f533cf0b74a32043357cc",
+      "file": "skills/cloud-kubernetes-net-kubernetes/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns-tunneling-detection-detect",
+      "path": "network/dns/tunneling-detection/detect",
+      "description": "Detects DNS tunneling by computing Shannon entropy of DNS query names, analyzing query length distributions, inspecting TXT record payloads, and identifying high subdomain cardinality. Uses scapy for ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6dbc308c98f4e800f22f35900a7a31a3ee62a7599b6ed6af13cc5aaa145696012ae5488ca005cfbd0c746e55fd151c23f58d419bdbfd9c421322c9b22a090583",
+      "file": "skills/network/dns/tunneling-detection/detect/SKILL.md"
+    }
+  ]
+}

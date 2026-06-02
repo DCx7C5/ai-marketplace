@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ssvc-SKILL.md",
+      "path": "vuln/prioritization/ssvc",
+      "description": ">\\n  Triage and prioritize vulnerabilities using CISA's Stakeholder-Specific\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8edd102bf46ed171876b906ea0cfe472bd487a921411965454381c73437776ab7a47afb643b175ce3786256d44e18d89b018c5ed7eb298ca34e5ffd7baa71350",
+      "file": "skills/vuln/prioritization/ssvc/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b2964b7f3e8a40833a3e824b703433b3945161613a4f061a3dbd1139c3524a45e83acee876022b656c7574c5c9fadabc90a1407af74d9e02c3c763c69571efaa",
+      "file": "skills/vuln/prioritization/ssvc/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3238a4df058e6a6717a495ed22faefe205d4ae525659950c4bcda39e9fffdf26ced268adfc59f05a06defefba971d53021d88a9676e12daf2b43297e30535215",
+      "file": "skills/vuln/prioritization/ssvc/scripts/index.json"
+    }
+  ]
+}

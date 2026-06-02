@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "endpoint-SKILL.md",
+      "path": "vulnerabilities/remediation/endpoint",
+      "description": ">\\n  Performs vulnerability remediation on endpoints by prioritizing\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b279e4d2d152277a23567f28676aee93fe7f95899b8ef9186be83db71787252fb85f8ffe891c98675e557cdefe5562bc6dab74c6d0a9e8174b0d3f6278de7506",
+      "file": "skills/vulnerabilities/remediation/endpoint/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "672115688eb207ee498c2e939b2444d48efa2acb4382885a6c305fbe59f746d7083e40e0b4d1aec8909d2476663af10d8914fec4d3f9fc636bc517cd093cea5e",
+      "file": "skills/vulnerabilities/remediation/endpoint/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "bae6299f4f2ce5525da4755643992f9ddf349a5120200ab03524cbd19ad97c424976862e48c8166025ee8de1c42cd8cce9f26351381a53147208c284c88538bb",
+      "file": "skills/vulnerabilities/remediation/endpoint/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6604b2168a61ff51ee0e44eb08ec0ac7bbd9046f062d3bdf1b23d09657a8c670140d29126c0a7118bf57cefd307a48452f9c7551086d3e51de55a18499219655",
+      "file": "skills/vulnerabilities/remediation/endpoint/scripts/index.json"
+    }
+  ]
+}

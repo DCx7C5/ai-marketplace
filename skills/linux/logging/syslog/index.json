@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forwarding",
+      "description": "skill directory index",
+      "sha512": "f5bb264c926c1bc9a4056fc21d79a06201fb69c33c2f5f3db2f16f6a48a2c22607a46609d41f03e7ea45fabb51766c5ea93b2d5ea73961d6273b49c188d4fb7a",
+      "file": "skills/linux/logging/syslog/forwarding/index.json"
+    }
+  ]
+}

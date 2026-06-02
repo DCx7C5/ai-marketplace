@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-modbus-monitor",
+      "path": "ics-protocols-modbus-monitor",
+      "description": "indicators. Block FC 43 from non-engineering subnets at OT firewall.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "97af68f97af1201531af219c0dd87b1de53118eadda416c3c5b0e5eeb4045bfaaecfc9f2df50c1d552cff235930070ef4d03f96fbb60ad6ad36bb4d04f7c58f8",
+      "file": "skills/ics-protocols-modbus-monitor/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d8c6455ac2b44df4db787567b492bb2f194baba847b92edbea8e02de267c59533929c8aad6a889ffc799b039f10da92833b05bc116a4b4a2ca8e10d08bb1aab8",
+      "file": "skills/ics-protocols-modbus-monitor/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ab7f8d91095ecbcd8fb1875acc68665e6ea84f2b0abd4c29d8344cd9ac322eb42a67ab848ae03a94dd55b90d75cbcaf245d455e7b2d0f1e4051b4e664dac3dac",
+      "file": "skills/ics-protocols-modbus-monitor/scripts/index.json"
+    }
+  ]
+}

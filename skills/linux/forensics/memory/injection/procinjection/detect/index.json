@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-memory-injection-procinjection-detect",
+      "path": "linux/forensics/memory/injection/procinjection/detect",
+      "description": "Detect process injection techniques (T1055) including CreateRemoteThread, process hollowing, and DLL injection via Sysmon Event IDs 8 and 10 and EDR process telemetry",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "757a1be7f30dffc27a37aabcfb7ee680f94242823890424dd87958e52c020fafba4e665b64f7fde4238c7ce06455d070566fdd2390f3767f6ca2f9ba42b6c4a2",
+      "file": "skills/linux/forensics/memory/injection/procinjection/detect/SKILL.md"
+    }
+  ]
+}

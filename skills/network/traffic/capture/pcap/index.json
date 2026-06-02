@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "6ea09c0929f27789ca73550042a00f2ea0b864be0e4832412cb11d3b2d26eaece018b8bb173d8e5223405f4d4fc3a565fb1728cdaf8b4eaf688b3a83b47cdfd4",
+      "file": "skills/network/traffic/capture/pcap/analyze/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "io",
+      "description": "skill directory index",
+      "sha512": "0c3118f2ab0903e8787424c7b25b797c285e21bdb91ba874421442d3fdae074687d7e4b073f8814cd89fd99c6017c4d7f03fff8311679c373b9b35bf72643ed0",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/kotlin/io/index.json"
+    }
+  ]
+}

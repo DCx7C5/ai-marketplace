@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-fd-enum",
+      "path": "linux-proc-fd-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4696d636c28e522ccaaf84bfb83fc8d1ab7736b794a95a3b52856b5fae0b4cb6613f2d73e7d4c1e95ceac92ce2979ac7761323ad2d8c0d48aaa0fabd49badc3",
+      "file": "skills/linux-proc-fd-enum/SKILL.md"
+    }
+  ]
+}

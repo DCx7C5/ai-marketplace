@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "9f0993c1fe7aad1f376e4c26c595c05f65642d87b3da13a7b58f90e4c79845ace928eb0dd51fc32ac52b39f669f96134b19ccba9832f1f351b1b8ec880c0e801",
+      "file": "skills/cloud/serverless/serverlessharden/exploit/index.json"
+    }
+  ]
+}

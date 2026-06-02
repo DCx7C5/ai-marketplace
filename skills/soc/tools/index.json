@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "qradar",
+      "description": "skill directory index",
+      "sha512": "45abe75efdb1ca85a9ad84b342964b0c505bfbd3173e03cb13ce8a263d62e94af61d180b5306ef307160044bce1aadb7f05e22d870ab9c078c7ab9cef4b5951d",
+      "file": "skills/soc/tools/qradar/index.json"
+    },
+    {
+      "name": "splunk",
+      "description": "skill directory index",
+      "sha512": "75f0a25b241f2fc31a1f2fecfd6317d0f2ed8c8e5e85fc95579e97c76352b5e537c78b6abb185ef12aebfd0b2e991954e356ea23b8d89f0bca2fbc5bf2e6e430",
+      "file": "skills/soc/tools/splunk/index.json"
+    },
+    {
+      "name": "velociraptor",
+      "description": "skill directory index",
+      "sha512": "5419b495314503d518389df3f281a0ef70130b926f5c651e3d7a8192e4a1a362df71a6c482c9f7c9cd226bc410c0fedbfdaa27980699d4eabf4ef2833333e789",
+      "file": "skills/soc/tools/velociraptor/index.json"
+    }
+  ]
+}

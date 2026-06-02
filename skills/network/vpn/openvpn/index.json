@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "server",
+      "description": "skill directory index",
+      "sha512": "de54fbd7c51f7634d21791deb27ffc6019bb9f6c5d583469687b88a62ba53d9ce5640f0a7ba692ecf41b19aa519f3f58055cc30a825341ddbd765bd3c8cb673c",
+      "file": "skills/network/vpn/openvpn/server/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "25e75ea05c68d6476333a9713b398c96e13ee4dafd4d47d5263e0923827b633b2056e6b43b9f3259dc553437c44b2d6219b72bbe49594d20de951436d18f275f",
+      "file": "skills/soc/detection/correlation/create/configure/index.json"
+    }
+  ]
+}

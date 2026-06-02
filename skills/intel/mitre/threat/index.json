@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunt",
+      "description": "skill directory index",
+      "sha512": "10dcb071cf767044a3641645e2e521100eb630975d326a3029cc30ab4ed5ea0c518f21d152494ec9568acdc06394861ad97eec83bd8fbe25e4e74f3518170d85",
+      "file": "skills/intel/mitre/threat/hunt/index.json"
+    }
+  ]
+}

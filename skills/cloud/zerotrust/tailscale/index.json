@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "bb58052dbf893782aad8035ed54ab8fb948125c00a13098f57e4a13b9e26d40677a0a4fb45ce509d64e9b10d780fedb2fd335c9c953f3a8eff943d17e132e7a5",
+      "file": "skills/cloud/zerotrust/tailscale/harden/index.json"
+    }
+  ]
+}

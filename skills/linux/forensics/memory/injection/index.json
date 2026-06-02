@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection",
+      "description": "skill directory index",
+      "sha512": "6f5c104f114102e4a7a912c3d1a8398d485174d3f8dadbca26b81a52c4def54aeeb13726a1aca890240e2bb8f05a19981f8340908f92bee2d3a87bd4835019db",
+      "file": "skills/linux/forensics/memory/injection/detection/index.json"
+    },
+    {
+      "name": "process",
+      "description": "skill directory index",
+      "sha512": "872d67980cc783a1367948e1b328d03c6452fb1a8ed8a7d73cf4e3250e6f4523c953aa4cde0ca1cd722da2ed63ce50ba66e965e8242a61bcbe8774bec540c505",
+      "file": "skills/linux/forensics/memory/injection/process/index.json"
+    },
+    {
+      "name": "procinjection",
+      "description": "skill directory index",
+      "sha512": "49fe9e38784e55b4aea7b23875319484305f67c95ddcb626fa288315f19f63393a8b64273c40734760008f8baecb44cb33824881e10b1ce3b07332ece6e802ab",
+      "file": "skills/linux/forensics/memory/injection/procinjection/index.json"
+    },
+    {
+      "name": "sysmon",
+      "description": "skill directory index",
+      "sha512": "e9c2b0157e7c9e16bb82182b798173e7c12f080a0b742365ddfebf57f6e885fd6b2e087ffe79e250a1a32c9ea06209dabe36af96c6f9cc8f16a110ba081e113a",
+      "file": "skills/linux/forensics/memory/injection/sysmon/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-scanning-port-service-fingerprint",
+      "path": "net-scanning-port-service-fingerprint",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec6086a871529dd624edc32f39ee4d5a41d7dbf4239ecf8098ba347507c12b6d6fb94e43641a33e2df353b5aeb6380c0d06799eb3873d1c54cba00ab695f014c",
+      "file": "skills/net-scanning-port-service-fingerprint/SKILL.md"
+    }
+  ]
+}

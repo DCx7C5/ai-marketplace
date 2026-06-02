@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logging-splunk",
+      "path": "windows-logging-splunk",
+      "description": "Windows Logging Splunk.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c8033770951bafb57e1201f7f7040ca4de09e172c0d9abc3b9abfd2c50e877fdddf1a2715bc11f5ccd673915a87d1d81058f5c142c0dcbaf91f0fd00463353d5",
+      "file": "skills/windows-logging-splunk/SKILL.md"
+    }
+  ]
+}

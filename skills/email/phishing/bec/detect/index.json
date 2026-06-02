@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-bec-detect",
+      "path": "email/phishing/bec/detect",
+      "description": "Deploy AI and NLP-powered detection systems to identify business email compromise attacks by analyzing writing style, behavioral patterns, and contextual anomalies that evade traditional rule-based fi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "62ce6426434cd8180dc92646acdadef94ac970d4b0d6981efbe5c545370d8bd4ebc1fed6b11338f2bf9e371958cf5924431dd1eb2b084a0f348643f81f1799c8",
+      "file": "skills/email/phishing/bec/detect/SKILL.md"
+    }
+  ]
+}

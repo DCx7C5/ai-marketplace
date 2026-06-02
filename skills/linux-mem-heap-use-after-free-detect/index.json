@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-heap-use-after-free-detect",
+      "path": "linux-mem-heap-use-after-free-detect",
+      "description": "subdomain: memory-security tags: - linux - heap - use-after-free - uaf - memory-corruption nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "514886f49ebe447cc2e7880fd8b4555de4e0039a6959f4403e3a0d94345bb08a5ae3487bdd0bc517b27d05bc5fc51630ed47cea953ec13cb92e0b58a67e7ab55",
+      "file": "skills/linux-mem-heap-use-after-free-detect/SKILL.md"
+    }
+  ]
+}

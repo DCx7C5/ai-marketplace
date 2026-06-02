@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "01233b71891815f5e313154d96300646a91edcfc0a77b757afafd110a487cb4f3b03a2052fbb1e04ddf2183d7b9fb4dad9d5b79b5d2e6bffdaef614b802422b1",
+      "file": "skills/cloud/aws/iamharden/exploit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "haproxy",
+      "description": "skill directory index",
+      "sha512": "0e0938eb81832d9b6fbd5d646ae66a49dfec2d93794bce57bee81f9eea6eb73e73796a751a8f36384c6db242a22c12f7ec59ea7b5bf43b7b3489705356a2a47c",
+      "file": "skills/network/load-balancer/haproxy/index.json"
+    },
+    {
+      "name": "nginx",
+      "description": "skill directory index",
+      "sha512": "77e0275cc518634e3f0015e3a638543a0138121b07bd322f67ee541c30bccbf85d3f8c9117d9bd2ea865dc04102b7b0661dc3c0d2ccfd6144385cbed9c1976ca",
+      "file": "skills/network/load-balancer/nginx/index.json"
+    }
+  ]
+}

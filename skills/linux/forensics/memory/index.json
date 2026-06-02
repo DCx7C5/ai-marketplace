@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "acquisition",
+      "description": "skill directory index",
+      "sha512": "1d6d4c161285d940de7de45929049627fdcfc074dd995cea9a5ed00fc1798e4c8e853f6bb5c45d8c51e04eaa79659a7deeef586832cd8d3d54f596c53c2d04ab",
+      "file": "skills/linux/forensics/memory/acquisition/index.json"
+    },
+    {
+      "name": "analysis",
+      "description": "skill directory index",
+      "sha512": "b6f236495d07fad91d2626a3b2776ad8a52f77a428a5e724ea2bc6a3c98eccd8afa08453b6f98ec9de00b29eee9cc33f1cd7f6a8f46b7705321d6b20eb4749ea",
+      "file": "skills/linux/forensics/memory/analysis/index.json"
+    },
+    {
+      "name": "dump",
+      "description": "skill directory index",
+      "sha512": "059be256bbe59a665e7d526d8558674fe00f29d07cf6afef56eb6c5aef1cb0e9c680ad636150e58949c890447e51137c2eadaca2850242fdd2fede713a93df82",
+      "file": "skills/linux/forensics/memory/dump/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "1b532c8bc696da8b0dfecb9edc7ca4de18914a1374e29418424806e7ce0a1efa68235811cbedce4496ab782d4995fdb773a8f958c0def4fffea668f6dbbe88b3",
+      "file": "skills/linux/forensics/memory/injection/index.json"
+    },
+    {
+      "name": "volatility",
+      "description": "skill directory index",
+      "sha512": "d7ced128863a74a2fa8227a9e6e2ff8a4bd41ddac031e1635282d63223251e39dd221096088cc1dc4a45e294af81fba5cd615c1286dac7d1ea43448ddf040549",
+      "file": "skills/linux/forensics/memory/volatility/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-secrets",
+      "path": "cloud-devsecops-secrets",
+      "description": "This skill covers implementing automated secrets scanning in CI/CD pipelines using gitleaks and trufflehog. It enables security teams to detect API keys, tokens, passwords, and other credentials that ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "85617b08e97e582242c8dabc3ea2661fa33eb003064ec56070f45f141ad320f948bd91fe5ee30496a5941505204fd8d62c409f7fc2a1758a44ac63a8dfc95641",
+      "file": "skills/cloud-devsecops-secrets/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-network-stack-netlink-socket-abuse-detect",
+      "path": "linux/kernel/network-stack/netlink/socket/abuse/detect",
+      "description": "Detect Netlink socket privilege abuse \u2014 identify processes using Netlink to modify routing, firewall rules, or network interfaces without going through standard tools.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1a8ba501511b67f0c2be89e09d1ea17955acb4105459adb59e57380ca79e206629cc16949a93dea22e71538e112ff8206a3b00d6c69bb079a636f0356af57f3",
+      "file": "skills/linux/kernel/network-stack/netlink/socket/abuse/detect/SKILL.md"
+    }
+  ]
+}

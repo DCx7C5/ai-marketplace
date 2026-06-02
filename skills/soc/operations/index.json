@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "alert-tuning",
+      "description": "skill directory index",
+      "sha512": "c9ab4c61e62283de4786c4b4d31b9af178b8fc998f577c6a861541103f1e5002927f946ce5ceb1c7d9768297882977331bd43c9489d1afe9d170f7d4609361d6",
+      "file": "skills/soc/operations/alert-tuning/index.json"
+    },
+    {
+      "name": "chaos-engineering",
+      "description": "skill directory index",
+      "sha512": "e90110aeac6664da6abd10f2e24f565c9c40a5ee22ac569b9d6b5b1b4c48c5d3ff1db6aa012dce8c96c03464e496850348328428138c17f32b6446969112eab0",
+      "file": "skills/soc/operations/chaos-engineering/index.json"
+    },
+    {
+      "name": "escalation",
+      "description": "skill directory index",
+      "sha512": "f2463dc191978fb1c562eac1d1b4ff98831703e4d374b64f2e77315208ab353cc9bd88cc2796bd6810329dc8a4ab6c9c7d320246a36cae6c34fdb418a32871aa",
+      "file": "skills/soc/operations/escalation/index.json"
+    },
+    {
+      "name": "kpi-metrics",
+      "description": "skill directory index",
+      "sha512": "cf6aca4753696111a49c340d847a0b07400a4f0e7cd959960afddf61f806f4e37c87f1e587bae903afc263e94b7694df977935521fb49c988955a305ca463884",
+      "file": "skills/soc/operations/kpi-metrics/index.json"
+    },
+    {
+      "name": "onboarding",
+      "description": "skill directory index",
+      "sha512": "160ef4a79a03d2249b0b6498a42a5463d761baf02cf67f078bcdeb0c557c4040107d29e9857fc7fe690a807b8f70b5684b2739647a0db1ef00efa3f8fc9fd233",
+      "file": "skills/soc/operations/onboarding/index.json"
+    }
+  ]
+}

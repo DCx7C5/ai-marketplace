@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-asymmetric-digital-sign",
+      "path": "crypto-asymmetric-digital-sign",
+      "description": "Crypto Asymmetric Digital Sign.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b0c5482ce77bf7d71d96fac155aff718041b6223440b286d7574db6bc89335a087b4812e133c45a0782734042b21cf8a0124acf3aee1c08813677feadc3f8629",
+      "file": "skills/crypto-asymmetric-digital-sign/SKILL.md"
+    }
+  ]
+}

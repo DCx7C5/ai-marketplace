@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-motd-script-backdoor-detect",
+      "path": "linux-svc-motd-script-backdoor-detect",
+      "description": "subdomain: persistence-detection tags: - linux - motd - update-motd - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "694473049d8c6e8b8c7c6633ac0e2592fce6598c22ebe717ecde65607ef55a85c502842e9a8dff426301c5ffb388b4a937940cebb5711f38f6dd376b25c6ef31",
+      "file": "skills/linux-svc-motd-script-backdoor-detect/SKILL.md"
+    }
+  ]
+}

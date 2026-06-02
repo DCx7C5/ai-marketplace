@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-general-overview",
+      "path": "cloud-aws-general-overview",
+      "description": "Cloud Aws General Overview.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3b3401ff74aeba3a9fec63115cc8d8b9f2c8e740b9123e85467f797a7dac070ce605a34d097cf76d045af4c8476d36a4cc97c9988b21fb701ae0211fe9c27630",
+      "file": "skills/cloud-aws-general-overview/SKILL.md"
+    }
+  ]
+}

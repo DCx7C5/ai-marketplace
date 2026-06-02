@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-artifact-collect",
+      "path": "browser/forensics/artifact/collect",
+      "description": "Systematically collect all browser forensic artifacts across installed browsers including history, cookies, cache, downloads, and autofill data for investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ff5aae6a90a950dc14f2ddc79efa8675c1d364fda968b727ac7c17cd0a345c86629b6802903e26dde20aec22a27c79791dccdc2fa290d60f4bae261556e612f2",
+      "file": "skills/browser/forensics/artifact/collect/SKILL.md"
+    }
+  ]
+}

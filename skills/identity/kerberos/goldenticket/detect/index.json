@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kerberos-goldenticket-detect",
+      "path": "identity/kerberos/goldenticket/detect",
+      "description": "Detect Golden Ticket attacks in Active Directory by analyzing Kerberos TGT anomalies including mismatched encryption types, impossible ticket lifetimes, non-existent accounts, and forged PAC signature",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5855ff7d08149ea2571c293d32bfe443353bd0a35a2315af04666cd7627b2eb1f7e49f5f7a404fa30c0c65298768e40e094c51c72f13be1a1291d6a169b395ae",
+      "file": "skills/identity/kerberos/goldenticket/detect/SKILL.md"
+    }
+  ]
+}

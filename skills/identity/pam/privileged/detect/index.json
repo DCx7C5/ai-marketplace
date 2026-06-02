@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pam-privileged-detect",
+      "path": "identity/pam/privileged/detect",
+      "description": "Conduct systematic reviews of privileged accounts to validate access rights, identify excessive permissions, and enforce least privilege across PAM infrastructure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0fa969435caab7c90f7cd9df4f06abbd5db3ad7fdefadd7ec19c846361929cf39e9bc97f5c933c7194315f3155382a247e8530e531dcda85145e9e62a7d8750f",
+      "file": "skills/identity/pam/privileged/detect/SKILL.md"
+    }
+  ]
+}

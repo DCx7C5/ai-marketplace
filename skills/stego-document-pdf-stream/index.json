@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-document-pdf-stream",
+      "path": "stego-document-pdf-stream",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4e7a78401d832569601f7915c874b124223e51df70d66e53866056a4d485357f1460bd99ff9dfab75aeddd414d43f23bf2ae387de610486e3a572d50d39c5ca4",
+      "file": "skills/stego-document-pdf-stream/SKILL.md"
+    }
+  ]
+}

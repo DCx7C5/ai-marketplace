@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "alias",
+      "description": "skill directory index",
+      "sha512": "35bbce45b28de666ea70ea177a0e8b91bbc8263e7f68234c31edf752ef8e547e4d67e82ddb2f0e7fd3a8e959097ad65045e3ba71b0923d881ef2f7b73ecac22f",
+      "file": "skills/linux/shell/alias/index.json"
+    },
+    {
+      "name": "completion",
+      "description": "skill directory index",
+      "sha512": "dd81cf61477e4f5ec5416c2b2e65740a69162775dc155c3cf43846963b117cfb437893567d23837934bb146df22203d35fc96fe8a21e3814fac471eddaa5be61",
+      "file": "skills/linux/shell/completion/index.json"
+    },
+    {
+      "name": "environment",
+      "description": "skill directory index",
+      "sha512": "ccdaa6894cb8f8d93431b136b367efe9cf8a25c109bed44037077758d91ace878457d3d990d4fc5a1dc9cbdbc6dd2a40be26ecf8a4ed6462be23035962473cf7",
+      "file": "skills/linux/shell/environment/index.json"
+    },
+    {
+      "name": "history",
+      "description": "skill directory index",
+      "sha512": "a4bb2e4f2d21d43b842031a56cd49826d158e429e25db8b10d3c3a8b6d3efb3e794e7ef368d17b7eac43b610d4e3c4a1198473c8444e5ba5584179a316a56b45",
+      "file": "skills/linux/shell/history/index.json"
+    },
+    {
+      "name": "profile",
+      "description": "skill directory index",
+      "sha512": "05ef2c45c55698e1e423268174d6f967864ddc84920f3df49818412174cfbc44d899e7ddda9ba7ef90538acb7bbfdccf9d6d39b44a70e3b416d195464ed50058",
+      "file": "skills/linux/shell/profile/index.json"
+    }
+  ]
+}

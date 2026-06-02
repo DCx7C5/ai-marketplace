@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-processes-hollow-technique",
+      "path": "windows-processes-hollow-technique",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a4a5e4abe8592fdfadd57cf6c4c274099214b9067a7cf4673e8062bb37a1add3b6fa707a8d1e6edd0dc7bd11a69694821995eb9bab97dfbeb84c3b4da42a9c6d",
+      "file": "skills/windows-processes-hollow-technique/SKILL.md"
+    }
+  ]
+}

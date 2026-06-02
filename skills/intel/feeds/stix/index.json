@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "ffd3a83cc387236c87df833b5516a2e89a58165f97504e9a2ed54a17b4903f68454e761f5ac3397bd78cbf567b8ec183ddca51d86549b310c9bc97f33d24cf98",
+      "file": "skills/intel/feeds/stix/audit/index.json"
+    }
+  ]
+}

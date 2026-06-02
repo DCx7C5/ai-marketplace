@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "incident-response-detect",
+      "path": "email/incident/response/detect",
+      "description": "Detect compromised O365 and Google Workspace email accounts by analyzing inbox rule creation, suspicious sign-in locations, mail forwarding rules, and unusual API access patterns via Microsoft Graph a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9db3ecf186d20c07148b5a19d7054f6e18b1144d4ee6138b20628dca06c16af6e9ba174d6ae4112fc99b3aa229768bfaadd4b7849145d9973fa55a2b652bf508",
+      "file": "skills/email/incident/response/detect/SKILL.md"
+    }
+  ]
+}

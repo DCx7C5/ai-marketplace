@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-namespaces-pid-analyze",
+      "path": "linux-kernel-namespaces-pid-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "feaf6d621eb85b9977b54ba070873abeebd82e7de27dc12252d553745052761ebb15ffedfd2dd2486f0954901d4fffea7d73865353c6812739b9c0cfed801749",
+      "file": "skills/linux-kernel-namespaces-pid-analyze/SKILL.md"
+    }
+  ]
+}

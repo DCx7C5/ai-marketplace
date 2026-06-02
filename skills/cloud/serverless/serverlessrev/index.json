@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "72008801c047b74f286750405b2c09ec616e989f16415bbcb8f3db44a9b83bc1448713523e89b0d17183e2c61708ded476ef29d59440bc870612a2b59d891ee8",
+      "file": "skills/cloud/serverless/serverlessrev/detect/index.json"
+    }
+  ]
+}

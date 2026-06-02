@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "grok-projects-workspace",
+      "path": "grok-projects-workspace",
+      "description": "Use for grok-projects-workspace, projects scope, clone workspace repo, sync worktree with main repo, commit and push changes. Activate when user mentions grok-projects-workspace or wants consistent wo",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f640e7671345152505ca9ca7aa935d9dbed931f69baf6a80933491ff9ba56c0d0ebed740286193292be0a5a2b726ae899fc406d50d66455507a9ef26dd978e5",
+      "file": "skills/grok-projects-workspace/SKILL.md"
+    }
+  ]
+}

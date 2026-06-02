@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chrome-password-extract",
+      "path": "browser/chrome/password/extract",
+      "description": "Extract saved Chrome passwords from the Login Data SQLite database, decrypt DPAPI-protected credentials, and identify plaintext password exposure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "882a08dfe5b4fe38a7eb26d9d80c7c34bafb0894bde801130816600aaa0283e0a067a5958e3d7adb98372177bc8bea3d7e4b160cfde9feb95f56cd8a20961110",
+      "file": "skills/browser/chrome/password/extract/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "d521849cbddb1b885b6f90ed3172b4b347dd8aa7d71631204c4207612445f0340ace00d2c8dc74440d720e2c6c8465a92a011154a47f17e146228065d47295e8",
+      "file": "skills/identity/ad/certificates/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "796c757e01242d304f9ecc1b1d7fb491736d4aed969a1df7b1d69082f0068256e0055312a737ad6c35533f4f1ad9990000582263b2c66e1b7b5951423be9c52e",
+      "file": "skills/identity/ad/certificates/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f20bb5088ef7bd7b8b42243476f869cb1356ed4b56e32679f79b085c1887ea6354cfc99712967e9fbf584d450112f375173e109cc4c85d88c35f0574c41ab0ea",
+      "file": "skills/identity/ad/certificates/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "ac499d098509beefd91c586dd7f9ba594051da7ecf0226ce02fb12e402f5b1859846c43cc03f2c9b05a3bdf539344db3010807ab08e772b7e1f3a6a2c864e60e",
+      "file": "skills/identity/ad/certificates/verify/index.json"
+    }
+  ]
+}

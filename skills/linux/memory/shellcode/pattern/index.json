@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "310f60fa87fc5e2e5e5f721f6385e5a69ed1041d2f72eb31fd96aac6ce345e3890d8ee627c5597ea8c19139393dbbd7776274632a7daa7dc55c7835bacc6bb71",
+      "file": "skills/linux/memory/shellcode/pattern/detect/index.json"
+    }
+  ]
+}

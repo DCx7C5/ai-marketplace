@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "abuse",
+      "description": "skill directory index",
+      "sha512": "f6527bdf710bdb41d6045e76e680df82e26af4b26208506a2ffb233d269e292103c1d7a8f497253e7697dc89e817293ae2a281ee52b37cece55614118cf45ca6",
+      "file": "skills/linux/kernel/network-stack/netlink/socket/abuse/index.json"
+    }
+  ]
+}

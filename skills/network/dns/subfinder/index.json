@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "488146bf7449e3ca9b5bfdd2ed7f40e9b8589bfa4326d0fb6b1083ba9c65c0dc18a201d9c2b5386415a0fa4c5f56b464a31b12e3be97affe9c86c4484d526f63",
+      "file": "skills/network/dns/subfinder/assets/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "12c0f93ded273ad8a2d556932ee02ccbea00b3776fd118afac73628c4a92ad480e67da233a34f68a1f26390d9581bad3c0dadd3f08e682a5bc81dba7e87f8371",
+      "file": "skills/network/dns/subfinder/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "a596d9f118b5decdae9af3c5bd75c3c35ff2062571cd151cd31c2984eee4ab534cd5eecedaa6fa6b7c9d8d0370c4c2a79a7d315cace7d0663f9eb3d51aacd912",
+      "file": "skills/network/dns/subfinder/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "9678273038e5919933cdb5fe38c2bb63b7c154f8ee76cd9521be28657577b07dd81cfbe7f80d6a6e1682dbd5e9a6ef2b319226af70873efacd035cabcf512483",
+      "file": "skills/network/dns/subfinder/scripts/index.json"
+    }
+  ]
+}

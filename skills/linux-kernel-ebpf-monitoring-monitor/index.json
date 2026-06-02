@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-ebpf-monitoring-monitor",
+      "path": "linux-kernel-ebpf-monitoring-monitor",
+      "description": "tetra getevents -o json | jq -c 'select(.process_kprobe !",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "457f9ebdae3bb62437ec9c42a9392c6d70d79d4f199e2433d74c7a544f25feccac09f7cfb5ee198116428ec1d6b7a2f6254e2f53d7a17c4dd8da3ab7780ff1ef",
+      "file": "skills/linux-kernel-ebpf-monitoring-monitor/SKILL.md"
+    }
+  ]
+}

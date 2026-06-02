@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "3f410bbe1718da7294ee48ae92ca8443fe4d3630a15e575185392064a03b598d12b20e93159c38df508877ea7402d142025fcda0a95324a2445bd5ad9736bb69",
+      "file": "skills/cloud/devsecops/gitleaks/detect/index.json"
+    }
+  ]
+}

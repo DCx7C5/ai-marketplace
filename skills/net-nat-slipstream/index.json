@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-nat-slipstream",
+      "path": "net-nat-slipstream",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "22e11af10ce1ac9c9ccea26e1547fada933b749fe40bfbf28b7b81e14c92de6053739bd848e1abeb2ca4f8ae60b5e4b350b03ea7f8ea74db5f1b47a5ffa5471f",
+      "file": "skills/net-nat-slipstream/SKILL.md"
+    }
+  ]
+}

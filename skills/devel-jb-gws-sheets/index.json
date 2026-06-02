@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-sheets",
+      "path": "devel-jb-gws-sheets",
+      "description": "-| | [`+append`](../gws-sheets-append/SKILL.md) | Append a row to a spreadsheet | | [`+read`](.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bf18deafac0a32d00cd3e7f4285a5a2588d4c83a3692c2008cab3ebe4995fc8e6d8545833cbb719c79d38fae7f736d392c3426bec8be47f734d0d104561227c9",
+      "file": "skills/devel-jb-gws-sheets/SKILL.md"
+    }
+  ]
+}

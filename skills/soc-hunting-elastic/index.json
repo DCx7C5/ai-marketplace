@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-elastic",
+      "path": "soc-hunting-elastic",
+      "description": "Soc Hunting Elastic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1084e7e90a6bd6d2b3ba97bf2177d1c8ddc6111a5ecfa888fd104de27c2cfa9e97d2b3feb2c8ae6412800302cd18789a45be0fd25b68d8f74393da27178dc257",
+      "file": "skills/soc-hunting-elastic/SKILL.md"
+    }
+  ]
+}

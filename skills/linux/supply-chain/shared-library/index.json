@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "preload",
+      "description": "skill directory index",
+      "sha512": "14e0fe9a53648b7248196825ad914166ac9cd48e4a106ad16bb176f7f806d2b2fedd6e7c7906d529cdb5e372a2d9566756d7617f9949d66cafd10ff4298b6399",
+      "file": "skills/linux/supply-chain/shared-library/preload/index.json"
+    }
+  ]
+}

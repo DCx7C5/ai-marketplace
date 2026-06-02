@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "escape",
+      "description": "skill directory index",
+      "sha512": "a267733c7b376183865281eb2d3313bb002ac42649367a1b530e29930cd91fb4c392686ec6189c3b03f28ff62c4d2aa8c681f4cf48f731c7d9d342265de29fc2",
+      "file": "skills/linux/containers/rootfs/escape/index.json"
+    }
+  ]
+}

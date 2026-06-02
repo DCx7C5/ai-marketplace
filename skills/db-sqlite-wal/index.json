@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-sqlite-wal",
+      "path": "db-sqlite-wal",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4614b6d9bc834c290e48cff2c4194e425ee9b257c408a91bb1626dfdda777e7edb994f599caaae5caf492e2c895f2591cd2770f651b6f1cbd7f169d6bbba6ca9",
+      "file": "skills/db-sqlite-wal/SKILL.md"
+    }
+  ]
+}

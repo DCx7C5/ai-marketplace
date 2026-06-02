@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-acquisition-dcfldd-forensic",
+      "path": "linux/forensics/disk/acquisition/dcfldd/forensic",
+      "description": "Create forensically sound bit-for-bit disk images using dd and dcfldd while preserving evidence integrity through hash verification.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2e0092675352c9ad89ad1b4ad01e4849330ab402161ad564e2178761313e2a8508efa23b5631c93751ac84435ba433b95fe1f53de1720d1df154036bd393626c",
+      "file": "skills/linux/forensics/disk/acquisition/dcfldd/forensic/SKILL.md"
+    }
+  ]
+}

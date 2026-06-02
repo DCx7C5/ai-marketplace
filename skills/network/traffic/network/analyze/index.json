@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-network-analyze",
+      "path": "network/traffic/network/analyze",
+      "description": "Detect and analyze covert communication channels used by malware including DNS tunneling, ICMP exfiltration, steganographic HTTP, and protocol abuse for C2 and data exfiltration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6dc42c5e9e4ecf20d40d27e4b19af34dc9add500b244067cfdacefe2e43ac2262924a6600f9e6ed5fa40934aa17f69daac52ed1d6597153a129248393461d60c",
+      "file": "skills/network/traffic/network/analyze/SKILL.md"
+    }
+  ]
+}

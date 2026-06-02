@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-managing-youtrack",
+      "path": "devel-jb-managing-youtrack",
+      "description": "- Comment: `$YOUTRACK_URL/issue/<idReadable>#focus=Comments-<COMMENT_ID>` - Drafts have no web URL.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "56d79b5359a74f865700cf041b5126c5bfa89587e80c08aea9b09aa09a59320f3df8d26941ad0b722ae16c67213e1ee1e1eb8477c81eecb1d24cccca00964299",
+      "file": "skills/devel-jb-managing-youtrack/SKILL.md"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "e7ec2ff6286e6f6fd67ea544467c8cc78a0d8ef85fdd295998ff837bb7d69f8a000baa241eb300c7519e2c26e8534553d048f1fe2666d856e612b301ed2404b6",
+      "file": "skills/devel-jb-managing-youtrack/reference/index.json"
+    }
+  ]
+}

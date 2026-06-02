@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-auditd-rule-configure",
+      "path": "linux/logging/auditd/rule/configure",
+      "description": "Configure Linux auditd rules to monitor privileged command execution, file access, network connections, and user authentication for SIEM integration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "34ad4fb3d9a47f34387d472677aee9f52158473ab70ccf1da8f184282492b0d0ebc0ec2b08ae01da250466182783134af9e7b038b2e307a59167369f937f4950",
+      "file": "skills/linux/logging/auditd/rule/configure/SKILL.md"
+    }
+  ]
+}

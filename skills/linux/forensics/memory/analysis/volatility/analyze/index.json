@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-memory-analysis-volatility-analyze",
+      "path": "linux/forensics/memory/analysis/volatility/analyze",
+      "description": "Analyzes RAM memory dumps from compromised systems using the Volatility framework to identify malicious processes, injected code, network connections, loaded modules, and extracted credentials. Suppor",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "07f11d04439c98bedb3ebd390a8fd6b9ff6597828f83e7acb3befec86ae9440e1a867b1f81361f922e28b0bdb5de3c4bfed221b0d1d63d4fe0fd3a9ef5675763",
+      "file": "skills/linux/forensics/memory/analysis/volatility/analyze/SKILL.md"
+    }
+  ]
+}

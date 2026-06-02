@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "c100b5073321aa263092371364c6e7145e2e340f235218cf372bfa0367af475db2f57bcef039477009d520f72d295150c52cbfa2259ae4878654f29f65d1e114",
+      "file": "skills/compliance/cis/cloud/analyze/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "89a3e2c5dfa08c41c2117c5b93b6b53ee7d312a0955b5c00ab564a717b653d2759890bdd2bcd6ad239238b9e6bad0e0c2d5e49b1eac818fefe6d580395313d5d",
+      "file": "skills/compliance/cis/cloud/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7ed14d2917a0fcf3d318db1acd46906ee3ae89bbcf2b473ff2b9b2383cea356a237c8efa61091badd69f3dee5ddbfff5b366a1dc3f6100f68ca71b901621855e",
+      "file": "skills/compliance/cis/cloud/scripts/index.json"
+    }
+  ]
+}

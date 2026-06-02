@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-xxe-xml-detect",
+      "path": "web-application/injection/xxe/xml/detect",
+      "description": "Test web applications for XML injection vulnerabilities including XXE, XPath injection, and XML entity attacks to identify data exposure and server-side request forgery risks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ea1d4f9741a0b2662455683a99dce849de4661711206ce955729594f5d70b20e1ab3bb90d0c9c62f5c3ca9c26ba87a16f89457ca2a8286d120e9e054a2e4f05",
+      "file": "skills/web-application/injection/xxe/xml/detect/SKILL.md"
+    }
+  ]
+}

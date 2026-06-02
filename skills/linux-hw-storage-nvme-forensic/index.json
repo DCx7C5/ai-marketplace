@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-storage-nvme-forensic",
+      "path": "linux-hw-storage-nvme-forensic",
+      "description": "subdomain: hardware-forensics tags: - linux - nvme - storage - forensics - block-device nist_csf: - RS.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "15d61fa7fdfabcc84334b9686235afd82a76e0fb4a1eb0ebed7b55caac56b38d4798e19602b0ae12ef550e1fcc629dbbe09a4641ab09f98e1fb0751680e0d4b6",
+      "file": "skills/linux-hw-storage-nvme-forensic/SKILL.md"
+    }
+  ]
+}

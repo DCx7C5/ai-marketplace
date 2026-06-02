@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-waf-bypass",
+      "path": "offensive-waf-bypass",
+      "description": "WebKitFormBoundary",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "63cbb269dc0db99433e6d77be5743ab72bd4438b488f8044363973d924f65bdd02fb4aa61b7a9eb59651b14564c96a58367f400cd53849031ce78d82c61c5b8b",
+      "file": "skills/offensive-waf-bypass/SKILL.md"
+    }
+  ]
+}

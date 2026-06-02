@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "a0ab6a0f79de36fd7c4285812ab480eeb47242a650016438e5f4a1fa8692379b098d87724a1155c264e3d3cedd3ce56daa2642cfc76835a0322560220e93f446",
+      "file": "skills/compliance/privacy/gdpr/assets/index.json"
+    },
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "107c307720477b16f46d25668d00fcbff09d0d4bb28d8a1e9984fea47158e5128df7363e2947d78cb5ea8975e547f158df76ef070784a160c25391d266f155b9",
+      "file": "skills/compliance/privacy/gdpr/audit/index.json"
+    },
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "213e4d7bd1ec60b31e00089701e8683e0f7fefa641889467e8ac0196a1c23e21d64303d8abdf9cf31b1f8372ca70764bf2dd0365763cb5914d76d96c30092460",
+      "file": "skills/compliance/privacy/gdpr/collect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7a48bf1c1d015910b905baafd2bebed1646cc686c95490b9c39687acb93c350d36730a94b802c18566f3321a58dd4b0adf5ec49d064e95b2ea21bfb45ed93de1",
+      "file": "skills/compliance/privacy/gdpr/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3e14052d8982d795946bcf97e25cee9ccb482ea80b44de3b2b1b10bf7992252789700c1ae7e01aadea8a6e6e535ca0f976f7149673e2a7ddb167791a39c03899",
+      "file": "skills/compliance/privacy/gdpr/scripts/index.json"
+    }
+  ]
+}

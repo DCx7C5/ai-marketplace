@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-net",
+      "path": "net-capture-net",
+      "description": "- Public PCAPs for Practice: https://www.netresec.com/?",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2775dfa10fb04a3b9bb170e71f12586faf6012c447f67503f86ff043b3183f14a88d01768efd92568d5189de3c97493958805c7fcf641be79e493d1691116853",
+      "file": "skills/net-capture-net/SKILL.md"
+    }
+  ]
+}

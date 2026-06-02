@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-lnkfiles",
+      "path": "windows-fs-artifacts-lnkfiles",
+      "description": "Windows Fs Artifacts Lnkfiles.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bd979dbdb7e1c3511250a19085662a1fbea1ab8d214e746fb05460a821ea858fd4d68644ed5c2a261b55db785b7af734f5e6aad0371927ce79669c1a000a3e69",
+      "file": "skills/windows-fs-artifacts-lnkfiles/SKILL.md"
+    }
+  ]
+}

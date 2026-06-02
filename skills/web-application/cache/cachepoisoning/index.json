@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "bd3f6ec43b309f2f9164f17962dcb17bafd02cbae37e61aeeda872cc6852364d8755e3cbc3306a3a248615a6891492912dafb622bd66573eded01195f73c6c44",
+      "file": "skills/web-application/cache/cachepoisoning/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "cef0cca82965f757b3d6388dcf14a14406380fd4a4119e43415c40a23728de469c62f6b5186982e43659cde77dce51d8c7c688ad48d894d8ccce8924fae8ea99",
+      "file": "skills/web-application/cache/cachepoisoning/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3792ed832afb5ffb6e4de2badac57bf5950d397e065f972772c9a568b4ca8bb06922d6d84441f6427bd5e39fd5cf8c1a6951f8228ce333eca743d6db460819c9",
+      "file": "skills/web-application/cache/cachepoisoning/scripts/index.json"
+    }
+  ]
+}

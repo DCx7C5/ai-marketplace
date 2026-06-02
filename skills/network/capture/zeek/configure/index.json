@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-zeek-configure",
+      "path": "network/capture/zeek/configure",
+      "description": "Performs statistical analysis of Zeek conn.log connection intervals to detect C2 beaconing patterns. Uses the ZAT library to load Zeek logs into Pandas DataFrames, calculates inter-arrival time standa",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ccf96777bf46e21ca580f48395ec86d5c772ac4f85bc7aeb612a54df25378dbc37bc3c81d9a23ae4280cd06f08bbc25ce3c78435456e63f28b2edcbc1ad93e5b",
+      "file": "skills/network/capture/zeek/configure/SKILL.md"
+    }
+  ]
+}

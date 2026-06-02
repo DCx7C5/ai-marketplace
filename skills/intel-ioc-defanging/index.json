@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-defanging",
+      "path": "intel-ioc-defanging",
+      "description": "- [Grokipedia: Defanging](https://grokipedia.com/page/defanging) - [Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a6fc97444edad83b704762971e65bf31eb613ec49b0b5ed70d2e41f3675cb8921f74a1c83de2fa4ee7b62182a9434b0cc25b4a4b955ed35e2fbef41e3a54b444",
+      "file": "skills/intel-ioc-defanging/SKILL.md"
+    }
+  ]
+}

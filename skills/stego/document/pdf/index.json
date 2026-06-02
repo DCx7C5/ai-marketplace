@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stream",
+      "description": "skill directory index",
+      "sha512": "3f63ed71c1f9d64846667b38219b09e6ca6fcca87081337bb8b1fb8bec900e0e5c0c71e37de1f03de763c1da9fe72a373d1e031d49d2d9bde5d9e8521d7fe5fb",
+      "file": "skills/stego/document/pdf/stream/index.json"
+    }
+  ]
+}

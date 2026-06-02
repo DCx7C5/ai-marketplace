@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-boot-kexec-abuse-detect",
+      "path": "linux/kernel/boot/kexec/abuse/detect",
+      "description": "Detect kexec abuse \u2014 identify unauthorized kernel replacement via kexec_load syscall, which allows loading a new kernel without hardware reboot (bypasses Secure Boot).",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "893f3f0c6ef21f2b45015a8121914c373d5ed9c887f8e7662716aeceb28003e979a3886b8bd0fa42a1fc1323af30a8d5b1eaee7bf06ce241dfc3d559c2d42f5d",
+      "file": "skills/linux/kernel/boot/kexec/abuse/detect/SKILL.md"
+    }
+  ]
+}

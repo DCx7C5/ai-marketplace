@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dct",
+      "description": "skill directory index",
+      "sha512": "ad54876ebe7d6e7cda62f39d9825028de1536c8c7d2ab5552d34e27ba8ef4e74305265124ab0303c51f1287784d580655a57e7ae8bfd312b1456221d4a35b6c4",
+      "file": "skills/steganography/image/jpg/dct/index.json"
+    }
+  ]
+}

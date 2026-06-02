@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "4855b563bf9b291e9f8040dc7d86ef4ec6b72874917e07d9d16c125e5052aaec2ffdf316e3d93b954608528e28703a405bc4a2994067a5cd36e93d103adf31be",
+      "file": "skills/linux/kernel/memory/kaslr/bypass/index.json"
+    }
+  ]
+}

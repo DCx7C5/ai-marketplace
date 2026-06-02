@@ -1,14 +1,6 @@
 ---
 name: process-analyst
-description: 'Linux process forensics specialist. Invoke for live process enumeration,
-  parent-child relationship anomaly detection, process injection identification (ptrace
-  abuse, proc/<pid>/mem writes, hollowing, masquerading), suspicious command-line
-  and environment variable inspection, CPUmemory usage anomalies, hidden or unlinked
-  processes, and systemd service analysis. Triggers: suspicious process observations,
-  abnormal resource usage, Rapid Recon phase, process-based persistence suspicion,
-  or parallel investigation with memory-analyst for injection chains.
-
-  '
+description: "Linux forensic specialist tool; live process enumeration, anomaly detection (parent-child relationships), process injections identification ('ptrace abuse', hollowing). Inspects command-line/environment variables and CPU/memory anomalies. Triggers: suspicious"
 ---
 # Process Analyst
 

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "map",
+      "description": "skill directory index",
+      "sha512": "fa0075b5c60ac114fb9073cd7c86b8adbabb543ae92037cc5bb10d88446bf2e93c855077cf146f41cef443c3ede75f0e41b61aa9eca49965e0d63ac7215b6022",
+      "file": "skills/linux/kernel/ebpf/map/index.json"
+    },
+    {
+      "name": "monitoring",
+      "description": "skill directory index",
+      "sha512": "5cbd52dda09a05c7604d362963bd4d2adad028b159966365beacf7386f0602b8501a85e41678a58e1247e428ebc757e5dc9d2c6faec17e5166a0537c7dba6d8e",
+      "file": "skills/linux/kernel/ebpf/monitoring/index.json"
+    },
+    {
+      "name": "rootkit",
+      "description": "skill directory index",
+      "sha512": "fd97edf40750ad8253e7602ed88272d6a427dc11abfed3e016489546c9b359a982fba7b1fe17bf1950018710ad111bdf74a6d2e65d483ad7ec4c553ff85880fc",
+      "file": "skills/linux/kernel/ebpf/rootkit/index.json"
+    },
+    {
+      "name": "tracepoint",
+      "description": "skill directory index",
+      "sha512": "bcdbd2bde3be1d64f15122b3230fe9aa4f7f977c149245fa57f293a4b192cf197d68947e0bc20852ef264f6a3abfbf5c227db14f4d70e5f6fb9611f57cb7f564",
+      "file": "skills/linux/kernel/ebpf/tracepoint/index.json"
+    },
+    {
+      "name": "verifier",
+      "description": "skill directory index",
+      "sha512": "c9f5048e07dfd764652bb9f2287f5b88d5ac92724afb0086e7db27e41e0c4fe9d4c23c75f69ed82413ee0bd659b75cc972db697fa30552645f456601438f127e",
+      "file": "skills/linux/kernel/ebpf/verifier/index.json"
+    }
+  ]
+}

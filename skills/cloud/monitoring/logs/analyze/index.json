@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitoring-logs-analyze",
+      "path": "cloud/monitoring/logs/analyze",
+      "description": "Detect abnormal access patterns in AWS S3, GCS, and Azure Blob Storage by analyzing CloudTrail Data Events, GCS audit logs, and Azure Storage Analytics. Identifies after-hours bulk downloads, access f",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0210849e464c8811f5d2dfe22291e17ad736863cdce54bfacfffba34f28852359cb2aaa87c082ee4a8d2f8bd438d974a4cf690be7f5ac8c6da1f3900754e28d8",
+      "file": "skills/cloud/monitoring/logs/analyze/SKILL.md"
+    }
+  ]
+}

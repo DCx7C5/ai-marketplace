@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "reconstruct",
+      "description": "skill directory index",
+      "sha512": "9a767a6d4af5d2d2528ba51237bc60de78fb72dda7b8d895110d1e12d1d05499cfed7195807297b42b641c10aa92235c0e44f27849be3c6099d7eff0a695b066",
+      "file": "skills/browser/chromium/session/reconstruct/index.json"
+    }
+  ]
+}

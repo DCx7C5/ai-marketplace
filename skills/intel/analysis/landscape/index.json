@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "09973f61187fbefcb65f94d602736c22ccd6edae114f8246a12fc7595a1710f05702507c07b2f30b63129b2d79d3fbb626491f831cc7bc25b233fbecf8bec51c",
+      "file": "skills/intel/analysis/landscape/exploit/index.json"
+    }
+  ]
+}

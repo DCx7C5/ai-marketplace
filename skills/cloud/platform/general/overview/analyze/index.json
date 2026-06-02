@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "platform-general-overview-analyze",
+      "path": "cloud/platform/general/overview/analyze",
+      "description": "Implementing Cloud Security Posture Management (CSPM) to continuously monitor multi-cloud environments for misconfigurations, compliance violations, and security risks using Prowler, ScoutSuite, AWS S",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "727f0ecba500eaaf36b4240022dd23d607ff90acba886684809343db940921cebb46c7a9a1e97863e7fd08bf3a151f94d030ab6c10045aa9db8983f17bad4c34",
+      "file": "skills/cloud/platform/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

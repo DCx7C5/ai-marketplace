@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-binary-static-analyze",
+      "path": "linux-proc-binary-static-analyze",
+      "description": "Linux Proc Binary Static Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3f2cd76d4dd8855510acff6fcaab74aad9461352477104b18eaf0eb300f748af4f0719e34e5a9135039efd7e6b33f9748d4531a95f349dad84441116a5124233",
+      "file": "skills/linux-proc-binary-static-analyze/SKILL.md"
+    }
+  ]
+}

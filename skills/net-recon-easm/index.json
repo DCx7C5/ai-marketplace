@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-recon-easm",
+      "path": "net-recon-easm",
+      "description": "--action full_scan \\     --output multi_domain_report.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0bb9ba6e56f1801133fb2fde7739c566b1961a3a8f647ef807b3376171f3435da6ee7cb089bc2d9f06f2cdcad5d3219e16178cf84d5d4c08709a6cee23213267",
+      "file": "skills/net-recon-easm/SKILL.md"
+    }
+  ]
+}

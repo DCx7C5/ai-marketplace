@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-xss-burpsuite-analyze",
+      "path": "web-application/injection/xss/burpsuite/analyze",
+      "description": "Identifying and validating cross-site scripting vulnerabilities using Burp Suite's scanner, intruder, and repeater tools during authorized security assessments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2132cd86c7a77ec9df802b6a6a2c51946133488089ccb74a5649e862e25d36277fd5366243971c91ae703d70baef1f2761f7ff3f4a237ad74acc886cae7e9907",
+      "file": "skills/web-application/injection/xss/burpsuite/analyze/SKILL.md"
+    }
+  ]
+}

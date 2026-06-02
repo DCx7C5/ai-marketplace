@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "78cb9db590b6eb84dd2c850674c0b535a759ca5ea4219dbbb2e338d0ffddd39e4dc807a4ef0638081d497245889297af5098af06959709cd0fd93e22ad42c9b9",
+      "file": "skills/intel/intel-platform/feeds/stix/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2cfc1f330be7e502617b1bbb0886ca4ecab8ffffac3eafcaeebce88143536fed006f0de218c5ee311114a35e057b7d7352c9d72c33066c5d39f52841c86d508e",
+      "file": "skills/intel/intel-platform/feeds/stix/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "95c51b0e738230675121bffb581808bf42fc90933b7c11b019d060a8da4f2ab6b6dd3ecd55cc7ed16fb21b57d084d13dfc4db8b6e2e2ea641a288736f7ca6a27",
+      "file": "skills/intel/intel-platform/feeds/stix/scripts/index.json"
+    }
+  ]
+}

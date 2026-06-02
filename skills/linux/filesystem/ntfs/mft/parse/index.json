@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ntfs-mft-parse",
+      "path": "linux/filesystem/ntfs/mft/parse",
+      "description": "Parse the NTFS Master File Table (MFT) to extract file metadata, timestamps, attribute records, resident data, and ADS entries using Mftparser and Autopsy.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "74659e4f73c28438b96deb26611dcaf6678c83b44a1c1250c0de9dbfa2d66ca43ff03e3c9cefeca29e828df59da99a258025555d70ea4304970c2f20c99e5363",
+      "file": "skills/linux/filesystem/ntfs/mft/parse/SKILL.md"
+    }
+  ]
+}

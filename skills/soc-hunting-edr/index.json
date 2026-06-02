@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-edr",
+      "path": "soc-hunting-edr",
+      "description": "-| | T1003.001 | LSASS Memory -- dumping credentials from LSASS process | | T1003.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1f55e6d0fd92b91e2eb9e6ad5b6b59fc3658b9e1b3b8acaf41556267437589b465bdb53fb6e9a963643f963aea26627bfc0c866b67e77f839748c288e6dc9f7f",
+      "file": "skills/soc-hunting-edr/SKILL.md"
+    }
+  ]
+}

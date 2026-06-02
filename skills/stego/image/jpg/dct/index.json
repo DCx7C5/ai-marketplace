@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "174d6420ca41383150d2373b0677ff8083f0e771c2d2093e991a64e85e7dc6104e151a2ce0446a6c24e21f8c85a9a5bf5d70fdb7e30d4f965e040c76feaebd0b",
+      "file": "skills/stego/image/jpg/dct/detect/index.json"
+    }
+  ]
+}

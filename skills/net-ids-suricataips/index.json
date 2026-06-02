@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-ids-suricataips",
+      "path": "net-ids-suricataips",
+      "description": "vars:",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0a63e60fc6e7e7e703a8e85c1b1695247796ed019c1c0bdd07c71fed2abb4af099404ccac783366624e3c5821688cbbd92c34f2b1abec27f008315b25c4a7a5",
+      "file": "skills/net-ids-suricataips/SKILL.md"
+    }
+  ]
+}

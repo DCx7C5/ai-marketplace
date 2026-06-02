@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apt",
+      "description": "skill directory index",
+      "sha512": "39cb76adb44480cbca7395b94a03c27db9a813a0339a1f000546614fde38bda98d6092097bd78c4efd9bfcc93babc5de383a20d40e27a6bfa09c95bb4ba5ae06",
+      "file": "skills/intel/mitre/apt/index.json"
+    },
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "e7614c58f7e8427fc3b02459557922a4baca8bf68adedf680ec9c96cea8a21a5207530ef10bdeaaace3477c33766267ef5805e1ba25fe027b9a9cfd935fd2093",
+      "file": "skills/intel/mitre/attack/index.json"
+    },
+    {
+      "name": "attackmap",
+      "description": "skill directory index",
+      "sha512": "07891a719bd5c44b6609ba54528b9da0fd9534e2b14e8158d7c7d204997e10e9f427b8a2272a2ef03f528245f61196f70df9685d585a8eaaa28fdc6ba7cce189",
+      "file": "skills/intel/mitre/attackmap/index.json"
+    },
+    {
+      "name": "coveragemap",
+      "description": "skill directory index",
+      "sha512": "fb31d37891f31c0fb6cfe0abf0b81e67924c1611887e5140419d87afbc774d80ae54dbe46017480308e075f6a7f06750da80be3b85927c8064e560c006a192f3",
+      "file": "skills/intel/mitre/coveragemap/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "1b404101489625353e89790e4a7bd3fc171440e0a482570325adfe65c4fe476571477fdfd177afe03bf3322a0a8541532618b1faa432623ecc1ba6d30b7c340d",
+      "file": "skills/intel/mitre/threat/index.json"
+    },
+    {
+      "name": "threatmodel",
+      "description": "skill directory index",
+      "sha512": "81f50761ad95dc170e0485e1f5a141b5ab693366dcd6f25680b78ae1c201f9d9f30d0ac80bea925eb0944c86ef62563c7d27c5856494e09c231e3c83add00502",
+      "file": "skills/intel/mitre/threatmodel/index.json"
+    },
+    {
+      "name": "ttps",
+      "description": "skill directory index",
+      "sha512": "a7f891eeb677ad05fe85b7c44858bad8b534c5b56cb1b7ce8f51fb9a5fa4131871a09500c4ea6b0e20c86105f0d08f98d503a1f8a2c4ba6d9335b4506f81d649",
+      "file": "skills/intel/mitre/ttps/index.json"
+    }
+  ]
+}

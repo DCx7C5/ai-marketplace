@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9cb851978310207be740b549d444483ff159e0333dee67b511b9e25e83ad3d841bafcfbfbba473a4450257772d590b8b40a47fbb57bf1f99acf514850b096ce7",
+      "file": "skills/network/idsscanning/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6e1fb2d82599a2e2b4e6edb3e18c530a0a26f44a0fc97c76acabe7bf7b6b976f399bf0c8e6e85095ad6dd27d344677c19e23d22713968f8631d045a86fb506a9",
+      "file": "skills/network/idsscanning/scripts/index.json"
+    }
+  ]
+}

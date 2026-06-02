@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "certificates",
+      "description": "skill directory index",
+      "sha512": "77fd891ef263a21545093756219298be15ff858c815df1c111965a436ab97e9b92cb786bf3912117d6e72d6bf14410600667d80ea13a29861e85b9648ceab182",
+      "file": "skills/crypto/crypto-pki/transparency/certificates/index.json"
+    }
+  ]
+}

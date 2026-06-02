@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tuning-detectionusecases",
+      "path": "soc-tuning-detectionusecases",
+      "description": "Soc Tuning Detectionusecases.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7d666a2ead5b2a7414890464de391dc6363ab494172096b2470253e3300d77d74917251970565534d7dbff4a7a94a53d8d27866186fc49f854879be5346f8909",
+      "file": "skills/soc-tuning-detectionusecases/SKILL.md"
+    }
+  ]
+}

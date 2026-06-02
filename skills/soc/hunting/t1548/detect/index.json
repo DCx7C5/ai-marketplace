@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-t1548-detect",
+      "path": "soc/hunting/t1548/detect",
+      "description": "Detect abuse of elevation control mechanisms including UAC bypass, sudo exploitation, and setuid/setgid manipulation by monitoring registry modifications, process elevation flags, and unusual parent-c",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "26e0f1bde08a09e5adeb1c4c906b39d482f623ce18eabe4bf57f44f8be2b7298b75c04880b2aea7ac97cc9b68c57aeca0fa28598caa0a961138b48e90eeaa79e",
+      "file": "skills/soc/hunting/t1548/detect/SKILL.md"
+    }
+  ]
+}

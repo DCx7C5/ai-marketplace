@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "edr-crowdstrike-detect",
+      "path": "soc/edr/crowdstrike/detect",
+      "description": "Deploys and configures CrowdStrike Falcon EDR agents across enterprise endpoints to enable real-time threat detection, behavioral analysis, and automated response. Use when onboarding endpoints to EDR",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e70687b0c3bbd3b8b6069837e88a5a3e753d768d7e47e4f5513815b32bbfcafce92aa1ee1037ee99e12bdf2b72b3200aca69166bbaf112c43cecb56653e87e9f",
+      "file": "skills/soc/edr/crowdstrike/detect/SKILL.md"
+    }
+  ]
+}

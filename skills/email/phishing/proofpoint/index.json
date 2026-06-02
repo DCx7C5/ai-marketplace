@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "57ff2202965fa4d218a1a591baa5d7518f5a74534d9e5d15dfc7fc3f7a1d48e9b6a118b3a7664442d67f3906a1f02f6d3a44535065e89a728d8e8e0d8155d9f1",
+      "file": "skills/email/phishing/proofpoint/detect/index.json"
+    }
+  ]
+}

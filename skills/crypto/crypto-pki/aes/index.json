@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "10d95ca9c65040de7adaf4c1757cf49477318a3e730f4cddd6adcf0eb9dcd0bfd79d879ad67cdff5e5a9c0b4a102898e1920dfe0febb6337927b58257f6aa8f7",
+      "file": "skills/crypto/crypto-pki/aes/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "08ffd8f63dbdb46e78b047469a3ad7d59ebddbb2643d7045ee72b6ebfc86ca32e75a1db45e8311c2955a035bee21ac41bf79a86f66f8f494733946ef3b2484ff",
+      "file": "skills/crypto/crypto-pki/aes/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "712d10912e4d694428f7235ad076a7eee13d136ad9e8ba0b573fe57f22346afb6e9866310d5bbef8ba979bfcde3c8e3a2110b2d8e6af385d6a19dc7802272fef",
+      "file": "skills/crypto/crypto-pki/aes/scripts/index.json"
+    }
+  ]
+}

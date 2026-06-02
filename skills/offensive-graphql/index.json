@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-graphql",
+      "path": "offensive-graphql",
+      "description": "- Federation RBAC: centralize auth policy in schema directives evaluated at the gateway and in subgraphs; avoid trusting upstream filtering blindly.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ca38c73d7ac8a9d60ee3a26c3b84ab4df0834eb8d2d851a33c9bc106fbbf35a7b1e81d30f2c948f4b54d7046c5985c1a4a36938cf398bccfbc90b7d4f58cd287",
+      "file": "skills/offensive-graphql/SKILL.md"
+    }
+  ]
+}

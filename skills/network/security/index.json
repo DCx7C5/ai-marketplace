@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "firewall",
+      "description": "skill directory index",
+      "sha512": "c3e5f942257f19dc140aafef74f97c66d9e5fa1f6bd9d2118b43819c400c12447157268e259cc43807e6e942a7340525c6ba7bcfbf72868c9df204dc07d6f553",
+      "file": "skills/network/security/firewall/index.json"
+    },
+    {
+      "name": "ids",
+      "description": "skill directory index",
+      "sha512": "9ed6ccf16acbf722e48c780da2f8622313cad41311d53d627c2250c50c15aa5ad928dfb2533662ad31b88b4ed8799a338300b08d0e833b6f997d8cd581ab82d9",
+      "file": "skills/network/security/ids/index.json"
+    },
+    {
+      "name": "monitoring",
+      "description": "skill directory index",
+      "sha512": "8c81157a938d132e9c8fa39939d1dd148de4dfc63a28609e849c90c0313d36680b161dafd7aa2c7232dfe1b2c5f18851b004d3d6f022a6a96239ca68a76c18f6",
+      "file": "skills/network/security/monitoring/index.json"
+    }
+  ]
+}

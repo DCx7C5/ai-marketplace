@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-ir-respond",
+      "path": "email-phishing-ir-respond",
+      "description": "Email Phishing Ir Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8f2e0c65160b36ae6484fd7f507a2e16d0f481aade8a77f9910a39703b3e64e04d3d61e7db137fa9babc7fab95b662ec9dfd0a3b01c4d58e485d6d1234ba9f3",
+      "file": "skills/email-phishing-ir-respond/SKILL.md"
+    }
+  ]
+}

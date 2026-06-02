@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "iec-62443",
+      "description": "skill directory index",
+      "sha512": "abab6bd8668460c8b706cc25d46b6831fed2aceadbdb9584f750ee9f9fdb26fc566da7a51b940af160028907b680a0890edcd6cb451cb598daa9ce86bdd04881",
+      "file": "skills/industrial/ics/architecture/iec-62443/index.json"
+    },
+    {
+      "name": "purdue",
+      "description": "skill directory index",
+      "sha512": "b90c84ed0beeb08ced151f3723584bbfce056ec7e60c540b52fc22c10d42103894b31d397fe96e9a4b459e8572903482e8fc45c621fc1fc527fa26e625f36241",
+      "file": "skills/industrial/ics/architecture/purdue/index.json"
+    }
+  ]
+}

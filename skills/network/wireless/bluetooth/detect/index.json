@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "wireless-bluetooth-detect",
+      "path": "network/wireless/bluetooth/detect",
+      "description": "Detects and analyzes Bluetooth Low Energy (BLE) security attacks including sniffing, replay attacks, GATT enumeration abuse, and Man-in-the-Middle interception. Uses Ubertooth One and nRF52840 sniffer",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f2cfc453f678c5798b005a2d6c59631c609cf152f8da50e373845a9fd045c9e5cabfacf944db66ba6b3bf6634c061e1fc65e254bc4c052857bb4145d31270e94",
+      "file": "skills/network/wireless/bluetooth/detect/SKILL.md"
+    }
+  ]
+}

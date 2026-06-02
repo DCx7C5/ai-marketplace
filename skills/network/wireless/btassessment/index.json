@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "49a8aff1196b6fb4c4d027ffba8382aca5e931f4b85da433aad2f0419c8df55dfe2b25721ffbe122009a1c484a6a645911563d1f838a2256d575c3d549bb45b1",
+      "file": "skills/network/wireless/btassessment/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ce9c2a0e771217712e1fc18888ab79585c38ea31cc6698fcce0a9ba184f50b7a42465b333874aee0acad12f011157075a823965af4137f6986d164724f8e21eb",
+      "file": "skills/network/wireless/btassessment/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ab895009a534b3c96be3f855800b6629c8f2fd2295674ee84faffa01b3567b86bd58c39a8fa374e31286b9aa2a7992aacce7aca1cf737ee3ba518d9fc5cb6324",
+      "file": "skills/network/wireless/btassessment/scripts/index.json"
+    }
+  ]
+}

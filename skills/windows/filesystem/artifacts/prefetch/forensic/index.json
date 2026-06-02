@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-artifacts-prefetch-forensic",
+      "path": "windows/filesystem/artifacts/prefetch/forensic",
+      "description": "Parse Windows Prefetch files to determine program execution history including run counts, timestamps, and referenced files for forensic investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7f84dff9925c28dc3f6e92562cea213f47fee562dd68d030af16ca6bcb640ea363d2d222eb743168275b730f4d354745509045ba9da9d5513214c02f17b5280b",
+      "file": "skills/windows/filesystem/artifacts/prefetch/forensic/SKILL.md"
+    }
+  ]
+}

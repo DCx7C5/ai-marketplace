@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pam-privacctdiscovery-enum",
+      "path": "identity/pam/privacctdiscovery/enum",
+      "description": "Discover and inventory all privileged accounts across enterprise infrastructure including domain admins, local admins, service accounts, database admins, cloud IAM roles, and application admin account",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ee0db3aa2b19a5a5cf65e21d63bca8f582d1bb0e69eae0bd56372090a0738b0a5fb8a2775cfd0562419cf5cd226bd614cdbe45c915e07f9c3b496f89f78fc923",
+      "file": "skills/identity/pam/privacctdiscovery/enum/SKILL.md"
+    }
+  ]
+}

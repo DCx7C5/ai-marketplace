@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-implement-feature",
+      "path": "devel-jb-implement-feature",
+      "description": "| | `<cmd>.go` | Flag parsing + mode routing (dispatch) | `install.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "63ccab0e63cdf47e2249fceb7eeffc2c2ed8690ae121c85730f917ed27263484a089c15c333833932a6ababce6ef25c910673ae1f61ab0e7fb12f0cd85aa5b1f",
+      "file": "skills/devel-jb-implement-feature/SKILL.md"
+    }
+  ]
+}

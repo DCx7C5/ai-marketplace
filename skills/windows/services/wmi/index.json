@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exec",
+      "description": "skill directory index",
+      "sha512": "b76bf5cd54df5b409fc459478008ce8537c46470a083e39ec0ee81f042cd9422af324578567dcea856478c58475ac3aa0f4514eae4083b883ef1bcf90f7804cf",
+      "file": "skills/windows/services/wmi/exec/index.json"
+    },
+    {
+      "name": "persistence",
+      "description": "skill directory index",
+      "sha512": "63f0b0079c1c547a56fec22ab7f32af9869acf3d006940c44f75b7b02fad23b60642284b1fc08de3235c42ad1b4a4dcf123854247358dde8ceab3fed8909b490",
+      "file": "skills/windows/services/wmi/persistence/index.json"
+    }
+  ]
+}

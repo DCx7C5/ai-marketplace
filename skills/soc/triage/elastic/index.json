@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "647278f42b0cd57b3cb94809346f2dd0f01963de4be3739d0601ca8fd4320b888c6941223da7a5724e0f1502af61171e93a006b607e3d4a109eac7580ed4a803",
+      "file": "skills/soc/triage/elastic/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "docx-metadata-detect",
+      "path": "stego/document/docx/metadata/detect",
+      "description": "Detects hidden content in DOCX metadata, revisions, and XML comments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5bd0507b585d52a60a10ba1569b59484428f76fce311e02e4c78f7bf343ed36dc382d65eac09a3328bbef597c7aa1ec729b69b8aaa45e2b4441b227df537076b",
+      "file": "skills/stego/document/docx/metadata/detect/SKILL.md"
+    }
+  ]
+}

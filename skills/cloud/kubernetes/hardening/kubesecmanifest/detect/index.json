@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-hardening-kubesecmanifest-detect",
+      "path": "cloud/kubernetes/hardening/kubesecmanifest/detect",
+      "description": "Perform security risk analysis on Kubernetes resource manifests using Kubesec to identify misconfigurations, privilege escalation risks, and deviations from security best practices.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b3524516a641a480f413024fa9163bddb429ed7aa5abad3967ba654efbf2c47b5e703fc303863b85d0dcaeb39b846322bef8d182af91d45dbd40ea7e1d85665",
+      "file": "skills/cloud/kubernetes/hardening/kubesecmanifest/detect/SKILL.md"
+    }
+  ]
+}

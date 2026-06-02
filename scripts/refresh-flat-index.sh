@@ -1,11 +1,11 @@
 #!/bin/bash
 set -euo pipefail
 
-echo "=== Refreshing flat-only index and hashes ==="
+echo "=== Refreshing recursive index tree and hashes ==="
 echo ""
 
-# 1. Verify all flat skills have name: matching directory
-echo "[1/4] Verifying name: matches directory name for all flat skills..."
+# 1. Verify direct skill names still match their directory names
+echo "[1/4] Verifying name: matches directory name for top-level flat skills..."
 MISMATCH_COUNT=$(python3 -c '
 import re
 from pathlib import Path
@@ -41,11 +41,11 @@ for d in root.glob("*"):
     '
     exit 1
 fi
-echo "✓ All flat names match directory names"
+echo "✓ Top-level skill names match directory names"
 echo ""
 
-# 2. Regenerate index.json (flat only)
-echo "[2/4] Regenerating index.json (flat skills only)..."
+# 2. Regenerate the recursive index tree
+echo "[2/4] Regenerating index.json tree..."
 python3 scripts/generate_index.py
 echo ""
 
@@ -60,4 +60,4 @@ echo "[4/4] Running validate.sh..."
 ./scripts/validate.sh
 echo ""
 
-echo "=== Done. index.json and index.json.sha512 are now up to date. ==="
+echo "=== Done. index.json tree and index.json.sha512 are now up to date. ==="

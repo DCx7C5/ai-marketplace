@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gemini-live-api-dev",
+      "path": "devel-jb-gemini-live-api-dev",
+      "description": "The Live API supports 70 languages including: English, Spanish, French, German, Italian, Portuguese, Chinese, Japanese, Korean, Hindi, Arabic, Russian, and many more.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e8821cf9dd6c2e5ca6447896da614e868b69c41b386342a31cedfa3e1fc987fa6f1d956622540da0e5b7d8460a0595909a7765334068879fb3bb3fc24a4112f8",
+      "file": "skills/devel-jb-gemini-live-api-dev/SKILL.md"
+    }
+  ]
+}

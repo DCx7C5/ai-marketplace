@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "b0dd9b2c30d480f919922fed71cd11879f1520f71eb0a50578d962d9dd9ca66f40086b8ff30fdf986b80f507b9015551b19ca5fb63be911d42db64a30bc3519a",
+      "file": "skills/identity/pam/delinea/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "a50f611fc6f1c60e6ed2d38b71869692bd97b786c21f5d57101b30af5709bc0c0fb6e8324e238f12db4806aeadaa58ac817f3eadd16e170c263e4aa8c16eb164",
+      "file": "skills/identity/pam/delinea/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "32cee8bee1a3f64681f5053c48b11b4cab7785dce84cf56af12ca4b1c5ca3734aaf367f0991e223e03a51ff002a636329fa7674ea0069fe5e502392808ca82b2",
+      "file": "skills/identity/pam/delinea/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-hidden-rootkit-detect",
+      "path": "linux-fs-hidden-rootkit-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dd6c28d77c1b1fe5a16a5b13d6daadf184f074a5fcf7611d69ebb58e84067c894f7674064da6dbb776cd7b9118e6f2c60609c17b8c0d12e6fd7bf62da6f7bb77",
+      "file": "skills/linux-fs-hidden-rootkit-detect/SKILL.md"
+    }
+  ]
+}

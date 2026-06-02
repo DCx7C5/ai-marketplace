@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "postgres-extension-audit",
+      "path": "database/postgres/extension/audit",
+      "description": "Audit PostgreSQL extensions for dangerous capabilities including dblink, pg_execute_server_program, file_fdw, and untrusted languages enabling OS command execution.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c0716aef450d095a5ba4781a9ea0084907dcbfe8ea88af9a8149b91c959580faca6f2472d9413ae9586d7938775d458066b9428a7520316c246e042462517011",
+      "file": "skills/database/postgres/extension/audit/SKILL.md"
+    }
+  ]
+}

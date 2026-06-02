@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-logging-syslog-verify",
+      "path": "db-logging-syslog-verify",
+      "description": "- When deploying or configuring implementing syslog centralization with rsyslog capabilities in your environment - When establishing security controls aligned to compliance requirements - When buildin",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1a2eb58ecf87d813cd707c07b5551676ac13f4afc7592a2d31c542af1f8c6838739fc392776914b7d34b46c53ef642414f7610124d2c92f48b4ba6d59a494daa",
+      "file": "skills/db-logging-syslog-verify/SKILL.md"
+    }
+  ]
+}

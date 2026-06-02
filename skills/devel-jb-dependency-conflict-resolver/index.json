@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-dependency-conflict-resolver",
+      "path": "devel-jb-dependency-conflict-resolver",
+      "description": "A bad run produces a one-off version pin that compiles today and recreates the same conflict in the next branch.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e24b8bbb6c6c27d8eb704c9786ac699d21dfe05c2ef8db90d0b5eb2a2103a14bcdbed9b9b20d409c3eb513c2d02d43ad941057828953f90c836b0ed392107e69",
+      "file": "skills/devel-jb-dependency-conflict-resolver/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "f7c266075702830aa7d1c4bddcd5edfc445b3b2d887541d0442adff5ade5e513fb792c24896ec1459fdb205db95906a2fd05774e8c49229e7f82ee89fed3415c",
+      "file": "skills/devel-jb-dependency-conflict-resolver/agents/index.json"
+    }
+  ]
+}

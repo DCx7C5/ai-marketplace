@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1002bed3f01ab2d0732890508a3038be5bbc11924475dd2e2ae44724c46870b6acbaf15b8e122ebf8921d4373400ed275e36eddce13a58c40b66a1ebb7b18ca9",
+      "file": "skills/windows/logging/sysmon/detect/index.json"
+    },
+    {
+      "name": "rule",
+      "description": "skill directory index",
+      "sha512": "80c6d78246960b99a87234de8f05501413850e522ccda7a7af25eba10a8f5ba51bc19b1d4e21ba88939d8f16e7aed1bdff3d699f27486f2be7529ca5def15eaf",
+      "file": "skills/windows/logging/sysmon/rule/index.json"
+    }
+  ]
+}

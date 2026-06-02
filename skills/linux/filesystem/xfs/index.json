@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "metadata",
+      "description": "skill directory index",
+      "sha512": "b3df3fea4349a30b98947220b740f97c67fd607c4c33765ebd100a17cd9d8ac983e92b91c00f3c442892ac9af9d8bfd0320d550b371ea6cb2ad37a3bdd4b10c9",
+      "file": "skills/linux/filesystem/xfs/metadata/index.json"
+    }
+  ]
+}

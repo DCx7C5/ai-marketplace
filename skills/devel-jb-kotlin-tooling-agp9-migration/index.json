@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-kotlin-tooling-agp9-migration",
+      "path": "devel-jb-kotlin-tooling-agp9-migration",
+      "description": "--| | `android.uniquePackageNames` | `false` | `true` | Ensure each library has a unique namespace | | `android.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0a6ba050477a86c55ce5f9ab25499345a3b0e0974711e0809ecf15f2f8b6739c2d7d3d6f2ff1b67a73c8f6dbda533c09728bb17fad48d9cbe78e2b7119936a7a",
+      "file": "skills/devel-jb-kotlin-tooling-agp9-migration/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "d67962addc1a7a1ab54108188ec39a5286d0c92470a9b12009239e23fb1a69c045b1269ae9c2a11c47bbc269b4969b33ba1c0755379b671d74398aa62639d437",
+      "file": "skills/devel-jb-kotlin-tooling-agp9-migration/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "cb823d1d3e7b49aa8f9deb1a2cc9188b3a87c030fd6a41cfa4488e372dc79acc79c2502d609c3269133eba643c9096c456f833dea41d1b1cacf7790ad6290e6d",
+      "file": "skills/devel-jb-kotlin-tooling-agp9-migration/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2284a4f424605fa75493fea70c4736245366bae2632fc85c36b86e74564b3a781bd67cb3d1bdbba91c424caa46f894b089de33ca09a6576dc827420a0f45b8d3",
+      "file": "skills/devel-jb-kotlin-tooling-agp9-migration/scripts/index.json"
+    }
+  ]
+}

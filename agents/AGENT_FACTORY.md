@@ -1,7 +1,6 @@
 ---
 name: agent-factory
-description: > "Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-reflection mechanisms, and blue/red/purple team-mode support. Handles BOTH orchestrator agents and specialist sub-agents. Preserves all original rules, tools, and output formats verbatim. Never hardcodes ports, URLs, or agent addresses — all integration is dynamic via AgentRegistry. Token-efficient: concise output, no filler, no redundancy."
-
+description: "Create dynamic agent profiles from `.claude/agent*.md`; supports Blue, Red/Purple teams via `AgentRegistry`. Includes a comprehensive nine-chapter guide for seamless integration and rich personas development with"
 ---
 
 # Agent Factory — Perfect Agent Creator

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "8f756bbedc68af0f2d9a513a2525bbc85c7f2d310b8c38bd16a7762fd4ef8523d309260023a2b9cc3871e7ef638d44d3b102b7c78d53b0c789a2c2e8727f34c6",
+      "file": "skills/linux/logging/auditd/bypass/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4cf190fa9a931a5afabf158a403af92cdc1b570b613f3438e4cf4385e2dcfeb15b50d59450382602a0c921c71e1db2e21e29cebaba8cd7532b48cf659d110f27",
+      "file": "skills/linux/logging/auditd/detect/index.json"
+    },
+    {
+      "name": "rule",
+      "description": "skill directory index",
+      "sha512": "a8642f33c7883bd58561445e3e5723d14de9954a9a73beab20440253ccd68d2cbfab8b944f7bf698bdef70fc661b01ead1e753bb69e3a9f1e37e6e9771e0ed01",
+      "file": "skills/linux/logging/auditd/rule/index.json"
+    }
+  ]
+}

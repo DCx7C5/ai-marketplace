@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-integrity-tripwire-deploy",
+      "path": "linux/filesystem/integrity/tripwire/deploy",
+      "description": "Deploy Tripwire file integrity monitoring to cryptographically sign and verify critical system files, detecting unauthorized modifications and rootkit placement.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "890cafef38e13a0c0ca60622fc724149ba58ae9c099e26fc1b9e3b97bec2fa5104330513379405ac964544166574fada9cc70301c1d033a4d1f585d7fe428036",
+      "file": "skills/linux/filesystem/integrity/tripwire/deploy/SKILL.md"
+    }
+  ]
+}

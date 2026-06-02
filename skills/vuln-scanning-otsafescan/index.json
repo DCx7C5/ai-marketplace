@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-scanning-otsafescan",
+      "path": "vuln-scanning-otsafescan",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ad93d3114b4eb6fd37ec49b55ac32bcd27651fd1fbb0aef90386b7824fffcd8048f6e2a53abe622dfc7dd27903f50ecf1c02fae9c612498246b31cfb4fc5bb8",
+      "file": "skills/vuln-scanning-otsafescan/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "13641638299d39ed83648165e9180563ce9e56bdb96c8d0cc28947f88a10c67385395a2ab17f7fa34fc22f03d46d75a2849e525f349781a2638b37df85d0e180",
+      "file": "skills/vuln-scanning-otsafescan/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "73195872a3bd442922d58f2a668c1a9fec3f2eb3cd2d42953c7090935c20d03f475b306275fde44e45e215e3e73ba3a6c7696af3f2da6c996191d136d9b021c8",
+      "file": "skills/vuln-scanning-otsafescan/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dnp3",
+      "description": "skill directory index",
+      "sha512": "fbd7a807bda24461d91239e99fac1f8439805e699213923e3620e5f16f94a8202e733c26eff3397c6ae3a561fcfee922ecabd7dc1a9b6b53d9a5f92dde0f1882",
+      "file": "skills/industrial/ics/protocols/dnp3/index.json"
+    },
+    {
+      "name": "modbus",
+      "description": "skill directory index",
+      "sha512": "de692d5c5e1e31fed930dde8d1a3aa37a5f028cf9d54f2426a8396b452d35a83053226ce601a0093efa6991e99b32116b2705dc9b7076b38f547c183a51a54f4",
+      "file": "skills/industrial/ics/protocols/modbus/index.json"
+    },
+    {
+      "name": "s7comm",
+      "description": "skill directory index",
+      "sha512": "a70ec272607d435b057ceacbe9c0f906949bb350933b7e9d9afee39910329e853d5cded6d5e55bab4a12bea71fb1c3673a2d205073f98b47ffc480986c75c35f",
+      "file": "skills/industrial/ics/protocols/s7comm/index.json"
+    }
+  ]
+}

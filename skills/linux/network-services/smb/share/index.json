@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "47383baa8d76d449caf3b9920bbb323f397e201146dbdac7195b552acd1d073b24687b133f887740d6f50abaf8ad70787ddd4b6fff048219ee19a634df23ee26",
+      "file": "skills/linux/network-services/smb/share/enum/index.json"
+    }
+  ]
+}

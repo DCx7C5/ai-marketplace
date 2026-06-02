@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "accessibility",
+      "description": "skill directory index",
+      "sha512": "5b002235e2be7588090045cc0ea86cf91504e47af08ab5ff1437914e66323a8723a358e3d14b50fbd773d472f557f56bd6250d318744503f44fd07efdcc1bf0b",
+      "file": "skills/devel-jb-modern-web-guidance/guides/accessibility/index.json"
+    },
+    {
+      "name": "built-in-ai",
+      "description": "skill directory index",
+      "sha512": "4e3835e1fcdc8d42f15fd5135351f4129c98d974f394012606ddc4dafd36a8f3a79b1b0f4bb2080d4c09782e9733d40fb86a5bed7fc421dd4329d854127b2fd7",
+      "file": "skills/devel-jb-modern-web-guidance/guides/built-in-ai/index.json"
+    },
+    {
+      "name": "css",
+      "description": "skill directory index",
+      "sha512": "f23817d3031be197c561a186847c7a1940cb8368816decba8bc3cb3f5f094ef445b3e741257dd7bc907b9775eab26b2b65be11dc2f81fb15627d11da516d0c86",
+      "file": "skills/devel-jb-modern-web-guidance/guides/css/index.json"
+    },
+    {
+      "name": "css-layout",
+      "description": "skill directory index",
+      "sha512": "2729600a36a0e0f7dd6f45452d9823a445bb41d33ce1f32e2ac192d392b2e1b1139d445c7cb2e8a2f6e79b7c8923f66a7d481ef87f798d98ef76cdeb3d479839",
+      "file": "skills/devel-jb-modern-web-guidance/guides/css-layout/index.json"
+    },
+    {
+      "name": "forms",
+      "description": "skill directory index",
+      "sha512": "5911843490fbf39a6e2622dbb1ce2345a569f7ce1cffecfa3c4cf1d2def9ac15aa1bb018e1f8b54ab033653383e4248d75eb736014964225744a91ed4b5f1a13",
+      "file": "skills/devel-jb-modern-web-guidance/guides/forms/index.json"
+    },
+    {
+      "name": "html",
+      "description": "skill directory index",
+      "sha512": "6be35c544d1b28dad8944ae373de68fa911a5dcc976920c638f2294d346b88902e22203b734c4364b436a683e721a38eb645aa16b59909fe881c88573cc81340",
+      "file": "skills/devel-jb-modern-web-guidance/guides/html/index.json"
+    },
+    {
+      "name": "passkeys",
+      "description": "skill directory index",
+      "sha512": "fdd131ebdc04ce743695ae99bb50ef60878961c1768e35d77572c7e25ee547cf370b115bbddaf78e42fa86fe1d272186f259bb48cba1e9566dd61e81d0b47a24",
+      "file": "skills/devel-jb-modern-web-guidance/guides/passkeys/index.json"
+    },
+    {
+      "name": "performance",
+      "description": "skill directory index",
+      "sha512": "bed0a26f4452995e36632bdb41f146f7d954ee683174e7a97d1c3203ad32bf3bbe18ebd64f0a24889d3bbf5453ab09c8e228a00857746d9cf1f3d4a93ce25daf",
+      "file": "skills/devel-jb-modern-web-guidance/guides/performance/index.json"
+    },
+    {
+      "name": "privacy",
+      "description": "skill directory index",
+      "sha512": "d61bf7b2e607699b98a8572ff3aa0cd281ca5eac6a7f7f9d350aea2140c0f7b561c86fd8f9ba76af4ab51d684a81ab97657601facf53bc1d7926ab7db1400ce7",
+      "file": "skills/devel-jb-modern-web-guidance/guides/privacy/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "e75eb75372b3fced61ef11e09f008137d23dd59bec5edcece4f41bea82310854841f3f01d8857f378bf84df5e7785cfcfba0dd1496e6db66ae66620125f18a94",
+      "file": "skills/devel-jb-modern-web-guidance/guides/security/index.json"
+    },
+    {
+      "name": "user-experience",
+      "description": "skill directory index",
+      "sha512": "a88b2a60abea5cc5992ce0d6bbce102548c74f6cbc39c0c8c327609370822a31be3c2d11af22bbe2da66c494f7925eeaf4ef95fdba1c2a34e8fb4fa2fe57ebce",
+      "file": "skills/devel-jb-modern-web-guidance/guides/user-experience/index.json"
+    },
+    {
+      "name": "webmcp",
+      "description": "skill directory index",
+      "sha512": "ab1e1a91014107abf99d5468e50fa574634ce6f9d543e3b72cefaf7daf4e4b2288022c89064cb71d5fb7d02bb7faad06d442213dcb019064b6a847e958068e55",
+      "file": "skills/devel-jb-modern-web-guidance/guides/webmcp/index.json"
+    }
+  ]
+}

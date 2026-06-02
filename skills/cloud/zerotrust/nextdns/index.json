@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "02d0285f759ef9c1668ba553eba2ebc55e6dd294978d9d23e9368427f17be80cfef6fe030fa573e51781570b926d8b3dc810de0c4cbef00e013c605560fc0859",
+      "file": "skills/cloud/zerotrust/nextdns/exploit/index.json"
+    }
+  ]
+}

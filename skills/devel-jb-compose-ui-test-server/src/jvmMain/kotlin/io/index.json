@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "github",
+      "description": "skill directory index",
+      "sha512": "d35ef4d69d4caf4719d27556a53fec8da031af10f10e5abca4be22ddf27d4b9be0e6e39008e45841b38e74e2d7bfe5f60b77817bab480212d3df4c536a2c8ebc",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/kotlin/io/github/index.json"
+    }
+  ]
+}

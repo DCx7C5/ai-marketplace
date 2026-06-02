@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "67b3aacc96040b2ec513b5b4b2d03ff9f316886d6f0499bba3dc2b17adc63df77122c9232e8229fd66b8115ec2cd518b5f6057d4132032fc0e6fd74d77c0246e",
+      "file": "skills/email/artifact/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "fc0a9367e86fa4f6e8b25f954c1ab34fec54ebab023a6714a5cacb5b53ef1e6c8ffd72183e6cc7156dd3221089226f67cad72e33b0f8de0348e8c1b1d28c76d5",
+      "file": "skills/email/forensics/index.json"
+    },
+    {
+      "name": "incident",
+      "description": "skill directory index",
+      "sha512": "6cdf21363e6af84cdbcc5304edcb7863515e438fd4a52dd84282519f9d47d635ad243ae05caebe94450e8725db1266bf894e63f9c0497a82c8f08c3612b1c9b8",
+      "file": "skills/email/incident/index.json"
+    },
+    {
+      "name": "phishing",
+      "description": "skill directory index",
+      "sha512": "b9d9839eaed3e286f65281d99d0f9e7389c76f534c39a55d42d806fd9c52b7dbdbc121b0f813f92c0c41b5ac03e8fb50a8b680deb94feb27d597a857ebbdc6bb",
+      "file": "skills/email/phishing/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "ced42f24d920af2ebbd9fce6829e3e47891cf967e8baa61724257541b49122a3875458fb2560b0a096f8152019073c2ee8c4ca355cd516dd6ba4d79406ff4645",
+      "file": "skills/email/threat/index.json"
+    }
+  ]
+}

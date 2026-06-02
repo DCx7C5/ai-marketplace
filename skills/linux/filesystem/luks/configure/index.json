@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-luks-configure",
+      "path": "linux/filesystem/luks/configure",
+      "description": "Configure LUKS2 full-disk encryption with Argon2id key derivation, secure header backup, and TPM2/FIDO2 integration for at-rest data protection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e23052ecf4301e29d18441dac7cf3fdc7057eb098a3dc7a611aae386c53b526d45df869dc8b1cb2824b09fc20b9b759edab3a25ead2b9c1546751cbe232847ec",
+      "file": "skills/linux/filesystem/luks/configure/SKILL.md"
+    }
+  ]
+}

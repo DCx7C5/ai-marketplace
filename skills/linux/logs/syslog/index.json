@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "e78256f6c8feb4e2d63a35838c2aa6f477f2ce7b49bd5675fc6ff7ff0adcc2b63b2aa6a83be710d3f3a2dabe17f516433d360e50152dbe3c1824960a4c1f4c09",
+      "file": "skills/linux/logs/syslog/analyze/index.json"
+    }
+  ]
+}

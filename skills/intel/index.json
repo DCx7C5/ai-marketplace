@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis",
+      "description": "skill directory index",
+      "sha512": "c364cdb5dce459e558430db23f6abd9dfd709b444bf43eee608e4f50ff65ce5c7f89594b74f7942eebc111f5dd27cccce8cd9ba83c9158aa7bb14a5a01c54b85",
+      "file": "skills/intel/analysis/index.json"
+    },
+    {
+      "name": "feeds",
+      "description": "skill directory index",
+      "sha512": "af3d580ababccf4ae8f8b84070e8491f3d86183ff611777837a7f05f09948f0d6919afbf15f9865c9ff56ce4fc4acd97ebd690e85f45b2aff2f65dfd3aeaee45",
+      "file": "skills/intel/feeds/index.json"
+    },
+    {
+      "name": "indicator",
+      "description": "skill directory index",
+      "sha512": "0ffbd0e86ffb043eeae94c1a0e1df06a9d78e8ee003aadc1431834d5f5cd49c0840dc1c2a11930ad78133fb905cfc692dfe8437b12a7b546606285d07e8bf0da",
+      "file": "skills/intel/indicator/index.json"
+    },
+    {
+      "name": "intel-platform",
+      "description": "skill directory index",
+      "sha512": "10c89d5849a9e4abf32cb34702f34bc3b6ace1bbdcce992fb10e28203fe265395b77b186569e05ef8a47a14252608d96f384794475e83ded01f4b9c13697e844",
+      "file": "skills/intel/intel-platform/index.json"
+    },
+    {
+      "name": "ioc",
+      "description": "skill directory index",
+      "sha512": "9861b373cd768af722b0b9428496d098fc4cc6330f021ca666b60d22fa0b7bc67abd4d99d71009325538cfa4900d213e8ed1d7f71ef6e04c525cf35985476b37",
+      "file": "skills/intel/ioc/index.json"
+    },
+    {
+      "name": "mitre",
+      "description": "skill directory index",
+      "sha512": "5be6c9fb188825d8ad5cc5030c080f04ccb860fa12bc100f956ebf31560f4b96d1a0d267d8d6bb9e386f65f2d5635c418b43fa04626cb104913b67e3daadf450",
+      "file": "skills/intel/mitre/index.json"
+    },
+    {
+      "name": "platforms",
+      "description": "skill directory index",
+      "sha512": "bd614ccc7bdf141e3fe6511e1288ea3a0d5e021c15366c69f55a22e9c6b7f654aa68cf8a1520649c92c472739665ca89bbb85dae22fd46a2d44bd9ec8bc5c084",
+      "file": "skills/intel/platforms/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "bfb3185f397c78a49e2e6f928e26f0470b39a306d97b1cc920458e1f27d6bffe18201ea1f470d53d977a336c5a173b97334ec044e8013e6cf1a3dae4725003d5",
+      "file": "skills/intel/threat/index.json"
+    }
+  ]
+}

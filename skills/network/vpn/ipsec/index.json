@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tunnel",
+      "description": "skill directory index",
+      "sha512": "a21be70c0932fe6a716f77a9cd80b11ba9c321ff3e4f3160f79ef66181d0b1669298416891fa965b03054c54b9061b2903d012432f02e28149938df1b64b489b",
+      "file": "skills/network/vpn/ipsec/tunnel/index.json"
+    }
+  ]
+}

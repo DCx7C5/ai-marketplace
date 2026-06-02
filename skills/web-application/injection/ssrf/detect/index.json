@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-ssrf-detect",
+      "path": "web-application/injection/ssrf/detect",
+      "description": "Detect and exploit blind Server-Side Request Forgery vulnerabilities using out-of-band techniques, DNS interactions, and timing analysis to access internal services and cloud metadata endpoints.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1e5d454994ffec805fca4a8c33eeb1923af2398f246cc9a0ca86ab118e7a3510a2504bfbe112477b952491e4fde9d9207daa4ef368963b0904d03e329041d306",
+      "file": "skills/web-application/injection/ssrf/detect/SKILL.md"
+    }
+  ]
+}

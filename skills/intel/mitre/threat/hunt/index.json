@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mitre-threat-hunt",
+      "path": "intel/mitre/threat/hunt",
+      "description": "MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics, techniques, and procedures (TTPs) based on real-world observations. This skill covers systematically mapping threat actor beh",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "10dcb071cf767044a3641645e2e521100eb630975d326a3029cc30ab4ed5ea0c518f21d152494ec9568acdc06394861ad97eec83bd8fbe25e4e74f3518170d85",
+      "file": "skills/intel/mitre/threat/hunt/SKILL.md"
+    }
+  ]
+}

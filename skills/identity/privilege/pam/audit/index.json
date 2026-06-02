@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privilege-pam-audit",
+      "path": "identity/privilege/pam/audit",
+      "description": "Deploy privileged access management for database systems including Oracle, SQL Server, PostgreSQL, and MySQL. Covers session proxy configuration, credential vaulting, query auditing, dynamic credentia",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "78287aed06e518dc9cc43b2ddc42b0a0f76eca90c03893f648e20ce8984878d4b934bad208c83bc86d2c1849618435e96467108b8a0b458adb9488142240602a",
+      "file": "skills/identity/privilege/pam/audit/SKILL.md"
+    }
+  ]
+}

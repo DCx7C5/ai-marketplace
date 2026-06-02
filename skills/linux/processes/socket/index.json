@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "inode",
+      "description": "skill directory index",
+      "sha512": "7985c1b19e059fc3bb736478f9e1fbe44c96000059933e659bb2b499f9740315c8f1993a69f1eec78e56fb2a9042507e4686109d5b3e91c67a855c094226cdbf",
+      "file": "skills/linux/processes/socket/inode/index.json"
+    }
+  ]
+}

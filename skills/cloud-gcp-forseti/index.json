@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-gcp-forseti",
+      "path": "cloud-gcp-forseti",
+      "description": "Cloud Gcp Forseti.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "53b0d6c285fdd7e2fbc6f548d800609ab3f747a244e6e8f81df9453608b116c1b99f2512a66eae25a486a542edb0426d2657b8f09794be9fedac14a063cee816",
+      "file": "skills/cloud-gcp-forseti/SKILL.md"
+    }
+  ]
+}

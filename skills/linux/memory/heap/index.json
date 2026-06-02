@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "spray",
+      "description": "skill directory index",
+      "sha512": "c0fc6174ff2287a97056483244e3c8f10d25e5b11c381d8a14bd46f7fcc214044071e7443bc4e22c274ddb455cf1dc27993d06c0533d39c7ad40030a3f6ddafd",
+      "file": "skills/linux/memory/heap/spray/index.json"
+    },
+    {
+      "name": "use-after-free",
+      "description": "skill directory index",
+      "sha512": "49538c8a82741ed465ac5a25d574a512d7c999e31cea5e54ed47dbec6c924f05077a2f46506e0fedfbd6a52238e3fd8b756ee6a97f6d1b59db8d7c0a2e05780d",
+      "file": "skills/linux/memory/heap/use-after-free/index.json"
+    }
+  ]
+}

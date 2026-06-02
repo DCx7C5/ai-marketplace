@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-privesc-detect",
+      "path": "linux-id-privesc-detect",
+      "description": "Linux Id Privesc Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68f20e117138531f3d384d130d2419810c8e83a293dfc547ac14e0b9c4ae0bddd9962aaa51808fca071743d99e59db673f371d8b8a27a4d494828e60890c298f",
+      "file": "skills/linux-id-privesc-detect/SKILL.md"
+    }
+  ]
+}

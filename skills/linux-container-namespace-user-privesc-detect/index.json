@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-container-namespace-user-privesc-detect",
+      "path": "linux-container-namespace-user-privesc-detect",
+      "description": "subdomain: container-security tags: - linux - namespace - user-namespace - privesc - container nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6a13ffe8d1a896dfefb2b99be4121140a9d92c48c53146a021bb592ba46328b904f45a0da2e3d39911d872bf36314669960e27af0c4e2b08d96145910a0add89",
+      "file": "skills/linux-container-namespace-user-privesc-detect/SKILL.md"
+    }
+  ]
+}

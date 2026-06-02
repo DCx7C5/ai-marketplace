@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-anomalous-detect",
+      "path": "soc/hunting/anomalous/detect",
+      "description": "Hunt for malicious PowerShell activity by analyzing Script Block Logging (Event 4104), Module Logging (Event 4103), and process creation events. The analyst parses Windows Event Log EVTX files to dete",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dbdbabe7c7f8b32c7390771b3b986a529068934d649be4eaeadddfbe3dc8acafaf6bcbfbfdb2b70268dff23d0fa33df438ec83614fb83382ed542946ed919f3b",
+      "file": "skills/soc/hunting/anomalous/detect/SKILL.md"
+    }
+  ]
+}

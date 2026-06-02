@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel",
+      "description": "skill directory index",
+      "sha512": "1f86431701a1db140b4a4391da5962aa153713bc02baa3cbdea8301d9397add2c9c71de775f580d816e765aecfa5de2a6b63b5670167d67e73460c3573bb05c6",
+      "file": "skills/linux/hardening/sysctl/kernel/index.json"
+    }
+  ]
+}

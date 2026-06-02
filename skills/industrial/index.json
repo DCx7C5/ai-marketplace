@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics",
+      "description": "skill directory index",
+      "sha512": "92954e065458ec0b971c49e80216a270f62f68ff1a3610c79474fe0ddcb22cef273a5b75a99643265ff99fe588b0fa86a4e0ca751c1688a647dafe1a775d72fa",
+      "file": "skills/industrial/ics/index.json"
+    },
+    {
+      "name": "iot",
+      "description": "skill directory index",
+      "sha512": "f0069ca1967edc647b9abae1932b69bdae144f8f60bf668ac0d12853dfa965bfdf865582e46330e6f059bf659021af0626706b07195180a163b5b5029407cc07",
+      "file": "skills/industrial/iot/index.json"
+    },
+    {
+      "name": "sector",
+      "description": "skill directory index",
+      "sha512": "e0100aa83fae19ff816674b690762151415f46c21df21f763180c2f77194fab7e42d1141f425d817caef4247ddae2055d4b77dece2ca8b7c1e591c064aaa5aa4",
+      "file": "skills/industrial/sector/index.json"
+    }
+  ]
+}

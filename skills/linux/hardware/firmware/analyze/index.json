@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-firmware-analyze",
+      "path": "linux/hardware/firmware/analyze",
+      "description": "Analyzes firmware images for embedded malware, backdoors, and unauthorized modifications targeting routers, IoT devices, UEFI/BIOS, and embedded systems. Covers firmware extraction, filesystem analysi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "561340f556c1ed03d6c2c312bd21f1d6f8a9d7479738b8cfca12468df6a9758b162e38686d814951db860c7e11dde214a08367db58ada111ea11a287a8f3ab6c",
+      "file": "skills/linux/hardware/firmware/analyze/SKILL.md"
+    }
+  ]
+}

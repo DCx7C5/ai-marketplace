@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "serviceaccount-service-detect",
+      "path": "identity/serviceaccount/service/detect",
+      "description": "Detect abuse of service accounts through anomalous interactive logons, privilege escalation, lateral movement, and unauthorized access patterns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cf34461a630c30d3b3e6a40a9bf03b22e38b2c9c63fb3f0556941760f1f5210aab92d1e5689755da9bacf48eb14036cefd1287ea36e0790bed74ac913dde26dc",
+      "file": "skills/identity/serviceaccount/service/detect/SKILL.md"
+    }
+  ]
+}

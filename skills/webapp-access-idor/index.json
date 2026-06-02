@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-access-idor",
+      "path": "webapp-access-idor",
+      "description": "Webapp Access Idor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ba2a5deca7c68b32467b2798e124d772fede7a7bb196a3465b14bce371ba5afeb9e31686b198565690209bdda5041f13f25182f3a98af9d51e3b2cb14d53013e",
+      "file": "skills/webapp-access-idor/SKILL.md"
+    }
+  ]
+}

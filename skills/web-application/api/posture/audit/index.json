@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-posture-audit",
+      "path": "web-application/api/posture/audit",
+      "description": "Implement API Security Posture Management to continuously discover, classify, and score APIs based on risk while enforcing security policies across the API lifecycle.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "51610b25929b90bb601bed13576855a53c1818878befde8f15f81e2da57dd2b9fa90f9233eeae7f20a7b5611105f09ff9a5b44f59940d1d45c8dc61c0f77868b",
+      "file": "skills/web-application/api/posture/audit/SKILL.md"
+    }
+  ]
+}

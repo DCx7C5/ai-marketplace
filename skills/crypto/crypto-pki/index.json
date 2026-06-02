@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aes",
+      "description": "skill directory index",
+      "sha512": "6c8dd3150da6b8d69bbce63d5dc70da6dc3c71a4f77b9acc4f2593d30cfc08bc19f22db5bbb2d09be56c3bb3d4602db88ff7d7e9e10ddc85c29cbdcd8eb377d0",
+      "file": "skills/crypto/crypto-pki/aes/index.json"
+    },
+    {
+      "name": "blockchain",
+      "description": "skill directory index",
+      "sha512": "c78863800ded93082b39fcbfae34f86d8cd21e694d601f36dd31203707140e016af2199d62718b1d40827492eb8ae64e8f68003ca9a4fef3e40b65cfc4f37814",
+      "file": "skills/crypto/crypto-pki/blockchain/index.json"
+    },
+    {
+      "name": "ca",
+      "description": "skill directory index",
+      "sha512": "51d8f1b4e39c3fcffc5f6179b33c1c0c119fad3d66485879ff9f6bc412903634504a6657112af2d9bb031c8bf33a121752229147dcfcebef625e8fd85d2b6916",
+      "file": "skills/crypto/crypto-pki/ca/index.json"
+    },
+    {
+      "name": "cryptographic",
+      "description": "skill directory index",
+      "sha512": "d22241e623c2c1b23193826cd79ab67c72dca4bf65be30bde8e03336ff09c22a0873ad49ac064edac33b91ace6a9f840d80892f830bcc7f1724ffcc338bfd4c9",
+      "file": "skills/crypto/crypto-pki/cryptographic/index.json"
+    },
+    {
+      "name": "digital",
+      "description": "skill directory index",
+      "sha512": "432d29f5926044cc39b531ba04f2dc6c36b6d9da726c732c0bc06532e589546862348066655ad205a36660df927b45e46626b64c10322b9ca9b455616001c0df",
+      "file": "skills/crypto/crypto-pki/digital/index.json"
+    },
+    {
+      "name": "encryption",
+      "description": "skill directory index",
+      "sha512": "fc9368292dffe966c36ee909cd35e50dfa842ff5b1a891bb00a8485a984da415f7db43d9b321c15cd7841e085183562752c324337d29641077a2d7272e9162a5",
+      "file": "skills/crypto/crypto-pki/encryption/index.json"
+    },
+    {
+      "name": "hashcat",
+      "description": "skill directory index",
+      "sha512": "ae6280fb096aa41242e714c4c5f04acab8dd0195511f4ef84fed9308b073d4ba1346039822a76840354b549f6a9729db3e54e109d33fed13ae015e8225ed1897",
+      "file": "skills/crypto/crypto-pki/hashcat/index.json"
+    },
+    {
+      "name": "hsm",
+      "description": "skill directory index",
+      "sha512": "4a8e7c286f7db7531197699fa5807ecd4de73b4199bc28d852f1c473e28ec45b9f7d5b497a092cfacf1a09182f7809a7235449469753235db187788f62e7b1a9",
+      "file": "skills/crypto/crypto-pki/hsm/index.json"
+    },
+    {
+      "name": "postquantum",
+      "description": "skill directory index",
+      "sha512": "58abbb536f1eb82cc1e762f35cdc0745193fd7bf12b7f08ce4b4c8523b9bf54fa0f22f143f50c320e230b168cbcbed131ce0b5656d0f4c0d6b47312f9caeca09",
+      "file": "skills/crypto/crypto-pki/postquantum/index.json"
+    },
+    {
+      "name": "rsa",
+      "description": "skill directory index",
+      "sha512": "2bd2a0dd59424af6b8a2df9f2ec3c09fb6220244b3e767a3828fcec264834a9adbfae974f6b89ad375a58e489eb7e079ce24aa74a2448dd091db3a76fa6f38d1",
+      "file": "skills/crypto/crypto-pki/rsa/index.json"
+    },
+    {
+      "name": "signing",
+      "description": "skill directory index",
+      "sha512": "894802ea07ee5f2ad9317225d2ef3f29947caf46de15444e352147939b4e7da8ff30061f660a26ed35ef92025fec8052e052e07ad6f709fb16cf038af742c61e",
+      "file": "skills/crypto/crypto-pki/signing/index.json"
+    },
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "db52a2ef8d0bb95ab595eaab79fa5ce8dd4b1ad2e87e44eab1bcc448a1b32a14dc3f16dd833e8f8fb5cae56b918e543962bf9c86fcd2feb476467bc138127f30",
+      "file": "skills/crypto/crypto-pki/tls/index.json"
+    },
+    {
+      "name": "transparency",
+      "description": "skill directory index",
+      "sha512": "5bbadbdb83d8118daf75e6c0c9e52b2f85b474a3dc289d38a4f1f7d541e7e16c29ac16ded9fd9966627e9e33bf06b3d60761b846d34901a6fdaac73891c0b5e2",
+      "file": "skills/crypto/crypto-pki/transparency/index.json"
+    },
+    {
+      "name": "zero",
+      "description": "skill directory index",
+      "sha512": "b5828ef99a6be178f8a0bc1cf89eab5c581cc0df863fcf8ca67107567cdfe063c768479e2e65a9e83a307ca3da6b5262895a40e43d471c1657072e1b6147a344",
+      "file": "skills/crypto/crypto-pki/zero/index.json"
+    }
+  ]
+}

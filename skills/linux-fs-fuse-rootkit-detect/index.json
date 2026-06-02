@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-fuse-rootkit-detect",
+      "path": "linux-fs-fuse-rootkit-detect",
+      "description": "subdomain: filesystem-forensics tags: - linux - fuse - rootkit - filesystem - hide nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "711c30e23edbfca0f24db587607d90f1df99f8ee09906a6344b9495c346cfd4648b4958f69f374d33ab3448b414b5e7ac555b047bf88f5dc0a397af7e0491189",
+      "file": "skills/linux-fs-fuse-rootkit-detect/SKILL.md"
+    }
+  ]
+}

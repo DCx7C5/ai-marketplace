@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "file",
+      "description": "skill directory index",
+      "sha512": "f977ce7d187c1cb3cb61ba0c960081d1a4a12afa2264737fda922b3e65d6c6066aa3b96093283a5c6591b9755388788a043ecc13ef4bee0accea4f8b5c47285d",
+      "file": "skills/linux/identity/shadow/file/index.json"
+    }
+  ]
+}

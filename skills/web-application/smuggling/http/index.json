@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "92e6f344579f8bf0e7779d4d0f3eabd1bfc2bd6645e8d41bb2a5fa6f9c296411675f9f59d213809722ee8919bbc6343db9538b9b883a93811246ad0aa4b6caee",
+      "file": "skills/web-application/smuggling/http/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "e23bcb5381002e1a5a8b9eda802b1043972d1d82119f5718d0259fa6ed0621faf50bf0ad397c941080537b382b4065fdf22a899130cf550d3c1394f8280c08ae",
+      "file": "skills/web-application/smuggling/http/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0699f4e18a8b9f1a2d3c9b4ec0c96fcb0a7bf7c4adcae7270aacea855bfc1eb3b03ce02712d8226a2a13e6866669a16f514f0e2f33967bf17d4a87427973dc05",
+      "file": "skills/web-application/smuggling/http/scripts/index.json"
+    }
+  ]
+}

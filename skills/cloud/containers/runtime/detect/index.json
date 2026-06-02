@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-runtime-detect",
+      "path": "cloud/containers/runtime/detect",
+      "description": "Implement eBPF-based runtime security observability and enforcement in Kubernetes clusters using Cilium Tetragon for kernel-level threat detection and policy enforcement.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "79e08977e4e803d28fccf033edc3443810fb05440a7cd60effc8b77d3276418eeb4914cf2092d254fcb45095c39d892c22b18a0fade557d98203c663b0359ff0",
+      "file": "skills/cloud/containers/runtime/detect/SKILL.md"
+    }
+  ]
+}

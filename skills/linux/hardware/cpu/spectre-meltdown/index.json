@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c8c404630d1b918b084a45afe4b12437d4af8209cae3d119a3c40508657825e888cf55c475fe801fbc356be7a15afbcb9e7fc5b3f1854660130fec02f6541e1b",
+      "file": "skills/linux/hardware/cpu/spectre-meltdown/detect/index.json"
+    }
+  ]
+}

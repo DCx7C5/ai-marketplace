@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-c2traffic",
+      "path": "net-traffic-c2traffic",
+      "description": "| | **Beaconing** | Periodic check-in communication from malware to C2 server at regular intervals, often with jitter to avoid pattern detection | | **Jitter** | Randomization applied to beacon interv",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5ad610bd2069c96cc356b7b0bfbb87bd4ec740bf96ef6b9feda989e7f699ab977b4901150f33b8e6aa2d750f2b75bc46ba80681960b716922c78352ba6defaa2",
+      "file": "skills/net-traffic-c2traffic/SKILL.md"
+    }
+  ]
+}

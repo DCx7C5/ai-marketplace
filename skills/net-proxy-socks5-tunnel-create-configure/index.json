@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-proxy-socks5-tunnel-create-configure",
+      "path": "net-proxy-socks5-tunnel-create-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43cb6186027cf82c543f0b36dbd768d1a1c546bdaea2276b5b81fb4b04e4e70dfc594863416aa6015501c3833dc4244bdb4ee5fd80570721528ef153ce81586d",
+      "file": "skills/net-proxy-socks5-tunnel-create-configure/SKILL.md"
+    }
+  ]
+}

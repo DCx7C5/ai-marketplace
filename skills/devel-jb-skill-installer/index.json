@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-skill-installer",
+      "path": "devel-jb-skill-installer",
+      "description": "- Installed annotations come from `$CODEX_HOME/skills`.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "577899f18b2f03ca8a3410b56def96ffb159a0eb91476e9d43ea9271016ac789ccc9efed1b6ca2b291480c4216fe03c28a1a13f86c4d5adfcafee26377580ad1",
+      "file": "skills/devel-jb-skill-installer/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "7e7ef5d87255561253a4d79270669e39a12e993055895455165bc2e8d50c5cb79d89ae90d6c55367821e4ffc2f1a44997930a5236bc16d6e4c8d3107ba0663c8",
+      "file": "skills/devel-jb-skill-installer/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "60e63209b04de1a9616b280b9798d5a6e31bc42ea5d7fe7225446d73fccfd176b2eb7311ac841f7624357b33b4a832b65564ba98d4a9fe94db871cc0a2eb4863",
+      "file": "skills/devel-jb-skill-installer/assets/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "18f2997cc67631232a0c214d13f7f01e31f7d7c96966719a2dfe4cf281445ee0b6a3a1e6cf9e8f6fd9dec806e307e4dc864cfb79f6ec54f3cfc5c27968803e55",
+      "file": "skills/devel-jb-skill-installer/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-ptrace-injection-detect",
+      "path": "linux-proc-ptrace-injection-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "69922147fdbe494c285877dcf8ef29026a62ea0e7fda07202e2db84b1c50e6329e02fcfacf270f174d84d23fd1700c9d2d0a4ab00df61e357daa4c368e25c948",
+      "file": "skills/linux-proc-ptrace-injection-detect/SKILL.md"
+    }
+  ]
+}

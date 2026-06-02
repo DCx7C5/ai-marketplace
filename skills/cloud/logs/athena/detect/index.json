@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logs-athena-detect",
+      "path": "cloud/logs/athena/detect",
+      "description": "Uses AWS Athena to query CloudTrail, VPC Flow Logs, S3 access logs, and ALB logs for forensic investigation. Covers CREATE TABLE DDL with partition projection, forensic SQL queries for detecting unaut",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5677b9f6d2feda307eab0996380755abc1a75cb9a76a3efa30e5ca5e478e6e0eb6d57c60b404c63ad4cb59149af12a3757639ef5deb3997c9b0bc0390720af01",
+      "file": "skills/cloud/logs/athena/detect/SKILL.md"
+    }
+  ]
+}

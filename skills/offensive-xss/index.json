@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-xss",
+      "path": "offensive-xss",
+      "description": "| | **Acunetix\u00a015**        | LLM\u2011powered mutation engine       | | **Burp Suite\u00a02024.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5528375f7eb54bcdf77517841618752fc57e385bd2a77d3f37ae680d322db170e64de29cb9dd29e508e1c872afb7a8075c63f65e8c4f7d79c8ec9d8f4d07aaa8",
+      "file": "skills/offensive-xss/SKILL.md"
+    }
+  ]
+}

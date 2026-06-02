@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-kotlin-tooling-java-to-kotlin",
+      "path": "devel-jb-kotlin-tooling-java-to-kotlin",
+      "description": "| | `org.springframework.*` | [SPRING.md](references/frameworks/SPRING.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f31b6df8e9062dea710fa7acfacb8cf1e7d78076ea7469a870587c2eae3ea02f162af6382f4bdb7b3c638636d83079c3f16521160ed93989f7432a24e2c268e5",
+      "file": "skills/devel-jb-kotlin-tooling-java-to-kotlin/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "d29165b52480075a644d9df70fc840d4d0f26c2163786c04f8b990f3fcf51717ca20377a66384d882c0c43d17da025c24901c9d16012b9760e2628ff77e27ae2",
+      "file": "skills/devel-jb-kotlin-tooling-java-to-kotlin/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "eaf43621f133d66cc387102e8feab339dd040c2bc1cd578be0e4c1b39ef35b39647ec6bf83f935a290d80c65fe0c846c65d8e074b5d97bf73c1c22a72e1d2589",
+      "file": "skills/devel-jb-kotlin-tooling-java-to-kotlin/references/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-syscall-seccomp-filter-harden",
+      "path": "linux-kernel-syscall-seccomp-filter-harden",
+      "description": "subdomain: kernel-hardening tags: - linux - seccomp - syscall - sandbox - harden nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1394cf1f3d0a8a8c23947821c654166d02564ea7cffd815dc819754301eb3824b6a9f2988549acd56ecb6d92cd4acd3a86a0883ec4adbacc8ab452c9134a0c46",
+      "file": "skills/linux-kernel-syscall-seccomp-filter-harden/SKILL.md"
+    }
+  ]
+}

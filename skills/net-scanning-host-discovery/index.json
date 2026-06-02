@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-scanning-host-discovery",
+      "path": "net-scanning-host-discovery",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a28b6e701d7b8b3e3a91480ef762b5a1da43670434b85f34b327757d644be8357833ed4bd9acf0abd707358f1b60997ce24632172e3c258b9d90a19f88646350",
+      "file": "skills/net-scanning-host-discovery/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hsm-hardware-analyze",
+      "path": "crypto/hsm/hardware/analyze",
+      "description": "Integrate Hardware Security Modules (HSMs) using PKCS#11 interface for cryptographic key management, signing operations, and secure key storage with python-pkcs11, AWS CloudHSM, and YubiHSM2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "70411c7396dea3134999ba4151e942100895bbf8c02ac2776d9feb0e17ddca5052ca3ea5aa696bf4adce936b5d8377d86e682dd79f4a624c016155272b429455",
+      "file": "skills/crypto/hsm/hardware/analyze/SKILL.md"
+    }
+  ]
+}

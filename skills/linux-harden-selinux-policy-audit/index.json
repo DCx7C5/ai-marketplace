@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-selinux-policy-audit",
+      "path": "linux-harden-selinux-policy-audit",
+      "description": "subdomain: hardening-assessment tags: - linux - selinux - policy - audit - mac nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "89621abb4ae2bfb6e8979faed5ba5be279d730a98226af5ebd1349aba0166fa5dca8d454e384915508754274fca3343c59402de3e2716146570effde296a26cb",
+      "file": "skills/linux-harden-selinux-policy-audit/SKILL.md"
+    }
+  ]
+}

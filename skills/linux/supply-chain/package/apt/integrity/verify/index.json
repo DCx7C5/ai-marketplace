@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "supply-chain-package-apt-integrity-verify",
+      "path": "linux/supply-chain/package/apt/integrity/verify",
+      "description": "Verify Debian/Ubuntu package integrity \u2014 use debsums to check installed file hashes, validate apt repository GPG signatures, and detect tampered packages.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "44922f653d8fb36a6e0d7f9fb9346f28dabc24b194019f36291bf5181af8003e3b82172f5a06cf0ff41f0e757b901b0092e3f82b03e66f4a01af088377113cc2",
+      "file": "skills/linux/supply-chain/package/apt/integrity/verify/SKILL.md"
+    }
+  ]
+}

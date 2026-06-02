@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ef6352a474f8425b2374a01068016f62a78331e8cbd8de5a7fadc000cfe92b35536245f83f09eaf5b1fba47fc65a38e348e022fc47cc795eec80611128873fe7",
+      "file": "skills/linux/kernel/memory/dma/attack/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-symmetric-aes",
+      "path": "crypto-symmetric-aes",
+      "description": "Crypto Symmetric Aes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d134a23f2cb7081eac6887d17f13be9c2754d413697bfdbc6d0f2f5cf2298e9ffab9904d6c8f8f5dc44e13eaf686ba0d4bc72e65bfdafe03f5c824471ed68ca",
+      "file": "skills/crypto-symmetric-aes/SKILL.md"
+    }
+  ]
+}

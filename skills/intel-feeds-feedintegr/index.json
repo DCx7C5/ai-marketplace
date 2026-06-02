@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-feedintegr",
+      "path": "intel-feeds-feedintegr",
+      "description": "Intel Feeds Feedintegr.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1ce0ea06480607a0fc646cda55c194dd9fe5526e9aa0e30370326386da73580ea22092163408d51f82ec013471fd74be34a6165fa4cde3f24442c6459b31ac9",
+      "file": "skills/intel-feeds-feedintegr/SKILL.md"
+    }
+  ]
+}

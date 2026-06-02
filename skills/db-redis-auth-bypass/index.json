@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-redis-auth-bypass",
+      "path": "db-redis-auth-bypass",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6897612656117064dd0ab609e9408a1fd795a8846e0a8f429299a05289ab886c9ed50d05bde59484c5f62eeb52586f85e20db827a6820cf721e2509b8b721d70",
+      "file": "skills/db-redis-auth-bypass/SKILL.md"
+    }
+  ]
+}

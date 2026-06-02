@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "defectdojo",
+      "description": "skill directory index",
+      "sha512": "4ebaa685b94aa42c8c1fe1eaf5cc41ddd8d2da51d71a8cc8d8a48ba7c89f6c17fed89f56c69a02f17a3151f36d0763c5b7ac3b93c4881c2abfd8dde80fb74632",
+      "file": "skills/vuln/management/defectdojo/index.json"
+    },
+    {
+      "name": "exceptions",
+      "description": "skill directory index",
+      "sha512": "996d0b5f18b952009550aca683352c8f5123f671ba245d3646a783e18576ce6051a6d5a8b41f9d13c91ae026649e203bc97640f9abfb4b64d632d8936afc3386",
+      "file": "skills/vuln/management/exceptions/index.json"
+    },
+    {
+      "name": "slaalerts",
+      "description": "skill directory index",
+      "sha512": "b4735125865149d5ef58d3677f37b832b969a85fe4c5a6ab032b375e11cc23ef3a98ac9739c5c0c70b1950c2578aa9a1b357419bdc014aafc618ed77ab63c825",
+      "file": "skills/vuln/management/slaalerts/index.json"
+    },
+    {
+      "name": "vulnerability",
+      "description": "skill directory index",
+      "sha512": "1e6bddad26ab4bd6baa0cf50964a9e340c51c324a73a359cec4debdba65690d542adc2119f85db9b943b37bb7789eb7fae985c9eb877e269e1830bfbb13cb70d",
+      "file": "skills/vuln/management/vulnerability/index.json"
+    }
+  ]
+}

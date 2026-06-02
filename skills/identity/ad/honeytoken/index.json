@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "8adcc185b2ac15c77d53800a509ffc0ca713893335b7f99a828891ea7219ef1c88a91c76e93b85a8bd3af890b9e6f64cec5527a115b52605b9fd3dc1d2283bc8",
+      "file": "skills/identity/ad/honeytoken/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d21ad68b8c14d427a8c0b89df5be1de02098cf542603db9857ae8a7d5b5705269d8890bec3d5709e1c084166c22b1730f0dde68a90c76e64efb8c35d721f4dee",
+      "file": "skills/identity/ad/honeytoken/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3475dba110c3c0fbacac93f7e16ea24a28db887de7a32288893cfdbedcfeeadbce0e94eb7a7566dfa53df81b87a1837697ea1dd1d2a0ef38dfb43cf3c0705679",
+      "file": "skills/identity/ad/honeytoken/scripts/index.json"
+    }
+  ]
+}

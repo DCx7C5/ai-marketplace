@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-oracle-tns-listener",
+      "path": "db-oracle-tns-listener",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "839bb4c1ab738459320818390e1cfa7a838e005f50796daee85de818e27e07db1e8db5385b97fe9367f3104733791b7e6d9f48e583c8756188a3aa7dcdd66268",
+      "file": "skills/db-oracle-tns-listener/SKILL.md"
+    }
+  ]
+}

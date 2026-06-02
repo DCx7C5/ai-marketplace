@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "anonymous",
+      "description": "skill directory index",
+      "sha512": "46a92d6624538246cd966a804dec257dec44459e77dcf49e6daa12a7244dac29ebd6dd994386a1d893112fe1740bebe82f577c5c56185033271e711ed91e52ee",
+      "file": "skills/linux/network-services/ftp/anonymous/index.json"
+    },
+    {
+      "name": "bounce",
+      "description": "skill directory index",
+      "sha512": "d59c5bc8a17d524b5ee2ca12a10ab1202b8d23c0f167544bf9679a43f33ab242e42425a739249097e6a17707aef696eb44478a0a63ed7e4f32bc32996255b2b8",
+      "file": "skills/linux/network-services/ftp/bounce/index.json"
+    },
+    {
+      "name": "tls-cert",
+      "description": "skill directory index",
+      "sha512": "18a225b687bc4c163884f104aacfc99b2a5526b3ddca94cfcf2d3be009802f52c85994608bff1d118abdb17d8ae13713333dda934628831223a7bd4b1d4596a1",
+      "file": "skills/linux/network-services/ftp/tls-cert/index.json"
+    }
+  ]
+}

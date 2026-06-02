@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-dns-server-zone-exfil-detect",
+      "path": "linux-net-dns-server-zone-exfil-detect",
+      "description": "subdomain: network-security tags: - linux - dns - bind - zone-transfer - exfil - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c1f4bd547551534a43de82f0ee5e1a9edf8f037ac827ce176f3ae1ebf3e55b062f3db04be5b969a98fb9a37c9e383d3595972340d22f48a17f5ede0095f1cec8",
+      "file": "skills/linux-net-dns-server-zone-exfil-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "named-pipe",
+      "description": "skill directory index",
+      "sha512": "635648b1006099f7e600535f83c9560447615ce2445fb48ca6962bd60ec6218a492af835c2f12cc2a8878aa283caaa9b034bb74a2c1010c16ca0fce955175408",
+      "file": "skills/linux/processes/ipc/named-pipe/index.json"
+    },
+    {
+      "name": "shared-memory",
+      "description": "skill directory index",
+      "sha512": "69e2179cd7107fd13414ef269a5a9dbcf2d5a3c7f7603da9607c0f564fdcdfb9d43f1003c5733d190ebb3fc176645b76e988e44bcaa6dddae1306b84c311db9c",
+      "file": "skills/linux/processes/ipc/shared-memory/index.json"
+    }
+  ]
+}

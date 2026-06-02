@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-bloodhound-recon",
+      "path": "identity-ad-bloodhound-recon",
+      "description": "Identity Ad Bloodhound Recon.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84fe26c176580a65fee61305fa686f960cba21d319d933c9b65414b0a2b91568f69a448c12d155ed9758526157f3babd36fa939944fae6b123928db9e88419c3",
+      "file": "skills/identity-ad-bloodhound-recon/SKILL.md"
+    }
+  ]
+}

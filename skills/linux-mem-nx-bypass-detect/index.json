@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-nx-bypass-detect",
+      "path": "linux-mem-nx-bypass-detect",
+      "description": "subdomain: memory-security tags: - linux - nx - dep - rop - bypass nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ba481e1eefc74dc528190141bbd4f45786a4fb650fd8010adb64e903dfe1c71278136091d660e5847390ba4610af4dd64df266b4def3e321cb684208b163c0b1",
+      "file": "skills/linux-mem-nx-bypass-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-authn",
+      "path": "webapp-api-authn",
+      "description": "| | **Broken Authentication** | OWASP API2:2023 - weaknesses in authentication mechanisms that allow attackers to assume identities of legitimate users | | **JWT (JSON Web Token)** | Self-contained to",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0c37bbf3fcf4b88b8e26ee8ef1ea7c359657aeb9ef59f7876364265bea2f46a49d48b2b6899e497cb8483c6ce43ecf77122217e77d1fc5843cb975e2e5831a92",
+      "file": "skills/webapp-api-authn/SKILL.md"
+    }
+  ]
+}

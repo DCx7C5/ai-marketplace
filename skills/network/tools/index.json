@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "metasploit",
+      "description": "skill directory index",
+      "sha512": "dda0212e9aefae4643eb3929865804f696cc37ab8487f9d8da31b8ceccd215c8faf69c64bd834158e672d3ab154c7f97f377a80a5acc85bd3dbd1addb2d902bc",
+      "file": "skills/network/tools/metasploit/index.json"
+    },
+    {
+      "name": "nmap",
+      "description": "skill directory index",
+      "sha512": "ca191c932c4e134ec2feacec0cca94d69ee4276ba74d24f3acd0df344cb3218f6fe12c259b34ebde4b5811466ad591ba904c7a1c960162c83b937defa2faa7bd",
+      "file": "skills/network/tools/nmap/index.json"
+    }
+  ]
+}

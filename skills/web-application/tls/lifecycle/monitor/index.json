@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls-lifecycle-monitor",
+      "path": "web-application/tls/lifecycle/monitor",
+      "description": "SSL/TLS certificate lifecycle management encompasses the full process of requesting, issuing, deploying, monitoring, renewing, and revoking X.509 certificates. Poor certificate management is a leading",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "60c071a06ea1157f46e87bb46d8e84fd70513ff95d48c33024ecf335d1f5d2b86fdc3dce3d9d91838c290af09ea321ee4dec518b995556a68171c44eaf069240",
+      "file": "skills/web-application/tls/lifecycle/monitor/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mitre-threatmodel-detect",
+      "path": "intel/mitre/threatmodel/detect",
+      "description": "Implements threat modeling using the MITRE ATT&CK framework to map adversary TTPs against organizational assets, assess detection coverage gaps, and prioritize defensive investments. Use when SOC team",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a126f1490bd3bb1b93cb3c182d420dd0ac4dee0951c728dad2e6cc5e1c6cc9f2500127a1a29eff591f52871d8f2db821366567589b23b8ecc68241b3e44054aa",
+      "file": "skills/intel/mitre/threatmodel/detect/SKILL.md"
+    }
+  ]
+}

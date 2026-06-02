@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "scanning-host-discovery-enum",
+      "path": "network/scanning/host/discovery/enum",
+      "description": "Enumerate live hosts on a network segment using ARP scanning, ICMP probes, TCP SYN pings, and passive traffic observation with nmap, masscan, and fping.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e0213566823ab03753487f4fb7d672088c67862cb4af8f2d151119a9ca73582179b68d0b847c958d7c75f0497bc9280a13077811dddb0d7aaa7d4d63e770079d",
+      "file": "skills/network/scanning/host/discovery/enum/SKILL.md"
+    }
+  ]
+}

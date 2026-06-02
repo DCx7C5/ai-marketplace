@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-calendar",
+      "path": "devel-jb-gws-calendar",
+      "description": "-| | [`+insert`](../gws-calendar-insert/SKILL.md) | create a new event | | [`+agenda`](.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3781ba473ae9a4cd3cd78e28096ccc7a02686083f7bb94e859e810995f5982547ab4f873856666e6bb9bdef10cb8a1f3c100060d34bb262f014a1587d93df728",
+      "file": "skills/devel-jb-gws-calendar/SKILL.md"
+    }
+  ]
+}

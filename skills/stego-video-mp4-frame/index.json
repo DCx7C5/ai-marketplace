@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-video-mp4-frame",
+      "path": "stego-video-mp4-frame",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1722eef867415ccbfbdf539e73c2f60e36dd6fea867070154a5120e6e220f8e98d870dfb20251b1f79200909b354ce130b30de4cda98c8ff901d7ddd3e6f1fd6",
+      "file": "skills/stego-video-mp4-frame/SKILL.md"
+    }
+  ]
+}

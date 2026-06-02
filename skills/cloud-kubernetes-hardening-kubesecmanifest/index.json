@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-hardening-kubesecmanifest",
+      "path": "cloud-kubernetes-hardening-kubesecmanifest",
+      "description": "Cloud Kubernetes Hardening Kubesecmanifest.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "57fae5fe299b4433c20deee647d5c521a0c9c196d6adfed5a5611ef99736a9b1bc52eb4216695de90522272f35b56017b7b0c4f5b1002e4f86f9cf41ec1c1dda",
+      "file": "skills/cloud-kubernetes-hardening-kubesecmanifest/SKILL.md"
+    }
+  ]
+}

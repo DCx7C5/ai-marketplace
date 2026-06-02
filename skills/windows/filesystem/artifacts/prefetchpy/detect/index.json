@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-artifacts-prefetchpy-detect",
+      "path": "windows/filesystem/artifacts/prefetchpy/detect",
+      "description": "Parse Windows Prefetch files using the windowsprefetch Python library to reconstruct application execution history, detect renamed or masquerading binaries, and identify suspicious program execution p",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed04bc3605eb5b55e021fc369233efe37d9557ef6c0845dda45f8c3246cb4aeef161b172c37fe69c1c52b39fded92f1ec4996587bff688e94635e49d34c242a8",
+      "file": "skills/windows/filesystem/artifacts/prefetchpy/detect/SKILL.md"
+    }
+  ]
+}

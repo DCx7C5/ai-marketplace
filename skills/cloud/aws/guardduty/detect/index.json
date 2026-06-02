@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-guardduty-detect",
+      "path": "cloud/aws/guardduty/detect",
+      "description": "Automate AWS GuardDuty threat detection findings processing using EventBridge and Lambda to enable real-time incident response, automatic quarantine of compromised resources, and security notification",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0d17c13e0b6dc4c53413e3d5784b6c1bd8122c9ca65e17543baa25fc59c585933c0d07cdee3b80a230e9c81189dac6cd1f7a55e7345978a991da7fc9f0074d8c",
+      "file": "skills/cloud/aws/guardduty/detect/SKILL.md"
+    }
+  ]
+}

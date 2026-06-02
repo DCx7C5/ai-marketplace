@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-artifacts-lnkfiles-extract",
+      "path": "windows/filesystem/artifacts/lnkfiles/extract",
+      "description": "Parse Windows LNK shortcut files to extract target paths, timestamps, volume information, and machine identifiers for forensic timeline reconstruction.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a1fbae8a5ea71fbc9d26d344fc6823abaa4a1d24818a41ce078b95cd33f6102ccdc6a9cda3955af8a6afcec8dbcf704b99ce9d09b3a44d1eed655ece53c20545",
+      "file": "skills/windows/filesystem/artifacts/lnkfiles/extract/SKILL.md"
+    }
+  ]
+}

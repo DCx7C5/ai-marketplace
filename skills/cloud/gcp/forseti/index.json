@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "3118dfbfbbe514a1b7e5058d6a0297e7dc3733765f908f832b23c00df4208089f1b1c91c8fc82d628ab8398fa62dbc50b7e797a0b94c05e75a421b7ce1e068b1",
+      "file": "skills/cloud/gcp/forseti/audit/index.json"
+    }
+  ]
+}

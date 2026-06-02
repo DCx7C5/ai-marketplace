@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-heap-detect",
+      "path": "linux-forensic-mem-analysis-heap-detect",
+      "description": "JSON report with suspicious processes, heap spray indicators, NOP sled locations, memory region sizes, and extracted shellcode hashes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b759f8a904e7c5d62b44df962e94c22c60deda52b159912eccdaa11b73b07228e3c4ffb2e003fdc9e227405dd0a8df961d489b556204bf5a76daf55e9bfb58ae",
+      "file": "skills/linux-forensic-mem-analysis-heap-detect/SKILL.md"
+    }
+  ]
+}

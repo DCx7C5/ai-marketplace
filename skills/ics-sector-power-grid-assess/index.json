@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-sector-power-grid-assess",
+      "path": "ics-sector-power-grid-assess",
+      "description": "Ics Sector Power Grid Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "700f9db6758fbca34b0cc8fbf1dcbe543025acc86b1620f028b88e16c08865881926678854d080f3c9891fb76bbfa5b682ddf0f2422e568c71b417f8661fb8ca",
+      "file": "skills/ics-sector-power-grid-assess/SKILL.md"
+    }
+  ]
+}

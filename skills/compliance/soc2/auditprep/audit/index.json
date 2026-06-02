@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc2-auditprep-audit",
+      "path": "compliance/soc2/auditprep/audit",
+      "description": "Automates SOC 2 Type II audit preparation including gap assessment against AICPA Trust Services Criteria (CC1-CC9), evidence collection from cloud providers and identity systems, control testing valid",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f70b120af613baf4ab4c3746e71a1a10c1c76068c67450a0efffebed375790295170dde71aff897a748e3a8b3d2bb4ae3712af3aa5f8a9421322ad1e726b9af4",
+      "file": "skills/compliance/soc2/auditprep/audit/SKILL.md"
+    }
+  ]
+}

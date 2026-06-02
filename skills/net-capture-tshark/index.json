@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-tshark",
+      "path": "net-capture-tshark",
+      "description": "5. **Analyze DNS Traffic** \u2014 Detect DNS tunneling via high-entropy subdomain queries and excessive TXT records 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a01aff77c2e70a67d62d51f6ec89fdaa7e552f7445c77413d890154f8636439ff9dc54fbf97305a86cb4dbe83daf8eaa37a8004411ed0a09ebad46677e4d5c4c",
+      "file": "skills/net-capture-tshark/SKILL.md"
+    }
+  ]
+}

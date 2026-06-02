@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-mem-huge-pages-covert-detect",
+      "path": "linux-kernel-mem-huge-pages-covert-detect",
+      "description": "subdomain: kernel-security tags: - linux - huge-pages - side-channel - aslr - covert nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18b352cd2c46d5d34838e90987ce625bbcc8174b01a1f6f83b4dfda45baf96b485b6f473b711fa64e741bb02f3dcc5f6a670f2e6549567f65e0c45f6ebf3ef43",
+      "file": "skills/linux-kernel-mem-huge-pages-covert-detect/SKILL.md"
+    }
+  ]
+}

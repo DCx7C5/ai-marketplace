@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "arp",
+      "description": "skill directory index",
+      "sha512": "b1f2c1ac0243fc31ce99daba28e25451d33c1cd97582a80be9dcbfe0b7993e29a72e22695d3bedda6d1f4884791c68596a1bf8b02ccded6bdb0b61c96c2cd0a7",
+      "file": "skills/network/layer2/arp/index.json"
+    },
+    {
+      "name": "bandwidth",
+      "description": "skill directory index",
+      "sha512": "9ff622f2ae1f2eda408969024018649f06ff69540b8361c128c581530bf84b88fe02dd4a46d1340391106fb0c4b4cd5c412d58ffa7957b8b758498d275c7949f",
+      "file": "skills/network/layer2/bandwidth/index.json"
+    },
+    {
+      "name": "vlan",
+      "description": "skill directory index",
+      "sha512": "e4c5738293ccaddd5aac64b8e200189bc01df31d23972ead765381aeeae320b3d6725e8424bb7d594251364828f3b40d8092c77fbc2c13dd3671cc248dacd80e",
+      "file": "skills/network/layer2/vlan/index.json"
+    },
+    {
+      "name": "vlanhopping",
+      "description": "skill directory index",
+      "sha512": "8dbdae1dac402b5d7efdc30569e0f833188f3ea25ab5ef6010a163edf45fbc39f6edb9c71dcc8788c6de8461333edf58cb5c0a6b66d9168b32067c3ab508bd15",
+      "file": "skills/network/layer2/vlanhopping/index.json"
+    }
+  ]
+}

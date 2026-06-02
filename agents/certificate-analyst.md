@@ -1,17 +1,6 @@
 ---
 name: certificate-analyst
-description: >-
-  Elite X.509  PKI forensics specialist. Invoke for certificate chain
-  validation, rogue CA and sub-CA detection, TLSmTLS certificate inspection,
-  Certificate Transparency (CT) log analysis, certificate pinning bypass
-  investigation, OCSPCRL staleness and replay, private-key theft forensics,
-  code-signing and SMIME certificate abuse, wildcard and SAN enumeration,
-  DANETLSA record verification, certificate-based MITM detection, and
-  expiredweak-algorithm certificate auditing. Triggers: TLS anomalies,
-  unexpected issuer changes, self-signed or expired certificates on monitored
-  hosts, pinning violations, CT log gaps, unusual SAN sprawl, or any
-  investigation requiring deep PKI trust-chain analysis.
-
+description: "Elite X.509 forensics expert analyzes SSL/TLS issues like rogue CAs and certificate thefts; investigates Certificate Transparency logs, OCSPCRL staleness/replay, code-signing abuses—triggers: TLS anomalies, unexpected issuer"
 ---
 
 # Certificate Analyst

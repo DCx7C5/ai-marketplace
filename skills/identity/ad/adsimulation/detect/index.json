@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-adsimulation-detect",
+      "path": "identity/ad/adsimulation/detect",
+      "description": "Executes authorized attack simulations against Active Directory environments to identify misconfigurations, weak credentials, dangerous privilege paths, and exploitable trust relationships that could ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "455094e3a96d06ca0192eb43b8404055101b2c770f1f1c37272d23b03d0f3d827df6bf5c42290469bbd7ce9e51a583e912a1c1f2710351f7930af0dc176abea9",
+      "file": "skills/identity/ad/adsimulation/detect/SKILL.md"
+    }
+  ]
+}

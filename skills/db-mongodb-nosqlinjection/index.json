@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mongodb-nosqlinjection",
+      "path": "db-mongodb-nosqlinjection",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "20a2e75f98d03c88ee02d8cac17b05a9bc72872387299b7b7128851155f5bfd0a01c2f510b9c19ae7583c342d244c1f15d46eb873d982f3c177da45f659c81ca",
+      "file": "skills/db-mongodb-nosqlinjection/SKILL.md"
+    }
+  ]
+}

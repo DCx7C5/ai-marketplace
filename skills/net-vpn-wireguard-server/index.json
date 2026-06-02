@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-vpn-wireguard-server",
+      "path": "net-vpn-wireguard-server",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e320a2385dd316c5c6cc46926063ad60f777a603e4660cb578f666299d303452d98cf1bcce901f1109fb6c607f88486c7db3d555ff3efe88e702f7228c22a3d8",
+      "file": "skills/net-vpn-wireguard-server/SKILL.md"
+    }
+  ]
+}

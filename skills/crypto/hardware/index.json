@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hsm",
+      "description": "skill directory index",
+      "sha512": "b7f3204beda0d6135d36633d487ccb1f31518b2e1dd131c47dd1f474659765f904363ee9669a6313afaa78cdef1ff570ff43b401f8399b39fedb7cad5e68d003",
+      "file": "skills/crypto/hardware/hsm/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-operations-chaosengineering",
+      "path": "soc-operations-chaosengineering",
+      "description": "4. Simulate log pipeline failure and check monitoring gaps 5.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7ca6c18e917dbab7c8ff1a30260af5a91e0b2314053b1550f19e7b75ef1ed677f431e031c066dcb7de3f00231fb374b8c0112acd20c7326e53b3ca984830123e",
+      "file": "skills/soc-operations-chaosengineering/SKILL.md"
+    }
+  ]
+}

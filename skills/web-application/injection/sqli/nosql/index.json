@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "16ae9147eb76a83e5f4d8a066881b1b0715ef4df11632be90d7b1cf75f180660972a39c08865a589c2b2dc0681d2c2b34c748d134241e992754c79e2f15f5e80",
+      "file": "skills/web-application/injection/sqli/nosql/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "2b2ee1e0915f1e529d0faf1b28d2f43ca1e82d80384c5474ce9ff3514126c80792830360741765387f19f5622f9567698431269abfff4b078748eeb9cd80b7d7",
+      "file": "skills/web-application/injection/sqli/nosql/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "cb5cd5f62fa3c1590d1c4f5910354c61e93957c4f048ed93e033e0385da362a223721fc2c52be8c78ec4ffbc5b643014883e83db24d514c7568c60b010d2d343",
+      "file": "skills/web-application/injection/sqli/nosql/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "07f39c9dfbb576839ec3b66c28c010b02c94d0bdc2a78c00d68db0a1e06b8bfeae5646c57955ba307c829ebc4757d69d49b44b012ff863b7543143a043bc3d12",
+      "file": "skills/web-application/injection/sqli/nosql/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-forensics-docker",
+      "path": "cloud-forensics-docker",
+      "description": "Cloud Forensics Docker.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "250b6c5c63516408b20dee45bc39854a3cddef24a5c3699fbe8fa37313500d19b3c7fcecececd7409880311afcb6c3c2a17e1a0d04ab60b076cd48ca606be37d",
+      "file": "skills/cloud-forensics-docker/SKILL.md"
+    }
+  ]
+}

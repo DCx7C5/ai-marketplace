@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-hollow-technique-detect",
+      "path": "windows/processes/hollow/technique/detect",
+      "description": "Detect process hollowing (RunPE) by identifying processes with mismatched image paths between PEB and VAD tree, or unmapped PE headers in memory.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b43ea8a0a6a3efef9313e32fe7c4be0485f0d4a91c90f63161205ae4905f5a2cf50c25974736a3737605cf4ea29dc40281c8374a8b1008e5668e3a042ae5c434",
+      "file": "skills/windows/processes/hollow/technique/detect/SKILL.md"
+    }
+  ]
+}

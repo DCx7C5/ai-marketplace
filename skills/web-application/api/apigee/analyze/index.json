@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-apigee-analyze",
+      "path": "web-application/api/apigee/analyze",
+      "description": "Implement API threat protection using Google Apigee policies including JSON/XML threat protection, OAuth 2.0, SpikeArrest, and Advanced API Security for OWASP Top 10 defense.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f16bd200f1defd6d7b6aa052a9dab79c75d549930497195f6443a407662c732059d8d52a94de23a143aea0cad3f35b43656c3c17817ca11600df76fc7ef384e3",
+      "file": "skills/web-application/api/apigee/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-tftp-exposure-detect",
+      "path": "linux-net-tftp-exposure-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c9c092c77889e3aa623a6840bf3440331032c3a8f2dc406e5152cd2ca3dfaa85f13cd81649636662503071fefbd9b23aa044ada8e55f66dbe0958335d7dfdc62",
+      "file": "skills/linux-net-tftp-exposure-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filter",
+      "description": "skill directory index",
+      "sha512": "2ba208af9f2dae713ecea5ec92a61a5ff02a50fd706f7f76b9ad8f30b76b80c38dcbf0f9531f04ccb6424fbc38f2a2f347865ecf63e4d7ab2e13cac1edae14c6",
+      "file": "skills/linux/kernel/syscall/seccomp/filter/index.json"
+    }
+  ]
+}

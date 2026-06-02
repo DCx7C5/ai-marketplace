@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-memory-dump-detect",
+      "path": "linux/forensics/memory/dump/detect",
+      "description": "Memory forensics \u2014 analyze process memory maps for injection indicators (rwx, /tmp/ libs, deleted executables, anonymous mappings). Reads /proc/<pid>/maps directly; no kernel module required.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84738394628f8106ce4f6fe1cc7e04b8efa7b3be355c1e58e08a87aa61673a78790f94bf270ccec5d24077be1bbe5563ff6117123559008f85bdc81419511788",
+      "file": "skills/linux/forensics/memory/dump/detect/SKILL.md"
+    }
+  ]
+}

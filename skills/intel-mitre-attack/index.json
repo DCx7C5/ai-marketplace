@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-attack",
+      "path": "intel-mitre-attack",
+      "description": "- [Sigma Rules Project](https://github.com/SigmaHQ/sigma) - [MITRE ATT&CK STIX Data](https://github.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "39ba7c29f92c2ca6af1027c7917cf7777c9bd9c4330d49d334f158a7a413ceaeca36c2756c24e878557060b311a1992be681a0ea7bfa48c6a551b808e8735bdf",
+      "file": "skills/intel-mitre-attack/SKILL.md"
+    }
+  ]
+}

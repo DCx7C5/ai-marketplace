@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "12e8121a9e2db1aa5cde8499ca6d3631c81f07adf460cd0afba1868ad05fe227b5ed759c915b1b8f5f001b0c13b2d21c61b2526109722968be229f0eb795608c",
+      "file": "skills/crypto/crypto-pki/ca/openssl/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4d9c758c647d6017d2a23cd07878b2d5999249ef4f283406acad37f2b51887dfe342dfcc5f8103b161b92c17c07d200781e585fb9d48b04a562b5b1fb64b247c",
+      "file": "skills/crypto/crypto-pki/ca/openssl/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c3fb289603038047800b84b09daa25dbfd42058e2a75d38e8d3513c5ca9243e1c7a44495fdabfd1304af726d5c4be1fad66ad874028758eb29e288859dcfbb8b",
+      "file": "skills/crypto/crypto-pki/ca/openssl/scripts/index.json"
+    }
+  ]
+}

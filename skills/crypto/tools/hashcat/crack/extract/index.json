@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tools-hashcat-crack-extract",
+      "path": "crypto/tools/hashcat/crack/extract",
+      "description": "Hash cracking is an essential skill for penetration testers and security auditors to evaluate password strength. Hashcat is the world's fastest password recovery tool, supporting over 300 hash types w",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2924dbbdcbc71a4b0ac2acf26c8ecf7272d9a9417edf91d0c8b9015ae81d89db14211cf83d6c17c1593615169cd2a8ec784cbce304b923498b00769cdcaa9b95",
+      "file": "skills/crypto/tools/hashcat/crack/extract/SKILL.md"
+    }
+  ]
+}

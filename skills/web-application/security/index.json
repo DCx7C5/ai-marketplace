@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "waf",
+      "description": "skill directory index",
+      "sha512": "9d330565b8a1eba5467c7460074893055ee11c9dd4bedf7ad1ee50f913d50746978848cbdfb5daa17948935f9ea1213c3dddc6a48e4921285b5ead123a01d429",
+      "file": "skills/web-application/security/waf/index.json"
+    }
+  ]
+}

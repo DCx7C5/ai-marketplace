@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-hsm-configure",
+      "path": "crypto/hardware/hsm/configure",
+      "description": "Hardware Security Modules (HSMs) are tamper-resistant physical devices that safeguard cryptographic keys and perform cryptographic operations in a hardened environment. Keys stored in an HSM never lea",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2c03978261d06628732769d3fafd2ab86558b6919e9febb46e64c37156924b6cad4d928afb7f2d7946cf55ed839ca8c1bf87d2c633d1276f20dc5fa5d41c5c64",
+      "file": "skills/crypto/hardware/hsm/configure/SKILL.md"
+    }
+  ]
+}

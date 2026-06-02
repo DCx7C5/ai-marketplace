@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "44a220b91c7be311d554b525b31fd5263275a5a018583502ddbf68ef08e1c1bb359f6d4852c77270301faf221295c174293834728653a2febc65ecd53054102e",
+      "file": "skills/windows/services/wmi/exec/exploit/index.json"
+    }
+  ]
+}

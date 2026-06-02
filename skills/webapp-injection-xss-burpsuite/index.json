@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-xss-burpsuite",
+      "path": "webapp-injection-xss-burpsuite",
+      "description": "Webapp Injection Xss Burpsuite.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18de1c482e55590d76b1f00dd05709c8ce539625a76e473d0d8302b05c6fa03621e3a0c76020f30c68fd858cd7d818ff931ae1c8d5cccbeb29d38652a15c2c87",
+      "file": "skills/webapp-injection-xss-burpsuite/SKILL.md"
+    }
+  ]
+}

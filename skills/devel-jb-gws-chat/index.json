@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-chat",
+      "path": "devel-jb-gws-chat",
+      "description": "-| | [`+send`](../gws-chat-send/SKILL.md) | Send a message to a space |  ## API Resources  ### customEmojis    - `create` \u2014 Creates a custom emoji.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "000bf5f60be060cebb65997684326dd6ef94bb1b9c71f8492389f68c20a6ec03a4d8720ca9ba085377603f578b0afe3116541e53fe867f429705ff5adb879552",
+      "file": "skills/devel-jb-gws-chat/SKILL.md"
+    }
+  ]
+}

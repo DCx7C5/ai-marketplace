@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "server",
+      "description": "skill directory index",
+      "sha512": "c0c4ad29ed1cc7059bc5557861d24799aa82ecfd00439dddb49811fe41717d452d8790101d646b2b241a51e76f6a4f7476e88a5c97a85a393430c4618a264cc4",
+      "file": "skills/network/vpn/wireguard/server/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tabletop",
+      "description": "skill directory index",
+      "sha512": "e5be164f13b2fa31d7199b1840c23f4324240a2c9798aded75ecddeec6bce7b2b53b1fe77e150d697a529af1e455c3d59ae3e868f1d4f502a30f051cc9591799",
+      "file": "skills/soc/exercise/tabletop/index.json"
+    }
+  ]
+}

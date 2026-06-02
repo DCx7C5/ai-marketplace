@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-cgroups-v2-forensic",
+      "path": "linux/kernel/cgroups/v2/forensic",
+      "description": "Linux cgroups v2 forensic analysis \u2014 resource isolation inspection, container escape detection via cgroup release agents, and cgroup-based persistence hunting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3359fc6e8531630bbd60cba95254b3810f7dd1d5790c303d82ce20936a5407ce19d2f0f3d8e70b24fb9896376af7dc5ddf7131d198b375c44ceb4b896d5e4fcc",
+      "file": "skills/linux/kernel/cgroups/v2/forensic/SKILL.md"
+    }
+  ]
+}

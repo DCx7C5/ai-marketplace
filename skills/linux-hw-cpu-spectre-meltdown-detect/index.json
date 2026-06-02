@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-cpu-spectre-meltdown-detect",
+      "path": "linux-hw-cpu-spectre-meltdown-detect",
+      "description": "subdomain: hardware-security tags: - linux - cpu - spectre - meltdown - side-channel nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f7a66916bb645062cc32cc93de0c69c020d093ded71b597f2cc8472c577583f07eca65d6b2a4884676c893857f5edfb48e6d8623cfe449e316a7feda191214fd",
+      "file": "skills/linux-hw-cpu-spectre-meltdown-detect/SKILL.md"
+    }
+  ]
+}

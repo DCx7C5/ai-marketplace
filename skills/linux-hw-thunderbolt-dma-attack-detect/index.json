@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-thunderbolt-dma-attack-detect",
+      "path": "linux-hw-thunderbolt-dma-attack-detect",
+      "description": "subdomain: hardware-security tags: - linux - thunderbolt - dma - thunderspy nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9878a60556ed15455106be592e959fedbbef501b59584875512290b15e038f3674ad04506366fb5cdcf1fdb8908367cf8b6964ed3d800bef8696bab8cfc16bb2",
+      "file": "skills/linux-hw-thunderbolt-dma-attack-detect/SKILL.md"
+    }
+  ]
+}

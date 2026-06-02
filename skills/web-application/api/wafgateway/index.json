@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "e5389c4d5bedc109dfc40d650ccbe8968ebdb055ee1269848b88a11952f564620adc38166bd6e9f39a37a0e237e2fd42b26b52a03902b70eec2d12c682bbc7ee",
+      "file": "skills/web-application/api/wafgateway/monitor/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1bfac1b0a113bf787e26d59f6a28db35f1b6a59d760b59b75166b0201fdeb5f0cb1f12d80d3510eed451b4f4d38f8b6c1a7196e9a3fd87b07d6d52ddb5e75d23",
+      "file": "skills/web-application/api/wafgateway/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f4f19fa2ccb428379645852305e023351c5b952e05fb6adb99c0549344c156f3a8b7db84d39a147e5bc18a7da7bc7514d56081708011ecc4a0e14da8d7f21dee",
+      "file": "skills/web-application/api/wafgateway/scripts/index.json"
+    }
+  ]
+}

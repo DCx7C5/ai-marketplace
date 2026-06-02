@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-dcsync",
+      "path": "identity-ad-dcsync",
+      "description": "Identity Ad Dcsync.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b4603b7eacf8dfe736357c41bdeb596ad335a7341464c41baa42ca7ecc9d5a5df4681882f38202ba0e36f67014047d1b503a6d560ef593b68d3d1adda96424be",
+      "file": "skills/identity-ad-dcsync/SKILL.md"
+    }
+  ]
+}

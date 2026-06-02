@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "brave",
+      "description": "skill directory index",
+      "sha512": "3ddc1ea50940b9577d0eb251c8b52145669b7d25a6c670b813668c63ddd2d100569806ad3d3322c91c7180e55dc9002e8557076b2db4506e0a710391f222c592",
+      "file": "skills/browser/brave/index.json"
+    },
+    {
+      "name": "cache",
+      "description": "skill directory index",
+      "sha512": "cf9dee3b306720017923d81beb7d8c665025d57eaac9cd896582144341b8c70221b0ee6721762d61ffea97c7c0534004487455ecfed92d1f78dd81b6ac7c4b1e",
+      "file": "skills/browser/cache/index.json"
+    },
+    {
+      "name": "chrome",
+      "description": "skill directory index",
+      "sha512": "38e99d79851e5ad1247e229a28796c11d0300bbbf5dea4e2c2788238e7bbcdf099a2a6a4307a7443545c3f4a00e0d1ecdc95c51dc6953f8d96ee956d1194c4fa",
+      "file": "skills/browser/chrome/index.json"
+    },
+    {
+      "name": "chromium",
+      "description": "skill directory index",
+      "sha512": "5524461c85a4eec8c596714d9301be469fd10bc3331282148acfad95acf270f8d7607661153d6fdb93820d3fa68832df698699cd6ad6d4899f4060fef5f54ef0",
+      "file": "skills/browser/chromium/index.json"
+    },
+    {
+      "name": "credential",
+      "description": "skill directory index",
+      "sha512": "cb3ac9373881cab430c542f0703fe38252d177074b8e62ea675fb619ad21430d53d4322ec067806361456fe35cc1b093eddc9e1ae9e842fcc15a113bebd02729",
+      "file": "skills/browser/credential/index.json"
+    },
+    {
+      "name": "extension",
+      "description": "skill directory index",
+      "sha512": "aebfc54fe222777395811643da64df51f59d07c4422f6b0a4f53574a108cdf95415a47a32ad2d697a5a3bb12c0fbfad4f405e6ad66303c78742f6f96b456a64b",
+      "file": "skills/browser/extension/index.json"
+    },
+    {
+      "name": "firefox",
+      "description": "skill directory index",
+      "sha512": "95f53a1fad71686cf2e0b5540b087123d2824a69cd1c87c79be82ac6c7ccde8189223a459b983f8a1dbfc2c0aa7f467891641d8255301009942caaad77593bba",
+      "file": "skills/browser/firefox/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "409262bc183eb5a8c7ab956fd2011dc7f7149c152a3e7747b004b638d65e41827acad7d1c304bc80db20eb95a5224050af867fd67c4d59c8b1b667b53486466f",
+      "file": "skills/browser/forensics/index.json"
+    },
+    {
+      "name": "phishing",
+      "description": "skill directory index",
+      "sha512": "d7f147f39606d3ac161eff68ffef1f3c088d01f3769b8fb7dc26fde0854e98d0181594a676e0eb6f9911463fe6709995c68a4108446e8f34400be14d707b26c3",
+      "file": "skills/browser/phishing/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-bind-mount-escape-detect",
+      "path": "linux/filesystem/bind-mount/escape/detect",
+      "description": "Detect suspicious bind mounts and over-mounts used by rootkits and containers to obscure malicious files or gain unauthorized access to host paths.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c8d043df6bb6e805ede7f714f72fd519b0bd5008bbea30349f81c45f25b1890650baf143aa51c2923105f70bf94db1c17939a7cfcc57e2f196509ab4145dd62d",
+      "file": "skills/linux/filesystem/bind-mount/escape/detect/SKILL.md"
+    }
+  ]
+}

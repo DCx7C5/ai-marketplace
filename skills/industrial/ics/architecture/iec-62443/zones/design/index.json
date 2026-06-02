@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "b2d570a4c823b8a03b985c5a740bce013d64cb4c982a696e670bbc1ae7c0fe2f21e506556cc82ae0c170e55e023f2d6517639ba578f1b63228e8d1ac40c07801",
+      "file": "skills/industrial/ics/architecture/iec-62443/zones/design/harden/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0908b85f483efefcd4541b7603e376cd79f17d7e03f9f5bd7bf21ce4cf359db6f43d84f4f1ad8baf0b2940c7e3e9e45d6aaaae2bc85f73f356b7968473ad583a",
+      "file": "skills/industrial/ics/architecture/iec-62443/zones/design/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e6047fbae5674b17e5e8c484b4f77fa7db11ac9f39b1df4fd54d8e2722c13ba5dbe1f7256e9456ef6c9ff0ff3720d49ee503b69c07a16f597aee7e2425fc8a71",
+      "file": "skills/industrial/ics/architecture/iec-62443/zones/design/scripts/index.json"
+    }
+  ]
+}

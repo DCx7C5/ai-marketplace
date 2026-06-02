@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-ntlm-detect",
+      "path": "soc/hunting/ntlm/detect",
+      "description": "Detect NTLM relay attacks through Windows Security Event correlation by analyzing Event 4624 LogonType 3 for IP-to-hostname mismatches, identifying Responder/LLMNR poisoning artifacts, auditing SMB an",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ae264d4aa24ab226e6efdbe74428e957ab4947cdb32d25fdf32919b6fbd88ff9b229d85befd89eb55da692333c8cf8fd7da9cdb0371d2fc1a82b70baf377c21",
+      "file": "skills/soc/hunting/ntlm/detect/SKILL.md"
+    }
+  ]
+}

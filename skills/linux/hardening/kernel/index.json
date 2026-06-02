@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "config",
+      "description": "skill directory index",
+      "sha512": "32306cb3169a1909b17e921acde1cff14efd5e801d524bf5448490d03b5162e534d8d93102a248e70294f9184af5bb5a1f60d331ecbc0eec7e0ad18bb5cf9a60",
+      "file": "skills/linux/hardening/kernel/config/index.json"
+    }
+  ]
+}

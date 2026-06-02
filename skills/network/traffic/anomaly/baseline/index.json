@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "39a32ed00feec9fb825400ba255fbd353469aecef24db5d4d3d7832c87e81925d666e1c0e23d052d56eeda23b8aee6e70a22f91ac3cf7de1a7c892a12be2f70d",
+      "file": "skills/network/traffic/anomaly/baseline/detect/index.json"
+    }
+  ]
+}

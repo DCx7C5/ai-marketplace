@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "90ee060f59706d6e6cf6dc9bc3626addde22227c6580cdc08b3fd9f3000ba6c320948a16074869d14e8b2cc9eae9ed965d00f2bbda86b27d6551d50a755f742a",
+      "file": "skills/linux/forensics/disk/acquisition/autopsy/analyze/index.json"
+    }
+  ]
+}

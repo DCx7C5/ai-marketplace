@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exfil",
+      "description": "skill directory index",
+      "sha512": "459c9bb463161adb3ea0de9f386012f56e228605f86b3ab30ca2bf77f0b15ba5c541f35ee92ee5ed23b31779639964a32dd12f912418bcf6f406004a12448cdc",
+      "file": "skills/linux/network-services/dns-server/zone/exfil/index.json"
+    }
+  ]
+}

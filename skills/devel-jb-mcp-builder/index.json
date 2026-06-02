@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-mcp-builder",
+      "path": "devel-jb-mcp-builder",
+      "description": "### Evaluation Guide (Load During Phase 4) - [\u2705 Evaluation Guide](.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "247fb1ec60b3a11e71a5813c51c72f1d9671dc18f950f4676eb012fd38a47342e3cef2069089cec998ace54feeb62c281c18ad5a6e164ce9b6f761896478106a",
+      "file": "skills/devel-jb-mcp-builder/SKILL.md"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "6c7b17a3762d800ed01acd5ac54b4875dc420655d9dc287e72e17e72bdd24ce42ae01c1b7939a171228ed9f52dd437db72f12288de43318a965d64d94b3889bc",
+      "file": "skills/devel-jb-mcp-builder/reference/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "eac827e70623b0ada669bd4004baf2ec74519e5f0b3e0711e521472a6823ab5e1bdcf6291b1fd3a3d29e418ff863b9ff14ec14432d3f9dad9d55924acf9e0f79",
+      "file": "skills/devel-jb-mcp-builder/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-modelarmor",
+      "path": "devel-jb-gws-modelarmor",
+      "description": "-| | [`+sanitize-prompt`](../gws-modelarmor-sanitize-prompt/SKILL.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5885ffd42d17e37790891879e63616868bbad6b5127d457971811b296c6bd3efde6204735f5397fc36cae9d304369233113871fce7b50fcafbc9335d749e70ad",
+      "file": "skills/devel-jb-gws-modelarmor/SKILL.md"
+    }
+  ]
+}

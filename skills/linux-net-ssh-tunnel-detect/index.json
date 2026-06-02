@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-ssh-tunnel-detect",
+      "path": "linux-net-ssh-tunnel-detect",
+      "description": "subdomain: network-security tags: - linux - ssh - tunnel - forward - c2 - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "374964d47e5f48b5d0d198339d60a408e1e47af4171f41ac72ca6555ecf6905af71bf35e9e114acfc15b5816038885eb071cd008f72661184ef537b392aec8ba",
+      "file": "skills/linux-net-ssh-tunnel-detect/SKILL.md"
+    }
+  ]
+}

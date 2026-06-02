@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-codebase-audit",
+      "path": "devel-jb-codebase-audit",
+      "description": "Devel Jb Codebase Audit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c978e83ba56505c727da67c5a23cf3004e3e0ddf13c02cfcb50df05a8d234ad78c45a68bc77801df2bfd8e8cce23a3dd939b50b8ed5a9852907b222627c5627f",
+      "file": "skills/devel-jb-codebase-audit/SKILL.md"
+    }
+  ]
+}

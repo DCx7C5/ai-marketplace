@@ -1,0 +1,277 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "access",
+      "description": "skill directory index",
+      "sha512": "c7b386abfa5ca0ef6f39e0186e20b382f3b6688ec961c9f7e8e43475961b26af39681a4d640c9f1dbf01be0ca8fbbcd92d4d48b398a73ad6c09fbfc0b38b189c",
+      "file": "skills/web-application/access/index.json"
+    },
+    {
+      "name": "ai",
+      "description": "skill directory index",
+      "sha512": "b630b014b58b8ec3c5881e4029edd0166568d017ff92553ef83bd3df7b227bf930fbd038d5573c6d8b744ac8e130ad770a36f69c71ae5ed3dd00bb84e44c949b",
+      "file": "skills/web-application/ai/index.json"
+    },
+    {
+      "name": "api",
+      "description": "skill directory index",
+      "sha512": "3bc6ec64bba5d8c870e4d96b76b91b024cb62e4b99e1b5eee3f7e55070c8681037c012fd870d47396d621d083972abe35b0a9551d91f2cf910d1cdc185ac3419",
+      "file": "skills/web-application/api/index.json"
+    },
+    {
+      "name": "auth",
+      "description": "skill directory index",
+      "sha512": "72b2a65e7ebebf271cf72defcccd2a534f4968469a84a4fe906f0a90d378b00333f591c01f0a9e3d0dd93c36b21db75f2623e4612b1afe7de7625b1b5cda805e",
+      "file": "skills/web-application/auth/index.json"
+    },
+    {
+      "name": "broken",
+      "description": "skill directory index",
+      "sha512": "7d47e4cd4f285e2097183bbe4c1ddae6efcf789d21d9b217392cb733154ac0773d246f8d12f8f25b72fb08b4ab88087cbb23817e322aa5a8f6a3420c5179bd67",
+      "file": "skills/web-application/broken/index.json"
+    },
+    {
+      "name": "business",
+      "description": "skill directory index",
+      "sha512": "89c7816098bc1595571f8cc4fdc9b0ade1ab7bc4fe1b6cffab74bb87a1d135e14286d07c150c549023b987a587fbc17dab3b8833a05ee9b7148649b79a27a450",
+      "file": "skills/web-application/business/index.json"
+    },
+    {
+      "name": "cache",
+      "description": "skill directory index",
+      "sha512": "b9bcfc93a93eb34e658c19a8f2da6e97e1013b56422d9e0a2006f076cfce8fbe55285252a598832c5263c933538f12fb230c7003e660db386a0966cff66dbb53",
+      "file": "skills/web-application/cache/index.json"
+    },
+    {
+      "name": "chain",
+      "description": "skill directory index",
+      "sha512": "503c7595b75d298d83afbfb432679c6c3a4aca7d4eb77e074c3d41530563034145ad8919e2e7d4acadb0323fe2267c6cd6f7dd1806860f781749c47de4f23864",
+      "file": "skills/web-application/chain/index.json"
+    },
+    {
+      "name": "clickjacking",
+      "description": "skill directory index",
+      "sha512": "c24caa668b949b18b65cd6c00a7e0fe53586af8d1c61c5695c22feee3d4fa2df2819ce3d1ed9148e62bc91ba07fb2e5dd1689ad9fe23ba9d9f2b21487a5b863c",
+      "file": "skills/web-application/clickjacking/index.json"
+    },
+    {
+      "name": "cors",
+      "description": "skill directory index",
+      "sha512": "91925eee3de91e854ba8df1839e277d1d6c1846b2e552e2d97d8bdad62b0fe17fe7d3959c93b8972559c8d782617ac38bb9a431116a502c1203a1dfd5be4a73b",
+      "file": "skills/web-application/cors/index.json"
+    },
+    {
+      "name": "data",
+      "description": "skill directory index",
+      "sha512": "1277b38a2aa12b7f7d151d54a9e6bc40ea03504ded5ce5363ea685b72f342fd3d324215f5cfd6dba686a5a334228505206a5c6f5dc23108dad9104c0a670276e",
+      "file": "skills/web-application/data/index.json"
+    },
+    {
+      "name": "deserialization",
+      "description": "skill directory index",
+      "sha512": "795e83b7f77a215ae59ef5dfd71e477f07c114ea5c321b03c2d2cfbf4ed048ebcf72caee3b7bcfa61d0297d831ea165ef3b7b7279d803e48da4629fd80882294",
+      "file": "skills/web-application/deserialization/index.json"
+    },
+    {
+      "name": "design",
+      "description": "skill directory index",
+      "sha512": "0450689f22b5058ccb2611b77f566749fa5ab3beb1ffcbbd4a6899f07ac58bebcdd4cee49d1e78d89d164edd7c4f9bb7822d77fcb002edb25ffddac8718c403b",
+      "file": "skills/web-application/design/index.json"
+    },
+    {
+      "name": "directory",
+      "description": "skill directory index",
+      "sha512": "b23f08359e982af41b5e51757aab9ed46ac39b37e6650c1911e6a298ea1807b43ffd7897c704a2c24a74c82d806a547ae918e321cab36f3aed85375d1f6b2a80",
+      "file": "skills/web-application/directory/index.json"
+    },
+    {
+      "name": "enumeration",
+      "description": "skill directory index",
+      "sha512": "2e1ac743726d77351d1bd543c236f69df4d0aa308e464e231d667edb719573435fdb52c5d6c18f89e2583d348e64925f94a8370a102f47bf29fce5021c7f0f69",
+      "file": "skills/web-application/enumeration/index.json"
+    },
+    {
+      "name": "execution",
+      "description": "skill directory index",
+      "sha512": "443796ff10ce0c3f9e6198e86359fadb1b1df900b33a99ddbf2ed18b5b1042ebdb8c7026412983f390b04e3b13dd8126980251ae7a9a74720153a5f257c0eb77",
+      "file": "skills/web-application/execution/index.json"
+    },
+    {
+      "name": "framework",
+      "description": "skill directory index",
+      "sha512": "6e22e9686e9049a006b854ec05b78ca359a54c309e793a25dc4adf29a715411472bdb0a3db9c3f03cbafff597ba1e55a6802604e8d64246b77ec7bc26550899d",
+      "file": "skills/web-application/framework/index.json"
+    },
+    {
+      "name": "fuzzing",
+      "description": "skill directory index",
+      "sha512": "6dcdfb53bf148e64d7a0b45e9ed78b82fd30cd7551a9ddc3b21526d4eb2a95c0c4b53e05cbd23c0c0cb886fe991d9abc0ee5489ebf8cf838a516499764908f7b",
+      "file": "skills/web-application/fuzzing/index.json"
+    },
+    {
+      "name": "header",
+      "description": "skill directory index",
+      "sha512": "06a298dcdc6c5d65c86054e664c812b097206ecb43b07d04beebff1a4fda10f9b270b7f6c1cdc5cdf3edf7aea971e826adf27816a5ceaaea9039ee4a50d9558d",
+      "file": "skills/web-application/header/index.json"
+    },
+    {
+      "name": "headers",
+      "description": "skill directory index",
+      "sha512": "f256800546415223a4e7fdb48aa7f9687681711b03ab58726338c585598fe299cf7576009a48db300ec1d9aaef0b93251bd357d324fdd5d67aea8aeb3dc26cb8",
+      "file": "skills/web-application/headers/index.json"
+    },
+    {
+      "name": "host",
+      "description": "skill directory index",
+      "sha512": "26b54204f0c966e91f812f90bc2af8967321ef673f11d67911564ea3addb54723fac3550522d058b12268edc6e9895065b4f1ef29ab063af6462c590c344007a",
+      "file": "skills/web-application/host/index.json"
+    },
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "1d77d9fef157f0601eb373e97545c50de7f84166faefac43d35088f874998c1df3cce5ee6914eb905a2376148a47ba9a9c35ef11a2025c9d28bc6452e4ab4c3c",
+      "file": "skills/web-application/http/index.json"
+    },
+    {
+      "name": "idor",
+      "description": "skill directory index",
+      "sha512": "19874aed669cfd68c2e4744fc7353a9cb8ddc4c8fe5a5cfab8df285eb9c521b3d4c26e71cf1e2ca049b77b7956b95933bacd4a078f8ff86a4ab33444f1a8b98a",
+      "file": "skills/web-application/idor/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "4b533c9881abf2259c450133d54ffb82d9d8cf0cf90031bc0aa8650aac0fc67b19e8075ddc8857178aa72161a6da263a09ca1d4ca75869eff9d163845817ef5b",
+      "file": "skills/web-application/injection/index.json"
+    },
+    {
+      "name": "language",
+      "description": "skill directory index",
+      "sha512": "3323db81797d98b57ccf97451a751a6723d4ffbb2f9485e4a668362ae9c2b3680692d3091a7a20eab462b03d39d79a86a44db987ec1a70fda0082a7bfc77c7a2",
+      "file": "skills/web-application/language/index.json"
+    },
+    {
+      "name": "logging",
+      "description": "skill directory index",
+      "sha512": "d7d05416bc21a504bf96902861dd9ffa5bc6ecacdb8e4d50fb0dd105b292a38d940bf61757a05d8a485e5c22e8eee82be1708df0aff1da97b10308ba547b0ddb",
+      "file": "skills/web-application/logging/index.json"
+    },
+    {
+      "name": "logic",
+      "description": "skill directory index",
+      "sha512": "a6b48c78611459d2aabcd436c031f005ad191b7e60fecb0ab064cff0cf1260c11efb23db73ed3586c39f99162b29da9b3ca21a14cac38adb9f11fec3b2442668",
+      "file": "skills/web-application/logic/index.json"
+    },
+    {
+      "name": "operations",
+      "description": "skill directory index",
+      "sha512": "50e55747a4e39c6adb663a535b7579e26fbedd3c7797ebfbb79a8a6053caa8dc3a7b44bc0a125c0af2f7812753594cfd2f602b020ab262338d2f1f0ba951cedb",
+      "file": "skills/web-application/operations/index.json"
+    },
+    {
+      "name": "owasp",
+      "description": "skill directory index",
+      "sha512": "a322da5f2ff9dd492f629c11767f9f7c8a9106b76a8e71ade77e5ac4c23d189ef0a8d66fd347fa45c73e1542451992d2fab49d43df11973606288b0af93d5384",
+      "file": "skills/web-application/owasp/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "d8573e75d5708ac66fb9cc0a6730db451cb7bcf1024a257fe764bf72bf2cf2b40dbec6655a535d4a44de3d014492bdf91639bb8da51b0b53bf8cdaf531f05ed1",
+      "file": "skills/web-application/pentest/index.json"
+    },
+    {
+      "name": "protocol",
+      "description": "skill directory index",
+      "sha512": "4f16e254a4c8d43bd4dadfd9e6b4dc9bdb0142ae7af7bd0cf44af4b1c40c2251dc354cd13efe93aae3f6a5352723abfd9e76a5a3488e2f6d1130ad6e8538a808",
+      "file": "skills/web-application/protocol/index.json"
+    },
+    {
+      "name": "prototype",
+      "description": "skill directory index",
+      "sha512": "59a1280bf08dd003d4e172d0a85de5a307b60051836f8da9897ae318b90c90ee70b12e1e96dc87efd68f7807a8dff9161468e3b299589a5803f38127ce85658c",
+      "file": "skills/web-application/prototype/index.json"
+    },
+    {
+      "name": "racecondition",
+      "description": "skill directory index",
+      "sha512": "c3cde3904f2b7bc5ce433030fcbed32f34cb63dcd9da998d0d2617374af03dc809af9770c70280c70a36d915f98642e469b19d3f6a7878fc3f22414685e8a902",
+      "file": "skills/web-application/racecondition/index.json"
+    },
+    {
+      "name": "redirect",
+      "description": "skill directory index",
+      "sha512": "ff6400bacc33972edc180320fca6e2caa521c9c2451242b3986735f0b9435da1eac69ccd8fb733781a4401b8fe482741bfac22240f2b63b6e9d6b7eb867ebe25",
+      "file": "skills/web-application/redirect/index.json"
+    },
+    {
+      "name": "runtime",
+      "description": "skill directory index",
+      "sha512": "70ad78e1c6e4c6ad2291aa75586954d382891b35b2c7e0816b6f2921a119ecc216a16c674677f7a21c376a02dd328637cb9b5bcd04d71081e9fb69e365127a30",
+      "file": "skills/web-application/runtime/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "6a7fd87cec689f322bf1e69643cc0166734c6c6387a01db3349cb4972f4a53ccbc8555e61d5ff1d2a8d0b73d9e68b67259a63b0ead2df72f51f74315d581eeb7",
+      "file": "skills/web-application/security/index.json"
+    },
+    {
+      "name": "sensitive",
+      "description": "skill directory index",
+      "sha512": "8f56a0e10be26bb647b408a2071ab25a3206d5a8b71e3e0a4f7c66b53c9cf4bb65b4911625465ddc8772e0f78119c6fd3d746e4479f0caa2b6c575f16dfb3811",
+      "file": "skills/web-application/sensitive/index.json"
+    },
+    {
+      "name": "smuggling",
+      "description": "skill directory index",
+      "sha512": "24ba144e91a440800d9496760e0b0f96fc82395512823708a521a9b36109fbdc40659abc67112788b9b05902c348bee9252177f5b151dcaf09b145ec9171a41c",
+      "file": "skills/web-application/smuggling/index.json"
+    },
+    {
+      "name": "supply",
+      "description": "skill directory index",
+      "sha512": "de8eeaf3f0837164acb4c143d378a023cb8aca8f6165922073abdad01bc915ea540ba330f922cf7866cd86aa748df08ffa9543531405e2190ead53636e78d831",
+      "file": "skills/web-application/supply/index.json"
+    },
+    {
+      "name": "testing",
+      "description": "skill directory index",
+      "sha512": "f439c8daba07bbb506e8b06efe305ad6639aaa15451f9c606fe0104139e4d148f1e76b73be0205a68fc554197c4615569adadc450c77277ecbbff269ab127df2",
+      "file": "skills/web-application/testing/index.json"
+    },
+    {
+      "name": "thickclient",
+      "description": "skill directory index",
+      "sha512": "6f74a05474aaf1bbed8d1764097ab198529034c1e0316705aa1bf15124db89140c1095793e15d7d26f188036ad730bc4effda9083bc5d75152d26790d4f4e2c9",
+      "file": "skills/web-application/thickclient/index.json"
+    },
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "020aa2dee82e2fd3067f8e9f4dab3bfa76ed02841366b43c2c840dca98b63b211c51c0fa4042c89c82a7f4405f6984c5dcbe0a05528246ce8ed969fce29a26dd",
+      "file": "skills/web-application/tls/index.json"
+    },
+    {
+      "name": "type",
+      "description": "skill directory index",
+      "sha512": "99174865d236e146b6740f475d7734e18a0b0062432df0c615c463a98ede9631cee6121fba43eb87ca8b8fab6662079950702b9fa306e6d081c852951a21e57d",
+      "file": "skills/web-application/type/index.json"
+    },
+    {
+      "name": "ui",
+      "description": "skill directory index",
+      "sha512": "d31ee3987eda09cf65dea64442bfb669b3ef50d19c8c4e3424f46655ecd0f15bc56904628b90ea0ddc7384f93c4320c474cc2ee27cd30c3c9511cc68685b9b9f",
+      "file": "skills/web-application/ui/index.json"
+    },
+    {
+      "name": "waf",
+      "description": "skill directory index",
+      "sha512": "8fcc5e1b58766ee2a70a73954f0bd8642be42ce28717ab071c82eb3dee06e9a0d40955dbe528e1cfb746b7839a5815ac965c8de8deaae909816ff93d9d4e38db",
+      "file": "skills/web-application/waf/index.json"
+    }
+  ]
+}

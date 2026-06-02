@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-symlink-race-detect",
+      "path": "linux-fs-symlink-race-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1b6f35317a3baaa396ad4b9beccb5ce358d295a7e1f23a30498b43af285d333578815f06a10249d69351a34959b4a561833ed395de95c64b50488467db965c6c",
+      "file": "skills/linux-fs-symlink-race-detect/SKILL.md"
+    }
+  ]
+}

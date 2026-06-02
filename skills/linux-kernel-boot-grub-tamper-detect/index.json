@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-boot-grub-tamper-detect",
+      "path": "linux-kernel-boot-grub-tamper-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - grub - bootloader - tamper - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5d252e36de8e7c7f0694daf8733a4ee7d40044475ea1458a34e033d0375bd8785d61fe33e0bddddeb3c6a345ff9cdfc1e59330fb9ec4ea22c2536f6d7387e7fb",
+      "file": "skills/linux-kernel-boot-grub-tamper-detect/SKILL.md"
+    }
+  ]
+}

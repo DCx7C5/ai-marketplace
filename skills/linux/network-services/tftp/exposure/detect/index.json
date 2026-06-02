@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-tftp-exposure-detect",
+      "path": "linux/network-services/tftp/exposure/detect",
+      "description": "Detect exposed TFTP servers and enumerate accessible files using TFTP clients, identifying network device configurations, firmware, and sensitive data.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c80de7804da0ae6f64812ad4516f16a8e763de96decac296053f5ffef442d3252c5d291d86345da64acb42876f7de85e7a6ac18b27adfe877cdfd444b2803934",
+      "file": "skills/linux/network-services/tftp/exposure/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-containment-active",
+      "path": "soc-containment-active",
+      "description": "Soc Containment Active.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c5986522dec93d22d39190de75bb46845eb5a25fa3f4108f859515dda4c104da7ce057bbd1fd433e8d061cb7cbff2b57708dffb5828b5e7f8861aefb65c9ef41",
+      "file": "skills/soc-containment-active/SKILL.md"
+    }
+  ]
+}

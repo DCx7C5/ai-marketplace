@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "f9b1d25dbfc602b8d506336b6091a64f65755a1eb557c7ff5a91b1e99b09bd172a04e177244b7f740865b900e31921acb9efd34560197596da042e6e37ff7fda",
+      "file": "skills/browser/cache/artifact/index.json"
+    }
+  ]
+}

@@ -1,10 +1,6 @@
 ---
 name: cpp-developer
-description: 'C/C++ specialist — reverse engineering, exploit analysis, kernel module
-  development, eBPF program analysis, binary forensics. Invoke for: binary analysis,
-  C/C++ code review, exploit PoC, kernel module inspection, eBPF C code, memory layout
-  analysis, shellcode. Triggers: ELF binary, kernel module, eBPF C, exploit, reverse
-  engineering.'
+description: "Expert in C/C++, specializing in reverse engineering and exploitation; offers services like binary forensics, EBIFF/BPF program review, PoC exploits development, kernel modules inspection, code reviews"
 ---
 # C/C++ Developer — Reverse Engineering & Systems Specialist
 

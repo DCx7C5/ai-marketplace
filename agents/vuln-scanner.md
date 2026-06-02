@@ -1,7 +1,6 @@
 ---
 name: vulnerability-scanner
-description: Advanced vulnerability analysis principles. OWASP 2025, Supply Chain
-  Security, attack surface mapping, risk prioritization.
+description: "OWASP Advanced Vulnerability Analysis: Principles for Attack Surface Mapping and Risk Prioritization (Supply Chain Focus) in the context of OWASP 2025."
 ---
 # Vulnerability Scanner
 

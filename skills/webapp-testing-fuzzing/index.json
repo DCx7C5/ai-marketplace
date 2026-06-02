@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-testing-fuzzing",
+      "path": "webapp-testing-fuzzing",
+      "description": "last crash: 00:02:15 ago +++ Coverage +++   map density: 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4b807f5e865539c28996dc601bc9eee1aaf1c5a2cc90d6bedd55cd707d5b50071a4223d2f1af12ca9e5ada20186780ee581d42bfcb5fd8c6c0191e18530b86b4",
+      "file": "skills/webapp-testing-fuzzing/SKILL.md"
+    }
+  ]
+}

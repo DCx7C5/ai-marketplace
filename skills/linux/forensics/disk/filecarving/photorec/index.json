@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "5b634f33ab68d4f87506c440b7d6c925aa18bd404c64c8f5c047d8283a3ca79524bba7547365194c7a7d57f3ea55be24ee3d38919b0e6a223b20ce2edd5ee446",
+      "file": "skills/linux/forensics/disk/filecarving/photorec/detect/index.json"
+    }
+  ]
+}

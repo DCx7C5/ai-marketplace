@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-jwt-nonealgo-detect",
+      "path": "web-application/auth/jwt/nonealgo/detect",
+      "description": "Execute and test the JWT none algorithm attack to bypass signature verification by manipulating the alg header field in JSON Web Tokens.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "46dd967f590779246219de9d4b3405438db6f038e4fc17d4ea3d289be5a95204011244531afb5b0268e6039e07eeda3d6932fc79b8ffec7c0cf31b170b3739ea",
+      "file": "skills/web-application/auth/jwt/nonealgo/detect/SKILL.md"
+    }
+  ]
+}

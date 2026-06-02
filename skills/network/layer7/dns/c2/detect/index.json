@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "layer7-dns-c2-detect",
+      "path": "network/layer7/dns/c2/detect",
+      "description": "Detects command-and-control (C2) communications tunneled through DNS protocol including DNS tunneling tools (Iodine, dnscat2, dns2tcp, Cobalt Strike DNS beacon), domain generation algorithms (DGA), en",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b60b5ac92d72deb238cb951e9b8262cf0e9db1da3f5e12dd0a5504f7636da40b3fe3170ec30f0460523538310d5dc50ef67d0550a1aba3265ab08e9b4bd300da",
+      "file": "skills/network/layer7/dns/c2/detect/SKILL.md"
+    }
+  ]
+}

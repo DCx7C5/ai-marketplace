@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pipeline-devsecops-scan-enum",
+      "path": "cloud/pipeline/devsecops/scan/enum",
+      "description": "Design and implement a comprehensive DevSecOps pipeline in GitLab CI/CD integrating SAST, DAST, container scanning, dependency scanning, and secret detection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bbab2e6328045f5bd781a54a537affa65a8e0bf12495d2ba12c56ca934f744f267587888e66a2583e055e3a6cd1a7870a26761d7dfa5041866ab28d9dcfaac77",
+      "file": "skills/cloud/pipeline/devsecops/scan/enum/SKILL.md"
+    }
+  ]
+}

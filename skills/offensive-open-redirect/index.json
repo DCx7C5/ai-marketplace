@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-open-redirect",
+      "path": "offensive-open-redirect",
+      "description": "- For mobile deep links, validate package/bundle IDs and enforce App Links/Universal Links verification.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "51aeca8dec707e2f787d21fe4ed0ef964f8e8fa234073cec4b61cc13ca6a57a578dff8f3f9fea37edd0f968ab75dafb5b389337faed5f9fed909f1f19388840b",
+      "file": "skills/offensive-open-redirect/SKILL.md"
+    }
+  ]
+}

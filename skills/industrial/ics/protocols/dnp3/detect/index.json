@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-dnp3-detect",
+      "path": "industrial/ics/protocols/dnp3/detect",
+      "description": "Detect anomalies in DNP3 (Distributed Network Protocol 3) communications used in SCADA systems by monitoring for unauthorized control commands, firmware update attempts, protocol violations, and devia",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f093d2eb8e022838a5569b9b784b3ed5cd8b696a9cf70bcf8fadb9f3992686106da7766fb939e8fd95fae6e59389071c1b3ba473994350b47d657edea84c99f8",
+      "file": "skills/industrial/ics/protocols/dnp3/detect/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9b59dc341a4ca2d6027e2fac7749b5ed28fc75d6c8ed278d1b5283442d9bee403bcc994b2964572d5a98bf98e4ba2ea2c6856f0822cc1626ce168b515f024145",
+      "file": "skills/industrial/ics/protocols/dnp3/detect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "a0b3360ea6eada6e8bb17637c7655c07fa8ccdd5632c41ee28b862d7fdac836efa8ff5d2047546b4f2b77d5c2d894fd57e85af679819e9501692809c5e7b900b",
+      "file": "skills/industrial/ics/protocols/dnp3/detect/scripts/index.json"
+    }
+  ]
+}

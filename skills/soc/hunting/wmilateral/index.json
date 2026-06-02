@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7d63400a5e3e26cc3a73b1a00c8c4e78b0c37016068ffa83cb8c7bba9f312cb97a2e16643c8e1ec833432308407af8474f405cea4c3343d3c1759bd07ebd4582",
+      "file": "skills/soc/hunting/wmilateral/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "42crunch",
+      "description": "skill directory index",
+      "sha512": "b991d5c25d38bf8a37a911f1fa7ef4d71f5ffb1d521070be57062f4e29d15993d1604c51ce2da15f013b48b24bd83bf90221aafe339b02fe293461b573774097",
+      "file": "skills/web-application/api/42crunch/index.json"
+    },
+    {
+      "name": "apigee",
+      "description": "skill directory index",
+      "sha512": "ee7927ee59b431005413401e10af0dd8db677515277c4ef8ce6a656ce443b9049b3499d937bfdf4c5c3cc2a5c956dc5f9f0d84f5c16ccff2c24e0c3462b688f5",
+      "file": "skills/web-application/api/apigee/index.json"
+    },
+    {
+      "name": "apikeys",
+      "description": "skill directory index",
+      "sha512": "10249d021c5a9fc396748b269569f90de3b772f384b523c00620d2296dda6b430093165fb53f1dc66571b99e8114f4caa3bbf10a31cb40d7a9694a5dae7a9b0e",
+      "file": "skills/web-application/api/apikeys/index.json"
+    },
+    {
+      "name": "authn",
+      "description": "skill directory index",
+      "sha512": "48b22d843706b9d70d666ef439511727f7ce85d6ca7fb59d3d9128a3f7fbccc50921a1e4b694ff5eaa2f817720e9164fef8e9dd26436fbdc9ae24bb738004d6f",
+      "file": "skills/web-application/api/authn/index.json"
+    },
+    {
+      "name": "bfla",
+      "description": "skill directory index",
+      "sha512": "7d2be3ef9d337d89a559062a7303560fd025e8cfb832554bd266981f718b3a7b54b4e7b4d53d0de7d1abf257bc65f96e87221c88fb34826a8d3839da120aa067",
+      "file": "skills/web-application/api/bfla/index.json"
+    },
+    {
+      "name": "bola",
+      "description": "skill directory index",
+      "sha512": "0436d940db830b6921916b95348a5fded4feb49ec5db18744b06a1199cb18c8ba31d7cd7181c065ee01692a1b7987b51bc96b638908375ba1235a3c7b18b76a8",
+      "file": "skills/web-application/api/bola/index.json"
+    },
+    {
+      "name": "broken",
+      "description": "skill directory index",
+      "sha512": "449a20a5784d7d63152e6050f948f8da9484f1e2ebe09b30f78544ee4a48eac65b68c7c6165872dd9ce51fb6b639f392877282a36f3a4e5d98580647b4862971",
+      "file": "skills/web-application/api/broken/index.json"
+    },
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "6180e2573322d9eb07b61e13f2cda9e6516bfcedc33d7f512231aa4b0533c84eac011793329df52340ccba70e5aa8a33ac7b8e189c7144f51524fe343f5731f8",
+      "file": "skills/web-application/api/bypass/index.json"
+    },
+    {
+      "name": "enumeration",
+      "description": "skill directory index",
+      "sha512": "589f79f4d553244abb40d73cb89e9b2ebdd66eca399379ea3a3f5fa7b5df34657491b1041f312c1172be15ec7823ff9df2c26b949e5273cb12511e027a8e88ab",
+      "file": "skills/web-application/api/enumeration/index.json"
+    },
+    {
+      "name": "excessive",
+      "description": "skill directory index",
+      "sha512": "5fa4aabb9f4080192424e82116e75b409659625d2d6c79ab328ad5115e4d5235b41de6f8a298e6771214ab871610a776da8f62797fbec852011738970911ed43",
+      "file": "skills/web-application/api/excessive/index.json"
+    },
+    {
+      "name": "gateway",
+      "description": "skill directory index",
+      "sha512": "4201db94bf448c3fb00a70b82a388aa0f8de824eb5b556a97d833406da515581e6348a6491b36819ad2af37a5ec2fa5e79961b3e20730e427ca199ee2e250a42",
+      "file": "skills/web-application/api/gateway/index.json"
+    },
+    {
+      "name": "graphql",
+      "description": "skill directory index",
+      "sha512": "adc5ad821df201ca62f8049cf2228a300028bc5c6b0315a91a6687b8bdaed471927134701bf6e9ecd72ed3a16329d1b5ac44ec0c696528957704388cf972deef",
+      "file": "skills/web-application/api/graphql/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "4158d0f44c9e67f6e2c9a6df9e80113c757c2664824c09093db768e1dc54622e478a02568d49cba5394090930b2edc9a5d44248f419cebf2d6138094a21b18dc",
+      "file": "skills/web-application/api/injection/index.json"
+    },
+    {
+      "name": "inventory",
+      "description": "skill directory index",
+      "sha512": "5179b9742354710ea82f7672e376d938ae8188d145f12219538e508ff761009e544be81467172f4ddfb1f31d448e936b50ca1ae45493c4b0b168394931831898",
+      "file": "skills/web-application/api/inventory/index.json"
+    },
+    {
+      "name": "mass",
+      "description": "skill directory index",
+      "sha512": "62435d3f4b89f495a5146c39e9f842c4bd676abb818dece924c72e5f8a7a4d5222cac0372ffd77ef1883df24ee94a2c317ebbea28074ee62625a534af08178ed",
+      "file": "skills/web-application/api/mass/index.json"
+    },
+    {
+      "name": "massassign",
+      "description": "skill directory index",
+      "sha512": "d3ab6c791452bf2324ca96d860b05d018edf54b349a0de5a3c09cd9c34bd4af74a00cf1b953e5ae1d491023624e354f8f45b867013bb7736dfa3e618b9e24332",
+      "file": "skills/web-application/api/massassign/index.json"
+    },
+    {
+      "name": "mobile",
+      "description": "skill directory index",
+      "sha512": "a97b96a4ea3b09f026b81a1c15b6bfca01a6f9b200f228e3020b7afa21a1fa09f95a7a03c88deedc7b739f43d19bec38792c296657098118658b8d06335d517e",
+      "file": "skills/web-application/api/mobile/index.json"
+    },
+    {
+      "name": "owasp",
+      "description": "skill directory index",
+      "sha512": "310d5c6ebc032b9d3d0bb57705ac8eac383f2c016cadeada258ed76186004387fddc2585b39993f6f7dc11dd75c31a459ba290103454e07e18e697487140c47c",
+      "file": "skills/web-application/api/owasp/index.json"
+    },
+    {
+      "name": "postman",
+      "description": "skill directory index",
+      "sha512": "bdf5c6a77c2e09e798a51980f6b16fa01791b84ba507464b859b0258e6233cbb33d5a5b319968875ed76d9955efe6dee8810e76d07b1d1ca3e5fc13d8cd0c4a7",
+      "file": "skills/web-application/api/postman/index.json"
+    },
+    {
+      "name": "posture",
+      "description": "skill directory index",
+      "sha512": "5083174420dc72fa91d85db45e8d6b41c3ced14af2173cecfed47848344ce0967a294071a4bebb7a52750deb45c1ec46d2017c6ba684ae063dc613f2d7e81747",
+      "file": "skills/web-application/api/posture/index.json"
+    },
+    {
+      "name": "ratelimit",
+      "description": "skill directory index",
+      "sha512": "133620f8ef51f40ea75dd63623f0d83c8cbdb254b1bacab755160a8c55dd9f5879e2f80eb039bc5c58667bb98e12df4459fa67adf7b8dd5d5e5de1c5897fe26c",
+      "file": "skills/web-application/api/ratelimit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ab7abcedf0c1bdcd182ec54cae8c68b6bb3bae3bc74da04195fa871d0a3cf268bd5ad7d8c499706c10b9ffa1c5894b84a1ddd4cf6ba4fa68863c792c8b99a96b",
+      "file": "skills/web-application/api/references/index.json"
+    },
+    {
+      "name": "restler",
+      "description": "skill directory index",
+      "sha512": "be17ff496e8fb5512ada92f00de3a1ea5373958498dbdd435eb4f5501d2ac0607da6de01d57468d5c8748d74e0150488ede424bc2bef7922038f9b6abbe66e5e",
+      "file": "skills/web-application/api/restler/index.json"
+    },
+    {
+      "name": "schema",
+      "description": "skill directory index",
+      "sha512": "2f59f4e538de4f1e208937fb6ae4f6d89b27057786b682c2a039c4e07202c71a91a956547f0812875e5b2155fb8fd1b7cdca6b698d9505aa947347bc3250ab35",
+      "file": "skills/web-application/api/schema/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "051671102fe89b1fa4d50310d4819ed34a4519f260803f8e0bed5b47a77646d2a2f0b62a630dba1acb6d62d18deaacc230a3c33ec4391ebd1b5ec8b2c2eb78c5",
+      "file": "skills/web-application/api/scripts/index.json"
+    },
+    {
+      "name": "shadow",
+      "description": "skill directory index",
+      "sha512": "6abe14e44b6cbc3829b3776703be8548bbe8c0be0a442ae4fef172c1037e1de83de8f8e3de92d5a33be4480f162a94650d244743fc5d68e7fb68d0ce81f15627",
+      "file": "skills/web-application/api/shadow/index.json"
+    },
+    {
+      "name": "soap",
+      "description": "skill directory index",
+      "sha512": "35c87b72eca1b0d1ac3bef8e4c575bdbb02508685b5a79affcd39a62fc97f25c12659fa4965f4f60f7d57ba224892fa18f007821a37e69af244be250291764f0",
+      "file": "skills/web-application/api/soap/index.json"
+    },
+    {
+      "name": "throttle",
+      "description": "skill directory index",
+      "sha512": "906aadbcdb1a0d4c8bf5eb0593a626b9fce12edcffff7708045503846411248c02cacdbdf0aa7437b3522a9034e81e8a2c4cb818697db199bb8f17753cf9dec1",
+      "file": "skills/web-application/api/throttle/index.json"
+    },
+    {
+      "name": "wafgateway",
+      "description": "skill directory index",
+      "sha512": "a567ea3609f8792b747df36ac5ef659ebe6925b24d0af2c000b8cce585fb2e4e4133266a471b5ac86334cacf6d25db0d88eecf1e6675d353b5d99007ebbf587f",
+      "file": "skills/web-application/api/wafgateway/index.json"
+    },
+    {
+      "name": "websocket",
+      "description": "skill directory index",
+      "sha512": "130f2d8ae22ed6c712e6d6bc772c58bb5dec891a46bc16fdb9fe521ebd5347a4f2835d13a42280d80a035bcc05f3e12fa13e37b59e84b2201f6b9d44eff865bc",
+      "file": "skills/web-application/api/websocket/index.json"
+    }
+  ]
+}

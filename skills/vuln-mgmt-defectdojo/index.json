@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-mgmt-defectdojo",
+      "path": "vuln-mgmt-defectdojo",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9c0a75143bc967face9070b745e005c7ea9acf50bd0d45225907cba78b762f608fb917bbd0f4aeac76a2ac460fbef98de991f17e7d93b024d3f934ced88f3816",
+      "file": "skills/vuln-mgmt-defectdojo/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "0f7e3a14f688ff81d3e5c4a8f41d4efadeb692711fdb90fc2d7c2432d84dfef82deb6223cab66f7267f26f2a4652aba2fe1fe73f8254843522288f2338d1997a",
+      "file": "skills/vuln-mgmt-defectdojo/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f016fa712dfb1d7c5703edcc1cb2e069ad69bf25feda4586c07518524349862ff514ea72c2f7550da1e6f113c7b32213f455eec60a00f1ab5812157a84f0f436",
+      "file": "skills/vuln-mgmt-defectdojo/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "104d15a5e638550c41de60635f7434b286c6ab12b84ac55454d48e790715159d93c11d70e11710a399bf5c02054bded07e3d9e3fe4960833a798b2197020ea4b",
+      "file": "skills/vuln-mgmt-defectdojo/scripts/index.json"
+    }
+  ]
+}

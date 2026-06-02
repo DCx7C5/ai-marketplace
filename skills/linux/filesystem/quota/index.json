@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "abuse",
+      "description": "skill directory index",
+      "sha512": "422187757f53347436bd56388b4fbbea63b1781e71e7be074c371241a379c8e4a9f286ead4d326848a6f7d3652ae7181829ce4b76bac78ed5a9a4c1b6ec2f9cf",
+      "file": "skills/linux/filesystem/quota/abuse/index.json"
+    }
+  ]
+}

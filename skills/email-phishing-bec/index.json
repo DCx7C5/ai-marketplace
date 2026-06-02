@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-bec",
+      "path": "email-phishing-bec",
+      "description": "- NLP correctly classifies urgency manipulation in test scenario - False positive rate below 0.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8912219d8fefb04319496cb610be6c6b62ca19418e132ce3d7881ffc22c04ce7b0f7ef897e3dcad90fdd5515f23c0b14b2a5a5d00f6bc207439e05ca92d003ea",
+      "file": "skills/email-phishing-bec/SKILL.md"
+    }
+  ]
+}

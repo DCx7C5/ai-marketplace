@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-shared",
+      "path": "devel-jb-gws-shared",
+      "description": "Devel Jb Gws Shared.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d458fa3479d44319bbef927e575e8b06acf74f1b8fca5008a727d7c88ad3f13b667c12a67839834191fb986d594f6d9ec0e9ef8c6506e3d7f16c239f25e9d979",
+      "file": "skills/devel-jb-gws-shared/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-analysis-endpoint-analyze",
+      "path": "linux-forensic-disk-analysis-endpoint-analyze",
+      "description": "Linux Forensic Disk Analysis Endpoint Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cef11c07831328f0cce8385ae3381e61b39f96a884109507f6a882c94e5e9975b53830cf60a86a5f9bc29dbdc6cd393b4240b8d81b04d2026ad48849cf1a85ae",
+      "file": "skills/linux-forensic-disk-analysis-endpoint-analyze/SKILL.md"
+    }
+  ]
+}

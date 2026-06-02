@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-athena",
+      "path": "cloud-logs-athena",
+      "description": "# Create all forensic tables from scratch python agent.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e445de2c147842b8fc0e754a1e1a1e6c88018f218332cfccfb16dd2f116493a899cf33e1be1f74b41225615ae86282bb74f3d078a9cb254184c2c1b24e7de561",
+      "file": "skills/cloud-logs-athena/SKILL.md"
+    }
+  ]
+}

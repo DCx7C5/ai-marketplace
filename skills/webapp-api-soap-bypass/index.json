@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-soap-bypass",
+      "path": "webapp-api-soap-bypass",
+      "description": "- SoapUI Web Service Hacking: https://www.soapui.org/docs/soap-and-wsdl/tips-and-tricks/web-service-hacking/ - PortSwigger XXE Tutorial: https://portswigger.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cdf377d9e5774caaab223945b770478b80ecb3ba45d7064a9e33ad54cabc284204742dc65f18b4213233dfcec369fc0bbf953d3865ae9b333f0c0b2230d1bea9",
+      "file": "skills/webapp-api-soap-bypass/SKILL.md"
+    }
+  ]
+}

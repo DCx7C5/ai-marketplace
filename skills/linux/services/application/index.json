@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "4cc041c5a3661e195ebaeaf8516b8999aa775f002c37491689e4bf64e7eaf3020b06fb6522c96e46d5c8059dd3e8b6f56dcd1fbbcc88f1231c73fdf9e29aafe2",
+      "file": "skills/linux/services/application/exploit/index.json"
+    }
+  ]
+}

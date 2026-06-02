@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ntfs-prefetch-parse",
+      "path": "linux-fs-ntfs-prefetch-parse",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "229f5accdeb12c5710bfdb2ac054410da1255bae76d09df8e8746a9ebda7dbca8a12b5672f699e1bba9c3a0322778119d7fdffbba8dd1474ef58d9c07f1150a9",
+      "file": "skills/linux-fs-ntfs-prefetch-parse/SKILL.md"
+    }
+  ]
+}

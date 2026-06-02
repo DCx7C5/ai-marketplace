@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "application",
+      "description": "skill directory index",
+      "sha512": "cfe2ae840ed60f6f4068ec62b9e3f3d7f9b2364116c297935ebb75763cd2fe69e70e87970a485a8032dcbef6cebc71b245dd9da9b925bb9d26758affb061394b",
+      "file": "skills/linux/services/application/index.json"
+    },
+    {
+      "name": "at",
+      "description": "skill directory index",
+      "sha512": "804e2bd7525438bfbcca0f748285eb9467dc338c0ab108b6f3a66a242103a0d91535e9e235bd2b3a577899f2c9ed4aca888fc887774b886274ff4a9e8040765d",
+      "file": "skills/linux/services/at/index.json"
+    },
+    {
+      "name": "cron",
+      "description": "skill directory index",
+      "sha512": "d605336a869a879f338073dbb8d82ff695844a722e8051a484945aa362b93734ab28ccc4b970bbaad85a42233f750569016ace84020f8582782be1e1218418d4",
+      "file": "skills/linux/services/cron/index.json"
+    },
+    {
+      "name": "dbus",
+      "description": "skill directory index",
+      "sha512": "46cc99297b63dc42ad836af44815137453504f20a5df776401f9f9a9c0ca622fe0f3122499ead078f6ad98b700174e69904c35645d4dca85ad8bdf45c8b4c3bd",
+      "file": "skills/linux/services/dbus/index.json"
+    },
+    {
+      "name": "logrotate",
+      "description": "skill directory index",
+      "sha512": "d08fe4ea3b57de3075d0adc94504b6fdfc20dd8687524337c7131a55ba64fd28176a38624c8ce8409476c90b8cbf130855ce5ac8ee44462afcb254954905c102",
+      "file": "skills/linux/services/logrotate/index.json"
+    },
+    {
+      "name": "motd",
+      "description": "skill directory index",
+      "sha512": "bbad2bab3f572298b23f21309ee49c70e05e8a67232aea3933111de4871ab4d01d85abdc352c0eddad3d93da0c47b86ddfed936ea7ab206bf63b1f6b313eae71",
+      "file": "skills/linux/services/motd/index.json"
+    },
+    {
+      "name": "persistence",
+      "description": "skill directory index",
+      "sha512": "3342e788cd560d4506e96367d2f26611dd5c06a255f8f7a703ffcb88b60bb403d5d5c136fb1add63135e21445c841e792427750eb4d476514f52b7228ca78a24",
+      "file": "skills/linux/services/persistence/index.json"
+    },
+    {
+      "name": "rc-local",
+      "description": "skill directory index",
+      "sha512": "66760cfed9aa11cb388c8ab517323c64bc95b3ad625af8fb0826ada0df6a3ae57925b496db1def219759fb8c901d96ea770ba3c8afb4f1d707ecc8ea94b66c9f",
+      "file": "skills/linux/services/rc-local/index.json"
+    },
+    {
+      "name": "systemd",
+      "description": "skill directory index",
+      "sha512": "038b7a20b3bdb8425bcb3f596f05ba37ad889a7e6187bea943e8dc2f46d5a6676870483af93d4a43c9a76f2459aa7f503a6d9c9a93a9457cd17a7996e7deef31",
+      "file": "skills/linux/services/systemd/index.json"
+    },
+    {
+      "name": "udev",
+      "description": "skill directory index",
+      "sha512": "01118eb9f73b799f4b1dd16bcbbe3fe771ad599c9d55c5fd3e6d031a401bb9f57d824ba4fbef1e36eff6ff0cd099779400e1e1583242019a5295c73daa3d5c7f",
+      "file": "skills/linux/services/udev/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "anomaly",
+      "description": "skill directory index",
+      "sha512": "f0e1f797873e1f6d2694934f529361864a24cc7e4ebb00f4885c410b825d0e5eb1fc84d9dc3f7730edd5472543d6cd1b9349f4b27c22ae47900a987f60e8a866",
+      "file": "skills/industrial/ics/detection/anomaly/index.json"
+    }
+  ]
+}

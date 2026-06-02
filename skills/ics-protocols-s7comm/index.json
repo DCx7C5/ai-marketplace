@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-protocols-s7comm",
+      "path": "ics-protocols-s7comm",
+      "description": "Ics Ics Protocols S7Comm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "395b7eaa7eeaf837189f25e430101a9f6229f68f078754a65a51911badbd5ba7db451e26f504dbe571fe527f7632a708312edbfad0c1e09e219588fdd4fad998",
+      "file": "skills/ics-protocols-s7comm/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "11b9f1e6f9137bf5aa3e745c10918fa6087950ad836ecc591afe085f3f403701ca1414a84ebbec7b68d6545bfe052daa2b3229a1329885f5872b2d81f228bd24",
+      "file": "skills/ics-protocols-s7comm/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "26fa4f70fbbbe3391ff4908d4f820f19506b0fae47bd5278325ec6d78a9804823446ebfe7698cda7f2b21e541318459e7ad6e128b6b8ca42c7bd5cb6c4228108",
+      "file": "skills/ics-protocols-s7comm/scripts/index.json"
+    }
+  ]
+}

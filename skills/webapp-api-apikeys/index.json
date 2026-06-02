@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-apikeys",
+      "path": "webapp-api-apikeys",
+      "description": "Webapp Api Apikeys.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "21ed3ed9ede1b2bc37cc82a16a90eade318c5dfad1b1bcc15d58b3b10e6bb88e6481baee359e3fbb7374a01e5755ed5b38cf2dd4fd8ea5baa81fcef9da532d4d",
+      "file": "skills/webapp-api-apikeys/SKILL.md"
+    }
+  ]
+}

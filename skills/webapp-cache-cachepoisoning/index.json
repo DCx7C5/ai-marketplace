@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-cache-cachepoisoning",
+      "path": "webapp-cache-cachepoisoning",
+      "description": "-| | CDN/Cache | Cloudflare | | Cache-Control | max-age=3600, public | | Unkeyed Headers | X-Forwarded-Host, X-Forwarded-Proto | | Affected Pages | All HTML pages (/*.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "65442c72ca2f2b85ce1d7a6a619fbb411756cb26c6f223586bb4053e6fbb8e6f77b789f46c639aa5a8f07a02eb4d906604ce24c35200f18a4fec547392c9bf5b",
+      "file": "skills/webapp-cache-cachepoisoning/SKILL.md"
+    }
+  ]
+}

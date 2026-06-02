@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "18a609fb4a6681ac062184c34ae873d1f2c280a7809e8abdf5062b226f6ed9841dd6fcdb97fd999c9e159831fc2aee84b6e8964e72d9f5533de0c41f11ca03dd",
+      "file": "skills/network/dns/typosquatting/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6987f231046883b427af3560c46436d9e61b7b5c3f957717c7db7ada150de55401f84a6536647ff8282c8e7c5bd6eda0a31515825b42a838cc098b39e095b1c4",
+      "file": "skills/network/dns/typosquatting/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "a985c4fd131dfd997e5fee05f6fd887c6559cd1ec4e8a09f4b9f0690618b92225bbaf74db8592f115b952b1392a5658f5ccd973a72aa8ed0ece47dec4a5cf6df",
+      "file": "skills/network/dns/typosquatting/scripts/index.json"
+    }
+  ]
+}

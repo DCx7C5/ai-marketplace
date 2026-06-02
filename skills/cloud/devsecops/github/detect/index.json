@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devsecops-github-detect",
+      "path": "cloud/devsecops/github/detect",
+      "description": "Configure GitHub Advanced Security with CodeQL to perform automated static analysis and vulnerability detection across repositories at enterprise scale.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b06d119934621c7cfe1ba33357ea65d7cfed21786aedcc69a3e956dcb95bcf8817637207141626bfcb3e36db6c9ca3cec5a8def28a487f3185b23667532cd0f9",
+      "file": "skills/cloud/devsecops/github/detect/SKILL.md"
+    }
+  ]
+}

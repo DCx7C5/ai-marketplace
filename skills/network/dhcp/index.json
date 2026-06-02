@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rogue-server",
+      "description": "skill directory index",
+      "sha512": "ae84ec554fc2f283d406097003eb8ac1b233dd0b345323de0367e5240857ab2b50ba73a2eae476a13c927598ce028211bd803c1f430a02c152f65fd95b2202ba",
+      "file": "skills/network/dhcp/rogue-server/index.json"
+    },
+    {
+      "name": "starvation",
+      "description": "skill directory index",
+      "sha512": "a4fac8bca2ad6f550db750e88186baa27cf65b442f596ae7acce4e2aa2883187d7086dacd58cf5bc1ef44d208b6c0918331aa518bc234c686723c28baba56df9",
+      "file": "skills/network/dhcp/starvation/index.json"
+    }
+  ]
+}

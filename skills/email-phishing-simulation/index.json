@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-simulation",
+      "path": "email-phishing-simulation",
+      "description": "-| | Finance    | 120       | 38.3%   | 28.3%     | 0.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e844328d9287a5a4e0cae6db24b32557796ef01c20f4975d70b214b1f628bce561fed71e4d8c067509693c3ea76a94e4590ea3ef39bdbf9d552f77047d8472ce",
+      "file": "skills/email-phishing-simulation/SKILL.md"
+    }
+  ]
+}

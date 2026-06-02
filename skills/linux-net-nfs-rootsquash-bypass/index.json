@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-nfs-rootsquash-bypass",
+      "path": "linux-net-nfs-rootsquash-bypass",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fbd5d4068e188210f492319aced20cd1052e7eb444357202f3725594a02a6f5ba0b29b5aaca5e82befa64367f6fb159e4146ea4f15fa5a4907c9119d07b9c799",
+      "file": "skills/linux-net-nfs-rootsquash-bypass/SKILL.md"
+    }
+  ]
+}

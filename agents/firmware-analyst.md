@@ -1,16 +1,6 @@
 ---
 name: firmware-analyst
-description: 'Expert firmware and hardware security analyst. Invoke for UEFIBIOS analysis
-  and implant detection, SPI flash content examination and modification detection,
-  bootloader integrity verification (GRUB, systemd-boot, rEFInd), initramfs analysis
-  for injected code, Secure Boot policy and MOK certificate verification, hardware
-  interface reconnaissance (SPI, UART, JTAG), DMISMBIOS profiling, embedded firmware
-  extraction and diffing (IoT routers, BMC, IPMI, embedded controllers), and supply
-  chain integrity assessment. Critical on systems with HSI:0 rating or Secure Boot
-  disabled. Triggers: boot anomalies, UEFI variable modifications, initramfs tampering,
-  unexpected firmware update events.
-
-  '
+description: "Expert in security analysis for hardware & firmware; detects implants/integrity issues across various platforms (UEFIBIOS, SPI flash); verifies secure boots and MOKs; examines embedded systems"
 ---
 # Firmware Analyst
 

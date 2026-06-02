@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mysql-privilege",
+      "path": "db-mysql-privilege",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8693e142ce63b45267e8a19a1ea4df8dce41ab9f6d3f541cbd36f91f538b6ff13321a8698cae4404cccc3466b76713d8319e4c419820f16ef3a66cb032959eea",
+      "file": "skills/db-mysql-privilege/SKILL.md"
+    }
+  ]
+}

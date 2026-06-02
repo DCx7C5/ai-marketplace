@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "98422f0da20e0ea7fbe6a5fb615c0853842b4b5cd3098474671a2ea511c3776dd7b657ae2e5c769e59c7722acbc9ee861f0ba53ad2af6cf7b7337203a022eeb0",
+      "file": "skills/cloud/zerotrust/zscaler/zia/analyze/index.json"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-bypass",
+      "path": "webapp-api-bypass",
+      "description": "Webapp Api Bypass.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "51248a31876540c1b4253c7f9d48e02335aec84276b5594cb967e760e930cd1205b3ac1e27553926f6a46800ffc967729acc8bc76f744d55646a5e7ecef0b5a7",
+      "file": "skills/webapp-api-bypass/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3d8c3da032bbb07f4df1992d79d4226de5e134aae81fe5472fd95baefd25249a81d6d8541526cd68b83758db56d99c010d0116027c356156c7c2ea7a19b17bc6",
+      "file": "skills/webapp-api-bypass/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f3b57318bc58ab7dd6b4390f274122ddbf0015f84b05bab0badef8b10e3cabac6ab8bbf4faf7cc870a755ef7132c7567b68e3f792f3a2e6bf48dc40f568cbe3d",
+      "file": "skills/webapp-api-bypass/scripts/index.json"
+    }
+  ]
+}

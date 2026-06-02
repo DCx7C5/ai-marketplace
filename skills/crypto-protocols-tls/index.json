@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-protocols-tls",
+      "path": "crypto-protocols-tls",
+      "description": "| | TLS_AES_256_GCM_SHA384 | ECDHE/DHE | Certificate | AES-256-GCM | SHA-384 | | TLS_AES_128_GCM_SHA256 | ECDHE/DHE | Certificate | AES-128-GCM | SHA-256 | | TLS_CHACHA20_POLY1305_SHA256 | ECDHE/DHE |",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "26b81c64d772c36999810aa3404eb4d14eeab6895e298bfdfaadbad2d27333acafbc4c323081e100a00b8b091c88634af3f140db6b6bafb3307145f1e299c784",
+      "file": "skills/crypto-protocols-tls/SKILL.md"
+    }
+  ]
+}

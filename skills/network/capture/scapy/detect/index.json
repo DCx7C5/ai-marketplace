@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-scapy-detect",
+      "path": "network/capture/scapy/detect",
+      "description": "Craft, send, sniff, and dissect network packets using Scapy for protocol analysis, network reconnaissance, and traffic anomaly detection in authorized security testing",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ff48d3b9df6935f17ce7b8759e3bc6882f7397ec572f931f5a7847c284e650fd4d48047e98313e240c8b6bdcf5def8a69fefb8e5e1884ec5eb8298c5ed24cf58",
+      "file": "skills/network/capture/scapy/detect/SKILL.md"
+    }
+  ]
+}

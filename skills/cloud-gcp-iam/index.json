@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-gcp-iam",
+      "path": "cloud-gcp-iam",
+      "description": "Cloud Gcp Iam.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "01662ed211f415f0fcbdc2c6335f97510fb88c78a02808f1307edd4e9804148bac9dd6d75c7b5c9dd06e7282d6270e97a110d3a302280934afd66ffdae932b9b",
+      "file": "skills/cloud-gcp-iam/SKILL.md"
+    }
+  ]
+}

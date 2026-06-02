@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-browserisolation",
+      "path": "cloud-zerotrust-browserisolation",
+      "description": "engine = BrowserIsolationPolicyEngine()  report = engine.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "71a888601500288d9e564f0929f00f90ea9847bb9bd921e72e1fc0bbb7200957a96e40144adc9f335750590c3309f20cbb2e35d469003f984a608e53df1c1527",
+      "file": "skills/cloud-zerotrust-browserisolation/SKILL.md"
+    }
+  ]
+}

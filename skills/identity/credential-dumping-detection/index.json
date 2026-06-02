@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "38ffc41a0c35010b51478fa559544d6831a0bea22f5fe2f522cecf832332193f4f6d4fcce2a488e6bbfec8473b6fbeaab66923b14b36285e351cd70258df5a3f",
+      "file": "skills/identity/credential-dumping-detection/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ce668a679f3f6bc678e0c603090d31601a2f5c38324b44dfd1b445ee38e35602459e55b6dc20abaccb253cefb6022a0ded3039bc295b917ede6edbc1a4db808f",
+      "file": "skills/identity/credential-dumping-detection/scripts/index.json"
+    }
+  ]
+}

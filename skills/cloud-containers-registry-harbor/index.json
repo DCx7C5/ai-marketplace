@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-registry-harbor",
+      "path": "cloud-containers-registry-harbor",
+      "description": "- [Harbor Security Best Practices](https://goharbor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1f858596322da00a5e3c79608c9164df520d44d0accd5f65573d6270daf3a0b0bd62483b0fb43097ab55483487680c87d64bf8d7e867bdb7ea210e2c20e3688e",
+      "file": "skills/cloud-containers-registry-harbor/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-sw-browser-artifact-forensics-forensic",
+      "path": "linux-sw-browser-artifact-forensics-forensic",
+      "description": "Linux Sw Browser Artifact Forensics Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "00c16bc9e77150460f2ad9d52f100ce6cd605e8dda1e2c1eaee1b590c033a9e7316008340f39c8c2441fc1d2e09ea4acda5054540ced23bd24a4c287982af9d2",
+      "file": "skills/linux-sw-browser-artifact-forensics-forensic/SKILL.md"
+    }
+  ]
+}

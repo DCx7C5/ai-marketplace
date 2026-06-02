@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "execute",
+      "description": "skill directory index",
+      "sha512": "6e9951807ce720bf2a6da473d146fa66dace5d02b7aab959f576960fe688ac113d222c5df7885abbfc09cbe119b1ca2ef8b3f9b4ebd8882da78014237ce0812e",
+      "file": "skills/steganography/tool/zsteg/execute/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-cloudflare-audit",
+      "path": "cloud/zerotrust/cloudflare/audit",
+      "description": "Deploying Cloudflare Access with Cloudflare Tunnel to provide zero trust access to self-hosted and private applications, configuring identity-aware access policies, device posture checks, and WARP cli",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "35dbfa15b613853df262efc62ac7a17ece9fa818e55ef83d137f2e1fe50d4a6eda3bd8d4c1adbe6f1b1bee6bdccc4903e212b89e42c949d255a75222fea71d2a",
+      "file": "skills/cloud/zerotrust/cloudflare/audit/SKILL.md"
+    }
+  ]
+}

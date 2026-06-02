@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "elastic",
+      "description": "skill directory index",
+      "sha512": "312b8b6db95597609098f856a56c980150170ef561665ed772194ccb720b394efacb74c77a1cb3b645b256ee1a11c6473f92d8dac1ee7eb302b4f48556a521f7",
+      "file": "skills/soc/triage/elastic/index.json"
+    },
+    {
+      "name": "playbook",
+      "description": "skill directory index",
+      "sha512": "220582aa35a99bca6b808262b349ae187f4f53ee79fd055fb281f840398d254ac2c241d9432c903724fef82c75520da1db2cd60cfb8519f8db040a00444be6b3",
+      "file": "skills/soc/triage/playbook/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "63e77454e8d0824a11ec6434b558988ff50add20ebadf3ec81d2c1325fe6aea807fad4f4be7b8cc9dcc26619d7d09c6175b61c10d82fb3f50be4cf97b69fa45b",
+      "file": "skills/soc/triage/security/index.json"
+    },
+    {
+      "name": "splunk",
+      "description": "skill directory index",
+      "sha512": "6ce2d1c03980870e8c8d708b1970ee7bc724242c0d29a4891fb1f3962f6c495593daf2ce36c5b6f4f3f90c2e0482b5b9b7a9500d661fe6c76e3fe3d27a80fd2c",
+      "file": "skills/soc/triage/splunk/index.json"
+    },
+    {
+      "name": "web",
+      "description": "skill directory index",
+      "sha512": "4e8117f38ef8c7965c22814208321b5821b1378eeacf3d731af3e40e88bb473f3f815ac3f44bd37aa5d40b9c4b483b7375c2a60bbb460007a99829c5f3dc4b4d",
+      "file": "skills/soc/triage/web/index.json"
+    }
+  ]
+}

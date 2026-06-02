@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-shell-environment-variable-audit",
+      "path": "linux-shell-environment-variable-audit",
+      "description": "subdomain: process-security tags: - linux - environment - variable - audit - security nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f114cdda86928cc0bfd812b7c613f0b1b14d506f4e3ddfa7b39a80e41bd318d5f95b1006a081cc842bf0056cc723927615c7f88ef661a8245749fa401b4b057",
+      "file": "skills/linux-shell-environment-variable-audit/SKILL.md"
+    }
+  ]
+}

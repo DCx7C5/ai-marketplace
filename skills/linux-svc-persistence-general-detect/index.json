@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-persistence-general-detect",
+      "path": "linux-svc-persistence-general-detect",
+      "description": "7. Always cross-validate with @kernel-analyst for LKM/eBPF findings 8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c81562828d3f96c97989db4d23552f46b514b822f27155cbcca029626341d212666f079905e1df410f5cf1cc6f982a08c7793a399053518b185f5a6d65a60f30",
+      "file": "skills/linux-svc-persistence-general-detect/SKILL.md"
+    }
+  ]
+}

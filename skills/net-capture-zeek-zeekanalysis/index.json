@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-zeekanalysis",
+      "path": "net-capture-zeek-zeekanalysis",
+      "description": "-| | `conn.log` | TCP/UDP/ICMP connection summaries with duration, bytes, state | | `dns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "de939e609c6b89396c27b851135d963a17cba14fbb3bc9e3c165e014902e0a5980e2e0a56c13a7a1ff06df3c2f3cc251b1e8018d15f8839ed6c35d3152effe2c",
+      "file": "skills/net-capture-zeek-zeekanalysis/SKILL.md"
+    }
+  ]
+}

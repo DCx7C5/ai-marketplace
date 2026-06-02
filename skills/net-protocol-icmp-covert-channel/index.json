@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-icmp-covert-channel",
+      "path": "net-protocol-icmp-covert-channel",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cfd0cd3f335ee4623c827da20f390a81f2c6022b7f249e27102fa5542180ee392835e4c6c1f03dee94d759e19eabef3c599333655af99e0e3b48134db2c7d23b",
+      "file": "skills/net-protocol-icmp-covert-channel/SKILL.md"
+    }
+  ]
+}

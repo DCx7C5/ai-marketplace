@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f1e82576d933f36d97dbdd47082f6edbc4af04ed06c30f93fc4599c4c4572e5d6ccb57d24061071c33eaa187a32e3d2549cc8f4bd542dfe7e739eeaa6434a874",
+      "file": "skills/network/dns/dnstwist/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "de4611658c7709ea200de16c5b9ae81d7884285b051e28357606936f2f6999d443c4b6b34d2e61d3d6d5367e833e41df70b9d86976cb067aa8e0c46895bad476",
+      "file": "skills/network/dns/dnstwist/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c49b5ad52b3e135b40a41b7d89ead1ef73862d9dc8eee6dce968446631b2ffa544593dde9a9cfb762741194ded001a57c296aa3ad7fa67d6ac119edb95c304b9",
+      "file": "skills/network/dns/dnstwist/scripts/index.json"
+    }
+  ]
+}

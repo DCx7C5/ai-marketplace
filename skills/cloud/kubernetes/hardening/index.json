@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes",
+      "description": "skill directory index",
+      "sha512": "319272d79c5cfce9dc4cbba52dc891532584308a4c17be6d61ad622aa0602013ec075e0abcdef0f4ef828c14c1591a8a519b44fc6977b2af8d5df91020d8bdd7",
+      "file": "skills/cloud/kubernetes/hardening/kubernetes/index.json"
+    },
+    {
+      "name": "kubesecmanifest",
+      "description": "skill directory index",
+      "sha512": "5f73ed366cb95011da97fccec1f0ac5f158c287793839699e7c4e8b20175a2ee0c315f30950cabb4c2dfb239e84516027572988d4bc38e5fb77c068f2497521d",
+      "file": "skills/cloud/kubernetes/hardening/kubesecmanifest/index.json"
+    },
+    {
+      "name": "podsecurity",
+      "description": "skill directory index",
+      "sha512": "f5621e7f6f20368a5b32bd1b18f272922e844a2da70ebe4913bd8727e5274dca22d572602a60d5b96638a177f2a66a4cdea8efc8d2518197e01088ab60222f5b",
+      "file": "skills/cloud/kubernetes/hardening/podsecurity/index.json"
+    },
+    {
+      "name": "rbacharden",
+      "description": "skill directory index",
+      "sha512": "b9f3f94bea0754f057aa855b575c2a668bb1b866ef21de8b916e03ad310a2f4eed495df5bb56f633fb9af3e3a730726900f11a0077d2aef38ecd36c5662fb0e0",
+      "file": "skills/cloud/kubernetes/hardening/rbacharden/index.json"
+    }
+  ]
+}

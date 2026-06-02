@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "1fa197842b1f19d1cb824f7560c36e148cd6553bccae6669ebab71465ab58115c058c20aad7f5ad6ceec088fa5ea3d69155d39fa750de5f921ed0d3dcad3c237",
+      "file": "skills/compliance/iso/assets/index.json"
+    },
+    {
+      "name": "framework",
+      "description": "skill directory index",
+      "sha512": "da7c8d4437df1c87f76355bd76b23d12b5db40d58a48fec8b768c3bc0c6d51da0eb10a55ccfd6337ae85aa8031525ca5f85912f2ac6b8e1c9194449a16325325",
+      "file": "skills/compliance/iso/framework/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "cd8fc4490d898134b096f64ec430aa3c611a5c4418c813c1a8ac337d58ff584a2c90ed97f1a3d589c6908337f7862a15e3f01b71d88e138bda2f06e9153ea456",
+      "file": "skills/compliance/iso/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6517972856c9cb341384fc6f2924542d18ceee267ee1ca955f05ad2ec9c7a0b21a9fddbb831786cf8c12e0b20ec0537431f4910fdb8b8c4545425199ad5d0947",
+      "file": "skills/compliance/iso/scripts/index.json"
+    }
+  ]
+}

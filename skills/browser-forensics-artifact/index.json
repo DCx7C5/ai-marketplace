@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-forensics-artifact",
+      "path": "browser-forensics-artifact",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b37e874447296f5c6f810a4d1126993e7e1ef2f8659aa474eea6e00aaf77b1c538ff658429aee866ac786025e7e101710da36bf5fa0e096eca6c56bf1969a823",
+      "file": "skills/browser-forensics-artifact/SKILL.md"
+    }
+  ]
+}

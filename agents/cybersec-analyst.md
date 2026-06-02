@@ -1,9 +1,6 @@
 ---
 name: cybersec-analyst
-description: 'CVE lookup, IOC analysis, MITRE ATT&CK mapping, threat intelligence
-  correlation. Invoke for: CVE details/CVSS, IOC enrichment (IP/domain/hash/URL),
-  MITRE technique lookups, APT attribution, threat intel feed queries, MISP/OpenCTI
-  correlation. Triggers: CVE-YYYY-NNNNN, IOC discovery, technique T1xxx.'
+description: "CVE lookup & analysis; enrich IPs/domains/hashes/URLs with details/CVSS scores and MITRE ATT&CK mappings for APT attribution or threat intel queries using MISP/OpenCTI correlation. Triggers: CVE-YYYY-NNNNN,"
 ---
 # CyberSec Analyst — CVE, IOC & MITRE ATT&CK Specialist
 

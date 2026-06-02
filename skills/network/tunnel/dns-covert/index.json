@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "e68dce6942ef256b0f5f746e0ff156eef9301b5460a65de3881a8207a612985ba98c95443c5b066880d4dcc85dcfa68cdd801cbacf757eddf02ca2b49ccd9912",
+      "file": "skills/network/tunnel/dns-covert/detect/index.json"
+    }
+  ]
+}

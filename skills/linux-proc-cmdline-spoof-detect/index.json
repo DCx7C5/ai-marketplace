@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-cmdline-spoof-detect",
+      "path": "linux-proc-cmdline-spoof-detect",
+      "description": "subdomain: process-forensics tags: - linux - proc - cmdline - spoof - masquerade nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "309f6dddaa7dc9114dbf4a8a3354fc573a88a7a737fb3a84274ad29b0d7ce230c753cc3d9241b0645c7098a1d1cb5aefff194afc876c5997d012b0ab96dc74b4",
+      "file": "skills/linux-proc-cmdline-spoof-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers",
+      "description": "skill directory index",
+      "sha512": "557bc8cdbe8d7d00c4fd66a3022703d2c5c8efaa1e3d4770b2842821b08c0e752602b6c1505dce41bca7f53be39ecd1a1dd8aabca30ef48118505232690a9008",
+      "file": "skills/linux/containers/index.json"
+    },
+    {
+      "name": "filesystem",
+      "description": "skill directory index",
+      "sha512": "c0ba3a45e0767e63049ab4b631ef3ebfaad88441b6638f17682a3c838e27d0eaf13219fcc5f28680b8451dd157766d257fd31b0d698e02f81f6c41fab60176d5",
+      "file": "skills/linux/filesystem/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "2a62b771b0aa3928ef296c909845dbee7912293f0e6fd35584ce921a34cd164d7a89ed5f6ea3c27ed9c0e9c03fda6f5e7e9836162a470f81d956b6a9eaa34e97",
+      "file": "skills/linux/forensics/index.json"
+    },
+    {
+      "name": "hardening",
+      "description": "skill directory index",
+      "sha512": "3b767d5b7a8bb6b5c85cd42933fd4709ef69e4d41590d34ee9eae717f9842a80229187eff451d205f98a1e5a318b088c51640c084fc69f19fbe753761fd2e340",
+      "file": "skills/linux/hardening/index.json"
+    },
+    {
+      "name": "hardware",
+      "description": "skill directory index",
+      "sha512": "b4089c360f9aa0ece2660acebaccfcf0a6658428ab0b7669d7c0f49944e43b2e606022e887e9c6b26e3dccaad9a24ec1d4b7701ebc859ae30e24c98b046ec4c5",
+      "file": "skills/linux/hardware/index.json"
+    },
+    {
+      "name": "identity",
+      "description": "skill directory index",
+      "sha512": "27c9ee862d5cce08b18890ddce8cfb547f1e8a5b88dde6a6ad8aa3152972f2f598cfdb9c10da95dd41419e1df5e6aae21fe458840eeb4be5f948a73173a23650",
+      "file": "skills/linux/identity/index.json"
+    },
+    {
+      "name": "kernel",
+      "description": "skill directory index",
+      "sha512": "c485f055977119aa867b90c67531bac99a173b0437bd004358fcadc1ee993e0c45bfc08d07166aa9c2b88b7d0438a636d26c77742da29571af4b9a7497686538",
+      "file": "skills/linux/kernel/index.json"
+    },
+    {
+      "name": "logging",
+      "description": "skill directory index",
+      "sha512": "b98ea4dbaa87dd2ccceece771b67f73e5d2e13e3604c5df521cbd7f4e4415dc3f014ed83d63ae253541d01799a1d31ef335138c8150e908d405f163bfc0ab24c",
+      "file": "skills/linux/logging/index.json"
+    },
+    {
+      "name": "logs",
+      "description": "skill directory index",
+      "sha512": "bfe2144ef118da63b6d679ed65fdeb672a150c0f2fd746aedfd997011d50becfb2219a35b5b91788e20aa15fa8193a78e0c4e5c35d4ca056bfe49f15a5cdd47c",
+      "file": "skills/linux/logs/index.json"
+    },
+    {
+      "name": "memory",
+      "description": "skill directory index",
+      "sha512": "ff9882002cd54d4ffba60dbe42d39aecb977343156fad66d40b16e6ad1dbaeee17bf2cdc2e1c13bc6542c7104f6f112dc5768c1c0f58f8328b801e2c55ed7d40",
+      "file": "skills/linux/memory/index.json"
+    },
+    {
+      "name": "network-services",
+      "description": "skill directory index",
+      "sha512": "33f1bf1f23e3cf049f119450456af9f4fba0bfdda5d32ec3c7fb428bc92cac3f66080db83756198f147fafc458af3a6d4d40721177da3dd09e2d0f246d8891b9",
+      "file": "skills/linux/network-services/index.json"
+    },
+    {
+      "name": "processes",
+      "description": "skill directory index",
+      "sha512": "cb4eb0502f05399c8d963a42c9d1986e8f0390fbc363aca1dd487402b26626d0594dad024cb08ecf724797f5b41fb13f8cfd244b69aa8af47cd6cc50147c1474",
+      "file": "skills/linux/processes/index.json"
+    },
+    {
+      "name": "services",
+      "description": "skill directory index",
+      "sha512": "6001ed96074b8af16522e7d102636350e538cfd6de9cfaeac2fa645ee9824972c1373d619c28cbaeb3ed42fa387c123b33ea694920f16a9cb36addf95571bb2e",
+      "file": "skills/linux/services/index.json"
+    },
+    {
+      "name": "shell",
+      "description": "skill directory index",
+      "sha512": "37b354d594d8de07f76cedc4ff630460ce3679e6392bca61730d975a7989663cb609ef404e3e5a5d92c829f86b49c675e4ae7c03b563db5abd76549aca7e99d0",
+      "file": "skills/linux/shell/index.json"
+    },
+    {
+      "name": "software",
+      "description": "skill directory index",
+      "sha512": "807f20eaef7d9a03bfc95d388efaf7110ca5ccea0545c6cefd1266b95ca7743ef97bae01c8da01d8b60a45fc2a70ba0dd16ed19eaada0cc781cd7c867a7b09e6",
+      "file": "skills/linux/software/index.json"
+    },
+    {
+      "name": "supply-chain",
+      "description": "skill directory index",
+      "sha512": "4642e71eb7a427b921d291bd748a30995d8ac480562d8e66092f40d4249ab9c52bee71924c2474264b9d8c9e7fdb162ce9c91f8a294354a158f1a5f7d8a9847d",
+      "file": "skills/linux/supply-chain/index.json"
+    }
+  ]
+}

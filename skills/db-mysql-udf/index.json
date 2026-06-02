@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mysql-udf",
+      "path": "db-mysql-udf",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2db6ab92972001c081e975364c618dc4ec6a366b73adec0efe462cc38f6b11057be6df29b267fe91b4d04720ff0773a4c632217b8696e9e4e1fe64fe663bddb9",
+      "file": "skills/db-mysql-udf/SKILL.md"
+    }
+  ]
+}

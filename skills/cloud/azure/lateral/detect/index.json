@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-lateral-detect",
+      "path": "cloud/azure/lateral/detect",
+      "description": "Detect lateral movement in Azure AD/Entra ID environments using Microsoft Graph API audit logs, Azure Sentinel KQL hunting queries, and sign-in anomaly correlation to identify privilege escalation, to",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6a9de867ee2f83861acfc084d23a6a07b97ad8a402f4eb95564a4fb119553273dd11a974d41eb34736a5b43a99f626333d5a48d5fb0669d6d94e32a8a33a0545",
+      "file": "skills/cloud/azure/lateral/detect/SKILL.md"
+    }
+  ]
+}

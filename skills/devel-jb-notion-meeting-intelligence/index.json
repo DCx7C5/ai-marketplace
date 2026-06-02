@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-notion-meeting-intelligence",
+      "path": "devel-jb-notion-meeting-intelligence",
+      "description": "- `examples/` \u2014 end-to-end meeting preps (e.g., `executive-review.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef6732d760bd9812d471e9191286118d309eecb49b946802f7b19a243869b5b628539635ca960039f4261621d74b259cc99518cad63fdf601f272400450565e3",
+      "file": "skills/devel-jb-notion-meeting-intelligence/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "af1c22e9f674bcc9d8e1f63f5f06c44ad031d0358c75621ddde5180cbbf085d7f80397cf75d2f94a8f561d06ab755708a784fb4026819268d7c087e34b6cd233",
+      "file": "skills/devel-jb-notion-meeting-intelligence/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "4d747a6dd2e28dc3c8dd3989b0c4fba6a37429598ae9b68ee80e33cf78d052e4bede19e0a38db9d1fe2b2f345451c062503656e492eff3d3342c06368b20105a",
+      "file": "skills/devel-jb-notion-meeting-intelligence/assets/index.json"
+    },
+    {
+      "name": "evaluations",
+      "description": "skill directory index",
+      "sha512": "16e510e330c2b1c086f2b15cab155c31709489e703b88a2ec9e081c22d819a4964919f40eb3a504fc230f1d4aed652a6336f9c201bf3c0f2718997545bcd7f00",
+      "file": "skills/devel-jb-notion-meeting-intelligence/evaluations/index.json"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "abba2e83fb9af212e698f4a4db3a2c8ed34714f51405a6ab8b44138cd67dc2c1524cc93c310b5be596cd8aecc01b8e386584b3b65abca3a6144cdf1cb8f7842a",
+      "file": "skills/devel-jb-notion-meeting-intelligence/examples/index.json"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "839f9da2aaabf21e3067de81d6da87eb9e288c5731e8bfafc59d21ed864c75c0cb272818014af9dbc43b773e415b49c61bde2682c0c6044132d166f790342409",
+      "file": "skills/devel-jb-notion-meeting-intelligence/reference/index.json"
+    }
+  ]
+}

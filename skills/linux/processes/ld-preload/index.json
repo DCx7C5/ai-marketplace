@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hijack",
+      "description": "skill directory index",
+      "sha512": "0a2ef4c2f17d6207fb8deef5fbb881a014594001ff277015683b3db43052a10ddc799ada1915b00cbc57d557ee6bf8ba0328b0d3317f37e2442f30e6a5d9ac2d",
+      "file": "skills/linux/processes/ld-preload/hijack/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-analytics-anomalous",
+      "path": "identity-analytics-anomalous",
+      "description": "Identity Analytics Anomalous.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "35d54d3e14689b249cb2ce8d93f7bf0112b6a93acc04d25b826c263a16279aa04969fa9d4c53c5aefcf64ed89e70fdecec06007f063a1a54ac4d46149d5176e1",
+      "file": "skills/identity-analytics-anomalous/SKILL.md"
+    }
+  ]
+}

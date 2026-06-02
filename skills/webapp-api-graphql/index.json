@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-graphql",
+      "path": "webapp-api-graphql",
+      "description": "- PortSwigger GraphQL Vulnerabilities: https://portswigger.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1169ea3c6457f2bb4952435db236a1c9e80cf9d9d907df31e8043158b8a634b3308402003c1e98ed36bb4d05967955ed661fb04d582077e6cd5ae28037ea0d9b",
+      "file": "skills/webapp-api-graphql/SKILL.md"
+    }
+  ]
+}

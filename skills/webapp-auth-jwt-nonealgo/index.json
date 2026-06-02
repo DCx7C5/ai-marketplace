@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-jwt-nonealgo",
+      "path": "webapp-auth-jwt-nonealgo",
+      "description": "- Invicti JWT Signature Bypass: https://www.invicti.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b86c83e39c752cd555b7ee11d271b297ce68df99212d9892f677be5a9ce83148b623d3a2939180623e8087a49e758e3d9d750b127071099e855aa6f7c863b498",
+      "file": "skills/webapp-auth-jwt-nonealgo/SKILL.md"
+    }
+  ]
+}

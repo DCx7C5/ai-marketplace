@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-restler",
+      "path": "webapp-api-restler",
+      "description": "-| | 500 Internal Server Error | 12 | High | | Use After Free | 3 | Critical | | Namespace Rule Violation | 5 | Critical | | Information Leakage | 8 | Medium | | Resource Leak | 4 | Low |  ### Critica",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "247bf6fc16f1eb1301509fc1653e48a0ad938b52289c1471d68770e8f0c4e074cff6461d5749dff1271c4df928e1b9c42cf11e69813b5d070d340ed71e8804a2",
+      "file": "skills/webapp-api-restler/SKILL.md"
+    }
+  ]
+}

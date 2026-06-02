@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-bac",
+      "path": "webapp-auth-bac",
+      "description": "Webapp Auth Bac.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9cc57567653ea41aff6fa7bb5e0b6e754910d8a60403a8bc316b034e443ca201c510eb4bd2f06acc1dc9b831e9ec995d52a30c67ac50f4a8fd2bfc6082425210",
+      "file": "skills/webapp-auth-bac/SKILL.md"
+    }
+  ]
+}

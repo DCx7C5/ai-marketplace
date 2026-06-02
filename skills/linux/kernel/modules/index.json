@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "blacklist",
+      "description": "skill directory index",
+      "sha512": "4194704fa6343d6dae36ad56d57538ea5b45384ae32e8618f015d5815174e4b8b3bfb628c92087cafc6a00c5f2917dcc903182a5424c4231cb67a0606e7d1bfe",
+      "file": "skills/linux/kernel/modules/blacklist/index.json"
+    },
+    {
+      "name": "lkm",
+      "description": "skill directory index",
+      "sha512": "7d8749c3a99c4ffa19f20deb400ff8386d12aa2cc35dd01866946f89761f660a3582db5a5afa0f5cd6707ec6d6b4e5e420a7f828ed02b3dd273dd95793acdfc6",
+      "file": "skills/linux/kernel/modules/lkm/index.json"
+    },
+    {
+      "name": "signing",
+      "description": "skill directory index",
+      "sha512": "9839d2778886970f23fe63316c3173668afd9ca9bf1f13fd600c888423f8f2763ab1c90a228053378db98905faf838d8c6f0facc7475510b16c32eead415887b",
+      "file": "skills/linux/kernel/modules/signing/index.json"
+    }
+  ]
+}

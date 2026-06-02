@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ids-suricata-configure",
+      "path": "network/ids/suricata/configure",
+      "description": "Deploys and configures Suricata IDS/IPS with Emerging Threats rulesets, EVE JSON logging, and custom rules for real-time network traffic inspection, threat detection, and integration with SIEM platfor",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e82772eb1865010d162a0321481a399c3fd77da00b3b12cfca708c47ac2b44cfd156e9ea11b71c781acee52f1cfc21bb0f966c24d1dfe08a8c4fad5e803ab785",
+      "file": "skills/network/ids/suricata/configure/SKILL.md"
+    }
+  ]
+}

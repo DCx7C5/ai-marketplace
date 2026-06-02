@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-platform-general-overview",
+      "path": "cloud-platform-general-overview",
+      "description": "Cloud Platform General Overview.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6dc3aab5a2024ae816affd9eada8a857a55ba160e357bfc0df65f6f27a0c2d3ad584118e53834dfeb87e70ad5f5c9681caa2a8d55a535c6d9bd510e5d5445036",
+      "file": "skills/cloud-platform-general-overview/SKILL.md"
+    }
+  ]
+}

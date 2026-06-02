@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-boot-kexec-abuse-detect",
+      "path": "linux-kernel-boot-kexec-abuse-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - kexec - kernel - bypass - secure-boot nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d819cbfb3d1dc92dfee5d28a9106e212fa08fb1deb96c43def5ec39b76b3e05c5fd7dd023a901f9a1d4616b402d5dc981b1fdbe711a871b9a9002fd8f4380e07",
+      "file": "skills/linux-kernel-boot-kexec-abuse-detect/SKILL.md"
+    }
+  ]
+}

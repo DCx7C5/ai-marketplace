@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-historian-server-harden",
+      "path": "industrial/ics/historian/server/harden",
+      "description": "This skill covers hardening and securing process historian servers (OSIsoft PI, Honeywell PHD, GE Proficy, AVEVA Historian) in OT environments. It addresses network placement across Purdue levels, acc",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d5fdbb868af32678a8d30ba7f5299fa2f997d43331d4fb1d099cf1b0cd342c867119229f199dd286200907c26221ce371c20b9b421433dfe371ffe2e850f278e",
+      "file": "skills/industrial/ics/historian/server/harden/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1d3cbd631571c874116ff849a82023ed60759522db416383a8cfe908b091cf52102cd6e9dc1c549e3bd1d865d7bc1875a283091c8977feacab0f5e29b3774fbc",
+      "file": "skills/industrial/ics/historian/server/harden/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2adb0148cfbc0e5431d7e0522dc0f7cf199ed9dfc4550d2b5aa0232d3bbe03c0ec36e6ddb901fde8d94220aeac45ca8dab73e00890d8398692aacf05c5334ee6",
+      "file": "skills/industrial/ics/historian/server/harden/scripts/index.json"
+    }
+  ]
+}

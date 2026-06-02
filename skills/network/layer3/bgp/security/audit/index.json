@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "layer3-bgp-security-audit",
+      "path": "network/layer3/bgp/security/audit",
+      "description": "Implement BGP route origin validation using RPKI with Route Origin Authorizations, RPKI-to-Router protocol, and ROV policies on Cisco and Juniper routers to prevent route hijacking.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ebe10ad8fe1a850a6a5bd54dc42831fcc1cd113e237c4348d6c3dc3288002e3dc9130b1b234dbfb840279b65ca04a4125cf1bb5e248a41f402362a18ad3eeb7c",
+      "file": "skills/network/layer3/bgp/security/audit/SKILL.md"
+    }
+  ]
+}

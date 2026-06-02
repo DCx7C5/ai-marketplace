@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-syscall-audit-monitor",
+      "path": "linux/kernel/syscall/audit/monitor",
+      "description": "Linux auditd framework for real-time syscall monitoring, audit rule configuration, and forensic log analysis. Covers auditctl, ausearch, aureport, and correlation with threat actor TTPs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "99670e4235a40a9deb1e88326d6b46d6024246fa05ae20c390ef0f2c79b14d722a4132f21872e0d85ea1e064a0f0cfe7e2a7d172b60fd495754bc6dbc8952a06",
+      "file": "skills/linux/kernel/syscall/audit/monitor/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-artifact-recently-used-analyze",
+      "path": "linux-forensic-artifact-recently-used-analyze",
+      "description": "subdomain: forensic-analysis tags: - linux - recently-used - xbel - gtk - artifact - timeline nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c68fa2721279939fba48335612e22613018398a4e92b63ca0109a9477141f4ff08f9d885df7b8d68f22c0a906872801b4c8c1c86ce815d35016ed38ac99ebc71",
+      "file": "skills/linux-forensic-artifact-recently-used-analyze/SKILL.md"
+    }
+  ]
+}

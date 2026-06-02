@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "16cb09eec427ec9f67b182ad03f2460840e238f222a13e63ccc2127c64624069dfd43a63abb0573c70500594b3b6388c15d7be9c47b5325059cc400a41274b13",
+      "file": "skills/network/capture/network/index.json"
+    },
+    {
+      "name": "pcapforensics",
+      "description": "skill directory index",
+      "sha512": "b9dbd76a340b8776d52a3282209599f68bc2d61c20b31e39de1701676bf452a950089ec8825f7006de5994fcd35937f57acea903f3dfb49faec4c96750a6b112",
+      "file": "skills/network/capture/pcapforensics/index.json"
+    },
+    {
+      "name": "scapy",
+      "description": "skill directory index",
+      "sha512": "6ea815687d41dd9bf5ef996b00a2b271fdee768e2e83ce15bf9ded2a009f99e56d03c853824d253d69090eeff51d37e28c2407ee7981ae2f43c5f4115b97f3df",
+      "file": "skills/network/capture/scapy/index.json"
+    },
+    {
+      "name": "tshark",
+      "description": "skill directory index",
+      "sha512": "fa08b6f9edaf7dfb603b83c868647a74d2d6734c70fc6b3cc392210b2ec0245ac6f0cfde5c13e49e4fc7d2b1136fbf22e7ef6e46af78ff6fccc72d0908c2ceaf",
+      "file": "skills/network/capture/tshark/index.json"
+    },
+    {
+      "name": "wireshark",
+      "description": "skill directory index",
+      "sha512": "c132364ef2610bbfd193d119bc2bd4a7351d7472f1d684d75f6918baec81949de217758196c375f1678ec7ef1d8306bd7596191d0cc99a9e0e9fa16e305ef31b",
+      "file": "skills/network/capture/wireshark/index.json"
+    },
+    {
+      "name": "zeek",
+      "description": "skill directory index",
+      "sha512": "9c64f2d1e59803012e82566d6c7d19cf28dfce53e8483f5b25243dfa9e9fdae563f880fc3a2bd2dd5a05c4900153d5de6ad0c1fcf3f6be2bbe2ff54878a5cc90",
+      "file": "skills/network/capture/zeek/index.json"
+    }
+  ]
+}

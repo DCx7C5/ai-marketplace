@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gradle-kotlin-dsl-doctor",
+      "path": "devel-jb-gradle-kotlin-dsl-doctor",
+      "description": "A bad run throws version guesses at the problem, rewrites too much, or ignores the Spring Boot compatibility model.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "369815d8acdf8f014838b3f1669f0b233c4de1f4448b607a6ccf5e5e82022b7241bbaa056de6b338bd2672d5a26465e824c8528e96cbfef41927f4dbd5f3ba36",
+      "file": "skills/devel-jb-gradle-kotlin-dsl-doctor/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "ef2a7f713d5519d7b78b5d74ffed52a5794964ff49a983c490b3dfd4c5989a972b056cbf383d4e862112e6ddb747517f135b9ec958cf48383d4e4a0792b443aa",
+      "file": "skills/devel-jb-gradle-kotlin-dsl-doctor/agents/index.json"
+    }
+  ]
+}

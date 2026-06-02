@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "credential",
+      "description": "skill directory index",
+      "sha512": "686b26ab3c0630af00bb4a6b2dcf16696dc0b69f648b201b741cda282720ea32f08c968330d5178c3832e0500d79206f473ce1e02b080bf9e74dd9a69c35a7d3",
+      "file": "skills/browser/chromium/credential/index.json"
+    },
+    {
+      "name": "localstorage",
+      "description": "skill directory index",
+      "sha512": "c79cad6ef5cbc2744e2403b80f62f3bc5fb9e5a229a479c9868634f8ebc402b9611c0b23ddcd895ffa32528bf4f6c4972b0034f5a6208b7532941cbc15fb7058",
+      "file": "skills/browser/chromium/localstorage/index.json"
+    },
+    {
+      "name": "session",
+      "description": "skill directory index",
+      "sha512": "6e0d1bb4e6e6dfb26eac4748bad7cb9bf775148d9c2728ce29f5dff04b1dda8af9ced22b17325d4e81d0c9385101393061626a9fa4c23a718a9503c3a4d8da24",
+      "file": "skills/browser/chromium/session/index.json"
+    }
+  ]
+}

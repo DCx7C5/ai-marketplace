@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-shadow-file-tamper-detect",
+      "path": "linux/identity/shadow/file/tamper/detect",
+      "description": "Detect /etc/shadow and /etc/passwd tampering \u2014 identify unauthorized modifications to credential stores, added backdoor accounts, and hash algorithm downgrades.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d235dd15110fab149d23e8f8d03bb6674c61dc5c9341d5d77b2c6609ec65f512b7ffb41ceba390bec96079b3de07546e59f6931a78260aefda351b55b6dff207",
+      "file": "skills/linux/identity/shadow/file/tamper/detect/SKILL.md"
+    }
+  ]
+}

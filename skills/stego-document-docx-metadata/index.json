@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-document-docx-metadata",
+      "path": "stego-document-docx-metadata",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8632b5819f847e496fd8ee8cfddb442e477712d519d4303cc936c450d925eea23d2f7a434c771cb22f4d9dbacd868f5fe2683171b7960a5db631a82315f96eed",
+      "file": "skills/stego-document-docx-metadata/SKILL.md"
+    }
+  ]
+}

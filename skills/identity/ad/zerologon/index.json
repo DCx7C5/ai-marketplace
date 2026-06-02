@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "9fe80a3f89a477887e3a8880b2a8ba33b48af3e57b9088a71e2cd30d0d7609707adbcd179106f7784da8771580a3a1830007b8dd24cf900b9d8d72e663e4dc04",
+      "file": "skills/identity/ad/zerologon/exploit/index.json"
+    }
+  ]
+}

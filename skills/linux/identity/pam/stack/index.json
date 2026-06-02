@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "f768a79ecec18da545404df6a4af1ba1cae4ed24345fc0c4dc39be307cdfa4966f8741f78413a4a9c3582e1d82cf77fa5dd2f1a0534d5c82389e41e4af080996",
+      "file": "skills/linux/identity/pam/stack/bypass/index.json"
+    }
+  ]
+}

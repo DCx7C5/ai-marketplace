@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "d5fdbb868af32678a8d30ba7f5299fa2f997d43331d4fb1d099cf1b0cd342c867119229f199dd286200907c26221ce371c20b9b421433dfe371ffe2e850f278e",
+      "file": "skills/industrial/ics/historian/server/harden/index.json"
+    }
+  ]
+}

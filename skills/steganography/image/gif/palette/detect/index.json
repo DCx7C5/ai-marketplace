@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "gif-palette-detect",
+      "path": "steganography/image/gif/palette/detect",
+      "description": ">\\n  Detects palette-manipulation steganography in GIF images.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7c54c6e74b5a231ddf7db738d8f93a1039d76f6784fce05ad3032380480ad8a89043407fbb075e9a899f99062fe0abd1dba02005ac02c9b8539ee57ada376098",
+      "file": "skills/steganography/image/gif/palette/detect/SKILL.md"
+    }
+  ]
+}

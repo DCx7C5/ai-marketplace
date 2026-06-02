@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-fuzzing",
+      "path": "offensive-fuzzing",
+      "description": "-| | [AFL++](https://github.com/AFLplusplus/AFLplusplus) | General GreyBox, CmpLog, MOpt, Nyx | | [Honggfuzz](https://github.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ca207a2c32ce66ed03e8d86074f4850eb1c8141a75d4c5207cd0c40a011a1537ab55e5264158c59ad52ef60c9e9c79a9de72eeb6168e72848d9e1b1904b2ac34",
+      "file": "skills/offensive-fuzzing/SKILL.md"
+    }
+  ]
+}

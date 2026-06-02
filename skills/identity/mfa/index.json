@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "duo",
+      "description": "skill directory index",
+      "sha512": "8696f0b7b3c44c134e69d9f1e44caa3643b407dfc9911b60fe0018f09d1020e80b832c9d6be5417bc0cdfc3f55321b69605afc41d35ab90e6aedd470e0b3751b",
+      "file": "skills/identity/mfa/duo/index.json"
+    },
+    {
+      "name": "fido2",
+      "description": "skill directory index",
+      "sha512": "2de6cf05ec15894543b77c089ac6a2c0d1a31d57c9406c10e6688b85c86b7dd06fccc356516442657782ae89cf96e26c8761609aa25a9989eac426bbe3eaa3d5",
+      "file": "skills/identity/mfa/fido2/index.json"
+    },
+    {
+      "name": "passwordless",
+      "description": "skill directory index",
+      "sha512": "284802ac2e2372518646caf592be65156b15ff42cc62830676a3e79878225fd25babd3eab8444d03a47b7d005362dc59af93f683093a9cade7808028a3dd86da",
+      "file": "skills/identity/mfa/passwordless/index.json"
+    }
+  ]
+}

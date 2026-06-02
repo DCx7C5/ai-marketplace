@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "00da0d483b13654014fe1b150bb4cbcd128bbfbcd1e60de6417a5ed9a9e8a9bb00bdaf53ebb784df8a998e490ee24c9387a42d2c68ba0c9d7b0d35725277491a",
+      "file": "skills/linux/identity/ssh/config/harden/index.json"
+    }
+  ]
+}

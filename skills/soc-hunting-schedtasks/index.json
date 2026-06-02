@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-schedtasks",
+      "path": "soc-hunting-schedtasks",
+      "description": "5. **Lateral Movement via Tasks**: Remote scheduled task creation using `schtasks /create /s REMOTE_HOST` for execution on other systems.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6aa3bed6e89c52b8ef562618a2f12db4f297c2b0711ecc9af1300db6a16b6ee834321a7444d99cdf56836da6dc8d132cccf334975015d2255dfcad8dc2bde950",
+      "file": "skills/soc-hunting-schedtasks/SKILL.md"
+    }
+  ]
+}

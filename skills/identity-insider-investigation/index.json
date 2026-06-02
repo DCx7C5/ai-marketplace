@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-insider-investigation",
+      "path": "identity-insider-investigation",
+      "description": "Identity Insider Investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b8885f6077c6b56e9e0ecfc7984520bc2f1c59dfdbc7100abf612836c574c0aa53eb858613febdc84da8b7fd124b4586798b69a90839f09f00c414631d20566",
+      "file": "skills/identity-insider-investigation/SKILL.md"
+    }
+  ]
+}

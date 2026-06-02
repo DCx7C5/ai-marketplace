@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "scan",
+      "description": "skill directory index",
+      "sha512": "c284d1332fd7df2a7293f9610915d6ef750feabd8071ae1ce42cc22a2249a0e4a5afdcf505b7316103466cd522e78ddc2aa161a75a588abde811d1d7def5043f",
+      "file": "skills/network/tools/nmap/scan/index.json"
+    }
+  ]
+}

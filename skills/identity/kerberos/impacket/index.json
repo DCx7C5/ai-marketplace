@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "a038dc9b9ba24c5510e971d9658500bf5abd26a0d2944a2ab65d892cbd00b9901510d4876310756482095ac6634a8e38016d18f9830199ed333ebc7e96b12191",
+      "file": "skills/identity/kerberos/impacket/assets/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "dbe9164ae205b3760fe79d329693a3524b759c585e34e741158daf03f7d0af2d91484d782e460719073d602f2cd2c3470e152721d6e80616cc78cf55180c8877",
+      "file": "skills/identity/kerberos/impacket/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9e135e9c01aa9db6bc5791dbd7bff254703d7d0cf3a0d347e6804fdece167361e8179ee9959068e10cd2176c5309cf7bc43627492ed8c211ff67632ebbb1624d",
+      "file": "skills/identity/kerberos/impacket/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "af52e60fae6f6a88229c7462821c07c97b6e5c4fe6bc1acc81f72dcc1a0d62431fc9625221a5fddae2569e5f87e5944a62e7b4ee10058783c35d63fea617f28b",
+      "file": "skills/identity/kerberos/impacket/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "7bc2c82cc065777d20fafd200aceae31ab071acf7a78ceae846d8cdc1ab8034134d19ace74880f2c096112de548f83a2aec8c008b0d07bb991b514e238c10ead",
+      "file": "skills/linux/hardening/kernel/config/audit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rbac-entitlement-harden",
+      "path": "identity/rbac/entitlement/harden",
+      "description": "Performs entitlement review and access certification campaigns using SailPoint IdentityIQ including manager certifications, targeted entitlement reviews, role-based access validation, SOD violation re",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4a1d40982d1016af566f9b6590019dffb2b4011290daee384b9bc7549fed85b753c5e4659d447ac3a92494017f89272353aed7a1bb1fae3dda233d65de08f761",
+      "file": "skills/identity/rbac/entitlement/harden/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "lsb",
+      "description": "skill directory index",
+      "sha512": "6d073bfec43a1082b877d36a8f49b23a8bf7666948124e68f5f8511ea033a3b080677d01d3fcd61d0d71c2cd3048fca6fb9dc82accf1155301ed54e453cb68a4",
+      "file": "skills/steganography/image/png/lsb/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-network-stack-netfilter-nftables-audit",
+      "path": "linux-kernel-network-stack-netfilter-nftables-audit",
+      "description": "subdomain: network-security tags: - linux - nftables - netfilter - firewall - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e9de30daac2f366916ec8055ce5ffd17bbe463ba8957f8643fbc2d9bb062dd1519257df55b10940a745c9f6aacbca1ff78accbe329b5e33e9d38db3f0aa9e27",
+      "file": "skills/linux-kernel-network-stack-netfilter-nftables-audit/SKILL.md"
+    }
+  ]
+}

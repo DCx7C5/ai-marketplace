@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-mem-slab-corruption-detect",
+      "path": "linux-kernel-mem-slab-corruption-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - slab - heap - kernel - corruption nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80de1569d7bc97da5da1524e723a1f53cb393e43e3f51211499bde12bfaf5364a25679c4d0cd91c386bcb6212c39621314a6576601fcb6e3185633435ce6e9ec",
+      "file": "skills/linux-kernel-mem-slab-corruption-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kerberos-passtheticket-extract",
+      "path": "identity/kerberos/passtheticket/extract",
+      "description": "Pass-the-Ticket (PtT) is a lateral movement technique that uses stolen Kerberos tickets (TGT or TGS) to authenticate to services without knowing the user's password. By extracting Kerberos tickets fro",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0237f15af8494993904ed0925c9b0688599416854e604fcbee45a9e93c766bb29e0c61e626c0442fce4ae6bf694e44508c4cd2c02a948100293ecf18107fad59",
+      "file": "skills/identity/kerberos/passtheticket/extract/SKILL.md"
+    }
+  ]
+}

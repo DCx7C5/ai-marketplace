@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ads",
+      "description": "skill directory index",
+      "sha512": "343265c995329b7372e9da4ca12fe6ab49bf46529853badc5c848fd9be65db540f1e8baa47a02131f2f774e9f00d92a585b13d36f77e63dcc5f35a98f3ce87cc",
+      "file": "skills/linux/filesystem/ntfs/ads/index.json"
+    },
+    {
+      "name": "mft",
+      "description": "skill directory index",
+      "sha512": "d0bf0e11e1cde9cab8e38152dce2d904ed6ca331dd5ba36445febefbff7013cb9e101708f583f94201441d1e15861adf63f6b6ce98609a16bd45df2c04abce68",
+      "file": "skills/linux/filesystem/ntfs/mft/index.json"
+    },
+    {
+      "name": "prefetch",
+      "description": "skill directory index",
+      "sha512": "b70c1106b469cb57bad17937a4d72f36938b17df6e3b1cb9dd703e71dbbeb29460b2d8f36dc00afac3e955504cb00437c06575b2b168bc948c713ebe03d615c0",
+      "file": "skills/linux/filesystem/ntfs/prefetch/index.json"
+    },
+    {
+      "name": "usnjrnl",
+      "description": "skill directory index",
+      "sha512": "8720a88956988c2133a7d313d1fcc8171d1c062f23a08d7946986c854000997fd46023a88b65b8716719550e0b955a2e4a87e0ffbff982435dd6133191d1de16",
+      "file": "skills/linux/filesystem/ntfs/usnjrnl/index.json"
+    }
+  ]
+}

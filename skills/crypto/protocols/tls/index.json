@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "56af8533457c00efa3f502e94148f78bcd8e8381fea26367902003bbc39d1cbcbeb7c666e204cb55231648c32f52eeab9c4eb05bb8c73cdedcb92785899d36a6",
+      "file": "skills/crypto/protocols/tls/audit/index.json"
+    }
+  ]
+}

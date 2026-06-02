@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-coveragemap",
+      "path": "intel-mitre-coveragemap",
+      "description": "Intel Mitre Coveragemap.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bcfa42aab8fcb369b037efca717954a96cedd9fa0350b07a80cd7511fb40aaf5b554ac69a91ff516b2b693ceee79745b1e475100592b669c44d3f2ee7006ca73",
+      "file": "skills/intel-mitre-coveragemap/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "user",
+      "description": "skill directory index",
+      "sha512": "c651b4faadf1d21c72eb83d7be0f2a845d1fa6417deabc226d0f9f202dcd478d50d2410d96ade97aa87c71db3c09db5275e621b7978962ad9c75f05b98a8a294",
+      "file": "skills/linux/containers/namespace/user/index.json"
+    }
+  ]
+}

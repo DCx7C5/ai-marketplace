@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-credentials-lazagne",
+      "path": "identity-credentials-lazagne",
+      "description": "Identity Credentials Lazagne.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6f20d293ba55c62d69d4196b468ac0cd4677a0018cf18afafe832a9bff4278f1e45883ac1e6feab5c43f02ad40ce6c1725df9206dab6c0987612b473573d12d0",
+      "file": "skills/identity-credentials-lazagne/SKILL.md"
+    }
+  ]
+}

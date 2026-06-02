@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-historian-attack",
+      "path": "ics-historian-attack",
+      "description": "Ics Ics Historian Attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f35c874850eaed7570b797f55fe9042c9cfbda1492a20a1c66dd30101be637638e915c7f64db96784bd4186e2e6af433c6c81b1c578ffec3642ef223cc0ff190",
+      "file": "skills/ics-historian-attack/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "31dbf8d913ed577273faba9b5376e63f108b91b3c8738e151b0569db6dbff7c6460e7bec81dce2c74c7852bd6add049592cb65509efaf66075853ebb3f8563ee",
+      "file": "skills/ics-historian-attack/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "14467e503394bdf1c965ab345c30df7d6e3ae84539d06c67314eb55fe523f0d0931719d40224ac22ab8fc304ca9e151b8baa73b17cffd545a2a088ed4dba914d",
+      "file": "skills/ics-historian-attack/scripts/index.json"
+    }
+  ]
+}

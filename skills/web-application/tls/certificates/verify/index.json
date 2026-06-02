@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls-certificates-verify",
+      "path": "web-application/tls/certificates/verify",
+      "description": "Queries Certificate Transparency logs via crt.sh and pycrtsh to detect phishing domains, unauthorized certificate issuance, and shadow IT. Monitors newly issued certificates for typosquatting and bran",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "250d9d8350f488b702cbae728acd8c5c8c5ef882f3c0b0672d2ee489a303eee31cd428566bc3c1d9c9df589d253380ef1e826aa4d65fe7813954488e01e1bb49",
+      "file": "skills/web-application/tls/certificates/verify/SKILL.md"
+    }
+  ]
+}

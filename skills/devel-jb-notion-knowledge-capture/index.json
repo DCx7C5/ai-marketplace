@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-notion-knowledge-capture",
+      "path": "devel-jb-notion-knowledge-capture",
+      "description": "- `examples/` \u2014 capture patterns in practice (e.g., `decision-capture.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e1e06b793123e2767cd2540e144c4cc4bac3298ec018fb23b3ceaba012e271342a2b7e8fdcdbb59453be5f4d191904d0f32874fac4846cfaa95fb57ef1990d2",
+      "file": "skills/devel-jb-notion-knowledge-capture/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "0167d436d4cfbdc5f1d0c18745217de0b809de78cf8dbe218cf49cf92b488b3c8398d0e3b40cdc53c7ff3b97e3814e44d21128790363812842f4892e1ac3a651",
+      "file": "skills/devel-jb-notion-knowledge-capture/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "4d747a6dd2e28dc3c8dd3989b0c4fba6a37429598ae9b68ee80e33cf78d052e4bede19e0a38db9d1fe2b2f345451c062503656e492eff3d3342c06368b20105a",
+      "file": "skills/devel-jb-notion-knowledge-capture/assets/index.json"
+    },
+    {
+      "name": "evaluations",
+      "description": "skill directory index",
+      "sha512": "4f4435ddfc0d42c4188a294e59899428a3f71f8032220b9de436908d0d16b072a363c611751cf62190598404980199e938cbb7b2d0458220ba73459d100e3df5",
+      "file": "skills/devel-jb-notion-knowledge-capture/evaluations/index.json"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "530dd5b9fd0a45642f919c14d3a7eaad9ff28c065e289d3e94ea8d727a93dc08498ce1a6fe488b6bed6711dbecc13649af625050a550f3ccaa9352a582f783cc",
+      "file": "skills/devel-jb-notion-knowledge-capture/examples/index.json"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "b507a780d3bf91b18f6a11fd0ae124fd936f39f25095d8de42d62d4f7df9a0e10cf7d738a951dad57520241bcb73545684261191a3d12d743f1d4d0802ccd341",
+      "file": "skills/devel-jb-notion-knowledge-capture/reference/index.json"
+    }
+  ]
+}

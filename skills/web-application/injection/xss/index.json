@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "burpsuite",
+      "description": "skill directory index",
+      "sha512": "db62ac19bdfb4fc896303d1e29ecc37e2225785c70a1038233c9ca8b955c79121477e0779f7c59e7659058b87f5e00ce5f759fe594b98794b1056fd8c1d1d2f7",
+      "file": "skills/web-application/injection/xss/burpsuite/index.json"
+    },
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "8387692005bf0172ab01bbbd47a84ea78169ae62805098e103d49bf62aa3fe9ba7ec575d13fd906b996ab6146a42ecf8c5bcf2169f2ff151a76a8870fb146c56",
+      "file": "skills/web-application/injection/xss/bypass/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "23ac2e9c106b06ad6b714b819cce5c0226839ec9d42ae7390b4761f984f43c27429b5d536e6ecb1bd7471ac8500d094a22028a5772228a14dbafba188cc35711",
+      "file": "skills/web-application/injection/xss/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "329ab8bead45e23757f1fc771c00cccfe6fda225f1029c2529a71615afe297e899eb8d8e2906c8927668c272c8cb94195b03ebdbb57817221d567437a311d387",
+      "file": "skills/web-application/injection/xss/scripts/index.json"
+    }
+  ]
+}

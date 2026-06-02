@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chrome-cookie-extract",
+      "path": "browser/chrome/cookie/extract",
+      "description": "Extract Chrome session cookies from the SQLite Cookies database, decrypt AES-256-GCM protected values using the DPAPI-derived key, and identify session tokens.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "82baca92ca89d176f688eba534c2fdf704e1a263a593db4d235627210be307a4728e326671995097ec529ab05ae6210e1f084008c5a261ab7ac957f2f28a2351",
+      "file": "skills/browser/chrome/cookie/extract/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "39bb8ba5c022837cf1100ea95b331e8d38d6b4b2f697eeacc7c0107089c020a7fb9e09550ff8d5b4ea99e183a789a9a7a97ee56155c715fa8073741d40022918",
+      "file": "skills/web-application/auth/jwt/signing/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "71608652b9085c602591c139266946d1dfcf98b1d851dd8564292bc8c57e842c65f357f4abcb976c303d1b08173156001b065af7f8dd031a654ce1fdf4807fe9",
+      "file": "skills/web-application/auth/jwt/signing/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2b14fd40363d0273be7f96d8bf74c3f5ffeecbd5a769c76dfb7c41a1dda9a1b8f4141fe8e0ffed3daffa3f046d89ca1f4442b27396b337d035960375f4e81c02",
+      "file": "skills/web-application/auth/jwt/signing/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "2573e0fa2f6c2701b04459b1209adab7aaf4241c72b589e57998d9261d0aa773d1d572c93a133cda910cd28f779e0b5c71d757426018ad2462cfb65f663e2077",
+      "file": "skills/web-application/auth/jwt/signing/verify/index.json"
+    }
+  ]
+}

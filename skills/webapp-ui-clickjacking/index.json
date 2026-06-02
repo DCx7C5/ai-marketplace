@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-ui-clickjacking",
+      "path": "webapp-ui-clickjacking",
+      "description": "--|-| | / | Not set | Not set | Yes | | /account/settings | Not set | Not set | Yes | | /account/delete | Not set | Not set | Yes | | /transfer | Not set | Not set | Yes | | /login | SAMEORIGIN | - | ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ee781c5634899c7fca3901e4c907d691241b8de4f8b2d57f8a16febdeafe17bbf6df9ef9683adcc9205a36ef6a6dafac23960a976ad4c860fc0eb819e6085273",
+      "file": "skills/webapp-ui-clickjacking/SKILL.md"
+    }
+  ]
+}

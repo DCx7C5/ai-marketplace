@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-maps-analyze",
+      "path": "linux-proc-maps-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fe3d4d6497d9a1ccbe7eba1a9ca38201750403ca7d73c40293b2bfe8499ebab5039d7bc775680387c8b1b77f5d89b39f5da129e73b5efd779cf8afdb8abb1906",
+      "file": "skills/linux-proc-maps-analyze/SKILL.md"
+    }
+  ]
+}

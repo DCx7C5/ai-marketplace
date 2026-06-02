@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "code",
+      "description": "skill directory index",
+      "sha512": "2f21f0f7751429e2304e35afcae70b5e50f51285ef05e01de1301aebdd06d93bf36861e140895fd8151cd2f0de698a2f882ea069b15b0234615dcf3bb9fabb01",
+      "file": "skills/linux/memory/injection/code/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-opa",
+      "path": "cloud-containers-opa",
+      "description": "6. **Test Rego policies** - Use `opa test` or Rego Playground before deploying 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "76337dc7efc9b493aefc13b8ef8f2644b3de9a15a61f32b9a3559ebc01c8e62b460136a0a50fe050bb3c33c8cc092624a796783da8abb5becd38970a31eb6568",
+      "file": "skills/cloud-containers-opa/SKILL.md"
+    }
+  ]
+}

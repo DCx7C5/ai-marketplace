@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-encryption-e2eencryption-recover",
+      "path": "crypto-encryption-e2eencryption-recover",
+      "description": "Crypto Encryption E2Eencryption Recover.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b51c52a81f2ea71fdae64c4235ef8e4a2d7e9060240fc1b8c0eff3225d26aeb2e3dbcf3ca64ffe890e172afd90b9aec959f94b9e611d8424803f73fc338d0002",
+      "file": "skills/crypto-encryption-e2eencryption-recover/SKILL.md"
+    }
+  ]
+}

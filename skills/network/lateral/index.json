@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "6f2e1567b84356293fbc72caeb3940d0a57c62a06514f3948fcc9cdfec8a5fc10d52f0e18a02747451b7abb7445e29d6cb8eb916c97c46acb32ee782e1a38c37",
+      "file": "skills/network/lateral/analyze/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "6fa8b00707720c0b4771e028a0c005a1a5b1321859d953e48dc849e37ca7c9779f69867b18609187c9f4a04cade1729a2ea14853dddd81f7e572a7c74371b197",
+      "file": "skills/network/lateral/detect/index.json"
+    }
+  ]
+}

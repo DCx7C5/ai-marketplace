@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ueba-user-behavior-detect",
+      "path": "soc/ueba/user-behavior/detect",
+      "description": "Performs User and Entity Behavior Analytics (UEBA) to detect anomalous user activities including impossible travel, unusual access patterns, privilege abuse, and insider threats using SIEM-based behav",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "05ce1fafaf93c3772d4cdf02dfcc1e3dfcdc0ec50413237840b89be319080ce70719a9d388d52ce4039ea4bc3f9e44c2e8c2ddcf0897dded8dd1d9bc2fdc1269",
+      "file": "skills/soc/ueba/user-behavior/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "0077224de61a85fe978c27fd8439f5799aed31504a7884116b4f1393c178acb20d2169e4662f7064df26aed8d5fcbe5046afce6e3dc8f89c3487aad624b8def4",
+      "file": "skills/intel/platforms/tipeval/analyze/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-guardicore",
+      "path": "cloud-zerotrust-guardicore",
+      "description": "Cloud Zerotrust Guardicore.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d93ff25fbb3f8ff4129f1522576610fe379fc9d56c97c25a1eff114f880a1e85603d404075e3d5dbb503c45697e3d44474987fe3313ec3198cbbdd750ef5fe1a",
+      "file": "skills/cloud-zerotrust-guardicore/SKILL.md"
+    }
+  ]
+}

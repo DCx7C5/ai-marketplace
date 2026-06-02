@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-owasp-analyze",
+      "path": "web-application/api/owasp/analyze",
+      "description": "Systematically assessing REST and GraphQL API endpoints against the OWASP API Security Top 10 risks using automated and manual testing techniques.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "74871fb7f76187e73b5b111982ab91458fc05b0a6ecc1c4060b33fbbc0fd4d0233a1daaed2200793f7adaf84745f8b6aa5e8be6c0fdddebbd209daa5d3a35617",
+      "file": "skills/web-application/api/owasp/analyze/SKILL.md"
+    }
+  ]
+}

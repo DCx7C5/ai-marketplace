@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-analysis-netflow",
+      "path": "net-traffic-analysis-netflow",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "56577e311ab37c8dce7d1c6c21bdb0636ace06e6b2f478c1f41e12e048ae434e0d4a44e3f891547ca710dfbdf7dfdf047d73d4a7b894f26e85623cf8bb940baf",
+      "file": "skills/net-traffic-analysis-netflow/SKILL.md"
+    }
+  ]
+}

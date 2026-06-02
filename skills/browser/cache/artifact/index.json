@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "recover",
+      "description": "skill directory index",
+      "sha512": "315cc5257afe7b1baf38f2dcf750abd707c8df553faf397391ce29385b9e54a265582433ef685fd805feb46796de477c35cca1f4452e54ee882c82ba54d96536",
+      "file": "skills/browser/cache/artifact/recover/index.json"
+    }
+  ]
+}

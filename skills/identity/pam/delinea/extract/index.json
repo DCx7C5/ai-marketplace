@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pam-delinea-extract",
+      "path": "identity/pam/delinea/extract",
+      "description": "Implements Delinea Secret Server for privileged access management (PAM) including secret vault configuration, role-based access policies, automated password rotation, session recording, and integratio",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b0dd9b2c30d480f919922fed71cd11879f1520f71eb0a50578d962d9dd9ca66f40086b8ff30fdf986b80f507b9015551b19ca5fb63be911d42db64a30bc3519a",
+      "file": "skills/identity/pam/delinea/extract/SKILL.md"
+    }
+  ]
+}

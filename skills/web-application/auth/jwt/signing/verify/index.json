@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-jwt-signing-verify",
+      "path": "web-application/auth/jwt/signing/verify",
+      "description": "JSON Web Tokens (JWT) defined in RFC 7519 are compact, URL-safe tokens used for authentication and authorization in web applications. This skill covers implementing secure JWT signing with HMAC-SHA256",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2573e0fa2f6c2701b04459b1209adab7aaf4241c72b589e57998d9261d0aa773d1d572c93a133cda910cd28f779e0b5c71d757426018ad2462cfb65f663e2077",
+      "file": "skills/web-application/auth/jwt/signing/verify/SKILL.md"
+    }
+  ]
+}

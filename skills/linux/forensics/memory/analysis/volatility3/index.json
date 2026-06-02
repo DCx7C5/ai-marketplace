@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "a8662a4ecfffcc9e009a32e887c176882b3d7d52d8e333bf41dae1d58987dd02302c0593e900c8465dc4d2659333fdd9cc02dff3cf06d3918449968144c7878c",
+      "file": "skills/linux/forensics/memory/analysis/volatility3/detect/index.json"
+    },
+    {
+      "name": "plugins",
+      "description": "skill directory index",
+      "sha512": "777633aeed221674c7308932bfc86d6656633d35f3af8016acd10fc02125e1fad182139b20b6191c7f43b42d86ae92f319bfe7f2f3132562fdd4aa9782638a10",
+      "file": "skills/linux/forensics/memory/analysis/volatility3/plugins/index.json"
+    }
+  ]
+}

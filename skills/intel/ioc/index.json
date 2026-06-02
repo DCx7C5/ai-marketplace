@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "defanging",
+      "description": "skill directory index",
+      "sha512": "647ee1ee7c797cc705288b9ddd39a87baf50d83ad74fa8f2975884f79fef808d9a0669baa95518efa7e8d67f3b3aa8a112808b863ecaf09ca62c0df180b564dc",
+      "file": "skills/intel/ioc/defanging/index.json"
+    },
+    {
+      "name": "indicator",
+      "description": "skill directory index",
+      "sha512": "aad345533c2ffed1a86778a27c94680e8b120f484b565c60c9690c051e0acbe502b23c90e1f618a0ebc11b5bf7ca865f40421f55e1b03b8f49f2e8e0a67711d9",
+      "file": "skills/intel/ioc/indicator/index.json"
+    },
+    {
+      "name": "indicators",
+      "description": "skill directory index",
+      "sha512": "a3e31d63574404c210225f44ec14e2eb3d48dbbbf26c68ff332ce6781278bcdc169db50ee801112612cb68715f6c3e3753ca1b02365710871def598d4912aff2",
+      "file": "skills/intel/ioc/indicators/index.json"
+    },
+    {
+      "name": "iocauto",
+      "description": "skill directory index",
+      "sha512": "736e42fc4761045c28129428b406cfca123b3bea602914dcdc52b8e116485810f0452c0e5615e6082e1e4bb91cddac6ba19421aa815946bee0b46828866b8a61",
+      "file": "skills/intel/ioc/iocauto/index.json"
+    },
+    {
+      "name": "ioccollect",
+      "description": "skill directory index",
+      "sha512": "008b1514a7463deb4894eef01a2b9ed85ddde4b46361c6c72e845ae45986ff94f9d8b44ac5e2d2e3f0247f99446013013d279ed944785a3cb45e52f082b1b520",
+      "file": "skills/intel/ioc/ioccollect/index.json"
+    },
+    {
+      "name": "splunk",
+      "description": "skill directory index",
+      "sha512": "3163d7210715601273d0f483ce57ee399b699c680b293267d2114c578b35611c5c8104ce763ca00e6e566f3007b5ea60675b616af3bb6bc502416d1194a29b15",
+      "file": "skills/intel/ioc/splunk/index.json"
+    },
+    {
+      "name": "tilcm",
+      "description": "skill directory index",
+      "sha512": "4374f932552cdafb2728790e4715b7c52990ffeda41b75464a5819899a546a1206dcf0b363efe9c25b0af0b58e2b615866c7092a89e92f1c461178e304ceb6ef",
+      "file": "skills/intel/ioc/tilcm/index.json"
+    }
+  ]
+}

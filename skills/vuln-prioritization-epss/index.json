@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-prioritization-epss",
+      "path": "vuln-prioritization-epss",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d59ac1860cbb80b7fe47be4297ff0596193af2e280ae6f4dc2e777771f0e5df5d10b1e583bd4b99e8284e7e5582ba15612df57bf4e2bbe4f4d3fe1337606a90f",
+      "file": "skills/vuln-prioritization-epss/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "c8a70274d7bc1cde7e8501e1bfa9a8f145ebaf0dc2ffb9c75d42a0374df0bc2f4793f7f072147fce0461840e4c4b046eb558e66c0d19d1d9d0eacac8d3b66a10",
+      "file": "skills/vuln-prioritization-epss/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "88b36d29c75b7125a856e570426f1cca57c90065eca0aae947e2f2c3d3ed4b0b64cd05b8a038afb1ca4434fef2830fe00a00e84a13b06029bcca5fa436cc93cb",
+      "file": "skills/vuln-prioritization-epss/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "68a6c33de042c786b902f4fb9baccde8cee1a84e2715679602104b2690c2413813b684d81a576f79fa509aa1b498917a3fcd1fa0388deb34ce46df2d7797182c",
+      "file": "skills/vuln-prioritization-epss/scripts/index.json"
+    }
+  ]
+}

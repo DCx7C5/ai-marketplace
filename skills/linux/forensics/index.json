@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "af6aa2e623cfb67637549640049586d4ecc70ca76487484334a0d984067cfb64d1d29ee5014339e5544688bbd6c120857e09eb29287f747a912dc68dbbdcb4ab",
+      "file": "skills/linux/forensics/artifact/index.json"
+    },
+    {
+      "name": "disk",
+      "description": "skill directory index",
+      "sha512": "77c78b4df143d61e646e9ada4a8281f6dc72a475d701e78705cc5f0f4225a1215be406547df17c6bad0b1df86c79f0b2e8888aa952891041e21058f2771e090f",
+      "file": "skills/linux/forensics/disk/index.json"
+    },
+    {
+      "name": "memory",
+      "description": "skill directory index",
+      "sha512": "a27d8e47fcd4a5ee1be1e0946b03ed0b509ebb5f508d08d87f7d7e569979b2a051a2cca5f38498fd0d75fd8c8d47f535cab96b1ca34a3066bceae7a1ad0f7aec",
+      "file": "skills/linux/forensics/memory/index.json"
+    },
+    {
+      "name": "timeline",
+      "description": "skill directory index",
+      "sha512": "6908126375180631910d501d0197e2bce7bf01fa49c4eaec586dd8f6f52529cfeaa4148d1df14cc6ba9bfcccf6ab0be7fcdfea702e4d4d10a85ad2b8d2f4c946",
+      "file": "skills/linux/forensics/timeline/index.json"
+    }
+  ]
+}

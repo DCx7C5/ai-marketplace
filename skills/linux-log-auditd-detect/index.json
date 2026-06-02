@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-auditd-detect",
+      "path": "linux-log-auditd-detect",
+      "description": "| | **auditd** | The Linux Audit daemon that receives audit events from the kernel and writes them to `/var/log/audit/audit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4e901271fbc5c99c22da81bd738696db7c17524afec17f3cf36af3338752d8353cf11da28d136c01c3cff6d63246353a4abbe4be8ca47aad6be0429b94a51ab6",
+      "file": "skills/linux-log-auditd-detect/SKILL.md"
+    }
+  ]
+}

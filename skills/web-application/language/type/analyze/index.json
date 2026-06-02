@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "language-type-analyze",
+      "path": "web-application/language/type/analyze",
+      "description": "Exploit PHP type juggling vulnerabilities caused by loose comparison operators to bypass authentication, circumvent hash verification, and manipulate application logic through type coercion attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "47cdcf711fc8d73ef07c1e55bc1e4e62fc2de58c7f10ae901daaa1c37f058bf1288c6ed60d28ee2d19b8a9d303d74e94cdab7bc9df9bc7960407504bee483ae0",
+      "file": "skills/web-application/language/type/analyze/SKILL.md"
+    }
+  ]
+}

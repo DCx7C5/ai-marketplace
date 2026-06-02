@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-macie",
+      "path": "cloud-aws-macie",
+      "description": "Cloud Aws Macie.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "020b1cea9929240a0160a145e17e5d0f07ae138171264d9a58d36121235f74bedcb1a10b27a8fada2b487de0706afec463e249776011205178ff05018de671cb",
+      "file": "skills/cloud-aws-macie/SKILL.md"
+    }
+  ]
+}

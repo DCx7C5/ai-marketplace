@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "b2b60e24f52a93557d9feef41be0978968123f78fb96bfe255bbc9a9c60811e44790b735b0175060f43b3b24da83f2510a272d824dbf56593af0772beec1eb8f",
+      "file": "skills/identity/serviceaccount/saaudit/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "366c07390ce6829a9bfa761f4e91274ea056153ed1ae14a32ce954de15d58968a29bef731db860405c9620ca2a9ffc453efc70d0acd5534a837585a2eab1852c",
+      "file": "skills/identity/serviceaccount/saaudit/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ad019e5f1009716610f8cb1d2b3996c07b01e283771ce4a926e43b9d6757106a00e80f7e77ffed4bb108b24361398ff6511561d2f5abe27ec522ddfa113f389b",
+      "file": "skills/identity/serviceaccount/saaudit/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "68e2ed3bbbe32004505489852231a37d5f33690fedc241011503ed81ff5c2f8d4738ec0be40da7bd63df31e7da9294837ffe0100de413f92c4e6b111e8da5c6f",
+      "file": "skills/identity/serviceaccount/saaudit/scripts/index.json"
+    }
+  ]
+}

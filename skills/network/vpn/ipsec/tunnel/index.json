@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "4979678c1c90cb61ab90426db356a20354ff83be44fb2f1c7364cd8a15c8d6e6325ffc93c6a51daff9579c6294334cfe57190a43c7b38ca8ca85fd445b29c368",
+      "file": "skills/network/vpn/ipsec/tunnel/deploy/index.json"
+    }
+  ]
+}

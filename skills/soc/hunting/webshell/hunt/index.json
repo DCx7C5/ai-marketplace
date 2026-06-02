@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-webshell-hunt",
+      "path": "soc/hunting/webshell/hunt",
+      "description": "Hunt for web shell deployments on internet-facing servers by analyzing file creation in web directories, suspicious process spawning from web servers, and anomalous HTTP patterns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3c05df5c99caece5c52f01b573d8e31bc450ea8842328956fff226e5f8d502bbade880d9297fe1c695bd91b4eec0f4ee7a600b2565ad618c93d2c9875e99a2b9",
+      "file": "skills/soc/hunting/webshell/hunt/SKILL.md"
+    }
+  ]
+}

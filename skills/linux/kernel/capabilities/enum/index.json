@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "166462b6dbb962976b3956ca24174fd567617de839acd8404755fce140b7d65cd145587241149161b7ba339409f4460d77d8270281020f38bf5fc6df0268f0cb",
+      "file": "skills/linux/kernel/capabilities/enum/detect/index.json"
+    }
+  ]
+}

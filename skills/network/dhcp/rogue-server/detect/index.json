@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dhcp-rogue-server-detect",
+      "path": "network/dhcp/rogue-server/detect",
+      "description": "Detect rogue DHCP servers on the network segment using DHCP snooping alerts, network scanning for unauthorized DHCP responses, and log correlation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "acac93a52e3c76d2eca1f44fb1cc6639fc7ca77876ea8928cfaa19652ab63c246cc91239eafc7e16aa5a471e0e4474d3bb443f8ca146437dc8043612debe875a",
+      "file": "skills/network/dhcp/rogue-server/detect/SKILL.md"
+    }
+  ]
+}

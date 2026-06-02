@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-imagegen",
+      "path": "devel-jb-imagegen",
+      "description": "- **`references/codex-network.md`**: environment/sandbox/network-approval troubleshooting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a2bb0b8435718c19fc253bd55580959eb5f1e6e76825b9be821773c7cd99ba544e91f482c6e4bc48bb51ccb2f0b26aa9552ac95ca98f7fcddb042f3f8d3f79c2",
+      "file": "skills/devel-jb-imagegen/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "bbaed067e2af043a5340affb13bfd6b892bb97072ced15197103ac5dde3b0ccb3bca6b5755a81b8c1646388a294d085acd00afc1d53f3940a2c0982923e8e1d2",
+      "file": "skills/devel-jb-imagegen/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "5ee4aab5c144d26e482c365e79c0b5349d26aee373e0420ceae39ebd46f3bec3c221dbc83ffd62b554b4ba136012ebbc2963f1bfbb7ce1d8ed91ef774347e41a",
+      "file": "skills/devel-jb-imagegen/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "75eaf4577c275a99aaf2481e2bc858a83647045df8587ac65051227b922f6e0f1344f7d0cb006baa43c344fabad57833c2d6234635b3c8b92452dd0fc75bbc16",
+      "file": "skills/devel-jb-imagegen/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2615dd365e62dfbdc0251b20623b3f2932522a6542c57084280c87515269a7d996437f2e6ff1faab7eaf19aa38f14affc962821104c438deca45377c9b9070eb",
+      "file": "skills/devel-jb-imagegen/scripts/index.json"
+    }
+  ]
+}

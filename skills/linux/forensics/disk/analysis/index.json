@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "disk",
+      "description": "skill directory index",
+      "sha512": "5cc7c0fe36a98ab923303f3525737fcd41fd64e2056c74273ab97f861a51d0ee64f4ab2c86535b5fdd4b006e5752a634cdce301947530255fa265ce428d1d93d",
+      "file": "skills/linux/forensics/disk/analysis/disk/index.json"
+    },
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "34af7f2c53037bae9809a3cbc9247e1a428014b1aa0a8c889d5943ec7936b56fd79b13b50b37de9334ee123085b726501855b0054a5e57a4b6e0a291ba6b13c6",
+      "file": "skills/linux/forensics/disk/analysis/endpoint/index.json"
+    },
+    {
+      "name": "slack",
+      "description": "skill directory index",
+      "sha512": "0d5e17ea708ecf41cd87d5a432903ae8b227b9fee082908d26c0fec77f752bcf636b6e6080647b0639ccb58cddb92f7a07dbdb6e395376ebf2ead007c000a71c",
+      "file": "skills/linux/forensics/disk/analysis/slack/index.json"
+    },
+    {
+      "name": "sqlite",
+      "description": "skill directory index",
+      "sha512": "66941649c2e00775d9b613a91b963c42e4447dd8ebe74ca03383b8f4e2a5c150fec938472705f1d64399f9a4110dc4433dfb5d2509be7b0d3eced156ba02ae03",
+      "file": "skills/linux/forensics/disk/analysis/sqlite/index.json"
+    },
+    {
+      "name": "volatile",
+      "description": "skill directory index",
+      "sha512": "ff3c541cffd45e25ce83c1cfbf3bad5ed70e544751776a52dd7aef1fc1c0bfc208da676b95746abf229f33f70d3d7ca1407e5d4190c4fb19e35b33223fcf2736",
+      "file": "skills/linux/forensics/disk/analysis/volatile/index.json"
+    }
+  ]
+}

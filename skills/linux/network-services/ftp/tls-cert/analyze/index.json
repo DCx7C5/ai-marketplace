@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-ftp-tls-cert-analyze",
+      "path": "linux/network-services/ftp/tls-cert/analyze",
+      "description": "Analyse FTPS (FTP over TLS) certificate validity, cipher suite strength, and session resumption security to identify weak cryptographic configurations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "be594b83cf36e06e770e94c0aa382462527ecb279b614fe081174d2daf76f5ecac8308052dfc03e78435f74622f0cd180e225c15862f32a6cf3bb9632ae9da6d",
+      "file": "skills/linux/network-services/ftp/tls-cert/analyze/SKILL.md"
+    }
+  ]
+}

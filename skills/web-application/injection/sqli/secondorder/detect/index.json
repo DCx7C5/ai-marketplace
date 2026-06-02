@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-sqli-secondorder-detect",
+      "path": "web-application/injection/sqli/secondorder/detect",
+      "description": "Detect and exploit second-order SQL injection vulnerabilities where malicious input is stored in a database and later executed in an unsafe SQL query during a different application operation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7f47ef0640d3d01fd54c8ba22ab2e42cbec1875197cff00d20be870a3d359ca472ac169b538c3f8ee0f36e95f2c51b604614cea07eb3b23a1f6b5eb043787c92",
+      "file": "skills/web-application/injection/sqli/secondorder/detect/SKILL.md"
+    }
+  ]
+}

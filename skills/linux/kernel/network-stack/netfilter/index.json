@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "iptables",
+      "description": "skill directory index",
+      "sha512": "44dba6a7c430b5864cdfe91f39206af3eabf6b51ed023c3866aa4f088d4b86413610b846beb7cf72bc96d18c38a85bdffa40d38120c410080083dd8f57050c84",
+      "file": "skills/linux/kernel/network-stack/netfilter/iptables/index.json"
+    },
+    {
+      "name": "nftables",
+      "description": "skill directory index",
+      "sha512": "a440d754ee590e8305ccbb9ab49688290385d10c3e376cf478aad798a6a7159fd0d31390431600f9645bd55e74108dfc80ac41cbdecb91b6aa3e9413b5c45917",
+      "file": "skills/linux/kernel/network-stack/netfilter/nftables/index.json"
+    }
+  ]
+}

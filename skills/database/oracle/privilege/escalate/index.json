@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "oracle-privilege-escalate",
+      "path": "database/oracle/privilege/escalate",
+      "description": "Escalate Oracle database privileges via DBA role abuse, PUBLIC synonym injection, Java stored procedures, and UTL_FILE directory traversal vulnerabilities.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d414f0bd32e5861c397faf55cc270ca05b1b00075a8b05fa8e92cb3eccdd0cc05dac6fc4bdd1185675d3b36a4daf362191155e9b005b1b22850a89e4da446528",
+      "file": "skills/database/oracle/privilege/escalate/SKILL.md"
+    }
+  ]
+}

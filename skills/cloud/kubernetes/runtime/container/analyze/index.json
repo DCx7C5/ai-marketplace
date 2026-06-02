@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-runtime-container-analyze",
+      "path": "cloud/kubernetes/runtime/container/analyze",
+      "description": "Container escape is a critical attack technique where an adversary breaks out of container isolation to access the host system or other containers. Detection involves monitoring for escape indicators",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4814b012d21da71099085f7e63a4fadc1a826b95bfa9ac8c8aed2133b05fe5b27a6229463d23a7d77c69ec4481de87a8eaed331064975c0286180e0bbedf02e6",
+      "file": "skills/cloud/kubernetes/runtime/container/analyze/SKILL.md"
+    }
+  ]
+}

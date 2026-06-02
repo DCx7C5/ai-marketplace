@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mysql-replication",
+      "path": "db-mysql-replication",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ffa4871733a57e4ac44487077f2cd81c4100d9c97774b2404ad1e4dd59b35e538914125b7ca8ddc48ff4235edde58381c4e03f6aedb9d5e8ae179c1c256ad6d",
+      "file": "skills/db-mysql-replication/SKILL.md"
+    }
+  ]
+}

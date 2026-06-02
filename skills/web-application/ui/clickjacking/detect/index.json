@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ui-clickjacking-detect",
+      "path": "web-application/ui/clickjacking/detect",
+      "description": "Testing web applications for clickjacking vulnerabilities by assessing frame embedding controls and crafting proof-of-concept overlay attacks during authorized security assessments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "93268bb1e934f824229269149c4366caa710563357538e0bfdbe7de2676dad72274efe53da6597dcdc4b354aef0e32104c510ba45b9b33a64cfdfc9715aa2edb",
+      "file": "skills/web-application/ui/clickjacking/detect/SKILL.md"
+    }
+  ]
+}

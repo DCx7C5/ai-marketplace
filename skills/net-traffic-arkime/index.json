@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-arkime",
+      "path": "net-traffic-arkime",
+      "description": "Sessions: 288 over 24 hours Avg interval: 300s, Jitter: 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f6a17ebab2c25144e858f49e76b149a48a0aed51e89676ef0aa12ba128d812494c4e0075ee1cfa9504259cfb1d8e2be5b107a53c4a05ab39801c5d4ba82b2265",
+      "file": "skills/net-traffic-arkime/SKILL.md"
+    }
+  ]
+}

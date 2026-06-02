@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "ea0e12ee344ae2251c7a8067f6b7c84595cff5b9260cae5f38b240ad4105b62bee425f5ac616d6eb32e3892498b413f9cde6427b7ad4cfb043cff73c581c9521",
+      "file": "skills/compliance/email/dmarcrollout/assets/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "4d38c5961f5265d35a18ca7eb6871a825acb69a10e88f47c85452f3998bdf296beaf97d36301563c8f8c3f7bd62f5106cde822188a17fa64c0332cb5eb57b8b9",
+      "file": "skills/compliance/email/dmarcrollout/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "bdbb1919b8ac1315db6b24f3aa20a870067e021cc3e0e398a4218d812ea74975412f99074582ae6c3cc58fe45ee92dfe4c36f16b7682752bc8b4c0d13717d136",
+      "file": "skills/compliance/email/dmarcrollout/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d0e8e847f54ab77bc716b5e02a3f899746ded07b26570df42fbcc811cc566ca3f84e01f90af2710730d07bd393bc063055ee3986fde6d09f7b04ccaac4977e5f",
+      "file": "skills/compliance/email/dmarcrollout/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "certificates-transparency-detect",
+      "path": "crypto/certificates/transparency/detect",
+      "description": "X.509 / PKI forensics specialist. Certificate chain validation, rogue CA and sub-CA detection, TLS/mTLS inspection, Certificate Transparency log analysis, private-key material forensics, code-signing ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5be57d984a7c678f57a0ce178b920e50b1360e6ea70f431e8fb48b97fb62b85d773e809bd53a246cb8ce94325dea1601f58ba721f19dbec9f1f917c7e5f4bca6",
+      "file": "skills/crypto/certificates/transparency/detect/SKILL.md"
+    }
+  ]
+}

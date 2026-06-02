@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "design",
+      "description": "skill directory index",
+      "sha512": "5e2c56aa6708a6f07704a42358fc803e0d93de6c6767caa87d773465bdb6d0704a86b386a399294f35b71b36629c2d450339196f72f105b15742a9e4a3f739e0",
+      "file": "skills/industrial/ics/architecture/iec-62443/zones/design/index.json"
+    }
+  ]
+}

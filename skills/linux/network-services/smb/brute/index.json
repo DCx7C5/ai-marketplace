@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "6a8d79e4f3bbdb17842afb8db76a23cd75dd9ec9e117d337c180aef959703e85ad51dac1c13e0344ab30644bdee17b1b4f13991a5b5af353bafe2d274ad0e8be",
+      "file": "skills/linux/network-services/smb/brute/exploit/index.json"
+    }
+  ]
+}

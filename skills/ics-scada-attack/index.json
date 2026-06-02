@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-scada-attack",
+      "path": "ics-scada-attack",
+      "description": "Ics Ics Scada Attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7122e3a712c9392a2fb550941fb5ac057d21ce6eb3a860fd4690541aad32f70591778cc08fa32cacb5452e56ebfd4a1156aab244162627764d806250c3b23ad3",
+      "file": "skills/ics-scada-attack/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6bd8baa1db087d91a7698b0a4d278eafdf02a128b49478fa29239bb9200bbbeee1179f8dabc56aaf98cbeb67baa0e81cc1bd2390dc836b417d981607b59c3e4c",
+      "file": "skills/ics-scada-attack/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "765d378726b599f21f14accef1bb565f13ba4ecdb423df58f001cca4344f3a5018eb62adc9b7888eafd8ad181d0cec436b5095435fc5368f07abaf4d8f62513f",
+      "file": "skills/ics-scada-attack/scripts/index.json"
+    }
+  ]
+}

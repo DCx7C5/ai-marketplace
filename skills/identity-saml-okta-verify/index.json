@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-saml-okta-verify",
+      "path": "identity-saml-okta-verify",
+      "description": "Identity Saml Okta Verify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "709946cd7f53010c2022639ee77b3f376fc06accfb53050e58721b7766c991734bc5daf8032c74fdd0e3a999993f4653a084b6569b8afc1ffa4a1524c6b2591b",
+      "file": "skills/identity-saml-okta-verify/SKILL.md"
+    }
+  ]
+}

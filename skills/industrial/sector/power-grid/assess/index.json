@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "bb2f272a3c9f2a71566a3e5cec876848c97cf55d651265dff1494a3aaa057d89a863d4c4e979907e3956aeb465a3e35c9c5218dc9012f14ed1725a09ca3caa3b",
+      "file": "skills/industrial/sector/power-grid/assess/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "14f315e88235fb0f6c7f5f692f96ae4c840fedc82fbc32058bde1f7234137ae345417b4ab8fbce62b47670dfb89a1c802ede1aa23768957212ece87f432818fd",
+      "file": "skills/industrial/sector/power-grid/assess/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "fcc6ead707203460692f0035c3026496e6b520934ccbca3f81c4d7e32e75059aa87235d0e50ae0c18fdcf6bc7411ae0c894bbf00c2a458def7e6b9f6502a3747",
+      "file": "skills/industrial/sector/power-grid/assess/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "d06f82b8b22db6d54ce6bb5b42f04ed6fa8acd4870b5dbf504ffe36261a74dcccecc924931bc423ddffe5f60b8c3afaa7575512ff3e9e6311d1f6403edfcbfad",
+      "file": "skills/intel/analysis/cyber/detect/index.json"
+    }
+  ]
+}

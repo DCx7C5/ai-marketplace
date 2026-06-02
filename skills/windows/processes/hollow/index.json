@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "technique",
+      "description": "skill directory index",
+      "sha512": "608a400058467052300243848379c8f95720b12ec0c8632893927e78e67a9d2dc8381828ca7ce9554fd31e76ae6b426fd9428de5c123e9ca8f32178c35715ac0",
+      "file": "skills/windows/processes/hollow/technique/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-smb-signing-audit",
+      "path": "linux-net-smb-signing-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "32d167633fe09df6b94bdf3ce57f2d75f75b0ec297488f29801eaa990f0cb2c7d6ecbc11f580367d3dfc2551e708f246b4a95650b25cdf2bf2d40d22d8e3dd47",
+      "file": "skills/linux-net-smb-signing-audit/SKILL.md"
+    }
+  ]
+}

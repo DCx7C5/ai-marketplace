@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-shellcode-pattern-detect",
+      "path": "linux-mem-shellcode-pattern-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ab904cf4c6c56250699958e66b92b53ec59d53c178d23b5448ee1b28d7dbe953c421e86264a533f20b3beb68b501e7c8e9a173f29c18464ce64f5680790afb61",
+      "file": "skills/linux-mem-shellcode-pattern-detect/SKILL.md"
+    }
+  ]
+}

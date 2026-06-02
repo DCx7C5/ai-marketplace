@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-acquisition-volatility-analyze",
+      "path": "linux-forensic-mem-acquisition-volatility-analyze",
+      "description": "vol3 -f memory.lime linux.malfind vol3 -f memory.lime linux.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "56bcc79ea07bb0c1113773d667c20a7da3ace0d8586d9480400ae1705bcd9da22dda260eef3e9511d75c4b4339b840e7ef4bc684c88986d953a3cf65696e80c6",
+      "file": "skills/linux-forensic-mem-acquisition-volatility-analyze/SKILL.md"
+    }
+  ]
+}

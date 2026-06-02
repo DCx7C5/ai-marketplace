@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-signatures-signing-configure",
+      "path": "crypto-signatures-signing-configure",
+      "description": "| | Unsigned artifact in evidence chain | T1565 \u2013 Data Manipulation | | Key file with wrong permissions | T1552.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5bc813f13c67c5322b7fb1cbb06cba5b44d64bbdfd737e196c24a03f5f8c1f3ce3040559467171824f14045aef04bbbe2c96a02433934e2fead5ae77d976ad3a",
+      "file": "skills/crypto-signatures-signing-configure/SKILL.md"
+    }
+  ]
+}

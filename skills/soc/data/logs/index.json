@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aggregate",
+      "description": "skill directory index",
+      "sha512": "efcb49ab066c4853f463208d2f22f671582daa695c8b8420d50903389df4478641a6678d67c9e0961b53dcc9fe0f84e85f5665130ee6c26c50c997d1c6987962",
+      "file": "skills/soc/data/logs/aggregate/index.json"
+    }
+  ]
+}

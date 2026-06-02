@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-access-control",
+      "path": "identity-access-control",
+      "description": "Identity Access Control.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b80c45f4f99f751e5974c7c5814c7a00257f3826efd05ec72b976ac3db1c721e8363d32eed4ae284a11da1d7431bac6953bc889b28172fecca39e96a1567240c",
+      "file": "skills/identity-access-control/SKILL.md"
+    }
+  ]
+}

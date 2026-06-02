@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-threat-phishing",
+      "path": "email-threat-phishing",
+      "description": "- Report on confirmed threats caught by user reports vs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1fda1414dc936b4ebef02bd7d200a1aef6a3e0787cbe530cb9b82591fadb88c95d07ba82b61ccbaa19abe5dceceddaf1a1df7990f956ee2a8866ef5529e9ac46",
+      "file": "skills/email-threat-phishing/SKILL.md"
+    }
+  ]
+}

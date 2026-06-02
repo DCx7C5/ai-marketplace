@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "1c802d35633345698e711650bb6dc09eebbc0c2bd5aef7d773dda451138fe943381a3134e184b8eebb174ff1ad311c102a71094b203b95debc85565c64e6b300",
+      "file": "skills/cloud/serverless/general/index.json"
+    },
+    {
+      "name": "serverlessharden",
+      "description": "skill directory index",
+      "sha512": "da1903752745f6ea25aa7ecb0d8d68c2125be9019602ebe4a77601afa382706eed4698209357f9684005bb33f0fed4d505b408e7f2e012ede6abeff7adcc17bc",
+      "file": "skills/cloud/serverless/serverlessharden/index.json"
+    },
+    {
+      "name": "serverlessrev",
+      "description": "skill directory index",
+      "sha512": "9c3661b5ee53356222c69c99494ca49135ae84de2713d7d35451b2c5609075a6383cdb3b9a9265fa9bbca0fcec85a1c30942f8b007f7eca70882a3f95a835bc3",
+      "file": "skills/cloud/serverless/serverlessrev/index.json"
+    }
+  ]
+}

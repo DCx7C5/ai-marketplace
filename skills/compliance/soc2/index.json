@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auditprep",
+      "description": "skill directory index",
+      "sha512": "c737ddebaaf0073c1ffdfa698a414f2bec016b2bfc274af64a447e3a887a494762384521b314f9c44cd4c3d65d412402eac009a877a30bc21e47f142c5d7e3bf",
+      "file": "skills/compliance/soc2/auditprep/index.json"
+    }
+  ]
+}

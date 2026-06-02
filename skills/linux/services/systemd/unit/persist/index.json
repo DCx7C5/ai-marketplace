@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "73795633e2a2ef8a96c433a3438bfad87389f3d533f09b33d838910fe9a7559bfb89b9141715aa33eba03b1d508576ebd44cd0f304d51affa2454b8274b80fd7",
+      "file": "skills/linux/services/systemd/unit/persist/detect/index.json"
+    }
+  ]
+}

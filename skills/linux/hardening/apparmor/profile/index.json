@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "create",
+      "description": "skill directory index",
+      "sha512": "6743651b8c15fbac5fcc54030d14447deb525bb43f85721cb40e0ff1b2c453f3c4b12b41abd7529206fc80c2f6502242cf66081ca3d53d02da84e4ba39818e9d",
+      "file": "skills/linux/hardening/apparmor/profile/create/index.json"
+    }
+  ]
+}

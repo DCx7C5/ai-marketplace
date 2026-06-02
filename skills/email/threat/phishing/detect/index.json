@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "threat-phishing-detect",
+      "path": "email/threat/phishing/detect",
+      "description": "Implement a phishing report button in email clients with automated triage workflow that analyzes user-reported suspicious emails and provides feedback to reporters.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fc01f1b7d5e62114c99b7ffa343593f9c446be551cd315525f9edb5987cab6397dd17b55ddb490a49109223ccf707fcb0afb42cd8a772639dc3cb02014168a5a",
+      "file": "skills/email/threat/phishing/detect/SKILL.md"
+    }
+  ]
+}

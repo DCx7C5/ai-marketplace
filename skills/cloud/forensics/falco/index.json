@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "05698c55eba3f3cda9e26ba4739e851c8ade2be67f00b3e13e7367aac4223b3f24c952cb8dc0d6db676ebcc7c2e98ddb47b9dd25fe63cbd1584f50f75c4084fe",
+      "file": "skills/cloud/forensics/falco/detect/index.json"
+    }
+  ]
+}

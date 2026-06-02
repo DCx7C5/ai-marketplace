@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "dcb3c1a443e79dbc7a44aaa25e19784524f4ec82c947f56e94791fb6ed4c5222d7b222b42e51b5a4880eb5fd8b54b86be4f1c0c0f609c6fac9b10d813dca393d",
+      "file": "skills/web-application/api/graphql/introspection/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "08784a22c23f888bd5dcaeb9605e557544b05531ab1a90e2e2cc458114f5f4034206c96e144031a52673916cf1f6b0c753e86fd98521148886c33fff66b732ac",
+      "file": "skills/web-application/api/graphql/introspection/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ae45c7da944fbbf9a73a0404e670962779bacd91066f0edb6be93a94146a24bd4d677279cd0d6e732c47c87dd4c34b5aeb4c3086b92d4852c97c922e10acbe57",
+      "file": "skills/web-application/api/graphql/introspection/scripts/index.json"
+    }
+  ]
+}

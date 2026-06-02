@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-network-stack-netfilter-iptables-audit",
+      "path": "linux-kernel-network-stack-netfilter-iptables-audit",
+      "description": "subdomain: network-security tags: - linux - iptables - netfilter - firewall - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d3a7fa97fff99cea0ed9e8a949ec6fee3105ff38bce2bcfd64d767074ea372143b655e4fbc7db42e6de1a71be845821894b6303f9a48724c13ac0900e91e8928",
+      "file": "skills/linux-kernel-network-stack-netfilter-iptables-audit/SKILL.md"
+    }
+  ]
+}

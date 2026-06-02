@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer3-bgp-hijack",
+      "path": "net-layer3-bgp-hijack",
+      "description": "Net Layer3 Bgp Hijack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1079af9cd364c12b7e91393ceb3b313ca04ed0b05ec8f00c02654777b69ffca2e5c238e6c06902d64113112deb45fd05676815e16bc4255c83f77e73abc948bf",
+      "file": "skills/net-layer3-bgp-hijack/SKILL.md"
+    }
+  ]
+}

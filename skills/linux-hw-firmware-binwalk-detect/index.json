@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-firmware-binwalk-detect",
+      "path": "linux-hw-firmware-binwalk-detect",
+      "description": "- 0x00000000   U-Boot bootloader header      64 bytes 0x00020000   LZMA compressed data          1,048,576 bytes 0x00120000   SquashFS filesystem v4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e12304f723791dc445a982177dc1ae910758920972bae410050ee0659c16a8202002ef9243e60306de11034d96db3c124c5b8a6902be6dab48bc63dc63ef7933",
+      "file": "skills/linux-hw-firmware-binwalk-detect/SKILL.md"
+    }
+  ]
+}

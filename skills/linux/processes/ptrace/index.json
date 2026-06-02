@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "817fa1d31d2a5dc46fdbf9ef4546fd20d1da39ff7c97ae073b23b37b6f96cbc707d6cd500d0e5a5467a6c6cee7bf6591f8a700733e895e33aa67c46c3a700217",
+      "file": "skills/linux/processes/ptrace/injection/index.json"
+    }
+  ]
+}

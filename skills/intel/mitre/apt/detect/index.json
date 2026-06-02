@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mitre-apt-detect",
+      "path": "intel/mitre/apt/detect",
+      "description": "Analyze advanced persistent threat (APT) group techniques using MITRE ATT&CK Navigator to create layered heatmaps of adversary TTPs for detection gap analysis and threat-informed defense.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e6e2cefe4404505126785edbd5c4e97c44e5ffd8866fb45d427e1c16cdf7d31133f8020ed0680674c2551ad416ee82857729d01c20753a6e49f9690c8066daed",
+      "file": "skills/intel/mitre/apt/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "96b4df6df17855b2898a68ac1883996d12c1ebb14015fd1f6cf575113ec8939a5de63544aad767f504170db35b32a027325bde97c2d031b9d5b4fb501955072c",
+      "file": "skills/intel/mitre/coveragemap/detect/index.json"
+    }
+  ]
+}

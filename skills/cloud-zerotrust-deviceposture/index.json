@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-deviceposture",
+      "path": "cloud-zerotrust-deviceposture",
+      "description": "Cloud Zerotrust Deviceposture.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c3e794b17f18a4fd27eea9b0a43fc7f0bb81abbbed84e0a82ef4f1b5a9ee54b3f8faba6b693290e0382c19559ec25121207f662e0137ca4868239368bf8fd235",
+      "file": "skills/cloud-zerotrust-deviceposture/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "739f3d1265c7b39a21198979319f674bf00a530b07fa96a988cadf7a07249c795e1d0427ff53b7310f6bf30afd06476191d3cc4c09b95b27800ee03490b6491b",
+      "file": "skills/crypto/signatures/signing/implement/configure/index.json"
+    }
+  ]
+}

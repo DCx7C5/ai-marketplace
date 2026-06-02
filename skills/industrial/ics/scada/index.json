@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "ed0bd80c5557f135d9c3e718b56797dc28e15585ced322da1c6e2f18459177b3de2cccfc40376863235fc42bc66893d805b5b1e89878b84551aa34489adaa1e4",
+      "file": "skills/industrial/ics/scada/attack/index.json"
+    },
+    {
+      "name": "hmi",
+      "description": "skill directory index",
+      "sha512": "89d3a60dd40885c6927936093f05f31cdcb98f5d7596dc3f3057c03b6063ca7de629ed6e61af67b4738f10966f85dce9226cd7bc588a1d9fd3bb1aa964b39940",
+      "file": "skills/industrial/ics/scada/hmi/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "supply-chain-binary-hash-verify",
+      "path": "linux/supply-chain/binary/hash/verify",
+      "description": "Verify system binary integrity via hash comparison \u2014 baseline critical binaries (ls, ps, netstat, sshd), detect replacements, and identify trojanized executables.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "508222eebd2a2ffc3a330a0e87bc5f1fd707191d71915941180a2787c3c1df5ffd5e7377e4de17b9df27ca34fbbaf14957e0ed97a019539c68732c34ee9f66b4",
+      "file": "skills/linux/supply-chain/binary/hash/verify/SKILL.md"
+    }
+  ]
+}

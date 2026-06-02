@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apt",
+      "description": "skill directory index",
+      "sha512": "c537739c64f03112f8e3f29ff755143c043620227024972154a8a2e88e20691c0406378b315334c4d4fc1298607704b5b56c0664e2f438fa2fa4567252b17a5a",
+      "file": "skills/soc/hunting/network/apt/index.json"
+    }
+  ]
+}

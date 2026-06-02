@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-email-analyze",
+      "path": "soc/hunting/email/analyze",
+      "description": "Detect malicious email forwarding rules created by adversaries to maintain persistent access to email communications for intelligence collection and BEC attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fb455fd46931069e0ac8bdef4d0831ad949b950b00a9a205158f68260129574b70c800849dd48c63d9875a8a9dc326103cd1b23f4b92b67680f324e21fead7bd",
+      "file": "skills/soc/hunting/email/analyze/SKILL.md"
+    }
+  ]
+}

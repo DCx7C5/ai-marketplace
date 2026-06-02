@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-zscaler-audit",
+      "path": "cloud/zerotrust/zscaler/audit",
+      "description": "Configuring Zscaler Private Access (ZPA) to replace traditional VPN with zero trust network access by deploying App Connectors, defining application segments, configuring access policies based on user",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3cf91338c7dce0802699ebbea25c29f803fc2f57de920ccd95980d99feec2c3a4f9c6cd6f12a5cf86e6b6f314fc7d0e5686874a1c4d0aec1b83fbd49226f0c3d",
+      "file": "skills/cloud/zerotrust/zscaler/audit/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-xfs-metadata-analyze",
+      "path": "linux-fs-xfs-metadata-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "28c2b19039b08693a1fcd4848d357d4cc2341545590fd72cf2fa5addeb741b3efa387202bcfe2ae97cb743201f3215f623fcc4aed21636cfd9d3d92033cc3ae9",
+      "file": "skills/linux-fs-xfs-metadata-analyze/SKILL.md"
+    }
+  ]
+}

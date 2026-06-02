@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-ssrf",
+      "path": "webapp-injection-ssrf",
+      "description": "--| | 10.0.0.5 | 6379 | Redis | Yes | | 10.0.0.10 | 9200 | Elasticsearch | Yes | | 169.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c5c97e896e13aba42ef828b9bcc984b18279d9b3e608e0aa5f6af41812d9309d26f0c3ff6ea0c626e7c78bc68e177b70d173630e8a3eaf9dfb9cf8d62df268a7",
+      "file": "skills/webapp-injection-ssrf/SKILL.md"
+    }
+  ]
+}

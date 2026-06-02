@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-ebpf-tracepoint-deploy",
+      "path": "linux/kernel/ebpf/tracepoint/deploy",
+      "description": "Deploy eBPF tracepoint programs to monitor system calls, process lifecycle, network events, and file operations with sub-microsecond overhead for live threat detection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "828f97d1f6f5bef0be643db931f65bca387482964a93321f61cd68012e1f4dcad7f7d27e510670b08e4991db979bbf89cb460c1ff1c12726fe75491746912b0d",
+      "file": "skills/linux/kernel/ebpf/tracepoint/deploy/SKILL.md"
+    }
+  ]
+}

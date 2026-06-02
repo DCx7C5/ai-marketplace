@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-pam-module-backdoor-detect",
+      "path": "linux-id-pam-module-backdoor-detect",
+      "description": "subdomain: identity-security tags: - linux - pam - module - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1fd28a12835ad6fd2dce75d937fd994bad627c1df6ced955b5e3042f1ff548fbfab34e6aec42acc9d97f4020fc59cfb34890a73601d3dcfca18fc95480de26c1",
+      "file": "skills/linux-id-pam-module-backdoor-detect/SKILL.md"
+    }
+  ]
+}

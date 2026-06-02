@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dns-dnstwist",
+      "path": "net-dns-dnstwist",
+      "description": "Net Dns Dnstwist.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "789fa57a7c4d64afe68f5291a5f3c4e6de0d1f0375b8ba87538309ce4f6f747499d152ecb2896c22c94f4c5501b6974afa21da4f7925752e676cd608737243c5",
+      "file": "skills/net-dns-dnstwist/SKILL.md"
+    }
+  ]
+}

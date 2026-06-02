@@ -1,0 +1,175 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "acl",
+      "description": "skill directory index",
+      "sha512": "d04d50371e79b4d7ec8cecbfdac1361756304fb3c35b638f92b3063deae3fdb0a6d70185d3f9df88dfeb91641805bcb42acd471ef7848b53de32c42dd4a971c8",
+      "file": "skills/linux/filesystem/acl/index.json"
+    },
+    {
+      "name": "bind-mount",
+      "description": "skill directory index",
+      "sha512": "c81f8b006c84492e3a2063a4fbe3347702cca3c7f778bdf69dfcd96a4bd15f83e19cff37b0f55db91a1263e2803748727a3d36577b4f16beed9bdb152bd50b43",
+      "file": "skills/linux/filesystem/bind-mount/index.json"
+    },
+    {
+      "name": "btrfs",
+      "description": "skill directory index",
+      "sha512": "1b5b7422957c81d7a85107b692b05e02c9b4832f32fc4f49cf9d9c72151bce480afcb493179c6e7fe8c2413c929e4f41d92b2b339f00beba93c221ff9f0f1505",
+      "file": "skills/linux/filesystem/btrfs/index.json"
+    },
+    {
+      "name": "coredump",
+      "description": "skill directory index",
+      "sha512": "89a1591ff9c528acd434eee64efedea6a470215ed667994ecea32dceb63451ae70125a849c0ad606302bac73be163401bb1108bf38a2b246dd114343f88681dc",
+      "file": "skills/linux/filesystem/coredump/index.json"
+    },
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "a9fea707a1798b1851094182a4d1a0476202e6431e3c9e8a6dbf7b29893c258db6964c8c0911103021a2e9c518d7583022cf669c5de2ec11d092d95a63c971a5",
+      "file": "skills/linux/filesystem/endpoint/index.json"
+    },
+    {
+      "name": "ext4",
+      "description": "skill directory index",
+      "sha512": "00a297747da59dc9d88c7f7e9f23b862f9b3e81534858ba883cc8fabb1c16fb05268af3a763af6c812b403ad4b455a19df53d5a631c31ad6496b384cb9d32bde",
+      "file": "skills/linux/filesystem/ext4/index.json"
+    },
+    {
+      "name": "fat32",
+      "description": "skill directory index",
+      "sha512": "0d9edde11b674588f00c8ce1a9489bfe681f0eecad8b98f4ad97ddb47ed7c9e37fbad6de09b96de3d5b1f7eeb2cb81d8e2b5fceb92c4b52f10609c67b8d0da94",
+      "file": "skills/linux/filesystem/fat32/index.json"
+    },
+    {
+      "name": "file",
+      "description": "skill directory index",
+      "sha512": "ba87a4cc8d47a1a2926713075dbe128d9d082c4daa1ee53b9c9ac8a91632bdbc2a5364a4c3ba86539199a4c5eab36ec113e96184299839a9090d5bde8c41e95a",
+      "file": "skills/linux/filesystem/file/index.json"
+    },
+    {
+      "name": "fuse",
+      "description": "skill directory index",
+      "sha512": "e4d25ec5539b713c2849d59de1f8eaf63d8e993ceaa3abfe2ecac4295a272e902786471f6da20a377e7207eb74db9141a02e30506402ab6972165c0aca9806e1",
+      "file": "skills/linux/filesystem/fuse/index.json"
+    },
+    {
+      "name": "hardlink",
+      "description": "skill directory index",
+      "sha512": "9e358ab2b5e3bdda2f4a157483d7304506fff20c4af714a8e6a3fbf295d6535c64660eb859fb4ae46bd1171493ab9b9273126be924787bc2429e3b86e76b1141",
+      "file": "skills/linux/filesystem/hardlink/index.json"
+    },
+    {
+      "name": "hidden",
+      "description": "skill directory index",
+      "sha512": "988ea304c2d87a899e0f7de31e683279ae72f82366a8d4e6682c56cd0736ac066f68ad7af55c15c39ba3913dc7d6cc1d0f51f6d1d713e7f9d8d32559fbe4e979",
+      "file": "skills/linux/filesystem/hidden/index.json"
+    },
+    {
+      "name": "inotify",
+      "description": "skill directory index",
+      "sha512": "0ede3dfcef0435cf1418478e8fe86ffa6a0d0394775710831c0169d5108864b6c597f93d7297e085a0fd32bd8b0f3a08241b87f19e60d7a801ff6500516e38b2",
+      "file": "skills/linux/filesystem/inotify/index.json"
+    },
+    {
+      "name": "integrity",
+      "description": "skill directory index",
+      "sha512": "b3fcf5f6ea27bdbb47b340e7851e8c580a3130051757ec18f67106e128f794b956de1768986b4d5ebe12df2d74799e0d3642dd36e6482d050e01ffa1809f3366",
+      "file": "skills/linux/filesystem/integrity/index.json"
+    },
+    {
+      "name": "luks",
+      "description": "skill directory index",
+      "sha512": "ccca3e977a707a66cfbb7573eb3fada284f4ebca96413562fdf1725858532662da4015eeef330fd78e0113dbf31757754c095c6f08305e43428907247fa0bfed",
+      "file": "skills/linux/filesystem/luks/index.json"
+    },
+    {
+      "name": "lvm",
+      "description": "skill directory index",
+      "sha512": "cf7673a07b38c0ca99ba00708ad92ec414526b64e4abc09888ef6f18cfac6f9b92240c7e1d3663c3c3770ffcf916bbe706ef17d98c40aef447b26e6c720a77d6",
+      "file": "skills/linux/filesystem/lvm/index.json"
+    },
+    {
+      "name": "ntfs",
+      "description": "skill directory index",
+      "sha512": "065993f034a5a15f74a069828a25e85a8e1364eb73845701fc16480b9b1b718040e33b1c069cbafd7e8bcb5115727f35218ebe753459216e94ca23f670561ddb",
+      "file": "skills/linux/filesystem/ntfs/index.json"
+    },
+    {
+      "name": "overlayfs",
+      "description": "skill directory index",
+      "sha512": "0aaa43d240b626bb5ef0440458868e1aa4ff3eadb48247dbb6cb60d5530b77d8c52aaf222e4a09b3844648d7f0e6ddb8e1777a1739f90f871e37bc045d505bb9",
+      "file": "skills/linux/filesystem/overlayfs/index.json"
+    },
+    {
+      "name": "permission",
+      "description": "skill directory index",
+      "sha512": "b38b75865543a0df4f26878546becfe5f653964c494b572483e494b62e6886e6c8d568422b2068631b4950dd9eda6f683c1907ab650591e55603051f6070f533",
+      "file": "skills/linux/filesystem/permission/index.json"
+    },
+    {
+      "name": "procfs",
+      "description": "skill directory index",
+      "sha512": "b5b63cdf0d650e0dcd8ff73de72289e2e32cb6926ff1e333f6e9b3675e45017fb0d231a93bfae37ddb888256daf4a59f92437fb5d1ac0c1e3303884d4775c8ee",
+      "file": "skills/linux/filesystem/procfs/index.json"
+    },
+    {
+      "name": "quota",
+      "description": "skill directory index",
+      "sha512": "afc22bba2e5d55ab4e467e9bc344c7752b86d40ac51f4d47df441195dbb99f8c9528c076a6ae7519a948e298633ce6c32e9a4a9a9e68af5385e7ae87fd4a8deb",
+      "file": "skills/linux/filesystem/quota/index.json"
+    },
+    {
+      "name": "squashfs",
+      "description": "skill directory index",
+      "sha512": "3ce4940a52d9034c432e3735731efd8ba0b3c1ab34b1b3a881d8f9b7734dccc28baa500cc59685f6b82ba4facc2512f2e48fda447be53c5086ed5ed52248410a",
+      "file": "skills/linux/filesystem/squashfs/index.json"
+    },
+    {
+      "name": "symlink",
+      "description": "skill directory index",
+      "sha512": "1eda710b97303ed5a4570333de98144a5375bb0f34e4ac87abede2a9552180ef8c855c8fbb544f90ca3d13f7ff5a23a9692b8f611dc140103ab9bc547d51f7ec",
+      "file": "skills/linux/filesystem/symlink/index.json"
+    },
+    {
+      "name": "sysfs",
+      "description": "skill directory index",
+      "sha512": "2586be8b19d809d34ed0495ee9521ace78f4e4992895ed888de904f0769253028517471851ab90ed4b5cb47d09b0abb3e2c5fb64d0ca7e21e89141ffbc08ceb6",
+      "file": "skills/linux/filesystem/sysfs/index.json"
+    },
+    {
+      "name": "timeline",
+      "description": "skill directory index",
+      "sha512": "e828bffa368415c5f77e2a5cd082ed1289be5af2eaff1ceb3dacdbc1410c522a7b08df0eb96f8c9e6a0d218417725eed0d05a341a4eb424d1e8d9986dbb38380",
+      "file": "skills/linux/filesystem/timeline/index.json"
+    },
+    {
+      "name": "tmpfs",
+      "description": "skill directory index",
+      "sha512": "5a6cada17fc1a40f0044d80e22f97a8ca48fcc55676b5c2f191202fceb1f0477beb8849cbea163f7de1fb19046df89ed4c3c2e62ff1d0092e420ef4f607dc8ba",
+      "file": "skills/linux/filesystem/tmpfs/index.json"
+    },
+    {
+      "name": "veracrypt",
+      "description": "skill directory index",
+      "sha512": "0d4d5ba91e6a6bfced782521f25801e7bf3aff366d30078a7d741c76bacbb57021b2412f3dbbc0b5a74c7f66d790bfcc8fa8f38d1acb2f4c900216f494509a7e",
+      "file": "skills/linux/filesystem/veracrypt/index.json"
+    },
+    {
+      "name": "vfs",
+      "description": "skill directory index",
+      "sha512": "ebc0de6f3d3a2db4f6863f5f0931a696f768b4d08cbd770c898e4d9c77fcc984c4dd9bda680fbb699e261044b14f1a6225113cf250413b3009c4ed8839621469",
+      "file": "skills/linux/filesystem/vfs/index.json"
+    },
+    {
+      "name": "xfs",
+      "description": "skill directory index",
+      "sha512": "b78b3820c980538ec3b0fdd74796667d489ef2bf424a2a5a4fd66aa11b144e84ba0fa965282199612b49d0c36eb6f76b16fc11252c49abb926fdc98094692083",
+      "file": "skills/linux/filesystem/xfs/index.json"
+    }
+  ]
+}

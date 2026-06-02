@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-compose-ui-test-server",
+      "path": "devel-jb-compose-ui-test-server",
+      "description": "-| | `GET /health` | Health check | | `GET /onNodeWithTag/{tag}/performClick` | Click element by test tag | | `GET /onNodeWithTag/{tag}/performTextInput?",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f789060f7ed0063a984bfd489a683f6318608875cf2069f75f81bd83612e9c2040f415ae76ad7bdb6c8c688d8d1a6eae5b6e3090ffc0a0cd1a0a4012f7a6b5ab",
+      "file": "skills/devel-jb-compose-ui-test-server/SKILL.md"
+    },
+    {
+      "name": "docs",
+      "description": "skill directory index",
+      "sha512": "0e039bfb06c5a29af5729fe5eb5e47458f32003a52af9813fb5484df9529d0b7ab47909980ebd56dc3c9edaccb297c8e95f8b927dc7206e2e207242f72d4d943",
+      "file": "skills/devel-jb-compose-ui-test-server/docs/index.json"
+    },
+    {
+      "name": "gradle",
+      "description": "skill directory index",
+      "sha512": "d7e95632f74de182a7e1e9821e339736e1849899bcbca499e278eee2dc9378b69f821408c2575c59dd1b83d47b424bcb4f08eb8ffba0384afdb41c026908ec03",
+      "file": "skills/devel-jb-compose-ui-test-server/gradle/index.json"
+    },
+    {
+      "name": "src",
+      "description": "skill directory index",
+      "sha512": "713590e423cceac1115888c4fafff122634f6d75391268c46d1b3bb7ce1ad352d18e5207c91477050e4b10f200936dcbcee14a1d7d8b80ed5cf75f7110fc22ec",
+      "file": "skills/devel-jb-compose-ui-test-server/src/index.json"
+    }
+  ]
+}

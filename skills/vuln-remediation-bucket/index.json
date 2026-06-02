@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-remediation-bucket",
+      "path": "vuln-remediation-bucket",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9103c9065735f974fbf7d5f852b0a6137fe63481e03bb674a1c5c4e5f991b98eb2b56a68e48af06296d59fb4450767cb716ebc40eb70f156941379627f039cf7",
+      "file": "skills/vuln-remediation-bucket/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "616d8d384146010d953c52716e6a8e999fb43bcd7817abdb00c06fcb48614c1b5605ee5e7207ecd5c6b825f93d6cf82c6bb55ed43e23a70c0a4add1393bcda96",
+      "file": "skills/vuln-remediation-bucket/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1fcddf471defa84dbf2f40b83dc31aadbf3242d06bea291e950ca6357ab8775cd9268162636726787ec7138632c54aba64fe179fca39d14263f87085ed6a1f93",
+      "file": "skills/vuln-remediation-bucket/scripts/index.json"
+    }
+  ]
+}

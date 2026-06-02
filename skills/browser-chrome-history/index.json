@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chrome-history",
+      "path": "browser-chrome-history",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0b44b69374c8e8a6ec93361d62b04043c26d0504f4047d50a89e855591b49e17ae2163cab373715641269567b2fd380be188ce78d96c1419c4cfa0c54b071bc2",
+      "file": "skills/browser-chrome-history/SKILL.md"
+    }
+  ]
+}

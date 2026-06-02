@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-lolbins",
+      "path": "soc-hunting-lolbins",
+      "description": "Soc Hunting Lolbins.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a8977ef1e0c04034f6aad1c55a159d8e49cba03c3983c93dbaab09498094e527b0cd6cb6f706955c498ce9059ca099dce44ce1e3f6838cad3e36c5067fb0cc50",
+      "file": "skills/soc-hunting-lolbins/SKILL.md"
+    }
+  ]
+}

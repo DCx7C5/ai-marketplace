@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tamper",
+      "description": "skill directory index",
+      "sha512": "8ee1d0a2fcb00120394d43c2b4e00f418f8d9ede6c45b3a0fd8a6a0be50d9db667ee45895e1bd04e70ee3cc57da6bd29bdfc29064f8f59ea835b45ea942af047",
+      "file": "skills/linux/kernel/boot/uefi-variable/tamper/index.json"
+    }
+  ]
+}

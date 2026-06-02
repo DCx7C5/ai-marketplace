@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-image-gif-palette",
+      "path": "stego-image-gif-palette",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d5e62a1729d38f5ce9612f113e9ccbbbf9e4d51032c5eca145d6a8a0b4f230e9b989169ce0c83f1a52a2befaeb1b3ea80c6c5f2f0f12eea3250353cd6a528853",
+      "file": "skills/stego-image-gif-palette/SKILL.md"
+    }
+  ]
+}

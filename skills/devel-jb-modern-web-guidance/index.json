@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-modern-web-guidance",
+      "path": "devel-jb-modern-web-guidance",
+      "description": "No defined policy format. This is an example: `**Browser Support:** Allow Newly Available features, but only adopt custom fallback code that adds <= 20 lines and does not require external dependencies",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a2bf789e121a03f5c31bef74fecff6af3ed54b787512e62105a03afdd4d7b474c96722c96b20a862190a208859ced87a42f25134e91ea51ff3753a5f6abc228",
+      "file": "skills/devel-jb-modern-web-guidance/SKILL.md"
+    },
+    {
+      "name": "guides",
+      "description": "skill directory index",
+      "sha512": "59a8065300a75583aabee8e71cd3ff65a08a7612c0300d9d41188fe98393a5d8601158fcd832f47efd0ab10cf3352373e936d0439e3b5a7c38e82c8f83ac8769",
+      "file": "skills/devel-jb-modern-web-guidance/guides/index.json"
+    }
+  ]
+}

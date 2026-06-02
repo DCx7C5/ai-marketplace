@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-smb-credential-intercept",
+      "path": "linux-net-smb-credential-intercept",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9a3bf18d8a579f9e0d84af72d50bbcad2bfe5ca2f8b8481c7602d0cada4a9339a7e4eb9bd9cf84e2fa7cd925a15bb8dcd83e3b89592f0dd9e295cf767e9a9d1c",
+      "file": "skills/linux-net-smb-credential-intercept/SKILL.md"
+    }
+  ]
+}

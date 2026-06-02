@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-general-overview-analyze",
+      "path": "cloud/aws/general/overview/analyze",
+      "description": "Detecting exposed AWS credentials in source code repositories, CI/CD pipelines, and configuration files using TruffleHog, git-secrets, and AWS-native detection mechanisms to prevent credential theft a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1111c1856c43935f09f28d3d6d39aeaa98a84ad2937a3477fabe34983dbc33677a1efe96b1b7e6b12757189f015083a375430859f5f6f81bbf377451b45cf58e",
+      "file": "skills/cloud/aws/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

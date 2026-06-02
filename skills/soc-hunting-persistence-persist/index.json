@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-persistence-persist",
+      "path": "soc-hunting-persistence-persist",
+      "description": "Soc Hunting Persistence Persist.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "613525ac5e6acddd7b6a3c8ffb53ac8178c9900d0b3f46978bac8d071d149b27f79e9db63a5a79b1bff2682c0c481046809e338bf48d78647581ea12419e4ad1",
+      "file": "skills/soc-hunting-persistence-persist/SKILL.md"
+    }
+  ]
+}

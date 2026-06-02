@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-mem-kaslr-bypass-detect",
+      "path": "linux-kernel-mem-kaslr-bypass-detect",
+      "description": "subdomain: kernel-security tags: - linux - kaslr - kernel - aslr - bypass nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4b8573346d646193d6ff6855cf1efc28d5c3105f24b67e25a5133be28deb8e70ce858358b25310db24fd05f2a81857bcfca3236e65ae39af463212464df0664e",
+      "file": "skills/linux-kernel-mem-kaslr-bypass-detect/SKILL.md"
+    }
+  ]
+}

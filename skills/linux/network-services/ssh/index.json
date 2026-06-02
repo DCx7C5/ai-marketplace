@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "brute",
+      "description": "skill directory index",
+      "sha512": "8427bb248d1fdeb37c2cdb3a6ecb5079d88d6f11bb82d9591473ae3825ad6fb057697f03809314e3ab1fe528a3afcc29a701286c4bea95a7b526c11a13fd14a7",
+      "file": "skills/linux/network-services/ssh/brute/index.json"
+    },
+    {
+      "name": "tunnel",
+      "description": "skill directory index",
+      "sha512": "b4e526446fe2e21cc146f129a4f9e8be2a327f84230a000ff15ab3fa1523f06b7d321ed0c3c0f1b6313902c61a6919586df80929b54a1ea31bb13904977af2a0",
+      "file": "skills/linux/network-services/ssh/tunnel/index.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-cloudflare-deploy",
+      "path": "devel-jb-cloudflare-deploy",
+      "description": "Devel Jb Cloudflare Deploy.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed3f3447cc64ae6fe361a00f103e8e34d70d4d03bdd25d4a6ecd0c7e39b4d92da7d52e28075bc3d06750400035dbce4363f6efbcbdaccbee274b6997099b6a72",
+      "file": "skills/devel-jb-cloudflare-deploy/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "4486ecf9fcb83040965b4efb6b2537438b770d38b3a8199f68261fee62b2472e135287fe70384a0fefd5e78e57ef2f59b286cda851aaf11f0d5af6a4d50af44d",
+      "file": "skills/devel-jb-cloudflare-deploy/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "1df8e84a9859e1e3cdddb52987cd3970dde7125d32a466f6153f398c60c0a23963c4f8c3594b75434042599a07674b43a5818f163e76fd74b63a1d503c1e233f",
+      "file": "skills/devel-jb-cloudflare-deploy/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "283a687504bd257b5059d851d64dbee02fa69c45cbd2ba3d718a0b83c1eb408d93ed9aa89eb6ac6d1f183e34b0049eff20b9280547ab10d95b8a9a7e89f4a5cb",
+      "file": "skills/devel-jb-cloudflare-deploy/references/index.json"
+    }
+  ]
+}

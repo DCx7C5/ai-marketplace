@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "6cff337287a30e1c4bc3915865babac35469fbb0d47349eaab76ff1d735f115fd515bfaee0651c2f79c8bff027a571b8ab76eafb0ee6be7228b4b2c5520b2ab3",
+      "file": "skills/windows/hardening/cis/exploit/index.json"
+    }
+  ]
+}

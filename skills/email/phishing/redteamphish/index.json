@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "ea137b73ac6e6e7bc8e75dd32b82395d725d122972e3eef54dea992c0b037999849c61fe9cff618e99af4cc708b9e045293527464b42cf13801c25c7a5004c52",
+      "file": "skills/email/phishing/redteamphish/extract/index.json"
+    }
+  ]
+}

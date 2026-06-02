@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-threatmodel",
+      "path": "intel-mitre-threatmodel",
+      "description": "Intel Mitre Threatmodel.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c5a7cf17f9cd73000223b0b90d1c7a78c8d571e1f4457f092082fe3128dfb00c6ad8730af60203f0e44cbc149187682ac329742461dc63b9e3b2c4da705a13b2",
+      "file": "skills/intel-mitre-threatmodel/SKILL.md"
+    }
+  ]
+}

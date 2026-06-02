@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-language-type",
+      "path": "webapp-language-type",
+      "description": "Webapp Language Type.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7caa3211cfe0b69e2d5a39fa0f2fa85c3c2ff4562916548c7e0225aa826896f323a6078d8e7609ecc5c6e2b3e9984a3b880b52dea7acfde058976b9de4a706cd",
+      "file": "skills/webapp-language-type/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "fefc409678bf6f5936a28cae7bce433cd421ac3afbcc914365bc1530797ff865d4135f4e7a198c607cf21514b9c818a5790b9a59a3a0fb6520fcfac8330eccfa",
+      "file": "skills/cloud/devsecops/ghaworkflows/exploit/index.json"
+    }
+  ]
+}

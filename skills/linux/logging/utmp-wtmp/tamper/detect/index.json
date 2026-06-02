@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-utmp-wtmp-tamper-detect",
+      "path": "linux/logging/utmp-wtmp/tamper/detect",
+      "description": "Detect utmp/wtmp login record tampering \u2014 identify modifications to /var/run/utmp, /var/log/wtmp, /var/log/btmp used to erase attacker login history.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f887580db80a1fa24c4fc11ff6c3cdc419b53ab28426b4749110ed3ba82bf5c7c209ff1096ef0545e92d463ed70e715c2d58603d86c9e1266608871368b1d6c5",
+      "file": "skills/linux/logging/utmp-wtmp/tamper/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deserialization-insecure-detect",
+      "path": "web-application/deserialization/insecure/detect",
+      "description": "Identifying and exploiting insecure deserialization vulnerabilities in Java, PHP, Python, and .NET applications to achieve remote code execution during authorized penetration tests.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "263c91356c6784b45493b160adb0539f53a95f4912a421def6233f1fbf117da1e456c7f407da4b91586250ed386527ae058104fbfa6fe909110f412bd4233b9c",
+      "file": "skills/web-application/deserialization/insecure/detect/SKILL.md"
+    }
+  ]
+}

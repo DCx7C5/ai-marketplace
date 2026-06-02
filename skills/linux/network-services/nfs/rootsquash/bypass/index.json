@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-nfs-rootsquash-bypass",
+      "path": "linux/network-services/nfs/rootsquash/bypass",
+      "description": "Exploit NFS no_root_squash misconfigurations that allow UID 0 from clients to retain root privileges on mounted shares, enabling privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "98050e7b6dd5a00cffad1d14ded28ddc9887c73fc7c4e9ae93791943a25516022a4a2d1af1f202c8607898586054752b1dc89fc233fc9c6875e28537ac93227d",
+      "file": "skills/linux/network-services/nfs/rootsquash/bypass/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis-general-overview-analyze",
+      "path": "intel/analysis/general/overview/analyze",
+      "description": "Manages the end-to-end cyber threat intelligence lifecycle from planning and direction through collection, processing, analysis, dissemination, and feedback to ensure intelligence products meet stakeh",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f70e7bc562033dc06b67060174ee8b4eba8c80a11b1f413309ca6b64dbfe9388d9ce2e1c3bfc400c002cf7a4c66ec31b7268a20ebb28c26bc0718829ff1f3529",
+      "file": "skills/intel/analysis/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

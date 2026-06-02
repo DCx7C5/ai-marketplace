@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-tls-lifecycle-monitor",
+      "path": "webapp-tls-lifecycle-monitor",
+      "description": "-| | DV (Domain Validation) | Domain ownership | Websites, APIs | | OV (Organization Validation) | Domain + org identity | Business sites | | EV (Extended Validation) | Full legal verification | E-com",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4877070b5590e7c7000698941a65d5359391c6e868d9c11cb1aa1bdfbd29594e75f3ce0dca946795750b627d7eb3adf2b4b25f00105d2cf942009bd2a9319d46",
+      "file": "skills/webapp-tls-lifecycle-monitor/SKILL.md"
+    }
+  ]
+}

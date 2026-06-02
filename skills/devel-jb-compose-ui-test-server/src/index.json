@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "jvmMain",
+      "description": "skill directory index",
+      "sha512": "a8a1b8e687cc46ab869f9126ece6075f8fb9cbbcab402a96e30bd1d0a207b1a372b1eeb676bb966df1694ffba74b22e79cfc0e2bf9f123f245f5e71bec5ee5e2",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/index.json"
+    }
+  ]
+}

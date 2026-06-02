@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-firmware-hw-uefi-detect",
+      "path": "linux-hw-firmware-hw-uefi-detect",
+      "description": "Linux Hw Firmware Hw Uefi Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f5d810a8434fa76670cce5247ae7b0dfd0060670a85b7fe660e20ee3fc9ddcb59d5c1e58ce3c43f87cd2d062638c47c5f3465e16b790d45d6cce3b28a8265569",
+      "file": "skills/linux-hw-firmware-hw-uefi-detect/SKILL.md"
+    }
+  ]
+}

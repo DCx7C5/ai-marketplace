@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "b9ee2a19fc58e42563c1c96a560a6116faa70bf563d849cfd0fa4de642709c880e0f1592e1b6658b79a94562d8c6d0c2b6ed54dac2840adcb79d040746f00d61",
+      "file": "skills/cloud/zerotrust/beyondcorpmodel/exploit/index.json"
+    }
+  ]
+}

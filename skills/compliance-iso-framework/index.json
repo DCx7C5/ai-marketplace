@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-iso-framework",
+      "path": "compliance-iso-framework",
+      "description": "-| | Organizational (A.5) | 37 controls | Policies, roles, threat intelligence, cloud security | | People (A.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "05df41acb2701cd0f9c3e9218978d497337189b6b339a580a9983ac35af8cf25fa196cf6c03e1244f97f38c1c9a8267e1ddf4295a20ed9976646c73a6ccf6b9f",
+      "file": "skills/compliance-iso-framework/SKILL.md"
+    }
+  ]
+}

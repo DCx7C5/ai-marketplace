@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1e5d454994ffec805fca4a8c33eeb1923af2398f246cc9a0ca86ab118e7a3510a2504bfbe112477b952491e4fde9d9207daa4ef368963b0904d03e329041d306",
+      "file": "skills/web-application/injection/ssrf/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "fed67989c65dbf5140ced269da02b908f87422dc3edc0263c57c8bd653c462f93726c4aa3b0bc6e6dcfff74ac4d44218d042fff0a86ca2ca8d593c46e35d6466",
+      "file": "skills/web-application/injection/ssrf/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "65a0bb86ee70e7dc010e4a52a6f93e56ac7c427f514c48535799666a6dde9a172a5a77a09e57eeb875202102d72843a433ef86b38e682869140127d9c47a031c",
+      "file": "skills/web-application/injection/ssrf/scripts/index.json"
+    },
+    {
+      "name": "server",
+      "description": "skill directory index",
+      "sha512": "d39f7d524a34d6e4536250fcda1ccbc2522525d95e5cb3195078fc4177dc8089451f4afdc8497107d2b1ab334a813d555d8e29a8df0bfc9e0f3b6e35bac7c737",
+      "file": "skills/web-application/injection/ssrf/server/index.json"
+    },
+    {
+      "name": "ssrfexploit",
+      "description": "skill directory index",
+      "sha512": "c662ebf96054577d44c8891908cf05179dd64ee4ee89d8ba7980fdf7e0ce4502d1c9906912715c738f5c10f8cf6577cff62d54c8147095ab51498ca42fa3cbec",
+      "file": "skills/web-application/injection/ssrf/ssrfexploit/index.json"
+    }
+  ]
+}

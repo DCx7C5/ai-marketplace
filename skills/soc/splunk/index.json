@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection-rules",
+      "description": "skill directory index",
+      "sha512": "11413cdc096537b5fe38a5d32e51c0f70b937b59918b2f2e2cd49926347278787915df6f2ec64b3832305b1b5ac8416f99b914ee39b50c5b91bcfd8983e5441f",
+      "file": "skills/soc/splunk/detection-rules/index.json"
+    }
+  ]
+}

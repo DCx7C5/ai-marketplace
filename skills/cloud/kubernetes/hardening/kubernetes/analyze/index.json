@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-hardening-kubernetes-analyze",
+      "path": "cloud/kubernetes/hardening/kubernetes/analyze",
+      "description": "Audit Kubernetes cluster security posture against CIS benchmarks using kube-bench with automated checks for control plane, worker nodes, and RBAC.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0feecc2d7fed48f8960f116828dffb9476ea9e6b6418a0f57e38f6c4071ca58b983db1b071621f08a8ebc6242ad2dc0ced1f94b0820595fff5653d1d5190f1e",
+      "file": "skills/cloud/kubernetes/hardening/kubernetes/analyze/SKILL.md"
+    }
+  ]
+}

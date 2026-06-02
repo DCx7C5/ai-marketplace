@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-playbooks-playbook-respond",
+      "path": "soc-playbooks-playbook-respond",
+      "description": "Soc Playbooks Playbook Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef203c0caa05fb3dda244901edcb5147f0a7deb8199b11c498938d47a535accea316c4616af43553f45c69468f52c829f607836d512e16af66d9b8cefb8b552c",
+      "file": "skills/soc-playbooks-playbook-respond/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-sca-sbom",
+      "path": "vuln-sca-sbom",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bd645d047c0432a03ed6a99c064677198821081e0de6bec7aee23b9e512940c996e61c22b7c978523f4e6c4b421d6410b6f387630914b8340beda9c100669839",
+      "file": "skills/vuln-sca-sbom/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "171e4afd4d0a594be8f9c02438bda7e23cb432eb6e3172110e76dfd0f545456117156f340f6747fc52b3c2f0563114527302c7ad86dab3f257672c10b6f800f0",
+      "file": "skills/vuln-sca-sbom/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7fd5881586abb77fdae95d16b27fdc2de4f48030467c60f13d1ae57d8c3df8fcb39f51d6535d9be71afa9000b6d54430018a06c6543ed1e5079d1deacf68df12",
+      "file": "skills/vuln-sca-sbom/scripts/index.json"
+    }
+  ]
+}

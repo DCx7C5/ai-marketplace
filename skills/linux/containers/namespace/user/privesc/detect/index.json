@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-namespace-user-privesc-detect",
+      "path": "linux/containers/namespace/user/privesc/detect",
+      "description": "Detect user namespace privilege escalation \u2014 identify unprivileged user namespace abuse, newuidmap/newgidmap exploitation, and namespace-based sandbox escape.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b0eb70e87cb9fc4598c030b6d16d7b95f1cbe4f78b8a251bcb2235c29da89037751c39dd2808079303a897a18e3fd00e58a207b502b49a0c38c89e3fd902af4",
+      "file": "skills/linux/containers/namespace/user/privesc/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "wireless-btassessment-detect",
+      "path": "network/wireless/btassessment/detect",
+      "description": "Assess Bluetooth Low Energy device security by scanning, enumerating GATT services, and detecting vulnerabilities",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "49a8aff1196b6fb4c4d027ffba8382aca5e931f4b85da433aad2f0419c8df55dfe2b25721ffbe122009a1c484a6a645911563d1f838a2256d575c3d549bb45b1",
+      "file": "skills/network/wireless/btassessment/detect/SKILL.md"
+    }
+  ]
+}

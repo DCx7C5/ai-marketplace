@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-security-monitoring",
+      "path": "net-security-monitoring",
+      "description": "6. Log all remote IPs, listening ports, and anomalous routes to `iocs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "181998126503a8ad6a8787e21facd93b3c1ef0ef246fcdbc4ac2c08dbcd3a15e6bfa02d110e752141ab74d8e3e0f843a458e9394ac7f09188c68861357f6d91b",
+      "file": "skills/net-security-monitoring/SKILL.md"
+    }
+  ]
+}

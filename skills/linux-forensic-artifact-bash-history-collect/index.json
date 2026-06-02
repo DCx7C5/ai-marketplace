@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-artifact-bash-history-collect",
+      "path": "linux-forensic-artifact-bash-history-collect",
+      "description": "subdomain: forensic-collection tags: - linux - bash - history - artifact - forensics nist_csf: - RS.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "95def360da8162d83c98a6286e8300a690d9cd769344de84a8bee52de21873c4693415b6e78fbdb2516a1bbd4ce71e0306171b6ea786f02d92769aed5879db0c",
+      "file": "skills/linux-forensic-artifact-bash-history-collect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-lastlog-tamper-detect",
+      "path": "linux-log-lastlog-tamper-detect",
+      "description": "subdomain: logging-forensics tags: - linux - lastlog - login - tamper - anti-forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1f1f7f0d8888d44ebe99fb9e193c78bf871d38e3fbb4fb6b917b829c37cd5c8866aa80d4c5ff5f1e04c08e66e21ce869123d960b045cd45de4c0d0b7732d8cd",
+      "file": "skills/linux-log-lastlog-tamper-detect/SKILL.md"
+    }
+  ]
+}

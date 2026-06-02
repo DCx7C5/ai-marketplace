@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-forensics-investigation",
+      "path": "soc-forensics-investigation",
+      "description": "5. Never delete suspicious files \u2014 preserve with `cp --preserve=all` 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6db9defc7e33494591e611b45ccadf1d723124c2ed331c1139d193ac93402b02e766c8817aaa83cd13ba8dd47b21323d40ee13096326681f5ccd5d9e5c32f8f0",
+      "file": "skills/soc-forensics-investigation/SKILL.md"
+    }
+  ]
+}

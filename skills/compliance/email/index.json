@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dmarc",
+      "description": "skill directory index",
+      "sha512": "6bfb77c3b797a43990624e7b21d982de0e120ccd832bdeecb60cb3cf59d475f313cc89c417adfca0affc02409985946eb7a1c47fba87a3290743ce2790e4983b",
+      "file": "skills/compliance/email/dmarc/index.json"
+    },
+    {
+      "name": "dmarcrollout",
+      "description": "skill directory index",
+      "sha512": "35ce20a613a83368b41249c40775b6d78b720166d38a5c660ecfabf6d9e8f5e72d5273c4f6faf1bb365f6d878253ade48a0bd11d03c6594d524b9be1f773b1ba",
+      "file": "skills/compliance/email/dmarcrollout/index.json"
+    }
+  ]
+}

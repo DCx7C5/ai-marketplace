@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-siem-integration-detect",
+      "path": "linux-forensic-mem-analysis-siem-integration-detect",
+      "description": "pslist_pids = set(p.pid for p in s.plugins.pslist()) psscan_pids = set(p.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "681198a8a12c0f694476d38c0ad288b4fbb85d7a861deb46955770a5c9b1dda8742b918d60333df50d750eb35d2245469964dab0b6f04ff42b1e50a1d5048794",
+      "file": "skills/linux-forensic-mem-analysis-siem-integration-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-daemon-hidden-detect",
+      "path": "linux/processes/daemon/hidden/detect",
+      "description": "Detect hidden daemons and rogue services by cross-referencing /proc entries with systemd, sysvinit, and initd service lists to identify process hiding.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4d8d8c13a62277f1c5ba98e6e470d6772c14738a7b1d1840ff5acdf9a94b66dd0ecbb59d5d774621ccefc849a00eec2e240b0ff4a9aa5e584367a4863dd509e0",
+      "file": "skills/linux/processes/daemon/hidden/detect/SKILL.md"
+    }
+  ]
+}

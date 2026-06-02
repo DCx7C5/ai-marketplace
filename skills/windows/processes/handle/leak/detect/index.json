@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-handle-leak-detect",
+      "path": "windows/processes/handle/leak/detect",
+      "description": "Detect Windows handle leaks and over-privileged handle inheritance that allow lower-privileged processes to exploit inherited handles for privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce04c4525495f94e0108a313ea763607aa5bcb13e2f6d33422beeca7f47d7c53c135eee1f6f1bd6c9d878a89acf5b24139f21c788a6097d6b606a8c63fed5c51",
+      "file": "skills/windows/processes/handle/leak/detect/SKILL.md"
+    }
+  ]
+}

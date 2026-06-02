@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-observability-integrator",
+      "path": "devel-jb-observability-integrator",
+      "description": "A bad run produces a large telemetry bill, noisy dashboards, and no practical improvement in diagnosis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "00306da46c3988dd7388de324bd4c33b75c4332d27b1c150a4460a6874aeb22c3eaf2da88d000a646de4a03a7f7256e53d53b5f9033feda1c454f713398dac42",
+      "file": "skills/devel-jb-observability-integrator/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "0a63dce03fae59e1aa7e00b352c7433e7bf53fcc314af2b0df68806ef5d4f0e81da326f7e8cb5f6b354b333ec13029210b357790efb14e2fef2028a33858730a",
+      "file": "skills/devel-jb-observability-integrator/agents/index.json"
+    }
+  ]
+}

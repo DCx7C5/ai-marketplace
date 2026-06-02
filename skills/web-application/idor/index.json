@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1f9dc37846512e3738489caa4dbaa39cd735858c3b60726e5981bee19c0b2043db764481300f4f509ea5cda749767e35076c60844f9e833ccfc7a359fa3fb188",
+      "file": "skills/web-application/idor/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "8b82487992c5c6c62b78857225e6541caa522cabcf2469bb3015a14e5734b549815c3986ac1b0bab0f3dfe830de004544acfdb0635c6d7055c182cfe06410f77",
+      "file": "skills/web-application/idor/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feedintegr",
+      "description": "skill directory index",
+      "sha512": "2cc54770fe421019a9364ad5b3303531602243d7518b214182722097aad85910ec444ef17e8954096f7273d508f69325f1cf4da38fd5063a30bef490a818800b",
+      "file": "skills/intel/intel-platform/feeds/feedintegr/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "90be65af77c1ea0daaab5afce93189913c796b34932c67504346f933f3464895950db1d7112b5e23650fdf3412a1a6a62f48030ff0b5725b33abecd64c98fd73",
+      "file": "skills/intel/intel-platform/feeds/security/index.json"
+    },
+    {
+      "name": "stix",
+      "description": "skill directory index",
+      "sha512": "18298044c4449b1174d669e1ac4b56082af8b8420236d8557f1c63e94670f52f60b8334612927bdea6a360f84334fd1aca1938fa777f1b4c48206ba72e81913d",
+      "file": "skills/intel/intel-platform/feeds/stix/index.json"
+    },
+    {
+      "name": "stixfeed",
+      "description": "skill directory index",
+      "sha512": "6ab72376d09f99fa0d8927773c451ddd5ec73e393a1f805e9678489ea2ad0104294fead01025fdd6fb0b951c9a343facfa5c0084dcf2ad8fe57e11f9c2d0b554",
+      "file": "skills/intel/intel-platform/feeds/stixfeed/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "dacc482d2cbc004bf4339d2b79d0a4777baaeb31540c29ef4132d317b5cfdd98076d0e8ad30e5491c6a209955e274cd59ef29e658a7ab70eafc8b92b81fa3f1b",
+      "file": "skills/intel/intel-platform/feeds/threat/index.json"
+    }
+  ]
+}

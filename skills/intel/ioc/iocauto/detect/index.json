@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ioc-iocauto-detect",
+      "path": "intel/ioc/iocauto/detect",
+      "description": "Automates Indicator of Compromise (IOC) enrichment by orchestrating lookups across VirusTotal, AbuseIPDB, Shodan, MISP, and other intelligence sources to provide contextual scoring and disposition rec",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d6a1f8563db48c13d353214718a293198a74f0fbff2f487d91300b069fd8d011e7e456060f6ce43af8a3eedfefc84b5e9a2e5bebf7f83826f227fdbde415714c",
+      "file": "skills/intel/ioc/iocauto/detect/SKILL.md"
+    }
+  ]
+}

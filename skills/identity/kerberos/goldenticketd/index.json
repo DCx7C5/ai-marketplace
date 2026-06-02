@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "90deb8eae0a46eb778cb8e7579d34a237e8157f63079f4617d13a55ba121d4ff6bc2e960c3d1452b9fcc44da587b990b9263f60b9799c3fe291ca898c081004c",
+      "file": "skills/identity/kerberos/goldenticketd/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b0c256fd8b7b6470bff4a25bcdbef4eecf7f649db1336a491852f123b35cec863960e4d22e96bf4a1a0768404b7f645b3c55aed01c11450823cfee1d621e98d9",
+      "file": "skills/identity/kerberos/goldenticketd/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7f31bb836845dbc3435a0c74be5009e98d7eb6877123606583e2c87b80f0943156f607cc716f6edb4238daf38f6f62d66dbb5196f80b8f5179ffdccc24bb38c6",
+      "file": "skills/identity/kerberos/goldenticketd/scripts/index.json"
+    }
+  ]
+}

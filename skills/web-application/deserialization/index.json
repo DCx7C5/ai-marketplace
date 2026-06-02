@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "insecure",
+      "description": "skill directory index",
+      "sha512": "8da85061f170c6a58e622266e3626c2d9a9e158e04b57344a4058c73b20b6bb3547dfe4d9b5a110b979314226ee4a0e9981de8fab946ed1ec810928d0f24e3f4",
+      "file": "skills/web-application/deserialization/insecure/index.json"
+    }
+  ]
+}

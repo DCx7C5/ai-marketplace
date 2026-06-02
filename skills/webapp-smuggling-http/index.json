@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-smuggling-http",
+      "path": "webapp-smuggling-http",
+      "description": "--| | Admin bypass | Accessed /admin without authentication | | Request capture | Stole session cookies from other users | | XSS escalation | Delivered reflected XSS to arbitrary users | | Cache poiso",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "adbac0eb6bb616a3e63ac6a7f31b8761a7d474640d573f16f1e6c0abf37e67fb1773f0c261f53422242fbfec03f810e345480cfbc30ad26fa090b6134b4a9c1a",
+      "file": "skills/webapp-smuggling-http/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-assetmgmt-claroty-assess",
+      "path": "ics-assetmgmt-claroty-assess",
+      "description": "Ics Ics Assetmgmt Claroty Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c412afd4f13de137e691c2b2a4e5d8df8ecd30e6a1ed078c865da3e90410034b1070c7695a521a1523d322ec34ced2173a6d251af4bf6a171ead3f7d766f5666",
+      "file": "skills/ics-assetmgmt-claroty-assess/SKILL.md"
+    }
+  ]
+}

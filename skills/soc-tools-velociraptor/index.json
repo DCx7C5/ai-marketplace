@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tools-velociraptor",
+      "path": "soc-tools-velociraptor",
+      "description": "-| | T1059 - Command Scripting | Windows.EventLogs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b5af81a69f72b70286117120d7b10f301c5e5224764109b17d66f54e53d4f3999128329e9f443672f7e8bf06a9abdd7e24f2bca179b3ad3989dd37dd42bb78fc",
+      "file": "skills/soc-tools-velociraptor/SKILL.md"
+    }
+  ]
+}

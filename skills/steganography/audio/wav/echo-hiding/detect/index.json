@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "wav-echo-hiding-detect",
+      "path": "steganography/audio/wav/echo-hiding/detect",
+      "description": ">\\n  Detects echo-hiding steganography in WAV audio via cepstrum analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec2d9d9cd4f92dad2bbf887f135986eb06a1b6d80cb75599555a9c40ffb922210940757fcfe042b7aa501eee6328713b6537466eafcb18ca76097f8f5aac6704",
+      "file": "skills/steganography/audio/wav/echo-hiding/detect/SKILL.md"
+    }
+  ]
+}

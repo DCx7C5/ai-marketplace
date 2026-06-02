@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exposure",
+      "description": "skill directory index",
+      "sha512": "5b245953161873eaafeb150b3c07c34ce86956faab45f4c93b7fd9e99699f592c2f555e85a879a4dc7976e80826888e838b31d396920d76f41a48dbc61a0cd2c",
+      "file": "skills/database/elasticsearch/exposure/index.json"
+    }
+  ]
+}

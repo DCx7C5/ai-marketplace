@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c81ebfcf249458ba4016d504e65499462ed8089a050b44bd21c3a71fb696d64ffa3b9dba2552206533f3a557cb363a6d66843849d50aa71a37a349f522bbea26",
+      "file": "skills/linux/processes/elf/plt/hook/detect/index.json"
+    }
+  ]
+}

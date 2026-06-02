@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-tcp-syn-flood",
+      "path": "net-protocol-tcp-syn-flood",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9371fd78cd270eb6e3a6efd14bca3047dcd13271e4b54d50061265f436aa5f22fe03f0fd9902d137c0d956b27e112cd243f7694a11917b7a2844bbf41a6fd7eb",
+      "file": "skills/net-protocol-tcp-syn-flood/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-enum",
+      "path": "web-application/auth/enum",
+      "description": "Discovering and accessing unprotected pages, APIs, and administrative interfaces by enumerating URLs and bypassing authentication controls during authorized security assessments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "af1c07fa72baf55aff2d20e55e90bab510bb81d35cc56ca1dc6bb078aec8e8b3701f1c24601a8fead67fd6f7f34c43c646603e07a1c6b342dead78fa40dd1aeb",
+      "file": "skills/web-application/auth/enum/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "054c047e0722772166ff044510dc91df724755fc632732929fb9111689435fe529b14733a16d75a807f200375b5363de2005601d48c95354c4bbb1cf8871a027",
+      "file": "skills/web-application/auth/enum/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "115b69176f8df9a74258186acce4a58abc87f83d27449663e38babb47af2543a2f9fb73fa40bcce8837a5d2068b592735d9534a16ecddf7549a19d8b64894738",
+      "file": "skills/web-application/auth/enum/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-gcp-general-overview",
+      "path": "cloud-gcp-general-overview",
+      "description": "- GCP Binary Authorization: https://cloud.google.com/binary-authorization/docs - SLSA Framework: https://slsa.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f79ea320163436bcc7c2f74bb0023a274697ae0fff6c667e2b19c502bd82c8c70af3fdf2365ffb9b5862d1e059fa389d5a2c3ecc3966c385e218b31d61dbef15",
+      "file": "skills/cloud-gcp-general-overview/SKILL.md"
+    }
+  ]
+}

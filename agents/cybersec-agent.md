@@ -1,6 +1,6 @@
 ---
 name: cybersec-agent
-description: "Central orchestrator for cybersecsuite APT/rootkit investigations. Accepts optional mode argument (blue|red|purple). Defaults to blue-team. Delegates to all specialist sub-agents. Triggers: any investigation, threat hunt, IOC analysis, or artifact signing request."
+description: "Orchestrates cybersecurity responses; accepts 'mode' arg for Blue/Purple/Red teams by default and delegates tasks like investigations & analyses across specialists. Triggers include threats hunts, IOCs,"
 role: orchestrator
 default: true
 model: sonnet

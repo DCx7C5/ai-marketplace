@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crack",
+      "description": "skill directory index",
+      "sha512": "4b263812fa1936a78c12660539213543f11ff2c2496fd770d27e427e27c469f9ab88944f49a18a26a899c9914cb26cced7ab779490d9dd65fd0975b6f46f9c61",
+      "file": "skills/crypto/tools/hashcat/crack/index.json"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-monitoring-dragos",
+      "path": "ics-monitoring-dragos",
+      "description": "Ics Ics Monitoring Dragos.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "65b0e002a00dfc5fe8abb3f016dcb8f0f7f11330447da626ecb2c97f36bb32abebfadbf2b15456023e2619cb820efff56b60ef6326a10977f18a8b037376db2e",
+      "file": "skills/ics-monitoring-dragos/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "85e0bf5297544af4504229eab04c82f370b0a5cfae55fc131cbd94092e1f5c5ab22fbe7ff7a0073c1d71fb1d0cc8c9b9671c0f464c870785e2e7028aac0abebc",
+      "file": "skills/ics-monitoring-dragos/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0755bbdc062996191763d30fcc7f7a0f3bf8fa1b35eb9bb7c5993ed8ee5a20dfc9f022eeceda08834e805d69a9ad65d64b15c481082fc3a591afead14c1c4ad9",
+      "file": "skills/ics-monitoring-dragos/scripts/index.json"
+    }
+  ]
+}

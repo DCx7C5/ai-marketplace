@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pam-accessreview-analyze",
+      "path": "identity/pam/accessreview/analyze",
+      "description": "Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based p",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bf18ba9f13c4b0b20b86ad20be95116d84c728f613b3ded571ed51be786270a882357d77afcb80beed011fa187b17b8ab747be6ff432f107c3195054f86cb44a",
+      "file": "skills/identity/pam/accessreview/analyze/SKILL.md"
+    }
+  ]
+}

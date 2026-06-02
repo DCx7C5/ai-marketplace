@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-ssh-brute-detect",
+      "path": "linux-net-ssh-brute-detect",
+      "description": "subdomain: network-security tags: - linux - ssh - brute-force - detect - auth-log nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a652f6470f663654eb19f2ff232a78fb10f514cfc1788347029c23eca2539875a8c25d60a191881fd13db30b12a8ab5a6625e5dba22f65d3450728da4e196971",
+      "file": "skills/linux-net-ssh-brute-detect/SKILL.md"
+    }
+  ]
+}

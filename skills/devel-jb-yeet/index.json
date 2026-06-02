@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-yeet",
+      "path": "devel-jb-yeet",
+      "description": "- PR description (markdown) must be detailed prose covering the issue, the cause and effect on users, the root cause, the fix, and any tests or checks used to validate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d73ba79a5c2fa9a02c8c2f8afb1acde648de36f533ecd1d29b71b63d612c0f8b04b8bd601c9aad97707c979c39fdc6aab0cddc063f294373d523321bcb004bd7",
+      "file": "skills/devel-jb-yeet/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "0a5f2629b55b648b8071f5a8ff20f86cc2fb9b4c030de9f8d299183ac7b839bcd9ff186b35c553c5e775084ccf885ec7ccdc1ba274527e558a54495cc7ecdcaf",
+      "file": "skills/devel-jb-yeet/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "227b22c673587ae485373216d80e0a17d5d90d001a7aedb9d7365370c167e5baafe86dcf01fbf2916ef8dba5773eff1f7728e8ff86c0bbd9ad8aa69d0ccde6b9",
+      "file": "skills/devel-jb-yeet/assets/index.json"
+    }
+  ]
+}

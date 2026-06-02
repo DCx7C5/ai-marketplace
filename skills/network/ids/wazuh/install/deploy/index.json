@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ids-wazuh-install-deploy",
+      "path": "network/ids/wazuh/install/deploy",
+      "description": "Configures host-based intrusion detection systems (HIDS) to monitor endpoint file integrity, system calls, and configuration changes for security violations. Use when deploying OSSEC, Wazuh, or AIDE f",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a1ebc303aba4efda848a4c613e4ef9a0044fe22c98eec42c0339474521b4ba9bae6e08a1d7cc7c1708f1a366faf8f8cbdb92ac3bf22a1f0c9f5d9af04edc2d7f",
+      "file": "skills/network/ids/wazuh/install/deploy/SKILL.md"
+    }
+  ]
+}

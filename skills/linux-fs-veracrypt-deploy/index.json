@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-veracrypt-deploy",
+      "path": "linux-fs-veracrypt-deploy",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f13fdfc6e8ae94dafca0e122ded62bbef83f2efa5334e0840364a8287b5a78181383bcca9572a4d3b8d03cb469e343a4479f9b1dbefaa352991f29c55baa47b5",
+      "file": "skills/linux-fs-veracrypt-deploy/SKILL.md"
+    }
+  ]
+}

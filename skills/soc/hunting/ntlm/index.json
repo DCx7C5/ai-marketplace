@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1ae264d4aa24ab226e6efdbe74428e957ab4947cdb32d25fdf32919b6fbd88ff9b229d85befd89eb55da692333c8cf8fd7da9cdb0371d2fc1a82b70baf377c21",
+      "file": "skills/soc/hunting/ntlm/detect/index.json"
+    }
+  ]
+}

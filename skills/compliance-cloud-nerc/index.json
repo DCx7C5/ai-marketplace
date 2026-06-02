@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-cloud-nerc",
+      "path": "compliance-cloud-nerc",
+      "description": "Compliance Cloud Nerc.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f0f8df370ce39af4e674fb0a720a3e6b6d4cb9e245ffff145ae1421bef372bb66dd50d8e4fc25fbf15246cacf894a7bf08b44c16dbd787376dde8bdb223f5f0",
+      "file": "skills/compliance-cloud-nerc/SKILL.md"
+    }
+  ]
+}

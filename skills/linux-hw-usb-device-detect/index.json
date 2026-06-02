@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-usb-device-detect",
+      "path": "linux-hw-usb-device-detect",
+      "description": "Linux Hw Usb Device Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8d3b040a267ec6fd732b9509f68ffc28cd63b004c009de77ce8ab38921715ef68e6a82412fbc9db93addac18cdf439ffc26ba0e19544f03f4afcb1ebef4d34eb",
+      "file": "skills/linux-hw-usb-device-detect/SKILL.md"
+    }
+  ]
+}

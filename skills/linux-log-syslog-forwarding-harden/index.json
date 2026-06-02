@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-syslog-forwarding-harden",
+      "path": "linux-log-syslog-forwarding-harden",
+      "description": "subdomain: logging-hardening tags: - linux - syslog - rsyslog - forwarding - harden - tls nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "12e68a7c747e7240addc36f8051ab4ede172f29ea09b648c239e953ce06b3d540afda38664d676e8a019d7a0d61cbd72cff358c11ef1636b0177d4acea0c39ec",
+      "file": "skills/linux-log-syslog-forwarding-harden/SKILL.md"
+    }
+  ]
+}

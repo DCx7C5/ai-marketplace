@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "addon",
+      "description": "skill directory index",
+      "sha512": "1a369bb9a1fef001ca2d43c65066a4dc920d68d35e7cf54660deed4e095215c65c4b6abf5a4ce52d5628a51a766d4b311c80ed9baaac127f6d9ebddd30b9c578",
+      "file": "skills/browser/firefox/addon/index.json"
+    },
+    {
+      "name": "cookie",
+      "description": "skill directory index",
+      "sha512": "b707a30beec2ed04201f2859305ef057b80da941c9eac244d56b8dcbef91e992fd06bc7280d24b14b7324f8f1de0a0451e90c8d5a00fbd602168412fc441f37a",
+      "file": "skills/browser/firefox/cookie/index.json"
+    },
+    {
+      "name": "history",
+      "description": "skill directory index",
+      "sha512": "efa9504359d6ff2935c2ecb965e2630486068f3a8239d866f47d9d886f9b9e119dba53e242ecd2a4c4f9d75ebc32f9cc73217309ea82c8d250b9160e2bd84ef8",
+      "file": "skills/browser/firefox/history/index.json"
+    },
+    {
+      "name": "profile",
+      "description": "skill directory index",
+      "sha512": "a0de230066365d496abc7809d07a7b8758b6cf43060786700c698c2383972325184734342d74709de0eccfcbbd1110d4d5148473c30a9dbef5fdcf20cf474fed",
+      "file": "skills/browser/firefox/profile/index.json"
+    }
+  ]
+}

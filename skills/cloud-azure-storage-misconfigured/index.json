@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-storage-misconfigured",
+      "path": "cloud-azure-storage-misconfigured",
+      "description": "Cloud Azure Storage Misconfigured.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d16ce11bff8164aad5be872d6987d92d3d7ec5b39ec96d5ffa282d4430cc1e35f349e5979e07e01a032af14996329949ee7e1d086cc95eaf43a45ca35056e24",
+      "file": "skills/cloud-azure-storage-misconfigured/SKILL.md"
+    }
+  ]
+}

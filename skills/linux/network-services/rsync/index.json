@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exposure",
+      "description": "skill directory index",
+      "sha512": "7d0a30eb2ef5eb17025eda9318886468eeaba33b1b3b656ce9714c85f58872424fdad207ff047845d70a9977f5d8fd9b8c01a2cde55a05d37e1a813be0b2f7bc",
+      "file": "skills/linux/network-services/rsync/exposure/index.json"
+    }
+  ]
+}

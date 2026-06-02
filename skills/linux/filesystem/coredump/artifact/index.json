@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "a21372a502246730133b53678309408e7450ef316403d91721415365fcd0d8fb0f49080b0bf3a006f15c16e080dca51744f76837969145cc1a75cf1165e50b33",
+      "file": "skills/linux/filesystem/coredump/artifact/collect/index.json"
+    }
+  ]
+}

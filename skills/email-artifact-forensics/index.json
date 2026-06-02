@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-artifact-forensics",
+      "path": "email-artifact-forensics",
+      "description": "-| | 1 | email | test@test.com%0ACc:evil@evil.com | CC header injected | High | | 2 | email | test@test.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "706b39e42556cbc3d67deee59e7ab4f2d9e162fb8c9e68dc2ec6a0243fd51ec9c2ae7f8475668423d0272d57a07f5ab4d328fa2c0a06b050af3a05d82e77b34d",
+      "file": "skills/email-artifact-forensics/SKILL.md"
+    }
+  ]
+}

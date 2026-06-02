@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-ebpf-tracepoint-deploy",
+      "path": "linux-kernel-ebpf-tracepoint-deploy",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "85123453257681bf7a87f004ecac1f1b35fdc599141cfc2c98bf58489e816d4e4b630a9a7c1866da96eb6f5d01d07150e19891e9038b179723499d3cdec3fd43",
+      "file": "skills/linux-kernel-ebpf-tracepoint-deploy/SKILL.md"
+    }
+  ]
+}

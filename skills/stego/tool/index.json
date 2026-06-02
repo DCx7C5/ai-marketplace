@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "steghide",
+      "description": "skill directory index",
+      "sha512": "8611dc1a7600459cd63dc11606e5fcd9d33739897f0f76b71dae176cbf897544196484c68b724f17295299a7412b08ba13b8f655253217c1a763ef5603780597",
+      "file": "skills/stego/tool/steghide/index.json"
+    },
+    {
+      "name": "stegseek",
+      "description": "skill directory index",
+      "sha512": "b4d75290b83f2e486c25b078d35cff8e2daf48ae543e22951f6a38736a60457641c6dbfc3f47b962bfcc579d28fe7698998eb0006cff4c5bff98538da9ba6f75",
+      "file": "skills/stego/tool/stegseek/index.json"
+    },
+    {
+      "name": "zsteg",
+      "description": "skill directory index",
+      "sha512": "0e8fc8fdb679fa0121cf7c137a3206c9eb9550216a4441fb7e889879f75b5ca3770e4df5fbf8a40185125cb7589bdcbd25f411233ce5f0716c0fbbcf0a09351b",
+      "file": "skills/stego/tool/zsteg/index.json"
+    }
+  ]
+}

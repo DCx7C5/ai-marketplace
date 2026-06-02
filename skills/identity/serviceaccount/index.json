@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "saaudit",
+      "description": "skill directory index",
+      "sha512": "69a7e7a1ca39225286da7287e6e5e21644907d630d3285ed638b589be0655dccb28583803a3f7e8a392165cadb073ff78a2b00cbf26eca2a537a6195bcdce045",
+      "file": "skills/identity/serviceaccount/saaudit/index.json"
+    },
+    {
+      "name": "sarotation",
+      "description": "skill directory index",
+      "sha512": "ab2bcb80a9794c5dd36f4aab2807661408aefe0cb8e8e76493266bdfc68517864324b404302534742ba08e296d74a2c017b03fd4916c66e30903a86e83e26733",
+      "file": "skills/identity/serviceaccount/sarotation/index.json"
+    },
+    {
+      "name": "service",
+      "description": "skill directory index",
+      "sha512": "531f4ebfb3afdc8ea936b5b8ca068129e734aeb9a2f9597bad23a2dc96efbcb7eeb02efd6073e61f33d796a2c7cbd1e41918f9ced7ce08b834a602ab47942d5e",
+      "file": "skills/identity/serviceaccount/service/index.json"
+    }
+  ]
+}

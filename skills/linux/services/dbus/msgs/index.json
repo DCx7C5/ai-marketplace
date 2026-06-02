@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "8bab65f2aa6196456bcdc75135318cc64b8260ce982a57a208869aee2a9bc74b2375e2968bb185ad93b37c769a2a4ff985f471f76a35ef55837c3926752d70db",
+      "file": "skills/linux/services/dbus/msgs/exploit/index.json"
+    }
+  ]
+}

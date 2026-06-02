@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f093d2eb8e022838a5569b9b784b3ed5cd8b696a9cf70bcf8fadb9f3992686106da7766fb939e8fd95fae6e59389071c1b3ba473994350b47d657edea84c99f8",
+      "file": "skills/industrial/ics/protocols/dnp3/detect/index.json"
+    }
+  ]
+}

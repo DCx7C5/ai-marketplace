@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pcr",
+      "description": "skill directory index",
+      "sha512": "dd65194405b5a1484f45f25c87591fa241a60fc0832a5d71d83b714a19fc951fe7adf3ca60edb02f913b9b856e6502f507782bc2404f6d2a5371a6a0b54d9b28",
+      "file": "skills/linux/hardware/tpm/pcr/index.json"
+    }
+  ]
+}

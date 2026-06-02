@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zero",
+      "description": "skill directory index",
+      "sha512": "588828bac2386c6e8ed1df75e5e1209d3b41620f72e175fdf91e6cb90d09f7e56efd3df1dfce6516aa57568da777209bffea2b3ae711a0230994f517a6e71c48",
+      "file": "skills/crypto/posthash/zero/index.json"
+    }
+  ]
+}

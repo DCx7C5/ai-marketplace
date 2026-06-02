@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-recovery-backup-recover",
+      "path": "soc-recovery-backup-recover",
+      "description": "Soc Recovery Backup Recover.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "29fb5c93b022fde5a62bc991d31240c085134aede403299ed49aa26a9ad5cb990f9cbeebefeb402df7a5f9aebd981e1e5d77fb96532a9ed8522ea49f64a69e0e",
+      "file": "skills/soc-recovery-backup-recover/SKILL.md"
+    }
+  ]
+}

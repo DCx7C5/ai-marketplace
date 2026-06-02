@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "387737cfa7656d9f20c74ae82bcf899ededc558ad3cb7ada033ebfa7dadfab08c5f6182236d4c60fee4eed02d8aa5498c4d5905b3730275b19e87b9d71a947c6",
+      "file": "skills/network/layer2/vlan/configure/index.json"
+    }
+  ]
+}

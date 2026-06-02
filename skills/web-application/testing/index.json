@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "fuzzing",
+      "description": "skill directory index",
+      "sha512": "3ad14f0bb2dc2458d1d165b38f7d94a0dfc212477ff6928067676db36f9ecadc21c69c8820d4680bcca4d62b54e7300adcf4221a8dffe1fbcd5e9abd6e673be1",
+      "file": "skills/web-application/testing/fuzzing/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "3689ebc2aa1ee1ce8cd015d5cf68b26e3b0e1e3c63937b8629fd5660affba853f3044c05820eae33540a40e165f9b2b1ba85b4423bf134e02daf597ef4245c4d",
+      "file": "skills/web-application/testing/pentest/index.json"
+    }
+  ]
+}

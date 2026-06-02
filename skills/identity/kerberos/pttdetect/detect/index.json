@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kerberos-pttdetect-detect",
+      "path": "identity/kerberos/pttdetect/detect",
+      "description": "Detect Kerberos Pass-the-Ticket (PtT) attacks by analyzing Windows Event IDs 4768, 4769, and 4771 for anomalous ticket usage patterns in Splunk and Elastic SIEM",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "371cc0372fda696b8e2c0b648f37ba04e35b13d30eca3c5cd1d0b962fa96aeb63cc979f818039ae23ff9deaa5b278f336856ef57343119b75e71a0bb426f4f5b",
+      "file": "skills/identity/kerberos/pttdetect/detect/SKILL.md"
+    }
+  ]
+}

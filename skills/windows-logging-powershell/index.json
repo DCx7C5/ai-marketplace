@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logging-powershell",
+      "path": "windows-logging-powershell",
+      "description": "Scripts split across multiple 4104 events share a `ScriptBlockId`.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4f05f6ab4f3fafb07360f70f43f309a2c71b45f876dc3af604e8d2be8a47a748bf6b1c5a6e7feb92bf547064db234c42e34676c6513c2a955a2a9daa2964a429",
+      "file": "skills/windows-logging-powershell/SKILL.md"
+    }
+  ]
+}

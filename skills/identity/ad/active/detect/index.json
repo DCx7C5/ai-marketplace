@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-active-detect",
+      "path": "identity/ad/active/detect",
+      "description": "Detect dangerous ACL misconfigurations in Active Directory using ldap3 to identify GenericAll, WriteDACL, and WriteOwner abuse paths",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5d46d47572300bf28d54527220d8843a353eae9698d9605080a7d2babc1c71896a58479827e4537a9de79af8e8804ce23d2e197677a4d86b0803e8e441a8f50b",
+      "file": "skills/identity/ad/active/detect/SKILL.md"
+    }
+  ]
+}

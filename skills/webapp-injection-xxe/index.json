@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-xxe",
+      "path": "webapp-injection-xxe",
+      "description": "--| | /etc/passwd | 42 user accounts, service accounts identified | | /var/www/html/config.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "285091fb92527ab3c211f0c6181191a54c61c7f084f96bc86350691a4d768745843eab4cca416b3da675d6db49301e387ffc5fdac4cb4ca8cb21a9a145dc7bf3",
+      "file": "skills/webapp-injection-xxe/SKILL.md"
+    }
+  ]
+}

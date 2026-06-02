@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-credential-saved",
+      "path": "browser-credential-saved",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f231b56ea11ea7f8ea82f42e60e26be17cf153d214470e9788e90ae7120cabec25b8a7dafe53ae33f8a221ba12970d6f09986ba5cf65cff501a96a81e4ad8f4",
+      "file": "skills/browser-credential-saved/SKILL.md"
+    }
+  ]
+}

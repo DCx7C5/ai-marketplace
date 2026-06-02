@@ -1,13 +1,6 @@
 ---
 name: token-optimizer
-description: 'Token-efficiency specialist for LLM context windows. Detects redundant
-  functions, duplicate code patterns, bloated prompts, and repeated context across
-  Python files and agent definitions. Produces de-duplication patches, semantic cache
-  seeds, and compression reports. Invoke for: codebase redundancy audit, prompt compression,
-  context window optimisation, duplicate function detection, dead code removal. Triggers:
-  "find redundant", "duplicate functions", "context too long", "token budget".
-
-  '
+description: "Token-efficiency specialist identifies redundancies in LLM contexts; detects duplicates across Python files and agent definitions for de-duplication patches creation—codebase audit tool with triggers like \"find"
 ---
 # Token Optimizer — Context Efficiency & Redundancy Elimination Specialist
 

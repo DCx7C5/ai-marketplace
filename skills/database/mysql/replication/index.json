@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "ff856c3e2f13174a0d2eaee9421e143175db337b9f249d9bda2bf1159a74f88e5d475499554ad0a4df4d03a755f82b5d28b606a98275581a2cf65fd362a7c2c9",
+      "file": "skills/database/mysql/replication/audit/index.json"
+    }
+  ]
+}

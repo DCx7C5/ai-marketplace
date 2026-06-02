@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-tls-ctaudit",
+      "path": "webapp-tls-ctaudit",
+      "description": "--| | exarnple.com | 2 | Let's Encrypt | Investigate phishing | | examp1e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9464ceed34887760fd874aad5655fda82b0af8426e592455157a1fa189fd85b12b7130fa565407467af18f1a959724b77d93868d6678913dec61f3819e0a7f3a",
+      "file": "skills/webapp-tls-ctaudit/SKILL.md"
+    }
+  ]
+}

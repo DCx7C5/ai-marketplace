@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-configrules",
+      "path": "cloud-aws-configrules",
+      "description": "Cloud Aws Configrules.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce9d8304a1d34ab1ffbd0e6d9559a91fc495f085a298a404af148b76a76ce4d5df1563ce2c366891140619c5eded7ec3f7d2b11a93daf2fbac3c482ca1d34270",
+      "file": "skills/cloud-aws-configrules/SKILL.md"
+    }
+  ]
+}

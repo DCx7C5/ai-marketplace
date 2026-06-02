@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-elf-section-inject-detect",
+      "path": "linux-proc-elf-section-inject-detect",
+      "description": "subdomain: process-forensics tags: - linux - elf - section - injection - binary nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "38b87610791c5777e296cbff43fad769e4d16577782c10afb96bc6e83c4ef0163063bdbfce079cf69a813f1485da523218044f0874928c112e08a0bb483f96df",
+      "file": "skills/linux-proc-elf-section-inject-detect/SKILL.md"
+    }
+  ]
+}

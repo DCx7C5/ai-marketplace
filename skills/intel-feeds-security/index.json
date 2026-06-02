@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-security",
+      "path": "intel-feeds-security",
+      "description": "- Run `stix2-validator` CLI tool against exported bundles: `stix2_validator emotet_campaign_bundle.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2743e48c855f53a5c46b479c55bff18ea8432569fc8d0efa7f3abed3f6b24794b5e988ae3893ade0208e93547aae1ea2b6e67a13a4bef247952e3726a9db4945",
+      "file": "skills/intel-feeds-security/SKILL.md"
+    }
+  ]
+}

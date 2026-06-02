@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "bbb1c9c6274626e819e29878808413354d4ac045de5e48a30b0f992d0f6328e2be0f31bdc632b64b31ec802863e0ba85e7d5b8d5c2d8d9e41abc5ec2711577cd",
+      "file": "skills/network/vlan/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "434cbf9e370814498f2828197b92f96fdaddb8ad88611d29babb957d389472c6fdc783e13fd6d58d1611d033ebface6887ee678f918e4edbbd5d013091e7b19a",
+      "file": "skills/network/vlan/scripts/index.json"
+    }
+  ]
+}

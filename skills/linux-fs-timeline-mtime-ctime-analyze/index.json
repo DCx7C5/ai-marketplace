@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-timeline-mtime-ctime-analyze",
+      "path": "linux-fs-timeline-mtime-ctime-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f08088e4ccc520d37b73049baa70832e41277bb05d67eb62fee091ef884fe26c3e4a84a29b459e1570f0cf282c24188fe9db27cf938b129a0b081b01d4100f84",
+      "file": "skills/linux-fs-timeline-mtime-ctime-analyze/SKILL.md"
+    }
+  ]
+}

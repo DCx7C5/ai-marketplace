@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "c89de7a616efc53b26844b71e46afb83e80c27482b90adf9e30613d5794f4b2215e7e2de3172b231929e3c39c174244987e13b8dadd98b45a208e23c3f4a2d02",
+      "file": "skills/cloud/kubernetes/etcd/kubernetes/analyze/index.json"
+    }
+  ]
+}

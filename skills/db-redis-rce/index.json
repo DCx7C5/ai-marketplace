@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-redis-rce",
+      "path": "db-redis-rce",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0f3b29a436cbf4b8d49738010cb9c530b05553d902c342b834e6d372f7c57d90c3b7771d5ef5a71df3877eab1e986b05d839ccd16b98f959a314b88d7400ee0c",
+      "file": "skills/db-redis-rce/SKILL.md"
+    }
+  ]
+}

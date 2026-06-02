@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "2004900e0c2bfdaf9167dc87521685bfbd20e4355f47edf153de39b5b864e7e97ebc2fd88c4e6b859db4210a88046abf8507a8820d25740f1e1db951bb8dc3ee",
+      "file": "skills/web-application/headers/security/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "e2ffee9ae481b2d19036cae692f1eff9a587e655ab450900a1e12a795238a577b982ecaccee581d720af63ac3a3315bf78516c578f9aa55986b07e2793806d4f",
+      "file": "skills/web-application/headers/security/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c6e5d2019a196eb1f11a11ae887813778cfcacd6ea03bcdc35a214ede15d101295093d13db874d2a249e5c428d0c3a0f483220a2a47f24c15afd3179ef1e4679",
+      "file": "skills/web-application/headers/security/scripts/index.json"
+    }
+  ]
+}

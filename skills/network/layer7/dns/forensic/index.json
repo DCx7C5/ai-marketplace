@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "layer7-dns-forensic",
+      "path": "network/layer7/dns/forensic",
+      "description": "Analyzes DNS query logs to detect data exfiltration via DNS tunneling, DGA domain communication, and covert C2 channels using entropy analysis, query volume anomalies, and subdomain length detection i",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68418464ffdab2a01232506bcca69ccd8b23f9e7b7b854786cb0a61e2807dddaf9daeaeff086da05e71f5ad61e5592b9bec5dc9327e55ccc202f5d9239dc8efa",
+      "file": "skills/network/layer7/dns/forensic/SKILL.md"
+    },
+    {
+      "name": "dnsexfil",
+      "description": "skill directory index",
+      "sha512": "2489f219e37e69963917ef170e68988cc7feae6a7026f3e59cf7f62e7b1570182dd7b59d8df3d96879536b239478532901e1e38138e5b6a52836de12e908cb07",
+      "file": "skills/network/layer7/dns/forensic/dnsexfil/index.json"
+    }
+  ]
+}

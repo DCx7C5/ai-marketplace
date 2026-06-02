@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-nerc-audit",
+      "path": "compliance/cloud/nerc/audit",
+      "description": "This skill covers implementing North American Electric Reliability Corporation Critical Infrastructure Protection (NERC CIP) compliance controls for Bulk Electric System (BES) cyber systems. It addres",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7445a096c1d40123b968db89af4317e8af173b10803e39d0b82df602a1e15f2486f95a67a5e82acf205220a68882cb5a3e47450527c9c6533cc3ac85ac124e92",
+      "file": "skills/compliance/cloud/nerc/audit/SKILL.md"
+    }
+  ]
+}

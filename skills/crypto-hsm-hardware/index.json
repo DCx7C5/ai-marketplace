@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-hsm-hardware",
+      "path": "crypto-hsm-hardware",
+      "description": "6. Query mechanism list to verify supported algorithms 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fe624806b39ee67c33622dde90ecad2746c7a85226d9394e28b07b172583439ed88cdd04f7988e493d52281f63052e154a86daee6aab6c1fee11b93fd4a0ba67",
+      "file": "skills/crypto-hsm-hardware/SKILL.md"
+    }
+  ]
+}

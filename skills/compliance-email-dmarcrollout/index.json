@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-email-dmarcrollout",
+      "path": "compliance-email-dmarcrollout",
+      "description": "| | p=none | Monitor only, no action on failures | Discovery phase | | p=quarantine | Send failing messages to spam/junk | Transition phase | | p=reject | Block failing messages entirely | Full enforc",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "859b210727dc74182de8fba5a93a3e25da112f26c012e265af7f23f13b7eafb192ff9e50fec40e7ce03ab3fb17304601ef0347deb99e56685d31c30dc745b294",
+      "file": "skills/compliance-email-dmarcrollout/SKILL.md"
+    }
+  ]
+}

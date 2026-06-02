@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "beaconing",
+      "description": "skill directory index",
+      "sha512": "c6aa304c3d8f854fdc2a9c8c22b90ff3767883a88d46817529f89db58c97ffb18a23a6eb427b74a3ac8ee0263ab7a8277ed649b434c8afe80d93ea1a5e6e4ce0",
+      "file": "skills/network/flow/beaconing/index.json"
+    },
+    {
+      "name": "c2beaconing",
+      "description": "skill directory index",
+      "sha512": "56f1057051f3cd69a8016965d805b8bf7228c044b6a8f8b34398ba39f32abd29a2425113b021b26c80c55ccce26e7ad5e37843191269c87a31cece871a598d36",
+      "file": "skills/network/flow/c2beaconing/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "7e26fee90bb75b0dcf9f4f748e419a48d76ecc6da8e08304c15843b76a3834965b25111e4d216db4d1bb379e673914a1bad7361aaf58b5b965d35ba87f282ced",
+      "file": "skills/network/flow/network/index.json"
+    }
+  ]
+}

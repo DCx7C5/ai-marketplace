@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "profile",
+      "description": "skill directory index",
+      "sha512": "25f64530d015589d6b77cc308da877d3b36179d4acfb46c77a05aa9481e333e1d6113d3cefb38947ad89898c17d60faa49201429a508ccd861b2c95621765253",
+      "file": "skills/linux/containers/apparmor/profile/index.json"
+    }
+  ]
+}

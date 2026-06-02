@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "54ec9c24e5b3296e725f2af772a27ac9309602f92097bcb07eec181546716488e4cc68180577e61af16e09377bf7eafbe4964610a375ebb3bfcddbddbf6ba1be",
+      "file": "skills/soc/monitoring/endpoint/osquery/audit/index.json"
+    }
+  ]
+}

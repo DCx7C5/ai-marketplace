@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns",
+      "description": "skill directory index",
+      "sha512": "cc9136533766e21ae578bdfbe80305bffe329e5ddf21153366c16e10ba6cb2d690dd61e94565b4164d1482b4fcb3a56d87d6039c2f7393db127e0c2d21524a7b",
+      "file": "skills/network/layer7/dns/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "ce251febaf80e2cc52cf2559ca686b74cd96f8689fbd130e65c846d0912052031fe8256d10a5e3092d4dfd623d90c7fbe7fa365ee3714e3cb37c31f3900063a6",
+      "file": "skills/network/tunnel/ssh-reverse/create/configure/index.json"
+    }
+  ]
+}

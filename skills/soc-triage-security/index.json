@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-triage-security",
+      "path": "soc-triage-security",
+      "description": "Soc Triage Security.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2027b9ed730545d91624def83dfaefb7c9894e6c035319010944e09f9adf2501281b13b4a613712e6d59932a0a98881f9bab2a6323eebfccb6eb1318509eeee1",
+      "file": "skills/soc-triage-security/SKILL.md"
+    }
+  ]
+}

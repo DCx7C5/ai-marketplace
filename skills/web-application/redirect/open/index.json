@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "10664d61a5ffe99a38d21e9ce42769945f9d0f41b0e1872d6982e67064d5d90db24fbdab02ef7a7518156448391f17cf5155e57078600977958179f7aaa452d0",
+      "file": "skills/web-application/redirect/open/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7db16645f37fd37bc07f5bdcaa6cb434b6b80761f47be035919f491ce5e099fbf0ecee3bb4cecfba2f82b9a9228695f6e60fb2dfc45f36a7cba5103d7aa65fc6",
+      "file": "skills/web-application/redirect/open/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "db56aef7373ae01d612ea82f467d97113b885faaf6d0ce1a53c84b281a8ef11b009ca9c1ce338b8ed9535fe276ba46a710e1b64cffd5632380f0033d9262b549",
+      "file": "skills/web-application/redirect/open/scripts/index.json"
+    }
+  ]
+}

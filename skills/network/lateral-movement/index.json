@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection-splunk",
+      "description": "skill directory index",
+      "sha512": "9209c43a4e3383de1984fa0b08029b7d0aee8cc2472485d2d7be94dd2045a53d3ae64db05d90e09b2e60633ad8cec5708fe17b4d6a04c4c4cfd11942624c8010",
+      "file": "skills/network/lateral-movement/detection-splunk/index.json"
+    }
+  ]
+}

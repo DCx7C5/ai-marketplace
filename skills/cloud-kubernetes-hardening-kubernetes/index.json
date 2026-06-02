@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-hardening-kubernetes",
+      "path": "cloud-kubernetes-hardening-kubernetes",
+      "description": "| | 1.1 | Control Plane - API Server | Anonymous auth, RBAC, audit logging | | 1.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e0acd55986d402bd11b4e4039e7e88869e69c7b25abb264114db1f86e2b18bda4e8a2e307b03247949934f35af144c8632948e33e45699cb8ac719273631be4d",
+      "file": "skills/cloud-kubernetes-hardening-kubernetes/SKILL.md"
+    }
+  ]
+}

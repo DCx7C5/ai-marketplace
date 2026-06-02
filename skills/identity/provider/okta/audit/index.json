@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "provider-okta-audit",
+      "path": "identity/provider/okta/audit",
+      "description": "Implement automated user provisioning and deprovisioning using SCIM 2.0 protocol with Okta as the identity provider.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f74a30f9bf7cc4f2dc755c0989462a51c19c6207b849aca9ed7bf176d858e5c4eab6eb3d2f242acf985b0a18e1ad40cc72bf545fb42121090246aba34e48aa1",
+      "file": "skills/identity/provider/okta/audit/SKILL.md"
+    }
+  ]
+}

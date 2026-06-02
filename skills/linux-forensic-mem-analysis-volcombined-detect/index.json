@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-volcombined-detect",
+      "path": "linux-forensic-mem-analysis-volcombined-detect",
+      "description": "Found in psscan but not pslist  INJECTED CODE PID    Process        Address Range        Protection              Finding 5102   svchost.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1dce08866cf94fa6976b1e54b980eddf9bdf6e778a56c293f54d3f26848f81ed501a4061fad074ed372e2b3141b4f862df0fffc1972fb6672caf40ab44272837",
+      "file": "skills/linux-forensic-mem-analysis-volcombined-detect/SKILL.md"
+    }
+  ]
+}

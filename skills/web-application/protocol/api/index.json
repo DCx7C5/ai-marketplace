@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "724acf1f49f38d1703587023147fae2f2c72fafceb5c8506829f5cd1fa37f7452abe3055acd4c6ff3767a7df7be334ed579afded9692ecd59d23733468904b13",
+      "file": "skills/web-application/protocol/api/audit/index.json"
+    }
+  ]
+}

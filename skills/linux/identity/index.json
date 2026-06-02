@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capabilities",
+      "description": "skill directory index",
+      "sha512": "693cfebda46d49684bb5638894ed29283569abe9de66503034704e45cf0872c119b83139d476dad9aafc4ef02ef36a7ad31a700088bbeb87798d229975083f9a",
+      "file": "skills/linux/identity/capabilities/index.json"
+    },
+    {
+      "name": "gshadow",
+      "description": "skill directory index",
+      "sha512": "2d5c5fd3d408f4937cb9ec3540a6c74035eeca6bff32b8a7676ab6cd44adc2d79d6452768d16533ad8746dcefc05d82f4202dd0e2346cf4b90eefb0756ef0d18",
+      "file": "skills/linux/identity/gshadow/index.json"
+    },
+    {
+      "name": "pam",
+      "description": "skill directory index",
+      "sha512": "2c6395934bccdba8b9c9f3b3fe4b96cbafee9042eb858820b77a2f01a97a9bb4bc8b48037aecf540895a32851a559afbdf4c03d2b993a0c996551856547a7c9b",
+      "file": "skills/linux/identity/pam/index.json"
+    },
+    {
+      "name": "polkit",
+      "description": "skill directory index",
+      "sha512": "cb3917a2fc7c27230d06ef8c2064dd10a312561f1e932bdf1f81b3b64081297b2439cbe1fadb757a4bad1d4e978c6a1a510a20507278a5e6b895e64bf98e2b0f",
+      "file": "skills/linux/identity/polkit/index.json"
+    },
+    {
+      "name": "privesc",
+      "description": "skill directory index",
+      "sha512": "1dd32e12d275804620d088e98c46fa95236c58fcfb2617df0bf984641b7a24727b52a3c244af74083e4e216c95f512807b6604e0e650cdd00841f106f2515101",
+      "file": "skills/linux/identity/privesc/index.json"
+    },
+    {
+      "name": "shadow",
+      "description": "skill directory index",
+      "sha512": "2b9681d485e5ef7f59635d92667e9393c8e49681569f535cb7bfe1c3780255e589ef10954a10c239f3b91c5436b0ba4fbcc7e4fa232edf36d372937033ee373d",
+      "file": "skills/linux/identity/shadow/index.json"
+    },
+    {
+      "name": "ssh",
+      "description": "skill directory index",
+      "sha512": "005553d8cc3fed758d5db81a13e5cf9e4a66f01298c07279b1a94287167b26e59fac139c6a1b5ad55cd9ad04753cb28cb21921f0b8d1520b32ce142aee4945ea",
+      "file": "skills/linux/identity/ssh/index.json"
+    },
+    {
+      "name": "sudo",
+      "description": "skill directory index",
+      "sha512": "8e42f59befe8f49a9bb8a6d78b04582dad3104da99249a440012793e4ce1fd1ee666b94d4e1ea8898935495788c97783e81a035b1fff1d82f406fa8301b40ded",
+      "file": "skills/linux/identity/sudo/index.json"
+    },
+    {
+      "name": "suid",
+      "description": "skill directory index",
+      "sha512": "18b8fb193836b2109d3aeb1bc770d30747efef6676f4fa172e22e43f8f64e8f91967a486e3e8c014a01f13ad7c379e6adb18ea77476927213fc64c6a296af866",
+      "file": "skills/linux/identity/suid/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-tunnel-dns-covert",
+      "path": "net-tunnel-dns-covert",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0bac9a3d143b95c2752549c2bc628f6c0837c27daf1a7ee4fe1cfca362c2e5dc7e2d2c92b7c9827d56307e198d1186a898a00704697bb1c379a8a24d7655155f",
+      "file": "skills/net-tunnel-dns-covert/SKILL.md"
+    }
+  ]
+}

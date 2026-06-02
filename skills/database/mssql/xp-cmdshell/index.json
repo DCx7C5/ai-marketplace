@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "d98e00e68019fd6cceac8416d8b81ee467e3b250b1e214cb287a03f2b1226f6d14dd462f7dbcede528e2d0993324d9e60c8309dcd78f23f7b4cbbedbaa2e4cd6",
+      "file": "skills/database/mssql/xp-cmdshell/detect/index.json"
+    }
+  ]
+}

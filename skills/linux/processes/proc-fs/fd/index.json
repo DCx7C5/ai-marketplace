@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "0367a96d9a97e4884c1d1fc6f379994d40162c2be16b3e7f814ca26e0936c4ac3e97f96528148652b969034b33effd2cf310bb3e980cc30e0417599747a49c4e",
+      "file": "skills/linux/processes/proc-fs/fd/enum/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-access-remote-configure",
+      "path": "ics-access-remote-configure",
+      "description": "Ics Ics Access Remote Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "95fafd3d8d41e875a8112cc1b566c5b0118849a8fa3697315cac3efa148184386051c14cc7c065367fdab3c66f0f1e5cf286e53d654050578a380c8c16af76e7",
+      "file": "skills/ics-access-remote-configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-oauth-consent-detect",
+      "path": "web-application/auth/oauth/consent/detect",
+      "description": "Detect risky OAuth application consent grants in Azure AD / Microsoft Entra ID using Microsoft Graph API, audit logs, and permission analysis to identify illicit consent grant attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "647103af5c1139f6f1ce83d3d60fa5f01366e2a0e73c4cf21b5a7f06651f85b3a0fcb20d266becca3325ec382feff763ef34b4c64fa79c0a1758e61d7841954a",
+      "file": "skills/web-application/auth/oauth/consent/detect/SKILL.md"
+    }
+  ]
+}

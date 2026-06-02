@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "integrity",
+      "description": "skill directory index",
+      "sha512": "93eadea8311e80fcb95cd16d36e42d58af3cf3281749111eec83d6e66353440eb50a0f85eb1fc9b042a72955724ccb8515aa42b3609420b06a8d81861c20a139",
+      "file": "skills/linux/supply-chain/package/apt/integrity/index.json"
+    }
+  ]
+}

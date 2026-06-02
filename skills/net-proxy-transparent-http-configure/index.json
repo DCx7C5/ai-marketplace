@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-proxy-transparent-http-configure",
+      "path": "net-proxy-transparent-http-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3c3ded63362a61a525708ec44048b5b4daeaa0e8b30371894c9177520decc1bf933b129a28a733658922f16ff01426f8034234b02d26de3f4ba53ad74abf3279",
+      "file": "skills/net-proxy-transparent-http-configure/SKILL.md"
+    }
+  ]
+}

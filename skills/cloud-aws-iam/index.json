@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-iam",
+      "path": "cloud-aws-iam",
+      "description": "Cloud Aws Iam.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90c9703ff523f4bac7bfa94b9180a5d5b4b9d96c223b81174f8c946962f048f2114071a15c5e82c8b79f13315a5bd79c7c8bc817047b22f95de7ea06c910e59d",
+      "file": "skills/cloud-aws-iam/SKILL.md"
+    }
+  ]
+}

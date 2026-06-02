@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-ueba-user-behavior",
+      "path": "soc-ueba-user-behavior",
+      "description": "Soc Ueba User Behavior.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "50685be720e44dad09f327ecaa51f5d2d84c44b4a5c68e98e65b3dab0d294cc203abf9c5375abf04e4943148df3543de665309a279b637a6d22cb2ea6185725d",
+      "file": "skills/soc-ueba-user-behavior/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-general-overview-analyze",
+      "path": "cloud/azure/general/overview/analyze",
+      "description": "Detect and investigate Azure service principal abuse including privilege escalation, credential compromise, admin consent bypass, and unauthorized enumeration in Microsoft Entra ID environments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "055624132557527c9fc96a6cf3f6d03502742e0698f200971963ca53536956413e402c19e7904d890c21c020472b18b18d1f5f7cfe9201689e5f1dc8497cdb0f",
+      "file": "skills/cloud/azure/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

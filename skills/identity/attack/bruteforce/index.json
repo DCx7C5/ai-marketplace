@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4cf725f836ccf2302e734f556c9fc5aba0e478b9f1fcb8d2684b8ed7224f5649071f777da21d90d2b839cc79fa5584119be57fa8010834448189a73793f4bed9",
+      "file": "skills/identity/attack/bruteforce/detect/index.json"
+    }
+  ]
+}

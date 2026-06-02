@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-ztna-monitor",
+      "path": "cloud-zerotrust-ztna-monitor",
+      "description": "Cloud Zerotrust Ztna Monitor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ed8ce603b78ae292e80456d3aed1144ea59e158bb2b7ae67586357ec2c2f36f553ce62aa0ce7980367c8372ca59663bded397bdc7ee5a483afd278930884b66",
+      "file": "skills/cloud-zerotrust-ztna-monitor/SKILL.md"
+    }
+  ]
+}

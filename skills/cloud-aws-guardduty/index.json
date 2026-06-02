@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-guardduty",
+      "path": "cloud-aws-guardduty",
+      "description": "| | Backdoor | 5.0 - 8.0 | Backdoor:EC2/C&CActivity | | CryptoCurrency | 5.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9cb7009295cab9f933411d999a3f09eeefccfc8fa1ac231410c35605004b38d1140eab3c40e53e95e1c3a9cf9cc18f81c99a709d4f7f64ba75bf7f800f098c7a",
+      "file": "skills/cloud-aws-guardduty/SKILL.md"
+    }
+  ]
+}

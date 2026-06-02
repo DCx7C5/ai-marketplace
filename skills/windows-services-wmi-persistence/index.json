@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-services-wmi-persistence",
+      "path": "windows-services-wmi-persistence",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1025fdd5a47c194ab35e4269a11e74bc3911361c940ff8c7322ff8164027d30097149bc9935d6310d45aa832ccea1c1dbe8b4215d344266e149ca51328cd5f47",
+      "file": "skills/windows-services-wmi-persistence/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ntfs-prefetch-parse",
+      "path": "linux/filesystem/ntfs/prefetch/parse",
+      "description": "Parse Windows Prefetch files to reconstruct application execution history, file paths accessed, and execution timestamps for malware investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dd80e985e9ab9135d19d7b72fec2228f879649dbcd325f815001ec5568828e0c8e1275e8a092e7209c06cff9d98b257a0ff1d657c7fcc239a2ade2ee74e0b606",
+      "file": "skills/linux/filesystem/ntfs/prefetch/parse/SKILL.md"
+    }
+  ]
+}

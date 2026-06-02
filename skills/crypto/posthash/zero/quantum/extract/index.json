@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "posthash-zero-quantum-extract",
+      "path": "crypto/posthash/zero/quantum/extract",
+      "description": "Zero-Knowledge Proofs (ZKPs) allow a prover to demonstrate knowledge of a secret (such as a password or private key) without revealing the secret itself. This skill implements the Schnorr identificati",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "775f7574e5225986cc7e0991bbcd4b70b72f9b86bd3c02a3f76efe08a130dc3b1341f359016369ced2040b821271983ba586f389059a8ef191f478de8259251e",
+      "file": "skills/crypto/posthash/zero/quantum/extract/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aes",
+      "description": "skill directory index",
+      "sha512": "8e182cdefbec3bea725404b11e0b6e139bcc03bc01915149f2a25fc1924899720390bce5c3e03eb3842bf87ffab51de4082dc5e892086f41d1856024156cf664",
+      "file": "skills/crypto/symmetric/aes/index.json"
+    }
+  ]
+}

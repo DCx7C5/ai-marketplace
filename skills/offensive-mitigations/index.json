@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-mitigations",
+      "path": "offensive-mitigations",
+      "description": "- Supports Secure Boot and firmware integrity checking.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0030c3c5198417558e9652b4a18519a692b0d8ffb269a1116533e0ff7de75709b2cde92e2e500fb30edbc4cb52630244e54d85ad58eff7ff7a3fe0fadf271e56",
+      "file": "skills/offensive-mitigations/SKILL.md"
+    }
+  ]
+}

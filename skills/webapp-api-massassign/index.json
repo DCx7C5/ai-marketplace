@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-massassign",
+      "path": "webapp-api-massassign",
+      "description": "Webapp Api Massassign.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5c7b87c8f1aac067a0676c9d5c62b518e498a20ecf3d2d6ffdbffa8377c72118124582eec7d7bd3495335c64ed61c9260e480558a89889426b381720aba4dd7b",
+      "file": "skills/webapp-api-massassign/SKILL.md"
+    }
+  ]
+}

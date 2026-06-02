@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-data-sensitive-protect",
+      "path": "webapp-data-sensitive-protect",
+      "description": "--| | GET /api/users | password_hash, internal_id, created_ip | | GET /api/users/{id} | ssn, credit_card_full, date_of_birth | | GET /api/orders | customer_phone, customer_address |  ### Recommendatio",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ae593e5f385afeaef1e61ee8ef206782bba9e0438a5b2eb634d97a30d8dd46b782400603506bd78d3cee8d6dbea9d03706b1622540efb2a5a2c955bb17d28f2",
+      "file": "skills/webapp-data-sensitive-protect/SKILL.md"
+    }
+  ]
+}

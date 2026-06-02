@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "owasp",
+      "description": "skill directory index",
+      "sha512": "fb3126d349e2db042628564f489f285cffd1327f2e98df73c467e558c89b9a0da0ca60dd103b6c15bd2c84eb900ca62340ae8b88501df6d8e59bffe1069adce2",
+      "file": "skills/web-application/framework/owasp/index.json"
+    }
+  ]
+}

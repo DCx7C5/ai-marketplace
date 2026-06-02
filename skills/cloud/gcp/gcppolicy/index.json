@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "221b32e5db4768473c3d40eafaf9b76c40308a62fd3388ea0852d388b5351f728b01ba1a6f88450e13ede615ed74a5afa3fe8660401a939538e2fe3799379a8a",
+      "file": "skills/cloud/gcp/gcppolicy/exploit/index.json"
+    }
+  ]
+}

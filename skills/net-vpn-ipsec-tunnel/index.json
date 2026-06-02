@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-vpn-ipsec-tunnel",
+      "path": "net-vpn-ipsec-tunnel",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "215b62ae296eeef4d0a41027f2a85ae1ff6db509fbfac84ffbfee1e4eab487965d320e80f86921e5006fbafec6a1da3896a2e3f62b18a038bbf34aa991ae9163",
+      "file": "skills/net-vpn-ipsec-tunnel/SKILL.md"
+    }
+  ]
+}

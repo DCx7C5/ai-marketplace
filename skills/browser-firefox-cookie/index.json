@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-firefox-cookie",
+      "path": "browser-firefox-cookie",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68f98289de119dc633e12eb62073ed6a3820ed0cc386f9745cbe2771781e14d39c2a8aaedd2bb41434f50fd4be8ac9ca31e318347296da12437053f4dc3e9284",
+      "file": "skills/browser-firefox-cookie/SKILL.md"
+    }
+  ]
+}

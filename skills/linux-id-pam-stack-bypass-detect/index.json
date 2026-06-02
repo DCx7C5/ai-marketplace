@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-pam-stack-bypass-detect",
+      "path": "linux-id-pam-stack-bypass-detect",
+      "description": "subdomain: identity-security tags: - linux - pam - authentication - bypass - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4f03b4b6d1ad6539fcf3794d2a2f3e6d84a08305282427718c57fde014b54cab777edb581007bd8d135fde1cdb7313a45d3a120f0d627d5948ca1fd7df4ce29",
+      "file": "skills/linux-id-pam-stack-bypass-detect/SKILL.md"
+    }
+  ]
+}

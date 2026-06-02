@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-attackmap",
+      "path": "intel-mitre-attackmap",
+      "description": "--| | **ATT&CK Technique** | Specific adversary method identified by T-number (e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2353d5fed8e8237a8964adb4968f18ea1df45f28e363f2fb1f18f119dde329e62d1d18cb3da7f083bbb8012537237960322c6603c48b5f8f59a90e980f858718",
+      "file": "skills/intel-mitre-attackmap/SKILL.md"
+    }
+  ]
+}

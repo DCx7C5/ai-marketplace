@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-xxe",
+      "path": "offensive-xxe",
+      "description": "XmlResolver = null }; using var reader = XmlReader.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7d630a215c0212e80b7cbd897b90b15fa22ef69833f399eab6e850e1c6050bde93b21857d0aa9b7511534f9a636c0b27efbd0a6e843117d695f3af967410a0f2",
+      "file": "skills/offensive-xxe/SKILL.md"
+    }
+  ]
+}

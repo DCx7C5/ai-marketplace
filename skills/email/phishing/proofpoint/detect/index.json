@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-proofpoint-detect",
+      "path": "email/phishing/proofpoint/detect",
+      "description": "Deploy and configure Proofpoint Email Protection as a secure email gateway to detect and block phishing, malware, BEC, and spam before messages reach user inboxes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "57ff2202965fa4d218a1a591baa5d7518f5a74534d9e5d15dfc7fc3f7a1d48e9b6a118b3a7664442d67f3906a1f02f6d3a44535065e89a728d8e8e0d8155d9f1",
+      "file": "skills/email/phishing/proofpoint/detect/SKILL.md"
+    }
+  ]
+}

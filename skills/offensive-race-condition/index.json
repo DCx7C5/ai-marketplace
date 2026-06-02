@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-race-condition",
+      "path": "offensive-race-condition",
+      "description": "engine.openGate('1')  def handleResponse(req, interesting):     table.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4d0719fff338ce328052fc8633137dd309a9e1a45390e0bd81e8bcb61f2b683d8b97792dec52356b9bd470bf1cda581da14acdf5abcd7b2d4171e3ce5a8bc489",
+      "file": "skills/offensive-race-condition/SKILL.md"
+    }
+  ]
+}

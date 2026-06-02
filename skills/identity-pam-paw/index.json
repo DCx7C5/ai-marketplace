@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-paw",
+      "path": "identity-pam-paw",
+      "description": "6. Validate PAW configuration against CIS and Microsoft PAW guidance 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "903cb9eecbd2619c4d4c0075e33585039f41d3c59a4c40f8ab8c8ef9f377983587fa9c4734090396966f19411a4b11e0b1272a84fa2033fd6fdb0c1fd73d8fe6",
+      "file": "skills/identity-pam-paw/SKILL.md"
+    }
+  ]
+}

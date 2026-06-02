@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-supply",
+      "path": "cloud-containers-supply",
+      "description": "-| | Level 1 | Build process documented (layout exists) | | Level 2 | Signed attestations from hosted build service | | Level 3 | Hardened build platform, non-falsifiable provenance | | Level 4 | Two-",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "eabd388e3a4ba756930e1e6ea6bd94c95f261b19cd40db2f7d5a3438053a9cf47d178d1cf771582d70cbc081d1f623a84527fce9cf5a4e5ca7035dd9d81450e8",
+      "file": "skills/cloud-containers-supply/SKILL.md"
+    }
+  ]
+}

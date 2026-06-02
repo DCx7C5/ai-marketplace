@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "persist",
+      "description": "skill directory index",
+      "sha512": "c9d2e6bd1b172cadd41f44d72c45159e0f36bc7ed73f09db65bb016fd1f18cb1eb1cde567b6a0510a133698a19204b25466f4db7036e52cb31f7d392faf43887",
+      "file": "skills/linux/services/systemd/unit/persist/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "insider-investigation-forensic",
+      "path": "identity/insider/investigation/forensic",
+      "description": "Investigates insider threat incidents involving employees, contractors, or trusted partners who misuse authorized access to steal data, sabotage systems, or violate security policies. Combines digital",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7867247626871659674433c5ca753820a3d8b1dd138bd1394f225057f9864b9209843ae70994ba3eb4b8fd006037e22c5f609e7ece5081adfa8e34987d5426b2",
+      "file": "skills/identity/insider/investigation/forensic/SKILL.md"
+    }
+  ]
+}

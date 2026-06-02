@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-container-cgroups-v1-release-agent-detect",
+      "path": "linux-container-cgroups-v1-release-agent-detect",
+      "description": "subdomain: container-security tags: - linux - cgroups - container-escape - release-agent - cve nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "29b71d9e1920ff2c3eb60f0635a3ae03f223b7b081790fa2a180134026c6f9e0ce39999148d5ca8a420261d2efec6d6a1d1d706e9e97da320b9bd5c76568febd",
+      "file": "skills/linux-container-cgroups-v1-release-agent-detect/SKILL.md"
+    }
+  ]
+}

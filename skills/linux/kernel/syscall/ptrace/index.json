@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "abuse",
+      "description": "skill directory index",
+      "sha512": "5f9acca4204b53b641c1c3248f3fb66d525aab794dde2c085129a12e07d2e05e16f71839939665265a7c0f63d6f771fdcb1aea9be47dc23f9a7812dd09ae65bd",
+      "file": "skills/linux/kernel/syscall/ptrace/abuse/index.json"
+    }
+  ]
+}

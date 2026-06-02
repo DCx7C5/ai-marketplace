@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "poison",
+      "description": "skill directory index",
+      "sha512": "35736eeb503f960c0a421fd135bb0a14343eec867e050cd7c8b64439b2884a203cd2010aead8e507a74d551bc57fb199553bd2c71975bd8c45ecd28f639cd721",
+      "file": "skills/web-application/header/host/poison/index.json"
+    }
+  ]
+}

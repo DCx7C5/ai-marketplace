@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "05b382bee6bad671cc399f75fadb4d83bae66730bb95bd8d84bd73f3d1e2ce05f7cf15a912d667d3b0d75e16d5eb68fd5f09ce07a8345a5ec269f64b29a7dfd2",
+      "file": "skills/industrial/ics/architecture/purdue/implement/configure/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1244e5294773c0ab390e8fbf7dd6a89ca4b7f65ee555f81cfa1695b190e5d095232f64e9d300c7c28cbe1901e6ea4828c942740a54bc9965d3c1addedb781b6e",
+      "file": "skills/industrial/ics/architecture/purdue/implement/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d2f1f24e295a626bfc64938572749f440e8fa9a5d9df4a3f3a68ef4a43fb62fb4bc1c69ee796618889243f32778f3d1c7e1079b2422ec0064730881f92a6bc90",
+      "file": "skills/industrial/ics/architecture/purdue/implement/scripts/index.json"
+    }
+  ]
+}

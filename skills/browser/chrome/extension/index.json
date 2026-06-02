@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "6eec8a8de029fc148b96a0d556b6cefabfa776a8bb6ba86802aa986486a8311eb5cd1d9c24d75b7622fbbb1eebad9d5a7f2ec0e544934ab266460b23ff7e4fcb",
+      "file": "skills/browser/chrome/extension/audit/index.json"
+    }
+  ]
+}

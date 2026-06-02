@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-network-apt-extract",
+      "path": "soc/hunting/network/apt/extract",
+      "description": "Network APT hunting \u2014 capture and analyze traffic for C2 beaconing, ARP spoofing, DNS anomalies, and unusual outbound connections on Linux. Uses ip, ss, tcpdump, and ARP table analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cc91654c31ce7f917153befee455abf1822dd3fd2d1b59769603e1e14dcf1657cc79173096c8e4500deba1c607ae8deb2f0f22d7821d908ee53d362b37511999",
+      "file": "skills/soc/hunting/network/apt/extract/SKILL.md"
+    }
+  ]
+}

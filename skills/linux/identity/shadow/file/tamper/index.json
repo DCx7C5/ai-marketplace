@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "d235dd15110fab149d23e8f8d03bb6674c61dc5c9341d5d77b2c6609ec65f512b7ffb41ceba390bec96079b3de07546e59f6931a78260aefda351b55b6dff207",
+      "file": "skills/linux/identity/shadow/file/tamper/detect/index.json"
+    }
+  ]
+}

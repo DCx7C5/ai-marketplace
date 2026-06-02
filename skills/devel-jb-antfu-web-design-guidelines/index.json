@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-antfu-web-design-guidelines",
+      "path": "devel-jb-antfu-web-design-guidelines",
+      "description": "If no files specified, ask the user which files to review.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "60810f3ced4dd06cf4b8f59d9f83b6da06dde90bc1d2632ba04afdb5c3b686a0fbae4c29620159668a7b5bcf5c3e7cda21374bf01e4d0acbeaec9db2207c40b6",
+      "file": "skills/devel-jb-antfu-web-design-guidelines/SKILL.md"
+    }
+  ]
+}

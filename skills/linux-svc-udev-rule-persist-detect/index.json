@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-udev-rule-persist-detect",
+      "path": "linux-svc-udev-rule-persist-detect",
+      "description": "subdomain: persistence-detection tags: - linux - udev - rule - persistence - device nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5eb2dae6dc9c48c3fb359ee5133ae1571443d84cc55ab8ba8ee1648f1d9c7cbc6bcd252215927fb726fbec517acb84a1168a9dcfc9f60cf2b4dc4d226d6ab897",
+      "file": "skills/linux-svc-udev-rule-persist-detect/SKILL.md"
+    }
+  ]
+}

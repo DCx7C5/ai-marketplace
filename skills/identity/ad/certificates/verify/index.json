@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-certificates-verify",
+      "path": "identity/ad/certificates/verify",
+      "description": "Exploit misconfigured Active Directory Certificate Services (AD CS) ESC1 vulnerability to request certificates as high-privileged users and escalate domain privileges during authorized red team assess",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac499d098509beefd91c586dd7f9ba594051da7ecf0226ce02fb12e402f5b1859846c43cc03f2c9b05a3bdf539344db3010807ab08e772b7e1f3a6a2c864e60e",
+      "file": "skills/identity/ad/certificates/verify/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "34c07374e0ebb5a5814daf7f3eda5c7eadd45ef8a48e5ac996f76ae565fc090d75ecffcfc2407ca928ef4b819e055e1bb45591fc6dd803989558e1b72449fd45",
+      "file": "skills/browser/chrome/history/analyze/index.json"
+    }
+  ]
+}

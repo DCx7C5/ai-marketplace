@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-auditd-rule-configure",
+      "path": "linux-log-auditd-rule-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d84579e2d313775e63b4f05a325586645a61b281e7fb5c7e5d171a8ec6ab8bf6d8daa31f7b0d24f65c299a90af68d385a5cb2a205ad5484d5140d5339b0b6ad9",
+      "file": "skills/linux-log-auditd-rule-configure/SKILL.md"
+    }
+  ]
+}

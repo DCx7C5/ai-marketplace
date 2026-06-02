@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "e3fb915d63b0018ca101ed2ee6913ac6738284d4add7a4a05cd330e1d8e90dfdb50487633df5f0f3d25ff004c81ce7159df1d8cdd65992377d0a90d42ec50533",
+      "file": "skills/identity/kerberos/constrained/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ed68534edf021df9ffb23781e22cb63ef56f52a0098c093a1b9f11a6fcfb2afb51decab94f42931a136cc4f881415f005ea58d7aba828089504108c76db1cda6",
+      "file": "skills/identity/kerberos/constrained/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d3f97339a3287e58c0b9296ddf0456698e36c0c6869d7ca84186d5c6c22edb8b7c9c12fc4cdafe7f8c812c013ea06cdc303f7f6eccad67f0eb7ea3dda7017e26",
+      "file": "skills/identity/kerberos/constrained/scripts/index.json"
+    }
+  ]
+}

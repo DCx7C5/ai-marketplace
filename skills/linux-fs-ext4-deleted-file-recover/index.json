@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ext4-deleted-file-recover",
+      "path": "linux-fs-ext4-deleted-file-recover",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6618d3573ba5896732ed1e97a02804ca82be15420abf94cec002d2742a48977f4ca776d3d0326c1b46773461d4cf33dbaf2f6556094a06641482cfd22e21835d",
+      "file": "skills/linux-fs-ext4-deleted-file-recover/SKILL.md"
+    }
+  ]
+}

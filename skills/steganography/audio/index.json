@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mp3",
+      "description": "skill directory index",
+      "sha512": "d86ff71757d24f9cbad742a7b7c5ac4af13feef1451cf651ffd2c37c6c3af70243098c7e778333852443a9aac44e1f2818cc255f563436ffc7057914af032872",
+      "file": "skills/steganography/audio/mp3/index.json"
+    },
+    {
+      "name": "wav",
+      "description": "skill directory index",
+      "sha512": "0e63cc0c0a778ae5de4f55f20337fa21029ddfa8cf9f88e284a8208001fd06d06542adae25cb5f6cf67efd631012a9c7a6c04fc1d584836b7f0561e653b33781",
+      "file": "skills/steganography/audio/wav/index.json"
+    }
+  ]
+}

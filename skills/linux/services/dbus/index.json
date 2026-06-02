@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "alerts",
+      "description": "skill directory index",
+      "sha512": "7ff66b5bd58f3348ff6f21c39a3215131ab3d16489aa1bbc95dd97d6234304c5d5a6d7ef2f18f282810b8e0bdcf8decdcb472ff0684307505cb8e2f7928bca98",
+      "file": "skills/linux/services/dbus/alerts/index.json"
+    },
+    {
+      "name": "msgs",
+      "description": "skill directory index",
+      "sha512": "1941d028a8c4179951082cb00114c9614735816b50f7e376868b5ac6c37cec49cea5e84d1bb0b52a51bbf3728f97d750c93fcb617230616d89b98aa9fdee0378",
+      "file": "skills/linux/services/dbus/msgs/index.json"
+    },
+    {
+      "name": "service",
+      "description": "skill directory index",
+      "sha512": "ed88d31d15c8f8d06bfa00e6e8f67a8ce13b6516dd56b1895f0aa0c01aad4be07969188420bd80252ae33dd955d5ead73be3fa3762d6c824217ed7306178eaba",
+      "file": "skills/linux/services/dbus/service/index.json"
+    }
+  ]
+}

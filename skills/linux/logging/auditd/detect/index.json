@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-auditd-detect",
+      "path": "linux/logging/auditd/detect",
+      "description": "Uses the Linux Audit framework (auditd) with ausearch and aureport utilities to detect intrusion attempts, unauthorized access, privilege escalation, and suspicious system activity. Covers audit rule ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4cf190fa9a931a5afabf158a403af92cdc1b570b613f3438e4cf4385e2dcfeb15b50d59450382602a0c921c71e1db2e21e29cebaba8cd7532b48cf659d110f27",
+      "file": "skills/linux/logging/auditd/detect/SKILL.md"
+    }
+  ]
+}

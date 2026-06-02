@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-scanning-container",
+      "path": "cloud-containers-scanning-container",
+      "description": "Cloud Containers Scanning Container.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4a92dc7968e8b0414cfc78f5cc7bdfea936b89d0bd6b2c6ba49c6afd6f1d51b027a865044f64fa05257e129c4d2c8a2cefd36689995d9ca403a6096e57d8536b",
+      "file": "skills/cloud-containers-scanning-container/SKILL.md"
+    }
+  ]
+}

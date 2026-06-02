@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "c00a91ea1b3f523e04183438673a6c8346840e6477aecdd2a21468484e345faf85bae6c9037eec84d208fe8c0652eb2c35cdbc9010aa74bfa35aa642f62caf58",
+      "file": "skills/linux/filesystem/integrity/aide/configure/index.json"
+    }
+  ]
+}

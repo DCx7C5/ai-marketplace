@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "313446b43926dd823744304a5e03028744947412c9e02d0e002d2f3fe61b0386b6ee01dffa5e0039d5436a41fd936b9cbbd3b8c0834b12196e633b4c6ede4240",
+      "file": "skills/database/logging/syslog/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4b81679947c84281f6a0ac98f8a2fb57de507a3efcc8d2d30df5182a3b2a778ac6a2480abb2117466977c2cdfe0962f011b8ab1ad2bd8b5b78b2b1714d6dca99",
+      "file": "skills/database/logging/syslog/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "f0b08efb08156f211146a6ce5388398144cabbf483c32dcc95cca557712a2a0f6715070129153dd504f3edfd32971cc4e01ae9f99306e1c3ac5c7cbe70e9ccdd",
+      "file": "skills/database/logging/syslog/verify/index.json"
+    }
+  ]
+}

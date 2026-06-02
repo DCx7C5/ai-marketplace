@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-artifact-forensics",
+      "path": "windows-artifact-forensics",
+      "description": "-|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0b5795940a37f6fb5314d98bd7cf4afc4e413b548c4dcb37cbe5bac1c541ea4d6742b398b128eaa80f6e1d1f248de14c6d1968095a91a6ccd0f80d477ff99cea",
+      "file": "skills/windows-artifact-forensics/SKILL.md"
+    }
+  ]
+}

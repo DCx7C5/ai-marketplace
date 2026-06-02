@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-iacscan",
+      "path": "cloud-devsecops-iacscan",
+      "description": "Cloud Devsecops Iacscan.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d342b598916c3d0efe8e4f4147571e3fb42a77cd371bc5db8d3d0f8293795401eb79ff0a69ab381a9eaf995e6b88240ae5ddaf1bf9dacac48d127a66ab09c338",
+      "file": "skills/cloud-devsecops-iacscan/SKILL.md"
+    }
+  ]
+}

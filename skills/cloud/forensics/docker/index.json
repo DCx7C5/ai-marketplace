@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "916bc2a303ae9e95d01c5d2c882233199a5554572d9312b6848c69995433f0973ada6f5ceb1534ed52d6faa0b3df5dca6a1c5cdf367b7a1c94177d14a7c31054",
+      "file": "skills/cloud/forensics/docker/detect/index.json"
+    }
+  ]
+}

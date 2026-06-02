@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-filecarving-foremost-detect",
+      "path": "linux/forensics/disk/filecarving/foremost/detect",
+      "description": "Recover files from disk images and unallocated space using Foremost's header-footer signature carving to extract evidence regardless of file system state.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "646adabffcc4f337db2952d224dcb87139d5f43b5437f8b3e2bc0dcaf1a0a910cfb186e8a1787958b6b0de08d50ed27438f7ebcba6eae18082d01643427096b8",
+      "file": "skills/linux/forensics/disk/filecarving/foremost/detect/SKILL.md"
+    }
+  ]
+}

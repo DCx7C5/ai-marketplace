@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "a60591647ab02b6cd1cc91bf47bbfc9c7c670d1038d3f70056715205773d4b755e77de7e4e6c6abbbe81405912b592cc4027375bbc644bfa9521253e3695acbb",
+      "file": "skills/identity/ad/compromise/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f49eb3360f19e75ae67877b55a5a695c270d79677d174dfa282721b2dfa54ac28922c80fdc1065906e8a435b303efc2fc4687b77830fff3ca0071f3564ed4f4f",
+      "file": "skills/identity/ad/compromise/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ac749a45d79eea1407cbf0ed513f1306ce5a3ede8f41a37c8aa367d2bb0de2794d44b9e5373802959c70136c72212b2d7284590d784009695238318d0ae47f2d",
+      "file": "skills/identity/ad/compromise/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "065ba48e1c6ca5a1b03a60891e1813b1ea17550d421c6df75b920086aaf315e5d0d2b2e82ea905ef94f69a37c6ec7f51a0eb387d21327d005586a568287a6175",
+      "file": "skills/identity/ad/compromise/scripts/index.json"
+    }
+  ]
+}

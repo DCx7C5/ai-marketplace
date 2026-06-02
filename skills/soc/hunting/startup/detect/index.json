@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-startup-detect",
+      "path": "soc/hunting/startup/detect",
+      "description": "Detect T1547.001 startup folder persistence by monitoring Windows startup directories for suspicious file creation, analyzing autoruns entries, and using Python watchdog for real-time filesystem monit",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3a0dbb6a8ab2200a5fa613abe5e02f83672ccbcf54b76053d2b6f5d46d3d1a31b8f98f4f7bbf15228463e0b26ac1f89e0f7dd7dafa905ae15a5404a3121060a7",
+      "file": "skills/soc/hunting/startup/detect/SKILL.md"
+    }
+  ]
+}

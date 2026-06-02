@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-campaign",
+      "path": "intel-analysis-campaign",
+      "description": "- [Threat Attribution Framework](https://www.mandiant.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5dca3ff2ab2c2be14fe9b7e7a4b9c42c3e0c6cf30ea4be1ec19fee6507ea00cccfbfd2045389bf1eb00d5975432d50f931b2459ff1acdb145fb2df6211b40f9f",
+      "file": "skills/intel-analysis-campaign/SKILL.md"
+    }
+  ]
+}

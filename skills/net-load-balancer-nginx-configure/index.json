@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-load-balancer-nginx-configure",
+      "path": "net-load-balancer-nginx-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "67c35169cc1e64ab22f7d4fe80e79d196dea5c2cea7b1efaf8f939c5e47373eecb35232fb3d41f1aa3173ec4846673cc7eaec623eb626a63217914a9066e1372",
+      "file": "skills/net-load-balancer-nginx-configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-forensics-outlook",
+      "path": "email-forensics-outlook",
+      "description": "Email Forensics Outlook.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef9628aca36c91b4c8f177deb66ecdf014cb9d7dbabea052f1539f3188e44ed36da683cf4143cc8b5872ab24babb695b47abfc946f0386799b0730925b2518a5",
+      "file": "skills/email-forensics-outlook/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "a2ef7b624e2a97f77d1d8c73d5e827991d6518e347615dec95aff4696fa56c82f01e3961875a73c0c1269790ae9c1751bd282c02b2240fa6bbde1dc6430885c1",
+      "file": "skills/web-application/api/soap/bypass/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d240e1b7cf208d19faa8053c341c69b942406ec6e6955e1b66d338dbddb7bd8284b9860d6c650323d4befa8f6925d8339b8ea5241e14eb1169cb0890af38a27d",
+      "file": "skills/web-application/api/soap/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "9bd86277885adc09d772cab121ee036c59b02491cb43bd5332eae7002e54977d52dba925c347b2e3656c150a7a692f9288b2e48e948ee12a87b08b115e31b89f",
+      "file": "skills/web-application/api/soap/scripts/index.json"
+    }
+  ]
+}

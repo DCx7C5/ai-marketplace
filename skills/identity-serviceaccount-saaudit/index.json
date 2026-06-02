@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-serviceaccount-saaudit",
+      "path": "identity-serviceaccount-saaudit",
+      "description": "Identity Serviceaccount Saaudit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e7f50a9707a3c82d0d1c3110ad2e26648c06f654c3210ae491162271be61305fe3cee3c42cdd4812832f6b7ae98d5cb62f5f5e5062396ad580c4dc5b3663668",
+      "file": "skills/identity-serviceaccount-saaudit/SKILL.md"
+    }
+  ]
+}

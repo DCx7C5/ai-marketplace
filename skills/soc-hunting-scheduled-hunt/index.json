@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-scheduled-hunt",
+      "path": "soc-hunting-scheduled-hunt",
+      "description": "Soc Hunting Scheduled Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "387f66a3e78a6c16613ec69254afcf8137a0d74a4bc912e437effdbb07d799673ab95346721577510804c0bc29779ba42f71ca5d02a0adc1a4d086b8b4f73978",
+      "file": "skills/soc-hunting-scheduled-hunt/SKILL.md"
+    }
+  ]
+}

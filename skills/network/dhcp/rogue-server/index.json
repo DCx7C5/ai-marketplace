@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "acac93a52e3c76d2eca1f44fb1cc6639fc7ca77876ea8928cfaa19652ab63c246cc91239eafc7e16aa5a471e0e4474d3bb443f8ca146437dc8043612debe875a",
+      "file": "skills/network/dhcp/rogue-server/detect/index.json"
+    }
+  ]
+}

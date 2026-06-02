@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-runtime-falco",
+      "path": "cloud-kubernetes-runtime-falco",
+      "description": "7. **Tune false positives** by adding exception lists for known good processes 8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "66011e904da011e9b9d14c4c9e7cba351f5903341c8252b3086dac2554fb49c8beb151b883d345f1c42f74d1f4ea68672554ee6b71fd8c456de024649000f0f2",
+      "file": "skills/cloud-kubernetes-runtime-falco/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-ad-azure",
+      "path": "cloud-azure-ad-azure",
+      "description": "Cloud Azure Ad Azure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "52d6a5457cb78c119b18dff5e6c487fe6d2aa5ba013fb40f61fdba47b9fbd8ec9f344618267c9ca3e85bf37ae4e6f70f57c92ff28e6ef718e72d31219f3283ee",
+      "file": "skills/cloud-azure-ad-azure/SKILL.md"
+    }
+  ]
+}

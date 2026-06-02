@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-signing-code",
+      "path": "crypto-signing-code",
+      "description": "Crypto Signing Code.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1d0135641840696bdcdd5bca010e6f2956c09903d6ba984823a2a50b49accaf9bb5c2f90fe07d1d8291982f34c86d4378b1ffed950aac8fd405b367423abe391",
+      "file": "skills/crypto-signing-code/SKILL.md"
+    }
+  ]
+}

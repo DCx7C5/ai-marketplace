@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-prisma",
+      "path": "cloud-zerotrust-prisma",
+      "description": "Cloud Zerotrust Prisma.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2153df3315a5d4fddc12cd3fddbf9ef8f23262b0e59dcbd670f480e217a1f98a72e1e513df3b99d92a29d102f06959b47f7c8003cee02ffde0ab4eb0014f8692",
+      "file": "skills/cloud-zerotrust-prisma/SKILL.md"
+    }
+  ]
+}

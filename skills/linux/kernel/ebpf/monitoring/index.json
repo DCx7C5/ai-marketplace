@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "31afb3ff9676f6986821eedc8c2375c338a2324bea3afee34d94524ba39fec5d1be25e5c09a7e5bc5f005b91480bd7c9fd91497a2f1628fbcd784149fe2cea93",
+      "file": "skills/linux/kernel/ebpf/monitoring/monitor/index.json"
+    }
+  ]
+}

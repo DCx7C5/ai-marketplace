@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "postgres-injection-detect",
+      "path": "database/postgres/injection/detect",
+      "description": "Detect SQL injection in PostgreSQL applications including COPY TO/FROM, procedural language injection, and template1 abuse using sqlmap and manual payloads.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f8b706e049ab294f8a4b7dc49a619af97f2fc3225a6fcb3f65e986197df027237b799965a5f3207015353f7af9fd430c9776bebd8d6ef4016e8f4ffba8ffba1c",
+      "file": "skills/database/postgres/injection/detect/SKILL.md"
+    }
+  ]
+}

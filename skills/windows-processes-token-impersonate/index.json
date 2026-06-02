@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-processes-token-impersonate",
+      "path": "windows-processes-token-impersonate",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "165f8b837d6a630cf88e6113ce0ffe4a4249aa2b85ae3a033e99857e64848f3a1232a80bee3ce3f69cd016916a97542f0c20921c6f5dc336eb90916b20b9e7b0",
+      "file": "skills/windows-processes-token-impersonate/SKILL.md"
+    }
+  ]
+}

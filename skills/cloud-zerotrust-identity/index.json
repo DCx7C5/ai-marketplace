@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-identity",
+      "path": "cloud-zerotrust-identity",
+      "description": "Cloud Zerotrust Identity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "33a06c5396cc4ff533bc985df98693bf9c1661c62f98acc398bafb489de2c762b8d65272fe89768eb092a5bd0f0ea4ee0bda65ef512f05c0cdb17a7a74d6a725",
+      "file": "skills/cloud-zerotrust-identity/SKILL.md"
+    }
+  ]
+}

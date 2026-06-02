@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-sqlite-deleted-record-recover",
+      "path": "db-sqlite-deleted-record-recover",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bb0fb255c1a3b4e0f150645e6e109beb3d17683c8fbec74fbbbdd8353b734e5173aa5db12b0bdf8000332952806a935d706089a6fa40004cbaade1a6b28b6ba4",
+      "file": "skills/db-sqlite-deleted-record-recover/SKILL.md"
+    }
+  ]
+}

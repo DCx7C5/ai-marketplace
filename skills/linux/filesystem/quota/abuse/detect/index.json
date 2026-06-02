@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-quota-abuse-detect",
+      "path": "linux/filesystem/quota/abuse/detect",
+      "description": "Detect disk quota abuse \u2014 identify quota bypass techniques, soft/hard limit manipulation, and quota exhaustion attacks used for denial of service.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3b767acbc9364252fb108a30b5679d82632228de82ecbcc309b7ed7f03b9e3c84eaf26b64ce6d1714b41c27421d21e2182750f92996d8ccbf03c0de71dfe2a76",
+      "file": "skills/linux/filesystem/quota/abuse/detect/SKILL.md"
+    }
+  ]
+}

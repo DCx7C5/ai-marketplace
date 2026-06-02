@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-utmp-wtmp-tamper-detect",
+      "path": "linux-log-utmp-wtmp-tamper-detect",
+      "description": "subdomain: logging-forensics tags: - linux - utmp - wtmp - login - tamper - anti-forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e5d40e997e1ce36654c13a82c00862d44303bf1d0b4e63752c80bac8ba39ca134900bd31540ae0dfbbb9bf11e1ef1754a0af0a22bc0ac07591c62e2cdd7a677",
+      "file": "skills/linux-log-utmp-wtmp-tamper-detect/SKILL.md"
+    }
+  ]
+}

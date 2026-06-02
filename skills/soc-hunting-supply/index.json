@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-supply",
+      "path": "soc-hunting-supply",
+      "description": "Soc Hunting Supply.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6c52dc0647d69706aa5e56d6125672f56a801ce9ada59ca30b773b5e4fe9ab968ab5d0f74561a5cd820006359cdc2ab2beb306ee758e7877f701101671016737",
+      "file": "skills/soc-hunting-supply/SKILL.md"
+    }
+  ]
+}

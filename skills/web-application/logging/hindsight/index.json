@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "8e59dd9e50a071ba9dace59bf8c481d3c3915a15b24ab1864d8dc6ef6069bc42886dbe77f5422e802c447b65865de5381e25bbed1b42b88dd59c7a64651f8406",
+      "file": "skills/web-application/logging/hindsight/extract/index.json"
+    }
+  ]
+}

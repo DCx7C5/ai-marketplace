@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-firewall-pfsense",
+      "path": "net-firewall-pfsense",
+      "description": "Net Firewall Pfsense.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cca4303d4195e0c2750b0b9479869303ec06d5e3d9b67b84ec26a6f3a28f1902090f511faf63d6ba697a3f78612bb75d688e4c71e4dd9fe8cb1000efd51f8a7a",
+      "file": "skills/net-firewall-pfsense/SKILL.md"
+    }
+  ]
+}

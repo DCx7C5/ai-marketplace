@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis-mitre-attack-forensic",
+      "path": "intel/analysis/mitre-attack/forensic",
+      "description": "Advanced MITRE ATT&CK framework analyzer. Comprehensive forensic intelligence, anti-forensic technique mapping, defense correlation, TTP attribution, kill-chain reconstruction, and progressive hardeni",
+      "domain": "cybersecurity",
+      "model": "opus",
+      "sha512": "6325037172cf8b84b20c950b3a1c69340446e88faa5bac377cf397b5754290aba0230190936c74e822a97e17299e476c36b8e3eca38d6d5d6b3fb05c430df809",
+      "file": "skills/intel/analysis/mitre-attack/forensic/SKILL.md"
+    }
+  ]
+}

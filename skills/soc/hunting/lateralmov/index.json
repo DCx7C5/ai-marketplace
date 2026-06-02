@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "3d02e1c40de17b1ecc5426b712cc4f445a849f90641460b61e7527eb5a605a045805d92d9140c916fb026a90c7e5c555875511fad3cb9df9ebc6ad18fe2077c8",
+      "file": "skills/soc/hunting/lateralmov/detect/index.json"
+    }
+  ]
+}

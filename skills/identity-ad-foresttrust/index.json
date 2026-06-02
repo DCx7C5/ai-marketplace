@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-foresttrust",
+      "path": "identity-ad-foresttrust",
+      "description": "6. Assess trust direction and transitivity for lateral movement paths 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cd6ea2fc64b425fb6ebb72be4b5c233a1a43d1a7590326cca199f2b4f6bddea82fb14fb2ef6330687cfcaafd3cefe9e0d837a081b044128c7ccb5af0897b675e",
+      "file": "skills/identity-ad-foresttrust/SKILL.md"
+    }
+  ]
+}

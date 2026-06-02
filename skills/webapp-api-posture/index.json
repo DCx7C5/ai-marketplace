@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-posture",
+      "path": "webapp-api-posture",
+      "description": "Webapp Api Posture.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "626d55e60703395a4eef69f666ac568348ee5fad18526b7cf0c3b6abb0bbd88f0db728b0776acc67ba664869de0b6ea51f4fb89bebdd98f4a2e4ea22f37a9be0",
+      "file": "skills/webapp-api-posture/SKILL.md"
+    }
+  ]
+}

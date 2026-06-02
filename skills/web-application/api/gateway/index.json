@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "f4af2aae3a70c94db75bebb7e437ee64d87321b0d2576c4c2eadc9f0259c476d14847f103e44475359e95b7e5b1ba96870c13ab9f077d32e41f96f5945ca3ee7",
+      "file": "skills/web-application/api/gateway/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "25109f6f6113f0368c7c04c23a6779a2593cb74581336251b83e2cdfba37c432664db9f07ab7814f796cddfb7aa46ee06999b918b103a40390e8115dd856546a",
+      "file": "skills/web-application/api/gateway/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b4a00a4b762e7bc5896e616920e0ab8ddd3f8cbbc88c5a497c5e9eef4e5be959b7dc79b3775e1e9614662e4945a4b7a7b67a9fe55c626d2fb94c94c171cff0a1",
+      "file": "skills/web-application/api/gateway/scripts/index.json"
+    }
+  ]
+}

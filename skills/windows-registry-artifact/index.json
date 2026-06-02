@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-registry-artifact",
+      "path": "windows-registry-artifact",
+      "description": "Windows Registry Artifact.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b6b62963bd2ed98cfccd0bca608b5de4ab03b3bef274e661de7346ed46adaac72c598930c92013d976919356c57fd8898c0ba96405f812afdeef628feb26534e",
+      "file": "skills/windows-registry-artifact/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "encryption-kmsenvelope-analyze",
+      "path": "crypto/encryption/kmsenvelope/analyze",
+      "description": "Envelope encryption is a strategy where data is encrypted with a data encryption key (DEK), and the DEK itself is encrypted with a master key (KEK) managed by AWS KMS. This approach allows encrypting",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3691c1ae7b49064c61b0c64bc2b1a59d018deac93ba448bfb403571cfdeb4d9f63bde94a11b50ad64ce9673ac1bf5bb7317594d8ee84c33355d37ff66006f5f9",
+      "file": "skills/crypto/encryption/kmsenvelope/analyze/SKILL.md"
+    }
+  ]
+}

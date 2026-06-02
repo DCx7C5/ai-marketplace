@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "3ced2b88af6f53514da18cf2fac426eac85792283374350aae0d74be2032b46d6e16c7086ea358bd2e64fff8351083edb4988f7d22dbd2207563a43ee8417d7f",
+      "file": "skills/linux/network-services/apache/config/audit/index.json"
+    }
+  ]
+}

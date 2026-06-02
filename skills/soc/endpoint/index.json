@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "a5251f18c53b7b7cf1855016922b562897a7781b433fbc844a3776a304a3386bf2af972f5c6e8bf58e2bf152d20f86f7fc3e88cd6cb264801fa37f2ca91e3ba6",
+      "file": "skills/soc/endpoint/security/index.json"
+    }
+  ]
+}

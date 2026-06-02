@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-network-stack-tc-covert-channel-detect",
+      "path": "linux-kernel-network-stack-tc-covert-channel-detect",
+      "description": "subdomain: network-forensics tags: - linux - tc - traffic-control - covert-channel - exfil nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2948d4d11042fa7bfee55ed015da502d29bff4044b58ff5d827652e07e63eac13bd9f2c1dae19d316c2fb96fa7b0e28765c9c6e4d493bdda2761845cb9bf5617",
+      "file": "skills/linux-kernel-network-stack-tc-covert-channel-detect/SKILL.md"
+    }
+  ]
+}

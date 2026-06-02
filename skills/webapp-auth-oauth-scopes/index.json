@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth-scopes",
+      "path": "webapp-auth-oauth-scopes",
+      "description": "| | **OAuth Scope** | Permission string defining the specific API access level granted to a client application (e.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6095e895a28182da67d3a80dad8cc2ab01d1de3dcae93733b402f72abd9b353fed2f191e88f45aec2861b118ec50050bfee1781a56f976c6ef51e87d0b737c72",
+      "file": "skills/webapp-auth-oauth-scopes/SKILL.md"
+    }
+  ]
+}

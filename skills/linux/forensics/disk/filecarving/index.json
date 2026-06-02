@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "foremost",
+      "description": "skill directory index",
+      "sha512": "4e9ecaee24edd617013083b44a7f35a557b8817bdbbacf737970820bb398dc46af97c613c766eaa326e4f1b717d59c2b0787bde772c01f283245f0ab81fee271",
+      "file": "skills/linux/forensics/disk/filecarving/foremost/index.json"
+    },
+    {
+      "name": "photorec",
+      "description": "skill directory index",
+      "sha512": "34f419fc96c43ead4815cce7aa5bf701b42254d868199e7bb91194f468db86c580f171f108d1596f4bcb7e496e37811d29fc14c9a4379aabccba2d14e54f554a",
+      "file": "skills/linux/forensics/disk/filecarving/photorec/index.json"
+    }
+  ]
+}

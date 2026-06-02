@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "data",
+      "description": "skill directory index",
+      "sha512": "9297168039fea6db03fcaf000277bccb8b3f692757ea71bfba036a51e4824e2d6f3498ad444e4b47392ad95329ea1e45a6ea50e4099d00dc49fda3319416928c",
+      "file": "skills/cloud/security/data/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "69ffb8f447f697e4936b8130893d12fb33f8901d9d79076d358b7c9be33b3732ce077b28d621fea7dfc5e9872555b844912309962e25438a3c502db1b8ef3970",
+      "file": "skills/cloud/security/pentest/index.json"
+    },
+    {
+      "name": "secrets",
+      "description": "skill directory index",
+      "sha512": "7b6feb526f0d700d6867c2018a9dd34c4b956ed59ea33e9f5dc396a44c6a972bccd4b524d201dd9a01e32abdd315d02d4e9c8ce6cd6da96e4a5aba39a6d1ad8a",
+      "file": "skills/cloud/security/secrets/index.json"
+    },
+    {
+      "name": "shadow",
+      "description": "skill directory index",
+      "sha512": "27d37ec571f97405d8f1d5e8a2d53ec285147886fe1d8b6cad076fa4c9d9da3cb158564f968edb178f40663dacd6914afebe269b4bd0aa17ad6ced4f63752733",
+      "file": "skills/cloud/security/shadow/index.json"
+    }
+  ]
+}

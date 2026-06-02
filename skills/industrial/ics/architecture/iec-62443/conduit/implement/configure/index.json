@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-architecture-iec-62443-conduit-implement-configure",
+      "path": "industrial/ics/architecture/iec-62443/conduit/implement/configure",
+      "description": "Implement secure conduit architecture for OT remote access following IEC 62443 zones and conduits model, deploying jump servers, MFA-enabled gateways, session recording, and approval-based workflows t",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "368f46ec1a6964bb29903937fb473050e40624915ae0bc65553a1bff7b39086e9a1c4f065b73b421a889d10759677d602954d5e6a17f0042cb613e51740c3da1",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/implement/configure/SKILL.md"
+    }
+  ]
+}

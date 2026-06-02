@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-detection-correlation-create-configure",
+      "path": "soc-detection-correlation-create-configure",
+      "description": "python scripts/agent.py --splunk-url https://localhost:8089 --username admin --password changeme --output correlation_report.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "774d3064881b124178188061d2265385edbf7dfb156d5252da1e2251a4778b9de34403a60d5f2a67c0fd85a7624b13fb19eeb91a8ca7fd97d2e1d25ce922f622",
+      "file": "skills/soc-detection-correlation-create-configure/SKILL.md"
+    }
+  ]
+}

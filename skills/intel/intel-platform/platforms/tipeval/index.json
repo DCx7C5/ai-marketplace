@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9e433201a8b2eb5c57854eb7b7067119f97dfa254bc293653fc63cbc0f0cc2402069ab4530b92e2080aebd989abca5aea20349f28b5f83ee3c66e5e5fb72646f",
+      "file": "skills/intel/intel-platform/platforms/tipeval/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "95de725d97cb77aee0ccf1156ecfbd0f732cd37ed8849080adad5fbb2b55c3bdf601f72e74eeb5b7851cabdd4b33eafe000a76df719b0b0810571a69d8c25d74",
+      "file": "skills/intel/intel-platform/platforms/tipeval/scripts/index.json"
+    }
+  ]
+}

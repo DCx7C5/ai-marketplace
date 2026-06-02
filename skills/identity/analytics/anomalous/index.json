@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "a39baecf4481df3a8143337fa99514e74bb3eaab4679ae6a1428a3f5b806b3aea8ca91f4d906c011c25e850dd02c1190bab998e5a644f803447a2f2feb920ca2",
+      "file": "skills/identity/analytics/anomalous/detect/index.json"
+    }
+  ]
+}

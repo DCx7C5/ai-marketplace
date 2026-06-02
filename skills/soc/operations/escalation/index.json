@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "escalate",
+      "description": "skill directory index",
+      "sha512": "52bcf50d7d04d3b75d04b134229b4f4e65fa542fc6a17e0586dfdb4ac5f4f37171622f83e237686bc4400564027a8e128f06393cdcbc3778eddfb01535fa2305",
+      "file": "skills/soc/operations/escalation/escalate/index.json"
+    }
+  ]
+}

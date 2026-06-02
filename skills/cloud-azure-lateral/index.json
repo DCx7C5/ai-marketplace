@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-lateral",
+      "path": "cloud-azure-lateral",
+      "description": "JSON report containing detected lateral movement indicators, correlated event chains, affected identities, and recommended containment actions with MITRE ATT&CK technique mappings.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "17db6df23cda69f10be0de2dc19832f8c863c28e5156c31921483e25fc99e641931ac4adc8c3856d5b6f37027cb7611a4dd6f077a475fb2e024fb82bc6d3c353",
+      "file": "skills/cloud-azure-lateral/SKILL.md"
+    }
+  ]
+}

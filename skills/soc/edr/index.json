@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crowdstrike",
+      "description": "skill directory index",
+      "sha512": "67effdd100d24a997d2b167da72b94c3a6d0beb2a89e3624044a4be06370f6f6f85005dcba535e8792f20403394e88d3848fadfb46687cbd88c9a73693904987",
+      "file": "skills/soc/edr/crowdstrike/index.json"
+    }
+  ]
+}

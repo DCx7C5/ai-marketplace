@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad",
+      "description": "skill directory index",
+      "sha512": "1ff4cc61000e9916b8b52d6d1a021ba6c24de8657b209759fc54336a63e9e8143f672421c2b7f1edc8d068b8da379389a59ae0ea3edf6a0bc4919c84a36e6eb1",
+      "file": "skills/cloud/azure/ad/index.json"
+    },
+    {
+      "name": "defender",
+      "description": "skill directory index",
+      "sha512": "94030f8edb57fee827380fee80222126c8cd32a2aa1e37fd17272e4879d061e84dc5c77b7d846e179a7d058f748c05d3b749ffb0f3d70a5585d3829d6ad1e2bd",
+      "file": "skills/cloud/azure/defender/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "dfb5938770036357e69c8fb8b57e41ce908a1c40b447bc0a74f27026e6775d3ba2a0cad7ed39dfe28364fb5613886b9aea1e97045fca093ffafe7f2fae290634",
+      "file": "skills/cloud/azure/general/index.json"
+    },
+    {
+      "name": "lateral",
+      "description": "skill directory index",
+      "sha512": "2da335628583e59901e7b2571ade7301995339b953a91b3c1119439730ed743563ba96b7a8e06c64387687cdffbad4fa43aa522d54e8f2336fea6a1a666709bc",
+      "file": "skills/cloud/azure/lateral/index.json"
+    },
+    {
+      "name": "sentinel",
+      "description": "skill directory index",
+      "sha512": "bac9cfcf0588a7373b8bce5fbf307c735fbcd83e8eb88e30130445b9f8a73736dd511a6a211d63d029effc7c79ca6b618db273cfaa07806a79e4862eeee105a4",
+      "file": "skills/cloud/azure/sentinel/index.json"
+    },
+    {
+      "name": "storage",
+      "description": "skill directory index",
+      "sha512": "00135f40040cbc96872a086fbffcdd714ae942dc6cb763a1125247b68b8cad6498783a76545da80d127fc2afdbafbfa2c3cbc543aac532e12b0bbb91b9fc9740",
+      "file": "skills/cloud/azure/storage/index.json"
+    }
+  ]
+}

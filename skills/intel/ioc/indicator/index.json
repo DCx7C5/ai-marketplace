@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "39b1aa7035c49f8398aa0a83675380da67386a0075d036bbae448ceb21b396799d112763650c72aee9d382165c49cc89a81dba8cda43f4d665deec05c211d70e",
+      "file": "skills/intel/ioc/indicator/detect/index.json"
+    }
+  ]
+}

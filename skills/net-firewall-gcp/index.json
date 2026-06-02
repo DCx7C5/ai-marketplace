@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-firewall-gcp",
+      "path": "net-firewall-gcp",
+      "description": "Net Firewall Gcp.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4e3cd673ec67eb6e9161f331e67aec210889de3ac2484baf8287c56d80013850c140be8cbc6a29ff0968a3e57a3204844dec3b8ba2124b581e5c5c9e010e1597",
+      "file": "skills/net-firewall-gcp/SKILL.md"
+    }
+  ]
+}

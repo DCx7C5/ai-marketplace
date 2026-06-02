@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure",
+      "description": "skill directory index",
+      "sha512": "aadba8a1b8911589d1eccf29669f681edb42aeca06ae58278cd6a2dd2480fc3e8f6c9a34a62b0c3f2ead64c12752d3cadb706cded8bf2a63d03557d3a67939a0",
+      "file": "skills/cloud/azure/ad/azure/index.json"
+    },
+    {
+      "name": "conditional",
+      "description": "skill directory index",
+      "sha512": "2746eb2d65e74d128cc2f1ac190e7949a23554010bc92e844f896ed18d625320a809d17479fb1c44a963d20d276d0c8bc0d31b89a41c6fc1754daa4faff4b4c4",
+      "file": "skills/cloud/azure/ad/conditional/index.json"
+    },
+    {
+      "name": "pim",
+      "description": "skill directory index",
+      "sha512": "f28423ee2eb36095f60481b38ca3f28fe77cc9d7698d182c286074638e33a0b26a2c60bf0ceb65bf5855483101f0e9b6cadc75c185c7f0d8d6dd64c79d8f4455",
+      "file": "skills/cloud/azure/ad/pim/index.json"
+    },
+    {
+      "name": "saml",
+      "description": "skill directory index",
+      "sha512": "3e1b87e05a1de5f10e41a2434bd69d8ae4451bb26e819770971ca7d7901f6a4ae6314382abef221eef972014c0f0d07b487d19b6fe37902c09b86e69480534e2",
+      "file": "skills/cloud/azure/ad/saml/index.json"
+    }
+  ]
+}

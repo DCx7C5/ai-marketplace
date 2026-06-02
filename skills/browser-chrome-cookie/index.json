@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chrome-cookie",
+      "path": "browser-chrome-cookie",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a646b3c7b4f6248e91cf76530fea7913b1afa412651b5e9e80f629564cc3c0dcda200a601dcf71f8f6c6359b351a4ce9eec425b9d113ceffbf1b7828ce576bfe",
+      "file": "skills/browser-chrome-cookie/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-cdn-cloudflare-configure",
+      "path": "net-cdn-cloudflare-configure",
+      "description": "Net Cdn Cloudflare Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f8759d3e563e5f325efafbb23a6bbaa8d79611d3436826f030c6d85b863da7f48335abf939cca41a736b8daae833c54c8c9e8322aa01286efe37f45b73412c44",
+      "file": "skills/net-cdn-cloudflare-configure/SKILL.md"
+    }
+  ]
+}

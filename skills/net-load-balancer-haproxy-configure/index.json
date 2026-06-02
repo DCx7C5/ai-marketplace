@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-load-balancer-haproxy-configure",
+      "path": "net-load-balancer-haproxy-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c1143e7c7f4a4f4b1ab4e2614c4d08bcd3bc8efc14f8ccce0ce8343a470342c7cc23230347e6bc35bbb212f43c3b4ae97ae28ae825eacf617d840b626aab564d",
+      "file": "skills/net-load-balancer-haproxy-configure/SKILL.md"
+    }
+  ]
+}

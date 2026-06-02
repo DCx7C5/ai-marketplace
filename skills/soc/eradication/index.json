@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "malware",
+      "description": "skill directory index",
+      "sha512": "ab588dd0857321ef127569d65ef798fe183d8d6a48e974fa393330a43d3b96ff0bec6be21836b40b66c872284bf271884b9908ce6f95c5a2f239e149c2cf901f",
+      "file": "skills/soc/eradication/malware/index.json"
+    }
+  ]
+}

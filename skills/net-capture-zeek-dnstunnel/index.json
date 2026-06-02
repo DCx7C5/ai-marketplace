@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-dnstunnel",
+      "path": "net-capture-zeek-dnstunnel",
+      "description": "-| | T1071.004 | Application Layer Protocol: DNS | | T1048.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "79c29a011edbbbff51f8781157eaec374b8580631eb37e713d190621ce9ad3680574e9ceb51baf42163ed96fe0c1b06d6b6f69395eb2abff3e5bce3947fb3a72",
+      "file": "skills/net-capture-zeek-dnstunnel/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-permission-world-writable-detect",
+      "path": "linux-fs-permission-world-writable-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "25f908d9e017d8e9fdf400c26c9e2761eb2d2ab173f133b77f884060757c06334826d147029c93d687f80f0ab7fecde2175e946bed7689030705d285802ed928",
+      "file": "skills/linux-fs-permission-world-writable-detect/SKILL.md"
+    }
+  ]
+}

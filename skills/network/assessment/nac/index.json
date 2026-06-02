@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "64b3e0498c813f0a0f7d2910266d73415496ad0ae833dedb381382a751860712ab831467fc9d74124d4d7e157d2afe025e38164083bc9a69f7d91e58c023f418",
+      "file": "skills/network/assessment/nac/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b26682895caa7d04cf5fe391842efc23400d51c7272728ddc4a616289eb1498bdb641379e60aa4c85e70215a80c120a8a981e9444c5949b672ff33cf4f4c6a1e",
+      "file": "skills/network/assessment/nac/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e2a1079468ea7bab47faafd8e505580eebab07d1e20465059cb1ebc3df7c397e25339137a561019bf5759be1fbecceb631bff25eb244a5124191dd7818e09785",
+      "file": "skills/network/assessment/nac/scripts/index.json"
+    }
+  ]
+}

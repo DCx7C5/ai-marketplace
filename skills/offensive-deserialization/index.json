@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-deserialization",
+      "path": "offensive-deserialization",
+      "description": "4.  Isolate deserialization code under least privilege and sandboxing; timeouts/memory limits.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c9eb377bdd0d4939bb4e60c17bb119edc76295987dfaf73016324f1fa98e395955fb9518e4ce88d0328cd807272619471e125585fa2e098fc5ce0b7b2a4d2e32",
+      "file": "skills/offensive-deserialization/SKILL.md"
+    }
+  ]
+}

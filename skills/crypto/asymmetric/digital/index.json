@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sign",
+      "description": "skill directory index",
+      "sha512": "3c50dad254558d660278b31482d70c08a7dce3ad7013845977219d1b7cb514c25e1c35a6524add069008ca9b8cc646ea4c197b995b304fbabf71e0e71b384c16",
+      "file": "skills/crypto/asymmetric/digital/sign/index.json"
+    }
+  ]
+}

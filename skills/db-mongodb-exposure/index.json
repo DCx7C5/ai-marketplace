@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mongodb-exposure",
+      "path": "db-mongodb-exposure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "af87a213744a829fcc4a0b5c0129ce8ae730d6b2d70baad296662bdceb3f78509882748c4670f2054b11901d382d287d9b3966dd7947e6013ad23c6b93a74c84",
+      "file": "skills/db-mongodb-exposure/SKILL.md"
+    }
+  ]
+}

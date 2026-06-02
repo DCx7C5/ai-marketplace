@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "774450ef5c95710ba077d6383914ed5c0ab6760a890ec5f48b139980f3f730ad0f923af7cd54bc4e6cfd6628f858f3166e3aeab8a553df93701fe7b54f5176f5",
+      "file": "skills/industrial/iot/device/pentest/index.json"
+    }
+  ]
+}

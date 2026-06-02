@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-wireless-kismet",
+      "path": "net-wireless-kismet",
+      "description": "| | Open (No encryption) | Insecure | Critical - all traffic visible | | WEP | Broken | Critical - crackable in minutes | | WPA-TKIP | Deprecated | High - known vulnerabilities | | WPA2-PSK (CCMP) | A",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c0262db1315978f00796994d840bb57d42d931114bf807aea1a74e8c1ddb37e8efbcf6d08fe2037a459ab6995392acfca4594de8b75a8568111ceb0314965ba6",
+      "file": "skills/net-wireless-kismet/SKILL.md"
+    }
+  ]
+}

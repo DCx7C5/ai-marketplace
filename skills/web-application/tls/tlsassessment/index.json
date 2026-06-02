@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "715571b731d42452ddb3bf4b922009f226fdb3fb0cf96848ac8fe0976114b6755ec349645aca82cfe82edc05ef3b675782f62487ce730ae05af38e43bcbd2030",
+      "file": "skills/web-application/tls/tlsassessment/configure/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9a66833051fed1a6738594cda9bc4417e09cae6018c87e106db2982a50a0e0f35910197e5970ba486341d5c6d9ca8485c8340fe0e5b0257951229f72454e1b4c",
+      "file": "skills/web-application/tls/tlsassessment/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f7987d96e2ac503336da5761cdb900894c669126c05a3d585c923360b40216b0e44f6396dd1c00e337716f5ce6cbdcd4b3ceda72b3df473423f30245706c4c18",
+      "file": "skills/web-application/tls/tlsassessment/scripts/index.json"
+    }
+  ]
+}

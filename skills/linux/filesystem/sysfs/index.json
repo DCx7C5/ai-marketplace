@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "device",
+      "description": "skill directory index",
+      "sha512": "32785fc067f4522ca2349bacacbe03006ed76283f9d073729cbb59450c46c315273b1e1b07f35016e8adb20731fb32875a9e21d1b42a1852823f399bba892a89",
+      "file": "skills/linux/filesystem/sysfs/device/index.json"
+    }
+  ]
+}

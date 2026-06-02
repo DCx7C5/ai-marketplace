@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-misp",
+      "path": "intel-platforms-misp",
+      "description": "python scripts/agent.py --misp-url https://misp.local --api-key YOUR_KEY --days 90 --output landscape_report.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b2870294f09881fcf9f9536c42225517ca27d32e5990c8a1ae8266130d4eb5e496dab8e5b8f29af301bfb0f01bf81708aa2d7cccd822673abe2961aea835a07b",
+      "file": "skills/intel-platforms-misp/SKILL.md"
+    }
+  ]
+}

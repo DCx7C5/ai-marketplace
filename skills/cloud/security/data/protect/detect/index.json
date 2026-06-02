@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "security-data-protect-detect",
+      "path": "cloud/security/data/protect/detect",
+      "description": "Detecting data exfiltration attempts from AWS S3 buckets by analyzing CloudTrail S3 data events, VPC Flow Logs, GuardDuty findings, Amazon Macie alerts, and S3 access patterns to identify unauthorized",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "64ed9bf7b292374c14316c271690c9f4a7971e0aec18cb11f21302c7684fae4639899ca2813ffe5eb90bc24b461d92164ee7dd0edb3dbe2d7e591820e6a32935",
+      "file": "skills/cloud/security/data/protect/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-crash-analysis",
+      "path": "offensive-crash-analysis",
+      "description": "*Report generated: $(date)*",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d873fe72f87807ea686653c5bc78548082941cb28ac5aeed6925591f38cd354a65a1085974d49fe5d2ab825de40793f64412b959696b01ad25382fd1bf3c0683",
+      "file": "skills/offensive-crash-analysis/SKILL.md"
+    }
+  ]
+}

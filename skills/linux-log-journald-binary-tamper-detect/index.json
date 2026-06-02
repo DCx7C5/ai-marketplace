@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-journald-binary-tamper-detect",
+      "path": "linux-log-journald-binary-tamper-detect",
+      "description": "subdomain: logging-forensics tags: - linux - journald - systemd - log - tamper - anti-forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "614104c2be4987ac8d668ccbe663b83ed9ee36190fa6c74a6cdbceac8df6310d0bf98178a9c16ad6474d30bfad4856d5b428bc1c214caf25173c5846f8d07ac0",
+      "file": "skills/linux-log-journald-binary-tamper-detect/SKILL.md"
+    }
+  ]
+}

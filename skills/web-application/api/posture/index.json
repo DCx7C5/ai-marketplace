@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "51610b25929b90bb601bed13576855a53c1818878befde8f15f81e2da57dd2b9fa90f9233eeae7f20a7b5611105f09ff9a5b44f59940d1d45c8dc61c0f77868b",
+      "file": "skills/web-application/api/posture/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "18f30b9be41b8028eeb82755bc96a6516e0f0006619c14a11eb50f25c5d6bf6c53d3a9af616aabeac4a14c021447b67cb56a543ac6fb9faefeab142d61f47cc3",
+      "file": "skills/web-application/api/posture/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "da3cf764eabdabf954a35c1afaf60a8fe2672d8e3021d5e0c81c8794c11f4c0553d8b5c34f5d7d02eb6feec3a675a247e093c1151f9f71460744f64277a8af0d",
+      "file": "skills/web-application/api/posture/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aircrack",
+      "description": "skill directory index",
+      "sha512": "9ba1a3713b9787e36acf5f2ea34b88c7017a052c952f3cb2e209971c77873251cb2f8bc57e16f432cae303ed60ddb375622b6cad59eea47cec55a4e37308020c",
+      "file": "skills/network/wireless/aircrack/index.json"
+    },
+    {
+      "name": "bluetooth",
+      "description": "skill directory index",
+      "sha512": "da01222a4dc27738dee4aed752078d99ae79ba36625b99f00086b3e0fd537824d1dba0008e9156b98dfa20c8c383edec9bd3e67b3f1f1bc5db52c00ca1f0e0f5",
+      "file": "skills/network/wireless/bluetooth/index.json"
+    },
+    {
+      "name": "btassessment",
+      "description": "skill directory index",
+      "sha512": "c7ebf463360694cd66f494d9dd323f04357e11f134c90aaada9577d3249e337dadb681c5d5792925316a012ebd7d56142d481b2a5bf013c10c11c8be4eca857e",
+      "file": "skills/network/wireless/btassessment/index.json"
+    },
+    {
+      "name": "kismet",
+      "description": "skill directory index",
+      "sha512": "48ff8b6053f6c41400ea20f21f0fe758c6d6143b2ef681b9d4dee749333a0bd983725ed09b5937e48d2608319f852b4b68d409cd0ba6b5672e65f437eeecf0f1",
+      "file": "skills/network/wireless/kismet/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "138c74955872bd0d93a46076d628b116777e1ef1f5e6f3ae3339ae7ee67620fd1aab3bc1a673b70717e536461f2c2b1ab0af86b9658a557a07a7fb6c345707fc",
+      "file": "skills/network/wireless/pentest/index.json"
+    },
+    {
+      "name": "wifipentest",
+      "description": "skill directory index",
+      "sha512": "2449f52d95c3e76e83eeb467fb9a4e61f6bd12f09b01acb1632400748c573ffdddc225ddbf0e8c392d46335bb67063eb99c180fb2925bc3ecfb7c9d682c6f3bf",
+      "file": "skills/network/wireless/wifipentest/index.json"
+    }
+  ]
+}

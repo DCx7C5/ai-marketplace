@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7f47ef0640d3d01fd54c8ba22ab2e42cbec1875197cff00d20be870a3d359ca472ac169b538c3f8ee0f36e95f2c51b604614cea07eb3b23a1f6b5eb043787c92",
+      "file": "skills/web-application/injection/sqli/secondorder/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c79d488cf963a06b3b934299a77f8c97b801ad596e5ec5ce5f110cf68a87ddf987ad5b43d32db8e4d1d5bb7b1e3ccde827d2f11de1d33baad7dd46e4685a6545",
+      "file": "skills/web-application/injection/sqli/secondorder/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "cd1274fb7ac4f039621b76b322a0c4809241ccb650e6228a93486269458df75ae0ddeec0ab8b64281631aeef1163c7de7838ad04a9d952e2aeea00c8b902e857",
+      "file": "skills/web-application/injection/sqli/secondorder/scripts/index.json"
+    }
+  ]
+}

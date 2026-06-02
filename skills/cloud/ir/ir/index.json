@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "respond",
+      "description": "skill directory index",
+      "sha512": "3ff5d86860b4f09af8efbb9436f3b44bad8f92e1bf2803e682d01df24dbe28c3ffc0ddbcdd3b89841a5bf694e543c3f5d5be496436877d7f1b633157fd629681",
+      "file": "skills/cloud/ir/ir/respond/index.json"
+    }
+  ]
+}

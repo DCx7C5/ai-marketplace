@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-general-overview",
+      "path": "cloud-azure-general-overview",
+      "description": "-| | Account Manipulation: Additional Cloud Credentials | T1098.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "44a8e1fb18235e56a1f1ebf4b63dbef989f0d4329126dcc00556235aca98a3f9f91af9c29859b5ab09d2c3d793e1df66af5a1d9bcd4234f9768ca3d7462ed3fb",
+      "file": "skills/cloud-azure-general-overview/SKILL.md"
+    }
+  ]
+}

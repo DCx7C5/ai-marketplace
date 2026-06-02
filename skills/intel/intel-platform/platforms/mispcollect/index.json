@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6ae47e1a7b46d4fce7f97bfec99120f68721e0ff9747fb5f8a71bf526f83756e00bc3b20f3d1ff0ae1d0ba4b77eeb3f1d871804a388b3290fad4705b0fc6888d",
+      "file": "skills/intel/intel-platform/platforms/mispcollect/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "08d17184fb1356a267f54c641a6d2c40e52ca5535aa79e330987b600af7dfb7fac9121df25f8adee024a48dada69381b8f47e84b3b772c7c6883b4d413bd103d",
+      "file": "skills/intel/intel-platform/platforms/mispcollect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "76b26c9e8791d7f61b1b739e7606c05d4129b77df46e4a34a275dd64d4ff3b4405d145b282d28a25871af62fb4f3bcf502bf41bb1a72ef7c82520ccdd6436dcb",
+      "file": "skills/intel/intel-platform/platforms/mispcollect/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "v1",
+      "description": "skill directory index",
+      "sha512": "2a8bc296379885c8695a8dc78ba48bffc4dbbebac4f6bb8e041737c9b6e69edb175e976a06113bb7b1265230732cc342481ab74bd0ddbbeec180fd78ba338320",
+      "file": "skills/linux/containers/cgroups/v1/index.json"
+    }
+  ]
+}

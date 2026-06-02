@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-firefox-addon",
+      "path": "browser-firefox-addon",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5592661b3d1870402fb917f793504bdacc138cb2e7e644a3ffbbc631ed0948fe999fd52062604e781723816f6b180bb842addf34c251915931c6cb5143fa5df6",
+      "file": "skills/browser-firefox-addon/SKILL.md"
+    }
+  ]
+}

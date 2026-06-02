@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "gcp-general-overview-analyze",
+      "path": "cloud/gcp/general/overview/analyze",
+      "description": "Implement GCP Binary Authorization to enforce deploy-time security controls that ensure only trusted, attested container images are deployed to Google Kubernetes Engine and Cloud Run.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f03842b13e4b9136a23188bd0b2ed3fdcf5157fbdca09a62707b9efe78bb4c221595ffcc5f207e97d0e1c4c9ff17dddd0dcda6e101ea5ff20fce4136e559ed9f",
+      "file": "skills/cloud/gcp/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

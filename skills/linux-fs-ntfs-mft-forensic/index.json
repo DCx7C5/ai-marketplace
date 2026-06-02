@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ntfs-mft-forensic",
+      "path": "linux-fs-ntfs-mft-forensic",
+      "description": "- 148923    | exfil_tool.exe      | 2023-06-15 10:00:00  | 2024-01-15 14:34:02  | -214 days | TIMESTOMPED 149200    | mimikatz.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fc7eadb4f651e8bd471975460873cbaf904fb1f864b17e5660a6d0d33821c60eb0923ba6a02600e8da2eedcc52cb64a2a6c1f8300f631160ae1bb8ffbd668908",
+      "file": "skills/linux-fs-ntfs-mft-forensic/SKILL.md"
+    }
+  ]
+}

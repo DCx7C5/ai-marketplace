@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-smb-null-session-detect",
+      "path": "linux/network-services/smb/null-session/detect",
+      "description": "Detect SMB null session access that allows unauthenticated enumeration of shares, users, and domain information via anonymous IPC$ connections.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1015bd56e68383002fd81dde90403f5c93391e6e4f6e13b6a78b07df4f5c02118a55f0f153e487901dac07aa761cb0f67727dbec778cd81639aac21283e817da",
+      "file": "skills/linux/network-services/smb/null-session/detect/SKILL.md"
+    }
+  ]
+}

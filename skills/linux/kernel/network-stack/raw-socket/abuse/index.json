@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "33bdc07acb9614f3160e8bee29c33b029e815f1df10ae04694bed7a27cb7e0abb66221f2a5ce6e817140823d61cb637f1e5946cacb697289ddede988a8b5b42e",
+      "file": "skills/linux/kernel/network-stack/raw-socket/abuse/detect/index.json"
+    }
+  ]
+}

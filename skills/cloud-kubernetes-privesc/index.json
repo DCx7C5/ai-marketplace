@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-privesc",
+      "path": "cloud-kubernetes-privesc",
+      "description": "Cloud Kubernetes Privesc.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6e840efd4069a0d7594a43e2c9c0a541aa7fa9f2cd3dbbb99e638491528f0f41d17e6fc2404802b621320f64e3d7c019a7ec005d05ad48a3ca9841d01aace864",
+      "file": "skills/cloud-kubernetes-privesc/SKILL.md"
+    }
+  ]
+}

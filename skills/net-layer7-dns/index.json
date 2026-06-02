@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer7-dns",
+      "path": "net-layer7-dns",
+      "description": "Net Layer7 Dns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "44d020280ca6700c7c89e418791bb6739ddebb7d4567f88bf885e72ab99308cdf5e7e926811d3942da4bcac2fdfd188d6fb6c3eb8aeb9979fa9e66099d9ed45e",
+      "file": "skills/net-layer7-dns/SKILL.md"
+    },
+    {
+      "name": "dnsexfil",
+      "description": "skill directory index",
+      "sha512": "2489f219e37e69963917ef170e68988cc7feae6a7026f3e59cf7f62e7b1570182dd7b59d8df3d96879536b239478532901e1e38138e5b6a52836de12e908cb07",
+      "file": "skills/net-layer7-dns/dnsexfil/index.json"
+    }
+  ]
+}

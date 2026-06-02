@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "4457555ce1eea317bef6d58cd998458e8e96cce562bda0860c77c2ab9347edf7052b93dce7b2827c9bba44a4808780bfcdf657200a92fa6f2b50b0a1a507bbaf",
+      "file": "skills/identity/kerberos/kerbattack/assets/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "cb117a6f618ed4da5048b3af84cc4339f46a3331c2dd702efa4b14fe2646c3700ef927659c000814a2674b7ea36d70b90ac77922fbb2e1d471cf3e9b42ab4b5b",
+      "file": "skills/identity/kerberos/kerbattack/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "48929024f17a4a71fcacb2b4f7ad3a855d994ec47f884990a7f95e36e9c0e61f85f63aee94c42363bf53ff01e103aa8e4b2cdff61af7d46bb931e496a69abf73",
+      "file": "skills/identity/kerberos/kerbattack/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7f45570591cb34b14483efc331a66e8bb3c8f3fa18cb552a26b7d589cf1c21c19f44749184521a593b240c74e6801a7f258c89dcdb26552ce8775ce7487e4cc6",
+      "file": "skills/identity/kerberos/kerbattack/scripts/index.json"
+    }
+  ]
+}

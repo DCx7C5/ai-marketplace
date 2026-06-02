@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "1059159ca101642cb7f42a1452eacac8eb1e52fb99e53c53112f4d92841fc70ba168d3798981d10c52624a15ca88a0e0cdd9dceef50974bf6c97fde0edb7b866",
+      "file": "skills/industrial/ics/protocols/modbus/analyze/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "b26b6d4c0e21b66e613536795a2eab70514492a528f0807868939847cbab269d5fb8dbca630664b504fab841e1907d413aa0ff21ceaa3d15646a6225b7751dc2",
+      "file": "skills/industrial/ics/protocols/modbus/detect/index.json"
+    },
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "7bf6b248c777440fd3c5258720e998e193b6d9efd5b50576e2dd050e65ebe29ae1f7c6e3c38353826ac2004f0a0ca3ebba38c0b02fe911eec577e372a58701fc",
+      "file": "skills/industrial/ics/protocols/modbus/monitor/index.json"
+    }
+  ]
+}

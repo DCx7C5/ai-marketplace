@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0c0acff6b5a25637d18a996b93a135e9465a67a1fe145700205963c64ce0b41db23da3f742170480be624eac944ef55e6c2d7cc8c5844acef1a83b1856235b0d",
+      "file": "skills/linux/kernel/memory/slab/corruption/detect/index.json"
+    }
+  ]
+}

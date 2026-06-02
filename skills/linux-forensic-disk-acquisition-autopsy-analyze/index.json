@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-acquisition-autopsy-analyze",
+      "path": "linux-forensic-disk-acquisition-autopsy-analyze",
+      "description": "Linux Forensic Disk Acquisition Autopsy Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "904cb7162235073d50446ea7ef088e6f568ed0e21fdb1effc84d3800cf721062099995e99be03a421e06dbee5993fa626a5167ddf5b2a25a5ef910683549846c",
+      "file": "skills/linux-forensic-disk-acquisition-autopsy-analyze/SKILL.md"
+    }
+  ]
+}

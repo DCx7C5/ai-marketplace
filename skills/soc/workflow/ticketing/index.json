@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "integrate",
+      "description": "skill directory index",
+      "sha512": "48891c35606ca0702ca3b0cd03fdb6897b4b6a893921102d398e498d6931e0c520220c21a048c7a7d1c877cb57ba7285b2811231ac9894f747bbc267bfd67a1a",
+      "file": "skills/soc/workflow/ticketing/integrate/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-cache-artifact-recover",
+      "path": "browser-cache-artifact-recover",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7ce5a7f70a987f31c0cdad22c85d8e03ce731850366964260f558b576127736edd475050ec3ef8cca866b5c974db226c2e28e79c1c506066ee2b273fcac932a8",
+      "file": "skills/browser-cache-artifact-recover/SKILL.md"
+    }
+  ]
+}

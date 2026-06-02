@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-postgres-injection",
+      "path": "db-postgres-injection",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "539f8dc8e24e83aeab346da2fede337aaf16fb9a4acaa6f840f82b90338164c85bbce11ef43deb2c6ef7359d1ab1dc2ef48a0bfee604c02cd13cdda91668be7c",
+      "file": "skills/db-postgres-injection/SKILL.md"
+    }
+  ]
+}

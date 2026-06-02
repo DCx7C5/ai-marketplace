@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-nuxt",
+      "path": "devel-jb-nuxt",
+      "description": "--| | Layers | Extending applications with reusable layers | [advanced-layers](references/advanced-layers.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d4b0dfcdf2a0bb0f864d33ef864f2f7b4f9745956554e4c9ff2e1f74a8dbb6ca32b26705ce27e3deab9b16ae720b087abbf393ea29df083fc2b77c6fb19fbfe8",
+      "file": "skills/devel-jb-nuxt/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "be350578468f58c5df3f727c55d5cf0c944a7cae42f8e60c9164bddbddd38a8a584a6b6895fc1706942270285a57bee19d69e63ab588c2f9329e6134c7e85965",
+      "file": "skills/devel-jb-nuxt/references/index.json"
+    }
+  ]
+}

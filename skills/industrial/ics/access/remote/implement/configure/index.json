@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-access-remote-implement-configure",
+      "path": "industrial/ics/access/remote/implement/configure",
+      "description": "This skill covers implementing secure remote access to OT/ICS environments for operators, engineers, and vendors while preventing unauthorized access that could compromise industrial operations. It ad",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ad92cd60eccd9e3e2ef5a6c7eb7d87277ad10486dae4a395f2f5a010105d4189ee9e88c469d230944fc602294f8b7b038d41d1738f6c0deaf97567bb30feb48b",
+      "file": "skills/industrial/ics/access/remote/implement/configure/SKILL.md"
+    }
+  ]
+}

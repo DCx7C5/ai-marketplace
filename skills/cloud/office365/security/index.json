@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "0092ebbd6f5717a83b3aeef74e1c884b0f93466e2e0ed0db3b349bc74a3d79652742c9435e7bc622833b94c4d32811b54cc7987a18f238a6c02bbaba6d784864",
+      "file": "skills/cloud/office365/security/audit/index.json"
+    }
+  ]
+}

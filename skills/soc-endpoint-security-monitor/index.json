@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-endpoint-security-monitor",
+      "path": "soc-endpoint-security-monitor",
+      "description": "Soc Endpoint Security Monitor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "24ddb9f99d2e380656ff3c566d3c615e3586ceed9b6f0b0db702a69558621751ad485a7c0c49543cc4c9acf723321dbb0f606c240a7b586002a160d9bb4095ff",
+      "file": "skills/soc-endpoint-security-monitor/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forseti",
+      "description": "skill directory index",
+      "sha512": "e2035a3d8bef27fac4d1b03989850b04b0c3b93ce5fe995f88fc04f5e8715b47cf34d47c3286c4cb71cc900be3c1913748ef793faaad2d49b84ddad7040ec221",
+      "file": "skills/cloud/gcp/forseti/index.json"
+    },
+    {
+      "name": "gcppolicy",
+      "description": "skill directory index",
+      "sha512": "8e47c7387a033464e2c9bbe02da44db94b346939ae64b9393f65f7c4660f5c887f4f8b700e4a126cd364ad12b312553f4e2808f9c1e130ccdc473b994b1233ca",
+      "file": "skills/cloud/gcp/gcppolicy/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "8d4b4356b3fea1beede6fcfe204e530aedc0ec010b7fa8bce8f95116c610378eafdc46b704edd285c67ba6a052fcf565b9c56f665f4f6bb36ba806cb7dddd9d0",
+      "file": "skills/cloud/gcp/general/index.json"
+    },
+    {
+      "name": "iam",
+      "description": "skill directory index",
+      "sha512": "215c0a2740c6253f3ca3ada9f8e62bba79b4c42f478e6ec8be7503db0dbe5c7c84823dfe64afd02066d1fe3a110f829fbc81e1d3bcdd8a6eb3f262509222532c",
+      "file": "skills/cloud/gcp/iam/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "231d4bc4e9c5f6708b06e082cb0fd95b1fd58215d83428c2e48e95abafec013d898f4cacf4457543810fb593700946dada015488473c9d6b3e81ef825afcd3e2",
+      "file": "skills/cloud/gcp/pentest/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-shadow-monitor",
+      "path": "soc-hunting-shadow-monitor",
+      "description": "Soc Hunting Shadow Monitor.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "99e372c9c71573ecbfc1fa915e6e4081bc91320eae1ca206780a98375d23b5ee76f9d6d3f6e949896f1955232b28abbf3574fadcb663f71c3d169c63c40107c6",
+      "file": "skills/soc-hunting-shadow-monitor/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-osint-methodology",
+      "path": "offensive-osint-methodology",
+      "description": "- [Hive Moderation](https://hivemoderation.com/)   - [Reality Defender](https://realitydefender.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "422e52bc924525defad45b6eff8b47f72da3a9b13759da103b786049546b5db46154f8ca032651fcac6ef6a9db3ce421d9b2c4291fcfa15830483528fc2f5d33",
+      "file": "skills/offensive-osint-methodology/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-insider-insiderindicators",
+      "path": "identity-insider-insiderindicators",
+      "description": "Identity Insider Insiderindicators.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d26e0077329f5b211629983674d8ea3a9c316be82d2e65e0134de2d883b1361fa25a7aca92a96afd778f8c6e457321f27912fd3667feea73b3e8f6684392243d",
+      "file": "skills/identity-insider-insiderindicators/SKILL.md"
+    }
+  ]
+}

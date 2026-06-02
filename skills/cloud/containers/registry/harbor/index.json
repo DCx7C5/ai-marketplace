@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "c488cb35c6dde27083d22158a65db47119b7f60713b79035bc86505b5188ada0c1032289d9283732338fda7cc7a7bbb697103fd42226a12ab0c2ef056e0664c8",
+      "file": "skills/cloud/containers/registry/harbor/exploit/index.json"
+    }
+  ]
+}

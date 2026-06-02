@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-aslr-nx-configure-verify",
+      "path": "linux-harden-aslr-nx-configure-verify",
+      "description": "subdomain: hardening-assessment tags: - linux - aslr - nx - dep - harden - verify nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "64def813c6cefd54cfed234948934b2fe44913b53791305b9bdf327bede36d3f54b13daf42bd7b366ab8d8bc904c271ff274569c505a5238cb8ff26090b374ab",
+      "file": "skills/linux-harden-aslr-nx-configure-verify/SKILL.md"
+    }
+  ]
+}

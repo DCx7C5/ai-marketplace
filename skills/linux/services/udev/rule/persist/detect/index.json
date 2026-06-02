@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-udev-rule-persist-detect",
+      "path": "linux/services/udev/rule/persist/detect",
+      "description": "Detect udev rule persistence \u2014 inspect /etc/udev/rules.d/ and /lib/udev/rules.d/ for unauthorized rules that execute commands on device events, commonly used for persistence.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6961f6b89c596d97d0eeff836bee33475b8ee98c72714eb6ebc1073e28de53690aa6f5f17411117783fc1464edbea63852d61084963a7826051f09ea598793d1",
+      "file": "skills/linux/services/udev/rule/persist/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-injection-inject",
+      "path": "webapp-api-injection-inject",
+      "description": "Webapp Api Injection Inject.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bfb247168fcab0783cded4292e7c106a4ae2408491ad53bdf42d82ed4f56166bd514064f7058f3a704272ee7469098584613ef85cd2fd6e85a30a2d431af35cc",
+      "file": "skills/webapp-api-injection-inject/SKILL.md"
+    }
+  ]
+}

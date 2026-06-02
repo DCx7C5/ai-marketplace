@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-prefetchpy",
+      "path": "windows-fs-artifacts-prefetchpy",
+      "description": "Most Executed (Top 5):   1. SVCHOST.EXE          (267 runs)   2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c9b203cd5d22f616820b9c113a9fc4906ec03359b16767e36ff4e6e248293b0670c5f0fdb6dba84e628f4e0288ea3b0e07a577bee6ebc93f3546cd7de1d8c1d2",
+      "file": "skills/windows-fs-artifacts-prefetchpy/SKILL.md"
+    }
+  ]
+}

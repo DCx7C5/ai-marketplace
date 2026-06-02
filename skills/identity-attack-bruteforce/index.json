@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-attack-bruteforce",
+      "path": "identity-attack-bruteforce",
+      "description": "Produce a JSON report with top attacking IPs, targeted accounts, time-based analysis, and compromise indicators.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6eb3182ed90af258c3e1afea37fffc8a0a1cccfe1e01dd2425fea4caf4247ed0f6447295c6b04368258ba3a5a4333ff7a157a21fd1aaec667efc020cba5d84cf",
+      "file": "skills/identity-attack-bruteforce/SKILL.md"
+    }
+  ]
+}

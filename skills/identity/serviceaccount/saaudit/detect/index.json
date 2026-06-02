@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "serviceaccount-saaudit-detect",
+      "path": "identity/serviceaccount/saaudit/detect",
+      "description": "Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud pl",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "366c07390ce6829a9bfa761f4e91274ea056153ed1ae14a32ce954de15d58968a29bef731db860405c9620ca2a9ffc453efc70d0acd5534a837585a2eab1852c",
+      "file": "skills/identity/serviceaccount/saaudit/detect/SKILL.md"
+    }
+  ]
+}

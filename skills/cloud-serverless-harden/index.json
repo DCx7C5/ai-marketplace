@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-serverless-harden",
+      "path": "cloud-serverless-harden",
+      "description": "Comprehensive security hardening and assessment guide for AWS Lambda and serverless architectures, covering cold starts, event injection, IAM execution roles, function URLs, layers, concurrency contro",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e94dc58c32a5a7bd91189ae4eb1878f3c1cac3053e498322009c6179db7904e2cdb8654bddccc1553547e3c25e55fa4a1bedd6abc43143dddf95fcbf8923a2c3",
+      "file": "skills/cloud-serverless-harden/SKILL.md"
+    }
+  ]
+}

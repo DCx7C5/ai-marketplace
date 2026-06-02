@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ntlm-passthehash-detect",
+      "path": "identity/ntlm/passthehash/detect",
+      "description": "Detect Pass-the-Hash attacks by analyzing NTLM authentication patterns, identifying Type 3 logons with NTLM where Kerberos is expected, and correlating with credential dumping.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "06d3ead31ca47a84c9ccaef5f8ea623aeeb832077173ac00394a62c9ed3c15322b9b355a2ecce77c447bbe4d5520e21ab36d9a6cfea01b922d15ae73397aed1d",
+      "file": "skills/identity/ntlm/passthehash/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth-consent",
+      "path": "webapp-auth-oauth-consent",
+      "description": "6. Check publisher verification status for each application 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9338a29d674588231a8467a5b283f16f4c33054f9167a8778e03ca8fcee239167b3e3d4f088c5d51168a87931d54b1eebc9527956c01c63515ca586511a40967",
+      "file": "skills/webapp-auth-oauth-consent/SKILL.md"
+    }
+  ]
+}

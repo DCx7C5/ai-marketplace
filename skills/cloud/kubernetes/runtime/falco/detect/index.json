@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-runtime-falco-detect",
+      "path": "cloud/kubernetes/runtime/falco/detect",
+      "description": "Detect container escape attempts in real-time using Falco runtime security rules that monitor syscalls, file access, and privilege escalation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "73cc278f5fd0dce1a2a1e9e50dd7b34b00e50c6d4361383fc305c77fba6f30536e7307a846f6bfce66fd27ce9b4b059ba3af093597b0854723bbc0f10725769f",
+      "file": "skills/cloud/kubernetes/runtime/falco/detect/SKILL.md"
+    }
+  ]
+}

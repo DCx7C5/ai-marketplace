@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "f3b59581d764aa64267ee1d9cc2cbf05de45d03f43d19f8610509128c2cf7cb8b6c545d5c94da6a1395f980795bcda6ac9cd557d8483aaa47124dacc3e5bc90e",
+      "file": "skills/network/recon/easm/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7cd9009885743470bdff919a4fa47ece6449b73a3e2e41e6ef2474ababd629c0e7b9063f0090a5be7be89505c57f63e1937d81ecfe5560d6c36e0677ac61a415",
+      "file": "skills/network/recon/easm/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d7ccd0ef03399ebb0eb30fd713a79fd5b2bed0d2f6aa7a11d1ca4e6ef7cbbb5474d97569cee2dd4b69e0d84d56b884cd783e8a6ee9862ce41396c315894e361a",
+      "file": "skills/network/recon/easm/scripts/index.json"
+    }
+  ]
+}

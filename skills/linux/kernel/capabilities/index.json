@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "5e63b7550c6a635b81e962aa55a07241c92602e0844e0ed611b4c5cbb70bb2475e7f90d81310939a0015dceeae4ec215b4943fadf2db1bb639a086f4b66d2b1d",
+      "file": "skills/linux/kernel/capabilities/enum/index.json"
+    }
+  ]
+}

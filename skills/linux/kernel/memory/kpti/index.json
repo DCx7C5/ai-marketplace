@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "f2baf17dbd44ce7ed297b4a6d77180b355e78f71dda4a4617ac85829f1df0841faf206231105ae9cd794adf431f9440ee5e155bb476605e1479df2b083d2dd3b",
+      "file": "skills/linux/kernel/memory/kpti/bypass/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ff48d3b9df6935f17ce7b8759e3bc6882f7397ec572f931f5a7847c284e650fd4d48047e98313e240c8b6bdcf5def8a69fefb8e5e1884ec5eb8298c5ed24cf58",
+      "file": "skills/network/capture/scapy/detect/index.json"
+    }
+  ]
+}

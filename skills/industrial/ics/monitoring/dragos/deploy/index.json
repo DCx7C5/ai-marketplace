@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-monitoring-dragos-deploy",
+      "path": "industrial/ics/monitoring/dragos/deploy",
+      "description": "Deploy and configure the Dragos Platform for OT network monitoring, leveraging its 600+ industrial protocol parsers, intelligence-driven threat detection analytics, and asset visibility capabilities t",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "049154fe33ee46516b35ab14dfc26d67dac72837990a1e944febcc319e6b370233a619a044a5c8c26305003f96d459ed47cf57bc783f07b1deb3689c4940a9b3",
+      "file": "skills/industrial/ics/monitoring/dragos/deploy/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "85e0bf5297544af4504229eab04c82f370b0a5cfae55fc131cbd94092e1f5c5ab22fbe7ff7a0073c1d71fb1d0cc8c9b9671c0f464c870785e2e7028aac0abebc",
+      "file": "skills/industrial/ics/monitoring/dragos/deploy/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0755bbdc062996191763d30fcc7f7a0f3bf8fa1b35eb9bb7c5993ed8ee5a20dfc9f022eeceda08834e805d69a9ad65d64b15c481082fc3a591afead14c1c4ad9",
+      "file": "skills/industrial/ics/monitoring/dragos/deploy/scripts/index.json"
+    }
+  ]
+}

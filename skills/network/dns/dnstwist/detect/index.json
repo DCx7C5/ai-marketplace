@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns-dnstwist-detect",
+      "path": "network/dns/dnstwist/detect",
+      "description": "Detect typosquatting, homograph phishing, and brand impersonation domains using dnstwist to generate domain permutations and identify registered lookalike domains targeting your organization.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1e82576d933f36d97dbdd47082f6edbc4af04ed06c30f93fc4599c4c4572e5d6ccb57d24061071c33eaa187a32e3d2549cc8f4bd542dfe7e739eeaa6434a874",
+      "file": "skills/network/dns/dnstwist/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tabletop-post-detect",
+      "path": "soc/tabletop/post/detect",
+      "description": "Facilitate structured post-incident reviews to identify root causes, document what worked and failed, and produce actionable recommendations to improve future incident response.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "785920d5520d30f43dfbcace25acfee7c4b7c12b35f2542f4b3dbe54b143751ad668004806e03b2f14fc487136b10044079d74c728570f63f27d1a1f0b0a0197",
+      "file": "skills/soc/tabletop/post/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-notion-spec-to-implementation",
+      "path": "devel-jb-notion-spec-to-implementation",
+      "description": "- `examples/` \u2014 end-to-end walkthroughs (e.g., `ui-component.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "75167be01f071ec057f3c0b254a1a7ae4dfc6c9b220f9d24a70b375eb4b4877728b30c822e24c6af74dc1f12588f37e57ef7daf93d3aa123d9c2555ba61af01c",
+      "file": "skills/devel-jb-notion-spec-to-implementation/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "698f0f0d748e09e36c7b61960e40af80320ba30ab4f189c04fb6c02c8652e1e1a62ac8f9d98bf1b0f3fb8bf066f8fe6928e8dd2cd9bce25a3a4c95f89d74b4e5",
+      "file": "skills/devel-jb-notion-spec-to-implementation/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "4d747a6dd2e28dc3c8dd3989b0c4fba6a37429598ae9b68ee80e33cf78d052e4bede19e0a38db9d1fe2b2f345451c062503656e492eff3d3342c06368b20105a",
+      "file": "skills/devel-jb-notion-spec-to-implementation/assets/index.json"
+    },
+    {
+      "name": "evaluations",
+      "description": "skill directory index",
+      "sha512": "294fa1afa31d6c130ef4bbc945bf6c315c7ed987e0559be51ba0f5705fedb40030e41da998be262a3b831c11b7e54e74bc0f30f0ec655be2f36437ee743f953a",
+      "file": "skills/devel-jb-notion-spec-to-implementation/evaluations/index.json"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "1d2b3b59d3339e60297d2e14acbca4bb76e42c59fbd7664df29afc11d1688feaeb96b020114c7266408cfb1df43f52cb92065b0dc7a5125942041cb889b91c70",
+      "file": "skills/devel-jb-notion-spec-to-implementation/examples/index.json"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "07ea491ce906e2e591091b12ec2e1ee96f4d08fb7c075296b97048eb31d47858cb5508516fb4a75ab714c6fdebda9c6b4178f02f9918c58a55b4d54b98810874",
+      "file": "skills/devel-jb-notion-spec-to-implementation/reference/index.json"
+    }
+  ]
+}

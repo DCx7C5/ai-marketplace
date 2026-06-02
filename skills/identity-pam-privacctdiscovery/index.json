@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-privacctdiscovery",
+      "path": "identity-pam-privacctdiscovery",
+      "description": "Identity Pam Privacctdiscovery.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "288a47bcd8ca49b775da74c6853f8ce0d11f91c66e289f8f7aab9d32b4d3727eae51dabfd307eecbaebaaea71d7cafd979d17325aefd44122b68520b1b651ffc",
+      "file": "skills/identity-pam-privacctdiscovery/SKILL.md"
+    }
+  ]
+}

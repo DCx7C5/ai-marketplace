@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logs-azure-detect",
+      "path": "cloud/logs/azure/detect",
+      "description": "Queries Azure Monitor activity logs and sign-in logs via azure-monitor-query to detect suspicious administrative operations, impossible travel, privilege escalation, and resource modifications. Builds",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dbd08e1edee4d5e7d0ee1b767cc79724478fcd14abc07b2f25867592398436110bdb2f19aed3dfe071cf89338c48b7fdd13b70a70ca1bc7b5a060141a70e3dcb",
+      "file": "skills/cloud/logs/azure/detect/SKILL.md"
+    }
+  ]
+}

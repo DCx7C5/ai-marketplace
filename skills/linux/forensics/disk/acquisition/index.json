@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "autopsy",
+      "description": "skill directory index",
+      "sha512": "c395ebd38173de96df0c1c38d8b064be44432354e8152904b971e9c15ffcec39e9f7e97535f88bf279849c82265b550c78368b058b991d5851ad1e2871c62579",
+      "file": "skills/linux/forensics/disk/acquisition/autopsy/index.json"
+    },
+    {
+      "name": "dcfldd",
+      "description": "skill directory index",
+      "sha512": "a71c546565f8da630d09b1966105a6e525daed1d95d68b679ad9d49700dd10fb1dcc7ecbe2e2eaf67ca311c773a6f05420fc188095aeb9c9726ef313d82d64fe",
+      "file": "skills/linux/forensics/disk/acquisition/dcfldd/index.json"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "eb8bfe8c07a53641c218b5160490c3b564231ee31f2592089331173383efe7e272bb1e2c145dbf47eb7934b14238538a482ca90fab02e8a028cb8e4480191207",
+      "file": "skills/web-application/auth/oauth/assets/index.json"
+    },
+    {
+      "name": "consent",
+      "description": "skill directory index",
+      "sha512": "850252c21a68dab62766a3f2f22d55657be9ff361495401065fd3b236d3d581f66a4cd0bc9b19da26286d171a4d5dc921356a70bbc53965f1add77bd10212db8",
+      "file": "skills/web-application/auth/oauth/consent/index.json"
+    },
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "d3839068bb9612489c9ad92a2e6f7e498c088e2cbf5a03d5aba361c9b97a6fa77c962a32debc098e6e604debfe748994d8baa70e3fe1a6ead8280bd5f876b17a",
+      "file": "skills/web-application/auth/oauth/extract/index.json"
+    },
+    {
+      "name": "flaws",
+      "description": "skill directory index",
+      "sha512": "a3043d9827620a73d05f975b6ed698466988257c1387e023f0669048ab4d82e126caa864c307ccdb944b390593f02292d0a6278727f5a9fbeee45a048d05689f",
+      "file": "skills/web-application/auth/oauth/flaws/index.json"
+    },
+    {
+      "name": "misconfig",
+      "description": "skill directory index",
+      "sha512": "0f954c1d434d9c2cde7575ee6ac44ee148e727cca5006b2ac5f2a23e44b08b096a23ea0c691d3d771d5c6fb90ce38ebb3e5842ae82ebe46cf24b3848e4847023",
+      "file": "skills/web-application/auth/oauth/misconfig/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "99ac79f319f30d6c9a723a6b1696450b517f49f95b2aac69da9faba46593a6b3d5ea61ef3c656b98e6ae2ebf12d4027fa1d87f165ddb5766548e9916c1c9a230",
+      "file": "skills/web-application/auth/oauth/references/index.json"
+    },
+    {
+      "name": "scopes",
+      "description": "skill directory index",
+      "sha512": "7df1e3da2530a8f4554d4094c5bdd6665d5ff81950af255711791e39635b3492920ea62df9a288373167438f689db4ebf7d50b36cdf6910a3ac798abdba0418a",
+      "file": "skills/web-application/auth/oauth/scopes/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f58b4a95af9c6e57cfe5983803a9771a3fdb5f40ea6b733088c482be55b359b27cc8af1c6b435d07a93f6fb4be24026d3fe08d1c7de201215426752938d89199",
+      "file": "skills/web-application/auth/oauth/scripts/index.json"
+    },
+    {
+      "name": "tokentheft",
+      "description": "skill directory index",
+      "sha512": "aa74eb869104f89f80558db80ba6cf7d01f4d102317a3679edfed9e7e1a7f96219f88dda8481b1a4f6aee257f5d195ef61b94c5f5fc0d2a257fdf621b0c13306",
+      "file": "skills/web-application/auth/oauth/tokentheft/index.json"
+    }
+  ]
+}

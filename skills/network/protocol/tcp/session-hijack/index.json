@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "25645d2c9a0849e3f0ccce199aae5af2b06c979de12e8e73548c3d9530c74562df6d8b7434f84ecb99940471f1800bee66c925a6ed52736730bf969e0811d4ce",
+      "file": "skills/network/protocol/tcp/session-hijack/detect/index.json"
+    }
+  ]
+}

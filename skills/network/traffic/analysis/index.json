@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "netflow",
+      "description": "skill directory index",
+      "sha512": "1f7f10726ea1517b96d7495a602e49b91eb7a77e50b676a8bedc99c2f805e0c691448655a259d1398f73803e9e2f5463fed1dde93b09b4d72b6c7d875e119d80",
+      "file": "skills/network/traffic/analysis/netflow/index.json"
+    }
+  ]
+}

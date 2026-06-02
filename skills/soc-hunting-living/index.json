@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-living",
+      "path": "soc-hunting-living",
+      "description": "Soc Hunting Living.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b2398c047b4062ed3ede05d9c984d49d9bfc02f3d1760c5dacc3e7d4a5b976038af2e3adcbf2c84f8335e60809e78cdd37de3a684fc673823a37dafa54a104c4",
+      "file": "skills/soc-hunting-living/SKILL.md"
+    }
+  ]
+}

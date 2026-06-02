@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-systemd-unit-persist-detect",
+      "path": "linux-svc-systemd-unit-persist-detect",
+      "description": "subdomain: persistence-detection tags: - linux - systemd - service - persistence - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "379a9dfc8423aaf580721e09e53ef2c382c31896ac1ed287e68f04715bd512669f83f0bb6b48eb72d730d58a46b64cbb6849f2c78b3e8873b07952704135ae44",
+      "file": "skills/linux-svc-systemd-unit-persist-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "threat-cryptomining-detect",
+      "path": "cloud/threat/cryptomining/detect",
+      "description": "This skill teaches security teams how to detect and respond to unauthorized cryptocurrency mining operations in cloud environments. It covers identifying cryptomining indicators through compute usage ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f32066c4b8c30de264347a0ffad4fdde356173205fe1ee2099f9a61980692bcf6bc4633565ab8363286d852068cc219bcf138f17c79f45edcb0c780a775f38d8",
+      "file": "skills/cloud/threat/cryptomining/detect/SKILL.md"
+    }
+  ]
+}

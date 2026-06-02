@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "active",
+      "description": "skill directory index",
+      "sha512": "5594b440aa9414ce9c982cad15054d2d328973e9d50cb47f1245e11c4d33269897e868895365d592334d414705bafb75a1aab1162556d86784a24c65b47f1ec9",
+      "file": "skills/soc/containment/active/index.json"
+    },
+    {
+      "name": "cloud",
+      "description": "skill directory index",
+      "sha512": "e6ce7cc69fe74bb1a94d446583aa38d9c61dc5a2bef7b299214ba326ba5980677658d3f21760c3129d2e32d1c46b578c68f989b31d4fee69f78f2909319d6c2c",
+      "file": "skills/soc/containment/cloud/index.json"
+    }
+  ]
+}

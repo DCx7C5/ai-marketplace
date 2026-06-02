@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "252dd9a4d19e8f0b57a9d3c36713514041e6b01ff916ae6e60752f786e4f45e273ff4f5f118bd107844fc04b6ceba993ef869fc9299fbd8fdf6cdab53486f420",
+      "file": "skills/network/dhcp/starvation/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "packet",
+      "description": "skill directory index",
+      "sha512": "94ebbbcb2e567e24d870affafbd61864f3e16ce9e85db4dec8edc7bd683b26e63c4b65b7aa5c072b0e1115ceeb2752061b30e81a910e26b63ab53586999cb688",
+      "file": "skills/network/injection/packet/index.json"
+    }
+  ]
+}

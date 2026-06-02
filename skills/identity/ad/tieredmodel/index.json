@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "escalate",
+      "description": "skill directory index",
+      "sha512": "d624b5ca5be78b17dbf9dee65c27a3d335e05aa45fa2810e4d1b58f34d7e1e2ad86d30ebf7441553e24560646444e0ce3f0eb8a8fad8709df71cbd4653703c17",
+      "file": "skills/identity/ad/tieredmodel/escalate/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "76a66c6dedb6accd96b34b9a92f0ccab58aff987d792bc832cc36ef726fd0529b866468df1fcc3171303b472aec02656c0b601d564bd988b15ac7525658f140c",
+      "file": "skills/identity/ad/tieredmodel/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3ee97ed201b568b13ffc28e0faf96132d0b71cd62ccdb7e7152a95e1b5c47946a271c4f07c05e4e42dba588be48e1e0d76099e98b03d2aa8960a30727bda47c8",
+      "file": "skills/identity/ad/tieredmodel/scripts/index.json"
+    }
+  ]
+}

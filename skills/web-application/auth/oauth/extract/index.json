@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-oauth-extract",
+      "path": "web-application/auth/oauth/extract",
+      "description": "Configure secure OAuth 2.0 authorization flows including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant. This skill covers flow selection, PKCE implementation, token",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d3839068bb9612489c9ad92a2e6f7e498c088e2cbf5a03d5aba361c9b97a6fa77c962a32debc098e6e604debfe748994d8baa70e3fe1a6ead8280bd5f876b17a",
+      "file": "skills/web-application/auth/oauth/extract/SKILL.md"
+    }
+  ]
+}

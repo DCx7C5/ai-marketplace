@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-evilginx-verify",
+      "path": "webapp-auth-evilginx-verify",
+      "description": "--| | Newly registered lookalike domains | Domain monitoring and certificate transparency logs | | SSL certificates for suspicious domains | CT log monitoring (crt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b214b2b956e2b7d20430b66f3115bcb87901719bf6119afe469bddaa1f2ed524086db7e03a145e66e8f9b36898ac6362d5cd49a55f1538aaf72bf08011f3ad6",
+      "file": "skills/webapp-auth-evilginx-verify/SKILL.md"
+    }
+  ]
+}

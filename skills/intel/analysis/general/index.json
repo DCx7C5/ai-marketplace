@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "overview",
+      "description": "skill directory index",
+      "sha512": "1e5844c668662f183751c6cf773605214696626b7191413a52154b0b9c923684129fe42e98167615b62b1697c944394197cf13879d1915621c1295a0fdc870ff",
+      "file": "skills/intel/analysis/general/overview/index.json"
+    }
+  ]
+}

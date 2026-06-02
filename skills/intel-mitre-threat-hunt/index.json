@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-threat-hunt",
+      "path": "intel-mitre-threat-hunt",
+      "description": "- [ATT&CK STIX Data](https://github.com/mitre/cti) - [ATT&CK Groups](https://attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce7262fdadae27c81664f4b2ebe1806b870a69b4af382caca944d8c3e9b477b617ffc973abbefadc6cae4dedc3894b0920ab78f2e942bf54bf16e4aa8b2bb585",
+      "file": "skills/intel-mitre-threat-hunt/SKILL.md"
+    }
+  ]
+}

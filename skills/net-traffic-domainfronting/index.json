@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-domainfronting",
+      "path": "net-traffic-domainfronting",
+      "description": "JSON report containing detected domain fronting indicators with SNI-Host pairs, certificate details, CDN provider identification, confidence scores, and MITRE ATT&CK technique mapping.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "438447de2103c24dc979b5bf5b1218aa3e836988cd40a5b48e1cbc94c758ce76315bb31b5f3e5eee9bf57eff34133613e9d187674a8ae8bbd636eeec629f6d7b",
+      "file": "skills/net-traffic-domainfronting/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-gshadow-group-audit",
+      "path": "linux/identity/gshadow/group/audit",
+      "description": "Audit /etc/gshadow and group privilege assignments \u2014 identify groups with excessive members, sudo-equivalent groups (wheel, sudo, docker, disk), and shadow group misconfigurations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "441a1beb4909718cf2de2d520aa94e1d4849dd0b771b4d8709817a64e3eaa14f4cd0221b6705c6b0375c2a0a17a9a3c7668a8737be586b38dd30c7d264972be5",
+      "file": "skills/linux/identity/gshadow/group/audit/SKILL.md"
+    }
+  ]
+}

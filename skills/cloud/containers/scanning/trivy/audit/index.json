@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-scanning-trivy-audit",
+      "path": "cloud/containers/scanning/trivy/audit",
+      "description": "Scan container images, filesystems, and Kubernetes manifests for vulnerabilities, misconfigurations, exposed secrets, and license compliance issues using Aqua Security Trivy with SBOM generation and C",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9065abd70ad7a08952444f7c69e0caa57186117beddd6ba8e6e44a62a44947e7d4676f102983383f73f7b07f0c62b64ee01e8c65335834af5cd7ac34401dd46c",
+      "file": "skills/cloud/containers/scanning/trivy/audit/SKILL.md"
+    }
+  ]
+}

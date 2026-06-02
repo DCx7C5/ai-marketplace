@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "487d8381f7d7400bc71a27a0970af26594730d326e39f166b8ce2a50449cb4cb24036a7a887b173c48468ee7fbed17ffe09976f9267e74227c341cbf49ce29b9",
+      "file": "skills/web-application/auth/evilginx/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f688152d4ded63e78380604717f97e0918e3ff87a003461e3830d8be3147b9ae784f2dfe36e0e6c0e81ea15f0dcd94dd235ad1ca98af8f19bdc50b39e5a86a32",
+      "file": "skills/web-application/auth/evilginx/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b66bbdacb72c559cd91aa8477fbda5b166d9aba2a8a07b6fd0297e905d5cf4dd53a9f2ce8962c82a375f757da3b6738b46adcb7738cd49bf6b8e8dc7459a8dd1",
+      "file": "skills/web-application/auth/evilginx/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "7496dea6926eb47ddba312fcc9a9a33a9b5a236476bd8de8603fca8931947af6b20725b8aeedc3acfe2fdec9cf6dbe29c5819e717329c544eb6e8f8a1a8caad8",
+      "file": "skills/web-application/auth/evilginx/verify/index.json"
+    }
+  ]
+}

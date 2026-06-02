@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "94dcf0ddfcbdb41b2eabab34a1ffbc7fac5bee966b670ead00878c4d0b6016d8808edd860741a81af42b9bccf06e1a561849100197680d907159f78bd3f4461b",
+      "file": "skills/cloud/logs/anomalies/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-baselining",
+      "path": "net-traffic-baselining",
+      "description": "JSON report containing traffic baselines (hourly/daily profiles), per-host statistics, detected anomalies with z-scores, and top talker rankings with deviation indicators.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cb969846fa512cfaaba4e1b3953bf0d39631c8bd23e6b04396984d7c9db9ea730e42869a176d3056b9630cd2f3e566698925bf5044ceea4f212faeb1ba35fbea",
+      "file": "skills/net-traffic-baselining/SKILL.md"
+    }
+  ]
+}

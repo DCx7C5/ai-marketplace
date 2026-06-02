@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-indicators-hunt",
+      "path": "intel-ioc-indicators-hunt",
+      "description": "--| | **IOC** | Indicator of Compromise \u2014 observable network or host artifact indicating potential compromise | | **Enrichment** | Process of adding contextual data to a raw IOC from multiple intellig",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e2351143c6839aa9de05822cbb12652ce2fb354f85998920c9cab5b0907f86d5af0af1e0dad8ba95c7cde23d03d22c7e51f7b66295fdd8f6493fdc67a0c72fa5",
+      "file": "skills/intel-ioc-indicators-hunt/SKILL.md"
+    }
+  ]
+}

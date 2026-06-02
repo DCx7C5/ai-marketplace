@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-beyondcorpmodel",
+      "path": "cloud-zerotrust-beyondcorpmodel",
+      "description": "Cloud Zerotrust Beyondcorpmodel.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7327cf7af02917885cec98b335d562c7d53898784116f6bfb72200a00867ad108ca0624b1fd94e1c7d785ec3102b5c3b1668ec70303908329863e3839c24eed8",
+      "file": "skills/cloud-zerotrust-beyondcorpmodel/SKILL.md"
+    }
+  ]
+}

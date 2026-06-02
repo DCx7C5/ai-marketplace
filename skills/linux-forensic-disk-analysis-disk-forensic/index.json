@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-analysis-disk-forensic",
+      "path": "linux-forensic-disk-analysis-disk-forensic",
+      "description": "Linux Forensic Disk Analysis Disk Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "08369fb5550f3cf0e4731399d32dafd21a3a1d4b2429e5465f683ebf6b81855694b57e9b88e8e04898b936467ac2ddca6fe2ec308b3e044da77c7d557548d5ef",
+      "file": "skills/linux-forensic-disk-analysis-disk-forensic/SKILL.md"
+    }
+  ]
+}

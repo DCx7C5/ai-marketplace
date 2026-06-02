@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "428f894d7d3cf0bd61ccaf0dd148029e343fd6681ecc7814980220930f3db01673ba8f8014500efc828035184b7ec300616b8ed7ffbee985aa6c776efb159857",
+      "file": "skills/web-application/framework/owasp/audit/index.json"
+    }
+  ]
+}

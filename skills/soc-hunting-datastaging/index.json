@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-datastaging",
+      "path": "soc-hunting-datastaging",
+      "description": "- Archive creation timeline with source file analysis - MITRE ATT&CK mapping (T1074.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f8964e61a63333f42094c613508e5688f5f46ed641ecdc728ff9f3a4369c55257a0afc88cb0759d50c16f71c509f81b0a52316a0e90e7974eea495f6dea94517",
+      "file": "skills/soc-hunting-datastaging/SKILL.md"
+    }
+  ]
+}

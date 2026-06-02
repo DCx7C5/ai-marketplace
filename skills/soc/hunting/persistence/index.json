@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "persist",
+      "description": "skill directory index",
+      "sha512": "a0ddf833dff459de69795537745cedfc134f2fb42985c9acb4c64a02284e3b7db325dee695729fd8a33a9d5b94fed7f8194b99fb30b76c4998cf1ea5ceadef49",
+      "file": "skills/soc/hunting/persistence/persist/index.json"
+    }
+  ]
+}

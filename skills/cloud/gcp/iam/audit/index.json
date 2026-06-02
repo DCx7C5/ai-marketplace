@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "gcp-iam-audit",
+      "path": "cloud/gcp/iam/audit",
+      "description": "Auditing Google Cloud Platform IAM permissions to identify overly permissive bindings, primitive role usage, service account key proliferation, and cross-project access risks using gcloud CLI, Policy ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "036308f70d65cfe5de8110fb4fde6610fbc267d9bfed9ee0e9fa996ed40411e437d6f435a61c13c740a200b9f944e72a1bb728423473aa4781d11c765c0ae3eb",
+      "file": "skills/cloud/gcp/iam/audit/SKILL.md"
+    }
+  ]
+}

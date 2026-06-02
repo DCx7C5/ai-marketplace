@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-changelog",
+      "path": "devel-jb-changelog",
+      "description": "` separator (line after intro paragraph), before the first existing version entry.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7d9316410bc7c87ad68970d4dcd300b569eccd3201deff496a1408ba8e601693c20201ddf3566556bc5c0b6dcc4d1a3d6f3678047d6f6020769c66df21bda82b",
+      "file": "skills/devel-jb-changelog/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-elf-plt-hook-detect",
+      "path": "linux-proc-elf-plt-hook-detect",
+      "description": "subdomain: process-forensics tags: - linux - elf - plt - hook - interception nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "defc41fc9e3a8044c57402f0ed1e36e7a054472a305228f21f684b8ff92ffbd32820e38587b30ee9cedcdb380080620c40451ca955d84027d69fb6384cc956a7",
+      "file": "skills/linux-proc-elf-plt-hook-detect/SKILL.md"
+    }
+  ]
+}

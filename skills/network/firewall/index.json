@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "gcp",
+      "description": "skill directory index",
+      "sha512": "dd3facb60039f21bd74fcf24a29533a6b45a88d5d75097d1b5919cea5fff2d836acac16f40ee692e7d543845068cab98c8b3eaaa8fd64f000f4afac3b8379204",
+      "file": "skills/network/firewall/gcp/index.json"
+    },
+    {
+      "name": "ngfw",
+      "description": "skill directory index",
+      "sha512": "4e2b4e9538869f5818b82ef612eceda9103d56d2df23e687a26b797b99c44bd86410f7743f4918ac14670da680953dc19e8cb0eeb6d7bad7ee1a34d846942317",
+      "file": "skills/network/firewall/ngfw/index.json"
+    },
+    {
+      "name": "pfsense",
+      "description": "skill directory index",
+      "sha512": "3163cd616da3fdb17caa3c628d0412f9e9b0a2e6577c5a1cc03667c929b9f55b7984a9cef5c6fe96fecf12de119a63a0f330952f37bf718e3e74eaddbb542716",
+      "file": "skills/network/firewall/pfsense/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "30c8d6399f0ef07433a2431117169d97116e8bf49756cd2f9a155e00275ab352e13e87e29573e2a99a673c2db64f03c61af2355c450bc1a34107cc76d31e4962",
+      "file": "skills/network/firewall/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "423af095a0d8b2af0b2c389a1f57271b89537c42414f5d59e551c49cfa160f07258da88e52e60933ac4908af760c8ade5d9e78255bff5bad694f1430191b6025",
+      "file": "skills/network/firewall/scripts/index.json"
+    }
+  ]
+}

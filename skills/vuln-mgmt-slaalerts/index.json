@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-mgmt-slaalerts",
+      "path": "vuln-mgmt-slaalerts",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "76db17473f3f29ce75153842eadfad1f26bd3133a3c1beda8d2b8f587a7c6e9d492e17f77751dbb2d39ef84938f0d1d41daacf9b8e85fc34b17c1ff447e57e39",
+      "file": "skills/vuln-mgmt-slaalerts/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "c303dc1b7ad325af47bc368a2c7954b40a1ef9dfc333edf7a3bc336d5e9e98bacd40adb33b32ed6488d2cc28844dab92be86f28e8d67f4021911f3388d2e067c",
+      "file": "skills/vuln-mgmt-slaalerts/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "58ea9df5570101124aa8fc587f211545cd3c6b3ae1f78ce26af095d6d66eb3322316357f30184db13038311509183d9fb63bf36a5aa3c56258dd7e2ce3b31ff7",
+      "file": "skills/vuln-mgmt-slaalerts/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "dc8f11e4cfa8aff0c088565d193fce06358f57870ab2f3fdb0657238573ad76f6ee7d7910107e1d030c7a51b75fc3cb3686f5d208688aaf3053a72a9563242cb",
+      "file": "skills/vuln-mgmt-slaalerts/scripts/index.json"
+    }
+  ]
+}

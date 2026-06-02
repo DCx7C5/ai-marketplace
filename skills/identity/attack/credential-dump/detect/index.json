@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attack-credential-dump-detect",
+      "path": "identity/attack/credential-dump/detect",
+      "description": "Detect LSASS credential dumping, SAM database extraction, and NTDS.dit theft using Sysmon Event ID 10, Windows Security logs, and SIEM correlation rules",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "55241dd9c21d3337b793f6b635f7a1770eebdbef23ee8814a8ec2c173b118db4c5f168a05b5301e88b3e65df78256ad8d13f11531eb199db5572af38ec800d42",
+      "file": "skills/identity/attack/credential-dump/detect/SKILL.md"
+    }
+  ]
+}

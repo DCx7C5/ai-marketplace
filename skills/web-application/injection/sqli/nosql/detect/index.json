@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-sqli-nosql-detect",
+      "path": "web-application/injection/sqli/nosql/detect",
+      "description": "Detect and exploit NoSQL injection vulnerabilities in MongoDB, CouchDB, and other NoSQL databases to demonstrate authentication bypass, data extraction, and unauthorized access risks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2b2ee1e0915f1e529d0faf1b28d2f43ca1e82d80384c5474ce9ff3514126c80792830360741765387f19f5622f9567698431269abfff4b078748eeb9cd80b7d7",
+      "file": "skills/web-application/injection/sqli/nosql/detect/SKILL.md"
+    }
+  ]
+}

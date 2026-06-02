@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ce0ec821a07d620fc6b61dfa09fa568cb283d30c18f767dfe408a8db1049416e45eaa8429538b13317daf03dd231cfa8caff43b80099f9874863cc11e47e58ae",
+      "file": "skills/soc/siem-soc/tuning/use-case-tuning/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e9c0281de1b9eb17e4434a3d9d959677aedf3c5dc07d1e0aedda06648041524fd101b9dceb3682faf923b656519421f6091c80789ec53eab4365b50c0789c52b",
+      "file": "skills/soc/siem-soc/tuning/use-case-tuning/scripts/index.json"
+    }
+  ]
+}

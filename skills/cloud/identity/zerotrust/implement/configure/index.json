@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-zerotrust-implement-configure",
+      "path": "cloud/identity/zerotrust/implement/configure",
+      "description": "Configure microsegmentation policies to enforce least-privilege workload-to-workload access using tools like VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "86598ff3a2c60d8993f0e4d8ce3c1b9f262f052f5adab827e6a6ec136643b6e3d46046606549d07a1ed73c37a8dc19da33602e8c8b113c65b20b7fed05cd1613",
+      "file": "skills/cloud/identity/zerotrust/implement/configure/SKILL.md"
+    }
+  ]
+}

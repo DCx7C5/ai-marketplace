@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logging-eventlog-artifact",
+      "path": "windows-logging-eventlog-artifact",
+      "description": "Windows Logging Eventlog Artifact.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2c280f5921daa1361cec8fd44feedf22e6095dacd489de0f6d48e352eb738e635dead58565ca6357489266831888177c9b9abf747606513e7cdbd0d5bd7322e6",
+      "file": "skills/windows-logging-eventlog-artifact/SKILL.md"
+    }
+  ]
+}

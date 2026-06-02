@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "3132b24fc501c420329f5780bf37c18714fbf74c9a8e81182bc60d7e0e69a6ce51c8db690b0e20b5d4348ade272ec4ec371f4cf2a900c18122e3ca0915068329",
+      "file": "skills/cloud/zerotrust/boundary/extract/index.json"
+    }
+  ]
+}

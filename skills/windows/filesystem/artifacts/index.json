@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "db1e02c1a0f75160ce2aeaeff17e22d0c04b41ebb52c8b15294a79b70b92e3803ce5b42bbc3cde9dc4ea2b8dac949c47440e02f7808131896d9f887fd7420329",
+      "file": "skills/windows/filesystem/artifacts/general/index.json"
+    },
+    {
+      "name": "lnk",
+      "description": "skill directory index",
+      "sha512": "c384da1025df208448822818a257bf5a22e62847749554d1ab708a19f8bca87080693b6a49930a53e1a9923f29787261828737b5279b26e45b1db72f9e1a3564",
+      "file": "skills/windows/filesystem/artifacts/lnk/index.json"
+    },
+    {
+      "name": "lnkfiles",
+      "description": "skill directory index",
+      "sha512": "afef2768719f655fac7589047b6383b2b4eeb92faf2487e8a3040093002074a3bac72b80b6686b15c06c61110d785dab05617a12b929a2393f9db35095a19453",
+      "file": "skills/windows/filesystem/artifacts/lnkfiles/index.json"
+    },
+    {
+      "name": "prefetch",
+      "description": "skill directory index",
+      "sha512": "ace38b7adf19f6660c10aafdce7672a2735bfde0d17d5c3daaf1f038bc2ce4b2eab619ceb27ac28c1b4731cef4d30e383657c8762a1990b25610011332ddf766",
+      "file": "skills/windows/filesystem/artifacts/prefetch/index.json"
+    },
+    {
+      "name": "prefetchpy",
+      "description": "skill directory index",
+      "sha512": "1bb8e9519a893cf20cd49f1dea81cbef3de608b81bdf4f17ca588e6230c48522424671024cb23bd7dbbfe62f4303aeef72af51c6cb2fac4d445a5eb1547c7385",
+      "file": "skills/windows/filesystem/artifacts/prefetchpy/index.json"
+    },
+    {
+      "name": "shellbags",
+      "description": "skill directory index",
+      "sha512": "826cca14096764965800ed3890ce11c960f834ef44b910ef007b853d879a9024fad4a5d912dea6a88608c45b0f54af0d1d3cadc3fa0405ff0aaea757c0a5eab0",
+      "file": "skills/windows/filesystem/artifacts/shellbags/index.json"
+    }
+  ]
+}

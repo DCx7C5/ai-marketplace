@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-incidents",
+      "path": "net-traffic-incidents",
+      "description": "Net Traffic Incidents.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "56e627cbe8c9d4ca7ec14d4349454c8c86b78a46f3cfbd20ea5f17c3a2d72c47888643e64351bded6e3e101ecfef1f9a1e81420ed9983c196ee64ff81f030604",
+      "file": "skills/net-traffic-incidents/SKILL.md"
+    }
+  ]
+}

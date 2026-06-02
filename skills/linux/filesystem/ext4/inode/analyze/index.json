@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ext4-inode-analyze",
+      "path": "linux/filesystem/ext4/inode/analyze",
+      "description": "Analyse ext4 inode structures, timestamps, link counts, and xattr metadata to reconstruct file activity timelines and detect timestamp manipulation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f39779442dc4cbc8d1ea79754492430e6d654f31ac968e93039f4b291910b3a277dbe91f21265c42881e70250dd1750ec0b8cd260b27c8e5975289bb1c4ccd45",
+      "file": "skills/linux/filesystem/ext4/inode/analyze/SKILL.md"
+    }
+  ]
+}

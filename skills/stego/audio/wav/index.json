@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "echo-hiding",
+      "description": "skill directory index",
+      "sha512": "aa6963bc49fc3cb8be3cac48ec42b8ab7eb79ed24bd6d77cf0a6d307355557d1c6f08a086cc719b4a6e34d1c86cf048f35a9e40af39db595f6ee931e38ea4b48",
+      "file": "skills/stego/audio/wav/echo-hiding/index.json"
+    }
+  ]
+}

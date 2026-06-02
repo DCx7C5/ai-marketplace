@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "eventlog",
+      "description": "skill directory index",
+      "sha512": "62d8385f566660b4d231043a8d1a860c390c05202a5eef367a35edea58b76dce2c9c779fe926773a215aefaa7ec0976b1b318211ec4b78513456acf719879837",
+      "file": "skills/windows/logs/eventlog/index.json"
+    }
+  ]
+}

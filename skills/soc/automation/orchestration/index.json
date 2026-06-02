@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "27de8ed3c8b9bfeed930aef3d1fc09a7985da26e3fc27f98c6323766fba629e1d7936a6b1a99ecc0b6c0ad151ab34f0be2d4c00dfff4233218cbe441dfd80a64",
+      "file": "skills/soc/automation/orchestration/deploy/index.json"
+    }
+  ]
+}

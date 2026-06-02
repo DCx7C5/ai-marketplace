@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-tools-qradar",
+      "path": "soc-tools-qradar",
+      "description": "Soc Tools Qradar.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "219477bd83487790edca78b8aeee35081bfa8a55b10bef3409fa058d56ffa6be84397d544cb6ceb007c23c5350a251407bd74e91e647aa069e6a520472b9adb8",
+      "file": "skills/soc-tools-qradar/SKILL.md"
+    }
+  ]
+}

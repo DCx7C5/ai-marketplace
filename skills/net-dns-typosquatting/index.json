@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dns-typosquatting",
+      "path": "net-dns-typosquatting",
+      "description": "Net Dns Typosquatting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8b26a1cce2b3f240c1ba2188b1758c3ddc21c6b426b5e5eb8e9f26a764c0023f847c2ba81daf7c2c980c846fd6bf3356be3bb31d32caf9e6f56c12ccd6195524",
+      "file": "skills/net-dns-typosquatting/SKILL.md"
+    }
+  ]
+}

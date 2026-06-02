@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-volatility3-detect",
+      "path": "linux-forensic-mem-analysis-volatility3-detect",
+      "description": "6. Heavy root usage expected \u2014 always verify `AgentRootPermission` before /proc/mem access 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d54c2901805237ebe8911a964b08fd663db84303788a35c94d78e8a752e7e52e0c7d4e22695086bf95a7a575218f03e5f2e507f8ab6dd3ad7b766f35a3240d0d",
+      "file": "skills/linux-forensic-mem-analysis-volatility3-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cve",
+      "description": "skill directory index",
+      "sha512": "abf5306aa456bf9b5b88cb90a468d6ed0ef944151317416f041d0441f055b6e7a333f4591c7fd7e4523310dccc50cdced6bd8ad79fb5d5f221805449faed7181",
+      "file": "skills/vulnerabilities/prioritization/cve/index.json"
+    },
+    {
+      "name": "epss",
+      "description": "skill directory index",
+      "sha512": "ca7c874f023d6a8053ab19d16b77d6ce11cde73c2124ee9f602078a3a3bd20c21f5414c339dda46cfbcc7720fb72bafb7c73f1fc043336752ea8291d4b42c9b4",
+      "file": "skills/vulnerabilities/prioritization/epss/index.json"
+    },
+    {
+      "name": "ssvc",
+      "description": "skill directory index",
+      "sha512": "8edd102bf46ed171876b906ea0cfe472bd487a921411965454381c73437776ab7a47afb643b175ce3786256d44e18d89b018c5ed7eb298ca34e5ffd7baa71350",
+      "file": "skills/vulnerabilities/prioritization/ssvc/index.json"
+    },
+    {
+      "name": "vulnerabilities",
+      "description": "skill directory index",
+      "sha512": "e3650b155c0678c2a3d8ab5c2ecde346fe7463b0c703a5375e09d634ff415fd64d3fe5288432cedc597081bb449d1542913a33351d297363258217366d58b122",
+      "file": "skills/vulnerabilities/prioritization/vulnerabilities/index.json"
+    }
+  ]
+}

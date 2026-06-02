@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mtime-ctime",
+      "description": "skill directory index",
+      "sha512": "f26b1314a042b6968120296fbb0e6df4da310a482ba7876c7e96c94c9f5a3205c24a5231be24da5505834b7b68877383f9ae99054e28fd36696b5de132b1d12e",
+      "file": "skills/linux/filesystem/timeline/mtime-ctime/index.json"
+    }
+  ]
+}

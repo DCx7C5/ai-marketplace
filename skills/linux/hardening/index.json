@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apparmor",
+      "description": "skill directory index",
+      "sha512": "76f898079a8801b4548da10fa40bb41c4115e581c9e86316f71f2254f7484cfd9e69b9c3f22ee36de7f115674b6f531c9a45628e9213fdb134b190ebfb43bb40",
+      "file": "skills/linux/hardening/apparmor/index.json"
+    },
+    {
+      "name": "aslr-nx",
+      "description": "skill directory index",
+      "sha512": "7ba24f1228f02ea498b99f8dd2552613b1beb274f0f8d8e165ef781db34c261dbe8e2d208e7f8e575dd6c1bc4722525c0653a6eb5bdca6461dec4981af1ef40f",
+      "file": "skills/linux/hardening/aslr-nx/index.json"
+    },
+    {
+      "name": "cis",
+      "description": "skill directory index",
+      "sha512": "28fec9c6a70d333991883415b1e8ea75c02da35112e2142efe1b6f161c7d7a83222069084991687f8ed7e0353d7eccf1ed820e0262547bb60abea76f90b0a7df",
+      "file": "skills/linux/hardening/cis/index.json"
+    },
+    {
+      "name": "grsecurity",
+      "description": "skill directory index",
+      "sha512": "7f6dbe020ddfb631f8c2b1a5a5fc7d2b3499ae0ec19141bdea823825bcf7fa5fdc1f33c564f9c96567803ffac492f8049ed897836f8b6b419b68ac5e7f0c0449",
+      "file": "skills/linux/hardening/grsecurity/index.json"
+    },
+    {
+      "name": "kernel",
+      "description": "skill directory index",
+      "sha512": "be189d09775d32d66e1ce66a5600c3bb597ab61ff2756ca2b2d34b716ad99c7bdef55081d02eeaa45e0f9d4aa469ad866a9deb0aa3efe5805f814b8732db1b87",
+      "file": "skills/linux/hardening/kernel/index.json"
+    },
+    {
+      "name": "selinux",
+      "description": "skill directory index",
+      "sha512": "d8ff0fae0e8e361651e1ca0e1e209b12aa36f259419cad801379d39a09265466ce8b04e907f737e41677a2223b7381f33366c13db99b7956eb3109545e0f6d51",
+      "file": "skills/linux/hardening/selinux/index.json"
+    },
+    {
+      "name": "sysctl",
+      "description": "skill directory index",
+      "sha512": "7c4a67c20f912d04cce226c608613acd999be4b8c649120263c2b20ca9cfeb81d1ed81414939e9d9a01b11a01b5334ef1c3efea4df065ee11a627c0d28f7b8ad",
+      "file": "skills/linux/hardening/sysctl/index.json"
+    }
+  ]
+}

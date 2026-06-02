@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-automation-orchestration",
+      "path": "soc-automation-orchestration",
+      "description": "Soc Automation Orchestration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b67653aa2b216c02c1586542d6ff4a6767f5fb1a5d43ea4b7d8ce9fe9135c67dcd49231bf43a0ccba6898947414421b36cb7f8e15d6400d56f0990da92a3225e",
+      "file": "skills/soc-automation-orchestration/SKILL.md"
+    }
+  ]
+}

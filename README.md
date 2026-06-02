@@ -17,7 +17,7 @@
 | Category | Count | Description |
 |----------|-------|-------------|
 | [**Agents**](agents/) | 38 | Claude Code sub-agents (31 templates + AgentFactory + 6 sub-agents) |
-| [**Skills**](skills/) | 1,117 | AI skills in a flat structure at skills/ root |
+| [**Skills**](skills/) | 1,117 | AI skills in a recursive catalog tree under skills/ |
 | [**MCPs**](mcps/) | 6 | Model Context Protocol servers (csscore, canvas, memory, template, playwright, crypto) |
 | [**Search Index**](search-index.json) | 1,064+ | Full-text searchable asset catalog |
 
@@ -138,18 +138,18 @@ Claude Code sub-agents are markdown files placed in `.claude/agents/`. Each agen
 
 ## 🧠 Skills
 
-CyberSecSuite skills are modular capability modules placed in `.claude/skills/`. They now use a flat naming structure at the root of the skills/ directory (e.g. `skills/cloud-aws-iam/SKILL.md`).
+CyberSecSuite skills are modular capability modules placed in `.claude/skills/`. The catalog is now a recursive tree rooted at `index.json`, with `agents/index.json` and `skills/index.json` pointing to per-directory indexes.
 
 ### Available Skill Domains
 
-Skills are now organized in a **flat structure** directly under `skills/`. Common prefixes include:
+Skills are organized in a **recursive tree** under `skills/`, with each directory carrying its own `index.json`. Common prefixes still include:
 
 - `cloud-*`, `webapp-*`, `linux-*`, `windows-*`, `net-*`
 - `offensive-*`, `vuln-*`, `malware-*`, `soc-*`, `intel-*`
 - `browser-*`, `email-*`, `crypto-*`, `compliance-*`
 - `identity-*`, `ics-*`, `db-*`, `stego-*`, and many others
 
-See the full list in [`index.json`](index.json) or browse `skills/`.
+See the catalog tree in [`index.json`](index.json) and browse the directory-local `index.json` files under `agents/` and `skills/`.
 
 ---
 
@@ -157,12 +157,12 @@ See the full list in [`index.json`](index.json) or browse `skills/`.
 
 ```
 ai-marketplace/
-├── agents/                    # Claude Code sub-agent definitions
-├── skills/                    # Flat skill modules (e.g. cloud-aws-iam/, linux-foo-bar/)
+├── agents/                    # Claude Code sub-agent definitions + index.json tree
+├── skills/                    # Recursive skill catalog + per-directory index.json files
 ├── mcps/                      # Model Context Protocol servers
 ├── docs/                      # Extended documentation
 ├── scripts/                   # Helper scripts
-└── index.json                 # Canonical skill index
+└── index.json                 # Root catalog pointers
 ```
 
 
@@ -190,4 +190,3 @@ MIT — see [LICENSE](LICENSE)
 
 - [CyberSecSuite](https://github.com/DCx7C5/cybersecsuite) — Full-stack forensics platform (v0.1)
 - [Claude Code Docs](https://docs.anthropic.com/claude-code) — Anthropic Claude Code documentation
-

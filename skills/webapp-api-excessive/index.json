@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-excessive",
+      "path": "webapp-api-excessive",
+      "description": "Webapp Api Excessive.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7168faab0d37cb973bb3c56945960b366fa9d8ad0ec451978583c0227f09d047dbb15bf5678ad6064902762ce318b34163f528b3a5adc1c3601e27371d959201",
+      "file": "skills/webapp-api-excessive/SKILL.md"
+    }
+  ]
+}

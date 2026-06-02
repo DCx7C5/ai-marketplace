@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "d2fa631aa3d60b7e5b77afb054ac39db4eb381861e9bc860358440866169b637667a5017c6c38d14fa8b7b08c223a23280ba5df589993910cf93004547ff6db3",
+      "file": "skills/cloud/kubernetes/hardening/rbacharden/audit/index.json"
+    }
+  ]
+}

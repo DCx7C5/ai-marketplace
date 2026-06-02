@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-dashboard-ir-respond",
+      "path": "soc-dashboard-ir-respond",
+      "description": "Soc Dashboard Ir Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "86d9b164a0e001d474167c7566e316736ff432a69199a5f9a3dd3b47f02d8707601afa3ad0a9a9cf237cce1854727cba691b8f0e3d87362fcbff4d05e1ccd44a",
+      "file": "skills/soc-dashboard-ir-respond/SKILL.md"
+    }
+  ]
+}

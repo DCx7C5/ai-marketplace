@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tools-hashicorp-audit",
+      "path": "identity/tools/hashicorp/audit",
+      "description": "Implements HashiCorp Vault dynamic secrets engines for database credentials, AWS IAM keys, and PKI certificates with automatic generation, lease management, and credential rotation to eliminate static",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f55f6f91a627fea01f5c41278f0ab4a9771f700d1a2db5093527671b29d2980d3524f0aaef036e608e923352715ce6c69e70b223b722e7309a1867067d62f3ae",
+      "file": "skills/identity/tools/hashicorp/audit/SKILL.md"
+    }
+  ]
+}

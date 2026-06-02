@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gh-fix-ci",
+      "path": "devel-jb-gh-fix-ci",
+      "description": "Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval. - If a plan-oriente",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "761cf28c994bf0975e142af9d9b2fa5f0001882de6b19acfe1924f46eb2e47e1e0cf622b0c61edec99e5fa5da3f84f35f2916a5db2e83baa446226dab055bb1f",
+      "file": "skills/devel-jb-gh-fix-ci/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "5bba8625653221caf8da84a879ecdeb4b410a666b4db91fac5eae134c445958281634d760b977a7827209f9fbc42024054dedaaf96eaeb73d065df506d5b1f18",
+      "file": "skills/devel-jb-gh-fix-ci/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6a649475924c89fa0c412041fcb138a1957054e116b1e9b72c3c4bd7c5305a3d76e2f4cb59aa4d4aaaf0e1b1d59ee97b706deca0f40fc82556e03593a9d32937",
+      "file": "skills/devel-jb-gh-fix-ci/assets/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5278bedf77d9b31cb201a63035f615d5feae9f1d114177d065b5c474f5b0795ceca8527e19fcc96b2e80fc57393157e876ab14c8d2c4712baece6446e12bb524",
+      "file": "skills/devel-jb-gh-fix-ci/scripts/index.json"
+    }
+  ]
+}

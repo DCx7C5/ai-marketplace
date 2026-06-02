@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunt",
+      "description": "skill directory index",
+      "sha512": "ed2fbdc097388ab487572592fff160cf249a986fd6f61d421a738001b302fef127e4a2d3b5b56510957226ed5b071a51a89ed8c5c4b5a53ba9f41cd766d83306",
+      "file": "skills/identity/insider/threat/hunt/index.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloudkube",
+      "description": "skill directory index",
+      "sha512": "04aece442f6c53ef262212fdef90585ba14dcbfcd1d9057ce5e108d04f6ea91bb85c830590dc29da450a41db8100d081562ce58e765492c8dc8534cecf5ea571",
+      "file": "skills/cloud/kubernetes/cloudkube/index.json"
+    },
+    {
+      "name": "etcd",
+      "description": "skill directory index",
+      "sha512": "c99ff589b2aefe5c32d24abc9f918ae90b7b1afc94e5bb2ebdde9437b90a6a2919a644aa03f8626fcab27ed2e470fcacc1086e19430d0090e9b838a6ad5ebe0f",
+      "file": "skills/cloud/kubernetes/etcd/index.json"
+    },
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "6a9051ae18dd0e19f3462485820ec37e09627d26da24639f0cb0d584739ef9a531094129dd6ac3100284a869c9c38313964782afd9a7b4794131aea2ab35fb0e",
+      "file": "skills/cloud/kubernetes/general/index.json"
+    },
+    {
+      "name": "hardening",
+      "description": "skill directory index",
+      "sha512": "1b7e433886f108edae9275db171791306e1bbcde65a93aaeb0fcc793e302e0cf80cda19274ed00791c985c55c67439862d77cfa9efce76e3e9c2dbfae145d17b",
+      "file": "skills/cloud/kubernetes/hardening/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "d1bfd055d217c5a46daa2c0bb717a2bde21257e58070861e8e1faf9fbae14206df54f63a2f143259cd9809aa057fb4a8b7c5c3726929c72612f9e2773e8aeb50",
+      "file": "skills/cloud/kubernetes/network/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "fab3897fb40b6f679a27527bc58a84b4a7b2a6a6e6ad35dc9ba14a23c6bcdc765bf2c3440e81856cc853b6a3ad13dc5ff6304e5b104d022cdf3225911a0dc839",
+      "file": "skills/cloud/kubernetes/pentest/index.json"
+    },
+    {
+      "name": "privesc",
+      "description": "skill directory index",
+      "sha512": "b0dd6eafba9cee582e35664f4c6049383c8a053c780cb7f9378b30da1d97d880c363a7f5cb1433d55300bf17edd052962ea9a7cd78f35e163874956e7f04ea39",
+      "file": "skills/cloud/kubernetes/privesc/index.json"
+    },
+    {
+      "name": "runtime",
+      "description": "skill directory index",
+      "sha512": "6446c19af83dc49abb7c17b328360037937cba5aeb495fd7c1e6e203e16d0bad128c5e6f5f47dcedb8c8065f1442eefcd2a42fbf139e90a888a742e231a803a6",
+      "file": "skills/cloud/kubernetes/runtime/index.json"
+    }
+  ]
+}

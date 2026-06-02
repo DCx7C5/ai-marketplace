@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-nginx-config-audit",
+      "path": "linux/network-services/nginx/config/audit",
+      "description": "Security audit of nginx web server configuration \u2014 check for server version exposure, insecure headers, directory traversal, misconfigured SSL/TLS, and open proxy risks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1604b775ad98a790ad6d593fe255b5b34d2bc084d72c3f5e15a386e117fd5216eef924b1e630e9fb39e4d252bf77e317a085a109786636a1c36626b96cac26e8",
+      "file": "skills/linux/network-services/nginx/config/audit/SKILL.md"
+    }
+  ]
+}

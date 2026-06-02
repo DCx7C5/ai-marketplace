@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-delinea",
+      "path": "identity-pam-delinea",
+      "description": "Identity Pam Delinea.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7e426fabbb024b22dc185f72ff553eb13114eafda3b0b81465fba0b9438a3f2f33b61faf496159f4f7f2c7643720a2b1101669293d9220cbdd51806e8239be4a",
+      "file": "skills/identity-pam-delinea/SKILL.md"
+    }
+  ]
+}

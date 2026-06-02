@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-nozomi",
+      "path": "net-traffic-nozomi",
+      "description": "Net Traffic Nozomi.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e42fd7e525fde73f633ab33e44db6a4b6388ea1059bb099b38472f10dff75978a205ef1599898fe6fdd47ee25dd8604d67bb1bdbb9dae883d0a9e9b24543836f",
+      "file": "skills/net-traffic-nozomi/SKILL.md"
+    }
+  ]
+}

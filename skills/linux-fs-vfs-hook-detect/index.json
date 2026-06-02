@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-vfs-hook-detect",
+      "path": "linux-fs-vfs-hook-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e757ba06a10e05af2ac5b0a294465e01cdd5633a935fb8e42d02ef30277dd3f3e305a2eda5ecf0af4904830466a831193e739c388828f03f8d9f5aefcfd12bd5",
+      "file": "skills/linux-fs-vfs-hook-detect/SKILL.md"
+    }
+  ]
+}

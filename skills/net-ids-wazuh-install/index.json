@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-ids-wazuh-install",
+      "path": "net-ids-wazuh-install",
+      "description": "Net Ids Wazuh Install.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ea2268e2de2ef4199dc974f2abbd3831a7f610c1fd8b17b3b6d50df438bb9b548bcf50223b65b33725e9e3be413b90ed1fbda1527577ea9dbd672790367219a8",
+      "file": "skills/net-ids-wazuh-install/SKILL.md"
+    }
+  ]
+}

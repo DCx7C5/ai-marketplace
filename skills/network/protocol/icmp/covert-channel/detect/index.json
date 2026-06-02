@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "protocol-icmp-covert-channel-detect",
+      "path": "network/protocol/icmp/covert-channel/detect",
+      "description": "Detect ICMP covert channel C2 communication by analysing ICMP payload entropy, packet size distribution, timing patterns, and comparing against legitimate ping baselines.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8109667597f0f842a7d2bf1766d58a9a458e3b41b720a3ba2f838c3f31eece5f35b6d95bafe13c9bb4d9bfbec2182bf817bcbec697a2d4891f3459bb87cecc37",
+      "file": "skills/network/protocol/icmp/covert-channel/detect/SKILL.md"
+    }
+  ]
+}

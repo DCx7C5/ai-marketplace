@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-integrity-aide-configure",
+      "path": "linux-fs-integrity-aide-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "542dc88e288e2911f6d1ad8054cc0c56536dabf0f6d6cb51e4637cbee6db9066cd77d01235555cfa3efd3d03f9899bbc9f9d43fd5fda905fb5498ca4087d57d4",
+      "file": "skills/linux-fs-integrity-aide-configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "61f35ffd56d0771c0faeb8290963c25ff7598c5f6825bd86b2bad93cf71f166cb41536de8a790621eb1831a96a74f3d3a37d2493a2499f0ac548d81e3b28b4d2",
+      "file": "skills/database/mssql/linked-server/enum/index.json"
+    }
+  ]
+}

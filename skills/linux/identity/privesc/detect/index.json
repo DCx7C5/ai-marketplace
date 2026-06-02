@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-privesc-detect",
+      "path": "linux/identity/privesc/detect",
+      "description": "Detect privilege escalation attempts including token manipulation, UAC bypass, unquoted service paths, kernel exploits, and sudo/doas abuse across Windows and Linux.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c74f6e7f54be93710786c1cd1effcd851625095c9062c187b00f987b0d110b07fdf72d59cdeb5cdaef232c3df0e1ca45d098800024995ef6f1d97839c2a3dc84",
+      "file": "skills/linux/identity/privesc/detect/SKILL.md"
+    }
+  ]
+}

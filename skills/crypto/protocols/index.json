@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "6fa3710cb3eded7e0a44ae18558e135a93f12ad4914aa270986854b39445ab1c674612443c88fe494b684b6f2a70179d3536932c7c4d15ff0253897a41ae1991",
+      "file": "skills/crypto/protocols/tls/index.json"
+    }
+  ]
+}

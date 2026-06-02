@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-assessment-nac",
+      "path": "net-assessment-nac",
+      "description": "| | 10 | Corporate | 245 | | 15 | Development | 67 | | 20 | Finance | 30 | | 40 | Guest | 23 | | 50 | Medical Devices | 87 | | 999 | Quarantine | 15 (posture fail) |  ### Compliance Status - 802.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "62c7c0f1d3de03b16264b4ad985e58e4739b6b983f02737c7db3063715adf0ec0f51d527a90ef77a730cdea57e3336b0b902f25fe285b7308398fb3696a08527",
+      "file": "skills/net-assessment-nac/SKILL.md"
+    }
+  ]
+}

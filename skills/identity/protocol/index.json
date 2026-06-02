@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ldap",
+      "description": "skill directory index",
+      "sha512": "c86649ddefb865aeb9de1d519633c68493f3caa578b67c4af53c6538d49d41837745497365749c3d8e89b9eeddb9ca71aa38058392b459813874a6031dedc76f",
+      "file": "skills/identity/protocol/ldap/index.json"
+    }
+  ]
+}

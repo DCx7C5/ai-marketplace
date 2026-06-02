@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-smb-share-enum",
+      "path": "linux-net-smb-share-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "846b88cb29d1096da49453b738995ddbf7a69e278695c4d424ff8fff4ebb0765c71a25624f22cfd357302dd0c8db3408495ace3aec387b61c0abc76c1505fe34",
+      "file": "skills/linux-net-smb-share-enum/SKILL.md"
+    }
+  ]
+}

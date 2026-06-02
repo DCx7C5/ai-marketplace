@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-framework-owasp",
+      "path": "webapp-framework-owasp",
+      "description": "Webapp Framework Owasp.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d8075b8478c30d72be38a24dd7ff42b06c99b68eed5e1d994df7d527ebb599fc8bf198ab1ee70e878a2768c1eec94eeae016be2ec34b87957c2ac304b90009ef",
+      "file": "skills/webapp-framework-owasp/SKILL.md"
+    }
+  ]
+}

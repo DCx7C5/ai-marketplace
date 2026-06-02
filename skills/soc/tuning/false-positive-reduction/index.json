@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "75b8afc9b355781e7e1e677ade6f6dafafcc66198cf752ed1b2d86bf24e46d53a976c03508ac4e5e4717db806fd97fb2edc2381f20c43d4e1ba986cbb3853a0a",
+      "file": "skills/soc/tuning/false-positive-reduction/detect/index.json"
+    }
+  ]
+}

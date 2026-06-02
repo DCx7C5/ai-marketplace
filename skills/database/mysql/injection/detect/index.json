@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mysql-injection-detect",
+      "path": "database/mysql/injection/detect",
+      "description": "Detect SQL injection vulnerabilities in MySQL applications using sqlmap, manual payload testing, and query log analysis to identify blind and error-based injection points.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b9ef3b188e82162e448c81060cc4b278f57305d6c906c09e20a6f058c56f735956316c71b556d25b9c948ebb31e82fe4f4f6b6c66bcfc3b934bbba344b0a5ac",
+      "file": "skills/database/mysql/injection/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1f31668626dd1a2c640c87f633909d91498754995ed92314d829bc67f434681db64c26eddf63b2a70f8d5abc78141bbaddbb3c58de5fd83c84ee3dbeb3d77c40",
+      "file": "skills/soc/siem-soc/qradar/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1904ba4777ff1601e956ff767beaba4dc3581d5623752f979451f80067e4942d3b047c647b75ac9e9ec77695f2bec11a6d2976e1bfab41873719ff33b665052f",
+      "file": "skills/soc/siem-soc/qradar/scripts/index.json"
+    }
+  ]
+}

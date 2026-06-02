@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "scan",
+      "description": "skill directory index",
+      "sha512": "a3a47577188668e8adc2cacf34f4279068423ec699244cdc18605245a476e5d8a3e4589ecd369d0a121a55720008db50e17441780848aca88e2d59ca41062351",
+      "file": "skills/web-application/enumeration/directory/scan/index.json"
+    }
+  ]
+}

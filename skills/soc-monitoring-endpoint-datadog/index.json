@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-monitoring-endpoint-datadog",
+      "path": "soc-monitoring-endpoint-datadog",
+      "description": "Soc Monitoring Endpoint Datadog.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dcd41648c460c21b0cbf08199617d5c8af29a6e9d4d3ffdff4388c0eb8ed55a0ccba553331c6b3e937d1d0a1e590f7ffdfa4066682ddda194f886a86a4276333",
+      "file": "skills/soc-monitoring-endpoint-datadog/SKILL.md"
+    }
+  ]
+}

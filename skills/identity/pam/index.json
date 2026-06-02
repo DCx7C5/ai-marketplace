@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "accessreview",
+      "description": "skill directory index",
+      "sha512": "672381bb9aed2e40fe4435d728105f56db2a8484066f7fc57b4f005c44d86577d1ae5132bd784788d5e109f01a8a237de51272726cf4906c278b38a29fc4e789",
+      "file": "skills/identity/pam/accessreview/index.json"
+    },
+    {
+      "name": "delinea",
+      "description": "skill directory index",
+      "sha512": "de2688571bc85fc7e628fd8cc78fb665d936384dfc86e9db9354980e8a97fdc63b52ae9c5ad6aee29e564330d756393b3587a106aabb5270a847b525b6c3ce88",
+      "file": "skills/identity/pam/delinea/index.json"
+    },
+    {
+      "name": "paw",
+      "description": "skill directory index",
+      "sha512": "7f61a13dce10570a50774bf0bbcb9b6ad701ad02d5c85f96ee444121a5a85090e709dd8680fbddaf193a8f605c21a49abb41da4098d986ee9f2829dfc1e0309f",
+      "file": "skills/identity/pam/paw/index.json"
+    },
+    {
+      "name": "privacctdiscovery",
+      "description": "skill directory index",
+      "sha512": "7b88c2aa4ff6ed668a2ae5f694875ccec194bbd6aacf87c42cad1560512b03a71b8c9cee7ebc127edb7e340b7096ba3fed5a8c81e003774ace014bfb6980eb5f",
+      "file": "skills/identity/pam/privacctdiscovery/index.json"
+    },
+    {
+      "name": "privileged",
+      "description": "skill directory index",
+      "sha512": "c6b2aef0a2ac993888460c14d061718fb051b51336706c62819874ddeb5cc5014f129034c5f393fc2f6e42015289645f27eb2a2e9c54c8ade73a38b80ad9f45c",
+      "file": "skills/identity/pam/privileged/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "671b177a9a532083ac483989ecb2573c86564de16b8b820065a5b8ab95a8f9fd99d648993433ba1824206cfc5beceee75794566f056c7d65890dec438e6e1713",
+      "file": "skills/identity/pam/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "546d32d2fb74af05b4f7f32e14cccd4453e98090f56b05658571ec29538d54ab3d566e9e676c66130314003c7721fa714cb6809396d0630b7fc48fb21db762ea",
+      "file": "skills/identity/pam/scripts/index.json"
+    },
+    {
+      "name": "sessionmon",
+      "description": "skill directory index",
+      "sha512": "f0b6a8eec0e92ffd0d560170acb9f46296ab39ab3fb150cf8019e4d8f15198730e245dfe8b05c64442ed95ffd019f2b646e6c2ab481e285aafa0d78b234033ba",
+      "file": "skills/identity/pam/sessionmon/index.json"
+    }
+  ]
+}

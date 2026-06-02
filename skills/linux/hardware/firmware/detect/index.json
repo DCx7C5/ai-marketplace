@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-firmware-detect",
+      "path": "linux/hardware/firmware/detect",
+      "description": "Firmware and bootloader forensic reconnaissance. UEFI/BIOS integrity, Secure Boot key chain, TPM PCR state, initramfs inspection, GRUB configuration, ACPI table analysis, and firmware rootkit/implant ",
+      "domain": "cybersecurity",
+      "model": "opus",
+      "sha512": "52b3e074fffd005aee0eeffec5c6e66c602469578522996fddc0580eb24cf1f91395908cecd3086fc835cd6a2f601f9f0d3d9170040d4cb4b2fc5c36f840cf7f",
+      "file": "skills/linux/hardware/firmware/detect/SKILL.md"
+    }
+  ]
+}

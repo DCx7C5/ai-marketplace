@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bmp",
+      "description": "skill directory index",
+      "sha512": "6e7b51048377ed346c6e2d66fd53b7bcdc8b72fe93d28398a7102e6b9d2e459d6bfefa0ce451f52248c656b863f7fe00f121520ef90f882aebcb5b1c00805726",
+      "file": "skills/stego/image/bmp/index.json"
+    },
+    {
+      "name": "gif",
+      "description": "skill directory index",
+      "sha512": "6ace519726516c67db3be619fc82acee29017fe909ff8c959084028cb850d3adf4b8cbaee6cb7da8fa6807cecb871963fbf87e178df7bd079bbcc3f600219c82",
+      "file": "skills/stego/image/gif/index.json"
+    },
+    {
+      "name": "jpg",
+      "description": "skill directory index",
+      "sha512": "9d4c5fa3b35a706b066720da36630c8a1b503417c42c1480c9ff41af6f37ef09da09b6daddc7a1cd079ac48ec9cdd60c04435c7a339ba2dbde88f842f2c05981",
+      "file": "skills/stego/image/jpg/index.json"
+    },
+    {
+      "name": "png",
+      "description": "skill directory index",
+      "sha512": "ae0491ff3d7c5b0b5134ac8f602d677a72b68e9c76b628964616ca3c18fb022e3944fac0bd67d4644902a0eb590774841fe26c679a83c6520fe966c2cba4c067",
+      "file": "skills/stego/image/png/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-java-kotlin-migration-assistant",
+      "path": "devel-jb-java-kotlin-migration-assistant",
+      "description": "Source mapping: Tier 3 specialized skill derived from `Kotlin_Spring_Developer_Pipeline.md` (`SK-19`).",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5732cd539a526ec26a5595f303369aaa1d3ebd45258c2bae901a1041a6b18f6def13d2ad98970bb20f5b4a0ff930d69c54917d28159f2ba9f9271917a5c7f015",
+      "file": "skills/devel-jb-java-kotlin-migration-assistant/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "2b4c5060a97369ed4d6de57ae4348de8919f69167d87f11027f3e37ae48b9c7da7bce4d6fbc73a1cd06bfb2d04d7e4008e10eff4152a1fc40ee93728de7d9e64",
+      "file": "skills/devel-jb-java-kotlin-migration-assistant/agents/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c3013fd9c2ddb32a65e0a30a028ffa38ad952d1637118c79a21d496f78de24cd927ab3fc60a9a9e8c3db97b5aec98cfc6bcc0dab9cbde40661a231b19c43efc6",
+      "file": "skills/steganography/network/dns/covert/detect/index.json"
+    }
+  ]
+}

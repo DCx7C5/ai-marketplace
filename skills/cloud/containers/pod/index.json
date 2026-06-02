@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "835fe82fed5a41f7721fbcd368c385cb61c546793c1bbb46f5063861b8335b51648c8e8c456c845f15b81816dfb35e83ed22161ae0da06985749396a4e9870fb",
+      "file": "skills/cloud/containers/pod/exploit/index.json"
+    }
+  ]
+}

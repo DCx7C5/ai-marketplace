@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tamper",
+      "description": "skill directory index",
+      "sha512": "7703842dc101e5c5d9545627dda9f39caef5c369d64145426701eba91fe47835c9e675a409dc60e011ad4aab26a94955b761a4d30543d6f377f00eccabeeb1ed",
+      "file": "skills/linux/shell/history/tamper/index.json"
+    }
+  ]
+}

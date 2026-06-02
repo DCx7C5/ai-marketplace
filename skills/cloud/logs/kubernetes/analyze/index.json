@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logs-kubernetes-analyze",
+      "path": "cloud/logs/kubernetes/analyze",
+      "description": "Parses Kubernetes API server audit logs (JSON lines) to detect exec-into-pod, secret access, RBAC modifications, privileged pod creation, and anonymous API access. Builds threat detection rules from a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bc6c754eddbc0f4f98ad36ff0bfc5a9a9e3f91358933fad1efbc5a9c1a83bfdb09f97a94b4b2c5bb9ca35101c1cbc08b8e236dd3f1a5fb71efa75b6d5cbc4c45",
+      "file": "skills/cloud/logs/kubernetes/analyze/SKILL.md"
+    }
+  ]
+}

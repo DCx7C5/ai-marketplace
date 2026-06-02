@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-services-wmi-exec",
+      "path": "windows-services-wmi-exec",
+      "description": "--| | Win32_Process.Create WMI calls | Event 4688 (process creation) with WMI parent process | | WMI temporary output files on ADMIN$ | File monitoring on ADMIN$ share for temp files | | Remote WMI co",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f0b154432e22fd1f46b8af295168f7a778916afda3b36d450a467be34a349e0605d2f4f6f1caeb27ba6fe53c5e5ffa34c5f9586474064cda39c66d591230a99",
+      "file": "skills/windows-services-wmi-exec/SKILL.md"
+    }
+  ]
+}

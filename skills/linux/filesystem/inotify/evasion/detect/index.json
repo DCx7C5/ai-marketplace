@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-inotify-evasion-detect",
+      "path": "linux/filesystem/inotify/evasion/detect",
+      "description": "Detect inotify watch evasion \u2014 identify techniques to bypass filesystem monitoring (rename tricks, O_CREAT patterns, FIFO bypass) used by malware to avoid detection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b722bfe7c8726563b1f7961582290bec9b08a9b12940bdcbe660b9b6f4d990f878a5538d525dda2040f390175654c217c71f003bd2ce4843bc52b3920d64d3bf",
+      "file": "skills/linux/filesystem/inotify/evasion/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth-tokentheft",
+      "path": "webapp-auth-oauth-tokentheft",
+      "description": "Webapp Auth Oauth Tokentheft.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "998d2a78d7a2944c4db1036a2b529532b5777b6607fa0fad341e5cedd09b82c1cde879e7863a136e285e6723760d9e848a234a1a1ab7916934c48fa628d8ea20",
+      "file": "skills/webapp-auth-oauth-tokentheft/SKILL.md"
+    }
+  ]
+}

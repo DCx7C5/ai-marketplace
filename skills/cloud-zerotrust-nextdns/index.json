@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-nextdns",
+      "path": "cloud-zerotrust-nextdns",
+      "description": "--+          |     ALLOW or BLOCK          |     Response to Endpoint ```  ## Configuration Setup  ### NextDNS Profile Configuration  ``` Dashboard: https://my.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4d5c9c69f351166e6ba7741e2667e320276b82b8b8f57bf14ad388dfd7e0fd7cb91c43a5a63468dc6ee1ad2286926fea09e7275e02604a3fbc38bce29dccdd1a",
+      "file": "skills/cloud-zerotrust-nextdns/SKILL.md"
+    }
+  ]
+}

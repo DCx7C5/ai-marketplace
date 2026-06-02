@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-hunt",
+      "path": "browser/forensics/hunt",
+      "description": "Browser forensics \u2014 investigate running browser processes, profiles, cookies, history, and extensions for compromise indicators. Logs findings to ORM DB and session artifacts. Supports Brave and other",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "54da3cd919e4285b0b82f267347bd6395cb2e341d286da2f62755f9ad5dead913a195695da12bf98efa819b8f7fe4fbbf0c407c8ce85849ca67740b2e807755e",
+      "file": "skills/browser/forensics/hunt/SKILL.md"
+    }
+  ]
+}

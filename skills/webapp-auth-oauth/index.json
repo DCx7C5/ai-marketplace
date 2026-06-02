@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth",
+      "path": "webapp-auth-oauth",
+      "description": "Webapp Auth Oauth.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7576b25688fd2c51f0411fd4c4003b8edb9a28cb957cffcca7c649e249e9e428982a2f8c359f6310e30f4927ddce16a49f1527aece128863cb6329418772ae79",
+      "file": "skills/webapp-auth-oauth/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth",
+      "description": "skill directory index",
+      "sha512": "c1ab7d5b6f220a56d2d76a99fa54eb2b2f7fe04d4690246f42e89f6dfb110bd2112b3bd0f81cef1fa495455a886d347fddf5dea90654ba029af3d25aa8a667e1",
+      "file": "skills/database/redis/auth/index.json"
+    },
+    {
+      "name": "rce",
+      "description": "skill directory index",
+      "sha512": "22b106ce533d161050d85f5b764d1708babbbcb1c80334602e98c4056d41377a5b3a7ba41b416a10e7f4752e6003d35996aa8d6c13965d49349eeb894a897e5c",
+      "file": "skills/database/redis/rce/index.json"
+    }
+  ]
+}

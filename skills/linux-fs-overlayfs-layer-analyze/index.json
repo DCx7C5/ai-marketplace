@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-overlayfs-layer-analyze",
+      "path": "linux-fs-overlayfs-layer-analyze",
+      "description": "subdomain: filesystem-forensics tags: - linux - overlayfs - container - filesystem - analyze nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e2593be47e7a464484cd19622d6d60cd3169a8a290c839a8b1af9f67173b1a6f8f1b378b82a366c2a11da5dfd0e1918295df06b71ef2a73a59dfa3b03e9b0eef",
+      "file": "skills/linux-fs-overlayfs-layer-analyze/SKILL.md"
+    }
+  ]
+}

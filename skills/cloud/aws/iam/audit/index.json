@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-iam-audit",
+      "path": "cloud/aws/iam/audit",
+      "description": "Configure IAM permission boundaries in AWS to delegate role creation to developers while enforcing maximum privilege limits set by the security team.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a5b34c0d972752e64f01cbe3cef68894833472df19f600f88560078b86222401bd9603de47d41e8ba341a3e4a16c448ab091dcfbffc3950519a51ed7ca0308a8",
+      "file": "skills/cloud/aws/iam/audit/SKILL.md"
+    }
+  ]
+}

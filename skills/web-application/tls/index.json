@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "certificates",
+      "description": "skill directory index",
+      "sha512": "279281feedd4adbbb4ad4e068a1e0d6424cc8e2b3823596cd784d7363283433f089caf693f61299fbb5fd4306e68565b81e9a3e4c871838cc388f732732f7a28",
+      "file": "skills/web-application/tls/certificates/index.json"
+    },
+    {
+      "name": "ctaudit",
+      "description": "skill directory index",
+      "sha512": "b69867b9ebac12f02c64b882b64ad2308049b009f69507e85b2f0d87fc94dc1b5541a50a1cc70b2f32f3b0852771cc06ef2177bcce26025b3bcbd989b4d10f4f",
+      "file": "skills/web-application/tls/ctaudit/index.json"
+    },
+    {
+      "name": "lifecycle",
+      "description": "skill directory index",
+      "sha512": "b8d3878f151d498e6dac520789e9dcc9cf6a8f2bb322931ebfff57efb85a9bde224b7370d7711bad2aeb9ac228a439c066a117b73ee8a768b0883bb7f024ae8d",
+      "file": "skills/web-application/tls/lifecycle/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "58d4356ea5b2c8c160aca80370a0230e137ecdf8b1c6474a54fb02e099d7fbc961e4c4d14daa4425671fa2968e9036b61cadaa6c30df6b3183bca7111f02a165",
+      "file": "skills/web-application/tls/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6916669ab5521f930417f35135b16ff4cd7b5a5258a5e1fa6aa404b66c9fad7c6be21e910fc1aaa7264a1c4612893b343fbb11fdc4c42c209cd8d3400ffc38c6",
+      "file": "skills/web-application/tls/scripts/index.json"
+    },
+    {
+      "name": "ssl",
+      "description": "skill directory index",
+      "sha512": "d507ca66669d0b1d9f2cabb219b5ad7c90d449488850b142ec0dc448b5e4ac051b1b72aa2f83738af5c5243d4ecd8162066096f8d7f6ed38b6cc9edc2e6ce545",
+      "file": "skills/web-application/tls/ssl/index.json"
+    },
+    {
+      "name": "tlsassessment",
+      "description": "skill directory index",
+      "sha512": "3b350006d32895b4dadc035010f8e319e5e0fd1db9be6d9fc94fd051d9434ae5745ffddf6ad07b804b53d0a01a7654f16f103d3efa1b486fc652039fba76d222",
+      "file": "skills/web-application/tls/tlsassessment/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-initial-access",
+      "path": "offensive-initial-access",
+      "description": "- Email with malware attached/linked",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d16819c95de1a9d82e1fc1466d4ff7a06a227d69a33e0e9eb281259882b2e483bb2a1ddbdd92e3bf3ab5a07d33e40440c2babb16ee7445ee67dba475f5198533",
+      "file": "skills/offensive-initial-access/SKILL.md"
+    }
+  ]
+}

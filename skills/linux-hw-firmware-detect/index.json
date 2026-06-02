@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-firmware-detect",
+      "path": "linux-hw-firmware-detect",
+      "description": "6. Always baseline PCR values and UEFI boot entries at session start 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cfcf085f00924805589b836c66c2ace7577ed946df3b4cf5d562ebc7b23a6617f133705a3751e81ed5e75f8af5f6a211a5fa1a3b8b999c5af5708a249cc2203a",
+      "file": "skills/linux-hw-firmware-detect/SKILL.md"
+    }
+  ]
+}

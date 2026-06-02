@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-triage-playbook-respond",
+      "path": "soc-triage-playbook-respond",
+      "description": "Soc Triage Playbook Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "039ab5751b97ca20ff1b7f0386a57f9784ad8479d2e822d6557eb2b04a4f4b03d0fff905f04fccd4d11c09e2606ee68cf2de8c7ebfe7216e6b93aa749a178c6a",
+      "file": "skills/soc-triage-playbook-respond/SKILL.md"
+    }
+  ]
+}

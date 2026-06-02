@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "copy-program",
+      "description": "skill directory index",
+      "sha512": "51d0bb5a8b00cd3d6869c730c76e7d7a7ba8c1eade9d30687eee47353c9b8da712c83633676023f718591f696e9294fd48388d0fef9dfe9ec461750180d7f9b9",
+      "file": "skills/database/postgres/copy-program/index.json"
+    },
+    {
+      "name": "extension",
+      "description": "skill directory index",
+      "sha512": "b83a2631c78e5af33490059044b4c6305353804976d54a92657aba3bd54a75bde63caaaec42c67ab1dde7246d56c274101c0b275220373a3bd38178574438eaf",
+      "file": "skills/database/postgres/extension/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "823e82d9736f393e0650e5e2d8c5f7decdd1778c16d56d8f8eabc9ce8e4bee6ae2706a8ff22758944df4c528dfd46297c9b47848c9987b692fcdd17de4218e1b",
+      "file": "skills/database/postgres/injection/index.json"
+    },
+    {
+      "name": "log",
+      "description": "skill directory index",
+      "sha512": "ccee4ca77a0c667aebe9f3c81f3f9251540ad2966bbdbec45db659d3ea996ebdcdd0ba13ed7c77e5f02ee645077b12a7e25619c4c90af31523587517f4f0b9ca",
+      "file": "skills/database/postgres/log/index.json"
+    },
+    {
+      "name": "privilege",
+      "description": "skill directory index",
+      "sha512": "ffccc2ea2c8887109b94706d2e9adf2554a6f89d90331261acd5159353886314955fd989fd96f70cbefebcd6d59f9196fdd38d833ef09290d8fb78ce3cd75393",
+      "file": "skills/database/postgres/privilege/index.json"
+    }
+  ]
+}

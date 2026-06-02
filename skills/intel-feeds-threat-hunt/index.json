@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-threat-hunt",
+      "path": "intel-feeds-threat-hunt",
+      "description": "--| | **STIX 2.1** | Structured Threat Information Expression \u2014 OASIS standard JSON schema for CTI objects including indicators, threat actors, campaigns, and relationships | | **TAXII 2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "78db3a265809b2ff24e9bc7451cc325a7c5a9c6ebfdda918d8d9701c00929c638dbb324f9f5cb825553446da204a02494c3ef34c3269e6e6f1a1111a60482917",
+      "file": "skills/intel-feeds-threat-hunt/SKILL.md"
+    }
+  ]
+}

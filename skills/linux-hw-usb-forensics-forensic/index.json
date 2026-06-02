@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-usb-forensics-forensic",
+      "path": "linux-hw-usb-forensics-forensic",
+      "description": "Linux Hw Usb Forensics Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a3756ef9c5fc8a4dbbf8f2fd348e72a2839d62de3eaa813a26f0084f9958079915fdb42da1c1d8c1aac518a03224a60604930c100903c6bb8f34ad4e68da716e",
+      "file": "skills/linux-hw-usb-forensics-forensic/SKILL.md"
+    }
+  ]
+}

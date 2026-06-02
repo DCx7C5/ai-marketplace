@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mssql-xp-cmdshell-detect",
+      "path": "database/mssql/xp-cmdshell/detect",
+      "description": "Detect and audit MSSQL xp_cmdshell usage enabling OS command execution from SQL context, including attempts to enable it through sp_configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d98e00e68019fd6cceac8416d8b81ee467e3b250b1e214cb287a03f2b1226f6d14dd462f7dbcede528e2d0993324d9e60c8309dcd78f23f7b4cbbedbaa2e4cd6",
+      "file": "skills/database/mssql/xp-cmdshell/detect/SKILL.md"
+    }
+  ]
+}

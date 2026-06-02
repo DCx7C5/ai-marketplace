@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "history",
+      "description": "skill directory index",
+      "sha512": "849ea444759eab3f110d21cd04e8e249cd99fa2fc964a35292451aa3c5b36476c77c3e63e86aca9ed0749cd2033040aa0b06c9a3cf94a4beacc76bbe093af3d9",
+      "file": "skills/browser/brave/history/index.json"
+    },
+    {
+      "name": "shield",
+      "description": "skill directory index",
+      "sha512": "a3a6496480b4f766795a34b221191a74322cfb6054a1bd5bc38dd937f6c3e6ae391fb81e4a85458aa3f9b0efdda13213bc99cd68a19f199164d06b2e761428ce",
+      "file": "skills/browser/brave/shield/index.json"
+    },
+    {
+      "name": "wallet",
+      "description": "skill directory index",
+      "sha512": "b8bdfc9f773a71ca6dc9caf36848e1e2b60a233348e0849b1e43bb384568457010fd8c55949d6e284eea35d5ba19bd151825940ce53dcad21cf613c39fee64a8",
+      "file": "skills/browser/brave/wallet/index.json"
+    }
+  ]
+}

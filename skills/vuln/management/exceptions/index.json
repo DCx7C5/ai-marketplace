@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exceptions-SKILL.md",
+      "path": "vuln/management/exceptions",
+      "description": ">\\n  Build a vulnerability exception and risk acceptance tracking system\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "996d0b5f18b952009550aca683352c8f5123f671ba245d3646a783e18576ce6051a6d5a8b41f9d13c91ae026649e203bc97640f9abfb4b64d632d8936afc3386",
+      "file": "skills/vuln/management/exceptions/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "a3ede5041593425f7ef1af47b005f2352269557e85969ff38d963e1ea33d112f854739258f3c3bc3295c02122d1c1e1bc8863d94e6edcb969b63e75d5b1d12d0",
+      "file": "skills/vuln/management/exceptions/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c56444e6bb52486777c49d51e8c3ab3a462ad75dc62f58f208d9b95507bb03de82f5414ef6529d8955dab1af7593eab1dbdd3fa935c840b5d263474bb95edd01",
+      "file": "skills/vuln/management/exceptions/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "93438c8c1ee126e827edc38e7cebc657ea4e8e7db726d0a69a37aecd9f04e7139d2015ff101171bbbd8e948d6037e154821ce3755b35c4fbb45b2c4e2959f24e",
+      "file": "skills/vuln/management/exceptions/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "backdoor",
+      "description": "skill directory index",
+      "sha512": "5caddb8f4c4f9dc658ac6052aa0d085903a5464ef6091c85064e171453ce1ee313f54abfa9dc15270dd4f60b8854a83d1f55dcf736ee40f5564392001206bc97",
+      "file": "skills/linux/services/rc-local/backdoor/index.json"
+    }
+  ]
+}

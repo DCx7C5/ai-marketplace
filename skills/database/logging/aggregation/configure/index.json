@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-aggregation-configure",
+      "path": "database/logging/aggregation/configure",
+      "description": "Configure Fluentd and Fluent Bit for centralized log aggregation, routing, filtering, and enrichment across distributed infrastructure",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "771fc8fa328fd274ca8f5b18ef3195a6a92037fed05dc252e498f5ad981af9174bfcfc726018eb97bf2bd95b530e2330d29a01f4ea2979c2efb541a2a199785a",
+      "file": "skills/database/logging/aggregation/configure/SKILL.md"
+    }
+  ]
+}

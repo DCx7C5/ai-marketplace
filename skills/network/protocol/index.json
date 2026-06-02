@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "bde1c497ad08cf9c483631e61b9d642c0fe006e4a06a85e522e74e382802151a9d50dfdb3481feb53bc41c7a19e53f63717c805127480b10e21512d9029c9c05",
+      "file": "skills/network/protocol/http/index.json"
+    },
+    {
+      "name": "icmp",
+      "description": "skill directory index",
+      "sha512": "35b430bb3fcbcf363c955200903ab868235e2b4b796cd073f8d65d6825311b14b821675d7b0381575d00bc57392358847901a8300c74bc5b45f1beab742807b5",
+      "file": "skills/network/protocol/icmp/index.json"
+    },
+    {
+      "name": "tcp",
+      "description": "skill directory index",
+      "sha512": "b4c392026c17da18f93d94153289add7b29a7ff75112ffd19fe18ef19d07a202a5ba65a4da44fd90416e7a10519b0f4dc969ebb1aeba78fafb8a0cfe0ba2a9fe",
+      "file": "skills/network/protocol/tcp/index.json"
+    },
+    {
+      "name": "tls",
+      "description": "skill directory index",
+      "sha512": "839fe89f7644e7c5e71d4b8fd2cef95b3c9f1896e2ec992dbb82993ff743eb48a34e6c3916b4b9bcfeb74761bbc7100f39aed50301d707be04666d6a28335c4e",
+      "file": "skills/network/protocol/tls/index.json"
+    },
+    {
+      "name": "udp",
+      "description": "skill directory index",
+      "sha512": "a834e0d780e81032a09c9fcf0a71bdf076bb34ee566c86af43f20cc36e1e20601e00bdefe6925b443eaaddd7096e406e924cb2ea1aa1c76d3b06fd3e140b83e7",
+      "file": "skills/network/protocol/udp/index.json"
+    }
+  ]
+}

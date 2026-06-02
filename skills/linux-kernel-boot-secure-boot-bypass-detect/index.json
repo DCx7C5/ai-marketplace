@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-boot-secure-boot-bypass-detect",
+      "path": "linux-kernel-boot-secure-boot-bypass-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - secure-boot - shim - mok - bypass nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cb0522784af8e67f8cb80230092dbf8bbb56493c29706fb4dfb764157b11b61a0336e786104fcc14cc72c9abc15db1e28830cb6515c215e2b2eeb58273f7db99",
+      "file": "skills/linux-kernel-boot-secure-boot-bypass-detect/SKILL.md"
+    }
+  ]
+}

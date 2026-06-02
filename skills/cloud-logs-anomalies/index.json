@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-anomalies",
+      "path": "cloud-logs-anomalies",
+      "description": "JSON report with event statistics, baseline deviations, anomalous users/IPs, sensitive API calls, and error rate analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "64dd9a0e1061f5c7f51fe1bf7d55d68eedc33232d9dd818aa3458b87d1e71b9e1006658d0bdcd51de9727c725d7249b78d3a1dad6e6e9712beaf16b63ae84fa2",
+      "file": "skills/cloud-logs-anomalies/SKILL.md"
+    }
+  ]
+}

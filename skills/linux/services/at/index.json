@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "job",
+      "description": "skill directory index",
+      "sha512": "6c39fbb7385e773f395362e7c7f974bf0870fed0314e09b3e2900c49c3742ac98d7f38cac01bd81e4a856206ef6b62c3f78373cd7a0ba866d32227750c3b2e88",
+      "file": "skills/linux/services/at/job/index.json"
+    }
+  ]
+}

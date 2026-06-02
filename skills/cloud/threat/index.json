@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cryptomining",
+      "description": "skill directory index",
+      "sha512": "3e0b214669d910ef37500ed26c87f9f969cff738e1e7371c87cc7ecf9ea859eec40a76bfb04ef2eb4f453e23b535c7f7bbe6887c74f3f43a4c0cf238da04dca3",
+      "file": "skills/cloud/threat/cryptomining/index.json"
+    }
+  ]
+}

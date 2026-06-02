@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-tls-tlsassessment-configure",
+      "path": "webapp-tls-tlsassessment-configure",
+      "description": "JSON report with supported protocols, accepted cipher suites, certificate details, vulnerability results (Heartbleed, ROBOT), and HSTS status.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ddd7037200221b304efc2b4cfb30171ef3572eeb5e913b2c7c6995e0396ceb8b38f9b58b4053a69a5217cb7e0271ebbee2a0b94a3c91f373c94d2f9672b3e54f",
+      "file": "skills/webapp-tls-tlsassessment-configure/SKILL.md"
+    }
+  ]
+}

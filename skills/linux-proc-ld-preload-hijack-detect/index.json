@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-ld-preload-hijack-detect",
+      "path": "linux-proc-ld-preload-hijack-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1f58e13c315db40db4ff92c10c935980cf52c7cb20eb75c67a383aed5f1016aa3e5efe5d3d59cc82a56291db24e4089a2c6516db9072a14b08d01e0271e9a0ee",
+      "file": "skills/linux-proc-ld-preload-hijack-detect/SKILL.md"
+    }
+  ]
+}

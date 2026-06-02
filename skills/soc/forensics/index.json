@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "investigation",
+      "description": "skill directory index",
+      "sha512": "a8461cb99da7f6f35a354bfedc68514ef371a34fac61939be369d163328ee6883268a25ae10990f45985f36e98d6f876ec632ef3a9b1e5cd93b22367efcc796e",
+      "file": "skills/soc/forensics/investigation/index.json"
+    }
+  ]
+}

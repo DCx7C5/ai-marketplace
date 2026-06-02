@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "e7577b123528e96cb18fa712817da850ffafaafaf50b1517f21be469e15a14c500812204fc68600888c9c6579c4af193473ac29e0c13e3dc05252ed2cc9e5bc9",
+      "file": "skills/web-application/enumeration/directory/scan/enum/index.json"
+    }
+  ]
+}

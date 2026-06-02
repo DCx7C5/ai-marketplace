@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logs",
+      "description": "skill directory index",
+      "sha512": "8fd548e3974dcd50942a916afc3a39a3e28c5d47bb7d14fdf9388b613163a976e9d9410c7d4de2f5dc3a817892d08b4b799b474566cecff714ae97129fb37548",
+      "file": "skills/cloud/monitoring/logs/index.json"
+    }
+  ]
+}

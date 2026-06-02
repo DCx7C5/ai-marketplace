@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extended",
+      "description": "skill directory index",
+      "sha512": "20fb6abe157d96e66d6f73d1f198293e660d2d613abdb36d00415d253067b802d08b14a1b5ce89738cfc7533a8dae83383b8b96500b75dafda578aee9e2095c6",
+      "file": "skills/linux/filesystem/acl/extended/index.json"
+    }
+  ]
+}

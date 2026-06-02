@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-security-shadow",
+      "path": "cloud-security-shadow",
+      "description": "6. Calculate risk scores based on data volume, user count, and service category 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27306670e76768c6b3c2251454c89276b14e7c2cd37930e9ad5271b240fc5968bf584fe91f4b708b95bd0b2d537f3bbbb5bf03a64c5c44716dfcc59977f43348",
+      "file": "skills/cloud-security-shadow/SKILL.md"
+    }
+  ]
+}

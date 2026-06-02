@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "session-hijack",
+      "description": "skill directory index",
+      "sha512": "906acfda40f1a4723eac7b3254e71eb7c9400147156ad911f4e47ad91fb0ba4585c69acc5ba4f08d257f45f4863b379c59716c293091e12bc0833aacef4585bf",
+      "file": "skills/network/protocol/tcp/session-hijack/index.json"
+    },
+    {
+      "name": "syn-flood",
+      "description": "skill directory index",
+      "sha512": "442d255b63343c9969e5a14220f669ad937adcf83c0ab536102a84c1be8707e59652c130328942fbc3150a290b861c4821a4d6f541c6d94d7e11b5e3e0eea002",
+      "file": "skills/network/protocol/tcp/syn-flood/index.json"
+    }
+  ]
+}

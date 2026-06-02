@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-privesc-kernel-escalate",
+      "path": "linux/identity/privesc/kernel/escalate",
+      "description": "Linux privilege escalation involves elevating from a low-privilege user account to root access on a compromised system. Red teams exploit misconfigurations, vulnerable services, kernel exploits, and w",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fecc5435037bcf9572cc3af48ada9ab4eb39438729e9cf0893c3f275de1eeae264edf7e291a330d690fb3c1279017ab75a1a9f8f508ded7e5a2816cc52b8355c",
+      "file": "skills/linux/identity/privesc/kernel/escalate/SKILL.md"
+    }
+  ]
+}

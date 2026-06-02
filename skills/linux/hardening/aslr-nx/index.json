@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "c1734f6939661148c3d0f62c5e678d1f1b49b57de0d83fc8b2d9cb0db6740706d093aada5605cbe8f3784bf9a6c8d2cc57cf163e1a7c2cb6d347c2a6fe20c39d",
+      "file": "skills/linux/hardening/aslr-nx/configure/index.json"
+    }
+  ]
+}

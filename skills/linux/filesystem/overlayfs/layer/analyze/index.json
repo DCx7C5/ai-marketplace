@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-overlayfs-layer-analyze",
+      "path": "linux/filesystem/overlayfs/layer/analyze",
+      "description": "Analyze OverlayFS layers used by container runtimes \u2014 inspect upper/lower/work directories, detect file modifications within containers, and recover deleted container artifacts.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "45e25ed6f5159b05eeb1033b9be029d75420395079b9cc3eaf229132f4e0d1a878496848e46e10eb47a52cf2541fddd3bbcd232848b3fca6c47400c129cc778b",
+      "file": "skills/linux/filesystem/overlayfs/layer/analyze/SKILL.md"
+    }
+  ]
+}

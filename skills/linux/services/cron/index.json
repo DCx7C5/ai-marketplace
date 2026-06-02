@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "job",
+      "description": "skill directory index",
+      "sha512": "31df15023bad82c61ab6e37de7bb2bff09e21dcd6bf7177db82dad6ca9d01d56575060bff52b124278aa68fcb27a3c4fbcfb4a52c108e63c1f580e99232d6583",
+      "file": "skills/linux/services/cron/job/index.json"
+    }
+  ]
+}

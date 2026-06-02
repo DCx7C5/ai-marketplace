@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4298d6e0c194a5fb9b739c8faa24f9966e81a8ba5e4dbcb14a32e5507e753bc4d063a461c0d701e1809502ecad3ae379bd7499ca374358043d2dffbd1d208e7a",
+      "file": "skills/network/arp/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "27b3f19ec0d9f60c75ec6e93b9dd6214b0fd54a9b142b15632699f57542f5ec0967c39b7d5d0f00f0dad15a310830dff65665e8ea1e3981b66c55a94690d5926",
+      "file": "skills/network/arp/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-ebpf-map-covert-channel-detect",
+      "path": "linux-kernel-ebpf-map-covert-channel-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - ebpf - bpf - map - covert-channel nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5c11a9c57d20f2bbd67b53c23378a6bdd6b6770a66fa4eacaf7a50bfb32b3bca44a4f42167f6488ddd0f6026e08410cf118dc10958cbfcea09914db38c953bc5",
+      "file": "skills/linux-kernel-ebpf-map-covert-channel-detect/SKILL.md"
+    }
+  ]
+}

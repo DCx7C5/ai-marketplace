@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-syscall-io-uring-abuse-detect",
+      "path": "linux-kernel-syscall-io-uring-abuse-detect",
+      "description": "subdomain: kernel-security tags: - linux - io-uring - syscall - exploit - cve nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7446002fcaf125b6f7e8c725cc0f14c030f00ada69ea0cd4c3db77b9aee3f79b81571f3088967a965f9c2c3b7e5e13c317b9db084436ce0c88ee088589e3a02b",
+      "file": "skills/linux-kernel-syscall-io-uring-abuse-detect/SKILL.md"
+    }
+  ]
+}

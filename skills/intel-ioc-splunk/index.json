@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-splunk",
+      "path": "intel-ioc-splunk",
+      "description": "- [Cisco Talos Threat Intelligence in Splunk](https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "32ca2f18df9e7ce467146b3e68b9f0739fef743d2e8b4db16ea5c1af25f1039557d0b23f07bc1a7a1171a8b20771dbb41b75db10b9ea468b56b101cd184a673f",
+      "file": "skills/intel-ioc-splunk/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "7600b1728d366ae68110879841cb7598d3cc759e6696254487ecd58d03df64e7ed2c1f9b4b181c1d42cc91764f1fbfb9257c0436040b15b9f1ada386a1614f80",
+      "file": "skills/identity/ntlm/passthehash/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "06d3ead31ca47a84c9ccaef5f8ea623aeeb832077173ac00394a62c9ed3c15322b9b355a2ecce77c447bbe4d5520e21ab36d9a6cfea01b922d15ae73397aed1d",
+      "file": "skills/identity/ntlm/passthehash/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ad9a5019adbb98b90d417c9d0b6d7c05f90b908635ae1feef156c018ade45f9790b47007861b653368c0b862aebc1868e095eca3d8798180f90b3bf03f02d0bb",
+      "file": "skills/identity/ntlm/passthehash/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "1320c43c928ef4d9ce99e05b67a42cf38259a178d2c48b03da176e02024c0aafd7643aeb0824c8de407108b932b8dec13272ec8feb8ddbf5c1d7f95a14b0326a",
+      "file": "skills/identity/ntlm/passthehash/scripts/index.json"
+    }
+  ]
+}

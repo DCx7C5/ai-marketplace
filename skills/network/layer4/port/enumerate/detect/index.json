@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "layer4-port-enumerate-detect",
+      "path": "network/layer4/port/enumerate/detect",
+      "description": "Configures Fail2ban with custom filters and actions to detect port scanning activity, SSH brute force attempts, and network reconnaissance, automatically banning offending IP addresses and alerting se",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "17cc5aca131ece5ee05f4ab3fc98ef2a220f164ddcbf6e120b0bec7514239bbca8949f65201e0686a54959ff2ec70282d2af0d4c763dacfb6a5e40bc13024c2d",
+      "file": "skills/network/layer4/port/enumerate/detect/SKILL.md"
+    }
+  ]
+}

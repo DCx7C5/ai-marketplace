@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "c2",
+      "description": "skill directory index",
+      "sha512": "0a0aac3345874690b6a2eac82eb838f1140f26b8a73896e249d81e926b948f6184220ed34d53a2dff1c267198bf74336129c8795f82d25597c7e73ff3a1276df",
+      "file": "skills/network/layer7/dns/c2/index.json"
+    },
+    {
+      "name": "forensic",
+      "description": "skill directory index",
+      "sha512": "68418464ffdab2a01232506bcca69ccd8b23f9e7b7b854786cb0a61e2807dddaf9daeaeff086da05e71f5ad61e5592b9bec5dc9327e55ccc202f5d9239dc8efa",
+      "file": "skills/network/layer7/dns/forensic/index.json"
+    }
+  ]
+}

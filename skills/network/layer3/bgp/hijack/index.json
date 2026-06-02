@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "f5fba8b5f8df158920c0fd7f8ecfeb157cdd4f3566207fcf9fd2b8d713a7deead900e47e0d132f082293955b631070a453c6111cb045b1432f713679207ef7bc",
+      "file": "skills/network/layer3/bgp/hijack/exploit/index.json"
+    }
+  ]
+}

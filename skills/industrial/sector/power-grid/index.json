@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "2c73aa59eb242059044db727984e9469608ca8b51f6365cf740d5c2f371419a95de5b43b5ad2ee91fb3eb2b5aec3cca98bec3f71abae38dbb8c728795e5b4e45",
+      "file": "skills/industrial/sector/power-grid/assess/index.json"
+    }
+  ]
+}

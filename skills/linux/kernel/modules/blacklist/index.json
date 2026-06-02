@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "87032081eab507a5c77f4a70a44b9c39ea3bdf31be601714d76c74842b52add4e24acf60e7337a1dd28816ef2a88a7e6b7df2d33dc9861078495f1d77caa47f2",
+      "file": "skills/linux/kernel/modules/blacklist/audit/index.json"
+    }
+  ]
+}

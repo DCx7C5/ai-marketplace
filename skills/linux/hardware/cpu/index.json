@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "microcode",
+      "description": "skill directory index",
+      "sha512": "93573088e2ea6c681d83c5fcd5b6a544a83e79fd7caa0207a7c62147ccf6e11e7924d2481d783c6a6fe2984955c6a33645d6a81b41eeaa4b449a5ea68d56a22b",
+      "file": "skills/linux/hardware/cpu/microcode/index.json"
+    },
+    {
+      "name": "spectre-meltdown",
+      "description": "skill directory index",
+      "sha512": "6f99cba11b38591a52077873695a9357196dca87c9f9802b0d36d4ecafa9b59e00707a201001c00e08933c96aedf112320a66130b97ff10bee81dfc5991ad8d8",
+      "file": "skills/linux/hardware/cpu/spectre-meltdown/index.json"
+    }
+  ]
+}

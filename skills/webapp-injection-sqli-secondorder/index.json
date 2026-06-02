@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-sqli-secondorder",
+      "path": "webapp-injection-sqli-secondorder",
+      "description": "Webapp Injection Sqli Secondorder.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bc84a41d8062724441c145daefc43cf74f8b035aa91ce71d3381e46661af89c6b9301f871da27cf0bd9365e5a5328aec13c1bc90bbf6b6022214ee9030a146ca",
+      "file": "skills/webapp-injection-sqli-secondorder/SKILL.md"
+    }
+  ]
+}

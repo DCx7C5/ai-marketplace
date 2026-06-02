@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-goldenticketd",
+      "path": "identity-kerberos-goldenticketd",
+      "description": "JSON report with Golden Ticket indicators including RC4 downgrades, orphaned TGS requests, abnormal ticket lifetimes, and risk-scored alerts with MITRE ATT&CK technique mapping.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0ae49cb63409e908395d48a1aaaf883132c9a84cfea560eef980a15ae81f53ba4a9448a8a2cee1d0f860a5d6671f0c25fd88157f2780e2a4cac0ce4fadfc7be9",
+      "file": "skills/identity-kerberos-goldenticketd/SKILL.md"
+    }
+  ]
+}

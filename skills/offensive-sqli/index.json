@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-sqli",
+      "path": "offensive-sqli",
+      "description": "- Source: https://github.com/SnailSploit/offensive-checklist/blob/main/sql-injection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a2576b0f6b0754519c95cb45e5f0f71c755c79fccaa4212ddf5451d5019516b1d29a80ff58567fd928985c5b015842f5002b56f03abb3d5d4cad49b9d76e436a",
+      "file": "skills/offensive-sqli/SKILL.md"
+    }
+  ]
+}

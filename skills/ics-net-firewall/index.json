@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-net-firewall",
+      "path": "ics-net-firewall",
+      "description": "Ics Ics Net Firewall.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "411cb99d9ba6c780f81c04280069f7271da90508458685048fcbfb255d57fc828f05cc7e76882d9e52095b9a233def08bd46f27b029eb80fcad97e8373a3fd32",
+      "file": "skills/ics-net-firewall/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "02f3dd667457009102c28f687b4839125d13760f9081007b13052ac81efe63f17ce9296177c37563be72c079021e5d97a5301f76aaabe3ba78582d11d413357b",
+      "file": "skills/ics-net-firewall/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "be36abbc33f93d2073dd6c6a05643b0b7323be75c77217cf1abbcda045576b5445dbe53f1a2e113d03e700eeb94bfd4cd029692c0b967a88bc22d43882ccd6d8",
+      "file": "skills/ics-net-firewall/scripts/index.json"
+    }
+  ]
+}

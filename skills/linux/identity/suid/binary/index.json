@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "70e7e32876f2ec12d2ef4ab176f99574f39e9dcd9fe5196252fee8cb623ca9e769fb20552c043dc85b00c6c2bc5bcb79245e63beeef5311e4660856808eea870",
+      "file": "skills/linux/identity/suid/binary/detect/index.json"
+    }
+  ]
+}

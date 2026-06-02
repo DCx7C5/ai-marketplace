@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "2a696db358fe7d0d2c413e134d5d1a0414fa7451213b4e1c30a8db34f202233c5293b08c969c1d8f48eb0e7e211bf7d1b95c5aabbc3312304171a350b3ae25a4",
+      "file": "skills/identity/provider/google/audit/index.json"
+    }
+  ]
+}

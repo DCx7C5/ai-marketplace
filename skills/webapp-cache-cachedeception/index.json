@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-cache-cachedeception",
+      "path": "webapp-cache-cachedeception",
+      "description": "--| | /account/profile/x.css | Full profile page | Email, Name, API Key | | /account/settings/x.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "908dfb20e9174156025b187bb9683e1d9c0b0ca78af27d3331a8c3f96807c811e33a19fa59a25c009672638f5f8546327039f02bbad1c454d35b9fc73156d811",
+      "file": "skills/webapp-cache-cachedeception/SKILL.md"
+    }
+  ]
+}

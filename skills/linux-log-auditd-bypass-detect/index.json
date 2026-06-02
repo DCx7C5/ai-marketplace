@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-auditd-bypass-detect",
+      "path": "linux-log-auditd-bypass-detect",
+      "description": "subdomain: logging-security tags: - linux - auditd - bypass - evasion - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a4b63674daad658a3c21492ead7c7863d19ce59fa161f3ddeebac4396e3e8ba3ba2ef62a0adfce69426f6aef23dc7e526fbef5c0b820a3fa6f2fe516bda15891",
+      "file": "skills/linux-log-auditd-bypass-detect/SKILL.md"
+    }
+  ]
+}

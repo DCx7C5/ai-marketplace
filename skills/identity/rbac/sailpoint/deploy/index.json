@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rbac-sailpoint-deploy",
+      "path": "identity/rbac/sailpoint/deploy",
+      "description": "Deploy SailPoint IdentityNow or IdentityIQ for identity governance and administration. Covers identity lifecycle management, access request workflows, certification campaigns, role mining, SOD policy",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6574e1c9e6278fe7d299455c0688e5f2ddd111fe3711d39e45be017219b419bcc5aa14630040762a74808e153607906c369fbd0d89cf874672cee97d1a1a32fd",
+      "file": "skills/identity/rbac/sailpoint/deploy/SKILL.md"
+    }
+  ]
+}

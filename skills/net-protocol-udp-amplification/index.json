@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-udp-amplification",
+      "path": "net-protocol-udp-amplification",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ad03d49313f78e7cd2ec5928860f1a234979b4d5f2dce36ce3472f54d265a3ec1153573ea5c003b03d3c00fca61954b95054b27047950806c06d84a4d7cacc6",
+      "file": "skills/net-protocol-udp-amplification/SKILL.md"
+    }
+  ]
+}

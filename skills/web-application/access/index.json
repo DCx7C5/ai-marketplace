@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "idor",
+      "description": "skill directory index",
+      "sha512": "2224380a64819da8f00e4ed6d02ada5aef28d67fa14b48e026d1f11a5df3b23b49a047c0eb31062a62e099d2660ba8d73bec5c87bb2efae544971fe466bc7670",
+      "file": "skills/web-application/access/idor/index.json"
+    }
+  ]
+}

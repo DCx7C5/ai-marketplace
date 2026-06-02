@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-grsecurity-patch-assess-audit",
+      "path": "linux-harden-grsecurity-patch-assess-audit",
+      "description": "subdomain: hardening-assessment tags: - linux - grsecurity - pax - kernel - hardening nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ace3b591899424f2f0afc605dd6d51fa32b7806728af267cd8b1813a7397c97a6f2ad6530db3e31b252d929bfcaf6844584163902f67d5f61556da85a78ddd96",
+      "file": "skills/linux-harden-grsecurity-patch-assess-audit/SKILL.md"
+    }
+  ]
+}

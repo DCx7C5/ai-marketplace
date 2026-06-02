@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "firewall",
+      "description": "skill directory index",
+      "sha512": "c79dd1457eebdbe7057497ee90aae1f5def80a50971993106a1e9c1e53b54a6d9c1f1266c633e379f88a77671448ebed02e90ea998925e692d387f1dd125615c",
+      "file": "skills/web-application/waf/firewall/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "316998ea9d461ad098cfcb7cd37883669a2353438bda26003c7f47e73faacd61668c749a1ba0bfd91c67c2d1e0f97eed0ff0b68c4740a2efb9d72af6a9f2fd6c",
+      "file": "skills/web-application/waf/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e25a05fe3aa88f38a7421ebbfc85bb3f528a1b6806ff874256b89ce11fe037ae1fe3d5d0e86a32a0c3e990452f93a9c2f53bbd268884b5e310151065d542c52f",
+      "file": "skills/web-application/waf/scripts/index.json"
+    }
+  ]
+}

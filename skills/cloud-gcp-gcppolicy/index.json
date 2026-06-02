@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-gcp-gcppolicy",
+      "path": "cloud-gcp-gcppolicy",
+      "description": "| | compute.vmExternalIpAccess | List/Deny | Org | Prevent public VM IPs | | gcp.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "713ceb271bb4594aec0f5c1453432c3e434d387decdef81f6db2531a7a642b178d727ec9e0cd1f78daefbc837a9a9066e99fa74ff55277ff4c372ef8804dba09",
+      "file": "skills/cloud-gcp-gcppolicy/SKILL.md"
+    }
+  ]
+}

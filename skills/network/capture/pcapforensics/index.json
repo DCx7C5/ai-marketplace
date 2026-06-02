@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "d22bd857734c8323bf2e90cd8dcf5d7f36c444c5c40bf2563c8b27d12768982faec433b134a623e99c73cc5474b9af0e158b27fa598e79bf4882b77270f7171a",
+      "file": "skills/network/capture/pcapforensics/detect/index.json"
+    }
+  ]
+}

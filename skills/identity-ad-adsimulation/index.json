@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-adsimulation",
+      "path": "identity-ad-adsimulation",
+      "description": "Identity Ad Adsimulation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "47efa4d0af876bf0c46596e883f89707553869774c2f24e25b3e7ed3890fcef92c12ba2835190798428a6ea3b993c4b30188d04a731b36c0cce528d431326d5f",
+      "file": "skills/identity-ad-adsimulation/SKILL.md"
+    }
+  ]
+}

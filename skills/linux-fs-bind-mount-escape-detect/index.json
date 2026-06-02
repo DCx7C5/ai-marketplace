@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-bind-mount-escape-detect",
+      "path": "linux-fs-bind-mount-escape-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "72afd00616a0acecf71d2db67258ae3a451b6c8272329137ad06081a89ede9d15c7acddb33ce074c66c867b01a743b730fcd59562a46893ed053d7a13483b519",
+      "file": "skills/linux-fs-bind-mount-escape-detect/SKILL.md"
+    }
+  ]
+}

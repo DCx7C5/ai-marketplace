@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "a34cebf515e8ce949b310c3bbc648a80ca91c165184abd90250455eb37c333e95ef0a2fdfe18f64f3a82fd2b496d0dbf4183851316462ee958ed319e7305c155",
+      "file": "skills/intel/mitre/attackmap/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "metadata",
+      "description": "skill directory index",
+      "sha512": "60f0250799289f843a6ef1b66e91507c35834a5593644bf04646f6f31afdc6aaeec6833f8380aad9ccc331cd4869d0c84abe4c526bd69d47a6744c5dbce1d72b",
+      "file": "skills/steganography/document/docx/metadata/index.json"
+    }
+  ]
+}

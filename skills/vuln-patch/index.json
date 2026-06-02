@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-patch",
+      "path": "vuln-patch",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4ec3ee37d8e72744b19a89602227cfc91fdf6b740d91a340ca4b54392b228ec5a30cfb57538e0acbcb2d4b702a05eb9ec4b09fc2719f57e495bd37d1221c62e4",
+      "file": "skills/vuln-patch/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "2f4bcaf56ee6857e2988a928dcd8d4bb897ffbbe7c1edceb59c7a34efc69f532269bf90084e9d69a36cabae1951d57c9c605d1fecd9381cb336d7919dc7e2fe2",
+      "file": "skills/vuln-patch/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7da4946dc535623274a106107d76346b66d899c3bb9191b9ffdc1ebf49c84c06ef6d409ee56a64b1071fc47a6c76822e96a95f50da5d84b10707d076011d1edc",
+      "file": "skills/vuln-patch/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "a6ff6cc3c4cc46422a8346d8e7ac5598186c1749a04251faec0c3d4fb7aa00888f7ea1062ad7342da79629047bcf00402c424de57c136f58e953da39d40eafb7",
+      "file": "skills/vuln-patch/scripts/index.json"
+    }
+  ]
+}

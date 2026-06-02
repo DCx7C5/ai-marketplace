@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "security-ids-configure",
+      "path": "network/security/ids/configure",
+      "description": "Detect network reconnaissance and port scanning using Suricata and Snort IDS signatures, threshold-based detection rules, and traffic anomaly analysis to identify Nmap, Masscan, and custom scanning ac",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "28f87227ffb3e7c54c9933fca56da3b5a3818bf82ca931e31f99355602e25b7f9638613e608f7ffdca3e99a3333c8fe6b381a426b3b6535a2a5b42f8782dc1c6",
+      "file": "skills/network/security/ids/configure/SKILL.md"
+    }
+  ]
+}

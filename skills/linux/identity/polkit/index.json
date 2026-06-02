@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privilege",
+      "description": "skill directory index",
+      "sha512": "324cc600ea118f115dee15052d5b4758b5ad136d52858c6efac0b8060fae78e2ca49a2234716e47dd2366c1590f8805d13de29a2571b36d18dba8d78bf079338",
+      "file": "skills/linux/identity/polkit/privilege/index.json"
+    }
+  ]
+}

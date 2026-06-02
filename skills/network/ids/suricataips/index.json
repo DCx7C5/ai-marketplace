@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "5f4bc8082b545107253bf5660ef1f2346eb62e5bff8f1e244ef0337835619abb2dd99aeb9da126132a1f719688fb2f2ac028d5d630b9a058326a54b8b0942dd0",
+      "file": "skills/network/ids/suricataips/deploy/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9f0e68c508880639abd71479b8be5efc57cc7972cfeb2372f79d424ffc1c68d9da9f783e07f57225a6aa923ff1af564ed2e6afe6f8e129e21a43e3ffc9ead8a7",
+      "file": "skills/network/ids/suricataips/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "aff6fe9f59f0be384f40b8a5a75a29b02aa4ddf8dd26013ae1b9575ce3041e5d1ee12d2a7923d8417d3e2dcc444cabf7f2457266bdd6f99df380d978276eede4",
+      "file": "skills/network/ids/suricataips/scripts/index.json"
+    }
+  ]
+}

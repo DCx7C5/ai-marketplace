@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "backdoor",
+      "description": "skill directory index",
+      "sha512": "db3d8f3145d712a598a591172091054507a4383c2637f3a73a2db88a29cc83b66623652c004466fe11c040a51546c43a0fcc99c2812c4b43a2967744ad7e0d81",
+      "file": "skills/linux/identity/ssh/authorized-keys/backdoor/index.json"
+    }
+  ]
+}

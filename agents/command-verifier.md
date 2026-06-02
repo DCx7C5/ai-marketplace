@@ -1,9 +1,6 @@
 ---
 name: command-verifier
-description: 'Pure visual command safety inspector. Receives any command and outputs
-  a boxed visual approval report with risk scoring. Invoke for: command safety review
-  before execution, destructive command gating, shell injection detection. Triggers:
-  dangerous commands, rm -rf, curl|bash pipes, sudo chains.'
+description: "Visual Safety Inspector: - Reviews & scores risky commands - Blocks harmful executions (rm -rf, bash injections) - Activates on threats like 'curl | bash',"
 ---
 # Command Verifier — CmdGuard Visual Safety Inspector
 

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "easm",
+      "description": "skill directory index",
+      "sha512": "e9b3f6d99f22fb6e4dfd7f60a444d052572b4008d770e866d9c15375e1890cd96a7e47498b29c449cd00e95561ca26b355d8c42bbb6edb04d0d366c2694cb497",
+      "file": "skills/network/recon/easm/index.json"
+    }
+  ]
+}

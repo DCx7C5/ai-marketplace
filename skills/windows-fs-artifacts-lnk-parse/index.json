@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-lnk-parse",
+      "path": "windows-fs-artifacts-lnk-parse",
+      "description": "Entries: 5",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18ee3a43e355c05f685e1a951e211bbb5cb2c9d91638db8d74bc0146859c964f6e2a8273833f79431d7f70d550983f8529791e443fa6e095cd12c57f215e867b",
+      "file": "skills/windows-fs-artifacts-lnk-parse/SKILL.md"
+    }
+  ]
+}

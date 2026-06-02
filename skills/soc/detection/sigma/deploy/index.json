@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection-sigma-deploy",
+      "path": "soc/detection/sigma/deploy",
+      "description": "Builds vendor-agnostic detection rules using the Sigma rule format for threat detection across SIEM platforms including Splunk, Elastic, and Microsoft Sentinel. Use when creating portable detection lo",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e6d0588e7f8ba102836ceb83610910476c92762bd524ad7e7563376addfd044b4f3dcc7152d11e4d4dcdab9947ddcc44b85d329fe7526f6de59355d8f89905f",
+      "file": "skills/soc/detection/sigma/deploy/SKILL.md"
+    }
+  ]
+}

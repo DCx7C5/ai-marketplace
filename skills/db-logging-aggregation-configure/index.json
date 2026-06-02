@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-logging-aggregation-configure",
+      "path": "db-logging-aggregation-configure",
+      "description": "5. **Test Log Forwarding** \u2014 Send test events via fluent-logger Python library and verify delivery 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b4f4a3589966b02d15e3591a8c816866fd6c9ecada5e2127b17fd90c7b0b70e94e806a105fe80afe23a71209b032be0be41a2866048b1fb33e52042a976c933",
+      "file": "skills/db-logging-aggregation-configure/SKILL.md"
+    }
+  ]
+}

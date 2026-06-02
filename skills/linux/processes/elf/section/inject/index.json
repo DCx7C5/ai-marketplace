@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c0a33f5035f3e8a8644d15551e94d70be6e0c46bd29edcca236be4e07fa5eeb42937d352c834dd0e9eabf180e95765fe583eae640ff877e5028c0262ebe0be0b",
+      "file": "skills/linux/processes/elf/section/inject/detect/index.json"
+    }
+  ]
+}

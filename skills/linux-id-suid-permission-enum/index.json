@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-suid-permission-enum",
+      "path": "linux-id-suid-permission-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bcfd6a8f2cb70e7b1844e9ce8b1f401f9691255a790a7799a7d0dee0ea3baa033411266aff309143a3f85414b4461484a5431961c188290e11d7ce45724bbeed",
+      "file": "skills/linux-id-suid-permission-enum/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "wrapper",
+      "description": "skill directory index",
+      "sha512": "95930ad3e3f37fb96905d057c729823f0309e0d72e0916e8440c5884544d293cc6a128bb9d0bafdc65c0d9f769e0a2e18958285960310e31658b0962058f183e",
+      "file": "skills/devel-jb-compose-ui-test-server/gradle/wrapper/index.json"
+    }
+  ]
+}

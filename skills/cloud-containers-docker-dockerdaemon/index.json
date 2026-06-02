@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-docker-dockerdaemon",
+      "path": "cloud-containers-docker-dockerdaemon",
+      "description": "9. **Run Docker Bench regularly** - Automate CIS benchmark checks 10.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "73dfa19a9a15cf02fe5d4bfb48b4673a332479c3a21eb0d06c7c25383bfd42d9be2db7ecbc28c82bb9568c5f922362497882be5c7f8325f8d3db5c23d5cadbd8",
+      "file": "skills/cloud-containers-docker-dockerdaemon/SKILL.md"
+    }
+  ]
+}

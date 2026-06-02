@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compromised",
+      "description": "skill directory index",
+      "sha512": "cbccac5d5f842f2638d5c9ae83098d0c31595b315bbf7d6633b7dd728d889b4a1e6136cab25343ba492f2d954f7942913f6b56512d41b4747da8ae0b1b59c1d5",
+      "file": "skills/cloud/ir/compromised/index.json"
+    },
+    {
+      "name": "ir",
+      "description": "skill directory index",
+      "sha512": "6e22427304aa3f58d5500197f76c828b3d1638a4b742e25a229abf79241885df06f5fbcc03fa6ec13f4e8d08f8a565b3abd6ec3c05d6b82a27cde5fe18cfdcd7",
+      "file": "skills/cloud/ir/ir/index.json"
+    }
+  ]
+}

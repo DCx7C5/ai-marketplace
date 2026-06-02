@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "implement",
+      "description": "skill directory index",
+      "sha512": "c303417c78f291c7d3de8f6e88ccec3413f840395640080c7be568db50c117aa854f74bd3b33aa40f7ab809d70d7e406ba8d7680fdf19249a898f3d59284cc2b",
+      "file": "skills/industrial/ics/architecture/purdue/implement/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-polkit-privilege-escalate-detect",
+      "path": "linux-id-polkit-privilege-escalate-detect",
+      "description": "subdomain: identity-security tags: - linux - polkit - pkexec - privesc - cve nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6ce13284ea19c12e9c58bf4d6dafc0481f1479c2de668f154bb95aeb0c34e8d7033d539f5e3e697095f1d77fad8f0c700a4ddee0e74bd377c82a25be16abe81e",
+      "file": "skills/linux-id-polkit-privilege-escalate-detect/SKILL.md"
+    }
+  ]
+}

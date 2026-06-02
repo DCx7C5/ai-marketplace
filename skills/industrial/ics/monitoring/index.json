@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dragos",
+      "description": "skill directory index",
+      "sha512": "8d4bd2303f372bb56e5ad3490b4e59cf58928145f44769aa1142efe64343eb3b4d00257662503c03a7cb0f4f1bc3b063f0a89501ffb46d4c14941720f18e5799",
+      "file": "skills/industrial/ics/monitoring/dragos/index.json"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-historian-attack-detect",
+      "path": "industrial/ics/historian/attack/detect",
+      "description": "Detect cyber attacks targeting OT historian servers (OSIsoft PI, Ignition, Wonderware) that sit at the IT/OT boundary and serve as pivot points for lateral movement between enterprise and control netw",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2cb2c613149c13fd28b092e34de12785c801adc553e2a2bf763d59c8e521a6b3b80aebc8e4062dca259b25989fbadb31226399228cb33a4fd44b6f6e4f8ca672",
+      "file": "skills/industrial/ics/historian/attack/detect/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "31dbf8d913ed577273faba9b5376e63f108b91b3c8738e151b0569db6dbff7c6460e7bec81dce2c74c7852bd6add049592cb65509efaf66075853ebb3f8563ee",
+      "file": "skills/industrial/ics/historian/attack/detect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "14467e503394bdf1c965ab345c30df7d6e3ae84539d06c67314eb55fe523f0d0931719d40224ac22ab8fc304ca9e151b8baa73b17cffd545a2a088ed4dba914d",
+      "file": "skills/industrial/ics/historian/attack/detect/scripts/index.json"
+    }
+  ]
+}

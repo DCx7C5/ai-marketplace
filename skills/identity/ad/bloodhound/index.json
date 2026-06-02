@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "b022751475dba18bd0b6af74b78e99496e92951aba96c6c8673ba1965b16854cf11f1c04d6eacd097f05031c970bb7a6c0da942ae52ae3297fc8cb72fedb2afe",
+      "file": "skills/identity/ad/bloodhound/analyze/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "b453fb213034cf3b7218e713ce110cb1d98bf12b2523db0986db1ad68e4a7309ed6325fdf685cf1eb70c7a316c2b4a98a0e9ee6384ffffe0b4a24822ad160f77",
+      "file": "skills/identity/ad/bloodhound/exploit/index.json"
+    },
+    {
+      "name": "recon",
+      "description": "skill directory index",
+      "sha512": "090179e4faceec3ae4c0914ea52298b0f64e2024426169a6faab2777925abb3556f41d6529efdef490d578c880d9fb3a54e38cabd6a403598d141d5df22c1a18",
+      "file": "skills/identity/ad/bloodhound/recon/index.json"
+    }
+  ]
+}

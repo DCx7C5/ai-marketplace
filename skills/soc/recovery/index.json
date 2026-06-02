@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "backup",
+      "description": "skill directory index",
+      "sha512": "79ed8a21a4112be44e7c2d06940469bcebeec8150a6e0c26eaa8df3f78ab8679afedab121f02cd0588aeab17fed9b9876459d28bec36655b0cf2406ed4221f65",
+      "file": "skills/soc/recovery/backup/index.json"
+    }
+  ]
+}

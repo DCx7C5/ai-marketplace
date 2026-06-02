@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-prioritization-cve",
+      "path": "vuln-prioritization-cve",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "46ca4811cbd728d039e055b884df90c22804d9338e2cc22420368881d3f0b6cfbb9dcbee05498d6e993a83cc1df25922695564b7b0536fa2b85f1185c2ac0e8d",
+      "file": "skills/vuln-prioritization-cve/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "2373dfd881dc29d06e897e68869f2f487c9ff953c6837a54a282229e383ffc3a7bce75ed617005e8b3ef3ce7893901f15cc51c9616dd4e4fe6c284fffe33e084",
+      "file": "skills/vuln-prioritization-cve/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1f5d98c6ab591229da265916f7246161e2225198a15957de718b715d9fa7d3a1aef5251063b3bf444f24c3c70647de0410d9db04e69e0fa569114fb2a3a557e7",
+      "file": "skills/vuln-prioritization-cve/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ac910b9ede051ee6101b9fc35bc653c02a3577075701dde2cef070b79a82857eb5650d91845c0c60955756cc9b43b5b25307dd1ee33df9000f304807ae9213d8",
+      "file": "skills/vuln-prioritization-cve/scripts/index.json"
+    }
+  ]
+}

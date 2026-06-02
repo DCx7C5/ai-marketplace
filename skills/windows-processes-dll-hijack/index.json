@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-processes-dll-hijack",
+      "path": "windows-processes-dll-hijack",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cfd6f035e1f0583d551f3493766e3fbca7fff09506ccaf781dcc9db4dcf68fed81e7a8921617294e71a1648e180e1c401bbc8b8b7c89cafd0aa926ef237567a3",
+      "file": "skills/windows-processes-dll-hijack/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sca-SKILL.md",
+      "path": "vuln/sca",
+      "description": ">\\n  This skill covers implementing Software Composition Analysis (SCA)\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7baaf0de29579cc796471dc0f29f3997c51db01f335cef5330a71959e53aa3d02b07cb5502eeea4e6448656faac2b04d4c5c65cdca0ef2d5f8ab2de5a06845c5",
+      "file": "skills/vuln/sca/SKILL.md"
+    },
+    {
+      "name": "sbom",
+      "description": "skill directory index",
+      "sha512": "9041992c6ad46de0b6f5fbd6de72f11f357ab1cd40bce184b1d6f7a6f9a4f8be7090c6c774ad0ecc4c7f464a59fb61adffdd5407456d9baa55f56e679705dcb4",
+      "file": "skills/vuln/sca/sbom/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "846ae3b219587932080bce740c929a0d6200f0d29952b7fff4ad7e5ff383b4c89abfaf944ece80520c4edc9a1797da8fd5b2fda9bef756212f4a2f85027f6cb5",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/kotlin/io/github/forketyfork/composeuittest/endpoint/index.json"
+    }
+  ]
+}

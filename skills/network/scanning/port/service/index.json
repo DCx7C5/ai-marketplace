@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "fingerprint",
+      "description": "skill directory index",
+      "sha512": "edbf8897babde7f15c565e4b2800bf24643b526fe0fd65c6f2a15041d75dbb340aa4aeb9ec95c6855eeada2e5c4b8c7dd3d4f2f70525ed7f1ef022490ca0652e",
+      "file": "skills/network/scanning/port/service/fingerprint/index.json"
+    }
+  ]
+}

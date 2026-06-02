@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-ratelimit-detect",
+      "path": "web-application/api/ratelimit/detect",
+      "description": "Implement API abuse detection using token bucket, sliding window, and adaptive rate limiting algorithms to prevent DDoS, brute force, and credential stuffing attacks.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "17cd4af852c22d1923370484fbc6e8b7424efac87b33dc359f8236b3fcddd2b05ce5055cb05e8298536f3023eb8e83d259208813a3cc6004d004fc45ae242632",
+      "file": "skills/web-application/api/ratelimit/detect/SKILL.md"
+    }
+  ]
+}

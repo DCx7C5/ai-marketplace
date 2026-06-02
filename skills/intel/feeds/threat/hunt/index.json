@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feeds-threat-hunt",
+      "path": "intel/feeds/threat/hunt",
+      "description": "Analyzes structured and unstructured threat intelligence feeds to extract actionable indicators, adversary tactics, and campaign context. Use when ingesting commercial or open-source CTI feeds, evalua",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c416377572272e25c2ee2b93ba0843baa352b5f6dfc752d52148ac68c69c6e2f77afa1040cfa405ae935091521f23a1a11bff4f5632ad2c7f2a7c2f3216a6cc7",
+      "file": "skills/intel/feeds/threat/hunt/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-iamharden",
+      "path": "cloud-aws-iamharden",
+      "description": "Cloud Aws Iamharden.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5033cfa662880b52bd37c401a364c3fea6a40ed03a1ea842ba47e8460fc931351fb23c6344ba421d25512cab365f301106968345832ff04bfe78c25245867c8a",
+      "file": "skills/cloud-aws-iamharden/SKILL.md"
+    }
+  ]
+}

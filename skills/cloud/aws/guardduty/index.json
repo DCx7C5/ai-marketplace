@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "0d17c13e0b6dc4c53413e3d5784b6c1bd8122c9ca65e17543baa25fc59c585933c0d07cdee3b80a230e9c81189dac6cd1f7a55e7345978a991da7fc9f0074d8c",
+      "file": "skills/cloud/aws/guardduty/detect/index.json"
+    },
+    {
+      "name": "threatdetect",
+      "description": "skill directory index",
+      "sha512": "66e6b4571362b74256708e42ba5b5315ae1ba137287b83ac7e3c269d0c4a2c98a47e5f7a85bce611b225bd6a88c00ebb244b4b162bdaf19718cdb851453fffa1",
+      "file": "skills/cloud/aws/guardduty/threatdetect/index.json"
+    }
+  ]
+}

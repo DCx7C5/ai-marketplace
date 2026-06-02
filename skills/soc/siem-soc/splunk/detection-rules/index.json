@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "e8654ad9d8f2df8a03af615548e4e53c8752ea71f4a2cedf3895be51f10b82c0bf9af02dcd4a80e961a7b67b76fd5a37a990336163d57ff624e3ddd324a42f8e",
+      "file": "skills/soc/siem-soc/splunk/detection-rules/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9e63312b2e71791a6fe98df5efb1e9210a32d28afaf7d8dd52bc4e8a1e02bd09c913b9e07d32c2fdb01a9e3c599b03707ef6f64aa401e53f55429f8691350b5e",
+      "file": "skills/soc/siem-soc/splunk/detection-rules/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0714d5c7c6438f254ea045be3ae0b8e9a6d004534c53adbf8df507dd40d69aab9572e743e617c8c91bb5b6e8c386e2c827055cee4d8dba63848a7dd8839300e3",
+      "file": "skills/soc/siem-soc/splunk/detection-rules/scripts/index.json"
+    }
+  ]
+}

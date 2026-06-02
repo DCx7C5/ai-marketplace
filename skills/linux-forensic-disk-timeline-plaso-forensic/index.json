@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-timeline-plaso-forensic",
+      "path": "linux-forensic-disk-timeline-plaso-forensic",
+      "description": "Linux Forensic Disk Timeline Plaso Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "922a1a4726f177e25d415b0590f2b205524462b8ce9937940d0356d8a15c76d90d3ce93d23b1d91974d49ebcb9c1aeb3db2d7c0b49d13dd4f2b124d9b1a30f17",
+      "file": "skills/linux-forensic-disk-timeline-plaso-forensic/SKILL.md"
+    }
+  ]
+}

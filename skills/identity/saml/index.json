@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "googlesso",
+      "description": "skill directory index",
+      "sha512": "4e2f5207a069386010ccf74dc93a963d98ccbe7af66e036fb3ce41ef666fb1e80ef2da68382970eb9d79c9951ec004c093cbd706ab45a4fdb620c4bde9d30e67",
+      "file": "skills/identity/saml/googlesso/index.json"
+    },
+    {
+      "name": "okta",
+      "description": "skill directory index",
+      "sha512": "c40dfdc7b2c715030d6d61428cc37452c409c4fa31067f7151611a4eca1d4c0ba749dc9295030818bc8b05eda41b307995720adf9d2d886e632f5731e0000b82",
+      "file": "skills/identity/saml/okta/index.json"
+    }
+  ]
+}

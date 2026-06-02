@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "b417a5926afbb484e5c61819dd476f65ece8d848de64c7e4f41069bffcedd0e8f40e9a6b5082e14211c7ddb4b0bf052329d3f040aa98549c342ecca8fdf40224",
+      "file": "skills/database/mongodb/exposure/detect/index.json"
+    }
+  ]
+}

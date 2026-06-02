@@ -1,0 +1,139 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws",
+      "description": "skill directory index",
+      "sha512": "b0220118a74ac54d6e35947ceac5068381978e2815a2d14e51b21e0a9a4861c117d2b488971f116d8e13a01e9be0152c8edc0c711f9388c6feb979235b9e0860",
+      "file": "skills/cloud/aws/index.json"
+    },
+    {
+      "name": "azure",
+      "description": "skill directory index",
+      "sha512": "a465506f6d2f2add83b47b58d2ceb966236a243ff9f87b6800bf2e6d2bb857c83c391b8889fa06e9e10ec6e0ff7f2930efcf812af621e870cbc59af68ae993ac",
+      "file": "skills/cloud/azure/index.json"
+    },
+    {
+      "name": "containers",
+      "description": "skill directory index",
+      "sha512": "d834a73c9870afbe73006248e32d7d7cabac9aaf3fad2d6f00715eace7e5dce58f4da0894a578d13d8f4020989776f9a39fbd69e616b4c8762c08c1bbf183a0d",
+      "file": "skills/cloud/containers/index.json"
+    },
+    {
+      "name": "devsecops",
+      "description": "skill directory index",
+      "sha512": "bfd99cbac3c93d68739caaa1c3109d9314780b995a4a572ed6f8ba6bd663e5971c977b1b7fa8afc6e0747b94ff816a8b15f156c03de98215a0875b4349c6f4ec",
+      "file": "skills/cloud/devsecops/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "2010a3c3ec3f3e43a44db344d1c0b9f6ef444a31f9a6128a95a5b936eed05e4afce5b0c9d17f9a0220c2340a99066ee83c174f4c83e111379ce489e5d02fe899",
+      "file": "skills/cloud/forensics/index.json"
+    },
+    {
+      "name": "gcp",
+      "description": "skill directory index",
+      "sha512": "53ba32de41c08b0a8744acf83533ad9a271f5c15ef3b3d722af252a6c44eef3962b1e1206322a56341baf91b63ef82a7551ff5d226d70fec818cc0b0ec737d20",
+      "file": "skills/cloud/gcp/index.json"
+    },
+    {
+      "name": "identity",
+      "description": "skill directory index",
+      "sha512": "70f595918f1296f5703949585366b9f95471096afcf91f252fcb616623a2cdc5d876b95411d2aa8f9982cd26bd1b05dce6e70f3b3614b418216089ed85cedea2",
+      "file": "skills/cloud/identity/index.json"
+    },
+    {
+      "name": "incident",
+      "description": "skill directory index",
+      "sha512": "8166ab75d2e2d8d1397ee14f88321206719aed41e0ef133ce659bf1fe6736f457977827e48f6df642053a2204ebf26ef1ce93e9aaccef8119a1e1068d9dbc1c2",
+      "file": "skills/cloud/incident/index.json"
+    },
+    {
+      "name": "infrastructure",
+      "description": "skill directory index",
+      "sha512": "76abec9ae67f741ba0e28eca29a4a364f9c7b65c201181b94db02a263149f490622971788294fe64319b403b9b61cf8914cf6f2f27b8f8d5d471e633bdee7077",
+      "file": "skills/cloud/infrastructure/index.json"
+    },
+    {
+      "name": "ir",
+      "description": "skill directory index",
+      "sha512": "d7dd2f11bba49d38e62da5cfe4737d7f0438b4eae4374e0ca440cd34aafaeb0d7e0024bbea681e215828ff65c102e0febdc28cf1015644382c7101d371031288",
+      "file": "skills/cloud/ir/index.json"
+    },
+    {
+      "name": "kubernetes",
+      "description": "skill directory index",
+      "sha512": "3dc8cfa593fe44ee09efc13c225d6d26d6ab37a32fb4985780ccc292902e6d71ec4dc171ee47c4374dd19b75bf6fbeab7ce8a05771422815d2bd5dfbcf08278a",
+      "file": "skills/cloud/kubernetes/index.json"
+    },
+    {
+      "name": "logs",
+      "description": "skill directory index",
+      "sha512": "87f0760008794b52be119ce19f9b30c7d22521ea9de490872f4b413990eedea32d1627fe85a8b37525390d7c4ff6fb6496610ee4449b2c6ffb23a0a2bc8d2e49",
+      "file": "skills/cloud/logs/index.json"
+    },
+    {
+      "name": "monitoring",
+      "description": "skill directory index",
+      "sha512": "1afa4569812ab573526225cfd2897909e3f425e44d54c865be0bafa5ed86e197f08a17b549d71674355eff93687bbb32afabca248218df214ab71acecfb6fb70",
+      "file": "skills/cloud/monitoring/index.json"
+    },
+    {
+      "name": "office365",
+      "description": "skill directory index",
+      "sha512": "1e76a84c2f0869f3c00e0a8fc5561528d1c0522e87754eeed8482bfe8868f2a34dd57075be1c231387514fec326370dceb49775c61ce30a99033ae99de11a28f",
+      "file": "skills/cloud/office365/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "6a4a0e1ed9959613d3a0a73da1f649b9cc0dd30a5ea8767709bdc7dde5be104f2a4068403b25a5b42e0a7aa792a8e419147881152e7d2608b7e0877b8037a20d",
+      "file": "skills/cloud/pentest/index.json"
+    },
+    {
+      "name": "pipeline",
+      "description": "skill directory index",
+      "sha512": "bc88dc2a303b78561099dda0fb3725edcebf661b8e786e6ce9180bda2e612f348b63bda7274fc2d8a124a6c999f5c49f6a459d8fc305316920b3688e3cf05e14",
+      "file": "skills/cloud/pipeline/index.json"
+    },
+    {
+      "name": "platform",
+      "description": "skill directory index",
+      "sha512": "bf0a0ab509816bff3affb02a1358845a0399d2437127d5c7db2cce34123f19177feda5412c473f0420b4999827d9da541313437052c63a17465fd89e9d91f1fd",
+      "file": "skills/cloud/platform/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "b064fb6e140dcab607640a70c74a8c93c6bb7b310c0147b4066fbb06efddbf62eed5b47f15952a212eed1a8bd33769e59199ab2627ec0792b174a6739baea3f0",
+      "file": "skills/cloud/security/index.json"
+    },
+    {
+      "name": "serverless",
+      "description": "skill directory index",
+      "sha512": "a366fda190e20670cf8fee0552fd62720633b94001b60f0e2c91c17dd4ac83a67c88979a7ce6e8756be2664d91e708517efda378ab849b0f56d6527512a3441c",
+      "file": "skills/cloud/serverless/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "f58a7a01be647a506ec29eedf447590b1b05af8b847d82fc42081d8885027cc7adb9e9b94374f1853758e2c59a5b4462e89a0b23b46d386a304cb6cfe85a1a19",
+      "file": "skills/cloud/threat/index.json"
+    },
+    {
+      "name": "trail",
+      "description": "skill directory index",
+      "sha512": "2ce943d5c8ebfe2d91e986967adf625c4510f98f87fdb74b9bb8589bee1a538d50b1a6c10fcac28614f4df50a01111127d164c3473c39acef9fb54696d19fb6f",
+      "file": "skills/cloud/trail/index.json"
+    },
+    {
+      "name": "zerotrust",
+      "description": "skill directory index",
+      "sha512": "e3405510a01b75dc73f1e92da83d161b88f763a1c68b87be6cf1835e0a0d67281bdb928dbfd7109d376c23cab7ca768ef679a81210825000b0b950575a303ecb",
+      "file": "skills/cloud/zerotrust/index.json"
+    }
+  ]
+}

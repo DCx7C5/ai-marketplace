@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-modules-blacklist-audit",
+      "path": "linux/kernel/modules/blacklist/audit",
+      "description": "Audit kernel module blacklists \u2014 review /etc/modprobe.d/ blacklist entries, identify missing critical blacklists (cramfs, freevxfs, usb-storage), and verify enforcement.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "87032081eab507a5c77f4a70a44b9c39ea3bdf31be601714d76c74842b52add4e24acf60e7337a1dd28816ef2a88a7e6b7df2d33dc9861078495f1d77caa47f2",
+      "file": "skills/linux/kernel/modules/blacklist/audit/SKILL.md"
+    }
+  ]
+}

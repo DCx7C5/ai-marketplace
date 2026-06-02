@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "45be2f352ad488b41e260b929a628a18205e84c86b106ffb940cca9b6f2b41a5ff86ba1dce0997ad1dbce4224a1ee4c0f380522ccb12c3f388bdca78bc4437c1",
+      "file": "skills/industrial/ics/asset-management/claroty/assess/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "19f316d298760bceae9ae8ff85f3a93bbc5359aabd9251928974321d7c96e5adb34e2af8eda1f48ad1f7ab9b26127b695183a19d0f9e120804c957474d6a95b0",
+      "file": "skills/industrial/ics/asset-management/claroty/assess/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "549c1106448159e38a9daf1c8f4f28ed0efcde00c4b6b45fb5f5e00276bc01b55a2e13ba03b1dc48270f57df79fff6f6d8aa1377cc0c2a198ef6cad4fe97286b",
+      "file": "skills/industrial/ics/asset-management/claroty/assess/scripts/index.json"
+    }
+  ]
+}

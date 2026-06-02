@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "plaso",
+      "description": "skill directory index",
+      "sha512": "e979a88f9444f76726fd8c7509be5d9ea44ecce28a66f9925bbaa68c8bed1b6e38fb99c754e956dab695054f3e8a58bfea5fe2aeb7052b97c3e36fab514fec3c",
+      "file": "skills/linux/forensics/disk/timeline/plaso/index.json"
+    },
+    {
+      "name": "timesketch",
+      "description": "skill directory index",
+      "sha512": "647fe958437374d12c0c18587f3ec3a78833f77a16ef21d95aea82200e3240e910895478fb7116c288d9121bae361e348c3d66c400af93a3bcf0261ca5c2da15",
+      "file": "skills/linux/forensics/disk/timeline/timesketch/index.json"
+    }
+  ]
+}

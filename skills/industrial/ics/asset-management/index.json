@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "claroty",
+      "description": "skill directory index",
+      "sha512": "46e0452f2a0c5486d107bc30779c5dd4d10885f90cc1a836d828a9ed2cdfc9bef0076fcd85a184b986a0dd60b55f0b26109d08387ed1c22818feedeafd7f4978",
+      "file": "skills/industrial/ics/asset-management/claroty/index.json"
+    }
+  ]
+}

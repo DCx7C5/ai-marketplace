@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-broken",
+      "path": "webapp-api-broken",
+      "description": "- API Security News BOPLA: https://apisecurity.io/owasp-api-security-top-10/api3-2023-broken-object-property-level-authorization/ - CloudDefense BOPLA: https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d798baad1871689942b333b2bec595fb0d862b6f751d8c3cf32b0d1d02bc70b6c445f5b0855ecb6fac8bf866b28b3f07899cb1aadca99464723a029705ae510",
+      "file": "skills/webapp-api-broken/SKILL.md"
+    }
+  ]
+}

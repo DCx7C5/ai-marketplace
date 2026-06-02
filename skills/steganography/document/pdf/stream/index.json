@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "562d3d2d49355b5cf72813f2b979c1a768b033cbd37228b3ef7260c222c752a3c0b1fd2d3f190350b5c71422fa3479f3ee1d576a79aa9d0e05d1c84556e82935",
+      "file": "skills/steganography/document/pdf/stream/detect/index.json"
+    }
+  ]
+}

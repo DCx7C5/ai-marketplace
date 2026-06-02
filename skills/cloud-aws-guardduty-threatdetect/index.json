@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-guardduty-threatdetect",
+      "path": "cloud-aws-guardduty-threatdetect",
+      "description": "Cloud Aws Guardduty Threatdetect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "48fb7e77e788f4902d1925c102f5889f77e022570415bdc8b63ffcb100b94c8c65da3ca1c682f41bcd287c5a83c7c7dec4efc5567fb0fba288ce749b39fba27f",
+      "file": "skills/cloud-aws-guardduty-threatdetect/SKILL.md"
+    }
+  ]
+}

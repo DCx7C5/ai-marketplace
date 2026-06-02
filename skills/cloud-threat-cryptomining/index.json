@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-threat-cryptomining",
+      "path": "cloud-threat-cryptomining",
+      "description": "Cloud Threat Cryptomining.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "144d8e8d6363b626208c2a57a44c0451d921e6bf251b988c1f11bbfa150033abf9ccc83dd88d76059ef9051a7aa7e01baf088216ee932c14a84c6f12e03d3f3b",
+      "file": "skills/cloud-threat-cryptomining/SKILL.md"
+    }
+  ]
+}

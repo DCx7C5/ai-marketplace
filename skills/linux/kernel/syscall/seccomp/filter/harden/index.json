@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-syscall-seccomp-filter-harden",
+      "path": "linux/kernel/syscall/seccomp/filter/harden",
+      "description": "Apply and audit seccomp-BPF filters to restrict syscall surface \u2014 create minimal syscall allowlists, verify filter inheritance, and test filter effectiveness.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "621e948fcf0fa8f61b55cb826882e2b19dffa2b01c27188e03678b7a04f7d8dcd58bbad707c0175051dd975a1be70ffc17d220c4d98fdab81970f2ad396f1e6b",
+      "file": "skills/linux/kernel/syscall/seccomp/filter/harden/SKILL.md"
+    }
+  ]
+}

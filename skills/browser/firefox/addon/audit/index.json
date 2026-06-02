@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "firefox-addon-audit",
+      "path": "browser/firefox/addon/audit",
+      "description": "Audit Firefox add-ons for malicious capabilities, data collection permissions, C2 communication, and policy violations using manifest.json and background script analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "898e783907932c12c5cc17dc3521b6609c97d2ed2e1b45386594ae1d4e524d99d2a993051118cb30ff916d65ff4e9ee8af1807c0c5c5ece8e9b29748648d5515",
+      "file": "skills/browser/firefox/addon/audit/SKILL.md"
+    }
+  ]
+}

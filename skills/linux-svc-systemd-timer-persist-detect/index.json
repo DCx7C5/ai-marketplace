@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-systemd-timer-persist-detect",
+      "path": "linux-svc-systemd-timer-persist-detect",
+      "description": "subdomain: persistence-detection tags: - linux - systemd - timer - cron - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0e756930399b2468f0a0af183ba7624f8b14d37c3d71afb3d4c1a52808cbd74eccc1e2a2b6a116b14e911efc2dc57fe01301d31feb0c0741fd6ab188f2524c62",
+      "file": "skills/linux-svc-systemd-timer-persist-detect/SKILL.md"
+    }
+  ]
+}

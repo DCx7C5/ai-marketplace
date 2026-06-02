@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-operations-onboarding",
+      "path": "soc-operations-onboarding",
+      "description": "Soc Operations Onboarding.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f5e0aa7d28960a68e72c369e695664f74623efab1ea9a6884c29ec9a8532b728b937009adbd3c817cae1691251eb3a9be918b8600770b0c55bba3ea3dcedb39a",
+      "file": "skills/soc-operations-onboarding/SKILL.md"
+    }
+  ]
+}

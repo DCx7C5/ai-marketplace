@@ -1,7 +1,28 @@
 name: Create index.json Files From Repo Tree
 
 on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'agents/**/*.md'
+      - 'agents/**/index.json'
+      - 'skills/**'
   workflow_dispatch:
 
-
 jobs:
+  create-index:
+    name: Generate index tree
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate recursive index tree
+        run: python3 scripts/generate_index.py && sha512sum index.json | cut -d' ' -f1 > index.json.sha512
+
+      - name: Commit updated index tree
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate index tree [skip ci]"
+          file_pattern: '**/index.json*'

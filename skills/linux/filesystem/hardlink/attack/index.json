@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "226b8d0290ac979b64692700acacb4c342d2fda715802d24eb5d5062585ed926cd6840f2dd0807f5b8ab68393fb6a6350dfb2ca7ae4b4ce092428ba95e177261",
+      "file": "skills/linux/filesystem/hardlink/attack/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-integration-resilience-engineer",
+      "path": "devel-jb-integration-resilience-engineer",
+      "description": "A bad run adds retries and circuit breakers everywhere while increasing duplication, latency, and operational confusion.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f09274361d5b5e84e84c94447bf6d240ae1ac1144f5712abdb92846c3b648a1c1dbafb522a681f4c51dd456622b9dc00269c6a93579c69dc59e083f6ebd6f7bc",
+      "file": "skills/devel-jb-integration-resilience-engineer/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "749df38c7451cc23ec4823947c1eacb730bf67be2000b6aab991bd4fdf5fea1d19d5758c658da7940a8616ad676496fc67d1845b3cbf4910a1242975f4845ce9",
+      "file": "skills/devel-jb-integration-resilience-engineer/agents/index.json"
+    }
+  ]
+}

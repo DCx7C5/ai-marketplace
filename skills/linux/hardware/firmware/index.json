@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "561340f556c1ed03d6c2c312bd21f1d6f8a9d7479738b8cfca12468df6a9758b162e38686d814951db860c7e11dde214a08367db58ada111ea11a287a8f3ab6c",
+      "file": "skills/linux/hardware/firmware/analyze/index.json"
+    },
+    {
+      "name": "binwalk",
+      "description": "skill directory index",
+      "sha512": "80b56fb87c6ce12cf584cbee9956dac5f7bc5e542ac8207c9428e52a76c4679af9da2d1351052deb4fd5337bef87a91d6f6916e0a1569980b61fcf5b9ce30110",
+      "file": "skills/linux/hardware/firmware/binwalk/index.json"
+    },
+    {
+      "name": "bootkit",
+      "description": "skill directory index",
+      "sha512": "6a047a201c0b7e7399e5fc9718e0771859d4f5b1da098d69c29b1b78c1cd5dad302276da5c0263b5c8197dc830abc30174ee0379915e2c31d6be19b0b35aeffb",
+      "file": "skills/linux/hardware/firmware/bootkit/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "52b3e074fffd005aee0eeffec5c6e66c602469578522996fddc0580eb24cf1f91395908cecd3086fc835cd6a2f601f9f0d3d9170040d4cb4b2fc5c36f840cf7f",
+      "file": "skills/linux/hardware/firmware/detect/index.json"
+    },
+    {
+      "name": "uefi",
+      "description": "skill directory index",
+      "sha512": "f67ce438e0ec69cc7529a6b757d06102e51a9ed2aec58b6320c1f82557fc3942d44331a23587109170c2157d492890de69787e590ba07a454cd9e9e127347857",
+      "file": "skills/linux/hardware/firmware/uefi/index.json"
+    }
+  ]
+}

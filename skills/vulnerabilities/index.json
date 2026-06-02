@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "SKILL.md-",
+      "path": "vulnerabilities",
+      "description": ">\\n  Deploy and operate Greenbone/OpenVAS vulnerability management using\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c716ef7d324a4cd1a6b1fb24542aab12c93a835d0479a940e5232b35cd1f32e6365dd311d2408b033989142ddee0a8d6e67c0e80efaf832a047f2627e3a60421",
+      "file": "skills/vulnerabilities/SKILL.md"
+    },
+    {
+      "name": "asset",
+      "description": "skill directory index",
+      "sha512": "a2213107ae421d1763e7ff26a9c556fd54d370b27e6c4a47eb7e9f78f406362ea09747e1259d113f3a4645425fe0be84b7878168d99086712a0af05a509d92e2",
+      "file": "skills/vulnerabilities/asset/index.json"
+    },
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "54d1770f3dbbefddd7ae86dfb35cf8ece288bb0a3360d43f7995005fd7d8868114879a0879d49df41422e65dfc8586a89677c73d372e83dae40a7cbccbdc8cb0",
+      "file": "skills/vulnerabilities/attack/index.json"
+    },
+    {
+      "name": "cloud",
+      "description": "skill directory index",
+      "sha512": "6108da073d3b77471fa464d72408458a3c938932dc57c453ebf6a4b96a70f846f428410a77db4c6636980a82ea13c74707da449fa917feea3c71b4ee6e8bb739",
+      "file": "skills/vulnerabilities/cloud/index.json"
+    },
+    {
+      "name": "continuous",
+      "description": "skill directory index",
+      "sha512": "90fa0a9bd63950fec7078453f30693ea8ad06b2d18382ea1acf86fdbffa44c7b96a6ab89ffaa183c23525bf7adc0662657f78e320f36b733e5ef3be8c6b11f68",
+      "file": "skills/vulnerabilities/continuous/index.json"
+    },
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "1cf1e311e9d4bad58a36abdd6696a7e5f7cc24b2ad1fe42e35f44b979feaa2c4d87604971cafc81e20abf455e3fcf420b2d26f56fcf37854499251784c9a3052",
+      "file": "skills/vulnerabilities/exploit/index.json"
+    },
+    {
+      "name": "management",
+      "description": "skill directory index",
+      "sha512": "1eda19b395da157d3b3eb9df2efa85ad2ca2a184649bfcc376d160abd48f20baa4234d78c29a7c0b5dd93c596d562f1128e3ce727510713dc18ea050a9aa1e82",
+      "file": "skills/vulnerabilities/management/index.json"
+    },
+    {
+      "name": "metasploit",
+      "description": "skill directory index",
+      "sha512": "6bd24dce879c379f1b5066eb1b50112de8da01bd3d447939de66dd3f3d6bd2ee5a8c3c4ef75a0f036a8ae7bd022635640390614d37884a35c2f861b6d88faea8",
+      "file": "skills/vulnerabilities/metasploit/index.json"
+    },
+    {
+      "name": "patch",
+      "description": "skill directory index",
+      "sha512": "c70a8238e0b2dc3717154c7f65146b20a1809dc302e31163f7c893d7b871782d803f79c5f88782bb0f4a49c735c15c612f17160bd33463b531d49b4a53eb9a49",
+      "file": "skills/vulnerabilities/patch/index.json"
+    },
+    {
+      "name": "prioritization",
+      "description": "skill directory index",
+      "sha512": "c21cd03af0b503dda5278521eef2aef3883027d7aa875fe41660f792a5a3fcc59e594778e2cee9b160b4a47f875321535a578af047587da22f1277431d0e79e0",
+      "file": "skills/vulnerabilities/prioritization/index.json"
+    },
+    {
+      "name": "rapid7",
+      "description": "skill directory index",
+      "sha512": "3191e4154bada095fd0d401a91ea23bc6458275049a7cb8bc14f29d51a0005a461ddaf7fe3164bef084ae64fe5e5eae99728db8f2457d55df31566c663483074",
+      "file": "skills/vulnerabilities/rapid7/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "199b324739d455ec2ad10d21a50a0dcff8521e9c37c080daf361f41b81c874f0c4999ac78f4aa7ff497d3557906bff6466a998f670313f5140d127cdde8730bb",
+      "file": "skills/vulnerabilities/references/index.json"
+    },
+    {
+      "name": "remediation",
+      "description": "skill directory index",
+      "sha512": "a73185dfc510e74ff0de147b70630b91f38e69f0c63077b42a45f6dfcce0f2edbd11ce9032482c18874e2def40f7c9ab0b8b6da951b6e7615f118db9af4ac249",
+      "file": "skills/vulnerabilities/remediation/index.json"
+    },
+    {
+      "name": "sca",
+      "description": "skill directory index",
+      "sha512": "7baaf0de29579cc796471dc0f29f3997c51db01f335cef5330a71959e53aa3d02b07cb5502eeea4e6448656faac2b04d4c5c65cdca0ef2d5f8ab2de5a06845c5",
+      "file": "skills/vulnerabilities/sca/index.json"
+    },
+    {
+      "name": "scanning",
+      "description": "skill directory index",
+      "sha512": "66cb6fbc326ceacb95bc4f47d075cbd16e1b42a90609cab1e9351d1b3dd4c1a305227c87d68a04f9a6f5ec560d2994e03b8ae6495cf30d0afcdad557fcf2119e",
+      "file": "skills/vulnerabilities/scanning/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "24e0badeaaf942e4134b6960be9add464ac62c4bfdf489c44da0709673d9e44eefc63f3d5b002759ca1081ba0b43636d7447694b978535ee47b3a0fbaf14f1a2",
+      "file": "skills/vulnerabilities/scripts/index.json"
+    }
+  ]
+}

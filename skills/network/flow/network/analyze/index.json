@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "flow-network-analyze",
+      "path": "network/flow/network/analyze",
+      "description": "Parse NetFlow v9 and IPFIX records to detect volumetric anomalies, port scanning, data exfiltration, and C2 beaconing patterns. Uses the Python netflow library to decode flow records, builds traffic b",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "88acc432331b70a7dd2bac3278b52a8b7ea49794edabf95df7dce1c14fe022b78095ee0c5847f2292926d31fdf53ca58a8d235bbc2a971b6e0998e514eb7255b",
+      "file": "skills/network/flow/network/analyze/SKILL.md"
+    }
+  ]
+}

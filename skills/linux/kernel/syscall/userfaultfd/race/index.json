@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "727fec1c77dc7473f190828042fb25f1832f51a8a1817ee6df2632084bed6e16b6a9bc7fff4942ab32abb8afda0b8dedc5e32bdcf8a60ec7c561be05d6981b0c",
+      "file": "skills/linux/kernel/syscall/userfaultfd/race/detect/index.json"
+    }
+  ]
+}

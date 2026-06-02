@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "supply",
+      "description": "skill directory index",
+      "sha512": "c6d1af43dd7459a84122043f0400436ade2fbb6842535947b2fca8ca69d3a72b7ff9e46766bf2fd2f73f504b4bef358b0b83d651dca35eebef1786584d8ade65",
+      "file": "skills/web-application/chain/supply/index.json"
+    }
+  ]
+}

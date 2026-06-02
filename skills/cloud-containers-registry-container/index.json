@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-registry-container",
+      "path": "cloud-containers-registry-container",
+      "description": "Cloud Containers Registry Container.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "53827370d452af2a19ee54e3f500dcb6f13f536e43ba3006d4d77ab3f6aa650fd4afedf3d59b955c342f4fbbff72a09a2269ceb050983a046891840add02f676",
+      "file": "skills/cloud-containers-registry-container/SKILL.md"
+    }
+  ]
+}

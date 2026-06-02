@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-brave-shield",
+      "path": "browser-brave-shield",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c96317beab8791f23d2f94496129e809300bb514a41bdebe24bef3a1dbab54ad1a69ce647225609f693bb264b47b1461eeada0aed34469c726b5ea0f89fd1917",
+      "file": "skills/browser-brave-shield/SKILL.md"
+    }
+  ]
+}

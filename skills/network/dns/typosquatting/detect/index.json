@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns-typosquatting-detect",
+      "path": "network/dns/typosquatting/detect",
+      "description": "Detects typosquatting attacks in npm and PyPI package registries by analyzing package name similarity using Levenshtein distance and other string metrics, examining publish date heuristics to identify",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18a609fb4a6681ac062184c34ae873d1f2c280a7809e8abdf5062b226f6ed9841dd6fcdb97fd999c9e159831fc2aee84b6e8964e72d9f5533de0c41f11ca03dd",
+      "file": "skills/network/dns/typosquatting/detect/SKILL.md"
+    }
+  ]
+}

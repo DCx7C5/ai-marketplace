@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-modules-signing-verify",
+      "path": "linux-kernel-modules-signing-verify",
+      "description": "subdomain: kernel-security tags: - linux - lkm - module - signing - integrity nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0dec355121dfc5c79a6bfb620726c957b60e76d32d264460d00dd2829e64913ec5c79e7579ade28cd0ae7f11e366b32e9c016979c3d30e404b6d5d4299791fe0",
+      "file": "skills/linux-kernel-modules-signing-verify/SKILL.md"
+    }
+  ]
+}

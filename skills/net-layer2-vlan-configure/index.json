@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer2-vlan-configure",
+      "path": "net-layer2-vlan-configure",
+      "description": "Net Layer2 Vlan Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e2fb242867e9e51521fe74446dcea1cd5e38f9d7122722c61518360fc5dcf537c7546480ce55a197b8d563e3b898568c62b1d4280a6251d38314b5af4a1ec915",
+      "file": "skills/net-layer2-vlan-configure/SKILL.md"
+    }
+  ]
+}

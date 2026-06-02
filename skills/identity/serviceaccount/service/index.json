@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "1f625c22fbcc4add1aadbb368ceec22870990e42200108c0724b8c198ddff6eb9884dc701c117fec571faf621b256f2ec5b2c3d8b5d03f0012920ecb7905b27f",
+      "file": "skills/identity/serviceaccount/service/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "cf34461a630c30d3b3e6a40a9bf03b22e38b2c9c63fb3f0556941760f1f5210aab92d1e5689755da9bacf48eb14036cefd1287ea36e0790bed74ac913dde26dc",
+      "file": "skills/identity/serviceaccount/service/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "135138789f98d3b0060821906cf7252827eea3f0b71c2f670a143f6461651fbf2169aec7db4086f494b0c4b85e2b55505bf8c44ab77f79da33a1debd791d21dd",
+      "file": "skills/identity/serviceaccount/service/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6f380a374d4882d2844cd6f9b17e88cf9bb962ba6383a4ff74a90128854c91e04e202f78191747a8ff63d57e47b83f02a322248b6869342f2c048781fbe34c9a",
+      "file": "skills/identity/serviceaccount/service/scripts/index.json"
+    }
+  ]
+}

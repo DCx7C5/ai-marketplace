@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-fat32-slack-space-extract",
+      "path": "linux-fs-fat32-slack-space-extract",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e4f3ab70b6190ea4e31f8a81acdffd53480de28a45a35123f99756146bfdd1f6113f8b7832daef7ddbdda2e42fb4ac213d9d85744d011b5ca0197c7fad26d65e",
+      "file": "skills/linux-fs-fat32-slack-space-extract/SKILL.md"
+    }
+  ]
+}

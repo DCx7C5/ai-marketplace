@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "049154fe33ee46516b35ab14dfc26d67dac72837990a1e944febcc319e6b370233a619a044a5c8c26305003f96d459ed47cf57bc783f07b1deb3689c4940a9b3",
+      "file": "skills/industrial/ics/monitoring/dragos/deploy/index.json"
+    }
+  ]
+}

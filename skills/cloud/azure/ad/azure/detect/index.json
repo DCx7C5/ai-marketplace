@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-ad-azure-detect",
+      "path": "cloud/azure/ad/azure/detect",
+      "description": "Auditing Microsoft Entra ID (Azure Active Directory) configuration to identify risky authentication policies, overly permissive role assignments, stale accounts, conditional access gaps, and guest use",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b6c6583a275d1c972369c9dc7a444b86800a5226b45f1827fb9f88a86c0f32b92f524ad88a1ff59dcfdb4e57846a9bf60e3788ffd6ee3a953ea200fcd2571669",
+      "file": "skills/cloud/azure/ad/azure/detect/SKILL.md"
+    }
+  ]
+}

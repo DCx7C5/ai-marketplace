@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "nikto-SKILL.md",
+      "path": "vulnerabilities/scanning/nikto",
+      "description": ">\\n  Nikto is an open-source web server and web application scanner\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0d443a32acf13014ffdef596929de65ab393507183529be759b19776b11c04f1f528baf23afd35685b9200f9a97fa508a78f8eb02dee2ca34f47aec99cf89954",
+      "file": "skills/vulnerabilities/scanning/nikto/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "1cc1619bc157b18bdf5a10d4bf7c15fde4082e319d17b04e15931f29a258e7622aef7eb5e6a8324b9ab7f8ffe74397ad669ff88899d32368c462b13fa4bbeb04",
+      "file": "skills/vulnerabilities/scanning/nikto/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "bf5d64f2029e5a6ebbceda847c50b7d47e8c06a7756bd3f5b71876fc94693eff22ac411ab85754115f4cf23e7d0fa9eeef6d3a0b6892e7dd65819fa5d575454d",
+      "file": "skills/vulnerabilities/scanning/nikto/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "dbc8d820aa356d809a8aadc13f56889bf494135d8635d3994b0f35485cd019076dd931355d294c89eaba6668c6df8ce4a4c41314a5b553932fdefebba5be78e5",
+      "file": "skills/vulnerabilities/scanning/nikto/scripts/index.json"
+    }
+  ]
+}

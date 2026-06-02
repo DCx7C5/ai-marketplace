@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-container-rootfs-escape-detect",
+      "path": "linux-container-rootfs-escape-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4c459e1b3f5eca46549f8bb42ccb2127e1b4dbbe073efbdd6344da34f1ca09a54906a2c89f7a37ddc825ad0b239abdf5d9eb6ec1537285bc88043a94c657c5c8",
+      "file": "skills/linux-container-rootfs-escape-detect/SKILL.md"
+    }
+  ]
+}

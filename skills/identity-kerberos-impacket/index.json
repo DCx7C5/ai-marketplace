@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-impacket",
+      "path": "identity-kerberos-impacket",
+      "description": "Identity Kerberos Impacket.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a27fa8e41c0a702e5b432c81a1b2766ec2d59fc17ae132b0b23281c2b749089072b97d89aa5934a02bd8c3e6c20e88ca63d4374d04ff3e8aa3c605ab21290e14",
+      "file": "skills/identity-kerberos-impacket/SKILL.md"
+    }
+  ]
+}

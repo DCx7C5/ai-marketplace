@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-threat-hunt",
+      "path": "intel-platforms-threat-hunt",
+      "description": "Intel Platforms Threat Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bf0b12728687635843a14e43e8f95006bbfe6217878b0f58096c9c3c364094312b77db584d59a61f13d38796c8ad87e7736db2d527daa57b90b095a344583912",
+      "file": "skills/intel-platforms-threat-hunt/SKILL.md"
+    }
+  ]
+}

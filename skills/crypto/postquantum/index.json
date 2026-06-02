@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "post",
+      "description": "skill directory index",
+      "sha512": "d0c254aafd96b21f41b226444b0a717f2e02ccdd981053b0e3204cbd21ad13163cd8f9994bf3f7a6a57df85828a2e70e46e13a35a4602229839c73505979ea1b",
+      "file": "skills/crypto/postquantum/post/index.json"
+    }
+  ]
+}

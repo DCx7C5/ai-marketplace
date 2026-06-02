@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "8408678a4f251769525c235e56ae8f1139b5d29b98fa7d311251b6ed4ba70a4e8c1a9feee4cf537e262a303fbcb8ddd94b507eec522ef548a9d40df6129c14fb",
+      "file": "skills/linux/filesystem/fat32/slack-space/extract/index.json"
+    }
+  ]
+}

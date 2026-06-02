@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-net-k8snetpol",
+      "path": "cloud-kubernetes-net-k8snetpol",
+      "description": "- [Network Policy Editor](https://editor.networkpolicy.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef8e141925e8bbffec9491d36f995045f1299ae3ff46364bab6f20d0cd0a1eaacfc1e35429357215f99bcf747f25ddcd4502918ad42614807dc95e71fece92eb",
+      "file": "skills/cloud-kubernetes-net-k8snetpol/SKILL.md"
+    }
+  ]
+}

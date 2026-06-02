@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-cyber",
+      "path": "intel-analysis-cyber",
+      "description": "Intel Analysis Cyber.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "efe95dd1c57e8a62a19f9ba23174a9bde9e3d5d1c57958dc4a1c7a61b676b7d757fbababcb5f1feba3ed21db0fa68f9a5f70c714c5359ff918767da70c57002a",
+      "file": "skills/intel-analysis-cyber/SKILL.md"
+    }
+  ]
+}

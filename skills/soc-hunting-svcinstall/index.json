@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-svcinstall",
+      "path": "soc-hunting-svcinstall",
+      "description": "7. Generate threat hunting report with MITRE ATT&CK T1543.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1a74615121cb05318c68578cb86bda890393e314e43358aaabdb1b4306ae7e626701d4e90fe127e10596e13081756ff4a96e262a15370fba0f5bd58cebfbfb09",
+      "file": "skills/soc-hunting-svcinstall/SKILL.md"
+    }
+  ]
+}

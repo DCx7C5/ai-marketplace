@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-fingerprint-detect",
+      "path": "browser/phishing/fingerprint/detect",
+      "description": "Detect browser fingerprinting techniques used by phishing sites including canvas, WebGL, AudioContext, and font enumeration to identify targeted credential harvesting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1b8a7bedce74a5513881489d0281df03e716f7c53796d8bedc41b88e5fbb313fabcd5cca86b85e2180b3ba02373e1eb66b9ce90979fc06acd080a2313c299066",
+      "file": "skills/browser/phishing/fingerprint/detect/SKILL.md"
+    }
+  ]
+}

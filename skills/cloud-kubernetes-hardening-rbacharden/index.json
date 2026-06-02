@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-hardening-rbacharden",
+      "path": "cloud-kubernetes-hardening-rbacharden",
+      "description": "Cloud Kubernetes Hardening Rbacharden.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8f9aa2eef3d66deba20743f2dcd002eb869fddcc23e1ea67c296a0fdef7be6d376d9dbb01cd467f0c573148cd14b836289b134a8f7efa47f3c79fb206d29f289",
+      "file": "skills/cloud-kubernetes-hardening-rbacharden/SKILL.md"
+    }
+  ]
+}

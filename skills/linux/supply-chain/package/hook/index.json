@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "persist",
+      "description": "skill directory index",
+      "sha512": "68a2168b553f1167e40de541d364d0ea59a2b68e939e41946ceb88ffabb3103d665d83f02e2585a247f8142cdc5e2312d17060ff6ebfe95444530871c8775469",
+      "file": "skills/linux/supply-chain/package/hook/persist/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "clickjacking",
+      "description": "skill directory index",
+      "sha512": "98017ef5f9cff20000dc5716d219f2ca4dbac4387b4d5a1e35386c8ff02f29f82ac4aa87b6445aea484cbf771f31d813be351e64b6680c82d68147c0322d597e",
+      "file": "skills/web-application/ui/clickjacking/index.json"
+    }
+  ]
+}

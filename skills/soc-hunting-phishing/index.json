@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-phishing",
+      "path": "soc-hunting-phishing",
+      "description": "Soc Hunting Phishing.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "38c1d20e33b164106b4ae80db3c99bcd387503022d900f004dfe41d27d0f541498a2ffd03e1396f80f6ad7254e1a24f69c2629539a15b61b6508db3d2b801d56",
+      "file": "skills/soc-hunting-phishing/SKILL.md"
+    }
+  ]
+}

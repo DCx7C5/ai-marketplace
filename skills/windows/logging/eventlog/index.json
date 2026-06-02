@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "8980f28073a939f5cd0b937716c6a2df95d2e690755086f81b28d29f0eda2c10dc5c6c383dfaabdcab4cdcdcdffe1413de18aeef3267ef513e5fbbb87897daf6",
+      "file": "skills/windows/logging/eventlog/artifact/index.json"
+    }
+  ]
+}

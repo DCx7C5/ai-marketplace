@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-cloud",
+      "path": "soc-hunting-cloud",
+      "description": "Soc Hunting Cloud.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b564ee50e8e713f8f22c222627dc8ad971c47e30b754ebd449011a132d9801ae5306164a6b973cbb8a66f29f055c7894cef32befca0cb9f53f1a8b4dec896074",
+      "file": "skills/soc-hunting-cloud/SKILL.md"
+    }
+  ]
+}

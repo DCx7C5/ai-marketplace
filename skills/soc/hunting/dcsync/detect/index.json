@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-dcsync-detect",
+      "path": "soc/hunting/dcsync/detect",
+      "description": "Detect DCSync attacks by analyzing Windows Event ID 4662 for unauthorized DS-Replication-Get-Changes requests from non-domain-controller accounts.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a02e30bfab29b6e1799c2c5833ea912193a99b08400798e7b5a6254cc6a9d354bbfea6496621e0f559eae1b01133b221f85a84fb3c6d967d81b4b89278f13e3c",
+      "file": "skills/soc/hunting/dcsync/detect/SKILL.md"
+    }
+  ]
+}

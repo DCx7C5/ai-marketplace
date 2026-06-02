@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7fb38cbec80362cdfa500d0f0c121f6863f8bd888a289fc997219e54805d1e6ea1b891ac87c10abe5a2a76db948f4d5f2c44a176158d9c0fc4b2cd9ff4b5e17b",
+      "file": "skills/network/nmap/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "dfdc42397b4aa48f8644c9d8f7061450c783193cb74794f12289673c73a6d8a4cf10eca68246943b937c3b6d92fdcc1aabc0427938ab5d6959046dec92ae81cd",
+      "file": "skills/network/nmap/scripts/index.json"
+    }
+  ]
+}

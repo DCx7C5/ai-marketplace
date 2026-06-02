@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feeds-feedintegr-detect",
+      "path": "intel/feeds/feedintegr/detect",
+      "description": "Builds automated threat intelligence feed integration pipelines connecting STIX/TAXII feeds, open-source threat intel, and commercial TI platforms into SIEM and security tools for real-time IOC matchi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "58f504ffaf154ab61b94050b38e60c9d4483b0177bc5aeea1c6368281037b818578e8d9d805bc442d1ee70e0240c4dae43b2766223389790baeb7041f63b69e0",
+      "file": "skills/intel/feeds/feedintegr/detect/SKILL.md"
+    }
+  ]
+}

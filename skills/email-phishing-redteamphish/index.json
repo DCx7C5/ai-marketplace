@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-redteamphish",
+      "path": "email-phishing-redteamphish",
+      "description": "- When conducting security assessments that involve performing red team phishing with gophish - When following incident response procedures for related security events - When performing scheduled secu",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ae74fccaa75b0d6987e363e660ada36ac9b6fe49e7b302922e9f8d2890014086f067522fee65598969e3e0ef0ae357f25ec1f41757b92f896c7feb9a97b5b51",
+      "file": "skills/email-phishing-redteamphish/SKILL.md"
+    }
+  ]
+}

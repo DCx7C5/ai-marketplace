@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-ir-respond",
+      "path": "cloud-ir-respond",
+      "description": "Cloud Ir Ir Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "389152c459d1d2cf3de110248d1e365048777fe191f80b39a2759b17b5db7ee72313176f43798b05d8cf8888e73e0eac06eae53269dbfb54ebd08f8ee8fb1b0d",
+      "file": "skills/cloud-ir-respond/SKILL.md"
+    }
+  ]
+}

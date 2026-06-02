@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-network-kubernetes-analyze",
+      "path": "cloud/kubernetes/network/kubernetes/analyze",
+      "description": "Implement Kubernetes network segmentation using Calico NetworkPolicy and GlobalNetworkPolicy for zero-trust pod-to-pod communication.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3e3025ff8d483d95c566ee7163ed1423f28cc8d44415569a3b9e6ad25f2de7b888b012a32cc6be0510a087704f01350b00c3af00e24227a3acbb1804417d72f3",
+      "file": "skills/cloud/kubernetes/network/kubernetes/analyze/SKILL.md"
+    }
+  ]
+}

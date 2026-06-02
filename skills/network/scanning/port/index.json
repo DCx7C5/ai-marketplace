@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "service",
+      "description": "skill directory index",
+      "sha512": "48ca5da13f9d0180802be8acff21895e8cbc400f1a85146d601b893a0a7b2f064172ad1e3cadc7d4009655acb289ca39321b0ab7945fa2c9e19549dbc5c93577",
+      "file": "skills/network/scanning/port/service/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-suid-binary-detect",
+      "path": "linux-id-suid-binary-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f90af17d5e32262b81ebcd943c91d8d119281ba91f601c20fc505754ba20be787d35bf2b31286b9583c8800a832e87227641f1cb06bcc96c4503425ebbbca5f8",
+      "file": "skills/linux-id-suid-binary-detect/SKILL.md"
+    }
+  ]
+}

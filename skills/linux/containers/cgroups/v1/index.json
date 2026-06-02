@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "release-agent",
+      "description": "skill directory index",
+      "sha512": "d5c0d460abed943cdcf84cb2276a1e4d542ce7bfef5a3867523c2f189633cf56b38553df5d0e123a8762d56b9e09f8f772c570c6a71d716c19578ad9616f200b",
+      "file": "skills/linux/containers/cgroups/v1/release-agent/index.json"
+    }
+  ]
+}

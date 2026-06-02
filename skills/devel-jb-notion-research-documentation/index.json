@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-notion-research-documentation",
+      "path": "devel-jb-notion-research-documentation",
+      "description": "- `examples/` \u2014 end-to-end walkthroughs (e.g., `competitor-analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4839c0033ac25f386f91cbab188764836823afe925163442bbe528bef9689bba7ede3745def1cc62fec3959d49973f3856a20755c42db71406385e9f08b67966",
+      "file": "skills/devel-jb-notion-research-documentation/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "d4e33fc087d3541cb432f55d2813b5bd43423994d33e0baafa47f5ebc24bf045e023b236399e1ed3f93116d531bcaba7edfeeaad5c32e04205dd4dff1a637302",
+      "file": "skills/devel-jb-notion-research-documentation/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "4d747a6dd2e28dc3c8dd3989b0c4fba6a37429598ae9b68ee80e33cf78d052e4bede19e0a38db9d1fe2b2f345451c062503656e492eff3d3342c06368b20105a",
+      "file": "skills/devel-jb-notion-research-documentation/assets/index.json"
+    },
+    {
+      "name": "evaluations",
+      "description": "skill directory index",
+      "sha512": "e6e78b47a7b90e168330bec8f2a3a01f8c1f9766e3019254465e5f5cad50a4925575893251b81d2edd6c82f18cffe10c74419a915cb886631cbcb60308f47b34",
+      "file": "skills/devel-jb-notion-research-documentation/evaluations/index.json"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "e2d6b3c350e3d605fbf95b16e6464720346d094290260298c6bc47c606b54f93b173a05587c186d543d93d307a761a0c520f4584d000edf441ad6f15c3f7da3f",
+      "file": "skills/devel-jb-notion-research-documentation/examples/index.json"
+    },
+    {
+      "name": "reference",
+      "description": "skill directory index",
+      "sha512": "7fc6b76c2cbb4ab53b2cc6b9164ede11b6549e8276b8371f22042b805b6f35594be0f86c8f9eaa29861ffeace1ede6c7a91f87ff8921ede3d220ed8ff3749960",
+      "file": "skills/devel-jb-notion-research-documentation/reference/index.json"
+    }
+  ]
+}

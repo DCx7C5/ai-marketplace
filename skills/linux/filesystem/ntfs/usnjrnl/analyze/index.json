@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ntfs-usnjrnl-analyze",
+      "path": "linux/filesystem/ntfs/usnjrnl/analyze",
+      "description": "Analyse the NTFS USN Change Journal (UsnJrnl:\\$J) to reconstruct file creation, deletion, and modification events for timeline analysis and forensic investigation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5abba6b1e5355290ebae23343d5efe2a63856cc8b5862d7c3c5946cbafa9c9c61c08f80b6298c5dc7078cf9c3cedb1b0257d7fa726cb760d79e4c079a67e57fd",
+      "file": "skills/linux/filesystem/ntfs/usnjrnl/analyze/SKILL.md"
+    }
+  ]
+}

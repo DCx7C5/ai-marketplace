@@ -1,9 +1,6 @@
 ---
 name: watchdog
-description: A monitoring service that watches for changes to critical files and directories,
-  such as SSL keylog files, certificate stores, and private key locations. It can
-  alert on unauthorized access, modifications, or suspicious activity related to these
-  sensitive artifacts.
+description: "Monitoring tool alerts users about alterations in vital security-related file areas like SSL keys, certificates, and private keys; detects unusual activities for prompt action."
 ---
 # Watchdog — File Integrity & Change Monitoring Specialist
 

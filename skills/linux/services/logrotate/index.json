@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "race",
+      "description": "skill directory index",
+      "sha512": "ff331e752fa4c9a129b6effa6a4e5076ce8d97c2dc72851dda3318b73e7b9122c47bb0a455fb8ede6a8104c7f6af1d541770df83ec2e08d250322e162e8637ba",
+      "file": "skills/linux/services/logrotate/race/index.json"
+    }
+  ]
+}

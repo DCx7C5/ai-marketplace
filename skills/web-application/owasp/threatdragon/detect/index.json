@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "owasp-threatdragon-detect",
+      "path": "web-application/owasp/threatdragon/detect",
+      "description": "Use OWASP Threat Dragon to create data flow diagrams, identify threats using STRIDE and LINDDUN methodologies, and generate threat model reports for secure design review.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f3fbf9d73b554b495974f2f2659c9e9b380559590f343cecaa37770007412ca270675d68586509d33d42dfdd557d19f68f010734c39aea3762e5bb11f3c33ee9",
+      "file": "skills/web-application/owasp/threatdragon/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-sqli-nosql",
+      "path": "webapp-injection-sqli-nosql",
+      "description": "Webapp Injection Sqli Nosql.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c070d08d87605bccca2a7d7af88a4b6179b620199b434bcb91a105b6af9d0dd8b9a5562f3310cfc11e5d1f999047fe70b0d617106eda0f058635566a936c8ae6",
+      "file": "skills/webapp-injection-sqli-nosql/SKILL.md"
+    }
+  ]
+}

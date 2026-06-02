@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "resource",
+      "description": "skill directory index",
+      "sha512": "74188bb3f24d289cb6b58107a4a102e0a66b8a2e694b05d7034893e1aa16d793a7c8665c0c931550779beaa76d22499798b49868ff181af1332e9ebfdc253e01",
+      "file": "skills/linux/kernel/cgroups/resource/index.json"
+    },
+    {
+      "name": "v2",
+      "description": "skill directory index",
+      "sha512": "7c62db2f42f9f2d9124246d6625fdcfeedec01e5e12b4322ba2cc74582061df61e1acea2587eb84f98aacfdd8c20bbf734e35dd89f940526e0fed46f3c1af253",
+      "file": "skills/linux/kernel/cgroups/v2/index.json"
+    }
+  ]
+}

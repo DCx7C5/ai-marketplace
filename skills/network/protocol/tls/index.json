@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "downgrade",
+      "description": "skill directory index",
+      "sha512": "39485960ae4e7d56ecf67be196da929cef315f296f4315154e9b4b8a6ade14641a49d1fe58ca8365fc60f2c4427afd0358def258718c3288f8b5c28333c7f2ab",
+      "file": "skills/network/protocol/tls/downgrade/index.json"
+    }
+  ]
+}

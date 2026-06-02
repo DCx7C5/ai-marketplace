@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-tools-hashicorp",
+      "path": "identity-tools-hashicorp",
+      "description": "Identity Tools Hashicorp.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e168a18b5991cccaba8a7cd86c513ec34fa08787bd879700e20a27e8c7163d7d9893df3da8a7e3e796341be447f08039d20458b02836d1d88a7cbd955ed3d64e",
+      "file": "skills/identity-tools-hashicorp/SKILL.md"
+    }
+  ]
+}

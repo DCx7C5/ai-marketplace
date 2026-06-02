@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-apache-config-audit",
+      "path": "linux-net-apache-config-audit",
+      "description": "subdomain: network-security tags: - linux - apache - httpd - web - configuration - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7896788de3c6277cde94af65711177c1225ad9a13061741b1d551d16db2de913d8d21a77e76125d76d2d231830d1caee80a63413899f17f53210f7d5005585c1",
+      "file": "skills/linux-net-apache-config-audit/SKILL.md"
+    }
+  ]
+}

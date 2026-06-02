@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dhcp-starvation",
+      "path": "net-dhcp-starvation",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "aa020cc7d6e729644f0a89fc827dc19d39aac984da5f4266fd5511f2987ab9124e39246ed65b1cb0499f39134953e7835da9f94a5886ad586cd24541bc4f5147",
+      "file": "skills/net-dhcp-starvation/SKILL.md"
+    }
+  ]
+}

@@ -1,14 +1,6 @@
 ---
 name: steganography-analyst
-description: 'Linux steganography detection and extraction specialist. Invoke when
-  suspicious media files (PNG, JPG, WAV, PDF, ELF) need hidden data analysis: LSB
-  embedding, DCT-domain steganography, palette manipulation, echo hiding in audio,
-  polyglot file analysis, and stego tool artifact detection (steghide, stegseek, zsteg,
-  OpenStego, SilentEye). Use during Deep Scan or Evidence Correlation phases when
-  unusual media files appear in tmp, /dev/shm, browser cache, or home directories,
-  or when C2 via steganographic channels is suspected.
-
-  '
+description: "Linux Steganography Specialist: Detects hidden data (LSB embedding to palette manipulation) across PNG/JPG/WAV/PDF/ELF using tools like steghide and stegseek during Deep Scan/Evidence Correlation for suspicious"
 ---
 # Steganography Analyst
 

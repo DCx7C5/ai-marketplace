@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-rc-local-backdoor-detect",
+      "path": "linux-svc-rc-local-backdoor-detect",
+      "description": "subdomain: persistence-detection tags: - linux - rc-local - sysv - init - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "91613f21927fe7715cb8e7fd44f960d4480cef47e0521e2f3abd120c200d0e5de1a3d5abc1840ab462f1f3fb38b5be9c10f553b42a6640904bdb6934c7670d74",
+      "file": "skills/linux-svc-rc-local-backdoor-detect/SKILL.md"
+    }
+  ]
+}

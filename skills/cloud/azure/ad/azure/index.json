@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "b6c6583a275d1c972369c9dc7a444b86800a5226b45f1827fb9f88a86c0f32b92f524ad88a1ff59dcfdb4e57846a9bf60e3788ffd6ee3a953ea200fcd2571669",
+      "file": "skills/cloud/azure/ad/azure/detect/index.json"
+    }
+  ]
+}

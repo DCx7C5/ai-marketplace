@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-systemd-timer-persist-detect",
+      "path": "linux/services/systemd/timer/persist/detect",
+      "description": "Detect systemd timer-based persistence \u2014 enumerate all .timer units, identify timers not associated with legitimate services, and detect cron replacement via systemd timers.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1841724dd882db8cebbd6e92a1f3df5f49394841716deedb2b7f0209093abcad08597ed4caadef8dbf36c51d392f5a7519219b828807fc1ef29dd510ec0d212d",
+      "file": "skills/linux/services/systemd/timer/persist/detect/SKILL.md"
+    }
+  ]
+}

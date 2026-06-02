@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "implement",
+      "description": "skill directory index",
+      "sha512": "0cf35116e8dcd6c377b1b127e12c8ae16af8f90283b9dd22b4170ba725cac563b44629c100625311c50e4b8c45123ba039c1e00bb6a850d3d2213812e1be29e8",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/implement/index.json"
+    }
+  ]
+}

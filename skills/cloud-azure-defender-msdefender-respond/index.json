@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-azure-defender-msdefender-respond",
+      "path": "cloud-azure-defender-msdefender-respond",
+      "description": "Cloud Azure Defender Msdefender Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27e4fb0d742d808ade675d435b8cd85a7e9787ff478bfa1db8091860831a113606e1d544fe9ef8edb1cc21f103f2b4f5dc9c5dc7a38a87412a4ca9bb1ca53a5e",
+      "file": "skills/cloud-azure-defender-msdefender-respond/SKILL.md"
+    }
+  ]
+}

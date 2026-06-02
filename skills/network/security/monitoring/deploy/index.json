@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "security-monitoring-deploy",
+      "path": "network/security/monitoring/deploy",
+      "description": "Network forensic reconnaissance. Active connection inventory, suspicious listeners, routing anomalies, DNS/mDNS analysis, ARP cache poisoning detection, firewall rule audit, and IOC infrastructure cor",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "45c86cafea3c476b3c635d26f2f93b6ef8ac1fd28a5d383e56ea5e975a7cf98aec6ba56a91ec0425aa9e51df2553244204e8a7a654a8d3bf43e04b7bfeb40643",
+      "file": "skills/network/security/monitoring/deploy/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "backdoor",
+      "description": "skill directory index",
+      "sha512": "6bca16c08a8da0a9662736fd18bfc4bd12fe11484984881394b7f857ec16e8fa78650afb34f415ebf8bab9c707087a23f369de93c5b0df0ec8b7a6ddc947955f",
+      "file": "skills/linux/kernel/boot/initramfs/backdoor/index.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "agentless-SKILL.md",
+      "path": "vulnerabilities/scanning/agentless",
+      "description": ">\\n  Configure and execute agentless vulnerability scanning using network\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c899ad4ad24e1d53eee1e90b2aed9dcc21eb668fc178df210067e7580d6197c32f3851b41ca008d3cf95aaed5c540a9a2b82fd2d0b4b3a97003a860e76883a5b",
+      "file": "skills/vulnerabilities/scanning/agentless/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "41130db93e6172a41ef0b499930313f54eb2d5c22c0d2426b295579721ad3804217bcc01a104df53d036ae9adaa134a8f1b241efb0bad0ae79b7e3086cd9b2c3",
+      "file": "skills/vulnerabilities/scanning/agentless/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4ab14e0f5e9c4724f52b7ce37c866ec5b6bcff309660b792a186dc7a419c55adaa4bb7d18042942aeb273fd338e872cfee184ac3fba0c23386aee1f22da7d63a",
+      "file": "skills/vulnerabilities/scanning/agentless/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ba36c7e066e40f41f337c364031692b5358194b2777f6ef083d06396db4e08b5f6872ea310ab1892a3b6dd4264ff6acc729b55177b5de8a1b642ca3f9e9b65ad",
+      "file": "skills/vulnerabilities/scanning/agentless/scripts/index.json"
+    }
+  ]
+}

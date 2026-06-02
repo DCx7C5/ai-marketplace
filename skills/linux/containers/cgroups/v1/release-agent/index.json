@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "dbc6aee574b4b558305b0a2be00f1e4f2d460084b6ee8fa690b808b0980d6b1bd1c97307facb1bdfb2e9401b58536ebe3c49eeeee7368b6a70efd7a1690298bd",
+      "file": "skills/linux/containers/cgroups/v1/release-agent/detect/index.json"
+    }
+  ]
+}

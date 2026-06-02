@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-wmilateral",
+      "path": "soc-hunting-wmilateral",
+      "description": "JSON report with WMI-spawned processes, suspicious command lines, WMI event subscription alerts, and timeline of lateral movement activity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9a0b56a06b498d68e7a7e726ca2818696e001f364758fb72f2a72de796e552c1f8af2f8d4260272af662cad311e14f111c52d69d5e69ea6acc6798ef6733651f",
+      "file": "skills/soc-hunting-wmilateral/SKILL.md"
+    }
+  ]
+}

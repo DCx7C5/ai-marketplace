@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-file-detect",
+      "path": "linux-fs-file-detect",
+      "description": "## Expected Output  - AIDE configuration file (aide.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "99192b39e4a8763887f87c974a95018e4bede854d201997253e436180b7d24cd576fb52f4ce372820b71136eb752d33c2654c84c4d5bae81724adc5ebdde9453",
+      "file": "skills/linux-fs-file-detect/SKILL.md"
+    }
+  ]
+}

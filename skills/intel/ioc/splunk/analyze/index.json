@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ioc-splunk-analyze",
+      "path": "intel/ioc/splunk/analyze",
+      "description": "Build automated threat intelligence enrichment pipelines in Splunk Enterprise Security using lookup tables, modular inputs, and the Threat Intelligence Framework.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f032d3057ee2ab3fe41ecda55c02baea449f7801341c16db842e099991806faddd044e0668a4e3180be668f8aebb43415920e2b040541594e8615e332eb68ace",
+      "file": "skills/intel/ioc/splunk/analyze/SKILL.md"
+    }
+  ]
+}

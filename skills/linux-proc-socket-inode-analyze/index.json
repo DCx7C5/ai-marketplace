@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-socket-inode-analyze",
+      "path": "linux-proc-socket-inode-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43a7d4cd55d7c95ded3ecc74bc34599cd42b5c72dc29c4ac7e8b43d9d072b9d98e3187855a8cabc5827c6b3a6b5e62c0275390217cf8bca390ceac16bfc7ef15",
+      "file": "skills/linux-proc-socket-inode-analyze/SKILL.md"
+    }
+  ]
+}

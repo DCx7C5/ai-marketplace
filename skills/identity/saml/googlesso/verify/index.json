@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "saml-googlesso-verify",
+      "path": "identity/saml/googlesso/verify",
+      "description": "Configure SAML 2.0 single sign-on for Google Workspace with a third-party identity provider, enabling centralized authentication and enforcing organization-wide access policies.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "eeb14368b012bcdf291763681f704fd9514df42d51f0a4696a7018335573198f1af7d7da91f17dcaabbd6ba8acf1c59dff2136c2a9a8221929bb873473d736f9",
+      "file": "skills/identity/saml/googlesso/verify/SKILL.md"
+    }
+  ]
+}

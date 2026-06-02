@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-data-logs-aggregate",
+      "path": "soc-data-logs-aggregate",
+      "description": "Soc Data Logs Aggregate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d70ff8acb4dae58cc73f6f7b35cdd82ed67909f176ce48951d57576580ed80bd5871436293d81227f3d0bd281588a874866caa529dbee23466904a70e7e27746",
+      "file": "skills/soc-data-logs-aggregate/SKILL.md"
+    }
+  ]
+}

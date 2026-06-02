@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-defender-msdefender-respond",
+      "path": "cloud/azure/defender/msdefender/respond",
+      "description": "This skill instructs security practitioners on deploying Microsoft Defender for Cloud as a cloud-native application protection platform for Azure, multi-cloud, and hybrid environments. It covers enabl",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cb41446346a60e212d8b146bc60fa03a4f5006287bfd9f4c4d309d5a0f388c97c06913ae239586c6ff5e828ff338c9b41e90417ff505f38e336dee7cb18f40f2",
+      "file": "skills/cloud/azure/defender/msdefender/respond/SKILL.md"
+    }
+  ]
+}

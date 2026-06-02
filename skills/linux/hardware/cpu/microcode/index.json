@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "integrity",
+      "description": "skill directory index",
+      "sha512": "ac6cd4f55def5edbfbdd1ce23d2dd15065e34cbbf557c772d5f508a89915c3a91526f4c56209cadfb278f7e085ef6d97e7aae62751556b09cd2eee0e2ae9d618",
+      "file": "skills/linux/hardware/cpu/microcode/integrity/index.json"
+    }
+  ]
+}

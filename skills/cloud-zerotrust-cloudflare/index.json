@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-cloudflare",
+      "path": "cloud-zerotrust-cloudflare",
+      "description": "Cloud Zerotrust Cloudflare.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "48236d655cc193a018dcd9dd044757c9cb0288fb577058665c33b533f19e45a495f1928ea04f683e82cc2d6a9cbcbb9d7587c21f38532851427bcac45b75ef29",
+      "file": "skills/cloud-zerotrust-cloudflare/SKILL.md"
+    }
+  ]
+}

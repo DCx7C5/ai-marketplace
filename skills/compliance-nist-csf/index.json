@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-nist-csf",
+      "path": "compliance-nist-csf",
+      "description": "Compliance Nist Csf.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "61963eff4aea105977ba1f15dc3f35c17c77164d8185bb46d8e8adb86ff96fc1dd3b6504bc7c8bcb35f7cc737b1ab72e6eab7ec0c0d0733578fb9eef3e4aadce",
+      "file": "skills/compliance-nist-csf/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "transparency-certificates-verify",
+      "path": "crypto/transparency/certificates/verify",
+      "description": "Monitor Certificate Transparency logs using crt.sh and Certstream to detect phishing domains, lookalike certificates, and unauthorized certificate issuance targeting your organization.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "01b0e7bd1037202e9f28443a776b8ce21eefc21010f920beb1c9c682f23301d3c7ad2c25eff7ad0f43cc5ff3548b1c4199c307288543e15168c7a05dfe74aa1c",
+      "file": "skills/crypto/transparency/certificates/verify/SKILL.md"
+    }
+  ]
+}

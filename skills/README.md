@@ -1,10 +1,10 @@
 # Skills
 
-This directory contains **1,117+ AI skills** in a flat structure at the root level.
+This directory contains **1,117+ AI skills** organized as a recursive catalog tree.
 
 ## Structure
 
-All skills are now organized flatly under `skills/`:
+All skills are organized under `skills/`, with each directory exposing its own `index.json`:
 
 ```
 skills/
@@ -38,21 +38,21 @@ Common root prefixes include:
 
 ### Via index.json (recommended)
 
-The canonical list of all skills is in the root `index.json`:
+The canonical catalog starts at the root `index.json`, which points to `skills/index.json` and then to per-directory indexes:
 
 ```bash
-# Find all skills in a category
-jq '.skills[] | select(.path | startswith("cloud-"))' index.json
+# Inspect the top-level skill tree
+jq '.skills[]' index.json
 
-# Search by name or description
-jq '.skills[] | select(.name | ascii_downcase | contains("bloodhound"))' index.json
+# Inspect a directory-local catalog
+jq '.skills[]' skills/browser/index.json
 ```
 
 ### By directory listing
 
 ```bash
-# List all cloud skills
-ls skills/cloud-*
+# List all top-level skill directories
+ls skills/
 
 # List all offensive skills
 ls skills/offensive-*
@@ -76,7 +76,7 @@ maxTurns: 20
 
 ## Contributing
 
-When adding new skills, place them directly under `skills/` using the flat naming convention above, and ensure they have valid YAML frontmatter.
+When adding new skills, place them in the appropriate directory under `skills/` and ensure the directory has a valid `SKILL.md` and generated `index.json`.
 
 After adding or modifying skills, run:
 
@@ -88,4 +88,4 @@ sha512sum index.json | cut -d' ' -f1 > index.json.sha512
 
 ## Migration Note
 
-This directory was migrated from a deep hierarchical structure (`category/subcategory/action/SKILL.md`) to the current flat layout in 2026. The old structure has been largely cleaned up, with skills now accessible directly by their flat names.
+This directory was migrated from a flat layout to a recursive tree in 2026 so each subdirectory can carry its own catalog index.

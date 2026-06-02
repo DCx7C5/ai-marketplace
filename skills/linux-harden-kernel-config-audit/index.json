@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-kernel-config-audit",
+      "path": "linux-harden-kernel-config-audit",
+      "description": "subdomain: hardening-assessment tags: - linux - kernel - config - audit - harden nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "128e12bd79f8eee6b54f9a8de55283631a6f605a17bb6b8818b732caeb678f20cec9d2a82234b4d0a1857acdc227862dad299277a271dbc240223d1be43a239b",
+      "file": "skills/linux-harden-kernel-config-audit/SKILL.md"
+    }
+  ]
+}

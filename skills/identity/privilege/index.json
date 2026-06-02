@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "cd22a4702af6fcfee3a7b2cddd9119de1fe5be6f338cd56d9529395b8fb3c03722a7939560290484863d59465fbcc1e7faa5e9de9ac212544818efe18d024728",
+      "file": "skills/identity/privilege/general/index.json"
+    },
+    {
+      "name": "pam",
+      "description": "skill directory index",
+      "sha512": "2915be9e43b7318b102a05f3954f700fe9f68103241b28fd0702af90b9e0d141ad1d7a66fd0fddf253aa7368fd9f8ef4b6e6fa4dca17d29fb39c7ab1e9feed7f",
+      "file": "skills/identity/privilege/pam/index.json"
+    }
+  ]
+}

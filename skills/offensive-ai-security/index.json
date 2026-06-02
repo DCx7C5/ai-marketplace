@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-ai-security",
+      "path": "offensive-ai-security",
+      "description": "Offensive Ai Security.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "06233eea47c78eab1a27f84f707b2fea442ba7121f117ffe7bb4ccbfbd5302d9ca077f4e43d85451c664dc3f53b61e0e0159a71d5f22c4cec8512697cba259ff",
+      "file": "skills/offensive-ai-security/SKILL.md"
+    }
+  ]
+}

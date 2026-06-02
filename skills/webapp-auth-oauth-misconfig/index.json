@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-oauth-misconfig",
+      "path": "webapp-auth-oauth-misconfig",
+      "description": "Webapp Auth Oauth Misconfig.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6136ef82e9fdd1803f237997c4c467508e0f599050f20c0aa0d085233183f5305be085f0f0ef617040ce1b890f98172423c9806d474af371fe0045cbfe8d9134",
+      "file": "skills/webapp-auth-oauth-misconfig/SKILL.md"
+    }
+  ]
+}

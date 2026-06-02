@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "supply-chain-shared-library-preload-detect",
+      "path": "linux/supply-chain/shared-library/preload/detect",
+      "description": "Detect /etc/ld.so.preload backdoors and LD_PRELOAD injection \u2014 identify unauthorized entries forcing malicious shared libraries into every process's address space.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "920ae885ec95a74795b80cef3eaf0c095a87bc1f41609c79e838a02046bb601743d14607f5dce9e42e2fbaeb41bc4bd95a77cb1630f1bbe75943f1e2db370ea8",
+      "file": "skills/linux/supply-chain/shared-library/preload/detect/SKILL.md"
+    }
+  ]
+}

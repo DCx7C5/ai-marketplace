@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-jackson-kotlin-serialization-specialist",
+      "path": "devel-jb-jackson-kotlin-serialization-specialist",
+      "description": "A bad run sprinkles annotations until the example payload passes while leaving the contract ambiguous or unstable.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "964b36abe1051cdf5b4cac78ff5725b729d6c66945e55ee4bb9de74ea1c4deec1b2a1a5648f488f4e8b64813d8790950723d720955ea1609a4122da3a6100c49",
+      "file": "skills/devel-jb-jackson-kotlin-serialization-specialist/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "623e6d1792f0e4dfeeb311cbd07b6d8ec24df5a80cd7ac28142ae5bd3e2f0f73d5acb4755e2a23e33c326fe294f710dc48b20f3917f50cc9a423c345a340e5bd",
+      "file": "skills/devel-jb-jackson-kotlin-serialization-specialist/agents/index.json"
+    }
+  ]
+}

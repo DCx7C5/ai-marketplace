@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "1111c1856c43935f09f28d3d6d39aeaa98a84ad2937a3477fabe34983dbc33677a1efe96b1b7e6b12757189f015083a375430859f5f6f81bbf377451b45cf58e",
+      "file": "skills/cloud/aws/general/overview/analyze/index.json"
+    }
+  ]
+}

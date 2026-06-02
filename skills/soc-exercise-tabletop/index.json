@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-exercise-tabletop",
+      "path": "soc-exercise-tabletop",
+      "description": "Soc Exercise Tabletop.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "18b2d5171a9d725b578746aa278cc95976cabedaa64cfe2cc7d40464bd371572a2e88b690f21d1db6137e60843b8ef459fcbd7072c27caacf47c2bb45696b829",
+      "file": "skills/soc-exercise-tabletop/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-attack-credential",
+      "path": "identity-attack-credential",
+      "description": "- When investigating security incidents that require hunting credential stuffing attacks - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured p",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2dd02e12c2d23ea082b98e8cb8e995b897627576aa3cf0dc9888d6a397625385d0f16dfcef30858e408824c76042b49c22414a6cf838789f5a44b6db5dd986f3",
+      "file": "skills/identity-attack-credential/SKILL.md"
+    }
+  ]
+}

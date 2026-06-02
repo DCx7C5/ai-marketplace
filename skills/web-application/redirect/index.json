@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "open",
+      "description": "skill directory index",
+      "sha512": "b57ff1a19552b328a6d9757324b64ef696fcb3b9089dd9de478622d0c2f3d63550977255999c7c3988146cece5077e5f1bfc9805a59a2788f9c5f418ac940d83",
+      "file": "skills/web-application/redirect/open/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7886f1def34c62ea21faad090b61aec93702d0abd3683b999bf4097b1e4535f95b975f47f3d4471c43023d451d221bf3758db92c3b82f28058198e5139456187",
+      "file": "skills/linux/kernel/boot/uefi-variable/tamper/detect/index.json"
+    }
+  ]
+}

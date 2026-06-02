@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-filecarving-photorec-detect",
+      "path": "linux-forensic-disk-filecarving-photorec-detect",
+      "description": "Linux Forensic Disk Filecarving Photorec Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8173a9c02274870d9daaa8a80855db5c1ac9d7fc5c19f5acb9b3b7c684c54201e01ba8838aee6f3ec326f51683b36486211d60db357f57ee84edbaf2de2cbe87",
+      "file": "skills/linux-forensic-disk-filecarving-photorec-detect/SKILL.md"
+    }
+  ]
+}

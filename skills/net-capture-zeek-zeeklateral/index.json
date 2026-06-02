@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-zeeklateral",
+      "path": "net-capture-zeek-zeeklateral",
+      "description": "- Validate NTLM log parsing by performing a test authentication and confirming username, domain, and success fields are captured; verify the NTLM Account Spray Zeek script generates a `notice.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f93c3ad0cb152aad81b27ff3037fb800bf62c990c51928f9f4fa9f9aab8e6e8aa5540d4e7c6aee93728d3a8f39a1f7274a614bf0289bc46c085b1a1163cbefd5",
+      "file": "skills/net-capture-zeek-zeeklateral/SKILL.md"
+    }
+  ]
+}

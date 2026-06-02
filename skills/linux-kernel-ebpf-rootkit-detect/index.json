@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-ebpf-rootkit-detect",
+      "path": "linux-kernel-ebpf-rootkit-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - ebpf - bpf - rootkit - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "aad3b735ad258c59e007b200856813fc1742cffb4313003f301472c86fc6d925b228941f5afddccc35433099eb0bdf908701341f1ab8b20703de8f477ef099dc",
+      "file": "skills/linux-kernel-ebpf-rootkit-detect/SKILL.md"
+    }
+  ]
+}

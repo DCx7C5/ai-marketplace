@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-bloodhound-recon-detect",
+      "path": "identity/ad/bloodhound/recon/detect",
+      "description": "Conduct internal Active Directory reconnaissance using BloodHound Community Edition to map attack paths, identify privilege escalation chains, and discover misconfigurations in domain environments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7233a31b90c5a2253d56e02d7b44aee9fecbba433d1e31726f4d404e3692c1b14a7176eac3ccac48bc69ac2eb17e6956a24fd32500bd00d8997861efad2dbb32",
+      "file": "skills/identity/ad/bloodhound/recon/detect/SKILL.md"
+    }
+  ]
+}

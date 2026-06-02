@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensic",
+      "description": "skill directory index",
+      "sha512": "2b65597919f9ee8a91e8e1239a2c8aef67c604041fdc3ffdae1ba5a5e40ca85916d3f658c126b695449686f7455c12568153aa5c059d686fa77b4b1c54b9a1c4",
+      "file": "skills/linux/filesystem/ntfs/mft/forensic/index.json"
+    },
+    {
+      "name": "parse",
+      "description": "skill directory index",
+      "sha512": "74659e4f73c28438b96deb26611dcaf6678c83b44a1c1250c0de9dbfa2d66ca43ff03e3c9cefeca29e828df59da99a258025555d70ea4304970c2f20c99e5363",
+      "file": "skills/linux/filesystem/ntfs/mft/parse/index.json"
+    }
+  ]
+}

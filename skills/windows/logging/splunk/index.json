@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "8dab56a6133ad11cccd286f0df827e5004d447bfab169f5df7f9e793b013c6c23c4c4025a6210922ca4d2fcd97cc24d38575956871ce55700e9df7fe61da9697",
+      "file": "skills/windows/logging/splunk/analyze/index.json"
+    }
+  ]
+}

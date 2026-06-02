@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "d3319898584dea0fd6af36ce59c56821bccf948414960d6c96884196f78486b994d0618885b430a3ae343016e00bf04fc5b054b551b3ff3dc4022492852c931b",
+      "file": "skills/linux/network-services/smb/relay/exploit/index.json"
+    }
+  ]
+}

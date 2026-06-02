@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis-campaign-collect",
+      "path": "intel/analysis/campaign/collect",
+      "description": "Campaign attribution analysis involves systematically evaluating evidence to determine which threat actor or group is responsible for a cyber operation. This skill covers collecting and weighting attr",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9a2bed79457216d56322a8e2126f4d00b3de75c03138278e5b8bcf60aef1a3d23e19dff114320c2b40559536e3db60b421c57930b78341e0d89c064d4d6672f7",
+      "file": "skills/intel/analysis/campaign/collect/SKILL.md"
+    }
+  ]
+}

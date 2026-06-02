@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "24f422880763e332b8d58221b9a703785cf6ccf0d15d022835452eee39ed796aa3d4f1cece0020a036b6d382199396ff1dfcdca2d8418f3ecb53f1ed6949c6e0",
+      "file": "skills/cloud/aws/macie/detect/index.json"
+    }
+  ]
+}

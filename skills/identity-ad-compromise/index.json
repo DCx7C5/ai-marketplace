@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-compromise",
+      "path": "identity-ad-compromise",
+      "description": "--| | DCSync | T1003.006 | NTDS.dit credential extraction | | Golden Ticket | T1558.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "642ffad5a3e45e192f75482ccbc8af2feb1948cba6d3364163ea8f2a239619bcd6fcea858391df4fda201a6e447290e7d715df3094a5017e714dbb114313f6a1",
+      "file": "skills/identity-ad-compromise/SKILL.md"
+    }
+  ]
+}

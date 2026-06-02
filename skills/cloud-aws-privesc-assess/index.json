@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-privesc-assess",
+      "path": "cloud-aws-privesc-assess",
+      "description": "Cloud Aws Privesc Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c0a91464fe107c5b3c6b273bf804848150bd32b12e3a08d1b4afaa567b0af9975f8485c97b7b4e8f74d187c42b0a36499ce97bf1861d09fb8d378e97a857f717",
+      "file": "skills/cloud-aws-privesc-assess/SKILL.md"
+    }
+  ]
+}

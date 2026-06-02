@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-securityhub",
+      "path": "cloud-aws-securityhub",
+      "description": "Cloud Aws Securityhub.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "515ea46a8abff6b2ca3160e83ca170c0291a91c99b34fd611f13950e72fb91b10cf0ae906ece33d104ca74b484655098b98063aa48e2493f9b7c60bebb436b1d",
+      "file": "skills/cloud-aws-securityhub/SKILL.md"
+    }
+  ]
+}

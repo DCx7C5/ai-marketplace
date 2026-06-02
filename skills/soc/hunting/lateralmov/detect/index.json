@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-lateralmov-detect",
+      "path": "soc/hunting/lateralmov/detect",
+      "description": "Hunt for DCOM-based lateral movement by detecting abuse of MMC20.Application, ShellBrowserWindow, and ShellWindows COM objects through Sysmon Event ID 1 (process creation) and Event ID 3 (network conn",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d02e1c40de17b1ecc5426b712cc4f445a849f90641460b61e7527eb5a605a045805d92d9140c916fb026a90c7e5c555875511fad3cb9df9ebc6ad18fe2077c8",
+      "file": "skills/soc/hunting/lateralmov/detect/SKILL.md"
+    }
+  ]
+}

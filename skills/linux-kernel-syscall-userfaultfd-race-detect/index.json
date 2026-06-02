@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-syscall-userfaultfd-race-detect",
+      "path": "linux-kernel-syscall-userfaultfd-race-detect",
+      "description": "subdomain: kernel-security tags: - linux - userfaultfd - race-condition - exploit nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4be23d27d480c29617b40051a2fab26581bf05fbefe941beaeb987fa5e6b7676aabeaf7f68ae89c08efcf790274eb71953425c010a4593082118acf16ef805e1",
+      "file": "skills/linux-kernel-syscall-userfaultfd-race-detect/SKILL.md"
+    }
+  ]
+}

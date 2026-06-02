@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser",
+      "description": "skill directory index",
+      "sha512": "a0b95d8369cabaf2439c7a299130c0b393d40ab7dab90a774333a9f0a8c11ea0b75feb0f438ed06d23d2036d24ce066cf6b0205bb31cec9e47fa204c48b49490",
+      "file": "skills/linux/software/browser/index.json"
+    }
+  ]
+}

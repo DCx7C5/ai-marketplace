@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sbom-SKILL.md",
+      "path": "vuln-sca/sbom",
+      "description": ">\\n  Parses Software Bill of Materials (SBOM) in CycloneDX and SPDX\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9041992c6ad46de0b6f5fbd6de72f11f357ab1cd40bce184b1d6f7a6f9a4f8be7090c6c774ad0ecc4c7f464a59fb61adffdd5407456d9baa55f56e679705dcb4",
+      "file": "skills/vuln-sca/sbom/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "171e4afd4d0a594be8f9c02438bda7e23cb432eb6e3172110e76dfd0f545456117156f340f6747fc52b3c2f0563114527302c7ad86dab3f257672c10b6f800f0",
+      "file": "skills/vuln-sca/sbom/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "7fd5881586abb77fdae95d16b27fdc2de4f48030467c60f13d1ae57d8c3df8fcb39f51d6535d9be71afa9000b6d54430018a06c6543ed1e5079d1deacf68df12",
+      "file": "skills/vuln-sca/sbom/scripts/index.json"
+    }
+  ]
+}

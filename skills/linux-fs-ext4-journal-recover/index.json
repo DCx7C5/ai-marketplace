@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-ext4-journal-recover",
+      "path": "linux-fs-ext4-journal-recover",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "11da2c93fffe12db0753c742625a0d8f828453e32fd029befeffae153706362b44df451ef6e6f8ac3624a8f2281d001cf4447e8da7c67ca7135359e7675bb11e",
+      "file": "skills/linux-fs-ext4-journal-recover/SKILL.md"
+    }
+  ]
+}

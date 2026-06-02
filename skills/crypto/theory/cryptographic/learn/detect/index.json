@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "theory-cryptographic-learn-detect",
+      "path": "crypto/theory/cryptographic/learn/detect",
+      "description": "A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardco",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "889a1de1aaa9b879543083d008f961ef7b4fbc759b36b8226385d857b9459917feae1616e7ab44027ec808d0be6bfffc168365f77727c2d7f4214e4da1ce95c9",
+      "file": "skills/crypto/theory/cryptographic/learn/detect/SKILL.md"
+    }
+  ]
+}

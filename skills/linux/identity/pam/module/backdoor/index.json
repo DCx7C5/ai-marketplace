@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ee9d6c80c1a10cdf6cd93e7eebe63802550e0cbecc36b1d89427defa41b1b9b8584cdaa56af6fdd275937fd991e3d088496a82c5d09b6f9ad9a007112780be33",
+      "file": "skills/linux/identity/pam/module/backdoor/detect/index.json"
+    }
+  ]
+}

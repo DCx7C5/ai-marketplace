@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-ebpf-monitoring-monitor",
+      "path": "linux/kernel/ebpf/monitoring/monitor",
+      "description": "Implements eBPF-based security monitoring using Cilium Tetragon for real-time process execution tracking, network connection observability, file access auditing, and runtime enforcement. Covers Tracin",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "31afb3ff9676f6986821eedc8c2375c338a2324bea3afee34d94524ba39fec5d1be25e5c09a7e5bc5f005b91480bd7c9fd91497a2f1628fbcd784149fe2cea93",
+      "file": "skills/linux/kernel/ebpf/monitoring/monitor/SKILL.md"
+    }
+  ]
+}

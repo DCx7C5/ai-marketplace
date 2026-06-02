@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "runtime",
+      "description": "skill directory index",
+      "sha512": "1d10233148ab684b38a24c9e8201a6d55f194afeab7daf5c07e75d3a0be03a91013a71ee75b4814b74e141165c582d259bd8b1fb3050935fce79b6d62da01e5d",
+      "file": "skills/web-application/execution/runtime/index.json"
+    }
+  ]
+}

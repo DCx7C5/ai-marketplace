@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "variable",
+      "description": "skill directory index",
+      "sha512": "5c62978c5b72be8c03334aaeda2aeed50cdda65b15a54bce531fc267ce61e5f8ea7ac741baf10dbdad683e244d637e4ea45c3b81c2915bd0628978e51c4cbc5e",
+      "file": "skills/linux/shell/environment/variable/index.json"
+    }
+  ]
+}

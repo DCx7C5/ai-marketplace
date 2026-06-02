@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "497e4c36990ecd145d0f1e618f5497e5cc109523923a92e675a62ebd57f774e1e4b885863a7150a947a4512e4d4e6c4054157eafe926b2691a10b958ae83ff87",
+      "file": "skills/linux/hardening/selinux/policy/audit/index.json"
+    }
+  ]
+}

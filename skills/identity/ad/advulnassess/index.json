@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6bbc8d89cd465b70c0354bb458e1dfbc6d65a532c55ea6753759449dd7a29bf92b0150ba45b366eabcff4b6c0e7e7232fb04cdb825d07d24b3d1be8724f26090",
+      "file": "skills/identity/ad/advulnassess/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "e13061371d0f31b6038959814fbc993be011b04499e413ca296804f87c4a3e2b04ef9162828233d2a8cca89068d52885ec8c086b6ebc04d166ca843b52fae021",
+      "file": "skills/identity/ad/advulnassess/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3197522ecbbec33f63a06c0e32d4b1db52a81faabfbdfe99d69278581af140adc3f6dabe063a4de36af50bccd47064b1546e94a5f3167118767d59df1648da31",
+      "file": "skills/identity/ad/advulnassess/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "252324a7241874aebc1658a261436816b404ff2acabef2e4a81b21dba8b91a18d3bf97fa86221d867e986a51e8fdd8ca08bcbd4e4a7dda9f2c825bcf35cdc8f1",
+      "file": "skills/identity/ad/advulnassess/scripts/index.json"
+    }
+  ]
+}

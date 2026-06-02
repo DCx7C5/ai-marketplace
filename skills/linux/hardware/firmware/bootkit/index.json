@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "5b553942ce20b075acceec060195451bb05791d9d7ad60f460a63f47b98717f9f297e77d67f7ab04d78fae6d5f196b641e038ecdddec620481324766b5676ca8",
+      "file": "skills/linux/hardware/firmware/bootkit/detect/index.json"
+    }
+  ]
+}

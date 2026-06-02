@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "80e5d476fffe5b3d73251a4fd85d1586f3748a569bd3978ec872803e2f6f55fcb1616090ecdd6c1f9a3cef5c3b0a35b3e7950fd16d64042bed4f5a5ff37650cf",
+      "file": "skills/intel/analysis/actorprofile/detect/index.json"
+    }
+  ]
+}

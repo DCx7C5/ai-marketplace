@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "host",
+      "description": "skill directory index",
+      "sha512": "4db462ab659547836ae2ea3fc0ba53830158c2625c7ebb2bcf044b68ad845d03a39182b5bdb44a09cffc37d7a607b2526e5a72e6f14b3d175aef7ecf8a00cab6",
+      "file": "skills/web-application/header/host/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-tmp-artifact-collect",
+      "path": "linux-fs-tmp-artifact-collect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "73ec98c337b907efbba5c30859187311c6cd0fb747f54ad7149ccc9e1f93494ad47d6f00a4d7550d9c419bba02b7daeef91fa012093c2389b08f97ed6aa308e7",
+      "file": "skills/linux-fs-tmp-artifact-collect/SKILL.md"
+    }
+  ]
+}

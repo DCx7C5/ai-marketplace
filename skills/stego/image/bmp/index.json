@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "lsb",
+      "description": "skill directory index",
+      "sha512": "fbbf29e5bbaafe1fe44f7dad7deeee074d455e366bb3128c18d0d4b04aad515d7f4f4c9552a008d83a6bdedaf009145603518471f2656cc3e9fd2c0c880baa02",
+      "file": "skills/stego/image/bmp/lsb/index.json"
+    }
+  ]
+}

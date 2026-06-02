@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "platforms-threat-hunt",
+      "path": "intel/platforms/threat/hunt",
+      "description": "Building a Threat Intelligence Platform (TIP) involves deploying and integrating multiple CTI tools into a unified system for collecting, analyzing, enriching, and disseminating threat intelligence. T",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "744dea22e7eb286c3e6ec7a03c88ec3d821fc9d0ebafa0fb6b3372b0f4bf9546dba6e1034cf192397a122ec2a2b5a36c66507f8cd963efe725343fe315be54ca",
+      "file": "skills/intel/platforms/threat/hunt/SKILL.md"
+    }
+  ]
+}

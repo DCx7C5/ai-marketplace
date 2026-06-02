@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-lateralmov",
+      "path": "soc-hunting-lateralmov",
+      "description": "Soc Hunting Lateralmov.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "02e8d9dd941d69ef9552c6ff7af79be7b1d13bbddc06dba9166838c3e6ae54e54b1b283eafe30a711b0a9dc4c40d88a1cfbc91504da9645a5b3fabdf38b9d932",
+      "file": "skills/soc-hunting-lateralmov/SKILL.md"
+    }
+  ]
+}

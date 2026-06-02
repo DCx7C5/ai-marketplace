@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-forensics-phishing",
+      "path": "email-forensics-phishing",
+      "description": "Email Forensics Phishing.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90e9aa2ce512cddb71f756fdf6a27117dc29419c8aefc8203742d44b4e97813cb51a2407a3860278bb5846646997162af8e184e265a2f8fd997a5e7b243642f1",
+      "file": "skills/email-forensics-phishing/SKILL.md"
+    }
+  ]
+}

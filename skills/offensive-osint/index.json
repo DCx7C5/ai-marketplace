@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-osint",
+      "path": "offensive-osint",
+      "description": "- Sogou Weixin search \u2014 WeChat Official Accounts content search - View public Telegram channels: `https://t.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "26ccfa2ad45e5ebb416be9cd425fe85aa3b696f08bcfa999dc984e3c88080a23c34ca825f85bf1be71ee1c6475028007ad66ec78b3bdd910aa3e1714b568c367",
+      "file": "skills/offensive-osint/SKILL.md"
+    }
+  ]
+}

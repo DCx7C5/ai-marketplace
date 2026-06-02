@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-plc-firmware",
+      "path": "ics-plc-firmware",
+      "description": "Ics Ics Plc Firmware.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a626ef56e7fdb205bb8c35003f73b305797e47f804eed64091355c98012f6df5e1bb8b3451481d8c0c5912fbb4fc2521d51376c00820b16f86e5a3a148e86710",
+      "file": "skills/ics-plc-firmware/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2c6ece0364a9770ffb047e71676997fb4a5cfe785acab433eb1092819c79f4d9a27c1ee3148a2b0cbe64eff07b80d7ad346c7560c9eef9c54e17944d39f7a667",
+      "file": "skills/ics-plc-firmware/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "97e7a4ee37fb5e3a725cddab0d33cfed739f534eca6b7749ed787b56ca06d87206411db55a2201db4ae097c694f38649354cd01197793e6565f4f73a23e0e281",
+      "file": "skills/ics-plc-firmware/scripts/index.json"
+    }
+  ]
+}

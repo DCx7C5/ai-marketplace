@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-oracle-privilege-escalate",
+      "path": "db-oracle-privilege-escalate",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e498b8df33e21784694291372490674bf697e1c75a4630a392f766b626fef25e6e35746eeaf398801f48487cd17757ee4bc906c375d2c09776edb100b396e3af",
+      "file": "skills/db-oracle-privilege-escalate/SKILL.md"
+    }
+  ]
+}

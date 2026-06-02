@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-foresttrust-detect",
+      "path": "identity/ad/foresttrust/detect",
+      "description": "Enumerate and audit Active Directory forest trust relationships using impacket for SID filtering analysis, trust key extraction, cross-forest SID history abuse detection, and inter-realm Kerberos tick",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "429563cfa18b4fefa3a2502f9d70ecce7de5eadf5481581b7be269f6d7986aef9a700637af8a187ed11af16eb6a8f736eecf3b80177bca909ad6d6229a10680f",
+      "file": "skills/identity/ad/foresttrust/detect/SKILL.md"
+    }
+  ]
+}

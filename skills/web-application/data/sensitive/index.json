@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "protect",
+      "description": "skill directory index",
+      "sha512": "02cd91c2b1cbae5984806e9cfa23a39d608b6e969bfd2945d10aa17ebeb90e80e38f925a6827219a6a001d6b9e4cf98f673b3dfd29be738c4eebe7586132e207",
+      "file": "skills/web-application/data/sensitive/protect/index.json"
+    }
+  ]
+}

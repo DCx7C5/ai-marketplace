@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "55a876b2788dc26a13efc41aae7c4a3123b567d4d71932cb580b00ffca8c2cd945e6803d9d87f8ad5e1a1f5aaafedf58421d0508d7c2c1f5622f91bfa4f11b1e",
+      "file": "skills/soc/triage/security/audit/index.json"
+    }
+  ]
+}

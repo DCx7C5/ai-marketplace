@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardening-aslr-nx-configure-verify",
+      "path": "linux/hardening/aslr-nx/configure/verify",
+      "description": "Verify and configure ASLR and NX/DEP stack protection \u2014 check randomization level, verify NX bit on stack/heap, audit execstack binaries, and configure system-wide settings.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "10a2bcb604aaee2da0dd02e6849cf025235dbc1de73cb9d33f0ea221d28a1b4abdb2a38537338097e2c7c33574267913bd80be619520df6376f98f1182da5b08",
+      "file": "skills/linux/hardening/aslr-nx/configure/verify/SKILL.md"
+    }
+  ]
+}

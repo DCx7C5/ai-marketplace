@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feeds-opentaxii-detect",
+      "path": "intel/feeds/opentaxii/detect",
+      "description": "Deploy and configure an OpenTAXII server to share and consume STIX-formatted cyber threat intelligence using the TAXII 2.1 protocol for automated indicator exchange between organizations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "afc5c7c9875417daab4af2fd99faaabbc1331422464890c1601ef101e469372935572678cc447a2999d5f5811eb5a1a106651f168786fc9ac703f3f33bf08c04",
+      "file": "skills/intel/feeds/opentaxii/detect/SKILL.md"
+    }
+  ]
+}

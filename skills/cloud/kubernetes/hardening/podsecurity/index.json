@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "2793ac7248f648f3e7ec090f6f173fd2f067d88e6c105ed6b4f92fa8e8d9ee48996ec8b1f6c6b70125674be95c054c9605d9c77fed5c2bd51286cc9914ba0a4e",
+      "file": "skills/cloud/kubernetes/hardening/podsecurity/exploit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-plc-firmware-analyze",
+      "path": "industrial/ics/plc/firmware/analyze",
+      "description": "This skill covers analyzing Programmable Logic Controller (PLC) firmware for security vulnerabilities including hardcoded credentials, insecure update mechanisms, backdoor functions, memory corruption",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d85273b64373d98cd02cb6d481b1cc33ab906793a68db5a546a4f098ca606f0c9c639a7a8b211ae168bede3d590c7585cc085a856cc4dba662ec5e601001e52f",
+      "file": "skills/industrial/ics/plc/firmware/analyze/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2c6ece0364a9770ffb047e71676997fb4a5cfe785acab433eb1092819c79f4d9a27c1ee3148a2b0cbe64eff07b80d7ad346c7560c9eef9c54e17944d39f7a667",
+      "file": "skills/industrial/ics/plc/firmware/analyze/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "97e7a4ee37fb5e3a725cddab0d33cfed739f534eca6b7749ed787b56ca06d87206411db55a2201db4ae097c694f38649354cd01197793e6565f4f73a23e0e281",
+      "file": "skills/industrial/ics/plc/firmware/analyze/scripts/index.json"
+    }
+  ]
+}

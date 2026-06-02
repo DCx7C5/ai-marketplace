@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-dcsyncd-detect",
+      "path": "identity/ad/dcsyncd/detect",
+      "description": "Detect DCSync attacks where adversaries abuse Active Directory replication privileges to extract password hashes by monitoring for non-domain-controller accounts requesting directory replication via D",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1ffc1b099a8d9fa460c36c23f615b9039ea062e39a3762bfebdfc2c1a9fb48706214dc036bf982b637df3a423338a794e160b5bda052ca201c518d359f9d41ed",
+      "file": "skills/identity/ad/dcsyncd/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "misconfigured",
+      "description": "skill directory index",
+      "sha512": "f876a6f01fa14d95626f848a5e05d9c2c84c3a9b3e7ebef8a777f972676f7ce35762a47bbaec9f2fac5788eb2158c5a35f254680b28eafdc3a85256870b08bb7",
+      "file": "skills/cloud/azure/storage/misconfigured/index.json"
+    },
+    {
+      "name": "storagemisconfig",
+      "description": "skill directory index",
+      "sha512": "6fc460929d3c64b14f63a87ed0bc0b39c3bda6674c0f2f60e26f9e8ee1307cbc0aad4a2f2a44988c250e4a8be9dff4d67bff4f3b14ed63b0b6bf3dfcf5da04c6",
+      "file": "skills/cloud/azure/storage/storagemisconfig/index.json"
+    }
+  ]
+}

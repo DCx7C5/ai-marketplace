@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "frame",
+      "description": "skill directory index",
+      "sha512": "98dc17461959fb102213bac3223b8d4fcfe11030951454898cd6815513eb3f4c69c5655e9f2e24ecf9b05456738926ea65b44d2f0b835cd673d058cfa2827d23",
+      "file": "skills/steganography/video/mp4/frame/index.json"
+    }
+  ]
+}

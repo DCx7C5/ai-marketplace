@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws-hubcompliance-audit",
+      "path": "cloud/aws/hubcompliance/audit",
+      "description": "Implementing AWS Security Hub to aggregate security findings across AWS accounts, enable compliance standards like CIS AWS Foundations and PCI DSS, configure automated remediation with EventBridge and",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e401d617b4c1d21fdc72cbf3a016862e92d86e1439af06d1668cb98e3241c05d48c9de77fbcef8df670fb7356e2cfa7db72b4d43ff9aeff13329460cf01ca1b",
+      "file": "skills/cloud/aws/hubcompliance/audit/SKILL.md"
+    }
+  ]
+}

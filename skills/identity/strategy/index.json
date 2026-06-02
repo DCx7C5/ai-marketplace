@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zero-trust",
+      "description": "skill directory index",
+      "sha512": "9540dc1d52357c874041751cba3d187ffa2e9a3f0b8509a2b552a93b9bfb902b9371d26007a430a8dc6553e78c9d9784cb70d4b98b8cb86b9e1efb2a55ef4289",
+      "file": "skills/identity/strategy/zero-trust/index.json"
+    }
+  ]
+}

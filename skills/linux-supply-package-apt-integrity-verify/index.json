@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-supply-package-apt-integrity-verify",
+      "path": "linux-supply-package-apt-integrity-verify",
+      "description": "subdomain: supply-chain-security tags: - linux - apt - debian - package - integrity - verify nist_csf: - PR.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "242ad6d710f58e9222e5ca155446b886c25a6b317d5a47202380db4bfd3d0d8a478cf0e29f7469c7e021e61e5fae7f1d01932cca7eac13004466f0dcaea4d0b3",
+      "file": "skills/linux-supply-package-apt-integrity-verify/SKILL.md"
+    }
+  ]
+}

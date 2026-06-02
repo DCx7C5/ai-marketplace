@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logic-business-audit",
+      "path": "web-application/logic/business/audit",
+      "description": "Identifying flaws in application business logic that allow price manipulation, workflow bypass, and privilege escalation beyond what technical vulnerability scanners can detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f57fd6e0aba84ee5776d084fee00d645559a95f3dea3b7eb18146f4bd0ea39acde4dc182d489293d90964ba7c3255aee8af6fa63352f8fe868a5e5ecda5ae6b4",
+      "file": "skills/web-application/logic/business/audit/SKILL.md"
+    }
+  ]
+}

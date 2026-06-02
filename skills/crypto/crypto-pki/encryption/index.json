@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "e2eencryption",
+      "description": "skill directory index",
+      "sha512": "cdc5c218ba637cb1dfa339476074332d171cd36929539773c09c24e18791b2bc678a7f265c4796a08e66fef40702b92260562ebc32d8bab1630f31a0f1344217",
+      "file": "skills/crypto/crypto-pki/encryption/e2eencryption/index.json"
+    },
+    {
+      "name": "kmsenvelope",
+      "description": "skill directory index",
+      "sha512": "0d073907c4a9b6f32fa5c8ce36aec21be22fa410c8b7fe0ac7289625fab7470418de185865fdcd6a36ea574406fad9f897d934765bd06bb9e79f285d4a9f743f",
+      "file": "skills/crypto/crypto-pki/encryption/kmsenvelope/index.json"
+    }
+  ]
+}

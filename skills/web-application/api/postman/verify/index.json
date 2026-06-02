@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-postman-verify",
+      "path": "web-application/api/postman/verify",
+      "description": "Uses Postman to perform structured API security testing by building collections that test for OWASP API Security Top 10 vulnerabilities including authentication bypass, authorization flaws, injection,",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "75dad45897e685dde5e2414c75bfb034c32a2990d91e9ba69f9215eeb4f0e677004670d91f03abb738ef4292e0575c7813e861f90b90b58dcf481cab75405335",
+      "file": "skills/web-application/api/postman/verify/SKILL.md"
+    }
+  ]
+}

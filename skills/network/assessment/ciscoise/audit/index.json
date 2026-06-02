@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assessment-ciscoise-audit",
+      "path": "network/assessment/ciscoise/audit",
+      "description": "Deploy Cisco Identity Services Engine for 802.1X wired and wireless authentication, MAC Authentication Bypass, posture assessment, and dynamic VLAN assignment for network access control.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e55c693bdbe014631f02a7d2a2d58d3baeb86fa6d1887abc703b8c0c78d3f63c5292d849bd3c5ab47803edb25d98439235ddf7d4f81ce7b8af7bb6a1c8f76240",
+      "file": "skills/network/assessment/ciscoise/audit/SKILL.md"
+    }
+  ]
+}

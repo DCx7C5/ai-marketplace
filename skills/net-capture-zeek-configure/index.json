@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-configure",
+      "path": "net-capture-zeek-configure",
+      "description": "print(df[['id.orig_h', 'id.resp_h', 'ts', 'duration']].",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0ed4271d0e8eb3f4e9a447bc131506822be20c1dcf1a01226a6df1fc8801dfc93f43aeae5fddd0ba40e55decdb8e60ad591136a2406ba67f2ba4e0a13d3eef9",
+      "file": "skills/net-capture-zeek-configure/SKILL.md"
+    }
+  ]
+}

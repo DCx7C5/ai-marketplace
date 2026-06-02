@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-syslog-analyze",
+      "path": "linux-log-syslog-analyze",
+      "description": "6. Output timeline format: `ISO_TIMESTAMP | SOURCE | EVENT_TYPE | DETAILS | SEVERITY` 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fd1f1d0b3ac0506e9c6f4974f302695bb3f38fd65c26da8a638705d575539f57bc3a8027f83116bdfd8cca190547d376af0d42eceec3b6db0cfbd2a228cf1436",
+      "file": "skills/linux-log-syslog-analyze/SKILL.md"
+    }
+  ]
+}

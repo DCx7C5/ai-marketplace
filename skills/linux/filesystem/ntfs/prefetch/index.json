@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "parse",
+      "description": "skill directory index",
+      "sha512": "dd80e985e9ab9135d19d7b72fec2228f879649dbcd325f815001ec5568828e0c8e1275e8a092e7209c06cff9d98b257a0ff1d657c7fcc239a2ade2ee74e0b606",
+      "file": "skills/linux/filesystem/ntfs/prefetch/parse/index.json"
+    }
+  ]
+}

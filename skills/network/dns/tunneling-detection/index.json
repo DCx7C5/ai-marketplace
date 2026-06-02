@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "6dbc308c98f4e800f22f35900a7a31a3ee62a7599b6ed6af13cc5aaa145696012ae5488ca005cfbd0c746e55fd151c23f58d419bdbfd9c421322c9b22a090583",
+      "file": "skills/network/dns/tunneling-detection/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1a69bc5d4960c2172a4c8eae360fb23488364d436f1dbae19300757e34079da34216e670d15843fb5da0db55bb5d8e6dc8f9bc0f01717dcb9ec7c285b36a6f3d",
+      "file": "skills/network/dns/tunneling-detection/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b0c7a5301f4ccc86840bb31db32aa66a19abd18d994754c60103becd6280f5da59295498cde71fd1d5301434b0fe4bd5252c28b678a3657f88b151a5e2ff27cd",
+      "file": "skills/network/dns/tunneling-detection/scripts/index.json"
+    }
+  ]
+}

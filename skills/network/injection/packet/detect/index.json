@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-packet-detect",
+      "path": "network/injection/packet/detect",
+      "description": "Crafts and injects custom network packets using Scapy, hping3, and Nemesis during authorized security assessments to test firewall rules, IDS detection, protocol handling, and network stack resilience",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ff6c98377ca989ddb8341a397da5e779101c127ac82ebf601d4af7ab1ebfc863e9fa1be6e7e8bcad1b93a3fbfe54d99b556dab364a01c4d04a55c6608d1c0d6d",
+      "file": "skills/network/injection/packet/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-ssrf-server",
+      "path": "webapp-injection-ssrf-server",
+      "description": "-| | 169.254.169.254 (AWS metadata) | HTTP | IAM credentials retrieved | | 127.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0a0ada4194a12eb87d72ec002434b54177e72161152e1cdc76558ddd2dc245d5c7e979bbeb3008aaef05899672ea4c73c1085e3a4e9bb00b523df2b4a0a1a579",
+      "file": "skills/webapp-injection-ssrf-server/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "smuggling-http-detect",
+      "path": "web-application/smuggling/http/detect",
+      "description": "Detecting and exploiting HTTP request smuggling vulnerabilities caused by Content-Length and Transfer-Encoding parsing discrepancies between front-end and back-end servers.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "92e6f344579f8bf0e7779d4d0f3eabd1bfc2bd6645e8d41bb2a5fa6f9c296411675f9f59d213809722ee8919bbc6343db9538b9b883a93811246ad0aa4b6caee",
+      "file": "skills/web-application/smuggling/http/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-ld-preload-hijack-detect",
+      "path": "linux/processes/ld-preload/hijack/detect",
+      "description": "Detect LD_PRELOAD environment variable hijacking and /etc/ld.so.preload manipulation used to intercept library calls and inject malicious code into processes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4076c5ffd894f2d86980211282dd6d9b119b8afd9295d115d22447dc289f6b25e495a1ed8eaa1eb89a6d6ecae661d1e49beb6be6021ad7a4f1343a550e380fa4",
+      "file": "skills/linux/processes/ld-preload/hijack/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-boot-initramfs-backdoor-detect",
+      "path": "linux-kernel-boot-initramfs-backdoor-detect",
+      "description": "subdomain: kernel-forensics tags: - linux - initramfs - initrd - backdoor - boot nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d0bfef106db70f026b8a7f5b7e483061dba5fe9db17d8de7d458f664cbd023535e111fd9c7e1001225a87fb781aaa0b3d3f2fd3abc785ec358c472ac5d2f2710",
+      "file": "skills/linux-kernel-boot-initramfs-backdoor-detect/SKILL.md"
+    }
+  ]
+}

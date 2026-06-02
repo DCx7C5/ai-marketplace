@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "66584318fecf44defde43ecf458c80e9ffebc4ac61ac68ad60b7e4a1a7b5be78dd59fafbe8336906ab74f40fd6246c923fa07089d85d4f05b804d49cf127c95a",
+      "file": "skills/network/traffic/maltraffic/detect/index.json"
+    }
+  ]
+}

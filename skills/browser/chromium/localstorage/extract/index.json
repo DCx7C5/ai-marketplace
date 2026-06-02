@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chromium-localstorage-extract",
+      "path": "browser/chromium/localstorage/extract",
+      "description": "Extract LocalStorage LevelDB data from Chromium-based browsers to recover web application state, authentication tokens, and user preferences.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "999e1dbdf1e1ada2688a1b0d19af1bf8a27bb636c05fb3552cc0ff9282e26c5ba387b372f80e9808d747a69e7e362b8554c1241e03a3dbcd5fd009ce451172c5",
+      "file": "skills/browser/chromium/localstorage/extract/SKILL.md"
+    }
+  ]
+}

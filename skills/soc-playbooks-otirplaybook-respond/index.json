@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-playbooks-otirplaybook-respond",
+      "path": "soc-playbooks-otirplaybook-respond",
+      "description": "Soc Playbooks Otirplaybook Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1efaeffa1f50e2daa1d60c3ea83262fbf62d55148d1f4b874df3922b484ef74ea8d96909a4afd35e928f7e6aba8e435a242363743eb3cea687dffb0da99f276c",
+      "file": "skills/soc-playbooks-otirplaybook-respond/SKILL.md"
+    }
+  ]
+}

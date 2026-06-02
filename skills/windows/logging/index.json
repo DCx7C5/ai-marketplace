@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "eventlog",
+      "description": "skill directory index",
+      "sha512": "784fedce9cc8df0b7e8c3f00ce620cd98e4e7592e89aff8b817ee0de099bc6ba97a8a1bf8a626c37f1bc711ea712b184aef701d9dcfba0606330a7aaac3483c7",
+      "file": "skills/windows/logging/eventlog/index.json"
+    },
+    {
+      "name": "powershell",
+      "description": "skill directory index",
+      "sha512": "313d25245f8a4cd2d59a679e2f681ec57691e841ee135449aed225a85767802291f320bdcb83ac340ed09a95373d52ed2c787d227a067b5247d98b86b8e003b7",
+      "file": "skills/windows/logging/powershell/index.json"
+    },
+    {
+      "name": "splunk",
+      "description": "skill directory index",
+      "sha512": "cdc12e3f4de161432bfad625f00076bd3aa92387ba81f8bd8ef755cd1e2b31c9f6a42d91c2ba80e9a0616db680a5abe742a629c048d3e2def3715ae6f392e52c",
+      "file": "skills/windows/logging/splunk/index.json"
+    },
+    {
+      "name": "sysmon",
+      "description": "skill directory index",
+      "sha512": "3494bdbedc2d68d4aa9ea2442c4a3134340ad63dca0d9cd7a55f25df329fab8a9eaba3adba763e55b917ae4fd830676b5073d87d47a41893c562f271111b799a",
+      "file": "skills/windows/logging/sysmon/index.json"
+    }
+  ]
+}

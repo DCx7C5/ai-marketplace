@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-pinia",
+      "path": "devel-jb-pinia",
+      "description": "--| | SSR | Server-side rendering, state hydration | [advanced-ssr](references/advanced-ssr.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1a243a8d51eda64f734b75a9f09a056faab015b5c1ef576db5eb690930260591fd9c65ed8bb2668a351d4baa7a7cccccc8bb57090ba6c10e954da7ed0db0658e",
+      "file": "skills/devel-jb-pinia/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5fece8e1ab890aabf72782a7dd14539add5d0e81c7e4a53820cda7bdb9d0bb321ab0232838df9134da2e82f6b91c8366e853edfb51d7d244302cb54270851884",
+      "file": "skills/devel-jb-pinia/references/index.json"
+    }
+  ]
+}

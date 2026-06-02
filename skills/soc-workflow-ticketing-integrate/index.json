@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-workflow-ticketing-integrate",
+      "path": "soc-workflow-ticketing-integrate",
+      "description": "Soc Workflow Ticketing Integrate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43533b523159d148bc9afc5d02b6e248440529c6e148ce69d0501fb5b69b0edfb50e5b301c514b58cc2792a9b972ca78138b179987c0c7502c41e7591eaedefe",
+      "file": "skills/soc-workflow-ticketing-integrate/SKILL.md"
+    }
+  ]
+}

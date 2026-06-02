@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-container-seccomp-profile-audit",
+      "path": "linux-container-seccomp-profile-audit",
+      "description": "subdomain: container-security tags: - linux - container - seccomp - docker - kubernetes - audit nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d5db5b05837eb4ce37acccb1edd36e943a3d67c9a1ace35d68040db701c4762201d21a4da5c79cd6dfda83c918d50f2eeae27a71a4b8ea9f2f0a78a2ed9b102d",
+      "file": "skills/linux-container-seccomp-profile-audit/SKILL.md"
+    }
+  ]
+}

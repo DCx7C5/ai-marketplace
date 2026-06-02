@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tuning-detection-use-cases-detect",
+      "path": "soc/tuning/detection-use-cases/detect",
+      "description": "Implements SIEM detection use cases by designing correlation rules, threshold alerts, and behavioral analytics mapped to MITRE ATT&CK techniques across Splunk, Elastic, and Sentinel. Use when SOC team",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1394b679cd4ad9ce47abf2a772151ddee809464c43842ba0435539a6ae32742744b95244939148c2e24e866916f7bcab93ba546d72fd5b2776f315ab9eca2a0c",
+      "file": "skills/soc/tuning/detection-use-cases/detect/SKILL.md"
+    }
+  ]
+}

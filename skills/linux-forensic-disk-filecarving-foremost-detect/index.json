@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-filecarving-foremost-detect",
+      "path": "linux-forensic-disk-filecarving-foremost-detect",
+      "description": "Linux Forensic Disk Filecarving Foremost Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0821da298bfa60c296ce61fdee00efcce4c872518df7969c7521ca18ce1d1bd159251cfcc22768c56c5e49e369a43780d170c552db94203d4ea72ca5c43260cc",
+      "file": "skills/linux-forensic-disk-filecarving-foremost-detect/SKILL.md"
+    }
+  ]
+}

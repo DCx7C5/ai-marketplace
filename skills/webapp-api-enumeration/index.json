@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-enumeration",
+      "path": "webapp-api-enumeration",
+      "description": "-bola-broken-object-level-authorization - Cequence BOLA Prevention: https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c1fd18fa89f8c4fce18d9ea78fa8f00d739c6e84dd367cfb1b9188f18b09bdc7e4c9fb76a69c0c35775bfc4977c59e0e62d000a4b3c435a375f8c6a10796c08b",
+      "file": "skills/webapp-api-enumeration/SKILL.md"
+    }
+  ]
+}

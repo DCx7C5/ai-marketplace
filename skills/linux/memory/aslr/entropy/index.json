@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "9e742e963dbe11391508429c691580aa1ac0bb0cd08fed4b9229151f207884e5a96b5c7bac5760c680e8b235633c902fb0d140816fb099f9db7fda8b8ea5246c",
+      "file": "skills/linux/memory/aslr/entropy/analyze/index.json"
+    }
+  ]
+}

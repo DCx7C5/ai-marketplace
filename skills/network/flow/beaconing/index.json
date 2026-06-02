@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "13b3e66298bcdb5e01b773a263b89ac06904fef4b263b692f24bba6041fc043899bcf2f27bbc5ccfb844b2c6a3322e3f77ac8425c81fd931402a6b7b77b5dfdf",
+      "file": "skills/network/flow/beaconing/detect/index.json"
+    }
+  ]
+}

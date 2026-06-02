@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "fe0ccddb9394dbfb28d0cd11001b8d4d996e42adc3adaf0d4c6489346246bb4637c3ef7e75c8197605ce48c8c5b7cedb9421636babb1efc7665fd047ae736eaf",
+      "file": "skills/industrial/ics/scada/hmi/assess/audit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "950e53e31f2a49543068c04f36c5278b8ae234e417537ef16ed11a42a5f941a6b27141d96a8d79d97e85739a8af4c4115c31e21a39ecf065497694cffd02ed7d",
+      "file": "skills/industrial/ics/scada/hmi/assess/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "cd2317b0fb53aa354e544935683bc767fe9a6c4d6a9206933cf151f24546cda735c90cd80bfdd8fa359fe82933de4a66c5bf5e83b6f6cf74fadeb908694e0999",
+      "file": "skills/industrial/ics/scada/hmi/assess/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-ebpf-map-covert-channel-detect",
+      "path": "linux/kernel/ebpf/map/covert-channel/detect",
+      "description": "Detect eBPF maps used as covert communication channels \u2014 identify BPF maps shared between processes for inter-process communication bypassing normal IPC auditing.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c4daf1775a71aecb67733172450994656f19834cf6e637233fd951d1cc0986d23fe8623edb2e58b9e58d83fc01ad2d9d9d1e045b2dcaf8e2d6f0373a371c021e",
+      "file": "skills/linux/kernel/ebpf/map/covert-channel/detect/SKILL.md"
+    }
+  ]
+}

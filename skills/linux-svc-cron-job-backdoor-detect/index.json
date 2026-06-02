@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-cron-job-backdoor-detect",
+      "path": "linux-svc-cron-job-backdoor-detect",
+      "description": "subdomain: persistence-detection tags: - linux - cron - crontab - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "668d2f44796c4fad70952fc9d0cdc6916d8ff873e70e0c97df6b2826c67ef7b7ecaea785d15d73b8fe94e1d6b7c4ee47a22fa33b2fb6e865057d2288e54a8d90",
+      "file": "skills/linux-svc-cron-job-backdoor-detect/SKILL.md"
+    }
+  ]
+}

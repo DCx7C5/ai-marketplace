@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "scan",
+      "description": "skill directory index",
+      "sha512": "53d27be61bf9cb5b103ebc20f0fe7f43dd1302fe5f55172ff7d6e61337514141099de85852485e30194acba90556d558d8e9b90eab5d0746de3fa997e5635132",
+      "file": "skills/cloud/pipeline/devsecops/scan/index.json"
+    }
+  ]
+}

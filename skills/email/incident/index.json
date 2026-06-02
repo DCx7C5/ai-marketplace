@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "response",
+      "description": "skill directory index",
+      "sha512": "17f10d7dcbde818262a7ddecdbd8c9fab5a873fc52b81724945d85070abb15309a0dcd3107cfffe129fc0d4d7b034c79e69ded7df432fe6abc01077f776ea7e4",
+      "file": "skills/email/incident/response/index.json"
+    }
+  ]
+}

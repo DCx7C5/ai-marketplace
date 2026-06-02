@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logs-eventlog",
+      "path": "windows-logs-eventlog",
+      "description": "--| | **Advanced Audit Policy** | Granular audit subcategories (58 subcategories vs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8843b441519bd286c00d0d6b3f0bfa3226d8bf6abe4304cb522b1799ee99bdde396bdd7e5498ba6682af3db7a9d0ac68d6fd8660ace8a8ce29b127518e056624",
+      "file": "skills/windows-logs-eventlog/SKILL.md"
+    }
+  ]
+}

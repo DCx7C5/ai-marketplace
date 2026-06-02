@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-syscall-io-uring-abuse-detect",
+      "path": "linux/kernel/syscall/io-uring/abuse/detect",
+      "description": "Detect io_uring syscall interface abuse \u2014 identify exploitation of io_uring vulnerabilities (CVE-2022-29582, CVE-2023-2598) and unauthorized use for sandboxed process escape.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a60786b28e4bcdebbf4a2d5c4aa12fba9abf4bd533a61f8d7ae9a9b41752e6367c317c5db2cdab6cdc116bf53597589ca977106b2ae04235d9a2cc1e7ebf1a49",
+      "file": "skills/linux/kernel/syscall/io-uring/abuse/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "backdoor",
+      "description": "skill directory index",
+      "sha512": "28c64565b96e3370d63bace6ea90a0f9cc078a6c843a0dfc4a653078e8936ab7a9e639d7526d7d4a3990e436e10f28fe99513d3c29128d7aa10e9ae8fa7d4061",
+      "file": "skills/linux/services/cron/job/backdoor/index.json"
+    }
+  ]
+}

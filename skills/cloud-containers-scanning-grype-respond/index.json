@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-scanning-grype-respond",
+      "path": "cloud-containers-scanning-grype-respond",
+      "description": "Cloud Containers Scanning Grype Respond.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c958c396f166330b6bbb11481ae080d0977bcc8ace9da7481b157b6a9bcb61f7b95f6ea152c1566fab9c812a779a10b61ed1469915319adfba502abbf619ce29",
+      "file": "skills/cloud-containers-scanning-grype-respond/SKILL.md"
+    }
+  ]
+}

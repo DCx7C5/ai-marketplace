@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-id-cap-enum-detect",
+      "path": "linux-kernel-id-cap-enum-detect",
+      "description": "Linux Kernel Id Cap Enum Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5386dbc26ddcef0b403009a21e586346aeded77c00fdf49361d36716a8936160570deaf92346177d8fc122579734d20dd94d4fb1f68b13ee99ee0b10624cdb49",
+      "file": "skills/linux-kernel-id-cap-enum-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-unusual-audit",
+      "path": "soc/hunting/unusual/audit",
+      "description": "Hunt for unusual network connections by analyzing outbound traffic patterns, rare destinations, non-standard ports, and anomalous connection frequencies from endpoints.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "36aac627931a8dadb4463105ce71884ace20d5c70417faaf4887476ec19b946156659dcb86d0c17073af2fb957f315e003ad16ca1c47bf472f0dabd391dc1204",
+      "file": "skills/soc/hunting/unusual/audit/SKILL.md"
+    }
+  ]
+}

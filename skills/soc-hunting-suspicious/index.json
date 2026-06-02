@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-suspicious",
+      "path": "soc-hunting-suspicious",
+      "description": "Soc Hunting Suspicious.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e351c8fbbb8841652363fc1b5f2d329d0fd0d69bfac9de8bc83f9fd1bcd1779aeb4f2c2e50a8827083fbf381ab82b1dbcdd9b5000618963d5e419e85fb7ee78a",
+      "file": "skills/soc-hunting-suspicious/SKILL.md"
+    }
+  ]
+}

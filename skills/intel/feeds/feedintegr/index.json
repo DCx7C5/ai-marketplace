@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "58f504ffaf154ab61b94050b38e60c9d4483b0177bc5aeea1c6368281037b818578e8d9d805bc442d1ee70e0240c4dae43b2766223389790baeb7041f63b69e0",
+      "file": "skills/intel/feeds/feedintegr/detect/index.json"
+    }
+  ]
+}

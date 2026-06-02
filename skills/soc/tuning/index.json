@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detection-use-cases",
+      "description": "skill directory index",
+      "sha512": "1c169b5d93d130e25a69abf2df659d1340ef28fda60fc47bcb890621f0b1da3b0352276573e6ce5fdd672f1c4d14aef8267682c7969fcb1edec7ea6144fc2eaf",
+      "file": "skills/soc/tuning/detection-use-cases/index.json"
+    },
+    {
+      "name": "false-positive-reduction",
+      "description": "skill directory index",
+      "sha512": "30c66d72f1b4926d68b0ccf92c4501a3f24dde5dac8baa3a11638539546c70a89531b450966227ca61b03b0709c154fcc5f4f6ef0aeee3602b2424c064ca035b",
+      "file": "skills/soc/tuning/false-positive-reduction/index.json"
+    },
+    {
+      "name": "use-case-tuning",
+      "description": "skill directory index",
+      "sha512": "b0e35b5ead76162f4dd6241e3c8776f5ecdf0a5d7a71e5571cd0f111f81ba11b3211e76385072f2d47ee8fc2deb35f30b4268bce7d1e0323eb568228173b6e5c",
+      "file": "skills/soc/tuning/use-case-tuning/index.json"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gh-address-comments",
+      "path": "devel-jb-gh-address-comments",
+      "description": "- If gh hits auth/rate issues mid-run, prompt the user to re-authenticate with `gh auth login`, then retry.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a1c9bdfbd30a440f6edcc909a60a07ffde6b7925cd539dddee34b89f861cd8d8efca7fb0c7b0b814f466a5e96ac93eb1304bb780ca78427a57ce7c56247cc4ee",
+      "file": "skills/devel-jb-gh-address-comments/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "b5d30cb4f4e3fe4ece29175252d3730f0c9ebbe360016b5fba75554780c744692f5b00044adc3103c60f2c2266271d647420c04a1dfc9429346a087c4a5f59ca",
+      "file": "skills/devel-jb-gh-address-comments/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "6a649475924c89fa0c412041fcb138a1957054e116b1e9b72c3c4bd7c5305a3d76e2f4cb59aa4d4aaaf0e1b1d59ee97b706deca0f40fc82556e03593a9d32937",
+      "file": "skills/devel-jb-gh-address-comments/assets/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "29e4ddf0ed7832da90ec71be0125fffea57e61ec8229cdbdc71083abaae36cae22adaaf11df5ddd6240ddbc4f829fa6682820dbaa1dd3286d405a2d76cb58c67",
+      "file": "skills/devel-jb-gh-address-comments/scripts/index.json"
+    }
+  ]
+}

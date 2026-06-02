@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-protocol-http",
+      "path": "webapp-protocol-http",
+      "description": "Webapp Protocol Http.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ab41862fde0323bb6ee5abebb02d743608a598594960547fff478ba0fedbf1eb98930ac4c579d96f821de7a77b811d9a80b5e62c0cdd6dce917d65aad0970e50",
+      "file": "skills/webapp-protocol-http/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "6b65eb36fe9b6107bfa26c8fa90dd68d48c891396afecb9ea075484b8498371a1bf3b14ea9f7716e0b9b5f2dd90ce40070caaf2588d021442ed578e31f059753",
+      "file": "skills/network/wireless/aircrack/extract/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c1a5096567e7fb97ccdf3cb776ab29ee9ed3ffd6fe8f8e33c8083eb3fb953ff5bf949636df3080c33544e560f0befaa47e5bf30195ed6c4d7cc430125c500db4",
+      "file": "skills/network/wireless/aircrack/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "9ab6896d2b42336e69addb32e3c23a4c485c579895aa7fc9d4760e20c31e6d9408b1d07dd1514afbd74adb1eb14ff2f6b615f719de426440a19926b0368418d1",
+      "file": "skills/network/wireless/aircrack/scripts/index.json"
+    }
+  ]
+}

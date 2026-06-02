@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "maps",
+      "description": "skill directory index",
+      "sha512": "229bbee8c119c78726538c09ce9bd820ba1dc52057e55c26dee239c9562ca22d9fe174b72fc4fea89e3a723aba16ebf9f1df9dd5a131398597fc93fd494940c4",
+      "file": "skills/linux/filesystem/procfs/maps/index.json"
+    }
+  ]
+}

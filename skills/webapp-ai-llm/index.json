@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-ai-llm",
+      "path": "webapp-ai-llm",
+      "description": "Webapp Ai Llm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "44400bb43625fba389582642d3a25199afa9ea0907a890dbeb9fbd2c43bc809b25e5c45c7f8105c9f7cf6e372c5e358a2dc03faf1048c57c5d6dbbf82d48cbf3",
+      "file": "skills/webapp-ai-llm/SKILL.md"
+    }
+  ]
+}

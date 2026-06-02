@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-supply-audit",
+      "path": "cloud/containers/supply/audit",
+      "description": "Implement software supply chain integrity verification for container builds using the in-toto framework to create cryptographically signed attestations across CI/CD pipeline steps.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b1cecff5314530d07d2a38e7ff39bf3c2f4e24948a15b42258402731c2672461c0a47a79898f6639efc434142fc6fd1eb904c1afe65305499fd8493080e54dae",
+      "file": "skills/cloud/containers/supply/audit/SKILL.md"
+    }
+  ]
+}

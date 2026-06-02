@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-hubcompliance",
+      "path": "cloud-aws-hubcompliance",
+      "description": "Cloud Aws Hubcompliance.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ad5de1a97f1c48c426865656522af0abb2bdf46af292f48c99aaaa5528ec6c8c8719f643fb520f5849e134da23bf061b91b97cc1b136f56b02d83e883b298d6",
+      "file": "skills/cloud-aws-hubcompliance/SKILL.md"
+    }
+  ]
+}

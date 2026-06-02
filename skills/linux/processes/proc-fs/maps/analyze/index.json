@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-proc-fs-maps-analyze",
+      "path": "linux/processes/proc-fs/maps/analyze",
+      "description": "Analyse /proc/<PID>/maps to identify memory regions, shared libraries, anonymous executable segments, and injected shellcode in running processes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "792e48f4aed449af109aa5fb2cbc985974779e303575cde32fe7cad2fe3ebae3f588e1c7e674559ac58a7963615313b97fcb85b14c106983fdc060913e11ea70",
+      "file": "skills/linux/processes/proc-fs/maps/analyze/SKILL.md"
+    }
+  ]
+}

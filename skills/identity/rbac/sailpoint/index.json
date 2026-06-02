@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "6574e1c9e6278fe7d299455c0688e5f2ddd111fe3711d39e45be017219b419bcc5aa14630040762a74808e153607906c369fbd0d89cf874672cee97d1a1a32fd",
+      "file": "skills/identity/rbac/sailpoint/deploy/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d2bb6608b6041d5a2fdf2ab4131b8a682e553553e37b5bed02bdba722b72b6d415767a17c5b9123d3808f1845973e72eca84b8615790ad00e5d31fb64e0c0b4b",
+      "file": "skills/identity/rbac/sailpoint/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f47157a176ad202e3af96affd3b0cd9b917ce2c66b0f5dff3b01d8259d79d249ef4ecbb7e1d4e18f5e65db763045c360b8993c1193bf3ce77d0d4eea5eb216b5",
+      "file": "skills/identity/rbac/sailpoint/scripts/index.json"
+    }
+  ]
+}

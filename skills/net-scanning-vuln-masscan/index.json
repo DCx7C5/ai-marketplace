@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-scanning-vuln-masscan",
+      "path": "net-scanning-vuln-masscan",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f6f4abe812ee429ead77ff96662ffa0e7322244b30b6c2b4dc96d19884d33b182fc0f4fcabbc4e6e891cb97a154b58700a3c782ef1b144cc1ae3bbd8429f24c4",
+      "file": "skills/net-scanning-vuln-masscan/SKILL.md"
+    }
+  ]
+}

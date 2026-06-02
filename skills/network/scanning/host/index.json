@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "discovery",
+      "description": "skill directory index",
+      "sha512": "b2ac87f90973853e00142fd786409da96892e94c859c010b5ecc075c8823e3754555cb14e6866f7036c77bf03ea2f97e77b9de50c52a59af02ff3c8e4d949678",
+      "file": "skills/network/scanning/host/discovery/index.json"
+    }
+  ]
+}

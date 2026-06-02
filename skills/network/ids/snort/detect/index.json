@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ids-snort-detect",
+      "path": "network/ids/snort/detect",
+      "description": "Installs, configures, and tunes Snort 3 intrusion detection system to monitor network traffic for malicious activity using custom and community rulesets, preprocessors, and alert output plugins on aut",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0227335eb329f97c038b08e235122702d3c48fbac462dcc8bb3702f52752049791fcbf8fe2f14d1cc37b073768b3fecd95c88746b65cfc2e8edaf04007bcf203",
+      "file": "skills/network/ids/snort/detect/SKILL.md"
+    }
+  ]
+}

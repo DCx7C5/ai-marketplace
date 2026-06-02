@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "binary",
+      "description": "skill directory index",
+      "sha512": "b7ab0cabe8ac8605e1d6cab0d3e88c271a6bbd7be4786f9995023895673e404892c030cbb57ccb07a2a40ad2496accedc99a3241577c6cc60a91e44faa0b2a96",
+      "file": "skills/linux/logging/journald/binary/index.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "e0a5c9efece3bf5b9b44e4c2f3c2f841365cb9a6b6dba4c185dbe729ebde924793758b461b8b2e9e6ad572bf29ef0d14970bf80e325003e864c7f552c50a7777",
+      "file": "skills/industrial/ics/historian/attack/index.json"
+    },
+    {
+      "name": "server",
+      "description": "skill directory index",
+      "sha512": "5c6af1475a699845c0ff58877384ac7d9634a3aa6628946c069a453c70bb2c663812cb0675bc423cab29cdd133c4634a4cf11e094fb7c16cf71972fde8769542",
+      "file": "skills/industrial/ics/historian/server/index.json"
+    }
+  ]
+}

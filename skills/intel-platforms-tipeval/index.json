@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-tipeval",
+      "path": "intel-platforms-tipeval",
+      "description": "Intel Platforms Tipeval.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "37b7d76ef94c484eb3bbd68fa1a11ba58cfd7f24d2a4237a954e225973f8b8fbbc4fe1bb2c196ebd0e242dd380143bbb41aeba02c0f90e1325ceed4316699933",
+      "file": "skills/intel-platforms-tipeval/SKILL.md"
+    }
+  ]
+}

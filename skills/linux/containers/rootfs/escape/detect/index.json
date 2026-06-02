@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-rootfs-escape-detect",
+      "path": "linux/containers/rootfs/escape/detect",
+      "description": "Detect container escape attempts exploiting privileged mode, dangerous capabilities, host path mounts, and runtime vulnerabilities in Docker, containerd, and runc.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0f0d508958045855b372dce2e906313123337bf3e5b2f1f3392cc162ec4a674294f6f83710dc8ebda61fe53990bb0b0a357e3312eac4af9902df64422233fc8",
+      "file": "skills/linux/containers/rootfs/escape/detect/SKILL.md"
+    }
+  ]
+}

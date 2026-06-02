@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "digital",
+      "description": "skill directory index",
+      "sha512": "f4cc11814cb7131a31c11abcffce39bd50b6e4fc2c92193277458c8bf65d6efdc42aef955fdc832f2bfb255393d30ae716738a61d00bad8e8e0172ba1bef7f7c",
+      "file": "skills/crypto/asymmetric/digital/index.json"
+    },
+    {
+      "name": "rsa",
+      "description": "skill directory index",
+      "sha512": "9055ad546c0c86c5fb7efecf149f7adb45b8582c7de21a634abeca4a619c811349b4221158532baa7049511d1d6f6293cc96e2833d2cc1c57f72485233f2b9f7",
+      "file": "skills/crypto/asymmetric/rsa/index.json"
+    }
+  ]
+}

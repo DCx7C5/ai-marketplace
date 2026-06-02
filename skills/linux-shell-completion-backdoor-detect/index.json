@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-shell-completion-backdoor-detect",
+      "path": "linux-shell-completion-backdoor-detect",
+      "description": "subdomain: persistence-detection tags: - linux - bash-completion - shell - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f4e23a0fa3d36719d939346c5335e57c8c663487dcd9dd58b9e5c6f7cc5c1f5993dd39fb40f4a6278c58fba076d6ffea389a373ea04cf30b5ea03bd6fbe6bf18",
+      "file": "skills/linux-shell-completion-backdoor-detect/SKILL.md"
+    }
+  ]
+}

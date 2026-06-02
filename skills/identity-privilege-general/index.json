@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-privilege-general",
+      "path": "identity-privilege-general",
+      "description": "Identity Privilege General.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "69dee499633f61951f4de5e41f293a41fa3f8ffcc9cc712458bd676c69d4d719fd7d339be30275e16ab41db1cba2fea746e9531f14ae051ef74d8961fee771ce",
+      "file": "skills/identity-privilege-general/SKILL.md"
+    }
+  ]
+}

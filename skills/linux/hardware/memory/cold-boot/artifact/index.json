@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "bbd53cd3996c81a029ec3691552e8514a04c2c14166acaedaf16afbc2bc3764394e425fe23d0f190cf9842614f25430b5fb4eaa6226e786012620b2074a17d29",
+      "file": "skills/linux/hardware/memory/cold-boot/artifact/collect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-fs-artifacts-shellbags",
+      "path": "windows-fs-artifacts-shellbags",
+      "description": "Windows Fs Artifacts Shellbags.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1a546b13dc7dd47d39acc24580b8570b71d87f6d1318e950c313a65805c448ac24a87cfd3d0b59c14067d1523d2f6e47eb2c68a2ec291b09338f8e87316d5b6a",
+      "file": "skills/windows-fs-artifacts-shellbags/SKILL.md"
+    }
+  ]
+}

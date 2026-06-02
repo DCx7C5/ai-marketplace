@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-kerbattack",
+      "path": "identity-kerberos-kerbattack",
+      "description": "-| | Rubeus | Kerberoasting and ticket manipulation | Windows (.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fa0e025c4b35013041821d45826c391396f2edd25d92e6d95f6c32326c7c1ee9749528b2918a5ac6a8ba00b1d9d596ea0a14d0657915be312033f6f4d0dc02ba",
+      "file": "skills/identity-kerberos-kerbattack/SKILL.md"
+    }
+  ]
+}

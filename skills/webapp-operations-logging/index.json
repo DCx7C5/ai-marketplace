@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-operations-logging",
+      "path": "webapp-operations-logging",
+      "description": "Nikto/2.1.6, sqlmap/1.7, DirBuster-1.0-RC1, gobuster/3.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2e6da05fd53e0f44d0c967cec8513f140cfa8cf7401962fca10697e2829e852b277076e3d6c73be3ebdc2a446dcc000e0089e7f5bb30028ed53e7ae4c7817203",
+      "file": "skills/webapp-operations-logging/SKILL.md"
+    }
+  ]
+}

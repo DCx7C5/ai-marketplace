@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "500ba17739d224f2bb64610085ee088953a99f1bf89fe0e5ffcd3011780e06c5e47e6d7cab3d1088499deca6d0759df6aec947a5e47c078fc8caa5fa2ad752b1",
+      "file": "skills/compliance/nist/assets/index.json"
+    },
+    {
+      "name": "csf",
+      "description": "skill directory index",
+      "sha512": "1aaccc3a6fe84ceb83ab5b7a2c012efec7f61e07d9a511293c79da74ba96694d6063634499552a4ed9209f04e3e0b34e8bb3110ab266d942f8f4911402c013d4",
+      "file": "skills/compliance/nist/csf/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "8fd49fb0611ba638c7beface509d8780c5b3a9201248b3cccc110cc48dfcb0c74de94d142f9f816817306eae98ffc61e7fa39d49a51acf873fe790c6d5d92914",
+      "file": "skills/compliance/nist/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f303bf167ecf58bbc685930aa3716987d66125a5b81d7ee49b13d883b56f4e3b120208f95a90a768888392f2c9f6bb93986201ec98b5d2e6e767303c87657a59",
+      "file": "skills/compliance/nist/scripts/index.json"
+    }
+  ]
+}

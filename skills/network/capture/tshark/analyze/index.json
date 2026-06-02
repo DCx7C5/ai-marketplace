@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-tshark-analyze",
+      "path": "network/capture/tshark/analyze",
+      "description": "Automate network traffic analysis using tshark and pyshark for protocol statistics, suspicious flow detection, DNS anomaly identification, and IOC extraction from PCAP files",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8df737d539325539849142ec0074b2cf7b357025c0537c5d9c50877828424a43f75a3e00b32453c40d119bc21581a8f2b27217e37918bc9e70dce5881bc2dea5",
+      "file": "skills/network/capture/tshark/analyze/SKILL.md"
+    }
+  ]
+}

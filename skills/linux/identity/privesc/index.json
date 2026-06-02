@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "f2a435513e935d7c14f6dd441d54d02b4015d2450b07314dc53f13a2bca0dd463d4480bd3941942daa1017d33ad17fbcca0caf99238eb88300744f5e05891228",
+      "file": "skills/linux/identity/privesc/assess/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "c74f6e7f54be93710786c1cd1effcd851625095c9062c187b00f987b0d110b07fdf72d59cdeb5cdaef232c3df0e1ca45d098800024995ef6f1d97839c2a3dc84",
+      "file": "skills/linux/identity/privesc/detect/index.json"
+    },
+    {
+      "name": "kernel",
+      "description": "skill directory index",
+      "sha512": "930fe60347b7132445be33444f5c6b1ff4cac0d0e994e3ff2a0fe6a9999871d06de88ca4c41a96a72709952e88c7fbc779bbbec32e897155212e9057a2d05070",
+      "file": "skills/linux/identity/privesc/kernel/index.json"
+    }
+  ]
+}

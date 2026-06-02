@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-syscall-ptrace-abuse-detect",
+      "path": "linux-kernel-syscall-ptrace-abuse-detect",
+      "description": "subdomain: kernel-security tags: - linux - ptrace - syscall - abuse - sandbox-escape nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3ead5d8740b026c1bfee1c78c1e3bd1d23ad976559a43ca987af81fa0a05ba98d7ed82acee3c15ef60d0a37e60652ba1c599a3bd6f462afd40e7a36f9de0ef8a",
+      "file": "skills/linux-kernel-syscall-ptrace-abuse-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-docs",
+      "path": "devel-jb-gws-docs",
+      "description": "-| | [`+write`](../gws-docs-write/SKILL.md) | Append text to a document |  ## API Resources  ### documents    - `batchUpdate` \u2014 Applies one or more updates to the document.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c21846bfeba5b4df20173ca739eb732de5ca68d89b0bd0bdf1bbae9632bc44a864c7a800d7cac168966774d8003d585300996560df0922f586d35bae7acdf993",
+      "file": "skills/devel-jb-gws-docs/SKILL.md"
+    }
+  ]
+}

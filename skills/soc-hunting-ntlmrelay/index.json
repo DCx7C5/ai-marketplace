@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-ntlmrelay",
+      "path": "soc-hunting-ntlmrelay",
+      "description": "JSON report with suspected relay events, IP-hostname correlation anomalies, SMB signing audit results, and MITRE ATT&CK mapping to T1557.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b6f18ffa0c4f6defea54ab95017a1ff789df320c88d803bdd283898fa3db20ff83c71aee3580b323d9fb8db86ca990b7457dae5dfc9b1443144096fdb5e8def6",
+      "file": "skills/soc-hunting-ntlmrelay/SKILL.md"
+    }
+  ]
+}

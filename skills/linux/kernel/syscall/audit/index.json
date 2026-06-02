@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "99670e4235a40a9deb1e88326d6b46d6024246fa05ae20c390ef0f2c79b14d722a4132f21872e0d85ea1e064a0f0cfe7e2a7d172b60fd495754bc6dbc8952a06",
+      "file": "skills/linux/kernel/syscall/audit/monitor/index.json"
+    }
+  ]
+}

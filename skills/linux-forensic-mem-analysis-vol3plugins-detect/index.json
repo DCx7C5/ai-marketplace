@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-vol3plugins-detect",
+      "path": "linux-forensic-mem-analysis-vol3plugins-detect",
+      "description": "- [MITRE ATT&CK T1055 - Process Injection](https://attack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "66119e8b65f20f5ae59d7fa2ed41089b6cbbb42397f7a3fcf3eeb69ca4caa6235b4f83c31df6fa9286620f8f25d8eefa4e0b11a15250fad7073463dbbe74c434",
+      "file": "skills/linux-forensic-mem-analysis-vol3plugins-detect/SKILL.md"
+    }
+  ]
+}

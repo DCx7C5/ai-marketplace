@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "llm",
+      "description": "skill directory index",
+      "sha512": "a529a61ff0034ecfb49243cabf9acfd9a7c2f11a7cbfbd2348a1c92802085d03ddb0f4e098841a69d9c0beba2bd0fe729147e440b7ff8d9ebf6c8ff2a31e8673",
+      "file": "skills/web-application/ai/llm/index.json"
+    },
+    {
+      "name": "model",
+      "description": "skill directory index",
+      "sha512": "9ca907122326514a03890cff4ae6c8ecbc035f628dc7fe4112952b3ba3d34eb1b8b32f5dec19a02acfa97054255ec8828b2cd4f9bcfd0adb52adaf5024c498fc",
+      "file": "skills/web-application/ai/model/index.json"
+    }
+  ]
+}

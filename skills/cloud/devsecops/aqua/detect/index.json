@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devsecops-aqua-detect",
+      "path": "cloud/devsecops/aqua/detect",
+      "description": "Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ecdaa62ff6951a2f1c08d3bfd644591e963b6fafe8bfce439d6e8d02fda3b28df209433ff263b1ba654dccb0b31490555a733cd0c83d0cf15b984e8809b9de03",
+      "file": "skills/cloud/devsecops/aqua/detect/SKILL.md"
+    }
+  ]
+}

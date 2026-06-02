@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assessment-network-analyze",
+      "path": "network/assessment/network/analyze",
+      "description": "This skill covers conducting comprehensive security assessments of Operational Technology (OT) networks including SCADA systems, DCS architectures, and industrial control system communication paths. I",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a8d640552d9e76ad5489cfaff0dadec5daca9dce01320d311d0ac2be8fd1d2eb9e328ebe113b8c09f83fcec87ce1cdac1aea9f94f745a01f2ce9102601448428",
+      "file": "skills/network/assessment/network/analyze/SKILL.md"
+    }
+  ]
+}

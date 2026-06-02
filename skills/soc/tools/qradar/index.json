@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "7a0c4d2c417fd4697f44287dcd15c39307352aa05f2271cfe984a6d71c2b4e94f130a49473fb16d8cdc0427fb49f39a50c682302bdcf638ea58c569040bbaa47",
+      "file": "skills/soc/tools/qradar/deploy/index.json"
+    }
+  ]
+}

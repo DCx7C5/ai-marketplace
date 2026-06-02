@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "a011f9263f753292e030cc077f2cd4d635525465d363ed9d8d798b57e95801a5ddd15cf34c1b1e2aa5b72d790801a04d6ee117338fd5114b070e0b8e776eca65",
+      "file": "skills/soc/hunting/registry/analyze/index.json"
+    }
+  ]
+}

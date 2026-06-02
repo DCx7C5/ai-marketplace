@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hook",
+      "description": "skill directory index",
+      "sha512": "77218a2111154d473951b734aa1484e343ced68b6ec535255b2e637923cf7c96281535f674b56c845d63bcfbf521f15e3bd3f31b2e4ad132d1133283e37461d7",
+      "file": "skills/linux/processes/elf/got/hook/index.json"
+    }
+  ]
+}

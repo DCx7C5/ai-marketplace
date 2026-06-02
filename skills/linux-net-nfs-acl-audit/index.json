@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-nfs-acl-audit",
+      "path": "linux-net-nfs-acl-audit",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "123cd4de686304a6d93920517c772186ca1b1ca8cb5bbf1646b65b5e65b4cf16174f68a99a58862148a9b00c226c81bc9d7463854a0317b733c697cc4ae6a718",
+      "file": "skills/linux-net-nfs-acl-audit/SKILL.md"
+    }
+  ]
+}

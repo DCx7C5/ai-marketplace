@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hashcat",
+      "description": "skill directory index",
+      "sha512": "475b1e42c41c2e5e180cbf5744ed771d19af39588b61f198a0f908a8df4f18538c977ad4e5feef748a481d7f0d985b9d00e18c7b8da2699ce37240af7970960b",
+      "file": "skills/crypto/tools/hashcat/index.json"
+    }
+  ]
+}

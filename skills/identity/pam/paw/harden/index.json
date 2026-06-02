@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pam-paw-harden",
+      "path": "identity/pam/paw/harden",
+      "description": "Design and implement Privileged Access Workstations (PAWs) with device hardening, just-in-time access, and integration with CyberArk or BeyondTrust for secure administrative operations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a07d6b510d5c2f3bfc60c24008e4339b685364de8621137b818e6482a1124b5264c73589bbcf161fe5b06ad72c42d9f8d0455f6cc0a67b50d5294c84fd364a7",
+      "file": "skills/identity/pam/paw/harden/SKILL.md"
+    }
+  ]
+}

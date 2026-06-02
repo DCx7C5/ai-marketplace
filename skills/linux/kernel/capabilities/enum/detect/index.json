@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-capabilities-enum-detect",
+      "path": "linux/kernel/capabilities/enum/detect",
+      "description": "Linux capability enumeration, auditing, and abuse detection. Covers CAP_* flags, capability sets (effective/permitted/inheritable/ambient/bounding), container escapes via capabilities, and forensic de",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "166462b6dbb962976b3956ca24174fd567617de839acd8404755fce140b7d65cd145587241149161b7ba339409f4460d77d8270281020f38bf5fc6df0268f0cb",
+      "file": "skills/linux/kernel/capabilities/enum/detect/SKILL.md"
+    }
+  ]
+}

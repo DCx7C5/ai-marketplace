@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-net-segmentation-configure",
+      "path": "ics-net-segmentation-configure",
+      "description": "Ics Ics Net Segmentation Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8ba2d9bd112c0ead05f2e49f4f967b8b37492afeb222993d8c4883b6d3b766c2f0586262062b1650c3771e03bb16d3baed61c7e6593f4e41405316a592c5c6c1",
+      "file": "skills/ics-net-segmentation-configure/SKILL.md"
+    }
+  ]
+}

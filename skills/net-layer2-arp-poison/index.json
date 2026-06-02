@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer2-arp-poison",
+      "path": "net-layer2-arp-poison",
+      "description": "Net Layer2 Arp Poison.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8410d324c609606ae7f3acc6ba778258d7eaf028838970c47a95054046de358ea153029c6d14e661ae12aea31e266c60eb8db9e21bbd65e5133c3debc64f4743",
+      "file": "skills/net-layer2-arp-poison/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-triage-splunk",
+      "path": "soc-triage-splunk",
+      "description": "Soc Triage Splunk.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c00e8d223c3d1cada36e4a12050a2e26b9068215d1246f9d0d2ec72b909e350a11ad7d70e53422d1184cfa3b98706d47a301adf65e3bf10f3f0f89cafae66b56",
+      "file": "skills/soc-triage-splunk/SKILL.md"
+    }
+  ]
+}

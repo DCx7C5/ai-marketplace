@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-syscall-ptrace-abuse-detect",
+      "path": "linux/kernel/syscall/ptrace/abuse/detect",
+      "description": "Detect ptrace syscall abuse beyond process injection \u2014 unauthorized debugger attachment, credential scraping from traced processes, and ptrace-based sandbox escape.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2aa45d9a0016f78c019aa16450bcac5bb185465e47dd968fdf03724ca976515917b8104966b0ca40af3bedad5da275a46ee99d2d20962262341ff699215aa849",
+      "file": "skills/linux/kernel/syscall/ptrace/abuse/detect/SKILL.md"
+    }
+  ]
+}

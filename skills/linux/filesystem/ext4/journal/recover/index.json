@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ext4-journal-recover",
+      "path": "linux/filesystem/ext4/journal/recover",
+      "description": "Recover deleted and overwritten files from ext4 journals using ext4magic, extundelete, and The Sleuth Kit by replaying journal transactions.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cc7d14a341529ab3960f2e8e09d12955a658ddaa4d2db61e36fdf46392c9c8a2e223f92042a837ab314b12ba680140898b0f575b135a9a2b0d2d5de21481b53a",
+      "file": "skills/linux/filesystem/ext4/journal/recover/SKILL.md"
+    }
+  ]
+}

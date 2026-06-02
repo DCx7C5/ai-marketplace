@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "owasp-broken-detect",
+      "path": "web-application/owasp/broken/detect",
+      "description": "Discover and exploit broken link hijacking vulnerabilities by identifying references to expired domains, decommissioned cloud resources, and dead external services that can be claimed by an attacker.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "685c3115079a498428b4489293fc3177881ad4f3b9448f346606f3f0f8a23b7f501e64c131a5ee58777595f501df5167a867bd0196b0e2c858e938c5f4d5c3b5",
+      "file": "skills/web-application/owasp/broken/detect/SKILL.md"
+    }
+  ]
+}

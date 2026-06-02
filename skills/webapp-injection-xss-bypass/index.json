@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-xss-bypass",
+      "path": "webapp-injection-xss-bypass",
+      "description": "Webapp Injection Xss Bypass.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "520ef7b8f8e5f0bd214c3c59209296fe0140e62d5ef037453bdeddf620f5289331affc27114e9371e2dd928e8c1cd76f78dea9ca21fdc57cf39d8db294348bb8",
+      "file": "skills/webapp-injection-xss-bypass/SKILL.md"
+    }
+  ]
+}

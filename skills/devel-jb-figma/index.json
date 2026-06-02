@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-figma",
+      "path": "devel-jb-figma",
+      "description": "- `references/figma-tools-and-prompts.md` \u2014 tool catalog and prompt patterns for selecting frameworks/components and fetching metadata.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d415b32e2b2568dfec91249f5882384f4b246ed4536ca3fcbdfb0936e6736b59c5da09c1591beb5aadabfe03c1ba7e2960ed15dd1e71c81ee8cd117ce538ccda",
+      "file": "skills/devel-jb-figma/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "e4e0b253376a878f6f42769796d7a4f906473916376d379e447eabc20f6e688cdaa6015482e193af4a3f02e3a73eb9be080b04a7b4e22e521e660d35b31866f4",
+      "file": "skills/devel-jb-figma/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "82e9913fbc6a1b66382831e459410d51ee3a6c4bb3d3d50b7e703a0c9858af2cd3948125f80ccd64e273d8b8e08c6b1892dbe2096d2a5399f3ad40e23f689a9f",
+      "file": "skills/devel-jb-figma/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c4f767399e3c943fb519c8df884d2ef5205c06b7c825bb03ef119e44cdeaa9a239f41e484aabab861f016bd5beeadec4acc9a2d2646cf67a5c2a9a46abbe35f5",
+      "file": "skills/devel-jb-figma/references/index.json"
+    }
+  ]
+}

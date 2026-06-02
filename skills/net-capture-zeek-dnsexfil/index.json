@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-dnsexfil",
+      "path": "net-capture-zeek-dnsexfil",
+      "description": "DNS tunneling and exfiltration is a technique used by attackers to bypass firewalls and DLP controls by encoding stolen data into DNS query subdomains. Legitimate DNS queries have predictable entropy ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6d7ef6f3699c84ffe3987ecf9acb75901950ae06d06ce7cd423de58a06f3a82153e1f22c92c1a55c69227c82815347463bd6312abe74418caac1cb32d83c660b",
+      "file": "skills/net-capture-zeek-dnsexfil/SKILL.md"
+    }
+  ]
+}

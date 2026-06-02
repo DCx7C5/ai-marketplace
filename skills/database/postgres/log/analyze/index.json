@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "postgres-log-analyze",
+      "path": "database/postgres/log/analyze",
+      "description": "Analyse PostgreSQL audit logs, pg_stat_activity, and statement history to detect SQL injection attempts, privilege abuse, and anomalous query patterns.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0e0d87500048a396debdcbdc91065b148a082482e40c448de9a84fff5942642f1803bab114cf4ad80951f8346058ac378e7c5047894d9ba1613afaa041a4e8a",
+      "file": "skills/database/postgres/log/analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dns-subfinder",
+      "path": "net-dns-subfinder",
+      "description": "| | api.example.com | 10.0.1.5 | 200 | Nginx, Node.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "08b9c1d514f6541fc87dbed68750ab1f06d0698f5b40a0956594c423ff964ea8e25cb1a41b953edc90e8dc07d3906a291a5677e52d9f397bd87db3363386195c",
+      "file": "skills/net-dns-subfinder/SKILL.md"
+    }
+  ]
+}

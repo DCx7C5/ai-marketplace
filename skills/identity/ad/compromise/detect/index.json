@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-compromise-detect",
+      "path": "identity/ad/compromise/detect",
+      "description": "Investigate Active Directory compromise by analyzing authentication logs, replication metadata, Group Policy changes, and Kerberos ticket anomalies to identify attacker persistence and lateral movemen",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f49eb3360f19e75ae67877b55a5a695c270d79677d174dfa282721b2dfa54ac28922c80fdc1065906e8a435b303efc2fc4687b77830fff3ca0071f3564ed4f4f",
+      "file": "skills/identity/ad/compromise/detect/SKILL.md"
+    }
+  ]
+}

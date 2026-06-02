@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-quishing-detect",
+      "path": "email/phishing/quishing/detect",
+      "description": "Detect and prevent QR code phishing (quishing) attacks that bypass traditional email security by embedding malicious URLs in QR code images within emails.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1412124670f3b051fc2824b21c8159356040dc90bb17774de987bc5742880eb2bc8c1d53a20883444722865f091459c5abdb79b079dcea0390bace1c4db19f58",
+      "file": "skills/email/phishing/quishing/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-identityverify-monitor",
+      "path": "cloud/zerotrust/identityverify/monitor",
+      "description": "Implement continuous identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturit",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1355b9a359c6af3ef94b72effafdace8e1744785bb2e849db82dd14539ec6185795e4ef71cba18fe08ff0fa89fbb5c8151e60178a0558a36bc012884fbbfa1e0",
+      "file": "skills/cloud/zerotrust/identityverify/monitor/SKILL.md"
+    }
+  ]
+}

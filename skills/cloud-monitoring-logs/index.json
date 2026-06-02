@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-monitoring-logs",
+      "path": "cloud-monitoring-logs",
+      "description": "- When investigating security incidents that require analyzing cloud storage access patterns - When building detection rules or threat hunting queries for this domain - When SOC analysts need structur",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "793a48457e30aa9fe19ee94c6051beab03d2933caac1fa36da19ce08d7f9da4bafe3a74fe06726aa650afcd6349557adde3fb26d68b0de3467e023c4460469d3",
+      "file": "skills/cloud-monitoring-logs/SKILL.md"
+    }
+  ]
+}

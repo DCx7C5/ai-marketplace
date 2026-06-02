@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "577a0cf218ef3664b5f4e646e14fe29be2542f7cd3215109351d77fa032a28de6731d1c7e3b10153179cae67e80e4aa29d7f4e9b94facb34dbf9a5e03ad35e86",
+      "file": "skills/identity/saml/googlesso/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9d8210424ac5ace8acad0d36a9467322ad48f5b62192933c2c28e08fc9ceffad64431818ca81bedd0b7113e0a4fefb42b69dc2cbdbe4887f69e15deb3454143d",
+      "file": "skills/identity/saml/googlesso/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4b52781fab85e8ff9070042b0d78df03fc8930bbd6026fcfcd3963b5b615d3e1f2e471a6b1801a928a3e4302e7e6b08dcf616aa6ab575951c30614568287272b",
+      "file": "skills/identity/saml/googlesso/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "eeb14368b012bcdf291763681f704fd9514df42d51f0a4696a7018335573198f1af7d7da91f17dcaabbd6ba8acf1c59dff2136c2a9a8221929bb873473d736f9",
+      "file": "skills/identity/saml/googlesso/verify/index.json"
+    }
+  ]
+}

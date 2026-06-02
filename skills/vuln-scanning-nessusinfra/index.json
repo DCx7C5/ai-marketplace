@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-scanning-nessusinfra",
+      "path": "vuln-scanning-nessusinfra",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7082686c01cfa959d57c44c2c491d44f28f9d514170febe96de384b3f8cb2227c9e05087265184208c0a21332892d5e708bd316a070734c05c646c92f4a671ef",
+      "file": "skills/vuln-scanning-nessusinfra/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "c8622019e403496cab5bcf6abf10c700498ee35d5c03af8d4b4284c3229c99a525c22d5874640e8be909337af7ecfc1991d903cdd6e2edd56af5e77e3dadfebe",
+      "file": "skills/vuln-scanning-nessusinfra/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ec17792f181f491ab882c74cf208170f0a08981088329e734f5dc6beabc2428954ca0a87ac5a9b825a5b84e312a2a5fd34717cf8f3d6203b97bb5683e2b3013c",
+      "file": "skills/vuln-scanning-nessusinfra/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "95bf5aafcfc4b4fddb1cc6ea628a99fa0d9972e0995062758ac67426444d55b5161302699b113fbbd57ba84d8ecb887b62f1571c3448230771e4d6a7e3c3759d",
+      "file": "skills/vuln-scanning-nessusinfra/scripts/index.json"
+    }
+  ]
+}

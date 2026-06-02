@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-dll",
+      "path": "soc-hunting-dll",
+      "description": "Soc Hunting Dll.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4e9c20f093e6de00525caceb5b8542cd276cccef156f394a8fb95f399761580e6a215151a3b29de8db5774b6234190eb4d4c33a5cfc05ad4f49fa47c83c2f408",
+      "file": "skills/soc-hunting-dll/SKILL.md"
+    }
+  ]
+}

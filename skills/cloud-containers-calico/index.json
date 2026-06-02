@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-calico",
+      "path": "cloud-containers-calico",
+      "description": "JSON audit report listing all network policies, unprotected namespaces, policy rule counts, and connectivity test results.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "66f31c23b77b07259ebc2f5ed7408137d78eda2ebb282543cbaf7dc95ea08cd2f3682a9a4d32d281e37ee66ef18f9d93f8c188918b41f9b0b55adb23b70494dd",
+      "file": "skills/cloud-containers-calico/SKILL.md"
+    }
+  ]
+}

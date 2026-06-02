@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "postgres-privilege-enum",
+      "path": "database/postgres/privilege/enum",
+      "description": "Enumerate PostgreSQL roles, membership, schema privileges, and superuser grants to identify over-privileged accounts and dangerous role assignments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e7847c0e39ba5efc11794318811d92831ee0a2429269d16cd6266a862d938e792f2b33229edce3667a80e7c13c4389581e8811c97319c7354e8c7fbfdee1be31",
+      "file": "skills/database/postgres/privilege/enum/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "shell-completion-backdoor-detect",
+      "path": "linux/shell/completion/backdoor/detect",
+      "description": "Detect shell completion script backdoors \u2014 identify malicious completion functions in /etc/bash_completion.d/ or ~/.bash_completion that execute commands on tab-completion events.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed8bbd393cadff53d2661c838a0639508381f22253e5eb3d9d6bcdfd1127d5d0ffb3efe2ae92305cf04ea939310e7f56668c79ab9f713d78e905d2a2c7106979",
+      "file": "skills/linux/shell/completion/backdoor/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "memory-heap-spray-detect",
+      "path": "linux/memory/heap/spray/detect",
+      "description": "Detect heap spray attacks in browser and application memory by analysing large blocks of repeating NOP sleds, shellcode patterns, and suspicious allocation sizes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ebe41568cb79e2c7f2e98376d2a53d495c7cce8ab9a99762d73a0d57a49bf037f8e165fc25d82650b07717745004d2c5aad3405af83d8aa54ea370f9c0b2f679",
+      "file": "skills/linux/memory/heap/spray/detect/SKILL.md"
+    }
+  ]
+}

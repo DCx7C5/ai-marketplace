@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "brute",
+      "description": "skill directory index",
+      "sha512": "f47833f16f9eccc73319bd3177fd1bfd51a264a3b6736a2682cf961312019e1365d23efd8201e9ef677e81746b3a94ddb610706febe294d83cd6560aab810b6d",
+      "file": "skills/linux/network-services/smb/brute/index.json"
+    },
+    {
+      "name": "config",
+      "description": "skill directory index",
+      "sha512": "c87a7e3d22880df27f5ccb23156121eaebaef0664ae8ce87cfb66200e93cec3726dbb59c8cdf88b133763d5ccf91cdae399c19a4719b5ccacd633cbc1165af71",
+      "file": "skills/linux/network-services/smb/config/index.json"
+    },
+    {
+      "name": "credential",
+      "description": "skill directory index",
+      "sha512": "162bcbf402d6f3e75948ad4245cc86e3b91c19c9ed357f7f1f143f1e657444698be17d1442ea14a719bf2bb7c26271679a7295c1ebbf19900f4b9cd2bbfe9e41",
+      "file": "skills/linux/network-services/smb/credential/index.json"
+    },
+    {
+      "name": "null-session",
+      "description": "skill directory index",
+      "sha512": "1b9bf44dfe95867934d45b29e14ab858189452119f4279eff711c4de076eb054567c9dd2582af7e6e39bdd551263f23d872f2b5562e304582220d7b9526cddea",
+      "file": "skills/linux/network-services/smb/null-session/index.json"
+    },
+    {
+      "name": "relay",
+      "description": "skill directory index",
+      "sha512": "de50747ae61760efbaac9a7ae353412de745c4eed55712db21f8dcd912ec593e76ff6839f40903502f116d58a54203a335ef37baa95c2c69a938373b2cbca5fc",
+      "file": "skills/linux/network-services/smb/relay/index.json"
+    },
+    {
+      "name": "share",
+      "description": "skill directory index",
+      "sha512": "3f6f6e039f4520c0b6b624c48332ededff89860b3997629cd1df0cf65caf56db1f62c90dd5fd768df57234142bb5163ab006951bc77fcf7a0b7da2e276bbcb31",
+      "file": "skills/linux/network-services/smb/share/index.json"
+    },
+    {
+      "name": "signing",
+      "description": "skill directory index",
+      "sha512": "d7dac444b9eac5d732d3c1dba18a95aa9da6323dbd5827057ba1a369f89914e0aa2e114abedff56758283d3b2849f2cd92dead066388c449888590bbdae3960e",
+      "file": "skills/linux/network-services/smb/signing/index.json"
+    }
+  ]
+}

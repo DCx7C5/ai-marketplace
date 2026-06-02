@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-harden-apparmor-profile-create-configure",
+      "path": "linux-harden-apparmor-profile-create-configure",
+      "description": "subdomain: hardening-implementation tags: - linux - apparmor - profile - mac - harden nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "686c211933523dceb9706e6d57c82b72e9575c16b881ce4b801bd4cf2a617ca6f9fb18570e3c29ee4f38af0c693fe9fc002f00e93f6eea7b8e773a0bbab1290c",
+      "file": "skills/linux-harden-apparmor-profile-create-configure/SKILL.md"
+    }
+  ]
+}

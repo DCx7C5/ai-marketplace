@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-threat-hunt",
+      "path": "intel-analysis-threat-hunt",
+      "description": "Intel Analysis Threat Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b19621051a2aa9d80cfcd9a2dcf44c5faca984771c6cb0a8271d9b4f67a776a165ffba2faef567294f068405f6db2f651d4ab8dd9aa8a17b68f9c560393875c8",
+      "file": "skills/intel-analysis-threat-hunt/SKILL.md"
+    }
+  ]
+}

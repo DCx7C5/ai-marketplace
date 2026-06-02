@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "f84285a2975befc0a0e8998e92de9471fbd0176e429879268bb12e64c1b6dfb992cbc0fbf19a60cce5e4ebbafbbbdc3f4bdc858d12f8ba089d9e160e99cdd8b9",
+      "file": "skills/network/metasploit/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "10e0a03bbfd6e24246d25e0f95c55c4c3186cac299f443e4638476e500f98df7358ba560c21d3bc97e3d4d39a121708fd976df886dc55a91fb708b3ea5a3b69c",
+      "file": "skills/network/metasploit/scripts/index.json"
+    }
+  ]
+}

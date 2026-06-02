@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-lvm-snapshot-forensic",
+      "path": "linux/filesystem/lvm/snapshot/forensic",
+      "description": "Create LVM snapshots of live volumes for forensic acquisition without unmounting, preserving filesystem state and avoiding evidence contamination.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5c6615a536737d2d3643086c06ba4d95afe138e8abc6b6131e89fe9c021bc70ebd8dd8c18f0f18c6cbb5ac638d7f18bf552447bb830927ee1dada113e2dded64",
+      "file": "skills/linux/filesystem/lvm/snapshot/forensic/SKILL.md"
+    }
+  ]
+}

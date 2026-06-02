@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "malicious",
+      "description": "skill directory index",
+      "sha512": "af0b7b2a1cd7b0ea2465344c6ad78912a53dd9864f3c2ae3d5090fc86447a9289dd332736e36bd4b3f81dc5d91033d6b65250188ff87df354b5a92fd65e0ed00",
+      "file": "skills/browser/extension/malicious/index.json"
+    },
+    {
+      "name": "manifest",
+      "description": "skill directory index",
+      "sha512": "1544a413d3f1c9d959d27f344e56c4890b180e129e13699e4c6576012f6414ae97fdf055eb50dce7ca0a115cc2991f9789d7defc0a8d773c5e07154cb053bfc9",
+      "file": "skills/browser/extension/manifest/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-mem-cold-boot-artifact-collect",
+      "path": "linux-hw-mem-cold-boot-artifact-collect",
+      "description": "subdomain: hardware-forensics tags: - linux - memory - cold-boot - dram - forensics nist_csf: - RS.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f6fb65b2f3e2b91882f8a26685969d4bb83efb649775fe841d8f93903161f62ca87cae542e10f3b1a79f46ba05958f05a284265d8ba71a08419498f1c3431d75",
+      "file": "skills/linux-hw-mem-cold-boot-artifact-collect/SKILL.md"
+    }
+  ]
+}

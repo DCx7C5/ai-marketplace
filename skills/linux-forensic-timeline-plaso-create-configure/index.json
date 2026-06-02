@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-timeline-plaso-create-configure",
+      "path": "linux-forensic-timeline-plaso-create-configure",
+      "description": "subdomain: forensic-analysis tags: - linux - plaso - log2timeline - timeline - forensics nist_csf: - ID.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f3e935a5fbf46811fa7f4dd1fe0c187501d2b059bdc15a59b8ebd41f97b69802a4a7d2c53bbf1f8cd55f909d3c9bffa57e0c4b24946f3c3edbcdc466f22d15a5",
+      "file": "skills/linux-forensic-timeline-plaso-create-configure/SKILL.md"
+    }
+  ]
+}

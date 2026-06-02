@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-assessment-ciscoise",
+      "path": "net-assessment-ciscoise",
+      "description": "Net Assessment Ciscoise.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fa5ceb7e3a937418f16aed9976a5c233e5c72f187aa1acc8cc44b0107a2eb2f326dffb2a2111ca5256da1a60be9058dc43ec4e27e5b60f4b235b1d48191f37a1",
+      "file": "skills/net-assessment-ciscoise/SKILL.md"
+    }
+  ]
+}

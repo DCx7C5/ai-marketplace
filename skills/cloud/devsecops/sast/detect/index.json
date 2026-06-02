@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devsecops-sast-detect",
+      "path": "cloud/devsecops/sast/detect",
+      "description": "This skill covers integrating Static Application Security Testing (SAST) tools\u2014CodeQL and Semgrep\u2014into GitHub Actions CI/CD pipelines. It addresses configuring automated code scanning on pull requests",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "92f5f50fce28a94c4cb1b4396c483aeee999d50252664189b2b5af5ceb998a3cb8c0299d056788f4a4c4f49e274eeae20f500156da0e24611f6537677cc149b8",
+      "file": "skills/cloud/devsecops/sast/detect/SKILL.md"
+    }
+  ]
+}

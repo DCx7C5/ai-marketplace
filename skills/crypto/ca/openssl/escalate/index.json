@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ca-openssl-escalate",
+      "path": "crypto/ca/openssl/escalate",
+      "description": "A Certificate Authority (CA) is the trust anchor in a PKI hierarchy, responsible for issuing, signing, and revoking digital certificates. This skill covers building a two-tier CA hierarchy (Root CA +",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d9cce37963fbde4cbfbb9f974537e85063b7051a1c9a7690e742aa8cf5a4a9cc8d5b656c6dfb967239bb4b59ec12889a7c4b838d0a0674d9bbff2161d9fe41e6",
+      "file": "skills/crypto/ca/openssl/escalate/SKILL.md"
+    }
+  ]
+}

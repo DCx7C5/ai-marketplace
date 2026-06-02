@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-smb-null-session-detect",
+      "path": "linux-net-smb-null-session-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "95463cfb73969a5fcb7fc65d3996988e1263af3b798b1c502ad70440ed42169ff8d5c120b5846eae5c43d8371a4f4f8abfb1021f7529436cc6b33abcbdda4614",
+      "file": "skills/linux-net-smb-null-session-detect/SKILL.md"
+    }
+  ]
+}

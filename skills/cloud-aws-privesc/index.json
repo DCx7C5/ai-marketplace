@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-privesc",
+      "path": "cloud-aws-privesc",
+      "description": "5. **Score and Prioritize Findings** \u2014 Rank findings by severity based on escalation vector type 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "96ecfddcbadb857231e585272f90026714ec1bf9595243f7778153f980cdb7559d467b217088829efc874759d85776048e546b8294c810dc773b81a4a2bbe50a",
+      "file": "skills/cloud-aws-privesc/SKILL.md"
+    }
+  ]
+}

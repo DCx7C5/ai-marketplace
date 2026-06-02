@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "fingerprint",
+      "description": "skill directory index",
+      "sha512": "c7dcb323592188ae8d791769906b4f39c28b46d0523037be02123610266e2a4a00683c41b6c14c494bb7d65fb9e3673f28fe15ed7eaec1ff6f0273d825e89af2",
+      "file": "skills/browser/phishing/fingerprint/index.json"
+    }
+  ]
+}

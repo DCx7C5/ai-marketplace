@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-ipc-named-pipe-detect",
+      "path": "linux-proc-ipc-named-pipe-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f051060e9a506f6a5a38ea7c3142a3a3e054366aafe869d4317f78089d0209abe7cb9fbd51d4342ef30b9d62dbce6fa014c5251a307d33be9ecb5fe70d5494d",
+      "file": "skills/linux-proc-ipc-named-pipe-detect/SKILL.md"
+    }
+  ]
+}

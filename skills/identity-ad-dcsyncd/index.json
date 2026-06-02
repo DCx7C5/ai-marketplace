@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-dcsyncd",
+      "path": "identity-ad-dcsyncd",
+      "description": "| | Mimikatz (lsadump::dcsync) | Primary DCSync attack tool | | Impacket secretsdump.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27cafede9abc80d2dd34a3f19448fc816e0b174d0323a029b4fd21d0631a955f32961b722430b95adf5e8be65c2c5cab8f0d5c1d55cba694e1f69c1798fcfa86",
+      "file": "skills/identity-ad-dcsyncd/SKILL.md"
+    }
+  ]
+}

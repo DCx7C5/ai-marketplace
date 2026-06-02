@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-header-host-poison",
+      "path": "webapp-header-host-poison",
+      "description": "-| | 1 | Password Reset Poisoning | Host: evil.com | Token theft | Critical | | 2 | Cache Poisoning | X-Forwarded-Host: evil.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ce5edf95775fb9483e4aaa44bbad59c099894d2800de279811d8bd5d25043588418ff34ab77beb41dab3c93e353acf59ef1dae9acfab4475c26d4096c3276f08",
+      "file": "skills/webapp-header-host-poison/SKILL.md"
+    }
+  ]
+}

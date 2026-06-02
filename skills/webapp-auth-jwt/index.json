@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-jwt",
+      "path": "webapp-auth-jwt",
+      "description": "Webapp Auth Jwt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4b26a13d860a7ac12337ec1e7bf53d5a1a923a8e1ca7f75910ee8510abe5a7a84bfa3b69ff9cbe8824cccdcfa429230948668e3c84f8899c0f886d3c3c1b11dd",
+      "file": "skills/webapp-auth-jwt/SKILL.md"
+    }
+  ]
+}

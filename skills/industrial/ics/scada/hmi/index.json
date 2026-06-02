@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "37b8d713a20e2ca169bcb6429fc9fc2780b51bf00966752b09b15f58fa7d7276ec509d4af7ed90898340985424e6bbbd2b925b0a10c0a6b7a2e5988eddb7559f",
+      "file": "skills/industrial/ics/scada/hmi/assess/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "1aed196abd9ba808699054a98ceb92c30a8e89b8974ef0265c67310b02192c470ea70e6ee1e28924d26ef6da0a1f4c4e6a119479747d76d31a50d1ddcab9819e",
+      "file": "skills/web-application/injection/sqli/sqlmap/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "0f33e2066ed9f59331e871b22c8ecfea04c2438f7f17f220fa8f02c8e2a845939d17d71398ddec999bf82b2868451fc18b19078f67ea12e7ea60b3aea1880312",
+      "file": "skills/web-application/injection/sqli/sqlmap/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "652ebf4ccbd066d8c9af17ff3d6d073842444ce75cf97e4e67396c2c5edcf6803548decfed8da1e2f2633507d2f3d1e91c12a72bb492bb73ee9129c862c5cb2e",
+      "file": "skills/web-application/injection/sqli/sqlmap/scripts/index.json"
+    }
+  ]
+}

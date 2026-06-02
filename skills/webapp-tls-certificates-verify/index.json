@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-tls-certificates-verify",
+      "path": "webapp-tls-certificates-verify",
+      "description": "- When investigating security incidents that require analyzing tls certificate transparency logs - When building detection rules or threat hunting queries for this domain - When SOC analysts need stru",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c19e00010d1ff1faca929b8c08d0f339ea7b1b68671a0d5d68c5afc0227aeccb3d713f71f2afcca2af3a202950c5b8a413f495aa25c682a80c9fefdfb9d98d4d",
+      "file": "skills/webapp-tls-certificates-verify/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-tls-downgrade",
+      "path": "net-protocol-tls-downgrade",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3bc646fde9d39ea84c17d38197df60d90a43a8bb7172c4d1e24e2f84ff7401a94229347b76e7242d49532b14dd72751a8fd8504edf7c55f9d35312d63cfab2c5",
+      "file": "skills/net-protocol-tls-downgrade/SKILL.md"
+    }
+  ]
+}

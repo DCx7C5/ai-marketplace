@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-insider-threat-hunt",
+      "path": "identity-insider-threat-hunt",
+      "description": "- When investigating security incidents that require detecting insider data exfiltration via dlp - When building detection rules or threat hunting queries for this domain - When SOC analysts need stru",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fd49f1595f602ee3be78dcfe08dce9278062039958956fae35cd5b60180fafa47b0b360a887adccbe0e1a6adbc78feb9eaa73dd1d8cb7c0a2b65b083e4769f03",
+      "file": "skills/identity-insider-threat-hunt/SKILL.md"
+    }
+  ]
+}

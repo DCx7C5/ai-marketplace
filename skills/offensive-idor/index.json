@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-idor",
+      "path": "offensive-idor",
+      "description": "- **Cache Partitioning**: Partition CDN caches by auth headers; avoid cacheable 200/304 for private resources.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cb4480e50f55e2f05936caa1a63f9a83a8064b7ce5ad9df53e8a2a3245290ed3def8f050b4491bc0bbc368be8cc711c80470ea60939918bb934a52b2e2902d7f",
+      "file": "skills/offensive-idor/SKILL.md"
+    }
+  ]
+}

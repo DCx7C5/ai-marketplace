@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mfa-duo-verify",
+      "path": "identity/mfa/duo/verify",
+      "description": "Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a0275414aa68ab01a1e5f4077a37b968d10d2bcdfc5ae1039cfbcb5a030cdb4ad799bdbba823f07e93e6a478722ab7f0d731a7f14d49fb3546a9d514538c283f",
+      "file": "skills/identity/mfa/duo/verify/SKILL.md"
+    }
+  ]
+}

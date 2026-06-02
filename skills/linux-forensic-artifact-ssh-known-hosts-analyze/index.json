@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-artifact-ssh-known-hosts-analyze",
+      "path": "linux-forensic-artifact-ssh-known-hosts-analyze",
+      "description": "subdomain: forensic-analysis tags: - linux - ssh - known-hosts - lateral-movement - forensics nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8366e8baae6148d9a54243a7076434673a7a1acadaeef52692f60b596e52e20f5e5f5b47c59f01baf33305c98e09756add0645e9be8d8b20d118b4e5304249ca",
+      "file": "skills/linux-forensic-artifact-ssh-known-hosts-analyze/SKILL.md"
+    }
+  ]
+}

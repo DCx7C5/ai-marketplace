@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-image-bmp-lsb",
+      "path": "stego-image-bmp-lsb",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bb42a015dcd6578fc2bde070715b38cd1575027fa2a6e8974fd2374b22e73cbef354a169f7fc3060cc5f8a70743beddadac6686ba1bc6caf9af8f00bddb6925e",
+      "file": "skills/stego-image-bmp-lsb/SKILL.md"
+    }
+  ]
+}

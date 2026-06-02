@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "saml-okta-verify",
+      "path": "identity/saml/okta/verify",
+      "description": "Implement SAML 2.0 Single Sign-On (SSO) using Okta as the Identity Provider (IdP). This skill covers end-to-end configuration of SAML authentication flows, attribute mapping, certificate management, a",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b25b837fc79eb3ea4dd84353206a986ec1c9841b7a2e23503cc780b71ed166c08221f04da2d1d489800c6dd8aa0014dfb31122173bd89a45caa5ec191bb2db9e",
+      "file": "skills/identity/saml/okta/verify/SKILL.md"
+    }
+  ]
+}

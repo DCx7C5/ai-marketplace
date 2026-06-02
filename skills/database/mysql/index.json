@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "credential",
+      "description": "skill directory index",
+      "sha512": "d3bec8ff726b6e31675c7c98290a277b47d399e7d031eed59cf370129fe8f66d15985e1f96daa4f7a98f26fc9d84e8dea22621f40ab49d441efc1832f7c62cdc",
+      "file": "skills/database/mysql/credential/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "6a4c044ef292e4a34b1e1b17bc78e3989f76541453af94ad1e6ec5ecbc159f82dd88ea2ca74d27669395b0bcaa0ade93fb316065d0819c09ad6e5b4e4655e5ad",
+      "file": "skills/database/mysql/injection/index.json"
+    },
+    {
+      "name": "privilege",
+      "description": "skill directory index",
+      "sha512": "77acd0f9cc14370f4495ae832c025548ceffe3f47c30a19ff00e4e20ac1e9e2d74913fd172331d475da20cd2328e47251aa264505cf2bd8ef2ffefaf89bc1a65",
+      "file": "skills/database/mysql/privilege/index.json"
+    },
+    {
+      "name": "replication",
+      "description": "skill directory index",
+      "sha512": "ab1582da0f13d8a9f7e72f6b9ce5cf84ab2d3f7ef69aee14d1fe5c82dd6a857926af611a56983c4168e11c41a735ca6e2c1db4965e8df0352429ed1d3a25ff6b",
+      "file": "skills/database/mysql/replication/index.json"
+    },
+    {
+      "name": "udf",
+      "description": "skill directory index",
+      "sha512": "619ff10060275e0933df6debec2e4843d379e0f3e82034d0bfab1d690179b28fd10721d895eb905d3a8548e4ead572dcd157ec448bd6170e8492b6f52e0d0066",
+      "file": "skills/database/mysql/udf/index.json"
+    }
+  ]
+}

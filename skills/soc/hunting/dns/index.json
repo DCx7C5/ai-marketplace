@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "a4003204d62f71cd1ba9b9e4f38bd6f21d923182dd942874ddd5b1228e886255aa9107a03a831d13aa0e8739b81a5cbfd61766ba67dbe2fcfffe915b8c4331e2",
+      "file": "skills/soc/hunting/dns/exploit/index.json"
+    }
+  ]
+}

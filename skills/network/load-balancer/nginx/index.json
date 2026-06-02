@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "539bee6b31aac1156e8c34d9f98562ace7d793fbc70a61ccd0c0ae6842b221123b92b517ef6b4e550892edaf150e1025f9eea9d734437280c88bcd21a5539ff4",
+      "file": "skills/network/load-balancer/nginx/configure/index.json"
+    }
+  ]
+}

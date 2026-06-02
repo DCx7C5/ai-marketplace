@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls-ctaudit-detect",
+      "path": "web-application/tls/ctaudit/detect",
+      "description": "Monitors Certificate Transparency (CT) logs to detect unauthorized certificate issuance, discover subdomains via CT data, and alert on suspicious certificate activity for owned domains. Uses the crt.s",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2208655369975f43fb86a8ad63509f0e4a15bbee01d29125713515cdfb045cb8633f67610ed4107dbf814bc9a399d9d41040969b90947cbbfe4486f688303b31",
+      "file": "skills/web-application/tls/ctaudit/detect/SKILL.md"
+    }
+  ]
+}

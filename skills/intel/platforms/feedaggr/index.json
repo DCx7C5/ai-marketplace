@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "b8f669cdca69cdfc4875fb35c7b15f88e27171a9a9525d2deafe6d3d285e87d2271bbfc433d63ed547b4f600bfc5b17372efd2216284f88a1cad43ae6ea3610d",
+      "file": "skills/intel/platforms/feedaggr/exploit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-ebpf-verifier-bypass-detect",
+      "path": "linux/kernel/ebpf/verifier/bypass/detect",
+      "description": "Detect eBPF verifier bypass exploits \u2014 identify malformed BPF programs exploiting verifier bugs (CVE-2021-3490, CVE-2022-23222) to achieve kernel code execution.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0bc8268a811099829fb18edff99f9304275768eb046c72afedfb61ab9bda3267579f323e945e0da250ab09f1fae82a1c26ca7fcadf9f5c71b505697d732c9430",
+      "file": "skills/linux/kernel/ebpf/verifier/bypass/detect/SKILL.md"
+    }
+  ]
+}

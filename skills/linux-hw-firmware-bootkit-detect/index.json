@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-firmware-bootkit-detect",
+      "path": "linux-hw-firmware-bootkit-detect",
+      "description": "Linux Hw Firmware Bootkit Detect.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9419a3f8b13e5b20999a9ca0f61d698e2a52ec798e9fda317b176eb01561cb124929289a6b026967a53922c1e5f5bfcc13767de5a4546c201e122c233dd4913b",
+      "file": "skills/linux-hw-firmware-bootkit-detect/SKILL.md"
+    }
+  ]
+}

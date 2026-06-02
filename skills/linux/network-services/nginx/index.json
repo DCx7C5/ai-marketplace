@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "config",
+      "description": "skill directory index",
+      "sha512": "b6b5916e177a9c8086fff0f4565dbb60f4a03abf2d34fbf6898f6ea50d7054bc4c2166c55be98c3c594898b2d6f6d1ab838ce4d7775297f2914348f8c2670459",
+      "file": "skills/linux/network-services/nginx/config/index.json"
+    }
+  ]
+}

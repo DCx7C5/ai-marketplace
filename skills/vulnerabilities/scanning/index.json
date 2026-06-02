@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "agentless",
+      "description": "skill directory index",
+      "sha512": "c899ad4ad24e1d53eee1e90b2aed9dcc21eb668fc178df210067e7580d6197c32f3851b41ca008d3cf95aaed5c540a9a2b82fd2d0b4b3a97003a860e76883a5b",
+      "file": "skills/vulnerabilities/scanning/agentless/index.json"
+    },
+    {
+      "name": "authenticated",
+      "description": "skill directory index",
+      "sha512": "7f44575e41bae997de5d4bebdb29911a3ae377b31531c0b1970165658a3fbc63b0704afd0aa743e1cc49a848683c3ca99c9a5ca11adbeb8e6e6b571cfec0aec2",
+      "file": "skills/vulnerabilities/scanning/authenticated/index.json"
+    },
+    {
+      "name": "nessus",
+      "description": "skill directory index",
+      "sha512": "0ec25322cf2c290abbd49e15fd13101811142c9f8e2a2c8fd7e7639ea6a6c83d6d28c3db8346a3748604960779247ee82357a28ee200f98891c96f92e6d72750",
+      "file": "skills/vulnerabilities/scanning/nessus/index.json"
+    },
+    {
+      "name": "nessusinfra",
+      "description": "skill directory index",
+      "sha512": "41f25884b04c3399390925ce6b24c3b671cab3845d41cbb34643046905efcd3c22e24ef8fbab96eeb3b97692c9215913bc6a8b6b983049d13237fa4a05156f7e",
+      "file": "skills/vulnerabilities/scanning/nessusinfra/index.json"
+    },
+    {
+      "name": "nikto",
+      "description": "skill directory index",
+      "sha512": "0d443a32acf13014ffdef596929de65ab393507183529be759b19776b11c04f1f528baf23afd35685b9200f9a97fa508a78f8eb02dee2ca34f47aec99cf89954",
+      "file": "skills/vulnerabilities/scanning/nikto/index.json"
+    },
+    {
+      "name": "openvas",
+      "description": "skill directory index",
+      "sha512": "4b007464a836ae7e4097e5d530a1a4e137bc99b59124df6f4b09a677edf24aabea2c6d5440146328d39470a0d8c66a15372cf4ba4ee3ad26c0fc0902dabe3eba",
+      "file": "skills/vulnerabilities/scanning/openvas/index.json"
+    },
+    {
+      "name": "otsafescan",
+      "description": "skill directory index",
+      "sha512": "9dc0c9b624c232dad14b3a5c460869055ee3138a3e7d5d5cf36bbe15fe1ecbba0a28f1d5eaa218425bb7dff8d6cca60b4e440b240ef05633c2e3e759ab46769b",
+      "file": "skills/vulnerabilities/scanning/otsafescan/index.json"
+    },
+    {
+      "name": "vulnerability",
+      "description": "skill directory index",
+      "sha512": "a2de26f06030862aff5141c7f2bd958081c92e8bf05090e5abf0bd0ba973288802e61ecd38b1a5734858ebc88887f2819b8db91ecdd358c379b9aacbd44554be",
+      "file": "skills/vulnerabilities/scanning/vulnerability/index.json"
+    }
+  ]
+}

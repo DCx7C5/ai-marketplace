@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloudflare",
+      "description": "skill directory index",
+      "sha512": "edb6066bc36009da0941d9e9ff530cd331bbcc2c133945ac1441b253f659767c802d7c78b2e663bbaa54736880c9271e2318cb58954d1d710aaababa3b757df1",
+      "file": "skills/network/cdn/cloudflare/index.json"
+    }
+  ]
+}

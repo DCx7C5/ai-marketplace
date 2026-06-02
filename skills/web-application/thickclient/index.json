@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "8fdb1e01013a71224dc3703f86bd3f300f50ded6760760739a2d990aa46153b55e0b81ba67dded2647e8fdfdb69ecb5cb9ef6340c2b0b0b4f51a7bdcced10e3f",
+      "file": "skills/web-application/thickclient/pentest/index.json"
+    }
+  ]
+}

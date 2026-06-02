@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-maltraffic",
+      "path": "net-traffic-maltraffic",
+      "description": "Net Traffic Maltraffic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68694a6801e355dd41df0f30cfd294d2d4da433e73db0da15e043883389a56ca45b51c9cc0e622a15963aa7f3c91d3c0094c15eb361fbcc64f57df08b71b2bad",
+      "file": "skills/net-traffic-maltraffic/SKILL.md"
+    }
+  ]
+}

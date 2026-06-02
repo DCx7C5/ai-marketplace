@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ciscoise",
+      "description": "skill directory index",
+      "sha512": "c4e4f44da8297f938db2a3c2625911d867e1a319d1c674405962b1ab658bb69d76183f1652335aa0a12791491db390c8285a752fc719284176398b6b0e76f8ce",
+      "file": "skills/network/assessment/ciscoise/index.json"
+    },
+    {
+      "name": "extpentest",
+      "description": "skill directory index",
+      "sha512": "ce9ff71920c15abf3a7c526962251b8d663c9f546aa34634e5b74a2da6e785ae51c2df2a1b4977d2774c6862ef7c8570a89a7ddfeb4468e1e38a49e81a3d3201",
+      "file": "skills/network/assessment/extpentest/index.json"
+    },
+    {
+      "name": "nac",
+      "description": "skill directory index",
+      "sha512": "dda8139aea2719c7a1d220729983bebba202817a097eb838a50f398a5ef73868a6f9e0ce5a16685e2ec5002102673ba1f33e3a85f4fb938064b1093d6cdeb529",
+      "file": "skills/network/assessment/nac/index.json"
+    },
+    {
+      "name": "netpentest",
+      "description": "skill directory index",
+      "sha512": "c7fd4e50dba2bb4638291dbaa5c9c0df5852713f3311e61673ed483e42798e4f19c6f775c435a4132d89d4f9aa4933ca77d35ea4bafa5c13d67e540702deede6",
+      "file": "skills/network/assessment/netpentest/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "87bade7f180a634e543267cd5c94b4620bafc4ee858a1f02dc7810eb5acbc2328e4d8760522f52fe8f4c9ff02cc5c6371251fc62b374e70b058a023c9fafab99",
+      "file": "skills/network/assessment/network/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "cb13c79317d6fe33a5624cca0382baeb580656a1d5b9c890ab91cfebb44db97498e86b1fbd0e61040e74830160b5f20e0eb486a208854f26d11896a1b18e9d3e",
+      "file": "skills/network/assessment/pentest/index.json"
+    }
+  ]
+}

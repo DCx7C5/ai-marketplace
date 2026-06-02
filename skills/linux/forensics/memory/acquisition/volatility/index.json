@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "204551292ea16f77ac627a40db754ba304aab1cd94043c565160d69ef10edf195e69c348e934ac0e5b1cb29c20acca569f1a58abc36a8e9f8b5a2aaddc64d79e",
+      "file": "skills/linux/forensics/memory/acquisition/volatility/analyze/index.json"
+    }
+  ]
+}

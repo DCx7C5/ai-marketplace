@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "c4b7c85a3e70ae0ab00fa11f96757e3a4d50045630bbe5addc072f1c1900c75d22b6943781c2a6f6e9f83b73ce2d47952e9f09cc7b0fce91124df9f9e973d0e5",
+      "file": "skills/soc/hunting/lolbinlogs/exploit/index.json"
+    }
+  ]
+}

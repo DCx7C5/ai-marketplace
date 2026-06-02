@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-docker-socket-expose-detect",
+      "path": "linux-net-docker-socket-expose-detect",
+      "description": "subdomain: container-security tags: - linux - docker - socket - expose - root-escape - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5140955289dba076ad0ce2948ff86380acd3d685d2e18cac829c6dedc9c9f84f45fe6e0c5d6a84f09861bc1c9e3b71c1c759902ca0a1245a3869e840526bf6b9",
+      "file": "skills/linux-net-docker-socket-expose-detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ipsec",
+      "description": "skill directory index",
+      "sha512": "7eaed13ec7a253013f4aa72851bc0ac93db72c371c1f44ab2180c25b45457d15c732c3f31cb11a039e2ae4a61729dfc4d8903dd3cec217514f2438b34b1ac099",
+      "file": "skills/network/vpn/ipsec/index.json"
+    },
+    {
+      "name": "openvpn",
+      "description": "skill directory index",
+      "sha512": "aff7e22cadf93cc6ea45297ef5d42f9d99af9a3253eceeeb7432cd9b108c8a94be2eab45c20d3b4340d6baa940295a63110aac9f32703cc35b5bd632f494f8fe",
+      "file": "skills/network/vpn/openvpn/index.json"
+    },
+    {
+      "name": "wireguard",
+      "description": "skill directory index",
+      "sha512": "43ea6235ec31e7f5c95f0303b8f9b361ec1a33c0e8e714cb400f898e7421b9530cbb452b2dc2aa43912e8638c63aeee8cc5f0b97a3652718e95532341e079bd5",
+      "file": "skills/network/vpn/wireguard/index.json"
+    }
+  ]
+}

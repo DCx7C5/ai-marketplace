@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "install",
+      "description": "skill directory index",
+      "sha512": "7060f518893e0e39cbdefa166d1b7f74697205fe44a54acf1cac1c4b499df0e71fa79d32d6f206b1ceebccda2543c9ad6f01db2627701314177a641173dc9350",
+      "file": "skills/network/ids/wazuh/install/index.json"
+    }
+  ]
+}

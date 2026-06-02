@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "data-logs-aggregate-forensic",
+      "path": "soc/data/logs/aggregate/forensic",
+      "description": "Collect, parse, and correlate system, application, and security logs to reconstruct events and establish timelines during forensic investigations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8d221441b1ffbf905fe733e3883d2b00183317e4681409e8e155343f3fd158c168c729b803f210071bdbd382a0df8ce3e6eddf2a2216b626841cb7a0eacccc4b",
+      "file": "skills/soc/data/logs/aggregate/forensic/SKILL.md"
+    }
+  ]
+}

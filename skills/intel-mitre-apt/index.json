@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-apt",
+      "path": "intel-mitre-apt",
+      "description": "- [Picus: Leverage MITRE ATT&CK for Threat Intelligence](https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e1c8199c0c0476060bd93cfa68ca532c7541652fdbafcd9c62afeb5b30a1acb8520858302fbdb2f3b9bfcb60acc2ba15c0fb65bf6f8588d9875988b0b6c5eb5f",
+      "file": "skills/intel-mitre-apt/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-mfa-passwordless",
+      "path": "identity-mfa-passwordless",
+      "description": "Identity Mfa Passwordless.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "83a1bb96e8c60808f275ee473d2ae4671786f95efc1903d5f2d81054f170c6478cb0a3a2bc76cc409e855f1949c55dc5438ab8861ed1d6fbc6bb5fed8d6b262f",
+      "file": "skills/identity-mfa-passwordless/SKILL.md"
+    }
+  ]
+}

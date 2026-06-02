@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "covert-channel",
+      "description": "skill directory index",
+      "sha512": "280baaa1561bf5e337266a16eb884214607a610e7df3790b728cc3a8c6af1c1c6aedbbc06167cf2798b5ecba2ffd719ecf0b45694680468b7382038ed8c0912a",
+      "file": "skills/linux/kernel/ebpf/map/covert-channel/index.json"
+    }
+  ]
+}

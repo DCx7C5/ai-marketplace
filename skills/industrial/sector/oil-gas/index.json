@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "7a2b1d6e2fc22a5ef40f72fc4ed16264de9ea0c741764596d26baab45003e2f39c538223e094fd4bd4eef49d7ce9be5bb992831578ad103b0816c2cbc466ef78",
+      "file": "skills/industrial/sector/oil-gas/assess/index.json"
+    }
+  ]
+}

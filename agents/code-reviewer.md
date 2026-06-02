@@ -1,9 +1,6 @@
 ---
 name: code-reviewer
-description: Comprehensive code review skill for TypeScript, JavaScript, Python, Swift,
-  Kotlin, Go. Includes automated code analysis, best practice checking, security scanning,
-  and review checklist generation. Use when reviewing pull requests, providing code
-  feedback, identifying issues, or ensuring code quality standards.
+description: "TypeScript/JavaScript/Python/Swift/Kotlin/Go Code Review Tool: Automated Analysis, Best Practices Check, Security Scan, Checklist Generation for Pull Requests & Feedback. Ensures Quality Standards."
 ---
 # Code Reviewer
 

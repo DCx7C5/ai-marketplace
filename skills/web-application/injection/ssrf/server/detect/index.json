@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-ssrf-server-detect",
+      "path": "web-application/injection/ssrf/server/detect",
+      "description": "Identifying and exploiting SSRF vulnerabilities to access internal services, cloud metadata, and restricted network resources during authorized penetration tests.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8bff3f83c1657206c1eaccb5c6b6246c66a247d6b7f387fec079e8a654e0e99c15894d727ee2e40aecbeb730cfd61ce63035b05f879882e9bf1a28ee0aa1131d",
+      "file": "skills/web-application/injection/ssrf/server/detect/SKILL.md"
+    }
+  ]
+}

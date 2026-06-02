@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "insiderindicators",
+      "description": "skill directory index",
+      "sha512": "42cca80f9a0b96edde4360c90ac395a4513a365b05742389268a322814a52262ee4497ac9b6ae0a57fdfac6e153831fb03e191f603f222283bfd6d145e0b76a3",
+      "file": "skills/identity/insider/insiderindicators/index.json"
+    },
+    {
+      "name": "investigation",
+      "description": "skill directory index",
+      "sha512": "ecb4f77e052a4cce1812b0e7abce586c712604e5cd0277327bbdeabdd6fd551a73a3de8a53e5c43765291cf222034396c8ac40bd899ebb64ce70e10aa0a541e0",
+      "file": "skills/identity/insider/investigation/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "828823189516184d2f15314747954a3769d788bb0908484ebf15852980b663bbc2b4b081e6cfb969dc2c888f9e45730c157a4bcd6f931aba5f0047af920cffec",
+      "file": "skills/identity/insider/threat/index.json"
+    },
+    {
+      "name": "ueba",
+      "description": "skill directory index",
+      "sha512": "78fd221b2e742469a9c74f8113ac2850ff0316e980f801dc0d3f8cb0180154743c5717b6e0a594c10edc15f31a2c86427510b8127639ed2bb89657f805b14df9",
+      "file": "skills/identity/insider/ueba/index.json"
+    }
+  ]
+}

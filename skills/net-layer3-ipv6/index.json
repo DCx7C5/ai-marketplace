@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer3-ipv6",
+      "path": "net-layer3-ipv6",
+      "description": "--| | mitm6 DNS Takeover | SUCCESS | Became IPv6 DNS for 147 hosts | | WPAD NTLM Relay | SUCCESS | Captured 23 NTLM authentications | | Domain Admin Relay | SUCCESS | Created rogue domain admin accoun",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e6ff52158705678acad71437c50c50b88f76571b50b33efe592391f47adb8d1266cda9e9eaa40b7f0249831edcb5052beadac28cb381efcf578d775506c223c8",
+      "file": "skills/net-layer3-ipv6/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "2e0a50ed70c361805182b3870c6abd9debe7ca1ba715f448acb7595bc640950ef2a13fa41f73de23c18106b37c5cc48c960a10d15a00ed243b7c784e34e3232a",
+      "file": "skills/linux/forensics/disk/analysis/sqlite/extract/index.json"
+    }
+  ]
+}

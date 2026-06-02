@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "e6eb8d8fde8b5f08dcf3ed12f7ea1395e292875d69604da29e776a5a545b406744650a4650cd67b67e9869278ca3a2dafd76a22b4c64292e78e285fcf8ccb025",
+      "file": "skills/windows/filesystem/artifacts/general/extract/index.json"
+    }
+  ]
+}

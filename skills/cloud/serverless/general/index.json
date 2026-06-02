@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "99bb1f16a46d133ea8191c3e672b7feccd235eed7e40856705e53506fb1211ae78b70ec06aa39ade2f201df11f04ff804f56a18ec26e3270f0ed358f91573a81",
+      "file": "skills/cloud/serverless/general/audit/index.json"
+    }
+  ]
+}

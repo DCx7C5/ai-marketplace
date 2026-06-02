@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-firefox-history",
+      "path": "browser-firefox-history",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e7868edba3d07c77bde23a47b25210c142387dd23c6224aa9978e537eff1229cadaee32545a919ba87c4efbd3355f973d648039559737e02ccaae1fc9ea12d8d",
+      "file": "skills/browser-firefox-history/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-boundary",
+      "path": "cloud-zerotrust-boundary",
+      "description": "--+       Vault (Credential Brokering)      - Dynamic database credentials      - SSH certificate signing      - Credential libraries ```  ## Installation and Configuration  ### Boundary Server Setup ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2194f87d7db22a9cf2a7c3bc0f616a7dc070133ce0fa7b706472655b1287738fd14e40c20ca4a0f1392381e2f0b7f0ccb2d0251f2df931e9bfccc31d5331f8f4",
+      "file": "skills/cloud-zerotrust-boundary/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-phishing-fingerprint",
+      "path": "browser-phishing-fingerprint",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "72ade73e0d5a8b29e1160c6f410349d53b3492670ca5b3db6eafa2b90107ad9e9d6a0b4c8d25c5512a28c1aab15fb4bdfa427d6b3cc4097336094f6437104279",
+      "file": "skills/browser-phishing-fingerprint/SKILL.md"
+    }
+  ]
+}

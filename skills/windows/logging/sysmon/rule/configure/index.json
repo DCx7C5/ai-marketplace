@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "logging-sysmon-rule-configure",
+      "path": "windows/logging/sysmon/rule/configure",
+      "description": "Configure Sysmon with a comprehensive ruleset covering process creation, network connections, registry modifications, and file creation for endpoint threat detection.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "fe342c8b07850f574944a72fac62f18e32a77fc54b8e9e23a4b3369664f2f9520a3a8ac7e6d9d7281404c6d1471ce25c3543b50e789523ad6a0381331095e163",
+      "file": "skills/windows/logging/sysmon/rule/configure/SKILL.md"
+    }
+  ]
+}

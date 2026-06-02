@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "ae20c1524dd6d0ac1e6e048cdba6bf40b54064ed76e8fa79c7de7e6161e87a88949af3fdd37024fc8426416d127ca44a08c643bd6aabe520f9d2b09c37ab77a6",
+      "file": "skills/web-application/api/excessive/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "8ae9235ff7e7753b594d446eb4f57645e113d4b75d1eb4f7f14a4b88a02e021677bd7b4b9377fac92b2ad01fbc6107623f1e0e1ab9205a9aa37ac6a7268ae7bb",
+      "file": "skills/web-application/api/excessive/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5505610a963e0dac6abe5e5118cfaa758de4b4e682f7c9c0e62877a135f805f9821f9ebe22c6e15da50787c151ea13366f968c022b1057d361d4b99fe7ecc8a8",
+      "file": "skills/web-application/api/excessive/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-ntlm",
+      "path": "soc-hunting-ntlm",
+      "description": "Soc Hunting Ntlm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c3dd7321716b78409a6e117a5a04d3f45270d86d726881291ed2790acc94e8115132e28b3f19e992b3536621402f6faaeff358f1a7663548f97a363a5ba2358e",
+      "file": "skills/soc-hunting-ntlm/SKILL.md"
+    }
+  ]
+}

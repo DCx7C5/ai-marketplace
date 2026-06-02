@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-spearphish",
+      "path": "email-phishing-spearphish",
+      "description": "Email Phishing Spearphish.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f2836aee42926a9c112d14da830a9205e81a2178e03907aa2228ec76a8c3501626e56e2145ac85bc2000f49eacb6871fa0791ee145e562033d6a2a6082660bb1",
+      "file": "skills/email-phishing-spearphish/SKILL.md"
+    }
+  ]
+}

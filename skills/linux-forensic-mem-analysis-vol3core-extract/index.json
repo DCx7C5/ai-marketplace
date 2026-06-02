@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-analysis-vol3core-extract",
+      "path": "linux-forensic-mem-analysis-vol3core-extract",
+      "description": "Linux Forensic Mem Analysis Vol3Core Extract.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "929e3d1517b9f42388ab3c930686b12f68804e3a5a02bd19ca2dec61f2fa35c4c4e4df73e0c6e8f0179e5c9c5a06d5df6273e8273390316709b11713f0f50b30",
+      "file": "skills/linux-forensic-mem-analysis-vol3core-extract/SKILL.md"
+    }
+  ]
+}

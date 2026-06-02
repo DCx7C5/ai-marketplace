@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "traffic-c2traffic-detect",
+      "path": "network/traffic/c2traffic/detect",
+      "description": "Analyzes malware command-and-control (C2) communication protocols to understand beacon patterns, command structures, data encoding, and infrastructure. Covers HTTP, HTTPS, DNS, and custom protocol C2 ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e1c44c645a7e7f1fd163eac59757f71a99af1cb7f3f9cf1ae1641a7b8992b76022839b1a5966984c57faee09b6ca6f3b1ebb16ea13399f08844a55f266372e77",
+      "file": "skills/network/traffic/c2traffic/detect/SKILL.md"
+    }
+  ]
+}

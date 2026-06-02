@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-cron-job-backdoor-detect",
+      "path": "linux/services/cron/job/backdoor/detect",
+      "description": "Detect cron job backdoors \u2014 enumerate all crontab locations (/etc/cron*, /var/spool/cron), identify unusual jobs, detect cron file modification, and audit cron permissions.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "93191f83654097477f0dd9326a859f0f7a4d681b7cc35366a8567ae67edec6edf150a58cb4a5701c164dc864b7992aaa9aab15d1862ef609b6322599ab2982f3",
+      "file": "skills/linux/services/cron/job/backdoor/detect/SKILL.md"
+    }
+  ]
+}

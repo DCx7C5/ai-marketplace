@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "69377c940414c89faa5d26b152230927d4e9b8438175a8992fcbfe5b82021bc154efb05b6759d6a385cce121eb6e84eb5c36d9bf0201d80bb113274efd699147",
+      "file": "skills/windows/processes/token/impersonate/detect/index.json"
+    }
+  ]
+}

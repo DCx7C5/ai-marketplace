@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-scanning-openvas",
+      "path": "vuln-scanning-openvas",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8ffaa9209b6094bd6f68794309dfe46484af60c0e3d34319c3bb86212daea4f25a47680e3256e29fb8fd5a820a4a41cf6123a9d69ffc45bc53116e9d69d502d0",
+      "file": "skills/vuln-scanning-openvas/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "60f1136843467833bd9e249f46e26e297c0390df685f4e70fa1a323e881be88620fdf7b439f5581a196b98bc2d4ebdf78ae58bd696ab82692afb807f8768c79e",
+      "file": "skills/vuln-scanning-openvas/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "76c0720a6646fd85094ed47cc2a74e78d3efe8afb609002db3b4d417f9e226bb68735ecd007ee714baf83e8cdadbb9097fce3f607d64c61d2799ee3fe9d8d627",
+      "file": "skills/vuln-scanning-openvas/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f2d919a680578adc231085bb37fb1090f7d2a14af16df0deb180b1a96cddb770a3fe03f098a481a5fcb2ca8d55e9ddfcdf061b81d015cb69220a527263a3cc31",
+      "file": "skills/vuln-scanning-openvas/scripts/index.json"
+    }
+  ]
+}

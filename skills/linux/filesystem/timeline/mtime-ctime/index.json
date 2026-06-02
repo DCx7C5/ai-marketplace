@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "348ad76a5f4e8fa425b454e6531c2cd4a5914917bb7f98515bdd9dd4726c3e19132e15feb5dc4955c5e10f6e6bafd3255353172d1cbade52d24e193e92d6831d",
+      "file": "skills/linux/filesystem/timeline/mtime-ctime/analyze/index.json"
+    }
+  ]
+}

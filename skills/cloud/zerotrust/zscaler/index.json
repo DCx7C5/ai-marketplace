@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "3cf91338c7dce0802699ebbea25c29f803fc2f57de920ccd95980d99feec2c3a4f9c6cd6f12a5cf86e6b6f314fc7d0e5686874a1c4d0aec1b83fbd49226f0c3d",
+      "file": "skills/cloud/zerotrust/zscaler/audit/index.json"
+    },
+    {
+      "name": "zia",
+      "description": "skill directory index",
+      "sha512": "068f94accde4cdd2d1a76b6bc39a83a2a112e5df2ca69527b03d3f1f4a755ff3fe5b95cd39f0f2bb260465e41263e60d9042f2c1f9388171df996d7382e58e19",
+      "file": "skills/cloud/zerotrust/zscaler/zia/index.json"
+    }
+  ]
+}

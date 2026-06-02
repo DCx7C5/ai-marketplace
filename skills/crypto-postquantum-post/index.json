@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-postquantum-post",
+      "path": "crypto-postquantum-post",
+      "description": "Crypto Postquantum Post.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e5428685d3f02d395688a14b528b305d823136962b1a45ce315975225ff8e5895349eadb5ff4b7b8ccb887ff5bdcb5fdfad53d424c5db9d74859d389d5a7e951",
+      "file": "skills/crypto-postquantum-post/SKILL.md"
+    }
+  ]
+}

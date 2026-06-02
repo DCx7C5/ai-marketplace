@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "b5a2c4294bb1f15282a8c7e78e3d35b38e3b5228d42273b064e013ba8b01757c333810016c0d16a39d570f7efb2533c1adf8158cd0d1030a1e0c0dabfc0685dc",
+      "file": "skills/soc/hunting/shadow/monitor/index.json"
+    }
+  ]
+}

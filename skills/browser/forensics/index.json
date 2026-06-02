@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "8161c36b72879c643e02782b1f8a38e618bb396b3766d25f208d655fb1ac01a2407c94e9d9c87f429ed2b028619c4e674d3a293d5348565003482c25b7fa9adc",
+      "file": "skills/browser/forensics/artifact/index.json"
+    },
+    {
+      "name": "hunt",
+      "description": "skill directory index",
+      "sha512": "54da3cd919e4285b0b82f267347bd6395cb2e341d286da2f62755f9ad5dead913a195695da12bf98efa819b8f7fe4fbbf0c407c8ce85849ca67740b2e807755e",
+      "file": "skills/browser/forensics/hunt/index.json"
+    }
+  ]
+}

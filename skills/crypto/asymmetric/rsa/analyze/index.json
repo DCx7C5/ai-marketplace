@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "asymmetric-rsa-analyze",
+      "path": "crypto/asymmetric/rsa/analyze",
+      "description": "RSA (Rivest-Shamir-Adleman) is the most widely deployed asymmetric cryptographic algorithm, used for digital signatures, key exchange, and encryption. This skill covers generating, storing, rotating,",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f1817dd1019db59ab0ea62e394e82ec8c9d476dfc1d28a46e489064beba6e59a8fa944c4ac26f21d92439448bf75a37be6aee9adfbb502d097cd4ff3ed1bfa30",
+      "file": "skills/crypto/asymmetric/rsa/analyze/SKILL.md"
+    }
+  ]
+}

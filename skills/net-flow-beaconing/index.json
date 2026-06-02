@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-flow-beaconing",
+      "path": "net-flow-beaconing",
+      "description": "Net Flow Beaconing.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8bae765551eec39293b2132c53ee6941587b3c4d47969e0271d953ed8e73cbc38ccba7eb8d15c7c6f6153931f2478b695eb855332a852b390807c708c8903778",
+      "file": "skills/net-flow-beaconing/SKILL.md"
+    }
+  ]
+}

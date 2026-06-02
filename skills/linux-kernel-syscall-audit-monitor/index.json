@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-syscall-audit-monitor",
+      "path": "linux-kernel-syscall-audit-monitor",
+      "description": "| | `identity_change` | T1003.008 \u2014 /etc/passwd and /etc/shadow | | `module_load` | T1547.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "aeee58df4257cc10e166b4118fe172d275e6e290262ed1540f3332e12198f4434e32e42d8684f7a1b4c2c6677288fef09382e7377b208191bd8e22c4e40652eb",
+      "file": "skills/linux-kernel-syscall-audit-monitor/SKILL.md"
+    }
+  ]
+}

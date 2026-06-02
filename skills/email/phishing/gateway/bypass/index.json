@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-gateway-bypass",
+      "path": "email/phishing/gateway/bypass",
+      "description": "Spearphishing targets specific individuals using personalized, researched content that bypasses generic spam filters. Email security gateways (SEGs) like Microsoft Defender for Office 365, Proofpoint,",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "896b854a6785a3336f4f5097cdfbedce44402c6e970a6373f0a7acb96660f61d6e6160e043c037ca331b0894e1cf8e665a69badbf8448e0af385f52374d47c27",
+      "file": "skills/email/phishing/gateway/bypass/SKILL.md"
+    }
+  ]
+}

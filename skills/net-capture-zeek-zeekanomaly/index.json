@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-capture-zeek-zeekanomaly",
+      "path": "net-capture-zeek-zeekanomaly",
+      "description": "| | DNS_Tunneling_Detected | 10.10.3.45 | 8.8.8.8 | 847 queries to suspect-domain.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "60bf2a4c7c983f942036fb7a577e76e01f3db87098aa4d51168b907566a92be56d455059fb34f0ec9806a26b90993926cc928227a57c8604b7090eff70c0cb7e",
+      "file": "skills/net-capture-zeek-zeekanomaly/SKILL.md"
+    }
+  ]
+}

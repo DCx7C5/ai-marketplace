@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "injection-xss-bypass",
+      "path": "web-application/injection/xss/bypass",
+      "description": "Tests web applications for Cross-Site Scripting (XSS) vulnerabilities by injecting JavaScript payloads into reflected, stored, and DOM-based contexts to demonstrate client-side code execution, session",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8387692005bf0172ab01bbbd47a84ea78169ae62805098e103d49bf62aa3fe9ba7ec575d13fd906b996ab6146a42ecf8c5bcf2169f2ff151a76a8870fb146c56",
+      "file": "skills/web-application/injection/xss/bypass/SKILL.md"
+    }
+  ]
+}

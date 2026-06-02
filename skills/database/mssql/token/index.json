@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "impersonate",
+      "description": "skill directory index",
+      "sha512": "39ecd15a28f6236de856df453a68d2bc479a9682dff16e6478aea7c80fb53a9f2a86e474139b3011b42639951d2104560c5ed25d9e3422dd1d0d0517e36b1f24",
+      "file": "skills/database/mssql/token/impersonate/index.json"
+    }
+  ]
+}

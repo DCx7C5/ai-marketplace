@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-containment-cloud",
+      "path": "soc-containment-cloud",
+      "description": "Soc Containment Cloud.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "395b7b454b9159c2845a4ebccb8bf30bcdf14da9559c92f7764e4896a0b2e900578e8b3849f74326511844a2b6bef301e30a25d06df9e21a67fd6d90d4abd95f",
+      "file": "skills/soc-containment-cloud/SKILL.md"
+    }
+  ]
+}

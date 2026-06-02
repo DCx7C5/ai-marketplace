@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-zombie-orphan-detect",
+      "path": "linux/processes/zombie/orphan/detect",
+      "description": "Detect zombie and orphan processes indicating crashed services, fork bombs, or malware that intentionally creates orphans to evade parent-process correlation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2023544e5575e304f3b521e9bd7a3e1825f42ccbba09171fcf281ee8772ad4089d30812fc74c056928835ada324527b25eae7f7f2de9df55cf69df4fe4fc98ac",
+      "file": "skills/linux/processes/zombie/orphan/detect/SKILL.md"
+    }
+  ]
+}

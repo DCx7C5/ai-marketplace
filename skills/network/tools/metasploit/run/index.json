@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "95b73803ae31d9ef414a8704237d129e13711b6ab85254b78e8a5c8cebd3c4816b41bfc5115aca40d8f65ffea3db887a0fcfe30251290f946046cf1487cbc881",
+      "file": "skills/network/tools/metasploit/run/exploit/index.json"
+    }
+  ]
+}

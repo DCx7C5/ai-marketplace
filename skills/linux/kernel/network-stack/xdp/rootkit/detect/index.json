@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-network-stack-xdp-rootkit-detect",
+      "path": "linux/kernel/network-stack/xdp/rootkit/detect",
+      "description": "Detect XDP (eXpress Data Path) based rootkits \u2014 identify malicious XDP programs attached to network interfaces that silently drop or redirect traffic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e7d79850d4e56dada13493aa39fd02545fb1ec140a679bfc59de2954833894d9a63af9c0b36a9559a7759ebc06e99f6f79736a3c2c8ac678dca1a452f0536fd0",
+      "file": "skills/linux/kernel/network-stack/xdp/rootkit/detect/SKILL.md"
+    }
+  ]
+}

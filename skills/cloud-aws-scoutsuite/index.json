@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-aws-scoutsuite",
+      "path": "cloud-aws-scoutsuite",
+      "description": "-| | IAM | Root account MFA, password policy, unused credentials, overprivileged policies | | S3 | Public buckets, unencrypted buckets, versioning disabled, logging disabled | | EC2 | Security groups ",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "23820356d5edd8f3d442f4fbd6409aca58e2736755ce62be4461dea282fcd6de3f90397dae150bb82c50ee401946cf117b3258628f4aaebb433240f7f049cefe",
+      "file": "skills/cloud-aws-scoutsuite/SKILL.md"
+    }
+  ]
+}

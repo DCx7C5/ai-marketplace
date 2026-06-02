@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-blockchain-general",
+      "path": "crypto-blockchain-general",
+      "description": "If entry 42 is modified, chain_hash[42] will not match SHA256(chain_hash[41] + .",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bfffc617e6a38981ddb5be960c0a277c3f4fb2438c2174456a0f05112c9bd5f1c6c0a5dfe24e405321bc3d872e57004ea06d1e3d5a391f14910cd5fa1735a0a3",
+      "file": "skills/crypto-blockchain-general/SKILL.md"
+    }
+  ]
+}

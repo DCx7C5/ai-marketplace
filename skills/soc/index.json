@@ -1,0 +1,151 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "automation",
+      "description": "skill directory index",
+      "sha512": "c78deb156103b52c6e22e286741e384c4201a78b51f784248a9b0f1eecb59d1de1d283f2edb66e2ca927d0469ca56b03b04affa416379c032e3c0f29e68667c5",
+      "file": "skills/soc/automation/index.json"
+    },
+    {
+      "name": "containment",
+      "description": "skill directory index",
+      "sha512": "5a919ad3cb971b722ea5fd8f18dda661b8e60e8ab183e856d7a72304e907e40a9e10246c16f1e896b57de24c820c2de9c9716e2aeea704c7b9b82c32c10c19fb",
+      "file": "skills/soc/containment/index.json"
+    },
+    {
+      "name": "dashboard",
+      "description": "skill directory index",
+      "sha512": "174682c3239fcb9b58089f4d27faefe65e257aa47f71819fcf03446d056e24700ad22b19619daab1b8c04b366a631926077a7791587a906793721f7d96d9a616",
+      "file": "skills/soc/dashboard/index.json"
+    },
+    {
+      "name": "data",
+      "description": "skill directory index",
+      "sha512": "33a108ec948a1c5a8ada357e60fee730accb951e623c346d78419f5b089274de7fae1bf267a3b15d615dae7e6a72a310110954a19587acf2f9bc92104015ac0a",
+      "file": "skills/soc/data/index.json"
+    },
+    {
+      "name": "detection",
+      "description": "skill directory index",
+      "sha512": "bd92aa2d2aeeac2fdbf0540f451d5cbec9663106b4cf4d1b409290435a3ef426aba6275ac72161af066dcfcda8adb56b3491f17e7d78f8bf086ea09f327b7552",
+      "file": "skills/soc/detection/index.json"
+    },
+    {
+      "name": "edr",
+      "description": "skill directory index",
+      "sha512": "02074a483c207e2f89bf064fc90a271fb3c3bef3684c2e86ed64139c15a4773cc19920cc094da090df81548defde14ef745f2170d9442671f67b3b3c63fd4340",
+      "file": "skills/soc/edr/index.json"
+    },
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "ad76e9f3ec22143d64bdd77bdf78a1bae1aea9f0166516df2c43f41cb1b4c155df565f88de860e56944bfa1df0153668b5a91b0aa182d835c7a9178ffd571cec",
+      "file": "skills/soc/endpoint/index.json"
+    },
+    {
+      "name": "eradication",
+      "description": "skill directory index",
+      "sha512": "e74ec266081ec36371e60446c150a2065b755128418f2c46786ac0b2f18153abc33a94d7afdfcd4b07758f9beafdc203f12f361fec9982eccf2b9f27db514b90",
+      "file": "skills/soc/eradication/index.json"
+    },
+    {
+      "name": "exercise",
+      "description": "skill directory index",
+      "sha512": "609a10230e26739d2b078a405af5eb1c7affb8eb7719ee55df61d49f9d5a04320f3ea95cb752c0e1be82c1579706d643ba848de2bbce820f134bb18653b3a28b",
+      "file": "skills/soc/exercise/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "3dec057efeeea8d7c4c9ad2391e4ca9a6925fd50430995173971a36d3c476a2439e39088a1f5a936f11d09e197d4ab6332eca9b27df05474854cc2a9bce7ef67",
+      "file": "skills/soc/forensics/index.json"
+    },
+    {
+      "name": "hunting",
+      "description": "skill directory index",
+      "sha512": "66ac9341e0fcb08cd7083af5865060729653406391a93441feef9a26f496376afed75d1155eedb6342900222bdf2f7073bf5d4b05e3f98be768f73a84b8f4277",
+      "file": "skills/soc/hunting/index.json"
+    },
+    {
+      "name": "monitoring",
+      "description": "skill directory index",
+      "sha512": "3f5622e928e4071a1c7a57c537d798e9e9060618e4c4bba094a51b8a1e37c6b3b71aabbf800d1fb125c5f866d420f1cf892125be00560b54c997d40222f73199",
+      "file": "skills/soc/monitoring/index.json"
+    },
+    {
+      "name": "operations",
+      "description": "skill directory index",
+      "sha512": "4fab8e9046f437b57f548245f63c9ffe32288acb8e4146f432480a2ab5cea44dd2406c2160d6a9d1f4e72c4f38bfb7fcdf9a362d55e1aec3c762b2c94db1453f",
+      "file": "skills/soc/operations/index.json"
+    },
+    {
+      "name": "playbooks",
+      "description": "skill directory index",
+      "sha512": "491cc9e163f41576f02ecaa70b37f5eb68a01f685716294699d49b0345afab93e54f5f95664287fe1893de94e6948a3daf817c28b8d2f2eeeb03d9533bfdc046",
+      "file": "skills/soc/playbooks/index.json"
+    },
+    {
+      "name": "recovery",
+      "description": "skill directory index",
+      "sha512": "fb6f04f555525ea74d1b8ed97dd5c0d7e3148c5e1bea1fbe402d71a9d5f182e599922a221ab72675e70d18a871fbff76bb2af6a868b8adc7a9082e75044cdaa1",
+      "file": "skills/soc/recovery/index.json"
+    },
+    {
+      "name": "siem-soc",
+      "description": "skill directory index",
+      "sha512": "2e30a0d76bf69da3ed81086c5d8e2b89ed533c85214f1e2f95cb9ebefd39f64313f9ae8f4f254192b1baeac6c28349de0fb89336da8ef429f937f400b96aa014",
+      "file": "skills/soc/siem-soc/index.json"
+    },
+    {
+      "name": "splunk",
+      "description": "skill directory index",
+      "sha512": "e0fafe909435f2346c5fa716c91dbc505dfdd29ed03eb47221697db4e9493d4373a465c9a5dc7d5763a1aa23c10940f5a03650dec25fbef9a82249a68fe3a7c0",
+      "file": "skills/soc/splunk/index.json"
+    },
+    {
+      "name": "tabletop",
+      "description": "skill directory index",
+      "sha512": "fa96f208e4373a26ebc936b391873899b3c30067f75fa2a8819d17996cddeb5abdc39fff16a0cb1baf10fac21e9395cfe50a78f7cc1f15444821789374e71aa6",
+      "file": "skills/soc/tabletop/index.json"
+    },
+    {
+      "name": "tools",
+      "description": "skill directory index",
+      "sha512": "6eb927772a31bcd4f40fbb9127e5aba4c1e8693618c786bc9bc9570e2018963b10394b040c5f53d7b87601c7904eb50bc75a94229abfa920fa9237836a61c729",
+      "file": "skills/soc/tools/index.json"
+    },
+    {
+      "name": "triage",
+      "description": "skill directory index",
+      "sha512": "547bf603525b06ff25283895a5e4e8860ebf6dbb6695d442e327c91de6bc302bde43f802dd1240fc83f66a2d9af1fa8bf451ffd581c0bc5a3e7e09440cda6a42",
+      "file": "skills/soc/triage/index.json"
+    },
+    {
+      "name": "tuning",
+      "description": "skill directory index",
+      "sha512": "8f468ba9760a4ec577b5af78ed49a9b96e7db2ab0cc926f03bda239461eee35601abdac83ec1f41db11e6ce5d7024f2b0ba80e67f2e56cd5499193d36cd5ea3d",
+      "file": "skills/soc/tuning/index.json"
+    },
+    {
+      "name": "ueba",
+      "description": "skill directory index",
+      "sha512": "550f45bd739823d7ca0a9456abf99d07f19824cf92f83ece3844489d017e301952d9ee35c48b4f150390500c27cdbaaff3ba03e99dfa636727dd2a5a1d548cff",
+      "file": "skills/soc/ueba/index.json"
+    },
+    {
+      "name": "wazuh",
+      "description": "skill directory index",
+      "sha512": "1642cacdd9205c53b9f3630474f11cbbcb821e200245121df5fd1ec78a9996c3c2cc562c3d24ac1079befd7d073e03113791ab807930efc0578b3a6dd8babfa2",
+      "file": "skills/soc/wazuh/index.json"
+    },
+    {
+      "name": "workflow",
+      "description": "skill directory index",
+      "sha512": "4c69906f2cf3af37698a1c5256fc0bb6f00ad1bcf516a1b10eab4ab2b9e2bd2e43535c80adff0ff88589b8c2ee71340e0ae13ba8da7ab13fa62781ef52864071",
+      "file": "skills/soc/workflow/index.json"
+    }
+  ]
+}

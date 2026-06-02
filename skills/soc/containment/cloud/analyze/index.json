@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containment-cloud-analyze",
+      "path": "soc/containment/cloud/analyze",
+      "description": "Execute cloud-native incident containment across AWS, Azure, and GCP by isolating compromised resources, revoking credentials, preserving forensic evidence, and applying security group restrictions to",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5bcf0489c40611babc9771d0a398af212ef056d3a94a7d357a577fabea26542a0d06c3cecf7eda79c156928966d71242c31ddc44a9e6a9741c495f2c370a7bd4",
+      "file": "skills/soc/containment/cloud/analyze/SKILL.md"
+    }
+  ]
+}

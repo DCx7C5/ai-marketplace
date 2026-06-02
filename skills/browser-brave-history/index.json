@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-brave-history",
+      "path": "browser-brave-history",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ac4e2b07987cac41277cdd0ed8de8952c0306c9f1697c18ebdde6a76816fb48f2398be0958dba8c56492237c877990a70381b7eac118a001cae1d881ad4e29d",
+      "file": "skills/browser-brave-history/SKILL.md"
+    }
+  ]
+}

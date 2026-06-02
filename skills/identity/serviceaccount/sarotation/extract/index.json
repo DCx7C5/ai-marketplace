@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "serviceaccount-sarotation-extract",
+      "path": "identity/serviceaccount/sarotation/extract",
+      "description": "Automate credential rotation for service accounts across Active Directory, cloud platforms, and application databases to eliminate stale secrets and reduce compromise risk.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "41f19ad2bd40a7e8c0b69fe31f865e6ca8c8d57f517a6ad1798646a040c8cae7bd6b54aa83c94920663e0f6b66757d57bd86df76d07f06715797705dca4ae5ff",
+      "file": "skills/identity/serviceaccount/sarotation/extract/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "memory-stack-canary-bypass-detect",
+      "path": "linux/memory/stack/canary/bypass/detect",
+      "description": "Detect stack canary bypass techniques \u2014 identify stack smashing attempts, canary leak via format strings, and ret2libc/ROP chains in application crashes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c93f2e7286cb2e34269c484abdd11abee6f51d2e6bee15def52ebc74b32760d8233a892aa1c6fdccdbe70003f029612db95d8a3cfcf93cf8c346cf5ec5cdb328",
+      "file": "skills/linux/memory/stack/canary/bypass/detect/SKILL.md"
+    }
+  ]
+}

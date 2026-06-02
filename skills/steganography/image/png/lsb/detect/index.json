@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "png-lsb-detect",
+      "path": "steganography/image/png/lsb/detect",
+      "description": ">\\n  Detects LSB steganography in PNG images via chi-square analysis\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f79e5ec134ae2c9bd808d8d0102f0e1abca01ed5ba486846a684305c57efa55f0a6f19fe86b65050faf8c6d992592aefbe917f78c9a15550e2fdf820315661c8",
+      "file": "skills/steganography/image/png/lsb/detect/SKILL.md"
+    }
+  ]
+}

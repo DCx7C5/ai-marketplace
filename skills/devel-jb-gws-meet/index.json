@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-meet",
+      "path": "devel-jb-gws-meet",
+      "description": "Use `gws schema` output to build your `--params` and `--json` flags.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "422ad36b0b2ed780bddd8008f0228dc86efead9eb251b9fcdc0edec26bdabfc324ea6ef4c011e2a7bae0e940816122e79498e88cb353a4ea4835c6dbf5cabac0",
+      "file": "skills/devel-jb-gws-meet/SKILL.md"
+    }
+  ]
+}

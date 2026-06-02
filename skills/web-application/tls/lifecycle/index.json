@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "1455dc8d6e7b1429f1e79d378702f81eae8fb55e9dd8871e21575963b164fb2ca13a5f5331d2798b20885ddd1f4720484a1cfbd8b78883b411c20b0c45d23dd5",
+      "file": "skills/web-application/tls/lifecycle/assets/index.json"
+    },
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "60c071a06ea1157f46e87bb46d8e84fd70513ff95d48c33024ecf335d1f5d2b86fdc3dce3d9d91838c290af09ea321ee4dec518b995556a68171c44eaf069240",
+      "file": "skills/web-application/tls/lifecycle/monitor/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "a759896c830d9fe6ca97490e6fbb67afc2c21d5bc5b145e583a5b0d434383bfc0fcaffca3404d5c8ad846848b0a378ec3bb1a7aca780639bf0ff058a71561085",
+      "file": "skills/web-application/tls/lifecycle/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "b24f167f8d9fae60ed1ae9605064d74c22123ce772039a837e9dcd78f1a547fd495b84d347d0b3ff74dc21669d16da2a6e6b50cfa48ae4e21e66e2b4c95a848a",
+      "file": "skills/web-application/tls/lifecycle/scripts/index.json"
+    }
+  ]
+}

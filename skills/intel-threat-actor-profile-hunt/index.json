@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-threat-actor-profile-hunt",
+      "path": "intel-threat-actor-profile-hunt",
+      "description": "Intel Threat Actor Profile Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "feeace656f241e96c6073795141b2344b5533094ffbe24261fb40b23dd6c89b6a6d97e86960c9ff9f21b5acee7a594d33a9be62e83c7c5a3defdb00bae5935ac",
+      "file": "skills/intel-threat-actor-profile-hunt/SKILL.md"
+    }
+  ]
+}

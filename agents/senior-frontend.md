@@ -1,10 +1,6 @@
 ---
 name: senior-frontend
-description: Comprehensive frontend development skill for building modern, performant
-  web applications using ReactJS, NextJS, TypeScript, Tailwind CSS. Includes component
-  scaffolding, performance optimization, bundle analysis, and UI best practices. Use
-  when developing frontend features, optimizing performance, implementing UI/UX designs,
-  managing state, or reviewing frontend code.
+description: "Build high-performance websites with modern tools like ReactJS, NextJS; includes scaffold components, optimize for speed & UX using TypeScript, Tailwind CSS. Essential skills: component creation,"
 ---
 # Senior Frontend
 

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-office365-security",
+      "path": "cloud-office365-security",
+      "description": "6. Check for suspicious sign-in patterns from audit logs 7.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5817f5d8a2fd95935537e1aec8f598b32046ae31630f07180a534a78211db26411f9bdd544395deee4f11f9485b36b216225c1c25963ce872ac806642a1670d0",
+      "file": "skills/cloud-office365-security/SKILL.md"
+    }
+  ]
+}

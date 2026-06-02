@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-security-waf-configure",
+      "path": "webapp-security-waf-configure",
+      "description": "Webapp Security Waf Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0c961272ce4a06ad5454fcd2e22c4126914e101c1dbd97b6150aafd8f841184707c13f22bfbbb6c83927c94af6ab4af95545c5dbf83d136ba99297570b5b2dec",
+      "file": "skills/webapp-security-waf-configure/SKILL.md"
+    }
+  ]
+}

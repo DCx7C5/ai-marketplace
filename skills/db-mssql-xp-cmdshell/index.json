@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mssql-xp-cmdshell",
+      "path": "db-mssql-xp-cmdshell",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7b72bec76597bac8517dc334129dfeebb17cad18b86b273c908e0e4f173adda582e0c10cddf6b6a6fcaa3013b1393625ed43abb4d94e86cc76c157ed1521ba3f",
+      "file": "skills/db-mssql-xp-cmdshell/SKILL.md"
+    }
+  ]
+}

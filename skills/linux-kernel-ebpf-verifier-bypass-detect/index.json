@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-ebpf-verifier-bypass-detect",
+      "path": "linux-kernel-ebpf-verifier-bypass-detect",
+      "description": "subdomain: kernel-security tags: - linux - ebpf - bpf - verifier - exploit nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "24ce66e49ac85a224dc6918dee20ab4ca7d3bc61bf38e540395f406c7656d9ebf138f38318ae0263c8072a90f4a36fd080b4ccd94c1d82e1b149f49e53c05d7f",
+      "file": "skills/linux-kernel-ebpf-verifier-bypass-detect/SKILL.md"
+    }
+  ]
+}

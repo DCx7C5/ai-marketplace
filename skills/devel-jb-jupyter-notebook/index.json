@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-jupyter-notebook",
+      "path": "devel-jb-jupyter-notebook",
+      "description": "- `references/quality-checklist.md`: final validation checklist.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "69affcf2454d4555298d47861c81252ccaf58246d3357efc6236e5e90a1b32d49bb25581b76d55f7a635adaf55c2b255aa7c1e8f23d2dcfde1fc5fef6d7be096",
+      "file": "skills/devel-jb-jupyter-notebook/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "bdad4d5cf28cc32f06b4a7515b28b7a61ee92ba3d095106aad8eac09246891b742a5559e82c86b9c1495977706dee7cf1c355fe92fd9ecd104c72b59472d9a7a",
+      "file": "skills/devel-jb-jupyter-notebook/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "533ffb48689a607e44be0306e5841b1b0d93e87867767b122bed83cc6bf9a146d670fbefc346da4531356f99c299fb206ee6714dd1ef0c4ef2f018a8b89055d2",
+      "file": "skills/devel-jb-jupyter-notebook/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "59f0f413e3b3d2cc88b94a265994f695040afc6a48b5307aa2becd541f611a4bd3dbcc63facaabb30cca431fd718f0b53c9701271683d7238cdb291135a03826",
+      "file": "skills/devel-jb-jupyter-notebook/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ecc2c34bd90599ccc2f8a70ce1ae35759b5bcdb302d8bf1253f1e9e4e42dd683bacc080fc837ff997f4de43e507e512c8d3a87fc7b730a74c36b9be7514432ee",
+      "file": "skills/devel-jb-jupyter-notebook/scripts/index.json"
+    }
+  ]
+}

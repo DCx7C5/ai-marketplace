@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-oauth-scopes-detect",
+      "path": "web-application/auth/oauth/scopes/detect",
+      "description": "Performs OAuth 2.0 scope minimization review to identify over-permissioned third-party application integrations, excessive API scopes, unused token grants, and risky OAuth consent patterns across iden",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "92a25175860905a889a1d241b610ed72eb2bae8c79f36e2490a1e3abfbdbbb937908a29a4f016571e44e423dbc06db964eaa7018761b373721841cda7a93e546",
+      "file": "skills/web-application/auth/oauth/scopes/detect/SKILL.md"
+    }
+  ]
+}

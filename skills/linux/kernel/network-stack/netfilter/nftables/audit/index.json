@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kernel-network-stack-netfilter-nftables-audit",
+      "path": "linux/kernel/network-stack/netfilter/nftables/audit",
+      "description": "Forensic audit of nftables rules \u2014 enumerate nft tables/chains/rules, detect unauthorized modifications, and identify rules bypassing security controls.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2d27e9429ae3f2466dcace7536988fa99f2313f2aa14ad0c6f3af7a8693144c801d2b82755ea57a05334a018d89e8b5b1e1ee9b60adbd333ccf91def37e4e429",
+      "file": "skills/linux/kernel/network-stack/netfilter/nftables/audit/SKILL.md"
+    }
+  ]
+}

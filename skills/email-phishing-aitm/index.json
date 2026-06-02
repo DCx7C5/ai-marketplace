@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-aitm",
+      "path": "email-phishing-aitm",
+      "description": "Email Phishing Aitm.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1b280f0197725368143431ce15f64bbded734b8075558fd27b7c771a47eeac99677ac5087e48aac6d71255ddb198ebdaafef575f86498ffa6cbedf94d614c5cc",
+      "file": "skills/email-phishing-aitm/SKILL.md"
+    }
+  ]
+}

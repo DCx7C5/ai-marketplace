@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-threat-hunt",
+      "path": "soc-hunting-threat-hunt",
+      "description": "Soc Hunting Threat Hunt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b331c05e986f7786e3adfa64890a73bbbbb06855d6d4bf3415a7124cb778d2e9b357faa686244952ea0b016043cb12538829ad1c1b074898d080397bba924c62",
+      "file": "skills/soc-hunting-threat-hunt/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "vuln-scanning-nessus",
+      "path": "vuln-scanning-nessus",
+      "description": "```bash",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c6bb340b364b095375e98252625e4df04fb203568ac167132f192cf4e29d44e51db4e4cf28f0c4ce3f2199c426ea48cae3f6f24f0959172e50c5ba39875856e3",
+      "file": "skills/vuln-scanning-nessus/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "45a648ac72222735a236496b30e580186e7172ed9f34d36e576d8e12b89e2f33fdff5675537b1837e39904e3a8a205b9927dad57419b28f36d97591ebf33482d",
+      "file": "skills/vuln-scanning-nessus/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "41f976184e7b301b18d7120d8efb2476935603eb38a9a40552b678a0b19b25ddf57c9e1ed0bcb6dc2321ff1539271ddfed4afbf742416516de58a9fdbb457cb5",
+      "file": "skills/vuln-scanning-nessus/scripts/index.json"
+    }
+  ]
+}

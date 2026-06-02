@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mysql-privilege-enum",
+      "path": "database/mysql/privilege/enum",
+      "description": "Enumerate MySQL user privileges, grants, and stored procedure permissions to identify over-privileged accounts, FILE privilege abuse, and UDF execution rights.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ed22474948fb32ae98a05bc3a8fd0607d6f34cea9c9ac5eeb83cc468e66cac3c76239ccf11c2e18ef1ff2ae1e4753bc883bc2a7e1393cc5e380c69504544163f",
+      "file": "skills/database/mysql/privilege/enum/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-tool-stegseek",
+      "path": "stego-tool-stegseek",
+      "description": "Use when extracting or testing embedded payloads in media files.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dce6e5f9422ba0b43b37ccdbbc741e832e2cee073171a750fabe80eef638b668a80b4e8f17363a8cf2c75bdc6c3903b9e7490d8e6697d64feca75df6e5b8d25c",
+      "file": "skills/stego-tool-stegseek/SKILL.md"
+    }
+  ]
+}

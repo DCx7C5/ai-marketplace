@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "execution-runtime-analyze",
+      "path": "web-application/execution/runtime/analyze",
+      "description": "Deploy Runtime Application Self-Protection (RASP) agents to detect and block attacks from within application runtime, covering OpenRASP integration, attack pattern detection, and security policy confi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dfca835b99ec2c05a0b986a9439f8032c83044caa57b454f790a9b29b91ea92ba0734ead1b9a392f03bb421c379510f41a0d9399014e414af7f7d5e81d159ac4",
+      "file": "skills/web-application/execution/runtime/analyze/SKILL.md"
+    }
+  ]
+}

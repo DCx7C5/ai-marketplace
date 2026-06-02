@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "2132cd86c7a77ec9df802b6a6a2c51946133488089ccb74a5649e862e25d36277fd5366243971c91ae703d70baef1f2761f7ff3f4a237ad74acc886cae7e9907",
+      "file": "skills/web-application/injection/xss/burpsuite/analyze/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "2fc62f349da4cb1d982810a21558667246f1620ff6acd353c2714cf00c5802242f71b54c14750e031de3ca925a561ac33723aab2d925f7424a6e16f129e49e16",
+      "file": "skills/web-application/injection/xss/burpsuite/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3718272889a08f6ee8cf96cc79004eb87ee3b255958b9f29a29e8df1d3b929877cfe8ea7613cd5153f8ed709a210cfa435d779110dd294b1989dceb51fd3e1c3",
+      "file": "skills/web-application/injection/xss/burpsuite/scripts/index.json"
+    }
+  ]
+}

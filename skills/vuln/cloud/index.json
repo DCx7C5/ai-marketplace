@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-SKILL.md",
+      "path": "vuln/cloud",
+      "description": ">\\n  Implement Cloud Security Posture Management using AWS Security\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6108da073d3b77471fa464d72408458a3c938932dc57c453ebf6a4b96a70f846f428410a77db4c6636980a82ea13c74707da449fa917feea3c71b4ee6e8bb739",
+      "file": "skills/vuln/cloud/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "ce4749365109e3144d75aaadc2e36c6bc391da0ceecc7eafe6045766d541e9dadf72c0407b062771cc3badde765c2670c8d0e698523fe5539fb9ffe475cc5144",
+      "file": "skills/vuln/cloud/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "08c339736029401f8ffadd44b81cf0228cb643dd1f596d61adce734d8375d14e2ac77a82637374bbcff059c956b8d5ffa6c0cf151cc2f77a7952e86a0a5c1359",
+      "file": "skills/vuln/cloud/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "fc4252d1119e09ca15825d0533d0a917a08c142524c4f9f875f1588087d754895abd881f63b51618a906bf52c85517df9418605fa3126453f98344f760368cc0",
+      "file": "skills/vuln/cloud/scripts/index.json"
+    }
+  ]
+}

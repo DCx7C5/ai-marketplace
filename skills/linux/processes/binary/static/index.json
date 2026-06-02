@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "c2b833e95efa6eae5e36928b50783e1227de228c49a179bc5c7045a125146f2df9d6cf89e4376ee915e5541a653c6c842ef793022afb159b4c4a07c3572877c5",
+      "file": "skills/linux/processes/binary/static/analyze/index.json"
+    }
+  ]
+}

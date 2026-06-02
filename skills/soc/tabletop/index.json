@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "post",
+      "description": "skill directory index",
+      "sha512": "968deb08970579ad75cba14f37a8b33428ba841a4ddd568d0a3008168b01ce23aea36e3f7c816d6a0330ca46970cd48e0b21ad099abb9fb87251546e1d19556b",
+      "file": "skills/soc/tabletop/post/index.json"
+    }
+  ]
+}

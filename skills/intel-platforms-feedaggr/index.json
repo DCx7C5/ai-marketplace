@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-feedaggr",
+      "path": "intel-platforms-feedaggr",
+      "description": "- [Kraven Security: MISP Using Feeds](https://kravensecurity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bd75842cd904a3a530715918b48169342528f24bdb48445a965e1cde383728268b055193248a1d4b423eee8f8384b80153c2e7d6a1691e603b739242c1ffd010",
+      "file": "skills/intel-platforms-feedaggr/SKILL.md"
+    }
+  ]
+}

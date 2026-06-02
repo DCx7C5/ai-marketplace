@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-fast-checking",
+      "path": "offensive-fast-checking",
+      "description": "- [ ] HTTP/2/3 behavior differences, domain fronting checks, SNI/Host mismatch.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a0496b4bccb36c5a296c26c8099e9b4e243789b407ad363a8d718c9b9c3911cb9f61495286d64ce7a852c827d02bde904c86c9ea78fcfc38140c657fa6b39077",
+      "file": "skills/offensive-fast-checking/SKILL.md"
+    }
+  ]
+}

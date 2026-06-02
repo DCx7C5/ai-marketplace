@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "patch",
+      "description": "skill directory index",
+      "sha512": "23922b3d3d9ba8bce1c86dda9bd36fce019244ed3c94146e2adb584f8b6ab7317e787b1b3b9505db21834bafff6718115acfafaedc2a33bb11e0563bae5a23f9",
+      "file": "skills/linux/hardening/grsecurity/patch/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-postgres-best-practices",
+      "path": "devel-jb-postgres-best-practices",
+      "description": "Devel Jb Postgres Best Practices.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "030c4a8836b1477776ca84cb8eddbf59f5f312db526dd0fe560151b9aa4d1dc301e8b7abe29d5fd216211dd2a4f735f09b4236150320b02f4461e5fa20befce6",
+      "file": "skills/devel-jb-postgres-best-practices/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b3afe113ab7540385b6ea51b1dba7e4c9bb1c6f7250178c9a29fcb658a30fcdd5dcf6d1d4257b21ad64a1e1143d8525c0bafde9050f686fa1066bea85f85d619",
+      "file": "skills/devel-jb-postgres-best-practices/references/index.json"
+    }
+  ]
+}

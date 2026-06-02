@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-scada-hmi-assess",
+      "path": "ics-scada-hmi-assess",
+      "description": "Ics Ics Scada Hmi Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "609fd88f1befa94941e96565d06dbfdfd49a6b1bbc22ddb684fedcd67a2d6ee4379da6f1bfa2ffde4f7df02a0ed61078581d141f37b82cd191d77e4dc2a5f39c",
+      "file": "skills/ics-scada-hmi-assess/SKILL.md"
+    }
+  ]
+}

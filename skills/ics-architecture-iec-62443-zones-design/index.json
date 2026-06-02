@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-architecture-iec-62443-zones-design",
+      "path": "ics-architecture-iec-62443-zones-design",
+      "description": "Ics Ics Architecture Iec 62443 Zones Design.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "98bf7c81dafcde9709ef95ebcfc73eaeb55d7deaa7ddbfd03737cef98cd8cab4e3818d9443e8989efebe33b3a87bd23ed6a8540b270cae611e6fc5c5e98f20f9",
+      "file": "skills/ics-architecture-iec-62443-zones-design/SKILL.md"
+    }
+  ]
+}

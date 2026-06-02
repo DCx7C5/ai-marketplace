@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ad-honeytoken-detect",
+      "path": "identity/ad/honeytoken/detect",
+      "description": "Deploys deception-based honeytokens in Active Directory including fake privileged accounts with AdminCount=1, fake SPNs for Kerberoasting detection (honeyroasting), decoy GPOs with cpassword traps, an",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8adcc185b2ac15c77d53800a509ffc0ca713893335b7f99a828891ea7219ef1c88a91c76e93b85a8bd3af890b9e6f64cec5527a115b52605b9fd3dc1d2283bc8",
+      "file": "skills/identity/ad/honeytoken/detect/SKILL.md"
+    }
+  ]
+}

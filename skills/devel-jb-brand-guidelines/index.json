@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-brand-guidelines",
+      "path": "devel-jb-brand-guidelines",
+      "description": "To access Anthropic's official brand identity and style resources, use this skill.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ebe562c3486d1f8a2bd6fe2251f784f85f16eaaafef535ba8f9e8b483e8d052102f49b9ac252150435e3fc0fbe538fb21b979644a8102ec7b9d3fe06fe4fd39c",
+      "file": "skills/devel-jb-brand-guidelines/SKILL.md"
+    }
+  ]
+}

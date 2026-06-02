@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-network-stack-raw-socket-abuse-detect",
+      "path": "linux-kernel-network-stack-raw-socket-abuse-detect",
+      "description": "subdomain: network-security tags: - linux - raw-socket - cap-net-raw - sniff - abuse nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "29d1746de09d7641c29337f8eb660e9a0b31f32f037647b8f8e08d8873278e27e9206439278b2a6fdbd6c99ea0d0c3661f9aeeb56ca424e3febb73813d354604",
+      "file": "skills/linux-kernel-network-stack-raw-socket-abuse-detect/SKILL.md"
+    }
+  ]
+}

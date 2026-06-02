@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "9065abd70ad7a08952444f7c69e0caa57186117beddd6ba8e6e44a62a44947e7d4676f102983383f73f7b07f0c62b64ee01e8c65335834af5cd7ac34401dd46c",
+      "file": "skills/cloud/containers/scanning/trivy/audit/index.json"
+    }
+  ]
+}

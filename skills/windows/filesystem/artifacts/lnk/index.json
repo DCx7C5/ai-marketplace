@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "parse",
+      "description": "skill directory index",
+      "sha512": "c964983d06b79bc577fa3d976f6a9e174a8a2a818a2bac7b3d09b3eb530956414073a424a26241a03b1e9c0e4eb0982f6a36c3ce7bbc09881e3e1d10fa842c8d",
+      "file": "skills/windows/filesystem/artifacts/lnk/parse/index.json"
+    }
+  ]
+}

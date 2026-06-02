@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deleted-file",
+      "description": "skill directory index",
+      "sha512": "9f959848c0a4fcf4c824b1b4ef5fe1cd61b8f453c600d63a9f811d140379055a156964023263b730ed11c38982711787705587f23f27b3fa494f9887b867850e",
+      "file": "skills/linux/filesystem/ext4/deleted-file/index.json"
+    },
+    {
+      "name": "inode",
+      "description": "skill directory index",
+      "sha512": "a2fc8b737d6691da2ed327b42a230a154d20d3d0bdfdc42932e04c9cf1f9ccead12f21addec982b4254911b739672a9d358d4b841cf4a89a0ed83d5103da8fc2",
+      "file": "skills/linux/filesystem/ext4/inode/index.json"
+    },
+    {
+      "name": "journal",
+      "description": "skill directory index",
+      "sha512": "a340186a285aabfc3fe547520e5f00d18a116c804d553c4b23fa91f4626fc3298b30cdf177dde5cb31c96a883760c728b0425a5096141c7067b3dfc970c004e9",
+      "file": "skills/linux/filesystem/ext4/journal/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "2ce27d205e8d7c13588219602b8b69b0563c88df99bd4048a41f24091d9a913e06d4a46518438b32e0f22a543bf819e1c600301fbdb45095d031e13eb802babb",
+      "file": "skills/browser/chrome/indexeddb/extract/index.json"
+    }
+  ]
+}

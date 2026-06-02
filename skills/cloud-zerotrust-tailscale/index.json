@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-tailscale",
+      "path": "cloud-zerotrust-tailscale",
+      "description": "Cloud Zerotrust Tailscale.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6e4ec4fcc11af339b48d187c09786c9397e36f7ea4544c56895092beb1060ea5a75448eee5c301c319594747576502d2a6f9c7be41fdc6020d03d7b68a562da0",
+      "file": "skills/cloud-zerotrust-tailscale/SKILL.md"
+    }
+  ]
+}

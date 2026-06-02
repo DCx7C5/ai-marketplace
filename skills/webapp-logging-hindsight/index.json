@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-logging-hindsight",
+      "path": "webapp-logging-hindsight",
+      "description": "Domain                   | Name              | Expires            | Secure | HttpOnly .",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c54b6d13192af71003723be91c811c85a0c16745183638439e4886e583f30353132e908cf99c9c211cbfd1e3bc46978df74d175266ff55004442e870f160f6ae",
+      "file": "skills/webapp-logging-hindsight/SKILL.md"
+    }
+  ]
+}

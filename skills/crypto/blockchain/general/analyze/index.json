@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "blockchain-general-analyze",
+      "path": "crypto/blockchain/general/analyze",
+      "description": "Build an append-only log integrity chain using SHA-256 hash chaining for tamper detection. Each log entry is hashed with the previous entry's hash to create a blockchain-like structure where modifying",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a8fc89f8d14e738f995947342ad867947eda073379619230675fb262b013f3d8f07db41d679f4bb404d97a55bfcce329e25e79d675989e352663ca54d9c05231",
+      "file": "skills/crypto/blockchain/general/analyze/SKILL.md"
+    }
+  ]
+}

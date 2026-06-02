@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "frameworks",
+      "description": "skill directory index",
+      "sha512": "07a95a0689a01158c816fd896d3bf03294dfdbd27039b68742806f59b9776d44b512d9b2a04ec5f6178ec66f34e8985c9d231e874d4b5358fe1373afef25281b",
+      "file": "skills/devel-jb-kotlin-tooling-java-to-kotlin/references/frameworks/index.json"
+    }
+  ]
+}

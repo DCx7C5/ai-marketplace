@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-logs-api",
+      "path": "cloud-logs-api",
+      "description": "- When investigating security incidents that require analyzing api gateway access logs - When building detection rules or threat hunting queries for this domain - When SOC analysts need structured pro",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2f10cb95c07a52221d2baf503c4861a2ce45cb8ed367c0641a8df3f7e79e46cabb6322aa24d2b5b20a07822fb4b9a06a46ed77be5e1832a5f7a677d400343b3b",
+      "file": "skills/cloud-logs-api/SKILL.md"
+    }
+  ]
+}

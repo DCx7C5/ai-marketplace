@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-ioccollect",
+      "path": "intel-ioc-ioccollect",
+      "description": "--",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3bf4556c90e5b22231f1b6d1994935d269b671ec5d174cc9a1cf0f682d0b92e8f681d9a80cfd5a429582d0c2e463e9a53453b04c2b2a087e62bcec61f732c433",
+      "file": "skills/intel-ioc-ioccollect/SKILL.md"
+    }
+  ]
+}

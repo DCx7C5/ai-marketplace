@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "aaf05e2d3f87bb45740708978fd5af9a4dad6b6eb914ed3a9566669cbf69248b57fd9ec894dd54f9fb435d059ee333dfb41ba662ccd1984b7ea82b4cb6842cbf",
+      "file": "skills/linux/network-services/smb/signing/audit/index.json"
+    }
+  ]
+}

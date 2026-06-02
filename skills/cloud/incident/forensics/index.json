@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "4fd22835a83434db5cf52465e2cc30ec2ef94ba8f52ca878e686a34743508789a4a2dff00ccce3bf7b7c41f961a005cd175c2f7998397a519f597cdad9bd3fae",
+      "file": "skills/cloud/incident/forensics/analyze/index.json"
+    }
+  ]
+}

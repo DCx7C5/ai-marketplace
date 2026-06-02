@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "abuse",
+      "description": "skill directory index",
+      "sha512": "42ee4128b72fd0dfd063094b583363979ee5efeb4d31ee30dde6c21384cdce8ab1f3e544f11ab870c1babafe6000367e1a925435e62c4c7e7edb95d78c2054d0",
+      "file": "skills/linux/kernel/syscall/io-uring/abuse/index.json"
+    }
+  ]
+}

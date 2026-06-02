@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "5dfc5a0b4424670776d6350cd9babeb7e2ae8603d1eaf8e3487a6774b82511fc8566db198f937de2615589b5d87eea09bbc6e5fd322a9967724042d873363933",
+      "file": "skills/soc/siem-soc/tuning/false-positive-reduction/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "395df142fb5cb2d5e2242fb8c9b8eb0fb99ccda952bad963dce21e94a94b0bb43e3237cfc315f97e58d805a6dc35334bc7dc2057de6d81a75d0b4f0b9b3b4d68",
+      "file": "skills/soc/siem-soc/tuning/false-positive-reduction/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "82ac9ec5ec8feb4156c5491dc3d3f74a3e1f0070969f9647ca205fd2bb74b1f6484475f68ee5b805212f01c5d388805215bd619f376160ff5ac646fbd78d087a",
+      "file": "skills/soc/siem-soc/tuning/false-positive-reduction/scripts/index.json"
+    }
+  ]
+}

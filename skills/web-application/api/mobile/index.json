@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "1b13effb0fe4f573d55dfab56962f877f398c1921cb5879f102ad456625e253a428de3086c7fc958d690db547ed04c82b281123c5d8c112b420c0f0c051c6b2d",
+      "file": "skills/web-application/api/mobile/analyze/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "30df4745784eec18e76853b66e57cc8008ba899fae24478e06c7b7d2a453617506330cf23d0fd4c4f410748a81031762b603bbbba4eaf7016d114104c0897e6b",
+      "file": "skills/web-application/api/mobile/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4a96b3727d9944525e0e54392bf5a67a69340768f214c802aacd7b01fa267052ed558a65d610bb70a89c5172513bfc709759c26e9a0213e1449f4e26487d54b3",
+      "file": "skills/web-application/api/mobile/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "0797c3a56ef85158e72231ab03b2d112c3f84ab18850e5a5eb610f95d49cc672bc8a65c421e4bd7aec5128b1f57f3a02feba43eefd4e7da87292ac110df3f588",
+      "file": "skills/web-application/api/mobile/scripts/index.json"
+    }
+  ]
+}

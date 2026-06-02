@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "d0cdf568b4070532349fa8761d8e9821e8cf7c53f6263a15e699749823ee325ca10ccbf6b2b86be81452aaa4bdb1f196a20b914448715872487143b35bcdbde7",
+      "file": "skills/web-application/api/massassign/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b8e598a2542d1d6ea1a55a40d3f251ea8bcb58c9d295931575631321d90c9b27f6b16d5b3d11da86c1ed696cdef4c34a9447c2a83351a802d2324897d050d723",
+      "file": "skills/web-application/api/massassign/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "71a5df272e7b4920f4a2b16d43701d0f770255d86d562338f3d97bf554fdb92189fdc9afbcc0a89e0bf0cd3782b2ec2ca1c5ae78a7312c9c05adeedfd187881e",
+      "file": "skills/web-application/api/massassign/scripts/index.json"
+    }
+  ]
+}

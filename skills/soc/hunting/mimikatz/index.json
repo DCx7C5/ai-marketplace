@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "84c2ec5f610f879afc88177db58e9bf604e5dc0f6207db8682650fdec27e7e848f4b606d8f6d415f03c1012e3719338c3ba452a295fd77ec189f205e3c6b417a",
+      "file": "skills/soc/hunting/mimikatz/extract/index.json"
+    }
+  ]
+}

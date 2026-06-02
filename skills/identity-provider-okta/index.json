@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-provider-okta",
+      "path": "identity-provider-okta",
+      "description": "--| | login | userName | Okta -> App | | firstName | name.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d80200d091a189cdcd99f15e59bd14ed1615a0ebb3b58eb2d1c91631a51d6689400e3413853a77109220e7a7967a9b1e71e5c6f4a355b9b923bd328e485264e9",
+      "file": "skills/identity-provider-okta/SKILL.md"
+    }
+  ]
+}

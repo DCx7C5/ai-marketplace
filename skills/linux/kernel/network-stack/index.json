@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "netfilter",
+      "description": "skill directory index",
+      "sha512": "bdf94f1bbacf4750fb9c3edefcbab2ff1ac9a7290ecfcf985683728004325c40667b10fc4014d5106f23b29f6cd248de6de4cb18bf8c669bea852de9e40643bb",
+      "file": "skills/linux/kernel/network-stack/netfilter/index.json"
+    },
+    {
+      "name": "netlink",
+      "description": "skill directory index",
+      "sha512": "1041e6c7611c8d9b31c35ef09146d78db5b3fdc5a258483c73b9122154905aa874bc59e548feea8e591de0704692f33dbb40caebf3401aae303357320d927986",
+      "file": "skills/linux/kernel/network-stack/netlink/index.json"
+    },
+    {
+      "name": "raw-socket",
+      "description": "skill directory index",
+      "sha512": "289295bbb0c93193936c24d0d72fc4aa826fb577e611ce458ffe5fdb31863d4e752ab1d33106dbd26fc2b52f4ed966d017f13cfcb0d1da422c4de2ccbc3b832e",
+      "file": "skills/linux/kernel/network-stack/raw-socket/index.json"
+    },
+    {
+      "name": "tc",
+      "description": "skill directory index",
+      "sha512": "a9217f04111e08ec54b417da69ad66bf0981c6160642f056efd61a42c8bdbc9adfc03589956fa0c67b49b693456d019e375edd436e0f6aed578fed73cfe2354d",
+      "file": "skills/linux/kernel/network-stack/tc/index.json"
+    },
+    {
+      "name": "xdp",
+      "description": "skill directory index",
+      "sha512": "0061511ba3ea1ced1f802f362d187bebe4fce8d850c6d8637a0256b0fb9ecebdd9d9a04b8d2b5ae7cd11bc5d076a58048e5e9dbeaf6133ae46f3f85b61631f63",
+      "file": "skills/linux/kernel/network-stack/xdp/index.json"
+    }
+  ]
+}

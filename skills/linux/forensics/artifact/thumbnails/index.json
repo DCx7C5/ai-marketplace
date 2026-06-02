@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "e8c8faa2c1469a9f3a93a84fdf5b56bb21cb63839dea1a5514f03702ac5dfb141bda011fd0f2ce2117443e4d0d5ec4bca0203003f907f8e7294b0e7d2ba87066",
+      "file": "skills/linux/forensics/artifact/thumbnails/analyze/index.json"
+    }
+  ]
+}

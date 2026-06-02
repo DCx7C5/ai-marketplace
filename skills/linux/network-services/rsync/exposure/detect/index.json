@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-rsync-exposure-detect",
+      "path": "linux/network-services/rsync/exposure/detect",
+      "description": "Detect exposed rsync daemons with anonymous access, world-readable modules, and insecure configuration using rsync client enumeration and nmap scanning.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "236e5d59bd61ec1a57290b6aca3356702b350eed2ff6ca300ae913f26a8abb2af98af28c60c6b2ec417b7b2c261584dd897dafd81dc086c0d1c72a475b885d66",
+      "file": "skills/linux/network-services/rsync/exposure/detect/SKILL.md"
+    }
+  ]
+}

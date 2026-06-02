@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-architecture-iec-62443-conduit-configure",
+      "path": "ics-architecture-iec-62443-conduit-configure",
+      "description": "Ics Ics Architecture Iec 62443 Conduit Configure.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "98e662823f489a5cc2a2ceaafeaaf7787b58979015d476f1e399885051d157646d7d6ad74ab0bdd93e6723f8e338de2c2ac2c2db1f9c7a265fc0d5f6345f4441",
+      "file": "skills/ics-architecture-iec-62443-conduit-configure/SKILL.md"
+    }
+  ]
+}

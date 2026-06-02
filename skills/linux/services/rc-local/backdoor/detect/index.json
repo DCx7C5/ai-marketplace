@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-rc-local-backdoor-detect",
+      "path": "linux/services/rc-local/backdoor/detect",
+      "description": "Detect rc.local and SysV init script backdoors \u2014 inspect /etc/rc.local, /etc/init.d/, and runlevel-specific directories for unauthorized startup scripts.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f9105e89d67af43dc9464ac669206c20e017795952478c5ac36197b72444aac14a654331b38937568f3f7b0cb90400ed78782efd2c93c7362873ef4e8026fb5d",
+      "file": "skills/linux/services/rc-local/backdoor/detect/SKILL.md"
+    }
+  ]
+}

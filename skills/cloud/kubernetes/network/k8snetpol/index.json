@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "70f75d5512e40dd7792bbd90637cf6d631ca43f72291c30cbd2e89a801eb92ed4d72baec1ed0005f1672d969c48011a8382aaab0c2b19aa6a87d2053aae8f995",
+      "file": "skills/cloud/kubernetes/network/k8snetpol/harden/index.json"
+    }
+  ]
+}

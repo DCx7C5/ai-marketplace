@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "1923aecb14923a49d0eebb944b1d8905b2c55511fd61edae7f83e53bf560a180ce8910672595639d1eaec10b4c59b23606626f1923b07958ec22c9c7b3a6302d",
+      "file": "skills/network/traffic/nozomi/detect/index.json"
+    }
+  ]
+}

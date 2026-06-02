@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "capture-zeek-zeekanomaly-detect",
+      "path": "network/capture/zeek/zeekanomaly/detect",
+      "description": "Deploys and configures Zeek (formerly Bro) network security monitor to passively analyze network traffic, generate structured logs, detect anomalous behavior, and create custom detection scripts for t",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0fe7ca76e7ac296cb471a6059279402547ef0b6e6330f68db903f06334370ed224470e1a0f1f4c80d54f3a3b9047e7aacc3f715e6c83ed5e0810bcaa9e8769da",
+      "file": "skills/network/capture/zeek/zeekanomaly/detect/SKILL.md"
+    }
+  ]
+}

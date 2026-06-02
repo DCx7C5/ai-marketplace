@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aggregation",
+      "description": "skill directory index",
+      "sha512": "9380a5a6b76e84817f2a0b08265f88c7f04a4e592c0712ffe40a941137b64bea56a3ed0c90f83632ef2414fb2bd3b0e88497956540aedbdf99caa91a1c36cadd",
+      "file": "skills/database/logging/aggregation/index.json"
+    },
+    {
+      "name": "syslog",
+      "description": "skill directory index",
+      "sha512": "4abb41feb08886cc8ff9dbb5c253ba8607f6877b3b5df9019410f41b7e95132675dad3b50e8402ff841ca9b3128c24a1a298bf02615b9af399da0b0bb9dd42d2",
+      "file": "skills/database/logging/syslog/index.json"
+    }
+  ]
+}

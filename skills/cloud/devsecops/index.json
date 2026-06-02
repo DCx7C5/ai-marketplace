@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aqua",
+      "description": "skill directory index",
+      "sha512": "fd917ef63dd23d65133e69a29ad836491c73855318bcc9a42458cc0ad8fc15117a4adb615026f59c0c6e54111b79ffb168e6874a7ecf22a7b5b50132b5df7be2",
+      "file": "skills/cloud/devsecops/aqua/index.json"
+    },
+    {
+      "name": "fuzz",
+      "description": "skill directory index",
+      "sha512": "fdb1d2cb83a44cd9f3f6784b25825b5d8d483d95bfaa74a54c4e20d86f3c20b36daca051dfa7934b0cb7819ae4d591d91f6346fc3901d716f7a5b5edb983b215",
+      "file": "skills/cloud/devsecops/fuzz/index.json"
+    },
+    {
+      "name": "ghaworkflows",
+      "description": "skill directory index",
+      "sha512": "bc2280bfa783cd0397e40e7befae0801b0fbdca3d52544503cdf20458f185351191c80b66f558cd6d4d868bf7d1574e2befba9d6a0ce6bc9cdb58854875b9cea",
+      "file": "skills/cloud/devsecops/ghaworkflows/index.json"
+    },
+    {
+      "name": "github",
+      "description": "skill directory index",
+      "sha512": "7968432f929f90dd02e67b326cc25c22e4b4cf3fa423ed1d994c962fec9bcba8fd46e3c38e9548f2aa45b9ab2216ba15c0fa4b85abe58ad47937f7d2a943e7cf",
+      "file": "skills/cloud/devsecops/github/index.json"
+    },
+    {
+      "name": "gitleaks",
+      "description": "skill directory index",
+      "sha512": "745dbbf617d3c83237a97861be4bacc26ad7af634a87bc11fbeba2e89b1c9f18a0634d829db1cf711310523ccea2b64f9efe35e9d8ab71141f0efeadc5a84f22",
+      "file": "skills/cloud/devsecops/gitleaks/index.json"
+    },
+    {
+      "name": "iacscan",
+      "description": "skill directory index",
+      "sha512": "308a0a8eed289474f323b2bfb51fdb28e7aef42200b5bcf156d7beae984a9e8ce830c6403197ded4f13a527aac8a583e47667e182f770c3f850bcf18e64b9062",
+      "file": "skills/cloud/devsecops/iacscan/index.json"
+    },
+    {
+      "name": "policy",
+      "description": "skill directory index",
+      "sha512": "c20f72069e75b3257d5bc6788a78aefbd4784d93ee5739a0e6224615fd53712331b5862e8af8ed5e8700f3852ca20cc2ca8bf65676351a825dc173569c8dd5cb",
+      "file": "skills/cloud/devsecops/policy/index.json"
+    },
+    {
+      "name": "sast",
+      "description": "skill directory index",
+      "sha512": "28697b402c92dd2885739987b14d21f26f9968424a67305886487809ff05977d536aa1205622a886f6a7f5a428d84a65a346052f9e1f2b88b2bc658de2c32788",
+      "file": "skills/cloud/devsecops/sast/index.json"
+    },
+    {
+      "name": "scanning",
+      "description": "skill directory index",
+      "sha512": "045c6809758aaa17995619b2b821affbd2c134f715978803f8c7447ebf1df4b48699ab51f12f8b5cda71917b2402e0c55fe5525a483e9608e3058b73b81f9aac",
+      "file": "skills/cloud/devsecops/scanning/index.json"
+    },
+    {
+      "name": "secrets",
+      "description": "skill directory index",
+      "sha512": "d2869d694c01757697979cc733098cb086fbed149b0ec9b0ed423e17fae077886c56917629d0942d6eb0f1c96c0d9ede3ffd8c3ff6542b6f87ea679fb7701e11",
+      "file": "skills/cloud/devsecops/secrets/index.json"
+    },
+    {
+      "name": "semgrep",
+      "description": "skill directory index",
+      "sha512": "065a7f4284b992af16b7bbe204c4dbea55263b88b824a61bc5b04b5d0e6fc42f385c932698a5d8607007b839f31449152230ba3e34b20ad3ba58e95a481ff29c",
+      "file": "skills/cloud/devsecops/semgrep/index.json"
+    },
+    {
+      "name": "supply",
+      "description": "skill directory index",
+      "sha512": "c82fc152348f87923a061e36e8c6c2151f29478281c1f49c6c4a68702e5a0422c6b8b67732ddfeb30c16ea23c2c99d9894a07637565959e0eba6e37909e7e573",
+      "file": "skills/cloud/devsecops/supply/index.json"
+    }
+  ]
+}

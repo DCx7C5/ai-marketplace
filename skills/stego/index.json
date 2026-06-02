@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "SKILL.md-",
+      "path": "stego",
+      "description": ">\\n  Steganography reconnaissance and steganalysis. Detects hidden payloads\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f9cfa91879dfd4325aab7908cd110fd61d8e093ed031fd29c52d141728929f77ab811cb74a37063697f671e755e832af7055b0e7bba6535ba074729e8ac3b029",
+      "file": "skills/stego/SKILL.md"
+    },
+    {
+      "name": "audio",
+      "description": "skill directory index",
+      "sha512": "f549db00b318a3d92b4db31e796ec2a2c2330135e6b0e75eb63654e87ce260c052b631968ae4798c39062784578bbc19d7b973f5da9a406a19bd60025a5ba1f2",
+      "file": "skills/stego/audio/index.json"
+    },
+    {
+      "name": "document",
+      "description": "skill directory index",
+      "sha512": "e6570a912e9c161679b992bf38565f8dc062a454669afd07f70f77b64ce0e297672c6def9b901f4f694286f1d7c1987add06f774efdfc398d8510eb2f8bc9240",
+      "file": "skills/stego/document/index.json"
+    },
+    {
+      "name": "image",
+      "description": "skill directory index",
+      "sha512": "e67f5e78f93d6d37be19295cc094a13e946f8292b8caf36ae7d2a06f6a93bf21aaaaf670da4cb120684229925e86e849e28524cca168bdfce8d4ae678237fe44",
+      "file": "skills/stego/image/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "5ca0897cd084135da2ff3911c9bbeaab2146d45b137ffb0f5a5a8b0552d5c498e238c364d0accd6b471c536d98f65303ff9f4f15749d6d5b097ab45b6fe86c1b",
+      "file": "skills/stego/network/index.json"
+    },
+    {
+      "name": "tool",
+      "description": "skill directory index",
+      "sha512": "947c45fc7f92357ce3fa5515a7ee3c36b6d886062c8ddf87e21b2fa767d70f4ac81b1110ed2c44fb537c6627d00b027bdbd054a844730b6af417ab3261935e9f",
+      "file": "skills/stego/tool/index.json"
+    },
+    {
+      "name": "video",
+      "description": "skill directory index",
+      "sha512": "4f681ab482534e1544ce04f4ef121a692c1a1a128c686780dbd5a780750fbbde7686ff77bf53c2689c8a7cd39ba137d4255a9b0c9928dfe72bf6b9ef5f8ce3ee",
+      "file": "skills/stego/video/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ntlm-passthehash",
+      "path": "identity-ntlm-passthehash",
+      "description": "Identity Ntlm Passthehash.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d23ae2db97464fdc51b09e978509ffa9c920a8f4aa0a2343da5644eadebf97682be3c56daf62fedcae8ee714078942954dbdc8f8b79128d6290ce10a22360fdf",
+      "file": "skills/identity-ntlm-passthehash/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-feeds-stixfeed",
+      "path": "intel-feeds-stixfeed",
+      "description": "Intel Feeds Stixfeed.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4a62a18f64befc316b0189eda3bc8d573a2c54201189c77570401cb7b674438750a1f6e9e26f071776ee781de95a23d88f05b806020d1c03dfd0ad86c0709571",
+      "file": "skills/intel-feeds-stixfeed/SKILL.md"
+    }
+  ]
+}

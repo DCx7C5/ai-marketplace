@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-zombie-orphan-detect",
+      "path": "linux-proc-zombie-orphan-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "34ad249eac5fab1b2a9ae17352234717591603fd450862c772a3fc42f6411ce3c6d9af175c954dc715f027cc9754b5230dba1eee8afcd25c895e2dc9f857476e",
+      "file": "skills/linux-proc-zombie-orphan-detect/SKILL.md"
+    }
+  ]
+}

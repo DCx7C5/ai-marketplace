@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "1df2a0ea887e6a839ff4776894605624a3a8e5e9873858546e39c553caa74a9826a590fd4129573a2e762e1ccefa2333c1083e21c7610b9ef6f349a745ec7661",
+      "file": "skills/industrial/ics/network/segmentation/implement/configure/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "636272cde11ebd008d333633a6c001b6f6a679eb84275fcca5642cb179039e561dd82edffeae4e5d857c8850690dec0ef700e8a584e4f60582adc26a259cc340",
+      "file": "skills/industrial/ics/network/segmentation/implement/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "fdbf2b9a04f61e429d19ca2d68746beb7bb196525000f81bc634836cc0e4b222f352d65854a3365e7b29e4209b090846b7b3333747552b7530e312cf010b062a",
+      "file": "skills/industrial/ics/network/segmentation/implement/scripts/index.json"
+    }
+  ]
+}

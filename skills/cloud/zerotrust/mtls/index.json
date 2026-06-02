@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "99c6a6aefc75ee96539c5a55204a2e4383f6f4d1398eae82ff2d6ed796d923e2eca022a38390bd1aee9ec09d87e51e28644a2b7b4f9359da78eb66b24253f4e2",
+      "file": "skills/cloud/zerotrust/mtls/audit/index.json"
+    }
+  ]
+}

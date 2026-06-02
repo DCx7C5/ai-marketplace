@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mitm",
+      "description": "skill directory index",
+      "sha512": "c19c166dfeeafd5790a4faa5985619bc695d752e361d2706a04ad3caa288a5d7230230797891192b2c83a1d8cb73f1dc73ef8b53cd28d749c2041b652be0e909",
+      "file": "skills/network/attack/mitm/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "kubernetes-general-overview-analyze",
+      "path": "cloud/kubernetes/general/overview/analyze",
+      "description": "Auditing Kubernetes cluster RBAC configurations to identify overly permissive roles, wildcard permissions, dangerous ClusterRoleBindings, service account abuse, and privilege escalation paths using ku",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "10abc57ed1fe858065c96f84df859ec1f9e530b2aa30bfc7857a0a96414a86e856e79a994b108c8e08be17aa9bdd53f545fb69ecd1d59b430a25170ff9da8f6c",
+      "file": "skills/cloud/kubernetes/general/overview/analyze/SKILL.md"
+    }
+  ]
+}

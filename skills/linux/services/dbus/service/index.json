@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "a4a40f98f3ee427089d0927b97ff35dec934171a5a8d4fa84535c30a45d7acda7dd48164faa58eef67bfd5fd6e9821b28d5877ecd7ef377c2ded841c51ddb6a4",
+      "file": "skills/linux/services/dbus/service/enum/index.json"
+    }
+  ]
+}

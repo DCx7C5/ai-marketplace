@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-persistence-general-detect",
+      "path": "linux/services/persistence/general/detect",
+      "description": "Linux persistence mechanism specialist. Userland (cron, systemd, shell rc, autostart, at), kernel (LKMs, eBPF, kprobes), firmware/bootloader (UEFI, initramfs, GRUB), and supply-chain (package hooks, P",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "910ada19e9ab5d843b48845fd33339d317e3ab1831120b50706c359745ebb091a454eddd5651cce0d1daa22113972803173639f6932320e7baf59cfa7d764cee",
+      "file": "skills/linux/services/persistence/general/detect/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-anomalous",
+      "path": "soc-hunting-anomalous",
+      "description": "5. Identify download cradles, credential dumping, and lateral movement commands 6.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "61c59bfa49f129457e31ed2bd1a7930f3f5b696cefa0cc728ef4137b755cfaf40d58a17bc84c3a0a328c72513020fbf38cd9ba3e77866ff3418963e5c82990cb",
+      "file": "skills/soc-hunting-anomalous/SKILL.md"
+    }
+  ]
+}

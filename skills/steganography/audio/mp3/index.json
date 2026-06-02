@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "metadata",
+      "description": "skill directory index",
+      "sha512": "4ffd87fc2808b18a129e29d13044e1a5da9469b8d3f4c25c7d76f2ebbb013bc346d76c3182fc628e83e08f74b1bf4692cedeca944f6b40bf4d0958491bb54c7a",
+      "file": "skills/steganography/audio/mp3/metadata/index.json"
+    }
+  ]
+}

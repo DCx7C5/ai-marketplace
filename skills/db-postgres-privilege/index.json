@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-postgres-privilege",
+      "path": "db-postgres-privilege",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bf88c4bfcf26a65d559e6ffbb90f808f32d9a843b997c9bd92e5b63f53229568d9d7da8252c7eed9f99adf8075257703e59e0866a8705be6289e7f3ee8ba2568",
+      "file": "skills/db-postgres-privilege/SKILL.md"
+    }
+  ]
+}

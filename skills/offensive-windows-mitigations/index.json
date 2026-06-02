@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-windows-mitigations",
+      "path": "offensive-windows-mitigations",
+      "description": "Offensive Windows Mitigations.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f18668ef7ce6211dd45923923415e35b404dc04bbd2f855165a014f6332478f750a8a77d4b0abf9595e898185e119edd27d1a056831a6d706c07893c6bb39d31",
+      "file": "skills/offensive-windows-mitigations/SKILL.md"
+    }
+  ]
+}

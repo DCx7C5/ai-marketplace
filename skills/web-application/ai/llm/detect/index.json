@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ai-llm-detect",
+      "path": "web-application/ai/llm/detect",
+      "description": "Implements input and output validation guardrails for LLM-powered applications to prevent prompt injection, data leakage, toxic content generation, and hallucinated outputs. Builds a security validati",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4b807b48edb2655e02309ee85310a543a022d8d0756be7398ed20863ce96452213502a3069d4e68db91a8cedc304282a505c4cb3e2cf7515dea61364fe8d6309",
+      "file": "skills/web-application/ai/llm/detect/SKILL.md"
+    }
+  ]
+}

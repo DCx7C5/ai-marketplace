@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4abdcbf96f95029d2e484c5c00a7f352a439cc17e5f10ada94f65a491967e2f7ed3255e94ac69b053e3195bc44853a9b11c598681690b6a6711c21ea05ebf8c3",
+      "file": "skills/web-application/tls/certificates/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "71f0894465dda99948afc638dc6e859710e3fc95f345f6a48685ea4c5efdad4a13ab80eefe237c1e0afcf84606d2caad50c08471c0857d0da2ac1e70cd47e103",
+      "file": "skills/web-application/tls/certificates/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "250d9d8350f488b702cbae728acd8c5c8c5ef882f3c0b0672d2ee489a303eee31cd428566bc3c1d9c9df589d253380ef1e826aa4d65fe7813954488e01e1bb49",
+      "file": "skills/web-application/tls/certificates/verify/index.json"
+    }
+  ]
+}

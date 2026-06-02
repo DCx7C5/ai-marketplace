@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "plaso",
+      "description": "skill directory index",
+      "sha512": "cfc2ef37685ae6471e02bfb67264be04e630aa7d2ecaea90599161e8852e1c9717e61bfcd71519e1f2bb3f089de54b4fb9a706438df03475f42bb43995db8826",
+      "file": "skills/linux/forensics/timeline/plaso/index.json"
+    }
+  ]
+}

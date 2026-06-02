@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-hw-firmware-analyze",
+      "path": "linux-hw-firmware-analyze",
+      "description": "Linux Hw Firmware Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2a7d6c8f78a2882e3d58026abbc5ebe68d1e942104dad2dcf7f61567d7bd3c25f06c62c00b074ee4f8e2fd8bdfee3ef73ad4043efb3119f3c4602250adea49eb",
+      "file": "skills/linux-hw-firmware-analyze/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mp4",
+      "description": "skill directory index",
+      "sha512": "10590741f76cbd70b07a6cb8f2ba294e8777bff338d849fe4937f5ffeec64e2ce3f72220a89b6c779fda963ed1d042cdabaa8755db37c87ee5ad2ca9618ae6c9",
+      "file": "skills/stego/video/mp4/index.json"
+    }
+  ]
+}

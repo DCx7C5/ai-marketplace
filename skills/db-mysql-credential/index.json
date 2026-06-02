@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-mysql-credential",
+      "path": "db-mysql-credential",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f05a0c9cfccced762f6a65f92fa20ca58888976d7d312efbca302bc7626df43bed6af2c323a2789f00b4fc065b1206b3dbb49e5f41209d20c3d1086c56bb04f5",
+      "file": "skills/db-mysql-credential/SKILL.md"
+    }
+  ]
+}

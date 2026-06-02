@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-vuln-patch-manage",
+      "path": "ics-vuln-patch-manage",
+      "description": "Ics Ics Vuln Patch Manage.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b3830c9de4c82c3bc83b477abeab9ada922a727c1115423d3925dd4592772ed61905fb11d454915e70602181ec67b7224b5b5b8f9999763a7bbcb5b0450c3b7b",
+      "file": "skills/ics-vuln-patch-manage/SKILL.md"
+    }
+  ]
+}

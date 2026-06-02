@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "950cb85723b1f2942c9253aec6dc317f835bac7483e8c80294ec89a5ea723be59216ac58608aec8e05bdecdaf7f4e9b8e34092db19179c2b52b94c811ec98a03",
+      "file": "skills/industrial/ics/asset-management/claroty/assess/index.json"
+    },
+    {
+      "name": "discover",
+      "description": "skill directory index",
+      "sha512": "48f489351c66c08c7f8719a8ce51a5f7bf5be27d450b167fec9d54462e84c94a9edd62d3fee4c29e89facea614d3624c4ed41e0df2abc56f7ef89ad344cd1b41",
+      "file": "skills/industrial/ics/asset-management/claroty/discover/index.json"
+    }
+  ]
+}

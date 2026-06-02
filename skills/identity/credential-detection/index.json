@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "5fefef86e989e6b1cffe31b1b20824eeb034fbd91080a816018a29ac8257a57151e0c25eceb362f6ee91607ce8125c21f0b15c18ccf5fa4d557712f001485ef4",
+      "file": "skills/identity/credential-detection/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6049a201e335b884b589b78f7f063c23147223c2fa52fc900924c37d017d953b4588184d40de10d167b7f95d49b22f516c0a8653485e2fc452b5e609cc7c7f11",
+      "file": "skills/identity/credential-detection/scripts/index.json"
+    }
+  ]
+}

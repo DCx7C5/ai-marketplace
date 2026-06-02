@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-general-overview",
+      "path": "cloud-kubernetes-general-overview",
+      "description": "Cloud Kubernetes General Overview.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "901bfe5d8f449d365b929335b83139c827adfe1dcc0da3e2a16b4361f2b744635b43de538dd4b061b384d274af0c789096cecbc8b7d3f8d1cf733bee0241e017",
+      "file": "skills/cloud-kubernetes-general-overview/SKILL.md"
+    }
+  ]
+}

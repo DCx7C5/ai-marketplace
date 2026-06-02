@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-semgrep",
+      "path": "cloud-devsecops-semgrep",
+      "description": "7. **Version control rules** in a shared repository 8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "28ee67c4a0eb8fb747684f6ccf55485391cd62488e4d668881b4dcac061ca8ef7497bd346ba6f997ad878ec91a38c75abdc5241a1b64c63353d503c1eed95e8d",
+      "file": "skills/cloud-devsecops-semgrep/SKILL.md"
+    }
+  ]
+}

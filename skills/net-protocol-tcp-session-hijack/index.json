@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-tcp-session-hijack",
+      "path": "net-protocol-tcp-session-hijack",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8d3b2914ca64db25d8071446038158b34f1002e16260f1113e99859a474502e1bcff6d55ef7c5b0d486445b5676834cc6fa58a1de6c38d272b1e91da2191a32e",
+      "file": "skills/net-protocol-tcp-session-hijack/SKILL.md"
+    }
+  ]
+}

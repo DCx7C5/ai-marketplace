@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-insider-ueba",
+      "path": "identity-insider-ueba",
+      "description": "JSON report containing per-user risk scores, anomalous activity details, peer group deviations, and recommended investigation actions.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8a59bf397ade1eca3c7ead028ed5e423bb36267a86a16dadbaf2e5f29cfb6eab5ebe5355b9c3dbeddb9630ca3dfc9521f1fb937087013ab71fc91194402f482d",
+      "file": "skills/identity-insider-ueba/SKILL.md"
+    }
+  ]
+}

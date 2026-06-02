@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-opencti",
+      "path": "intel-platforms-opencti",
+      "description": "except Exception as e:             self.helper.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7f3ec253319895687ecd59f595aa1816e79ad26c8ebe272a32fdd7dadda59e8eac93c62f83967ad224c8a4fe6d781a941edf7b004df906183c0cb05674c366c1",
+      "file": "skills/intel-platforms-opencti/SKILL.md"
+    }
+  ]
+}

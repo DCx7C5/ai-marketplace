@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "feeds",
+      "description": "skill directory index",
+      "sha512": "c73494814d73526851dc70e2a353c4f6dfef2517422f910297b7455420d2a773970846804f74ad448ecd1bed921169d2232adc10ee391ccf4474e41eedc50226",
+      "file": "skills/intel/intel-platform/feeds/index.json"
+    },
+    {
+      "name": "platforms",
+      "description": "skill directory index",
+      "sha512": "3f785f0e49c814c107b0bfe86131c732438a8e8692f548e323e0ed36f0ee6cf36f772d048eaeb35bfebd1651c1586e772c59e8bb575db1964ed0e37793a5dbc7",
+      "file": "skills/intel/intel-platform/platforms/index.json"
+    }
+  ]
+}

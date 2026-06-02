@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-keylogger-arch",
+      "path": "offensive-keylogger-arch",
+      "description": "Offensive Keylogger Arch.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0a5adafe027658c9d55fc49efd01b00ab032fb339d19f5f1683f2411cf2eaa707c162b5d92c573bc0104868ef5847b72454faeae9aa790b1c0ece3bdb6ebedf0",
+      "file": "skills/offensive-keylogger-arch/SKILL.md"
+    }
+  ]
+}

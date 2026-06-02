@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "cdc177d84af1c394931c50d57b2600fd294de8108e8b4e6645ebbb710679ad1965758f84cd9fdf23614b618064351a23f52c25ff0ce7711a0cf47a55e650fa3d",
+      "file": "skills/web-application/protocol/tls/verify/index.json"
+    }
+  ]
+}

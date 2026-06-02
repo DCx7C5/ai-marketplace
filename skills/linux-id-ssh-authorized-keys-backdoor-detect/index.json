@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-ssh-authorized-keys-backdoor-detect",
+      "path": "linux-id-ssh-authorized-keys-backdoor-detect",
+      "description": "subdomain: identity-forensics tags: - linux - ssh - authorized-keys - backdoor - persistence nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bd6f0e59a2af0434037707c9293a833e71d42194ac268f8a439ea6de873601bbc01ab8fa1a1f636feca109fad8c59ad00c589e3922afcbd8350bad62580f2651",
+      "file": "skills/linux-id-ssh-authorized-keys-backdoor-detect/SKILL.md"
+    }
+  ]
+}

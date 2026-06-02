@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "bc62a58b8d1e320a7f55119f94516a926f014abfe7a000675b034bdcf1d0ba12d41866f16297257e387033d4a8b9d0bd7741c555115d537c47dd42778e88349d",
+      "file": "skills/intel/analysis/actorinfra/exploit/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-cis-cloud",
+      "path": "compliance-cis-cloud",
+      "description": "Compliance Cis Cloud.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3f1fff55c743f5b9543033ffd6f67070f3c5fd6f17dcb3394ad3822a21cc3e76024a4ac1729aae775ed9b52b675d6698cdf6fe32e2b689a48f3480c3f89a2206",
+      "file": "skills/compliance-cis-cloud/SKILL.md"
+    }
+  ]
+}

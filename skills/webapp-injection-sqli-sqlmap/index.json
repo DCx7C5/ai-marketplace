@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-injection-sqli-sqlmap",
+      "path": "webapp-injection-sqli-sqlmap",
+      "description": "Webapp Injection Sqli Sqlmap.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9c1bdc0cc297b69e6711243bc12add1ca5a97d615a6a5412e31f4191525aba579f2215ce2ed21fe6f645d070f2d43e10bc89bc4d6a18d4259b8f75fb677ef6ce",
+      "file": "skills/webapp-injection-sqli-sqlmap/SKILL.md"
+    }
+  ]
+}

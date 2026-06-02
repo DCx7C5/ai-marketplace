@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-rce",
+      "path": "offensive-rce",
+      "description": "- **OAST**: Burp Collaborator, Interactsh, canarytokens.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "287638fbe090794f757a2259b67b2036ce85d62a7e2fd45c15691a0e860a15370d84bf4534fd730da88f43a5b7576b15c7e5fbc79bfb542cca51ecacecb4916a",
+      "file": "skills/offensive-rce/SKILL.md"
+    }
+  ]
+}

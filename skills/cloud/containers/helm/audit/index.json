@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "containers-helm-audit",
+      "path": "cloud/containers/helm/audit",
+      "description": "Secure Helm chart deployments by validating chart integrity, scanning plugins for misconfigurations, and enforcing security contexts in Kubernetes releases.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9b011358838482c6d47c2d4020c4034db57da4b30972d7985dceacd5140e0b967896d82afc7210a0cd49c9e51e574e659de1f93294b66dcef09424202af5f13b",
+      "file": "skills/cloud/containers/helm/audit/SKILL.md"
+    }
+  ]
+}

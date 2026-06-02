@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardening-sysctl-kernel-harden",
+      "path": "linux/hardening/sysctl/kernel/harden",
+      "description": "Harden Linux kernel via sysctl parameters \u2014 configure ASLR, kernel pointer hiding, TCP hardening, SYN cookies, ICMP restrictions, and core dump disabling.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "43916855c43cb6a801017b796b59574e18e65c2c2f397195bf0ccb52fde6f5ba7f166937a24175ea37729d19cd2d9844a529d9d32723fec7d6e047f015c2cebe",
+      "file": "skills/linux/hardening/sysctl/kernel/harden/SKILL.md"
+    }
+  ]
+}

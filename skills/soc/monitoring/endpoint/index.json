@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "datadog",
+      "description": "skill directory index",
+      "sha512": "58ac84b4a6cffd9cfd2ff11a8b865169c635fee83501dc21f4c1ffe625ea3b762f01c2ca421e78530e6f8012f481c6f2c3c82cec4585990fafbc2567660adb60",
+      "file": "skills/soc/monitoring/endpoint/datadog/index.json"
+    },
+    {
+      "name": "osquery",
+      "description": "skill directory index",
+      "sha512": "0a88424df470297a57929b0a428674f0199e40f443c9ce5531cdc646597b291e6797c102f75b685234b5fae0fa4f92d591f86906f7ddd4e5824997eeca3f25b7",
+      "file": "skills/soc/monitoring/endpoint/osquery/index.json"
+    }
+  ]
+}

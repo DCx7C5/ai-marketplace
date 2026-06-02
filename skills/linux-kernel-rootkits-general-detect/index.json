@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-kernel-rootkits-general-detect",
+      "path": "linux-kernel-rootkits-general-detect",
+      "description": "Hidden Processes:     3   Hidden Connections:   2 (C2: 198.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ad1ef34ff328cfd14e99de601126d0b9d8376557aba7c02cb1e7ce1a4d1020dd68058a1227f3fb4f93b470b4b6cc537e4c45b58f07a4b6730b6eeb0e0442fdc7",
+      "file": "skills/linux-kernel-rootkits-general-detect/SKILL.md"
+    }
+  ]
+}

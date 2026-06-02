@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "f16bd200f1defd6d7b6aa052a9dab79c75d549930497195f6443a407662c732059d8d52a94de23a143aea0cad3f35b43656c3c17817ca11600df76fc7ef384e3",
+      "file": "skills/web-application/api/apigee/analyze/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "ab61695df49b44f7b04e7f888fee86112bd7a1cddf66d993c8fef2cf9120358700754dcc2e31d02f4cee8b72bf1c92550d09531d556b4a8dc21c470c56ced244",
+      "file": "skills/web-application/api/apigee/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "4babcbf53f497d208208a7d3d2f973d7bcfc29e0429664db73f69a221328a06f7f04ec95a7e7883b167899b05cb91cc37557d8f360bf764e52b8e94eb7a54a79",
+      "file": "skills/web-application/api/apigee/scripts/index.json"
+    }
+  ]
+}

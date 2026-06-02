@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "319ed960a0bd99402f9abfc6c1dc80abdecc0798b1960b8ed80a7012d5c4c1f2606266e872550b55aa0b1f16e90b4bd5d1823898c3dbe2613b7d48267b7e457e",
+      "file": "skills/web-application/auth/oauth/tokentheft/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1fe099595fb6529b102ebf49dbd104be3e459b7055423652de7fbe3efa8aced0b08ef67f88e15ef5a7d0351527ec3b84dca1a07302e0082f1a7545a84431c39b",
+      "file": "skills/web-application/auth/oauth/tokentheft/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "dac6e228202874ee958f8a37b255aeffa27e0fa13b0c53d4e866f7b760312b9f57b085907bdd535a1511753a7ef0f16a1fc3822e4a134e5653edf6655d91f4f2",
+      "file": "skills/web-application/auth/oauth/tokentheft/scripts/index.json"
+    }
+  ]
+}

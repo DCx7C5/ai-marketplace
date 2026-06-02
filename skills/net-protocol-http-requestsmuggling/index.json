@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-protocol-http-requestsmuggling",
+      "path": "net-protocol-http-requestsmuggling",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "146641bf83b6eb0c8efe3b8982b3abadd156c4373ce1853e284d07272e1dfedfb6a2c2b69b04182a4decc530da39dccadb0d108777356e2a63a031a936ba7241",
+      "file": "skills/net-protocol-http-requestsmuggling/SKILL.md"
+    }
+  ]
+}

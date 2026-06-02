@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "767bef011ffc20ca3f22ba8233456f2fda008e3aed701b442a2bb728797d0a8b79fbcde479a61d59b90368d6234a71490e051fea0529e35a6d6712646b991575",
+      "file": "skills/identity/ad/bloodhound/recon/assets/index.json"
+    },
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "7233a31b90c5a2253d56e02d7b44aee9fecbba433d1e31726f4d404e3692c1b14a7176eac3ccac48bc69ac2eb17e6956a24fd32500bd00d8997861efad2dbb32",
+      "file": "skills/identity/ad/bloodhound/recon/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7cec15398dcb77d3fcae2d576f10ecfa873032b788279b94f885772267ffd60baf1d7d4ad6bd0f1ca764f8b0c039596ee48fd5c746fc512fd5cbb1390ff36301",
+      "file": "skills/identity/ad/bloodhound/recon/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5a201e72fd04b69edb8e03dba418a2f6f66413dc9c38b9fe422dd9824e83397efb29ff8d4fa0189b8e9c7358bf0e6bf7a66e7b8dcd00d630d7cf18f6f045a493",
+      "file": "skills/identity/ad/bloodhound/recon/scripts/index.json"
+    }
+  ]
+}

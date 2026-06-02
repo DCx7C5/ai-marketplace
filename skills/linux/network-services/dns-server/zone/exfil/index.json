@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "b9330b0b3fcc3798c9ba8cc96423fb7d595eefa8282f96c99a50d19f152f2cd5f554fe3e145647cd962c783ffc62d37ecec256eb09acc2af03a3e1e2084971b4",
+      "file": "skills/linux/network-services/dns-server/zone/exfil/detect/index.json"
+    }
+  ]
+}

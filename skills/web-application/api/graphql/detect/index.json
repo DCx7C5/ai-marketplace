@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-graphql-detect",
+      "path": "web-application/api/graphql/detect",
+      "description": "Execute and test GraphQL depth limit attacks using deeply nested recursive queries to identify denial-of-service vulnerabilities in GraphQL APIs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "00249d30bd627e9793fea18ce19ede3bc7e459692ebf093c8c9e4e8b117c8ad7ca05e2e7e338d65f695a1cda927c504d8d5878011fa85902fbd6da6a3590fd40",
+      "file": "skills/web-application/api/graphql/detect/SKILL.md"
+    }
+  ]
+}

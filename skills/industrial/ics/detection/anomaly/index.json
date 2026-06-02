@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "deploy",
+      "description": "skill directory index",
+      "sha512": "ee70f74a763074a86b89783dfd1e5e51a17a74888f5b814dc63b2d10b36a7a4075956a5fb90933c9e63f2fe0f61247c57c3eecc8d14c74b585c0da952cc9492d",
+      "file": "skills/industrial/ics/detection/anomaly/deploy/index.json"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "acquisition",
+      "description": "skill directory index",
+      "sha512": "682c6659a81e653ea2ee211650a8242f7d972a71d7ff53e2e7b64afc07ade13441b7fc3b22da60028690b0f4d2e8b08db1f833bbb7364314ff86bf5ab2d6972d",
+      "file": "skills/linux/forensics/disk/acquisition/index.json"
+    },
+    {
+      "name": "analysis",
+      "description": "skill directory index",
+      "sha512": "7363a89444394056378995f9ab4bf92ae8a4c6405b22b0dff9ed56073d086e873450b1d45504c02659f60d22987ed1f724b3641f5f73b1743ffdb76e79fb8713",
+      "file": "skills/linux/forensics/disk/analysis/index.json"
+    },
+    {
+      "name": "filecarving",
+      "description": "skill directory index",
+      "sha512": "18b6e4b448be054e6270d89c3f3077404e1cc0fb627c86feee6da1a143b3a8044868b5cf354c8dd235a7349a9739ebe119354fa3b6abbf6142a081efd1e9d2e3",
+      "file": "skills/linux/forensics/disk/filecarving/index.json"
+    },
+    {
+      "name": "timeline",
+      "description": "skill directory index",
+      "sha512": "5e0064182388438cc1d68f04219ec542caf1eb23ee9144f6358b5a75391133d7aefbcda48fadd860eed7e236e25973a5f3e1365b56a647ac9ddcd423673cc2c4",
+      "file": "skills/linux/forensics/disk/timeline/index.json"
+    }
+  ]
+}

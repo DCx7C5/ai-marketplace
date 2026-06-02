@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-hardlink-attack-detect",
+      "path": "linux-fs-hardlink-attack-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "465b8944650105be570ef98a3d801be8f1153131ee3e577f35fd5f7ba078de6a5d273d96535568e1f31c5f516211de541c0dce82dcdf7f96a42fa54ae6ea6b67",
+      "file": "skills/linux-fs-hardlink-attack-detect/SKILL.md"
+    }
+  ]
+}

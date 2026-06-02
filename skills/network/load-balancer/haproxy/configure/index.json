@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "load-balancer-haproxy-configure",
+      "path": "network/load-balancer/haproxy/configure",
+      "description": "Configure HAProxy for high-availability TCP/HTTP load balancing with ACL-based routing, connection limits, health monitoring, and backend stick-table rate limiting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0e9feb0395f85df1c0d4415097251a6f44c6b61bb8d7a4007ef551e77eb275ce9da12b3fc675873f8bc26dd056123c251fa1b9fd7005ee62571e79064a4ade95",
+      "file": "skills/network/load-balancer/haproxy/configure/SKILL.md"
+    }
+  ]
+}

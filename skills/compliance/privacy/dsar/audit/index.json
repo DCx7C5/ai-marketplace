@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privacy-dsar-audit",
+      "path": "compliance/privacy/dsar/audit",
+      "description": "Automates GDPR Data Subject Access Request (DSAR) workflows including identity verification, PII discovery across databases and files using regex and NER, data mapping, response templating per Article",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5fb7e174327ccba12ffd797725e294719ecbab0413d03f126c06ea31e2b8af68708131fad50d06492eb13598dc7d29bea9bdcf60fb0858a9e296dfab6120d327",
+      "file": "skills/compliance/privacy/dsar/audit/SKILL.md"
+    }
+  ]
+}

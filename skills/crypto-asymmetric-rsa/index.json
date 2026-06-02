@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-asymmetric-rsa",
+      "path": "crypto-asymmetric-rsa",
+      "description": "-| | OAEP   | Encryption | PKCS#1 v2.2 (RFC 8017) | | PSS    | Signatures | PKCS#1 v2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9e348e8b5bcba0fe76a996e809cb060cdd4faa9444849d46213568d8d912f77f7bcbb86d5c5bbffaff6605d23728aa6d3ed46185230a188e4557d8c950f5670d",
+      "file": "skills/crypto-asymmetric-rsa/SKILL.md"
+    }
+  ]
+}

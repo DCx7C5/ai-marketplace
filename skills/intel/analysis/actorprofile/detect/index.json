@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analysis-actorprofile-detect",
+      "path": "intel/analysis/actorprofile/detect",
+      "description": "Develops comprehensive threat actor profiles for APT groups, criminal organizations, and hacktivist collectives by aggregating TTP documentation, historical campaign data, tooling fingerprints, and at",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80e5d476fffe5b3d73251a4fd85d1586f3748a569bd3978ec872803e2f6f55fcb1616090ecdd6c1f9a3cef5c3b0a35b3e7950fd16d64042bed4f5a5ff37650cf",
+      "file": "skills/intel/analysis/actorprofile/detect/SKILL.md"
+    }
+  ]
+}

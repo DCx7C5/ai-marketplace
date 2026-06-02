@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "beyondcorp",
+      "description": "skill directory index",
+      "sha512": "51983ac1fe4932549b84461f94dd05565709f07314720c385f2081281b3651c38911eb66e832ba593fc2fbd3f6704d335adaf8e1495a8b4b184619fdebee5810",
+      "file": "skills/cloud/zerotrust/beyondcorp/index.json"
+    },
+    {
+      "name": "beyondcorpmodel",
+      "description": "skill directory index",
+      "sha512": "3866d3918de617c29b9b97807c7b69b0f62bbfb1671dc34fe80cb5285b7ef84e96fff4ec2ce608d9db3db0988a2957a7fc7584d68511074f07938d5f3b950948",
+      "file": "skills/cloud/zerotrust/beyondcorpmodel/index.json"
+    },
+    {
+      "name": "boundary",
+      "description": "skill directory index",
+      "sha512": "2415e83d6e88ed87b7380052ed19a0d304d951023ce526ffd1311c1317cdef2d34d10ab6650c1ceba06edef96a3fb382453643fe85463097bc8ccbd1167c7cda",
+      "file": "skills/cloud/zerotrust/boundary/index.json"
+    },
+    {
+      "name": "browserisolation",
+      "description": "skill directory index",
+      "sha512": "c49a9f0a4fa5d17881469be90e9e15598ddf5edac3559496847c58a842f557680201b7ce48a085fb0f7232842f58ba035654e4c54c1bd664470290a2ed013c81",
+      "file": "skills/cloud/zerotrust/browserisolation/index.json"
+    },
+    {
+      "name": "cisamaturity",
+      "description": "skill directory index",
+      "sha512": "f197d1f6769407e7e6fcec9332f28b749d3989a06830e3f84c109723249bb5f1294fe13d62fb0f5789d1840cd4ffc0d1f96d84f70c92a8520b8c9b7ca33b3ec7",
+      "file": "skills/cloud/zerotrust/cisamaturity/index.json"
+    },
+    {
+      "name": "cloudflare",
+      "description": "skill directory index",
+      "sha512": "d4b1e354ff9d3441736894c4cf48b23a9a2f16ed37416430e60870748b2e8f8c051ab28869df7fbc0900b9a27d0aa2692079c96a45bdfb17cde195bf63c1c828",
+      "file": "skills/cloud/zerotrust/cloudflare/index.json"
+    },
+    {
+      "name": "cloudzt",
+      "description": "skill directory index",
+      "sha512": "73d645fa01fdcf9fd1833a247d34c271bdda67766b3b7f0fa0a6c37544eb7cf5a26633d50010257b4204405f25e6c78d4a666111576ae3f4ca35a0b5deaa042f",
+      "file": "skills/cloud/zerotrust/cloudzt/index.json"
+    },
+    {
+      "name": "deviceposture",
+      "description": "skill directory index",
+      "sha512": "ebba39e9d43494a7332bd14711d4bf4a9324cd6499b8f41c5eb4fdf9486944d647bb78f3e2435f9b0fe6ec6c3151c85883533975e9d55bcdb9e1b408d113b218",
+      "file": "skills/cloud/zerotrust/deviceposture/index.json"
+    },
+    {
+      "name": "guardicore",
+      "description": "skill directory index",
+      "sha512": "00f47f4bef69c60a61ee50d1c0cd10d007fc91f78a9ece4c252ce2974fbecfb03c8ee3b8bd0c0a20cf89f88d71f329a35d79a31d3e83b56a2f6b210386295d5d",
+      "file": "skills/cloud/zerotrust/guardicore/index.json"
+    },
+    {
+      "name": "identity",
+      "description": "skill directory index",
+      "sha512": "035b72fb48d8ada221a339b51217093a5e21fd0499431132611d94a7a8fd4efaf45abda0673fc62cb9fce8bc27d8c6511f3f26452a937d43f160bf2bd4e7cfe6",
+      "file": "skills/cloud/zerotrust/identity/index.json"
+    },
+    {
+      "name": "identityverify",
+      "description": "skill directory index",
+      "sha512": "2568200dbe67d0f42e461368d254e3ed029c9e69dcd3f4f9c69ee84aea15cb0e76f9d7e25f71707ff55ad7098a83c76bde05d75c952a7c61941181a464704735",
+      "file": "skills/cloud/zerotrust/identityverify/index.json"
+    },
+    {
+      "name": "just",
+      "description": "skill directory index",
+      "sha512": "c2517075b2d890b8f2ddfb740e5311a687cc637024bdb7a1bddc25f019a5d6e8c8b09b7e7341453fe5c2e12904527c4727440790ae95c9c857b69184b168540e",
+      "file": "skills/cloud/zerotrust/just/index.json"
+    },
+    {
+      "name": "mtls",
+      "description": "skill directory index",
+      "sha512": "6b253bff2f028507390712051c9e65fd6fe26346ac90c1ab792ec47f4dcad69bcc5c6656f314c2ef7689d850bff8f383c15e70c2d39777b66d63e831a2da7ebe",
+      "file": "skills/cloud/zerotrust/mtls/index.json"
+    },
+    {
+      "name": "nextdns",
+      "description": "skill directory index",
+      "sha512": "8f540a872a69d7ec7cfb878153b796a2a8dbc416cec67f319415759e7eb960583a1905112c6b111129b25a46b79be80d744b57794b059e25c4cdf86d34a9ee35",
+      "file": "skills/cloud/zerotrust/nextdns/index.json"
+    },
+    {
+      "name": "prisma",
+      "description": "skill directory index",
+      "sha512": "80480a8efcc5931c3c32ba6120b57ee294bbf81eb3dbc5d099a5e7a4cdec08d68b7a2c96b88817d399f503d74900c330576be922acdc75d04092f7ecffd514ff",
+      "file": "skills/cloud/zerotrust/prisma/index.json"
+    },
+    {
+      "name": "saas",
+      "description": "skill directory index",
+      "sha512": "cc459913cd874f54c87c22fa995cf1a354a750feb5ac2bf55f9a9946f2e3f3e50f40d7d57b0de76d90ebf3fd4564ff631f1e257cd62b101bbf4534fa30421107",
+      "file": "skills/cloud/zerotrust/saas/index.json"
+    },
+    {
+      "name": "software",
+      "description": "skill directory index",
+      "sha512": "7573d555529ab53d63c6274f31a1c97591d252b0b0415be2d13a67be5fc1d2efe34ff9f234b74a703a77737ac2eb160fe9193f21515082b9535b162926bdbd81",
+      "file": "skills/cloud/zerotrust/software/index.json"
+    },
+    {
+      "name": "tailscale",
+      "description": "skill directory index",
+      "sha512": "42bc4b069e7f3bb8f52cecd27543f682b9e7f32f28d5f530e3edc14b001131b421aa62d4f19e56d9eb212a9ac25e5720301ec330786e8bf213eaccb38d0668b3",
+      "file": "skills/cloud/zerotrust/tailscale/index.json"
+    },
+    {
+      "name": "zscaler",
+      "description": "skill directory index",
+      "sha512": "e653dbf25e8cbeca1226875d6f6c539c8feb24b2fd50e2ec573b17b3df034d3aea8041d1b4a91bcbeb01b97f9a150eb4fb44e3fb04499f28df9236abcd57a2db",
+      "file": "skills/cloud/zerotrust/zscaler/index.json"
+    },
+    {
+      "name": "ztna",
+      "description": "skill directory index",
+      "sha512": "aed0767990ca1ee694dc1118bc21079f30311509c05c4b8c65518fab08c69111f950e86cab629d46eec93366718c1ed8dbb5835fdbd72a094e306557ec1f08e7",
+      "file": "skills/cloud/zerotrust/ztna/index.json"
+    }
+  ]
+}

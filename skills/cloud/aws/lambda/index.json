@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aws",
+      "description": "skill directory index",
+      "sha512": "98c684cd87572912391cffb469c9a2d8dbf46cd48518ec3661f56656609631d6de458c7ad4dbe78be6773d482d0cfb1199b1261e3323fd5b3b2d7410bc1d202c",
+      "file": "skills/cloud/aws/lambda/aws/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "88acc432331b70a7dd2bac3278b52a8b7ea49794edabf95df7dce1c14fe022b78095ee0c5847f2292926d31fdf53ca58a8d235bbc2a971b6e0998e514eb7255b",
+      "file": "skills/network/flow/network/analyze/index.json"
+    }
+  ]
+}

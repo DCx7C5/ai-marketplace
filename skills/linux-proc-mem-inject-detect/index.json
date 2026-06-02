@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-proc-mem-inject-detect",
+      "path": "linux-proc-mem-inject-detect",
+      "description": "subdomain: process-security tags: - linux - proc - mem - injection - ptrace nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1d6ce0caef18beedd3117608121a96cc519fa433fdb021aecd362bdd45d5658ed93676602b8168bd130c77726c9415aa8c9aba8397867a786b029b64a860a923",
+      "file": "skills/linux-proc-mem-inject-detect/SKILL.md"
+    }
+  ]
+}

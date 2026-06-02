@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-project-context-ingestion",
+      "path": "devel-jb-project-context-ingestion",
+      "description": "A bad run starts suggesting code before proving which stack, versions, and conventions the repository actually uses.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4249bcc05bb755ad2134057d243642bba6f60a19842349bdc00108d25e71c38d4bdd2e90b0a3d34a3373052859d8f8f0ffa5a66da1c77d82fa89cdfd914ddedb",
+      "file": "skills/devel-jb-project-context-ingestion/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "0ec2bb7421af77ab34304d7d30e204459b9c5fe6a6561bf55afd80a03d80eec141486f3ffaa0ec24b27076ec872d575ba55d588e144b2c62dd094b8808fa5f7e",
+      "file": "skills/devel-jb-project-context-ingestion/agents/index.json"
+    }
+  ]
+}

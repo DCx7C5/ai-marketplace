@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "2dd2ef51b589b2bba3be2d57549ad878cdc1adee6b145e9025c7efac7a505f649793123ff4468f1fe0feeb41f758903a52164fb2fc872b2de485aaa3863551f7",
+      "file": "skills/identity/mfa/passwordless/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "fa42ca4f763de984c9503739ce6bc4163079debe72171d10095630f9cc5da56b295545b53607eb83f421581a9f5600a1a864e078d2d5dd61850686d7e3f85511",
+      "file": "skills/identity/mfa/passwordless/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c239b397f21208f8a06cb53d6e4a47099004309d7aa8f84f9cda833b438c7bde98f5a4bc825b780f1ebf0d0086c2c6b99fddf3fbe84ae785a505d430200dd7df",
+      "file": "skills/identity/mfa/passwordless/scripts/index.json"
+    }
+  ]
+}

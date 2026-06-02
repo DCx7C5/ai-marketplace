@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dma",
+      "description": "skill directory index",
+      "sha512": "86a292857f454a7f3d253bc4291e53fe57a387bfabf547cc1b5caac96bb5caee255d71c7b3e04626acd111fb32558cc53dcc8b7da751831d109d2efe128d4967",
+      "file": "skills/linux/hardware/thunderbolt/dma/index.json"
+    }
+  ]
+}

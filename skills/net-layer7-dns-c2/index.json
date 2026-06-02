@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer7-dns-c2",
+      "path": "net-layer7-dns-c2",
+      "description": "Net Layer7 Dns C2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b9d1b6a1e164e9a2ae34f7f60fce2cc5114ac51aad63f833374c5ba8461a70fffdaa942dba5c7fd4a9bcecb33abc3946decce69ed07666876b8386abd35f6ad8",
+      "file": "skills/net-layer7-dns-c2/SKILL.md"
+    }
+  ]
+}

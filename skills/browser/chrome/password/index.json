@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "882a08dfe5b4fe38a7eb26d9d80c7c34bafb0894bde801130816600aaa0283e0a067a5958e3d7adb98372177bc8bea3d7e4b160cfde9feb95f56cd8a20961110",
+      "file": "skills/browser/chrome/password/extract/index.json"
+    }
+  ]
+}

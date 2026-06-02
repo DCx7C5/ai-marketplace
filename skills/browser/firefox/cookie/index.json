@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "f6372a78ed5b340354d5352563431dd28cc02f11a3693f3c5cc519ca6a538dae78ee6e12486eab268bac6869f67e31307540dc687a04ff3d4bec585d1472739f",
+      "file": "skills/browser/firefox/cookie/extract/index.json"
+    }
+  ]
+}

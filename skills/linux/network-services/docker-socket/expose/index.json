@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "52f509683a1863d572bc6c3bdc2b2b085504c5da8b3789bc0e987b1e5d82e8a69a743f5e1c2dacdccc3350eceb560b05ceb6113c861d464c034482831f39c56c",
+      "file": "skills/linux/network-services/docker-socket/expose/detect/index.json"
+    }
+  ]
+}

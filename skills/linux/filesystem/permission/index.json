@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "world-writable",
+      "description": "skill directory index",
+      "sha512": "63ba4e475b9a2c6ae4ab61145b1d537ee7f28d16581639972498e3a09a21d29e38ca2091c2005402a471006639dead2d8868e08fecf904b0b10cfe856f2ea867",
+      "file": "skills/linux/filesystem/permission/world-writable/index.json"
+    }
+  ]
+}

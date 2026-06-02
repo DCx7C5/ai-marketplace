@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-shell-alias-hijack-detect",
+      "path": "linux-shell-alias-hijack-detect",
+      "description": "subdomain: persistence-detection tags: - linux - shell - alias - hijack - rootkit nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9650f077156b888e87cb93507f8fb3a58f7f2ab92f065c7cdd6be67dd2f37677271d3aac24a1cceac758cfb6ab65f44b306e961793180c556847555d5ef01a57",
+      "file": "skills/linux-shell-alias-hijack-detect/SKILL.md"
+    }
+  ]
+}

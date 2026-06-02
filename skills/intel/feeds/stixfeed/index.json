@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "collect",
+      "description": "skill directory index",
+      "sha512": "24b56ec6d31a8cd9bbdb160a81fccd55612adaa064d852ebc8fca2a289925034e4bf3d36c0d33b0f9afef94e4797ed99260df0e3ac058c6ab46a39b2a3aab2ed",
+      "file": "skills/intel/feeds/stixfeed/collect/index.json"
+    }
+  ]
+}

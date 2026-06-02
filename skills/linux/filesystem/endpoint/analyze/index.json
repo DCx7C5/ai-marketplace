@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-endpoint-analyze",
+      "path": "linux/filesystem/endpoint/analyze",
+      "description": "Implements full disk encryption using Microsoft BitLocker on Windows endpoints to protect data at rest from unauthorized access in case of device loss or theft. Use when deploying encryption for compl",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "12b00325311f84094f0932be152d68012d496ea8770bb1402153b69449278a798e5751cbf6517cc9cbae7eb4ff98b42707365a805c559eda64ab480d7aea16d8",
+      "file": "skills/linux/filesystem/endpoint/analyze/SKILL.md"
+    }
+  ]
+}

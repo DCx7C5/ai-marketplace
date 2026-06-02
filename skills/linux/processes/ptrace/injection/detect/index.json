@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "processes-ptrace-injection-detect",
+      "path": "linux/processes/ptrace/injection/detect",
+      "description": "Detect ptrace-based process injection by monitoring PTRACE_POKEDATA syscalls, /proc/<PID>/mem writes, and unusual parent-child ptrace relationships.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "12704fb0b7df0030d3742b1393b966aae6a27862c2fc8418c317e75ba8525553af2fa56900dc4bfe9f1df7f1f25651158dee23e58bffcfdf90c1dbd6d943faa3",
+      "file": "skills/linux/processes/ptrace/injection/detect/SKILL.md"
+    }
+  ]
+}

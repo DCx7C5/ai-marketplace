@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "canary",
+      "description": "skill directory index",
+      "sha512": "5c5f765d707ee71606a78c3b55f42e65d9b4002bdb0f6e767a2fccd17cb40d008c3f765a73a8a8a5d58c8aff2d2f788dd62823b22580c0d5cac813d79353205f",
+      "file": "skills/linux/memory/stack/canary/index.json"
+    }
+  ]
+}

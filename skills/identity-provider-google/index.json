@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-provider-google",
+      "path": "identity-provider-google",
+      "description": "Identity Provider Google.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8e4cd954604c44e7be5dffab6c43db3c8f6f4c9c92ea4fc6c3fcc59663614a46b4ca7f6d8f541b66099ae160c038cd15d10637180de3b2706763d926d05d4dce",
+      "file": "skills/identity-provider-google/SKILL.md"
+    }
+  ]
+}

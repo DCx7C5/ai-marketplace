@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-apigee",
+      "path": "webapp-api-apigee",
+      "description": "- Wallarm Apigee Security Policies Guide: https://lab.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2678b7076daa6369cc87ee420d132ec3e03b9d55beb307f5fcad715b8254b564d7fe7b0a6e01b695599bc66ffaa093e551e9b827f860e00f204cb3664b185da2",
+      "file": "skills/webapp-api-apigee/SKILL.md"
+    }
+  ]
+}

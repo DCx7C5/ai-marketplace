@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-privacy-cloud",
+      "path": "compliance-privacy-cloud",
+      "description": "Compliance Privacy Cloud.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "849e5b40d5b457fd55668eff31fd3cf5d8607c5cb504406faeb55e1770908fde81d33b869f8312fbc8790581798733e1f39de9e4686572a0a96cb2d24f7e2028",
+      "file": "skills/compliance-privacy-cloud/SKILL.md"
+    }
+  ]
+}

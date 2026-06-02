@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "services-wmi-persistence-detect",
+      "path": "windows/services/wmi/persistence/detect",
+      "description": "Detect WMI event subscription persistence by enumerating ActiveScriptEventConsumer, CommandLineEventConsumer, and permanent subscriptions in the WMI repository.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c42e6f2392e8979c22f65523465078ce96f1bff7f12395013e80b52e5db1afe4c8e6aa24ff2206e60bb32e02ab94f8bfdd57f207642c16d0b18f44044b1942ea",
+      "file": "skills/windows/services/wmi/persistence/detect/SKILL.md"
+    }
+  ]
+}

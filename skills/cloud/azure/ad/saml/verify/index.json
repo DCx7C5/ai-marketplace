@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-ad-saml-verify",
+      "path": "cloud/azure/ad/saml/verify",
+      "description": "Establish SAML 2.0 identity federation between on-premises Active Directory and Azure AD (Microsoft Entra ID) for seamless cross-domain authentication and SSO to cloud applications.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "041d4ec830e2252ce331b3af5d1b84d8ff7b2509380a76fb07db2a2cae5a615403d9d8d536a83c5f4a066120c954fd72a6b653947ea26dd4b695e3d16386e00c",
+      "file": "skills/cloud/azure/ad/saml/verify/SKILL.md"
+    }
+  ]
+}

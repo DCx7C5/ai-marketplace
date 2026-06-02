@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "cbb36002437f1783757e6f8cd1be2bdde94b0e2764791e151fdf06e43fef16e449a4f8994569aa4cc9ec415ef77902dc4f887e52de74b3308a9a6fe1dc982bcd",
+      "file": "skills/cloud/azure/sentinel/detect/index.json"
+    }
+  ]
+}

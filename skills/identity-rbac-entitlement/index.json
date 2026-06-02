@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-rbac-entitlement",
+      "path": "identity-rbac-entitlement",
+      "description": "Identity Rbac Entitlement.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ef0bc77879426594a5a58604b2a3be244264429a769c52c4ac32e4861b9a1ea3610c50c731c09cc90df2f3beb11b152321e9ce9dc5cf3639279036d3a794fba2",
+      "file": "skills/identity-rbac-entitlement/SKILL.md"
+    }
+  ]
+}

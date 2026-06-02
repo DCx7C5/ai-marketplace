@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-bac-harden",
+      "path": "web-application/auth/bac/harden",
+      "description": "Systematically testing web applications for broken access control vulnerabilities including privilege escalation, missing function-level checks, and insecure direct object references.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac46ff965e41d54afe7a1a84bc66944ab1b1ce095804f720f066a2974668f05b6e5f86df0c3014812a109a411838811bca04fe3a81d09270b25b6ece046856e3",
+      "file": "skills/web-application/auth/bac/harden/SKILL.md"
+    }
+  ]
+}

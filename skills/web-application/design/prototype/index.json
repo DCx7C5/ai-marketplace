@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "review",
+      "description": "skill directory index",
+      "sha512": "af8d408d25de50f5aa09c3c01bee34d1974ca527f419a8434f5a22c68bd565f93cb13a300977141a3bdb707918b45f04f6eeaf901f6ee21d5a5947dfbbb63751",
+      "file": "skills/web-application/design/prototype/review/index.json"
+    }
+  ]
+}

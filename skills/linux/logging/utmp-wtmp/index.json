@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tamper",
+      "description": "skill directory index",
+      "sha512": "68ff84294caeab9c7cdb0c64e00dc4aa4df8b738d7403c8d502b342d9f3db0e204dd36815d4e86e7e642333c7cfdbdbbc660b0ec0c7dcfdb13b2a4ae29fdef56",
+      "file": "skills/linux/logging/utmp-wtmp/tamper/index.json"
+    }
+  ]
+}

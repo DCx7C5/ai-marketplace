@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud",
+      "description": "skill directory index",
+      "sha512": "9833ade522d32753402a2bb790b0d2d5763fdc12584df87baf8f1ecc0936a72184cc11ac4737e22612212327acdf0a58c03d77b2ef4351abd5ebd7e29360cd9e",
+      "file": "skills/compliance/cis/cloud/index.json"
+    }
+  ]
+}

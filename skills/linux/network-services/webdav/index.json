@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "upload",
+      "description": "skill directory index",
+      "sha512": "e19ed1baf459e8e7647f6014b5207ef347f364675eadb40bd0c62a4e542ce854a9bf6c72591a81e73c14a2bd6fcaa34ad091e1112edb06e8eee7a3c1fe6da98a",
+      "file": "skills/linux/network-services/webdav/upload/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "snapshot",
+      "description": "skill directory index",
+      "sha512": "92eece3c565f13eec351a3247aab4043a6ed1fafcd62cc718b7a14f9d601302e86150dea0448d6dd6d83b3155bde012aeaa1e70cfd81b2e2bab5596c95244f92",
+      "file": "skills/linux/filesystem/btrfs/snapshot/index.json"
+    }
+  ]
+}

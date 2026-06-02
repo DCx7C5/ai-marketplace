@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bac",
+      "description": "skill directory index",
+      "sha512": "a0f85ac06efab58d3a17f43f4eb17ff906eb8c88651b4ff04cbfb5b9d2b55225bf5bd9f9f2ea9f37b9eedc8fe0f3287922d51bfe0be8baa7402e6d9a2250c9ec",
+      "file": "skills/web-application/auth/bac/index.json"
+    },
+    {
+      "name": "csrf",
+      "description": "skill directory index",
+      "sha512": "1f3aeec74b07a53f00de11acee1cf5d651083cda14635fe6d356d7fb6f6ebeb3b60cf12af9769fd089122405b714017bda9c165d2b4ede90dcc99f4240db7496",
+      "file": "skills/web-application/auth/csrf/index.json"
+    },
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "af1c07fa72baf55aff2d20e55e90bab510bb81d35cc56ca1dc6bb078aec8e8b3701f1c24601a8fead67fd6f7f34c43c646603e07a1c6b342dead78fa40dd1aeb",
+      "file": "skills/web-application/auth/enum/index.json"
+    },
+    {
+      "name": "evilginx",
+      "description": "skill directory index",
+      "sha512": "398fc1d12a43523a0d40ef8c9a19be6427b48004b8577467062038955a27378a16a80b834d4b48fdc5804792cc5362a1f997bf6280665f5204f15a5a11bdd43e",
+      "file": "skills/web-application/auth/evilginx/index.json"
+    },
+    {
+      "name": "jwt",
+      "description": "skill directory index",
+      "sha512": "4db3f6915b7c20bfe0fdcf831d4aacd79e0f05f0dcdd2ac1e8f73572b22eb78d586eacb6ee3cbd59fa2c15794af309500b2abe4060cbbb01beb9be6443cc3d34",
+      "file": "skills/web-application/auth/jwt/index.json"
+    },
+    {
+      "name": "oauth",
+      "description": "skill directory index",
+      "sha512": "4a5d3a9286c88597a9eafa02490addf84fc30d59a1e951397e6ed2dd93cfb90efda19aa568dec37a7ba938f358d3696846dd4debd0082202a56952858341e210",
+      "file": "skills/web-application/auth/oauth/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "playbooks-phishing-detect",
+      "path": "soc/playbooks/phishing/detect",
+      "description": "Automate phishing incident response using Splunk SOAR REST API to create containers, add artifacts, and trigger playbooks",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "21c11ecbac7c1d42f3244ce507c70c5d6b1e7c0cc51d6215546be4aaaf11d150e766cbeeeed7119a670c97e5e38f39680f1663399b157b06f87d97c8628c26a1",
+      "file": "skills/soc/playbooks/phishing/detect/SKILL.md"
+    }
+  ]
+}

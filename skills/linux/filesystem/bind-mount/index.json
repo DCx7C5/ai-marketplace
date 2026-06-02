@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "escape",
+      "description": "skill directory index",
+      "sha512": "92d505294c524a9f880104f227b656595e34ab236a262d130682887afd05506face153764d939c282759f5c022b677eba9f8bd4ba16792c99f65727fb162d446",
+      "file": "skills/linux/filesystem/bind-mount/escape/index.json"
+    }
+  ]
+}

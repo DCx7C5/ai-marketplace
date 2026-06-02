@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-kerberoasting",
+      "path": "identity-kerberos-kerberoasting",
+      "description": "Identity Kerberos Kerberoasting.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cbaf69ddee56c61d04a8362bf1e32f60218f9638b2aaa272f744e7d6121fd4263c4733e1bd87c20f4a02a2ee86fc2b22a0038f99092648726a64b54c72fad9bf",
+      "file": "skills/identity-kerberos-kerberoasting/SKILL.md"
+    }
+  ]
+}

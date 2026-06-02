@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cmdline",
+      "description": "skill directory index",
+      "sha512": "de6c53216b0ebdf7611df7d946505f782479e799660f777aa50a4db4ddb12530e824393f03d8a1b884771cda9cfb1121e2f37a63ec2817d00054d871c7ba6cfa",
+      "file": "skills/linux/processes/proc-fs/cmdline/index.json"
+    },
+    {
+      "name": "environ",
+      "description": "skill directory index",
+      "sha512": "610042ed49f9f5eb3794c8d39ae7940fa0b9e72d4bb245d46d7a3d6431ac9ae0b07439db3c869a39522be7febabad7fdd1d745da8db42ad78c79a1205563e8e3",
+      "file": "skills/linux/processes/proc-fs/environ/index.json"
+    },
+    {
+      "name": "fd",
+      "description": "skill directory index",
+      "sha512": "48a69302f78ee729bd1aabdad4092928c13b22b1e3701bdd88ae7b776086d29620e3ae8870e3e2c9155742c4d07e31f8ddc89bfc0a7343e72b8f5194c19bb276",
+      "file": "skills/linux/processes/proc-fs/fd/index.json"
+    },
+    {
+      "name": "maps",
+      "description": "skill directory index",
+      "sha512": "5544f40bb1a48a3f7ad5bb9cf579eeb9a74d92e3f3fa47ae654220d23efd86d0d4c7695fc5ab81350a5a570f71a57805eeecffd36ad761cb3b3a02622f2937ca",
+      "file": "skills/linux/processes/proc-fs/maps/index.json"
+    },
+    {
+      "name": "mem",
+      "description": "skill directory index",
+      "sha512": "66dd827d8abc49c6874ccb2f1e6b16adea6d7751ef1011ae9c3454800c22dfe2d14f5d982ceea52ebd3b6cfb8890dcb52007a71615106bf3db0e34bfa5cf14aa",
+      "file": "skills/linux/processes/proc-fs/mem/index.json"
+    }
+  ]
+}

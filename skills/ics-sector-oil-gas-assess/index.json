@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-sector-oil-gas-assess",
+      "path": "ics-sector-oil-gas-assess",
+      "description": "Ics Sector Oil Gas Assess.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "63004023076d2f0b22bc99a5d4fa09f866c9c05332c2629e619a0c12305d77b1a095662e57985460b1d592ffc8db6f04989f0c082bc568b2d875ba87c1ab3ddd",
+      "file": "skills/ics-sector-oil-gas-assess/SKILL.md"
+    }
+  ]
+}

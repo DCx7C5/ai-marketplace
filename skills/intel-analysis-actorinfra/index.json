@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-actorinfra",
+      "path": "intel-analysis-actorinfra",
+      "description": "- [PassiveTotal API](https://api.passivetotal.org/api/docs/) - [JARM Fingerprinting](https://github.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "432ca3cb1074e4cbe1b5b364f30fe2fb3cdcb2498b7225c2425f02edf4ceea5398c152cf1b15b2c660f5253f0d87b4c76277ce394ad04bb24dfcc3233dc337c6",
+      "file": "skills/intel-analysis-actorinfra/SKILL.md"
+    }
+  ]
+}

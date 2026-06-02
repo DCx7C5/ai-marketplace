@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chrome-indexeddb",
+      "path": "browser-chrome-indexeddb",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ff7b86be54d214c50ab4bb2c52f4be97934e18a78203ee5f243756ca8045b77ffedfc8c0d5fc235de8c2b07c3f03761dc2f271329f09590f758d065c2a418fef",
+      "file": "skills/browser-chrome-indexeddb/SKILL.md"
+    }
+  ]
+}

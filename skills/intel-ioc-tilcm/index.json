@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-ioc-tilcm",
+      "path": "intel-ioc-tilcm",
+      "description": "- [CISA Known Exploited Vulnerabilities](https://www.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3990162f6bcabe0ae5718de0355619e18aec912308821a3537e335c15a787736fdfe75363ea0e80dcc30dc224edf8a705482da751d001ae6444e288a80a30203",
+      "file": "skills/intel-ioc-tilcm/SKILL.md"
+    }
+  ]
+}

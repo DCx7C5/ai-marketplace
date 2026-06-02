@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "e4012a458d73334bfddf790d6d175529b9151c6c805d7fb4c0e0d2651070060e6a64d7f5b5f7628303dae0433939b00c3fcd228e0c0da895582c4a9d67d21f47",
+      "file": "skills/linux/kernel/namespaces/pid/analyze/index.json"
+    }
+  ]
+}

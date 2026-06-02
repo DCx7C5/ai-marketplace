@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "palette",
+      "description": "skill directory index",
+      "sha512": "50b624e2e141566af94f0b05d8ac0ad998388c40caaf459c03108070494a00c3204e121cc1d0758946eda5878a9b47757e3907490dcdbf238f7b8d83670b03b9",
+      "file": "skills/steganography/image/gif/palette/index.json"
+    }
+  ]
+}

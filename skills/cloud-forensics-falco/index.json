@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-forensics-falco",
+      "path": "cloud-forensics-falco",
+      "description": "- When conducting security assessments that involve performing cloud native forensics with falco - When following incident response procedures for related security events - When performing scheduled s",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d6176d3f685feaeb6d557f7e22b2d8666557ed1d59a511ec6985a1988d7c86d5ec06ed5467ea4cab5ff70aac8dda1112713ae7e6069dbd9e9f4de57eef6f30a8",
+      "file": "skills/cloud-forensics-falco/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-redirect-open",
+      "path": "webapp-redirect-open",
+      "description": "--| | 1 | /login | next | //evil.com | Phishing | | 2 | /oauth/authorize | redirect_uri | https://target.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d1e785756187c00df699b9a914fb95625aa38e7137f33a14a0dc814e1d05a96f16af8f8fc4cfd70a546f941dd1d11798f854626bcbe6c09a8a407d8577f33179",
+      "file": "skills/webapp-redirect-open/SKILL.md"
+    }
+  ]
+}

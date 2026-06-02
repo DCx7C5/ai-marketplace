@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "58a83fb68a4024d9a23ddda27304ef378949b2fd532c60979c400c156530267afdf7ba93afcf988aa779a1f61de1d0df5241de0ba9a8d9b73a5ba3c5deb5ec68",
+      "file": "skills/web-application/injection/sqli/detect/index.json"
+    },
+    {
+      "name": "nosql",
+      "description": "skill directory index",
+      "sha512": "7912baa4544d31624fe50cbb3dc1bebc1a2a6efbf1530051a621ae3cb8fffec0e36c441aab5586a420ac604e2d47f9f4a54b82d7818fcbe5f35375cab48093b3",
+      "file": "skills/web-application/injection/sqli/nosql/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "554cd870b86e9b24b030da080f1537e83019106865e6809a657cf7deaf2922379c18a31ff49b71c3cbf7a1888f02487f076f1b873b5f09c2b3b20ff7d894fbf9",
+      "file": "skills/web-application/injection/sqli/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e956362b03081d527f17608e265e286d148e19d669bdc0ec77868d67c6edd6fc37efb2934dcb9f9932acef241b81f945419d07eb7cdce83d9acdc141d30bb408",
+      "file": "skills/web-application/injection/sqli/scripts/index.json"
+    },
+    {
+      "name": "secondorder",
+      "description": "skill directory index",
+      "sha512": "d5f8c5fd67b76d3b6cda3d9132383dbb8b6db62fd8c991633fd47be8eef9e2e4730dcd61b30bfd2e6e4264164d1387c7e22951ac81d46ea3e2d32ffda7560559",
+      "file": "skills/web-application/injection/sqli/secondorder/index.json"
+    },
+    {
+      "name": "sqlexploit",
+      "description": "skill directory index",
+      "sha512": "5d85f37d2a1c9e55a6c958a141db013326570c3d0e5444718941f53780f368bdd422af4c37aac17482d44eb04f7114015f37a3cc6d5fabec409280d6832cbfbe",
+      "file": "skills/web-application/injection/sqli/sqlexploit/index.json"
+    },
+    {
+      "name": "sqlmap",
+      "description": "skill directory index",
+      "sha512": "b71ac62b96cc4d207d88da7994854bbdc56740592c22e3c8a1082385efdb0ba2ef6952cf42d2056df44750d958eaa3054e522890c82c83070fdd8e49ba521c8e",
+      "file": "skills/web-application/injection/sqli/sqlmap/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hashicorp",
+      "description": "skill directory index",
+      "sha512": "d1c761525b523fab8436211e2a30efade083358b3f6a5cf841260843510e1a1a21da5d3e4c9c035690f88518565ab952fc5272ce8b5dc5ea22e7278f44b7eb97",
+      "file": "skills/identity/tools/hashicorp/index.json"
+    }
+  ]
+}

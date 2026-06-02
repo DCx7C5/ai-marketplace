@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "6b6dba8da750144d31cadaebb2263f29fe4643c1a8a40c7bed5f22e9c95603d3faa0a862dea9f6ac85570c4b9dd434d808123dbaa1381049c4e87a5ac8bd4a4a",
+      "file": "skills/soc/monitoring/endpoint/datadog/detect/index.json"
+    }
+  ]
+}

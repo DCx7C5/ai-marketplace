@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tls-tlsassessment-configure",
+      "path": "web-application/tls/tlsassessment/configure",
+      "description": "Assess SSL/TLS server configurations using the sslyze Python library to evaluate cipher suites, certificate chains, protocol versions, HSTS headers, and known vulnerabilities like Heartbleed and ROBOT",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "715571b731d42452ddb3bf4b922009f226fdb3fb0cf96848ac8fe0976114b6755ec349645aca82cfe82edc05ef3b675782f62487ce730ae05af38e43bcbd2030",
+      "file": "skills/web-application/tls/tlsassessment/configure/SKILL.md"
+    }
+  ]
+}

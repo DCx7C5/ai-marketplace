@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devsecops-supply-audit",
+      "path": "cloud/devsecops/supply/audit",
+      "description": "Scans GitHub Actions workflows and CI/CD pipeline configurations for supply chain attack vectors including unpinned actions, script injection via expressions, dependency confusion, and secrets exposur",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "68cf96a8a3343b2ec872765ae69ea50167857493bf824a97ee9be96f2388d68487ec2a25cf70deeec137647d5bf1b34d053b7840cdeb40cab4418d52e180fb79",
+      "file": "skills/cloud/devsecops/supply/audit/SKILL.md"
+    }
+  ]
+}

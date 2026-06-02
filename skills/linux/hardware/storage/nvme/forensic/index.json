@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-storage-nvme-forensic",
+      "path": "linux/hardware/storage/nvme/forensic",
+      "description": "Forensic acquisition and analysis of NVMe block devices \u2014 raw image creation, wear leveling artifact analysis, and deleted data recovery from NVMe SSDs.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "540928e8c3f8f50e239dcb0c57cdcee32982bbde0e0c4390918678f00923a11d0c2337efa92944f8c3d9eafe62e404e8e9a404319c25baf547e1d2e4ed5f95b2",
+      "file": "skills/linux/hardware/storage/nvme/forensic/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "business",
+      "description": "skill directory index",
+      "sha512": "3af5bffc955746d65792745fc107787315dcccacda0c794d2dff612a320ace99a2ea1a7e6e51ac996ab8fd2f1a3a67136329dbba800552ae03eda89fc3675cf4",
+      "file": "skills/web-application/logic/business/index.json"
+    }
+  ]
+}

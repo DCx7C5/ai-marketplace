@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-waf-firewall",
+      "path": "webapp-waf-firewall",
+      "description": "--|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "161f6cd3e8e40f69a968463cddd7b216b31e83e82630999c7070df207b3994bce75a55f6a52a6aa6a75076811633c9599089885ed2c742bf39abffb948f142e6",
+      "file": "skills/webapp-waf-firewall/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-cassandra-auth",
+      "path": "db-cassandra-auth",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f828f36f20e3bce087c4b9aee73a142f144a330c09f37a48f3982c1c5f499607350b80a60c039c0658badea07c3415edbbcf74709bd641d89c15ad6ce9b461f8",
+      "file": "skills/db-cassandra-auth/SKILL.md"
+    }
+  ]
+}

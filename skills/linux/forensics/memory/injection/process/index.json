@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "f29337fdde6d04a65e6a149b5477d6cb284a17bb94a23a84eeda660f3711b7338d3f9b2888b38da9f9617dba8b40cd44dc068e70211c0d2558129bef4e1ff096",
+      "file": "skills/linux/forensics/memory/injection/process/detect/index.json"
+    }
+  ]
+}

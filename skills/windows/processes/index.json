@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dll",
+      "description": "skill directory index",
+      "sha512": "58784ce96809515328aa463413ab3e842dc8c32af5569afbde7f0ae1b9fe5a76565b3fc56ece2f47f56e3c695814d289e5557cb17f87a5e7d0cf483dd8fe94cb",
+      "file": "skills/windows/processes/dll/index.json"
+    },
+    {
+      "name": "handle",
+      "description": "skill directory index",
+      "sha512": "3e1f92eefdf3ffa02d32065e8bc855b979b5ee0bc6a2921bd357eff6f3e48fd2de8d32b9485a7c1c5d9018f994800d9ee349c9c3d28f20901dcab66fb07d3282",
+      "file": "skills/windows/processes/handle/index.json"
+    },
+    {
+      "name": "hollow",
+      "description": "skill directory index",
+      "sha512": "47cc8599e9565356f46884e79a5a1eb01e54813c5d022ea8d04d8cc2ba49a2daaf0c09d5bfd87bec07b4ced119605ff44e0aef97e200b9e65bdc217fcfb22e3f",
+      "file": "skills/windows/processes/hollow/index.json"
+    },
+    {
+      "name": "thread",
+      "description": "skill directory index",
+      "sha512": "a145f94b42bc3c9783d381236d47a0f526d1887d526480ed90ba094d66ac6bb281c45b189425c9901b39c48887babbc167f342b8f193b99b1bb9a82f159f8a97",
+      "file": "skills/windows/processes/thread/index.json"
+    },
+    {
+      "name": "token",
+      "description": "skill directory index",
+      "sha512": "79a6989ab2ef37ab2a0512d246f2c1bddd3e4f3685ecfbc86806c2373bb0cf7e900ba8339bfa29bcdf4bcce7fe2f1bdb536e1dc80424362c06a0e90877bfdd97",
+      "file": "skills/windows/processes/token/index.json"
+    }
+  ]
+}

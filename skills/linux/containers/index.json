@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apparmor",
+      "description": "skill directory index",
+      "sha512": "b7d46bedd03b15181d9ff7764351463d5f7f222268cb3630cae94c54017e2017e4384472cecc816659d0db93f27d172522a96815a3f9b1bdcd3dd2d71a868608",
+      "file": "skills/linux/containers/apparmor/index.json"
+    },
+    {
+      "name": "cgroups",
+      "description": "skill directory index",
+      "sha512": "44c56bc9ab43e7504c1e808186c7479a811fdb80b78924f1394719a89cf81eea832357df10cc7902cd3746f31d1fdc218480ab63e1abf7d3c4d0b5fc52a99839",
+      "file": "skills/linux/containers/cgroups/index.json"
+    },
+    {
+      "name": "namespace",
+      "description": "skill directory index",
+      "sha512": "c1aa0988506474e51b678704b71a2107dbe6fcd924043af2f0bbeaf81709a0a52c214686564b595d9ced4f0a5e91489b4d5c3a1de5d8905c271cbc016dbe71ed",
+      "file": "skills/linux/containers/namespace/index.json"
+    },
+    {
+      "name": "rootfs",
+      "description": "skill directory index",
+      "sha512": "2786919210b7c18759f173121ca35bb15f760e4135be1fc626d86d4800c106df7c3283a04363bf069bc009cc3eb7d415a4917d16f43f20df4223a378210eab9a",
+      "file": "skills/linux/containers/rootfs/index.json"
+    },
+    {
+      "name": "seccomp",
+      "description": "skill directory index",
+      "sha512": "09e7db84f5e5d6db5fec3419d29faa006c67be24b496267abd3f4948cbeea83471724281bb75d951a4bda7dd669a51d11e4850d8977b503dd38150205fb7f015",
+      "file": "skills/linux/containers/seccomp/index.json"
+    }
+  ]
+}

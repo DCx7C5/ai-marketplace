@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "9feeb99357f37dbf47d8f11a13f63e87e1e91421454d115616a68ed8333bc7868b68449de0a2608e84c636224b7e94e6846af373b262b70a44ffe84198061a2b",
+      "file": "skills/linux/forensics/memory/injection/sysmon/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-bfla-extract",
+      "path": "web-application/api/bfla/extract",
+      "description": "Tests APIs for Broken Function Level Authorization (BFLA) vulnerabilities where regular users can invoke administrative functions or access privileged API endpoints by directly calling them. The teste",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "02e861b29b46b036f3b0f86b8fc139e87c321f32122d542908afc90bff208ef22524396e841563748243fa0c703f77fb7ca7049faaa5292c81e60d5d5007cdc0",
+      "file": "skills/web-application/api/bfla/extract/SKILL.md"
+    }
+  ]
+}

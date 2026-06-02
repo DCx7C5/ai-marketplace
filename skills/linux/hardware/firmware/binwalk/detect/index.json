@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-firmware-binwalk-detect",
+      "path": "linux/hardware/firmware/binwalk/detect",
+      "description": "Performs firmware image extraction and analysis using binwalk to identify embedded filesystems, compressed archives, bootloaders, kernel images, and cryptographic material. Covers entropy analysis for",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b662f5107ca71a553a0a155a6dafa2df9542684c8ece22473acd824dedae796595b7d2cfdb1184c8be519aae325379a5279aa579816caf207b19b0a65733f098",
+      "file": "skills/linux/hardware/firmware/binwalk/detect/SKILL.md"
+    }
+  ]
+}

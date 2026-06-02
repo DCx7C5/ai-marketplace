@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-training-simulate",
+      "path": "email-phishing-training-simulate",
+      "description": "- **Terranova Security**: https://terranovasecurity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac1c8f80da521f0e5b8ea34191d2b359162c8d45c1135a415a89177a871ad1398f3b7726faa7560ce3c0280c42d45d19c4abd46df4079c385dbf88d9a21feace",
+      "file": "skills/email-phishing-training-simulate/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-scada-attack-detect",
+      "path": "industrial/ics/scada/attack/detect",
+      "description": "This skill covers detecting cyber attacks targeting Supervisory Control and Data Acquisition (SCADA) systems including man-in-the-middle attacks on industrial protocols, unauthorized command injection",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7a2e466c93c360377999e46118956a19beb1664c39b7ec76b482ab599022555dd46214c92ea76f123dade7e1fd13aaccbc8fec92a7f19abeb19a2ccadc706c57",
+      "file": "skills/industrial/ics/scada/attack/detect/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6bd8baa1db087d91a7698b0a4d278eafdf02a128b49478fa29239bb9200bbbeee1179f8dabc56aaf98cbeb67baa0e81cc1bd2390dc836b417d981607b59c3e4c",
+      "file": "skills/industrial/ics/scada/attack/detect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "765d378726b599f21f14accef1bb565f13ba4ecdb423df58f001cca4344f3a5018eb62adc9b7888eafd8ad181d0cec436b5095435fc5368f07abaf4d8f62513f",
+      "file": "skills/industrial/ics/scada/attack/detect/scripts/index.json"
+    }
+  ]
+}

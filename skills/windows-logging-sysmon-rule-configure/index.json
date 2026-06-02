@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-logging-sysmon-rule-configure",
+      "path": "windows-logging-sysmon-rule-configure",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "710a527d148db8ba2572ced68914ad82b383ecd1edebf5d35069a1aa7cd423abaa2c28063f25735148ed7c44599ab9d0cfa389c5c6032aa96e09c61a9baa0fe8",
+      "file": "skills/windows-logging-sysmon-rule-configure/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "access",
+      "description": "skill directory index",
+      "sha512": "c2107268b68772e285e30b73d7b7a9de1d6c48a528f65342636739d346e397183c565a3d2e0631321b2ba8af9abb1f61cf0960b6ebae464a734017fa45ad6737",
+      "file": "skills/identity/access/index.json"
+    },
+    {
+      "name": "ad",
+      "description": "skill directory index",
+      "sha512": "d446588b5c2a5d7a4657cbcaee3ac471debbdd4c9a7629f864845e2c6d3f43354c9fcd342f715f9afa21019f8185991c7233ca41d4ade73f71b6e92b8f6d3c6a",
+      "file": "skills/identity/ad/index.json"
+    },
+    {
+      "name": "analytics",
+      "description": "skill directory index",
+      "sha512": "9fb5f2b2d1b46bd4c65351df3500671cf7f1aec964f2be40eb64d27e83b857d08fdc6ca420d3adc0980cb158955610661473658ea2672c646b9f3c2d817b4179",
+      "file": "skills/identity/analytics/index.json"
+    },
+    {
+      "name": "anomalous",
+      "description": "skill directory index",
+      "sha512": "06e44cfdab7f6ce2df33b1e6a08321deb17f2d7d059537af3c35b8274a2c194b5e2a99a0d60e5431b0d097e04d46bf01d9cfb390601a3b27437d74c64ec59b41",
+      "file": "skills/identity/anomalous/index.json"
+    },
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "2193055d5b8fd3af3274747c2d457a06142b02396aa188e6ff5eba83162d0086b05ac0787d9b1b98b3bd15c04b6f912970ad0b0eb9a0d9855a3e55e3574415c7",
+      "file": "skills/identity/attack/index.json"
+    },
+    {
+      "name": "bruteforce-detection",
+      "description": "skill directory index",
+      "sha512": "37aeb7bfb4627e21173ea29183d6937f1f0f99cacb31005587b17ab17f225b57dac0cb424b375ddf55cd444b0659f27c19b693b3973a1ac2f7d143615203564f",
+      "file": "skills/identity/bruteforce-detection/index.json"
+    },
+    {
+      "name": "credential-detection",
+      "description": "skill directory index",
+      "sha512": "03fc422e8a1f2d017d14067db48b241ed3356c6ab35f589d65c03c26817c7f662a0d5006be407173d4b8ff1a2a032a34212b1fba79df653f8e82caba5e082c02",
+      "file": "skills/identity/credential-detection/index.json"
+    },
+    {
+      "name": "credential-dumping-detection",
+      "description": "skill directory index",
+      "sha512": "95c0dca3ad146e3fd555037d111e65481cc170ede8c75d0dc64b0b30ea368f3edb9e7c02c7441bf4b9d0718035b91b4a1d7241e5a5e3570b0ac6438a4bef8268",
+      "file": "skills/identity/credential-dumping-detection/index.json"
+    },
+    {
+      "name": "credentials",
+      "description": "skill directory index",
+      "sha512": "d4ae88338b86244b86371614cdaaa8f5be06da78031de6f9a989c07e677bcacb79899ed91b52dd8434230e920ddd19f528805e9305c1d610468697016fbfc9b0",
+      "file": "skills/identity/credentials/index.json"
+    },
+    {
+      "name": "google",
+      "description": "skill directory index",
+      "sha512": "9e6c3626198aafcd9b4c9e45b7489dd191935d4223fcc07c0eaac35c8dc89a93ff8163442c2f49ceb915955c7570cd4fc1577d6edf976cad7def3b9acbafeaa6",
+      "file": "skills/identity/google/index.json"
+    },
+    {
+      "name": "hardware",
+      "description": "skill directory index",
+      "sha512": "ab80c4fa372a6c47a6d67446d25b5b6d507b361db1f691a60d895197a91db147bf88e92eaf55803964f908b34ca41932c8a2e18cd1ced9d9c10c0767428205eb",
+      "file": "skills/identity/hardware/index.json"
+    },
+    {
+      "name": "hashicorp",
+      "description": "skill directory index",
+      "sha512": "51b770d0ee19c3d2343f91f76cf815007d6c8605a1264e4c7ba2d14e1649c170289a6219b7d91b9c1b6a47672e189cea6f516b4d6c8993a334801e6d06308368",
+      "file": "skills/identity/hashicorp/index.json"
+    },
+    {
+      "name": "insider",
+      "description": "skill directory index",
+      "sha512": "ee337b8f374bc68f3debf04a245256abf9a81944d6aea0ea94c92f1a9ee0099e5d8a4a888775cee6d25d173bda2bca49fbf92a572e024f57059c657d274ce553",
+      "file": "skills/identity/insider/index.json"
+    },
+    {
+      "name": "kerberos",
+      "description": "skill directory index",
+      "sha512": "97722caac67a8d70849e3c26f527242f236623abfacdf435a66b41b087a8a05115d9a1d7c90251470b04234439972bcc4b614a0077d2b4ecd8bad21308b5dd70",
+      "file": "skills/identity/kerberos/index.json"
+    },
+    {
+      "name": "ldap",
+      "description": "skill directory index",
+      "sha512": "a109b878c2e02b0c7af4abf52ee8328771b5d1d8512d0b8013c94399cc7f3d46b8be63157c8c985f3d4e9e49d3f7aa1dfd601e837b0981157fa904f69017565b",
+      "file": "skills/identity/ldap/index.json"
+    },
+    {
+      "name": "mfa",
+      "description": "skill directory index",
+      "sha512": "d27d3c893405e1296bd916059eef27f1511715cca21d1e6c231e59ec080ec12726ca72ca064ad2cd77beb8d3bda3089cfed6781eba513e7d516a07325d16605e",
+      "file": "skills/identity/mfa/index.json"
+    },
+    {
+      "name": "ntlm",
+      "description": "skill directory index",
+      "sha512": "67ee36ece9eae4244dd0caa9645bd32dce35a4923f060ef9591429fbea8a7e6d2685cdca2a2aafca3f02ef2e9f8c0c308341ca21fdbfa3cb5a4585d7c1e7037e",
+      "file": "skills/identity/ntlm/index.json"
+    },
+    {
+      "name": "okta",
+      "description": "skill directory index",
+      "sha512": "af22b9ad14a68978c8c77850e790a77d8ca9abbaeb476bc0249273fa0413d69739f6fd7efa850e1c95061788fcce054fed9694ef81acc59fbcc2314baa078fe6",
+      "file": "skills/identity/okta/index.json"
+    },
+    {
+      "name": "pam",
+      "description": "skill directory index",
+      "sha512": "53242f2cbc68ef11a41e6b066c6793b717897760ec1d91b2ccf2f2d8177c4cb5d7ececb89af0388194052c2a7f78bd6437685ac1c3dbccbaa8b0aad219266577",
+      "file": "skills/identity/pam/index.json"
+    },
+    {
+      "name": "privilege",
+      "description": "skill directory index",
+      "sha512": "610d4c7c52dea771db6bfab551de07d62616fe93c9df300dbcc7af7595d6d08e093767ea24f938cb1adba5e598d8c632ccb616b7b2ef2a8167b199ff400e1e5e",
+      "file": "skills/identity/privilege/index.json"
+    },
+    {
+      "name": "privileged",
+      "description": "skill directory index",
+      "sha512": "f86b11aa4758f6f5228e84bd78f4c96e71f3d59a4c9da68c751efc8c68b79a1ee4ea904dc24ffac559cb83b9c82ac5bd33d8c11bbab87c9a058b6097a8649847",
+      "file": "skills/identity/privileged/index.json"
+    },
+    {
+      "name": "protocol",
+      "description": "skill directory index",
+      "sha512": "960270d0bc8d8251d8bc6c50f5c31ed60434b3281abc9e2fc1573a92f3614b7aec77808c178dd1cb2cba42d7dd7f09a99d78320dd0532e974b9d37232a82062f",
+      "file": "skills/identity/protocol/index.json"
+    },
+    {
+      "name": "provider",
+      "description": "skill directory index",
+      "sha512": "e28ea7309ad402af130162e486ca3fb771f8dd84536d728821624d005258bc7406d493620fe95445973dc022a35e30fec1e545d78646c013f465c65e21a7b54b",
+      "file": "skills/identity/provider/index.json"
+    },
+    {
+      "name": "rbac",
+      "description": "skill directory index",
+      "sha512": "d04a214bfc50458c24cb27bee039a6d39e5b312413117c43c2db63f712872e93d2ba2c0498787939089aff3ed50c3b5a981e894b37623c1f5478e1f1b27f6ebd",
+      "file": "skills/identity/rbac/index.json"
+    },
+    {
+      "name": "saml",
+      "description": "skill directory index",
+      "sha512": "4f3b4b6985d5c80078cc7091dfe090a78962a7fc33c767ef9897e626ae88c3f6d57ac869d8341c090974b593c4cfec7147bca63f9e82e404781cf23a1e7a8d47",
+      "file": "skills/identity/saml/index.json"
+    },
+    {
+      "name": "serviceaccount",
+      "description": "skill directory index",
+      "sha512": "1e8b26680e10f49be3def32eec16d734d6ce3414cff5d99d56ef07287aac04aed96c6d2c2898f55c17d0194b8dd2c6ef090cc264133b314cd3d72075af200fa0",
+      "file": "skills/identity/serviceaccount/index.json"
+    },
+    {
+      "name": "strategy",
+      "description": "skill directory index",
+      "sha512": "e873ff77eae85687a7e995df8f74decdc386dc035956474974093dda57c6e34884ff138d520a16c34560bce54e006da4301aba11fd621006005da6045cb499db",
+      "file": "skills/identity/strategy/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "9bb1ada1b0a10c9deedf46733b55af2756e05b64e962a93b8bea290a1c10de7ba94a071b76e33c1d73a2638e6bb6b6bd59fbe40356addc24054aafcfefbbb9bc",
+      "file": "skills/identity/threat/index.json"
+    },
+    {
+      "name": "tools",
+      "description": "skill directory index",
+      "sha512": "d00c5309107d780b1055b554972ecf4d2a5bb78d12619eca505f57bd93e949ae5860def86bbe83917928f6078f54087beb831d7455870684eabb76d1f7537781",
+      "file": "skills/identity/tools/index.json"
+    }
+  ]
+}

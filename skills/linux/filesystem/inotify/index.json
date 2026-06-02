@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "evasion",
+      "description": "skill directory index",
+      "sha512": "e4b81c64c8a5e22c7948bf9c910d4c04d17fd64044c5e937a442c1808501abe17aff1c86b8430e80b8aa4905dfaa2f78dc24ff935a4a4e53efaa2bc4eeb5c3e7",
+      "file": "skills/linux/filesystem/inotify/evasion/index.json"
+    }
+  ]
+}

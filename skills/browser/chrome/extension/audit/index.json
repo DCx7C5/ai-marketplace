@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chrome-extension-audit",
+      "path": "browser/chrome/extension/audit",
+      "description": "Audit installed Chrome extensions for excessive permissions, obfuscated code, C2 communication, data exfiltration, and policy violations via manifest.json analysis.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6eec8a8de029fc148b96a0d556b6cefabfa776a8bb6ba86802aa986486a8311eb5cd1d9c24d75b7622fbbb1eebad9d5a7f2ec0e544934ab266460b23ff7e4fcb",
+      "file": "skills/browser/chrome/extension/audit/SKILL.md"
+    }
+  ]
+}

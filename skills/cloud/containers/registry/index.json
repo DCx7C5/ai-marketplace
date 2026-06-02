@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "container",
+      "description": "skill directory index",
+      "sha512": "8728bc678719ef2987247b2bbca99c9ad14539538df8a56cbf238d86b1703d1a7a64f45c7e480ca740b43c630fc8f4fbc0edfa698390473c0f47129512a83210",
+      "file": "skills/cloud/containers/registry/container/index.json"
+    },
+    {
+      "name": "harbor",
+      "description": "skill directory index",
+      "sha512": "d0a922057d1718002d5b91cd6c0202a66e327e875d404ad476ab2073cb6cb79454afc733ec13b39fd7c2ec0466d035f70ca939adbddd1c127ad0d6f57b0583f8",
+      "file": "skills/cloud/containers/registry/harbor/index.json"
+    }
+  ]
+}

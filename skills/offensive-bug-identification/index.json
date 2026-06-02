@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-bug-identification",
+      "path": "offensive-bug-identification",
+      "description": "-- | | Intel Pin | DynamoRIO          | Pin is sustain-only        | | WinAFL    | AFL++ 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "911da8067a5ad4261b5d18524b296ac34aaec7ce5182c6e8ee7548154e50369162bf8ddb066649c45c625284eda335704ae5e98c483c287ca282d890dc8e40e8",
+      "file": "skills/offensive-bug-identification/SKILL.md"
+    }
+  ]
+}

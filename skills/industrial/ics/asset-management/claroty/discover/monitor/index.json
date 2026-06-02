@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ics-asset-management-claroty-discover-monitor",
+      "path": "industrial/ics/asset-management/claroty/discover/monitor",
+      "description": "Perform comprehensive ICS/OT asset discovery using Claroty xDome platform, leveraging passive monitoring, Claroty Edge active queries, and integration ecosystem to gain full visibility into industrial",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "bd06ad6a79c67c16342753e1317e9cdf6f052134efd5d0daa1456080aabde49cad7f39d3ebea44f7a1d73d03d520fcaae3014de2e3f2b1e7ca72ea6a5b174fc7",
+      "file": "skills/industrial/ics/asset-management/claroty/discover/monitor/SKILL.md"
+    }
+  ]
+}

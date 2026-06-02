@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "workflow-ticketing-integrate-detect",
+      "path": "soc/workflow/ticketing/integrate/detect",
+      "description": "Implements an integrated incident ticketing system connecting SIEM alerts to ServiceNow, Jira, or TheHive for structured incident tracking, SLA management, escalation workflows, and compliance documen",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c2f1417b624559925cdf33b20ef66e119934d0a401fb7dd913102294a4136690d78151f2b949295d0807675b3e86871489ad5ff4a5c1e54c4490084815b902ac",
+      "file": "skills/soc/workflow/ticketing/integrate/detect/SKILL.md"
+    }
+  ]
+}

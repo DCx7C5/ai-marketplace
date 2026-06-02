@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-doc-coauthoring",
+      "path": "devel-jb-doc-coauthoring",
+      "description": "- If user seems frustrated: Acknowledge this is taking longer than expected.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7ae421b772640dca259852f38165b0258f0dfd086b1ce2d1c481690c9f2b6cc877650b1212f6a33d1d3f83b8519a7b730b5bdd6880309fdd1d7126ee125c93ab",
+      "file": "skills/devel-jb-doc-coauthoring/SKILL.md"
+    }
+  ]
+}

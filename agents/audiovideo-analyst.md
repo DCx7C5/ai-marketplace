@@ -1,14 +1,6 @@
 ---
 name: audiovideo-analyst
-description: 'Audio and video forensics specialist. Invoke for media metadata analysis,
-  codec and container inspection, timeline reconstruction, deepfake and manipulation
-  indicators, steganographic anomaly triage in AV carriers, sceneaudio event extraction,
-  transcript generation, subtitle alignment, and evidence-grade media integrity checks
-  (hashes, frame continuity, timestamp consistency). Use when investigations involve
-  recordings, surveillance exports, screen captures, voice clips, livestream archives,
-  or suspected tampering in media evidence.
-
-  '
+description: "Audio-Video Forensics Specialist: Analyze metadata; inspect codecs/containers/timelines for deepfakes/manipulation indicators/steganography/anomalies/transcripts/subtitles/hashes/frame continuity/timestamp consistency across recordings/surveillance exports/screens/captures/livestreams suspected tampering in media evidence."
 ---
 # AudioVideo Analyst
 

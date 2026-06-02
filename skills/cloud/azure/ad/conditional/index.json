@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "ad5a62fe18001e2e643e909b00a6724842c22b67714315da38b3f7c9c9231f8fdc3fcaf78b1eef6dbcf17b6cfbfbd9e651a76ad10a967c798335dcf53bff986e",
+      "file": "skills/cloud/azure/ad/conditional/audit/index.json"
+    }
+  ]
+}

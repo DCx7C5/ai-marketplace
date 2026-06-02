@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cold-boot",
+      "description": "skill directory index",
+      "sha512": "d8915d669c63ac8d97bd462d61743f6cbe9a40bab0383ce67310fa9bca3b8d3f71bc082ec01187869ed60b8eccd6923a5b81bd829a885c2e8f52e2df6a2f9001",
+      "file": "skills/linux/hardware/memory/cold-boot/index.json"
+    }
+  ]
+}

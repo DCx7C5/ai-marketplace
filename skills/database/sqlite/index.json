@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact",
+      "description": "skill directory index",
+      "sha512": "19fd40d8633ff0d76938252be8437074b7ab2999b4d4a8266c98d3c396a0ef1fba71662bc68d0d319d1b48685057f46379f1393f95639c2b70fda1a0827f677b",
+      "file": "skills/database/sqlite/artifact/index.json"
+    },
+    {
+      "name": "deleted-record",
+      "description": "skill directory index",
+      "sha512": "4223bc9b98768e8d15b69c8eb9a32cc44832790cd5b9501d89dcc1a791fe974c0e18b8bbbf38bcfd1a21c625cd0912fed52e6187cbe61149aade836d956a644a",
+      "file": "skills/database/sqlite/deleted-record/index.json"
+    },
+    {
+      "name": "wal",
+      "description": "skill directory index",
+      "sha512": "ead9bc7cde288294554c9460a86637bc6a8fec16aeaf4f2bf275c96f28030f19167b9dcef9d1576224e101cad71569333b5c34ad4b45676042dbdf3c97325642",
+      "file": "skills/database/sqlite/wal/index.json"
+    }
+  ]
+}

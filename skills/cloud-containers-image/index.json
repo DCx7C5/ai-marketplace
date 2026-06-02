@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-image",
+      "path": "cloud-containers-image",
+      "description": "7. **Verify the full chain**: signature + certificate + Rekor inclusion 8.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1fae24e1d6432c0a1468db561c65c796b30b84c89bd7df3bc68ba528ad831a977e12881166a338e1fb045138aa266e050639316a7344c1f72f7432a8a20f8861",
+      "file": "skills/cloud-containers-image/SKILL.md"
+    }
+  ]
+}

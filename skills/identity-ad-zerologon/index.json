@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-zerologon",
+      "path": "identity-ad-zerologon",
+      "description": "-| | T1068        | Exploitation for Privilege Escalation | Privilege Escalation | | T1210        | Exploitation of Remote Services       | Lateral Movement     | | T1003.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3dd4930b288c8393e5583f3e898a7c096effed333a0cecb0c8df0648ab8b13a0817c95f317bf6a76b591843afa503e3806d10c1a03f62d8c1229a72974e04d76",
+      "file": "skills/identity-ad-zerologon/SKILL.md"
+    }
+  ]
+}

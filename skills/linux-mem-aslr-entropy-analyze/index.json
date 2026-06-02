@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-aslr-entropy-analyze",
+      "path": "linux-mem-aslr-entropy-analyze",
+      "description": "subdomain: memory-security tags: - linux - aslr - entropy - bypass - memory nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1af504615d5e946d1f3b524627fd9a6b1718ac8ebb98a8aa461cb1c0b6227427a48640b44ceb4b17c7a6adf3b02f9568cd810527b4e27a9b66f7f48f314e70eb",
+      "file": "skills/linux-mem-aslr-entropy-analyze/SKILL.md"
+    }
+  ]
+}

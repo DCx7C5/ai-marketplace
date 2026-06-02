@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-headers-cors",
+      "path": "webapp-headers-cors",
+      "description": "-| | https://evil.com | Yes | Yes | | null | Yes | Yes | | http://localhost | Yes | Yes | | https://evil.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "99acaa208f0b6894b3d7fcfee9249393eeb359f2f97f3725c18339c66a90c8678f0d98f4982a433f221f88883a8b32cb7b423ae25131cf36d948cfb1ddd274f9",
+      "file": "skills/webapp-headers-cors/SKILL.md"
+    }
+  ]
+}

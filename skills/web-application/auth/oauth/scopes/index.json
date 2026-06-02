@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "92a25175860905a889a1d241b610ed72eb2bae8c79f36e2490a1e3abfbdbbb937908a29a4f016571e44e423dbc06db964eaa7018761b373721841cda7a93e546",
+      "file": "skills/web-application/auth/oauth/scopes/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d574d2f9c6f7a05aee0f4b6589b4b62ddd95606645b2f6422f253c59101623f917c0ec1c6a29bd0f6fe0bf54694043f0b72be6d7fdcb8aace4f6e1a59476b163",
+      "file": "skills/web-application/auth/oauth/scopes/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "bd6d74afe9c49405fe8f6c61ec9b6157d86494727f7a7421f06e7faa9cfdee6a39d89619db6d0eab8ab0df78b49a8ab074ffe9f8802cac14172a4b5b25576290",
+      "file": "skills/web-application/auth/oauth/scopes/scripts/index.json"
+    }
+  ]
+}

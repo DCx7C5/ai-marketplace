@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "boot",
+      "description": "skill directory index",
+      "sha512": "d69537782719a30bc501d2e00c2dfe43d3cecef972cb417524820f31046de32c132b90142dee6cb6df7923ca8f3ba9653180625245dda61739af6bf4a5cb40a5",
+      "file": "skills/linux/kernel/boot/index.json"
+    },
+    {
+      "name": "capabilities",
+      "description": "skill directory index",
+      "sha512": "07aad6ea4aae007d50c4c759b42e65fc4a1b4a6008c439ed200c921caf9c2972283eb61cb8665b263da2b44cd84909ace80d42f558912e411bb511315cd3cb96",
+      "file": "skills/linux/kernel/capabilities/index.json"
+    },
+    {
+      "name": "cgroups",
+      "description": "skill directory index",
+      "sha512": "eac8747fd19d062402613ebcd3226a1ac9c584f911eccf6c0aa1bbd63cd665215eaca598a9829ca5a6e08f2eb4555247fbaad0725b429f564f8e6ac7820768bc",
+      "file": "skills/linux/kernel/cgroups/index.json"
+    },
+    {
+      "name": "ebpf",
+      "description": "skill directory index",
+      "sha512": "2db7d2d3ecad5cb444336f1d0442e4b6a10e79d4256f2b77522eda0a1193eb4656ed0f836d04c236762fa5e114f6f68ab83fbfe9f9f6c47fcf4d34231e6b2287",
+      "file": "skills/linux/kernel/ebpf/index.json"
+    },
+    {
+      "name": "memory",
+      "description": "skill directory index",
+      "sha512": "0c9e728e2d9b91140209f3c5e08760e29088ab1238a46e43acf5588f6cc7b64b2cd799970f0371090043cc47208c9b2f5c781e6843e6f999cc45b837f796f035",
+      "file": "skills/linux/kernel/memory/index.json"
+    },
+    {
+      "name": "modules",
+      "description": "skill directory index",
+      "sha512": "ae01f78281ee351756597ac83de050774982d5d4fc794f6e494c9ef44a2f8fa04e51691a6a626c977fc81bf1de3a7c5b89d30893c113f732bb6a655ede38afb9",
+      "file": "skills/linux/kernel/modules/index.json"
+    },
+    {
+      "name": "namespaces",
+      "description": "skill directory index",
+      "sha512": "440029152e322308be93409f4735bc89c5da9eb5bb7c8a30f2da03f01c612742acd50c856f546b23045d15a25c0fa69cc472dde0f3eec4f9c5b1061f0029f33c",
+      "file": "skills/linux/kernel/namespaces/index.json"
+    },
+    {
+      "name": "network-stack",
+      "description": "skill directory index",
+      "sha512": "27c89bc7191b7440c29dc2a4428ccd8c1514b804a1f54c86e175508d9f92a278bb0e26327d7c5a636ee932ecdfb35896f5ed88b153c40504148acb4f506151b3",
+      "file": "skills/linux/kernel/network-stack/index.json"
+    },
+    {
+      "name": "rootkits",
+      "description": "skill directory index",
+      "sha512": "c23d733286e7e63cff6c0e356bd97c5930e0873661e70075c59a0fcc89ed5652539cebd3377311860dace76f24d71b6ad80979fa2cf01d77a1a2d9eb9ce11bdb",
+      "file": "skills/linux/kernel/rootkits/index.json"
+    },
+    {
+      "name": "syscall",
+      "description": "skill directory index",
+      "sha512": "687228dfc0b16ad1f45a7dafb235ac3b611dc6ef3595eb7d8bbd417c32617a83598ddd2808b5c6cd970f7008587f8b9fbcbe92134197f352d7029b7e23213b72",
+      "file": "skills/linux/kernel/syscall/index.json"
+    }
+  ]
+}

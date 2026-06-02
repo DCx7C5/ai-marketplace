@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "371cc0372fda696b8e2c0b648f37ba04e35b13d30eca3c5cd1d0b962fa96aeb63cc979f818039ae23ff9deaa5b278f336856ef57343119b75e71a0bb426f4f5b",
+      "file": "skills/identity/kerberos/pttdetect/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "84689449097025c9d32af4bfbedd919ad702bc3eb7ab65726c537168138241f85a649ee4352b6d0d5dafb001c1ded3f3900f90d3b8373755106cd0716c9c3849",
+      "file": "skills/identity/kerberos/pttdetect/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "e0c60252417057a46552dd867cd5ceb9b3a1cb4cf3ad290629eedd69fff25d11e7e416eaeb66c5df4e72a1c0fb2e7fe802f2dcc5705fe57b0771213fd3f2d3be",
+      "file": "skills/identity/kerberos/pttdetect/scripts/index.json"
+    }
+  ]
+}

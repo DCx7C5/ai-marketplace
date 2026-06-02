@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extension-manifest-audit",
+      "path": "browser/extension/manifest/audit",
+      "description": "Audit browser extension manifest.json files for dangerous permissions including all_urls, tabs, webRequest, nativeMessaging, and clipboard access.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f5218781d2620c13913a8ebd837e70fd43f55cfc6f0b37df9c27cf6925a69fec40acf46175404ae4eaba8b74b106c44123e8818ae75d701f899fc5ecb8d0c56d",
+      "file": "skills/browser/extension/manifest/audit/SKILL.md"
+    }
+  ]
+}

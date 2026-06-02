@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-capture-pcap",
+      "path": "net-traffic-capture-pcap",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0b559aac4e19f76a04434b9bf1906dcfb77b7b94c70a986b585e1953acee1c430c7280b099a2b7039740a75b90555d50654ef1d838f2a464059f505cb28263bc",
+      "file": "skills/net-traffic-capture-pcap/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cis",
+      "description": "skill directory index",
+      "sha512": "ca4cd750f34a98fff5830d866cbdbe7c17c174cc88193003d3b756157006d8084af9770d952429cad85c2456768e049687fbf56a55754e2eb7d3af598d4ed68a",
+      "file": "skills/windows/hardening/cis/index.json"
+    },
+    {
+      "name": "defender",
+      "description": "skill directory index",
+      "sha512": "13eff8e6875310487d9fdce6b0bb276a763ba3f4c6094fd956549a109e52fd067a91b3ac00bc7daa74d2d0d16c9c793f6c3188aedece5b5953cd6a67d1d9ae0a",
+      "file": "skills/windows/hardening/defender/index.json"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aslr",
+      "description": "skill directory index",
+      "sha512": "743010c32138ab2923b4cd98b7ab74279402c44d6599ec506e36552a58fce5b732534488e58a67f42b5ce3c8c699bd8212670bd4590c067f6fb3d31134496226",
+      "file": "skills/linux/memory/aslr/index.json"
+    },
+    {
+      "name": "endpoint",
+      "description": "skill directory index",
+      "sha512": "f192d2babdf13c96834b13e770189b3a504e978c28320a51b38be9ed0eb8fac8ec8a20e59dca4a862198f136b5e18f77585f074e32f58ee1ac3596af68d82687",
+      "file": "skills/linux/memory/endpoint/index.json"
+    },
+    {
+      "name": "heap",
+      "description": "skill directory index",
+      "sha512": "48a54f91e899a79ecc1e7cc32961dcf019ebc9dc64e5b099d96a3a9a4e903a8682af80628306e40ac68b7d7b4ae2f0d1fce1f4e6a9bdcd4ca85048e2734e1fb9",
+      "file": "skills/linux/memory/heap/index.json"
+    },
+    {
+      "name": "injection",
+      "description": "skill directory index",
+      "sha512": "1b7e8ed48ea321a677445a0f2d217b3030db4515d208feb89f540bea6d6a83e7feb6732683516f774fca9c2e33325bbcff14b841a6d4138bb70ccfd8a17b059c",
+      "file": "skills/linux/memory/injection/index.json"
+    },
+    {
+      "name": "nx",
+      "description": "skill directory index",
+      "sha512": "9c731973440d9616e84aed965958379a321f53f499222608257873e7d2ee995ce7ee566be02085fec9cee685aecf52240fc480fd408f43d80ab39d989d663c0e",
+      "file": "skills/linux/memory/nx/index.json"
+    },
+    {
+      "name": "rop",
+      "description": "skill directory index",
+      "sha512": "6e0da9be134420b2d503acb27bdf9c8d024d608b29e85dcb0e45403577c14d003ac77cfdfb64056080a196256f3c22ce485572c2dd1aca510bd54ee917225eb7",
+      "file": "skills/linux/memory/rop/index.json"
+    },
+    {
+      "name": "shellcode",
+      "description": "skill directory index",
+      "sha512": "bf58843cafcafa7a7cb4578d467a228d37a9f8e97cdc16f720eb547961051fc68f9e2b6eb525912ebefa8e3d6d719f8eb0581d89c68d4c6817ff14076c27e46b",
+      "file": "skills/linux/memory/shellcode/index.json"
+    },
+    {
+      "name": "stack",
+      "description": "skill directory index",
+      "sha512": "d342bef3e296c27891e65a4ae4808871e6924a1cc1113abdd8d7bdd6f4f1901c9cdddfc583fd8f19274667186e2f9359a78c870b3f7ce5558d41b60f670f8d4b",
+      "file": "skills/linux/memory/stack/index.json"
+    }
+  ]
+}

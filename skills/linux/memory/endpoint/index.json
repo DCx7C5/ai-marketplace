@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "9e5c566efd88cb35fc27a61876b7c7a6af67bd4597ab581c18917693af89f0aca136ed7797c6f9c1838867164c5612b2e5055a06e7569bbb2b49883536c7ac99",
+      "file": "skills/linux/memory/endpoint/analyze/index.json"
+    }
+  ]
+}

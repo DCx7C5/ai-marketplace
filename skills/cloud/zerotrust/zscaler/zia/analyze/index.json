@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-zscaler-zia-analyze",
+      "path": "cloud/zerotrust/zscaler/zia/analyze",
+      "description": "Implement Zero Trust Network Access using Zscaler Private Access (ZPA) to replace traditional VPN with identity-based, context-aware access to private applications through the Zscaler Zero Trust Excha",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "98422f0da20e0ea7fbe6a5fb615c0853842b4b5cd3098474671a2ea511c3776dd7b657ae2e5c769e59c7722acbc9ee861f0ba53ad2af6cf7b7337203a022eeb0",
+      "file": "skills/cloud/zerotrust/zscaler/zia/analyze/SKILL.md"
+    }
+  ]
+}

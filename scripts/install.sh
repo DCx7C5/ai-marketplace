@@ -42,18 +42,48 @@ if [[ "$INSTALL_AGENTS" == "true" ]]; then
   mkdir -p "$AGENT_DIR"
   echo "📦 Installing agents → $AGENT_DIR"
 
-  # Fetch agent list from index.json
-  AGENT_LIST=$(curl -sSL "$MARKETPLACE_RAW/index.json" | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-for a in data.get('agents', []):
-    print(a['file'])
-")
+  collect_files() {
+    local start_url="$1"
+    local section="$2"
+    python3 - "$start_url" "$section" <<'PY'
+import json
+import sys
+from urllib.request import urlopen
+
+start_url = sys.argv[1]
+section = sys.argv[2]
+repo_base = start_url.rsplit('/', 1)[0]
+seen: set[str] = set()
+
+
+def walk(url: str) -> None:
+    if url in seen:
+        return
+    seen.add(url)
+    with urlopen(url) as response:
+        data = json.load(response)
+    for entry in data.get(section, []):
+        file = entry.get("file")
+        if not file:
+            continue
+        if file.endswith("index.json"):
+            walk(f"{repo_base}/{file}")
+        else:
+            print(file)
+
+
+walk(start_url)
+PY
+  }
+
+  # Fetch agent list from the recursive index tree
+  AGENT_LIST=$(collect_files "$MARKETPLACE_RAW/index.json" agents)
 
   for agent_file in $AGENT_LIST; do
-    name=$(basename "$agent_file")
-    echo "  ↓ $name"
-    curl -sSL "$MARKETPLACE_RAW/$agent_file" -o "$AGENT_DIR/$name"
+    dest="$AGENT_DIR/${agent_file#agents/}"
+    mkdir -p "$(dirname "$dest")"
+    echo "  ↓ $agent_file"
+    curl -sSL "$MARKETPLACE_RAW/$agent_file" -o "$dest"
   done
   echo "  ✓ Agents installed"
 fi
@@ -63,12 +93,41 @@ if [[ "$INSTALL_SKILLS" == "true" ]]; then
   mkdir -p "$SKILL_DIR"
   echo "📦 Installing skills → $SKILL_DIR"
 
-  SKILL_LIST=$(curl -sSL "$MARKETPLACE_RAW/index.json" | python3 -c "
-import sys, json
-data = json.load(sys.stdin)
-for s in data.get('skills', []):
-    print(s['file'])
-")
+  collect_files() {
+    local start_url="$1"
+    local section="$2"
+    python3 - "$start_url" "$section" <<'PY'
+import json
+import sys
+from urllib.request import urlopen
+
+start_url = sys.argv[1]
+section = sys.argv[2]
+repo_base = start_url.rsplit('/', 1)[0]
+seen: set[str] = set()
+
+
+def walk(url: str) -> None:
+    if url in seen:
+        return
+    seen.add(url)
+    with urlopen(url) as response:
+        data = json.load(response)
+    for entry in data.get(section, []):
+        file = entry.get("file")
+        if not file:
+            continue
+        if file.endswith("index.json"):
+            walk(f"{repo_base}/{file}")
+        else:
+            print(file)
+
+
+walk(start_url)
+PY
+  }
+
+  SKILL_LIST=$(collect_files "$MARKETPLACE_RAW/index.json" skills)
 
   for skill_file in $SKILL_LIST; do
     dest="$SKILL_DIR/${skill_file#skills/}"
@@ -81,4 +140,3 @@ fi
 
 echo ""
 echo "✅ Done! Restart Claude Code to pick up new agents and skills."
-

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "k8snetpol",
+      "description": "skill directory index",
+      "sha512": "02e81fcdc1f0ab2c62b8fc14f5aed63a4accb398a645aeea5b5b1df0ea148f308fc5018eeb8031928cd01f6c7b7950a7faea0e06a1fc58f345bc8d4ec064e866",
+      "file": "skills/cloud/kubernetes/network/k8snetpol/index.json"
+    },
+    {
+      "name": "kubernetes",
+      "description": "skill directory index",
+      "sha512": "98ce675f537fffcbc80d4f30b24b54e1a799f20a090cc5cd9a662e7e58316187abef3be13e78049a7342ec6116cdc8d80441808419af549422b43efe6fd45106",
+      "file": "skills/cloud/kubernetes/network/kubernetes/index.json"
+    }
+  ]
+}

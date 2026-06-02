@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "727f0ecba500eaaf36b4240022dd23d607ff90acba886684809343db940921cebb46c7a9a1e97863e7fd08bf3a151f94d030ab6c10045aa9db8983f17bad4c34",
+      "file": "skills/cloud/platform/general/overview/analyze/index.json"
+    }
+  ]
+}

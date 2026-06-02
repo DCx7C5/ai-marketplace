@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-runtime-container",
+      "path": "cloud-kubernetes-runtime-container",
+      "description": "Cloud Kubernetes Runtime Container.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6493ffac13d9c621fa0924aa9e284a4931e23451a8d7dc88512244d72769b29d5dc7da941bba25ccb74bd359f3f9e5067a489510e61a57f4a53258d7335c4d4f",
+      "file": "skills/cloud-kubernetes-runtime-container/SKILL.md"
+    }
+  ]
+}

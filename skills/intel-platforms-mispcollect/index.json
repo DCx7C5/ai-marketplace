@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-platforms-mispcollect",
+      "path": "intel-platforms-mispcollect",
+      "description": "- [MISP OpenAPI Specification](https://www.misp-project.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "eb08d0e839a598fe669a9b7acf6e43c8a2062eb583e202ea08cb8e4c5033daea3a43a8d1ef194c0144df99393d4de2692446509b0f10978a87dc7f86ea2d7fcd",
+      "file": "skills/intel-platforms-mispcollect/SKILL.md"
+    }
+  ]
+}

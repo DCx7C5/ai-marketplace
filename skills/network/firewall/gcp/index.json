@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "b6c9edcc3012b85747c2ef903a851301f88784cf773cd3b235eb6770f39eda981556afc49d182007c89608917d00b6a9c96f26f1d19a8fef6bb5e18e08221736",
+      "file": "skills/network/firewall/gcp/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6dbd883a4168c7f0c1a77b23b781a6fb763f2db46e2377e0a8fc4235d5082944aeb64446b4756a3e39a531cc61a35d7aa63eb8960a7337b9879b9edf3be85e31",
+      "file": "skills/network/firewall/gcp/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "2a75fdc1bf6a2b39042fbc0071fd10e539ddeb29d15c5957440ac4ecb73150df49bc3f4fc06e4c710a3668a249e2c19247f2a40bbf4bd527720489470c108d33",
+      "file": "skills/network/firewall/gcp/scripts/index.json"
+    }
+  ]
+}

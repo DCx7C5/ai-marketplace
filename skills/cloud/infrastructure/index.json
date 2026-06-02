@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "terraform",
+      "description": "skill directory index",
+      "sha512": "b99665a31172473b4a8855d35a5e12aa810fc95e159783ac8e6528c66bf1547b57ca1c71072ced5f6ad9a58b069e10df643728f9bb60d5bc8343e90ec41811f2",
+      "file": "skills/cloud/infrastructure/terraform/index.json"
+    }
+  ]
+}

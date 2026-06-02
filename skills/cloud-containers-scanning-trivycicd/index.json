@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-scanning-trivycicd",
+      "path": "cloud-containers-scanning-trivycicd",
+      "description": "Cloud Containers Scanning Trivycicd.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4b3d4e9e42c7b5fb4549f625594492ddbc4adeeec7bde241050ea5c39c043b42cc7625eb842b7fd64aa63a275f53a243ad02637d0553c724b65d9cf903caab57",
+      "file": "skills/cloud-containers-scanning-trivycicd/SKILL.md"
+    }
+  ]
+}

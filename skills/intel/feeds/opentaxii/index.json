@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "afc5c7c9875417daab4af2fd99faaabbc1331422464890c1601ef101e469372935572678cc447a2999d5f5811eb5a1a106651f168786fc9ac703f3f33bf08c04",
+      "file": "skills/intel/feeds/opentaxii/detect/index.json"
+    }
+  ]
+}

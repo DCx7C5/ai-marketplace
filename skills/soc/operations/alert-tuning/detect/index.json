@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "operations-alert-tuning-detect",
+      "path": "soc/operations/alert-tuning/detect",
+      "description": "Implements strategies to reduce SOC alert fatigue by tuning detection rules, consolidating duplicate alerts, implementing risk-based alerting, and measuring alert quality metrics to maintain analyst e",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "40eeb8792ed2b8ec0acd756ffc80fbe0bd80ba1c7553916d346a2ca92dda32023501738f6c9b0841ab9a92e0225b6766c948cd399d9134181a619aa3377c3b13",
+      "file": "skills/soc/operations/alert-tuning/detect/SKILL.md"
+    }
+  ]
+}

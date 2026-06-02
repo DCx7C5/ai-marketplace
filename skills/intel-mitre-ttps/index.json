@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-mitre-ttps",
+      "path": "intel-mitre-ttps",
+      "description": "The MITRE ATT&CK Navigator is a web application for annotating and visualizing ATT&CK matrices. Combined with the attackcti Python library (which queries ATT&CK STIX data via TAXII), analysts can prog",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5189ae5a01fbe242aad20716b57ae65fdcc49b34a19686688840f31fb1cd9847f5c2735efeaa66caec22a6bc4f1d64435a20d3a038df6af59a7f1e4a035d2ae2",
+      "file": "skills/intel-mitre-ttps/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-dns-tunnelingdetection",
+      "path": "net-dns-tunnelingdetection",
+      "description": "- When conducting security assessments that involve performing dns tunneling detection - When following incident response procedures for related security events - When performing scheduled security te",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "588ece808eeb67ec719f6c48332afad380a4352475a53223366704af58dc2c963422ac214b2969a3062cfe1ecca7b529acb870a17dc075c9522ee322aa39ef34",
+      "file": "skills/net-dns-tunnelingdetection/SKILL.md"
+    }
+  ]
+}

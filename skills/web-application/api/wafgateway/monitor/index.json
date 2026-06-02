@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-wafgateway-monitor",
+      "path": "web-application/api/wafgateway/monitor",
+      "description": "Securing API Gateway endpoints with AWS WAF by configuring managed rule groups for OWASP Top 10 protection, creating custom rate limiting rules, implementing bot control, setting up IP reputation filt",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e5389c4d5bedc109dfc40d650ccbe8968ebdb055ee1269848b88a11952f564620adc38166bd6e9f39a37a0e237e2fd42b26b52a03902b70eec2d12c682bbc7ee",
+      "file": "skills/web-application/api/wafgateway/monitor/SKILL.md"
+    }
+  ]
+}

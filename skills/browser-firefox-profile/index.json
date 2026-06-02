@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-firefox-profile",
+      "path": "browser-firefox-profile",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "65b80d90d7ce97fcdcf093856681962c84b32b6e84f80b9be31fff6f027d81c848d42c54d1a8747a754a290060d0a3aa1e05741f3dbd7d081f801dc91cb01b85",
+      "file": "skills/browser-firefox-profile/SKILL.md"
+    }
+  ]
+}

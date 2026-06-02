@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "device",
+      "description": "skill directory index",
+      "sha512": "bdca600a11171d74dfa2be539183cf5b46a41e81089c5fc2c3534086642599ac9e7736fc2de3cb52a1cfb9f19be5f68d0106b87a6c1b9bd348b1221c42668fbe",
+      "file": "skills/linux/hardware/usb/device/index.json"
+    },
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "154e78898f2523a551a42c3ea4d245e102428ca9e434c4e3d74d2c5131bb0753706ed4ee4bc3477037eed70b29870d73b1e8f89bdc8a121c12102807d86e274f",
+      "file": "skills/linux/hardware/usb/forensics/index.json"
+    },
+    {
+      "name": "policy",
+      "description": "skill directory index",
+      "sha512": "e9dbde38581dacb7f0b7906ac0b3708e0e157b89a8b899d12f5596a966b92b7e5740714dfbed51301087440d8064cddc63be2faea9a0490d604133c9080ac980",
+      "file": "skills/linux/hardware/usb/policy/index.json"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "28a749a60613b13c5e3022e6758b02026cb40e9af70ea679b575bee2c9f5efb98c7d8aee715108fc3a24f4ab2f8342162dd2acbed8a47a0d8c09d33ccb088daa",
+      "file": "skills/soc/siem-soc/correlation-rules/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "12774331418af24630a11d860508a4c6be4b31b5630afb871f4ac36ddd88ca99045e807263e8661d02e1d807f72001f642a9ea7d1685c182d368fb679a0c6d79",
+      "file": "skills/soc/siem-soc/correlation-rules/scripts/index.json"
+    }
+  ]
+}

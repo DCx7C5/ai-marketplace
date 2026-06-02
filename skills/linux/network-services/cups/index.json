@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "rce",
+      "description": "skill directory index",
+      "sha512": "8c90e676e9046d49397e98de308f8e160d689c36e8555be1dfa06586bddd2f02b994c56885563584fc8dc4185ec60fd4208674e6beac528cac986b5ffa166e48",
+      "file": "skills/linux/network-services/cups/rce/index.json"
+    }
+  ]
+}

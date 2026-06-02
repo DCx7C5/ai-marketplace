@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensic",
+      "description": "skill directory index",
+      "sha512": "e05b24f736f6a4723c5d47333bb8862ff1b486bbf583a032d4882a89c46df837bb6cb1d4b03e3e2c5e58ee370956d57277331cd469a2843a86ff47ac1d263af8",
+      "file": "skills/linux/forensics/disk/analysis/disk/forensic/index.json"
+    }
+  ]
+}

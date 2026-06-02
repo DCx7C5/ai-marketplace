@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "metasploit-SKILL.md",
+      "path": "vuln/metasploit",
+      "description": ">\\n  The Metasploit Framework is the world's most widely used penetration\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6bd24dce879c379f1b5066eb1b50112de8da01bd3d447939de66dd3f3d6bd2ee5a8c3c4ef75a0f036a8ae7bd022635640390614d37884a35c2f861b6d88faea8",
+      "file": "skills/vuln/metasploit/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "30833b624ed807e4d0e78e070698216d4e981f89cd0fab6d76f98c9d4e332fd3c3ac524046ba94e33e6fe2f466610de990be66ac0bb8fb9ddcfe11cb4d345b78",
+      "file": "skills/vuln/metasploit/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6c77f84d308049220f6fb6bd879d70a216b6f2412bf7183014ff16b9518f9c1f6fdf3cdeb112f790085e1fd0f34aee4d6feff5aa3827810b1c3a54d6958bd4e6",
+      "file": "skills/vuln/metasploit/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "966a4e9911b249abe18d711cc1a9288249846c2aecc3d40415e483a19cfd60638323967f78a86f0491d3ba75d23945c197ab87828bb936d27221a499b5b59be4",
+      "file": "skills/vuln/metasploit/scripts/index.json"
+    }
+  ]
+}

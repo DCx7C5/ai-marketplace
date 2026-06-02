@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-svc-at-job-persist-detect",
+      "path": "linux-svc-at-job-persist-detect",
+      "description": "subdomain: persistence-detection tags: - linux - at - batch - persistence - detect nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1e30a0cfa517e3cbae56db93e991970852846cf95ada92f349f2e49818c5048e946be7d9c09abbb164f74bac50a833b8f7a02f5ba7401e3ffa671d284b472932",
+      "file": "skills/linux-svc-at-job-persist-detect/SKILL.md"
+    }
+  ]
+}

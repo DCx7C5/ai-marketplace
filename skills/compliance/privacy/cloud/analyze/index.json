@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "privacy-cloud-analyze",
+      "path": "compliance/privacy/cloud/analyze",
+      "description": "Implementing Cloud Data Loss Prevention (DLP) using Amazon Macie, Azure Information Protection, and Google Cloud DLP API to discover, classify, and protect sensitive data across cloud storage, databas",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2e9bf92c584556d08eb98343cf19d194cd39ca2ab6296010681ed7b0fcdd43b54f90e96cb43ba96e326e693863f58599363085c69d4ab8fb22cbdd1f0e013cc4",
+      "file": "skills/compliance/privacy/cloud/analyze/SKILL.md"
+    }
+  ]
+}

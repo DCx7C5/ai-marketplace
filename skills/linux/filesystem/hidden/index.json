@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dotfile",
+      "description": "skill directory index",
+      "sha512": "8ac4badaf92f0a22c0299cd9e28667b4f9b3299b0fc8cfe23dc8c48e1b16057e04e4bb36325d0842a06f4de3afbb658a91b6c3ccf44b8e9be042414f2fc7c358",
+      "file": "skills/linux/filesystem/hidden/dotfile/index.json"
+    },
+    {
+      "name": "rootkit",
+      "description": "skill directory index",
+      "sha512": "0352a579fdcb744131c7d3e12382fc4626f06037efb64d22e9a3ac50205f1d583b9f198cd9f8531e1ae7ce95dc6d14df14089e01ca26cf697be59fc0da15cab4",
+      "file": "skills/linux/filesystem/hidden/rootkit/index.json"
+    }
+  ]
+}

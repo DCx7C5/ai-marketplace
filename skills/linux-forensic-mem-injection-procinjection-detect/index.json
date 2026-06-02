@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-mem-injection-procinjection-detect",
+      "path": "linux-forensic-mem-injection-procinjection-detect",
+      "description": "- MITRE ATT&CK sub-technique mapping (T1055.001-T1055.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "aeb6ff373a6486851a7cd94da21c89ae82a499ba5fd651fb135408dd79ef75a8f1eddd5b7afcf7a91401c7088660c8c867889c291f945a43dce09ad502b6e374",
+      "file": "skills/linux-forensic-mem-injection-procinjection-detect/SKILL.md"
+    }
+  ]
+}

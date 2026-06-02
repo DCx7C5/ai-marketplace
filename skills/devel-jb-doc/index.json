@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-doc",
+      "path": "devel-jb-doc",
+      "description": "- Confirm there are no leftovers (temp files, duplicate renders) unless the user asks to keep them.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d90e76b6b8ba5e73b40c86bd537fbae02627d954b8e3529a96f0b98f6af64e950a59f49d7fa09b341f3582d447f82b0a8ae7308d73ba36a4f4e199bd75b51d81",
+      "file": "skills/devel-jb-doc/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "c249058d90fbb8184c0dfe9084f6758e72c398b3c1e775b63b2cfbf62148f99c9e6b92494f80c36b175fdb1d18c682dcd22669eda2b24cfeb5f9e5ea9265fac9",
+      "file": "skills/devel-jb-doc/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "3f742b8d59563ce2215aeefe4b94c5c3fd7e4348a8011573f530453ff710358cf6eb81543fb84f21716fb28fc641e75dafbf96f9017f1253014094963273c372",
+      "file": "skills/devel-jb-doc/assets/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "54ff8b078d033cf83de06f796127c8a4189fef6690a144bb1a76ef6692e62378cdda952545021bdafa591f327fe8e49d087253bcc6faa52bf1e2f691101c232c",
+      "file": "skills/devel-jb-doc/scripts/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "b124f97dd7eb856d6f75e89185510bad6a98e91212e42f4d552c223820513af990d915fb5cf38d859a35fafd32c22666705356f1a2b71ef3352ebea8da366907",
+      "file": "skills/web-application/cache/cachedeception/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "df74082fe1ee05c73807c8d8d0453379a25d4fd0b8468ea1ebe26e3f9e4c413e3e38e7c9dcda8ecd4a83545565d597b1daecfc661616bd15e4d6db9c50b342da",
+      "file": "skills/web-application/cache/cachedeception/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "78c9acb491b0c61567933a26d620fef7d1d888582c62a410e29d4007415e85956ad5a58046b20d3bab5da9742d60ccfe367a97eca0f5fba59a3c6bb8d9ac8e5d",
+      "file": "skills/web-application/cache/cachedeception/scripts/index.json"
+    }
+  ]
+}

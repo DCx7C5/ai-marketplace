@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-postgres-extension",
+      "path": "db-postgres-extension",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ab32ad1425849a6a97cdf80228cd75ac3a3bbd7cc66fcd80254f3016df7fe7b7fc66a9e183cba0f250ee0de1593fbddc7a34c4197d5500ca1f0c63901b5073dc",
+      "file": "skills/db-postgres-extension/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-zerotrust-beyondcorp",
+      "path": "cloud-zerotrust-beyondcorp",
+      "description": "JSON report containing IAP-protected resources, access level definitions, policy binding audit results, and zero trust coverage metrics.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "38bcc75084aadba4d2c84f53471472ab8df22455c6b85ecfcd05d9524570b8c4bffe715a05f5f7b5f161af27d8219e0c477c9a7c1db4b25e3b1d0a937de7c824",
+      "file": "skills/cloud-zerotrust-beyondcorp/SKILL.md"
+    }
+  ]
+}

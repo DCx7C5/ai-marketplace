@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attestation",
+      "description": "skill directory index",
+      "sha512": "8d3037f7ec0f89fab41b0610efde599ff16262abd11ed0a617215012b73ff1a1989a532ae25070af3486f7b136edbbf36c0ed07dd90044ba75903b8050654e89",
+      "file": "skills/linux/hardware/tpm/pcr/attestation/index.json"
+    }
+  ]
+}

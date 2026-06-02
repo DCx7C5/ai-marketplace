@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-privileged",
+      "path": "identity-pam-privileged",
+      "description": "Identity Pam Privileged.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2fc51a0f419578a7d929d7b7708ad181f81ee521b1628dd5f45c0126f7816b85f5a6291fb004daef797b61878ffc4095fb612b6978f89fa68674ad204d23650a",
+      "file": "skills/identity-pam-privileged/SKILL.md"
+    }
+  ]
+}

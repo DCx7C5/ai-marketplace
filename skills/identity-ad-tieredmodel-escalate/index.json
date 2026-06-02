@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-ad-tieredmodel-escalate",
+      "path": "identity-ad-tieredmodel-escalate",
+      "description": "Identity Ad Tieredmodel Escalate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "95b468897faa079ab954388764afa3828047641a14412a0f9589365cadbf13fd94443a5c1bbbe0d5738b2f824e9a787e3823d37f48bf0ded8ff3b5aad99e0e72",
+      "file": "skills/identity-ad-tieredmodel-escalate/SKILL.md"
+    }
+  ]
+}

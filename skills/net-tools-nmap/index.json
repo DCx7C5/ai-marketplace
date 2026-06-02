@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-tools-nmap",
+      "path": "net-tools-nmap",
+      "description": "| | 10.10.5.23 | 445/tcp | SMB | Windows Server 2012 R2 | MS17-010 (EternalBlue) | | 10.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f151698734c2b0b149051ff5f7db0dfd57f098ad1ef723d338813470d8fcf4796bc2954e1d8b6824c8441756117fc5096db10f2d870e288372743b82f1a480d9",
+      "file": "skills/net-tools-nmap/SKILL.md"
+    }
+  ]
+}

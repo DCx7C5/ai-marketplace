@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-registry",
+      "path": "soc-hunting-registry",
+      "description": "A JSON report listing suspicious Run key entries with the registry path, value written, modifying process, timestamp, MITRE technique mapping, severity rating, and recommended Sigma detection rules.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3b6038a69b07d9ead5c4c4f9ab5bc29d613b28d75f88534ca036cc6a7392d8a5cd1dfe0d67c9f0d5fb63ea7ddde61e6576a9e10ebac1b334e9abdd1741cf9e73",
+      "file": "skills/soc-hunting-registry/SKILL.md"
+    }
+  ]
+}

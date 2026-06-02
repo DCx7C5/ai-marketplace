@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-linear",
+      "path": "devel-jb-linear",
+      "description": "- Performance: Remember Linear API rate limits; batch bulk operations, use specific filters, or cache frequent queries.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7288bd68940284fb9b8b497ab02c6885bb3e59316cfd9d71aaa4476c2a416f4be88500edcd75e9f9582a21c4392c13311fd28dac8c57dba1868023cd84781da2",
+      "file": "skills/devel-jb-linear/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "c6b7b8e1c3b678db6ee6a71f166b8b36aa7cac962478fbf0eba9cbb9a4d7f40f858e33df27f2405f1be9ec50b017acb8469b3d66afe944b00d173937e33f2eef",
+      "file": "skills/devel-jb-linear/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "5646d08d52cc7106ce20b9dba467fcb553be61490be89d2a833349918461d128a74f11955c1920884dcd3a48aef6315fd199f0b1571d1c7503d1dc0be2b370c0",
+      "file": "skills/devel-jb-linear/assets/index.json"
+    }
+  ]
+}

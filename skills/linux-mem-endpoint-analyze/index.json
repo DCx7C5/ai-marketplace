@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-endpoint-analyze",
+      "path": "linux-mem-endpoint-analyze",
+      "description": "Linux Mem Endpoint Analyze.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1fef22f251408497266138aaff34c1c4827cff5ac80e8408a5a6be2bc233dd566f15c386041c444f08919ed354b5200c1a77fb9ec9da81547d6404d0018335a7",
+      "file": "skills/linux-mem-endpoint-analyze/SKILL.md"
+    }
+  ]
+}

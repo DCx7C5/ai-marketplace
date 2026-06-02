@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-tools-hashcat-crack",
+      "path": "crypto-tools-hashcat-crack",
+      "description": "Crypto Tools Hashcat Crack.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8df5023c924143bfbe127ff248618becc386ae63fa9824ee9a65653c2ed3e26435d2b78e310b24306986582a859048f3fcdc498656ad0babee2ed6cf3854c963",
+      "file": "skills/crypto-tools-hashcat-crack/SKILL.md"
+    }
+  ]
+}

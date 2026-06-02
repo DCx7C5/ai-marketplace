@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-webapp-testing",
+      "path": "devel-jb-webapp-testing",
+      "description": "- `static_html_automation.py` - Using file:// URLs for local HTML   - `console_logging.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cd1d201a551a3999b11d4495a34fea92473f5119e3acabc1d9d2c2c04d324543514e107447f7c61a1ead5c35c34f0fea64a4282e6f8a2f5da66700f9463d96c0",
+      "file": "skills/devel-jb-webapp-testing/SKILL.md"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "6edbc48e8d068b6e8e07945b50855df497f5ed6d5bc75242deaa5a73215470517f159bd6ad172d3e24f054e15dcab7dbc906019e057eea4024d3c9cb082edfc4",
+      "file": "skills/devel-jb-webapp-testing/examples/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "dec2b0901eee875d6bf219f98583a4420e8a750e3f5b1ed22aa8dbd5991fae1466947e2deda60c5bdcc3bb188d721f7f51508ac93c88f2f2960c58f125e3528c",
+      "file": "skills/devel-jb-webapp-testing/scripts/index.json"
+    }
+  ]
+}

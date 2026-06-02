@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "attack",
+      "description": "skill directory index",
+      "sha512": "c62912bbe592172984984a10a8a8fedbf273dab0da13fca19a0692306c922e8c82fd80f325edbf8a313ec3760eaeedb813d58fff31cfd9116bf11aedc9c65653",
+      "file": "skills/linux/hardware/thunderbolt/dma/attack/index.json"
+    }
+  ]
+}

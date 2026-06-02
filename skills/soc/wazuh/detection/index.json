@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "fe1e209436a3981badea95eb705219f4f0eb2309491873044c86d9d7d40e19f23b25acc6d381041843a00d00b455523a755f4c64e14bc66623e1b2cab8caae78",
+      "file": "skills/soc/wazuh/detection/detect/index.json"
+    }
+  ]
+}

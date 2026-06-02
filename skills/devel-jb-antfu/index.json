@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-antfu",
+      "path": "devel-jb-antfu",
+      "description": "--| | ESLint Config | Framework support, formatters, rule overrides, VS Code settings | [antfu-eslint-config](references/antfu-eslint-config.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c78926b892a0eba566212ac16af1c544a33a2f6e0c0d6f5bbe3d621badf2bf6f8688e07684270f7ffa74d2675700bdf94e4c85c652302f52ceac73b113b04077",
+      "file": "skills/devel-jb-antfu/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6ac5bd99cd07f221bb400d5d818938f66f9e80811c5778131c735adac50d7d830b301b2da515d60040703a8f5adcf4bdad01eea79c0ad2291086cb8752a9ce56",
+      "file": "skills/devel-jb-antfu/references/index.json"
+    }
+  ]
+}

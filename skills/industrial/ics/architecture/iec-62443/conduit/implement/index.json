@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "368f46ec1a6964bb29903937fb473050e40624915ae0bc65553a1bff7b39086e9a1c4f065b73b421a889d10759677d602954d5e6a17f0042cb613e51740c3da1",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/implement/configure/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3ce1d4874c62a2d3b28b65995d107ab51c9139aa7330bbaa165c96854d883edb552b4df30035ed3208504613acae79c9e26d34078f69c1cb0928502c0a88b02a",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/implement/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "9f936c23843f5175f19b23a3632de77306240ddb4e36dac7ea904eb86a5e01eba904c335240ac196da378c55e263a172052895d70dea791aac144c68058c31c7",
+      "file": "skills/industrial/ics/architecture/iec-62443/conduit/implement/scripts/index.json"
+    }
+  ]
+}

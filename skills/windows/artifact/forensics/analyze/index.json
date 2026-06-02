@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "artifact-forensics-analyze",
+      "path": "windows/artifact/forensics/analyze",
+      "description": "Perform comprehensive Windows forensic artifact analysis using Eric Zimmerman's open-source EZ Tools suite including KAPE, MFTECmd, PECmd, LECmd, JLECmd, and Timeline Explorer for parsing registry hiv",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "885fb4e057747c51113030071c1d8c59e90ebb47f8b1d5f4c00201897a6dc32bafe4813f24acdaaf87cac6aa3751f57c8d79ba633682f920780665d577957a6b",
+      "file": "skills/windows/artifact/forensics/analyze/SKILL.md"
+    }
+  ]
+}

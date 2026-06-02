@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "nist-csf-audit",
+      "path": "compliance/nist/csf/audit",
+      "description": ">",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "82ea330084e013885789a2073eb32e630a664a480de91ff1b0e922a288f9dc0c6faa54546a572f409461a0730b66d8f02b4919de9815742c189b6ea77e33022f",
+      "file": "skills/compliance/nist/csf/audit/SKILL.md"
+    }
+  ]
+}

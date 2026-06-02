@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-headers-content",
+      "path": "webapp-headers-content",
+      "description": "--|",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e656795b9688f02c38e1ed77e478aec050a5aef7dedb8aed8f9edef778eddfd388d788557b6fd931cf8ed1b6bdf2bec6b083a878587e6df8da0df90da9f45e43",
+      "file": "skills/webapp-headers-content/SKILL.md"
+    }
+  ]
+}

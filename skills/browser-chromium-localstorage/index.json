@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chromium-localstorage",
+      "path": "browser-chromium-localstorage",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "65829620f8ddf75f156c43f7cc4865509dc2d88426fc116991852d1e6a1c4de8dc6c4a9f5bec5d582c4ea1316cb21af8a8d4b3975b5ba60fca0ea5fada7f7a90",
+      "file": "skills/browser-chromium-localstorage/SKILL.md"
+    }
+  ]
+}

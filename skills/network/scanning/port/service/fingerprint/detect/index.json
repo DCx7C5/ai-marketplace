@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "scanning-port-service-fingerprint-detect",
+      "path": "network/scanning/port/service/fingerprint/detect",
+      "description": "Fingerprint open TCP/UDP ports and associated service banners, version strings, and OS signatures using nmap service detection, grab, and ZGrab2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "84c7b0e71dad0f0cb586c849a5838d2aea884dbfebb80f57fb75cb4a0c4c1c8baaf96164de4524122a44ba665a138f622af4a21782b71e705b6aa0c45cc2273f",
+      "file": "skills/network/scanning/port/service/fingerprint/detect/SKILL.md"
+    }
+  ]
+}

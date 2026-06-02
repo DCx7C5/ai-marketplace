@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "anomalies",
+      "description": "skill directory index",
+      "sha512": "56efce51dc8c82946b35827328f1e84bdfe69f94889ee39de744275769201cc288567172407c108c5511b59914854f095e52ad19b413f0bcdf925f61d18817e7",
+      "file": "skills/cloud/logs/anomalies/index.json"
+    },
+    {
+      "name": "api",
+      "description": "skill directory index",
+      "sha512": "fb97e958325ba53dd22d85b16062a03ae3dfefd9494befb595d451ed5f9bf92786acd0ad8034790654240ddfee7295a59cae0d3f75abd461ab00d30f4051c387",
+      "file": "skills/cloud/logs/api/index.json"
+    },
+    {
+      "name": "athena",
+      "description": "skill directory index",
+      "sha512": "4ee7e8973417a4e7fcbaa4263e28f8bcca38b9e765605d60070cc81ee9d2516041d236dae2924fb24ad4584456a5e8c2e98f0f6539f6ba9fb469edbb4265b147",
+      "file": "skills/cloud/logs/athena/index.json"
+    },
+    {
+      "name": "azure",
+      "description": "skill directory index",
+      "sha512": "ad36a516f7b05c9f0c62c6b6e63044b8061eaf98abfa8dab343a1294de493173396110cda76b9791ad2a456f2ef6aa33eef06453265bb14793480ea2240e81b8",
+      "file": "skills/cloud/logs/azure/index.json"
+    },
+    {
+      "name": "cloudtrailforensics",
+      "description": "skill directory index",
+      "sha512": "e9cfe2f6f7b5278f8973ef150a0978157e0949cefa712ad4f2759d25da262cf8ac9cc61c11bacb4fe26f0330bcd6476fa57925169eda62e40f65126aab20fe24",
+      "file": "skills/cloud/logs/cloudtrailforensics/index.json"
+    },
+    {
+      "name": "kubernetes",
+      "description": "skill directory index",
+      "sha512": "889234ee94dac8d9b2f83ae863b423d48ed8287a62601f1ebd356ca3aee032f120d9f4477feb822538752a3d26a014ab438dea583ecfa9c8a832d1852d8fcd84",
+      "file": "skills/cloud/logs/kubernetes/index.json"
+    }
+  ]
+}

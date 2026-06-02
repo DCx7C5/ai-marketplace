@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "config",
+      "description": "skill directory index",
+      "sha512": "d7ed694ba849f3f8895ac59b84ef021b47ab6a84be6670ec0f2e3a2f2347d0a12a5d7e9703745a760471831b6521b7efe0fa588b7e696e13ae4f9afa60e9e922",
+      "file": "skills/linux/network-services/apache/config/index.json"
+    }
+  ]
+}

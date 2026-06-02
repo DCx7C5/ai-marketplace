@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "182f862914f0515185383b9dbf76d3fd7c56c817fce4083f41b43048e0bbae924c144c097a05cbf5970644a17b8767f281627a21b161c76c76ba48d5fa90b731",
+      "file": "skills/web-application/clickjacking/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "afec99d3be40aa82f6ed5e20ba246fc272f3cd0428eedb23ec9b99efcea4b06720b77ab886b2ff2fc47a9e38c6cc88931502027b5e312bd777a6df42a4429934",
+      "file": "skills/web-application/clickjacking/scripts/index.json"
+    }
+  ]
+}

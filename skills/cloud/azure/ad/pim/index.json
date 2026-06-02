@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "5f944018f255a6c2c006c6347d899fe675089a7aa27d3c9db44db2c5f9ab8c056f11dc7049cfab5f31e59ccabfdd3315c2d189a0a530383e9e741e3a9e628e37",
+      "file": "skills/cloud/azure/ad/pim/exploit/index.json"
+    }
+  ]
+}

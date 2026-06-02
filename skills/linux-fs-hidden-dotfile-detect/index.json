@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-hidden-dotfile-detect",
+      "path": "linux-fs-hidden-dotfile-detect",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0f6df982549938ada635367bcdd4baece7e49db8918467a2a32d353c1cf078855f4a2ad10c38beb7935980fa67fe146c550b408068a0e1c458716208d44489e5",
+      "file": "skills/linux-fs-hidden-dotfile-detect/SKILL.md"
+    }
+  ]
+}

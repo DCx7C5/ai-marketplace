@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-openai-pdf",
+      "path": "devel-jb-openai-pdf",
+      "description": "- Keep intermediate files organized or remove them after final approval.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b3061f9e3e8819297270d15a97717773f433216b1908ba42f2531f5d0ab9e2b4ae408b63b4f55fa2bb6c9c8f74ee42e676db25d8aa2aa14d31a3970c2fd41cb7",
+      "file": "skills/devel-jb-openai-pdf/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "f77496b49b5a9eff05f0c7011697f5260a4605f7808436c01f3906af6698c7b3a9793cf21a477a08870d25de3fbb1ffa94960feee7f430ef27fdd169b18c7bfd",
+      "file": "skills/devel-jb-openai-pdf/agents/index.json"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "f337e509370eb27e89391ee79b9d8738c56dfe45ce7d24a00d31bf2b89d92a47de3dd343e49c6335b3f9ef17bfaf09722b094d2ccdcf1ee42bebc1def4b4145f",
+      "file": "skills/devel-jb-openai-pdf/assets/index.json"
+    }
+  ]
+}

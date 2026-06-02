@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "phishing-training-simulate",
+      "path": "email/phishing/training/simulate",
+      "description": "Security awareness training is the human layer of phishing defense. An effective anti-phishing training program combines regular simulations, interactive learning modules, metric tracking, and positiv",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "460e2630b3aab84ae3d10b20c943ec0bb9b0ebe5e9ad980a432aed80ff92fae7b7eacc58b8378b510758f9be74da8c3e6bcc58ec2e8cf9544efe20a94cc1070e",
+      "file": "skills/email/phishing/training/simulate/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dns",
+      "description": "skill directory index",
+      "sha512": "f77320966a2153dec10abda208fcd21d997620ec5690fe5aa7b0befca1b26d9f8b7968cfa666e1ca08029a98295f4f479f9ab50dce232c17c293372bb7bf2e4a",
+      "file": "skills/stego/network/dns/index.json"
+    },
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "c87163dfecf221fb6cc72799f95d504c323ac4240ae235d1f45d43e7d3f8fb3838d9d29852b179814e7cd8be18c22ec415d95ef045a27f3ddec6a87fd1caa2a2",
+      "file": "skills/stego/network/http/index.json"
+    }
+  ]
+}

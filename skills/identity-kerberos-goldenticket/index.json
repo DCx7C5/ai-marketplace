@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-kerberos-goldenticket",
+      "path": "identity-kerberos-goldenticket",
+      "description": "4. **Persistence After Remediation**: Golden Tickets surviving password resets because KRBTGT was only rotated once (both current and previous hashes are valid).",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9ca5fdd6aeee2a787b0f0e116d8331c2b59f587b127b8e4aaa8a221df9b5a0f7bbc147c1e03da85bc6557e29eaaa5efd10e6d82456ab60e2810cef0c5d2f4e02",
+      "file": "skills/identity-kerberos-goldenticket/SKILL.md"
+    }
+  ]
+}

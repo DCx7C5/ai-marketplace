@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-kotlin-idiomatic-refactorer-spring-aware",
+      "path": "devel-jb-kotlin-idiomatic-refactorer-spring-aware",
+      "description": "A bad run produces elegant Kotlin that is harder to debug, harder to evolve, or incompatible with framework behavior.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c3340b6cc4460ef6871182fa920dc667b32baa796078b150c69bd880fa293323863e16a89b35f502bba78d0e6633665c8e5c5a5c02967adc2fa14317847508c4",
+      "file": "skills/devel-jb-kotlin-idiomatic-refactorer-spring-aware/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "186a85f5d112acad29580fcb24bd5fc28cdd3d81b96204dc48b7d9946b8c0c8cb0ecbcbb1fade2fe34ed8a318601d1762b4da990220ef9a5e14ce43542ad93e6",
+      "file": "skills/devel-jb-kotlin-idiomatic-refactorer-spring-aware/agents/index.json"
+    }
+  ]
+}

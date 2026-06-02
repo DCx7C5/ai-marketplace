@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-quota-abuse-detect",
+      "path": "linux-fs-quota-abuse-detect",
+      "description": "subdomain: filesystem-security tags: - linux - quota - disk - abuse - dos nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b428eadbee1f389c69a53dca57cf9e3e52f80f02b774636ba2c89fa522a7e05eb544caa1d1a7df875907e37b9cfdab19d0b97466b55071a7f750f3334a37cb34",
+      "file": "skills/linux-fs-quota-abuse-detect/SKILL.md"
+    }
+  ]
+}

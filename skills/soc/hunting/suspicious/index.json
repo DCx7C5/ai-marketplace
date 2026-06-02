@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "aa417e6cdb28165ed4c7aa08ccb7591ca73ae491947f44b2858a01d78bbbc7cc23fdc195e68608c579b3a558b9d810c57affcb7700d4b1f41bb24deb22f8a034",
+      "file": "skills/soc/hunting/suspicious/detect/index.json"
+    }
+  ]
+}

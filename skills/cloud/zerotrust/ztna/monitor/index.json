@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "zerotrust-ztna-monitor",
+      "path": "cloud/zerotrust/ztna/monitor",
+      "description": "Implementing Zero Trust Network Access (ZTNA) in cloud environments by configuring identity-aware proxies, micro-segmentation, continuous verification with conditional access policies, and replacing t",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b34a065e4543995e0f241ffd875e940dbbe54879d97da65a4118a022e113123a50aa2388845d9894f0d91e980ae65ffad559342aded4380ef352e94a72f2c661",
+      "file": "skills/cloud/zerotrust/ztna/monitor/SKILL.md"
+    }
+  ]
+}

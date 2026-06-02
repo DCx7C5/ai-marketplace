@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "socks5",
+      "description": "skill directory index",
+      "sha512": "8c4d2b630d12b6bac6137ef1882d7bf7cd4eaee337c284e0b5d73e013e81e42b4ca223b937ba993a8d8b6adc677beb047f99af11af07bdca69d6a476e2e12429",
+      "file": "skills/network/proxy/socks5/index.json"
+    },
+    {
+      "name": "transparent",
+      "description": "skill directory index",
+      "sha512": "2a0417ec39cae8abb4adf832a4a4ff64bd4d9a9f451f3382f93d89c2053ca27731ca3c42e0c368df241fa01392d6bd00e0bc4ebf44b1eddddc3196db5f43dfe7",
+      "file": "skills/network/proxy/transparent/index.json"
+    }
+  ]
+}

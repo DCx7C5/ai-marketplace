@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "2cb2c613149c13fd28b092e34de12785c801adc553e2a2bf763d59c8e521a6b3b80aebc8e4062dca259b25989fbadb31226399228cb33a4fd44b6f6e4f8ca672",
+      "file": "skills/industrial/ics/historian/attack/detect/index.json"
+    }
+  ]
+}

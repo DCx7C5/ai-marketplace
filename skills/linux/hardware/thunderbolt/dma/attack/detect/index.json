@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hardware-thunderbolt-dma-attack-detect",
+      "path": "linux/hardware/thunderbolt/dma/attack/detect",
+      "description": "Detect Thunderbolt DMA attack vectors (Thunderspy) \u2014 enumerate Thunderbolt devices, check security levels, and detect unauthorized DMA access to host memory.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a6f0e85ced535631c7f81906b9e80108d874d18883653adc2267e0bc7c0c330bd74e396b85cc6341df72c55ab82a664d6ea117410a5b906ddcba53bc590cbffa",
+      "file": "skills/linux/hardware/thunderbolt/dma/attack/detect/SKILL.md"
+    }
+  ]
+}

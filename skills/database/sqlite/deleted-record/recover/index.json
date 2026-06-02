@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sqlite-deleted-record-recover",
+      "path": "database/sqlite/deleted-record/recover",
+      "description": "Recover deleted SQLite records from freelist pages, WAL files, and journal remnants using SQLite recovery tools and hex analysis of database page structures.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7322e6d1917ac4f3ed4c722ebabddfed8b90dcfe545cf98fc214d62849b488fbbacdca11f884f965988d10e5ece453dd6ec37c7162dc3549460237ad0a838d29",
+      "file": "skills/database/sqlite/deleted-record/recover/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "misp",
+      "description": "skill directory index",
+      "sha512": "a4071025b21923f9853836629efe48d748e275d1cddbab27d82a0bd591df085080bccd7eebac62ad03a7d8206adfcb993fc9ba198cd7fa491cae0ae9dcc82b0a",
+      "file": "skills/intel/intel-platform/platforms/misp/index.json"
+    },
+    {
+      "name": "mispcollect",
+      "description": "skill directory index",
+      "sha512": "aea0c9e89724891ca120bf6746a60c38ad309717e33655bbf274e05ce8441eef6708d7da1b2f2f5e451abf916a037eed0ef9c60e3d5b4cdf21660d5ab9d57765",
+      "file": "skills/intel/intel-platform/platforms/mispcollect/index.json"
+    },
+    {
+      "name": "mispshare",
+      "description": "skill directory index",
+      "sha512": "a368c54835a6078878ffe31c106549d2c72f856a2e0f919879387534d2f21696db58463004807ba9b3f85ea94bf34a01d7e992b45f9b8d76353b0ca7d5cd0d20",
+      "file": "skills/intel/intel-platform/platforms/mispshare/index.json"
+    },
+    {
+      "name": "tipeval",
+      "description": "skill directory index",
+      "sha512": "23f43d0b2dcded23259cf9548b38c4dc5218d8adb4fd40458e4f92f6b49036460e63edc08c5816710f1087b348aee744842230def542bf0da5c2a1ce67613275",
+      "file": "skills/intel/intel-platform/platforms/tipeval/index.json"
+    }
+  ]
+}

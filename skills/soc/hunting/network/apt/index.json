@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "cc91654c31ce7f917153befee455abf1822dd3fd2d1b59769603e1e14dcf1657cc79173096c8e4500deba1c607ae8deb2f0f22d7821d908ee53d362b37511999",
+      "file": "skills/soc/hunting/network/apt/extract/index.json"
+    }
+  ]
+}

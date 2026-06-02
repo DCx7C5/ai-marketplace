@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "tamper",
+      "description": "skill directory index",
+      "sha512": "496cb02a0d23e658487678efdc2d0aa4c2a0844f8edede2271f33e4590c2a5046fa7584aeefd9fba479c7ed73489f88ee9fa2bc46c6a5b3e9d10c8d9f0d85d37",
+      "file": "skills/linux/kernel/boot/grub/tamper/index.json"
+    }
+  ]
+}

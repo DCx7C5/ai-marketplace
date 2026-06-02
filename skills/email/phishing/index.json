@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "aitm",
+      "description": "skill directory index",
+      "sha512": "65a63e89b14c0b8f6a9cfe2a782b8a0fea574124e65430fdab5a7cb0bb91a40a7edbe22eec77e379726845a5841031f551d2f4dd4d43c983320455e95f7b9370",
+      "file": "skills/email/phishing/aitm/index.json"
+    },
+    {
+      "name": "bec",
+      "description": "skill directory index",
+      "sha512": "bd97c88b5c48dc204443ffa77776fd5d87d85dbc672f6d0544366af649fd68cab9da2b49f64c1cc664adc7aadd16d9d5f082f6a5f5e4a7795c6cbbfe868a5779",
+      "file": "skills/email/phishing/bec/index.json"
+    },
+    {
+      "name": "business",
+      "description": "skill directory index",
+      "sha512": "2f96afa08644ceac013399a0efddc4e7d25fc2f3d2766602b079f7a415655484bc2c74d6fd647adbc48212557a659f08419c5bdb74c498efbedaecd99f536c36",
+      "file": "skills/email/phishing/business/index.json"
+    },
+    {
+      "name": "gateway",
+      "description": "skill directory index",
+      "sha512": "c09b488ff944f69c8cde8e029892cc3fc2ef48d7bff8411f7f1a4083d2793c7eef5a0592b6a3f8d41c504ad45747e4f8ff664a72a60eee754684b14d9b8a5534",
+      "file": "skills/email/phishing/gateway/index.json"
+    },
+    {
+      "name": "gophish",
+      "description": "skill directory index",
+      "sha512": "88fa282ed8cb70f778d05cce091da09868d5ec6baf5bc94c478b09129539dff88773637ac053c2a7ae94482a6a240892ab5360ce243411d73e6ecbd5947f9898",
+      "file": "skills/email/phishing/gophish/index.json"
+    },
+    {
+      "name": "investigation",
+      "description": "skill directory index",
+      "sha512": "e73d905ff6295f6c96d91c5bd61b1cf30bb4f77b443a409ff550d35c97c7726a3e24aaa23436f1ffb3ecd120d747e5b8cf55d1c56cfaa024f43473d797a84ecd",
+      "file": "skills/email/phishing/investigation/index.json"
+    },
+    {
+      "name": "ir",
+      "description": "skill directory index",
+      "sha512": "992ef037f31e70957351988505d1da7c821091bcfa61780aa684353d4caaf67a9d312be284999641e80ce6ff9bea76f5ef8e701df8e13dfbd83a7f0a642e6ccd",
+      "file": "skills/email/phishing/ir/index.json"
+    },
+    {
+      "name": "mimecast",
+      "description": "skill directory index",
+      "sha512": "b572df987c1b8e027b362ad32ed18003e3615c03f3343c8db94bcfdf45ce6d8f85866621c4bcacbd31badbb3075abaac5f959113a5781d7c04281b495ba4646e",
+      "file": "skills/email/phishing/mimecast/index.json"
+    },
+    {
+      "name": "proofpoint",
+      "description": "skill directory index",
+      "sha512": "54128b796a1d7ea327bdaa77987d29fd5c7906c991b67bd2353304f9c6389b54d15089f05bd07abb77b54b976f6a28e7393353c83250f74cd289a4e92d16ea2f",
+      "file": "skills/email/phishing/proofpoint/index.json"
+    },
+    {
+      "name": "quishing",
+      "description": "skill directory index",
+      "sha512": "806f6bb5961c1e01751ddc983a4ed6bff99941267412c6aec6c7a4e0e8b16009bac6857e8b9b5a94a81ca2558374cb999a368fb76ef9b92d939e0e1a7c957ad0",
+      "file": "skills/email/phishing/quishing/index.json"
+    },
+    {
+      "name": "redteamphish",
+      "description": "skill directory index",
+      "sha512": "c37ab17275d092e4e0ecab5fe1e2f080e5fdbd9db69bddf7853d5355c2e26e837398c748c62922b3c5efcc2a6b316c73791ef193efc5c36aa04c150946874f23",
+      "file": "skills/email/phishing/redteamphish/index.json"
+    },
+    {
+      "name": "simulation",
+      "description": "skill directory index",
+      "sha512": "12ff36a791c26aef939a81a909dbd29971da8c6606d651f2dc3aef4982334fcc2ea7be7dbc57caa7cc65659b791972aec6a5600f861cc3b2210207c1c398b0f2",
+      "file": "skills/email/phishing/simulation/index.json"
+    },
+    {
+      "name": "spearphish",
+      "description": "skill directory index",
+      "sha512": "1669c42029a4976fb4e6d7adfa6b44db5cedf550a077a8d5bf4b670b80748a9b004c9d5a84ac987c62a454325245504f1e1011a709ca9c874d8399b72082a0ff",
+      "file": "skills/email/phishing/spearphish/index.json"
+    },
+    {
+      "name": "training",
+      "description": "skill directory index",
+      "sha512": "7fd60c4d229612e2718fdc0e71748b561d382d6b2f46e411a951e695ddc5271eb743ab5010f4919e2634a38cb96998be653468e5907411e7122ede198d084de7",
+      "file": "skills/email/phishing/training/index.json"
+    },
+    {
+      "name": "workspace",
+      "description": "skill directory index",
+      "sha512": "e6753151342032c2a3496a4d0acc759f3d25babe7f1c1b20f5c9734cc97cde82b64b9cd00194e30a68363905b20063c688c1859f66a81e0d7bf10839186c094c",
+      "file": "skills/email/phishing/workspace/index.json"
+    }
+  ]
+}

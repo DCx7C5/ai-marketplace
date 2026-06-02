@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-owasp-threatdragon",
+      "path": "webapp-owasp-threatdragon",
+      "description": "Webapp Owasp Threatdragon.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6097b3248d056e4894530e7313adb1068ac2680f775776bd25be0eff0e27effd8c52c6d99854d3f0b5f7174a7107e9041288aacd73c12fb0d298c79d27c35f69",
+      "file": "skills/webapp-owasp-threatdragon/SKILL.md"
+    }
+  ]
+}

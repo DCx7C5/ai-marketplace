@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-kubernetes-hardening-podsecurity",
+      "path": "cloud-kubernetes-hardening-podsecurity",
+      "description": "Cloud Kubernetes Hardening Podsecurity.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f0e93c0331d050834a0bd2ea0a46b787842033d8889aa1678d3afaeb5592149ff5d00524c6afec43ba088b4bb9cbd0c5dde819252a4210b3ce2b2f48f23e18cf",
+      "file": "skills/cloud-kubernetes-hardening-podsecurity/SKILL.md"
+    }
+  ]
+}

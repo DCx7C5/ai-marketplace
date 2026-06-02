@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ir",
+      "description": "skill directory index",
+      "sha512": "948ea41a4f6cf1af36b30c56f2f527fea620a68d2949e3b29c01350ee72d024d82916d484dab279b8c1ed93b291069d1621a14e8fb138a77a7f085c855088c9f",
+      "file": "skills/soc/playbooks/ir/index.json"
+    },
+    {
+      "name": "otirplaybook",
+      "description": "skill directory index",
+      "sha512": "3c98b0e6a5d0dbadcb181a4fa24b8db7f350d7e5e72ae855f866cea2d7c7b2b20a51edc4cb39611fe7c52b1a56d7864ce2984b53ba112b9d137bb84801f4203a",
+      "file": "skills/soc/playbooks/otirplaybook/index.json"
+    },
+    {
+      "name": "phishing",
+      "description": "skill directory index",
+      "sha512": "9f56fda778addd1f63e440c3af4b1e9011f9db06c8242acdc736c095db959a7458cf8e0304a1cb2af83312e18a9b29cad9284fd206076bb824712bddc569b2c6",
+      "file": "skills/soc/playbooks/phishing/index.json"
+    },
+    {
+      "name": "playbook",
+      "description": "skill directory index",
+      "sha512": "3e06ab63aaba731c2439224066f4c5f992ce4e54fd283f941a727543c1239ca0f2036b5bdeb555c334ed0f349f5d11d0b8cbe77a762a3cb95a89f732fda53f50",
+      "file": "skills/soc/playbooks/playbook/index.json"
+    }
+  ]
+}

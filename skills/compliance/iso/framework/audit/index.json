@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "iso-framework-audit",
+      "path": "compliance/iso/framework/audit",
+      "description": "ISO/IEC 27001:2022 is the international standard for establishing, implementing, maintaining, and continually improving an Information Security Management System (ISMS). This skill covers the complete",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ea7ff746f438160428614d7a226f99fd1e454ea594b1ccd6a09704ff438ba4256af79bdaac494d49ad91e69233607396577ab4d0868db201a759f63b6ef8f997",
+      "file": "skills/compliance/iso/framework/audit/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "composeuittest",
+      "description": "skill directory index",
+      "sha512": "cfc744d7081a496d8e53b77fb7a6d59569f514d58764ec11c47de44adf16cc97e0a141cf7e82f451e88442a0fb9f726926e5ff40f462c287078ac9d5f1ff6178",
+      "file": "skills/devel-jb-compose-ui-test-server/src/jvmMain/kotlin/io/github/forketyfork/composeuittest/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-protocol-tls-verify",
+      "path": "webapp-protocol-tls-verify",
+      "description": "--| | CPU overhead | 50-80% increase per session | Hardware SSL acceleration, dedicated decrypt appliance | | Throughput reduction | 40-60% typical | Size decryption hardware for peak encrypted traffi",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "6c4b452cf34274549fc97f9ae6d1fc5eb2ca88a54767be8e8c78dfc622b6e8a96e5bfecc41b6746203383cfb86c8d954f6c706cdd2d28445ef1cca451443d216",
+      "file": "skills/webapp-protocol-tls-verify/SKILL.md"
+    }
+  ]
+}

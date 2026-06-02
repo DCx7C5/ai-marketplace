@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "efi-partition",
+      "description": "skill directory index",
+      "sha512": "997df997456d562b4f2a8aa140b2200ca8caebe69a5ec530f9d4cbf3b3e287496b032d9704f5d7dcb10fb088081c9507ac20f1ac84836a081cdd2e33a5767adb",
+      "file": "skills/linux/filesystem/fat32/efi-partition/index.json"
+    },
+    {
+      "name": "slack-space",
+      "description": "skill directory index",
+      "sha512": "a28b21221486fb63a65a12263085fff293f403dcb6d34d632a65d322a1c12a6b3952ff28e87d2d99b3057555f7a97f01410d9822b3011b18bdfda464470276cc",
+      "file": "skills/linux/filesystem/fat32/slack-space/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "8018d33fa1868a59b2e69ecbeb3b20b9639177d1f9c28476bc0955ff22804d2b644f4b0c01d1250af8a05a56bd89cb2af9d1919eb4c2fc41d7d3a0e62c2bafe9",
+      "file": "skills/intel/platforms/mispcollect/detect/index.json"
+    }
+  ]
+}

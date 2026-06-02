@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "outlook",
+      "description": "skill directory index",
+      "sha512": "384b77110c1f05b0edfa27c2632fae7d09aec5dd4d9c78dc2580472a1adff92809e50c2077829146aed0927c8502fe6d9f79b669941ca03e720f09a3b6c68c17",
+      "file": "skills/email/forensics/outlook/index.json"
+    },
+    {
+      "name": "phishing",
+      "description": "skill directory index",
+      "sha512": "c7825dc91d5aa8328c251fe3093dd41db18cc9f3a302ce07bb3a62f41854dc6919dbed8dc7cd5dbde25e6695452ef8e2e7262e8c1476e7e9cb851ea4ca76e3bf",
+      "file": "skills/email/forensics/phishing/index.json"
+    }
+  ]
+}

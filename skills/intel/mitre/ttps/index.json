@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "094ad4fef2ce060a8626e88d0dc9b3630ddfb5f89da91250ee82aa25047acec4476452fec20d6edc86fda32a7df703a659b65a437355af0639286f362946ef6c",
+      "file": "skills/intel/mitre/ttps/exploit/index.json"
+    }
+  ]
+}

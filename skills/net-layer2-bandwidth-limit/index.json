@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-layer2-bandwidth-limit",
+      "path": "net-layer2-bandwidth-limit",
+      "description": "-| | Baseline | 947 Mbps | 0.8 ms | 0.2 ms | 0% | 4.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a0fc488991f80270f385c8d8ec7cbb2458b871d94288bc487f83b17cce8be23b36f27717aabee936728efde92db6a2b2e991686083548d5ce93d04a626a6e3eb",
+      "file": "skills/net-layer2-bandwidth-limit/SKILL.md"
+    }
+  ]
+}

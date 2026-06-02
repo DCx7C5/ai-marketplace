@@ -1,0 +1,91 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "active",
+      "description": "skill directory index",
+      "sha512": "38a1ff6815a66881495255c33343c46c5f62d5a35945ce3ac19d47e7718dc43e0447473438b82b88d64a940020d69e9e619aff4ae70a8d5d363ade127891a83e",
+      "file": "skills/identity/ad/active/index.json"
+    },
+    {
+      "name": "adsimulation",
+      "description": "skill directory index",
+      "sha512": "7ab6cc233d3a290392b7470919277ce5f6c66e8fc35bec65f7f7d41cc519e252231309faa9a6850fea5c295a28944858b68f8320676b3bda21b9cb9689f81cb2",
+      "file": "skills/identity/ad/adsimulation/index.json"
+    },
+    {
+      "name": "advulnassess",
+      "description": "skill directory index",
+      "sha512": "6774f5eb3cf4f8461ab6fa78dbef29137f82edf824f5d64bdb9da12eb914550eb624f194ea8e45a10afc29697004f954e05a67cb07bc0abd19e302c0ea6a04b9",
+      "file": "skills/identity/ad/advulnassess/index.json"
+    },
+    {
+      "name": "bloodhound",
+      "description": "skill directory index",
+      "sha512": "f5fab7e60214af697232d2c9ba4b022f3cf114e313d686ce42a2b279130f56ca1fe6a52d13c35e6cc7662ab877ef4b1d690def4db8a959591f249ed8aab6af95",
+      "file": "skills/identity/ad/bloodhound/index.json"
+    },
+    {
+      "name": "certificates",
+      "description": "skill directory index",
+      "sha512": "7292ed9e5e773fc7c8f25ecd4e3c9f749259b7beb93d67db1a4012c28098ff68885871f16acc41f7576678d7775b331dcca83f5008da9823a7c56706274ebde3",
+      "file": "skills/identity/ad/certificates/index.json"
+    },
+    {
+      "name": "compromise",
+      "description": "skill directory index",
+      "sha512": "e0d79a2fd28699cfdb581cba0f979d5c7a40323d18cb35f0f50adf4ee273ddf68c282ab8252d261a00f0a33f4d51307d46342601d07af774a0c200b2ade5f3f3",
+      "file": "skills/identity/ad/compromise/index.json"
+    },
+    {
+      "name": "dcsync",
+      "description": "skill directory index",
+      "sha512": "035ba55798dc54c12734d97e4b7ed2be73a277020dd838cba61e204c2482f47a687a3a072ccf76f07ed25fa7c71613b05a39442f59809f3ba23e706606848942",
+      "file": "skills/identity/ad/dcsync/index.json"
+    },
+    {
+      "name": "dcsyncd",
+      "description": "skill directory index",
+      "sha512": "9912f728e010fd162304eee25058e975f7cbccc82d23c1e51cccebd1ff787bff3a31c298ea40eb5e76df62f2286255c24db4666bca1e41b3f2fad1f87be155ee",
+      "file": "skills/identity/ad/dcsyncd/index.json"
+    },
+    {
+      "name": "foresttrust",
+      "description": "skill directory index",
+      "sha512": "0ad7970fe10a0c7cc46ecbaae97a56fd4683cd1e65e40020fbbc902bbe6bb15852ce0a1e7faced4ae524040414a54e580e514394c244083a810df5c1285a39ed",
+      "file": "skills/identity/ad/foresttrust/index.json"
+    },
+    {
+      "name": "honeytoken",
+      "description": "skill directory index",
+      "sha512": "7f0fb6fbcdbd92b169cb3f4026f6e1d353ffa6df6032c01e772a09b57213a51f7d79b3624292e443a73da5649f538d105ffd69c9514456dc81e12670357bdb37",
+      "file": "skills/identity/ad/honeytoken/index.json"
+    },
+    {
+      "name": "nopac",
+      "description": "skill directory index",
+      "sha512": "0e6f92b73e276571f3f6a3e7a05b633c645ad7d1859cdebf9ed44ba9091d864e757c24e498eca5b15c52af14cab85bd6b1625500d45c51582e76aac713c8f82b",
+      "file": "skills/identity/ad/nopac/index.json"
+    },
+    {
+      "name": "pentest",
+      "description": "skill directory index",
+      "sha512": "e6194015f25d2bc3c192eb93e5e585c3c0fca4a64a2a2b77a9995dd987d97a84947961ff6485aec6fbb968df67aa2556f2a0252c30be04b274c78fa7f72af445",
+      "file": "skills/identity/ad/pentest/index.json"
+    },
+    {
+      "name": "tieredmodel",
+      "description": "skill directory index",
+      "sha512": "53d09a24f92cd2062755622fc796b78b5cd55bbfe8c5e051c9d9df4d0af4c6dfeda4301b77cd8a868f72763d700465041b1b8b9a83b097a9335cb466f786c359",
+      "file": "skills/identity/ad/tieredmodel/index.json"
+    },
+    {
+      "name": "zerologon",
+      "description": "skill directory index",
+      "sha512": "d1986c35be583868e7b2792cac6a3de15c5a08f1adb9460e2eb7996c93b786ce13edddc30cb33b9470c85a50a8468a40401128bb304cdfecece27174e7105b67",
+      "file": "skills/identity/ad/zerologon/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-hidden-rootkit-detect",
+      "path": "linux/filesystem/hidden/rootkit/detect",
+      "description": "Detect filesystem-level rootkit concealment using rkhunter, chkrootkit, cross-verification of /proc vs readdir output, and kernel module audit.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "90c57a0e58cf9071ef7caa4c284e20968b9d42c277f06eeebc97e4735bf111bb56b4c30903bbd634ed0750d148e00b73d5545ae52fc96b9540ab8f2c30d779a8",
+      "file": "skills/linux/filesystem/hidden/rootkit/detect/SKILL.md"
+    }
+  ]
+}

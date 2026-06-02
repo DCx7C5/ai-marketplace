@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ioc-ioccollect-detect",
+      "path": "intel/ioc/ioccollect/detect",
+      "description": "Systematically collects, categorizes, and distributes indicators of compromise (IOCs) during and after security incidents to enable detection, blocking, and threat intelligence sharing. Covers network",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "d07934fccf39aa7ff165da3f161d3bbb3a71b91ef9375e923085daf4c046d021ffb0ce71bafc38d1ed4c03136f118580a3f7d04f6f6ca181a144ddf36305cbee",
+      "file": "skills/intel/ioc/ioccollect/detect/SKILL.md"
+    }
+  ]
+}

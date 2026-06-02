@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "230e64608af8ef844d7a7eaf4e47732d20f7561f60903de17d5174c4cec4b1b7462dea1f6ac2ab0566e9efcaac6c1533e578c97b7dcdebc8c47d8023b4ae9e83",
+      "file": "skills/linux/memory/injection/code/analyze/index.json"
+    }
+  ]
+}

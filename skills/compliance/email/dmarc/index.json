@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "5478b3a9c88721eed3027354e864cf6271b48a9f95a1d907a71d793a60428289238339e325ca9e6176bbd3c13ffeb5a18233d4ebc1548c139eedb06b3c994e1f",
+      "file": "skills/compliance/email/dmarc/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "d895b790e8e22ecf263a4d120bdc2fa350c19291f91d2b64b6a6cd3faf7ac64d00b130805ce46c4d5176c8a932b2935a5d3aca56644c83405c21d7df9441c704",
+      "file": "skills/compliance/email/dmarc/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "5404be6c26bfe79f77c6b63c4e16b73fa03678076297486f10003e4ba9ea79d7407ddc38234ed79bd84477137366e6ae24a07f62f7556c0f20db98df781c4185",
+      "file": "skills/compliance/email/dmarc/scripts/index.json"
+    },
+    {
+      "name": "verify",
+      "description": "skill directory index",
+      "sha512": "5bb4cf411e8567d91a3d00e90f78a9581c1ab2dd84776081408919c66e615d0d8c3bee38be92de7f10c3874383507b00868d3d6232a0dae4b4cc315dbab53fa3",
+      "file": "skills/compliance/email/dmarc/verify/index.json"
+    }
+  ]
+}

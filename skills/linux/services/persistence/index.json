@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "general",
+      "description": "skill directory index",
+      "sha512": "b87fc29cd7c825254cfaa6bdaa61766ffda59896f82b4a167167fecf7916bbf5a4c9b444a88868ae3cd000d34070bee12da9bb32d795a05eb2022de7e8f3ef3d",
+      "file": "skills/linux/services/persistence/general/index.json"
+    }
+  ]
+}

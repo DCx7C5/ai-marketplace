@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ethereum",
+      "description": "skill directory index",
+      "sha512": "7d42e36010a1f68c9c24ca4d67be57a88e42fe4daf00cf325713d1ddc605ea9f86263787cade7137eff992da2b625966bd2b5f80e70bb86d192d844613be1c38",
+      "file": "skills/crypto/crypto-pki/blockchain/ethereum/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "3903855e11bf19f940942c9214746c45d8db6eeb54e8d2b52a284f872813ba1242818c4885b681b8bb09631eb11736be1413975f4b74ec4664b6ca2d35396e0d",
+      "file": "skills/crypto/crypto-pki/blockchain/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "3aae4a6b9048595f2dd372cd58373b910e594bff9b799b0cbc1b18e103f3a831da19dec96b493aaeed72ae2cc6b3687e7844cf4b5bedabd3b56807bea0612a6b",
+      "file": "skills/crypto/crypto-pki/blockchain/scripts/index.json"
+    }
+  ]
+}

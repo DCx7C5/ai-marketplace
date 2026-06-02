@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "persist",
+      "description": "skill directory index",
+      "sha512": "a7e62749802273bfa5ae00746ed6ed0cc59d2cbd55d96d255b239addb5ba7f261783134dfa4630e71d1d32a86997f8fd1fa7bb34939f850435afae1d9a9b1c9a",
+      "file": "skills/linux/services/udev/rule/persist/index.json"
+    }
+  ]
+}

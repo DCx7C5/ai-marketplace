@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "advanced",
+      "description": "skill directory index",
+      "sha512": "18aca6217182fa3e92871d8add30435ae0455c54577cbd4babb9f2db5e9ee90d76ef6f91225cd18eeccf0f849b1c514500d171b41c23d0676b620dcdcc24ff90",
+      "file": "skills/soc/hunting/advanced/index.json"
+    },
+    {
+      "name": "anomalous",
+      "description": "skill directory index",
+      "sha512": "8043ed713177585a1838400a54a7a542592175dec43567a78a9fb7a315e080eb0eac92f442648f6ad5e9f5f5d78628fee91014c0e4c0b78e4a7cee3a3a948283",
+      "file": "skills/soc/hunting/anomalous/index.json"
+    },
+    {
+      "name": "apt-hunt",
+      "description": "skill directory index",
+      "sha512": "864f947efd3ae995dcde3ab5371d396588977d5b5a4561067bb430c836ec65c02070f3d61e8d9aa001992facf05a10eeb5eea39c3f6bbfe7663ec6aebf060026",
+      "file": "skills/soc/hunting/apt-hunt/index.json"
+    },
+    {
+      "name": "cloud",
+      "description": "skill directory index",
+      "sha512": "9d1b263226a051d40ac4e1269e1395fb9721f561377de1d12d4235299938d5ed818b70f15a1afa0e5851d95235e3e9b566f3e68ebf0dfbd9d671e7f18d5cb945",
+      "file": "skills/soc/hunting/cloud/index.json"
+    },
+    {
+      "name": "data",
+      "description": "skill directory index",
+      "sha512": "f4b109475a366c0e7a168d8e6b965dcb889ce0ac7a5bf80539dcdb43aea8c1bd43ba47c22b5e796e8d6974c63ebd4508fc76c52146310cfb7ace61958c08acbb",
+      "file": "skills/soc/hunting/data/index.json"
+    },
+    {
+      "name": "datastaging",
+      "description": "skill directory index",
+      "sha512": "a6fe301fed634cbb021972a557d675db1b588425c585aa7e97e35b7188998edf2db0d470016db4058cb9674ec7f8da3e13b5e4a5f7cd35db857d78490d516592",
+      "file": "skills/soc/hunting/datastaging/index.json"
+    },
+    {
+      "name": "dcsync",
+      "description": "skill directory index",
+      "sha512": "6cc92461c3bf6fde5b7d02cdbe4bb4eb1c8314d23425f359c57dbe03cf97f855204d69b475a7f90659ce7e0f2b540f0590973b9e4e4a145175cc639614b2bb9f",
+      "file": "skills/soc/hunting/dcsync/index.json"
+    },
+    {
+      "name": "defense",
+      "description": "skill directory index",
+      "sha512": "f04680cc708ff65ea03c92a1cc754f791e3b430760c4531184db7fccaeadc859ebe73d3ce18c877179c5073ea11cf51e01532cf6eebeeb3f8d53374bc3d72272",
+      "file": "skills/soc/hunting/defense/index.json"
+    },
+    {
+      "name": "dll",
+      "description": "skill directory index",
+      "sha512": "a7788d93bd59352590ee3d352e7abbd15d85ab26eaa19f7659dd827f0616bf6324745d0c3029b9b6235863f6dd8e412f05e042bbac77ccf1b07499bc80b989d4",
+      "file": "skills/soc/hunting/dll/index.json"
+    },
+    {
+      "name": "dns",
+      "description": "skill directory index",
+      "sha512": "74dd9672a8abe08015f49c7c369c6369e8445c1dc8ccbcb4a756631f9d2eaa51be2099889fab2c191bc24c0c75c289b229bcd46093a65817fed0a0df6c3f95b7",
+      "file": "skills/soc/hunting/dns/index.json"
+    },
+    {
+      "name": "edr",
+      "description": "skill directory index",
+      "sha512": "06f778ca820699fec865d79eacae4125e4b28f12d044e75727b5b488af6c1ab5100440feb7626558158e9e7d8e7bd3624b4d68fddcdbe014cbc4a16ed5785b62",
+      "file": "skills/soc/hunting/edr/index.json"
+    },
+    {
+      "name": "elastic",
+      "description": "skill directory index",
+      "sha512": "6d746ada8541c4755fbca5227a152bda7bd50b8fa32f8eae48f26871aa5951f2cace11cfe670956f5b7879f5f0016e1c8320885eb957b47cd5df38ed1051cb43",
+      "file": "skills/soc/hunting/elastic/index.json"
+    },
+    {
+      "name": "email",
+      "description": "skill directory index",
+      "sha512": "386023c1dd8bf9e492d62a3a9e2d43a446e54042e0742df013322728f24d69fe858ba965190b90657ed009278b1cc6502ac31f59ea7e3046283d678cdeb242cd",
+      "file": "skills/soc/hunting/email/index.json"
+    },
+    {
+      "name": "lateralmov",
+      "description": "skill directory index",
+      "sha512": "6f48741c31c2e16a71407350e619f46d43e358e180ae0f9b5305aec08c37be2eeee2df8366b091d0bbfc70cd83481213306b962ada27464046f4178fe045864f",
+      "file": "skills/soc/hunting/lateralmov/index.json"
+    },
+    {
+      "name": "living",
+      "description": "skill directory index",
+      "sha512": "aed40c8c03765c31a2455ba1894cdaf8909ae81971e656b6e4b5e84e8538d0172dce1dc453e425456ec5da28ecfe023fa69573fce37319539430625e53526b74",
+      "file": "skills/soc/hunting/living/index.json"
+    },
+    {
+      "name": "lolbinlogs",
+      "description": "skill directory index",
+      "sha512": "cfdecaa02be4190141d87c0479f426b1aff6f7248aa8c73f8ff7a847652f005b6f30ec99cddca4c1aa94315570bb905a6b0ecf442b159db4d24cee2a18a9c2c8",
+      "file": "skills/soc/hunting/lolbinlogs/index.json"
+    },
+    {
+      "name": "lolbins",
+      "description": "skill directory index",
+      "sha512": "70b099745887fae68df01f57b1a9ab22c7fdc4e0f9f3a7587dac5570d1ae93310eea17dd8ae7d287757476d283fb59cc44377583b2eca4bbc51620ec45c552ca",
+      "file": "skills/soc/hunting/lolbins/index.json"
+    },
+    {
+      "name": "mimikatz",
+      "description": "skill directory index",
+      "sha512": "aee895aca6068d8f547eb16e81c7a6a92c281494172c260aa31f5404e6f37f2bbe239ea85575d7d3421479ab9271a15b39643ac2db03ee2fc23b6ac68fd51249",
+      "file": "skills/soc/hunting/mimikatz/index.json"
+    },
+    {
+      "name": "network",
+      "description": "skill directory index",
+      "sha512": "66783db4c1166a1c97bb29119a9956cdacf5e9a7b05cd9f2faa54c5003fb335412a6ff11bf36a066a95d29cf961438b77ce014e597352419dc8966372eb659b2",
+      "file": "skills/soc/hunting/network/index.json"
+    },
+    {
+      "name": "ntlm",
+      "description": "skill directory index",
+      "sha512": "8404c143e9ffdb07b742263394f14e54a3be098a85cc4c83ad3b933722839547aadc7bba7de8a42fd46a2bca0aae15258b301bf3f5821500d82e4c19626f3bed",
+      "file": "skills/soc/hunting/ntlm/index.json"
+    },
+    {
+      "name": "ntlmrelay",
+      "description": "skill directory index",
+      "sha512": "1bc376647bd197c461e9581a864812c32af6d33d1631a7e492fac7e6368fb7109e1382764de353ae2ea7c07c551c66c64fa454523df2e1d5fb6d6171e6aa27bd",
+      "file": "skills/soc/hunting/ntlmrelay/index.json"
+    },
+    {
+      "name": "persistence",
+      "description": "skill directory index",
+      "sha512": "8cab4465776f1f640a1bc8ed7f5e1fce7f74ae9b3fbe22710a8f3c08d0cd3b9acfae6e6eb27db0478542fe3e50e1afe5ae0b0a3bc4add7c1ffed49b99008cd32",
+      "file": "skills/soc/hunting/persistence/index.json"
+    },
+    {
+      "name": "phishing",
+      "description": "skill directory index",
+      "sha512": "9cbdea3324ceb9c48adb5bb59c66be77563b41f67b12546a35311548ea075b79d027a257c3ba967efd63d3b6eae181475a2c0f930bf8ceb73f77869f088bfd86",
+      "file": "skills/soc/hunting/phishing/index.json"
+    },
+    {
+      "name": "registry",
+      "description": "skill directory index",
+      "sha512": "1c662ec5d233f69f536cddb08c844d7e05b894bedc0a2bd96b8da3ad31c55b6cd9149e6b09811140e79ef6a1d788a715e060debe3b463e64e562be9dd2fe3d82",
+      "file": "skills/soc/hunting/registry/index.json"
+    },
+    {
+      "name": "schedtasks",
+      "description": "skill directory index",
+      "sha512": "c871464d3f0fdabfb824ecead602defd889b9198247c8f071a73ac8eff2ab984eff1942e0ae6a22dab33191c14df968ffe80aab57ec7efe1f254511567c9bf13",
+      "file": "skills/soc/hunting/schedtasks/index.json"
+    },
+    {
+      "name": "scheduled",
+      "description": "skill directory index",
+      "sha512": "c7a4efcb4dba514e925a69a331145575e5fb5a271c17ad4c2d884a936656e768747c598bcfa080d7a76742f29a807d2864684a7a6866e5f49933c27c4282bfe2",
+      "file": "skills/soc/hunting/scheduled/index.json"
+    },
+    {
+      "name": "shadow",
+      "description": "skill directory index",
+      "sha512": "20fe3a3c1956bf25901ff83fe9bb6b155e4c682158ae468db0798e3fd8ca5c529e8471e502cca34779d664264d0a9bf4aa150081a89cab4d019a4a2a79bb1fee",
+      "file": "skills/soc/hunting/shadow/index.json"
+    },
+    {
+      "name": "startup",
+      "description": "skill directory index",
+      "sha512": "ba01f728ec7e70ff935e365095dedf8e877b162568efb80b2f03e92b0a0bf80b89943ac4578808084572cdfbe00aed87ce4b1109d63a93c4a143206fd5ef7ceb",
+      "file": "skills/soc/hunting/startup/index.json"
+    },
+    {
+      "name": "supply",
+      "description": "skill directory index",
+      "sha512": "da46fac83d630b3e5c235771fb60f790ca51fbc2916c42f5e9521c411946d69edd386e2d3d9461619bc7569c65caa6abc1d670612555ac59ec65f9491bc2da7c",
+      "file": "skills/soc/hunting/supply/index.json"
+    },
+    {
+      "name": "suspicious",
+      "description": "skill directory index",
+      "sha512": "dfd123e8de303a1ac42997e6dbdb4636041f1c2bbda582a9bffbdc2fa9b583a7a31fed33c9e8a94e2a15572a2aa23d288862bf77295fa8e3610c4b5fa0b1c708",
+      "file": "skills/soc/hunting/suspicious/index.json"
+    },
+    {
+      "name": "svcinstall",
+      "description": "skill directory index",
+      "sha512": "6dd99204482a0740241ca384ed490019a3498de7df331399fa84f2accfcf27af277791bf662001618545e3b621f96fbab6a3e07b12f0d3f61d323e133d2ca562",
+      "file": "skills/soc/hunting/svcinstall/index.json"
+    },
+    {
+      "name": "t1098",
+      "description": "skill directory index",
+      "sha512": "6c9ffbf06c36191b692d4c25329734063ab0deaf8b709059931abe6581f233ef7ac734511cfe70527b1b69844883a97e86e8d9ccf57b7a236499b839c1562c96",
+      "file": "skills/soc/hunting/t1098/index.json"
+    },
+    {
+      "name": "t1548",
+      "description": "skill directory index",
+      "sha512": "50f7c3f3c741852cb4b416f9efa30c40987c01fe0c9d2a6d28f8f0cf9d626a099a52f97836768f0f341cd3a281e3e8316f05cc3ef62e6ec842fd23270b0ac643",
+      "file": "skills/soc/hunting/t1548/index.json"
+    },
+    {
+      "name": "threat",
+      "description": "skill directory index",
+      "sha512": "30923ba114a9ce6982149132c82b54b896040d9d9d7880052e8e615675ef8e1ce7910ac44dcfcf7599c3406b4f1bdd7293e19454d6f6520a23045fc50ca0daea",
+      "file": "skills/soc/hunting/threat/index.json"
+    },
+    {
+      "name": "unusual",
+      "description": "skill directory index",
+      "sha512": "686e95b1556d3cf23b77d6567130bc9d8c5bb0df341c9532943a514cfcab4334dbc61e2323b0845f03920d5e32bef815fff314c3dd2d76b3da86bbc2cb535e9d",
+      "file": "skills/soc/hunting/unusual/index.json"
+    },
+    {
+      "name": "webshell",
+      "description": "skill directory index",
+      "sha512": "2f194662ceba3fb7b59254fc1cbc9ff6cded716285638ef558874bdaffab92336852a902d67988adff9fbbf2d969f665f68ef7d86882ee1a28bf606e0f889f39",
+      "file": "skills/soc/hunting/webshell/index.json"
+    },
+    {
+      "name": "wmi",
+      "description": "skill directory index",
+      "sha512": "3808c0160db12abfc3ef4f396e72bd040c56eb0f0a651e6ccf62b0c055f7dcac939abcd23d40987e6224e1a820722918c0c4678c358f821738cbf81a3aa64e74",
+      "file": "skills/soc/hunting/wmi/index.json"
+    },
+    {
+      "name": "wmilateral",
+      "description": "skill directory index",
+      "sha512": "be76a76b5028ec3ef3dee62236461c6d1675954647c49336d3b263f185d3ccc3c2629b2833b51fa0e32b470cbfa6c1faaf3b6a5a2034714024b031b6ec8fc4c1",
+      "file": "skills/soc/hunting/wmilateral/index.json"
+    }
+  ]
+}

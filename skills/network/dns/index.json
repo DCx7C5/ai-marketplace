@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "dnstwist",
+      "description": "skill directory index",
+      "sha512": "55cd7483d5ab3ec8d4c3f6ff94ba456b328efe829cb1453d459bc1444a9bcf7026908788922e5bb9af4acd088ace4dd3df96adc30fefb1c7a9669f26eaf3e290",
+      "file": "skills/network/dns/dnstwist/index.json"
+    },
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "7a9de8bc1b000ce6aed0012d925ab7e6228742c41feeaf07dec3bb41cb9830e1cc72000ab725f251293d4bfc4057de4adb47aebe71f30f75c6c7044e66e11852",
+      "file": "skills/network/dns/enum/index.json"
+    },
+    {
+      "name": "subfinder",
+      "description": "skill directory index",
+      "sha512": "b5c207a4187d3f9def3a735e544001cf62aae8575c628e5c90d80859c3ae430456080c7259a54f9bf831a30caa9747cfa1360ab1d1c4866828d627b84156a59b",
+      "file": "skills/network/dns/subfinder/index.json"
+    },
+    {
+      "name": "tunneling-detection",
+      "description": "skill directory index",
+      "sha512": "fb10090c212fa90d4611a536d79a375be19bf03508435e795332e3fe465ee20ef104b0e5b1038afedc603573ae6336a6d5fe0b17448654749c9b1cb7f26cb15c",
+      "file": "skills/network/dns/tunneling-detection/index.json"
+    },
+    {
+      "name": "typosquatting",
+      "description": "skill directory index",
+      "sha512": "d7b54f36f3cc90f288d8d55949c5d60a79c0e0981ee86340015b7a286744d7bbae220f09844ec81a3bedf0e9899099e1b05ec2c3ea0af08aa56f6069b83d9b97",
+      "file": "skills/network/dns/typosquatting/index.json"
+    }
+  ]
+}

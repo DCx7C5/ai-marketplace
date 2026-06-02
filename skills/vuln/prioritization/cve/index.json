@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cve-SKILL.md",
+      "path": "vuln/prioritization/cve",
+      "description": ">\\n  Leverage the CISA Known Exploited Vulnerabilities catalog alongside\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "abf5306aa456bf9b5b88cb90a468d6ed0ef944151317416f041d0441f055b6e7a333f4591c7fd7e4523310dccc50cdced6bd8ad79fb5d5f221805449faed7181",
+      "file": "skills/vuln/prioritization/cve/SKILL.md"
+    },
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "2373dfd881dc29d06e897e68869f2f487c9ff953c6837a54a282229e383ffc3a7bce75ed617005e8b3ef3ce7893901f15cc51c9616dd4e4fe6c284fffe33e084",
+      "file": "skills/vuln/prioritization/cve/assets/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1f5d98c6ab591229da265916f7246161e2225198a15957de718b715d9fa7d3a1aef5251063b3bf444f24c3c70647de0410d9db04e69e0fa569114fb2a3a557e7",
+      "file": "skills/vuln/prioritization/cve/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ac910b9ede051ee6101b9fc35bc653c02a3577075701dde2cef070b79a82857eb5650d91845c0c60955756cc9b43b5b25307dd1ee33df9000f304807ae9213d8",
+      "file": "skills/vuln/prioritization/cve/scripts/index.json"
+    }
+  ]
+}

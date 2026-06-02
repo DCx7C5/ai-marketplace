@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-internal-comms",
+      "path": "devel-jb-internal-comms",
+      "description": "If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c30f56d2e03b7c650536e34f628e18972af3aba626bc1c667882ecd1863514925870a7574038d93cdf330205929305542743796e4a1470065b910d9047498cbf",
+      "file": "skills/devel-jb-internal-comms/SKILL.md"
+    },
+    {
+      "name": "examples",
+      "description": "skill directory index",
+      "sha512": "fb5b9f97f48ee5af7b3d7638dd40439546a350a9231efed64dddf0ab0b2057b743ff3fbd85ea17024d5da040a73a0c8a3851c5fa20a9da9eeb64656f46c73736",
+      "file": "skills/devel-jb-internal-comms/examples/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-processes-thread-injection",
+      "path": "windows-processes-thread-injection",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "657c6f9a293c447899e521b01a733920ad5fe5935ce549225025b5154789b0c9e38bd53f7d9c7ce18598d16b5442ca755a6915c3edbf4d8712ee20a43d119ed5",
+      "file": "skills/windows-processes-thread-injection/SKILL.md"
+    }
+  ]
+}

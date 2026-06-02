@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-integrity-tripwire-deploy",
+      "path": "linux-fs-integrity-tripwire-deploy",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "dddeb9b8638294fa7191dd0f3c1aac50148a523f8c50cb7703c70f0aecfb965fd881d0f061f97a0185f1f50c4df7bb6373200e3ccbb89f29f7de6dfe427b0a8f",
+      "file": "skills/linux-fs-integrity-tripwire-deploy/SKILL.md"
+    }
+  ]
+}

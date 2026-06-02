@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "offensive-jwt",
+      "path": "offensive-jwt",
+      "description": "Offensive Jwt.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "83910c8e1c9660de6b84305c11303d7d6fc477a183ba060bcce46af1f0538324526d3444475fb821373fa3055afa34bd6d91657024f2fada8ce8209bbebb8600",
+      "file": "skills/offensive-jwt/SKILL.md"
+    }
+  ]
+}

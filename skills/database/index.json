@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cassandra",
+      "description": "skill directory index",
+      "sha512": "4021ef9ca8b83982fd92f4d7968ebfe570b923a6b839042855bcb3272c8eac28d106958aaaa940d852a97f17bd3eaaeef2feda0e469fa4dff3379d441edf1fe7",
+      "file": "skills/database/cassandra/index.json"
+    },
+    {
+      "name": "elasticsearch",
+      "description": "skill directory index",
+      "sha512": "8439dd1f6c634dee790fd8c8172fe8a401c0f5fa286447ba4f20bcf55ecc40b859110ce1bf4ea199f616a7f4d17e7b974ca88421230538b6bd3bb490ef9284bf",
+      "file": "skills/database/elasticsearch/index.json"
+    },
+    {
+      "name": "logging",
+      "description": "skill directory index",
+      "sha512": "c218f07606fe07a78e2756a08a8ebd1ceacc8a8bfc2f6940358de4755caebd43dc5ec3aad5a9e37ed912136ed67c5882deb41aabf5fe76d1df9f771432198ffe",
+      "file": "skills/database/logging/index.json"
+    },
+    {
+      "name": "mongodb",
+      "description": "skill directory index",
+      "sha512": "79f6b4e6994371a25faf61da61b020a9f621cacb7e0fad66ff4cbbc8fd0141e6b60d5f125c5e974747f49e66fc134a31a74a2dd21f19c7989386ae95013a9d47",
+      "file": "skills/database/mongodb/index.json"
+    },
+    {
+      "name": "mssql",
+      "description": "skill directory index",
+      "sha512": "7b59436fbdbcba2ee74bc0acb01a80189c51d83dc7935ebeb86022848cf51c37375e61385a6bd6a7ba3197aeeca7b34f5bba7d1c0dd91df7f225521bf179c6ac",
+      "file": "skills/database/mssql/index.json"
+    },
+    {
+      "name": "mysql",
+      "description": "skill directory index",
+      "sha512": "16c73976044fefee53e6943606c4cbef7d8ce5c35db9f2a7e6e4ccc7e19fc2d46b56abc0acd50bbe05036a0f73ed89514f708cbbc4fb571ec81b3f40f4c7ec7b",
+      "file": "skills/database/mysql/index.json"
+    },
+    {
+      "name": "oracle",
+      "description": "skill directory index",
+      "sha512": "cc40e18f81d8d69ed45516f6c4e08270bc95b2fc3114a2935c94b475a7d25ee5fc8c76af8c0e318526e053d15edfde447eaed1732339180da9cfac7439866985",
+      "file": "skills/database/oracle/index.json"
+    },
+    {
+      "name": "postgres",
+      "description": "skill directory index",
+      "sha512": "1a24db006b5d32a067dbf3a1e4cc591a1c0c93519f168c80d3013956e602284c6a60cf0ac110eb3f90746fd4fc2b1452b133608bc0cf03cf90ca77cdc01a5a24",
+      "file": "skills/database/postgres/index.json"
+    },
+    {
+      "name": "redis",
+      "description": "skill directory index",
+      "sha512": "7d3610932280bfb21956b36c588903ab6c9aa904f496d9df288e9d7158b3b2e2539988aec1b8470e6379c47c5b229e4cbcbf0af483ababaad07ec61166b5c54f",
+      "file": "skills/database/redis/index.json"
+    },
+    {
+      "name": "sqlite",
+      "description": "skill directory index",
+      "sha512": "d4b6401c36ea601e4c3ad751cafa3c0b99b8d00a4cc7701c590722cc3ab1c89f045a993761f18d500844eb759284f8f42b85f6993d94434a77a87dc48f73756e",
+      "file": "skills/database/sqlite/index.json"
+    }
+  ]
+}

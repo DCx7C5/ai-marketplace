@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auditd",
+      "description": "skill directory index",
+      "sha512": "678e16ea9cd6bc97739d6cb29d9e114e82fd218d3eb637b59bc5e7404ed29e4cfe837a008db9d8dfc792fd547f348900d6c93da4c4e1f9d06de6c72dccaef517",
+      "file": "skills/linux/logging/auditd/index.json"
+    },
+    {
+      "name": "journald",
+      "description": "skill directory index",
+      "sha512": "2c856a9ada55b336a88716710c4d4c38b1236517756c6a6bc6b4d2affba180f84e07b040f7f9220aba1aed2c22171ab26d8e6fd954d59c5d3dbfda9134137939",
+      "file": "skills/linux/logging/journald/index.json"
+    },
+    {
+      "name": "lastlog",
+      "description": "skill directory index",
+      "sha512": "3126bab993e21c637c5cd493a1f5613e8eb7ebcab9c0781a70a9b5fc38b25807cfbc4d9015c4dba2af9f8e8f538c39cf7f959f0bb7f4a772bb1bf61a5f010954",
+      "file": "skills/linux/logging/lastlog/index.json"
+    },
+    {
+      "name": "linuxlogforen",
+      "description": "skill directory index",
+      "sha512": "45cf185f044dffbf5cf8a9bd476319d62667d89252bf9f80613e5e3752e37a0f768bbc646f395731df0a61233d9393b9cfb8c05c92874880c6fd58204992290c",
+      "file": "skills/linux/logging/linuxlogforen/index.json"
+    },
+    {
+      "name": "sysartifacts",
+      "description": "skill directory index",
+      "sha512": "241273170c808545a270c130adffca01b98417e7bc2eacf8fd073e6fbdefd701adddeeec71e7f39cffdd1f3722596aaedb9305d37ae79781c19f3a420416c302",
+      "file": "skills/linux/logging/sysartifacts/index.json"
+    },
+    {
+      "name": "syslog",
+      "description": "skill directory index",
+      "sha512": "507b56077b281d8612080eacb4fb4fe39879c147f2d229237d8b05496465a4c8146707909a12cb33116ea1e271240d32cd7c77f59ea3f3ffca1388fc00748d7c",
+      "file": "skills/linux/logging/syslog/index.json"
+    },
+    {
+      "name": "utmp-wtmp",
+      "description": "skill directory index",
+      "sha512": "fbcbb42edd2beb73df88c0eebb0a8817ceea99a2c69265cb7aecb2bb3642053aba513681a164f7b1ab880eb7110dccf329ec1cd3c208e6e4032eb1073d0d1f27",
+      "file": "skills/linux/logging/utmp-wtmp/index.json"
+    }
+  ]
+}

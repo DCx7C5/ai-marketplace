@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "crypto-ca-openssl-escalate",
+      "path": "crypto-ca-openssl-escalate",
+      "description": "Crypto Ca Openssl Escalate.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e4bdf3b716f48a497cb74a65b236129dd807ff1eeaff5695bb619488c1740442a96e57c444046c4eeaacd6ec73170a97c07000ed32f9793a9ede91f9b418ed0e",
+      "file": "skills/crypto-ca-openssl-escalate/SKILL.md"
+    }
+  ]
+}

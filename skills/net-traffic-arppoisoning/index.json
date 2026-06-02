@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "net-traffic-arppoisoning",
+      "path": "net-traffic-arppoisoning",
+      "description": "Net Traffic Arppoisoning.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0f80e40a8f0db2b061f84b11b6f7e64abcbd19070b8a15974cd5887c2a70e6c346fafd892db9c4e6a1f4f2e037b9ee5d443308ce276052aae0d52a1993e616e8",
+      "file": "skills/net-traffic-arppoisoning/SKILL.md"
+    }
+  ]
+}

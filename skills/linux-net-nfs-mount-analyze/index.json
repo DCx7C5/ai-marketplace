@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-nfs-mount-analyze",
+      "path": "linux-net-nfs-mount-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4487a6f372a129b878aa9e987612e6980dc81af0ae55130a37dba5e3d1d3c82e01a03c93b7dfc25210d71ec3ed2acc54fd0b6e98cdddd3bd6de91f825213ca46",
+      "file": "skills/linux-net-nfs-mount-analyze/SKILL.md"
+    }
+  ]
+}

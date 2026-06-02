@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-react-best-practices",
+      "path": "devel-jb-react-best-practices",
+      "description": "Devel Jb React Best Practices.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a213581a0d35d738798acdece65a377ce12bbb1a73cab7357f674ad0f39ac3e4e7442856ff4a0d989b0cfb518fb77d817f5c9401d3e3051740920db248239670",
+      "file": "skills/devel-jb-react-best-practices/SKILL.md"
+    },
+    {
+      "name": "rules",
+      "description": "skill directory index",
+      "sha512": "8c0eb4bb5cae05c5887ddff79645df0c8908ad65d975078669526780ea69e18146b37de679708510812811842cd1953ac1ea68b46259e1ca24fc0ea47baa3ce6",
+      "file": "skills/devel-jb-react-best-practices/rules/index.json"
+    }
+  ]
+}

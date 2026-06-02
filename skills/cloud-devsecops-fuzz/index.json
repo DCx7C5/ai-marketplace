@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-fuzz",
+      "path": "cloud-devsecops-fuzz",
+      "description": "Cloud Devsecops Fuzz.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4ca2df30765ded46491a487c9f728511eb0f820e4743a05bc38bfbe7c20438d4f4d5fe6e8ec445445a3b6d1c2e4116988d6c68c3e4966761d092884dd4e814fa",
+      "file": "skills/cloud-devsecops-fuzz/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "06803cf3743c49c7a759022673ae072347f71fdd9455af47094f960b9d19edc642df12af9e227c8069406f3329250d81e0a9bb87ffc7b1cdcd563c327a558504",
+      "file": "skills/web-application/tls/ssl/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1d8b94ab8d528b7d96f8d214cd969664a011a709914bb7ac343a2fee9a5e598e8ae0d5a13fd41b26a75bbf546d973133ee84f63f9c02153f949e1db453de5ab8",
+      "file": "skills/web-application/tls/ssl/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "39365097aaefa702c579a6ffcb6c7d83cba36b717942538a02921a23b43349d600ad8705881ad0db63df2592bb719e084bb2e12fa481c9f4d19196a21e8f6b8d",
+      "file": "skills/web-application/tls/ssl/scripts/index.json"
+    }
+  ]
+}

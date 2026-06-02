@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "auth-oauth-misconfig-detect",
+      "path": "web-application/auth/oauth/misconfig/detect",
+      "description": "Identifying and exploiting OAuth 2.0 and OpenID Connect misconfigurations including redirect URI manipulation, token leakage, and authorization code theft during security assessments.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5c7662981d5e1e787c6c6d49343e6dc2279d1ff5577c2cd00f6336c1e945af485b3deac83c92611e4d04e04aff80e84f69646861ebcb337165de627bcf0509c8",
+      "file": "skills/web-application/auth/oauth/misconfig/detect/SKILL.md"
+    }
+  ]
+}

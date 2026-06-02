@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-hardening-defender",
+      "path": "windows-hardening-defender",
+      "description": "Windows Hardening Defender.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f12b545dba0895298097da0ab6152258fbd8509ea3e514c3f31559c94137ea73f232b41f32338a47f9f889d1701ae261b35ff5992736b0136c7febd4ec47fb1d",
+      "file": "skills/windows-hardening-defender/SKILL.md"
+    }
+  ]
+}

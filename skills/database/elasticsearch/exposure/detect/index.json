@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "elasticsearch-exposure-detect",
+      "path": "database/elasticsearch/exposure/detect",
+      "description": "Detect publicly exposed Elasticsearch clusters with no authentication, identifying accessible indices, sensitive data fields, and cluster metadata via REST API enumeration.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "32b48c06f475ac861056033a067854656f7b172fd695d85d8812179602ea2b999135294f5b9a9d8fa1eba08c79d6f78928600f71ef17a1014abe8a72862d6c7e",
+      "file": "skills/database/elasticsearch/exposure/detect/SKILL.md"
+    }
+  ]
+}

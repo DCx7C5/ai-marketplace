@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "extract",
+      "description": "skill directory index",
+      "sha512": "a96809819915af26ab7aca6b0bb3cd472fb5d53aac5c2102c10a00e2f3a272072b9be511ba166093496877b9f90ea55acd066df9182ff50127f824ed664b59af",
+      "file": "skills/linux/processes/proc-fs/environ/extract/index.json"
+    }
+  ]
+}

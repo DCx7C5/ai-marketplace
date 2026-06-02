@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "f8802e0351b049f0c89ab3a0534f68c7d1744946f610fd771000763b8d2c5c69152f05b42e335f837452c1b8007720842d9866e42ee395a9c181f358742c8582",
+      "file": "skills/cloud/azure/defender/audit/index.json"
+    },
+    {
+      "name": "msdefender",
+      "description": "skill directory index",
+      "sha512": "193d74a1eca7405a317579c83479037b3ea2b1b7d1cc70b54394d6f99c7a754a241acc376d1240a11928b97ff34587ebc200bf7f6dda7d45c569deca79e75c5a",
+      "file": "skills/cloud/azure/defender/msdefender/index.json"
+    }
+  ]
+}

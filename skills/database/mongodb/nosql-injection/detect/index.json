@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "mongodb-nosql-injection-detect",
+      "path": "database/mongodb/nosql-injection/detect",
+      "description": "Detect NoSQL injection vulnerabilities in MongoDB applications through operator injection ($where, $regex), query manipulation, and JavaScript injection via mapReduce.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "06fe9cca6d808d12834296f90c2962f3e71bd1dfec7bea04b0b84942699780405b82ea5a615f9f174a2621a7ff7e8636718d4199b4b3e489a4a942d0d9e01aa5",
+      "file": "skills/database/mongodb/nosql-injection/detect/SKILL.md"
+    }
+  ]
+}

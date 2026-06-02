@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "40eeb8792ed2b8ec0acd756ffc80fbe0bd80ba1c7553916d346a2ca92dda32023501738f6c9b0841ab9a92e0225b6766c948cd399d9134181a619aa3377c3b13",
+      "file": "skills/soc/operations/alert-tuning/detect/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-42crunch",
+      "path": "webapp-api-42crunch",
+      "description": "Webapp Api 42Crunch.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c3793bb88b07e0dd33e1c0ce2e375fecba70cd039b7c00728c3621ca30e493d1ee50e219f682b8a9fd382b2fc588425f3aa4bd66db88bb06c47527807ddff3ea",
+      "file": "skills/webapp-api-42crunch/SKILL.md"
+    }
+  ]
+}

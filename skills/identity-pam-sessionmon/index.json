@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-pam-sessionmon",
+      "path": "identity-pam-sessionmon",
+      "description": "Identity Pam Sessionmon.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ac6e9e30062d857a7a16a72503850435705256078039cd5dab5785c16b378a54ebf195fc2a7eace8e2c64803a883a0c58ef27717f0b1c17fb8f34bcdd6a54dd1",
+      "file": "skills/identity-pam-sessionmon/SKILL.md"
+    }
+  ]
+}

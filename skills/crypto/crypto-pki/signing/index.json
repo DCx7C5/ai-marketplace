@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "code",
+      "description": "skill directory index",
+      "sha512": "c89ca328bd903e823bb8e38b1bd34ef0b9ab13c0eb75547eda5b1c5108e24ecdf7fcb663cb4a548a4fd984bde464fa45d860107622c3a914f161e43cf41bb061",
+      "file": "skills/crypto/crypto-pki/signing/code/index.json"
+    }
+  ]
+}

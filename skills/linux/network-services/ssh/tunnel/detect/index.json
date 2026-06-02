@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "network-services-ssh-tunnel-detect",
+      "path": "linux/network-services/ssh/tunnel/detect",
+      "description": "Detect unauthorized SSH tunneling \u2014 identify LocalForward/RemoteForward/DynamicForward connections, SOCKS proxy via SSH, and SSH as a covert C2 channel.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "2ca773cac0f0b6057bee57bf344cac8156dd07a00c81bb924ae15c163694a1bac6ff81f0b7a0e2d592f2f3d8d87f889a74f02bc8ebbce42ec300f4796214f910",
+      "file": "skills/linux/network-services/ssh/tunnel/detect/SKILL.md"
+    }
+  ]
+}

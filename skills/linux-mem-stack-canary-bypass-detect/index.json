@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-stack-canary-bypass-detect",
+      "path": "linux-mem-stack-canary-bypass-detect",
+      "description": "subdomain: memory-security tags: - linux - stack - canary - bypass - exploit nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5f015fddd1bfb362d0d7f1e525424d60c20696665968481a58bb8422b4fb7c9af8f32d56e626bff6271908c4626cc17310e46a4a2bb65c622293356074ea6d6a",
+      "file": "skills/linux-mem-stack-canary-bypass-detect/SKILL.md"
+    }
+  ]
+}

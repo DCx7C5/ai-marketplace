@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "covert",
+      "description": "skill directory index",
+      "sha512": "208727af744d69d5f4591b99411cf2d4949a3a679d033983d99a3fb709a84d727ce44f3e5eaa41a36afb743be5b1e1a0c8b31f3ee17b0c08ef3d2d26fa069e48",
+      "file": "skills/linux/kernel/memory/huge-pages/covert/index.json"
+    }
+  ]
+}

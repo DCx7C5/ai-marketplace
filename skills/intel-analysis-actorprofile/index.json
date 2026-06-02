@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-actorprofile",
+      "path": "intel-analysis-actorprofile",
+      "description": "Intel Analysis Actorprofile.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "01b24fdcf0a9e187d56388f2955601587188519862b9553765dbd63032897d7793b586b7932fee27c8909c479c811ef35acec0a54326f8ab4731ad53f8decf57",
+      "file": "skills/intel-analysis-actorprofile/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "4c6c7879d742c1a6e028c5d405870883986a9cd1f9e307e5d1cc5d1468aff268558b50afeb9e31beba35cc7d1653b2121bc713605cfb36f2e1fa07140906333f",
+      "file": "skills/linux/kernel/boot/secure-boot/bypass/index.json"
+    }
+  ]
+}

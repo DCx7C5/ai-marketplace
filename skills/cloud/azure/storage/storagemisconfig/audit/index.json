@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-storage-storagemisconfig-audit",
+      "path": "cloud/azure/storage/storagemisconfig/audit",
+      "description": "Audit Azure Blob and ADLS storage accounts for public access exposure, weak or long-lived SAS tokens, missing encryption at rest, disabled HTTPS-only traffic, and outdated TLS versions using the azure",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9a0e19c45cc9dc72b8b72699f207e14a827c3d61dce2d2be4b9d69c39e12c049d9e24ad2bc7e3f111eb883deaf4ea3de9440381824f9d378e35070720e1acabe",
+      "file": "skills/cloud/azure/storage/storagemisconfig/audit/SKILL.md"
+    }
+  ]
+}

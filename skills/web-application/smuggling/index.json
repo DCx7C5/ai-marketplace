@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "652a55c4e753a569e6990924576ea2f0ddd615f87893e7093ec96af43290c2dff1557187f480140bcd50331dda40f01fac3c716d666cb0f11af8e80e71684700",
+      "file": "skills/web-application/smuggling/http/index.json"
+    }
+  ]
+}

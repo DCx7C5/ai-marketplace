@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "enum",
+      "description": "skill directory index",
+      "sha512": "c273eaa30023a6045f09f42d11e633bd1ce7a7f6bb55fefa270068f6c551601f269da1750023224bc667a66d4143d99ad7def9476a2781fa92d2f748529ab3bd",
+      "file": "skills/linux/identity/suid/permission/enum/index.json"
+    }
+  ]
+}

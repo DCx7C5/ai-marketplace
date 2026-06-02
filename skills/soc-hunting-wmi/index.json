@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-hunting-wmi",
+      "path": "soc-hunting-wmi",
+      "description": "Soc Hunting Wmi.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "864f8476018463aacf6328f6fd99a34fb9720e4a49aa061b1b638069d21b2da56165dc45f07a6f32bc49d3d9f8ba617b02a24a74f2e17fc3b4337a39fcc8fa1d",
+      "file": "skills/soc-hunting-wmi/SKILL.md"
+    }
+  ]
+}

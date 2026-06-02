@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "binary",
+      "description": "skill directory index",
+      "sha512": "4d4f423364f384d34a621fd8d0594b506fd7fdfe9b9839ae5cedecc0de8ad94c653d241967a5d6d4a6a7d39bb913f6ad505d8477a6956b732a171c6f5416bb82",
+      "file": "skills/linux/identity/suid/binary/index.json"
+    },
+    {
+      "name": "permission",
+      "description": "skill directory index",
+      "sha512": "bf51912c5a6c9fdc71d07ee52fd61300ec88651f0bf9cfa3369720982a9b26f503e86718f950e6aabc3a326b8bc64351ca20af5112a0b14c509c88c57e8a1890",
+      "file": "skills/linux/identity/suid/permission/index.json"
+    }
+  ]
+}

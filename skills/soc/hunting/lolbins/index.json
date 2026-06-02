@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "4fbf31735bb781eedcec38db6ffaad7dfc06ade0b9313f69e7891ddcd5701839bed0e221422c6ac4ec474767ed6dd1405859b9478f0e729c321b24ccf5e2e5a7",
+      "file": "skills/soc/hunting/lolbins/detect/index.json"
+    }
+  ]
+}

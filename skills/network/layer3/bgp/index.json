@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hijack",
+      "description": "skill directory index",
+      "sha512": "c0dea4e4c6f1716f0f83900b750da9e0f4bfaa9fe9f5761bc7f48be9ea0ab19ee0886b4821d9835ecc01ca9dcef8503a0079eea0029736bd05996092dafafd51",
+      "file": "skills/network/layer3/bgp/hijack/index.json"
+    },
+    {
+      "name": "security",
+      "description": "skill directory index",
+      "sha512": "658d66c89af075de6a615377d331d3d0d2aba6cc192b66f44cd3411616fcf88f4434b0189e8bce89ee7689de5886b7697f3d41f270f24bfbe3c7d2cc4e5f1de2",
+      "file": "skills/network/layer3/bgp/security/index.json"
+    }
+  ]
+}

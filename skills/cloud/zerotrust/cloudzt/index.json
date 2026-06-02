@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "379406378a6b1ac850c572b8990357c898af51561b0181542590cb03f5b9b0c84e596abaa22625c593724ffc6e05be922cb090f180eedf2b6fd664bad222bf76",
+      "file": "skills/cloud/zerotrust/cloudzt/monitor/index.json"
+    }
+  ]
+}

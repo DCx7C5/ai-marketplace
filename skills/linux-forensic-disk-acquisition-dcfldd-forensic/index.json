@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-forensic-disk-acquisition-dcfldd-forensic",
+      "path": "linux-forensic-disk-acquisition-dcfldd-forensic",
+      "description": "Linux Forensic Disk Acquisition Dcfldd Forensic.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "27f20305b1a04a101fa0a401dbb2020de74253afd490e173057e10f0a6308358c5806eac41d6708ffcb8a58aa118881319d74c075f99009f3feed42dfccf14ec",
+      "file": "skills/linux-forensic-disk-acquisition-dcfldd-forensic/SKILL.md"
+    }
+  ]
+}

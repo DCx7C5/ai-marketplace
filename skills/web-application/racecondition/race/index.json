@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "ed0b601a555785c0bad7f2c6af39c3541b17b0abdaef6c0832bfdeefa520c33f37c8b5b586b562e078cb009fa19ccf323149e667cb590ab4574f2fbb99605e97",
+      "file": "skills/web-application/racecondition/race/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "9031a962ce992c3962c3a020ff2d52efe951b6ec04933d3ff0e4d5a439bf3d8bdaaa796d817125019cac8ff98054af11f42850965f514755806f57db9ea5ae51",
+      "file": "skills/web-application/racecondition/race/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "ef3fc40aa4bb76d0e33c8770adf9a50f8385060797986952e669878ae0b9fba75b56cf1bb23cf5024259aa44006b8036d08fc7ca68fd474c4b72d610f0f97b62",
+      "file": "skills/web-application/racecondition/race/scripts/index.json"
+    }
+  ]
+}

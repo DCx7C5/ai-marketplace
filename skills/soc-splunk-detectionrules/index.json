@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-splunk-detectionrules",
+      "path": "soc-splunk-detectionrules",
+      "description": "| | T1110.001 | Password Guessing | Threshold on EventCode 4625 by src_ip | | T1059.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e88c082f9dc43bfebc329d080fb9816a100cced6747bcd31baccb7bb76b796ba50db7bae509d61841b54b719423eee6149ef6edb3e73f331d6593cf6466ed963",
+      "file": "skills/soc-splunk-detectionrules/SKILL.md"
+    }
+  ]
+}

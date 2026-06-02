@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bruteforce",
+      "description": "skill directory index",
+      "sha512": "42b6f25aa3528443de0709211b3db7bf4509142d406a29a912aa0dd0910b47cf9558db47068779b1d816893c149bacc71e82161ff47136a9af4116fd6e3f3870",
+      "file": "skills/identity/attack/bruteforce/index.json"
+    },
+    {
+      "name": "credential",
+      "description": "skill directory index",
+      "sha512": "294c198cb3b578b2fe1d071eafd07fd5e24381df39a879fab9ad2b71ed74f42537878e19d1ac6620d79058fdc451c4635a0722cf956037a829019886e962a5b4",
+      "file": "skills/identity/attack/credential/index.json"
+    },
+    {
+      "name": "credential-dump",
+      "description": "skill directory index",
+      "sha512": "892a0d3a297bdf69003a60af76186bd3a1aad075c7090c28a09dd24c7ff27efce661ce4c2020730d622f9a574a1f10cf91d8d58f5b6c512e60c25079ab0b865f",
+      "file": "skills/identity/attack/credential-dump/index.json"
+    }
+  ]
+}

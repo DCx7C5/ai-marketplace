@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "41969b659ac5d020d6fd1eafc3a89c0126e449095288b50ce60899db43eff4e3f0183735840e374190f8c89c794603bf5abddf9ec5b6352c91c6bfa831ab4f94",
+      "file": "skills/identity/ldap/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "95aebd6ee0169ef78e3e957b158c05a75f420c631642ea93811e2a8f8cbc3c91e5f2675e5a6f0469f671ee73b1f91548fc89fb6fad37a019bc49597620d5b321",
+      "file": "skills/identity/ldap/scripts/index.json"
+    }
+  ]
+}

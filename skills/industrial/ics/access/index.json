@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "remote",
+      "description": "skill directory index",
+      "sha512": "b63199d5db720abb3a05e4ca1cce2ed07cc62b240777a08ff6a2e7ea05c9d392073a000b994c20ec053a884f1f938c182df0477da3a6ba2ae78d8da720c9fc88",
+      "file": "skills/industrial/ics/access/remote/index.json"
+    }
+  ]
+}

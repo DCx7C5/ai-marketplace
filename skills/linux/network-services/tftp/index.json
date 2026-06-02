@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exposure",
+      "description": "skill directory index",
+      "sha512": "ffa6f95120f20c7734ffaf3663e709099044cdaf75a16afd4e21784990f18458dc641fbbe897c62c4699498c0dc98f5f49a59acd2c047cb61a7509c4887f7aec",
+      "file": "skills/linux/network-services/tftp/exposure/index.json"
+    }
+  ]
+}

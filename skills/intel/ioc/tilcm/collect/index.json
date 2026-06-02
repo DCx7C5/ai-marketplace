@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "ioc-tilcm-collect",
+      "path": "intel/ioc/tilcm/collect",
+      "description": "Implement a structured threat intelligence lifecycle encompassing planning, collection, processing, analysis, dissemination, and feedback stages to produce actionable intelligence for organizational d",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "55c16456dad7cdfd38d70a75de5f04766259ea6d69b21cc26ceb11a96f50e3405329785033396b5084e1027f382b8300097e7827d3adf058a769dd23488ac84d",
+      "file": "skills/intel/ioc/tilcm/collect/SKILL.md"
+    }
+  ]
+}

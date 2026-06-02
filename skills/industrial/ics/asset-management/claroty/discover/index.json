@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "monitor",
+      "description": "skill directory index",
+      "sha512": "bd06ad6a79c67c16342753e1317e9cdf6f052134efd5d0daa1456080aabde49cad7f39d3ebea44f7a1d73d03d520fcaae3014de2e3f2b1e7ca72ea6a5b174fc7",
+      "file": "skills/industrial/ics/asset-management/claroty/discover/monitor/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "33e4b3df959d2ecae19e36bc24b552207a145b11ecf4ae0464afdc5586add43168609c30b68f2d014b23cd039b2b0105e2f7af2b9e9c2f64b5c00ae7bbaa6ec6",
+      "file": "skills/industrial/ics/asset-management/claroty/discover/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d46a1edfa63c4b3efa8b9c28489a2de1c3d4e21718a07bb4855c0d9f3c212bb8a00e8e77d495a8edace4d68bd6537f9a80017bb45e420c206b36412b2e2932fc",
+      "file": "skills/industrial/ics/asset-management/claroty/discover/scripts/index.json"
+    }
+  ]
+}

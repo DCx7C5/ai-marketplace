@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "8c5440a1a245791b0fb26fa6911d4b62c2956d4dc7c3f92b296c6d927f3a54425e07f9bb0c4ae07ff7e27342421e624a251fc1c81bfcb0e0fbabc8cf5b51b954",
+      "file": "skills/identity/access/assets/index.json"
+    },
+    {
+      "name": "control",
+      "description": "skill directory index",
+      "sha512": "af2eee7d0158b267452d70b061d3d18cdf80311e21889077591600cb6bdddc8567e494197fd337a353630b04b915208337665bcde852a4566a816f7e6fba739f",
+      "file": "skills/identity/access/control/index.json"
+    },
+    {
+      "name": "rbac",
+      "description": "skill directory index",
+      "sha512": "b00fcb030ba6ec93254c06ed10a57cdc893bd6c48f36df06d272e9216d30d267a89ee92458dd40126bd7a6cdd3393e700ea52ea57018edcb7f1e0f9770ce99a8",
+      "file": "skills/identity/access/rbac/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1b201b52e7e7d78cb4ff869eba83ede05b20eee1f5db8bf2c256eb61380c6e0edb90b95b9541f954d1bf5021354add071a4abf30c7b2fc7a7c7c07c6dc5ace41",
+      "file": "skills/identity/access/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "db09409a6613423146cfec053339094526bfcefde49bdc4b994cfdd58ad79d0bac84d8851e8941d5324528f865a4d9788dffd453e994a4afdd65ceab395cc0ca",
+      "file": "skills/identity/access/scripts/index.json"
+    }
+  ]
+}

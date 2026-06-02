@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-devsecops-scanning",
+      "path": "cloud-devsecops-scanning",
+      "description": "Cloud Devsecops Scanning.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "26f787be2c67df88d7cb66627e16a5572badcfab0f74b14bc4ed92302184418edc2dc3514435fe7e8764388861e5185abfc3ab51f37f3fdb8a89ea28249aa31a",
+      "file": "skills/cloud-devsecops-scanning/SKILL.md"
+    }
+  ]
+}

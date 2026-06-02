@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-serviceaccount-sarotation",
+      "path": "identity-serviceaccount-sarotation",
+      "description": "Identity Serviceaccount Sarotation.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "c2766e23fbd74b0dc70a8efd96ff33e117dacf5617f66f931ee3c677d3278db9eb98f03680a3b36abc2606ec7bfbc14767f04d742a8be5f4484e9c7341c17206",
+      "file": "skills/identity-serviceaccount-sarotation/SKILL.md"
+    }
+  ]
+}

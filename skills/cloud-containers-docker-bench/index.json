@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "cloud-containers-docker-bench",
+      "path": "cloud-containers-docker-bench",
+      "description": "- [Docker Security Best Practices](https://docs.docker.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "b217085812ad84728d5eb18479ca5e207053befaa6441bbd4191051d7f0cbbc1146961ff5cd454d7d52a2f9745394abe46c7e1e2fb81f0af4c9330ce937d3bb2",
+      "file": "skills/cloud-containers-docker-bench/SKILL.md"
+    }
+  ]
+}

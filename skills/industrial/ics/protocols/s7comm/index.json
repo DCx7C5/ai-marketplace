@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "analyze",
+      "description": "skill directory index",
+      "sha512": "2ee5eb756499019fcaa566437e72910462dd99aabf655ede2d9255932794a13193a642f4d597a710d2af8433aec5c5b7ec65eb98f8fffe978e428c362e4e947f",
+      "file": "skills/industrial/ics/protocols/s7comm/analyze/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "http",
+      "description": "skill directory index",
+      "sha512": "cd0643e1b1a797e1cfc9b83e31aa24f3161e929499edaed069009e9030a0d2fad9e6a80491fe45046ffe1930ad9a02eb7c29ee40eaefb2b9c3795a77a7171044",
+      "file": "skills/network/proxy/transparent/http/index.json"
+    }
+  ]
+}

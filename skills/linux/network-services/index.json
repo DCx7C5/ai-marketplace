@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "apache",
+      "description": "skill directory index",
+      "sha512": "685f1540be6416ea156ea3205b33f3424913c12b8151c8b80de2a80be069ee14786fbda18dac2e00a97c34f835a10e566ce2cec4e040e9032953da130ab8bb4d",
+      "file": "skills/linux/network-services/apache/index.json"
+    },
+    {
+      "name": "cups",
+      "description": "skill directory index",
+      "sha512": "d2beb5cd7dcbbd76a0769352020e48b358191f86ac3c1d7a3a30554b0da8ff3229c808e6b6e982a4acef25667a0ee3e3bb02261e48aeab902a06625df660c92b",
+      "file": "skills/linux/network-services/cups/index.json"
+    },
+    {
+      "name": "dns-server",
+      "description": "skill directory index",
+      "sha512": "609b86a716d1cba4e454ed22ffe7f1763587ddb628095e243bcab5eeed12ffb59b2f14900d45c92a8ab417f8d44ecdc007f5db28f0f9bb91e4d5a5e0ac424d0d",
+      "file": "skills/linux/network-services/dns-server/index.json"
+    },
+    {
+      "name": "docker-socket",
+      "description": "skill directory index",
+      "sha512": "2377804d7447415204b98e10c07688a1853fb22146f1534ff0d93ed08465416cbe9f681da754df5d86e8672611deb1d7778ba534a4fb31a76be4b8c602622178",
+      "file": "skills/linux/network-services/docker-socket/index.json"
+    },
+    {
+      "name": "ftp",
+      "description": "skill directory index",
+      "sha512": "7879b92f513e1f7e8e820c239a272a9a56a1e0005c8ef21a22f178ba1c13d07a883d6cd4b6c13d1437d190d5d96378687cd3310e0a125b2591a8e992be44f720",
+      "file": "skills/linux/network-services/ftp/index.json"
+    },
+    {
+      "name": "nfs",
+      "description": "skill directory index",
+      "sha512": "a27cf0468303a7177fa406efc0b4c8710d24a831f7174bd375252b3b7c9680d67c8f965f7159ab61b2ad2faefa5c55f945b14a7d6f4af7dd9952564bb8152ffe",
+      "file": "skills/linux/network-services/nfs/index.json"
+    },
+    {
+      "name": "nginx",
+      "description": "skill directory index",
+      "sha512": "bb471c73a6caa6fd677bd8d4175e376587907ca2379c8ecd6c9a5bf8a92b53c549017cd87c7aa21eb0d7f25f3ddcd42ded3e29cb04638cdbd7d24fe9f92d93b8",
+      "file": "skills/linux/network-services/nginx/index.json"
+    },
+    {
+      "name": "rsync",
+      "description": "skill directory index",
+      "sha512": "4e6068a966396d391f2aa944ef8890344b8c2fc0c81264336719e5004a20aaa1db477a85b5016696eee5792333702fd306ff742fbbec2bacb1d5683bd309da0e",
+      "file": "skills/linux/network-services/rsync/index.json"
+    },
+    {
+      "name": "smb",
+      "description": "skill directory index",
+      "sha512": "e5ae51eb4e8abfdb7221214625ced81309a46832c3c8a6a6b0c74eb8a7264272c0305cf9538efb5fd3303b88d27590fa270538bec92d670b9af28ca17a9eae97",
+      "file": "skills/linux/network-services/smb/index.json"
+    },
+    {
+      "name": "ssh",
+      "description": "skill directory index",
+      "sha512": "8c2791bc40fe3769d857c758bbfe6abe7ee7fec4df90b6cab8f6b091d53762922ec6211ce4695eb94ae911ee4ea388fab9ae886d68dfb95eba789bb60da11c00",
+      "file": "skills/linux/network-services/ssh/index.json"
+    },
+    {
+      "name": "tftp",
+      "description": "skill directory index",
+      "sha512": "8b33babc65b19add09d91d59ef7b9d4964cd95383ea070bb50c5dba21b3ca62fa765d2b254f1913a21490ed368f84126897520305ecf541a9f0122068d49d1a5",
+      "file": "skills/linux/network-services/tftp/index.json"
+    },
+    {
+      "name": "webdav",
+      "description": "skill directory index",
+      "sha512": "78dbfb4b031cb3876c61b64ab95718a6f29a975b42e91296a5476a04d2fce0ab1d0b2a00689274b9b07d2effb8f4e70e29572f1d79e02e38cc53456771894add",
+      "file": "skills/linux/network-services/webdav/index.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "sensitive",
+      "description": "skill directory index",
+      "sha512": "e5032fe994e74b83767fa0d4efd27cf7bcc718c2cabb0572cdead1423a7917e81e7e4b1f6237f7212ee4a142c682dbff8afb7f7b0942769c47343d5258fa3f8d",
+      "file": "skills/web-application/data/sensitive/index.json"
+    }
+  ]
+}

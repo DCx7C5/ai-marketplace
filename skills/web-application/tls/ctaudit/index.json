@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "detect",
+      "description": "skill directory index",
+      "sha512": "2208655369975f43fb86a8ad63509f0e4a15bbee01d29125713515cdfb045cb8633f67610ed4107dbf814bc9a399d9d41040969b90947cbbfe4486f688303b31",
+      "file": "skills/web-application/tls/ctaudit/detect/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "b8e7a9e740d316b376cb36bcc6111d707b44426d9b385a5d3a7e35f15b1cf65ca4cc8a4731015374504673a9e399694dc1d27cc9cbf2fa2279d535db7d9f14fc",
+      "file": "skills/web-application/tls/ctaudit/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "c3423090ce7ebbe1797b1845dfa8f60b730323c087083731edf89bb75abbafc6c10b739726dc134dbb5bf8fcae0cb278db38fc94526cce1158e3435dc8764e11",
+      "file": "skills/web-application/tls/ctaudit/scripts/index.json"
+    }
+  ]
+}

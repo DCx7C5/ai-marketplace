@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "fd710dd009a67f49c65ee0f3db84ded19a9636a60322de69d67e94b2eb334288a5e032a721155c3ea846074ff36a50010e2243f1053a7c872e78bd0fb540ab7f",
+      "file": "skills/crypto/crypto-pki/hsm/assets/index.json"
+    },
+    {
+      "name": "hardware",
+      "description": "skill directory index",
+      "sha512": "1b55eec35b466f72c8d9bdac29a08ec7afcc74eeaea32145e125e16e43be363bd2ef186372fcd56857d9e5e51ed35c91f384312816cc410bf3c3ffe0fdfe4a78",
+      "file": "skills/crypto/crypto-pki/hsm/hardware/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "1fd96a2ee38718a1c944276dc65c268807e4d65973b2910d5de136030617b9db8bb79bb8a9520aa58c1dcdf0819a17ede40e4b72c772b0c01186dc4ac6577507",
+      "file": "skills/crypto/crypto-pki/hsm/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "d90475e1488e86b8cba63474d27803f54691855c42291b1fc09411bd56ed6a707065e2e3eb0b878bec6ec3fde22bc3105f9da8cd3949ae037317235153b88714",
+      "file": "skills/crypto/crypto-pki/hsm/scripts/index.json"
+    }
+  ]
+}

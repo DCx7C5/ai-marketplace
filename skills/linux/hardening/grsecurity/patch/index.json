@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assess",
+      "description": "skill directory index",
+      "sha512": "ff63ce3fc3572a9a035dcf8d6578fa15907f4f80bc024c641ca523ac247819d440035d6585e9a51d4a93bf7122d418f1293b5c541138e500bdc6795606646157",
+      "file": "skills/linux/hardening/grsecurity/patch/assess/index.json"
+    }
+  ]
+}

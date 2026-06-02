@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-mfa-fido2",
+      "path": "identity-mfa-fido2",
+      "description": "Identity Mfa Fido2.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "9274eeacaefae088071a2bec856382f1f5bfad233e5815d170ec2e25d1171755fed2b4be0cb53635dc7125272ab208b5a704ef81ae905f2ffed943cdd33b9003",
+      "file": "skills/identity-mfa-fido2/SKILL.md"
+    }
+  ]
+}

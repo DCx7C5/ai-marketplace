@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-gws-slides",
+      "path": "devel-jb-gws-slides",
+      "description": "Use `gws schema` output to build your `--params` and `--json` flags.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "42274d10ad21c0529108633ff424e3e97e2c7112e82bd27573c97ab6fed7f3ffdbbd8fd516f98bf3c20b159e496eedb5819fdae2ac5d26c3308084b734bacee4",
+      "file": "skills/devel-jb-gws-slides/SKILL.md"
+    }
+  ]
+}

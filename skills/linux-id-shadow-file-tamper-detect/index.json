@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-id-shadow-file-tamper-detect",
+      "path": "linux-id-shadow-file-tamper-detect",
+      "description": "subdomain: identity-forensics tags: - linux - shadow - passwd - tamper - backdoor nist_csf: - DE.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "443b4ab5591930f055a7aa8974f9de6fd3061ae1c5db53f43fbd5ac9ccee02fa6f0aba40082ce19f1d048310d39f7cc032be823a5e0564f01d29d41f02d812a6",
+      "file": "skills/linux-id-shadow-file-tamper-detect/SKILL.md"
+    }
+  ]
+}

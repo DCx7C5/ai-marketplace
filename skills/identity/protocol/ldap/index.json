@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "3fc9299e8f70e3c7d3d5a88c9393c3cba2e03867fbc0d3bcdb29a68273f414a60f1eb92c857e098ea77e23b2d9a071683c3bf301c7dd7b593f654427f49c599b",
+      "file": "skills/identity/protocol/ldap/audit/index.json"
+    }
+  ]
+}

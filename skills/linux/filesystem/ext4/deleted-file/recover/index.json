@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-ext4-deleted-file-recover",
+      "path": "linux/filesystem/ext4/deleted-file/recover",
+      "description": "Recover deleted ext4 files by scanning for orphaned inodes, unallocated blocks, and directory entry remnants using TestDisk, Autopsy, and Photorec.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f39bee96be0edc1800cf7e9f70b0a02cb68c3103d9b017521d58f8b59abc4dbce5f3ff07821b990128a1b986c95d9c8e5599dadc9778282b6c795feb8a5971ea",
+      "file": "skills/linux/filesystem/ext4/deleted-file/recover/SKILL.md"
+    }
+  ]
+}

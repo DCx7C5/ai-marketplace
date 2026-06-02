@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics",
+      "description": "skill directory index",
+      "sha512": "f9807e25e4d58e250c3b5c5a14a4818bc20bbb801da60f7b811ba579aef17961bb3b596bc35f92ed5f600c53a2462a08f80c73058c279a10053ea0a20df09285",
+      "file": "skills/linux/software/browser/artifact/forensics/index.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "configure",
+      "description": "skill directory index",
+      "sha512": "e82772eb1865010d162a0321481a399c3fd77da00b3b12cfca708c47ac2b44cfd156e9ea11b71c781acee52f1cfc21bb0f966c24d1dfe08a8c4fad5e803ab785",
+      "file": "skills/network/ids/suricata/configure/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "4f47d2aacb420b0c85f80268fde6bc3255463c65a57b52c1b4bc567595b643a7e93ecac99d093e060f6e88db1bf2990bf76aa389cc3c61247dbaaac5a6b71ada",
+      "file": "skills/network/ids/suricata/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "9af5ab71384c459df4b245fe9343eabe16c7ad6308ab9ecae2f1ed17446aac7436703f9d35455e3b8e390a29207bbde6683fdff5263e3f0d299d130a1b267274",
+      "file": "skills/network/ids/suricata/scripts/index.json"
+    }
+  ]
+}

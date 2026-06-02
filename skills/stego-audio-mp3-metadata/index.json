@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "stego-audio-mp3-metadata",
+      "path": "stego-audio-mp3-metadata",
+      "description": "Use when investigating suspicious media files for hidden payloads or covert communication channels.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e30227c8ed9355e7cc74fdda668cfc4274a512dc12f307ea083a0223ddf803b23618556421eb079aac09148e363aa925c18fe22c6307d7d16c6f3c2998ca7de4",
+      "file": "skills/stego-audio-mp3-metadata/SKILL.md"
+    }
+  ]
+}

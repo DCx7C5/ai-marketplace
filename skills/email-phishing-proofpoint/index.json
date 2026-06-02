@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "email-phishing-proofpoint",
+      "path": "email-phishing-proofpoint",
+      "description": "Email Phishing Proofpoint.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f555a7f7c980dc3867c644dac4a3325db3e5de3233ee98ec3dd822bd353e626ad941d58078cbc94d90c0ab25e430ffb5d4135cfd474f0406252686e000ec9bc2",
+      "file": "skills/email-phishing-proofpoint/SKILL.md"
+    }
+  ]
+}

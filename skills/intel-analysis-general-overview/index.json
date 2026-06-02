@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "intel-analysis-general-overview",
+      "path": "intel-analysis-general-overview",
+      "description": "Intel Analysis General Overview.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a1072fe4d0a14839cd76d962f3c360714ed1bf1977048d471e4424c00ef28147534afb7e083a618219ba7b01c16972cf615dfe99cb1a073865392d4aa982d21e",
+      "file": "skills/intel-analysis-general-overview/SKILL.md"
+    }
+  ]
+}

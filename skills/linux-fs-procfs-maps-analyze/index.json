@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-fs-procfs-maps-analyze",
+      "path": "linux-fs-procfs-maps-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "80463fa5f23c92ca0ab78f7fbca19d31b8e7f114d1180142e018a3ed14ae2608c280a485135c6df7e1e3c339c117c1506516fbea6dcbf291ffdccaccc0f4494e",
+      "file": "skills/linux-fs-procfs-maps-analyze/SKILL.md"
+    }
+  ]
+}

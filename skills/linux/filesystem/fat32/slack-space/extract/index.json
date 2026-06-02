@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "filesystem-fat32-slack-space-extract",
+      "path": "linux/filesystem/fat32/slack-space/extract",
+      "description": "Extract and analyse slack space in FAT32 file systems to recover partial file fragments, hidden data, and remnants of deleted files from cluster tail regions.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8408678a4f251769525c235e56ae8f1139b5d29b98fa7d311251b6ed4ba70a4e8c1a9feee4cf537e262a303fbcb8ddd94b507eec522ef548a9d40df6129c14fb",
+      "file": "skills/linux/filesystem/fat32/slack-space/extract/SKILL.md"
+    }
+  ]
+}

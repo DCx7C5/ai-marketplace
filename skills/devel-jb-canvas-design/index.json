@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-canvas-design",
+      "path": "devel-jb-canvas-design",
+      "description": "To create additional pages when requested, create more creative pages along the same lines as the design philosophy but distinctly different as well.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "831dc29c015a206166539688ea2648a18b6fb9eb8830f60a62caffe5838dabd956a9dea12fba836d43b5d20e4a2165ab11150f02b6735c1f75d8fea9803e9cea",
+      "file": "skills/devel-jb-canvas-design/SKILL.md"
+    },
+    {
+      "name": "canvas-fonts",
+      "description": "skill directory index",
+      "sha512": "52ecfe6dabee470d3e124b22be50df43b970a8ebaa53a8b6e3f20a8ba2a8f9eb9494e942c98f05f50af4bd6a9eb67d0cbc21ca8d460e8429133edb61e7de4657",
+      "file": "skills/devel-jb-canvas-design/canvas-fonts/index.json"
+    }
+  ]
+}

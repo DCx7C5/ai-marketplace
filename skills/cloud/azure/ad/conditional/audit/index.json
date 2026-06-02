@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "azure-ad-conditional-audit",
+      "path": "cloud/azure/ad/conditional/audit",
+      "description": "Configure Microsoft Entra ID (Azure AD) Conditional Access policies for zero trust access control. Covers signal-based policy design, device compliance requirements, risk-based authentication, named l",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ad5a62fe18001e2e643e909b00a6724842c22b67714315da38b3f7c9c9231f8fdc3fcaf78b1eef6dbcf17b6cfbfbd9e651a76ad10a967c798335dcf53bff986e",
+      "file": "skills/cloud/azure/ad/conditional/audit/SKILL.md"
+    }
+  ]
+}

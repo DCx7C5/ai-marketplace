@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-mem-injection-code-analyze",
+      "path": "linux-mem-injection-code-analyze",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e42ff0a81086be65191a4c5e014252ffae5fc1ae0103e29f64e02c16a03cc919f54ac0f63bac89a3efd885c4ffa1f2c7058dd6ab32110f7f84a04109559efceb",
+      "file": "skills/linux-mem-injection-code-analyze/SKILL.md"
+    }
+  ]
+}

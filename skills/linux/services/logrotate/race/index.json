@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "08f8847e65ea61aa41e3f42ea9adcb211f01d7d3be99d234c452d61c17f33335564373ee10b16598658a7e0716a1a4aca161c2a453633708cc01a7052fefbe54",
+      "file": "skills/linux/services/logrotate/race/exploit/index.json"
+    }
+  ]
+}

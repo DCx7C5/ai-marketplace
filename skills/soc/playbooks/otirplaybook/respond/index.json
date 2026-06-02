@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "playbooks-otirplaybook-respond",
+      "path": "soc/playbooks/otirplaybook/respond",
+      "description": "Develop and implement OT-specific incident response playbooks aligned with SANS PICERL framework, IEC 62443, and NIST SP 800-82 that address unique ICS challenges including safety-critical systems, li",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3a5b4fcb8a0a547214defd0a5f77a0e5e9bdb3bfdb5a581c516a93fc97af31cf0ebceb5bf1fed7f7b92ff4e4f53d9acbaf401bcb4bf8cf43fabcd828e98bae36",
+      "file": "skills/soc/playbooks/otirplaybook/respond/SKILL.md"
+    }
+  ]
+}

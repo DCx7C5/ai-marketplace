@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "nessus-SKILL.md",
+      "path": "vuln/scanning/nessus",
+      "description": ">\\n  Performs authenticated and unauthenticated vulnerability scanning\\",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "0ec25322cf2c290abbd49e15fd13101811142c9f8e2a2c8fd7e7639ea6a6c83d6d28c3db8346a3748604960779247ee82357a28ee200f98891c96f92e6d72750",
+      "file": "skills/vuln/scanning/nessus/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "45a648ac72222735a236496b30e580186e7172ed9f34d36e576d8e12b89e2f33fdff5675537b1837e39904e3a8a205b9927dad57419b28f36d97591ebf33482d",
+      "file": "skills/vuln/scanning/nessus/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "41f976184e7b301b18d7120d8efb2476935603eb38a9a40552b678a0b19b25ddf57c9e1ed0bcb6dc2321ff1539271ddfed4afbf742416516de58a9fdbb457cb5",
+      "file": "skills/vuln/scanning/nessus/scripts/index.json"
+    }
+  ]
+}

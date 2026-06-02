@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "fc041829dfd617aaf9a2e2075b5f1bce912b4f7844e7eef0c60a36e4f8718571608507e271cad016461d80379195b7ab67a30260de7d8e05e88fcdb9dfaea12b",
+      "file": "skills/web-application/injection/xxe/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "6aa82699c71dec71731454a60b906ef856b4afe5178a83125ed061b64bdaafa2cd71c8480bb854bf4be34e144b55aa5ff6b78c8e8064b4170825ba7ae757d9a3",
+      "file": "skills/web-application/injection/xxe/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "f6ac75e23588bf8dc64788b2c5a84950f82b780286a0230aa6019979a68402ce8105f29de30373a109bc26a4a17633d04e7b1cbb5f910ebb2fded8e4645e6015",
+      "file": "skills/web-application/injection/xxe/scripts/index.json"
+    },
+    {
+      "name": "xml",
+      "description": "skill directory index",
+      "sha512": "b9b20749af91d18faffc7a741a862320f9a1093a740942b446ffc5aadf38b14aa780c6a20b06c1d2996af194f6c21e82bcb8e4a5c5e87d0bbc8f58b9a1954315",
+      "file": "skills/web-application/injection/xxe/xml/index.json"
+    }
+  ]
+}

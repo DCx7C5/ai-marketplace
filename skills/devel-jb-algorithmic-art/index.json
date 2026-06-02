@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-algorithmic-art",
+      "path": "devel-jb-algorithmic-art",
+      "description": "- Embed algorithms inline in the HTML artifact (don't create separate .",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7f4a1e986b9af277cf4768bb0485a15940e1b3158b554acd7f015819adf2109deba62a559b6e58e78f1a497a078e2ae1edd45498c4373daf93721bd83e78b43d",
+      "file": "skills/devel-jb-algorithmic-art/SKILL.md"
+    },
+    {
+      "name": "templates",
+      "description": "skill directory index",
+      "sha512": "bea1b78f551dacb5d641f06b4d48a583415ee5bd294a743e8cfa00234c5b449d7ab4ff4472c939205e22ce518c2e144253ac07d20650701951d8332c38c5a537",
+      "file": "skills/devel-jb-algorithmic-art/templates/index.json"
+    }
+  ]
+}

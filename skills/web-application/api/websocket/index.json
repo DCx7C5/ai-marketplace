@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "9d7df6142606b1c0788896a43b257db2973b92c24a8e78d9a0915d5e7ff5ca19f0711fd7870974f2baa8f2b9a117f96f2f9aea40e80b0fb0b9097037c1b74bea",
+      "file": "skills/web-application/api/websocket/exploit/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "388a0b81121d59556220cfd16c0e2db06eac5924496536bb9f087d7258f5443117214ca65a72e90edfc3d4642482c9d32217512f0fa99934aeaa33456d65fa80",
+      "file": "skills/web-application/api/websocket/references/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "6b64f43ff6501c622bb4693f7341d8ae4b9c8a88fa5225998b6f4e698995e1e6a8ffa39918db3842c060428f2c1b62bf147dfacfd2ff6c9eb4c7ceb57121fe8e",
+      "file": "skills/web-application/api/websocket/scripts/index.json"
+    },
+    {
+      "name": "wssecurity",
+      "description": "skill directory index",
+      "sha512": "6e21f02f1d41d29e4376345f373b71c18306151d7afd5fc40a943a447651b159babb2f03c9de239a457f625b7e353a847aebec7874260ce17d6a5064af18a701",
+      "file": "skills/web-application/api/websocket/wssecurity/index.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "api-mobile-analyze",
+      "path": "web-application/api/mobile/analyze",
+      "description": "Tests authentication and authorization mechanisms in mobile application APIs to identify broken authentication, insecure token management, session fixation, privilege escalation, and IDOR vulnerabilit",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1b13effb0fe4f573d55dfab56962f877f398c1921cb5879f102ad456625e253a428de3086c7fc958d690db547ed04c82b281123c5d8c112b420c0f0c051c6b2d",
+      "file": "skills/web-application/api/mobile/analyze/SKILL.md"
+    }
+  ]
+}

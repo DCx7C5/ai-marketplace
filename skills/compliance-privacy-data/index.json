@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-privacy-data",
+      "path": "compliance-privacy-data",
+      "description": "-| | High | 12 | Financial Data Protection | j.smith@contoso.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e465fe26e0693817a736c413bfc5a1c9de971d8b605e32e1a080dd8bf91a4de4a1ce78d827e6ef2b407cd38e4e9b8ba0978ae0e45b09d248d9dbe1c187e0f6c3",
+      "file": "skills/compliance-privacy-data/SKILL.md"
+    }
+  ]
+}

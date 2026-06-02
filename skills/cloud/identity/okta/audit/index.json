@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "identity-okta-audit",
+      "path": "cloud/identity/okta/audit",
+      "description": "This skill covers implementing Okta as a centralized identity provider for cloud environments, configuring SSO integration with AWS, Azure, and GCP, deploying phishing- resistant MFA with Okta FastPas",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "a7dbfc8baec6ef85e8b6d1dfb2965adec48ea8d9ee9c88022c5b4e923550c4a54d169d8579793884ff9990decff5774e50b6f0257fd98b1de247faa3bc0f8437",
+      "file": "skills/cloud/identity/okta/audit/SKILL.md"
+    }
+  ]
+}

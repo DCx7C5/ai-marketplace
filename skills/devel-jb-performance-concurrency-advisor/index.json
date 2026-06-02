@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-performance-concurrency-advisor",
+      "path": "devel-jb-performance-concurrency-advisor",
+      "description": "A bad run suggests generic tuning knobs with no evidence, no tradeoffs, and no way to confirm success.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "e97fd13ef8e1d0458a485d00595db5793ab0d27b2562149148e865715df45ba4adc6371ca96c54037068338be9d5bb39f2bd96ad83b08fc663a64b435c9ec3b8",
+      "file": "skills/devel-jb-performance-concurrency-advisor/SKILL.md"
+    },
+    {
+      "name": "agents",
+      "description": "skill directory index",
+      "sha512": "6f63d21158834e67b1b016119b8136d383945e803b44995b2eee759313a3f57461f354797c21b3a9e61b2b4c97fb616922f6b4e485d614c205712d008a62492f",
+      "file": "skills/devel-jb-performance-concurrency-advisor/agents/index.json"
+    }
+  ]
+}

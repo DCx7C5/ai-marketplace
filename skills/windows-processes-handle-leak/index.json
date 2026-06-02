@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "windows-processes-handle-leak",
+      "path": "windows-processes-handle-leak",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "f9da4e627eab7b9526cd1fc47a62ee414d5d889ffcab93c5d142d246c3f5c05f7dc806c8f2c497f817197b06bb4a2daba1858b21325465700db8493c70cf5423",
+      "file": "skills/windows-processes-handle-leak/SKILL.md"
+    }
+  ]
+}

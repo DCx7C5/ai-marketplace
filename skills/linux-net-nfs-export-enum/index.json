@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-net-nfs-export-enum",
+      "path": "linux-net-nfs-export-enum",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8da4daee8e99806288b9c90ddeeb35a34951b3a35f8c1b746ac5a7b71b76e1e63ad9f262c6872503a01b9a44c0e371ceff60d6a3212776bb365e697a2be698c1",
+      "file": "skills/linux-net-nfs-export-enum/SKILL.md"
+    }
+  ]
+}

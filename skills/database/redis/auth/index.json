@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "bypass",
+      "description": "skill directory index",
+      "sha512": "06535cfb10150041410374f5eea7c93eddd059f9a62fb754ef13734c3f35b8701a3b019bf65c05a3480c1362ec8f817bb89c5c43accaf1a6be3ed8cc8d2ff57a",
+      "file": "skills/database/redis/auth/bypass/index.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "devel-jb-vueuse-functions",
+      "path": "devel-jb-vueuse-functions",
+      "description": "| | [`useSound`](https://github.com/vueuse/sound#examples) | Play sound effects reactively.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "1329ac1b88e33134e0c0a8eedead37fb057af5b6b79e4b03c8386c8c3bd7a5005e18c4e93ef45aaa264ef0823def686a25123d496c9344b3391ee9e13d03564f",
+      "file": "skills/devel-jb-vueuse-functions/SKILL.md"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "7983b118325570888e0c9f547c67ce42297a781080c73d1ed037f45b6d7a5c77dfd02be6be5ef0ad436d2ba5410b6c0bbbec9a2f04a07766ff4ad23d6d7bd34c",
+      "file": "skills/devel-jb-vueuse-functions/references/index.json"
+    }
+  ]
+}

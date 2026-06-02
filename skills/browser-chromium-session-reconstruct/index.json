@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "browser-chromium-session-reconstruct",
+      "path": "browser-chromium-session-reconstruct",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "06cd6a82709b7bbe2ca1ca630edf51140040759e19155b882e157457fc3eeb8256d6906ab0675c076f9c36e04a25db456d8c00f71436892efe87b9f1f04f502f",
+      "file": "skills/browser-chromium-session-reconstruct/SKILL.md"
+    }
+  ]
+}

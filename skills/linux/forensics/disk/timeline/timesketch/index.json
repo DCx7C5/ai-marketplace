@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "exploit",
+      "description": "skill directory index",
+      "sha512": "739e6126ea5341480fb84f5dcb55be62d9f0415ccbd879f67f38905977f97e802a92f3441e39824468b8655f0ba6c437034dc90c98f4210c3521efbf28261887",
+      "file": "skills/linux/forensics/disk/timeline/timesketch/exploit/index.json"
+    }
+  ]
+}

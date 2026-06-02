@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-supply-audit",
+      "path": "soc/hunting/supply/audit",
+      "description": "Hunt for supply chain compromise indicators including trojanized software updates, compromised dependencies, unauthorized code modifications, and tampered build artifacts.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "de86ce52f208d88cc809252ab4925c7cf6e14ec25b630266af313308eb49f819cc4576da15761263335cffad3f0031fc874bd45295617327b3f0ae8934dc13b0",
+      "file": "skills/soc/hunting/supply/audit/SKILL.md"
+    }
+  ]
+}

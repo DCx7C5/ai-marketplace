@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-analysis-slack-recover",
+      "path": "linux/forensics/disk/analysis/slack/recover",
+      "description": "Examine file system slack space, MFT entries, USN journal, and alternate data streams to recover hidden data and reconstruct file activity on NTFS volumes.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "963dcfe952e33db5f7a93f38ce23864ae701f03d40ab879400eb35a8339ea4a05698a51f8d40f61952a2d249ae4cbce437fc3c3ab15059d89b3af27cc6967fc1",
+      "file": "skills/linux/forensics/disk/analysis/slack/recover/SKILL.md"
+    }
+  ]
+}

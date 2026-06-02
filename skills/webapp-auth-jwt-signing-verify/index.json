@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-auth-jwt-signing-verify",
+      "path": "webapp-auth-jwt-signing-verify",
+      "description": "Webapp Auth Jwt Signing Verify.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "4775fbaa2b371842199398f9025d2793083c575556dda5d5a030d50136295e6b7a19376b0f97a6460894cdeaffd5f66f70d348ec421761fe25b3bd961d655b5a",
+      "file": "skills/webapp-auth-jwt-signing-verify/SKILL.md"
+    }
+  ]
+}

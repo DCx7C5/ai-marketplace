@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "soc-wazuh-detection",
+      "path": "soc-wazuh-detection",
+      "description": "JSON report with agent inventory, alert statistics, rule coverage, and logtest validation results.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "3d6336fdc51fabfb0dd22510fc9f98a0b5dd886ad6859cc188a71a0a429a56168675a365a1d087241551efb63feb74d5414930f8e36ad79f95aba639cea2feb6",
+      "file": "skills/soc-wazuh-detection/SKILL.md"
+    }
+  ]
+}

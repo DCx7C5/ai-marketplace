@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "db-sqlite-artifact",
+      "path": "db-sqlite-artifact",
+      "description": "See [SKILL taxonomy](../../TAXONOMY.md) for more details.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "42be6d2b76d58f8b68ca227a7ffe2ba6b210e05bd64265bbb2320c6bb30d8a6492d33b9eeed7b38e37e0f3772613fffc5112415990841647d0a723be258d491f",
+      "file": "skills/db-sqlite-artifact/SKILL.md"
+    }
+  ]
+}

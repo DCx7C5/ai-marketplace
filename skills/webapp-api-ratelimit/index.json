@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "webapp-api-ratelimit",
+      "path": "webapp-api-ratelimit",
+      "description": "- Rakuten SixthSense API Rate Limiting: https://sixthsense.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "8b0eb466dcd7ea79480532c4691543a15ac20bf6894fe07c4ec686266494852c7834ab86f02d88f7d64e406999b78a39c06c1591696549d18049837c5324fcc0",
+      "file": "skills/webapp-api-ratelimit/SKILL.md"
+    }
+  ]
+}

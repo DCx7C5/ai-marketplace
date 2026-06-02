@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "assets",
+      "description": "skill directory index",
+      "sha512": "8631ef1c42c589d13ddd710d10effbee0992c08dcc43643804e24fd63d82d4b9034f404c7902ef6ee06c2f93aa6cf536568d32f3d3ee2a787eed18d5e9f56b36",
+      "file": "skills/identity/rbac/assets/index.json"
+    },
+    {
+      "name": "entitlement",
+      "description": "skill directory index",
+      "sha512": "dbdd0377c363aa636837672f8d3c82f43240cdaf1d06b1109ef2ee704bfd6050c441eded9385948b24b2f956da050017be09357cdf4970bee84eb4a1cc1847d4",
+      "file": "skills/identity/rbac/entitlement/index.json"
+    },
+    {
+      "name": "identity",
+      "description": "skill directory index",
+      "sha512": "c5a46e48631be8c34053c5ea476114efc4a5b213859ca427e95321e88c55e51980083457404678b0279a49d1cbda035b0143ab00bb4d16476285489c3f0a16bd",
+      "file": "skills/identity/rbac/identity/index.json"
+    },
+    {
+      "name": "references",
+      "description": "skill directory index",
+      "sha512": "c164c3492b08f64bc43de009953d370d5bc504d460739512bb3670a5877d71546cc964dd3100cb73a61076e5454aa5a135990f458e1199fdef9ce59bd4a6adfa",
+      "file": "skills/identity/rbac/references/index.json"
+    },
+    {
+      "name": "sailpoint",
+      "description": "skill directory index",
+      "sha512": "2801f18cc741bd575b49b36a992af835966baab0756b4ab572e89a2d57db449916cec13b660776ff4ddf2ec6eaa985c3da730f9ebb2eee224a2a29357317dedc",
+      "file": "skills/identity/rbac/sailpoint/index.json"
+    },
+    {
+      "name": "scripts",
+      "description": "skill directory index",
+      "sha512": "58768091e3f0c73a678908f992a984cbea473a668043e26f2edd42e23614ce733791767ede0eaedc57f5904ddd3817e5ebad2597b098c5108faeda4c88efdaed",
+      "file": "skills/identity/rbac/scripts/index.json"
+    }
+  ]
+}

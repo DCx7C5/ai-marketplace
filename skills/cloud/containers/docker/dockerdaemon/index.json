@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "harden",
+      "description": "skill directory index",
+      "sha512": "01a4c9fdc03aaa68a2aaff0b48ee8ad3d0cca9940dbbb16475ea0b20fd6ef3bdacf5f9d1782365fdab6f62e410f410893f24315742bd4a6a92cef8be5634a85b",
+      "file": "skills/cloud/containers/docker/dockerdaemon/harden/index.json"
+    }
+  ]
+}

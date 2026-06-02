@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "chrome-cache-recover",
+      "path": "browser/chrome/cache/recover",
+      "description": "Recover cached web content, images, scripts, and API responses from Chrome's disk cache using ChromeCacheView and cache parsing tools for forensic reconstruction.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "40205d9746ac9cc7a09a4373efd36dd15ae417a0f3f2c1e0bb7b452f07624fa324064512cdb726821e808f14907ed268b2df6091d0c471fb6e8fe92597bdb3b7",
+      "file": "skills/browser/chrome/cache/recover/SKILL.md"
+    }
+  ]
+}

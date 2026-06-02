@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "linux-log-sysartifacts-persist",
+      "path": "linux-log-sysartifacts-persist",
+      "description": "Linux Log Sysartifacts Persist.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "cec6a3f0f8039698b0526dd6b63feff5cd41dedfb184ac1288805cb5827c367aa6e8be5d258a467bc22c700aaa90148e7af236dd3246f921f775e8474060782c",
+      "file": "skills/linux-log-sysartifacts-persist/SKILL.md"
+    }
+  ]
+}

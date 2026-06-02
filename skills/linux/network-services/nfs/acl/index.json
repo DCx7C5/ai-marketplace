@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "7aab87ace6ff9df3ef87f333c658e43a57d9c7f01de936283c2918bab40020de87669451464c12ca96166e44f4238b05b16ba21ab200d98021c27100d2b0b3d1",
+      "file": "skills/linux/network-services/nfs/acl/audit/index.json"
+    }
+  ]
+}

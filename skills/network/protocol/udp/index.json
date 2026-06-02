@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "amplification",
+      "description": "skill directory index",
+      "sha512": "0315c764aa39fac7fa9740c9d597c4f6c4f091c25319e3e4fe0c6bfb045874b6b233f8ccd58aed5c3c07034ad48714cfc0a7406aecb502fa46de3a20220a18a6",
+      "file": "skills/network/protocol/udp/amplification/index.json"
+    }
+  ]
+}

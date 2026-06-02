@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "module",
+      "description": "skill directory index",
+      "sha512": "b6e49729ab84dd6baa485b0a6fc697a95294dcc6deb591bd340e970bd73a54e01b46327aa60297439fcd101d9706d7880e66fbbf390afe5b3bc8446754e28129",
+      "file": "skills/linux/identity/pam/module/index.json"
+    },
+    {
+      "name": "stack",
+      "description": "skill directory index",
+      "sha512": "2d3fb9d48b9695371efbd6cdcab8de356e7a3413e06be9e284e5e230a80a9d6caf5e4051cc8f3bda733cf3875d01d76e8cdacfe294efcd6d3c0cb0b700ed34b8",
+      "file": "skills/linux/identity/pam/stack/index.json"
+    }
+  ]
+}

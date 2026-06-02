@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "baseline",
+      "description": "skill directory index",
+      "sha512": "cc48500ca03d4775095bd13d09ab037866a699f52b40f6bbd18fb5f89aef799f9d58e52236665962b5b9abf100495c8926caa3bf3fc0eb855995f2889d7cde43",
+      "file": "skills/network/traffic/anomaly/baseline/index.json"
+    }
+  ]
+}

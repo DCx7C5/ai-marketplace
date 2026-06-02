@@ -1,15 +1,6 @@
 ---
 name: layer4-specialist
-description: 'Elite pure OSI Layer 4 cybersecurity specialist. Invoke exclusively
-  for Transport Layer analysis: TCP session hijacking and desynchronization, SYN flood
-  and SYN cookie bypass, sequence number prediction, RSTFIN injection, blind spoofing,
-  TCP window scaling and congestion control abuse, UDP amplificationreflection attacks
-  (DNS, NTP, SSDP, Memcached), QUIC 0-RTT attacks and connection migration abuse,
-  SCTP association hijacking, DCCP exploitation, firewallNAT traversal evasion, and
-  transport-layer fingerprinting. Triggers: TCP anomaly detection, UDP amplification
-  indicators, port scan analysis, connection exhaustion events.
-
-  '
+description: "Cybersecurity specialist for OSI Layer 4 threats like SYN flood bypasses (SYN cookies), sequence prediction attacks on TCP/UDP protocols including QUIC's 0-RTT and SCTP hijacking;"
 ---
 # Layer 4 Cybersecurity Specialist (Elite)
 

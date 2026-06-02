@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "forensics-disk-filecarving-photorec-detect",
+      "path": "linux/forensics/disk/filecarving/photorec/detect",
+      "description": "Recover deleted files from disk images and storage media using PhotoRec's file signature-based carving engine regardless of file system damage.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "5b634f33ab68d4f87506c440b7d6c925aa18bd404c64c8f5c047d8283a3ca79524bba7547365194c7a7d57f3ea55be24ee3d38919b0e6a223b20ce2edd5ee446",
+      "file": "skills/linux/forensics/disk/filecarving/photorec/detect/SKILL.md"
+    }
+  ]
+}

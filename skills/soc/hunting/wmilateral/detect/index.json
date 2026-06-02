@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "hunting-wmilateral-detect",
+      "path": "soc/hunting/wmilateral/detect",
+      "description": "Detect WMI-based lateral movement by analyzing Windows Event ID 4688 process creation and Sysmon Event ID 1 for WmiPrvSE.exe child process patterns, remote process execution, and WMI event subscriptio",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "7d63400a5e3e26cc3a73b1a00c8c4e78b0c37016068ffa83cb8c7bba9f312cb97a2e16643c8e1ec833432308407af8474f405cea4c3343d3c1759bd07ebd4582",
+      "file": "skills/soc/hunting/wmilateral/detect/SKILL.md"
+    }
+  ]
+}

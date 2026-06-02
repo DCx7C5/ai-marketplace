@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "compliance-soc2-auditprep",
+      "path": "compliance-soc2-auditprep",
+      "description": "Compliance Soc2 Auditprep.",
+      "domain": "cybersecurity",
+      "model": "sonnet",
+      "sha512": "ec211d20df3ea708643f23c33115d4dc1c916252166fac996ec458b1c720da9be53c1caaaafeac0e9e3b72a2fb9aed5849d76a981868a8ce0541bc4a991489b9",
+      "file": "skills/compliance-soc2-auditprep/SKILL.md"
+    }
+  ]
+}

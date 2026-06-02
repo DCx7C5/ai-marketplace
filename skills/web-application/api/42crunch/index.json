@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "agents": [],
+  "skills": [
+    {
+      "name": "audit",
+      "description": "skill directory index",
+      "sha512": "01f58d40591108d8d52ae961e18948375e4bbff54fb837a5030cfdfe9f36476fb2d99f1f2865396439c97e7a68fd5ede4a27d0d60865122f335ed107c059f474",
+      "file": "skills/web-application/api/42crunch/audit/index.json"
+    }
+  ]
+}
