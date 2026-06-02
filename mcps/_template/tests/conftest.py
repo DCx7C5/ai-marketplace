@@ -41,7 +41,7 @@ async def async_client() -> AsyncGenerator[Any, None]:
     Create an async HTTP client for testing.
     
     This is a template fixture. Replace with actual async HTTP client
-    (e.g., httpx.AsyncClient) for your specific implementation.
+    (e.g., aiohttp.ClientSession) for your specific implementation.
     
     Yields:
         Async client instance
