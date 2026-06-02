@@ -1,0 +1,97 @@
+name: Sync Marketplace
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'agents/**'
+      - 'skills/**'
+      - 'rules/**'
+      - 'teams/**'
+      - 'workflows/**'
+      - 'mcps/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agents/**'
+      - 'skills/**'
+      - 'rules/**'
+      - 'teams/**'
+      - 'workflows/**'
+      - 'mcps/**'
+
+jobs:
+  sync:
+    name: Regenerate indexes and counters
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      version: ${{ steps.semver.outputs.version }}
+      tag: ${{ steps.semver.outputs.version_tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect semantic version
+        id: semver
+        uses: PaulHatch/semantic-version-action@v5
+        with:
+          branch: main
+          tag_prefix: v
+          major_pattern: "BREAKING CHANGE:"
+          minor_pattern: "feat:"
+          patch_pattern: "fix:|chore:"
+          format: "${major}.${minor}.${patch}"
+          bump_each_commit: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Regenerate index.json tree
+        run: python3 scripts/generate_index.py
+
+      - name: Update README counters
+        run: python3 scripts/update_counters.py
+
+      - name: Commit changes (if any)
+        if: github.event_name == 'push'
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            git add index.json agents/index.json skills/index.json rules/index.json teams/index.json workflows/index.json mcps/index.json README.md
+            git commit -m "chore: sync marketplace indexes and counters" || echo "Nothing to commit"
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create release tag
+        if: github.event_name == 'push' && steps.commit.outputs.changed == 'true'
+        run: |
+          git tag -a "${{ steps.semver.outputs.version_tag }}" -m "Release ${{ steps.semver.outputs.version }}" || echo "Tag already exists"
+          git push origin "${{ steps.semver.outputs.version_tag }}" || echo "Push tag failed"
+
+      - name: Comment on PR with changes
+        if: github.event_name == 'pull_request' && !cancelled()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const changes = require('child_process').execSync('git diff --name-only HEAD~1 HEAD').toString().trim().split('\n');
+            
+            const indexFiles = changes.filter(f => f.includes('index.json') || f === 'README.md');
+            if (indexFiles.length > 0) {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: '✅ Marketplace indexes and counters have been updated:\n- ' + indexFiles.join('\n- ')
+              });
+            }

@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "workflows": [
+    {
+      "name": "phase-workflow",
+      "description": "",
+      "sha512": "a24d882f6955c0d297e6ff93538b236877406b812a8091f176008152bc393a6bbf73b2d281b6672968fb7435cd12a02c1f4917e8cd0fbfe59283efcd89917768",
+      "file": "workflows/phase-workflow.md"
+    },
+    {
+      "name": "task-workflow",
+      "description": "",
+      "sha512": "cf6f1809f46d56c52506806dc8e20291f3ec3cfeb833d3c61360fa7d31fd2fce765739e3ac4e8c1035d94014a79121e00b96a253ea3f268920b2fbb075f15379",
+      "file": "workflows/task-workflow.md"
+    },
+    {
+      "name": "todo-workflow",
+      "description": "",
+      "sha512": "00b33f29b03e47a435dfeae1ca8e967276f5b63ffd3fd5322b5f99816c859fbf664e23c05ecc2fb310613ee97e07145b1618512485ab9ae7476f391f95612c4c",
+      "file": "workflows/todo-workflow.md"
+    }
+  ]
+}

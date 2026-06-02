@@ -1,0 +1,318 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "rules": [
+    {
+      "name": "arch-module-order",
+      "description": "",
+      "sha512": "861741da9a0c23de6db093d9c8e1077fbfd5eba2756a6e07e1a7ae060205b42313267ab944bbb4cb2d4f8eeb754b59b408a184d8367756b8933465513a6c4ed6",
+      "file": "rules/arch-module-order.md"
+    },
+    {
+      "name": "arch-no-deletion",
+      "description": "",
+      "sha512": "08444a3a26259bbda9524728047eacf86fcc30b07c76a5348fc7d378f575b113dc7c34f98182f25514573c8af9df53e68f8f21b4d88b7f2341df234d5875b91f",
+      "file": "rules/arch-no-deletion.md"
+    },
+    {
+      "name": "arch-phases",
+      "description": "",
+      "sha512": "5699ab5bf7ef64de4d82656509bbe793e765c95c34d2839ec296ca234282ca64b9c13e41134826d62800e04f64f5255945f7ed182b8fd83ffe7c67f60f5efe4b",
+      "file": "rules/arch-phases.md"
+    },
+    {
+      "name": "arch-plan-venv",
+      "description": "",
+      "sha512": "d6a279930756e6283c680a89c183536b7bbeef07a9aec320fc6db3cf144bd2cccfc2d8d5515b54a88c98c6b94da001473c84cb157569f26e8c15557e278763e2",
+      "file": "rules/arch-plan-venv.md"
+    },
+    {
+      "name": "arch-source",
+      "description": "",
+      "sha512": "7097329d90b3d961dc46f50468a133c9d85c9cb1ee5b48185fec0515d938942c43b934e1dc969b15b19ab2d316681859cf48a95fdf645089ece42aeb5db9c264",
+      "file": "rules/arch-source.md"
+    },
+    {
+      "name": "code-announce-completions",
+      "description": "",
+      "sha512": "80feb0dc7a9f778f50b15ff7149bc092362d0203014190f8107d6be01d6b9516f6c75481086affa30713aceeeba5ad8c870e9bb8ae77a930bb42802d003fa575",
+      "file": "rules/code-announce-completions.md"
+    },
+    {
+      "name": "code-base-emitter",
+      "description": "",
+      "sha512": "fca41432dba59e107716229e2ce3098694d673cd707890019df0898d731f516cb579f6142c4c914f5e2c6828f29473f8d0e3c83521ccad76fc29802102722d69",
+      "file": "rules/code-base-emitter.md"
+    },
+    {
+      "name": "code-chat",
+      "description": "",
+      "sha512": "6983d113e5ad5477b6dd3348528fe1ecc440b0e9e75f90ffbbfd5d31f8e394299fca32ac6d1c2b5dedb529480cb1cd13939f681396495f30fc79307c67120e4b",
+      "file": "rules/code-chat.md"
+    },
+    {
+      "name": "code-dataclass-legacy",
+      "description": "",
+      "sha512": "93de072bb6f3e497a733e76da44ba74b74e3a25ada410da96b2dde1cf5672d6ef20da5ceaa328f6c85bc465bd9042550a71de3af6e7ddf1814a436dedc43faf2",
+      "file": "rules/code-dataclass-legacy.md"
+    },
+    {
+      "name": "code-explicit-imports",
+      "description": "",
+      "sha512": "1fcbd85bb39fe6808bed8f528755ff6a6d78d16b2520bd8a19150c1b114f554049ed12b67d4a493855cb22dc8936e9fb6d119c7f8b65508d84214683938dc3c6",
+      "file": "rules/code-explicit-imports.md"
+    },
+    {
+      "name": "code-hook-split",
+      "description": "",
+      "sha512": "d918d251c123e7a25d8858f602642810193f2a522603a0daf95b6de50660362a5f3205c91d8e0ecb81ef6f2bf3e448c95af1e8f60a423d1bc2536c71acc46593",
+      "file": "rules/code-hook-split.md"
+    },
+    {
+      "name": "code-no-any-comments",
+      "description": "",
+      "sha512": "61cd8ab6f049229d091dd58794b194d7cac8a7433a324a8ef4ed3369f1e66cd64f0e028f7d39696249a395b1e920b53887b63386437a01928495afbd805362ce",
+      "file": "rules/code-no-any-comments.md"
+    },
+    {
+      "name": "code-no-bare-exception",
+      "description": "",
+      "sha512": "fc4cd5592257bf3517210159f5b3b454fcc23b76631a3c2d68109f600f86b5991d45389eb4c599a8695f0e1b0b12694944c222eca6b52836976abb3d42081b45",
+      "file": "rules/code-no-bare-exception.md"
+    },
+    {
+      "name": "code-no-coauthored-by",
+      "description": "",
+      "sha512": "3261b9c8985c3006687d3d549ff7d574e5b5e3e349ff3c9d8e5214f8fa35cc367d5716dc6d38574f0789eb00b6d95bb48099d8770f991a2efb9e6a4954ff1407",
+      "file": "rules/code-no-coauthored-by.md"
+    },
+    {
+      "name": "code-no-future-annotations",
+      "description": "",
+      "sha512": "4711104601cd33e0418cf7c7776147546ddbce519d634615f4de6eb727601e6c19bd819e5b80614d9f9ce681f98eb5409ffbbd831965bf2a083228c8bd540b40",
+      "file": "rules/code-no-future-annotations.md"
+    },
+    {
+      "name": "code-no-global",
+      "description": "",
+      "sha512": "7960694c70586afdc4a5dc8da0a338b2410357fc3ed886d9933469dd42ec8a09ba9aec9e6f6b05954bff29ffaaee4d2572d94f313e933ee84d4fa34f3810ad06",
+      "file": "rules/code-no-global.md"
+    },
+    {
+      "name": "code-no-import-try",
+      "description": "",
+      "sha512": "07e410a128ad4591f02ff16575b5d60a8a1d98c44253b5986d235c8a0ab6cd49d5e69a7ac68c98ae64a879fc3c57fee6c7d3aff6df6d90a18c777ff39d663877",
+      "file": "rules/code-no-import-try.md"
+    },
+    {
+      "name": "code-no-quoted-annotations",
+      "description": "",
+      "sha512": "3d833a435a0fd9d5a41160b5056e632955059ef428d52eff71a73b7adfab408968a371dffe3bb1e510cc33a875c2e98b0e1a25b3b25526db051798ba9cc49d61",
+      "file": "rules/code-no-quoted-annotations.md"
+    },
+    {
+      "name": "code-oop-practices",
+      "description": "",
+      "sha512": "166f7d747d9b435a4d0f22b74083ffb1cf2c4814cf3ff169bc19e427bd79ee258aad0925d3cae3147dd6f370fe2d2cdfeb5bf992f038a854921b5b1bb1cf4983",
+      "file": "rules/code-oop-practices.md"
+    },
+    {
+      "name": "code-prefer-async",
+      "description": "",
+      "sha512": "2d9b811b6e054d4790cd33092d0ce29b81c1c0228d17237728a0425928054562c1dd07617c0bb154cf324a7619a4c93953974670bc6a3ab4c194de5fd8ef43b6",
+      "file": "rules/code-prefer-async.md"
+    },
+    {
+      "name": "code-singleton-meta",
+      "description": "",
+      "sha512": "1cc98fdedf8582174924bb4bb5d3074d92943d46fb825e8c4657aad0cc6e3f400d338ff10cbef493942fb4c1ace5c84395b3a09c30bee552defe8323e0a032c9",
+      "file": "rules/code-singleton-meta.md"
+    },
+    {
+      "name": "code-stack-choices",
+      "description": "",
+      "sha512": "81b18d4cd4f3e18d99b284668126a2a3942169d987ec997a154060b2542a1ec319bbb30bd4461b80d467f63a1ba2af590f13d8d8f3dd1c9c5a00137eb06131d5",
+      "file": "rules/code-stack-choices.md"
+    },
+    {
+      "name": "css-plan-start",
+      "description": "",
+      "sha512": "35de61106f1c38b60702e30ea79c6ea89243769fabe958adfe10cced5151297ff884570ad3f8a625962f15125967061e3f56c1768d80a8dc052944f475aec4bc",
+      "file": "rules/css-plan-start.md"
+    },
+    {
+      "name": "env-dependency-analyzer",
+      "description": "",
+      "sha512": "9bfd1c3375f494c9831ce99f0f0f83a9c2575b2c286fc1c0b0f3abd89d0aef993becad1beefce33caa9176306b4d5e91cef5d9c4a44f2ba76bc5f1c7aa4145bd",
+      "file": "rules/env-dependency-analyzer.md"
+    },
+    {
+      "name": "env-docker-db",
+      "description": "",
+      "sha512": "27f4b8d1ae87d6f6895001199e3768cdaf1d7f82fca97c7620666c7c18c66f694c4f4729c767b09d020b31cc5114a4b026b0801fb1cc9cd78f356383f4e52a0a",
+      "file": "rules/env-docker-db.md"
+    },
+    {
+      "name": "env-fix-violations",
+      "description": "",
+      "sha512": "654cc8e4d02352e08ceb663c78611d886516267a8f99e90c82adab4abb56f43c5d98cd47ddddb6ec8832a90ebb86ad6d74ae2bc29c8f736da003c99d932dbeec",
+      "file": "rules/env-fix-violations.md"
+    },
+    {
+      "name": "env-manage-py",
+      "description": "",
+      "sha512": "e04364a642b4d1a20cf2d977136815787bd25ac8b3cac30ce78d3f31600743f9f8638644a95c345a95aa34461b6993e9f68bed9851dbbbf36f7b47caa0afe108",
+      "file": "rules/env-manage-py.md"
+    },
+    {
+      "name": "env-session-db",
+      "description": "",
+      "sha512": "6b264f175ed3305a928397edb891509d812ad124f64e0d3afda3d926fba7f296b7a7f7d0032db86f8e747c08c2f6bd7574353c3e61121275695096d810e4f77c",
+      "file": "rules/env-session-db.md"
+    },
+    {
+      "name": "env-venv",
+      "description": "",
+      "sha512": "d5aa19640d180600be8c109ee114d5d63ce6dd71aaa958418907c1debdffa7d7c00820e7499d8aa2cfd66b814879263177dec141d6b5ce5096803c91c32862bb",
+      "file": "rules/env-venv.md"
+    },
+    {
+      "name": "env-workingdir",
+      "description": "",
+      "sha512": "25b70d31b8d48583423f1799762bbc2c93662ef72eb3a6826854da585323690f8a90cf9bcb60e6a74500efb6fb2dde66d1cd039d7e316f43faa29069362c800d",
+      "file": "rules/env-workingdir.md"
+    },
+    {
+      "name": "init-project-prompt",
+      "description": "",
+      "sha512": "8e24c0b9ce764e1182e4d001ffa0714a02eff4cdae70f619c6448d9ffcb69f18e7d4032ceead48b369925f76a61fa5057659f6345ce76230bf2f38dc818f947c",
+      "file": "rules/init-project-prompt.md"
+    },
+    {
+      "name": "plan-auto-exec",
+      "description": "",
+      "sha512": "c8a5b958f8fdcf10a1546cffc8dd805e47f0ad622a7f2f5f381ce51545e28a2beff0c6d62056f50aa01708856f5708691b9f69a57bcf9f303ddc285233b350bc",
+      "file": "rules/plan-auto-exec.md"
+    },
+    {
+      "name": "plan-git-track",
+      "description": "",
+      "sha512": "3fd13bbff0bb63eb7fbca81dc4f7bd6d910aaa828983ad49f74aa446be1926d8c6c85650f641e8ce191553aa3e0a75b3b1aa9eb4410cff9f799a41b12fc73be3",
+      "file": "rules/plan-git-track.md"
+    },
+    {
+      "name": "plan-local-sync",
+      "description": "",
+      "sha512": "29c949ae7d9bc407f3630be3c629c6a3801ad5f7532df3ede48fc5b895832f2ac98fc4f584f5c73520dbd4990b915837b8fbebaca7eb42502d55e52dd954382a",
+      "file": "rules/plan-local-sync.md"
+    },
+    {
+      "name": "plan-no-backcompat",
+      "description": "",
+      "sha512": "55e7eec336a075037e073dd586f71d82bc898c2bc9f4175413350c64ed62e1c49b628f47d63bddfeaf429152c83b38f3d29fb930bfac05e1a00adb87aba7a18d",
+      "file": "rules/plan-no-backcompat.md"
+    },
+    {
+      "name": "plan-plan-md",
+      "description": "",
+      "sha512": "399de50197e56c7129c6068bcfc8996b40cc5d918417293c4c83ecba8f30b161bffca78ecb81466cad4f0478f95ec72b5c8f07859795327a8cef59ad052276c5",
+      "file": "rules/plan-plan-md.md"
+    },
+    {
+      "name": "plan-preserve-patterns",
+      "description": "",
+      "sha512": "1f8973cd6b052d264d90249b595673adb1b00380b6b813d276f8af872b49c0e4cbc108f0bdffea51f5ed52918203f2be16d10d22ab02c2f6e1bc55b1cbdab7fc",
+      "file": "rules/plan-preserve-patterns.md"
+    },
+    {
+      "name": "plan-runtime",
+      "description": "",
+      "sha512": "a096828781bc44ccdd3a1afbc40b5023879e52d61481235b42c990595fc1a39b8da15317f6430bc9ee0abdf3cfe51be5547e1e8f0d0a4df82c0522cf46d1f635",
+      "file": "rules/plan-runtime.md"
+    },
+    {
+      "name": "prompt-submitted",
+      "description": "",
+      "sha512": "a2a5e99531ff02f7be4b49c93f9334b52ffa60ffb55bf1cecfb9064d01f4b7892a8eabf36a3885ba3f2d21dc46c323c2553b100e203a9d3f0ff9b057f71e7163",
+      "file": "rules/prompt-submitted.md"
+    },
+    {
+      "name": "python-developer-agent-change",
+      "description": "",
+      "sha512": "7d7cde7ae3858bdd4f70f2d815eff93c6a5e7df65a82c492ac74ca315409aba87cdf6f105da9d7748a220f370764cc40537523b561399464f31bbaae4d766039",
+      "file": "rules/python-developer-agent-change.md"
+    },
+    {
+      "name": "resume-or-start-working-prompt",
+      "description": "",
+      "sha512": "334bf61404c2fb226603cd405e6b395daf3519f1c635404badbbd87124985ea95a6a8c89a2589a510366092571fe2a7753ea5493a6206314729a74ad3952e446",
+      "file": "rules/resume-or-start-working-prompt.md"
+    },
+    {
+      "name": "rule-enforce-prompt",
+      "description": "",
+      "sha512": "9e1bd43f0751da50c502a56801667b4b9f3a4157e7582141662cc6c0c189c65e0494172a06f9b1b27d6e210a478f0a65d79d06e5303a69d7c3b463ebc7039cc4",
+      "file": "rules/rule-enforce-prompt.md"
+    },
+    {
+      "name": "session-start",
+      "description": "",
+      "sha512": "8a7d1e448e0f9bbffdb54062696ee0d14ce265a5f8e6bb66327ca79d39805228a8bf9e8fa5e7f6710c8e786822758d907c481efef9df2dc674fa98f7a338905d",
+      "file": "rules/session-start.md"
+    },
+    {
+      "name": "sev-critical-inviolable",
+      "description": "",
+      "sha512": "9d5bc7298f8d69a4a67c5fe786acb4e205ca2f2d2aa0a3430de8dbb027387c8451a57b6926c3b003bee48f535679f8e8660c1b758f209fd231dc4e1b3b28c17c",
+      "file": "rules/sev-critical-inviolable.md"
+    },
+    {
+      "name": "sev-critical",
+      "description": "",
+      "sha512": "f3255b9d957cac258749897d2844a075437091ad73cb1161c4f945f53168ddd06417eaef704c75a04fa9236522f044f79481396e7a35df6ba55e56a15c8d15f7",
+      "file": "rules/sev-critical.md"
+    },
+    {
+      "name": "todo-task-phase-prompt",
+      "description": "",
+      "sha512": "03b3b586d93bf82526563a64363a5b5e397b4c39e666e5cd266d8f3f5becf4cb9fd2f30c43f642f5ba5740437604b6815ffe4a98ce2475f56d9004959ac6d9c4",
+      "file": "rules/todo-task-phase-prompt.md"
+    },
+    {
+      "name": "wf-atomic-commits",
+      "description": "",
+      "sha512": "5d08253d83cb353a8823ee455f879fdf48410bdf255ab550cded7571c5077c7ca96fe5a3aad04e8b29bad24148b62729949d6e55ae6b5772d4de53f44e61d728",
+      "file": "rules/wf-atomic-commits.md"
+    },
+    {
+      "name": "wf-memory-checkpoints",
+      "description": "",
+      "sha512": "02347e63e115054c12dcee4e3c225b69d56a6c262d4d5caf7f7a5a3d58f58adefa65aff8fc6e1f3cc1367462d2a135955649e43de663284ec7423a5b72982e69",
+      "file": "rules/wf-memory-checkpoints.md"
+    },
+    {
+      "name": "wf-no-hallucinate",
+      "description": "",
+      "sha512": "21be6ad6c434bf132ebb16b3d56b3ad4449566d1594318947c41f59786583213b9f98af450339d62a73a36d4c7ec6d9b92f04b6276df102572fd432a94de278f",
+      "file": "rules/wf-no-hallucinate.md"
+    },
+    {
+      "name": "wf-plan-sync",
+      "description": "",
+      "sha512": "4953f3d4546e10defcb4490116d9b8a0c81f891f3e6b9c433297089d8f00c6c7417ae3dc2d0ed10b5e2557a89af4955d41838cb8be6e4a7633fd50b3e7b7a039",
+      "file": "rules/wf-plan-sync.md"
+    },
+    {
+      "name": "wf-read-workflow",
+      "description": "",
+      "sha512": "b81ae6edd4b3840a27e61de54aba132591ed64d61adffd51b23b4c76fb866161a97865c5ffe30b2a97cdab7a46fcc5bb7efb301566e8be11864daaddf2d2d498",
+      "file": "rules/wf-read-workflow.md"
+    },
+    {
+      "name": "wf-refresh-memory",
+      "description": "",
+      "sha512": "b91a46cbee43205f69e65fe2f54fd0e0f7ab7966f7088b62c3e42048601ed86cf5539d6498ce805de0bc95c8111d778b5dfb5e3d4d3f2c305f04075de897c268",
+      "file": "rules/wf-refresh-memory.md"
+    }
+  ]
+}

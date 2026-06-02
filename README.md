@@ -2,7 +2,7 @@
 
 > A production-grade marketplace of **1,064 Claude skills** and **38 AI agents** — unified discovery, instant install, enterprise-ready.
 
-[![Agents](https://img.shields.io/badge/agents-38-blue?style=flat-square)](agents/)
+[![Agents](https://img.shields.io/badge/agents-36-blue?style=flat-square)](agents/)
 [![Skills](https://img.shields.io/badge/skills-1%2C117-green?style=flat-square)](skills/)
 [![Status](https://img.shields.io/badge/status-production-success?style=flat-square)]()
 [![License](https://img.shields.io/badge/license-MIT-purple?style=flat-square)](LICENSE)
@@ -16,9 +16,9 @@
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| [**Agents**](agents/) | 38 | Claude Code sub-agents (31 templates + AgentFactory + 6 sub-agents) |
-| [**Skills**](skills/) | 1,117 | AI skills in a recursive catalog tree under skills/ |
-| [**MCPs**](mcps/) | 6 | Model Context Protocol servers (csscore, canvas, memory, template, playwright, crypto) |
+| [**Agents**](agents/) | 36 | Claude Code sub-agents (31 templates + AgentFactory + 6 sub-agents) |
+| [**Skills**](skills/) | 1,139 | AI skills in a recursive catalog tree under skills/ |
+| [**MCPs**](mcps/) | 18 | Model Context Protocol servers (csscore, canvas, memory, template, playwright, crypto) |
 | [**Search Index**](search-index.json) | 1,064+ | Full-text searchable asset catalog |
 
 ---

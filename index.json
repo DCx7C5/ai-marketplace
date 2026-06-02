@@ -5,7 +5,7 @@
     {
       "name": "agents",
       "description": "Agents directory index",
-      "sha512": "ef8963d4329345c632746504619739f60280ad0cf8c601bb0cc79337a283ba66f8b6e593feb693ac41934a075703a569840e0a82bec58b209fc79cf35a6ed1bd",
+      "sha512": "f1b639b20c85f90016526dbb67515824c1267d52d9284470a68911577ca094f6cb817a74df1f60bdf7b07b9cfc03288b28d37549dc5f8320aec965a807db6b2a",
       "file": "agents/index.json"
     }
   ],
@@ -15,6 +15,38 @@
       "description": "Skills directory index",
       "sha512": "19cc3fc669a36fe4a9bc9675cf86187115f2144e7c896f9f8c6de33d353ac0fe88b0a8b890ec24faffe273bb6e513ab94c9fc365048ba7b9602125dc7593d7c7",
       "file": "skills/index.json"
+    }
+  ],
+  "rules": [
+    {
+      "name": "rules",
+      "description": "Rules directory index",
+      "sha512": "db0aeee69d4e108bdb49cf9bff36d9e8743c1a135fc5cbabd86da3a8a732bf04e181097da5582ca8c48f6dbfbfbdcede0dd54aa7b8363317386fc24dbd37bcb4",
+      "file": "rules/index.json"
+    }
+  ],
+  "teams": [
+    {
+      "name": "teams",
+      "description": "Teams directory index",
+      "sha512": "7c855c8eaf93423ea02b347e8cf653280fadebb6f79f0755409e9f2ae64be2acaed9060f365514080ee85c75227edc70c8507470988e7c0d1f95db6975017d84",
+      "file": "teams/index.json"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "workflows",
+      "description": "Workflows directory index",
+      "sha512": "1e1ca370f9611203282bd2c921576bcc0f43fc5e023c10ee92b95cd82cfd631ed82ebe616166ef98ca6fb16e56a59a2d78499ba98a395a204c63bd238452953c",
+      "file": "workflows/index.json"
+    }
+  ],
+  "mcps": [
+    {
+      "name": "mcps",
+      "description": "MCPs directory index",
+      "sha512": "0d88a9cc0de1c8226e0000785f0ce630c3ef0a24a299b245cb53400c4c55e2801a02c809e1bd2a8548ebe405cc8b09fefd761706e29d59ac2100d7ac17cf135d",
+      "file": "mcps/index.json"
     }
   ]
 }

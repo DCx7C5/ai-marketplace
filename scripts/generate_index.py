@@ -99,6 +99,20 @@ def skill_entry(skill_md: Path) -> dict[str, object]:
     return entry
 
 
+def markdown_entry(md_path: Path) -> dict[str, object]:
+    """Generic entry for markdown files (rules, teams, workflows)."""
+    content = md_path.read_text()
+    fm = parse_frontmatter(content)
+    desc = resolve_block_scalar(fm.get("description", ""), content, "description")
+    entry: dict[str, object] = {
+        "name": fm.get("name", md_path.stem),
+        "description": desc[:200],
+        "sha512": file_sha512(md_path),
+        "file": str(md_path.relative_to(ROOT)),
+    }
+    return entry
+
+
 def child_index_entry(child_dir: Path, kind: str) -> dict[str, object]:
     entry: dict[str, object] = {
         "name": child_dir.name,
@@ -156,6 +170,41 @@ def write_skills_index(directory: Path) -> None:
     (directory / "index.json").write_text(json.dumps(catalog, indent=2) + "\n")
 
 
+def write_generic_index(directory: Path, kind: str) -> None:
+    """Generic index for flat directories of markdown files (rules, teams, workflows)."""
+    items: list[dict[str, object]] = []
+    catalog: dict[str, object] = {
+        "version": "1.0.0",
+        "updated": UPDATED,
+        kind: items,
+    }
+
+    for md in sorted(directory.glob("*.md")):
+        if md.name == "README.md":
+            continue
+        items.append(markdown_entry(md))
+
+    (directory / "index.json").write_text(json.dumps(catalog, indent=2) + "\n")
+
+
+def write_mcps_index(directory: Path) -> None:
+    """Index for MCP directories (MCPs can be files or subdirectories)."""
+    mcps: list[dict[str, object]] = []
+    catalog: dict[str, object] = {
+        "version": "1.0.0",
+        "updated": UPDATED,
+        "mcps": mcps,
+    }
+
+    # Index MCP subdirectories
+    for child in sorted(
+        p for p in directory.iterdir() if p.is_dir() and not p.name.startswith(".") and not p.name.startswith("__")
+    ):
+        mcps.append(child_index_entry(child, "mcp"))
+
+    (directory / "index.json").write_text(json.dumps(catalog, indent=2) + "\n")
+
+
 def main() -> None:
     root_catalog = {
         "version": "1.0.0",
@@ -176,10 +225,46 @@ def main() -> None:
                 "file": "skills/index.json",
             }
         ],
+        "rules": [
+            {
+                "name": "rules",
+                "description": "Rules directory index",
+                "sha512": directory_sha512(ROOT / "rules"),
+                "file": "rules/index.json",
+            }
+        ],
+        "teams": [
+            {
+                "name": "teams",
+                "description": "Teams directory index",
+                "sha512": directory_sha512(ROOT / "teams"),
+                "file": "teams/index.json",
+            }
+        ],
+        "workflows": [
+            {
+                "name": "workflows",
+                "description": "Workflows directory index",
+                "sha512": directory_sha512(ROOT / "workflows"),
+                "file": "workflows/index.json",
+            }
+        ],
+        "mcps": [
+            {
+                "name": "mcps",
+                "description": "MCPs directory index",
+                "sha512": directory_sha512(ROOT / "mcps"),
+                "file": "mcps/index.json",
+            }
+        ],
     }
 
     write_agents_index(ROOT / "agents")
     write_skills_index(ROOT / "skills")
+    write_generic_index(ROOT / "rules", "rules")
+    write_generic_index(ROOT / "teams", "teams")
+    write_generic_index(ROOT / "workflows", "workflows")
+    write_mcps_index(ROOT / "mcps")
 
     (ROOT / "index.json").write_text(json.dumps(root_catalog, indent=2) + "\n")
     print("✓ index.json tree regenerated")

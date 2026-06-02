@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02",
+  "mcps": [
+    {
+      "name": "_template",
+      "description": "mcp directory index",
+      "sha512": "2fbb519dfdb3921867bbe166f67d2fab646ed80ffc3cbc8b984ec179b220204490236dd9700648dd28586595035e7e9e276c79ba62b00a0642407e028b944c54",
+      "file": "mcps/_template/index.json"
+    },
+    {
+      "name": "brave_stealth_profile",
+      "description": "mcp directory index",
+      "sha512": "9df17e656bf00e82f05eb737f3282590b6754c96820593cf0030f8ead9dc190a83a24cb61ea4b67cd7ca390605d36fb6c4d50278b028b56a6ad2ca72a0641fe9",
+      "file": "mcps/brave_stealth_profile/index.json"
+    },
+    {
+      "name": "canvas-mcp",
+      "description": "mcp directory index",
+      "sha512": "4751fee8e935577c243921fa1ca1d8138cf187a3ee9ae17e61790dda9f2a7f4e20e25e86db8fd0158506be8093b3c4b42c3472580f655343260221d5606422f8",
+      "file": "mcps/canvas-mcp/index.json"
+    },
+    {
+      "name": "create-tempemail-mcp",
+      "description": "mcp directory index",
+      "sha512": "7734666bb3f1c6a9a20962e2abee19950537a0aa10092131e95fb029f09ac3661aeff551211192ce761fd5cc8404fd558008bac0a107b6c57455ecf463c0c538",
+      "file": "mcps/create-tempemail-mcp/index.json"
+    },
+    {
+      "name": "csscore-mcp",
+      "description": "mcp directory index",
+      "sha512": "73c2a773afeea159ba638995121c42df16f1909c4850a821e1a1268319caf3bb6b767fff1d5bde56a111664aba03d67b3713e4dc86b765db7734df792876f1d6",
+      "file": "mcps/csscore-mcp/index.json"
+    },
+    {
+      "name": "dystopian-crypto-mcp",
+      "description": "mcp directory index",
+      "sha512": "b56adeaa742d9a6afa94381d33c243c5efcbb4daa434ae7a054f7e55e88a6283102c1bd93a523c34fd26a82cbce42e948d566284d6858a8c92cbc6ddadbaf069",
+      "file": "mcps/dystopian-crypto-mcp/index.json"
+    },
+    {
+      "name": "from-copilot-canvas-mcp",
+      "description": "mcp directory index",
+      "sha512": "66b6e004e289f867510ffef1563614aa42755db3a41a5f54e8b0a9a1f23a0b0b91cd19e6762a54860d0e33d3bc5dc1c8ac74ba703cd1d917af27d0faca0f1b29",
+      "file": "mcps/from-copilot-canvas-mcp/index.json"
+    },
+    {
+      "name": "from-copilot-csscore-mcp",
+      "description": "mcp directory index",
+      "sha512": "f95f8dd62ecbde41bb198b17d348f36dd495c06ad044032f42f4bab46f56484a72bceaeeaabf1cb559b3e5886f7360918dcba1798a29795be81c8a62450b83cc",
+      "file": "mcps/from-copilot-csscore-mcp/index.json"
+    },
+    {
+      "name": "from-copilot-dystopian-crypto-mcp",
+      "description": "mcp directory index",
+      "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+      "file": "mcps/from-copilot-dystopian-crypto-mcp/index.json"
+    },
+    {
+      "name": "from-copilot-ollama-local-mcp",
+      "description": "mcp directory index",
+      "sha512": "3822636919e95b58b3185412bed944c973db1048a73b356267d19fa646c37b525bb4f9162cb07da7961d4efbd9d55c45aa58273a0b2fd4c5b645763cc1988391",
+      "file": "mcps/from-copilot-ollama-local-mcp/index.json"
+    },
+    {
+      "name": "local-mcps",
+      "description": "mcp directory index",
+      "sha512": "9328aad2461872588334c9253a395f63a88fe9e0ec163237df86f3bd52a676aba306514ac578132dad441ecddf804f366057e7f9f5f9fee0cec00c9f067a8701",
+      "file": "mcps/local-mcps/index.json"
+    },
+    {
+      "name": "memory-mcp",
+      "description": "mcp directory index",
+      "sha512": "cfe9b105d7a52fedb984ab47db41966ef34afc71293f484113ae1893af1532730af748239ac01e2a02f00b165f3b2f8c72a727cb4bcb5242fade53e1bfa67d64",
+      "file": "mcps/memory-mcp/index.json"
+    },
+    {
+      "name": "ollama-local-mcp",
+      "description": "mcp directory index",
+      "sha512": "3e4656864836de27eb6764e29f8fcac8d25759b15d93390781f18b6d3a4c2119ba8b300cdbcd84c60170ad7ced19af88f44b95eae5a2bcca01a6ca2748c1713e",
+      "file": "mcps/ollama-local-mcp/index.json"
+    },
+    {
+      "name": "playwright-mcp",
+      "description": "mcp directory index",
+      "sha512": "4e317f077ed72e96d0180b9cea08e3101ea189a7f7f48f9f4697a4d613b65d4804f9f429e578e446a2c9f756c466569b3ff6556e534ddf3f16ef6e4c3e332054",
+      "file": "mcps/playwright-mcp/index.json"
+    },
+    {
+      "name": "playwright-stealth-mcp",
+      "description": "mcp directory index",
+      "sha512": "2b303728d364a381b5eaeb6ab0654ff79b5b86089df2410618d88677afd8c8f8727157269830809d3e8ac4aae09583b9c16a8815abc1772bb7d6e7092edab0ac",
+      "file": "mcps/playwright-stealth-mcp/index.json"
+    },
+    {
+      "name": "sources",
+      "description": "mcp directory index",
+      "sha512": "1d2773bf97f39816ae97413e8405bad52b376b8175a8e9395fc8cac0f8045a483a5306da8f1b18509f2dcdf21fde061eefabb1a1b201aed963f2eba33150482e",
+      "file": "mcps/sources/index.json"
+    },
+    {
+      "name": "template-mcp",
+      "description": "mcp directory index",
+      "sha512": "e17d6567a883c2821b0346f30a481c92e49e19ed0db0fc013c9237f610ed3f5ccf870391d9d4eea16ae81d573f5a27c924fd53b3407d2b197eb7e74ad9846104",
+      "file": "mcps/template-mcp/index.json"
+    },
+    {
+      "name": "token-optimization-mcp",
+      "description": "mcp directory index",
+      "sha512": "68eafb725c3b58b5c17c24a7d77b646dd658ad7e88c4aefdcd46e945b9cbf7470098f4f888b21dc1a26dbec69fb160224d6addb215924f8a633ae82a7d2cc7cc",
+      "file": "mcps/token-optimization-mcp/index.json"
+    }
+  ]
+}
