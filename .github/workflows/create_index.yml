@@ -22,7 +22,7 @@ jobs:
         run: python3 scripts/generate_index.py && sha512sum index.json | cut -d' ' -f1 > index.json.sha512
 
       - name: Commit updated index tree
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: regenerate index tree [skip ci]"
           file_pattern: '**/index.json*'
