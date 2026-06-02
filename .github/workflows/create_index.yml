@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate recursive index tree
         run: python3 scripts/generate_index.py && sha512sum index.json | cut -d' ' -f1 > index.json.sha512
