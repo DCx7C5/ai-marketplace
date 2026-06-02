@@ -34,6 +34,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ secrets.DYSTOPIANBOT_CLIENT_ID }}
+          private-key: ${{ secrets.DYSTOPIANBOT_KEY }}
+          owner: ${{ github.repository_owner }}
+
       - name: Detect semantic version
         id: semver
         uses: PaulHatch/semantic-version-action@v5
@@ -60,6 +68,11 @@ jobs:
       - name: Commit changes (if any)
         if: github.event_name == 'push'
         id: commit
+        env:
+          GIT_AUTHOR_NAME: GitHub Action
+          GIT_AUTHOR_EMAIL: action@github.com
+          GIT_COMMITTER_NAME: GitHub Action
+          GIT_COMMITTER_EMAIL: action@github.com
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -68,15 +81,17 @@ jobs:
           else
             git add index.json agents/index.json skills/index.json rules/index.json teams/index.json workflows/index.json mcps/index.json README.md
             git commit -m "chore: sync marketplace indexes and counters" || echo "Nothing to commit"
-            git push
+            git push "https://x-access-token:${{ steps.app_token.outputs.token }}@github.com/${{ github.repository }}.git" HEAD:main
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Create release tag
         if: github.event_name == 'push' && steps.commit.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
           git tag -a "${{ steps.semver.outputs.version_tag }}" -m "Release ${{ steps.semver.outputs.version }}" || echo "Tag already exists"
-          git push origin "${{ steps.semver.outputs.version_tag }}" || echo "Push tag failed"
+          git push --tags "https://x-access-token:${{ steps.app_token.outputs.token }}@github.com/${{ github.repository }}.git" || echo "Push tag failed"
 
       - name: Comment on PR with changes
         if: github.event_name == 'pull_request' && !cancelled()
