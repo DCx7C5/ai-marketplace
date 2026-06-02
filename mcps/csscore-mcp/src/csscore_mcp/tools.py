@@ -2038,7 +2038,7 @@ def _tavily_key() -> str | None:
 
 
 async def _perplexity_search(query: str, limit: int) -> list[dict[str, Any]]:
-    import httpx
+    import aiohttp
     key = _perplexity_key()
     payload = {
         "model": "sonar",
@@ -2047,14 +2047,15 @@ async def _perplexity_search(query: str, limit: int) -> list[dict[str, Any]]:
         "return_related_questions": False,
         "return_citations": True,
     }
-    async with httpx.AsyncClient(timeout=20) as client:
-        r = await client.post(
+    timeout = aiohttp.ClientTimeout(total=20)
+    async with aiohttp.ClientSession(timeout=timeout) as client:
+        async with client.post(
             "https://api.perplexity.ai/chat/completions",
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
             json=payload,
-        )
-        r.raise_for_status()
-        data = r.json()
+        ) as r:
+            r.raise_for_status()
+            data = await r.json()
     citations = data.get("citations", [])
     answer = data.get("choices", [{}])[0].get("message", {}).get("content", "")
     results = [
@@ -2067,16 +2068,17 @@ async def _perplexity_search(query: str, limit: int) -> list[dict[str, Any]]:
 
 
 async def _serper_search(query: str, limit: int) -> list[dict[str, Any]]:
-    import httpx
+    import aiohttp
     key = _serper_key()
-    async with httpx.AsyncClient(timeout=15) as client:
-        r = await client.post(
+    timeout = aiohttp.ClientTimeout(total=15)
+    async with aiohttp.ClientSession(timeout=timeout) as client:
+        async with client.post(
             "https://google.serper.dev/search",
             headers={"X-API-KEY": key, "Content-Type": "application/json"},
             json={"q": query, "num": limit},
-        )
-        r.raise_for_status()
-        data = r.json()
+        ) as r:
+            r.raise_for_status()
+            data = await r.json()
     organic = data.get("organic", [])
     return [
         {"title": item.get("title", ""), "url": item.get("link", ""), "snippet": item.get("snippet", ""), "engine": "serper", "rank": i + 1}
@@ -2085,16 +2087,17 @@ async def _serper_search(query: str, limit: int) -> list[dict[str, Any]]:
 
 
 async def _brave_search(query: str, limit: int) -> list[dict[str, Any]]:
-    import httpx
+    import aiohttp
     key = _brave_key()
-    async with httpx.AsyncClient(timeout=15) as client:
-        r = await client.get(
+    timeout = aiohttp.ClientTimeout(total=15)
+    async with aiohttp.ClientSession(timeout=timeout) as client:
+        async with client.get(
             "https://api.search.brave.com/res/v1/web/search",
             headers={"Accept": "application/json", "X-Subscription-Token": key},
             params={"q": query, "count": limit, "result_filter": "web"},
-        )
-        r.raise_for_status()
-        data = r.json()
+        ) as r:
+            r.raise_for_status()
+            data = await r.json()
     items = data.get("web", {}).get("results", [])
     return [
         {"title": item.get("title", ""), "url": item.get("url", ""), "snippet": item.get("description", ""), "engine": "brave", "rank": i + 1}
@@ -2103,15 +2106,16 @@ async def _brave_search(query: str, limit: int) -> list[dict[str, Any]]:
 
 
 async def _tavily_search(query: str, limit: int) -> list[dict[str, Any]]:
-    import httpx
+    import aiohttp
     key = _tavily_key()
-    async with httpx.AsyncClient(timeout=15) as client:
-        r = await client.post(
+    timeout = aiohttp.ClientTimeout(total=15)
+    async with aiohttp.ClientSession(timeout=timeout) as client:
+        async with client.post(
             "https://api.tavily.com/search",
             json={"api_key": key, "query": query, "max_results": limit, "search_depth": "basic"},
-        )
-        r.raise_for_status()
-        data = r.json()
+        ) as r:
+            r.raise_for_status()
+            data = await r.json()
     items = data.get("results", [])
     return [
         {"title": item.get("title", ""), "url": item.get("url", ""), "snippet": item.get("content", "")[:300], "engine": "tavily", "rank": i + 1}

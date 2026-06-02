@@ -2,10 +2,12 @@
 
 from __future__ import annotations
 
+from collections.abc import Awaitable, Callable
 from dataclasses import dataclass
+import json
 from typing import Any, Literal
 
-import httpx
+import aiohttp
 
 from .config import FALLBACK_MODEL, OLLAMA_BASE_URL, PRIMARY_MODEL, REQUEST_TIMEOUT_SECONDS
 
@@ -17,21 +19,118 @@ class OllamaError(RuntimeError):
 
 
 @dataclass(slots=True)
+class MockTransportResponse:
+    """Lightweight test response payload for injected transport handlers."""
+
+    status: int
+    json_data: dict[str, Any] | None = None
+    text: str = ""
+    lines: list[str] | None = None
+
+
+TransportHandler = Callable[
+    [str, str, dict[str, Any] | None],
+    Awaitable[MockTransportResponse] | MockTransportResponse,
+]
+
+
+@dataclass(slots=True)
 class OllamaClient:
     """Small async wrapper for Ollama local API."""
 
     base_url: str = OLLAMA_BASE_URL
     timeout_seconds: float = REQUEST_TIMEOUT_SECONDS
-    transport: httpx.AsyncBaseTransport | None = None
+    transport: TransportHandler | None = None
 
-    def _client(self) -> httpx.AsyncClient:
-        return httpx.AsyncClient(base_url=self.base_url, timeout=self.timeout_seconds, transport=self.transport)
+    async def _transport_response(
+        self,
+        *,
+        method: str,
+        path: str,
+        payload: dict[str, Any] | None,
+    ) -> MockTransportResponse | None:
+        if self.transport is None:
+            return None
+
+        result = self.transport(method, path, payload)
+        if hasattr(result, "__await__"):
+            result = await result
+        return result
+
+    async def _request(
+        self,
+        *,
+        method: str,
+        path: str,
+        payload: dict[str, Any] | None = None,
+    ) -> tuple[int, str, dict[str, Any]]:
+        mocked = await self._transport_response(method=method, path=path, payload=payload)
+        if mocked is not None:
+            data = mocked.json_data or {}
+            text = mocked.text or (json.dumps(data) if data else "")
+            return mocked.status, text, data
+
+        timeout = aiohttp.ClientTimeout(total=self.timeout_seconds)
+        async with aiohttp.ClientSession(base_url=self.base_url, timeout=timeout) as client:
+            async with client.request(method, path, json=payload) as response:
+                text = await response.text()
+                status = response.status
+
+        data: dict[str, Any] = {}
+        if text:
+            try:
+                parsed = json.loads(text)
+                if isinstance(parsed, dict):
+                    data = parsed
+            except json.JSONDecodeError:
+                data = {}
+
+        return status, text, data
+
+    async def _stream_generate(
+        self,
+        *,
+        payload: dict[str, Any],
+    ) -> tuple[int, str, list[dict[str, Any]]]:
+        mocked = await self._transport_response(method="POST", path="/api/generate", payload=payload)
+        if mocked is not None:
+            lines = mocked.lines or ([mocked.text] if mocked.text else [])
+            events: list[dict[str, Any]] = []
+            for line in lines:
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if isinstance(event, dict):
+                    events.append(event)
+            return mocked.status, mocked.text, events
+
+        timeout = aiohttp.ClientTimeout(total=self.timeout_seconds)
+        events: list[dict[str, Any]] = []
+        async with aiohttp.ClientSession(base_url=self.base_url, timeout=timeout) as client:
+            async with client.post("/api/generate", json=payload) as response:
+                if response.status >= 400:
+                    return response.status, await response.text(), []
+
+                async for raw_line in response.content:
+                    line = raw_line.decode("utf-8").strip()
+                    if not line:
+                        continue
+                    try:
+                        event = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+                    if isinstance(event, dict):
+                        events.append(event)
+
+                return response.status, "", events
 
     async def list_models(self) -> dict[str, Any]:
-        async with self._client() as client:
-            response = await client.get("/api/tags")
-            response.raise_for_status()
-            payload = response.json()
+        status, text, payload = await self._request(method="GET", path="/api/tags")
+        if status >= 400:
+            raise OllamaError(text)
 
         models = payload.get("models", [])
         names = [m.get("name", "") for m in models if m.get("name")]
@@ -57,11 +156,9 @@ class OllamaClient:
         if max_tokens is not None:
             payload["options"]["num_predict"] = max_tokens
 
-        async with self._client() as client:
-            response = await client.post("/api/generate", json=payload)
-            if response.status_code >= 400:
-                raise OllamaError(response.text)
-            data = response.json()
+        status, text, data = await self._request(method="POST", path="/api/generate", payload=payload)
+        if status >= 400:
+            raise OllamaError(text)
 
         return {
             "model": data.get("model", model),
@@ -91,27 +188,25 @@ class OllamaClient:
         if max_tokens is not None:
             payload["options"]["num_predict"] = max_tokens
 
+        status, text, events = await self._stream_generate(payload=payload)
+        if status >= 400:
+            raise OllamaError(text)
+
         chunks: list[str] = []
         event_count = 0
         final_model = model
         done = False
         done_reason: str | None = None
 
-        async with self._client() as client:
-            async with client.stream("POST", "/api/generate", json=payload) as response:
-                response.raise_for_status()
-                async for line in response.aiter_lines():
-                    if not line:
-                        continue
-                    event_count += 1
-                    event = httpx.Response(200, text=line).json()
-                    piece = event.get("response", "")
-                    if piece:
-                        chunks.append(piece)
-                    final_model = event.get("model", final_model)
-                    done = bool(event.get("done", done))
-                    if "done_reason" in event:
-                        done_reason = event.get("done_reason")
+        for event in events:
+            event_count += 1
+            piece = event.get("response", "")
+            if piece:
+                chunks.append(piece)
+            final_model = event.get("model", final_model)
+            done = bool(event.get("done", done))
+            if "done_reason" in event:
+                done_reason = event.get("done_reason")
 
         return {
             "model": final_model,
@@ -123,18 +218,23 @@ class OllamaClient:
         }
 
     async def embeddings(self, *, text: str, model: str) -> dict[str, Any]:
-        async with self._client() as client:
-            embed_response = await client.post("/api/embed", json={"model": model, "input": text})
-            if embed_response.status_code < 400:
-                payload = embed_response.json()
-                embeddings = payload.get("embeddings", [])
-                vector = embeddings[0] if embeddings else []
-                return {"model": model, "embedding": vector, "dimensions": len(vector), "raw": payload}
+        status, first_text, payload = await self._request(
+            method="POST",
+            path="/api/embed",
+            payload={"model": model, "input": text},
+        )
+        if status < 400:
+            embeddings_data = payload.get("embeddings", [])
+            vector = embeddings_data[0] if embeddings_data else []
+            return {"model": model, "embedding": vector, "dimensions": len(vector), "raw": payload}
 
-            legacy_response = await client.post("/api/embeddings", json={"model": model, "prompt": text})
-            if legacy_response.status_code >= 400:
-                raise OllamaError(legacy_response.text)
-            legacy_payload = legacy_response.json()
+        legacy_status, legacy_text, legacy_payload = await self._request(
+            method="POST",
+            path="/api/embeddings",
+            payload={"model": model, "prompt": text},
+        )
+        if legacy_status >= 400:
+            raise OllamaError(legacy_text or first_text)
 
         vector = legacy_payload.get("embedding", [])
         return {"model": model, "embedding": vector, "dimensions": len(vector), "raw": legacy_payload}

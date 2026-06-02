@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 from pydantic_settings import BaseSettings, SettingsConfigDict
-import httpx
+import aiohttp
 import random
 import string
 import re
@@ -75,16 +75,17 @@ def extract_otp(text: str) -> Optional[str]:
     return None
 
 async def get_mailtm_domain() -> str:
-    async with httpx.AsyncClient() as client:
-        r = await client.get("https://api.mail.tm/domains")
-        r.raise_for_status()
-        return random.choice(r.json()["hydra:member"])["domain"]
+    async with aiohttp.ClientSession() as client:
+        async with client.get("https://api.mail.tm/domains") as r:
+            r.raise_for_status()
+            data = await r.json()
+            return random.choice(data["hydra:member"])["domain"]
 
 async def get_1secmail_domains() -> List[str]:
-    async with httpx.AsyncClient() as client:
-        r = await client.get("https://www.1secmail.com/api/v1/?action=getDomainList")
-        r.raise_for_status()
-        return r.json()
+    async with aiohttp.ClientSession() as client:
+        async with client.get("https://www.1secmail.com/api/v1/?action=getDomainList") as r:
+            r.raise_for_status()
+            return await r.json()
 
 # ================== TEMPAMAIL.COM PLAYWRIGHT ==================
 async def init_playwright():
@@ -157,10 +158,13 @@ async def create_temp_email(
         domain = await get_mailtm_domain()
         email = f"{random_string(12)}@{domain}"
         password = random_string(16)
-        async with httpx.AsyncClient() as client:
-            await client.post("https://api.mail.tm/accounts", json={"address": email, "password": password})
-            token_resp = await client.post("https://api.mail.tm/token", json={"address": email, "password": password})
-            token = token_resp.json()["token"]
+        async with aiohttp.ClientSession() as client:
+            async with client.post("https://api.mail.tm/accounts", json={"address": email, "password": password}) as account_resp:
+                account_resp.raise_for_status()
+            async with client.post("https://api.mail.tm/token", json={"address": email, "password": password}) as token_resp:
+                token_resp.raise_for_status()
+                token_data = await token_resp.json()
+                token = token_data["token"]
         return {"provider": "mailtm", "email": email, "password": password, "token": token}
 
     # 1secmail
@@ -179,11 +183,11 @@ async def create_temp_email(
 
     # guerrillamail
     else:
-        async with httpx.AsyncClient() as client:
-            r = await client.get("https://api.guerrillamail.com/ajax.php", params={"f": "get_email_address", "lang": "en"})
-            r.raise_for_status()
-            data = r.json()
-            return {"provider": "guerrillamail", "email": data["email_addr"], "password": None, "token": data["sid_token"]}
+        async with aiohttp.ClientSession() as client:
+            async with client.get("https://api.guerrillamail.com/ajax.php", params={"f": "get_email_address", "lang": "en"}) as r:
+                r.raise_for_status()
+                data = await r.json()
+                return {"provider": "guerrillamail", "email": data["email_addr"], "password": None, "token": data["sid_token"]}
         return None
 
 

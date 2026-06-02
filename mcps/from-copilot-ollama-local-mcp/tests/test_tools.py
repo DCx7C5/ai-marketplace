@@ -2,31 +2,31 @@
 
 from __future__ import annotations
 
-import json
+from typing import Any
 
-import httpx
 import pytest
 
 from ollama_local_mcp.config import FALLBACK_MODEL, PRIMARY_MODEL
-from ollama_local_mcp.ollama import OllamaClient, assist, build_assist_prompt, chat, embeddings, health
+from ollama_local_mcp.ollama import MockTransportResponse, OllamaClient, assist, build_assist_prompt, chat, embeddings, health
 
 
 @pytest.mark.asyncio
 async def test_list_models_and_health_ok() -> None:
-    def handler(request: httpx.Request) -> httpx.Response:
-        if request.url.path == "/api/tags":
-            return httpx.Response(
+    def handler(method: str, path: str, payload: dict[str, Any] | None) -> MockTransportResponse:
+        del method, payload
+        if path == "/api/tags":
+            return MockTransportResponse(
                 200,
-                json={
+                json_data={
                     "models": [
                         {"name": PRIMARY_MODEL},
                         {"name": FALLBACK_MODEL},
                     ]
                 },
             )
-        raise AssertionError(f"unexpected route: {request.url.path}")
+        raise AssertionError(f"unexpected route: {path}")
 
-    client = OllamaClient(transport=httpx.MockTransport(handler))
+    client = OllamaClient(transport=handler)
     models = await client.list_models()
     assert models["count"] == 2
     assert PRIMARY_MODEL in models["model_names"]
@@ -41,17 +41,17 @@ async def test_list_models_and_health_ok() -> None:
 async def test_chat_uses_fallback_on_missing_model() -> None:
     call_count = {"generate": 0}
 
-    def handler(request: httpx.Request) -> httpx.Response:
-        if request.url.path == "/api/generate":
+    def handler(method: str, path: str, payload: dict[str, Any] | None) -> MockTransportResponse:
+        del method
+        if path == "/api/generate" and payload is not None:
             call_count["generate"] += 1
-            payload = json.loads(request.content.decode("utf-8"))
             if payload["model"] == PRIMARY_MODEL:
-                return httpx.Response(404, text="model not found, please pull")
+                return MockTransportResponse(404, text="model not found, please pull")
             if payload["model"] == FALLBACK_MODEL:
-                return httpx.Response(200, json={"model": FALLBACK_MODEL, "response": "ok", "done": True})
-        raise AssertionError(f"unexpected request: {request.url.path}")
+                return MockTransportResponse(200, json_data={"model": FALLBACK_MODEL, "response": "ok", "done": True})
+        raise AssertionError(f"unexpected request: {path}")
 
-    client = OllamaClient(transport=httpx.MockTransport(handler))
+    client = OllamaClient(transport=handler)
     result = await chat(prompt="hello", client=client)
 
     assert result["model"] == FALLBACK_MODEL
@@ -61,14 +61,15 @@ async def test_chat_uses_fallback_on_missing_model() -> None:
 
 @pytest.mark.asyncio
 async def test_embeddings_new_and_legacy_endpoints() -> None:
-    def handler(request: httpx.Request) -> httpx.Response:
-        if request.url.path == "/api/embed":
-            return httpx.Response(404, text="not found")
-        if request.url.path == "/api/embeddings":
-            return httpx.Response(200, json={"embedding": [0.1, 0.2, 0.3]})
-        raise AssertionError(f"unexpected request: {request.url.path}")
+    def handler(method: str, path: str, payload: dict[str, Any] | None) -> MockTransportResponse:
+        del method, payload
+        if path == "/api/embed":
+            return MockTransportResponse(404, text="not found")
+        if path == "/api/embeddings":
+            return MockTransportResponse(200, json_data={"embedding": [0.1, 0.2, 0.3]})
+        raise AssertionError(f"unexpected request: {path}")
 
-    client = OllamaClient(transport=httpx.MockTransport(handler))
+    client = OllamaClient(transport=handler)
     result = await embeddings(text="abc", client=client)
     assert result["dimensions"] == 3
     assert result["embedding"] == [0.1, 0.2, 0.3]
@@ -78,14 +79,14 @@ async def test_embeddings_new_and_legacy_endpoints() -> None:
 async def test_assist_classify_constrained_output_shape() -> None:
     captured_prompt: dict[str, str] = {}
 
-    def handler(request: httpx.Request) -> httpx.Response:
-        if request.url.path == "/api/generate":
-            payload = json.loads(request.content.decode("utf-8"))
+    def handler(method: str, path: str, payload: dict[str, Any] | None) -> MockTransportResponse:
+        del method
+        if path == "/api/generate" and payload is not None:
             captured_prompt["prompt"] = payload["prompt"]
-            return httpx.Response(200, json={"model": PRIMARY_MODEL, "response": "bug", "done": True})
-        raise AssertionError(f"unexpected route: {request.url.path}")
+            return MockTransportResponse(200, json_data={"model": PRIMARY_MODEL, "response": "bug", "done": True})
+        raise AssertionError(f"unexpected route: {path}")
 
-    client = OllamaClient(transport=httpx.MockTransport(handler))
+    client = OllamaClient(transport=handler)
     result = await assist(
         operation="classify",
         text="Null pointer exception in parser",
