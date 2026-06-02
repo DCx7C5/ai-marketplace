@@ -4,250 +4,250 @@
   "agents": [
     {
       "name": "agent-factory",
-      "description": "> \"Universal agent factory. Provide any .claude/agents/*.md file as context and say 'create perfect agent'. Generates a complete, production-grade agent with rich persona, 9-chapter blueprint, self-re",
+      "description": "Create dynamic agent profiles from `.claude/agent*.md`; supports Blue, Red/Purple teams via `AgentRegistry`. Includes a comprehensive nine-chapter guide for seamless integration and rich personas deve",
       "model": "sonnet",
-      "sha512": "b32252f2825adae5c477f8f3c9965e268a214e782b3717eb9b85fe5df4a0b49656f948a80f8dfad67f796c63439acaf1f133c61c6c6cd4ddda202983071e6982",
+      "sha512": "26527df0ba0b610d6c53f2fa85c28575d8c865a8920cc96405eefeab1df923fe1446ea3521c698dada6fb8d0de62f50cd000431021027682f20ee019cb74ad35",
       "file": "agents/AGENT_FACTORY.md"
     },
     {
       "name": "audiovideo-analyst",
-      "description": "'Audio and video forensics specialist. Invoke for media metadata analysis,",
+      "description": "Audio-Video Forensics Specialist: Analyze metadata; inspect codecs/containers/timelines for deepfakes/manipulation indicators/steganography/anomalies/transcripts/subtitles/hashes/frame continuity/time",
       "model": "sonnet",
-      "sha512": "249d98676de0dd9ac4378242188a284e463d80c467f5892a71920c8f406019aab6215453c08511b85a65458721749e4349cc4d86de15b62c85cc214f6675b39d",
+      "sha512": "39b3be515aab01b24d8ba5903248ea79cb04067855c7c70e63767e06ea6b67569cef0560404fe4a3a9d2870e805ff8ec2887783e5c41bb0b0e123d7bbc36f8d5",
       "file": "agents/audiovideo-analyst.md"
     },
     {
       "name": "certificate-analyst",
-      "description": "Elite X.509  PKI forensics specialist. Invoke for certificate chain",
+      "description": "Elite X.509 forensics expert analyzes SSL/TLS issues like rogue CAs and certificate thefts; investigates Certificate Transparency logs, OCSPCRL staleness/replay, code-signing abuses\u2014triggers: TLS anom",
       "model": "sonnet",
-      "sha512": "46c2d76d6d39377cf7b8fdce8bb8d55941319b072c1051a8b3b93ed44bdbca01f7e18f77bae23fba0ff5219c99c832c9ae7b9f43e4820cabf284c033a43eb569",
+      "sha512": "930d9112e727fca6905828596d7f952fc39eb07b57bb12d8f7712fda6965954e2f61cddd12d1be6b8ca2b723743272f88f8342f4b64e0a7715426abdcf858240",
       "file": "agents/certificate-analyst.md"
     },
     {
       "name": "code-reviewer",
-      "description": "Comprehensive code review skill for TypeScript, JavaScript, Python, Swift,",
+      "description": "TypeScript/JavaScript/Python/Swift/Kotlin/Go Code Review Tool: Automated Analysis, Best Practices Check, Security Scan, Checklist Generation for Pull Requests & Feedback. Ensures Quality Standards.",
       "model": "sonnet",
-      "sha512": "cea804653cb18f7e4a3499561954838f7ef5f64cc87f3efd449f75dcd18d8bf5cd60dcf292138a210503cab088b82f51aff7daab62c31becf5d9140dc23809cd",
+      "sha512": "9662ba748ca146461fb7d8c07d988188774f55ecb53ca8e822fed04e776024cdc27a4b21a7d3293180a7a65ac3301da67fcfe1cf72598f56b66c6fbb964a749f",
       "file": "agents/code-reviewer.md"
     },
     {
       "name": "command-verifier",
-      "description": "'Pure visual command safety inspector. Receives any command and outputs",
+      "description": "Visual Safety Inspector: - Reviews & scores risky commands - Blocks harmful executions (rm -rf, bash injections) - Activates on threats like 'curl | bash',",
       "model": "sonnet",
-      "sha512": "526368701f700bf8eebde2745e14614db199c67e6083eff504febc2388475914f8435a993053778284537f08de9525acb25efd59e28034ea41efc89de0ec550c",
+      "sha512": "3c693fe436a18fea01da0e5e84ff7db85782764ae1210388a74f2fcce38a3998bee89971693d33d615d5dcc9b5fec4309df4e4668d0ab521d36a98a2ceaa8b97",
       "file": "agents/command-verifier.md"
     },
     {
       "name": "cpp-developer",
-      "description": "'C/C++ specialist \u2014 reverse engineering, exploit analysis, kernel module",
+      "description": "Expert in C/C++, specializing in reverse engineering and exploitation; offers services like binary forensics, EBIFF/BPF program review, PoC exploits development, kernel modules inspection, code review",
       "model": "sonnet",
-      "sha512": "05cc7559b1935aa26dc54c3ab68110e292404f84552b61a4e74ea0be533daab47d7aa215216928d99214c9d5b00494908d2e05dd17a2fc7eb013e407c7b42b21",
+      "sha512": "1495ee641ddb1ea05f29b310aa25aceef27336e0cc5a99866ac00ae036952312e6fe1338501f085dba35f5c99e7ef0a3b7528f593d3999fc33818cf81a277d39",
       "file": "agents/cpp-developer.md"
     },
     {
       "name": "cybersec-agent",
-      "description": "Central orchestrator for cybersecsuite APT/rootkit investigations. Accepts optional mode argument (blue|red|purple). Defaults to blue-team. Delegates to all specialist sub-agents. Triggers: any invest",
+      "description": "Orchestrates cybersecurity responses; accepts 'mode' arg for Blue/Purple/Red teams by default and delegates tasks like investigations & analyses across specialists. Triggers include threats hunts, IOC",
       "model": "sonnet",
-      "sha512": "1b4346362750332b24f081d98d026f301ba06eb28ba3007ae63cabc4432449f17d42a8b3893ee5cd6f4eeac58e7af4ff347e9910947d95699605e94f0a2b9fb5",
+      "sha512": "323514c0785706c79dcbb94684a800b37fd2c812391f1f9d741fb2d2f55027f875e2192e5da8ab8fb3eaae5609ab6f82c04c9a94f80786d694d1376a5e20e486",
       "file": "agents/cybersec-agent.md",
       "maxTurns": 50
     },
     {
       "name": "cybersec-analyst",
-      "description": "'CVE lookup, IOC analysis, MITRE ATT&CK mapping, threat intelligence",
+      "description": "CVE lookup & analysis; enrich IPs/domains/hashes/URLs with details/CVSS scores and MITRE ATT&CK mappings for APT attribution or threat intel queries using MISP/OpenCTI correlation. Triggers: CVE-YYYY-",
       "model": "sonnet",
-      "sha512": "6a9165ac30925e83cc8a1475d47e549c7ec0e6bd72ba2c2071503d6a8b8198c513cb38a5252f97ce1fea7048febbd13e3ebb826929d453d0dfb3886b01bd322a",
+      "sha512": "9c54226b9904f5c0e872bdf96d2b5a30c152f4dfcfb99ace75b057508b0ddde5e6668ca169879284306043de59d73fd7a347949affa24e0b46298e19c27769d3",
       "file": "agents/cybersec-analyst.md"
     },
     {
       "name": "filesystem-analyst",
-      "description": "'Linux filesystem forensics \u2014 timeline analysis (mtime/ctime/atime anomalies),",
+      "description": "Linux filesystem forensic tool - analyzes mtime/cctime atime changes; detects hidden/suid/sgid files and deleted items; recovers inode info & extended attributes for IOC identification during",
       "model": "sonnet",
-      "sha512": "8a8eb17464303d7b2a5f70cd3a8cb47537f3ce496e54a75c76478c0fec0947603f880890b55dc5fa9371111a842bb8420c39b6845b48a2e40bf3ec5f4ee3bfb9",
+      "sha512": "ff49bd3ca98d01e2a415c35677ad1382b64251da44f7c7f026171066553408454ff53e226c305ded2f1ed185e26b25717d9d34b1cb094e73684e0896d385b48c",
       "file": "agents/filesystem-analyst.md"
     },
     {
       "name": "firmware-analyst",
-      "description": "'Expert firmware and hardware security analyst. Invoke for UEFIBIOS analysis",
+      "description": "Expert in security analysis for hardware & firmware; detects implants/integrity issues across various platforms (UEFIBIOS, SPI flash); verifies secure boots and MOKs; examines embedded systems",
       "model": "sonnet",
-      "sha512": "d326d5377975da1652deefea2eb43a8353f506b7e7933da7aa63806f01e6a77fc4c03055d06edff0aa924e75ef8b0b8b4b794fb9d1b481f7e05b5b8d93e0801f",
+      "sha512": "c338e78e18e7943ea64eb19894231ef2a71b329e2c4102f6b8218a9b0ba8074b8f3b8e01a849b4d766406b7443716498129b19c98d414ab3d63ce0b5053c1ad4",
       "file": "agents/firmware-analyst.md"
     },
     {
       "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with high design",
+      "description": "Design high-quality frontend interfaces for various projects like websites, apps; create unique CSS/layouts avoiding generic looks using this skill set.",
       "model": "sonnet",
-      "sha512": "b0b811aa965ba5d591d7eeed1e36edab1b89270a0a971832cd0d5b08d91677e534752083799a3101d205b5b1015f8d07bdbf216d4a98a9dfeeae364636ea97ac",
+      "sha512": "6244e57cbdd7ee51e028a8be8c00ccb3ae4dcf3caab26d4941d0d44037cfebcaf906fb48f19460dbfd2917bc90168b06ad3cbe25c1cf49cc708e7d29d576125a",
       "file": "agents/frontend-design.md"
     },
     {
       "name": "kernel-analyst",
-      "description": "'Kernel module analysis, eBPF program inspection, firmware extraction,",
+      "description": "Analyze Linux kernels; detect rootkits via hooks/eBPF/C2/firmware/proc/kern symbols. Key triggers include LKM and suspicious activities related to these components.",
       "model": "sonnet",
-      "sha512": "7094055eaf190453229fa4be6bef9c4bb4821496ee43f43a0865242a22ddb2495b53df617399b573a267f62820e1c432030872f67638b4ae191b1219560883fa",
+      "sha512": "a33a8023565b106430f8dd4dd57e89a6056a8e93a06d8a80ee50240bc03e435ef30350836305198830f7a064476db1c7499bef4ea01fbab6b49172c75fe7a302",
       "file": "agents/kernel-analyst.md"
     },
     {
       "name": "layer2-specialist",
-      "description": "'Pure OSI Layer 2 cybersecurity specialist. Invoke exclusively for Data",
+      "description": "Pure OSI specialist for Data Link analysis; focuses on MAC flooding/spoofing, ARP poisoning/cache injection, VLAN hopping/stp attacks (root bridge takeover/BPDU manipulation), CDPLLDP reconnaissance. ",
       "model": "sonnet",
-      "sha512": "f86af4b5f9831005c176ac7273cdaa67dd003bff7de25bc309002cac867e3dde1e378f753a2d05b4a1420f6c965671a1318ad7f4fc9ae7af2daa2d7af3270d58",
+      "sha512": "4a36ff65e4be522b8f9cec4bd6dcd216b3a903f87badf84573680518f3c2ebfaf80b93b3e4cf264b6878645a0e34eca9a7a053b9d766a4b61859bbb38bb509ef",
       "file": "agents/layer2-specialist.md"
     },
     {
       "name": "layer3-specialist",
-      "description": "'Pure OSI Layer 3 cybersecurity specialist. Invoke exclusively for Network",
+      "description": "Pure OSI L3 specialist for network layer analysis; focuses on spoofing, source routing abuses (smurf), TTL manipulation evasion tactics like teardrop attacks and IP options",
       "model": "sonnet",
-      "sha512": "0d3acca0ceaa69d3a0fa61c8ffbc203c805f5a73ba9260a967e4f9cf6acbc99d5b28f38f408a2f9159a18d7cbb175bedfeb2bd14ffbba19d80f6d66bd70d1ab9",
+      "sha512": "7d0992c5845396312af64d7d8efc9a55ab1227f08f7a6abd01aaee9ecfc267d140d08ad80f08d8d63c4761a118bbae86523aa64d4853df782a289564aa9727a1",
       "file": "agents/layer3-specialist.md"
     },
     {
       "name": "layer4-specialist",
-      "description": "'Elite pure OSI Layer 4 cybersecurity specialist. Invoke exclusively",
+      "description": "Cybersecurity specialist for OSI Layer 4 threats like SYN flood bypasses (SYN cookies), sequence prediction attacks on TCP/UDP protocols including QUIC's 0-RTT and SCTP hijacking;",
       "model": "sonnet",
-      "sha512": "37e159eae49248a06f9516050cd8684eefc9f241bd587405d6e99655d65894cc9cfadd02f08fd69add82e3efa04ae57962fbff68b271dd7b7b8902e9d97a0793",
+      "sha512": "d11f68faac8561f6f27a092e54548321e6a4d46b22c0c36509d22c448b19a32944c4130b7050244d5ad905047def0e074c246ca8211be245e6f3a1e8b8ccd9b5",
       "file": "agents/layer4-specialist.md"
     },
     {
       "name": "layer5-specialist",
-      "description": "'Elite pure OSI Layer 5 cybersecurity specialist. Invoke exclusively",
+      "description": "Cybersecurity expert specializing in OSI Layer 5 for Session analysis; tackles issues like session hijacking (full/partial/blind), fixation/riding attacks, desynchronization/replay, and vulnerabilitie",
       "model": "sonnet",
-      "sha512": "ebd1caaa7d0d7a3a692d4dcd10da71ec09210e14ce06e91d232da06fab1203cff31ec7c7f1cdfdd576ab91f86685fd0143396d7e49eb62c4aa7aa869d5eb962e",
+      "sha512": "c91f1134fe161fb06f19d3c3373c29b1d2b6bde8b47ce08e409175a90f42384a9ad825f8864ddfbcab29d5da30c1a996e2a3a1dbb61c93486e6e94d5c0f6da3b",
       "file": "agents/layer5-specialist.md"
     },
     {
       "name": "layer6-specialist",
-      "description": "'Pure OSI Layer 6 cybersecurity specialist. Invoke exclusively for Presentation",
+      "description": "Pure OSI Layer 6 specialist for Presentation Layer analysis; focuses on Base64 decoding, URL/HTML entity vulnerabilities (Unicode charset), cryptographic flaws like padding oracles & weak",
       "model": "sonnet",
-      "sha512": "f30c5dd0716c4110373c9afc1efb298947fbe7b1913247e6f0934c88b3027bde3f2a85c5f8eaccb3b77676cddacac4daf965e0abbc6c8c43f26058fe402a2d7d",
+      "sha512": "b7b84bd948ba3c88f57aaff32788dda91e93944b7797717be6ce525d1194d46aa9feee459dce41544934158f72b39fff910afc5ec4e149ba2c04422e121aaa0f",
       "file": "agents/layer6-specialist.md"
     },
     {
       "name": "layer7-specialist",
-      "description": "'Pure OSI Layer 7 cybersecurity specialist. Invoke exclusively for Application",
+      "description": "Cybersecurity specialist for OWASP Top 10 vulnerabilities (SQLi, XSS), API security flaws like JWT issues & OAuth redirect abuses; HTTP smuggling to SSRF and business",
       "model": "sonnet",
-      "sha512": "0653414fe9fcec109d250753cdc095a6118217cd5dc2cd2c48fff34ec5a62c1fe5d079b8ca2aa55ac78ec6fe8f45985cb7c02ad021b6bda48adb9443a99f1b89",
+      "sha512": "dd676ca1daaaae7cf40b16adc607553013010a24ba0293e45eb4353b1c3567fb28ab3306f413f199a96a9ed672c50bc4aec5fa882d548f495cfb9965b6603eaa",
       "file": "agents/layer7-specialist.md"
     },
     {
       "name": "logfile-analyst",
-      "description": "'Linux log file forensics and event correlation specialist. Invoke for",
+      "description": "Linux forensic specialist analyzes syslog, web server logs; detects authentication failures/breaches, privilege escalation, sudo abuse, SSH session tracking, cron/systemd anomalies, and tampering/logg",
       "model": "sonnet",
-      "sha512": "ee67a067bdcc7d353076a1befc8681f258cb8dff5c1c0f010b53998bea30d73280bef12cc2931dafcba1650bbb751b77cc2e2d38811fdfed3d295fd2d889c861",
+      "sha512": "c75f31a69433be504a2f83a679f4545dd1af3fa9c9a5d6a0807d36c1effb28072f299d18736cc634a03caeca99ce23d12137a86bb83d222e34d10dd989d9f8f5",
       "file": "agents/logfile-analyst.md"
     },
     {
       "name": "memory-analyst",
-      "description": "'Process memory inspection, injection detection, credential extraction,",
+      "description": "Inspect and analyze system processes to detect malicious activities like rootkits (25 words). Key functions include identifying injected code or stolen credentials; used for malware",
       "model": "sonnet",
-      "sha512": "745783259c23dcfc07a539166bb55f918c6c303439d86738143c26400c8120ea62da071504b939353a2b9cd7159adc7ea899c1a222ed50d1e6ef60d96cb43fcd",
+      "sha512": "038855b17c82dd514388d1ba78d2527834aed8477dc973c3fa298db8dafdaf8dc78b52aa8b8b4e72ea35fe2c67cd028285768534ee10aa9d0f200f8c0f1400a8",
       "file": "agents/memory-analyst.md"
     },
     {
       "name": "network-analyst",
-      "description": "'Network traffic analysis, C2 detection, DNS anomalies, firewall rule",
+      "description": "Network analysis tool detects threats like C2 communication and anomalies in traffic patterns; used when observing unexpected behavior such as new inbound/outbound rules or suspicious",
       "model": "sonnet",
-      "sha512": "42e2d6d9a6d9ed878ce47a067ec37c26e0f03aa416b34f738c32cceb7ee7fd78c9de970a549470386ea7ba0665b6c3e36fd6a3b3655d253d7d3e0bcf1bc174d8",
+      "sha512": "d4a3c30d8d56f3a7e5b1db1b43c6b8c326a436968c615aeed928aa224e6cff2c2784bfcfbcad3eafd99cd078f17863377879c537b99f1e50e49e635862fa8582",
       "file": "agents/network-analyst.md"
     },
     {
       "name": "persistence-analyst",
-      "description": "'Persistence mechanism hunting \u2014 startup scripts, systemd units, cron",
+      "description": "Persistence mechanism hunting - Identifies unusual startup scripts and system components like sysd units or udev rules indicating potential malicious activity; triggers on anomalies in",
       "model": "sonnet",
-      "sha512": "b8bbc6622ef4a10202871a0ad7103c6b311b2fbf32432d5533ab68aa3cd70698ab8f0a0073cfc81c0ea8b21c84c7580a4169ea5babb6ad4d75e43e2eda92ba78",
+      "sha512": "b2a6686615094d9c5f546679f3df8b3692fa54c3b50845c745308d93480d6b0ee0960d739c55384e788c7dbae0b49ea4f560e12aee485a94a4c11f658551b882",
       "file": "agents/persistence-analyst.md"
     },
     {
       "name": "postgres-db-engineer",
-      "description": "Elite PostgreSQL Database Engineer + Professional Administrator (18+",
+      "description": "Experienced Elite PostgreSQL DBA with over 18 years in large-scale environments like FinTech and SaaS; focuses on token optimization for enhanced performance while prioritizing top-tier",
       "model": "sonnet",
-      "sha512": "33370f4881dee8806ef621968fa6dfc4e5ddbc92f4f36486aa04bc43154529746f03855f75b9f39ce155f5bef5f83c72bffd44cedd11cb0ed3cc38949c809945",
+      "sha512": "d551e2493727f1394db3987b40d74b291afdab7fc3e8e0e0bd2615fcb322eeab3dedce647e8f7e60fad25ba3562a94427c3d8b77120b47bce32e2e74002e082a",
       "file": "agents/postgres-db-engineer.md"
     },
     {
       "name": "process-analyst",
-      "description": "'Linux process forensics specialist. Invoke for live process enumeration,",
+      "description": "Linux forensic specialist tool; live process enumeration, anomaly detection (parent-child relationships), process injections identification ('ptrace abuse', hollowing). Inspects command-line/environme",
       "model": "sonnet",
-      "sha512": "fc71c0344f0dfeb19e3c5f75f71befcb11c74c16a230fedb1baae1b0a33345e8332617363c2c042d21c4fcd2f4aed483c51e493f0ecdda94a61df8c291397e07",
+      "sha512": "8c457100155a9918dd203cd48f8934a22dd6b0c5df990d3b83a89a5d3b254bc7741d7bd3699576c137fee86c0b90b379c21244d7f45121c1a8421e52e8fb85c4",
       "file": "agents/process-analyst.md"
     },
     {
       "name": "python-code-reviewer",
-      "description": "Python-specialized code reviewer for cybersecsuite. Reviews Python code across async/await, Tortoise ORM, FastAPI, Pydantic v2, cryptography (Ed25519/BLAKE2b/Argon2id), A2A protocol, uv dependency man",
+      "description": "Reviews Python code for async/await, Tortoise ORM, FastAPI; checks Pydantic v2, cryptography modules (Ed25519/BLAKE2b/Argon2id), A2A protocol with uv and pytest tools in cybersecurity context. Generat",
       "model": "sonnet",
-      "sha512": "f7671f28276463200c0f3d93e1eb3679e410df0e65c58a90818afa73a020db63b66456c752218a5bd5ebbbf06e3883e7694b7d97347c6e3cf8c2244386b4a628",
+      "sha512": "d72b087a0f19ef19ca04d235f4fb23a9156d5dc494b9a348c4f24cac9061f828f18cb9a029e30f1026d2714dcb8595c1aea4f7eb498dcf286022d4ea7662acfa",
       "file": "agents/python-code-reviewer.md",
       "maxTurns": 30
     },
     {
       "name": "python-developer",
-      "description": "'Python development specialist \u2014 write, debug, refactor, and review Python",
+      "description": "Python developer for cybersecsuite; specializes in async programming, Tortoise ORM, FastAPI, Pydantic v2, cryptography libraries (Ed25519/BLAKE2b/Argon2id), A2A protocol. Manages uv dependencies and p",
       "model": "sonnet",
-      "sha512": "f7388592fe333b03a341bf0298bc706873ddacc88a7e4dc0f0a88a321891216eebd7eaf2d2cd46158428d286f63d294484efe7a5f9b2b8de8d4e42b0047516de",
+      "sha512": "922567418a5437c83e33aecb7793b51e4767ef47f874912c21b48a6ba45dcc4ffcc6c9328bd49547a0e098d2d9fbfcdad64a78a96d6ae9a709a392ca727d6ce9",
       "file": "agents/python-developer.md"
     },
     {
       "name": "reverse-engineer",
-      "description": "'Binary reverse engineering expert. Invoke for static and dynamic analysis",
+      "description": "Expert in static/dynamic ELF/PE/Mach-O binary analysis: deobfuscation, disassembly/decompilation (IDA Pro/Ghidra/radare2), cryptographic identification from binaries; anti-analysis detection/bypass te",
       "model": "sonnet",
-      "sha512": "4cbf5bd41f5bb2f109c5379db05e4a5261eb670c7df2bc6f25cab14319c3acd2f8efeb617e762638dc7a2bfb1dca27236d69de15248551efd9b6ed924ddca587",
+      "sha512": "15607437dfee4c74c315075ad5a4efc0978b0a826e784de7afb54f85efe8979fbbbf45d385249c4e56978495641375a99061fdafbfad0e96e74fd49dd0ca8bab",
       "file": "agents/reverse-engineer.md"
     },
     {
       "name": "rubber-duck",
-      "description": "High-signal plan and implementation critic. Catches bugs, logic errors, and",
+      "description": "Critiques high-signal plans for bugs and flaws before implementation; focuses solely on correctness, security issues\u2014never comments on style or formatting details. Read-only reviewer who uncovers",
       "model": "sonnet",
-      "sha512": "d8f779b7dc1b3389d34023f13111673e7f6c2d990507c5dfd74e79523185fac034ff0089daf4f4ce1f9e6c5ea7595ba8d1681bb5298ac8d8b81779110603f9d4",
+      "sha512": "6a43e53da7eacb770f72e575702444f1106325dd74845af398fc98df27896e44c2383187e6664cc15a07e056b45f56c8d9ffeabe3758bdb93c646e9fae1cdd85",
       "file": "agents/rubber-duck.md",
       "maxTurns": 10
     },
     {
       "name": "senior-frontend",
-      "description": "Comprehensive frontend development skill for building modern, performant",
+      "description": "Build high-performance websites with modern tools like ReactJS, NextJS; includes scaffold components, optimize for speed & UX using TypeScript, Tailwind CSS. Essential skills: component creation,",
       "model": "sonnet",
-      "sha512": "12509e941ca5e0ac5738365d378b7e7339cbdd8718a53c71c4bb0d00979d2298177e92a50d00cbd13f4abe83cdd871cc9efdcb3c779e3549df366366a9e75782",
+      "sha512": "2030eb29ec4f53c2447570d4384e7e835b7aff5915fcb5fdd77ea83d628e898f5eda4f9e78c0c6c04a06007b15d0768130df5d949378857aadf4bb6e862bc539",
       "file": "agents/senior-frontend.md"
     },
     {
       "name": "settings-analyst",
-      "description": "'Linux system configuration and security settings analyst. Invoke for",
+      "description": "Analyzes Linux security configurations for sysctl parameters (ASLR, NX), SSHD config flaws, PAM policies, sudo rules abuse; checks AppArmor/SELinux status and password anomalies against CIS/Benchmarks",
       "model": "sonnet",
-      "sha512": "780d145585a6e80464c48884ca899d2d7091a80946ce83be7253f2ed648b5521a54a52ceeda47beb386d8015e71a60b4ec666bdd6db0e503e213be04208ba467",
+      "sha512": "fe14c7620715bb4eca26b92345b11b2d48b170227ad643c27d225a7d5fd698042121c69b796b44c3bcfcf3321bec571074a3106770e160dd96c28e969e0de195",
       "file": "agents/settings-analyst.md"
     },
     {
       "name": "steganography-analyst",
-      "description": "'Linux steganography detection and extraction specialist. Invoke when",
+      "description": "Linux Steganography Specialist: Detects hidden data (LSB embedding to palette manipulation) across PNG/JPG/WAV/PDF/ELF using tools like steghide and stegseek during Deep Scan/Evidence Correlation for ",
       "model": "sonnet",
-      "sha512": "7b110d656a3c2e06e430a8e55618a2d513412a7924b0f2d3c7520420a409ca6f04bc6b3dde220dde91c267820ce91667feb4dad1e12ad871d01483b934a5ccc5",
+      "sha512": "644a6313fa5d352baf4b2692a3b0768ca8b96ec8a1326000cf54c8acf6300e56f828c473c72c19df13930299c95ef0d741059c0f1eb9ca008b70c489c1e07a39",
       "file": "agents/steganography-analyst.md"
     },
     {
       "name": "threat-modeler",
-      "description": "'STRIDE threat modeling, attack surface analysis, risk assessment, security",
+      "description": "Generate and analyze threats using STRIDE; map surfaces & assess risks in a comprehensive security audit to identify vulnerabilities within the system's design for improved",
       "model": "sonnet",
-      "sha512": "166aacffe0932e4bd95a4b7b379fe124a6725f7d956fa5bc51c17d0709a9ecf20d80e5afc695bfd9d1d40c1f98c011ba80a54b1a366eac6c9c123f43e7a09933",
+      "sha512": "95f27f4ab0097dbd92cdfcb7595482ed3f8d9069235713ca272d11877270d83b7ebd475fbb837b96fe89db94c455b08405d0c992ec0061bc934b6dc9df4369b5",
       "file": "agents/threat-modeler.md"
     },
     {
       "name": "token-optimizer",
-      "description": "'Token-efficiency specialist for LLM context windows. Detects redundant",
+      "description": "Token-efficiency specialist identifies redundancies in LLM contexts; detects duplicates across Python files and agent definitions for de-duplication patches creation\u2014codebase audit tool with triggers ",
       "model": "sonnet",
-      "sha512": "843f619462e5dce41a12902b14c0a59f3d32788f2d581537ec66d7e88f33f088f12dc0f64369bbdf034232128a17f857a5f6ad6893052ff6b50ce5ec2049d62b",
+      "sha512": "33562feb7565c124b3d3055515929314a0d4875a6d9caf06d576b700c6ff0d4d6e2e6a803a59981ebf5dc42365a2be25944b0526a81febc525969adb53f78380",
       "file": "agents/token-optimizer.md"
     },
     {
       "name": "vulnerability-scanner",
-      "description": "Advanced vulnerability analysis principles. OWASP 2025, Supply Chain",
+      "description": "OWASP Advanced Vulnerability Analysis: Principles for Attack Surface Mapping and Risk Prioritization (Supply Chain Focus) in the context of OWASP 2025.",
       "model": "sonnet",
-      "sha512": "1924147232865891e1a3e61bce74294fd6fc3786300ed7f8ea0471f09d4fce46482e5115e5d36d9dd0c9f1346a7677502a0deea804c17ecb5d4a76522b988a2c",
+      "sha512": "d046855c7af8359b7c2429f149f3be9f5c82e06984b08cc4b63b80299af8f4b161394b4c1fc225a27376b40203a562e4ce5e3b174b3fd4932753ff1587a67c31",
       "file": "agents/vuln-scanner.md"
     },
     {
       "name": "watchdog",
-      "description": "A monitoring service that watches for changes to critical files and directories,",
+      "description": "Monitoring tool alerts users about alterations in vital security-related file areas like SSL keys, certificates, and private keys; detects unusual activities for prompt action.",
       "model": "sonnet",
-      "sha512": "9734859605a694f2126400f7ffdc7c7532cec83c83086c557929eb5a6ee3b2e036e6084511c644a6fac742b8a8d53cd53db552ebd49d02f89bbcb8d131ad009e",
+      "sha512": "c50067b1f88cdf5b77faa4f3c1a315fbbb8dfa0b87e284e70d3190b99698ecf61268db53449629c3674b1d246c7cf11e2a5bd5f8812d766c67057b9b2d9bd85a",
       "file": "agents/watchdog.md"
     },
     {
